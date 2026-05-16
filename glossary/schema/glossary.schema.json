@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PF2E Spanish Translation ML Glossary",
+  "type": "object",
+  "required": ["terms"],
+  "properties": {
+    "description": {
+      "type": "string"
+    },
+    "terms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source", "term", "translation", "status"],
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "Source identifier, for example manual title or project file."
+          },
+          "term": {
+            "type": "string"
+          },
+          "translation": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": ["approved", "needs_review", "deprecated"]
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

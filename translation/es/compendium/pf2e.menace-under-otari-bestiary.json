@@ -1,0 +1,1627 @@
+{
+  "label": "Bestiario - Amenaza bajo Otari",
+  "entries": {
+    "Animated Armor (BB)": {
+      "name": "Animated Armor (BB)",
+      "acDetails": "(13 after construct armor breaks), construct armor",
+      "publicNotes": "<p>Objects can be given a semblance of life through the use of rituals or other strange magic, turning them into animated objects. These objects move, work, and fight based on the commands given to them by their creators, who usually set them on guard duty or have them perform menial labor.</p>\n<p>Suits of animated armor might serve as guardians, but sometimes high-end martial academies use them as training partners. They're most often found in wizards' laboratories and ancient dungeons.</p>",
+      "tokenName": "Animated Armor",
+      "items": {
+        "strike-melee->Longsword": {
+          "name": "espada larga"
+        },
+        "strike-melee->Armored Fist": {
+          "name": "Armored Fist"
+        },
+        "action->Construct Armor": {
+          "name": "Construct Armor",
+          "description": "<p>The animated armor reduces all damage it takes by 9. However, after a critical hit that deals damage, or after its HP drops below 10, its construct armor breaks. Its AC drops to 13 and it no longer reduces damage by 9.</p>"
+        }
+      }
+    },
+    "Basilisk (BB)": {
+      "name": "Basilisco (BB)",
+      "publicNotes": "<p> Un basilisco es un reptil de ocho patas que puede convertir criaturas en piedra con solo mirarlas. </p>",
+      "tokenName": "Basilisco",
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "action->Petrifying Glance": {
+          "name": "Mirada petrificante",
+          "description": "<p> Cuando una criatura que el basilisco puede ver dentro de 30 pies comienza su turno, el basilisco puede usar su reacción para mirar a la criatura. </p>\n <p> La criatura debe intentar una salvación @Check[type:fortitude|dc:20]. Si falla, gana la condición @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} durante 1 minuto mientras su cuerpo se pone rígido lentamente. </p>"
+        },
+        "action->Petrifying Gaze": {
+          "name": "Mirada petrificante",
+          "description": "<p> El basilisco mira fijamente a una criatura que puede ver a menos de 30 pies. Si la criatura puede ver el basilisco, esa criatura debe intentar una salvación @Check[type:fortitude|dc:22]. </p>\n <p> Si falla y aún no ha obtenido la condición de ralentización de Mirada petrificante o esta habilidad, obtiene la condición @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1}. Si la criatura falla esta salvación cuando ya tiene la condición de ralentización de esta habilidad o Mirada Petrificante, la criatura se convierte permanentemente en @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{Stone} . </p>\n <p> Una criatura petrificada de esta manera que está cubierta con sangre fresca de basilisco vuelve instantáneamente a la carne. Un solo basilisco contiene suficiente sangre para cubrir hasta 2 criaturas de esta manera. </p>"
+        }
+      }
+    },
+    "Boar (BB)": {
+      "name": "Boar (BB)",
+      "publicNotes": "<p>Foul-tempered and tough, boars are far more dangerous than domesticated pigs. These omnivorous mammals are hunted heavily because their meat is considered a delicacy. Boars are most likely to attack humanoids in self-defense or during their mating season in the winter months, when the males grow an extra inch of tissue to protect their organs as they fight off rivals. In some cultures, boars are trained to become much more aggressive for use as war beasts and guardians. When such boars escape back into the wild, they can become true terrors of the region.</p>",
+      "tokenName": "Boar",
+      "items": {
+        "strike-melee->Tusk": {
+          "name": "Tusk"
+        },
+        "action->Ferocity": {
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.N1kstYbHScxgUQtN]\n<p>When the boar is reduced to 0 Hit Points, it can use its reaction to remain conscious with 1 Hit Point, but it gains the @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded 1} condition (or increases its wounded value by 1 if it already has that condition). It can't use this ability at wounded 3.</p>"
+        },
+        "action->Boar Charge": {
+          "name": "Boar Charge",
+          "description": "<p>The boar Strides twice and then makes a tusk Strike. As long as it moved at least 20 feet, it gains a +2 circumstance bonus to its attack roll.</p>"
+        }
+      }
+    },
+    "Brine Shark (BB)": {
+      "name": "Tiburón de salmuera (BB)",
+      "publicNotes": "<p> Los elementales de agua deambulan por los infinitos océanos del Plano del Agua. Pueden traerse al mundo mediante magia de invocación o mediante desastres naturales como inundaciones o huracanes. Aunque los elementales del agua pueden ser muy destructivos, no siempre son maliciosos. Así como el agua puede dar vida a quienes la necesitan, sus olas pueden golpear las costas y sus lluvias inundar las ciudades. Los elementales del agua son igualmente difíciles de predecir. </p>\n <p> Tiburones salmuera, feroces pero entre las aguas más débileselementales, toman formas que se asemejan a tiburones hechos enteramente de agua. Cuando se encuentran, generalmente están solos o siguiendo las órdenes de un lanzador de hechizos que los convocó a este plano. </p>",
+      "tokenName": "Tiburón de salmuera",
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "action->Deep Plunge": {
+          "name": "Inmersión profunda",
+          "description": "<p> El tiburón salmuera se sumerge directamente en el agua, nadando hasta 100 pies en línea vertical recta. Puede usar esta habilidad mientras @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbing} una criatura. </p>"
+        },
+        "action->Grab": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]\n <p> Cuando el tiburón de salmuera logra golpear con sus mandíbulas, puede usar esta acción inmediatamente después para darle automáticamente al objetivo la condición @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} hasta el final de su siguiente turno. </p>"
+        }
+      }
+    },
+    "Bugbear Prowler (BB)": {
+      "name": "Bugbear Prowler (BB)",
+      "publicNotes": "<p> Estas criaturas sigilosas y crueles se deleitan en sembrar miedo y atormentar a sus víctimas. Los osgos son los monstruos que acechan en el armario y se esconden debajo de la cama. Los osos insecto, que se alimentan de granjas remotas, revelan su presencia con golpes en la noche o crujidos de tablas, inspirando temor, sospecha y miedo en aquellos a quienes atormentan. </p>",
+      "tokenName": "Bugbear Prowler",
+      "items": {
+        "weapon->Longsword": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.LJdbVTOZog39EEbi]\n <p> Las espadas largas pueden ser espadas de uno o dos filos. Sus hojas son pesadas y miden entre 3 y 4 pies de largo. </p>"
+        },
+        "strike-melee->Longsword": {
+          "name": "espada larga"
+        },
+        "strike-melee->Fist": {
+          "name": "Puño"
+        },
+        "strike-ranged->Javelin": {
+          "name": "Jabalina"
+        },
+        "action->Bushwhack": {
+          "name": "Bushwhack",
+          "description": "<p>The bugbear prowler Strides up to 10 feet and attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} a creature that can't see them and doesn't know where they are. If the bugbear succeeds, they also deal damage from their fist Strike to that creature.</p>"
+        },
+        "action->Mauler": {
+          "name": "Torturador",
+          "description": "<p>The bugbear prowler gains a +3 circumstance bonus to damage rolls against creatures they have @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}.</p>"
+        }
+      }
+    },
+    "Caligni Dancer (BB)": {
+      "name": "Caligni Dancer (BB)",
+      "publicNotes": "<p>Caligni lurk in subterranean cities, and they relish the chance to creep above ground at night to steal resources, spy on surface dwellers, or simply cause mischief.</p>",
+      "tokenName": "Caligni Dancer",
+      "items": {
+        "strike-melee->Mace": {
+          "name": "Mazo"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Daga"
+        },
+        "action->Light Blindness": {
+          "name": "Ceguera a la luz",
+          "description": "<p>When first exposed to bright light, the caligni can't see until the end of their next turn. All squares are difficult terrain for them, and they take a -4 status penalty to Perception. If they try to attack a creature, the attack fails unless they succeed at a @Check[type:flat|dc:11]. Light doesn't blind them again for 1 hour.</p>"
+        },
+        "action->Final Dance": {
+          "name": "Final Dance",
+          "description": "<p>When a caligni dancer dies, their body dissolves into a swirl of darkness and light. All creatures within @Template[type:emanation|distance:10]{10 feet} must succeed at a @Check[type:will|dc:17] save or take a -2 circumstance penalty on all attack rolls for 1 round.</p>"
+        },
+        "action->Sneak Attack": {
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>The caligni dancer deals an additional 1d6 damage to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} creatures.</p>"
+        }
+      }
+    },
+    "Caligni Hunter (BB)": {
+      "name": "Caligni Hunter (BB)",
+      "publicNotes": "<p>Caligni lurk in subterranean cities, and they relish the chance to creep above ground at night to steal resources, spy on surface dwellers, or simply cause mischief.</p>",
+      "tokenName": "Caligni Hunter",
+      "items": {
+        "spellcastingEntry->Occult Innate Spells": {
+          "name": "Hechizos innatos ocultos"
+        },
+        "spell->See the Unseen (At Will)": {
+          "name": "See the Unseen (At Will)"
+        },
+        "strike-melee->Shortsword": {
+          "name": "Espada corta"
+        },
+        "action->Light Blindness": {
+          "name": "Ceguera a la luz",
+          "description": "<p>When first exposed to bright light, the caligni can't see until the end of their next turn. All squares are difficult terrain for them, and they take a -4 status penalty to Perception. If they try to attack a creature, the attack fails unless they succeed at a @Check[type:flat|dc:11]. Light doesn't blind them again for 1 hour.</p>"
+        },
+        "action->Sneak Attack": {
+          "name": "Sneak Attack",
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6]\n<p>The caligni hunter deals an extra 1d6 damage to creatures that have the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} condition.</p>"
+        },
+        "action->Final Fate": {
+          "name": "Final Fate",
+          "description": "<p>When a caligni hunter dies, their body explodes. All creatures within @Template[type:emanation|distance:20]{20 feet} must take @Damage[5d6[fire]]. Each creature in the area must attempt a @Check[type:reflex|dc:19|basic:true] save.</p>"
+        },
+        "action->Darkening Poison": {
+          "name": "Darkening Poison",
+          "description": "<p>The next time the hunter deals damage with a shortsword Strike, the target must succeed at a @Check[type:fortitude|dc:16|traits:damaging-effect] save or take @Damage[1d8[poison]] damage and treat all creatures as @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} for 1 round.</p>"
+        }
+      }
+    },
+    "Caligni Skulker (BB)": {
+      "name": "Caligni Skulker (BB)",
+      "publicNotes": "<p>Caligni lurk in subterranean cities, and they relish the chance to creep above ground at night to steal resources, spy on surface dwellers, or simply cause mischief.</p>",
+      "tokenName": "Caligni Skulker",
+      "items": {
+        "strike-melee->Dagger": {
+          "name": "Daga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Daga"
+        },
+        "action->Light Blindness": {
+          "name": "Ceguera a la luz",
+          "description": "<p>When first exposed to bright light, the caligni can't see until the end of their next turn. All squares are difficult terrain for them, and they take a -4 status penalty to Perception. If they try to attack a creature, the attack fails unless they succeed at a @Check[type:flat|dc:11]. Light doesn't blind them again for 1 hour.</p>"
+        },
+        "action->Final Night": {
+          "name": "Final Night",
+          "description": "<p>When a caligni skulker dies, their body dissolves fog of inky darkness. All light sources within @Template[type:emanation|distance:20]{20 feet} are extinguished. Any light spells in the area go out for 1 round.</p>"
+        },
+        "action->Darkening Poison": {
+          "name": "Darkening Poison",
+          "description": "<p>The next time the skulker deals damage with a dagger Strike, the target must succeed at a @Check[type:fortitude|dc:16|traits:damaging-effect] save or take @Damage[1d8[poison]] damage and treat all creatures as @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} for 1 round.</p>"
+        },
+        "action->Sneak Attack": {
+          "name": "Sneak Attack",
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6]\n<p>The caligni skulker deals an extra 1d6 damage to creatures that have the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} condition.</p>"
+        }
+      }
+    },
+    "Central Spears (BB)": {
+      "name": "Lanzas centrales (BB)",
+      "disable": "<p> Un héroe debe tener éxito en una prueba @Check[type:thievery|dc:18|traits:hazard|name:Disable Mechanism] en las losas del piso activadas o en los enchufes de la pared occidental. </p>",
+      "reset": "<p> Las lanzas centrales se reinician después de 1 minuto. </p>",
+      "tokenName": "Lanzas centrales",
+      "items": {
+        "action->Spear Barrage": {
+          "name": "Aluvión de lanzas",
+          "description": "<p> Cuando una criatura se mueve hacia cualquiera de los cuadrados en el área delineada, la trampa dispara tres lanzas desde la pared occidental. Realiza un ataque a distancia contra la criatura más occidental de cada fila. </p>"
+        },
+        "strike-melee->Spear": {
+          "name": "Spear"
+        }
+      }
+    },
+    "Cinder Rat (BB)": {
+      "name": "Rata de ceniza (BB)",
+      "publicNotes": "<p> Los elementales de fuego son manifestaciones destructivas del Plano de Fuego. A veces vienen al mundo en lugares poderosos de calor y llamas donde se forman vórtices elementales, como en los volcanes. </p>\n <p> Las ratas de ceniza son roedores de gran tamaño hechos de carbón humeante y fuego elemental. De su carne en llamas brotan continuamente vapores nocivos. Al igual que las ratas terrestres, las ratas de ceniza buscan guaridas apartadas y pueden multiplicarse rápidamente si no se controlan. </p>",
+      "senses": "visión de humo",
+      "tokenName": "Rata de ceniza",
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "action->Smoke Vision": {
+          "name": "Visión de humo",
+          "description": "<p> La rata de ceniza ignora la condición @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} del humo. </p>"
+        },
+        "action->Fetid Fumes": {
+          "name": "Humos fétidos",
+          "description": "<p> Una nube de humo rodea a la rata de ceniza. Todas las criaturas dentro de @Template[type:emanation|distance:5]{5 feet}, incluida la rata de ceniza, obtienen la condición @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} de este humo. Una criatura que se acerque a 5 pies de la rata de ceniza o comience su turno a 5 pies debe tener éxito en una salvación @Check[type:fortitude|dc:22] o sufrir una penalización de estado de -1 a todas las pruebas y CD durante 1 ronda <em> (Usa @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} ) </em> . </p>"
+        }
+      }
+    },
+    "Doppelganger (BB)": {
+      "name": "Doble (BB)",
+      "publicNotes": "<p> Los Doppelgangers pueden transformarse en copias perfectas de otras criaturas pero tienen formas indeterminadas en sus estados naturales. </p>",
+      "tokenName": "doble",
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->End the Charade": {
+          "name": "Poner fin a la farsa",
+          "description": "<p> Cuando el doble se transforma con Cambiar forma y otra criatura se mueve adyacente a él o usa un Golpe u otra acción hostil contra él, el doble puede usar su reacción para volver a su forma natural y realizar un Golpe contra esa criatura. </p>\n <p> Si la criatura no sabía que el doble estaba disfrazado, esa criatura tiene la condición @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} contra este Golpe. </p>"
+        },
+        "action->Change Shape": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n <p> El doble adopta la apariencia específica de cualquier humanoide Pequeño o Mediano que haya visto. Esto no cambia la velocidad de zancada del doble ni sus bonificaciones de ataque y daño con sus golpes, pero podría cambiar el tipo de daño que causan sus golpes (normalmente contundente). </p>"
+        },
+        "action->Mind Reading": {
+          "name": "Lectura de la mente",
+          "description": "<p> El doble intenta leer los pensamientos superficiales de una criatura dentro de un radio de 30 pies. El objetivo resiste si tiene éxito en una salvación @Check[type:will|dc:21]. </p>"
+        }
+      }
+    },
+    "Drow Priestess (BB)": {
+      "name": "Sacerdotisa Drow (BB)",
+      "acDetails": "22 con escudo levantado",
+      "tokenName": "Sacerdotisa Drow",
+      "items": {
+        "spellcastingEntry->Cleric Spells": {
+          "name": "Hechizos de clérigo"
+        },
+        "spell->Magic Weapon": {
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.TFitdEOpQC4SzKQQ]\nArma mágica",
+          "target": "1 arma desatendida o empuñada por ti o por un aliado dispuesto"
+        },
+        "shield->Shield": {
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Yr9yCuJiAlFh3QEB]\nBlindaje",
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Yr9yCuJiAlFh3QEB]\n <p> Un escudo tiene 20 puntos de vida. Si un escudo alguna vez recibe 10 daños o más, se convierte en @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Roto} . Un escudo roto no se puede usar para @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise a Shield} o @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block} , pero aún puedes @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{Repair}. Si el escudo pierde los 20 puntos de vida, queda completamente destruido. </p>"
+        },
+        "armor->Chain Shirt": {
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.MPcM4Wt6KmWE2kGL]\n<p>Sometimes called a hauberk, this is a long shirt constructed of the same metal rings as chainmail. However, it is much lighter than chainmail and protects only the torso, upper arms, and upper legs of its wearer.</p>"
+        },
+        "equipment->Religious Symbol (Wooden)": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.plplsXJsqrdqNQVI]\n <p> Esta pieza de madera o plata está adornada con una imagen que representa una deidad. Algunos lanzadores de conjuros divinos, como los clérigos, pueden utilizar un símbolo religioso de su deidad como foco divino para utilizar ciertas habilidades y lanzar algunos hechizos. Se debe sostener un símbolo religioso en una mano para usarlo. </p>"
+        },
+        "strike-melee->Rapier": {
+          "name": "Estoque"
+        },
+        "strike-ranged->Hand Crossbow": {
+          "name": "Hand Crossbow"
+        },
+        "action->Light Blindness": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.I0HYG0ctCLP5JRsW]\n <p> Cuando se expone por primera vez a una luz brillante, el drow @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Can't See} hasta el final de su siguiente turno. Todas las casillas son terreno difícil para ellos y sufren una penalización de -4 a su estado de Percepción. Si intentan atacar a una criatura, el ataque falla a menos que tengan éxito en un @Check[type:flat|dc:11]. La luz no los vuelve a cegar durante 1 hora. </p>"
+        },
+        "action->Shield Block": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.m4HQ2o5aPxjXf2kY]\n <p> Si ella @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raised a Shield} desde su último turno, la sacerdotisa puede gastar su reacción para bloquear un Golpe. Reduce el daño del Golpe en 5, pero luego ella y el escudo reciben el daño restante, posiblemente @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Breaking} o destruyen el escudo. </p>"
+        }
+      }
+    },
+    "Drow Sneak (BB)": {
+      "name": "Furtivo drow (BB)",
+      "publicNotes": "<p> Solitarios de corazón, los drow furtivos no confían en nadie y menos aún en sus compañeros drow. Estos drow dependen de la conciencia y la adaptación para sobrevivir a la naturaleza despiadada de su sociedad. </p>",
+      "tokenName": "Furtivo drow",
+      "items": {
+        "strike-melee->Shortsword": {
+          "name": "Espada corta"
+        },
+        "strike-ranged->Hand Crossbow": {
+          "name": "Hand Crossbow"
+        },
+        "action->Light Blindness": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.I0HYG0ctCLP5JRsW]\n <p> Cuando se expone por primera vez a una luz brillante, el drow @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Can't See} hasta el final de su siguiente turno. Todas las casillas son terreno difícil para ellos y sufren una penalización de -4 a su estado de Percepción. Si intentan atacar a una criatura, el ataque falla a menos que tengan éxito en un @Check[type:flat|dc:11]. La luz no los vuelve a cegar durante 1 hora. </p>"
+        },
+        "action->Quick Draw": {
+          "name": "Dibujo rapido",
+          "description": "<p> El pícaro drow saca un arma usando la acción Interactuar, luego ataca con esa arma. </p>"
+        },
+        "action->Sneak Attack": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n <p> El furtivo drow inflige 1d6 de daño adicional a las criaturas que tienen la condición @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido}. </p>"
+        }
+      }
+    },
+    "Drow Warrior (BB)": {
+      "name": "Guerrero Drow (BB)",
+      "publicNotes": "<p> Los drow son descendientes de elfos corrompidos por un gran mal cuando huyeron a las profundidades del subsuelo hace mucho tiempo. </p>",
+      "tokenName": "guerrero drow",
+      "items": {
+        "strike-melee->Rapier": {
+          "name": "Estoque"
+        },
+        "strike-melee->Dagger": {
+          "name": "Daga"
+        },
+        "strike-ranged->Hand Crossbow": {
+          "name": "Hand Crossbow"
+        },
+        "action->Light Blindness": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.I0HYG0ctCLP5JRsW]\n <p> Cuando se expone por primera vez a una luz brillante, el drow @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Can't See} hasta el final de su siguiente turno. Todas las casillas son terreno difícil para ellos y sufren una penalización de -4 a su estado de Percepción. Si intentan atacar a una criatura, el ataque falla a menos que tengan éxito en un @Check[type:flat|dc:11]. La luz no los vuelve a cegar durante 1 hora. </p>"
+        },
+        "action->Quick Draw": {
+          "name": "Dibujo rapido",
+          "description": "<p> El guerrero drow saca un arma usando la acción Interactuar, luego ataca con esa arma. </p>"
+        },
+        "action->Skewer": {
+          "name": "Brocheta",
+          "description": "<p> El guerrero drow ataca con su estoque y obtiene un bono de circunstancia +1 a la tirada de ataque. Si tienen éxito, el objetivo toma @Damage[1d6[bleed]]. </p>"
+        }
+      }
+    },
+    "Envenomed Lock (BB)": {
+      "name": "Cerradura envenenada (BB)",
+      "description": "<p> Un lomo envenenado con resorte está escondido cerca del ojo de la cerradura de una cerradura. @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Disabling} o romper la trampa no desactiva ni rompe el bloqueo. </p>",
+      "disable": "<p> @Check[type:thievery|dc:17|traits:hazard|name:Disable the Spring Mechanism] en el mecanismo de resorte </p>",
+      "tokenName": "Cerradura envenenada",
+      "items": {
+        "action->Spring": {
+          "name": "Primavera",
+          "description": "<p> Cuando una criatura intenta desbloquear o forzar la cerradura, una columna se extiende para atacar a esa criatura con un ataque de columna. </p>"
+        },
+        "strike-melee->Spine": {
+          "name": "Columna vertebral"
+        }
+      }
+    },
+    "Falling Ceiling (BB)": {
+      "name": "Techo que cae (BB)",
+      "disable": "<p> Un héroe debe tener éxito en una prueba @Check[type:thievery|dc:18|traits:hazard|name:Prevent Blocks from Falling] en la casilla activadora o en el techo para evitar que los bloques de piedra caigan. </p>",
+      "tokenName": "Techo que cae",
+      "items": {
+        "action->Falling Stones": {
+          "name": "Piedras que caen",
+          "description": "<p> Cuando una criatura pisa el cuadrado más cercano a la puerta norte, la trampa deja caer bloques de piedra a lo largo del pasillo. Realiza un golpe a distancia contra cada criatura entre las dos puertas. </p>"
+        },
+        "strike-melee->Falling Block": {
+          "name": "Falling Block"
+        }
+      }
+    },
+    "Forest Troll (BB)": {
+      "name": "Forest Troll (BB)",
+      "hpDetails": "regeneration 20 (deactivated by electricity or fire)",
+      "publicNotes": "<p>Forest trolls are dim-witted, gangly giants who stalk the fringes of civilization. They rely on their incredible strength to overpower foes with their vicious claws. A troll's endless hunger drives them to consume a variety of living creatures. Trolls stand anywhere from 12 to 16 feet tall, though they prefer to hunch to lull foes into a false sense of security.</p>",
+      "tokenName": "Forest Troll",
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Regeneration 20 (Deactivated by Electricity or Fire)": {
+          "name": "Regeneration 20 (Deactivated by Electricity or Fire)",
+          "description": "<p>The troll regains 20 Hit Points at the start of their turn unless they've taken electricity or fire damage since their last turn. The troll can't die unless their regeneration is deactivated when they're reduced to 0 HP.</p>"
+        },
+        "action->Easily Misled": {
+          "name": "Easily Misled",
+          "description": "<p>The forest troll gets a -4 circumstance penalty to their Perception DC against deception checks.</p>"
+        },
+        "action->Rend": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.3JOi2cMcGhT3eze1]\n <p> Si el troll tiene éxito en dos golpes de garra contra la misma criatura en el mismo turno, puede usar esta habilidad para infligir automáticamente daño de golpe de garra a esa criatura. </p>"
+        }
+      }
+    },
+    "Gargoyle (BB)": {
+      "name": "Gárgola (BB)",
+      "publicNotes": "<p> Las gárgolas son cazadores monstruosos hechos enteramente de piedra. Parecen estatuas decorativas y las utilizan como camuflaje para esconderse a plena vista en las ciudades durante el día y atacar a los desafortunados peatones por la noche. Su forma más común es la de un humanoide con cuernos y alas de murciélago, pero las gárgolas individuales varían mucho, algunas parecen más o menos humanoides y otras se parecen a algo completamente distinto. </p>\n <p> Aunque la mayoría caza sola, a veces formanen grupos llamados \"alas\". Todas las estatuas monstruosas que se encuentran en lo alto de un edificio antiguo podrían ser en realidad gárgolas vivientes. </p>",
+      "tokenName": "Gárgola",
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Clawed Feet": {
+          "name": "Pies con garras",
+          "description": "<p> Si la gárgola está volando y una criatura se mueve a un cuadrado adyacente debajo de ella, la gárgola puede usar su reacción para realizar un golpe de garra contra esa criatura. </p>"
+        },
+        "action->Statue": {
+          "name": "Estatua",
+          "description": "<p> Hasta la próxima vez que usan una acción, la gárgola parece ser una estatua. Una criatura debe superar una prueba @Check[type:perception|dc:32] para descubrir que la estatua es realmente una criatura. </p>"
+        }
+      }
+    },
+    "Ghost Commoner (BB)": {
+      "name": "Plebeyo fantasma (BB)",
+      "hpDetails": "rejuvenecimiento",
+      "tokenName": "Plebeyo fantasma",
+      "items": {
+        "strike-melee->Ghostly Hand": {
+          "name": "Mano fantasmal"
+        },
+        "action->Site Bound": {
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.BcSlVpaN72LoQ5BV]\nVinculado al sitio",
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.BcSlVpaN72LoQ5BV]\n <p> Un fantasma no puede desviarse más de 120 pies del lugar donde fue asesinado o del lugar que frecuenta. Algunos están vinculados a elementos o criaturas que eran especiales para ellos en lugar de una ubicación. </p>"
+        },
+        "action->Incorporeal": {
+          "name": "Incorpóreo",
+          "description": "<p> Un fantasma no tiene cuerpo y puede atravesar objetos físicos, aunque no puede terminar su turno dentro de uno. La mayoría de las pruebas que usan Fuerza y ​​requieren un cuerpo, como @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} y ​​@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}, no funcionan contra un fantasma, y ​​un fantasma no puede intentar tales pruebas. </p>"
+        },
+        "action->Rejuvenation": {
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.unR8VVR4yyRnsmnB]\nRejuvenecimiento",
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.unR8VVR4yyRnsmnB]\n <p> Corregir la injusticia que llevó a la muerte del fantasma le permite pasar a la otra vida. De lo contrario, cuando es destruido, el fantasma se vuelve a formar después de [[/br 2d4 #Rejuvenation]]{2d4 days} dentro de la ubicación a la que está destinado, completamente curado. </p>"
+        },
+        "action->Frightful Moan": {
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.aiwlPSmNY9b6Psvd]\nGemido espantoso",
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.aiwlPSmNY9b6Psvd]\n <p> Cada criatura viviente dentro de @Template[type:emanation|distance:30]{30 feet} que escuche al fantasma debe intentar una salvación @Check[type:will|dc:21]. En caso de fallo, una criatura gana la condición @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} (o @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 3} en caso de fallo crítico). </p>\n <p> Si tiene éxito, una criatura no puede verse afectada por el Gemido espantoso de este fantasma durante 1 minuto. </p>"
+        }
+      }
+    },
+    "Ghoul Stalker (BB)": {
+      "name": "Ghoul Stalker (BB)",
+      "publicNotes": "<p>The flesh-eating undead, known as ghouls, haunt sinister locations such as lonely graveyards and ruined crypts, making meals of corpses. Legends say that those captured by ghouls hear foul whispers that curse them into craving raw meat, eventually turning them into ghouls.</p>",
+      "tokenName": "Ghoul Stalker",
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Stench": {
+          "name": "Hedor",
+          "description": "<p>A creature that comes within 10 feet of the ghoul and can smell the ghoul must attempt a @Check[type:fortitude|dc:14] save. On a failure, the creature takes a -1 status penalty to all checks and DCs until it uses an action to retch (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}). A creature that succeeds at its save isn't affected by any ghoul's stench for 1 minute.</p>"
+        },
+        "action->Consume Flesh": {
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23]\nConsumir carne",
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23]\n <p> El ghoul devora un trozo de una criatura que murió en la última hora y recupera [[/r 1d6[healing]]] Puntos de vida. </p>\n <p> El ghoul puede recuperar puntos de vida de un cuerpo determinado sólo una vez. </p>"
+        },
+        "action->Sneak Attack": {
+          "name": "Ataque furtivo",
+          "description": "<p>The ghoul stalker deals an extra 1d4 damage to creatures that have the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} condition.</p>"
+        },
+        "action->Swift Leap": {
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UU1Fp3PRuTFONjC9]\nSalto veloz"
+        }
+      }
+    },
+    "Giant Ant (BB)": {
+      "name": "Giant Ant (BB)",
+      "publicNotes": "<p>Giant ants form vast underground colonies, excavating deep burrows or infesting existing caverns. Giant ants look identical to their smaller kin, but their size makes them a deadly threat to farms and travelers alike.</p>",
+      "tokenName": "Giant Ant",
+      "items": {
+        "strike-melee->Mandible": {
+          "name": "Mandible"
+        },
+        "strike-melee->Stinger": {
+          "name": "Aguijón"
+        },
+        "action->Giant Ant Venom": {
+          "name": "Giant Ant Venom",
+          "description": "<p>A target that takes piercing damage from the giant ant's stinger Strike must succeed at a @Check[type:fortitude|dc:18|traits:damaging-effect] save or take @Damage[1d10[poison]] damage.</p>"
+        },
+        "action->Haul Away": {
+          "name": "Haul Away",
+          "description": "<p>If the giant ant has a creature grabbed or restrained with its mandibles, it can spend this action to Stride up to its speed, carrying the creature with it. At the end of the Stride, place the creature in any open square adjacent to the giant ant.</p>"
+        }
+      }
+    },
+    "Giant Centipede (BB)": {
+      "name": "Ciempiés gigante (BB)",
+      "publicNotes": "<p> Los ciempiés son artrópodos relativamente comunes que viven, cazan y hurgan entre estiércol y detritos. Corriendo a una velocidad sorprendente sobre las decenas de patas unidas a sus cuerpos largos y segmentados, los ciempiés atacan con mandíbulas envenenadas. </p>\n <p> La mayoría de los ciempiés gigantes (conocidos como ciempiés de alcantarilla cuando se encuentran en las ciudades) anidan en pequeños grupos pero cazan solos. Los intentos de domesticar ciempiés gigantes para usarlos como guardianes o mascotas generalmente terminan mal, pero algunos duendes yLas sociedades kobold han desarrollado métodos eficaces para utilizar estas alimañas como guardianes. Algunas sociedades asan y comen ciempiés, a menudo con pimientos picantes, como un manjar sabroso, aunque se debe tener cuidado al preparar la comida para evitar contaminar la carne con el veneno de la criatura. </p>",
+      "tokenName": "ciempiés gigante",
+      "items": {
+        "strike-melee->Mandibles": {
+          "name": "Mandíbulas"
+        },
+        "action->Giant Centipede Venom": {
+          "name": "Veneno de ciempiés gigante",
+          "description": "<p> Un objetivo que recibe daño penetrante del ataque de las mandíbulas del ciempiés debe tener éxito en una salvación @Check[type:fortitude|dc:14] o recibir @Damage[1d10[poison]] de daño. </p>"
+        }
+      }
+    },
+    "Giant Rat (BB)": {
+      "name": "Rata gigante (BB)",
+      "publicNotes": "<p> Las ratas gigantes son versiones enormes de las alimañas comunes. Por lo general, se encuentran en cantidades abundantes, pero como no caben en los rincones donde normalmente se esconden las ratas comunes, son mucho más fáciles de localizar y exterminar. De hecho, encontrar y matar una rata gigante es un rito de iniciación para muchos aventureros. Estas tareas se vuelven aburridas rápidamente, por lo que muchos veteranos subcontratan el exterminio a nuevos aventureros. </p>\n <p> Las ratas gigantes viven principalmente en alcantarillas donde pueden hurgar en la basuradesde las calles de arriba, pero algunas familias de ratas gigantes viven en lugares más remotos, como cuevas húmedas, bosques o colinas. Las ratas son supervivientes increíblemente hábiles y se pueden encontrar en casi cualquier parte del mundo, aunque tienden a preferir los climas templados o cálidos en lugar de las regiones frías. </p>\n <p> Aunque su mordedura por sí sola no es letal excepto para los muy débiles, algunas ratas gigantes son portadoras de una peligrosa enfermedad común a los roedores de todo el mundo: una pestilencia más que capaz de devastarcomunidades rurales. Las ratas son meros portadores sin riesgo de sucumbir a la enfermedad. </p>",
+      "skillSpecialAthletics": {
+        "0": {
+          "label": "to Climb or Swim"
+        }
+      },
+      "tokenName": "Rata gigante",
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Giant Spider (BB)": {
+      "name": "Araña gigante (BB)",
+      "publicNotes": "<p> Pocas alimañas cotidianas inspiran tanto temor como la infame araña. Las arañas gigantes varían en tamaño. Las versiones de tamaño humano, a veces llamadas arañas cazadoras, son el tipo más común de araña gigante, aunque no las más grandes. </p>",
+      "tokenName": "Araña gigante",
+      "items": {
+        "strike-melee->Fangs": {
+          "name": "colmillos"
+        },
+        "strike-ranged->Web": {
+          "name": "Web"
+        },
+        "action->Descend on a Web": {
+          "name": "Descender en una Web",
+          "description": "<p> La araña gigante se mueve hacia abajo hasta 40 pies, suspendida por una red. Puede colgarse de la web o caerse. La distancia que desciende en una red no cuenta para el daño por caída. Una criatura puede golpear la red, que tiene CA 20 y 8 HP. Si la red se reduce a 0 HP, la araña cae. </p>"
+        },
+        "action->Giant Spider Venom": {
+          "name": "Veneno de araña gigante",
+          "description": "<p> Un objetivo dañado por los colmillos de la araña debe tener éxito en una salvación @Check[type:fortitude|dc:16] o recibir @Damage[1d12[poison]] daño y obtener la condición @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} durante 1 ronda. </p>"
+        },
+        "action->Web Trap": {
+          "name": "Trampa web",
+          "description": "<p> Una criatura golpeada por la telaraña gigante Strike queda atrapada en la superficie más cercana. No puede moverse hasta que logre exitosamente @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} (CD 17). </p>"
+        }
+      }
+    },
+    "Giant Viper (BB)": {
+      "name": "Víbora gigante (BB)",
+      "publicNotes": "<p> Las serpientes vienen en una variedad de formas, desde constrictoras que habitan en la jungla y que envuelven a sus presas hasta víboras venenosas con mordeduras mortales. De todos modos, todas las serpientes consumen a sus presas enteras desquiciando sus mandíbulas y usando músculos poderosos para mover la comida por sus gargantas y estómagos. </p>\n <p> Los colmillos de la víbora gigante, casi tan largos como dagas, inspiran miedo fácilmente. El veneno inyectado por una víbora gigante puede causar una severa coagulación de la sangre y causar tremendosdaño. </p>",
+      "tokenName": "Víbora gigante",
+      "items": {
+        "strike-melee->Fangs": {
+          "name": "colmillos"
+        },
+        "action->Coiled Opportunity": {
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O]\nOportunidad enrollada",
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O]\n <p> Si la víbora gigante está enrollada y una criatura se mueve hacia o a través de un cuadrado adyacente a ella, la víbora gigante puede usar su reacción para hacer un Golpe con los colmillos contra esa criatura. </p>"
+        },
+        "action->Coil": {
+          "name": "Bobina",
+          "description": "<p> La víbora gigante utiliza una acción para enrollarse. Mientras está enrollado, puede apuntar a una criatura a una distancia de hasta 10 pies con sus colmillos. Después de que la víbora gigante golpea con sus colmillos, se desenrosca. </p>"
+        },
+        "action->Giant Viper Venom": {
+          "name": "Veneno de víbora gigante",
+          "description": "<p> Un objetivo dañado por los colmillos de la serpiente debe superar una salvación @Check[type:fortitude|dc:17] o sufrir @Damage[1d12[poison]] daño. </p>"
+        }
+      }
+    },
+    "Goblin Commando (BB)": {
+      "name": "Comando Goblin (BB)",
+      "publicNotes": "<p> La mayoría de las comunidades de duendes se tambalean en un estado de desorden apenas controlado: un colectivo de criaturas que operan en gran medida por instinto rara vez sigue una dirección clara. Incluso los líderes duendes tienden a ser impulsivos, irresponsables y, en general, no son tan buenos liderando. </p>\n <p> En teoría, los comandos goblin lideran las incursiones goblin. En la práctica, los comandos goblin rara vez continúan liderando a sus camaradas una vez que la batalla ha comenzado. La mayoría elude sus responsabilidades a favorde entrar en la refriega y reclamar la gloria de sus parientes. </p>",
+      "tokenName": "Comando Goblin",
+      "items": {
+        "strike-melee->Greatsword": {
+          "name": "Gran espada"
+        },
+        "strike-ranged->Shortbow": {
+          "name": "Shortbow"
+        },
+        "action->Goblin Scuttle": {
+          "name": "Duende escurridizo",
+          "description": "<p> Si un aliado goblin finaliza una acción de movimiento adyacente al comando goblin, el comando puede usar su reacción para @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{Step} . </p>"
+        }
+      }
+    },
+    "Goblin Igniter (BB)": {
+      "name": "Pirómano Goblin (BB)",
+      "publicNotes": "<p> Los Goblins encuentran el fuego totalmente fascinante. Hace luz. Es genial para cocinar. ¡Es un juguete divertido! Algunos duendes llevan la admiración de su gente por el fuego demasiado lejos y la llevan al reino de la obsesión mortal. </p>\n <p> Los duendes que centran su atención en la magia para aprender a hacer fuego de la nada se conocen como encendedores de duendes. Estos fanáticos de las llamas pueden ser de gran ayuda para una banda de asaltantes goblin ansiosos por quemar a sus enemigos y causar estragos. Más a menudo, sin embargo,su presencia es un arma de doble filo. En el calor del momento, los encendedores goblin a veces pierden de vista sus objetivos y simplemente prenden fuego a cualquier cosa que pueda arder, ¡incluidos sus propios aliados! </p>",
+      "tokenName": "Pirómano Goblin",
+      "items": {
+        "spellcastingEntry->Wizard Spells": {
+          "name": "Hechizos de mago"
+        },
+        "spell->Light": {
+          "target": "1 objeto de 1 volumen o menos, ya sea desatendido o poseído por ti o por un aliado dispuesto"
+        },
+        "strike-melee->Torch": {
+          "name": "Antorcha"
+        },
+        "action->Goblin Scuttle": {
+          "name": "Goblin escurridizo",
+          "description": "<p> Si un aliado goblin finaliza una acción de movimiento adyacente al encendedor goblin, el encendedor puede usar su reacción para @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{Step} . </p>"
+        },
+        "lore->Fire Lore": {
+          "name": "Conocimiento del fuego"
+        }
+      }
+    },
+    "Goblin Warrior (BB)": {
+      "name": "Guerrero Goblin (BB)",
+      "publicNotes": "<p> Los luchadores de primera línea de las tribus goblin prefieren luchar en grupos grandes, especialmente cuando pueden superar en número a sus enemigos al menos tres a uno. No se necesita un entrenamiento intenso ni una gran dureza para convertirse en un guerrero goblin. Cualquiera puede aspirar a este puesto o ser reclutado para desempeñarlo durante una emergencia. </p>\n <p> Los guerreros duendes disfrutan causando estragos. No piensan en sacrificar ganado, robar niños o quemar edificios simplemente por deleite momentáneo.Se deleitan jugando trucos maliciosos a humanoides más altos, a quienes llaman \"longshanks\". Lo que a los goblins les falta en coherencia, planificación a largo plazo y buen sentido, lo compensan con pura valentía y compromiso. </p>",
+      "tokenName": "Guerrero Goblin",
+      "items": {
+        "strike-melee->Shortsword": {
+          "name": "Espada corta"
+        },
+        "strike-ranged->Shortbow": {
+          "name": "Shortbow"
+        },
+        "action->Goblin Scuttle": {
+          "name": "Goblin escurridizo",
+          "description": "<p> Si un aliado goblin finaliza una acción de movimiento adyacente al guerrero goblin, el guerrero puede usar su reacción para @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{Step} . </p>"
+        }
+      }
+    },
+    "Harpy (BB)": {
+      "name": "Arpía (BB)",
+      "publicNotes": "<p>Harpies are an amalgamation of human and bird, using their ancestral control of the wind to lure prey or even directly pull in their next meal. Harpies can eat most creatures, but prefer to eat humans and elves in particular. Harpies live in family groups or larger clans, although they rarely hunt in big groups, preferring to keep most meals for themselves.</p>",
+      "tokenName": "Arpía",
+      "items": {
+        "strike-melee->Talon": {
+          "name": "Garra"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "action->Stench": {
+          "name": "Hedor",
+          "description": "<p>A creature that comes within 30 feet of the harpy and can smell the harpy must attempt a @Check[type:fortitude|dc:21] save. On a failure, the creature takes a -1 status penalty to all checks and DCs until it uses an action to retch. A creature that succeeds at its save isn't affected by any harpy's stenches for 1 minute.</p>"
+        },
+        "action->Hungry Winds": {
+          "name": "Hungry Winds",
+          "description": "<p>The harpy uses the wind to pull its prey closer. A target within 20 feet must succeed at a @Check[type:fortitude|dc:21] save or be pulled adjacent to the harpy. The harpy then makes a jaws strike against the target. If the target is pulled into the air and cannot fly, it falls as normal.</p>"
+        }
+      }
+    },
+    "Hell Hound (BB)": {
+      "name": "Perro del infierno (BB)",
+      "languages": "(no puedo hablar)",
+      "publicNotes": "<p> Temperamentales y de comportamiento rápido y agresivo, los perros del infierno son caninos diabólicos de un plano infernal. Son hábiles cazadores y pueden exhalar llamas sobrenaturales de sus fauces. La apariencia de un sabueso del infierno no deja dudas sobre sus orígenes infernales: carne del color de la brea ardiente, dientes tan afilados como la horca de cualquier demonio y un sudario de fuego infernal siempre ardiendo son características distintivas. Aunque no pueden hablar, entienden el lenguaje Infernal del Infierno. </p>",
+      "skillSpecialSurvival": {
+        "0": {
+          "label": "to Track"
+        }
+      },
+      "tokenName": "Perro del infierno",
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "action->Hellfire Breath": {
+          "name": "Hellfire Breath",
+          "description": "<p>The hell hound breathes flames that deal @Damage[4d6[fire]] damage to all creatures in a @Template[type:cone|distance:15]. Each affected creature must attempt a @Check[type:reflex|dc:19|basic:true] save.</p>\n<p>The hell hound can't use Breath Weapon again for [[/br 1d4 #Recharge Hellfire Breath]]{1d4 rounds}. If the hell hound would take fire damage or is the target of a fire effect, its Hellfire Breath recharges.</p>"
+        },
+        "action->Pack Attack": {
+          "name": "Ataque de manada",
+          "description": "<p>The hell hound's jaws Strike deals 1d4 extra damage to creatures within reach of two of the hell hounds' allies.</p>"
+        }
+      }
+    },
+    "Hidden Pit (BB)": {
+      "name": "Pozo escondido (BB)",
+      "description": "<p> Una trampilla de madera cubre un pozo de 10 pies cuadrados que tiene 20 pies de profundidad. </p>",
+      "disable": "<p> @Check[type:thievery|dc:12|traits:hazard|name:Remove the Trapdoor] para quitar la trampilla. </p>",
+      "stealth": "<p> (o @Check[type:perception|dc:0|traits:hazard] si la trampilla está inutilizada o rota) </p>",
+      "tokenName": "Pozo escondido",
+      "items": {
+        "action->Pitfall": {
+          "name": "Trampa",
+          "description": "<p> Si una criatura camina hacia la trampilla, esa criatura cae a menos que tenga éxito en una salvación @Check[type:reflex|dc:16] para agarrarse del borde. El pozo tiene 20 pies de profundidad y causa @Damage[10[bludgeoning]] daño a cualquiera que caiga al fondo. </p>"
+        }
+      }
+    },
+    "Hobgoblin Soldier (BB)": {
+      "name": "Hobgoblin Soldier (BB)",
+      "acDetails": "(20 con escudo levantado)",
+      "publicNotes": "<p> Los hobgoblins son singularmente devotos de la guerra, y toda su civilización se basa en fomentar y mantener el conflicto y, al mismo tiempo, demostrar su superioridad en la batalla. Altamente organizados, trabajan eficiente y eficazmente en grupos, ya sea un pequeño grupo de asalto, una banda de guerra itinerante o un ejército completamente reglamentado. Físicamente, los hobgoblins son tan altos como los humanos y tienen la piel gris cenicienta. </p>",
+      "tokenName": "Hobgoblin Soldier",
+      "items": {
+        "weapon->Longsword": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.LJdbVTOZog39EEbi]\n <p> Las espadas largas pueden ser espadas de uno o dos filos. Sus hojas son pesadas y miden entre 3 y 4 pies de largo. </p>"
+        },
+        "shield->Shield": {
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Yr9yCuJiAlFh3QEB]\nBlindaje",
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Yr9yCuJiAlFh3QEB]\n <p> Un escudo tiene 20 puntos de vida. Si un escudo alguna vez recibe 10 daños o más, se convierte en @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Roto} . Un escudo roto no se puede usar para @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise a Shield} o @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block} , pero aún puedes @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{Repair}. Si el escudo pierde los 20 puntos de vida, queda completamente destruido. </p>"
+        },
+        "strike-melee->Longsword": {
+          "name": "espada larga"
+        },
+        "strike-ranged->Shortbow": {
+          "name": "Shortbow"
+        },
+        "action->Formation": {
+          "name": "Formación",
+          "description": "<p>When they're adjacent to at least two other allies, the hobgoblin soldier gains a +1 circumstance bonus to AC and saving throws.</p>"
+        },
+        "action->Shield Block": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.m4HQ2o5aPxjXf2kY]\n <p> Si @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raised a Shield} desde su último turno, el hobgoblin puede gastar su reacción para bloquear un Golpe. Reduce el daño en 5, pero el duende y el escudo reciben el daño restante, posiblemente @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Breaking} o destruyen el escudo. </p>"
+        }
+      }
+    },
+    "Horned Dragon (Juvenile, BB)": {
+      "name": "Horned Dragon (Juvenile, BB)",
+      "tokenName": "Horned Dragon (Juvenile)",
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Jaws"
+        },
+        "strike-melee->Claw": {
+          "name": "Claw"
+        },
+        "strike-melee->Tail": {
+          "name": "Tail"
+        },
+        "strike-melee->Horn": {
+          "name": "Horn"
+        },
+        "action->Twisting Tail": {
+          "name": "Twisting Tail",
+          "description": "<p>When a creature within 10 feet uses a move action or leaves a square during a move action it's using, the dragon can use their reaction to make a tail Strike at the creature with a -2 penalty. If it hits, the creature stops moving in the square it was in when the dragon used this reaction.</p>"
+        },
+        "action->Draconic Frenzy": {
+          "name": "Draconic Frenzy",
+          "description": "<p>The dragon makes two claw Strikes and one tail Strike in any order.</p>"
+        },
+        "action->Draconic Momentum": {
+          "name": "Draconic Momentum",
+          "description": "<p>When the dragon gets a critical success on a Strike, they recharge their Poison Breath.</p>"
+        },
+        "action->Poison Breath": {
+          "name": "Poison Breath",
+          "description": "<p>The dragon breathes a toxic cloud that deals @Damage[5d6[poison]] damage in a @Template[type:cone|distance:30]. Each creature in the area must attempt a @Check[type:reflex|dc:21|basic:true] save.</p>\n<p>The dragon can't use their Poison Breath again for [[/br 1d4 #Recharge Poison Breath]]{1d4 rounds}.</p>"
+        }
+      }
+    },
+    "Kobold Boss Zolgran (BB)": {
+      "name": "Jefe Kobold Zolgran (BB)",
+      "tokenName": "Jefe Kobold Zolgran",
+      "items": {
+        "spellcastingEntry->Wizard Spells": {
+          "name": "Hechizos de mago"
+        },
+        "equipment->Eggshell Necklace": {
+          "name": "Collar de cáscara de huevo"
+        },
+        "equipment->Iron Key": {
+          "name": "llave de hierro"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Staff": {
+          "name": "Personal"
+        },
+        "action->Sneak Attack": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n <p> Zolgran causa 1d6 de daño adicional a las criaturas que tienen la condición @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido}. </p>"
+        },
+        "lore->Dragon Lore": {
+          "name": "Conocimiento del dragón"
+        }
+      }
+    },
+    "Kobold Mage (Black, BB)": {
+      "name": "Kobold Mage (Black, BB)",
+      "publicNotes": "<p>Kobolds are small, reptilian humanoids who are often seen in the service of more powerful creatures. They lurk in dark places, usually tunnels and mines. Kobold mages use magic to carry out their schemes, often in service of a dragon or other powerful creatures.</p>",
+      "tokenName": "Kobold Mage (Black)",
+      "items": {
+        "spellcastingEntry->Wizard Spells": {
+          "name": "Wizard Spells"
+        },
+        "strike-melee->Claw": {
+          "name": "Claw"
+        },
+        "strike-melee->Staff": {
+          "name": "Staff"
+        },
+        "action->Scamper": {
+          "name": "Scamper",
+          "description": "<p>If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy.</p>"
+        },
+        "lore->Dragon Lore": {
+          "name": "Dragon Lore"
+        }
+      }
+    },
+    "Kobold Mage (Blue, BB)": {
+      "name": "Kobold Mage (Blue, BB)",
+      "publicNotes": "<p>Kobolds are small, reptilian humanoids who are often seen in the service of more powerful creatures. They lurk in dark places, usually tunnels and mines. Kobold mages use magic to carry out their schemes, often in service of a dragon or other powerful creatures.</p>",
+      "tokenName": "Kobold Mage (Blue)",
+      "items": {
+        "spellcastingEntry->Wizard Spells": {
+          "name": "Wizard Spells"
+        },
+        "strike-melee->Claw": {
+          "name": "Claw"
+        },
+        "strike-melee->Staff": {
+          "name": "Staff"
+        },
+        "action->Scamper": {
+          "name": "Scamper",
+          "description": "<p>If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy.</p>"
+        },
+        "lore->Dragon Lore": {
+          "name": "Dragon Lore"
+        }
+      }
+    },
+    "Kobold Mage (Green, BB)": {
+      "name": "Kobold Mage (Green, BB)",
+      "publicNotes": "<p>Kobolds are small, reptilian humanoids who are often seen in the service of more powerful creatures. They lurk in dark places, usually tunnels and mines. Kobold mages use magic to carry out their schemes, often in service of a dragon or other powerful creatures.</p>",
+      "tokenName": "Kobold Mage (Green)",
+      "items": {
+        "spellcastingEntry->Wizard Spells": {
+          "name": "Wizard Spells"
+        },
+        "strike-melee->Claw": {
+          "name": "Claw"
+        },
+        "strike-melee->Staff": {
+          "name": "Staff"
+        },
+        "action->Scamper": {
+          "name": "Scamper",
+          "description": "<p>If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy.</p>"
+        },
+        "lore->Dragon Lore": {
+          "name": "Dragon Lore"
+        }
+      }
+    },
+    "Kobold Mage (Red, BB)": {
+      "name": "Kobold Mage (Red, BB)",
+      "publicNotes": "<p>Kobolds are small, reptilian humanoids who are often seen in the service of more powerful creatures. They lurk in dark places, usually tunnels and mines. Kobold mages use magic to carry out their schemes, often in service of a dragon or other powerful creatures.</p>",
+      "tokenName": "Kobold Mage (Red)",
+      "items": {
+        "spellcastingEntry->Wizard Spells": {
+          "name": "Wizard Spells"
+        },
+        "strike-melee->Claw": {
+          "name": "Claw"
+        },
+        "strike-melee->Staff": {
+          "name": "Staff"
+        },
+        "action->Scamper": {
+          "name": "Scamper",
+          "description": "<p>If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy.</p>"
+        },
+        "lore->Dragon Lore": {
+          "name": "Dragon Lore"
+        }
+      }
+    },
+    "Kobold Mage (White, BB)": {
+      "name": "Kobold Mage (White, BB)",
+      "publicNotes": "<p>Kobolds are small, reptilian humanoids who are often seen in the service of more powerful creatures. They lurk in dark places, usually tunnels and mines. Kobold mages use magic to carry out their schemes, often in service of a dragon or other powerful creatures.</p>",
+      "tokenName": "Kobold Mage (White)",
+      "items": {
+        "spellcastingEntry->Wizard Spells": {
+          "name": "Wizard Spells"
+        },
+        "strike-melee->Claw": {
+          "name": "Claw"
+        },
+        "strike-melee->Staff": {
+          "name": "Staff"
+        },
+        "action->Scamper": {
+          "name": "Scamper",
+          "description": "<p>If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy.</p>"
+        },
+        "lore->Dragon Lore": {
+          "name": "Dragon Lore"
+        }
+      }
+    },
+    "Kobold Scout (BB)": {
+      "name": "Explorador kóbold (BB)",
+      "publicNotes": "<p> La mayoría de los kobolds que se encuentran fuera de una madriguera o guarida bien defendida son exploradores kobold, entrenados para acechar y cazar. Están encargados de traer alimentos y bienes valiosos a la comunidad. Los kobolds son expertos en trabajar juntos por necesidad y, a menudo, preparan emboscadas o ataques de atropello y fuga que les permiten causar el mayor daño posible sin ponerse en mucho riesgo. </p>",
+      "tokenName": "Explorador kóbold",
+      "items": {
+        "strike-melee->Shortsword": {
+          "name": "Espada corta"
+        },
+        "strike-ranged->Crossbow": {
+          "name": "Crossbow"
+        },
+        "action->Scamper": {
+          "name": "Corretear",
+          "description": "<p> Si el kobold está adyacente a al menos un enemigo, el kobold camina hasta 30 pies y obtiene una bonificación de circunstancia +2 a la CA contra las reacciones provocadas por este movimiento. El kobold debe finalizar este movimiento en un espacio que no esté adyacente a ningún enemigo. </p>"
+        },
+        "action->Sneak Attack": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n <p> El explorador kobold inflige 1d6 de daño adicional a las criaturas que tienen la condición @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido}. </p>"
+        }
+      }
+    },
+    "Kobold Trapmaster (BB)": {
+      "name": "Maestro de trampas kobold (BB)",
+      "publicNotes": "<p> Los maestros de trampas kobold son los autores intelectuales detrás de la creación e implementación de astutas trampas en guaridas de kobold, y son ampliamente respetados entre los de su especie. </p>",
+      "tokenName": "Maestro de trampas kobold",
+      "items": {
+        "consumable->Spike Trap": {
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.3V2U720YhW2nyGVx]\nTrampa de púas",
+          "description": "<p>This basic snare consists of hidden spikes that rely on a creature's momentum to lacerate or potentially impale it as it enters the snare's square, dealing 2d8 piercing damage. The creature must attempt a @Check[reflex|dc:17|basic] saving throw.</p>"
+        },
+        "strike-melee->Shortsword": {
+          "name": "Espada corta"
+        },
+        "strike-ranged->Spear": {
+          "name": "Lanza"
+        },
+        "action->Quick Trap": {
+          "name": "Trampa rápida",
+          "description": "<p> El maestro de trampas kobold despliega una trampa de púas en un cuadrado adyacente. </p>"
+        },
+        "action->Scamper": {
+          "name": "Corretear",
+          "description": "<p> Si el kobold está adyacente a al menos un enemigo, el kobold camina hasta 30 pies y obtiene una bonificación de circunstancia +2 a la CA contra las reacciones provocadas por este movimiento. El kobold debe finalizar este movimiento en un espacio que no esté adyacente a ningún enemigo. </p>"
+        },
+        "action->Sneak Attack": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n <p> El maestro de trampas kobold inflige 1d6 de daño adicional a las criaturas que tienen la condición @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido}. </p>"
+        }
+      }
+    },
+    "Kobold Warrior (BB)": {
+      "name": "Guerrero Kobold (BB)",
+      "publicNotes": "<p> Un kobold típico entrena con armamento simple. Los Kobolds son capaces de lanzar ataques furtivos contra enemigos desprevenidos, pero son igual de rápidos para escapar a un lugar seguro si su grupo no supera en número a sus enemigos al menos dos a uno. </p>\n <p> Los kobolds creen en el pragmatismo, y un kobold derrotado preferiría rendirse antes que enfrentar la muerte. Uno podría incluso abandonar a sus parientes kobold y aceptar servir al vencedor si la alternativa es una desaparición prematura. </p>",
+      "skillSpecialCrafting": {
+        "0": {
+          "label": "traps"
+        }
+      },
+      "tokenName": "Guerrero kóbold",
+      "items": {
+        "strike-melee->Spear": {
+          "name": "Lanza"
+        },
+        "strike-ranged->Spear": {
+          "name": "Lanza"
+        },
+        "action->Scamper": {
+          "name": "Corretear",
+          "description": "<p> Si el kobold está adyacente a al menos un enemigo, el kobold camina hasta 30 pies y obtiene una bonificación de circunstancia +2 a la CA contra las reacciones provocadas por este movimiento. El kobold debe finalizar este movimiento en un espacio que no esté adyacente a ningún enemigo. </p>"
+        },
+        "action->Sneak Attack": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n <p> El guerrero kobold inflige 1d4 de daño adicional a las criaturas que tienen la condición @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido}. </p>"
+        }
+      }
+    },
+    "Leopard (BB)": {
+      "name": "Leopardo (BB)",
+      "publicNotes": "<p> Los leopardos varían desde el icónico amarillo con manchas negras hasta panteras negras y leopardos de las nieves de pelaje blanco y manchas negras. </p>",
+      "skillSpecialStealth": {
+        "0": {
+          "label": "in undergrowth"
+        }
+      },
+      "tokenName": "Leopardo",
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Maul": {
+          "name": "Mazo",
+          "description": "<p> El leopardo realiza dos golpes de garra contra una criatura que tiene @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} . El segundo ataque usa la misma penalización de ataque múltiple que el primero, pero los ataques que realiza después de este reciben una penalización de ataque múltiple de -10 (o una penalización de ataque múltiple de -8 por sus garras). </p>"
+        },
+        "action->Pounce": {
+          "name": "Saltar",
+          "description": "<p> El leopardo da una zancada y realiza un golpe al final de ese movimiento. Si el leopardo usó con éxito @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} antes de esta acción, el objetivo tiene la condición @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} contra este Golpe. </p>"
+        },
+        "action->Sneak Attack": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n <p> El leopardo causa 1d4 de daño adicional a las criaturas que tienen la condición @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido}. </p>"
+        },
+        "action->Grab": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]\n <p> Cuando el leopardo logra golpear con sus mandíbulas, puede usar esta acción inmediatamente después para darle automáticamente al objetivo la condición @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} hasta el final de su siguiente turno. </p>"
+        }
+      }
+    },
+    "Mermaid Fountain (BB)": {
+      "name": "Fuente de la Sirena (BB)",
+      "disable": "<p> @Check[type:thievery|dc:20|traits:complex,hazard|name:Disable Mechanism] en cada mecanismo de esquina (debe desactivar las tres esquinas de trabajo para desactivar la trampa) </p>\n <p> Cada mecanismo de esquina tiene dureza 8 y 15 HP </p>",
+      "routine": "<p> Cada turno, la fuente usa 1 acción. Tira un [[/r 1d10]]{1d10} y ​​busca el resultado en la siguiente lista para determinar qué acción utiliza en esa ronda. </p>\n <ul>\n <li> <strong> 1-4 Objetivo único </strong> La estatua gira y rocía agua a un único objetivo aleatorio en la habitación. Tira un [[/r 1d4]]{1d4} y ​​cuenta hasta el número que obtuviste, comenzando con el jugador a tu izquierda, para determinar qué héroe es atacado. El aerosol esun ataque a distancia. </li>\n <li> <strong> 5-7 Spray de esquina </strong> La estatua gira, disparando un spray de agua en cada esquina de la habitación que todavía tiene un mecanismo de esquina en funcionamiento. Esto golpea a cualquier criatura adyacente al mecanismo de la esquina, causando @Damage[2d6[bludgeoning]] daño. Cada héroe debe intentar un @Check[type:reflex|dc:15|basic:true|traits:hazard], sin recibir daño en caso de éxito crítico, la mitad del daño en caso de éxito, el daño total en caso de fallo y el doble de daño en caso de fallo crítico. </li>\n <li><strong> 8-9 Media habitación </strong> La estatua gira y rocía la mitad de la habitación con agua. Tira cualquier dado. Si el resultado es parejo, rocía la mitad oeste; de lo contrario, rocía la mitad este. Esto causa @Damage[2d6[bludgeoning]] de daño a cada criatura en esa mitad de la habitación, y cada héroe debe intentar una salvación @Check[type:reflex|dc:15|basic:true|traits:hazard]. </li>\n <li> <strong> 10 Sala llena </strong> Esto funciona igual que el ataque de media sala, pero apunta a todos los que están en la sala. </li></ul>",
+      "stealth": "<p> <strong> Aviso </strong> @Check[type:perception|dc:20|traits:complex,hazard] cheque </p>",
+      "tokenName": "Fuente de sirena",
+      "items": {
+        "strike-melee->Spray": {
+          "name": "Spray"
+        }
+      }
+    },
+    "Mimic (BB)": {
+      "name": "Mímica (BB)",
+      "publicNotes": "<p> Se cree que son el resultado de un experimento fallido destinado a animar objetos o una creación siniestra de un alghollthu, los imitadores son monstruos inteligentes que pueden tomar la forma de objetos manufacturados comunes. Los imitadores son depredadores de emboscada y comedores voraces, que sorprenden a sus presas con su asombrosa habilidad para imitar la forma de muebles y miscelánea comunes. Permanecen disfrazados hasta que pasan aventureros desprevenidos y luego atacan en una emboscada. </p>\n <p> Los imitadores poseen complejosmentes alienígenas y, aunque a menudo son crueles y egoístas, también disfrutan de conversar con sus presas de vez en cuando. Por razones desconocidas, están especialmente interesados ​​en los humanoides. Los imitadores sienten una fuerte aversión por los demás de su especie y tienden a vivir solos. Un imitador puede permanecer en su forma alternativa durante un período de tiempo extremadamente largo, a veces permaneciendo disfrazado en una cámara de mazmorra durante décadas. Independientemente de cuánto tiempo espere, el imitador permanece vigilante y alerta, listo para atacar cualquiermomento. </p>",
+      "tokenName": "Imitar",
+      "items": {
+        "strike-melee->Pseudopod": {
+          "name": "Seudópodo"
+        },
+        "action->Adhesive": {
+          "name": "Adhesivo",
+          "description": "<p> Cualquier criatura que toque el imitador (normalmente con un puñetazo, el pseudópodo del imitador o un @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} o @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}) debe tener éxito en una salvación @Check[type:reflex|dc:23] o ganar la condición @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}. La CD para @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} es 23. Un arma cuerpo a cuerpo o arrojadiza que golpea al mimo se pega a él. Un personaje puede gastar una acción para intentar una prueba @Check[type:athletics|dc:23], retirando el arma si tiene éxito. El adhesivo se disuelve 1 minuto después de la imitación.muere. </p>"
+        },
+        "action->Object Lesson": {
+          "name": "Ejemplo práctico",
+          "description": "<p> Si una criatura toca el imitador mientras éste se transforma en un objeto, el imitador puede gastar su reacción para usar su adhesivo sin tirada de salvación. Luego, el imitador realiza un ataque seudópodo. Object Lesson no se puede volver a utilizar hasta que el imitador escape y adopte un nuevo disfraz. </p>"
+        },
+        "action->Mimic Object": {
+          "name": "Objeto mímico",
+          "description": "<p> La mímica asume la forma de cualquier objeto mediano. Esto altera su apariencia visual pero no su tamaño. Se necesita una prueba @Check[type:perception|dc:28] para saber que el objeto es una criatura. </p>"
+        }
+      }
+    },
+    "Minotaur Hunter (BB)": {
+      "name": "Minotaur Hunter (BB)",
+      "publicNotes": "<p>A minotaur is a large humanoid with a bovine head and hooves. Though often mistaken for aggressive brutes, many minotaurs are skilled artisans. Lone minotaurs tend to make their lairs within a maze or old ruin, hunting anyone who dares to invade their labyrinthine home.</p>",
+      "tokenName": "Minotaur Hunter",
+      "items": {
+        "strike-melee->Greataxe": {
+          "name": "gran hacha"
+        },
+        "strike-melee->Horn": {
+          "name": "Bocina"
+        },
+        "action->Perfect Orienteering": {
+          "name": "Perfect Orienteering",
+          "description": "<p>A minotaur automatically critically succeeds on Survival checks to @UUID[Compendium.pf2e.actionspf2e.Item.fJImDBQfqfjKJOhk]{Sense Direction} or @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Track}.</p>"
+        },
+        "action->Axe Swipe": {
+          "name": "Axe Swipe",
+          "description": "<p>The minotaur makes two Strikes with its greataxe against two adjacent enemies, both of whom are within its reach. The second attack uses the same multiple attack penalty as the first, but attacks it makes after this take a -10 multiple attack penalty.</p>"
+        },
+        "action->Powerful Charge": {
+          "name": "Powerful Charge",
+          "description": "<p>The minotaur Strides twice, then makes a horn Strike. If the moved at least 20 feet from their starting position, the Strike's damage is increased to 2d8+10 piercing.</p>"
+        }
+      }
+    },
+    "Ogre Warrior (BB)": {
+      "name": "Guerrero Ogro (BB)",
+      "publicNotes": "<p> Los ogros encarnan la crueldad y la violencia brutal y amoral. Con 10 pies de altura y musculosos densos, los ogros son tan fuertes como crueles. Por lo general, disfrutan de la violencia despiadada en todas sus formas. Aunque prefieren desahogar sus impulsos violentos en humanoides más pequeños (cuanto más pequeños, mejores), los ogros prometen un destino horrible para cualquiera que tenga la mala suerte de caer dentro de sus carnosas garras. </p>\n <p> Siempre deseosos de caos y asesinato, los guerreros ogros se vuelven rápidamente contra sus parientes.cuando hay escasez de gente más pequeña a la que atormentar, aquellos que lideran a los ogros hacen todo lo posible para mantenerlos constantemente distraídos con nuevas oportunidades de ataques y ruina. Los déficits de paciencia e inteligencia de un ogro los hacen fáciles de engañar, dando a los astutos cautivos muchas maneras de sacar lo mejor de ellos. </p>",
+      "tokenName": "guerrero ogro",
+      "items": {
+        "weapon->Greataxe": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.8COlYvHe6hKCXY8x]\n <p> Esta gran hacha de batalla es demasiado pesada para manejarla con una sola mano. Muchas grandes hachas incorporan dos hojas y, a menudo, tienen \"barba\" y tienen un gancho en la parte inferior para aumentar la fuerza de su poder de corte. </p>"
+        },
+        "strike-melee->Greataxe": {
+          "name": "gran hacha"
+        },
+        "strike-ranged->Javelin": {
+          "name": "Jabalina"
+        }
+      }
+    },
+    "Orc Commander (BB)": {
+      "name": "Comandante orco (BB)",
+      "publicNotes": "<p> Cuando los orcos atacan, se elige al más fuerte como líder. Los lazos de sangre son especialmente fuertes entre los orcos, y las fortalezas de los orcos más poderosas suelen estar formadas por hermanos que han elegido un comandante fuerte para proteger a sus parientes. </p>",
+      "tokenName": "Comandante orco",
+      "items": {
+        "strike-melee->Maul": {
+          "name": "Mazo"
+        },
+        "strike-melee->Fist": {
+          "name": "Puño"
+        },
+        "strike-ranged->Javelin": {
+          "name": "Jabalina"
+        },
+        "action->Ferocity": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.N1kstYbHScxgUQtN]\n <p> Cuando el orco se reduce a 0 puntos de vida, puede usar su reacción para permanecer consciente con 1 punto de vida, pero gana la condición de herido 1 (o aumenta el valor de herido en 1 si ya tiene esa condición). El orco no puede usar esta habilidad cuando está herido 3. </p>"
+        },
+        "action->Battle Cry": {
+          "name": "Grito de batalla",
+          "description": "<p> Bramando poderosamente, el comandante se otorga a sí mismo y a todos los aliados orcos dentro de @Template[type:emanation|distance:60]{60 feet} que puedan escucharlos una bonificación de estado de +1 a las tiradas de ataque y daño hasta el inicio del siguiente turno del comandante orco. </p>\n <p> @UUID[Compendium.pf2e.bestiary-effects.Item.Yqq4AkZ9lrm4CcID]{Effect: Battle Cry} </p>"
+        }
+      }
+    },
+    "Orc Scrapper (BB)": {
+      "name": "Desguazador orco (BB)",
+      "publicNotes": "<p> Los orcos son humanoides orgullosos y fuertes que viven según la regla que hace el bien. Se reúnen en bandas de guerra grandes y pequeñas, conquistando territorios y robando a aquellos que tienen la mala suerte de cruzarse en su camino. Innumerables pequeños asentamientos, puestos de avanzada y fuertes han caído a manos de asaltantes orcos, cuya pura destructividad deja una marca indeleble en las tierras que conquistan. Los furiosos e indisciplinados luchadores de base constituyen la mayor parte de una banda de guerra orca. </p>",
+      "tokenName": "Desguazador orco",
+      "items": {
+        "strike-melee->Battle Axe": {
+          "name": "Hacha de batalla"
+        },
+        "strike-melee->Fist": {
+          "name": "Puño"
+        },
+        "strike-ranged->Javelin": {
+          "name": "Jabalina"
+        },
+        "action->Ferocity": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.N1kstYbHScxgUQtN]\n <p> Cuando el orco se reduce a 0 puntos de vida, puede usar su reacción para permanecer consciente con 1 punto de vida, pero gana la condición de herido 1 (o aumenta el valor de herido en 1 si ya tiene esa condición). El orco no puede usar esta habilidad cuando está herido 3. </p>"
+        }
+      }
+    },
+    "Orc Veteran (BB)": {
+      "name": "Orc Veteran (BB)",
+      "publicNotes": "<p> El típico soldado orco es un combatiente violento familiar para muchos aventureros. Los guerreros orcos luchan por sus fortalezas, por las riquezas y, quizás sobre todo, por la gloria. Demostrar su propia fuerza mejora su posición dentro de su fortaleza orca, por lo que la batalla es una parte crucial de la vida de cualquier orco que aspire algún día a liderar o pasar a la historia. </p>",
+      "tokenName": "Orc Veteran",
+      "items": {
+        "armor->Breastplate": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.r0ifJfoz8aqf0mwk]\n <p> Aunque se la conoce como coraza, este tipo de armadura consta de varias piezas de armadura de placa o media placa que protegen el torso, el pecho, el cuello y, a veces, las caderas y la parte inferior de las piernas. Otorga estratégicamente parte de la protección de la placa al tiempo que permite una mayor flexibilidad y velocidad. </p>"
+        },
+        "strike-melee->Battle Axe": {
+          "name": "Hacha de batalla"
+        },
+        "strike-melee->Shortsword": {
+          "name": "Espada corta"
+        },
+        "strike-melee->Fist": {
+          "name": "Puño"
+        },
+        "strike-ranged->Javelin": {
+          "name": "Jabalina"
+        },
+        "action->Ferocity": {
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.N1kstYbHScxgUQtN]\n<p>When the orc is reduced to 0 Hit Points, they can use their reaction to remain conscious with 1 Hit Point, but they gain the @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Herido 1} condition (or increases the wounded value by 1 if they already have that condition). The orc can't use this ability at wounded 3.</p>"
+        }
+      }
+    },
+    "Owlbear (BB)": {
+      "name": "Oso búho (BB)",
+      "publicNotes": "<p> El oso búho es un depredador territorial con el cuerpo de un oso pardo pero la cabeza (y los consiguientes sentidos agudos) de un búho. </p>",
+      "tokenName": "oso búho",
+      "items": {
+        "strike-melee->Talon": {
+          "name": "Garra"
+        },
+        "strike-melee->Beak": {
+          "name": "Pico"
+        },
+        "action->Bloodcurdling Screech": {
+          "name": "Chillido espeluznante",
+          "description": "<p> Cada criatura dentro de @Template[type:emanation|distance:80]{80 feet} que pueda escuchar el chillido del oso búho debe intentar una salvación @Check[type:will|dc:20]. Las criaturas no pueden verse afectadas por otro chillido durante 1 minuto. Con un éxito crítico, la criatura no se ve afectada; con éxito, la criatura gana la condición @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}; en caso de falla, la criatura gana la condición @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}; En caso de fallo crítico, la criatura gana la condición @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 3} y ​​debe gastar susiguiente turno huyendo del oso búho. </p>"
+        },
+        "action->Screeching Advance": {
+          "name": "Avance chirriante",
+          "description": "<p> El oso búho emite un chillido espeluznante y da dos zancadas. Todas las criaturas dentro de @Template[type:emanation|distance:80]{80 feet} del oso búho en cualquier momento durante este movimiento están sujetas a los efectos de Bloodcurdling Screech. </p>"
+        },
+        "action->Grab": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]\n <p> Cuando el oso búho tiene éxito en su Golpe con garra, puede usar esta acción inmediatamente después para darle automáticamente al objetivo la condición @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} hasta el final de su siguiente turno. </p>"
+        }
+      }
+    },
+    "Pugwampi (BB)": {
+      "name": "Pugwampi (BB)",
+      "publicNotes": "<p> Los gremlins son hadas crueles, embaucadores y saboteadores que disfrutan provocando una destructividad inventiva. Los pugwampis con cara de perro son cobardes y disfrutan mucho de los accidentes y errores causados ​​por la mala fortuna que mágicamente proyectan. </p>",
+      "senses": "(-2 to hear things)",
+      "tokenName": "Pugwampi",
+      "items": {
+        "strike-melee->Shortsword": {
+          "name": "Espada corta"
+        },
+        "strike-ranged->Shortbow": {
+          "name": "Shortbow"
+        },
+        "action->-2 Penalty on Perception to Hear things": {
+          "name": "-2 Penalty on Perception to Hear things"
+        },
+        "action->Animal Talker": {
+          "name": "Hablador de animales",
+          "description": "<p> Los Pugwampis pueden hablar y entender a los animales. </p>"
+        },
+        "action->Unluck Aura": {
+          "name": "Aura de mala suerte",
+          "description": "<p> Las criaturas distintas a los animales, gremlins y gnolls dentro de @Template[type:emanation|distance:20]{20 feet} se vuelven extremadamente desafortunadas. Deben intentar una salvación @Check[type:will|dc:16], tirando esta salvación de Voluntad dos veces y usando el peor resultado. </p>\n <p> En una salvación exitosa, la criatura no puede verse afectada por las auras de mala suerte de pugwampi durante 24 horas. Si falla, la criatura debe tirar dos veces y usar el peor resultado en todas las pruebas siempre que esté a 20 pies del pugwampi. </p>\n <p>Múltiples pugwampis no crean ningún efecto aumentado. </p>"
+        }
+      }
+    },
+    "Reefclaw (BB)": {
+      "name": "Reefclaw (BB)",
+      "publicNotes": "<p>Reefclaws are aquatic monsters that resemble huge shrimp or lobsters. Though reefclaws can't speak, they are intelligent enough to understand the local language of humanoids near their hunting grounds.</p>",
+      "skillSpecialAthletics": {
+        "0": {
+          "label": "to Swim"
+        }
+      },
+      "tokenName": "Reefclaw",
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Death Frenzy": {
+          "name": "Death Frenzy",
+          "description": "<p>When the reefclaw is reduced to 0 hit points it can spend this reaction to make a claw Strike before dying.</p>"
+        },
+        "action->Constrict": {
+          "name": "Apretar",
+          "description": "<p>If the reefclaw has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado}, it can spend one action to crush them in its coils. The creature takes @Damage[1d6[bludgeoning]] damage depending on its @Check[type:fortitude|dc:17|basic:true] save.</p>"
+        },
+        "action->Reefclaw Venom": {
+          "name": "Reefclaw Venom",
+          "description": "<p>A target that takes slashing damage from the reefclaw's claw Strike must succeed at a @Check[type:fortitude|dc:17|traits:damaging-effect] save or take @Damage[1d6[poison]] damage.</p>"
+        },
+        "action->Grab": {
+          "name": "Agarrar",
+          "description": "<p>When the reeflclaw succeeds at its claw Strike, it can use this action immediately after to attempt to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the target. This Grapple doesn't apply or count toward the reefclaw's multiple attack penalty.</p>"
+        }
+      }
+    },
+    "Scythe Blades (BB)": {
+      "name": "Hojas de guadaña (BB)",
+      "description": "<p> Dos aspas, cada una oculta en una ranura del techo de 15 pies de largo, están conectadas a un cable trampa. </p>",
+      "disable": "<p> @Check[type:thievery|dc:21|traits:hazard|name:Disable Blade] para desactivar cada hoja. </p>",
+      "tokenName": "Hojas de guadaña",
+      "items": {
+        "action->Falling Scythes": {
+          "name": "Guadañas que caen",
+          "description": "<p> Cuando se tira o se corta el cable trampa, ambas hojas se balancean hacia abajo, cada una atacando a todas las criaturas debajo de las ranuras del techo con un ataque de guadaña. La trampa realiza un ataque cuerpo a cuerpo de Scythe con cada hoja. No hay penalización por ataque múltiple en estos ataques. </p>"
+        },
+        "strike-melee->Scythe": {
+          "name": "Guadaña",
+          "description": "<p> No se aplica ningún MAP a los ataques realizados con guadaña </p>"
+        }
+      }
+    },
+    "Sewer Ooze (BB)": {
+      "name": "Lodo de alcantarillado (BB)",
+      "publicNotes": "<p> Estas masas amorfas de aguas residuales y detritos se abren paso a través de sucias alcantarillas debajo de las ciudades. Algunos crecen hasta alcanzar tamaños enormes y tienen apetitos insaciables. </p>",
+      "skillSpecialStealth": {
+        "0": {
+          "label": "in sewers"
+        }
+      },
+      "tokenName": "Exudado de alcantarillado",
+      "items": {
+        "strike-melee->Pseudopod": {
+          "name": "Seudópodo"
+        },
+        "action->Motion Sense 60 feet": {
+          "name": "Sensor de movimiento 60 pies",
+          "description": "<p> Un lodo de alcantarillado puede detectar el movimiento cercano a través de la vibración y el movimiento del aire, lo que le permite luchar tan bien como si pudiera ver. Sin embargo, un lodo de alcantarillado no puede ver, por lo que los efectos que dependen de la visión o la vista no funcionan en él. </p>"
+        },
+        "action->Filth Wave": {
+          "name": "Ola de inmundicia",
+          "description": "<p> El exudado de la alcantarilla desata una ola de suciedad que cubre a todas las criaturas en un radio de 20 pies de ella. Cada criatura en el área debe tener éxito en una salvación @Check[type:reflex|dc:17|traits:damaging-effect] o recibir @Damage[1d4[acid]] de daño y una penalización de -10 pies a su Velocidad durante 1 minuto (en caso de un fallo crítico, la criatura también se cae y gana la condición @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}). Una criatura puede interactuar para limpiar a alguien. Esto reduce la penalización de Velocidad a -5 pies después de 1 acción, o sin penalización después de 2 acciones. DespuésAl usar Filth Wave, el exudado no puede volver a usarlo durante 1 minuto. </p>\n <p> @UUID[Compendium.pf2e.bestiary-effects.Item.Qomp2EujVCbzJb4X]{Effect: Filth Wave} </p>"
+        }
+      }
+    },
+    "Shadow (BB)": {
+      "name": "Sombra (BB)",
+      "publicNotes": "<p> Las sombras de los no-muertos se alimentan de aquellos que se desvían de la luz. </p>",
+      "tokenName": "Sombra",
+      "items": {
+        "strike-melee->Shadow Hand": {
+          "name": "Mano de sombra"
+        },
+        "action->Incorporeal": {
+          "name": "Incorpóreo",
+          "description": "<p> Una sombra no tiene cuerpo y puede atravesar objetos físicos, aunque no puede terminar su turno dentro de uno. La mayoría de los controles que usan Fuerza y ​​requieren un cuerpo, como @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} y ​​@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}, no funcionan contra una sombra, y una sombra no puede usarlos. </p>"
+        },
+        "action->Light Vulnerability": {
+          "name": "Vulnerabilidad ligera",
+          "description": "<p> Un arma con un hechizo @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Light} lanzado sobre ella obtiene el rasgo mágico cuando se usa para atacar la sombra. </p>"
+        },
+        "action->Shadow Spawn": {
+          "name": "Engendro de sombras",
+          "description": "<p> Cuando Steal Shadow libera la sombra de una criatura, se convierte en un @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.XrmHgbKgcHDi4OnK]{Shadow Spawn} bajo el mando de la sombra que la creó. Este engendro de sombra no tiene Robar sombra y es perpetua e incurablemente @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2}. Si la criatura de la que se extrajo el engendro de la sombra muere, el engendro de la sombra se convierte en una sombra autónoma y de pleno derecho. Si la criatura se recupera de su @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeeblement} , su sombra regresa a ella y la sombra se genera.extinguido. </p>"
+        },
+        "action->Slink in Shadows": {
+          "name": "Escabullirse en las sombras",
+          "description": "<p> La sombra puede @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} o terminar su @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak} en la sombra de una criatura u objeto. </p>"
+        },
+        "action->Steal Shadow": {
+          "name": "Robar sombra",
+          "description": "<p> Si la sombra golpea a una criatura viviente con un Golpe en su acción anterior, puede usar esta acción para atraer la sombra del objetivo, imponiendo una penalización de estado de -1 al Atletismo y a las tiradas de ataque y daño que usan Fuerza. La penalización aumenta cada vez que una sombra usa esta habilidad hasta un máximo de -4. La penalización disminuye en 1 cada hora. </p>"
+        }
+      }
+    },
+    "Skeletal Giant (BB)": {
+      "name": "Gigante esquelético (BB)",
+      "publicNotes": "<p> Los huesos reanimados de los gigantes son excelentes esclavos nigrománticos, y los gigantes esqueléticos hechos de minotauros con cabeza de toro no son una excepción. Los esqueletos sin sentido utilizan tácticas similares, por lo que utilizar un esqueleto más grande y duradero es la única forma en que un nigromante puede obtener un esclavo más poderoso. </p>",
+      "tokenName": "Gigante esquelético",
+      "items": {
+        "armor->Half Plate": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.pRoikbRo5HFW6YUB]\n <p> La media placa consta de la mayoría de las placas de la parte superior del cuerpo utilizadas en la placa completa, con una protección de placa de acero más ligera o más escasa para los brazos y las piernas. Esto proporciona parte de la protección de la placa completa con mayor flexibilidad y velocidad. Un traje de esta armadura viene con una capa interna de armadura acolchada y un par de guanteletes. </p>"
+        },
+        "strike-melee->Greataxe": {
+          "name": "gran hacha"
+        },
+        "strike-melee->Horns": {
+          "name": "Cuernos"
+        },
+        "action->Broad Swipe": {
+          "name": "Deslizamiento amplio",
+          "description": "<p> El gigante esquelético realiza dos golpes con su gran espada contra dos enemigos adyacentes, ambos dentro de su alcance. El segundo ataque usa la misma penalización de ataque múltiple que el primero, pero los ataques que realice después de este reciben una penalización de ataque múltiple de -10 (o una penalización de ataque múltiple de -8 por sus cuernos). </p>"
+        },
+        "action->Terrifying Charge": {
+          "name": "Carga aterradora",
+          "description": "<p> El gigante Da zancadas y golpea con cuernos con una bonificación de circunstancia de +4 al daño. </p>\n <p> Si el golpe impacta, el gigante intenta @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} el objetivo. </p>"
+        }
+      }
+    },
+    "Skeleton Guard (BB)": {
+      "name": "Guardia esqueleto (BB)",
+      "publicNotes": "<p> Hechos de huesos unidos mediante nigromancia repugnante, los esqueletos a menudo se pueden encontrar rondando viejas mazmorras y patrullando cementerios olvidados. Muchos autores intelectuales malvados prefieren mantener a los no-muertos eternamente vigilantes como secuaces para evitar el mantenimiento necesario para alimentar y satisfacer las necesidades psicológicas de los guardianes vivos. </p>\n <p> Los guardias esqueléticos simples siguen siendo los minions esqueléticos más comunes. Estos esqueletos no tienen mente, lo que significa que no pueden razonar realmente, pero pueden ejecutar sus funciones básicas.deberes de guardia de vigilar y atacar a los intrusos. Un grupo de varios esqueletos que defienden el mismo lugar suele estar formado por luchadores cuerpo a cuerpo y arqueros que disparan flechas desde lejos. </p>",
+      "tokenName": "Guardia esqueleto",
+      "items": {
+        "strike-melee->Scimitar": {
+          "name": "Cimitarra"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-ranged->Shortbow": {
+          "name": "Shortbow"
+        }
+      }
+    },
+    "Slamming Door (BB)": {
+      "name": "Portazo (BB)",
+      "description": "<p> Los paneles sensibles a la presión en el piso se conectan a una losa de piedra escondida en el techo de un pasillo. </p>",
+      "disable": "<p> @Check[type:thievery|dc:15|traits:hazard|name:Disable Floor Panels] en los paneles del piso antes de que caiga la losa. </p>",
+      "tokenName": "portazo",
+      "items": {
+        "action->Slam Shut": {
+          "name": "Cerrar de golpe",
+          "description": "<p> Cuando se ejerce presión sobre cualquier losa del piso, la puerta cae, cerrando el pasillo. La losa de piedra causa @Damage[3d8[bludgeoning]] daño a cualquiera que esté debajo o adyacente a la losa cuando cae y los empuja fuera de su espacio en una dirección aleatoria. Una criatura que tiene éxito en una salvación @Check[type:reflex|dc:17|traits:damaging-effect,hazard] no sufre daño y se aparta del camino en una dirección aleatoria. En caso de éxito crítico, se apartan del camino y pueden elegir en qué dirección. </p>\n <p> Levantando la losa caídarequiere una verificación exitosa @Check[type:athletics|dc:25|traits:hazard]. Golpear los paneles del piso activa la trampa. La losa usa el mismo AC y se guarda como la trampa, pero tiene Dureza 12, HP 48 (BT 24). </p>"
+        }
+      }
+    },
+    "Sod Hound (BB)": {
+      "name": "Sabueso de césped (BB)",
+      "publicNotes": "<p> Los elementales de la Tierra, como los perros de caza, son excelentes guardaespaldas de los espeleólogos y son protectores ideales de lugares subterráneos importantes, como bóvedas y tesoros. Procedentes del Plano Tierra, pueden aparecer en cavernas a gran profundidad bajo tierra o en otros ambientes pedregosos. </p>\n <p> Los perros de caza toman la forma de caninos cubiertos de musgo hechos de tierra y guijarros compactados. Pueden unirse con otros perros de caza y viajar en manada. Son leales hasta el extremo, con entusiasmo.siguiendo las órdenes de sus invocadores. </p>",
+      "senses": "sentido de cristal 60 pies",
+      "skillSpecialSurvival": {
+        "0": {
+          "label": "to Track"
+        }
+      },
+      "tokenName": "Perro de mierda",
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "action->Crystal Sense 60 feet": {
+          "name": "Sentido de cristal 60 pies",
+          "description": "<p> Un perro de caza puede detectar cristales o gemas a una distancia de 60 pies. </p>"
+        },
+        "action->Earth Glide": {
+          "name": "Deslizamiento terrestre",
+          "description": "<p> El sabueso excava en cualquier materia terrestre, incluidas las rocas. Se mueve hasta 20 pies, sin dejar túneles ni señales de su paso. </p>"
+        },
+        "action->Knockdown": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu]\n <p> Cuando el sabueso logra golpear con sus mandíbulas, puede usar esta acción inmediatamente después para derribar automáticamente al objetivo, dándole al objetivo la condición @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}. </p>"
+        }
+      }
+    },
+    "Spear Launcher (BB)": {
+      "name": "Lanzador de lanzas (BB)",
+      "description": "<p> Un enchufe de pared cargado con una lanza se conecta a una losa del piso en un cuadrado de 5 pies. </p>",
+      "disable": "<p> @Check[type:thievery|dc:18|traits:hazard|name:Disable Mechanism] en la losa del piso o en el enchufe de la pared. </p>",
+      "tokenName": "Lanzador de lanzas",
+      "items": {
+        "action->Spear": {
+          "name": "Lanza",
+          "description": "<p> Cuando se aplica presión a la losa del piso, la trampa dispara una lanza, atacando a la criatura u objeto en la losa del piso. La trampa realiza un ataque con lanza a distancia. </p>"
+        },
+        "strike-melee->Spear": {
+          "name": "Spear"
+        }
+      }
+    },
+    "Viper (BB)": {
+      "name": "Víbora (BB)",
+      "publicNotes": "<p> Cada miembro de esta familia de serpientes venenosas tiene colmillos largos y articulados que inyectan un potente veneno en sus presas. Diferentes víboras inyectan diferentes tipos de veneno, lo que puede provocar parálisis, dolor e hinchazón extremos, coagulación de la sangre o incluso la parada repentina del corazón de la víctima. </p>\n <p> Aunque es una amenaza física mucho menos imponente que una víbora gigante, una víbora común representa mucho más peligro de lo que sugiere su tamaño. Una víbora caza principalmente pequeños mamíferos olagartos pero atacará a un humanoide que perciba como una amenaza. </p>",
+      "skillSpecialAthletics": {
+        "0": {
+          "label": "to Climb"
+        }
+      },
+      "tokenName": "Víbora",
+      "items": {
+        "strike-melee->Fangs": {
+          "name": "colmillos"
+        },
+        "action->Slink": {
+          "name": "Escabullirse",
+          "description": "<p> Si una criatura termina su movimiento adyacente a la víbora o dentro del espacio de la víbora, la víbora puede usar su reacción a Zancada, @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb} o @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Swim} hasta 10 pies. Debe finalizar su movimiento en una ubicación que no esté a 5 pies de un enemigo. Este movimiento no provoca reacciones. </p>"
+        },
+        "action->Viper Venom": {
+          "name": "Veneno de víbora",
+          "description": "<p> Un objetivo dañado por los colmillos de la víbora debe superar una salvación @Check[type:fortitude|dc:16] o sufrir @Damage[1d10[poison]] de daño. </p>"
+        }
+      }
+    },
+    "Warg (BB)": {
+      "name": "Warg (BB)",
+      "publicNotes": "<p>Wargs are often mistaken for wolves, but they have a cunning intelligence and the ability to speak. Wargs often form hunting parties with orcs and hobgoblins. Most wargs are amenable to this arrangement, but if food should run out, wargs are more than willing to integrate goblinoid flesh into their diet.</p>",
+      "tokenName": "Warg",
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "action->Avenging Bite": {
+          "name": "Avenging Bite",
+          "description": "<p>When a creature within the reach of the warg's bite attacks one of its allies, the warg can spend its reaction to make a jaws Strike against that creature.</p>"
+        },
+        "action->Pack Attack": {
+          "name": "Ataque de manada",
+          "description": "<p>The warg's jaws Strike deals 1d4 extra damage to creatures within reach of two of the warg's allies.</p>"
+        },
+        "action->Shred": {
+          "name": "Shred",
+          "description": "<p>If the warg has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}, it can spend one action to shred them with its teeth. The creature takes @Damage[1d6[slashing]] damage and can make a @Check[type:fortitude|dc:18|basic:true] save.</p>"
+        },
+        "action->Grab": {
+          "description": "<p>When the warg succeeds at its jaws Strike, it can use this action immediately after to attempt to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the target. This Grapple doesn't apply or count toward the warg's multiple attack penalty.</p>"
+        }
+      }
+    },
+    "Web Lurker (BB)": {
+      "name": "Acechador web (BB)",
+      "languages": "araña hablar",
+      "publicNotes": "<p> Los acechadores de telarañas, conocidos también como ettercaps, son monstruos feos que no sólo habitan en las guaridas de arañas y enjambres, sino que también cultivan y pastorean activamente a dichas alimañas. Los acechadores de telarañas cazan en bosques, pantanos o colinas cubiertas de matorrales. Construyen estructuras a partir de sus redes en lo alto de los árboles o dentro de cañones altos y escarpados, y rodean su territorio con trampas construidas con las mismas redes y material natural. </p>",
+      "tokenName": "Acechador web",
+      "items": {
+        "strike-melee->Fangs": {
+          "name": "colmillos"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Web": {
+          "name": "Red"
+        },
+        "action->Spider Speak": {
+          "name": "Araña habla",
+          "description": "<p> El acechador de la red puede hablar con las arañas y comprenderlas. </p>"
+        },
+        "action->Web Lurker Venom": {
+          "name": "Veneno del acechador web",
+          "description": "<p> Un objetivo dañado por los colmillos del acechador de telarañas debe tener éxito en una salvación @Check[type:fortitude|dc:19] o sufrir @Damage[1d12[poison]] daño y obtener la condición @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} durante 1 ronda. </p>"
+        },
+        "action->Web Trap": {
+          "name": "Trampa web",
+          "description": "<p> Una criatura golpeada por el ataque web del acechador queda atrapada en la superficie más cercana. No puede moverse hasta que logre @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} (CD 20). </p>"
+        }
+      }
+    },
+    "Wight (BB)": {
+      "name": "Peso (BB)",
+      "publicNotes": "<p> Los wights son humanoides no-muertos que pueden drenar la vida de criaturas vivientes con solo un toque. Surgen como resultado de rituales nigrománticos, especialmente muertes violentas, o la pura voluntad malévola del difunto. Los espectros acechan en cementerios, catacumbas u otros lugares de los muertos, donde pocos visitantes vivos se atreven a ir. </p>",
+      "tokenName": "Criatura",
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Dagger": {
+          "name": "Daga"
+        },
+        "action->Final Spite": {
+          "name": "Rencor final",
+          "description": "<p> Cuando el wight se reduce a 0 puntos de vida, puede usar su reacción para realizar un ataque antes de ser destruido. No gana ningún punto de vida al drenar vida en este golpe. </p>"
+        },
+        "action->Corrupting Spite": {
+          "name": "Corrupting Spite",
+          "description": "<p>When the wight deals damage to a living creature with its claw or dagger Strike, the wight regains 2 Hit Points and the target must succeed at a @Check[fortitude|dc:17] save or take 2 damage that can't be healed. The wight can use corrupting spite multiple times, but a single creature can't take more than 8 unhealable damage.</p>\n<p>Each full night of rest heals 2 of the unhealable damage, and a full day of bed rest increases the recovery to 4 of the unhealable damage.</p>"
+        }
+      }
+    },
+    "Wolf (BB)": {
+      "name": "Lobo (BB)",
+      "publicNotes": "<p> Los lobos viven y cazan en manadas. Contrariamente a la creencia popular, estas manadas no están lideradas por los más fuertes del grupo, sino que generalmente consisten en una pareja apareada, sus crías y crías juveniles de temporadas de apareamiento anteriores. La descendencia generalmente abandona la manada de sus padres al alcanzar la madurez, momento en el que buscan compañeros para formar sus propias manadas en otro lugar. Los lobos no suelen ver a los humanoides como animales de presa, pero circunstancias extraordinarias pueden llevar a los lobos a atacarpersonas, especialmente en los meses de invierno y otras situaciones donde las presas tradicionales (como ciervos y alces) son escasas. Algunos seres, como los vampiros poderosos, pueden invocar a los lobos para que los ayuden en el combate. </p>",
+      "tokenName": "Lobo",
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "action->Pack Attack": {
+          "name": "Ataque de manada",
+          "description": "<p> Si el lobo golpea a un objetivo que al menos dos de sus aliados podrían alcanzar con un ataque cuerpo a cuerpo, el lobo inflige 1d4 de daño adicional en ese golpe. </p>"
+        },
+        "action->Knockdown": {
+          "description": "<p>When the wolf succeeds at its jaws Strike, it can use this action immediately after to attempt to @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} the target. This Trip doesn't apply or count toward the wolf's multiple attack penalty.</p>"
+        }
+      }
+    },
+    "Xulgath Leader (BB)": {
+      "name": "Xulgath Leader (BB)",
+      "publicNotes": "<p>Xulgath leaders exhibit greater strength and more affinity for violence than other members of a xulgath community.</p>",
+      "tokenName": "Xulgath Leader",
+      "items": {
+        "weapon->Greataxe": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.8COlYvHe6hKCXY8x]\n <p> Esta gran hacha de batalla es demasiado pesada para manejarla con una sola mano. Muchas grandes hachas incorporan dos hojas y, a menudo, tienen \"barba\" y tienen un gancho en la parte inferior para aumentar la fuerza de su poder de corte. </p>"
+        },
+        "armor->Breastplate": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.r0ifJfoz8aqf0mwk]\n <p> Aunque se la conoce como coraza, este tipo de armadura consta de varias piezas de armadura de placa o media placa que protegen el torso, el pecho, el cuello y, a veces, las caderas y la parte inferior de las piernas. Otorga estratégicamente parte de la protección de la placa al tiempo que permite una mayor flexibilidad y velocidad. </p>"
+        },
+        "strike-melee->Greataxe": {
+          "name": "gran hacha"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-ranged->Javelin": {
+          "name": "Jabalina"
+        },
+        "action->Stench": {
+          "name": "Hedor",
+          "description": "<p> Una criatura que se acerque a @Template[type:emanation|distance:30] del xulgath y pueda olerlo debe intentar una salvación @Check[type:fortitude|dc:19]. Si falla, la criatura sufre una penalización de estado de -1 a todas las pruebas y CD hasta que use una acción para vomitar. Una criatura que tiene éxito en su salvación no se ve afectada por el hedor de ningún xulgath durante 1 minuto <em> (Usa @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} ) </em> . </p>"
+        },
+        "action->Swipe": {
+          "name": "Golpe fuerte",
+          "description": "<p> El jefe xulgath realiza dos golpes con su gran hacha contra dos enemigos adyacentes, ambos a su alcance, con una bonificación de circunstancia de +1. El segundo ataque usa la misma penalización de ataque múltiple que el primero, pero los ataques que el jefe xulgath realiza después de esto reciben una penalización de ataque múltiple de -10 (o una penalización de ataque múltiple de -8 por su garra). </p>"
+        }
+      }
+    },
+    "Xulgath Warrior (BB)": {
+      "name": "Guerrero Xulgath (BB)",
+      "publicNotes": "<p> Humanoides reptiles que viven bajo tierra, los xulgaths (conocidos como trogloditas por muchos habitantes de la superficie) atacan a los intrusos en su territorio al verlos. Viven en comunidades familiares, luchando contra grupos rivales y otros habitantes subterráneos agresivos para sobrevivir. Ocasionalmente atacan asentamientos en la superficie, normalmente a instancias de líderes crueles y sedientos de sangre. Un xulgath típico tiene escamas de color gris opaco, gris oscuro o ceniciento con una cola larga y protuberancias óseas a lo largo de la columna.</p>",
+      "tokenName": "guerrero xulgath",
+      "items": {
+        "strike-melee->Club": {
+          "name": "Garrote"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-ranged->Javelin": {
+          "name": "Jabalina"
+        },
+        "action->Stench": {
+          "name": "Hedor",
+          "description": "<p> Una criatura que se acerque a @Template[type:emanation|distance:30] del xulgath y pueda olerlo debe intentar una salvación @Check[type:fortitude|dc:19]. Si falla, la criatura sufre una penalización de estado de -1 a todas las pruebas y CD hasta que use una acción para vomitar. Una criatura que tiene éxito en su salvación no se ve afectada por el hedor de ningún xulgath durante 1 minuto <em> (Usa @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} ) </em> . </p>"
+        }
+      }
+    },
+    "Zephyr Hawk (BB)": {
+      "name": "Halcón Céfiro (BB)",
+      "publicNotes": "<p> Los elementales de aire, como el halcón céfiro, aparecen en una variedad de tamaños y formas. Desde el Plano del Aire, los halcones céfiros a menudo son convocados para ser utilizados como mensajeros aéreos. Los elementales de aire también pueden llegar espontáneamente durante poderosas tormentas y tornados donde se forman vórtices elementales. </p>\n <p> Los halcones céfiros parecen estar hechos de nubes, con formas distintas que les dan la apariencia de tener alas y picos de pájaros. Cuando uno ve nubes que parecen animales,a menudo, sin saberlo, observan elementales del aire. Los halcones céfiros a veces vagan entre las corrientes de viento en grandes bandadas llamadas lances. </p>",
+      "tokenName": "Halcón céfiro",
+      "items": {
+        "strike-melee->Wing": {
+          "name": "Ala"
+        },
+        "action->Circling Attack": {
+          "name": "Ataque circular",
+          "description": "<p> El halcón céfiro vuela hasta la mitad de su velocidad, realiza dos golpes con las alas y luego vuela hasta la mitad de su velocidad nuevamente para regresar a su ubicación original. La segunda mitad de este movimiento no desencadena reacciones como @UUID[Compendium.pf2e.feats-srd.Item.NMWXHGWUcZGoLDKb]{Attack of Opportunity} . El segundo ataque usa la misma penalización de ataque múltiple que el primero, pero los ataques que realice después de este reciben una penalización de ataque múltiple de -8. </p>"
+        }
+      }
+    },
+    "Zombie Shambler (BB)": {
+      "name": "Zombi Shambler (BB)",
+      "publicNotes": "<p> El único deseo de un zombie es consumir a los vivos. Los zombis, presagios de la muerte irreflexivos y siempre tambaleantes, sólo se detienen cuando son destruidos. Un zombie shambler es un horror de movimiento lento más peligroso en grupos más grandes. Entre los muertos vivientes, los zombis se utilizan con mayor frecuencia como forraje, desgastando las defensas antes de que lleguen muertos vivientes más poderosos para asestar el golpe mortal. Los zombis pueden ser comandados por muertos vivientes inteligentes y nigromantes poderosos. </p>",
+      "tokenName": "Zombi Shambler",
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Puño"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas",
+          "description": "<p> <strong> Requisitos </strong> El zombie tiene una criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} o @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado} . </p>"
+        },
+        "action->Slow": {
+          "name": "Lento",
+          "description": "<p> Un zombie tiene sólo 2 acciones en su turno y no puede usar reacciones. </p>"
+        },
+        "action->Grab": {
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]\n <p> Cuando el zombie golpea con su puño, puede usar esta acción para darle automáticamente al objetivo la condición @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} hasta el final de su siguiente turno. </p>"
+        }
+      }
+    }
+  },
+  "mapping": {
+    "acDetails": "system.attributes.ac.details",
+    "description": {
+      "converter": "translateActorDescription",
+      "path": "system.details.description"
+    },
+    "disable": "system.details.disable",
+    "hpDetails": "system.attributes.hp.details",
+    "items": {
+      "converter": "translateActorItems",
+      "path": "items"
+    },
+    "languages": "system.details.languages.details",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "portrait": {
+      "converter": "updateActorImage",
+      "path": "img"
+    },
+    "publicNotes": {
+      "converter": "translateActorDescription",
+      "path": "system.details.publicNotes"
+    },
+    "reset": "system.details.reset",
+    "routine": "system.details.routine",
+    "senses": "system.perception.details",
+    "skillSpecialAthletics": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.athletics.special"
+    },
+    "skillSpecialCrafting": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.crafting.special"
+    },
+    "skillSpecialStealth": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.stealth.special"
+    },
+    "skillSpecialSurvival": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.survival.special"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.details.publication.title"
+    },
+    "stealth": "system.attributes.stealth.details",
+    "tokenImage": {
+      "converter": "updateTokenImage",
+      "path": "prototypeToken.texture.src"
+    },
+    "tokenName": {
+      "converter": "translateTokenName",
+      "path": "prototypeToken.name"
+    }
+  }
+}

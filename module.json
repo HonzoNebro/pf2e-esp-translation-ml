@@ -1,0 +1,100 @@
+{
+  "id": "pf2e-esp-translation-ml",
+  "name": "pf2e-esp-translation-ml",
+  "title": "Translation: Spanish [PF2E] [UNOFFICIAL] [V14]",
+  "description": "Traduccion independiente al español de [PF2E] para Foundry VTT 14.",
+  "authors": [
+    {
+      "name": "HonzoNebro",
+      "url": "https://github.com/HonzoNebro"
+    }
+  ],
+  "version": "8.1.2",
+  "url": "https://github.com/HonzoNebro/pf2e-esp-translation-ml",
+  "changelog": "https://github.com/HonzoNebro/pf2e-esp-translation-ml/releases/latest",
+  "manifest": "https://github.com/HonzoNebro/pf2e-esp-translation-ml/releases/latest/download/module.json",
+  "download": "https://github.com/HonzoNebro/pf2e-esp-translation-ml/releases/latest/download/pf2e-esp-translation-ml.zip",
+  "bugs": "https://github.com/HonzoNebro/pf2e-esp-translation-ml/issues",
+  "license": "https://raw.githubusercontent.com/HonzoNebro/pf2e-esp-translation-ml/main/LICENSE",
+  "readme": "https://raw.githubusercontent.com/HonzoNebro/pf2e-esp-translation-ml/main/README.md",
+  "esmodules": [
+    "src/babele-register.js",
+    "src/translator/translator.js"
+  ],
+  "styles": [
+    "styles/pf2e.css"
+  ],
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "translation/es/es.json"
+    },
+    {
+      "lang": "es",
+      "name": "Foundry Español",
+      "path": "translation/es/foundry-es.json"
+    },
+    {
+      "lang": "es",
+      "name": "Actions",
+      "path": "translation/es/action-es.json"
+    },
+    {
+      "lang": "es",
+      "name": "Rules Elements",
+      "path": "translation/es/re-es.json"
+    },
+    {
+      "lang": "es",
+      "name": "Kingmaker",
+      "path": "translation/es/kingmaker-es.json"
+    },
+    {
+      "lang": "es",
+      "name": "PF2e Dailies",
+      "path": "translation/es/modules/pf2e-dailies-es.json"
+    },
+    {
+      "lang": "es",
+      "name": "PF2e Flatcheck Helper",
+      "path": "translation/es/modules/pf2e-flatcheck-helper-es.json"
+    },
+    {
+      "lang": "es",
+      "name": "PF2e HUD",
+      "path": "translation/es/modules/pf2e-hud-es.json"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "8.1.2",
+          "verified": "8.1.2",
+          "maximum": "8"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele"
+      },
+      {
+        "id": "lib-wrapper"
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "14.360",
+    "verified": "14.361",
+    "maximum": "14"
+  },
+  "socket": false,
+  "protected": false,
+  "coreTranslation": false,
+  "library": false
+}

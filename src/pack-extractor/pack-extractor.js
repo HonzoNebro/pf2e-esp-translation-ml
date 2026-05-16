@@ -1,0 +1,71 @@
+import { readFileSync, writeFileSync } from "fs";
+import { PF2_DEFAULT_MAPPING } from "../helper/pack-extractor/constants.js";
+import { buildItemDatabase, extractPack, extractPackGroupList, postExtractMessage } from "../helper/pack-extractor/pack-extractor.js";
+import { getZipContentFromURL, saveFileWithDirectories, writeFilesFromBlob } from "../helper/util/file-handler.js";
+import { extractAndReadPacksFromZip } from "../helper/util/level-db.js";
+import { replaceProperties } from "../helper/util/utilities.js";
+
+// Read config file
+const configFile = JSON.parse(readFileSync("./src/pack-extractor/pack-extractor-config.json", "utf-8"));
+
+const CONFIG = { ...configFile, mappings: PF2_DEFAULT_MAPPING };
+
+// Replace linked mappings and savePaths with actual data
+replaceProperties(CONFIG.mappings, ["subMapping"], CONFIG.mappings);
+replaceProperties(CONFIG.packs, ["mapping"], CONFIG.mappings);
+replaceProperties(CONFIG.packs, ["savePath"], CONFIG.filePaths.packs);
+
+// Fetch assets from current pf2 release and get zip contents
+const packs = await getZipContentFromURL(CONFIG.filePaths.zipURL);
+
+// Build item database in order to compare actor items with their comdendium entries
+const itemDatabase = buildItemDatabase(packs, CONFIG.itemDatabase);
+
+// Extract data for all configured packs
+const extractedPackGroupList = extractPackGroupList(packs, CONFIG.packs, itemDatabase);
+
+// Write extracted packs to target directories
+Object.keys(extractedPackGroupList.extractedPackGroups).forEach((packGroup) => {
+  const path = CONFIG.packs[packGroup].savePath;
+  Object.keys(extractedPackGroupList.extractedPackGroups[packGroup]).forEach((pack) => {
+    writeFileSync(`${path}/${pack}.json`, JSON.stringify(extractedPackGroupList.extractedPackGroups[packGroup][pack], null, 2));
+  });
+});
+
+// Write dictionary to target directory
+writeFileSync(CONFIG.filePaths.dictionary, JSON.stringify(extractedPackGroupList.packGroupListDictionary, null, 2));
+
+// Extract and write i18n files
+writeFilesFromBlob(
+  packs.filter((pack) => CONFIG.i18nFiles.includes(`${pack.fileName}.${pack.fileType}`)),
+  CONFIG.filePaths.i18n,
+  "i8n files"
+);
+
+// Extract and write i18n files and compendiums for modules
+postExtractMessage("module localizations", true);
+for (const [moduleId, moduleData] of Object.entries(configFile.moduleLocalizations.modules ?? {})) {
+  const zipEntries = await getZipContentFromURL(moduleData.url);
+
+  // Get i18n file
+  if (moduleData.i18nFile) {
+    const i18nFile = zipEntries.find((o) => `${o.path}${o.fileName}.${o.fileType}` === moduleData.i18nFile);
+    if (!i18nFile) {
+      console.warn(`${moduleId}: File not found`);
+    } else {
+      postExtractMessage(`i18n for ${moduleId}`);
+      saveFileWithDirectories(`${configFile.moduleLocalizations.savePathi18n}/${moduleId}.json`, JSON.stringify(JSON.parse(i18nFile.content), null, 2));
+    }
+  }
+
+  // Extract compendiums
+  if (moduleData.compendiums) {
+    for (const comp of moduleData.compendiums) {
+      const extractedDBs = await extractAndReadPacksFromZip(zipEntries, comp.subDirName, comp.levelDBs);
+      for (const extractedDB of extractedDBs) {
+        const extractedPack = extractPack(extractedDB.fileName, extractedDB.fileContent.packData, CONFIG.mappings[extractedDB.mapping]);
+        saveFileWithDirectories(`${configFile.moduleLocalizations.savePathCompendium}/${extractedDB.fileName}`, JSON.stringify(extractedPack.extractedPack, null, 2));
+      }
+    }
+  }
+}

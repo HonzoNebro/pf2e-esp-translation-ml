@@ -1,0 +1,73 @@
+name: Create new Release
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+env:
+  ZIP_FILENAME: "pf2e-esp-translation-ml"
+  PACKAGE_CONTENT: "module.json src/babele-register.js src/translator/ translation/ styles/"
+
+jobs:
+  versioning:
+    runs-on: ubuntu-latest
+    outputs:
+      tag: ${{steps.changelog.outputs.tag}}
+      skipped: ${{steps.changelog.outputs.skipped}}
+      changelog: ${{steps.changelog.outputs.changelog}}
+    steps:
+      - uses: actions/checkout@v4.2.2
+      - name: Conventional Changelog Action
+        id: changelog
+        uses: TriPSs/conventional-changelog-action@v3
+        with:
+          github-token: ${{ secrets.github_token }}
+          skip-on-empty: false
+          version-file: "module.json"
+  build:
+    runs-on: ubuntu-latest
+    needs: versioning
+    steps:
+      - uses: actions/checkout@v4.2.2
+        with:
+          ref: ${{ needs.versioning.outputs.tag }}
+      # Create a zip file with all files required by the module to add to the release
+      - name: Create Artifact
+        if: ${{ needs.versioning.outputs.skipped == 'false' }}
+        id: build-zip
+        run: zip -r $ZIP_FILENAME.zip $PACKAGE_CONTENT
+
+      # Create a release for this specific version
+      - name: Create release
+        id: create_release
+        uses: ncipollo/release-action@v1
+        if: ${{ needs.versioning.outputs.skipped == 'false' }}
+        with:
+          allowUpdates: true
+          name: ${{needs.versioning.outputs.tag}}
+          draft: false
+          prerelease: false
+          token: ${{ secrets.GITHUB_TOKEN }}
+          artifacts: "./module.json, ./${{env.ZIP_FILENAME}}.zip"
+          tag: ${{ needs.versioning.outputs.tag }}
+          body: ${{ needs.versioning.outputs.changelog }}
+
+  publish:
+    runs-on: ubuntu-latest
+    needs: [versioning, build]
+    steps:
+      - name: Publish to Foundry VTT Repo
+        id: publish_foundry_repo
+        if: ${{ needs.versioning.outputs.skipped == 'false' }}
+        run: npx @ghost-fvtt/foundry-publish
+        env:
+          FVTT_MANIFEST_URL: 'https://github.com/HonzoNebro/pf2e-esp-translation-ml/releases/latest/download/module.json'
+          FVTT_PACKAGE_ID: ${{ secrets.FVTT_PACKAGE_ID }}
+          FVTT_USERNAME: ${{ secrets.FVTT_USERNAME }}
+          FVTT_PASSWORD: ${{ secrets.FVTT_PASSWORD }}
+          FVTT_MINIMUM_CORE_VERSION: 14.360
+          FVTT_PACKAGE_VERSION: ${{ needs.versioning.outputs.tag }}
+          FVTT_VERIFIED_CORE_VERSION: 14.361
+          FVTT_COMPATIBLE_CORE_VERSION: 14
+          FVTT_TOKEN: ${{ secrets.FVTT_TOKEN }}
