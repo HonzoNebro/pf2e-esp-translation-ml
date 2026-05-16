@@ -47,9 +47,9 @@
     "Collapsing Structure": {
       "name": "Collapsing Structure",
       "description": "<p>Ebeshra brushes against a structure, possibly causing it to collapse.</p>",
-      "disable": "<p>@Check[athletics|dc:43|name:Brace Building (Athletics)|traits:complex,environmental,kaiju,hazard] (master), @Check[crafting|dc:43|name:Brace Building (Crafting)|traits:complex,environmental,kaiju,hazard] (master), or @Check[engineering|dc:43|name:Brace Building (Engineering)|traits:complex,environmental,kaiju,hazard]{Engineering Lore} (master) to brace the structure to reduce the risk of collapse until the end of the creature's next turn. The DC of the flat check for this round (see Routine) is increased by 4 on a success, or by 8 on a critical success. Increasing the flat check DC to 21 or higher stabilizes the structure, ending this hazard.</p>",
+      "disable": "<p>@Check[athletics|dc:43|name:Brace Building (Athletics)|traits:complex,environmental,kaiju,hazard] (master), @Check[crafting|dc:43|name:Brace Building (Crafting)|traits:complex,environmental,kaiju,hazard] (master), or @Check[engineering|dc:43|name:Brace Building (Engineering)|traits:complex,environmental,kaiju,hazard]{Engineering LORE} (master) to brace the structure to reduce the risk of collapse until the end of the creature's next turn. The DC of the flat check for this round (see Routine) is increased by 4 on a success, or by 8 on a critical success. Increasing the flat check DC to 21 or higher stabilizes the structure, ending this hazard.</p>",
       "reset": "<p>The building becomes susceptible to Shake Apart again 1d6 rounds after it's stabilized.</p>",
-      "routine": "<p>The GM rolls a @Check[flat|dc:9|showDC:owner] to determine if the building partially collapses, increasing the DC as listed above. On a successful check, dust and debris fall within the building and 30 feet around it, providing concealment and dealing @Damage[6d6[bludgeoning]] damage to [[/r 1d4 #Targets]] randomly chosen targets (@Check[reflex|dc:35|basic|name:Falling Debris|traits:hazard,complex,environmental,kaiju] save; on a critical failure, the creature is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}). On a critical success, the effect is the same, but the debris deals @Damage[12d6[bludgeoning]] damage to [[/r 2d4 #Targets]] randomly chosen targets instead (@Check[reflex|dc:35|basic|name:Falling Debris|traits:hazard,complex,environmental,kaiju] save; on a critical failure, the creature is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by rubble until freed [@UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Force Open} DC 38, @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC 35]).</p>",
+      "routine": "<p>The GM rolls a @Check[flat|dc:9|showDC:owner] to determine if the building partially collapses, increasing the DC as listed above. On a successful check, dust and debris fall within the building and 30 feet around it, providing concealment and dealing @Damage[6d6[bludgeoning]] damage to [[/r 1d4 #Targets]] randomly chosen targets (@Check[reflex|dc:35|basic|name:Falling Debris|traits:hazard,complex,environmental,kaiju] save; on a critical failure, the creature is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}). On a critical success, the effect is the same, but the debris deals @Damage[12d6[bludgeoning]] damage to [[/r 2d4 #Targets]] randomly chosen targets instead (@Check[reflex|dc:35|basic|name:Falling Debris|traits:hazard,complex,environmental,kaiju] save; on a critical failure, the creature is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by rubble until freed [@UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{FORCE OPEN} DC 38, @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC 35]).</p>",
       "stealth": "<p>(master) to notice cracks forming in the walls of the structure as Ebeshra approaches</p>",
       "items": {
         "action->Shake Apart": {
@@ -117,7 +117,7 @@
         },
         "action->Impaling Charge": {
           "name": "Impaling Charge",
-          "description": "<p>Cuetzmonquali charges forward and attempts to gore a foe. It Strides and attempts a horn Strike. On a hit, the target becomes impaled on one of Cuetzmonquali's horns. The creature becomes @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}. If Cuetzmonquali moves, it brings the grabbed creature along with it. Cuetzmonquali doesn't need to use additional actions to keep the creature grabbed; the creature remains grabbed as long as it's impaled. The grabbed creature can attempt to Escape as normal, but the DC to do so is 40, rather than Cuetzmonquali's Athletics DC. If Cuetzmonquali critically hit the creature to impale it, that creature is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} for 1 round, in addition to being grabbed and impaled as per a success.</p>"
+          "description": "<p>Cuetzmonquali charges forward and attempts to gore a foe. It Strides and attempts a horn Strike. On a hit, the target becomes impaled on one of Cuetzmonquali's horns. The creature becomes @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}. If Cuetzmonquali moves, it brings the grabbed creature along with it. Cuetzmonquali doesn't need to use additional actions to keep the creature grabbed; the creature remains grabbed as long as it's impaled. The grabbed creature can attempt to Escape as normal, but the DC to do so is 40, rather than Cuetzmonquali's ATHLETICS DC. If Cuetzmonquali critically hit the creature to impale it, that creature is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} for 1 round, in addition to being grabbed and impaled as per a success.</p>"
         },
         "action->Trample": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\n<p>Large or smaller, claw, @Check[reflex|dc:38|basic] save</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
@@ -189,7 +189,7 @@
           "description": "<p><strong>Requirements</strong> Desert's Howl has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}</p>\n<hr />\n<p><strong>Effect</strong> Desert's Howl begins to consume the creature, dealing @Damage[(2d12+15)[piercing]] damage (@Check[fortitude|dc:41|basic] save) and exposing the creature to its paralytic secretion.</p>"
         },
         "lore->Desert Lore": {
-          "name": "Desert Lore"
+          "name": "Desert LORE"
         }
       }
     },
@@ -270,10 +270,10 @@
           "description": "<p>Fafnheir makes two claw Strikes and one Strike with his jaws, horns, or tail, in any order.</p>"
         },
         "lore->First World Lore": {
-          "name": "First World Lore"
+          "name": "First World LORE"
         },
         "lore->Saga Lands Lore": {
-          "name": "Saga Lands Lore"
+          "name": "Saga Lands LORE"
         }
       }
     },
@@ -454,7 +454,7 @@
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.o4lRVTwSxnOOn5vl]\nSleep (At Will)"
         },
         "weapon->Devil's Trident": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.TO8UvbBy1NfVbrdB]\n<p>This <em>+1 striking returning trident</em> is made of an ancient black metal that glistens unnaturally and is cold to the touch. The prongs of this trident drip with metallic lake water. Strikes with the <em>Devil's Trident</em> trigger the weaknesses of any creature with a weakness to water.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> Command</p>\n<p><strong>Trigger</strong> You critically hit a creature</p>\n<hr />\n<p><strong>Effect</strong> The target must succeed at a @Check[fortitude|dc:25|traits:disease,virulent] save or become infected with sewer haze.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> The trident casts 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.02J0rDTk37KN2sjt]{Quench} with a DC of 25 and a counteract modifier of [[/r 1d20+15 #Quench Counteract Modifier]]{+15}. You can Sustain the Spell as normal.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You call upon the corrupted power of the trident to stay a foe. Attempt a Strike. On a hit, the trident casts 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.DCQHaLrYXMI37dvW]{Paralyze} on the target (DC 25). If the Strike was a critical hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} even if it critically succeeds at the save.</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.TO8UvbBy1NfVbrdB]\n<p>This <em>+1 striking returning trident</em> is made of an ancient black metal that glistens unnaturally and is cold to the touch. The prongs of this trident drip with metallic lake water. Strikes with the <em>Devil's Trident</em> trigger the weaknesses of any creature with a weakness to water.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> Command</p>\n<p><strong>Trigger</strong> You critically hit a creature</p>\n<hr />\n<p><strong>Effect</strong> The target must succeed at a @Check[fortitude|dc:25|traits:disease,virulent] save or become infected with sewer haze.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, INTERACT</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> The trident casts 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.02J0rDTk37KN2sjt]{Quench} with a DC of 25 and a counteract modifier of [[/r 1d20+15 #Quench Counteract Modifier]]{+15}. You can Sustain the Spell as normal.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> envision, INTERACT</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You call upon the corrupted power of the trident to stay a foe. Attempt a Strike. On a hit, the trident casts 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.DCQHaLrYXMI37dvW]{Paralyze} on the target (DC 25). If the Strike was a critical hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} even if it critically succeeds at the save.</p>"
         },
         "equipment->Skinned Cloak": {
           "name": "Skinned Cloak"
@@ -583,7 +583,7 @@
       "name": "Krampus (The Horned Miser)",
       "blurb": "Variant Krampus",
       "languages": "tongues",
-      "publicNotes": "<p>Krampus is a tall, goatlike humanoid with a pointed nose, swept-back horns, and hooved feet. His long, greasy tongue continually flickers out from his mouth, occasionally licking droplets of spittle from his dark brown fur. He wields a set of iron chains that act as an extension of his will. Krampus is never seen without a wicker basket draped over one shoulder, its bottom often stained with the blood of his victims. Krampus stands a little over 14 feet tall and weighs nearly 1,000 pounds.</p>\n<p>Krampus's origin is unknown; residents of the small towns and villages he terrorizes in northern Irrisen believe the creature has always existed, coming forth once a year to punish those he deems wicked. While many legends have been told about Krampus's beginning, the most popular of them starts with a handful of mountain towns under the protection of a circle of druids. After a series of harsh winters that the townsfolk barely survived, they began to doubt the power of the druids and their rituals. As the villagers grew more resentful, the druid circle took drastic action. Under the light of a blue moon, the druids opened an imperfect portal to the primal realm of the fey and called forth the most powerful spiritual essence they could, and a new creature was born-Krampus. However, unknown to the druids, the portal had been corrupted by the villagers' bitter resentment and doubt. Instead of a central figure to lead them in winter celebrations, as they had hoped, the druids had spawned a monster who sought to punish those who had behaved selfishly during lean times.</p>\n<p>Recognizing their error, the druids sought to banish their creation. They tracked Krampus down as he slept and shackled him in cold iron chains, hoping to subdue him and force him back to the First World. But Krampus was no fey, and cold iron held no power over him. When he awoke, he ripped the chains free, claimed them as his own, and tracked down the druids who had dared try to capture him. After their betrayal, Krampus can see no good in any mortal and longs only to punish the wicked for their selfish misdeeds.</p>\n<p>To this day, Krampus takes vicious delight in transforming his victims into the petulant children before killing them, and no manner of sacrifice can appease him. Luckily for any nearby villages, Krampus stalks their streets but once a year.</p>\n<p>Locals believe that Krampus makes his lair among the deep crevasses of ice somewhere within the Winterwall Glacier, which lines Avistan's northernmost reaches. No adventurer has yet braved the treacherous expanse to find and defeat him.</p>\n<p>While Krampus is most infamous for tracking and punishing the naughty, his own sins often inform his vindictive responses to others' misdeeds. An incarnation of Krampus who arose from irrepressible greed might possess abilities that better reflect his fierce miserly behavior, emphasizing less the abduction of miscreants and more the disproportionate punishment of thieves and robbers. Such a variant Krampus might arise in different cultures that tell different stories about Krampus, or Krampus's powers and nature might drift between incarnations each time he is defeated and arises anew elsewhere in the world the following year. In these cultures or incarnations, Krampus represents a remorseless yet generous spirit who's willing to grant boons to the truly worthy while tormenting any who fail his morality tests.</p>\n<p>Unfortunately for people in regions terrorized by this Krampus, his definition of \"any who fail his morality tests\" tend to be nearly everyone but the most innocent and generous of people.</p>",
+      "publicNotes": "<p>Krampus is a tall, goatlike humanoid with a pointed nose, swept-back horns, and hooved feet. His long, greasy tongue continually flickers out from his mouth, occasionally licking droplets of spittle from his dark brown fur. He wields a set of iron chains that act as an extension of his will. Krampus is never seen without a wicker basket draped over one shoulder, its bottom often stained with the blood of his victims. Krampus stands a little over 14 feet tall and weighs nearly 1,000 pounds.</p>\n<p>Krampus's origin is unknown; residents of the small towns and villages he terrorizes in northern Irrisen believe the creature has always existed, coming forth once a year to punish those he deems wicked. While many legends have been told about Krampus's beginning, the most popular of them starts with a handful of mountain towns under the protection of a circle of druids. After a series of harsh winters that the townsfolk barely survived, they began to doubt the power of the druids and their rituals. As the villagers grew more resentful, the druid circle took drastic action. Under the light of a blue moon, the druids opened an imperfect portal to the primal realm of the fey and called forth the most powerful spiritual essence they could, and a new creature was born-Krampus. However, unknown to the druids, the portal had been corrupted by the villagers' bitter resentment and doubt. Instead of a central figure to lead them in winter celebrations, as they had hoped, the druids had spawned a monster who sought to punish those who had behaved selfishly during lean times.</p>\n<p>Recognizing their error, the druids sought to banish their creation. They tracked Krampus down as he slept and shackled him in cold iron chains, hoping to subdue him and force him back to the First World. But Krampus was no fey, and cold iron held no power over him. When he awoke, he ripped the chains free, claimed them as his own, and tracked down the druids who had dared try to capture him. After their betrayal, Krampus can see no good in any mortal and longs only to punish the wicked for their selfish misdeeds.</p>\n<p>To this day, Krampus takes vicious delight in transforming his victims into the petulant children before killing them, and no manner of sacrifice can appease him. Luckily for any nearby villages, Krampus stalks their streets but once a year.</p>\n<p>Locals believe that Krampus makes his lair among the deep crevasses of ice somewhere within the Winterwall Glacier, which lines Avistan's northernmost reaches. No adventurer has yet braved the treacherous expanse to find and defeat him.</p>\n<p>While Krampus is most infamous for tracking and punishing the naughty, his own sins often inform his vindictive responses to others' misdeeds. An incarnation of Krampus who arose from irrepressible greed might possess abilities that better reflect his fierce miserly behavior, emphasizing less the abduction of miscreants and more the disproportionate punishment of thieves and robbers. Such a variant Krampus might arise in different cultures that tell different stories about Krampus, or Krampus's powers and NATURE might drift between incarnations each time he is defeated and arises anew elsewhere in the world the following year. In these cultures or incarnations, Krampus represents a remorseless yet generous spirit who's willing to grant boons to the truly worthy while tormenting any who fail his morality tests.</p>\n<p>Unfortunately for people in regions terrorized by this Krampus, his definition of \"any who fail his morality tests\" tend to be nearly everyone but the most innocent and generous of people.</p>",
       "senses": "blizzard sight",
       "speed": "air walk, snowstep",
       "tokenName": "Krampus",
@@ -632,7 +632,7 @@
         },
         "action->Bountiful Bag": {
           "name": "Bountiful Bag",
-          "description": "<p>Krampus carries a large bag brimming with barely contained gifts and trinkets, including one of every common item with the consumable trait of levels 1 to 20, at least 20 <em>golden rod mementos</em>, and an assortment of food and valuables. Once every 24 hours, the bag's contents magically regenerate, replacing any of these items that have been removed. Krampus can Interact with the bag to stow or withdraw items, always finding the desired stored item at the top of the bag. The bag is an extradimensional space, so the weight of its contents doesn't count against Krampus's Bulk limit. The bag functions as a normal sack if used by anyone other than Krampus, and if the bag is stolen or Krampus is slain, the bag retains only [[/r 2d4]] random common consumable items of 16th level or higher.</p>\n<p>A creature can use @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} or @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Steal} to extract a consumable item from Krampus's bag. As part of the action, the creature can envision a specific item it wants to extract. On a success, the creature Disarms or Steals the object and rolls a @Check[flat|dc:13|name:Stealing from Krampus' Bag|showDC:owner] check.</p>\n<hr />\n<p><strong>Success</strong> The creature Disarms or Steals the envisioned object. If the creature didn't envision an object, it Disarms or Steals a random common consumable item of a level at least half the creature's level.</p>\n<p><strong>Failure</strong> The creature Disarms or Steals a random common consumable item of a level at least half the creature's level.</p>\n<p><strong>Critical Failure</strong> The creature Disarms or Steals a <em>golden rod memento</em> instead of a consumable item.</p>"
+          "description": "<p>Krampus carries a large bag brimming with barely contained gifts and trinkets, including one of every common item with the consumable trait of levels 1 to 20, at least 20 <em>golden rod mementos</em>, and an assortment of food and valuables. Once every 24 hours, the bag's contents magically regenerate, replacing any of these items that have been removed. Krampus can INTERACT with the bag to stow or withdraw items, always finding the desired stored item at the top of the bag. The bag is an extradimensional space, so the weight of its contents doesn't count against Krampus's Bulk limit. The bag functions as a normal sack if used by anyone other than Krampus, and if the bag is stolen or Krampus is slain, the bag retains only [[/r 2d4]] random common consumable items of 16th level or higher.</p>\n<p>A creature can use @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} or @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Steal} to extract a consumable item from Krampus's bag. As part of the action, the creature can envision a specific item it wants to extract. On a success, the creature Disarms or Steals the object and rolls a @Check[flat|dc:13|name:Stealing from Krampus' Bag|showDC:owner] check.</p>\n<hr />\n<p><strong>Success</strong> The creature Disarms or Steals the envisioned object. If the creature didn't envision an object, it Disarms or Steals a random common consumable item of a level at least half the creature's level.</p>\n<p><strong>Failure</strong> The creature Disarms or Steals a random common consumable item of a level at least half the creature's level.</p>\n<p><strong>Critical Failure</strong> The creature Disarms or Steals a <em>golden rod memento</em> instead of a consumable item.</p>"
         },
         "action->Frightful Presence": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>120 feet. @Check[will|dc:42]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
@@ -643,7 +643,7 @@
         },
         "action->Capture": {
           "name": "Capture",
-          "description": "<p><strong>Requirements</strong> Krampus has a Medium or smaller creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}</p>\n<hr />\n<p><strong>Effect</strong> Krampus attempts to stuff the grabbed creature into his basket, attempting an @Check[athletics|defense:reflex] check against the target's Reflex DC. If he succeeds, the creature is shoved into Krampus's basket and Krampus's spiked chain or claw is freed for future Strikes.</p>\n<p>The captured creature is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}, and subjected to Krampus's regression ability (see below) at the start of each round it is captured.</p>\n<p>If the victim @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} (DC 48), it climbs out of the basket. A captured creature can attack the interior of the basket, but only with unarmed attacks or weapons of light Bulk or less, against an AC of 40. If the captured creature deals 40 slashing or piercing damage, the basket is broken and all the creatures inside spill out. A creature that gets free by either Escaping or by someone breaking the basket is deposited in a square of their choosing adjacent to Krampus.</p>\n<p>The basket is an extradimensional space, so the weight of the creatures within doesn't count against Krampus's Bulk limit. Up to four Small creatures or two Medium creatures can fit in the basket at one time.</p>\n<p>Krampus can @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{Repair} the basket as a 2-action activity that doesn't require tools. If the basket is lost or destroyed, Krampus can create a new one with 1 hour of work. The basket functions as a normal sack if used by anyone other than Krampus.</p>"
+          "description": "<p><strong>Requirements</strong> Krampus has a Medium or smaller creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}</p>\n<hr />\n<p><strong>Effect</strong> Krampus attempts to stuff the grabbed creature into his basket, attempting an @Check[athletics|defense:reflex] check against the target's Reflex DC. If he succeeds, the creature is shoved into Krampus's basket and Krampus's spiked chain or claw is freed for future Strikes.</p>\n<p>The captured creature is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}, and subjected to Krampus's regression ability (see below) at the start of each round it is captured.</p>\n<p>If the victim @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} (DC 48), it climbs out of the basket. A captured creature can attack the interior of the basket, but only with unarmed attacks or weapons of light Bulk or less, against an AC of 40. If the captured creature deals 40 slashing or piercing damage, the basket is broken and all the creatures inside spill out. A creature that gets free by either Escaping or by someone breaking the basket is deposited in a square of their choosing adjacent to Krampus.</p>\n<p>The basket is an extradimensional space, so the weight of the creatures within doesn't count against Krampus's Bulk limit. Up to four Small creatures or two Medium creatures can fit in the basket at one time.</p>\n<p>Krampus can @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{REPAIR} the basket as a 2-action activity that doesn't require tools. If the basket is lost or destroyed, Krampus can create a new one with 1 hour of work. The basket functions as a normal sack if used by anyone other than Krampus.</p>"
         },
         "action->Crushing Avarice": {
           "name": "Crushing Avarice",
@@ -651,14 +651,14 @@
         },
         "action->Punish the Naughty": {
           "name": "Punish the Naughty",
-          "description": "<p><strong>Requirements</strong> Krampus can sense the target with his thief scent.</p>\n<hr />\n<p>Krampus designates a single target he can see as \"naughty\" He gains a +2 circumstance bonus to Perception checks when he Seeks the naughty target and a +2 circumstance bonus to Survival checks to Track the naughty target.</p>\n<p>On melee attacks against the naughty target, Krampus's spiked chain gains the agile trait. In addition, when Krampus Grabs the naughty target, he can attempt to Capture them as a free action. Krampus can have only one naughty target at a time.</p>"
+          "description": "<p><strong>Requirements</strong> Krampus can sense the target with his thief scent.</p>\n<hr />\n<p>Krampus designates a single target he can see as \"naughty\" He gains a +2 circumstance bonus to Perception checks when he Seeks the naughty target and a +2 circumstance bonus to SURVIVAL checks to Track the naughty target.</p>\n<p>On melee attacks against the naughty target, Krampus's spiked chain gains the agile trait. In addition, when Krampus Grabs the naughty target, he can attempt to Capture them as a free action. Krampus can have only one naughty target at a time.</p>"
         },
         "action->Snowstep": {
           "name": "Snowstep",
           "description": "<p>Krampus ignores difficult terrain and greater difficult terrain caused by snow and ice, and he leaves no tracks when moving through areas of snow or ice.</p>"
         },
         "lore->Festival Lore": {
-          "name": "Festival Lore"
+          "name": "Festival LORE"
         }
       }
     },
@@ -707,14 +707,14 @@
     },
     "Kuworsys": {
       "name": "Kuworsys",
-      "publicNotes": "<p>At a distance, the creature known as Kuworsys might be mistaken for a crawling undead hand, possessed of two thumbs instead of one. These \"thumbs\" are actually the being's hind limbs, which it can clumsily stand upon should it choose. Each of its fingerlike limbs bears a smaller hand on the end, giving Kuworsys an eerie gait possessed of too many moving joints. Wedged within the wrist-shaped tissue that makes up the creature's head are three bloodshot eyes, glaring balefully from lids twisted into shape from ropes of flesh.</p>\n<p>Whether part of its base nature or due to its long imprisonment, Kuworsys appears to be skinned and rotting, its body riddled with ragged holes held together by raw sinew. Despite its glistening and putrid appearance, it isn't undead, nor does it leave any trace of blood or gristle in its wake. Those who believe its condition might slow it down are often shocked by the creature's jittering speed, and those who believe they might be able to track it by the scent of rotting flesh find themselves inhaling the beast's deadly, exhausting spores instead.</p>\n<p>When encountering another creature, Kuworsys doesn't approach initially, instead observing the stranger while hidden or at a distance. While it might grow bolder and approach to examine or provoke another being, it prefers to avoid direct confrontation and is intelligent and stealthy enough to deftly avoid discovery. Its presence proves deadly enough, even without any further aggression, as those who Kuworsys stalks eventually succumb to a lethal lethargy.</p>",
+      "publicNotes": "<p>At a distance, the creature known as Kuworsys might be mistaken for a crawling undead hand, possessed of two thumbs instead of one. These \"thumbs\" are actually the being's hind limbs, which it can clumsily stand upon should it choose. Each of its fingerlike limbs bears a smaller hand on the end, giving Kuworsys an eerie gait possessed of too many moving joints. Wedged within the wrist-shaped tissue that makes up the creature's head are three bloodshot eyes, glaring balefully from lids twisted into shape from ropes of flesh.</p>\n<p>Whether part of its base NATURE or due to its long imprisonment, Kuworsys appears to be skinned and rotting, its body riddled with ragged holes held together by raw sinew. Despite its glistening and putrid appearance, it isn't undead, nor does it leave any trace of blood or gristle in its wake. Those who believe its condition might slow it down are often shocked by the creature's jittering speed, and those who believe they might be able to track it by the scent of rotting flesh find themselves inhaling the beast's deadly, exhausting spores instead.</p>\n<p>When encountering another creature, Kuworsys doesn't approach initially, instead observing the stranger while hidden or at a distance. While it might grow bolder and approach to examine or provoke another being, it prefers to avoid direct confrontation and is intelligent and stealthy enough to deftly avoid discovery. Its presence proves deadly enough, even without any further aggression, as those who Kuworsys stalks eventually succumb to a lethal lethargy.</p>",
       "senses": "+26 vs. traps",
       "items": {
         "consumable->Explosive Ammunition": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.rKknk8odXDBpON5l]\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p>This piece of ammunition is coated in gritty black soot. When activated <em>explosive ammunition</em> hits a target, the missile explodes in a @Template[burst|distance:10], dealing @Damage[6d6[fire]] damage to each creature in the area (including the target). Each creature must attempt a @Check[reflex|dc:25|basic] save.</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.rKknk8odXDBpON5l]\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>This piece of ammunition is coated in gritty black soot. When activated <em>explosive ammunition</em> hits a target, the missile explodes in a @Template[burst|distance:10], dealing @Damage[6d6[fire]] damage to each creature in the area (including the target). Each creature must attempt a @Check[reflex|dc:25|basic] save.</p>"
         },
         "consumable->Freezing Ammunition": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.Xnmx6SJ6OkJOfYxF]\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>This chilly ammunition is dark blue and cold to the touch. When activated freezing ammunition hits a target, the target must succeed at a @Check[fortitude|dc:19] save or be slowed 1 for 1 round by the intense cold (slowed 1 for 1 minute on a critical failure).</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.Xnmx6SJ6OkJOfYxF]\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> INTERACT</p>\n<p>This chilly ammunition is dark blue and cold to the touch. When activated freezing ammunition hits a target, the target must succeed at a @Check[fortitude|dc:19] save or be slowed 1 for 1 round by the intense cold (slowed 1 for 1 minute on a critical failure).</p>"
         },
         "strike-melee->Limb": {
           "name": "Limb"
@@ -752,14 +752,14 @@
         },
         "action->Yank": {
           "name": "Yank",
-          "description": "<p><strong>Requirements</strong> Kuworsys is Reared Back</p>\n<hr />\n<p><strong>Effect</strong> Kuworsys makes a melee limb Strike against a creature and, on a success, attempts to steal the creature's weapon from its hands. Kuworsys attempts a @Check[thievery|defense:reflex] check against the target's Reflex DC.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature's weapon falls to the floor in the creature's space.</p>\n<p><strong>Success</strong> Until the start of that creature's turn, attempts to @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} the creature of its weapon gain a +2 circumstance bonus, and the target takes a -2 circumstance penalty to attacks with the weapon or other checks requiring a firm grasp on the weapon.</p>\n<p><strong>Failure</strong> The creature is unaffected.</p>\n<p><strong>Critical Failure</strong> The creature can use a reaction to attempt a melee Strike against Kuworsys with the weapon Kuworsys attempted to grab.</p>"
+          "description": "<p><strong>Requirements</strong> Kuworsys is Reared Back</p>\n<hr />\n<p><strong>Effect</strong> Kuworsys makes a melee limb Strike against a creature and, on a success, attempts to steal the creature's weapon from its hands. Kuworsys attempts a @Check[thievery|defense:reflex] check against the target's Reflex DC.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature's weapon falls to the floor in the creature's space.</p>\n<p><strong>Success</strong> Until the start of that creature's turn, attempts to @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} the creature of its weapon gain a +2 circumstance bonus, and the target takes a -2 circumstance penalty to attacks with the weapon or other checks requiring a firm grasp on the weapon.</p>\n<p><strong>Failure</strong> The creature is unaffected.</p>\n<p><strong>Critical Failure</strong> The creature can use a reaction to attempt a melee Strike against Kuworsys with the weapon Kuworsys attempted to GRAB.</p>"
         }
       }
     },
     "Melfesh Monster": {
       "name": "Melfesh Monster",
       "languages": "telepathy 100 feet",
-      "publicNotes": "<p>Each Melfesh Monster is unique at any given time since the parent fungus only gives birth to a single monster at once, and each of these creations works a little differently and looks a little different from the last. However, their forms all bear similarities. A twisting mass of creeping vines creates the bulk of a Melfesh Monster's body, sculpted into a towering figure that can glide effortlessly across the ground. Mossy growths and trumpeting fungi cover the creature like matted fur, dripping from its back and shoulders in excess. A hood of dampened bark and thick moss covers its face, revealing only a crusty wooden jaw and a pair of gleaming red eyes. An acrid stench of burning manure follows the creature, often serving as the only warning that anyone gets before it attacks.</p>\n<p>Despite their fungal nature, Melfesh Monsters are undamaged by their own jets of flame and resistant to fires set by others, often surprising hunters who paid too little attention to the legends before encountering the creature. Their terrifying spores also mean that most survivors of their attacks tend to be disoriented and delirious, relating accounts of the monster that are distorted by confusion and fear. This, along with the natural variance between different Melfesh Monsters, means that even the most diligent of researchers will come across contradictory evidence. Even if they learn from all the prior information collected over the years, they're still often caught off guard when trying to hunt down and fell the threat since the new Melfesh Monster might have an ability never seen before. The canniest researchers, when faced with the seemingly contradictory evidence, speculate that the creature might evolve or change over time, which is closer to the truth but still falls short.</p>",
+      "publicNotes": "<p>Each Melfesh Monster is unique at any given time since the parent fungus only gives birth to a single monster at once, and each of these creations works a little differently and looks a little different from the last. However, their forms all bear similarities. A twisting mass of creeping vines creates the bulk of a Melfesh Monster's body, sculpted into a towering figure that can glide effortlessly across the ground. Mossy growths and trumpeting fungi cover the creature like matted fur, dripping from its back and shoulders in excess. A hood of dampened bark and thick moss covers its face, revealing only a crusty wooden jaw and a pair of gleaming red eyes. An acrid stench of burning manure follows the creature, often serving as the only warning that anyone gets before it attacks.</p>\n<p>Despite their fungal NATURE, Melfesh Monsters are undamaged by their own jets of flame and resistant to fires set by others, often surprising hunters who paid too little attention to the legends before encountering the creature. Their terrifying spores also mean that most survivors of their attacks tend to be disoriented and delirious, relating accounts of the monster that are distorted by confusion and fear. This, along with the natural variance between different Melfesh Monsters, means that even the most diligent of researchers will come across contradictory evidence. Even if they learn from all the prior information collected over the years, they're still often caught off guard when trying to hunt down and fell the threat since the new Melfesh Monster might have an ability never seen before. The canniest researchers, when faced with the seemingly contradictory evidence, speculate that the creature might evolve or change over time, which is closer to the truth but still falls short.</p>",
       "senses": "sporesight 100 feet",
       "items": {
         "strike-melee->Limb": {
@@ -831,7 +831,7 @@
         },
         "action->Wild Empathy": {
           "name": "Wild Empathy",
-          "description": "<p>The Mosquito Witch can use Diplomacy to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} on and make Requests of arthropods (insects, spiders, and similar invertebrates like bloodseekers). Most arthropods have a starting attitude of indifferent to the Mosquito Witch.</p>"
+          "description": "<p>The Mosquito Witch can use DIPLOMACY to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} on and make Requests of arthropods (insects, spiders, and similar invertebrates like bloodseekers). Most arthropods have a starting attitude of indifferent to the Mosquito Witch.</p>"
         },
         "action->Haunting Gaze": {
           "name": "Haunting Gaze",
@@ -872,7 +872,7 @@
         },
         "action->Wild Empathy": {
           "name": "Wild Empathy",
-          "description": "<p>The Mosquito Witch can use Diplomacy to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} on and make Requests of arthropods (insects, spiders, and similar invertebrates like bloodseekers). Most arthropods have a starting attitude of indifferent to the Mosquito Witch.</p>"
+          "description": "<p>The Mosquito Witch can use DIPLOMACY to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} on and make Requests of arthropods (insects, spiders, and similar invertebrates like bloodseekers). Most arthropods have a starting attitude of indifferent to the Mosquito Witch.</p>"
         },
         "action->Bloodbelly": {
           "name": "Bloodbelly",
@@ -935,7 +935,7 @@
         },
         "action->Wild Empathy": {
           "name": "Wild Empathy",
-          "description": "<p>The Mosquito Witch can use Diplomacy to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} on and make Requests of arthropods (insects, spiders, and similar invertebrates like bloodseekers). Most arthropods have a starting attitude of indifferent to the Mosquito Witch.</p>"
+          "description": "<p>The Mosquito Witch can use DIPLOMACY to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} on and make Requests of arthropods (insects, spiders, and similar invertebrates like bloodseekers). Most arthropods have a starting attitude of indifferent to the Mosquito Witch.</p>"
         },
         "action->Haunting Gaze": {
           "name": "Haunting Gaze",
@@ -990,7 +990,7 @@
         },
         "action->Wild Empathy": {
           "name": "Wild Empathy",
-          "description": "<p>The Mosquito Witch can use Diplomacy to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} on and make Requests of arthropods (insects, spiders, and similar invertebrates like bloodseekers). Most arthropods have a starting attitude of indifferent to the Mosquito Witch.</p>"
+          "description": "<p>The Mosquito Witch can use DIPLOMACY to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} on and make Requests of arthropods (insects, spiders, and similar invertebrates like bloodseekers). Most arthropods have a starting attitude of indifferent to the Mosquito Witch.</p>"
         },
         "action->Fecund Wounds": {
           "name": "Fecund Wounds",
@@ -1017,9 +1017,9 @@
     "Planar Tear": {
       "name": "Planar Tear",
       "description": "<p>Ebeshra opens a massive rift in the Material Plane that pulls nearby creatures into another plane entirely. The rift is typically to a random plane in the multiverse, though Ebeshra can have the rift pull creatures into a plane of Ebeshra's choosing. Additionally, Ebeshra can choose any number of creatures to be immune to the effects of the planar rift, usually due to the kaiju recognizing the innocence of the creatures.</p>",
-      "disable": "<p>DC 47 Lore (master) related to the specific plane beyond the rift to disrupt the planar frequency and close the rift, @Check[arcana|dc:52|name:Undo the Rift's Manifestation (Arcana)|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] (legendary) or @Check[occultism|dc:52|name:Undo the Rift's Manifestation (Occultism)|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] (legendary) to undo the magical manifestation of the rift, @Check[performance|dc:55|name:Counteract the Rift's Frequency|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] (legendary) to play a tone that counteracts the rift's harmonic frequency, or @Check[diplomacy|dc:55|name:Plead With Ebeshra (Diplomacy)|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] (legendary) or @Check[religion|dc:55|name:Plead With Ebeshra (Religion)|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] (legendary) to plead with Ebeshra to close the rift</p>",
+      "disable": "<p>DC 47 LORE (master) related to the specific plane beyond the rift to disrupt the planar frequency and close the rift, @Check[arcana|dc:52|name:Undo the Rift's Manifestation (Arcana)|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] (legendary) or @Check[occultism|dc:52|name:Undo the Rift's Manifestation (Occultism)|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] (legendary) to undo the magical manifestation of the rift, @Check[performance|dc:55|name:Counteract the Rift's Frequency|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] (legendary) to play a tone that counteracts the rift's harmonic frequency, or @Check[diplomacy|dc:55|name:Plead With Ebeshra (Diplomacy)|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] (legendary) or @Check[religion|dc:55|name:Plead With Ebeshra (Religion)|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] (legendary) to plead with Ebeshra to close the rift</p>",
       "reset": "<p>Ebeshra vanishes 1 minute after opening the rift, which closes the rift. Ebeshra must wait 1 week before it can open another planar rift.</p>",
-      "routine": "<p>The rift pulls creatures within 500 feet toward it. The rift can pull any creature, regardless of its size. Creatures in the area must attempt a @Check[fortitude|dc:45|name:Planar Rift|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] or @Check[reflex|dc:45|name:Planar Rift|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] save (the creature's choice) to resist the effects of this pull or attempt to grab something to avoid getting pulled.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature resists the pull and doesn't move toward the rift.</p>\n<p><strong>Success</strong> The creature is moved 25 feet toward the rift.</p>\n<p><strong>Failure</strong> The creature is moved 50 feet toward the rift.</p>\n<p><strong>Critical Failure</strong> The creature is moved 100 feet toward the rift. The harsh pull causes the creature to take @Damage[10d6[bludgeoning]] damage.</p>\n<p>If a creature is directly beneath the rift when the rift pulls it, the creature instead attempts a @Check[fortitude|dc:50|name:Pull Into the Rift|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] or @Check[reflex|dc:50|name:Pull Into the Rift|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] save (the creature's choice) to avoid being pulled into the rift. On a failure, the creature is pulled up into the rift and thrown to a random point on the plane on the other side.</p>",
+      "routine": "<p>The rift pulls creatures within 500 feet toward it. The rift can pull any creature, regardless of its size. Creatures in the area must attempt a @Check[fortitude|dc:45|name:Planar Rift|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] or @Check[reflex|dc:45|name:Planar Rift|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] save (the creature's choice) to resist the effects of this pull or attempt to GRAB something to avoid getting pulled.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature resists the pull and doesn't move toward the rift.</p>\n<p><strong>Success</strong> The creature is moved 25 feet toward the rift.</p>\n<p><strong>Failure</strong> The creature is moved 50 feet toward the rift.</p>\n<p><strong>Critical Failure</strong> The creature is moved 100 feet toward the rift. The harsh pull causes the creature to take @Damage[10d6[bludgeoning]] damage.</p>\n<p>If a creature is directly beneath the rift when the rift pulls it, the creature instead attempts a @Check[fortitude|dc:50|name:Pull Into the Rift|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] or @Check[reflex|dc:50|name:Pull Into the Rift|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] save (the creature's choice) to avoid being pulled into the rift. On a failure, the creature is pulled up into the rift and thrown to a random point on the plane on the other side.</p>",
       "stealth": "<p>(master) to notice Ebeshra twisting its shape in preparation of creating a planar rift</p>",
       "items": {
         "action->Tear Reality": {
@@ -1031,7 +1031,7 @@
     "Quaking Slither": {
       "name": "Quaking Slither",
       "description": "<p>Ebeshra slithers across the ground, causing the earth to tremble as though from a powerful earthquake.</p>",
-      "disable": "<p>three @Check[athletics|dc:38|name:Brace for Earthquake (Athletics)|traits:environmental,kaiju,hazard] (trained), @Check[crafting|dc:38|name:Brace for Earthquake (Crafting)|traits:environmental,kaiju,hazard] (trained), or @Check[engineering|dc:38|name:Brace for Earthquake (Engineering)|traits:environmental,kaiju,hazard]{Engineering Lore} (trained) checks to brace a small structure or surface to cancel the effects of the quake in that area, or a single @Check[diplomacy|dc:41|name:Entreat With Ebeshra|traits:environmental,kaiju,hazard] (master) check to entreat Ebeshra to stand down</p>",
+      "disable": "<p>three @Check[athletics|dc:38|name:Brace for Earthquake (Athletics)|traits:environmental,kaiju,hazard] (trained), @Check[crafting|dc:38|name:Brace for Earthquake (Crafting)|traits:environmental,kaiju,hazard] (trained), or @Check[engineering|dc:38|name:Brace for Earthquake (Engineering)|traits:environmental,kaiju,hazard]{Engineering LORE} (trained) checks to brace a small structure or surface to cancel the effects of the quake in that area, or a single @Check[diplomacy|dc:41|name:Entreat With Ebeshra|traits:environmental,kaiju,hazard] (master) check to entreat Ebeshra to stand down</p>",
       "reset": "<p>Ebeshra doesn't rush this way again for [[/gmr 1d4 #Rounds]] rounds.</p>",
       "items": {
         "action->Quake": {
@@ -1100,7 +1100,7 @@
           "description": "<p>Somnalu blasts poison gas in a @Template[burst|distance:30]{30-foot radius}. The gas lingers for 1 round, and all creatures that begin their turn in the gas or enter the gas take @Damage[4d8[poison]] damage (@Check[fortitude|dc:36|basic] save). Any creature in the gas is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}, and other creatures are concealed to all creatures in the gas. However, Somnalu can see through this concealment.</p>"
         },
         "lore->Dreamlands Lore": {
-          "name": "Dreamlands Lore"
+          "name": "Dreamlands LORE"
         }
       }
     },
@@ -1229,15 +1229,15 @@
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.zlnXpME1T2uvn8Lr]\nPass Without Trace (Constant)"
         },
         "weapon->Little Love": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.RgVOC3rpptrwENbu]\n<p>This steel <em>+1 dagger</em> is chipped and worn but no less deadly for its much-used appearance. When you critically succeed at an attack roll with <em>Little Love</em>, you can activate the dagger to spring away from your foes.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> Interact</p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Trigger</strong> You critically hit a creature with <em>Little Love</em></p>\n<hr />\n<p><strong>Effect</strong> You @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap} (or Vault, if you're Spring-Heeled Jack).</p>",
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.RgVOC3rpptrwENbu]\n<p>This steel <em>+1 dagger</em> is chipped and worn but no less deadly for its much-used appearance. When you critically succeed at an attack roll with <em>Little Love</em>, you can activate the dagger to spring away from your foes.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> INTERACT</p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Trigger</strong> You critically hit a creature with <em>Little Love</em></p>\n<hr />\n<p><strong>Effect</strong> You @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap} (or Vault, if you're Spring-Heeled Jack).</p>",
           "rules": {
             "0": {
-              "text": "<span class=\"action-glyph\">f</span> Interact; <strong>Frequency</strong> once per 10 minutes; <strong>Effect</strong> You @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap} (or Vault, if you're Spring-Heeled Jack)."
+              "text": "<span class=\"action-glyph\">f</span> INTERACT; <strong>Frequency</strong> once per 10 minutes; <strong>Effect</strong> You @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap} (or Vault, if you're Spring-Heeled Jack)."
             }
           }
         },
         "equipment->Jack's Tattered Cape": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.QOAjwtH9gycbDZCY]\n<p>This ragged, mud-stained cape closes with a single black button engraved with a leering devil's face. When you @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}, @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{High Jump}, or @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump} (or Vault, if you're Spring-Heeled Jack), you gain a +1 item bonus to Stealth checks to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} or @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak} until the start of your next turn.</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.QOAjwtH9gycbDZCY]\n<p>This ragged, mud-stained cape closes with a single black button engraved with a leering devil's face. When you @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}, @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{High Jump}, or @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump} (or Vault, if you're Spring-Heeled Jack), you gain a +1 item bonus to STEALTH checks to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} or @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak} until the start of your next turn.</p>"
         },
         "strike-melee->Little Love": {
           "name": "Little Love"
@@ -1300,7 +1300,7 @@
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
-          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the creature possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the creature possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
         },
         "action->Jelly Sense": {
           "name": "Jelly Sense",
@@ -1345,7 +1345,7 @@
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
-          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the creature possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the creature possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
         },
         "action->Jelly Sense": {
           "name": "Jelly Sense",
@@ -1394,7 +1394,7 @@
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
-          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the creature possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the creature possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
         },
         "action->Jelly Sense": {
           "name": "Jelly Sense",
@@ -1450,7 +1450,7 @@
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
-          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the creature possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the creature possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
         },
         "action->Jelly Sense": {
           "name": "Jelly Sense",
@@ -1504,7 +1504,7 @@
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
-          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the creature possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the creature possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
         },
         "action->Jelly Sense": {
           "name": "Jelly Sense",
@@ -1546,7 +1546,7 @@
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
-          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the creature possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the creature possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
         },
         "action->Jelly Sense": {
           "name": "Jelly Sense",
@@ -1593,7 +1593,7 @@
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
-          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the creature possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the creature possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
         },
         "action->Jelly Sense": {
           "name": "Jelly Sense",
@@ -1656,7 +1656,7 @@
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
-          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the creature possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of Interact actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the creature possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to all other creatures for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
         },
         "action->Jelly Sense": {
           "name": "Jelly Sense",
@@ -1736,11 +1736,11 @@
         },
         "action->Ship Armor": {
           "name": "Ship Armor",
-          "description": "<p>Tehialai hides within a shell made of all the ships she has stolen. This ship armor reduces any damage Tehialai takes by an amount equal to its Hardness. Once Tehialai is reduced to fewer than half her Hit Points, or immediately upon being damaged by a critical hit, her ship armor breaks, removing her Hardness and reducing her Armor Class to 32.</p>"
+          "description": "<p>Tehialai hides within a shell made of all the ships she has stolen. This ship armor reduces any damage Tehialai takes by an amount equal to its Hardness. Once Tehialai is reduced to fewer than half her Hit Points, or immediately upon being damaged by a critical hit, her ship armor breaks, removing her Hardness and reducing her ARMOR CLASS to 32.</p>"
         },
         "action->Capsize": {
           "name": "Capsize",
-          "description": "<p>Tehialai attempts to capsize an aquatic vessel of her size or smaller that she's adjacent to. She must succeed at a @Check[athletics|dc:33] check (reduced by 5 for each size smaller the vessel is) or the pilot's Sailing Lore DC, whichever is higher.</p>"
+          "description": "<p>Tehialai attempts to capsize an aquatic vessel of her size or smaller that she's adjacent to. She must succeed at a @Check[athletics|dc:33] check (reduced by 5 for each size smaller the vessel is) or the pilot's Sailing LORE DC, whichever is higher.</p>"
         },
         "action->Move Home": {
           "name": "Move Home",
@@ -1775,7 +1775,7 @@
           "description": "<p>Tehialai's claw whirs and spins to cut through armor and ship hulls. Tehialai makes a toothed shredder Strike. On a hit, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the end of Tehialai's next turn and takes @Damage[2d12[bleed]].</p>"
         },
         "lore->Ocean Lore": {
-          "name": "Ocean Lore"
+          "name": "Ocean LORE"
         }
       }
     },
@@ -1804,7 +1804,7 @@
         },
         "action->Imposing Mien": {
           "name": "Imposing Mien",
-          "description": "<p>Temteki can use Intimidation to Coerce or Demoralize up to four targets instead of one, rolling separate Intimidation checks against the Will DCs of each target. In addition, since Temteki Demoralizes using its appearance alone, it doesn't take a penalty to Intimidation checks to Demoralize for not speaking a language.</p>"
+          "description": "<p>Temteki can use INTIMIDATION to COERCE or DEMORALIZE up to four targets instead of one, rolling separate INTIMIDATION checks against the Will DCs of each target. In addition, since Temteki Demoralizes using its appearance alone, it doesn't take a penalty to INTIMIDATION checks to DEMORALIZE for not speaking a language.</p>"
         },
         "action->Interposing Earth": {
           "name": "Interposing Earth",
@@ -1887,7 +1887,7 @@
         },
         "action->Bump in the River": {
           "name": "Bump in the River",
-          "description": "<p>An Ulgrem-Lurann can pretend to be a floating log while in water by attempting a Stealth check. It has a +2 circumstance bonus to its checks and DCs to do so. While using Stealth this way, creatures see the log but don't realize it's an Ulgrem-Lurann.</p>",
+          "description": "<p>An Ulgrem-Lurann can pretend to be a floating log while in water by attempting a STEALTH check. It has a +2 circumstance bonus to its checks and DCs to do so. While using STEALTH this way, creatures see the log but don't realize it's an Ulgrem-Lurann.</p>",
           "rules": {
             "0": {
               "label": "Ulgrem-Lurann is pretending to be a log in the water"
@@ -1956,7 +1956,7 @@
         },
         "action->Artificer's Eye": {
           "name": "Artificer's Eye",
-          "description": "<p>Ulistul chooses one construct or statue she can currently perceive with a precise sense or with statuesense; usually, her only precise sense is vision. After choosing her target, she begins to perceive the target's surroundings as though she occupied its space. If the target is either an inanimate statue or a mindless creature, she can also verbally interact with nearby creatures (including issuing Artificer's Commands) or cause the target to move subtly, such as moving its mouth. This ability can be sustained indefinitely as long as Ulistul can perceive the target, though her visual stimuli from her own body are harder to process; she's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} when using her own senses for the effect's duration.</p>"
+          "description": "<p>Ulistul chooses one construct or statue she can currently perceive with a precise sense or with statuesense; usually, her only precise sense is vision. After choosing her target, she begins to perceive the target's surroundings as though she occupied its space. If the target is either an inanimate statue or a mindless creature, she can also verbally INTERACT with nearby creatures (including issuing Artificer's Commands) or cause the target to move subtly, such as moving its mouth. This ability can be sustained indefinitely as long as Ulistul can perceive the target, though her visual stimuli from her own body are harder to process; she's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} when using her own senses for the effect's duration.</p>"
         },
         "action->Dismantler": {
           "name": "Dismantler",
@@ -1967,7 +1967,7 @@
           "description": "<p>Ulistul takes control of a construct within 30 feet. This has the effects of @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P]{Dominate}(@Check[will|dc:32]) but can affect mindless creatures and ignores the target's golem antimagic, if any.</p>"
         },
         "lore->Jistka Lore": {
-          "name": "Jistka Lore"
+          "name": "Jistka LORE"
         }
       }
     },
@@ -2034,22 +2034,22 @@
     "senses": "system.perception.details",
     "skillSpecialAthletics": {
       "converter": "translateSkillSpecial",
-      "path": "system.skills.athletics.special"
+      "path": "system.skills.Atletismo.special"
     },
     "skillSpecialStealth": {
       "converter": "translateSkillSpecial",
-      "path": "system.skills.stealth.special"
+      "path": "system.skills.Sigilo.special"
     },
     "skillSpecialSurvival": {
       "converter": "translateSkillSpecial",
-      "path": "system.skills.survival.special"
+      "path": "system.skills.Supervivencia.special"
     },
     "source": {
       "converter": "translateSource",
       "path": "system.details.publication.title"
     },
     "speed": "system.attributes.speed.details",
-    "stealth": "system.attributes.stealth.details",
+    "stealth": "system.attributes.Sigilo.details",
     "tokenImage": {
       "converter": "updateTokenImage",
       "path": "prototypeToken.texture.src"

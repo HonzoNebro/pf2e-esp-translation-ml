@@ -7,7 +7,7 @@
     },
     "(Adamantine Dragon) Magnetic Roar": {
       "name": "(Adamantine Dragon) Magnetic Roar",
-      "description": "<p>With a mighty roar, the dragon attracts metal in a @Template[type:emanation|distance:60]. Any unattended metal object of 1 Bulk or less flies to the dragon and sticks to their hide, granting a +2 item bonus to AC for 1 minute. Any creature holding a metal object of 1 Bulk or less must attempt at a @Check[fortitude|dc:] save with a DC equal to the dragon's Avalanche Breath DC or have their item pulled to the dragon and stuck for 1 round. A creature wearing metal armor instead must succeed at a @Check[fortitude|dc:] save against the DC + 2 or be pulled, taking @Damage[1d6[bludgeoning]] damage for every 10 feet it was moved, and become magnetically stuck to the dragon for 1 round. An object or creature can be unstuck with an Interact action.</p>"
+      "description": "<p>With a mighty roar, the dragon attracts metal in a @Template[type:emanation|distance:60]. Any unattended metal object of 1 Bulk or less flies to the dragon and sticks to their hide, granting a +2 item bonus to AC for 1 minute. Any creature holding a metal object of 1 Bulk or less must attempt at a @Check[fortitude|dc:] save with a DC equal to the dragon's Avalanche Breath DC or have their item pulled to the dragon and stuck for 1 round. A creature wearing metal armor instead must succeed at a @Check[fortitude|dc:] save against the DC + 2 or be pulled, taking @Damage[1d6[bludgeoning]] damage for every 10 feet it was moved, and become magnetically stuck to the dragon for 1 round. An object or creature can be unstuck with an INTERACT action.</p>"
     },
     "(Adamantine Dragon) Petrifying Blow": {
       "name": "(Adamantine Dragon) Petrifying Blow",
@@ -32,7 +32,7 @@
     },
     "(Beheaded) Entangling": {
       "name": "(Decapitado) Enredando",
-      "description": "<p> Cabello largo y fibroso se adhiere al cuero cabelludo del decapitado. Sus golpes obtienen la habilidad @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{Grab}. </p>",
+      "description": "<p> Cabello largo y fibroso se adhiere al cuero cabelludo del decapitado. Sus golpes obtienen la habilidad @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{Presa}. </p>",
       "rules": {
         "1": {
           "text": "<div class='compact-text' data-visibility='gm'> <strong> {item|name} </strong> @Localize[PF2E.NPC.Abilities.Glossary.Grab] </div>"
@@ -85,7 +85,7 @@
     },
     "(Blight) Cursed Domain": {
       "name": "(Blight) Cursed Domain",
-      "description": "<p>Once per year, when in a terrain that is compatible with its type (such as a swamp for a swamp blight), the blight can infuse the land around it with its corrupted essence by performing a rite that takes one day. The region in a 5-mile radius becomes its cursed domain; this effect does not extend into incompatible terrain and does not move with the blight. The point at which the blight cursed the domain becomes its epicenter.</p>\n<p>Within their cursed domain, a blight ignores all non-magical difficult terrain and always gains the benefits of the @UUID[Compendium.pf2e.actionspf2e.Item.SB7cMECVtE06kByk]{Cover Tracks} action. Blights also have an imprecise sense for the locations of all creatures within their domain and can communicate with all sapient creatures they detect within their domain using telepathy. Each blight's cursed domain has additional properties specific to the blight's type. A blight outside of a cursed domain becomes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} until it returns to its own or another blight's cursed domain.</p>\n<p>Removing this curse requires a character with the @UUID[Compendium.pf2e.feats-srd.Item.zGrUu3dUtqHrqGuo]{Break Curse} feat (or a similar ability); this activity must be performed at the cursed domain's epicenter. If the blight that cursed the domain is dead, checks to counteract a cursed domain gain a +4 circumstance bonus.</p>"
+      "description": "<p>Once per year, when in a terrain that is compatible with its type (such as a swamp for a swamp blight), the blight can infuse the land around it with its corrupted essence by performing a rite that takes one day. The region in a 5-mile radius becomes its cursed domain; this effect does not extend into incompatible terrain and does not move with the blight. The point at which the blight cursed the domain becomes its epicenter.</p>\n<p>Within their cursed domain, a blight ignores all non-magical difficult terrain and always gains the benefits of the @UUID[Compendium.pf2e.actionspf2e.Item.SB7cMECVtE06kByk]{COVER TRACKS} action. Blights also have an imprecise sense for the locations of all creatures within their domain and can communicate with all sapient creatures they detect within their domain using telepathy. Each blight's cursed domain has additional properties specific to the blight's type. A blight outside of a cursed domain becomes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} until it returns to its own or another blight's cursed domain.</p>\n<p>Removing this curse requires a character with the @UUID[Compendium.pf2e.feats-srd.Item.zGrUu3dUtqHrqGuo]{Break Curse} feat (or a similar ability); this activity must be performed at the cursed domain's epicenter. If the blight that cursed the domain is dead, checks to counteract a cursed domain gain a +4 circumstance bonus.</p>"
     },
     "(Blight) Oversee Domain": {
       "name": "(Blight) Oversee Domain",
@@ -153,7 +153,7 @@
     },
     "(Coral Dragon) Grasping Waves": {
       "name": "(Coral Dragon) Grasping Waves",
-      "description": "<p>The dragon conjures five watery tentacles from unoccupied water-filled squares of their choice within 30 feet and attempts a single @Check[athletics|against:fortitude|options:inflicts:grappled] check against the Fortitude DC of every creature adjacent to a tentacle and no more than 10 feet above the water's surface. On a success, the creature is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} (Escape DC equal to the DC of the dragon's Hydraulic Breath). On a critical success, or a success against a creature already grabbed, the target is dragged below the surface and begins to drown. All tentacles disappear at the end of the dragon's next turn unless the effect is Sustained and a new Athletics check is rolled for all existing tentacles.</p>"
+      "description": "<p>The dragon conjures five watery tentacles from unoccupied water-filled squares of their choice within 30 feet and attempts a single @Check[athletics|against:fortitude|options:inflicts:grappled] check against the Fortitude DC of every creature adjacent to a tentacle and no more than 10 feet above the water's surface. On a success, the creature is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} (Escape DC equal to the DC of the dragon's Hydraulic Breath). On a critical success, or a success against a creature already grabbed, the target is dragged below the surface and begins to drown. All tentacles disappear at the end of the dragon's next turn unless the effect is Sustained and a new ATHLETICS check is rolled for all existing tentacles.</p>"
     },
     "(Coral Dragon) Palytoxin": {
       "name": "(Coral Dragon) Palytoxin",
@@ -185,7 +185,7 @@
     },
     "(Cryptid, Experimental) Energy Wave": {
       "name": "(Cryptid, Experimental) Onda de energía",
-      "description": "<p> El críptido experimental desata un @Template[type:line|distance:30] de energía de un tipo específico del críptido experimental (normalmente electricidad o fuego). Las criaturas en el área toman @Damage[1d6[damagetype]]{1d6 damage per level of the cryptid} con una salvación @Check[type:reflex|dc:|basic:true]. El críptido experimental puede usar esta habilidad una vez cada [[/br 1d4 #Recharge Energy Wave]]{1d4 rounds} . Esta acción tiene el rasgo del tipo de daño. Si los experimentos que remodelaron a la criatura fueron mágicos, esta acción también tiene el rasgo de evocación y el rasgo que coincide con el mágico.tradición de los experimentos (arcana, divina, oculta o primordial). </p>"
+      "description": "<p> El críptido experimental desata un @Template[type:line|distance:30] de energía de un tipo específico del críptido experimental (normalmente electricidad o fuego). Las criaturas en el área toman @Damage[1d6[damagetype]]{1d6 damage per level of the cryptid} con una salvación @Check[type:reflex|dc:|basic:true]. El críptido experimental puede usar esta habilidad una vez cada [[/br 1d4 #Recharge Energy Wave]]{1d4 rounds} . Esta acción tiene el rasgo del tipo de daño. Si los experimentos que remodelaron a la criatura fueron mágicos, esta acción también tiene el rasgo de evocación y el rasgo que coincide con el mágico.tradición de los experimentos (Arcanos, divina, oculta o primordial). </p>"
     },
     "(Cryptid, Experimental) Operational Flaw": {
       "name": "(Cryptid, experimental) Defecto operativo",
@@ -233,7 +233,7 @@
     },
     "(Cryptid, Rumored) Creature Obscura": {
       "name": "(Críptico, rumoreado) Criatura oscura",
-      "description": "<p> El críptido aparece en tantas leyendas urbanas que se puede identificar usando Sociedad o una habilidad de Lore conectada a un asentamiento cercano, además de las habilidades normales. Sin embargo, gran parte de la información que se conoce al respecto es dudosa. La CD para identificar un críptido rumoreado es increíblemente difícil (en lugar de muy difícil para la mayoría de las criaturas raras), pero todos los fallos en identificar un críptido rumoreado obtienen los efectos de la hazaña de habilidad @UUID[Compendium.pf2e.feats-srd.Item.1Bt7uCW2WI4sM84P]{Dubious Knowledge}. </p>"
+      "description": "<p> El críptido aparece en tantas leyendas urbanas que se puede identificar usando Sociedad o una habilidad de Saber conectada a un asentamiento cercano, además de las habilidades normales. Sin embargo, gran parte de la información que se conoce al respecto es dudosa. La CD para identificar un críptido rumoreado es increíblemente difícil (en lugar de muy difícil para la mayoría de las criaturas raras), pero todos los fallos en identificar un críptido rumoreado obtienen los efectos de la hazaña de habilidad @UUID[Compendium.pf2e.feats-srd.Item.1Bt7uCW2WI4sM84P]{Dubious Knowledge}. </p>"
     },
     "(Cryptid, Rumored) Howl": {
       "name": "(Críptico, rumoreado) Aullido",
@@ -281,7 +281,7 @@
     },
     "(Diabolic Dragon) Intercept Summons": {
       "name": "(Diabolic Dragon) Intercept Summons",
-      "description": "<p><strong>Trigger</strong> A creature within 30 feet uses magic to summon or conjure a creature</p>\n<hr />\n<p><strong>Effect</strong> The dragon attempts a counteract check with a Hell Lore check (counteract rank equal to half the dragon's level, rounded up). On a success, the dragon seizes control of the effect, causing it to fail and immediately casting a summon fiend spell of the same rank (minimum 5th) as the triggering effect to summon a creature with the devil trait.</p>"
+      "description": "<p><strong>Trigger</strong> A creature within 30 feet uses magic to summon or conjure a creature</p>\n<hr />\n<p><strong>Effect</strong> The dragon attempts a counteract check with a Hell LORE check (counteract rank equal to half the dragon's level, rounded up). On a success, the dragon seizes control of the effect, causing it to fail and immediately casting a summon fiend spell of the same rank (minimum 5th) as the triggering effect to summon a creature with the devil trait.</p>"
     },
     "(Divine Warden) Divine Destruction": {
       "name": "(Guardián Divino) Destrucción Divina",
@@ -333,7 +333,7 @@
     },
     "(Failed Prophet) Greedy Grab": {
       "name": "(Failed Prophet) Greedy Grab",
-      "description": "<p><strong>Requirements</strong> The failed prophet's last action was a successful fist Strike that dealt damage</p>\n<hr />\n<p><strong>Effect</strong> The failed prophet attempts a Thievery check against the target's Reflex DC. On a success, the failed prophet pilfers coins and gems from the target with a total value as indicated in the table, to a maximum of what the target is carrying. Valuables in unlocked containers on the target's person can be taken just as easily as those carried. On a critical success, the failed prophet steals double that amount. The failed prophet gains a number of temporary Hit Points equal to the value stolen that last for 1 minute.</p>\n<table class=\"pf2e lost-omens\">\n<thead>\n<tr>\n<th>Level</th>\n<th>Value Stolen</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>\n<p>10–12</p>\n</td>\n<td>\n<p>[[/r 5d10]] gp</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>13–15</p>\n</td>\n<td>\n<p>[[/r 6d10]] gp</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>16–18</p>\n</td>\n<td>\n<p>[[/r 7d10]] gp</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>19–20</p>\n</td>\n<td>\n<p>[[/r 8d10]] gp</p>\n</td>\n</tr>\n</tbody>\n</table>"
+      "description": "<p><strong>Requirements</strong> The failed prophet's last action was a successful fist Strike that dealt damage</p>\n<hr />\n<p><strong>Effect</strong> The failed prophet attempts a THIEVERY check against the target's Reflex DC. On a success, the failed prophet pilfers coins and gems from the target with a total value as indicated in the table, to a maximum of what the target is carrying. Valuables in unlocked containers on the target's person can be taken just as easily as those carried. On a critical success, the failed prophet steals double that amount. The failed prophet gains a number of temporary Hit Points equal to the value stolen that last for 1 minute.</p>\n<table class=\"pf2e lost-omens\">\n<thead>\n<tr>\n<th>Level</th>\n<th>Value Stolen</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>\n<p>10–12</p>\n</td>\n<td>\n<p>[[/r 5d10]] gp</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>13–15</p>\n</td>\n<td>\n<p>[[/r 6d10]] gp</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>16–18</p>\n</td>\n<td>\n<p>[[/r 7d10]] gp</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>19–20</p>\n</td>\n<td>\n<p>[[/r 8d10]] gp</p>\n</td>\n</tr>\n</tbody>\n</table>"
     },
     "(Failed Prophet) Taboos": {
       "name": "(Failed Prophet) Taboos",
@@ -613,7 +613,7 @@
     },
     "(Horned Dragon) Apex Dominance": {
       "name": "(Horned Dragon) Apex Dominance",
-      "description": "<p>When the dragon casts @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P]{Dominate} on a creature with the animal trait, the result of the target's saving throw is one degree of success worse. An animal the dragon controls with this spell can speak Draconic and gains a +2 status bonus to any Intelligence-, Wisdom-, and Charisma-based skill checks it attempts while @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlled}.</p>"
+      "description": "<p>When the dragon casts @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P]{Dominate} on a creature with the animal trait, the result of the target's saving throw is one degree of success worse. An animal the dragon controls with this spell can speak Draconic and gains a +2 status bonus to any INTELLIGENCE-, Wisdom-, and Charisma-based skill checks it attempts while @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlled}.</p>"
     },
     "(Horned Dragon) Horn Projectile": {
       "name": "(Horned Dragon) Horn Projectile",
@@ -758,7 +758,7 @@
     },
     "(Mana Wastes Mutant) Grasping Tentacle": {
       "name": "(Mana Wastes Mutant) Tentáculo agarrador",
-      "description": "<p> Al mutante le crece un apéndice serpentino que se retuerce, lo que le otorga un golpe de tentáculo (un ataque ágil y desarmado que causa un daño contundente) y la habilidad @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{Grab} con ese golpe. Si tuvieran algún ataque ágil, el daño causado por su tentáculo debería ser aproximadamente el mismo que el daño causado por esos ataques. Si solo tuvieran ataques no ágiles, su tentáculo debería causar tres cuartas partes de ese daño. </p>"
+      "description": "<p> Al mutante le crece un apéndice serpentino que se retuerce, lo que le otorga un golpe de tentáculo (un ataque ágil y desarmado que causa un daño contundente) y la habilidad @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{Presa} con ese golpe. Si tuvieran algún ataque ágil, el daño causado por su tentáculo debería ser aproximadamente el mismo que el daño causado por esos ataques. Si solo tuvieran ataques no ágiles, su tentáculo debería causar tres cuartas partes de ese daño. </p>"
     },
     "(Mana Wastes Mutant) Hulking Form": {
       "name": "(Mana Wastes Mutant) Forma descomunal",
@@ -901,15 +901,15 @@
     },
     "(Mythic) Ambush Excellence": {
       "name": "(Mythic) Ambush Excellence",
-      "description": "<p>A mythic ambusher is exceptional at hiding itself. It uses the extreme skill value for a creature of its level as its Stealth modifier.</p>"
+      "description": "<p>A mythic ambusher is exceptional at hiding itself. It uses the extreme skill value for a creature of its level as its STEALTH modifier.</p>"
     },
     "(Mythic) Brutish Athleticism": {
       "name": "(Mythic) Brutish Athleticism",
-      "description": "<p>A mythic brute excels at rough-and-tumble activities. It always uses the extreme skill value for a creature of its level as its Athletics modifier</p>"
+      "description": "<p>A mythic brute excels at rough-and-tumble activities. It always uses the extreme skill value for a creature of its level as its ATHLETICS modifier</p>"
     },
     "(Mythic) Deadly Striker": {
       "name": "(Mythic) Deadly Striker",
-      "description": "<p>A mythic striker deals an additional 1d6 precision damage on its next Strike whenever it uses an action to Stride 10 or more feet (or to Burrow, Climb, or Fly 10 or more feet).</p>"
+      "description": "<p>A mythic striker deals an additional 1d6 precision damage on its next Strike whenever it uses an action to Stride 10 or more feet (or to Burrow, CLIMB, or Fly 10 or more feet).</p>"
     },
     "(Mythic) Devastating Magic": {
       "name": "(Mythic) Devastating Magic",
@@ -933,7 +933,7 @@
     },
     "(Mythic) Mythic Knowledge": {
       "name": "(Mythic) Mythic Knowledge",
-      "description": "<p>A mythic caster uses the extreme skill modifier for a creature of its level for the skill linked to its spellcasting tradition: Arcana for arcane, Nature for primal, Occultism for occult, or Religion for divine.</p>"
+      "description": "<p>A mythic caster uses the extreme skill modifier for a creature of its level for the skill linked to its spellcasting tradition: ARCANA for arcane, NATURE for primal, OCCULTISM for occult, or RELIGION for divine.</p>"
     },
     "(Mythic) Mythic Mobility": {
       "name": "(Mythic) Mythic Mobility",
@@ -965,7 +965,7 @@
     },
     "(Mythic) Mythic Weakness (Frailty)": {
       "name": "(Mythic) Mythic Weakness (Frailty)",
-      "description": "<p>A mythic ambusher relies on stealth and subterfuge. It can't gain mythic immunity to Strikes or mythic resistance.</p>"
+      "description": "<p>A mythic ambusher relies on STEALTH and subterfuge. It can't gain mythic immunity to Strikes or mythic resistance.</p>"
     },
     "(Mythic) Mythic Weakness (Weak-Willed)": {
       "name": "(Mythic) Mythic Weakness (Weak-Willed)",
@@ -1182,12 +1182,12 @@
     },
     "(Rune Dragon) Catalyzing Rune": {
       "name": "(Rune Dragon) Catalyzing Rune",
-      "description": "<p>The dragon creates a highly reactive rune in a @Template[type:burst|distance:30] up to 60 feet away. Whenever a creature takes damage from a detonating rune while within the area, all other creatures in the area take the damage of the detonating rune (@Check[reflex|dc:34|basic] save). The Catalyzing Rune lasts for 1 minute but can be removed if creatures adjacent to the rune spend two Interact actions.</p>",
+      "description": "<p>The dragon creates a highly reactive rune in a @Template[type:burst|distance:30] up to 60 feet away. Whenever a creature takes damage from a detonating rune while within the area, all other creatures in the area take the damage of the detonating rune (@Check[reflex|dc:34|basic] save). The Catalyzing Rune lasts for 1 minute but can be removed if creatures adjacent to the rune spend two INTERACT actions.</p>",
       "gmNote": "<p><strong>Ancient Rune Dragon</strong> As adult rune dragon, but the area is a @Template[type:burst|distance:40] and the DC is 41.</p>\n<p><strong>Rune Archdragon</strong> As adult rune dragon, but the area is a @Template[type:burst|distance:60] and the DC is 46.</p>"
     },
     "(Rune Dragon) Runic Jail": {
       "name": "(Rune Dragon) Runic Jail",
-      "description": "<p>The rune dragon conjures a prison that promises pain to those within and those who try to escape. The dragon creates a runic jail in a @Template[type:burst|distance:10] up to 60 feet away. The area is difficult terrain and creatures outside the jail become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to creatures within it. If a creature uses a move action to leave the runic jail, they gain a detonating rune. The runic jail lasts for 1 round, but a creature adjacent to the jail, but not within it, can use an Interact action to remove the rune early.</p>",
+      "description": "<p>The rune dragon conjures a prison that promises pain to those within and those who try to escape. The dragon creates a runic jail in a @Template[type:burst|distance:10] up to 60 feet away. The area is difficult terrain and creatures outside the jail become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to creatures within it. If a creature uses a move action to leave the runic jail, they gain a detonating rune. The runic jail lasts for 1 round, but a creature adjacent to the jail, but not within it, can use an INTERACT action to remove the rune early.</p>",
       "gmNote": "<p><strong>Ancient Rune Dragon</strong> As adult rune dragon, but the area is a @Template[type:burst|distance:20].</p>\n<p><strong>Rune Archdragon</strong> As adult rune dragon, but the area is a @Template[type:burst|distance:30].</p>"
     },
     "(Secret Society) Connected": {
@@ -1200,7 +1200,7 @@
     },
     "(Secret Society) Not Today!": {
       "name": "(Sociedad Secreta) ¡Hoy no!",
-      "description": "<p> <strong> Frecuencia </strong> una vez al día </p>\n <p> <strong> Desencadenante </strong> El miembro de la sociedad secreta se reduce a 0 puntos de vida </p>\n <hr />\n <p> <strong> Efecto </strong> Ya sea un miembro de la sociedad esperando entre bastidores para alejarlos, un artilugio inteligente, un hechizo contingente o algún otro medio, un miembro de la sociedad secreta siempre tiene un plan de escape. En lugar de reducirse a 0 puntos de vida, el secretoEl miembro de la sociedad permanece en 1 punto de vida. Obtienen puntos de vida temporales iguales a su nivel y luego caminan dos veces. Si tienen las formas apropiadas de movimiento, pueden elegir @UUID[Compendium.pf2e.actionspf2e.Item.H6v1VgowHaKHnVlG]{Burrow} , @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb} , volar o nadar. </p>"
+      "description": "<p> <strong> Frecuencia </strong> una vez al día </p>\n <p> <strong> Desencadenante </strong> El miembro de la sociedad secreta se reduce a 0 puntos de vida </p>\n <hr />\n <p> <strong> Efecto </strong> Ya sea un miembro de la sociedad esperando entre bastidores para alejarlos, un artilugio inteligente, un hechizo contingente o algún otro medio, un miembro de la sociedad secreta siempre tiene un plan de escape. En lugar de reducirse a 0 puntos de vida, el secretoEl miembro de la sociedad permanece en 1 punto de vida. Obtienen puntos de vida temporales iguales a su nivel y luego caminan dos veces. Si tienen las formas apropiadas de movimiento, pueden elegir @UUID[Compendium.pf2e.actionspf2e.Item.H6v1VgowHaKHnVlG]{Burrow} , @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Trepar} , volar o nadar. </p>"
     },
     "(Secret Society) Prepared Diversion": {
       "name": "(Sociedad secreta) Desvío preparado",
@@ -1397,7 +1397,7 @@
     },
     "(Stargut Hydra) Skymetal Metamorphosis (Orichalcum)": {
       "name": "(Stargut Hydra) Skymetal Metamorphosis (Orichalcum)",
-      "description": "<p>Each stargut hydra has at least one metamorphosis resulting from consuming a specific skymetal and internalizing its properties.</p>\n<p><strong>Orichalcum</strong> When the stargut hydra has only two heads remaining, it is @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Acelerado}. It can use the extra action only to Stride or Strike.</p>"
+      "description": "<p>Each stargut hydra has at least one metamorphosis resulting from consuming a specific skymetal and internalizing its properties.</p>\n<p><strong>orichalcum</strong> When the stargut hydra has only two heads remaining, it is @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Acelerado}. It can use the extra action only to Stride or Strike.</p>"
     },
     "(Stargut Hydra) Skymetal Metamorphosis (Siccatite)": {
       "name": "(Stargut Hydra) Skymetal Metamorphosis (Siccatite)",
@@ -1417,7 +1417,7 @@
     },
     "(Swarm Strider) Squirming Embrace": {
       "name": "(Swarm Strider) Squirming Embrace",
-      "description": "<p>The swarm strider Strides. If they end their movement sharing a space with a creature, they deal @Damage[1d6[piercing]] damage to the creature, with a basic Reflex save. The save DC is the high spell DC for the swarm strider's level. The damage increases by 1d6 at 4th level and every 3 levels thereafter. The swarm strider can Burrow, Climb, Fly, or Swim instead of Striding if they have the corresponding movement type.</p>"
+      "description": "<p>The swarm strider Strides. If they end their movement sharing a space with a creature, they deal @Damage[1d6[piercing]] damage to the creature, with a basic Reflex save. The save DC is the high spell DC for the swarm strider's level. The damage increases by 1d6 at 4th level and every 3 levels thereafter. The swarm strider can Burrow, CLIMB, Fly, or Swim instead of Striding if they have the corresponding movement type.</p>"
     },
     "(Swarm Strider) Swarm Shape": {
       "name": "(Swarm Strider) Swarm Shape",
@@ -1606,7 +1606,7 @@
     },
     "(Vampire, True) Change Shape": {
       "name": "(Vampiro, Verdadero) Cambiar de forma",
-      "description": "<p> El vampiro se transforma en una de sus formas animales o vuelve a su forma normal. La mayoría de los vampiros pueden convertirse en murciélagos, pero algunos pueden convertirse en una criatura diferente, como una rata o un lobo. </p>\n <p> Utilice las opciones en los hechizos @UUID[Compendium.pf2e.spells-srd.Item.NzXpEzcZAjuDTZjK]{Aerial Form} y ​​@UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{Animal Form} como pautas. </p>\n <ul>\n <li> <strong> Murciélago </strong> El vampiro se transforma en un @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.VAWmwDA08ZLQd8lW]{Bat Swarm} o @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.C9s5tBxVValC2HTE]{Giant Bat} . se ganaecolocalización de 40 pies, una velocidad terrestre de 20 pies y una velocidad de vuelo de 30 pies, y un golpe de colmillos con la misma bonificación de ataque que su ataque cuerpo a cuerpo más alto. Estos colmillos causan la misma cantidad de daño que las garras del vampiro, pero causan daño perforante en lugar de daño cortante. </li>\n </ul>\n <hr />\n <p> @Localize[PF2E.NPC.Abilities.Glossary.ChangeShape] </p>"
+      "description": "<p> El vampiro se transforma en una de sus formas animales o vuelve a su forma normal. La mayoría de los vampiros pueden convertirse en murciélagos, pero algunos pueden convertirse en una criatura diferente, como una rata o un lobo. </p>\n <p> Utilice las opciones en los hechizos @UUID[Compendium.pf2e.spells-srd.Item.NzXpEzcZAjuDTZjK]{Aerial Form} y ​​@UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{Animal Form} como pautas. </p>\n <ul>\n <li> <strong> Murciélago </strong> El vampiro se transforma en un @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.VAWmwDA08ZLQd8lW]{Bat Swarm} o @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.C9s5tBxVValC2HTE]{giant Bat} . se ganaecolocalización de 40 pies, una velocidad terrestre de 20 pies y una velocidad de vuelo de 30 pies, y un golpe de colmillos con la misma bonificación de ataque que su ataque cuerpo a cuerpo más alto. Estos colmillos causan la misma cantidad de daño que las garras del vampiro, pero causan daño perforante en lugar de daño cortante. </li>\n </ul>\n <hr />\n <p> @Localize[PF2E.NPC.Abilities.Glossary.ChangeShape] </p>"
     },
     "(Vampire, True) Children of the Night": {
       "name": "(Vampiro, Verdadero) Criaturas de la noche",
@@ -1726,7 +1726,7 @@
       "description": "<p> El visitante realiza un Golpe de garra contra una criatura que tiene @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} . Si el ataque impacta, esa criatura queda noqueada @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} . </p>"
     },
     "(Warden of the Wild) Voice of Nature": {
-      "name": "(Warden of the Wild) Voice of Nature",
+      "name": "(Warden of the Wild) Voice of NATURE",
       "description": "<p>Though the Wardens of the Wild do not speak in words, they can communicate complex concepts flawlessly and wordlessly with any animal, beast, plant, or other creature of the natural world through prolonged eye contact. Sapient creatures with strong ties to the natural world, such as animal instinct barbarians or druids who speak the Wildsong, can somewhat understand a Warden of the Wild, though the meaning can be vague.</p>"
     },
     "(Warden of the Wild) Warden's Crown": {
@@ -1831,7 +1831,7 @@
     },
     "(Zombie) Tearing Grapple": {
       "name": "(Zombie) Agarre desgarrador",
-      "description": "<p> Los zombies trabajan en grupos para despedazar a los enemigos. Siempre que un zombi con esta habilidad @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapples} un enemigo que ya es @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} o @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado} por otro zombi con esta habilidad, lucha violentamente sobre la pobre víctima, infligiéndole daño con el puño (o un daño de Golpe similar si el zombi no tiene una Golpe de puño). Si la presa tiene un éxito crítico, el objetivo sufre el doble de daño y deja de ser agarrado o inmovilizado.por cualquier otra criatura. Si el zombi tiene la habilidad @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{Grab}, usar Grab inflige la mitad del daño de su puño al objetivo. </p>"
+      "description": "<p> Los zombies trabajan en grupos para despedazar a los enemigos. Siempre que un zombi con esta habilidad @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapples} un enemigo que ya es @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} o @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado} por otro zombi con esta habilidad, lucha violentamente sobre la pobre víctima, infligiéndole daño con el puño (o un daño de Golpe similar si el zombi no tiene una Golpe de puño). Si la presa tiene un éxito crítico, el objetivo sufre el doble de daño y deja de ser agarrado o inmovilizado.por cualquier otra criatura. Si el zombi tiene la habilidad @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{Presa}, usar Presa inflige la mitad del daño de su puño al objetivo. </p>"
     },
     "(Zombie) Unholy Speed": {
       "name": "(Zombie) Velocidad impía",

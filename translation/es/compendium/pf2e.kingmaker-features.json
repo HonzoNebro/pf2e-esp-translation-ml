@@ -7,7 +7,7 @@
     },
     "Advance": {
       "name": "Avance",
-      "description": "<p> Tu ejército intenta acortar la distancia con un ejército enemigo objetivo con el que no está enfrentado intentando una prueba @Check[type:maneuver|defense:maneuver|roller:self|options:action:advance]. </p>\n <p> <strong> Éxito crítico </strong> El ejército enemigo se convierte en @UUID[Compendium.pf2e.kingmaker-features.Item.2IqM1XHELKwARAx1]{Engaged} con tu ejército, incluso si anteriormente tenía la condición @UUID[Compendium.pf2e.kingmaker-features.Item.8upne4E6Q7Da5T5w]{Distant} (en cuyo caso pierde esa condición y queda comprometido). </p>\n <p> <strong> Éxito </strong> Si el ejército objetivo está distante, pierdeesa condición; de lo contrario, se compromete. </p>\n <p> <strong> Fracaso </strong> El intento de avance de tu ejército falla. </p>\n <p> <strong> Fallo crítico </strong> El intento de avance de tu ejército falla y se desorganiza, convirtiéndose en @UUID[Compendium.pf2e.kingmaker-features.Item.oVhkdym3D6TiTbrN]{Mired 1} hasta el inicio de su siguiente turno. </p>"
+      "description": "<p> Tu ejército intenta acortar la distancia con un ejército enemigo objetivo con el que no está enfrentado intentando una prueba @Check[type:maneuver|defense:maneuver|roller:self|options:action:advance]. </p>\n <p> <strong> Éxito crítico </strong> El ejército enemigo queda @UUID[Compendium.pf2e.kingmaker-features.Item.2IqM1XHELKwARAx1]{Enfrentado} con tu ejército, incluso si anteriormente tenía la condición @UUID[Compendium.pf2e.kingmaker-features.Item.8upne4E6Q7Da5T5w]{Distante} (en cuyo caso pierde esa condición y queda enfrentado). </p>\n <p> <strong> Éxito </strong> Si el ejército objetivo está distante, pierde esa condición; de lo contrario, queda enfrentado. </p>\n <p> <strong> Fracaso </strong> El intento de avance de tu ejército falla. </p>\n <p> <strong> Fallo crítico </strong> El intento de avance de tu ejército falla y se desorganiza, quedando @UUID[Compendium.pf2e.kingmaker-features.Item.oVhkdym3D6TiTbrN]{Empantanado 1} hasta el inicio de su siguiente turno. </p>"
     },
     "All-Out Assault": {
       "name": "Asalto total",
@@ -261,7 +261,7 @@
     },
     "Field Triage": {
       "name": "Triaje de campo",
-      "description": "<p> Los soldados del ejército son expertos en utilizar métodos de emergencia para tratar heridas. El ejército gana la acción de guerra táctica @UUID[Compendium.pf2e.kingmaker-features.Item.agjqRWTTIWHwiKsd]{Battlefield Medicine}. </p>"
+      "description": "<p> Los soldados del ejército son expertos en utilizar métodos de emergencia para tratar heridas. El ejército gana la acción de guerra táctica @UUID[Compendium.pf2e.kingmaker-features.Item.agjqRWTTIWHwiKsd]{Battlefield Medicina}. </p>"
     },
     "Fine Living": {
       "name": "Buena vida",
@@ -323,7 +323,7 @@
     },
     "Guard": {
       "name": "Guardia",
-      "description": "<p> Tu ejército gasta una acción de guerra para adoptar una postura defensiva: levantando escudos, concentrándose en detener ataques o buscando cobertura. Intenta una prueba @Check[type:maneuver|defense:maneuver|roller:self|options:action:guard] contra un ejército objetivo. </p>\n <p> <strong> Éxito crítico </strong> Tu ejército obtiene una bonificación de elemento +2 a su CA hasta el comienzo de tu siguiente turno; Esta bonificación se aplica a todos los ataques contra este ejército, no sólo desde el ejército objetivo. </p>\n <p> @UUID[Compendium.pf2e.kingmaker-features.Item.EmfxjNH1uxtDDqZu]{Effect: Guard (Critical Success)} </p>\n <p><strong> Éxito </strong> Tu ejército obtiene una bonificación de elemento +2 a su CA hasta el comienzo de tu siguiente turno contra ataques del ejército objetivo. </p>\n <p> @UUID[Compendium.pf2e.kingmaker-features.Item.rF8Nsas5KrrBEeqr]{Effect: Guard (Success)} </p>\n <p> <strong> Fracaso </strong> Tu ejército no logra protegerse contra el ejército objetivo. </p>\n <p> <strong> Fallo crítico </strong> Tu ejército falla espectacularmente en protegerse contra el ejército objetivo y se convierte en @UUID[Compendium.pf2e.kingmaker-features.Item.oVhkdym3D6TiTbrN]{Mired 1} .</p>"
+      "description": "<p> Tu ejército gasta una acción de guerra para adoptar una postura defensiva: levantando escudos, concentrándose en detener ataques o buscando cobertura. Intenta una prueba @Check[type:maneuver|defense:maneuver|roller:self|options:action:guard] contra un ejército objetivo. </p>\n <p> <strong> Éxito crítico </strong> Tu ejército obtiene una bonificación de elemento +2 a su CA hasta el comienzo de tu siguiente turno; Esta bonificación se aplica a todos los ataques contra este ejército, no sólo desde el ejército objetivo. </p>\n <p> @UUID[Compendium.pf2e.kingmaker-features.Item.EmfxjNH1uxtDDqZu]{Efecto: Guardia (éxito crítico)} </p>\n <p><strong> Éxito </strong> Tu ejército obtiene una bonificación de elemento +2 a su CA hasta el comienzo de tu siguiente turno contra ataques del ejército objetivo. </p>\n <p> @UUID[Compendium.pf2e.kingmaker-features.Item.rF8Nsas5KrrBEeqr]{Efecto: Guardia (éxito)} </p>\n <p> <strong> Fracaso </strong> Tu ejército no logra protegerse contra el ejército objetivo. </p>\n <p> <strong> Fallo crítico </strong> Tu ejército falla espectacularmente en protegerse contra el ejército objetivo y se convierte en @UUID[Compendium.pf2e.kingmaker-features.Item.oVhkdym3D6TiTbrN]{Empantanado 1} .</p>"
     },
     "Harvest Crops": {
       "name": "Cultivos de cosecha",
@@ -452,7 +452,7 @@
     },
     "Outflank": {
       "name": "Flanquear",
-      "description": "<p><strong>Requirement</strong> @UUID[Compendium.pf2e.kingmaker-features.Item.Y8Gpb1Ma8w3Gb8qX]{Reckless Flankers}, you aren't engaged</p>\n<hr />\n<p>You send your army around an enemy's flank to get a better attacking position and to push your enemy into disorder. Attempt a @Check[maneuver|defense:maneuver] check against the target army.</p>\n<p><strong>Critical Success</strong> The target army becomes @UUID[Compendium.pf2e.kingmaker-features.Item.ibcMcEGRbPRtk9Pu]{Outflanked} until the start of your next turn. You can choose to become @UUID[Compendium.pf2e.kingmaker-features.Item.2IqM1XHELKwARAx1]{Engaged} with that army or not.</p>\n<p><strong>Success</strong> The target army is outflanked until the start of your next turn. You are now engaged with that army.</p>\n<p><strong>Critical Failure</strong> You underestimate the target army's position, and the blunder causes your army to become outflanked until the start of your next turn.</p>"
+      "description": "<p><strong>Requisito</strong> @UUID[Compendium.pf2e.kingmaker-features.Item.Y8Gpb1Ma8w3Gb8qX]{Flanqueadores temerarios}; no estás enfrentado</p>\n<hr />\n<p>Envías a tu ejército alrededor del flanco de un enemigo para conseguir una mejor posición de ataque y desorganizarlo. Intenta una prueba de @Check[maneuver|defense:maneuver] contra el ejército objetivo.</p>\n<p><strong>Éxito crítico</strong> El ejército objetivo queda @UUID[Compendium.pf2e.kingmaker-features.Item.ibcMcEGRbPRtk9Pu]{Flanqueado} hasta el inicio de tu siguiente turno. Puedes elegir quedar @UUID[Compendium.pf2e.kingmaker-features.Item.2IqM1XHELKwARAx1]{Enfrentado} con ese ejército o no.</p>\n<p><strong>Éxito</strong> El ejército objetivo queda flanqueado hasta el inicio de tu siguiente turno. Ahora estás enfrentado con ese ejército.</p>\n<p><strong>Fallo crítico</strong> Subestimas la posición del ejército objetivo, y el error hace que tu ejército quede flanqueado hasta el inicio de tu siguiente turno.</p>"
     },
     "Outflanked": {
       "name": "flanqueado",
@@ -580,7 +580,7 @@
     },
     "Ruin Resistance": {
       "name": "Resistencia a la ruina",
-      "description": "<p>At 5th level and every 3 levels thereafter, your kingdom becomes more resistant to Ruin. Choose one of the four Ruin categories and increase its threshold by 2. When you do so, reset that Ruin's penalty to 0. See page 533 for more information about Ruin.</p>"
+      "description": "<p>A 5.º nivel y cada 3 niveles a partir de entonces, tu reino se vuelve más resistente a la Ruina. Elige una de las cuatro categorías de Ruina y aumenta su umbral en 2. Cuando lo hagas, restablece la penalización de esa Ruina a 0. Consulta la página 533 para más información sobre la Ruina.</p>"
     },
     "Send Diplomatic Envoy": {
       "name": "Enviar enviado diplomático",
