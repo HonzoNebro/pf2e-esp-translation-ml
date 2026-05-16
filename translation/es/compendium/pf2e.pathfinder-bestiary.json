@@ -7558,429 +7558,429 @@
       }
     },
     "White Dragon (Adult)": {
-      "name": "White Dragon (Adult)",
-      "publicNotes": "<p>The most feral and least intelligent of all the chromatic dragons, white dragons are brutish, predatory, and chiefly motivated by self-preservation. Nearly all other dragons look down on white dragons as hopelessly hotheaded and dull, though this does not make them any less dangerous-in fact, it may mean the opposite. It's nearly impossible to treat with white dragons, not because they lack the capacity to do so, but because they just don't care to. They are as difficult to deal with as they are quick to anger, and they become incensed at almost anything. When a white dragon does speak, it spews threats, inane jokes, and incoherent babbling as a prelude to attacking-and when the attack comes, it's bloody and relentless.</p>\n<p>Thankfully, white dragons prefer very cold, remote locations that are far from people. Dwelling on glacial mountaintops or in ice caverns beneath forbidding tundra, they treat the lands around them as their own personal hunting grounds. They fly out to feed or terrorize other creatures, especially those who trespass near the dragon's territory, then bring any treasure back to be displayed in icy niches in their lairs. They collect all kinds of valuables, with a slight preference for items with high utility-such as tools, trade goods, and fine food-over coins or jewels. The ability to shape ice lets white dragons rearrange their lairs exactly to their specifications, and they take great pride in how they've decorated their homes over the years.</p>\n<hr />\n<p>While there are many types of dragons, from the powerful planar dragons to the strange esoteric dragons, few dragon varieties are as well-known and as rightly feared as the chromatic dragons. Differentiated by the hue of their scales, each color of dragon unleashes its own flavor of murderous cruelty-be it by claw, tooth, or breath-and unlike most creatures, dragons only become more powerful as they age. Their lust for treasure, food, bloodshed, and control are legendary. Physically powerful with egos to match, these dragons are often morally depraved and act as criminal masterminds, vicious tyrants, or voracious raiders.</p>",
-      "saveDetails": "+1 status to all saves vs. magic",
+      "name": "Dragón blanco adulto",
+      "publicNotes": "<p>Los dragones blancos son los más salvajes y menos inteligentes de todos los dragones cromáticos; crueles depredadores cuya mayor preocupación es su propia supervivencia. Casi todos los demás dragones menosprecian a los dragones blancos por ser impulsivos y simplones, pero eso no los hace menos peligrosos; en realidad, incluso puede ser al contrario. Es casi imposible negociar con un dragón blanco, no porque sean incapaces de ello, sino porque no tienen interés alguno.</p>\n<p>Son tan difíciles de tratar como fáciles de enfadar. Cuando un dragón blanco se digna a hablar es para proferir amenazas, chistes vacuos y diatribas incoherentes como preludio a un ataque; y cuando llega ese ataque, es sangriento e implacable.</p>\n<p>Por suerte, los dragones blancos prefieren lugares muy fríos y apartados, lejos de la gente. Se establecen en cumbres glaciales o en cavernas heladas bajo una tundra impracticable y tratan los terrenos circundantes como su territorio de caza particular. Salen volando para alimentarse o para aterrorizar a otras criaturas, especialmente las que se acercan a su guarida, y regresan con tesoros que exhiben en nichos de hielo en su cubil.</p>\n<p>Coleccionan toda clase de objetos de valor, con una leve preferencia por los objetos de gran utilidad, como herramientas, mercancías y buena comida, antes que por las monedas o joyas. Su capacidad de moldear el hielo permite a los dragones blancos reestructurar su guarida a placer y con el paso de los años suelen estar orgullosos de cómo han decorado su hogar.</p>\n<hr />\n<p>Los dragones cromáticos son seres egoístas, crueles y codiciosos que se cuentan entre los depredadores más temidos del mundo. Aunque cada linaje tiene sus propias obsesiones y métodos, todos comparten una arrogancia dracónica feroz y una inclinación a dominar el territorio que consideran suyo.</p>",
+      "saveDetails": "+1 por estatus a todas las salvaciones contra la magia",
       "senses": "snow vision",
       "speed": "CLIMB on ice only",
       "items": {
         "spellcastingEntry->Arcane Innate Spells": {
-          "name": "Arcane Innate Spells"
+          "name": "Conjuros arcanos innatos"
         },
         "spell->Obscuring Mist (At Will)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]\nObscuring Mist (At Will)"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]\nNiebla de obscurecimiento (a voluntad)"
         },
         "spell->Gust of Wind (At Will)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]\nGust of Wind (At Will)"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]\nRáfaga de viento (a voluntad)"
         },
         "strike-melee->Jaws": {
-          "name": "Jaws"
+          "name": "Fauces"
         },
         "strike-melee->Claw": {
-          "name": "Claw"
+          "name": "Garra"
         },
         "strike-melee->Tail": {
-          "name": "Tail"
+          "name": "Cola"
         },
         "action->Snow Vision": {
-          "name": "Snow Vision",
-          "description": "<p>Snow doesn't impair a white dragon's vision; it ignores concealment from snowfall.</p>"
+          "name": "Visión en la nieve",
+          "description": "<p>La nieve no impide la visión de un dragón blanco; éste ignora la ocultación debida a una nevada.</p>"
         },
         "action->Dragon Chill": {
-          "name": "Dragon Chill",
-          "description": "<p>5 feet. @Damage[2d6[cold]] damage (@Check[reflex|dc:27|basic] save)</p>"
+          "name": "Frío dracónico",
+          "description": "<p>5 pies. @Damage[2d6[cold]] de daño (@Check[reflex|dc:27|basic] básica)</p>"
         },
         "action->Freezing Blood": {
-          "name": "Freezing Blood",
-          "description": "<p><strong>Trigger</strong> An adjacent creature deals piercing or slashing damage to the dragon.</p>\n<hr />\n<p><strong>Effect</strong> The dragon's blood sprays on the creature, dealing @Damage[2d6[cold]] damage. A creature that takes cold damage in this way is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p>"
+          "name": "Sangre congelante",
+          "description": "<p><strong>Desencadenante</strong> Una criatura adyacente inflige daño cortante o perforante al dragón.</p>\n<hr />\n<p><strong>Efecto</strong> La sangre del dragón salpica a la criatura y le inflige @Damage[2d6[cold]] de daño. Si una criatura sufre daño por frío de esta forma, queda @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificada 1} durante 1 asalto.</p>"
         },
         "action->Frightful Presence": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:27]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 pies. @Check[will|dc:27]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
-          "description": "<p>The dragon breathes a cloud of frost that deals @Damage[11d6[cold]|options:area-damage] damage in a @Template[cone|distance:40] (@Check[reflex|dc:29|basic|options:area-effect] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "name": "Arma de aliento",
+          "description": "<p>El dragón exhala una nube de escarcha que inflige @Damage[11d6[cold]|options:area-damage] de daño por frío en un @Template[cone|distance:40] (@Check[reflex|dc:29|basic|options:area-effect] básica).</p>\n<p>No puede volver a usar Arma de aliento durante [[/gmr 1d4 #Recarga de Arma de aliento]]{1d4 asaltos}.</p>"
         },
         "action->Draconic Frenzy": {
-          "name": "Draconic Frenzy",
-          "description": "<p>The dragon makes two claw Strikes and one tail Strike in any order</p>"
+          "name": "Frenesí dracónico",
+          "description": "<p>El dragón realiza dos Golpes de garra y un Golpe de cola en cualquier orden.</p>"
         },
         "action->Draconic Momentum": {
-          "name": "Draconic Momentum",
-          "description": "<p>When the dragon scores a critical hit with a Strike, it recharges its Breath Weapon</p>"
+          "name": "Impulso dracónico",
+          "description": "<p>Cuando el dragón logra un impacto crítico con un Golpe, recarga su Arma de aliento.</p>"
         },
         "action->Ground Slam": {
-          "name": "Ground Slam",
-          "description": "<p>The dragon slams into the ground. It can do this if it's on the ground or Flying within 10 feet of the ground. Each creature on the ground within @Template[emanation|distance:10]{10 feet} must succeed at a @Check[reflex|dc:29|options:area-effect,damaging-effect] save or fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and take @Damage[3d6[bludgeoning]|options:area-damage] damage.</p>\n<p>The dragon can then Step.</p>"
+          "name": "Aporrear el suelo",
+          "description": "<p>El dragón aporrea el suelo con gran fuerza. Puede hacerlo si está a ras del suelo o volando a un máximo de 10 pies de altura. Toda criatura que está a @Template[emanation|distance:10]{10 pies} o menos y sobre el suelo debe tener éxito en una salvación de @Check[reflex|dc:29|options:area-effect,damaging-effect] o queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbada} y sufre @Damage[3d6[bludgeoning]|options:area-damage] de daño contundente.</p>\n<p>El dragón puede luego dar un Paso.</p>"
         },
         "action->Ice Climb": {
-          "name": "Ice Trepar",
-          "description": "<p>A white dragon can CLIMB on ice as though it had the listed CLIMB Speed. It ignores difficult terrain and greater difficult terrain from ice and snow and doesn't risk falling when crossing ice.</p>"
+          "name": "Trepar por el hielo",
+          "description": "<p>Un dragón blanco puede trepar por superficies de hielo como si tuviera la Velocidad de trepar indicada. Ignora el terreno difícil y difícil mayor debido a hielo y nieve y no corre el riesgo de caerse al cruzar hielo.</p>"
         },
         "action->Shape Ice": {
-          "name": "Shape Ice",
-          "description": "<p>The dragon reshapes a cube of ice or snow it touches, up to 10 feet across. Any creature standing atop the ice must succeed at a @Check[reflex|dc:15] save or @Check[acrobatics|dc:15] check.</p>\n<p>On a failure, the creature falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} atop the ice; on a critical failure, it falls off the ice entirely and is also prone.</p>"
+          "name": "Moldear hielo",
+          "description": "<p>El dragón cambia la forma de un cubo de hielo o nieve que toca, de hasta 10 pies de lado. Las criaturas que estén sobre el hielo deben tener éxito en una salvación de @Check[reflex|dc:15] o en una prueba de @Check[acrobatics|dc:15].</p>\n<p>En caso de fallo, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbada} sobre el hielo; en caso de fallo crítico, cae fuera del hielo y además queda tumbada.</p>"
         }
       }
     },
     "White Dragon (Adult, Spellcaster)": {
-      "name": "White Dragon (Adult, Spellcaster)",
-      "publicNotes": "<p>The most feral and least intelligent of all the chromatic dragons, white dragons are brutish, predatory, and chiefly motivated by self-preservation. Nearly all other dragons look down on white dragons as hopelessly hotheaded and dull, though this does not make them any less dangerous-in fact, it may mean the opposite. It's nearly impossible to treat with white dragons, not because they lack the capacity to do so, but because they just don't care to. They are as difficult to deal with as they are quick to anger, and they become incensed at almost anything. When a white dragon does speak, it spews threats, inane jokes, and incoherent babbling as a prelude to attacking-and when the attack comes, it's bloody and relentless.</p>\n<p>Thankfully, white dragons prefer very cold, remote locations that are far from people. Dwelling on glacial mountaintops or in ice caverns beneath forbidding tundra, they treat the lands around them as their own personal hunting grounds. They fly out to feed or terrorize other creatures, especially those who trespass near the dragon's territory, then bring any treasure back to be displayed in icy niches in their lairs. They collect all kinds of valuables, with a slight preference for items with high utility-such as tools, trade goods, and fine food-over coins or jewels. The ability to shape ice lets white dragons rearrange their lairs exactly to their specifications, and they take great pride in how they've decorated their homes over the years.</p>\n<hr />\n<p>While there are many types of dragons, from the powerful planar dragons to the strange esoteric dragons, few dragon varieties are as well-known and as rightly feared as the chromatic dragons. Differentiated by the hue of their scales, each color of dragon unleashes its own flavor of murderous cruelty-be it by claw, tooth, or breath-and unlike most creatures, dragons only become more powerful as they age. Their lust for treasure, food, bloodshed, and control are legendary. Physically powerful with egos to match, these dragons are often morally depraved and act as criminal masterminds, vicious tyrants, or voracious raiders.</p>",
-      "saveDetails": "+1 status to all saves vs. magic",
+      "name": "Dragón blanco adulto (lanzador de conjuros)",
+      "publicNotes": "<p>Los dragones blancos son los más salvajes y menos inteligentes de todos los dragones cromáticos; crueles depredadores cuya mayor preocupación es su propia supervivencia. Casi todos los demás dragones menosprecian a los dragones blancos por ser impulsivos y simplones, pero eso no los hace menos peligrosos; en realidad, incluso puede ser al contrario. Es casi imposible negociar con un dragón blanco, no porque sean incapaces de ello, sino porque no tienen interés alguno.</p>\n<p>Son tan difíciles de tratar como fáciles de enfadar. Cuando un dragón blanco se digna a hablar es para proferir amenazas, chistes vacuos y diatribas incoherentes como preludio a un ataque; y cuando llega ese ataque, es sangriento e implacable.</p>\n<p>Por suerte, los dragones blancos prefieren lugares muy fríos y apartados, lejos de la gente. Se establecen en cumbres glaciales o en cavernas heladas bajo una tundra impracticable y tratan los terrenos circundantes como su territorio de caza particular. Salen volando para alimentarse o para aterrorizar a otras criaturas, especialmente las que se acercan a su guarida, y regresan con tesoros que exhiben en nichos de hielo en su cubil.</p>\n<p>Coleccionan toda clase de objetos de valor, con una leve preferencia por los objetos de gran utilidad, como herramientas, mercancías y buena comida, antes que por las monedas o joyas. Su capacidad de moldear el hielo permite a los dragones blancos reestructurar su guarida a placer y con el paso de los años suelen estar orgullosos de cómo han decorado su hogar.</p>\n<hr />\n<p>Los dragones cromáticos son seres egoístas, crueles y codiciosos que se cuentan entre los depredadores más temidos del mundo. Aunque cada linaje tiene sus propias obsesiones y métodos, todos comparten una arrogancia dracónica feroz y una inclinación a dominar el territorio que consideran suyo.</p>",
+      "saveDetails": "+1 por estatus a todas las salvaciones contra la magia",
       "senses": "snow vision",
       "speed": "CLIMB on ice only",
-      "tokenName": "White Dragon (Adult)",
+      "tokenName": "Dragón blanco adulto",
       "items": {
         "spellcastingEntry->Arcane Prepared Spells": {
-          "name": "Arcane Prepared Spells"
+          "name": "Conjuros arcanos preparados"
         },
         "spellcastingEntry->Arcane Innate Spells": {
-          "name": "Arcane Innate Spells"
+          "name": "Conjuros arcanos innatos"
         },
         "spell->Dimension Door": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nDimension Door"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nPuerta dimensional"
         },
         "spell->Freedom of Movement": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH]\nFreedom of Movement"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH]\nLibertad de movimiento"
         },
         "spell->Vampiric Touch": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]\nVampiric Touch"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]\nToque vampírico"
         },
         "spell->Obscuring Mist (At Will)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]\nObscuring Mist (At Will)"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]\nNiebla de obscurecimiento (a voluntad)"
         },
         "spell->Gust of Wind (At Will)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]\nGust of Wind (At Will)"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]\nRáfaga de viento (a voluntad)"
         },
         "spell->Mage Hand": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]\nMage Hand"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]\nMano de mago"
         },
         "spell->Ray of Enfeeblement": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRay of Enfeeblement"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRayo de debilitamiento"
         },
         "spell->True Strike": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]\nTrue Strike"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]\nImpacto verdadero"
         },
         "strike-melee->Jaws": {
-          "name": "Jaws"
+          "name": "Fauces"
         },
         "strike-melee->Claw": {
-          "name": "Claw"
+          "name": "Garra"
         },
         "strike-melee->Tail": {
-          "name": "Tail"
+          "name": "Cola"
         },
         "action->Snow Vision": {
-          "name": "Snow Vision",
-          "description": "<p>Snow doesn't impair a white dragon's vision; it ignores concealment from snowfall.</p>"
+          "name": "Visión en la nieve",
+          "description": "<p>La nieve no impide la visión de un dragón blanco; éste ignora la ocultación debida a una nevada.</p>"
         },
         "action->Dragon Chill": {
-          "name": "Dragon Chill",
-          "description": "<p>5 feet. @Damage[2d6[cold]] damage (@Check[reflex|dc:27|basic] save)</p>"
+          "name": "Frío dracónico",
+          "description": "<p>5 pies. @Damage[2d6[cold]] de daño (@Check[reflex|dc:27|basic] básica)</p>"
         },
         "action->Freezing Blood": {
-          "name": "Freezing Blood",
-          "description": "<p><strong>Trigger</strong> An adjacent creature deals piercing or slashing damage to the dragon.</p>\n<hr />\n<p><strong>Effect</strong> The dragon's blood sprays on the creature, dealing @Damage[2d6[cold]] damage. A creature that takes cold damage in this way is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p>"
+          "name": "Sangre congelante",
+          "description": "<p><strong>Desencadenante</strong> Una criatura adyacente inflige daño cortante o perforante al dragón.</p>\n<hr />\n<p><strong>Efecto</strong> La sangre del dragón salpica a la criatura y le inflige @Damage[2d6[cold]] de daño. Si una criatura sufre daño por frío de esta forma, queda @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificada 1} durante 1 asalto.</p>"
         },
         "action->Frightful Presence": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:27]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 pies. @Check[will|dc:27]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
-          "description": "<p>The dragon breathes a cloud of frost that deals @Damage[11d6[cold]|options:area-damage] damage in a @Template[cone|distance:40] (@Check[reflex|dc:29|basic|options:area-effect] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "name": "Arma de aliento",
+          "description": "<p>El dragón exhala una nube de escarcha que inflige @Damage[11d6[cold]|options:area-damage] de daño por frío en un @Template[cone|distance:40] (@Check[reflex|dc:29|basic|options:area-effect] básica).</p>\n<p>No puede volver a usar Arma de aliento durante [[/gmr 1d4 #Recarga de Arma de aliento]]{1d4 asaltos}.</p>"
         },
         "action->Ground Slam": {
-          "name": "Ground Slam",
-          "description": "<p>The dragon slams into the ground. It can do this if it's on the ground or Flying within 10 feet of the ground. Each creature on the ground within @Template[emanation|distance:10]{10 feet} must succeed at a @Check[reflex|dc:29|options:area-effect,damaging-effect] save or fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and take @Damage[3d6[bludgeoning]|options:area-damage] damage.</p>\n<p>The dragon can then Step.</p>"
+          "name": "Aporrear el suelo",
+          "description": "<p>El dragón aporrea el suelo con gran fuerza. Puede hacerlo si está a ras del suelo o volando a un máximo de 10 pies de altura. Toda criatura que está a @Template[emanation|distance:10]{10 pies} o menos y sobre el suelo debe tener éxito en una salvación de @Check[reflex|dc:29|options:area-effect,damaging-effect] o queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbada} y sufre @Damage[3d6[bludgeoning]|options:area-damage] de daño contundente.</p>\n<p>El dragón puede luego dar un Paso.</p>"
         },
         "action->Ice Climb": {
-          "name": "Ice Trepar",
-          "description": "<p>A white dragon can CLIMB on ice as though it had the listed CLIMB Speed. It ignores difficult terrain and greater difficult terrain from ice and snow and doesn't risk falling when crossing ice.</p>"
+          "name": "Trepar por el hielo",
+          "description": "<p>Un dragón blanco puede trepar por superficies de hielo como si tuviera la Velocidad de trepar indicada. Ignora el terreno difícil y difícil mayor debido a hielo y nieve y no corre el riesgo de caerse al cruzar hielo.</p>"
         },
         "action->Shape Ice": {
-          "name": "Shape Ice",
-          "description": "<p>The dragon reshapes a cube of ice or snow it touches, up to 10 feet across. Any creature standing atop the ice must succeed at a @Check[reflex|dc:15] save or @Check[acrobatics|dc:15] check.</p>\n<p>On a failure, the creature falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} atop the ice; on a critical failure, it falls off the ice entirely and is also prone.</p>"
+          "name": "Moldear hielo",
+          "description": "<p>El dragón cambia la forma de un cubo de hielo o nieve que toca, de hasta 10 pies de lado. Las criaturas que estén sobre el hielo deben tener éxito en una salvación de @Check[reflex|dc:15] o en una prueba de @Check[acrobatics|dc:15].</p>\n<p>En caso de fallo, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbada} sobre el hielo; en caso de fallo crítico, cae fuera del hielo y además queda tumbada.</p>"
         }
       }
     },
     "White Dragon (Ancient)": {
-      "name": "White Dragon (Ancient)",
-      "publicNotes": "<p>The most feral and least intelligent of all the chromatic dragons, white dragons are brutish, predatory, and chiefly motivated by self-preservation. Nearly all other dragons look down on white dragons as hopelessly hotheaded and dull, though this does not make them any less dangerous-in fact, it may mean the opposite. It's nearly impossible to treat with white dragons, not because they lack the capacity to do so, but because they just don't care to. They are as difficult to deal with as they are quick to anger, and they become incensed at almost anything. When a white dragon does speak, it spews threats, inane jokes, and incoherent babbling as a prelude to attacking-and when the attack comes, it's bloody and relentless.</p>\n<p>Thankfully, white dragons prefer very cold, remote locations that are far from people. Dwelling on glacial mountaintops or in ice caverns beneath forbidding tundra, they treat the lands around them as their own personal hunting grounds. They fly out to feed or terrorize other creatures, especially those who trespass near the dragon's territory, then bring any treasure back to be displayed in icy niches in their lairs. They collect all kinds of valuables, with a slight preference for items with high utility-such as tools, trade goods, and fine food-over coins or jewels. The ability to shape ice lets white dragons rearrange their lairs exactly to their specifications, and they take great pride in how they've decorated their homes over the years.</p>\n<hr />\n<p>While there are many types of dragons, from the powerful planar dragons to the strange esoteric dragons, few dragon varieties are as well-known and as rightly feared as the chromatic dragons. Differentiated by the hue of their scales, each color of dragon unleashes its own flavor of murderous cruelty-be it by claw, tooth, or breath-and unlike most creatures, dragons only become more powerful as they age. Their lust for treasure, food, bloodshed, and control are legendary. Physically powerful with egos to match, these dragons are often morally depraved and act as criminal masterminds, vicious tyrants, or voracious raiders.</p>",
-      "saveDetails": "+1 status to all saves vs. magic",
+      "name": "Dragón blanco venerable",
+      "publicNotes": "<p>Los dragones blancos son los más salvajes y menos inteligentes de todos los dragones cromáticos; crueles depredadores cuya mayor preocupación es su propia supervivencia. Casi todos los demás dragones menosprecian a los dragones blancos por ser impulsivos y simplones, pero eso no los hace menos peligrosos; en realidad, incluso puede ser al contrario. Es casi imposible negociar con un dragón blanco, no porque sean incapaces de ello, sino porque no tienen interés alguno.</p>\n<p>Son tan difíciles de tratar como fáciles de enfadar. Cuando un dragón blanco se digna a hablar es para proferir amenazas, chistes vacuos y diatribas incoherentes como preludio a un ataque; y cuando llega ese ataque, es sangriento e implacable.</p>\n<p>Por suerte, los dragones blancos prefieren lugares muy fríos y apartados, lejos de la gente. Se establecen en cumbres glaciales o en cavernas heladas bajo una tundra impracticable y tratan los terrenos circundantes como su territorio de caza particular. Salen volando para alimentarse o para aterrorizar a otras criaturas, especialmente las que se acercan a su guarida, y regresan con tesoros que exhiben en nichos de hielo en su cubil.</p>\n<p>Coleccionan toda clase de objetos de valor, con una leve preferencia por los objetos de gran utilidad, como herramientas, mercancías y buena comida, antes que por las monedas o joyas. Su capacidad de moldear el hielo permite a los dragones blancos reestructurar su guarida a placer y con el paso de los años suelen estar orgullosos de cómo han decorado su hogar.</p>\n<hr />\n<p>Los dragones cromáticos son seres egoístas, crueles y codiciosos que se cuentan entre los depredadores más temidos del mundo. Aunque cada linaje tiene sus propias obsesiones y métodos, todos comparten una arrogancia dracónica feroz y una inclinación a dominar el territorio que consideran suyo.</p>",
+      "saveDetails": "+1 por estatus a todas las salvaciones contra la magia",
       "senses": "snow vision",
       "speed": "CLIMB on ice only",
       "items": {
         "spellcastingEntry->Arcane Innate Spells": {
-          "name": "Arcane Innate Spells"
+          "name": "Conjuros arcanos innatos"
         },
         "spell->Wall of Ice (At Will)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.R5FHRv7VqyRnxg2t]\nWall of Ice (At Will)"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.R5FHRv7VqyRnxg2t]\nMuro de hielo (a voluntad)"
         },
         "spell->Obscuring Mist (At Will)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]\nObscuring Mist (At Will)"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]\nNiebla de obscurecimiento (a voluntad)"
         },
         "spell->Gust of Wind (At Will)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]\nGust of Wind (At Will)"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]\nRáfaga de viento (a voluntad)"
         },
         "strike-melee->Jaws": {
-          "name": "Jaws"
+          "name": "Fauces"
         },
         "strike-melee->Claw": {
-          "name": "Claw"
+          "name": "Garra"
         },
         "strike-melee->Tail": {
-          "name": "Tail"
+          "name": "Cola"
         },
         "action->Snow Vision": {
-          "name": "Snow Vision",
-          "description": "<p>Snow doesn't impair a white dragon's vision; it ignores concealment from snowfall.</p>"
+          "name": "Visión en la nieve",
+          "description": "<p>La nieve no impide la visión de un dragón blanco; éste ignora la ocultación debida a una nevada.</p>"
         },
         "action->Blizzard": {
-          "name": "Blizzard",
-          "description": "<p>50 feet. After the dragon uses its Breath Weapon, a fierce blizzard of blinding snow surrounds its body for 1 round. Everything in the aura is difficult terrain for other creatures that are on the ground, climbing, or flying. The blowing snow also makes all creatures in the area @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}. While the blizzard rages, the dragon's dragon chill extends to the full area of the blizzard.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.lJGAJF9QiXCOPd2I]{Effect: Draconic Breath Weapon Aura}</p>"
+          "name": "Ventisca",
+          "description": "<p>50 pies. Después de que el dragón usa su Arma de aliento, una violenta ventisca de nieve cegadora rodea su cuerpo durante 1 asalto. El espacio en el aura se convierte en terreno difícil para otras criaturas que estén en el suelo, trepando o volando. La tormenta de nieve también hace que todas las criaturas en el área estén @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Ocultas}. Mientras dura la ventisca, el Frío dracónico del dragón afecta a toda el área de la ventisca.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.lJGAJF9QiXCOPd2I]{Efecto: aura de arma de aliento dracónica}</p>"
         },
         "action->Dragon Chill": {
-          "name": "Dragon Chill",
-          "description": "<p>10 feet. @Damage[3d6[cold]] damage (@Check[reflex|dc:34|basic] save)</p>"
+          "name": "Frío dracónico",
+          "description": "<p>10 pies. @Damage[3d6[cold]] de daño (@Check[reflex|dc:34|basic] básica)</p>"
         },
         "action->Freezing Blood": {
-          "name": "Freezing Blood",
-          "description": "<p><strong>Trigger</strong> An adjacent creature deals piercing or slashing damage to the dragon.</p>\n<hr />\n<p><strong>Effect</strong> The dragon's blood sprays on the creature, dealing @Damage[3d6[cold]] damage. A creature that takes cold damage in this way is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p>"
+          "name": "Sangre congelante",
+          "description": "<p><strong>Desencadenante</strong> Una criatura adyacente inflige daño cortante o perforante al dragón.</p>\n<hr />\n<p><strong>Efecto</strong> La sangre del dragón salpica a la criatura y le inflige @Damage[3d6[cold]] de daño. Si una criatura sufre daño por frío de esta forma, queda @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificada 1} durante 1 asalto.</p>"
         },
         "action->Frightful Presence": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:34]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 pies. @Check[will|dc:34]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
-          "description": "<p>The dragon breathes a cloud of frost that deals @Damage[16d6[cold]|options:area-damage] damage in a @Template[cone|distance:50] (@Check[reflex|dc:36|basic|options:area-effect] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "name": "Arma de aliento",
+          "description": "<p>El dragón exhala una nube de escarcha que inflige @Damage[16d6[cold]|options:area-damage] de daño por frío en un @Template[cone|distance:50] (@Check[reflex|dc:36|basic|options:area-effect] básica).</p>\n<p>No puede volver a usar Arma de aliento durante [[/gmr 1d4 #Recarga de Arma de aliento]]{1d4 asaltos}.</p>"
         },
         "action->Draconic Frenzy": {
-          "name": "Draconic Frenzy",
-          "description": "<p>The dragon makes two claw Strikes and one tail Strike in any order</p>"
+          "name": "Frenesí dracónico",
+          "description": "<p>El dragón realiza dos Golpes de garra y un Golpe de cola en cualquier orden.</p>"
         },
         "action->Draconic Momentum": {
-          "name": "Draconic Momentum",
-          "description": "<p>When the dragon scores a critical hit with a Strike, it recharges its Breath Weapon</p>"
+          "name": "Impulso dracónico",
+          "description": "<p>Cuando el dragón logra un impacto crítico con un Golpe, recarga su Arma de aliento.</p>"
         },
         "action->Ground Slam": {
-          "name": "Ground Slam",
-          "description": "<p>The dragon slams into the ground. It can do this if it's on the ground or Flying within 10 feet of the ground. Each creature on the ground within @Template[emanation|distance:10]{10 feet} must succeed at a @Check[reflex|dc:37|options:area-effect,damaging-effect] save or fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and take @Damage[5d6[bludgeoning]|options:area-damage] damage.</p>\n<p>The dragon can then Step.</p>"
+          "name": "Aporrear el suelo",
+          "description": "<p>El dragón aporrea el suelo con gran fuerza. Puede hacerlo si está a ras del suelo o volando a un máximo de 10 pies de altura. Toda criatura que está a @Template[emanation|distance:10]{10 pies} o menos y sobre el suelo debe tener éxito en una salvación de @Check[reflex|dc:37|options:area-effect,damaging-effect] o queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbada} y sufre @Damage[5d6[bludgeoning]|options:area-damage] de daño contundente.</p>\n<p>El dragón puede luego dar un Paso.</p>"
         },
         "action->Ice Climb": {
-          "name": "Ice Trepar",
-          "description": "<p>A white dragon can CLIMB on ice as though it had the listed CLIMB Speed. It ignores difficult terrain and greater difficult terrain from ice and snow and doesn't risk falling when crossing ice.</p>"
+          "name": "Trepar por el hielo",
+          "description": "<p>Un dragón blanco puede trepar por superficies de hielo como si tuviera la Velocidad de trepar indicada. Ignora el terreno difícil y difícil mayor debido a hielo y nieve y no corre el riesgo de caerse al cruzar hielo.</p>"
         },
         "action->Shape Ice": {
-          "name": "Shape Ice",
-          "description": "<p>The dragon reshapes a cube of ice or snow it touches, up to 10 feet across. Any creature standing atop the ice must succeed at a @Check[reflex|dc:15] save or @Check[acrobatics|dc:15] check.</p>\n<p>On a failure, the creature falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} atop the ice; on a critical failure, it falls off the ice entirely and is also prone.</p>"
+          "name": "Moldear hielo",
+          "description": "<p>El dragón cambia la forma de un cubo de hielo o nieve que toca, de hasta 10 pies de lado. Las criaturas que estén sobre el hielo deben tener éxito en una salvación de @Check[reflex|dc:15] o en una prueba de @Check[acrobatics|dc:15].</p>\n<p>En caso de fallo, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbada} sobre el hielo; en caso de fallo crítico, cae fuera del hielo y además queda tumbada.</p>"
         }
       }
     },
     "White Dragon (Ancient, Spellcaster)": {
-      "name": "White Dragon (Ancient, Spellcaster)",
-      "publicNotes": "<p>The most feral and least intelligent of all the chromatic dragons, white dragons are brutish, predatory, and chiefly motivated by self-preservation. Nearly all other dragons look down on white dragons as hopelessly hotheaded and dull, though this does not make them any less dangerous-in fact, it may mean the opposite. It's nearly impossible to treat with white dragons, not because they lack the capacity to do so, but because they just don't care to. They are as difficult to deal with as they are quick to anger, and they become incensed at almost anything. When a white dragon does speak, it spews threats, inane jokes, and incoherent babbling as a prelude to attacking-and when the attack comes, it's bloody and relentless.</p>\n<p>Thankfully, white dragons prefer very cold, remote locations that are far from people. Dwelling on glacial mountaintops or in ice caverns beneath forbidding tundra, they treat the lands around them as their own personal hunting grounds. They fly out to feed or terrorize other creatures, especially those who trespass near the dragon's territory, then bring any treasure back to be displayed in icy niches in their lairs. They collect all kinds of valuables, with a slight preference for items with high utility-such as tools, trade goods, and fine food-over coins or jewels. The ability to shape ice lets white dragons rearrange their lairs exactly to their specifications, and they take great pride in how they've decorated their homes over the years.</p>\n<hr />\n<p>While there are many types of dragons, from the powerful planar dragons to the strange esoteric dragons, few dragon varieties are as well-known and as rightly feared as the chromatic dragons. Differentiated by the hue of their scales, each color of dragon unleashes its own flavor of murderous cruelty-be it by claw, tooth, or breath-and unlike most creatures, dragons only become more powerful as they age. Their lust for treasure, food, bloodshed, and control are legendary. Physically powerful with egos to match, these dragons are often morally depraved and act as criminal masterminds, vicious tyrants, or voracious raiders.</p>",
-      "saveDetails": "+1 status to all saves vs. magic",
+      "name": "Dragón blanco venerable (lanzador de conjuros)",
+      "publicNotes": "<p>Los dragones blancos son los más salvajes y menos inteligentes de todos los dragones cromáticos; crueles depredadores cuya mayor preocupación es su propia supervivencia. Casi todos los demás dragones menosprecian a los dragones blancos por ser impulsivos y simplones, pero eso no los hace menos peligrosos; en realidad, incluso puede ser al contrario. Es casi imposible negociar con un dragón blanco, no porque sean incapaces de ello, sino porque no tienen interés alguno.</p>\n<p>Son tan difíciles de tratar como fáciles de enfadar. Cuando un dragón blanco se digna a hablar es para proferir amenazas, chistes vacuos y diatribas incoherentes como preludio a un ataque; y cuando llega ese ataque, es sangriento e implacable.</p>\n<p>Por suerte, los dragones blancos prefieren lugares muy fríos y apartados, lejos de la gente. Se establecen en cumbres glaciales o en cavernas heladas bajo una tundra impracticable y tratan los terrenos circundantes como su territorio de caza particular. Salen volando para alimentarse o para aterrorizar a otras criaturas, especialmente las que se acercan a su guarida, y regresan con tesoros que exhiben en nichos de hielo en su cubil.</p>\n<p>Coleccionan toda clase de objetos de valor, con una leve preferencia por los objetos de gran utilidad, como herramientas, mercancías y buena comida, antes que por las monedas o joyas. Su capacidad de moldear el hielo permite a los dragones blancos reestructurar su guarida a placer y con el paso de los años suelen estar orgullosos de cómo han decorado su hogar.</p>\n<hr />\n<p>Los dragones cromáticos son seres egoístas, crueles y codiciosos que se cuentan entre los depredadores más temidos del mundo. Aunque cada linaje tiene sus propias obsesiones y métodos, todos comparten una arrogancia dracónica feroz y una inclinación a dominar el territorio que consideran suyo.</p>",
+      "saveDetails": "+1 por estatus a todas las salvaciones contra la magia",
       "senses": "snow vision",
       "speed": "CLIMB on ice only",
-      "tokenName": "White Dragon (Ancient)",
+      "tokenName": "Dragón blanco venerable",
       "items": {
         "spellcastingEntry->Arcane Prepared Spells": {
-          "name": "Arcane Prepared Spells"
+          "name": "Conjuros arcanos preparados"
         },
         "spellcastingEntry->Arcane Innate Spells": {
-          "name": "Arcane Innate Spells"
+          "name": "Conjuros arcanos innatos"
         },
         "spell->Baleful Polymorph": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]\nBaleful Polymorph"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]\nPolimorfar funesto"
         },
         "spell->True Seeing": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]\nTrue Seeing"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]\nVisión verdadera"
         },
         "spell->Passwall": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.115Xp9E38CJENhNS]\nPasswall"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.115Xp9E38CJENhNS]\nPasamuros"
         },
         "spell->Tongues": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K]\nTongues"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K]\nLenguas"
         },
         "spell->Wall of Ice (At Will)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.R5FHRv7VqyRnxg2t]\nWall of Ice (At Will)"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.R5FHRv7VqyRnxg2t]\nMuro de hielo (a voluntad)"
         },
         "spell->Dimension Door": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nDimension Door"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nPuerta dimensional"
         },
         "spell->Freedom of Movement": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH]\nFreedom of Movement"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH]\nLibertad de movimiento"
         },
         "spell->Vampiric Touch": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]\nVampiric Touch"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]\nToque vampírico"
         },
         "spell->Obscuring Mist (At Will)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]\nObscuring Mist (At Will)"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]\nNiebla de obscurecimiento (a voluntad)"
         },
         "spell->Gust of Wind (At Will)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]\nGust of Wind (At Will)"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]\nRáfaga de viento (a voluntad)"
         },
         "spell->Mage Hand": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]\nMage Hand"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]\nMano de mago"
         },
         "spell->Ray of Enfeeblement": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRay of Enfeeblement"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRayo de debilitamiento"
         },
         "spell->True Strike": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]\nTrue Strike"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]\nImpacto verdadero"
         },
         "strike-melee->Jaws": {
-          "name": "Jaws"
+          "name": "Fauces"
         },
         "strike-melee->Claw": {
-          "name": "Claw"
+          "name": "Garra"
         },
         "strike-melee->Tail": {
-          "name": "Tail"
+          "name": "Cola"
         },
         "action->Snow Vision": {
-          "name": "Snow Vision",
-          "description": "<p>Snow doesn't impair a white dragon's vision; it ignores concealment from snowfall.</p>"
+          "name": "Visión en la nieve",
+          "description": "<p>La nieve no impide la visión de un dragón blanco; éste ignora la ocultación debida a una nevada.</p>"
         },
         "action->Blizzard": {
-          "name": "Blizzard",
-          "description": "<p>50 feet. After the dragon uses its Breath Weapon, a fierce blizzard of blinding snow surrounds its body for 1 round. Everything in the aura is difficult terrain for other creatures that are on the ground, climbing, or flying. The blowing snow also makes all creatures in the area @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}. While the blizzard rages, the dragon's dragon chill extends to the full area of the blizzard.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.lJGAJF9QiXCOPd2I]{Effect: Draconic Breath Weapon Aura}</p>"
+          "name": "Ventisca",
+          "description": "<p>50 pies. Después de que el dragón usa su Arma de aliento, una violenta ventisca de nieve cegadora rodea su cuerpo durante 1 asalto. El espacio en el aura se convierte en terreno difícil para otras criaturas que estén en el suelo, trepando o volando. La tormenta de nieve también hace que todas las criaturas en el área estén @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Ocultas}. Mientras dura la ventisca, el Frío dracónico del dragón afecta a toda el área de la ventisca.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.lJGAJF9QiXCOPd2I]{Efecto: aura de arma de aliento dracónica}</p>"
         },
         "action->Dragon Chill": {
-          "name": "Dragon Chill",
-          "description": "<p>10 feet. @Damage[3d6[cold]] damage (@Check[reflex|dc:34|basic] save)</p>"
+          "name": "Frío dracónico",
+          "description": "<p>10 pies. @Damage[3d6[cold]] de daño (@Check[reflex|dc:34|basic] básica)</p>"
         },
         "action->Freezing Blood": {
-          "name": "Freezing Blood",
-          "description": "<p><strong>Trigger</strong> An adjacent creature deals piercing or slashing damage to the dragon.</p>\n<hr />\n<p><strong>Effect</strong> The dragon's blood sprays on the creature, dealing @Damage[3d6[cold]] damage. A creature that takes cold damage in this way is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p>"
+          "name": "Sangre congelante",
+          "description": "<p><strong>Desencadenante</strong> Una criatura adyacente inflige daño cortante o perforante al dragón.</p>\n<hr />\n<p><strong>Efecto</strong> La sangre del dragón salpica a la criatura y le inflige @Damage[3d6[cold]] de daño. Si una criatura sufre daño por frío de esta forma, queda @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificada 1} durante 1 asalto.</p>"
         },
         "action->Frightful Presence": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:34]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 pies. @Check[will|dc:34]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
-          "description": "<p>The dragon breathes a cloud of frost that deals @Damage[16d6[cold]|options:area-damage] damage in a @Template[cone|distance:50] (@Check[reflex|dc:36|basic|options:area-effect] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "name": "Arma de aliento",
+          "description": "<p>El dragón exhala una nube de escarcha que inflige @Damage[16d6[cold]|options:area-damage] de daño por frío en un @Template[cone|distance:50] (@Check[reflex|dc:36|basic|options:area-effect] básica).</p>\n<p>No puede volver a usar Arma de aliento durante [[/gmr 1d4 #Recarga de Arma de aliento]]{1d4 asaltos}.</p>"
         },
         "action->Ground Slam": {
-          "name": "Ground Slam",
-          "description": "<p>The dragon slams into the ground. It can do this if it's on the ground or Flying within 10 feet of the ground. Each creature on the ground within @Template[emanation|distance:10]{10 feet} must succeed at a @Check[reflex|dc:37|options:area-effect,damaging-effect] save or fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and take @Damage[5d6[bludgeoning]|options:area-damage] damage.</p>\n<p>The dragon can then Step.</p>"
+          "name": "Aporrear el suelo",
+          "description": "<p>El dragón aporrea el suelo con gran fuerza. Puede hacerlo si está a ras del suelo o volando a un máximo de 10 pies de altura. Toda criatura que está a @Template[emanation|distance:10]{10 pies} o menos y sobre el suelo debe tener éxito en una salvación de @Check[reflex|dc:37|options:area-effect,damaging-effect] o queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbada} y sufre @Damage[5d6[bludgeoning]|options:area-damage] de daño contundente.</p>\n<p>El dragón puede luego dar un Paso.</p>"
         },
         "action->Ice Climb": {
-          "name": "Ice Trepar",
-          "description": "<p>A white dragon can CLIMB on ice as though it had the listed CLIMB Speed. It ignores difficult terrain and greater difficult terrain from ice and snow and doesn't risk falling when crossing ice.</p>"
+          "name": "Trepar por el hielo",
+          "description": "<p>Un dragón blanco puede trepar por superficies de hielo como si tuviera la Velocidad de trepar indicada. Ignora el terreno difícil y difícil mayor debido a hielo y nieve y no corre el riesgo de caerse al cruzar hielo.</p>"
         },
         "action->Shape Ice": {
-          "name": "Shape Ice",
-          "description": "<p>The dragon reshapes a cube of ice or snow it touches, up to 10 feet across. Any creature standing atop the ice must succeed at a @Check[reflex|dc:15] save or @Check[acrobatics|dc:15] check.</p>\n<p>On a failure, the creature falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} atop the ice; on a critical failure, it falls off the ice entirely and is also prone.</p>"
+          "name": "Moldear hielo",
+          "description": "<p>El dragón cambia la forma de un cubo de hielo o nieve que toca, de hasta 10 pies de lado. Las criaturas que estén sobre el hielo deben tener éxito en una salvación de @Check[reflex|dc:15] o en una prueba de @Check[acrobatics|dc:15].</p>\n<p>En caso de fallo, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbada} sobre el hielo; en caso de fallo crítico, cae fuera del hielo y además queda tumbada.</p>"
         }
       }
     },
     "White Dragon (Young)": {
-      "name": "White Dragon (Young)",
-      "publicNotes": "<p>The most feral and least intelligent of all the chromatic dragons, white dragons are brutish, predatory, and chiefly motivated by self-preservation. Nearly all other dragons look down on white dragons as hopelessly hotheaded and dull, though this does not make them any less dangerous-in fact, it may mean the opposite. It's nearly impossible to treat with white dragons, not because they lack the capacity to do so, but because they just don't care to. They are as difficult to deal with as they are quick to anger, and they become incensed at almost anything. When a white dragon does speak, it spews threats, inane jokes, and incoherent babbling as a prelude to attacking-and when the attack comes, it's bloody and relentless.</p>\n<p>Thankfully, white dragons prefer very cold, remote locations that are far from people. Dwelling on glacial mountaintops or in ice caverns beneath forbidding tundra, they treat the lands around them as their own personal hunting grounds. They fly out to feed or terrorize other creatures, especially those who trespass near the dragon's territory, then bring any treasure back to be displayed in icy niches in their lairs. They collect all kinds of valuables, with a slight preference for items with high utility-such as tools, trade goods, and fine food-over coins or jewels. The ability to shape ice lets white dragons rearrange their lairs exactly to their specifications, and they take great pride in how they've decorated their homes over the years.</p>\n<hr />\n<p>While there are many types of dragons, from the powerful planar dragons to the strange esoteric dragons, few dragon varieties are as well-known and as rightly feared as the chromatic dragons. Differentiated by the hue of their scales, each color of dragon unleashes its own flavor of murderous cruelty-be it by claw, tooth, or breath-and unlike most creatures, dragons only become more powerful as they age. Their lust for treasure, food, bloodshed, and control are legendary. Physically powerful with egos to match, these dragons are often morally depraved and act as criminal masterminds, vicious tyrants, or voracious raiders.</p>",
+      "name": "Dragón blanco joven",
+      "publicNotes": "<p>Los dragones blancos son los más salvajes y menos inteligentes de todos los dragones cromáticos; crueles depredadores cuya mayor preocupación es su propia supervivencia. Casi todos los demás dragones menosprecian a los dragones blancos por ser impulsivos y simplones, pero eso no los hace menos peligrosos; en realidad, incluso puede ser al contrario. Es casi imposible negociar con un dragón blanco, no porque sean incapaces de ello, sino porque no tienen interés alguno.</p>\n<p>Son tan difíciles de tratar como fáciles de enfadar. Cuando un dragón blanco se digna a hablar es para proferir amenazas, chistes vacuos y diatribas incoherentes como preludio a un ataque; y cuando llega ese ataque, es sangriento e implacable.</p>\n<p>Por suerte, los dragones blancos prefieren lugares muy fríos y apartados, lejos de la gente. Se establecen en cumbres glaciales o en cavernas heladas bajo una tundra impracticable y tratan los terrenos circundantes como su territorio de caza particular. Salen volando para alimentarse o para aterrorizar a otras criaturas, especialmente las que se acercan a su guarida, y regresan con tesoros que exhiben en nichos de hielo en su cubil.</p>\n<p>Coleccionan toda clase de objetos de valor, con una leve preferencia por los objetos de gran utilidad, como herramientas, mercancías y buena comida, antes que por las monedas o joyas. Su capacidad de moldear el hielo permite a los dragones blancos reestructurar su guarida a placer y con el paso de los años suelen estar orgullosos de cómo han decorado su hogar.</p>\n<hr />\n<p>Los dragones cromáticos son seres egoístas, crueles y codiciosos que se cuentan entre los depredadores más temidos del mundo. Aunque cada linaje tiene sus propias obsesiones y métodos, todos comparten una arrogancia dracónica feroz y una inclinación a dominar el territorio que consideran suyo.</p>",
       "senses": "snow vision",
       "speed": "CLIMB on ice only",
       "items": {
         "strike-melee->Jaws": {
-          "name": "Jaws"
+          "name": "Fauces"
         },
         "strike-melee->Claw": {
-          "name": "Claw"
+          "name": "Garra"
         },
         "strike-melee->Tail": {
-          "name": "Tail"
+          "name": "Cola"
         },
         "action->Snow Vision": {
-          "name": "Snow Vision",
-          "description": "<p>Snow doesn't impair a white dragon's vision; it ignores concealment from snowfall.</p>"
+          "name": "Visión en la nieve",
+          "description": "<p>La nieve no impide la visión de un dragón blanco; éste ignora la ocultación debida a una nevada.</p>"
         },
         "action->Freezing Blood": {
-          "name": "Freezing Blood",
-          "description": "<p><strong>Trigger</strong> An adjacent creature deals piercing or slashing damage to the dragon.</p>\n<hr />\n<p><strong>Effect</strong> The dragon's blood sprays on the creature, dealing @Damage[1d6[cold]] damage. A creature that takes cold damage in this way is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p>"
+          "name": "Sangre congelante",
+          "description": "<p><strong>Desencadenante</strong> Una criatura adyacente inflige daño cortante o perforante al dragón.</p>\n<hr />\n<p><strong>Efecto</strong> La sangre del dragón salpica a la criatura y le inflige @Damage[1d6[cold]] de daño. Si una criatura sufre daño por frío de esta forma, queda @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificada 1} durante 1 asalto.</p>"
         },
         "action->Frightful Presence": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:20]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 pies. @Check[will|dc:20]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
-          "description": "<p>The dragon breathes a cloud of frost that deals @Damage[7d6[cold]|options:area-damage] damage in a @Template[cone|distance:30] (@Check[reflex|dc:24|basic|options:area-effect] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "name": "Arma de aliento",
+          "description": "<p>El dragón exhala una nube de escarcha que inflige @Damage[7d6[cold]|options:area-damage] de daño por frío en un @Template[cone|distance:30] (@Check[reflex|dc:24|basic|options:area-effect] básica).</p>\n<p>No puede volver a usar Arma de aliento durante [[/gmr 1d4 #Recarga de Arma de aliento]]{1d4 asaltos}.</p>"
         },
         "action->Draconic Frenzy": {
-          "name": "Draconic Frenzy",
-          "description": "<p>The dragon makes two claw Strikes and one tail Strike in any order.</p>"
+          "name": "Frenesí dracónico",
+          "description": "<p>El dragón realiza dos Golpes de garra y un Golpe de cola en cualquier orden.</p>"
         },
         "action->Draconic Momentum": {
-          "name": "Draconic Momentum",
-          "description": "<p>When the dragon scores a critical hit with a Strike, it recharges its Breath Weapon.</p>"
+          "name": "Impulso dracónico",
+          "description": "<p>Cuando el dragón logra un impacto crítico con un Golpe, recarga su Arma de aliento.</p>"
         },
         "action->Ground Slam": {
-          "name": "Ground Slam",
-          "description": "<p>The dragon slams into the ground. It can do this if it's on the ground or Flying within 10 feet of the ground. Each creature on the ground within @Template[emanation|distance:10]{10 feet} must succeed at a @Check[reflex|dc:24|options:area-effect,damaging-effect] save or fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and take @Damage[2d6[bludgeoning]|options:area-damage] damage.</p>\n<p>The dragon can then Step.</p>"
+          "name": "Aporrear el suelo",
+          "description": "<p>El dragón aporrea el suelo con gran fuerza. Puede hacerlo si está a ras del suelo o volando a un máximo de 10 pies de altura. Toda criatura que está a @Template[emanation|distance:10]{10 pies} o menos y sobre el suelo debe tener éxito en una salvación de @Check[reflex|dc:24|options:area-effect,damaging-effect] o queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbada} y sufre @Damage[2d6[bludgeoning]|options:area-damage] de daño contundente.</p>\n<p>El dragón puede luego dar un Paso.</p>"
         },
         "action->Ice Climb": {
-          "name": "Ice Trepar",
-          "description": "<p>A white dragon can CLIMB on ice as though it had the listed CLIMB Speed. It ignores difficult terrain and greater difficult terrain from ice and snow and doesn't risk falling when crossing ice.</p>"
+          "name": "Trepar por el hielo",
+          "description": "<p>Un dragón blanco puede trepar por superficies de hielo como si tuviera la Velocidad de trepar indicada. Ignora el terreno difícil y difícil mayor debido a hielo y nieve y no corre el riesgo de caerse al cruzar hielo.</p>"
         },
         "action->Shape Ice": {
-          "name": "Shape Ice",
-          "description": "<p>The dragon reshapes a cube of ice or snow it touches, up to 10 feet across. Any creature standing atop the ice must succeed at a @Check[reflex|dc:15] save or @Check[acrobatics|dc:15] check.</p>\n<p>On a failure, the creature falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} atop the ice; on a critical failure, it falls off the ice entirely and is also prone.</p>"
+          "name": "Moldear hielo",
+          "description": "<p>El dragón cambia la forma de un cubo de hielo o nieve que toca, de hasta 10 pies de lado. Las criaturas que estén sobre el hielo deben tener éxito en una salvación de @Check[reflex|dc:15] o en una prueba de @Check[acrobatics|dc:15].</p>\n<p>En caso de fallo, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbada} sobre el hielo; en caso de fallo crítico, cae fuera del hielo y además queda tumbada.</p>"
         }
       }
     },
     "White Dragon (Young, Spellcaster)": {
-      "name": "White Dragon (Young, Spellcaster)",
-      "publicNotes": "<p>The most feral and least intelligent of all the chromatic dragons, white dragons are brutish, predatory, and chiefly motivated by self-preservation. Nearly all other dragons look down on white dragons as hopelessly hotheaded and dull, though this does not make them any less dangerous-in fact, it may mean the opposite. It's nearly impossible to treat with white dragons, not because they lack the capacity to do so, but because they just don't care to. They are as difficult to deal with as they are quick to anger, and they become incensed at almost anything. When a white dragon does speak, it spews threats, inane jokes, and incoherent babbling as a prelude to attacking-and when the attack comes, it's bloody and relentless.</p>\n<p>Thankfully, white dragons prefer very cold, remote locations that are far from people. Dwelling on glacial mountaintops or in ice caverns beneath forbidding tundra, they treat the lands around them as their own personal hunting grounds. They fly out to feed or terrorize other creatures, especially those who trespass near the dragon's territory, then bring any treasure back to be displayed in icy niches in their lairs. They collect all kinds of valuables, with a slight preference for items with high utility-such as tools, trade goods, and fine food-over coins or jewels. The ability to shape ice lets white dragons rearrange their lairs exactly to their specifications, and they take great pride in how they've decorated their homes over the years.</p>\n<hr />\n<p>While there are many types of dragons, from the powerful planar dragons to the strange esoteric dragons, few dragon varieties are as well-known and as rightly feared as the chromatic dragons. Differentiated by the hue of their scales, each color of dragon unleashes its own flavor of murderous cruelty-be it by claw, tooth, or breath-and unlike most creatures, dragons only become more powerful as they age. Their lust for treasure, food, bloodshed, and control are legendary. Physically powerful with egos to match, these dragons are often morally depraved and act as criminal masterminds, vicious tyrants, or voracious raiders.</p>",
+      "name": "Dragón blanco joven (lanzador de conjuros)",
+      "publicNotes": "<p>Los dragones blancos son los más salvajes y menos inteligentes de todos los dragones cromáticos; crueles depredadores cuya mayor preocupación es su propia supervivencia. Casi todos los demás dragones menosprecian a los dragones blancos por ser impulsivos y simplones, pero eso no los hace menos peligrosos; en realidad, incluso puede ser al contrario. Es casi imposible negociar con un dragón blanco, no porque sean incapaces de ello, sino porque no tienen interés alguno.</p>\n<p>Son tan difíciles de tratar como fáciles de enfadar. Cuando un dragón blanco se digna a hablar es para proferir amenazas, chistes vacuos y diatribas incoherentes como preludio a un ataque; y cuando llega ese ataque, es sangriento e implacable.</p>\n<p>Por suerte, los dragones blancos prefieren lugares muy fríos y apartados, lejos de la gente. Se establecen en cumbres glaciales o en cavernas heladas bajo una tundra impracticable y tratan los terrenos circundantes como su territorio de caza particular. Salen volando para alimentarse o para aterrorizar a otras criaturas, especialmente las que se acercan a su guarida, y regresan con tesoros que exhiben en nichos de hielo en su cubil.</p>\n<p>Coleccionan toda clase de objetos de valor, con una leve preferencia por los objetos de gran utilidad, como herramientas, mercancías y buena comida, antes que por las monedas o joyas. Su capacidad de moldear el hielo permite a los dragones blancos reestructurar su guarida a placer y con el paso de los años suelen estar orgullosos de cómo han decorado su hogar.</p>\n<hr />\n<p>Los dragones cromáticos son seres egoístas, crueles y codiciosos que se cuentan entre los depredadores más temidos del mundo. Aunque cada linaje tiene sus propias obsesiones y métodos, todos comparten una arrogancia dracónica feroz y una inclinación a dominar el territorio que consideran suyo.</p>",
       "senses": "snow vision",
       "speed": "CLIMB on ice only",
-      "tokenName": "White Dragon (Young)",
+      "tokenName": "Dragón blanco joven",
       "items": {
         "spellcastingEntry->Arcane Prepared Spells": {
-          "name": "Arcane Prepared Spells"
+          "name": "Conjuros arcanos preparados"
         },
         "spell->Mage Hand": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]\nMage Hand"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]\nMano de mago"
         },
         "spell->Ray of Enfeeblement": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRay of Enfeeblement"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRayo de debilitamiento"
         },
         "spell->True Strike": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]\nTrue Strike"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]\nImpacto verdadero"
         },
         "strike-melee->Jaws": {
-          "name": "Jaws"
+          "name": "Fauces"
         },
         "strike-melee->Claw": {
-          "name": "Claw"
+          "name": "Garra"
         },
         "strike-melee->Tail": {
-          "name": "Tail"
+          "name": "Cola"
         },
         "action->Snow Vision": {
-          "name": "Snow Vision",
-          "description": "<p>Snow doesn't impair a white dragon's vision; it ignores concealment from snowfall.</p>"
+          "name": "Visión en la nieve",
+          "description": "<p>La nieve no impide la visión de un dragón blanco; éste ignora la ocultación debida a una nevada.</p>"
         },
         "action->Freezing Blood": {
-          "name": "Freezing Blood",
-          "description": "<p><strong>Trigger</strong> An adjacent creature deals piercing or slashing damage to the dragon.</p>\n<hr />\n<p><strong>Effect</strong> The dragon's blood sprays on the creature, dealing @Damage[1d6[cold]] damage. A creature that takes cold damage in this way is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p>"
+          "name": "Sangre congelante",
+          "description": "<p><strong>Desencadenante</strong> Una criatura adyacente inflige daño cortante o perforante al dragón.</p>\n<hr />\n<p><strong>Efecto</strong> La sangre del dragón salpica a la criatura y le inflige @Damage[1d6[cold]] de daño. Si una criatura sufre daño por frío de esta forma, queda @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificada 1} durante 1 asalto.</p>"
         },
         "action->Frightful Presence": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:20]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 pies. @Check[will|dc:20]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
-          "description": "<p>The dragon breathes a cloud of frost that deals @Damage[7d6[cold]|options:area-damage] damage in a @Template[cone|distance:30] (@Check[reflex|dc:24|basic|options:area-effect] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "name": "Arma de aliento",
+          "description": "<p>El dragón exhala una nube de escarcha que inflige @Damage[7d6[cold]|options:area-damage] de daño por frío en un @Template[cone|distance:30] (@Check[reflex|dc:24|basic|options:area-effect] básica).</p>\n<p>No puede volver a usar Arma de aliento durante [[/gmr 1d4 #Recarga de Arma de aliento]]{1d4 asaltos}.</p>"
         },
         "action->Ground Slam": {
-          "name": "Ground Slam",
-          "description": "<p>The dragon slams into the ground. It can do this if it's on the ground or Flying within 10 feet of the ground. Each creature on the ground within @Template[emanation|distance:10]{10 feet} must succeed at a @Check[reflex|dc:24|options:area-effect,damaging-effect] save or fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and take @Damage[2d6[bludgeoning]|options:area-damage] damage.</p>\n<p>The dragon can then Step.</p>"
+          "name": "Aporrear el suelo",
+          "description": "<p>El dragón aporrea el suelo con gran fuerza. Puede hacerlo si está a ras del suelo o volando a un máximo de 10 pies de altura. Toda criatura que está a @Template[emanation|distance:10]{10 pies} o menos y sobre el suelo debe tener éxito en una salvación de @Check[reflex|dc:24|options:area-effect,damaging-effect] o queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbada} y sufre @Damage[2d6[bludgeoning]|options:area-damage] de daño contundente.</p>\n<p>El dragón puede luego dar un Paso.</p>"
         },
         "action->Ice Climb": {
-          "name": "Ice Trepar",
-          "description": "<p>A white dragon can CLIMB on ice as though it had the listed CLIMB Speed. It ignores difficult terrain and greater difficult terrain from ice and snow and doesn't risk falling when crossing ice.</p>"
+          "name": "Trepar por el hielo",
+          "description": "<p>Un dragón blanco puede trepar por superficies de hielo como si tuviera la Velocidad de trepar indicada. Ignora el terreno difícil y difícil mayor debido a hielo y nieve y no corre el riesgo de caerse al cruzar hielo.</p>"
         },
         "action->Shape Ice": {
-          "name": "Shape Ice",
-          "description": "<p>The dragon reshapes a cube of ice or snow it touches, up to 10 feet across. Any creature standing atop the ice must succeed at a @Check[reflex|dc:15] save or @Check[acrobatics|dc:15] check.</p>\n<p>On a failure, the creature falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} atop the ice; on a critical failure, it falls off the ice entirely and is also prone.</p>"
+          "name": "Moldear hielo",
+          "description": "<p>El dragón cambia la forma de un cubo de hielo o nieve que toca, de hasta 10 pies de lado. Las criaturas que estén sobre el hielo deben tener éxito en una salvación de @Check[reflex|dc:15] o en una prueba de @Check[acrobatics|dc:15].</p>\n<p>En caso de fallo, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbada} sobre el hielo; en caso de fallo crítico, cae fuera del hielo y además queda tumbada.</p>"
         }
       }
     },
