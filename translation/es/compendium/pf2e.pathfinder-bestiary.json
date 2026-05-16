@@ -183,17 +183,17 @@
       }
     },
     "Annis Hag": {
-      "name": "Annis Hag",
-      "publicNotes": "<p>Annis hags are brutal torturers and murderers, delighting in the musical screams and tasty flesh of young creatures and those who are pure of heart. Annis hags are the most direct of all hags, engaging in physical combat and using their change shape ability to hunt rather than to infiltrate and betray humanoids. But an Annis hag takes a grisly trophy from each kill and uses it to sow discord, sending the trophy to one of her victim's loved ones in a way that implicates another family member in the murder. Also known as iron hags, annis hags have iron-like yet flexible flesh that resists edged weapons, and their own touch is the same cold iron that burns the flesh of other hags. This allows them to bully their way to the leadership of hag covens.</p>\n<hr />\n<p>Malevolent crones who lurk at the edges of civilization, hags use their deceptive, magical abilities to prey upon humanoids, manipulating and corrupting them. Some say hags arose from fey that became twisted by their inner selfishness. Hags gather together in covens for greater power, craft unique magical items known as <em>@UUID[Compendium.pf2e.equipment-srd.Item.ACa9QlFqdmW4s2Th]{Hag Eyes}</em>, and are known to replace infant humanoids with their own offspring-these children are @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.RqX0vfUjlycKjGyp]{Changelings} who have the potential to become hags themselves.</p>",
-      "saveDetails": "+1 status to all saves vs. magic",
+      "name": "Saga annis",
+      "publicNotes": "<p>Las sagas annis son brutales torturadoras y asesinas, que se deleitan en los musicales alaridos y la sabrosa carne de las criaturas jóvenes o puras de corazón. Las annis son las más directas de todas las sagas: suelen entablar combate físico y emplean su aptitud de cambiar de forma para cazar en lugar de infiltrarse y engañar a humanoides. Pero una saga annis se lleva siempre un trofeo macabro de cada asesinato y lo usa para sembrar la discordia, mandando el trofeo a uno de los seres queridos de su víctima de forma que incrimine a otro miembro de la familia en el asesinato. Las sagas annis también son llamadas sagas férreas debido a su piel flexible pero dura como el hierro, que repele las armas de filo, y su propio contacto quema a las demás sagas como si fuera hierro frío. Esto les permite amedrentar a las demás sagas de sus aquelarres y hacerse con el liderazgo.</p>\n<hr />\n<p>Las sagas son brujas malévolas que acechan en los márgenes de la civilización y usan sus aptitudes mágicas y engañosas para depredar humanoides, manipularlos y corromperlos. Algunas voces dicen que las sagas surgieron de hadas retorcidas por su propio egoísmo. Las sagas se reúnen en aquelarres para obtener mayor poder, crean objetos mágicos únicos conocidos como <em>@UUID[Compendium.pf2e.equipment-srd.Item.ACa9QlFqdmW4s2Th]{Ojos de saga}</em> y son famosas por sustituir bebés humanoides por su propia descendencia: estos niños son @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.RqX0vfUjlycKjGyp]{Changelings} con potencial para convertirse en sagas.</p>",
+      "saveDetails": "+1 por estatus a las salvaciones contra la magia",
       "skillSpecialAthletics": {
         "0": {
-          "label": "to Grapple"
+          "label": "a Apresar"
         }
       },
       "items": {
         "spellcastingEntry->Coven Spells": {
-          "name": "Coven Spells"
+          "name": "Conjuros de aquelarre"
         },
         "spell->Baleful Polymorph": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]\nBaleful Polymorph"
@@ -205,31 +205,31 @@
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.Ek5XI0aEdZhBgm21]\nPrying Eye"
         },
         "strike-melee->Claw": {
-          "name": "Claw"
+          "name": "Garra"
         },
         "action->Coven": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.52CdldlWMiVTZk1F]\n<p>An annis hag adds @UUID[Compendium.pf2e.spells-srd.Item.gPvtmKMRpg9I9D7H]{Earthbind}, @UUID[Compendium.pf2e.spells-srd.Item.115Xp9E38CJENhNS]{Magic Passage}, and @UUID[Compendium.pf2e.spells-srd.Item.8Umt1AzYfFbC4fui]{Spellwrack} to her coven's spells.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Coven]</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.52CdldlWMiVTZk1F]\n<p>Una saga annis añade @UUID[Compendium.pf2e.spells-srd.Item.gPvtmKMRpg9I9D7H]{Ligadura terrestre}, @UUID[Compendium.pf2e.spells-srd.Item.115Xp9E38CJENhNS]{Pasamiento} y @UUID[Compendium.pf2e.spells-srd.Item.8Umt1AzYfFbC4fui]{Arruinaconjuros} a los conjuros de su aquelarre.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Coven]</p>"
         },
         "action->Bonds of Iron": {
-          "name": "Bonds of Iron",
-          "description": "<p>Once per day, an annis hag can cause a cage built of cold iron fingernails to spring out of nothingness at a range of up to 30 feet, attempting an ATHLETICS check to [[/act grapple]] against the target's Fortitude DC; if the target has a weakness to cold iron, the annis hag gains a +2 circumstance bonus to this check.</p>\n<p>Unlike a normal Grapple, the annis hag doesn't need to be within reach and can move as she pleases, and a successful attempt lasts until the creature [[/act escape dc=24]]{Escapes}, causing the cage to crumble into rust.</p>\n<p>Any creature can attempt to destroy the cage by attacking it. It has an AC of 19, Hardness 10, and 40 Hit Points.</p>"
+          "name": "Ligaduras de hierro",
+          "description": "<p>Una vez al día, una saga annis puede provocar que una jaula hecha de uñas de hierro frío surja de la nada a 30 pies (9 m) o menos, e intentar una prueba de Atletismo para @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Apresar} contra la CD de Fortaleza del objetivo; si el objetivo tiene debilidad al hierro frío, la saga annis obtiene un bonificador +2 por circunstancia a esta prueba.</p>\n<p>A diferencia de una Presa normal, la saga annis no necesita quedarse dentro de alcance y puede moverse libremente. Un intento con éxito dura hasta que la criatura @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} (CD 24), lo que hace que la jaula se desmorone en un montón de herrumbre.</p>\n<p>Cualquier criatura puede intentar destruir la jaula atacándola. Tiene CA 19, Dureza 10 y 40 PG.</p>"
         },
         "action->Change Shape": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>The hag can take on the appearance of any Medium female humanoid. This doesn't change her Speed or her attack and damage bonuses with her Strikes but might change the damage type her Strikes deal (typically to bludgeoning).</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>La saga puede adoptar la apariencia de cualquier mujer humanoide Mediana. Esto no cambia su Velocidad ni sus bonificadores al ataque y al daño con sus Golpes, pero puede cambiar el tipo de daño que infligen sus Golpes, normalmente a contundente.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
         "action->Rend": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.3JOi2cMcGhT3eze1]\n<p>Claw</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.3JOi2cMcGhT3eze1]\n<p>Garra</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
         }
       }
     },
     "Balor": {
-      "name": "Balor",
-      "languages": "telepathy 100 feet",
-      "publicNotes": "<p>When folk whisper frightened tales of the demonic, what most envision is the balor-a towering figure of fire and flesh, a horned nightmare armed with a flaming whip and a sword flying through the night in search of its latest victim. On the Abyss, balors serve demon lords as generals or captains, and they typically command vast legions of demons. Standing at 14 feet in height, only the cruelest mortal souls-those who devoted entire lives to sins too numerous to count-can fuel the formation of a balor. More often, a balor forms from a mass of dozens of mortal souls who shared debased ideologies in life.</p>\n<h4>Balor Lords</h4>\n<p>Those rare few balors who form from single souls are the ones most likely to eventually transcend the notable power they already wield, becoming a nascent demon lord. These balor lords are each unique creatures of 21st to 25th level in power who rule their own realm in the Abyss. In time, a balor lord can further develop into a unique creature with wildly different powers, even ascending to the role of a true demon lord.</p>\n<hr />\n<p>When a sinful mortal soul is judged and sent on to the Abyss, it can become a deadly fiend-a demon. Demons are living incarnations of sin-be they classic sins like wrath or gluttony, or more \"specialized\" depravities like an obsession with torture or the act of treason or treachery. Once formed, a demon's driving goals are twofold-the amassing of personal power, and the corruption of mortal souls to cause them to become tainted by sin. In this way demons ensure a never-ending supply of new demons to bolster their ever-growing ranks in the Abyss.</p>",
-      "saveDetails": "+1 status to all saves vs. magic",
+      "name": "Bálor",
+      "languages": "telepatía 100 pies (30 m)",
+      "publicNotes": "<p>Cuando la gente susurra relatos aterrados sobre lo demoníaco, lo que la mayoría imagina es el bálor: una figura imponente de fuego y carne, una pesadilla cornuda armada con un látigo y una espada llameantes que vuela en la noche en busca de su próxima víctima. En el Abismo, los bálor sirven a los señores demoníacos como generales o capitanes y normalmente están al mando de vastas legiones de demonios. Con una altura de 14 pies (4,2 m), sólo las almas mortales más crueles, aquellas que dedicaron vidas enteras a pecados demasiado numerosos como para contarlos, pueden provocar la formación de un bálor. Lo más habitual es que un bálor se forme a partir de una masa de docenas de almas mortales que compartieron ideologías inmorales en vida.</p>\n<h4>Señores de los bálor</h4>\n<p>Los escasos bálor que se forman a partir de una sola alma son los que más probablemente acaban trascendiendo el considerable poder que ya poseen y se convierten en señores demoníacos nacientes. Estos señores de los bálor son criaturas únicas de nivel 21 a 25 que gobiernan su propio reino en el Abismo. Con el tiempo, un señor de los bálor puede seguir desarrollándose hasta convertirse en una criatura única con poderes completamente diferentes, e incluso ascender al rol de verdadero señor demoníaco.</p>\n<hr />\n<p>Cuando un alma mortal pecadora es juzgada y enviada al Abismo, puede convertirse en un infernal letal: un demonio. Los demonios son encarnaciones vivientes del pecado, ya sean pecados clásicos como la ira o la gula, o depravaciones más especializadas como la obsesión con la tortura, la traición o la perfidia. Una vez formados, los demonios persiguen dos metas: acumular poder personal y corromper almas mortales para que queden manchadas por el pecado. Así garantizan un suministro interminable de nuevos demonios para reforzar sus crecientes filas en el Abismo.</p>",
+      "saveDetails": "+1 por estatus a las salvaciones contra la magia",
       "items": {
         "spellcastingEntry->Divine Innate Spells": {
-          "name": "Divine Innate Spells"
+          "name": "Conjuros divinos innatos"
         },
         "spell->Dominate (At Will)": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P]\nDominate (At Will)"
@@ -253,81 +253,81 @@
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.LJdbVTOZog39EEbi]\n<p>Longswords can be one-edged or two-edged swords. Their blades are heavy and they're between 3 and 4 feet in length.</p>"
         },
         "strike-melee->Vorpal Cold Iron Silver Longsword": {
-          "name": "Vorpal Cold Iron Silver Longsword"
+          "name": "Espada larga plateada de hierro frío vorpalina"
         },
         "strike-melee->Cold Iron Silver Flame Whip": {
-          "name": "Cold Iron Silver Flame Whip"
+          "name": "Látigo de fuego plateado de hierro frío"
         },
         "action->Telepathy 100 feet": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA]\nTelepathy 100 feet"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA]\nTelepatía 100 pies (30 m)"
         },
         "action->Attack of Opportunity (Special)": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O]\nAttack of Opportunity (Special)",
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O]\n<p>The balor can use Attack of Opportunity when a creature within their reach uses a concentrate action, in addition to its normal trigger. They can disrupt triggering concentrate actions, and they disrupt actions on any hit, not just a critical hit.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
         "action->Aura of Flame": {
-          "name": "Aura of Flame",
-          "description": "<p>20 feet. A foe that starts its turn in the aura takes @Damage[(3d6+10)[fire]] damage, or @Damage[(6d6+20)[fire]] damage if the balor has @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} it. A creature that hits a balor with an unarmed Strike takes @Damage[(3d6+10)[fire]] damage, and weapons that hit a balor take @Damage[(3d6+10)[fire]] damage.</p>"
+          "name": "Aura de llamas",
+          "description": "<p>20 pies (6 m). Los enemigos que empiezan su turno en el aura sufren @Damage[(3d6+10)[fire]] de daño por fuego, o @Damage[(6d6+20)[fire]] de daño por fuego si el bálor los tiene @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrados} o @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizados}. Una criatura que impacta al bálor con un Golpe sin armas sufre @Damage[(3d6+10)[fire]] de daño por fuego, y las armas que impactan a un bálor sufren @Damage[(3d6+10)[fire]] de daño por fuego.</p>"
         },
         "action->Death Throes": {
-          "name": "Death Throes",
-          "description": "<p>When a balor dies, their body explodes in a @Template[emanation|distance:100]{100-foot aura} of intense demonic flame. All creatures and objects in range take @Damage[16d10[fire]|options:area-damage] damage (@Check[reflex|dc:45|basic|options:area-effect] save). Because the flame is infused with Abyssal energy, creatures in the area apply only half their usual fire resistance. Creatures with immunity to fire use an outcome one degree of success better than what they rolled, instead of gaining the usual benefit of immunity. The bodies of creatures reduced to 0 Hit Points by a balor's death throes are completely incinerated into fine ash.</p>"
+          "name": "Estertores de muerte",
+          "description": "<p>Cuando un bálor muere, su cuerpo explota en un aura de 100 pies (30 m) de intensas llamas demoníacas. Todas las criaturas y objetos dentro del alcance sufren @Damage[16d10[fire]|options:area-damage] de daño por fuego (salvación básica de @Check[reflex|dc:45|basic|options:area-effect]). Dado que las llamas están imbuidas de energía abisal, las criaturas en el área sólo aplican la mitad de su resistencia al fuego habitual. Las criaturas con inmunidad al fuego usan un resultado con un grado de éxito mejor que el obtenido en la tirada, en lugar de obtener el beneficio habitual por su inmunidad. Los cuerpos de las criaturas reducidas a 0 PG por los estertores de muerte de un bálor son completamente incinerados y reducidos a ceniza.</p>"
         },
         "action->Dimensional Dervish": {
-          "name": "Dimensional Dervish",
-          "description": "<p>A balor can cast their 5th-rank innate @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Translocate} with only a single action.</p>"
+          "name": "Derviche dimensional",
+          "description": "<p>Un bálor puede lanzar su @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Translocar} innato de 5.º rango con una sola acción.</p>"
         },
         "action->Dispelling Strike": {
-          "name": "Dispelling Strike",
-          "description": "<p><strong>Frequency</strong> once per round.</p>\n<p><strong>Trigger</strong> The balor hits a creature, object, or spell effect with a weapon Strike.</p>\n<hr />\n<p><strong>Effect</strong> The balor casts an innate @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} on the target of the triggering Strike.</p>"
+          "name": "Golpe disipador",
+          "description": "<p><strong>Frecuencia</strong> una vez por asalto.</p>\n<p><strong>Desencadenante</strong> El bálor impacta a una criatura, objeto o efecto de conjuro con un Golpe con un arma.</p>\n<hr />\n<p><strong>Efecto</strong> El bálor lanza un @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Disipar magia} innato sobre el objetivo del Golpe desencadenante.</p>"
         },
         "action->Infuse Weapons": {
-          "name": "Infuse Weapons",
+          "name": "Infundir armas",
           "description": "<p>Any weapon a balor wields becomes a <em>+3 @UUID[Compendium.pf2e.equipment-srd.Item.woxl2FrrgAcJDu0t]{Major Striking} @UUID[Compendium.pf2e.equipment-srd.Item.6xaxxKfvXED6LfIY]{Vorpal} weapon</em> made of cold iron and silver while the demon holds it. A weapon that isn't eligible for the vorpal rune doesn't gain its effects. The demon can conjure a whip made of flames with an INTERACT action. This whip gains the same benefits as other weapons the balor wields.</p>"
         },
         "action->Lifedrinker": {
-          "name": "Lifedrinker",
+          "name": "Absorber vida",
           "description": "<p><strong>Trigger</strong> The balor kills a living creature that is at least 15th level.</p>\n<hr />\n<p><strong>Effect</strong> The balor drinks the triggering creature's life force and regains @Damage[(10d8+80)[healing]] Hit Points.</p>"
         },
         "action->Whip Reposition": {
-          "name": "Whip Reposition",
-          "description": "<p>When a balor @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabs} a creature with a whip Strike, they can move the creature to any space in the whip's reach. The balor can move without ending the GRAB as long as the creature remains within the whip's reach, and the balor can move the creature to any other space in the whip's reach with an INTERACT action.</p>"
+          "name": "Reposición con látigo",
+          "description": "<p>Cuando un bálor @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarra} a una criatura con un Golpe de látigo, puede mover a la criatura a cualquier espacio dentro del alcance del látigo. El bálor puede moverse sin terminar la Presa mientras la criatura permanezca dentro del alcance del látigo, y puede mover a la criatura a cualquier otro espacio dentro del alcance del látigo con una acción de Interactuar.</p>"
         }
       }
     },
     "Baomal": {
       "name": "Baomal",
-      "acDetails": "all-around vision",
-      "publicNotes": "<p>Few sea monsters are as dreaded and feared as the two-headed baomal. These massive predatory beasts typically dwell in the deepest waters and compete with krakens and other monsters for food. They feed on whales and other large sea creatures, sometimes following them to the water's surface. Near the surface, baomals that encounter ships quickly learn that they contain a variety of tasty morsels. The creatures use their devastating spikes to rip open the ships' hulls, then leisurely feed on the helpless sailors.</p>",
+      "acDetails": "visión periférica total",
+      "publicNotes": "<p>Pocos monstruos marinos son tan temidos como los bicéfalos baomales. Estas colosales bestias depredadoras suelen vivir en aguas profundas y compiten por la comida con krakens y otros monstruos. Se alimentan de ballenas y otras criaturas marinas de gran tamaño, a las que a veces siguen hasta la superficie del agua. Cerca de la superficie, los baomales que se topan con barcos pronto descubren que estos contienen una gran variedad de sabrosos aperitivos. Las criaturas usan sus devastadoras púas para desgarrar los cascos de los navíos y luego se alimentan tranquilamente de los indefensos marineros.</p>",
       "items": {
         "strike-melee->Jaws": {
-          "name": "Jaws"
+          "name": "Fauces"
         },
         "strike-melee->Tsunami Jet": {
-          "name": "Tsunami Jet"
+          "name": "Chorro tsunami"
         },
         "action->Double Opportunity": {
-          "name": "Double Opportunity",
+          "name": "Oportunidad doble",
           "description": "<p>A baomal gains an extra reaction each round that it can use only to make an Attack of Opportunity. It must use a different head for each one it attempts, and it can't make more than one Attack of Opportunity for the same triggering action.</p>"
         },
         "action->Psychic Static Aura": {
-          "name": "Psychic Static Aura",
+          "name": "Aura de estática psíquica",
           "description": "<p>120 feet. All creatures, except aberrations, that begin their turn in the area take @Damage[5d6[mental]] damage.</p>"
         },
         "action->Two Heads": {
-          "name": "Two Heads",
+          "name": "Dos cabezas",
           "description": "<p>Any ability that would sever a baomal's head (such as a critical hit with a <em>@UUID[Compendium.pf2e.equipment-srd.Item.6xaxxKfvXED6LfIY]{Vorpal}</em> weapon) severs one head at random. Losing one head doesn't kill a baomal, but it does prevent the baomal from making Strikes with the lost head and from using Double Opportunity or Two-Headed Strike.</p>"
         },
         "action->Breath of the Sea": {
-          "name": "Breath of the Sea",
+          "name": "Hálito del mar",
           "description": "<p>A baomal can inhale tremendous amounts of water, drawing everything in the sea nearby closer. All creatures and objects in the water within @Template[emanation|distance:60]{60 feet} of the baomal (including ships) are pulled toward it. Creatures must succeed at a @Check[athletics|dc:42] check or be pulled up to 20 feet toward the baomal (40 feet on a critical failure). For ships, use the captain's Sailing LORE in place of ATHLETICS. Unattended objects are automatically pulled.</p>"
         },
         "action->Shell Rake": {
-          "name": "Shell Rake",
+          "name": "Caparazón desgarrador",
           "description": "<p>The baomal Swims or Strides alongside a creature or the hull of a vessel, dealing damage with the strong spikes on its shell. Each creature or ship the baomal is adjacent to at any point during its movement takes @Damage[(6d6+10)[slashing],(6d6+10)[piercing]]{6d6+10 slashing and piercing damage} (@Check[reflex|dc:42|basic] save). Against vessels, Shell Rake ignores the first 5 Hardness and creates an explosion of splinters that deals @Damage[(3d6+5)[untyped]|options:area-damage] damage to every creature within @Template[burst|distance:10]{10 feet} of the deck's edge (@Check[reflex|dc:42|basic|options:area-effect] save).</p>"
         },
         "action->Two-Headed Strike": {
-          "name": "Two-Headed Strike",
+          "name": "Golpe bicéfalo",
           "description": "<p>The baomal makes a Strike with each set of jaws, each against a different creature. These Strikes count as one attack for the baomal's multiple attack penalty, and the penalty doesn't increase until after both attacks.</p>"
         },
         "action->Push 40 feet": {
@@ -385,10 +385,10 @@
     },
     "Barghest": {
       "name": "Barghest",
-      "publicNotes": "<p>Typical barghests are ravenous gluttons of life who feed and grow on the fat of mortals, their bodies changing in ways none can predict as they use the flesh and blood of their victims to achieve grisly transformations into greater barghests. Barghests often make use of their shapechanging abilities to rule tribes of goblinoids or to discreetly hunt in rural areas in the guise of unnaturally intelligent wolves. They do not work well together, as each barghest wants all the kills for itself; cannibalism is the typical result of too many barghests in one small area.</p>\n<hr />\n<p>Barghests are lupine fiends with goblinoid faces and humanoid hands. They stalk the Material Plane in search of souls to sate their demonic hunger. Eons ago, barghests dwelled in the pits of Hell and served Asmodeus, but after Lamashtu abducted and adopted the four most powerful of their kind to serve as pets (and in time, as a pantheon of hero-gods worshipped by evil goblins), barghests' loyalties and philosophical NATURE changed significantly. Today, while barghests retain their connection to goblinoids, they serve none but their own appetites.</p>",
+      "publicNotes": "<p>Los barghests típicos son voraces depredadores que se nutren de la grasa de los mortales y sus cuerpos se transforman de modo impredecible cuando consumen carne y sangre de suficientes víctimas para su macabro ascenso a barghests mayores. Los barghests a menudo emplean sus capacidades de cambiar de forma para gobernar tribus goblinoides o para cazar discretamente en zonas rurales bajo la apariencia de lobos inusualmente inteligentes. No saben trabajar en equipo, pues cada barghest quiere todas las presas para sí; el resultado de que haya demasiados barghests en una misma zona suele ser el canibalismo.</p>\n<hr />\n<p>Los barghests son infernales lupinos con cara de goblin y manos humanoides. Acechan en el Plano Material en busca de almas con las que saciar su hambre demoníaca. Hace milenios, los barghests habitaban las fosas del Infierno y servían a Asmodeo, pero desde que Lamashtu secuestró a los cuatro más poderosos de su especie y los adoptó como mascotas, con el tiempo convertidos en un panteón de dioses-héroes adorados por goblins malignos, la lealtad de los barghests y su naturaleza filosófica cambiaron de forma significativa. Actualmente, aunque los barghests conservan su conexión con los goblinoides, sólo sirven a sus propios apetitos.</p>",
       "items": {
         "spellcastingEntry->Divine Innate Spells": {
-          "name": "Divine Innate Spells"
+          "name": "Conjuros divinos innatos"
         },
         "spell->Blink (At Will)": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.zR67Rt3UMHKC5evy]\nBlink (At Will)"
@@ -401,79 +401,79 @@
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.fI20AVwOzJMHXRdo]\nLevitate (At Will)"
         },
         "strike-melee->Jaws": {
-          "name": "Jaws"
+          "name": "Fauces"
         },
         "strike-melee->Claw": {
-          "name": "Claw"
+          "name": "Garra"
         },
         "action->Change Shape": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>The barghest takes on the shape of a goblinoid (a goblin, hobgoblin, or bugbear) or a wolf, or it transforms back into its true form. When the barghest is a goblinoid, it loses its jaws and claw Strikes, it becomes Small if it is a goblin, and its Speed changes to 20 feet. When the barghest is a wolf, its Speed changes to 40 feet and its jaws gain @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu]{Knockdown}. Each individual barghest has only one goblinoid form and one wolf form.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.o6ZI01zZBQDASuaw]{Effect: Wolf Shape}</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>El barghest adopta la forma de un goblinoide (goblin, hobgoblin o bugbear) o un lobo, o vuelve a su forma verdadera. Cuando el barghest es un goblinoide, pierde sus Golpes de fauces y garra, pasa a ser Pequeño si es un goblin y su Velocidad cambia a 20 pies. Cuando el barghest es un lobo, su Velocidad cambia a 40 pies y sus fauces obtienen @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu]{Derribo}. Cada barghest individual tiene una única forma goblinoide y una única forma de lobo.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.o6ZI01zZBQDASuaw]{Efecto: Forma de lobo}</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
         "action->Feed": {
-          "name": "Feed",
-          "description": "<p>Once per month, a barghest can spend 1 minute to devour a corpse, gaining a permanent +1 status bonus to its checks and DCs. Each subsequent time it feeds, this bonus increases by 1. The fourth time a barghest feeds, it sheds its skin and mutates into a @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.DlRe4c2XlBSpwmms]{Greater Barghest}, and the status bonus ends.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.i4S6h5c1KK4FLq6w]{Effect: Feed}</p>"
+          "name": "Alimentarse",
+          "description": "<p>Una vez al mes, un barghest puede invertir 1 minuto en devorar un cadáver y obtener un bonificador +1 por estatus permanente a sus pruebas y CD. Cada vez posterior que se alimenta, este bonificador aumenta en 1. La cuarta vez que un barghest se alimenta, muda de piel y se transforma en un @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.DlRe4c2XlBSpwmms]{Barghest mayor}, y el bonificador por estatus termina.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.i4S6h5c1KK4FLq6w]{Efecto: Alimentarse}</p>"
         }
       }
     },
     "Black Dragon (Adult)": {
-      "name": "Black Dragon (Adult)",
-      "publicNotes": "<p>Murderous tyrants of marshes, swamps, bogs, and fens, black dragons terrorize their domains with intense fervor. Gleefully sadistic, they rule their fetid principalities from a deep cave or otherwise isolated part of the swamp with a mix of lightning-quick raids and subterfuge. Their hatred for other creatures is as acidic as their breath weapons, and they rarely tolerate even other dragons of their kind-except perhaps to mate or temporarily collaborate to take down a mutual enemy.</p>\n<p>Black dragons are amphibious-although they breathe air, their gills also allow them to breathe water. Their frills and fins make them accomplished swimmers, well suited to their wetland environments and submerged lairs. They're immune to the fetid water that comes as a result of their magical ability to corrupt water.</p>\n<p>Black dragon lairs are as foul as their souls. The floors are littered with rotting meat, and plundered treasures line the muck and slime of their dank caves amid twisted roots and creepers. Such places are often crawling with pests, snakes, and slimes. Though they claim natural caverns when they can, they make do with areas of dense, twisted vegetation within a swamp. Black dragon treasure hoards primarily consist of gems and expensive glass work, as valuables of softer substance can't survive the dragon's acidic presence.</p>\n<hr />\n<p>While there are many types of dragons, from the powerful planar dragons to the strange esoteric dragons, few dragon varieties are as well-known and as rightly feared as the chromatic dragons. Differentiated by the hue of their scales, each color of dragon unleashes its own flavor of murderous cruelty-be it by claw, tooth, or breath-and unlike most creatures, dragons only become more powerful as they age. Their lust for treasure, food, bloodshed, and control are legendary. Physically powerful with egos to match, these dragons are often morally depraved and act as criminal masterminds, vicious tyrants, or voracious raiders.</p>",
-      "saveDetails": "+1 status to all saves vs. magic",
+      "name": "Dragón negro adulto",
+      "publicNotes": "<p>Los dragones negros son tiranos homicidas que gobiernan marismas, pantanos, ciénagas y marjales mediante el miedo. Estas sádicas criaturas suelen tener su guarida en una cueva profunda o una parte aislada del pantano y ejercen su autoridad mediante una combinación de incursiones relámpago y subterfugio. Su odio por las demás criaturas es tan ácido como su aliento, y raro es que toleren incluso a otros dragones de su mismo tipo, salvo para aparearse o para colaborar temporalmente en pos de abatir a un enemigo mutuo.</p>\n<p>Los dragones negros son anfibios; aunque respiran oxígeno, sus branquias les permiten respirar bajo el agua. Sus aletas les ayudan a nadar mejor y son una adaptación a sus entornos húmedos y sus guaridas sumergidas. Son inmunes al agua fétida que resulta de su aptitud mágica de corromper agua.</p>\n<p>Las guaridas de los dragones negros son tan viles como sus almas. El suelo está repleto de carne pútrida y sus tesoros saqueados yacen entre la mugre y el barro de esas cavernas húmedas, entre raíces y enredaderas. Dichos lugares suelen estar repletos de insectos, serpientes y cienos. Aunque se apropian de cavernas naturales siempre que pueden, se pueden conformar con zonas de vegetación densa y retorcida dentro de un pantano. El tesoro de un dragón negro suele consistir principalmente en gemas y obras exquisitas de cristal, pues los objetos de valor de sustancias más blandas no sobreviven a la presencia ácida del dragón.</p>\n<hr />\n<p>Aunque hay muchos tipos de dragones, desde los poderosos dragones planarios a los extraños dragones esotéricos, pocas variedades dracónicas son tan conocidas y justamente temidas como los dragones cromáticos. Se diferencian por el tono de sus escamas; cada color de dragón ejerce su propia variante de crueldad asesina, mediante garras, dientes o aliento, y a diferencia de la mayoría de criaturas se vuelven más poderosos a medida que envejecen. Sus ansias de tesoro, comida, violencia y autoridad son legendarias. Físicamente poderosos y con egos que no se quedan atrás, estos dragones suelen carecer de moral y actuar como genios del crimen, feroces tiranos o voraces saqueadores.</p>",
+      "saveDetails": "+1 por estatus a las salvaciones contra la magia",
       "items": {
         "spellcastingEntry->Arcane Innate Spells": {
-          "name": "Arcane Innate Spells"
+          "name": "Conjuros arcanos innatos"
         },
         "spell->Darkness (At Will)": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]\nDarkness (At Will)"
         },
         "strike-melee->Jaws": {
-          "name": "Jaws"
+          "name": "Fauces"
         },
         "strike-melee->Claw": {
-          "name": "Claw"
+          "name": "Garra"
         },
         "strike-melee->Tail": {
-          "name": "Tail"
+          "name": "Cola"
         },
         "strike-melee->Horns": {
-          "name": "Horns"
+          "name": "Cuernos"
         },
         "action->Frightful Presence": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:28]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Tail Lash": {
-          "name": "Tail Lash",
-          "description": "<p><strong>Trigger</strong> A creature within reach of the dragon's tail takes an action to Strike or attempt a skill check</p>\n<hr />\n<p><strong>Effect</strong> The dragon Strikes with its tail at the triggering creature at a -2 penalty. If it hits, the creature takes a -2 circumstance penalty to the triggering roll.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.QqC9xymSXSVunDgl]{Effect: Tail Lash}</p>"
+          "name": "Azote con la cola",
+          "description": "<p><strong>Desencadenante</strong> Una criatura dentro del alcance de la cola del dragón lleva a cabo una acción de Golpe o intenta una prueba de habilidad.</p>\n<hr />\n<p><strong>Efecto</strong> El dragón da un Golpe de cola contra la criatura desencadenante con un penalizador -2. Si impacta, la criatura sufre un penalizador -2 por circunstancia a la tirada desencadenante.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.QqC9xymSXSVunDgl]{Efecto: Azote con la cola}</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
-          "description": "<p>The dragon breathes a spray of acid that deals @Damage[12d6[acid]|options:area-damage] damage in an @Template[line|distance:80] (@Check[reflex|dc:30|basic|options:area-effect] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "name": "Arma de aliento",
+          "description": "<p>El dragón exhala una rociada ácida que inflige @Damage[12d6[acid] de daño por ácido en una línea @Template[line|distance:80] (@Check[reflex|dc:30|basic|options:area-effect]).</p>\n<p>No puede volver a usar Arma de aliento durante [[/gmr 1d4 #Recarga Arma de aliento]]{1d4 asaltos}.</p>"
         },
         "action->Corrupt Water": {
-          "name": "Corrupt Water",
-          "description": "<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p><strong>Effect</strong> The dragon permanently befouls 10 cubic feet of liquid within 90 feet. The liquid becomes undrinkable and unable to support water-breathing life.</p>\n<p>This destroys liquid magic or alchemical items if they're of a lower level than the dragon (a creature can attempt a @Check[will|dc:28] save to protect liquids in its possession). This doesn't affect liquids in a creature's body.</p>"
+          "name": "Corromper agua",
+          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> El dragón corrompe permanentemente 10 pies cúbicos de líquido a 90 pies o menos. El líquido se vuelve imbebible e incapaz de sustentar vida que respire agua.</p>\n<p>Esto destruye objetos mágicos o alquímicos líquidos si son de nivel inferior al dragón; una criatura puede intentar una salvación de @Check[will|dc:28] para proteger los líquidos que lleve encima. Esto no afecta a los líquidos del cuerpo de una criatura.</p>"
         },
         "action->Draconic Frenzy": {
-          "name": "Draconic Frenzy",
-          "description": "<p>The dragon makes two claw Strikes and one horns Strike in any order.</p>"
+          "name": "Frenesí dracónico",
+          "description": "<p>El dragón da dos Golpes de garra y un Golpe de cuernos en cualquier orden.</p>"
         },
         "action->Draconic Momentum": {
-          "name": "Draconic Momentum",
-          "description": "<p>The dragon recharges its Breath Weapon whenever it scores a critical hit with a Strike</p>"
+          "name": "Impulso dracónico",
+          "description": "<p>El dragón recarga su Arma de aliento siempre que logra un impacto crítico con un Golpe.</p>"
         }
       }
     },
     "Black Dragon (Adult, Spellcaster)": {
-      "name": "Black Dragon (Adult, Spellcaster)",
-      "publicNotes": "<p>Murderous tyrants of marshes, swamps, bogs, and fens, black dragons terrorize their domains with intense fervor. Gleefully sadistic, they rule their fetid principalities from a deep cave or otherwise isolated part of the swamp with a mix of lightning-quick raids and subterfuge. Their hatred for other creatures is as acidic as their breath weapons, and they rarely tolerate even other dragons of their kind-except perhaps to mate or temporarily collaborate to take down a mutual enemy.</p>\n<p>Black dragons are amphibious-although they breathe air, their gills also allow them to breathe water. Their frills and fins make them accomplished swimmers, well suited to their wetland environments and submerged lairs. They're immune to the fetid water that comes as a result of their magical ability to corrupt water.</p>\n<p>Black dragon lairs are as foul as their souls. The floors are littered with rotting meat, and plundered treasures line the muck and slime of their dank caves amid twisted roots and creepers. Such places are often crawling with pests, snakes, and slimes. Though they claim natural caverns when they can, they make do with areas of dense, twisted vegetation within a swamp. Black dragon treasure hoards primarily consist of gems and expensive glass work, as valuables of softer substance can't survive the dragon's acidic presence.</p>\n<hr />\n<p>While there are many types of dragons, from the powerful planar dragons to the strange esoteric dragons, few dragon varieties are as well-known and as rightly feared as the chromatic dragons. Differentiated by the hue of their scales, each color of dragon unleashes its own flavor of murderous cruelty-be it by claw, tooth, or breath-and unlike most creatures, dragons only become more powerful as they age. Their lust for treasure, food, bloodshed, and control are legendary. Physically powerful with egos to match, these dragons are often morally depraved and act as criminal masterminds, vicious tyrants, or voracious raiders.</p>",
-      "saveDetails": "+1 status to all saves vs. magic",
-      "tokenName": "Black Dragon (Adult)",
+      "name": "Dragón negro adulto (lanzador de conjuros)",
+      "publicNotes": "<p>Los dragones negros son tiranos homicidas que gobiernan marismas, pantanos, ciénagas y marjales mediante el miedo. Estas sádicas criaturas suelen tener su guarida en una cueva profunda o una parte aislada del pantano y ejercen su autoridad mediante una combinación de incursiones relámpago y subterfugio. Su odio por las demás criaturas es tan ácido como su aliento, y raro es que toleren incluso a otros dragones de su mismo tipo, salvo para aparearse o para colaborar temporalmente en pos de abatir a un enemigo mutuo.</p>\n<p>Los dragones negros son anfibios; aunque respiran oxígeno, sus branquias les permiten respirar bajo el agua. Sus aletas les ayudan a nadar mejor y son una adaptación a sus entornos húmedos y sus guaridas sumergidas. Son inmunes al agua fétida que resulta de su aptitud mágica de corromper agua.</p>\n<p>Las guaridas de los dragones negros son tan viles como sus almas. El suelo está repleto de carne pútrida y sus tesoros saqueados yacen entre la mugre y el barro de esas cavernas húmedas, entre raíces y enredaderas. Dichos lugares suelen estar repletos de insectos, serpientes y cienos. Aunque se apropian de cavernas naturales siempre que pueden, se pueden conformar con zonas de vegetación densa y retorcida dentro de un pantano. El tesoro de un dragón negro suele consistir principalmente en gemas y obras exquisitas de cristal, pues los objetos de valor de sustancias más blandas no sobreviven a la presencia ácida del dragón.</p>\n<hr />\n<p>Aunque hay muchos tipos de dragones, desde los poderosos dragones planarios a los extraños dragones esotéricos, pocas variedades dracónicas son tan conocidas y justamente temidas como los dragones cromáticos. Se diferencian por el tono de sus escamas; cada color de dragón ejerce su propia variante de crueldad asesina, mediante garras, dientes o aliento, y a diferencia de la mayoría de criaturas se vuelven más poderosos a medida que envejecen. Sus ansias de tesoro, comida, violencia y autoridad son legendarias. Físicamente poderosos y con egos que no se quedan atrás, estos dragones suelen carecer de moral y actuar como genios del crimen, feroces tiranos o voraces saqueadores.</p>",
+      "saveDetails": "+1 por estatus a las salvaciones contra la magia",
+      "tokenName": "Dragón negro adulto",
       "items": {
         "spellcastingEntry->Arcane Prepared Spells": {
-          "name": "Arcane Prepared Spells"
+          "name": "Conjuros arcanos preparados"
         },
         "spellcastingEntry->Arcane Innate Spells": {
-          "name": "Arcane Innate Spells"
+          "name": "Conjuros arcanos innatos"
         },
         "spell->Dimension Door": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nDimension Door"
@@ -501,93 +501,93 @@
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]\nTrue Strike"
         },
         "strike-melee->Jaws": {
-          "name": "Jaws"
+          "name": "Fauces"
         },
         "strike-melee->Claw": {
-          "name": "Claw"
+          "name": "Garra"
         },
         "strike-melee->Tail": {
-          "name": "Tail"
+          "name": "Cola"
         },
         "strike-melee->Horns": {
-          "name": "Horns"
+          "name": "Cuernos"
         },
         "action->Frightful Presence": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:28]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Tail Lash": {
-          "name": "Tail Lash",
-          "description": "<p><strong>Trigger</strong> A creature within reach of the dragon's tail takes an action to Strike or attempt a skill check</p>\n<hr />\n<p><strong>Effect</strong> The dragon Strikes with its tail at the triggering creature at a -2 penalty. If it hits, the creature takes a -2 circumstance penalty to the triggering roll.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.QqC9xymSXSVunDgl]{Effect: Tail Lash}</p>"
+          "name": "Azote con la cola",
+          "description": "<p><strong>Desencadenante</strong> Una criatura dentro del alcance de la cola del dragón lleva a cabo una acción de Golpe o intenta una prueba de habilidad.</p>\n<hr />\n<p><strong>Efecto</strong> El dragón da un Golpe de cola contra la criatura desencadenante con un penalizador -2. Si impacta, la criatura sufre un penalizador -2 por circunstancia a la tirada desencadenante.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.QqC9xymSXSVunDgl]{Efecto: Azote con la cola}</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
-          "description": "<p>The dragon breathes a spray of acid that deals @Damage[12d6[acid]|options:area-damage] damage in an @Template[line|distance:80] (@Check[reflex|dc:30|basic|options:area-effect] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "name": "Arma de aliento",
+          "description": "<p>El dragón exhala una rociada ácida que inflige @Damage[12d6[acid] de daño por ácido en una línea @Template[line|distance:80] (@Check[reflex|dc:30|basic|options:area-effect]).</p>\n<p>No puede volver a usar Arma de aliento durante [[/gmr 1d4 #Recarga Arma de aliento]]{1d4 asaltos}.</p>"
         },
         "action->Corrupt Water": {
-          "name": "Corrupt Water",
-          "description": "<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p><strong>Effect</strong> The dragon permanently befouls 10 cubic feet of liquid within 90 feet. The liquid becomes undrinkable and unable to support water-breathing life.</p>\n<p>This destroys liquid magic or alchemical items if they're of a lower level than the dragon (a creature can attempt a @Check[will|dc:28] save to protect liquids in its possession). This doesn't affect liquids in a creature's body.</p>"
+          "name": "Corromper agua",
+          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> El dragón corrompe permanentemente 10 pies cúbicos de líquido a 90 pies o menos. El líquido se vuelve imbebible e incapaz de sustentar vida que respire agua.</p>\n<p>Esto destruye objetos mágicos o alquímicos líquidos si son de nivel inferior al dragón; una criatura puede intentar una salvación de @Check[will|dc:28] para proteger los líquidos que lleve encima. Esto no afecta a los líquidos del cuerpo de una criatura.</p>"
         }
       }
     },
     "Black Dragon (Ancient)": {
-      "name": "Black Dragon (Ancient)",
-      "publicNotes": "<p>Murderous tyrants of marshes, swamps, bogs, and fens, black dragons terrorize their domains with intense fervor. Gleefully sadistic, they rule their fetid principalities from a deep cave or otherwise isolated part of the swamp with a mix of lightning-quick raids and subterfuge. Their hatred for other creatures is as acidic as their breath weapons, and they rarely tolerate even other dragons of their kind-except perhaps to mate or temporarily collaborate to take down a mutual enemy.</p>\n<p>Black dragons are amphibious-although they breathe air, their gills also allow them to breathe water. Their frills and fins make them accomplished swimmers, well suited to their wetland environments and submerged lairs. They're immune to the fetid water that comes as a result of their magical ability to corrupt water.</p>\n<p>Black dragon lairs are as foul as their souls. The floors are littered with rotting meat, and plundered treasures line the muck and slime of their dank caves amid twisted roots and creepers. Such places are often crawling with pests, snakes, and slimes. Though they claim natural caverns when they can, they make do with areas of dense, twisted vegetation within a swamp. Black dragon treasure hoards primarily consist of gems and expensive glass work, as valuables of softer substance can't survive the dragon's acidic presence.</p>\n<hr />\n<p>While there are many types of dragons, from the powerful planar dragons to the strange esoteric dragons, few dragon varieties are as well-known and as rightly feared as the chromatic dragons. Differentiated by the hue of their scales, each color of dragon unleashes its own flavor of murderous cruelty-be it by claw, tooth, or breath-and unlike most creatures, dragons only become more powerful as they age. Their lust for treasure, food, bloodshed, and control are legendary. Physically powerful with egos to match, these dragons are often morally depraved and act as criminal masterminds, vicious tyrants, or voracious raiders.</p>",
-      "saveDetails": "+1 status to all saves vs. magic",
+      "name": "Dragón negro venerable",
+      "publicNotes": "<p>Los dragones negros son tiranos homicidas que gobiernan marismas, pantanos, ciénagas y marjales mediante el miedo. Estas sádicas criaturas suelen tener su guarida en una cueva profunda o una parte aislada del pantano y ejercen su autoridad mediante una combinación de incursiones relámpago y subterfugio. Su odio por las demás criaturas es tan ácido como su aliento, y raro es que toleren incluso a otros dragones de su mismo tipo, salvo para aparearse o para colaborar temporalmente en pos de abatir a un enemigo mutuo.</p>\n<p>Los dragones negros son anfibios; aunque respiran oxígeno, sus branquias les permiten respirar bajo el agua. Sus aletas les ayudan a nadar mejor y son una adaptación a sus entornos húmedos y sus guaridas sumergidas. Son inmunes al agua fétida que resulta de su aptitud mágica de corromper agua.</p>\n<p>Las guaridas de los dragones negros son tan viles como sus almas. El suelo está repleto de carne pútrida y sus tesoros saqueados yacen entre la mugre y el barro de esas cavernas húmedas, entre raíces y enredaderas. Dichos lugares suelen estar repletos de insectos, serpientes y cienos. Aunque se apropian de cavernas naturales siempre que pueden, se pueden conformar con zonas de vegetación densa y retorcida dentro de un pantano. El tesoro de un dragón negro suele consistir principalmente en gemas y obras exquisitas de cristal, pues los objetos de valor de sustancias más blandas no sobreviven a la presencia ácida del dragón.</p>\n<hr />\n<p>Aunque hay muchos tipos de dragones, desde los poderosos dragones planarios a los extraños dragones esotéricos, pocas variedades dracónicas son tan conocidas y justamente temidas como los dragones cromáticos. Se diferencian por el tono de sus escamas; cada color de dragón ejerce su propia variante de crueldad asesina, mediante garras, dientes o aliento, y a diferencia de la mayoría de criaturas se vuelven más poderosos a medida que envejecen. Sus ansias de tesoro, comida, violencia y autoridad son legendarias. Físicamente poderosos y con egos que no se quedan atrás, estos dragones suelen carecer de moral y actuar como genios del crimen, feroces tiranos o voraces saqueadores.</p>",
+      "saveDetails": "+1 por estatus a las salvaciones contra la magia",
       "items": {
         "spellcastingEntry->Arcane Innate Spells": {
-          "name": "Arcane Innate Spells"
+          "name": "Conjuros arcanos innatos"
         },
         "spell->Darkness (At Will)": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]\nDarkness (At Will)"
         },
         "strike-melee->Jaws": {
-          "name": "Jaws"
+          "name": "Fauces"
         },
         "strike-melee->Claw": {
-          "name": "Claw"
+          "name": "Garra"
         },
         "strike-melee->Tail": {
-          "name": "Tail"
+          "name": "Cola"
         },
         "strike-melee->Horns": {
-          "name": "Horns"
+          "name": "Cuernos"
         },
         "action->Frightful Presence": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:35]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Tail Lash": {
-          "name": "Tail Lash",
-          "description": "<p><strong>Trigger</strong> A creature within reach of the dragon's tail takes an action to Strike or attempt a skill check</p>\n<hr />\n<p><strong>Effect</strong> The dragon Strikes with its tail at the triggering creature at a -2 penalty. If it hits, the creature takes a -2 circumstance penalty to the triggering roll.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.QqC9xymSXSVunDgl]{Effect: Tail Lash}</p>"
+          "name": "Azote con la cola",
+          "description": "<p><strong>Desencadenante</strong> Una criatura dentro del alcance de la cola del dragón lleva a cabo una acción de Golpe o intenta una prueba de habilidad.</p>\n<hr />\n<p><strong>Efecto</strong> El dragón da un Golpe de cola contra la criatura desencadenante con un penalizador -2. Si impacta, la criatura sufre un penalizador -2 por circunstancia a la tirada desencadenante.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.QqC9xymSXSVunDgl]{Efecto: Azote con la cola}</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
-          "description": "<p>The dragon breathes a spray of acid that deals @Damage[17d6[acid]|options:area-damage] damage in a @Template[line|distance:100] (@Check[reflex|dc:39|basic|options:area-effect] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "name": "Arma de aliento",
+          "description": "<p>El dragón exhala una rociada ácida que inflige @Damage[17d6[acid] de daño por ácido en una línea @Template[line|distance:100] (@Check[reflex|dc:39|basic|options:area-effect]).</p>\n<p>No puede volver a usar Arma de aliento durante [[/gmr 1d4 #Recarga Arma de aliento]]{1d4 asaltos}.</p>"
         },
         "action->Corrupt Water": {
-          "name": "Corrupt Water",
-          "description": "<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p><strong>Effect</strong> The dragon permanently befouls 10 cubic feet of liquid within 90 feet. The liquid becomes undrinkable and unable to support water-breathing life.</p>\n<p>This destroys liquid magic or alchemical items if they're of a lower level than the dragon (a creature can attempt a @Check[will|dc:35] save to protect liquids in its possession). This doesn't affect liquids in a creature's body.</p>"
+          "name": "Corromper agua",
+          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> El dragón corrompe permanentemente 10 pies cúbicos de líquido a 90 pies o menos. El líquido se vuelve imbebible e incapaz de sustentar vida que respire agua.</p>\n<p>Esto destruye objetos mágicos o alquímicos líquidos si son de nivel inferior al dragón; una criatura puede intentar una salvación de @Check[will|dc:28] para proteger los líquidos que lleve encima. Esto no afecta a los líquidos del cuerpo de una criatura.</p>"
         },
         "action->Draconic Frenzy": {
-          "name": "Draconic Frenzy",
-          "description": "<p>The dragon makes two claw Strikes and one horns Strike in any order.</p>"
+          "name": "Frenesí dracónico",
+          "description": "<p>El dragón da dos Golpes de garra y un Golpe de cuernos en cualquier orden.</p>"
         },
         "action->Draconic Momentum": {
-          "name": "Draconic Momentum",
-          "description": "<p>The dragon recharges its Breath Weapon whenever it scores a critical hit with a Strike</p>"
+          "name": "Impulso dracónico",
+          "description": "<p>El dragón recarga su Arma de aliento siempre que logra un impacto crítico con un Golpe.</p>"
         }
       }
     },
     "Black Dragon (Ancient, Spellcaster)": {
-      "name": "Black Dragon (Ancient, Spellcaster)",
-      "publicNotes": "<p>Murderous tyrants of marshes, swamps, bogs, and fens, black dragons terrorize their domains with intense fervor. Gleefully sadistic, they rule their fetid principalities from a deep cave or otherwise isolated part of the swamp with a mix of lightning-quick raids and subterfuge. Their hatred for other creatures is as acidic as their breath weapons, and they rarely tolerate even other dragons of their kind-except perhaps to mate or temporarily collaborate to take down a mutual enemy.</p>\n<p>Black dragons are amphibious-although they breathe air, their gills also allow them to breathe water. Their frills and fins make them accomplished swimmers, well suited to their wetland environments and submerged lairs. They're immune to the fetid water that comes as a result of their magical ability to corrupt water.</p>\n<p>Black dragon lairs are as foul as their souls. The floors are littered with rotting meat, and plundered treasures line the muck and slime of their dank caves amid twisted roots and creepers. Such places are often crawling with pests, snakes, and slimes. Though they claim natural caverns when they can, they make do with areas of dense, twisted vegetation within a swamp. Black dragon treasure hoards primarily consist of gems and expensive glass work, as valuables of softer substance can't survive the dragon's acidic presence.</p>\n<hr />\n<p>While there are many types of dragons, from the powerful planar dragons to the strange esoteric dragons, few dragon varieties are as well-known and as rightly feared as the chromatic dragons. Differentiated by the hue of their scales, each color of dragon unleashes its own flavor of murderous cruelty-be it by claw, tooth, or breath-and unlike most creatures, dragons only become more powerful as they age. Their lust for treasure, food, bloodshed, and control are legendary. Physically powerful with egos to match, these dragons are often morally depraved and act as criminal masterminds, vicious tyrants, or voracious raiders.</p>",
-      "saveDetails": "+1 status to all saves vs. magic",
-      "tokenName": "Ancient Black Dragon",
+      "name": "Dragón negro venerable (lanzador de conjuros)",
+      "publicNotes": "<p>Los dragones negros son tiranos homicidas que gobiernan marismas, pantanos, ciénagas y marjales mediante el miedo. Estas sádicas criaturas suelen tener su guarida en una cueva profunda o una parte aislada del pantano y ejercen su autoridad mediante una combinación de incursiones relámpago y subterfugio. Su odio por las demás criaturas es tan ácido como su aliento, y raro es que toleren incluso a otros dragones de su mismo tipo, salvo para aparearse o para colaborar temporalmente en pos de abatir a un enemigo mutuo.</p>\n<p>Los dragones negros son anfibios; aunque respiran oxígeno, sus branquias les permiten respirar bajo el agua. Sus aletas les ayudan a nadar mejor y son una adaptación a sus entornos húmedos y sus guaridas sumergidas. Son inmunes al agua fétida que resulta de su aptitud mágica de corromper agua.</p>\n<p>Las guaridas de los dragones negros son tan viles como sus almas. El suelo está repleto de carne pútrida y sus tesoros saqueados yacen entre la mugre y el barro de esas cavernas húmedas, entre raíces y enredaderas. Dichos lugares suelen estar repletos de insectos, serpientes y cienos. Aunque se apropian de cavernas naturales siempre que pueden, se pueden conformar con zonas de vegetación densa y retorcida dentro de un pantano. El tesoro de un dragón negro suele consistir principalmente en gemas y obras exquisitas de cristal, pues los objetos de valor de sustancias más blandas no sobreviven a la presencia ácida del dragón.</p>\n<hr />\n<p>Aunque hay muchos tipos de dragones, desde los poderosos dragones planarios a los extraños dragones esotéricos, pocas variedades dracónicas son tan conocidas y justamente temidas como los dragones cromáticos. Se diferencian por el tono de sus escamas; cada color de dragón ejerce su propia variante de crueldad asesina, mediante garras, dientes o aliento, y a diferencia de la mayoría de criaturas se vuelven más poderosos a medida que envejecen. Sus ansias de tesoro, comida, violencia y autoridad son legendarias. Físicamente poderosos y con egos que no se quedan atrás, estos dragones suelen carecer de moral y actuar como genios del crimen, feroces tiranos o voraces saqueadores.</p>",
+      "saveDetails": "+1 por estatus a las salvaciones contra la magia",
+      "tokenName": "Dragón negro venerable",
       "items": {
         "spellcastingEntry->Arcane Prepared Spells": {
-          "name": "Arcane Prepared Spells"
+          "name": "Conjuros arcanos preparados"
         },
         "spellcastingEntry->Arcane Innate Spells": {
-          "name": "Arcane Innate Spells"
+          "name": "Conjuros arcanos innatos"
         },
         "spell->Finger of Death": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.Z9OrRXKgAPv6Hn5l]\nFinger of Death",
@@ -625,79 +625,79 @@
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]\nTrue Strike"
         },
         "strike-melee->Jaws": {
-          "name": "Jaws"
+          "name": "Fauces"
         },
         "strike-melee->Claw": {
-          "name": "Claw"
+          "name": "Garra"
         },
         "strike-melee->Tail": {
-          "name": "Tail"
+          "name": "Cola"
         },
         "strike-melee->Horns": {
-          "name": "Horns"
+          "name": "Cuernos"
         },
         "action->Frightful Presence": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:35]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Tail Lash": {
-          "name": "Tail Lash",
-          "description": "<p><strong>Trigger</strong> A creature within reach of the dragon's tail takes an action to Strike or attempt a skill check</p>\n<hr />\n<p><strong>Effect</strong> The dragon Strikes with its tail at the triggering creature at a -2 penalty. If it hits, the creature takes a -2 circumstance penalty to the triggering roll.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.QqC9xymSXSVunDgl]{Effect: Tail Lash}</p>"
+          "name": "Azote con la cola",
+          "description": "<p><strong>Desencadenante</strong> Una criatura dentro del alcance de la cola del dragón lleva a cabo una acción de Golpe o intenta una prueba de habilidad.</p>\n<hr />\n<p><strong>Efecto</strong> El dragón da un Golpe de cola contra la criatura desencadenante con un penalizador -2. Si impacta, la criatura sufre un penalizador -2 por circunstancia a la tirada desencadenante.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.QqC9xymSXSVunDgl]{Efecto: Azote con la cola}</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
-          "description": "<p>The dragon breathes a spray of acid that deals @Damage[17d6[acid]|options:area-damage] damage in a @Template[line|distance:100] (@Check[reflex|dc:39|basic|options:area-effect] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "name": "Arma de aliento",
+          "description": "<p>El dragón exhala una rociada ácida que inflige @Damage[17d6[acid] de daño por ácido en una línea @Template[line|distance:100] (@Check[reflex|dc:39|basic|options:area-effect]).</p>\n<p>No puede volver a usar Arma de aliento durante [[/gmr 1d4 #Recarga Arma de aliento]]{1d4 asaltos}.</p>"
         },
         "action->Corrupt Water": {
-          "name": "Corrupt Water",
-          "description": "<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p><strong>Effect</strong> The dragon permanently befouls 10 cubic feet of liquid within 90 feet. The liquid becomes undrinkable and unable to support water-breathing life.</p>\n<p>This destroys liquid magic or alchemical items if they're of a lower level than the dragon (a creature can attempt a @Check[will|dc:35] save to protect liquids in its possession). This doesn't affect liquids in a creature's body.</p>"
+          "name": "Corromper agua",
+          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> El dragón corrompe permanentemente 10 pies cúbicos de líquido a 90 pies o menos. El líquido se vuelve imbebible e incapaz de sustentar vida que respire agua.</p>\n<p>Esto destruye objetos mágicos o alquímicos líquidos si son de nivel inferior al dragón; una criatura puede intentar una salvación de @Check[will|dc:28] para proteger los líquidos que lleve encima. Esto no afecta a los líquidos del cuerpo de una criatura.</p>"
         }
       }
     },
     "Black Dragon (Young)": {
-      "name": "Black Dragon (Young)",
-      "publicNotes": "<p>Murderous tyrants of marshes, swamps, bogs, and fens, black dragons terrorize their domains with intense fervor. Gleefully sadistic, they rule their fetid principalities from a deep cave or otherwise isolated part of the swamp with a mix of lightning-quick raids and subterfuge. Their hatred for other creatures is as acidic as their breath weapons, and they rarely tolerate even other dragons of their kind-except perhaps to mate or temporarily collaborate to take down a mutual enemy.</p>\n<p>Black dragons are amphibious-although they breathe air, their gills also allow them to breathe water. Their frills and fins make them accomplished swimmers, well suited to their wetland environments and submerged lairs. They're immune to the fetid water that comes as a result of their magical ability to corrupt water.</p>\n<p>Black dragon lairs are as foul as their souls. The floors are littered with rotting meat, and plundered treasures line the muck and slime of their dank caves amid twisted roots and creepers. Such places are often crawling with pests, snakes, and slimes. Though they claim natural caverns when they can, they make do with areas of dense, twisted vegetation within a swamp. Black dragon treasure hoards primarily consist of gems and expensive glass work, as valuables of softer substance can't survive the dragon's acidic presence.</p>\n<hr />\n<p>While there are many types of dragons, from the powerful planar dragons to the strange esoteric dragons, few dragon varieties are as well-known and as rightly feared as the chromatic dragons. Differentiated by the hue of their scales, each color of dragon unleashes its own flavor of murderous cruelty-be it by claw, tooth, or breath-and unlike most creatures, dragons only become more powerful as they age. Their lust for treasure, food, bloodshed, and control are legendary. Physically powerful with egos to match, these dragons are often morally depraved and act as criminal masterminds, vicious tyrants, or voracious raiders.</p>",
-      "tokenName": "Young Black Dragon",
+      "name": "Dragón negro joven",
+      "publicNotes": "<p>Los dragones negros son tiranos homicidas que gobiernan marismas, pantanos, ciénagas y marjales mediante el miedo. Estas sádicas criaturas suelen tener su guarida en una cueva profunda o una parte aislada del pantano y ejercen su autoridad mediante una combinación de incursiones relámpago y subterfugio. Su odio por las demás criaturas es tan ácido como su aliento, y raro es que toleren incluso a otros dragones de su mismo tipo, salvo para aparearse o para colaborar temporalmente en pos de abatir a un enemigo mutuo.</p>\n<p>Los dragones negros son anfibios; aunque respiran oxígeno, sus branquias les permiten respirar bajo el agua. Sus aletas les ayudan a nadar mejor y son una adaptación a sus entornos húmedos y sus guaridas sumergidas. Son inmunes al agua fétida que resulta de su aptitud mágica de corromper agua.</p>\n<p>Las guaridas de los dragones negros son tan viles como sus almas. El suelo está repleto de carne pútrida y sus tesoros saqueados yacen entre la mugre y el barro de esas cavernas húmedas, entre raíces y enredaderas. Dichos lugares suelen estar repletos de insectos, serpientes y cienos. Aunque se apropian de cavernas naturales siempre que pueden, se pueden conformar con zonas de vegetación densa y retorcida dentro de un pantano. El tesoro de un dragón negro suele consistir principalmente en gemas y obras exquisitas de cristal, pues los objetos de valor de sustancias más blandas no sobreviven a la presencia ácida del dragón.</p>\n<hr />\n<p>Aunque hay muchos tipos de dragones, desde los poderosos dragones planarios a los extraños dragones esotéricos, pocas variedades dracónicas son tan conocidas y justamente temidas como los dragones cromáticos. Se diferencian por el tono de sus escamas; cada color de dragón ejerce su propia variante de crueldad asesina, mediante garras, dientes o aliento, y a diferencia de la mayoría de criaturas se vuelven más poderosos a medida que envejecen. Sus ansias de tesoro, comida, violencia y autoridad son legendarias. Físicamente poderosos y con egos que no se quedan atrás, estos dragones suelen carecer de moral y actuar como genios del crimen, feroces tiranos o voraces saqueadores.</p>",
+      "tokenName": "Dragón negro joven",
       "items": {
         "strike-melee->Jaws": {
-          "name": "Jaws"
+          "name": "Fauces"
         },
         "strike-melee->Claw": {
-          "name": "Claw"
+          "name": "Garra"
         },
         "strike-melee->Tail": {
-          "name": "Tail"
+          "name": "Cola"
         },
         "strike-melee->Horns": {
-          "name": "Horns"
+          "name": "Cuernos"
         },
         "action->Frightful Presence": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:23]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Tail Lash": {
-          "name": "Tail Lash",
-          "description": "<p><strong>Trigger</strong> A creature within reach of the dragon's tail takes an action to Strike or attempt a skill check</p>\n<hr />\n<p><strong>Effect</strong> The dragon Strikes with its tail at the triggering creature at a -2 penalty. If it hits, the creature takes a -2 circumstance penalty to the triggering roll.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.QqC9xymSXSVunDgl]{Effect: Tail Lash}</p>"
+          "name": "Azote con la cola",
+          "description": "<p><strong>Desencadenante</strong> Una criatura dentro del alcance de la cola del dragón lleva a cabo una acción de Golpe o intenta una prueba de habilidad.</p>\n<hr />\n<p><strong>Efecto</strong> El dragón da un Golpe de cola contra la criatura desencadenante con un penalizador -2. Si impacta, la criatura sufre un penalizador -2 por circunstancia a la tirada desencadenante.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.QqC9xymSXSVunDgl]{Efecto: Azote con la cola}</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
-          "description": "<p>The dragon breathes a spray of acid that deals @Damage[8d6[acid]|options:area-damage] damage in a @Template[line|distance:60] (@Check[reflex|dc:25|basic|options:area-effect] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "name": "Arma de aliento",
+          "description": "<p>El dragón exhala una rociada ácida que inflige @Damage[8d6[acid] de daño por ácido en una línea @Template[line|distance:60] (@Check[reflex|dc:25|basic|options:area-effect]).</p>\n<p>No puede volver a usar Arma de aliento durante [[/gmr 1d4 #Recarga Arma de aliento]]{1d4 asaltos}.</p>"
         },
         "action->Draconic Frenzy": {
-          "name": "Draconic Frenzy",
-          "description": "<p>The dragon makes two claw Strikes and one horns Strike in any order.</p>"
+          "name": "Frenesí dracónico",
+          "description": "<p>El dragón da dos Golpes de garra y un Golpe de cuernos en cualquier orden.</p>"
         },
         "action->Draconic Momentum": {
-          "name": "Draconic Momentum",
-          "description": "<p>The dragon recharges its Breath Weapon whenever it scores a critical hit with a Strike.</p>"
+          "name": "Impulso dracónico",
+          "description": "<p>El dragón recarga su Arma de aliento siempre que logra un impacto crítico con un Golpe.</p>"
         }
       }
     },
     "Black Dragon (Young, Spellcaster)": {
-      "name": "Black Dragon (Young, Spellcaster)",
-      "publicNotes": "<p>Murderous tyrants of marshes, swamps, bogs, and fens, black dragons terrorize their domains with intense fervor. Gleefully sadistic, they rule their fetid principalities from a deep cave or otherwise isolated part of the swamp with a mix of lightning-quick raids and subterfuge. Their hatred for other creatures is as acidic as their breath weapons, and they rarely tolerate even other dragons of their kind-except perhaps to mate or temporarily collaborate to take down a mutual enemy.</p>\n<p>Black dragons are amphibious-although they breathe air, their gills also allow them to breathe water. Their frills and fins make them accomplished swimmers, well suited to their wetland environments and submerged lairs. They're immune to the fetid water that comes as a result of their magical ability to corrupt water.</p>\n<p>Black dragon lairs are as foul as their souls. The floors are littered with rotting meat, and plundered treasures line the muck and slime of their dank caves amid twisted roots and creepers. Such places are often crawling with pests, snakes, and slimes. Though they claim natural caverns when they can, they make do with areas of dense, twisted vegetation within a swamp. Black dragon treasure hoards primarily consist of gems and expensive glass work, as valuables of softer substance can't survive the dragon's acidic presence.</p>\n<hr />\n<p>While there are many types of dragons, from the powerful planar dragons to the strange esoteric dragons, few dragon varieties are as well-known and as rightly feared as the chromatic dragons. Differentiated by the hue of their scales, each color of dragon unleashes its own flavor of murderous cruelty-be it by claw, tooth, or breath-and unlike most creatures, dragons only become more powerful as they age. Their lust for treasure, food, bloodshed, and control are legendary. Physically powerful with egos to match, these dragons are often morally depraved and act as criminal masterminds, vicious tyrants, or voracious raiders.</p>",
-      "tokenName": "Black Dragon (Young)",
+      "name": "Dragón negro joven (lanzador de conjuros)",
+      "publicNotes": "<p>Los dragones negros son tiranos homicidas que gobiernan marismas, pantanos, ciénagas y marjales mediante el miedo. Estas sádicas criaturas suelen tener su guarida en una cueva profunda o una parte aislada del pantano y ejercen su autoridad mediante una combinación de incursiones relámpago y subterfugio. Su odio por las demás criaturas es tan ácido como su aliento, y raro es que toleren incluso a otros dragones de su mismo tipo, salvo para aparearse o para colaborar temporalmente en pos de abatir a un enemigo mutuo.</p>\n<p>Los dragones negros son anfibios; aunque respiran oxígeno, sus branquias les permiten respirar bajo el agua. Sus aletas les ayudan a nadar mejor y son una adaptación a sus entornos húmedos y sus guaridas sumergidas. Son inmunes al agua fétida que resulta de su aptitud mágica de corromper agua.</p>\n<p>Las guaridas de los dragones negros son tan viles como sus almas. El suelo está repleto de carne pútrida y sus tesoros saqueados yacen entre la mugre y el barro de esas cavernas húmedas, entre raíces y enredaderas. Dichos lugares suelen estar repletos de insectos, serpientes y cienos. Aunque se apropian de cavernas naturales siempre que pueden, se pueden conformar con zonas de vegetación densa y retorcida dentro de un pantano. El tesoro de un dragón negro suele consistir principalmente en gemas y obras exquisitas de cristal, pues los objetos de valor de sustancias más blandas no sobreviven a la presencia ácida del dragón.</p>\n<hr />\n<p>Aunque hay muchos tipos de dragones, desde los poderosos dragones planarios a los extraños dragones esotéricos, pocas variedades dracónicas son tan conocidas y justamente temidas como los dragones cromáticos. Se diferencian por el tono de sus escamas; cada color de dragón ejerce su propia variante de crueldad asesina, mediante garras, dientes o aliento, y a diferencia de la mayoría de criaturas se vuelven más poderosos a medida que envejecen. Sus ansias de tesoro, comida, violencia y autoridad son legendarias. Físicamente poderosos y con egos que no se quedan atrás, estos dragones suelen carecer de moral y actuar como genios del crimen, feroces tiranos o voraces saqueadores.</p>",
+      "tokenName": "Dragón negro joven",
       "items": {
         "spellcastingEntry->Arcane Prepared Spells": {
-          "name": "Arcane Prepared Spells"
+          "name": "Conjuros arcanos preparados"
         },
         "spell->Glitterdust": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]\nGlitterdust"
@@ -719,27 +719,27 @@
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]\nTrue Strike"
         },
         "strike-melee->Jaws": {
-          "name": "Jaws"
+          "name": "Fauces"
         },
         "strike-melee->Claw": {
-          "name": "Claw"
+          "name": "Garra"
         },
         "strike-melee->Tail": {
-          "name": "Tail"
+          "name": "Cola"
         },
         "strike-melee->Horns": {
-          "name": "Horns"
+          "name": "Cuernos"
         },
         "action->Frightful Presence": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:23]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Tail Lash": {
-          "name": "Tail Lash",
-          "description": "<p><strong>Trigger</strong> A creature within reach of the dragon's tail takes an action to Strike or attempt a skill check</p>\n<hr />\n<p><strong>Effect</strong> The dragon Strikes with its tail at the triggering creature at a -2 penalty. If it hits, the creature takes a -2 circumstance penalty to the triggering roll.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.QqC9xymSXSVunDgl]{Effect: Tail Lash}</p>"
+          "name": "Azote con la cola",
+          "description": "<p><strong>Desencadenante</strong> Una criatura dentro del alcance de la cola del dragón lleva a cabo una acción de Golpe o intenta una prueba de habilidad.</p>\n<hr />\n<p><strong>Efecto</strong> El dragón da un Golpe de cola contra la criatura desencadenante con un penalizador -2. Si impacta, la criatura sufre un penalizador -2 por circunstancia a la tirada desencadenante.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.QqC9xymSXSVunDgl]{Efecto: Azote con la cola}</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
-          "description": "<p>The dragon breathes a spray of acid that deals @Damage[8d6[acid]|options:area-damage] damage in a @Template[line|distance:60] (@Check[reflex|dc:25|basic|options:area-effect] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "name": "Arma de aliento",
+          "description": "<p>El dragón exhala una rociada ácida que inflige @Damage[8d6[acid] de daño por ácido en una línea @Template[line|distance:60] (@Check[reflex|dc:25|basic|options:area-effect]).</p>\n<p>No puede volver a usar Arma de aliento durante [[/gmr 1d4 #Recarga Arma de aliento]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -794,12 +794,12 @@
       }
     },
     "Blue Dragon (Adult)": {
-      "name": "Dragón Azul (Adultooooo)",
-      "publicNotes": "<p>Blue dragons are the sleek and poised cosmopolitans of the chromatic dragons. Their brand of evil is organized, manipulative, and regal. Blue dragons often lair near or within cities and set out to bend the population to their will and gather hordes of servants. These dragons love spinning webs of conspiracy. A blue dragon's lackeys typically don't even realize that they serve a dragon, but instead think the protection money, tariffs, or taxes they are amassing is treasure for a cruel but legitimate master. In some ways, blue dragons even see their servants as a living hoard and value them like treasure. These dragons have been known to use these tactics even with their own chromatic cousins.</p>\n<p>Not all blue dragons work clandestinely. Some lord over desert tribes and hill people like vengeful gods, demanding both tribute and worship. No matter how blue dragons manage their underlings, their bearing is regal and their lairs palatial; they're universally intolerant of insubordination, incompetence, and embezzlement, and punish perpetrators with murderous efficiency.</p>\n<p>Blue dragons are also known for their use and mastery of illusion magic. They make use of illusions to augment their manipulations and bewilder their foes in battle. Blue dragons also have some control over water, but use this ability to destroy water, something quite dangerous for those who encounter them in their desert lairs.</p>\n<p>The ideal lair for a blue dragon contains multiple passages, rooms, and secret chambers. As social creatures, blue dragons prefer to host guests in comfort-but their dwellings should not be so public that just anyone can come calling. A force of guards keeps out intruders, and clever illusions conceal the edifice from prying eyes. Rather than a pile of coins or gems, a blue dragon's true hoard is the rich furnishings in its citadel- expensive art, ornate furniture, and architectural marvels.</p>\n<hr />\n<p>While there are many types of dragons, from the powerful planar dragons to the strange esoteric dragons, few dragon varieties are as well-known and as rightly feared as the chromatic dragons. Differentiated by the hue of their scales, each color of dragon unleashes its own flavor of murderous cruelty-be it by claw, tooth, or breath-and unlike most creatures, dragons only become more powerful as they age. Their lust for treasure, food, bloodshed, and control are legendary. Physically powerful with egos to match, these dragons are often morally depraved and act as criminal masterminds, vicious tyrants, or voracious raiders.</p>",
-      "saveDetails": "+1 status to all saves vs. magic",
+      "name": "Dragón azul adulto",
+      "publicNotes": "<p>Los dragones azules son los más esbeltos, serenos y cosmopolitas de entre los dragones cromáticos, y hacen el mal de forma organizada, manipuladora y regia. Los dragones azules suelen tener sus guaridas cerca de las ciudades o dentro de ellas y tratan de doblegar a la población a su voluntad y acumular hordas de sirvientes. A estos dragones les encanta tejer redes de conspiración; sus lacayos normalmente no son conscientes de que sirven a un dragón, sino que piensan que los pagos de protección, las tasas o los impuestos que reúnen van a las arcas de un amo cruel pero legítimo. En cierto modo, los dragones azules incluso ven a sus sirvientes como su propio tesoro que acumular. Se sabe que estos dragones incluso usan dichas tácticas con sus parientes cromáticos.</p>\n<p>No todos los dragones azules trabajan de forma clandestina. Algunos gobiernan sobre tribus del desierto y población rural como dioses vengativos, exigiendo tributo y adoración. Sin importar cómo manejen a sus subordinados, los dragones azules siempre son regios y altivos y sus guaridas son lujosas; no toleran la insubordinación, la incompetencia ni la malversación y las castigan con una eficiencia homicida.</p>\n<p>Los dragones azules también son conocidos por su uso y dominio de la magia de ilusión. Emplean ilusiones para complementar sus manipulaciones y para desconcertar a los enemigos en batalla. Los dragones azules también ejercen cierto control sobre el agua, pero usan esta aptitud para destruirla, algo bastante peligroso para quienes se los encuentran en sus guaridas del desierto.</p>\n<p>La guarida ideal de un dragón azul contiene múltiples pasadizos, salas y cámaras secretas. Como criaturas sociales que son, prefieren que sus invitados gocen de comodidad, pero su morada no debe ser tan pública como para que pueda acudir cualquiera. Una fuerza de guardias mantiene a raya a los intrusos y astutas ilusiones camuflan el edificio ante ojos inquisitivos. En lugar de una montaña de monedas o de gemas, el verdadero tesoro de un dragón azul es la rica decoración de su ciudadela: obras de arte, muebles ornamentados y maravillas arquitectónicas.</p>\n<hr />\n<p>Aunque hay muchos tipos de dragones, desde los poderosos dragones planarios a los extraños dragones esotéricos, pocas variedades dracónicas son tan conocidas y justamente temidas como los dragones cromáticos. Se diferencian por el tono de sus escamas; cada color de dragón ejerce su propia variante de crueldad asesina, mediante garras, dientes o aliento, y a diferencia de la mayoría de criaturas se vuelven más poderosos a medida que envejecen. Sus ansias de tesoro, comida, violencia y autoridad son legendarias. Físicamente poderosos y con egos que no se quedan atrás, estos dragones suelen carecer de moral y actuar como genios del crimen, feroces tiranos o voraces saqueadores.</p>",
+      "saveDetails": "+1 por estatus a las salvaciones contra la magia",
       "items": {
         "spellcastingEntry->Arcane Innate Spells": {
-          "name": "Arcane Innate Spells"
+          "name": "Conjuros arcanos innatos"
         },
         "spell->Create Water (At Will) (See Desert Thirst)": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.WzLKjSw6hsBhuklC]\nCreate Water (At Will) (See Desert Thirst)"
@@ -808,57 +808,57 @@
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.yV7Ouzaoe7DHLESI]\nVentriloquism (At Will)"
         },
         "strike-melee->Jaws": {
-          "name": "Jaws"
+          "name": "Fauces"
         },
         "strike-melee->Claw": {
-          "name": "Claw"
+          "name": "Garra"
         },
         "strike-melee->Tail": {
-          "name": "Tail"
+          "name": "Cola"
         },
         "strike-melee->Horns": {
-          "name": "Horns"
+          "name": "Cuernos"
         },
         "action->Sound Imitation": {
-          "name": "Sound Imitation",
-          "description": "<p>The dragon can mimic any sound it has heard. It must succeed at a DECEPTION check with a +4 circumstance bonus to do so.</p>"
+          "name": "Imitación de sonidos",
+          "description": "<p>El dragón puede imitar cualquier sonido que haya oído. Para ello debe tener éxito en una prueba de Engaño con un bonificador +4 por circunstancia.</p>"
         },
         "action->Frightful Presence": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:32]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Wing Deflection": {
-          "name": "Wing Deflection",
-          "description": "<p><strong>Trigger</strong> The dragon is targeted with an attack</p>\n<hr />\n<p><strong>Effect</strong> The dragon raises its wing, gaining a +2 circumstance bonus to AC against the triggering attack. If the dragon is Flying, it descends 10 feet after the attack is complete.</p>"
+          "name": "Desvío con el ala",
+          "description": "<p><strong>Desencadenante</strong> El dragón es objetivo de un ataque.</p>\n<hr />\n<p><strong>Efecto</strong> El dragón alza el ala y obtiene un bonificador +2 por circunstancia a la CA contra el ataque desencadenante. Si está volando, desciende 10 pies (3 m) tras completar el ataque.</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
-          "description": "<p>The dragon breathes lightning that @Damage[9d12[electricity]|options:area-damage] damage in a @Template[line|distance:100] (@Check[reflex|dc:33|basic|options:area-effect] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "name": "Arma de aliento",
+          "description": "<p>El dragón exhala relámpagos que infligen @Damage[9d12[electricity] de daño por electricidad en una línea @Template[line|distance:100] (@Check[reflex|dc:33|basic|options:area-effect]).</p>\n<p>No puede volver a usar Arma de aliento durante [[/gmr 1d4 #Recarga Arma de aliento]]{1d4 asaltos}.</p>"
         },
         "action->Desert Thirst": {
-          "name": "Desert Thirst",
-          "description": "<p>When casting @UUID[Compendium.pf2e.spells-srd.Item.WzLKjSw6hsBhuklC]{Create Water}, the dragon can attempt to destroy liquid instead of creating it, turning an equal amount of liquid into sand. This destroys liquid magic or alchemical items if they're of a lower level than the dragon (a creature can attempt a @Check[will|dc:32] save to protect all liquids in its possession). This doesn't affect the liquids in a creature's body.</p>"
+          "name": "Sed del desierto",
+          "description": "<p>Al lanzar @UUID[Compendium.pf2e.spells-srd.Item.WzLKjSw6hsBhuklC]{Crear agua}, el dragón puede intentar destruir líquidos en lugar de crearlos, convirtiendo esa misma cantidad de líquido en arena. Esto destruye objetos mágicos o alquímicos líquidos si son de menor nivel que el dragón; una criatura puede intentar una salvación de @Check[will|dc:26] para proteger todos los líquidos que lleve encima. Esto no afecta a los líquidos del cuerpo de una criatura.</p>"
         },
         "action->Draconic Frenzy": {
-          "name": "Draconic Frenzy",
-          "description": "<p>The dragon makes two claw Strikes and one horns Strike in any order.</p>"
+          "name": "Frenesí dracónico",
+          "description": "<p>El dragón da dos Golpes de garra y un Golpe de cuernos en cualquier orden.</p>"
         },
         "action->Draconic Momentum": {
-          "name": "Draconic Momentum",
-          "description": "<p>The dragon recharges its Breath Weapon whenever it scores a critical hit with a Strike.</p>"
+          "name": "Impulso dracónico",
+          "description": "<p>El dragón recarga su Arma de aliento siempre que logra un impacto crítico con un Golpe.</p>"
         }
       }
     },
     "Blue Dragon (Adult, Spellcaster)": {
-      "name": "Blue Dragon (Adult, Spellcaster)",
-      "publicNotes": "<p>Blue dragons are the sleek and poised cosmopolitans of the chromatic dragons. Their brand of evil is organized, manipulative, and regal. Blue dragons often lair near or within cities and set out to bend the population to their will and gather hordes of servants. These dragons love spinning webs of conspiracy. A blue dragon's lackeys typically don't even realize that they serve a dragon, but instead think the protection money, tariffs, or taxes they are amassing is treasure for a cruel but legitimate master. In some ways, blue dragons even see their servants as a living hoard and value them like treasure. These dragons have been known to use these tactics even with their own chromatic cousins.</p>\n<p>Not all blue dragons work clandestinely. Some lord over desert tribes and hill people like vengeful gods, demanding both tribute and worship. No matter how blue dragons manage their underlings, their bearing is regal and their lairs palatial; they're universally intolerant of insubordination, incompetence, and embezzlement, and punish perpetrators with murderous efficiency.</p>\n<p>Blue dragons are also known for their use and mastery of illusion magic. They make use of illusions to augment their manipulations and bewilder their foes in battle. Blue dragons also have some control over water, but use this ability to destroy water, something quite dangerous for those who encounter them in their desert lairs.</p>\n<p>The ideal lair for a blue dragon contains multiple passages, rooms, and secret chambers. As social creatures, blue dragons prefer to host guests in comfort-but their dwellings should not be so public that just anyone can come calling. A force of guards keeps out intruders, and clever illusions conceal the edifice from prying eyes. Rather than a pile of coins or gems, a blue dragon's true hoard is the rich furnishings in its citadel- expensive art, ornate furniture, and architectural marvels.</p>\n<hr />\n<p>While there are many types of dragons, from the powerful planar dragons to the strange esoteric dragons, few dragon varieties are as well-known and as rightly feared as the chromatic dragons. Differentiated by the hue of their scales, each color of dragon unleashes its own flavor of murderous cruelty-be it by claw, tooth, or breath-and unlike most creatures, dragons only become more powerful as they age. Their lust for treasure, food, bloodshed, and control are legendary. Physically powerful with egos to match, these dragons are often morally depraved and act as criminal masterminds, vicious tyrants, or voracious raiders.</p>",
-      "saveDetails": "+1 status to all saves vs. magic",
-      "tokenName": "Blue Dragon (Adult)",
+      "name": "Dragón azul adulto (lanzador de conjuros)",
+      "publicNotes": "<p>Los dragones azules son los más esbeltos, serenos y cosmopolitas de entre los dragones cromáticos, y hacen el mal de forma organizada, manipuladora y regia. Los dragones azules suelen tener sus guaridas cerca de las ciudades o dentro de ellas y tratan de doblegar a la población a su voluntad y acumular hordas de sirvientes. A estos dragones les encanta tejer redes de conspiración; sus lacayos normalmente no son conscientes de que sirven a un dragón, sino que piensan que los pagos de protección, las tasas o los impuestos que reúnen van a las arcas de un amo cruel pero legítimo. En cierto modo, los dragones azules incluso ven a sus sirvientes como su propio tesoro que acumular. Se sabe que estos dragones incluso usan dichas tácticas con sus parientes cromáticos.</p>\n<p>No todos los dragones azules trabajan de forma clandestina. Algunos gobiernan sobre tribus del desierto y población rural como dioses vengativos, exigiendo tributo y adoración. Sin importar cómo manejen a sus subordinados, los dragones azules siempre son regios y altivos y sus guaridas son lujosas; no toleran la insubordinación, la incompetencia ni la malversación y las castigan con una eficiencia homicida.</p>\n<p>Los dragones azules también son conocidos por su uso y dominio de la magia de ilusión. Emplean ilusiones para complementar sus manipulaciones y para desconcertar a los enemigos en batalla. Los dragones azules también ejercen cierto control sobre el agua, pero usan esta aptitud para destruirla, algo bastante peligroso para quienes se los encuentran en sus guaridas del desierto.</p>\n<p>La guarida ideal de un dragón azul contiene múltiples pasadizos, salas y cámaras secretas. Como criaturas sociales que son, prefieren que sus invitados gocen de comodidad, pero su morada no debe ser tan pública como para que pueda acudir cualquiera. Una fuerza de guardias mantiene a raya a los intrusos y astutas ilusiones camuflan el edificio ante ojos inquisitivos. En lugar de una montaña de monedas o de gemas, el verdadero tesoro de un dragón azul es la rica decoración de su ciudadela: obras de arte, muebles ornamentados y maravillas arquitectónicas.</p>\n<hr />\n<p>Aunque hay muchos tipos de dragones, desde los poderosos dragones planarios a los extraños dragones esotéricos, pocas variedades dracónicas son tan conocidas y justamente temidas como los dragones cromáticos. Se diferencian por el tono de sus escamas; cada color de dragón ejerce su propia variante de crueldad asesina, mediante garras, dientes o aliento, y a diferencia de la mayoría de criaturas se vuelven más poderosos a medida que envejecen. Sus ansias de tesoro, comida, violencia y autoridad son legendarias. Físicamente poderosos y con egos que no se quedan atrás, estos dragones suelen carecer de moral y actuar como genios del crimen, feroces tiranos o voraces saqueadores.</p>",
+      "saveDetails": "+1 por estatus a las salvaciones contra la magia",
+      "tokenName": "Dragón azul adulto",
       "items": {
         "spellcastingEntry->Arcane Prepared Spells": {
-          "name": "Arcane Prepared Spells"
+          "name": "Conjuros arcanos preparados"
         },
         "spellcastingEntry->Arcane Innate Spells": {
-          "name": "Arcane Innate Spells"
+          "name": "Conjuros arcanos innatos"
         },
         "spell->Baleful Polymorph": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]\nBaleful Polymorph"
@@ -885,46 +885,46 @@
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.yV7Ouzaoe7DHLESI]\nVentriloquism (At Will)"
         },
         "strike-melee->Jaws": {
-          "name": "Jaws"
+          "name": "Fauces"
         },
         "strike-melee->Claw": {
-          "name": "Claw"
+          "name": "Garra"
         },
         "strike-melee->Tail": {
-          "name": "Tail"
+          "name": "Cola"
         },
         "strike-melee->Horns": {
-          "name": "Horns"
+          "name": "Cuernos"
         },
         "action->Sound Imitation": {
-          "name": "Sound Imitation",
-          "description": "<p>The dragon can mimic any sound it has heard. It must succeed at a DECEPTION check with a +4 circumstance bonus to do so.</p>"
+          "name": "Imitación de sonidos",
+          "description": "<p>El dragón puede imitar cualquier sonido que haya oído. Para ello debe tener éxito en una prueba de Engaño con un bonificador +4 por circunstancia.</p>"
         },
         "action->Frightful Presence": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:32]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Wing Deflection": {
-          "name": "Wing Deflection",
-          "description": "<p><strong>Trigger</strong> The dragon is targeted with an attack</p>\n<hr />\n<p><strong>Effect</strong> The dragon raises its wing, gaining a +2 circumstance bonus to AC against the triggering attack. If the dragon is Flying, it descends 10 feet after the attack is complete.</p>"
+          "name": "Desvío con el ala",
+          "description": "<p><strong>Desencadenante</strong> El dragón es objetivo de un ataque.</p>\n<hr />\n<p><strong>Efecto</strong> El dragón alza el ala y obtiene un bonificador +2 por circunstancia a la CA contra el ataque desencadenante. Si está volando, desciende 10 pies (3 m) tras completar el ataque.</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
-          "description": "<p>The dragon breathes lightning that @Damage[9d12[electricity]|options:area-damage] damage in a @Template[line|distance:100] (@Check[reflex|dc:33|basic|options:area-effect] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "name": "Arma de aliento",
+          "description": "<p>El dragón exhala relámpagos que infligen @Damage[9d12[electricity] de daño por electricidad en una línea @Template[line|distance:100] (@Check[reflex|dc:33|basic|options:area-effect]).</p>\n<p>No puede volver a usar Arma de aliento durante [[/gmr 1d4 #Recarga Arma de aliento]]{1d4 asaltos}.</p>"
         },
         "action->Desert Thirst": {
-          "name": "Desert Thirst",
-          "description": "<p>When casting @UUID[Compendium.pf2e.spells-srd.Item.WzLKjSw6hsBhuklC]{Create Water}, the dragon can attempt to destroy liquid instead of creating it, turning an equal amount of liquid into sand. This destroys liquid magic or alchemical items if they're of a lower level than the dragon (a creature can attempt a @Check[will|dc:32] save to protect all liquids in its possession). This doesn't affect the liquids in a creature's body.</p>"
+          "name": "Sed del desierto",
+          "description": "<p>Al lanzar @UUID[Compendium.pf2e.spells-srd.Item.WzLKjSw6hsBhuklC]{Crear agua}, el dragón puede intentar destruir líquidos en lugar de crearlos, convirtiendo esa misma cantidad de líquido en arena. Esto destruye objetos mágicos o alquímicos líquidos si son de menor nivel que el dragón; una criatura puede intentar una salvación de @Check[will|dc:26] para proteger todos los líquidos que lleve encima. Esto no afecta a los líquidos del cuerpo de una criatura.</p>"
         }
       }
     },
     "Blue Dragon (Ancient)": {
-      "name": "Blue Dragon (Ancient)",
-      "publicNotes": "<p>Blue dragons are the sleek and poised cosmopolitans of the chromatic dragons. Their brand of evil is organized, manipulative, and regal. Blue dragons often lair near or within cities and set out to bend the population to their will and gather hordes of servants. These dragons love spinning webs of conspiracy. A blue dragon's lackeys typically don't even realize that they serve a dragon, but instead think the protection money, tariffs, or taxes they are amassing is treasure for a cruel but legitimate master. In some ways, blue dragons even see their servants as a living hoard and value them like treasure. These dragons have been known to use these tactics even with their own chromatic cousins.</p>\n<p>Not all blue dragons work clandestinely. Some lord over desert tribes and hill people like vengeful gods, demanding both tribute and worship. No matter how blue dragons manage their underlings, their bearing is regal and their lairs palatial; they're universally intolerant of insubordination, incompetence, and embezzlement, and punish perpetrators with murderous efficiency.</p>\n<p>Blue dragons are also known for their use and mastery of illusion magic. They make use of illusions to augment their manipulations and bewilder their foes in battle. Blue dragons also have some control over water, but use this ability to destroy water, something quite dangerous for those who encounter them in their desert lairs.</p>\n<p>The ideal lair for a blue dragon contains multiple passages, rooms, and secret chambers. As social creatures, blue dragons prefer to host guests in comfort-but their dwellings should not be so public that just anyone can come calling. A force of guards keeps out intruders, and clever illusions conceal the edifice from prying eyes. Rather than a pile of coins or gems, a blue dragon's true hoard is the rich furnishings in its citadel- expensive art, ornate furniture, and architectural marvels.</p>\n<hr />\n<p>While there are many types of dragons, from the powerful planar dragons to the strange esoteric dragons, few dragon varieties are as well-known and as rightly feared as the chromatic dragons. Differentiated by the hue of their scales, each color of dragon unleashes its own flavor of murderous cruelty-be it by claw, tooth, or breath-and unlike most creatures, dragons only become more powerful as they age. Their lust for treasure, food, bloodshed, and control are legendary. Physically powerful with egos to match, these dragons are often morally depraved and act as criminal masterminds, vicious tyrants, or voracious raiders.</p>",
-      "saveDetails": "+1 status to all saves vs. magic",
-      "tokenName": "Ancient Blue Dragon",
+      "name": "Dragón azul venerable",
+      "publicNotes": "<p>Los dragones azules son los más esbeltos, serenos y cosmopolitas de entre los dragones cromáticos, y hacen el mal de forma organizada, manipuladora y regia. Los dragones azules suelen tener sus guaridas cerca de las ciudades o dentro de ellas y tratan de doblegar a la población a su voluntad y acumular hordas de sirvientes. A estos dragones les encanta tejer redes de conspiración; sus lacayos normalmente no son conscientes de que sirven a un dragón, sino que piensan que los pagos de protección, las tasas o los impuestos que reúnen van a las arcas de un amo cruel pero legítimo. En cierto modo, los dragones azules incluso ven a sus sirvientes como su propio tesoro que acumular. Se sabe que estos dragones incluso usan dichas tácticas con sus parientes cromáticos.</p>\n<p>No todos los dragones azules trabajan de forma clandestina. Algunos gobiernan sobre tribus del desierto y población rural como dioses vengativos, exigiendo tributo y adoración. Sin importar cómo manejen a sus subordinados, los dragones azules siempre son regios y altivos y sus guaridas son lujosas; no toleran la insubordinación, la incompetencia ni la malversación y las castigan con una eficiencia homicida.</p>\n<p>Los dragones azules también son conocidos por su uso y dominio de la magia de ilusión. Emplean ilusiones para complementar sus manipulaciones y para desconcertar a los enemigos en batalla. Los dragones azules también ejercen cierto control sobre el agua, pero usan esta aptitud para destruirla, algo bastante peligroso para quienes se los encuentran en sus guaridas del desierto.</p>\n<p>La guarida ideal de un dragón azul contiene múltiples pasadizos, salas y cámaras secretas. Como criaturas sociales que son, prefieren que sus invitados gocen de comodidad, pero su morada no debe ser tan pública como para que pueda acudir cualquiera. Una fuerza de guardias mantiene a raya a los intrusos y astutas ilusiones camuflan el edificio ante ojos inquisitivos. En lugar de una montaña de monedas o de gemas, el verdadero tesoro de un dragón azul es la rica decoración de su ciudadela: obras de arte, muebles ornamentados y maravillas arquitectónicas.</p>\n<hr />\n<p>Aunque hay muchos tipos de dragones, desde los poderosos dragones planarios a los extraños dragones esotéricos, pocas variedades dracónicas son tan conocidas y justamente temidas como los dragones cromáticos. Se diferencian por el tono de sus escamas; cada color de dragón ejerce su propia variante de crueldad asesina, mediante garras, dientes o aliento, y a diferencia de la mayoría de criaturas se vuelven más poderosos a medida que envejecen. Sus ansias de tesoro, comida, violencia y autoridad son legendarias. Físicamente poderosos y con egos que no se quedan atrás, estos dragones suelen carecer de moral y actuar como genios del crimen, feroces tiranos o voraces saqueadores.</p>",
+      "saveDetails": "+1 por estatus a las salvaciones contra la magia",
+      "tokenName": "Dragón azul venerable",
       "items": {
         "spellcastingEntry->Arcane Innate Spells": {
-          "name": "Arcane Innate Spells"
+          "name": "Conjuros arcanos innatos"
         },
         "spell->Project Image (See Mirage)": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.0873MWM0qKDDv81O]\nProject Image (See Mirage)"
@@ -945,65 +945,65 @@
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.yV7Ouzaoe7DHLESI]\nVentriloquism (At Will)"
         },
         "strike-melee->Jaws": {
-          "name": "Jaws"
+          "name": "Fauces"
         },
         "strike-melee->Claw": {
-          "name": "Claw"
+          "name": "Garra"
         },
         "strike-melee->Tail": {
-          "name": "Tail"
+          "name": "Cola"
         },
         "strike-melee->Horns": {
-          "name": "Horns"
+          "name": "Cuernos"
         },
         "action->Sound Imitation": {
-          "name": "Sound Imitation",
-          "description": "<p>The dragon can mimic any sound it has heard. To do so, it must succeed at a DECEPTION check with a +4 circumstance bonus.</p>"
+          "name": "Imitación de sonidos",
+          "description": "<p>El dragón puede imitar cualquier sonido que haya oído. Para ello debe tener éxito en una prueba de Engaño con un bonificador +4 por circunstancia.</p>"
         },
         "action->Frightful Presence": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:39]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Wing Deflection": {
-          "name": "Wing Deflection",
-          "description": "<p><strong>Trigger</strong> The dragon is targeted with an attack</p>\n<hr />\n<p><strong>Effect</strong> The dragon raises its wing, gaining a +2 circumstance bonus to AC against the triggering attack. If the dragon is Flying, it descends 10 feet after the attack is complete.</p>"
+          "name": "Desvío con el ala",
+          "description": "<p><strong>Desencadenante</strong> El dragón es objetivo de un ataque.</p>\n<hr />\n<p><strong>Efecto</strong> El dragón alza el ala y obtiene un bonificador +2 por circunstancia a la CA contra el ataque desencadenante. Si está volando, desciende 10 pies (3 m) tras completar el ataque.</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
-          "description": "<p>The dragon breathes lightning that deals @Damage[12d12[electricity]|options:area-damage] damage in a @Template[line|distance:120] (@Check[reflex|dc:40|basic|options:area-effect] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>\n<hr />\n<p>Each time the dragon uses Breath Weapon, a @Template[burst|distance:20]{20-foot-radius} storm cloud appears 80 feet above a point of the dragon's choosing along the Breath Weapon's path. Clouds last for 10 minutes and allow the dragon to use Storm Breath.</p>"
+          "name": "Arma de aliento",
+          "description": "<p>El dragón exhala relámpagos que infligen @Damage[12d12[electricity] de daño por electricidad en una línea @Template[line|distance:120] (@Check[reflex|dc:40|basic|options:area-effect]).</p>\n<p>No puede volver a usar Arma de aliento durante [[/gmr 1d4 #Recarga Arma de aliento]]{1d4 asaltos}.</p>\n<hr />\n<p>Cada vez que el dragón usa Arma de aliento, aparece una nube de tormenta en un radio de 20 pies a 80 pies por encima de un punto que elija el dragón a lo largo de la trayectoria del arma de aliento. Las nubes duran 10 minutos y permiten al dragón usar Aliento de tormenta.</p>"
         },
         "action->Desert Thirst": {
-          "name": "Desert Thirst",
-          "description": "<p>When casting @UUID[Compendium.pf2e.spells-srd.Item.WzLKjSw6hsBhuklC]{Create Water}, the dragon can attempt to destroy liquid instead of creating it, turning an equal amount of liquid into sand. This destroys liquid magic or alchemical items if they're of a lower level than the dragon (a creature can attempt a @Check[will|dc:37] save to protect all liquids in its possession). This doesn't affect the liquids in a creature's body.</p>"
+          "name": "Sed del desierto",
+          "description": "<p>Al lanzar @UUID[Compendium.pf2e.spells-srd.Item.WzLKjSw6hsBhuklC]{Crear agua}, el dragón puede intentar destruir líquidos en lugar de crearlos, convirtiendo esa misma cantidad de líquido en arena. Esto destruye objetos mágicos o alquímicos líquidos si son de menor nivel que el dragón; una criatura puede intentar una salvación de @Check[will|dc:26] para proteger todos los líquidos que lleve encima. Esto no afecta a los líquidos del cuerpo de una criatura.</p>"
         },
         "action->Draconic Frenzy": {
-          "name": "Draconic Frenzy",
-          "description": "<p>The dragon makes two claw Strikes and one horns Strike in any order.</p>"
+          "name": "Frenesí dracónico",
+          "description": "<p>El dragón da dos Golpes de garra y un Golpe de cuernos en cualquier orden.</p>"
         },
         "action->Draconic Momentum": {
-          "name": "Draconic Momentum",
-          "description": "<p>The dragon recharges its Breath Weapon whenever it scores a critical hit with a Strike.</p>"
+          "name": "Impulso dracónico",
+          "description": "<p>El dragón recarga su Arma de aliento siempre que logra un impacto crítico con un Golpe.</p>"
         },
         "action->Mirage": {
-          "name": "Mirage",
-          "description": "<p>Whenever the dragon uses Breath Weapon while the illusory image from its innate @UUID[Compendium.pf2e.spells-srd.Item.0873MWM0qKDDv81O]{Project Image} spell persists, it can cause the Breath Weapon to originate from itself or the image.</p>"
+          "name": "Espejismo",
+          "description": "<p>Siempre que el dragón usa Arma de aliento mientras persiste la imagen ilusoria de su conjuro innato @UUID[Compendium.pf2e.spells-srd.Item.0873MWM0qKDDv81O]{Proyectar imagen}, puede hacer que el Arma de aliento se origine en sí mismo o en la imagen.</p>"
         },
         "action->Storm Breath": {
-          "name": "Storm Breath",
-          "description": "<p><strong>Frequency</strong> Once per round</p>\n<p><strong>Requirements</strong> A storm cloud created by Breath Weapon is within 500 feet, and the dragon can see the cloud.</p>\n<hr />\n<p><strong>Effect</strong> The dragon calls down a lightning bolt from a storm cloud created by its Breath Weapon. This creates a vertical line of lightning to the ground that deal @Damage[6d12[electricity]] damage to all enemies in its path (@Check[reflex|dc:40|basic] save).</p>"
+          "name": "Aliento de tormenta",
+          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<p><strong>Requisitos</strong> Una nube de tormenta creada por Arma de aliento está a 500 pies o menos, y el dragón puede verla.</p>\n<hr />\n<p><strong>Efecto</strong> El dragón invoca un relámpago desde una nube de tormenta creada por su Arma de aliento. Esto crea una línea vertical de electricidad hasta el suelo que inflige @Damage[6d12[electricity]] de daño a todos los enemigos en su trayectoria (salvación básica de @Check[reflex|dc:40|basic]).</p>"
         }
       }
     },
     "Blue Dragon (Ancient, Spellcaster)": {
-      "name": "Blue Dragon (Ancient, Spellcaster)",
-      "publicNotes": "<p>Blue dragons are the sleek and poised cosmopolitans of the chromatic dragons. Their brand of evil is organized, manipulative, and regal. Blue dragons often lair near or within cities and set out to bend the population to their will and gather hordes of servants. These dragons love spinning webs of conspiracy. A blue dragon's lackeys typically don't even realize that they serve a dragon, but instead think the protection money, tariffs, or taxes they are amassing is treasure for a cruel but legitimate master. In some ways, blue dragons even see their servants as a living hoard and value them like treasure. These dragons have been known to use these tactics even with their own chromatic cousins.</p>\n<p>Not all blue dragons work clandestinely. Some lord over desert tribes and hill people like vengeful gods, demanding both tribute and worship. No matter how blue dragons manage their underlings, their bearing is regal and their lairs palatial; they're universally intolerant of insubordination, incompetence, and embezzlement, and punish perpetrators with murderous efficiency.</p>\n<p>Blue dragons are also known for their use and mastery of illusion magic. They make use of illusions to augment their manipulations and bewilder their foes in battle. Blue dragons also have some control over water, but use this ability to destroy water, something quite dangerous for those who encounter them in their desert lairs.</p>\n<p>The ideal lair for a blue dragon contains multiple passages, rooms, and secret chambers. As social creatures, blue dragons prefer to host guests in comfort-but their dwellings should not be so public that just anyone can come calling. A force of guards keeps out intruders, and clever illusions conceal the edifice from prying eyes. Rather than a pile of coins or gems, a blue dragon's true hoard is the rich furnishings in its citadel- expensive art, ornate furniture, and architectural marvels.</p>\n<hr />\n<p>While there are many types of dragons, from the powerful planar dragons to the strange esoteric dragons, few dragon varieties are as well-known and as rightly feared as the chromatic dragons. Differentiated by the hue of their scales, each color of dragon unleashes its own flavor of murderous cruelty-be it by claw, tooth, or breath-and unlike most creatures, dragons only become more powerful as they age. Their lust for treasure, food, bloodshed, and control are legendary. Physically powerful with egos to match, these dragons are often morally depraved and act as criminal masterminds, vicious tyrants, or voracious raiders.</p>",
-      "saveDetails": "+1 status to all saves vs. magic",
-      "tokenName": "Ancient Blue Dragon",
+      "name": "Dragón azul venerable (lanzador de conjuros)",
+      "publicNotes": "<p>Los dragones azules son los más esbeltos, serenos y cosmopolitas de entre los dragones cromáticos, y hacen el mal de forma organizada, manipuladora y regia. Los dragones azules suelen tener sus guaridas cerca de las ciudades o dentro de ellas y tratan de doblegar a la población a su voluntad y acumular hordas de sirvientes. A estos dragones les encanta tejer redes de conspiración; sus lacayos normalmente no son conscientes de que sirven a un dragón, sino que piensan que los pagos de protección, las tasas o los impuestos que reúnen van a las arcas de un amo cruel pero legítimo. En cierto modo, los dragones azules incluso ven a sus sirvientes como su propio tesoro que acumular. Se sabe que estos dragones incluso usan dichas tácticas con sus parientes cromáticos.</p>\n<p>No todos los dragones azules trabajan de forma clandestina. Algunos gobiernan sobre tribus del desierto y población rural como dioses vengativos, exigiendo tributo y adoración. Sin importar cómo manejen a sus subordinados, los dragones azules siempre son regios y altivos y sus guaridas son lujosas; no toleran la insubordinación, la incompetencia ni la malversación y las castigan con una eficiencia homicida.</p>\n<p>Los dragones azules también son conocidos por su uso y dominio de la magia de ilusión. Emplean ilusiones para complementar sus manipulaciones y para desconcertar a los enemigos en batalla. Los dragones azules también ejercen cierto control sobre el agua, pero usan esta aptitud para destruirla, algo bastante peligroso para quienes se los encuentran en sus guaridas del desierto.</p>\n<p>La guarida ideal de un dragón azul contiene múltiples pasadizos, salas y cámaras secretas. Como criaturas sociales que son, prefieren que sus invitados gocen de comodidad, pero su morada no debe ser tan pública como para que pueda acudir cualquiera. Una fuerza de guardias mantiene a raya a los intrusos y astutas ilusiones camuflan el edificio ante ojos inquisitivos. En lugar de una montaña de monedas o de gemas, el verdadero tesoro de un dragón azul es la rica decoración de su ciudadela: obras de arte, muebles ornamentados y maravillas arquitectónicas.</p>\n<hr />\n<p>Aunque hay muchos tipos de dragones, desde los poderosos dragones planarios a los extraños dragones esotéricos, pocas variedades dracónicas son tan conocidas y justamente temidas como los dragones cromáticos. Se diferencian por el tono de sus escamas; cada color de dragón ejerce su propia variante de crueldad asesina, mediante garras, dientes o aliento, y a diferencia de la mayoría de criaturas se vuelven más poderosos a medida que envejecen. Sus ansias de tesoro, comida, violencia y autoridad son legendarias. Físicamente poderosos y con egos que no se quedan atrás, estos dragones suelen carecer de moral y actuar como genios del crimen, feroces tiranos o voraces saqueadores.</p>",
+      "saveDetails": "+1 por estatus a las salvaciones contra la magia",
+      "tokenName": "Dragón azul venerable",
       "items": {
         "spellcastingEntry->Arcane Prepared Spells": {
-          "name": "Arcane Prepared Spells"
+          "name": "Conjuros arcanos preparados"
         },
         "spellcastingEntry->Arcane Innate Spells": {
-          "name": "Arcane Innate Spells"
+          "name": "Conjuros arcanos innatos"
         },
         "spell->Maze": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]\nMaze"
@@ -1051,107 +1051,107 @@
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.yV7Ouzaoe7DHLESI]\nVentriloquism (At Will)"
         },
         "strike-melee->Jaws": {
-          "name": "Jaws"
+          "name": "Fauces"
         },
         "strike-melee->Claw": {
-          "name": "Claw"
+          "name": "Garra"
         },
         "strike-melee->Tail": {
-          "name": "Tail"
+          "name": "Cola"
         },
         "strike-melee->Horns": {
-          "name": "Horns"
+          "name": "Cuernos"
         },
         "action->Sound Imitation": {
-          "name": "Sound Imitation",
-          "description": "<p>The dragon can mimic any sound it has heard. To do so, it must succeed at a DECEPTION check with a +4 circumstance bonus.</p>"
+          "name": "Imitación de sonidos",
+          "description": "<p>El dragón puede imitar cualquier sonido que haya oído. Para ello debe tener éxito en una prueba de Engaño con un bonificador +4 por circunstancia.</p>"
         },
         "action->Frightful Presence": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:39]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Wing Deflection": {
-          "name": "Wing Deflection",
-          "description": "<p><strong>Trigger</strong> The dragon is targeted with an attack</p>\n<hr />\n<p><strong>Effect</strong> The dragon raises its wing, gaining a +2 circumstance bonus to AC against the triggering attack. If the dragon is Flying, it descends 10 feet after the attack is complete.</p>"
+          "name": "Desvío con el ala",
+          "description": "<p><strong>Desencadenante</strong> El dragón es objetivo de un ataque.</p>\n<hr />\n<p><strong>Efecto</strong> El dragón alza el ala y obtiene un bonificador +2 por circunstancia a la CA contra el ataque desencadenante. Si está volando, desciende 10 pies (3 m) tras completar el ataque.</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
-          "description": "<p>The dragon breathes lightning that deals @Damage[12d12[electricity]|options:area-damage] damage in a @Template[line|distance:120] (@Check[reflex|dc:40|basic|options:area-effect] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>\n<hr />\n<p>Each time the dragon uses Breath Weapon, a @Template[burst|distance:20]{20-foot-radius} storm cloud appears 80 feet above a point of the dragon's choosing along the Breath Weapon's path. Clouds last for 10 minutes and allow the dragon to use Storm Breath.</p>"
+          "name": "Arma de aliento",
+          "description": "<p>El dragón exhala relámpagos que infligen @Damage[12d12[electricity] de daño por electricidad en una línea @Template[line|distance:120] (@Check[reflex|dc:40|basic|options:area-effect]).</p>\n<p>No puede volver a usar Arma de aliento durante [[/gmr 1d4 #Recarga Arma de aliento]]{1d4 asaltos}.</p>\n<hr />\n<p>Cada vez que el dragón usa Arma de aliento, aparece una nube de tormenta en un radio de 20 pies a 80 pies por encima de un punto que elija el dragón a lo largo de la trayectoria del arma de aliento. Las nubes duran 10 minutos y permiten al dragón usar Aliento de tormenta.</p>"
         },
         "action->Desert Thirst": {
-          "name": "Desert Thirst",
-          "description": "<p>When casting @UUID[Compendium.pf2e.spells-srd.Item.WzLKjSw6hsBhuklC]{Create Water}, the dragon can attempt to destroy liquid instead of creating it, turning an equal amount of liquid into sand. This destroys liquid magic or alchemical items if they're of a lower level than the dragon (a creature can attempt a @Check[will|dc:37] save to protect all liquids in its possession). This doesn't affect the liquids in a creature's body.</p>"
+          "name": "Sed del desierto",
+          "description": "<p>Al lanzar @UUID[Compendium.pf2e.spells-srd.Item.WzLKjSw6hsBhuklC]{Crear agua}, el dragón puede intentar destruir líquidos en lugar de crearlos, convirtiendo esa misma cantidad de líquido en arena. Esto destruye objetos mágicos o alquímicos líquidos si son de menor nivel que el dragón; una criatura puede intentar una salvación de @Check[will|dc:26] para proteger todos los líquidos que lleve encima. Esto no afecta a los líquidos del cuerpo de una criatura.</p>"
         },
         "action->Mirage": {
-          "name": "Mirage",
-          "description": "<p>Whenever the dragon uses Breath Weapon while the illusory image from its innate @UUID[Compendium.pf2e.spells-srd.Item.0873MWM0qKDDv81O]{Project Image} spell persists, it can cause the Breath Weapon to originate from itself or the image.</p>"
+          "name": "Espejismo",
+          "description": "<p>Siempre que el dragón usa Arma de aliento mientras persiste la imagen ilusoria de su conjuro innato @UUID[Compendium.pf2e.spells-srd.Item.0873MWM0qKDDv81O]{Proyectar imagen}, puede hacer que el Arma de aliento se origine en sí mismo o en la imagen.</p>"
         },
         "action->Storm Breath": {
-          "name": "Storm Breath",
-          "description": "<p><strong>Frequency</strong> Once per round</p>\n<p><strong>Requirements</strong> A storm cloud created by Breath Weapon is within 500 feet, and the dragon can see the cloud.</p>\n<hr />\n<p><strong>Effect</strong> The dragon calls down a lightning bolt from a storm cloud created by its Breath Weapon. This creates a vertical line of lightning to the ground that deal @Damage[6d12[electricity]] damage to all enemies in its path (@Check[reflex|dc:40|basic] save).</p>"
+          "name": "Aliento de tormenta",
+          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<p><strong>Requisitos</strong> Una nube de tormenta creada por Arma de aliento está a 500 pies o menos, y el dragón puede verla.</p>\n<hr />\n<p><strong>Efecto</strong> El dragón invoca un relámpago desde una nube de tormenta creada por su Arma de aliento. Esto crea una línea vertical de electricidad hasta el suelo que inflige @Damage[6d12[electricity]] de daño a todos los enemigos en su trayectoria (salvación básica de @Check[reflex|dc:40|basic]).</p>"
         }
       }
     },
     "Blue Dragon (Young)": {
-      "name": "Blue Dragon (Young)",
-      "publicNotes": "<p>Blue dragons are the sleek and poised cosmopolitans of the chromatic dragons. Their brand of evil is organized, manipulative, and regal. Blue dragons often lair near or within cities and set out to bend the population to their will and gather hordes of servants. These dragons love spinning webs of conspiracy. A blue dragon's lackeys typically don't even realize that they serve a dragon, but instead think the protection money, tariffs, or taxes they are amassing is treasure for a cruel but legitimate master. In some ways, blue dragons even see their servants as a living hoard and value them like treasure. These dragons have been known to use these tactics even with their own chromatic cousins.</p>\n<p>Not all blue dragons work clandestinely. Some lord over desert tribes and hill people like vengeful gods, demanding both tribute and worship. No matter how blue dragons manage their underlings, their bearing is regal and their lairs palatial; they're universally intolerant of insubordination, incompetence, and embezzlement, and punish perpetrators with murderous efficiency.</p>\n<p>Blue dragons are also known for their use and mastery of illusion magic. They make use of illusions to augment their manipulations and bewilder their foes in battle. Blue dragons also have some control over water, but use this ability to destroy water, something quite dangerous for those who encounter them in their desert lairs.</p>\n<p>The ideal lair for a blue dragon contains multiple passages, rooms, and secret chambers. As social creatures, blue dragons prefer to host guests in comfort-but their dwellings should not be so public that just anyone can come calling. A force of guards keeps out intruders, and clever illusions conceal the edifice from prying eyes. Rather than a pile of coins or gems, a blue dragon's true hoard is the rich furnishings in its citadel- expensive art, ornate furniture, and architectural marvels.</p>\n<hr />\n<p>While there are many types of dragons, from the powerful planar dragons to the strange esoteric dragons, few dragon varieties are as well-known and as rightly feared as the chromatic dragons. Differentiated by the hue of their scales, each color of dragon unleashes its own flavor of murderous cruelty-be it by claw, tooth, or breath-and unlike most creatures, dragons only become more powerful as they age. Their lust for treasure, food, bloodshed, and control are legendary. Physically powerful with egos to match, these dragons are often morally depraved and act as criminal masterminds, vicious tyrants, or voracious raiders.</p>",
+      "name": "Dragón azul joven",
+      "publicNotes": "<p>Los dragones azules son los más esbeltos, serenos y cosmopolitas de entre los dragones cromáticos, y hacen el mal de forma organizada, manipuladora y regia. Los dragones azules suelen tener sus guaridas cerca de las ciudades o dentro de ellas y tratan de doblegar a la población a su voluntad y acumular hordas de sirvientes. A estos dragones les encanta tejer redes de conspiración; sus lacayos normalmente no son conscientes de que sirven a un dragón, sino que piensan que los pagos de protección, las tasas o los impuestos que reúnen van a las arcas de un amo cruel pero legítimo. En cierto modo, los dragones azules incluso ven a sus sirvientes como su propio tesoro que acumular. Se sabe que estos dragones incluso usan dichas tácticas con sus parientes cromáticos.</p>\n<p>No todos los dragones azules trabajan de forma clandestina. Algunos gobiernan sobre tribus del desierto y población rural como dioses vengativos, exigiendo tributo y adoración. Sin importar cómo manejen a sus subordinados, los dragones azules siempre son regios y altivos y sus guaridas son lujosas; no toleran la insubordinación, la incompetencia ni la malversación y las castigan con una eficiencia homicida.</p>\n<p>Los dragones azules también son conocidos por su uso y dominio de la magia de ilusión. Emplean ilusiones para complementar sus manipulaciones y para desconcertar a los enemigos en batalla. Los dragones azules también ejercen cierto control sobre el agua, pero usan esta aptitud para destruirla, algo bastante peligroso para quienes se los encuentran en sus guaridas del desierto.</p>\n<p>La guarida ideal de un dragón azul contiene múltiples pasadizos, salas y cámaras secretas. Como criaturas sociales que son, prefieren que sus invitados gocen de comodidad, pero su morada no debe ser tan pública como para que pueda acudir cualquiera. Una fuerza de guardias mantiene a raya a los intrusos y astutas ilusiones camuflan el edificio ante ojos inquisitivos. En lugar de una montaña de monedas o de gemas, el verdadero tesoro de un dragón azul es la rica decoración de su ciudadela: obras de arte, muebles ornamentados y maravillas arquitectónicas.</p>\n<hr />\n<p>Aunque hay muchos tipos de dragones, desde los poderosos dragones planarios a los extraños dragones esotéricos, pocas variedades dracónicas son tan conocidas y justamente temidas como los dragones cromáticos. Se diferencian por el tono de sus escamas; cada color de dragón ejerce su propia variante de crueldad asesina, mediante garras, dientes o aliento, y a diferencia de la mayoría de criaturas se vuelven más poderosos a medida que envejecen. Sus ansias de tesoro, comida, violencia y autoridad son legendarias. Físicamente poderosos y con egos que no se quedan atrás, estos dragones suelen carecer de moral y actuar como genios del crimen, feroces tiranos o voraces saqueadores.</p>",
       "items": {
         "spellcastingEntry->Arcane Innate Spells": {
-          "name": "Arcane Innate Spells"
+          "name": "Conjuros arcanos innatos"
         },
         "spell->Create Water (At Will) (See Desert Thirst)": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.WzLKjSw6hsBhuklC]\nCreate Water (At Will) (See Desert Thirst)"
         },
         "strike-melee->Jaws": {
-          "name": "Jaws"
+          "name": "Fauces"
         },
         "strike-melee->Claw": {
-          "name": "Claw"
+          "name": "Garra"
         },
         "strike-melee->Tail": {
-          "name": "Tail"
+          "name": "Cola"
         },
         "strike-melee->Horns": {
-          "name": "Horns"
+          "name": "Cuernos"
         },
         "action->Sound Imitation": {
-          "name": "Sound Imitation",
-          "description": "<p>The dragon can mimic any sound it has heard. It must succeed at a DECEPTION check with a +4 circumstance bonus to do so.</p>"
+          "name": "Imitación de sonidos",
+          "description": "<p>El dragón puede imitar cualquier sonido que haya oído. Para ello debe tener éxito en una prueba de Engaño con un bonificador +4 por circunstancia.</p>"
         },
         "action->Frightful Presence": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:26]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Wing Deflection": {
-          "name": "Wing Deflection",
-          "description": "<p><strong>Trigger</strong> The dragon is targeted with an attack</p>\n<hr />\n<p><strong>Effect</strong> The dragon raises its wing, gaining a +2 circumstance bonus to AC against the triggering attack. If the dragon is Flying, it descends 10 feet after the attack is complete.</p>"
+          "name": "Desvío con el ala",
+          "description": "<p><strong>Desencadenante</strong> El dragón es objetivo de un ataque.</p>\n<hr />\n<p><strong>Efecto</strong> El dragón alza el ala y obtiene un bonificador +2 por circunstancia a la CA contra el ataque desencadenante. Si está volando, desciende 10 pies (3 m) tras completar el ataque.</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
-          "description": "<p>The dragon breathes lightning that deals @Damage[5d12[electricity]|options:area-damage] damage in an @Template[line|distance:80] (@Check[reflex|dc:28|basic|options:area-effect] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "name": "Arma de aliento",
+          "description": "<p>El dragón exhala relámpagos que infligen @Damage[5d12[electricity] de daño por electricidad en una línea @Template[line|distance:80] (@Check[reflex|dc:28|basic|options:area-effect]).</p>\n<p>No puede volver a usar Arma de aliento durante [[/gmr 1d4 #Recarga Arma de aliento]]{1d4 asaltos}.</p>"
         },
         "action->Desert Thirst": {
-          "name": "Desert Thirst",
-          "description": "<p>When casting @UUID[Compendium.pf2e.spells-srd.Item.WzLKjSw6hsBhuklC]{Create Water}, the dragon can attempt to destroy liquid instead of creating it, turning an equal amount of liquid into sand. This destroys liquid magic or alchemical items if they're of a lower level than the dragon (a creature can attempt a @Check[will|dc:26] save to protect all liquids in its possession). This doesn't affect the liquids in a creature's body.</p>"
+          "name": "Sed del desierto",
+          "description": "<p>Al lanzar @UUID[Compendium.pf2e.spells-srd.Item.WzLKjSw6hsBhuklC]{Crear agua}, el dragón puede intentar destruir líquidos en lugar de crearlos, convirtiendo esa misma cantidad de líquido en arena. Esto destruye objetos mágicos o alquímicos líquidos si son de menor nivel que el dragón; una criatura puede intentar una salvación de @Check[will|dc:26] para proteger todos los líquidos que lleve encima. Esto no afecta a los líquidos del cuerpo de una criatura.</p>"
         },
         "action->Draconic Frenzy": {
-          "name": "Draconic Frenzy",
-          "description": "<p>The dragon makes two claw Strikes and one horns Strike in any order.</p>"
+          "name": "Frenesí dracónico",
+          "description": "<p>El dragón da dos Golpes de garra y un Golpe de cuernos en cualquier orden.</p>"
         },
         "action->Draconic Momentum": {
-          "name": "Draconic Momentum",
-          "description": "<p>The dragon recharges its Breath Weapon whenever it scores a critical hit with a Strike.</p>"
+          "name": "Impulso dracónico",
+          "description": "<p>El dragón recarga su Arma de aliento siempre que logra un impacto crítico con un Golpe.</p>"
         }
       }
     },
     "Blue Dragon (Young, Spellcaster)": {
-      "name": "Blue Dragon (Young, Spellcaster)",
-      "publicNotes": "<p>Blue dragons are the sleek and poised cosmopolitans of the chromatic dragons. Their brand of evil is organized, manipulative, and regal. Blue dragons often lair near or within cities and set out to bend the population to their will and gather hordes of servants. These dragons love spinning webs of conspiracy. A blue dragon's lackeys typically don't even realize that they serve a dragon, but instead think the protection money, tariffs, or taxes they are amassing is treasure for a cruel but legitimate master. In some ways, blue dragons even see their servants as a living hoard and value them like treasure. These dragons have been known to use these tactics even with their own chromatic cousins.</p>\n<p>Not all blue dragons work clandestinely. Some lord over desert tribes and hill people like vengeful gods, demanding both tribute and worship. No matter how blue dragons manage their underlings, their bearing is regal and their lairs palatial; they're universally intolerant of insubordination, incompetence, and embezzlement, and punish perpetrators with murderous efficiency.</p>\n<p>Blue dragons are also known for their use and mastery of illusion magic. They make use of illusions to augment their manipulations and bewilder their foes in battle. Blue dragons also have some control over water, but use this ability to destroy water, something quite dangerous for those who encounter them in their desert lairs.</p>\n<p>The ideal lair for a blue dragon contains multiple passages, rooms, and secret chambers. As social creatures, blue dragons prefer to host guests in comfort-but their dwellings should not be so public that just anyone can come calling. A force of guards keeps out intruders, and clever illusions conceal the edifice from prying eyes. Rather than a pile of coins or gems, a blue dragon's true hoard is the rich furnishings in its citadel- expensive art, ornate furniture, and architectural marvels.</p>\n<hr />\n<p>While there are many types of dragons, from the powerful planar dragons to the strange esoteric dragons, few dragon varieties are as well-known and as rightly feared as the chromatic dragons. Differentiated by the hue of their scales, each color of dragon unleashes its own flavor of murderous cruelty-be it by claw, tooth, or breath-and unlike most creatures, dragons only become more powerful as they age. Their lust for treasure, food, bloodshed, and control are legendary. Physically powerful with egos to match, these dragons are often morally depraved and act as criminal masterminds, vicious tyrants, or voracious raiders.</p>",
-      "tokenName": "Blue Dragon (Young)",
+      "name": "Dragón azul joven (lanzador de conjuros)",
+      "publicNotes": "<p>Los dragones azules son los más esbeltos, serenos y cosmopolitas de entre los dragones cromáticos, y hacen el mal de forma organizada, manipuladora y regia. Los dragones azules suelen tener sus guaridas cerca de las ciudades o dentro de ellas y tratan de doblegar a la población a su voluntad y acumular hordas de sirvientes. A estos dragones les encanta tejer redes de conspiración; sus lacayos normalmente no son conscientes de que sirven a un dragón, sino que piensan que los pagos de protección, las tasas o los impuestos que reúnen van a las arcas de un amo cruel pero legítimo. En cierto modo, los dragones azules incluso ven a sus sirvientes como su propio tesoro que acumular. Se sabe que estos dragones incluso usan dichas tácticas con sus parientes cromáticos.</p>\n<p>No todos los dragones azules trabajan de forma clandestina. Algunos gobiernan sobre tribus del desierto y población rural como dioses vengativos, exigiendo tributo y adoración. Sin importar cómo manejen a sus subordinados, los dragones azules siempre son regios y altivos y sus guaridas son lujosas; no toleran la insubordinación, la incompetencia ni la malversación y las castigan con una eficiencia homicida.</p>\n<p>Los dragones azules también son conocidos por su uso y dominio de la magia de ilusión. Emplean ilusiones para complementar sus manipulaciones y para desconcertar a los enemigos en batalla. Los dragones azules también ejercen cierto control sobre el agua, pero usan esta aptitud para destruirla, algo bastante peligroso para quienes se los encuentran en sus guaridas del desierto.</p>\n<p>La guarida ideal de un dragón azul contiene múltiples pasadizos, salas y cámaras secretas. Como criaturas sociales que son, prefieren que sus invitados gocen de comodidad, pero su morada no debe ser tan pública como para que pueda acudir cualquiera. Una fuerza de guardias mantiene a raya a los intrusos y astutas ilusiones camuflan el edificio ante ojos inquisitivos. En lugar de una montaña de monedas o de gemas, el verdadero tesoro de un dragón azul es la rica decoración de su ciudadela: obras de arte, muebles ornamentados y maravillas arquitectónicas.</p>\n<hr />\n<p>Aunque hay muchos tipos de dragones, desde los poderosos dragones planarios a los extraños dragones esotéricos, pocas variedades dracónicas son tan conocidas y justamente temidas como los dragones cromáticos. Se diferencian por el tono de sus escamas; cada color de dragón ejerce su propia variante de crueldad asesina, mediante garras, dientes o aliento, y a diferencia de la mayoría de criaturas se vuelven más poderosos a medida que envejecen. Sus ansias de tesoro, comida, violencia y autoridad son legendarias. Físicamente poderosos y con egos que no se quedan atrás, estos dragones suelen carecer de moral y actuar como genios del crimen, feroces tiranos o voraces saqueadores.</p>",
+      "tokenName": "Dragón azul joven",
       "items": {
         "spellcastingEntry->Arcane Prepared Spells": {
-          "name": "Arcane Prepared Spells"
+          "name": "Conjuros arcanos preparados"
         },
         "spellcastingEntry->Arcane Innate Spells": {
-          "name": "Arcane Innate Spells"
+          "name": "Conjuros arcanos innatos"
         },
         "spell->Dimension Door": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nDimension Door"
@@ -1172,35 +1172,35 @@
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.xqmHD8JIjak15lRk]\nUnseen Servant"
         },
         "strike-melee->Jaws": {
-          "name": "Jaws"
+          "name": "Fauces"
         },
         "strike-melee->Claw": {
-          "name": "Claw"
+          "name": "Garra"
         },
         "strike-melee->Tail": {
-          "name": "Tail"
+          "name": "Cola"
         },
         "strike-melee->Horns": {
-          "name": "Horns"
+          "name": "Cuernos"
         },
         "action->Sound Imitation": {
-          "name": "Sound Imitation",
-          "description": "<p>The dragon can mimic any sound it has heard. It must succeed at a DECEPTION check with a +4 circumstance bonus to do so.</p>"
+          "name": "Imitación de sonidos",
+          "description": "<p>El dragón puede imitar cualquier sonido que haya oído. Para ello debe tener éxito en una prueba de Engaño con un bonificador +4 por circunstancia.</p>"
         },
         "action->Frightful Presence": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:26]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Wing Deflection": {
-          "name": "Wing Deflection",
-          "description": "<p><strong>Trigger</strong> The dragon is targeted with an attack</p>\n<hr />\n<p><strong>Effect</strong> The dragon raises its wing, gaining a +2 circumstance bonus to AC against the triggering attack. If the dragon is Flying, it descends 10 feet after the attack is complete.</p>"
+          "name": "Desvío con el ala",
+          "description": "<p><strong>Desencadenante</strong> El dragón es objetivo de un ataque.</p>\n<hr />\n<p><strong>Efecto</strong> El dragón alza el ala y obtiene un bonificador +2 por circunstancia a la CA contra el ataque desencadenante. Si está volando, desciende 10 pies (3 m) tras completar el ataque.</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
-          "description": "<p>The dragon breathes lightning that deals @Damage[5d12[electricity]|options:area-damage] damage in an @Template[line|distance:80] (@Check[reflex|dc:28|basic|options:area-effect] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "name": "Arma de aliento",
+          "description": "<p>El dragón exhala relámpagos que infligen @Damage[5d12[electricity] de daño por electricidad en una línea @Template[line|distance:80] (@Check[reflex|dc:28|basic|options:area-effect]).</p>\n<p>No puede volver a usar Arma de aliento durante [[/gmr 1d4 #Recarga Arma de aliento]]{1d4 asaltos}.</p>"
         },
         "action->Desert Thirst": {
-          "name": "Desert Thirst",
-          "description": "<p>When casting @UUID[Compendium.pf2e.spells-srd.Item.WzLKjSw6hsBhuklC]{Create Water}, the dragon can attempt to destroy liquid instead of creating it, turning an equal amount of liquid into sand. This destroys liquid magic or alchemical items if they're of a lower level than the dragon (a creature can attempt a @Check[will|dc:26] save to protect all liquids in its possession). This doesn't affect the liquids in a creature's body.</p>"
+          "name": "Sed del desierto",
+          "description": "<p>Al lanzar @UUID[Compendium.pf2e.spells-srd.Item.WzLKjSw6hsBhuklC]{Crear agua}, el dragón puede intentar destruir líquidos en lugar de crearlos, convirtiendo esa misma cantidad de líquido en arena. Esto destruye objetos mágicos o alquímicos líquidos si son de menor nivel que el dragón; una criatura puede intentar una salvación de @Check[will|dc:26] para proteger todos los líquidos que lleve encima. Esto no afecta a los líquidos del cuerpo de una criatura.</p>"
         }
       }
     },
