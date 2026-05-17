@@ -400,12 +400,12 @@
       "description": "<p><strong>Requisitos</strong> Estás adyacente al cadáver de una criatura Pequeña o mayor que ha muerto en la última hora</p>\n <hr />\n <p>Devoras un pedazo del cadáver. Estás saciado durante 1 hora.</p>"
     },
     "Convocation of Greed": {
-      "name": "Convocation of Greed",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Spend 1 Mythic Point. The spirits of the eight runelords of greed (Kaladurnae, Fethryr, Gimmel, Ligniya, Mazmiranna, Aethusa, Haphrama, and Karzoug) appear and bolster the armaments of you and your companions. For each of the spirits, one creature of your choice within 60 feet gains a +2 item bonus to AC, attack rolls, or saving throws (chosen by the creature) for 1 minute. These bonuses increase to +4 while the creature is within 100 feet of Xanderghul, the Runelord of Pride. A creature can receive bonuses from multiple runelords at once (gaining bonuses to both AC and attack rolls, for example), but the bonuses aren't cumulative.</p>"
+      "name": "Convocacion de avaricia",
+      "description": "<p><strong>Frecuencia</strong> una vez al dia</p>\n<hr />\n<p><strong>Efecto</strong> Gasta 1 Punto mitico. Los espiritus de los ocho señores runicos de la avaricia (Kaladurnae, Fethryr, Gimmel, Ligniya, Mazmiranna, Aethusa, Haphrama y Karzoug) aparecen y refuerzan los pertrechos tuyos y de tus compañeros. Por cada uno de los espiritus, una criatura de tu eleccion a 60 pies o menos obtiene un bonificador de objeto +2 a la CA, las tiradas de ataque o los tiros de salvacion, a eleccion de la criatura, durante 1 minuto. Estos bonificadores aumentan a +4 mientras la criatura esta a 100 pies o menos de Xanderghul, el Señor Runico del Orgullo. Una criatura puede recibir bonificadores de varios señores runicos a la vez, por ejemplo a la CA y a las tiradas de ataque, pero los bonificadores no son acumulativos.</p>"
     },
     "Coordinating Maneuvers": {
-      "name": "Coordinating Maneuvers",
-      "description": "<p>Your team works to slip enemies into a disadvantageous position. Signal one squadmate within the aura of your banner; that squadmate can immediately Step as a free action. If they end this movement next to an opponent, they can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposition} that target as a reaction.</p>"
+      "name": "Maniobras coordinadas",
+      "description": "<p>Tu equipo trabaja para hacer que los enemigos queden en posiciones desfavorables. Señala a un compañero de escuadra dentro del aura de tu estandarte; ese compañero puede Dar un paso inmediatamente como accion gratuita. Si termina este movimiento junto a un oponente, puede intentar @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposicionar} a ese objetivo como reaccion.</p>"
     },
     "Coughing Dragon": {
       "name": "Dragón tosiente",
@@ -432,9 +432,9 @@
       "description": "<p> <strong> Requisitos </strong> Eres un iniciado, asistente o versado, y tu nivel de rama, ya sea para tu rama primaria o secundaria, está 2 o más niveles por debajo del límite. </p>\n <hr />\n <p> Al darte cuenta de que te estás quedando atrás en tus estudios, estudias más de lo que probablemente deberías. Estudias dos veces, cada una en una rama que satisfaga los requisitos de la actividad. Sin embargo, estudiar más tiene un precio. Hasta la próxima vez que realices el Estudioactividad de tiempo libre, estás particularmente cansado por todas las horas extra estudiando; Al comienzo de cada día de aventuras, debes tener éxito en una prueba @Check[type:flat|dc:8] o ser @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigado} para ese día. </p>"
     },
     "Crash Against Me": {
-      "name": "Crash Against Me",
-      "description": "<p>Your skin becomes virtually unbreakable. Until the start of your next turn, you have resistance equal to your level to the chosen damage type.</p>\n<p>During this time, if a creature attacking you using a weapon dealing the same damage type as your resistance misses you or hits you but deals no damage due to your resistance, the weapon clangs wildly off your skin. This painful reverberation makes the attacking enemy @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} and gives it a –2 circumstance penalty to attacks with that weapon until the start of the enemy's next turn.</p>",
-      "selfEffect": "Effect: Crash Against Me"
+      "name": "Estrellarse contra mi",
+      "description": "<p>Tu piel se vuelve practicamente irrompible. Hasta el comienzo de tu siguiente turno, tienes resistencia igual a tu nivel al tipo de daño elegido.</p>\n<p>Durante este tiempo, si una criatura que te ataca con un arma que inflige el mismo tipo de daño que tu resistencia falla contra ti, o te impacta pero no inflige daño debido a tu resistencia, el arma rebota con estruendo contra tu piel. Esta reverberacion dolorosa deja al enemigo atacante @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} y le da un penalizador de circunstancia -2 a los ataques con esa arma hasta el comienzo del siguiente turno de ese enemigo.</p>",
+      "selfEffect": "Efecto: Estrellarse contra mi"
     },
     "Crawl": {
       "name": "Gatear",
@@ -461,12 +461,12 @@
       "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p>Tu escuadra se reagrupa con un estruendo resonante que ahoga todos los demás sonidos de la guerra. Elige un enemigo que estés observando y da una señal a todos los compañeros de escuadra dentro del aura del estandarte de tu comandante. Todos los compañeros de escuadra pueden Caminar hasta el doble de su Velocidad directamente hacia el objetivo como reacción, gritando y arrollando. Cuando cualquier compañero de escuadra entra en una casilla adyacente a cualquier enemigo, ese enemigo debe intentar una salvación básica de @Check[fortitude|against:commander|basic] contra tu CD de clase o recibir @Damage[2d6[bludgeoning],2d6[sonic]|options:inflicts:deafened]{2d6 de daño contundente y 2d6 de daño sónico}, más 2d6 contundente y 2d6 sónico adicionales por cada compañero de escuadra que participe en ¡Desatad el caos! Los enemigos que fallen críticamente quedan @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ensordecidos} durante 1 asalto. Independientemente del resultado, el enemigo queda después temporalmente inmune a cualquier daño adicional de ¡Desatad el caos! durante 24 horas.</p>\n<p>Los compañeros de escuadra pueden usar ¡Desatad el caos! mientras Excavan, Trepan, Vuelan o Nadan en lugar de Caminar si tienen el tipo de movimiento correspondiente.</p>"
     },
     "Cycle Elemental Stance": {
-      "name": "Cycle Elemental Stance",
-      "description": "<p><strong>Requirements</strong> You're in one of the elemental stances</p><hr /><p><strong>Effect</strong> Stride or Step, and then enter a different elemental stance from the one you're currently in.</p>"
+      "name": "Alternar postura elemental",
+      "description": "<p><strong>Requisitos</strong> Estas en una de las posturas elementales</p><hr /><p><strong>Efecto</strong> Caminas o Das un paso, y despues entras en una postura elemental distinta de aquella en la que estas actualmente.</p>"
     },
     "Dampening Harmonics": {
-      "name": "Dampening Harmonics",
-      "description": "<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You establish a force field that grants you resistance 10 to damage dealt by spells and magical abilities with the trait of your magiphage ability, except for force damage. The force field lasts for 10 minutes. Each time the field prevents damage, the duration decreases by 1 minute.</p>"
+      "name": "Armonicos amortiguadores",
+      "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p><strong>Efecto</strong> Estableces un campo de fuerza que te concede resistencia 10 al daño infligido por conjuros y aptitudes magicas con el rasgo de tu aptitud magifaga, excepto al daño de fuerza. El campo de fuerza dura 10 minutos. Cada vez que el campo evita daño, la duracion se reduce en 1 minuto.</p>"
     },
     "Dancing Dodge": {
       "name": "Esquiva danzante",
@@ -474,20 +474,20 @@
     },
     "Daydream Trance": {
       "name": "Trance de ensueño",
-      "description": "<p> Caes en un trance medio dormido. Esto dura 1 minuto o hasta que caigas @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente}, lo que ocurra primero. Puedes terminar voluntariamente tu trance realizando una sola acción, que tiene un rasgo de concentrado, y logrando una salvación @Check[type:will|dc:resolve(@actor.system.attributes.classOrSpellDC.value)] contra tu propia DC de clase o DC de hechizo, lo que sea mayor. Una vez que termine tu trance, no podrás volver a entrar en Daydream Trance durante 1 minuto. Mientras estás en trance, obtienes los siguientes efectos: </p>\n <ul><li> Obtienes una bonificación de estado de +1 a las salvaciones de Voluntad. Este bono aumenta a +2 contra efectos mentales. Si eres legendario en Ocultismo, la bonificación contra los efectos mentales aumenta a +3. </li>\n <li> Recibes una penalización de -1 a las pruebas de Percepción y tiradas de iniciativa. </li>\n </ul>",
-      "selfEffect": "Effect: Daydream Trance"
+      "description": "<p>Caes en un trance entre la vigilia y el sueño. Esto dura 1 minuto o hasta que caigas @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente}, lo que ocurra primero. Puedes terminar voluntariamente tu trance realizando una accion con el rasgo concentracion y teniendo exito en una salvacion de @Check[type:will|dc:resolve(@actor.system.attributes.classOrSpellDC.value)] contra tu propia CD de clase o CD de conjuro, la que sea mayor. Una vez termina tu trance, no puedes volver a entrar en Trance de ensueño durante 1 minuto. Mientras estas en trance, obtienes los siguientes efectos:</p>\n<ul><li>Obtienes un bonificador de estado +1 a las salvaciones de Voluntad. Este bonificador aumenta a +2 contra efectos mentales. Si eres legendario en Ocultismo, el bonificador contra efectos mentales aumenta a +3.</li>\n<li>Recibes un penalizador -1 a las pruebas de Percepcion y a las tiradas de iniciativa.</li>\n</ul>",
+      "selfEffect": "Efecto: Trance de ensueño"
     },
     "Dazzle Seeker": {
-      "name": "Dazzle Seeker",
-      "description": "<p><strong>Trigger</strong> A creature attempts a flat check to target you due to you being @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} from it</p>\n<hr />\n<p><strong>Effect</strong> You flash your bright scales in the creature's eyes, making it hard for them to pinpoint your exact location. The creature must roll the flat check twice and take the worse result.</p>"
+      "name": "Deslumbrar al buscador",
+      "description": "<p><strong>Desencadenante</strong> Una criatura intenta una prueba simple para hacerte objetivo debido a que estas @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} para ella</p>\n<hr />\n<p><strong>Efecto</strong> Haces brillar tus escamas luminosas ante los ojos de la criatura, dificultando que determine tu ubicacion exacta. La criatura debe tirar dos veces la prueba simple y quedarse con el peor resultado.</p>"
     },
     "Death Drone": {
       "name": "Zumbido mortal",
       "description": "<p>Las cigarras de tu enjambre producen un zumbido que estimula una respuesta de miedo. Cada criatura dentro del espacio de tu enjambre recibe @Damage[6d4[mental]] de daño y debe intentar una salvación de @Check[type:will|dc:resolve(@actor.system.attributes.classOrSpellDC.value)] contra tu CD de clase o CD de conjuro, la que sea mayor.</p><hr /><p><strong>Éxito crítico</strong> La criatura no se ve afectada.</p>\n<p><strong>Éxito</strong> La criatura recibe la mitad de daño.</p>\n<p><strong>Fallo</strong> La criatura recibe todo el daño, queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustada 1} y sufre un penalizador -2 por circunstancia a las pruebas de Percepción que requieran oído.</p>\n<p><strong>Fallo crítico</strong> La criatura recibe el doble de daño, queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustada 2} y queda @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ensordecida} hasta el comienzo de tu siguiente turno.</p>"
     },
     "Debilitating Strike": {
-      "name": "Impacto Debilitante",
-      "description": "<p> <strong> Desencadenante </strong> Tu golpe golpea a una criatura desprevenida y le causa daño </p>\n <hr />\n <p> Aplicas una de las siguientes debilitaciones, que dura hasta el final de tu siguiente turno: </p>\n <ul>\n <li> <strong> Debilitación </strong> El objetivo sufre una penalización de estado de -10 pies a sus Velocidades. </li>\n <li> <strong> Debilitación </strong> El objetivo se convierte en @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1} . </li></ul>\n <p> @UUID[Compendium.pf2e.feat-effects.Item.yBTASi3FvnReAwHy]{Effect: Debilitating Strike} </p>"
+      "name": "Golpe debilitante",
+      "description": "<p><strong>Desencadenante</strong> Tu Golpe impacta a una criatura desprevenida y le inflige daño</p>\n<hr />\n<p>Aplicas una de las siguientes debilitaciones, que dura hasta el final de tu siguiente turno:</p>\n<ul>\n<li><strong>Debilitacion</strong> El objetivo sufre un penalizador de estado de -10 pies a sus Velocidades.</li>\n<li><strong>Debilitacion</strong> El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1}.</li></ul>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.yBTASi3FvnReAwHy]{Efecto: Golpe debilitante}</p>"
     },
     "Deceptive Sidestep": {
       "name": "Paso lateral engañoso",
@@ -514,8 +514,8 @@
       "description": "<p> <strong> Activador </strong> El objetivo recibe daño </p>\n <p> <strong> Requisitos </strong> Estás a 1 milla del objetivo </p>\n <hr />\n <p> <strong> Efecto </strong> Después de calcular la cantidad de daño que recibiría el objetivo (aplicando debilidades, resistencias y similares), pierdes un número igual de puntos de vida y el objetivo no recibe nada del daño. No puedes reducir la cantidad de puntos de vida que pierdes enPor aquí. Sin embargo, el objetivo aún recibe los efectos que vendrían con el daño, como el veneno en los colmillos de una víbora. </p>"
     },
     "Defensive Retreat": {
-      "name": "Defensive Retreat",
-      "description": "<p>You call for a careful retreat. Signal all squadmates within the aura of your banner; each can immediately Step up to three times as a free action. Each Step must take them farther away from at least one hostile creature they are observing and can only take them closer to a hostile creature if doing so is the only way for them to move toward safety (such as if they're surrounded).</p>"
+      "name": "Retirada defensiva",
+      "description": "<p>Ordenas una retirada cuidadosa. Señala a todos los compañeros de escuadra dentro del aura de tu estandarte; cada uno puede Dar un paso hasta tres veces inmediatamente como accion gratuita. Cada Paso debe alejarlo de al menos una criatura hostil que este observando, y solo puede acercarlo a una criatura hostil si hacerlo es la unica forma de avanzar hacia la seguridad, como si estuviera rodeado.</p>"
     },
     "Delay": {
       "name": "Retrasar",
@@ -530,8 +530,8 @@
       "description": "<p>El asalto coordinado de tu equipo infunde miedo en el corazón de tus enemigos. Da una señal a hasta dos compañeros de escuadra dentro del aura del estandarte de tu comandante; como acción gratuita, esos compañeros de escuadra pueden Caminar inmediatamente hacia un enemigo que estén observando.</p>\n<p>Si terminan este movimiento adyacentes a un enemigo, pueden intentar hacer un Golpe contra ese enemigo como reacción. Por cada uno de estos Golpes que tenga éxito, el enemigo objetivo debe tener éxito en una salvación de @Check[will|against:commander|options:inflicts:frightened|traits:emotion,fear,mental] contra tu CD de clase o quedar @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} con un fallo crítico); este es un efecto de emoción, miedo y mental.</p>\n<p>Si ambos Golpes tienen como objetivo al mismo enemigo, ese enemigo intenta la salvación solo una vez después del ataque final y sufre un penalizador -1 por circunstancia a su salvación de Voluntad para resistir este efecto. Este penalizador aumenta a -2 si ambos Golpes tienen éxito, o a -3 si ambos Golpes tienen éxito y cualquiera de ellos es un impacto crítico.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.91qBP1n04xsKeXkE]{Efecto: Carga desmoralizadora}</p>"
     },
     "Designate Ally": {
-      "name": "Designate Ally",
-      "description": "<p>Choose an ally you can see, who becomes your designated ally. For the next minute, whenever your designated ally is adjacent to you and you're conscious, they gain a +2 circumstance bonus to AC and Reflex saving throws. You can have only one designated ally at a time, and if you designate a new ally, the previous ally loses any benefits.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.uAWWAiuo5mSJSVY4]{Effect: Designate Ally}</p>"
+      "name": "Designar aliado",
+      "description": "<p>Elige a un aliado que puedas ver, que se convierte en tu aliado designado. Durante el siguiente minuto, siempre que tu aliado designado este adyacente a ti y estes consciente, obtiene un bonificador de circunstancia +2 a la CA y a los tiros de salvacion de Reflejos. Solo puedes tener un aliado designado a la vez, y si designas a un nuevo aliado, el aliado anterior pierde cualquier beneficio.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.uAWWAiuo5mSJSVY4]{Efecto: Designar aliado}</p>"
     },
     "Destructive Vengeance": {
       "name": "Venganza destructiva",
@@ -542,13 +542,13 @@
       "description": "<p> Lanzas detectar magia a intervalos regulares. Mueves a la mitad de tu velocidad de viaje o más despacio. No tienes probabilidad alguna de pasar por alto un aura mágica si tu velocidad de viaje es inferior a 300 pies por minuto (90 m/min) pero no puedes viajar a una Velocidad mayor de 150 pies por minuto (45 m/min) para detectar auras mágicas antes de que el grupo se tope con las mismas. </p>"
     },
     "Devise a Stratagem": {
-      "name": "Diseñar una estratagema",
-      "description": "<p> <strong> Frecuencia </strong> una vez por ronda </p>\n <hr />\n <p> Evalúas las debilidades de un enemigo en combate y las utilizas para formular un plan de ataque contra tu enemigo. Elige una criatura que puedas ver y tira un d20. Si golpeas a la criatura elegida más adelante en esta ronda, debes usar el resultado de la tirada que hiciste para idear una estratagema para la tirada de ataque de tu golpe en lugar de tirar. Realizas esta sustitución sólo para el primer Golpe que hagas contra elcriatura esta ronda, no ningún ataque posterior. </p>\n <p> Cuando haces esta sustitución, también puedes agregar tu modificador de Inteligencia a tu tirada de ataque en lugar de tu modificador de Fuerza o Destreza, siempre que tu Golpe utilice un arma cuerpo a cuerpo ágil o delicada, un ataque sin armas ágil o delicado, un arma a distancia (que debe ser ágil o sutil si es un arma cuerpo a cuerpo con el rasgo arrojadizo) o @UUID[Compendium.pf2e.equipment-srd.Item.TLQErnOpM9Luy7rL]{Sap} . </p>\n <p> Si eres consciente de que la criaturaeliges es el tema de una pista que estás siguiendo, puedes usar esta habilidad como una acción gratuita. </p>",
-      "selfEffect": "Effect: Devise a Stratagem"
+      "name": "Idear una estratagema",
+      "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p>Evalúas las debilidades de un enemigo en combate y las usas para formular un plan de ataque contra el. Elige una criatura que puedas ver y tira un d20. Si impactas a la criatura elegida mas adelante en este asalto, debes usar el resultado de la tirada que hiciste para Idear una estratagema para la tirada de ataque de tu Golpe en lugar de tirar. Realizas esta sustitucion solo para el primer Golpe que hagas contra la criatura este asalto, no para ataques posteriores.</p>\n<p>Cuando realizas esta sustitucion, tambien puedes añadir tu modificador de Inteligencia a tu tirada de ataque en lugar de tu modificador de Fuerza o Destreza, siempre que tu Golpe use un arma cuerpo a cuerpo agil o sutil, un ataque sin armas agil o sutil, un arma a distancia (que debe ser agil o sutil si es un arma cuerpo a cuerpo con el rasgo arrojadiza), o @UUID[Compendium.pf2e.equipment-srd.Item.TLQErnOpM9Luy7rL]{Cachiporra}.</p>\n<p>Si sabes que la criatura que eliges es el sujeto de una pista que estas siguiendo, puedes usar esta aptitud como accion gratuita.</p>",
+      "selfEffect": "Efecto: Idear una estratagema"
     },
     "Devour Ambient Magic": {
-      "name": "Devour Ambient Magic",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> A creature Casts a Spell with you as the only target</p><hr /><p><strong>Effect</strong> Your ostilli radiates cyan light as its tentacle-like filters attempt to consume the magical effect. You can attempt to counteract the triggering spell with an @Check[type:arcana] or @Check[type:nature] check and a counteract rank equal to half your level.</p>"
+      "name": "Devorar magia ambiental",
+      "description": "<p><strong>Frecuencia</strong> una vez al dia</p>\n<p><strong>Desencadenante</strong> Una criatura Lanza un conjuro que te tiene como unico objetivo</p><hr /><p><strong>Efecto</strong> Tu ostilli irradia luz cian mientras sus filtros tentaculares intentan consumir el efecto magico. Puedes intentar contrarrestar el conjuro desencadenante con una prueba de @Check[type:arcana] o @Check[type:nature] y un rango de contrarresto igual a la mitad de tu nivel.</p>"
     },
     "Direct Follower": {
       "name": "Dirigir seguidor",
