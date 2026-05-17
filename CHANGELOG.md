@@ -1,3 +1,12 @@
+## [8.1.10](https://github.com/HonzoNebro/pf2e-esp-translation-ml/compare/v8.1.9...v8.1.10) (2026-05-17)
+
+
+### Bug Fixes
+
+* widen pf2e system compatibility ([1e01d76](https://github.com/HonzoNebro/pf2e-esp-translation-ml/commit/1e01d769a4af783abc30d1b8898cad1ddd944a41))
+
+
+
 ## [8.1.9](https://github.com/HonzoNebro/pf2e-esp-translation-ml/compare/v8.1.8...v8.1.9) (2026-05-17)
 
 
@@ -11,10 +20,6 @@
 
 
 ## [8.1.6](https://github.com/HonzoNebro/pf2e-esp-translation-ml/compare/v8.1.5...v8.1.6) (2026-05-17)
-
-
-
-## [8.1.5](https://github.com/HonzoNebro/pf2e-esp-translation-ml/compare/v8.1.4...v8.1.5) (2026-05-17)
 
 
 
