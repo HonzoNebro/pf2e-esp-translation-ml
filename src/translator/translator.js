@@ -1,4 +1,84 @@
-import { CompendiumMapping } from "../../../babele/script/compendium-mapping.js";
+class CompendiumMapping {
+    constructor(_entryType, mappingEntries = {}) {
+        this.mappingEntries = mappingEntries;
+    }
+
+    map(sourceObject, translation = {}) {
+        const mapped = {};
+
+        for (const [field, mapping] of Object.entries(this.mappingEntries)) {
+            if (!Object.prototype.hasOwnProperty.call(translation, field)) continue;
+
+            const mappingConfig = typeof mapping === "string" ? { path: mapping } : mapping;
+            const sourceValue = foundry.utils.getProperty(sourceObject, mappingConfig.path);
+            if (sourceValue === undefined) continue;
+
+            const translationValue = translation[field];
+            const value = mappingConfig.converter
+                ? this.#convert(mappingConfig.converter, sourceValue, translationValue, sourceObject, translation)
+                : translationValue;
+
+            if (value !== undefined) {
+                foundry.utils.setProperty(mapped, mappingConfig.path, value);
+            }
+        }
+
+        return mapped;
+    }
+
+    #convert(converter, sourceValue, translationValue, sourceObject, translationObject) {
+        const translator = game.langEsPf2e;
+
+        switch (converter) {
+            case "translateAdventureActorItems":
+                return translator.translateItems(sourceValue, translationValue, true, false);
+            case "translateActorItems":
+                return translator.translateItems(sourceValue, translationValue, true);
+            case "translateAdventureActors":
+                return translator.translateArrayOfObjects(sourceValue, translationValue, "adventureActor");
+            case "translateAdventureItems":
+                return translator.translateItems(sourceValue, translationValue, false, false);
+            case "translateAdventureJournals":
+                return translator.translateArrayOfObjects(sourceValue, translationValue, "adventureJournal");
+            case "translateAdventureJournalPages":
+                return translator.translateArrayOfObjects(sourceValue, translationValue, "adventureJournalPage");
+            case "translateAdventureScenes":
+                return translator.translateArrayOfObjects(sourceValue, translationValue, "adventureScene");
+            case "translateAdventureTables":
+                return translator.translateArrayOfObjects(sourceValue, translationValue, "adventureTable");
+            case "translateDuration":
+                return translator.translateValue("duration", sourceValue);
+            case "translateHeightening":
+                return translator.translateHeightening(sourceValue, translationValue);
+            case "translatePrerequisites":
+                return translator.translatePrerequisites(sourceValue, translationValue);
+            case "translateRange":
+                return translator.translateValue("range", sourceValue);
+            case "translateRules":
+                return translator.translateRules(sourceValue, translationValue);
+            case "translateSource":
+                return translator.translateValue("source", sourceValue);
+            case "translateSpellVariant":
+                return translator.dynamicObjectListMerge(
+                    sourceValue,
+                    translationValue,
+                    translator.getMapping("item", true)
+                );
+            case "translateTableResults":
+                return translator.translateTableResults(sourceValue, translationValue);
+            case "translateTiles":
+                return translator.dynamicArrayMerge(sourceValue, translationValue, translator.getMapping("tile", true));
+            case "translateTime":
+                return translator.translateValue("time", sourceValue);
+            case "translateTokens":
+                return translator.translateArrayOfObjects(sourceValue, translationValue, "token");
+            case "translateTokenName":
+                return translator.translateTokenName(sourceValue, translationValue, sourceObject, translationObject);
+            default:
+                return translationValue;
+        }
+    }
+}
 
 // Create Translator instance and register settings
 Hooks.once("init", () => {
