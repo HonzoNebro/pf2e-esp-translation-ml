@@ -10790,70 +10790,70 @@
       "description": "<p>Tienes un rasgo draconico evidente, como garras afiladas, un hocico lleno de dientes puntiagudos o una fuerte cola reptiliana, que puedes usar ofensivamente. Obtienes a tu eleccion uno de los siguientes ataques sin armas. El ataque pertenece al grupo de pelea y tiene el dado de dano y rasgos indicados.</p><ul><li><strong>Garra</strong> 1d4 cortante (agil, sutileza, sin armas)</li><li><strong>Fauces</strong> 1d6 perforante (contundente, sin armas)</li><li><strong>Cola</strong> 1d6 contundente (barrido, derribo, sin armas)</li></ul><hr /><p><strong>Especial</strong> Solo puedes seleccionar esta dote a nivel 1, y no puedes reentrenarte para obtener o perder esta dote, ni cambiar el tipo de ataque que obtuviste.</p>"
     },
     "Draconic Familiar": {
-      "name": "Draconic Familiar",
-      "description": "<p>Your devotion to dragons has attracted a loyal servant. You gain a familiar. You can select four familiar or master abilities each day, instead of two, but one of them must always be the @UUID[Compendium.pf2e.familiar-abilities.Item.embGS7NjgydDw8KO]{Dragon} familiar ability. When you Channel Draconic Essence, you can also Command your familiar as a free action.</p>",
+      "name": "Familiar draconico",
+      "description": "<p>Tu devocion por los dragones ha atraido a un servidor leal. Obtienes un familiar. Puedes seleccionar cuatro aptitudes de familiar o de amo cada dia, en lugar de dos, pero una de ellas siempre debe ser la aptitud de familiar @UUID[Compendium.pf2e.familiar-abilities.Item.embGS7NjgydDw8KO]{Dragon}. Cuando Canalizas esencia draconica, tambien puedes Ordenar a tu familiar como accion gratuita.</p>",
       "prerequisites": [
         {
-          "value": "Draconic Acolyte Dedication"
+          "value": "Dedicacion de acolito draconico"
         }
       ]
     },
     "Draconic Fury": {
-      "name": "Draconic Fury",
-      "description": "<p><strong>Requirements</strong> You are holding or wearing your draconic gift.</p>\n<hr />\n<p>You briefly summon spectral claws that lash out in a flurry. All creatures in a @Template[type:cone|distance:15] take @Damage[(1 + floor(@actor.level/4))d6[slashing]|options:area-damage] damage with a @Check[reflex|against:class-spell|basic|options:area-effect] save against the higher of your CLASS DC or spell DC. A creature that critically fails the save also takes @Damage[(floor(@actor.level/4))d4[persistent,bleed]] damage. If you are Channeling Draconic Essence, your spectral dragon's space can be the origin of the cone.</p>\n<p>At 8th level and every 4 levels thereafter, the initial damage increases by 1d6 and the persistent bleed damage on a critical failure increases by 1d4.</p>",
+      "name": "Furia draconica",
+      "description": "<p><strong>Requisitos</strong> Estas sosteniendo o llevando puesto tu don draconico.</p>\n<hr />\n<p>Invocas brevemente garras espectrales que arremeten en una rafaga. Todas las criaturas en un @Template[type:cone|distance:15]{cono de 15 pies} reciben @Damage[(1 + floor(@actor.level/4))d6[slashing]|options:area-damage] de dano cortante con una salvacion de @Check[reflex|against:class-spell|basic|options:area-effect]{Reflejos basica} contra la mayor de tu CD de clase o CD de conjuro. Una criatura que falla criticamente la salvacion tambien recibe @Damage[(floor(@actor.level/4))d4[persistent,bleed]] de dano persistente de sangrado. Si estas Canalizando esencia draconica, el espacio de tu dragon espectral puede ser el origen del cono.</p>\n<p>A nivel 8 y cada 4 niveles a partir de entonces, el dano inicial aumenta en 1d6 y el dano persistente de sangrado con un fallo critico aumenta en 1d4.</p>",
       "prerequisites": [
         {
-          "value": "Draconic Acolyte Dedication"
+          "value": "Dedicacion de acolito draconico"
         }
       ]
     },
     "Draconic Paragon": {
-      "name": "Draconic Paragon",
-      "description": "<p>Your connection to your draconic benefactor becomes especially pronounced. You gain additional effects for the prerequisite kobold feat. If you have more than one of the prerequisite feats, you gain the appropriate additional effects.</p>\n<ul>\n<li><strong>Benefactor's Strike</strong> Your unarmed strikes made with your jaws, claws, or tail gain the deadly d6 trait.</li>\n<li><strong>Dracomancer</strong> Increase the number of times per day you can cast each of the granted 1st- and 2nd-rank innate spells by 1.</li>\n<li>\n<p><strong>Kobold Breath</strong> Creatures that critically fail their save against your Kobold Breath take 3d4 persistent damage of the type dealt by your draconic benefactor.</p>\n</li>\n</ul>",
+      "name": "Parangon draconico",
+      "description": "<p>Tu conexion con tu benefactor draconico se vuelve especialmente pronunciada. Obtienes efectos adicionales para la dote de kobold prerrequisito. Si tienes mas de una de las dotes prerrequisito, obtienes los efectos adicionales apropiados.</p>\n<ul>\n<li><strong>Golpe del benefactor</strong> Tus golpes sin armas hechos con tus fauces, garras o cola obtienen el rasgo mortal d6.</li>\n<li><strong>Dracomante</strong> Aumenta en 1 el numero de veces al dia que puedes lanzar cada uno de los conjuros innatos concedidos de rango 1 y 2.</li>\n<li>\n<p><strong>Aliento de kobold</strong> Las criaturas que fallan criticamente su salvacion contra tu Aliento de kobold reciben 3d4 de dano persistente del tipo infligido por tu benefactor draconico.</p>\n</li>\n</ul>",
       "prerequisites": [
         {
-          "value": "Benefactor’s Strike, Dracomancer, or Kobold Breath"
+          "value": "Golpe del benefactor, Dracomante o Aliento de kobold"
         }
       ]
     },
     "Draconic Resilience": {
-      "name": "Draconic Resilience",
-      "description": "<p><strong>Requirements</strong> You are holding or wearing your <em>draconic gift</em>.</p>\n<hr />\n<p>Energy reminiscent of dragon scales shimmers over you, making it more difficult for attacks to penetrate your defenses. Until the start of your next turn, you gain a +1 status bonus to AC and gain resistance equal to half your level to bludgeoning damage. If you are @UUID[Compendium.pf2e.actionspf2e.Item.Ce9vzE3XWn0u5NcL]{Channeling Draconic Essence}, you can grant these benefits to a willing creature who is in the same space as your spectral dragon instead of you.</p>",
+      "name": "Resiliencia draconica",
+      "description": "<p><strong>Requisitos</strong> Estas sosteniendo o llevando puesto tu <em>don draconico</em>.</p>\n<hr />\n<p>Una energia que recuerda a escamas de dragon reluce sobre ti, haciendo que sea mas dificil que los ataques atraviesen tus defensas. Hasta el comienzo de tu siguiente turno, obtienes un bonificador de estado +1 a la CA y resistencia igual a la mitad de tu nivel al dano contundente. Si estas @UUID[Compendium.pf2e.actionspf2e.Item.Ce9vzE3XWn0u5NcL]{Canalizando esencia draconica}, puedes conceder estos beneficios a una criatura voluntaria que este en el mismo espacio que tu dragon espectral en lugar de a ti.</p>",
       "prerequisites": [
         {
-          "value": "Draconic Acolyte Dedication"
+          "value": "Dedicacion de acolito draconico"
         }
       ],
-      "selfEffect": "Effect: Draconic Resilience"
+      "selfEffect": "Efecto: Resiliencia draconica"
     },
     "Draconic Resistance": {
-      "name": "Draconic Resistance",
-      "description": "<p>Draconic magic safeguards you against harm. You gain resistance equal to half your level (minimum 1) to the damage type associated with your draconic exemplar. Double this resistance against damage of that type dealt to you by dragons.</p>\n<p>If your draconic exemplar is associated with bludgeoning, piercing, or slashing damage, instead of gaining resistance to that type you can choose acid, cold, fire, electricity, or sonic.</p>"
+      "name": "Resistencia draconica",
+      "description": "<p>La magia draconica te protege del dano. Obtienes resistencia igual a la mitad de tu nivel, minimo 1, al tipo de dano asociado con tu ejemplar draconico. Duplica esta resistencia contra dano de ese tipo infligido por dragones.</p>\n<p>Si tu ejemplar draconico esta asociado con dano contundente, perforante o cortante, en lugar de obtener resistencia a ese tipo puedes elegir acido, frio, fuego, electricidad o sonico.</p>"
     },
     "Draconic Scent": {
       "name": "Aroma dracónico",
       "description": "<p> Tu sentido del olfato es extraño, muy parecido al de un dragón. Obtienes un olor impreciso con un alcance de 30 pies. </p>\n <p> El DJ podría duplicar el alcance si estás a favor del viento respecto de la criatura o reducir a la mitad el alcance si estás a favor del viento, a su discreción. </p>"
     },
     "Draconic Scent (Dragon Disciple)": {
-      "name": "Draconic Scent (Dragon Disciple)",
-      "description": "<p>Your sense of smell is uncanny, much like a dragon's. You gain imprecise scent with a range of 30 feet. The GM might double the range if you're downwind from the creature or halve the range if you're upwind, at their discretion.</p>",
+      "name": "Olfato draconico (discipulo del dragon)",
+      "description": "<p>Tu sentido del olfato es extraordinario, muy parecido al de un dragon. Obtienes olfato impreciso con un alcance de 30 pies. El DJ podria duplicar el alcance si estas a favor del viento respecto a la criatura, o reducirlo a la mitad si estas contra el viento, a su discrecion.</p>",
       "prerequisites": [
         {
-          "value": "Dragon Disciple Dedication"
+          "value": "Dedicacion de discipulo del dragon"
         }
       ]
     },
     "Draconic Sight": {
-      "name": "Draconic Sight",
-      "description": "<p>You have a fraction of the senses of your draconic forebear. You gain low-light vision, or you gain darkvision if your ancestry already grants you low-light vision.</p>"
+      "name": "Vista draconica",
+      "description": "<p>Tienes una fraccion de los sentidos de tu antepasado draconico. Obtienes vision en la penumbra, u obtienes vision en la oscuridad si tu ascendencia ya te concede vision en la penumbra.</p>"
     },
     "Draconic Sycophant": {
       "name": "Adulador dracónico",
       "description": "<p> Tienes un afecto que los dragones encuentran inusualmente placentero, y cuando eso falla, sabes cuándo agacharte. Obtienes un bonificador de circunstancia +2 a las pruebas de Percepción y tiros de salvación contra dragones. </p>\n <p> Además, siempre que te encuentres con una criatura con el rasgo de dragón en una situación social, puedes intentar una prueba de Diplomacia para @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} sobre esa criatura inmediatamente, en lugar de después de conversar durante 1 minuto; recibes una penalización de -5 a esta prueba. Si ustedfalla, puede optar por entablar una conversación de 1 minuto y luego intentar una nueva verificación en lugar de aceptar el resultado de la falla o la falla crítica. </p>\n <hr />\n <p> <strong> Especial </strong> Si tienes la dote de habilidad @UUID[Compendium.pf2e.feats-srd.Item.cc8O47KFsODReoBe]{Glad-Hand}, no sufres la penalización en tu prueba inmediata de Diplomacia si el objetivo tiene el rasgo de dragón. </p>"
     },
     "Draconic Veil": {
-      "name": "Draconic Veil",
-      "description": "<p>Like some dragons, your forebear had the supernatural ability to change their shape to walk among humanoids. You have learned how to mimic this ability. You can cast @UUID[Compendium.pf2e.spells-srd.Item.2qGqa33E4GPUCbMV]{Humanoid Form} as a 5th-rank innate spell once per day, except that the duration is increased to 1 hour. The spell's tradition matches your draconic exemplar's.</p>"
+      "name": "Velo draconico",
+      "description": "<p>Como algunos dragones, tu antepasado tenia la aptitud sobrenatural de cambiar de forma para caminar entre humanoides. Has aprendido a imitar esta aptitud. Puedes lanzar @UUID[Compendium.pf2e.spells-srd.Item.2qGqa33E4GPUCbMV]{Forma humanoide} como conjuro innato de rango 5 una vez al dia, excepto que la duracion aumenta a 1 hora. La tradicion del conjuro coincide con la de tu ejemplar draconico.</p>"
     },
     "Drag Down": {
       "name": "Arrastre hacia abajo",
@@ -10943,15 +10943,15 @@
       ]
     },
     "Dragon's Flight": {
-      "name": "Dragon's Flight",
-      "description": "<p><strong>Frequency</strong> once per round</p><hr /><p>You have grown a small pair of draconic wings or have honed your use of the wings you've had since birth. You Fly. If you don't normally have a fly Speed, you gain a fly Speed of 20 feet for this movement. If you aren't on solid ground at the end of this movement, you fall.</p>"
+      "name": "Vuelo del dragon",
+      "description": "<p><strong>Frecuencia</strong> una vez por asalto</p><hr /><p>Te ha crecido un pequeno par de alas draconicas o has perfeccionado el uso de las alas que tenias desde el nacimiento. Vuelas. Si normalmente no tienes Velocidad de vuelo, obtienes una Velocidad de vuelo de 20 pies para este movimiento. Si no estas sobre suelo firme al final de este movimiento, caes.</p>"
     },
     "Dragon's Journey": {
-      "name": "Dragon's Journey",
-      "description": "<p><strong>Requirements</strong> You're wielding two fans, one in each hand.</p><hr /><p>Your movements are like that of a dragon weaving a serpentine path between your enemies and allies. Using your fans, you slice the air and create a path of least resistance, allowing you to move across the battlefield with an ethereal grace. You Stride, your movement doesn't trigger enemy reactions, and any allies you pass within 5 feet of can immediately use their reaction to Stride, moving in the same direction. Allies must end their movement as close as possible to you or another ally who benefited from this ability. During Dragon's Journey, ally movement doesn't trigger reactions.</p>",
+      "name": "Viaje del dragon",
+      "description": "<p><strong>Requisitos</strong> Estas empunando dos abanicos, uno en cada mano.</p><hr /><p>Tus movimientos son como los de un dragon que serpentea entre enemigos y aliados. Usando tus abanicos, cortas el aire y creas un camino de menor resistencia que te permite moverte por el campo de batalla con una gracia eterea. Das una Zancada, tu movimiento no desencadena reacciones enemigas, y cualquier aliado junto al que pases a 5 pies o menos puede usar inmediatamente su reaccion para dar una Zancada, moviendose en la misma direccion. Los aliados deben terminar su movimiento lo mas cerca posible de ti o de otro aliado que se haya beneficiado de esta aptitud. Durante Viaje del dragon, el movimiento de los aliados no desencadena reacciones.</p>",
       "prerequisites": [
         {
-          "value": "Fan Dancer Dedication"
+          "value": "Dedicacion de danzante del abanico"
         }
       ]
     },
@@ -10974,14 +10974,14 @@
       ]
     },
     "Dragon's Rage Wings": {
-      "name": "Alas de la furia del dragón",
-      "description": "<p> Haces que te brotan alas de dragón de la espalda, del mismo color que tu dragón elegido. Cuando entras en furia, obtienes una Velocidad de vuelo igual a tu Velocidad terrestre. Si cuando tu furia acaba estás volando, empiezas a caer, pero la transformación sólo se completa en el último momento, por lo que no sufres daño debido a la caída y aterrizas de pie. </p>",
+      "name": "Alas de la furia del dragon",
+      "description": "<p>Haces que te broten alas de dragon de la espalda, del mismo color que tu dragon elegido. Cuando entras en furia, obtienes una Velocidad de vuelo igual a tu Velocidad terrestre. Si cuando tu furia acaba estas volando, empiezas a caer, pero la transformacion solo se completa en el ultimo momento, por lo que no sufres dano debido a la caida y aterrizas de pie.</p>",
       "prerequisites": [
         {
-          "value": "Instinto del dragón"
+          "value": "Instinto del dragon"
         }
       ],
-      "selfEffect": "Effect: Dragon's Rage Wings"
+      "selfEffect": "Efecto: Alas de la furia del dragon"
     },
     "Dragonblood Paragon": {
       "name": "Modelo de sangre de dragón",
@@ -10993,30 +10993,30 @@
       ]
     },
     "Dragonet Breath": {
-      "name": "Dragonet Breath",
-      "description": "<p>You have developed your magical breath. You expel the dragonet breath associated with your heritage. Dragonet Breath gains the traits listed in parentheses, and the DC is your CLASS DC or spell DC, whichever is higher. After you use Dragonet Breath, you can't use it again for [[/r 1d4 #Recharge Dragonet Breath]]{1d4 rounds}.</p>\n<ul>\n<li><strong>Fey Dragonet</strong> (arcane, poison) You breathe a @Template[type:cone|distance:15] of euphoric gas. Each creature in the area must succeed at a @Check[fortitude|against:class-spell|options:area-effect,inflicts:stupefied|traits:arcane,poison] save or become @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round.</li>\n<li><strong>Homing Drake</strong> (acid) You expel a @Template[type:line|distance:30] of caustic spittle that deals @Damage[(ceil(@actor.level/2))d4[acid]|options:area-damage] damage with a @Check[reflex|against:class-spell|basic|options:area-effect,damage:material:silver|traits:acid] save. At 3rd level and every 2 levels thereafter, the damage increases by 1d4.</li>\n<li>\n<p><strong>House Drake</strong> (arcane, mental) You breathe out a cloud of silver mist in a @Template[type:cone|distance:15] that deals @Damage[(ceil(@actor.level/2))d4[mental]|options:area-damage] damage with a @Check[will|against:class-spell|options:area-effect|traits:arcane,mental] save. It counts as silver for the purpose of weaknesses. At 3rd level and every 2 levels thereafter, the damage increases by 1d4.</p>\n</li>\n<li>\n<p><strong>Pearl Dragonet</strong> (arcane, curse) You breathe a @Template[type:cone|distance:15] of golden mist that alters the luck of creatures caught in it. Each time you use Dragonet Breath, decide if it gives good luck or bad luck. Any creature affected by your Dragonet Breath becomes temporarily immune to it for 1 hour. If your breath gives good luck, each creature in the area gains a +1 status bonus to its next attack roll or skill check before the start of your next turn. If your breath gives bad luck, each creature in the area must attempt a @Check[will|against:class-spell|options:area-effect|traits:arcane,curse] save. A creature that fails its save takes a –1 status penalty to its next attack roll or skill check before the start of your next turn. On a critical failure, the creature must instead roll twice and take the worse result on the check; this is a misfortune effect.</p>\n</li>\n<li><strong>Tidepool Dragonet</strong> (fire) You breathe a @Template[type:line|distance:15] of superheated gas that deals @Damage[(ceil(@actor.level/2))d4[fire]|options:area-damage] damage with a @Check[reflex|against:class-spell|basic|options:area-effect|traits:fire] save. At 3rd level and every 2 levels thereafter, the damage increases by 1d4. You can use your breath underwater even though it has the fire trait. If you do, it gains the water trait and emerges as a @Template[type:cone|distance:20] of boiling water.</li>\n</ul>",
+      "name": "Aliento de dragoncito",
+      "description": "<p>Has desarrollado tu aliento magico. Expulsas el aliento de dragoncito asociado con tu herencia. Aliento de dragoncito obtiene los rasgos indicados entre parentesis, y la CD es tu CD de clase o CD de conjuro, la que sea mayor. Despues de usar Aliento de dragoncito, no puedes volver a usarlo durante [[/r 1d4 #Recharge Dragonet Breath]]{1d4 asaltos}.</p>\n<ul>\n<li><strong>Dragoncito feerico</strong> (arcano, veneno) Exhalas un @Template[type:cone|distance:15]{cono de 15 pies} de gas euforico. Cada criatura en el area debe tener exito en una salvacion de @Check[fortitude|against:class-spell|options:area-effect,inflicts:stupefied|traits:arcane,poison]{Fortaleza} o quedar @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefacto 1} durante 1 asalto.</li>\n<li><strong>Draco rastreador</strong> (acido) Expulsas una @Template[type:line|distance:30]{linea de 30 pies} de saliva caustica que inflige @Damage[(ceil(@actor.level/2))d4[acid]|options:area-damage] de dano de acido con una salvacion @Check[reflex|against:class-spell|basic|options:area-effect,damage:material:silver|traits:acid]{basica de Reflejos}. A nivel 3 y cada 2 niveles a partir de entonces, el dano aumenta en 1d4.</li>\n<li>\n<p><strong>Draco domestico</strong> (arcano, mental) Exhalas una nube de niebla plateada en un @Template[type:cone|distance:15]{cono de 15 pies} que inflige @Damage[(ceil(@actor.level/2))d4[mental]|options:area-damage] de dano mental con una salvacion de @Check[will|against:class-spell|options:area-effect|traits:arcane,mental]{Voluntad}. Cuenta como plata a efectos de debilidades. A nivel 3 y cada 2 niveles a partir de entonces, el dano aumenta en 1d4.</p>\n</li>\n<li>\n<p><strong>Dragoncito perlado</strong> (arcano, maldicion) Exhalas un @Template[type:cone|distance:15]{cono de 15 pies} de niebla dorada que altera la suerte de las criaturas atrapadas en el. Cada vez que usas Aliento de dragoncito, decide si da buena suerte o mala suerte. Cualquier criatura afectada por tu Aliento de dragoncito queda temporalmente inmune a el durante 1 hora. Si tu aliento da buena suerte, cada criatura en el area obtiene un bonificador de estado +1 a su siguiente tirada de ataque o prueba de habilidad antes del comienzo de tu siguiente turno. Si tu aliento da mala suerte, cada criatura en el area debe intentar una salvacion de @Check[will|against:class-spell|options:area-effect|traits:arcane,curse]{Voluntad}. Una criatura que falla su salvacion sufre un penalizador de estado -1 a su siguiente tirada de ataque o prueba de habilidad antes del comienzo de tu siguiente turno. Con un fallo critico, la criatura debe tirar dos veces y usar el peor resultado en la prueba; este es un efecto de infortunio.</p>\n</li>\n<li><strong>Dragoncito de charca</strong> (fuego) Exhalas una @Template[type:line|distance:15]{linea de 15 pies} de gas supercalentado que inflige @Damage[(ceil(@actor.level/2))d4[fire]|options:area-damage] de dano de fuego con una salvacion @Check[reflex|against:class-spell|basic|options:area-effect|traits:fire]{basica de Reflejos}. A nivel 3 y cada 2 niveles a partir de entonces, el dano aumenta en 1d4. Puedes usar tu aliento bajo el agua aunque tenga el rasgo fuego. Si lo haces, obtiene el rasgo agua y emerge como un @Template[type:cone|distance:20]{cono de 20 pies} de agua hirviendo.</li>\n</ul>",
       "rules": {
         "2": {
           "value": {
             "5": {
-              "text": "@UUID[Compendium.pf2e.feat-effects.Item.covFunty2HlvEN9K]{Effect: Pearl Dragonet Breath}"
+              "text": "@UUID[Compendium.pf2e.feat-effects.Item.covFunty2HlvEN9K]{Efecto: Aliento de dragoncito perlado}"
             }
           }
         }
       }
     },
     "Dragonet Immunities": {
-      "name": "Dragonet Immunities",
-      "description": "<p>You will not fall asleep unless you choose to allow it, nor will you sit still. Your resistances to sleep and paralysis increase, letting you completely ignore such effects, as befits a dragon. You gain immunity to sleep effects and effects that would make you @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}.</p>",
+      "name": "Inmunidades de dragoncito",
+      "description": "<p>No te dormiras salvo que elijas permitirlo, ni te quedaras quieto. Tus resistencias al sueno y la paralisis aumentan, permitiendote ignorar por completo esos efectos, como corresponde a un dragon. Obtienes inmunidad a efectos de sueno y a efectos que te dejarian @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado}.</p>",
       "prerequisites": [
         {
-          "value": "Dragonet Resistances"
+          "value": "Resistencias de dragoncito"
         }
       ]
     },
     "Dragonet Resistances": {
-      "name": "Dragonet Resistances",
-      "description": "<p>You might be a little dragon, but you are still a dragon, which means it's difficult to constrain you. You gain a +2 circumstance bonus to saves against sleep effects and effects that would make you @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}.</p>"
+      "name": "Resistencias de dragoncito",
+      "description": "<p>Puede que seas un pequeno dragon, pero sigues siendo un dragon, lo que significa que es dificil limitarte. Obtienes un bonificador de circunstancia +2 a las salvaciones contra efectos de sueno y efectos que te dejarian @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado}.</p>"
     },
     "Dragonscaled Lore": {
       "name": "Saber de escamas dracónicas",
@@ -11052,46 +11052,46 @@
       ]
     },
     "Drain Vitality": {
-      "name": "Drena la vitalidad",
-      "description": "<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Requirements</strong> You have possession of your bonded beast gun.</p>\n<hr />\n<p>You draw out the bestial magic energy within your bonded beast gun to fortify yourself, purge ongoing harm, and bolster your life force with a sheath of swirling life essence. You gain temporary Hit Points equal to your level and attempt a flat check against any ongoing persistent damage, using the DC appropriate for particularly effective assistance. Using this ability depletes the magic within your bonded beast gun, preventing you from using any of its activated abilities until the end of your next turn.</p>",
+      "name": "Drenar vitalidad",
+      "description": "<p><strong>Frecuencia</strong> una vez por minuto</p>\n<p><strong>Requisitos</strong> Tienes en tu posesion tu arma bestia vinculada.</p>\n<hr />\n<p>Extraes la energia magica bestial de tu arma bestia vinculada para fortalecerte, purgar dano continuado y reforzar tu fuerza vital con una envoltura de esencia vital arremolinada. Obtienes Puntos de Golpe temporales iguales a tu nivel e intentas una prueba sencilla contra cualquier dano persistente en curso, usando la CD apropiada para ayuda particularmente efectiva. Usar esta aptitud agota la magia de tu arma bestia vinculada, impidiendote usar cualquiera de sus aptitudes activadas hasta el final de tu siguiente turno.</p>",
       "prerequisites": [
         {
-          "value": "Dedicación del artillero bestia"
+          "value": "Dedicacion de artillero bestia"
         }
       ]
     },
     "Draining Touch": {
-      "name": "Draining Touch",
-      "description": "<p>You reach out your arm, grasping hungrily for a source of energy. Attempt a melee Strike. If you succeed, you deal 1d8 cold damage for every 2 levels you have to the target (@Damage[(floor(@actor.level/2))d8[cold]]), or double damage on a critical success.</p>\n<p><strong>Awakening</strong> You drain enough energy from a creature to leave it with lingering aftereffects. Your Draining Touch also leaves a creature @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}, or @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} if your attack was a critical success.</p>\n<p><strong>Awakening</strong> You can pull away not just physical energy, but a creature's spirit as well. Your Draining Touch can deal your choice of cold, spirit, or void damage, changing the cold trait to spirit or void as appropriate.</p>"
+      "name": "Toque drenante",
+      "description": "<p>Extiendes el brazo, agarrando con ansia una fuente de energia. Intenta un Golpe cuerpo a cuerpo. Si tienes exito, infliges 1d8 de dano de frio por cada 2 niveles que tengas al objetivo (@Damage[(floor(@actor.level/2))d8[cold]]), o el doble de dano con un exito critico.</p>\n<p><strong>Despertar</strong> Drenas suficiente energia de una criatura para dejarle secuelas persistentes. Tu Toque drenante tambien deja a una criatura @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1}, o @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} si tu ataque fue un exito critico.</p>\n<p><strong>Despertar</strong> Puedes arrancar no solo energia fisica, sino tambien el espiritu de una criatura. Tu Toque drenante puede infligir, a tu eleccion, dano de frio, espiritual o de vacio, cambiando el rasgo frio a espiritual o vacio segun corresponda.</p>"
     },
     "Drake Rider Dedication": {
-      "name": "Drake Rider Dedication",
-      "description": "<p>You gain the service of a young riding drake, riding dragonet, or another animal companion with the dragon trait you have access to. Your bond with your dragon companion lets you communicate and issue commands to it telepathically with a range of 100 feet. You must still use the @UUID[Compendium.pf2e.actionspf2e.Item.q9nbyIF0PEBqMtYe]{COMMAND AN ANIMAL} action to direct it but don't require words or gestures to do so.</p>",
+      "name": "Dedicacion de jinete de draco",
+      "description": "<p>Obtienes el servicio de un draco de monta joven, dragoncito de monta u otro companero animal con el rasgo dragon al que tengas acceso. Tu vinculo con tu companero dragon te permite comunicarte y darle ordenes telepaticamente con un alcance de 100 pies. Aun debes usar la accion @UUID[Compendium.pf2e.actionspf2e.Item.q9nbyIF0PEBqMtYe]{ORDENAR A UN ANIMAL} para dirigirlo, pero no necesitas palabras ni gestos para hacerlo.</p>",
       "prerequisites": [
         {
-          "value": "trained in Naturaleza, Charisma +1"
+          "value": "entrenado en Naturaleza, Carisma +1"
         }
       ]
     },
     "Draw From the Land": {
-      "name": "Sacar de la tierra",
-      "description": "<p> <strong> Requisitos </strong> Obtuviste un beneficio de sintonía con el terreno este turno y coincidió con el terreno en el que te encuentras. </p>\n <hr />\n <p> Sacas fuerza del terreno circundante. Obtienes puntos de vida temporales iguales a tu nivel. Duran 1 ronda. Si anteriormente obtuviste el efecto de sintonía con el terreno de las llanuras este turno, combina los puntos de vida temporales. </p>",
+      "name": "Extraer de la tierra",
+      "description": "<p><strong>Requisitos</strong> Obtuviste un beneficio de sintonia con el terreno este turno y coincidia con el terreno en el que te encuentras.</p>\n<hr />\n<p>Extraes fuerza del terreno circundante. Obtienes Puntos de Golpe temporales iguales a tu nivel. Duran 1 asalto. Si anteriormente obtuviste el efecto de sintonia con el terreno de las llanuras este turno, combina los Puntos de Golpe temporales.</p>",
       "prerequisites": [
         {
-          "value": "Dedicación del geomante"
+          "value": "Dedicacion de geomante"
         },
         {
-          "value": "experto en naturaleza"
+          "value": "experto en Naturaleza"
         }
       ],
-      "selfEffect": "Effect: Draw From the Land"
+      "selfEffect": "Efecto: Extraer de la tierra"
     },
     "Dread Blade": {
-      "name": "Dread Blade",
-      "description": "<p>Your strikes with your conjured dagger impart the chill of the grave. When you successfully Strike with your <em>spectral dagger</em> and damage a foe with the @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} condition, they can't reduce their frightened condition below 1 before the end of your next turn.</p>",
+      "name": "Hoja pavorosa",
+      "description": "<p>Tus golpes con tu daga conjurada transmiten el frio de la tumba. Cuando impactas con exito con tu <em>daga espectral</em> y danas a un enemigo con la condicion @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado}, no puede reducir su condicion asustado por debajo de 1 antes del final de tu siguiente turno.</p>",
       "prerequisites": [
         {
-          "value": "Spectral Dagger"
+          "value": "Daga espectral"
         }
       ]
     },
@@ -11169,11 +11169,11 @@
       "selfEffect": "Stance: Drifting Pollen"
     },
     "Drilled Reflexes": {
-      "name": "Drilled Reflexes",
-      "description": "<p>You leave a lasting impression on your squadmates that makes them particularly adept at following your commands. When you use your @UUID[Compendium.pf2e.classfeatures.Item.A5nOG2HuM8ZhMJ5p]{Drilled Reactions} ability, you can give an extra reaction to up to two allies instead of only one.</p>",
+      "name": "Reflejos instruidos",
+      "description": "<p>Dejas una impresion duradera en tus camaradas de escuadra que los vuelve especialmente habiles siguiendo tus ordenes. Cuando usas tu aptitud @UUID[Compendium.pf2e.classfeatures.Item.A5nOG2HuM8ZhMJ5p]{Reacciones instruidas}, puedes dar una reaccion adicional a hasta dos aliados en lugar de solo uno.</p>",
       "prerequisites": [
         {
-          "value": "drilled reactions"
+          "value": "reacciones instruidas"
         }
       ]
     },
@@ -11187,17 +11187,17 @@
       ]
     },
     "Drive-By Attack": {
-      "name": "Ataque desde vehículos",
-      "description": "<p><strong>Requirements</strong> You are piloting a vehicle.</p>\n<hr />\n<p>You can smoothly line up an attack without disrupting your control.You @UUID[Compendium.pf2e.actionspf2e.Item.uS3qDAgOkZ7b8ERL]{Drive}, gaining the effects of the Drive action for the same number of actions you spent to Drive-By Attack. At any point during your vehicle's movement, you Strike.</p>",
+      "name": "Ataque al pasar",
+      "description": "<p><strong>Requisitos</strong> Estas pilotando un vehiculo.</p>\n<hr />\n<p>Puedes preparar un ataque con fluidez sin alterar tu control. @UUID[Compendium.pf2e.actionspf2e.Item.uS3qDAgOkZ7b8ERL]{Conduces}, obteniendo los efectos de la accion Conducir por el mismo numero de acciones que gastaste en Ataque al pasar. En cualquier punto durante el movimiento de tu vehiculo, Golpeas.</p>",
       "prerequisites": [
         {
-          "value": "Dedicación del conductor de trucos"
+          "value": "Dedicacion de conductor acrobatico"
         }
       ]
     },
     "Driving Rain": {
       "name": "Lluvia torrencial",
-      "description": "<p> Pesadas gotas de lluvia caen, golpeando como piedras e impidiendo la visión. Cada criatura en un @Template[type:burst|distance:15] dentro de 120 pies recibe @Damage[(floor((@actor.level -6)/2)+3)d8[bludgeoning] ||traits:area-damage] daño con una salvación @Check[type:reflex|dc:resolve(@actor.system.proficiencies.classDCs.kineticist.dc)|basic:true] contra tu clase DC. Hasta el comienzo de tu siguiente turno, todas las criaturas son @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} mientras estén en el área, y todas las criaturas fuera del área están ocultas para las criaturas dentro de ella. </p>\n <hr />\n <p> <strong> Nivel (+2) </strong> El dañoaumenta en 1d8. </p>"
+      "description": "<p>Pesadas gotas de lluvia caen, golpeando como piedras e impidiendo la vision. Cada criatura en una @Template[type:burst|distance:15]{explosion de 15 pies} dentro de 120 pies recibe @Damage[(floor((@actor.level -6)/2)+3)d8[bludgeoning] ||traits:area-damage] de dano contundente con una salvacion @Check[type:reflex|dc:resolve(@actor.system.proficiencies.classDCs.kineticist.dc)|basic:true]{basica de Reflejos} contra tu CD de clase. Hasta el comienzo de tu siguiente turno, todas las criaturas estan @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Ocultas} mientras esten en el area, y todas las criaturas fuera del area estan ocultas para las criaturas dentro de ella.</p>\n<hr />\n<p><strong>Nivel (+2)</strong> El dano aumenta en 1d8.</p>"
     },
     "Druid Dedication": {
       "name": "Dedicación de druida",
@@ -11245,13 +11245,13 @@
     },
     "Dual-Form Weapon": {
       "name": "Arma de doble forma",
-      "description": "<p>Your innovation has replaceable interlocking pieces that you can use to transform it into another type of weapon. When you select this feat, choose a level 0 weapon. It must be either a common weapon or another to which you have access. This weapon becomes your innovation's second configuration.</p>\n<p>Select a new set of weapon modifications for this new configuration. You can spend two INTERACT actions to switch your weapon innovation between the two configurations. These actions don't need to be taken consecutively, but if you've provided the first and not the second, the weapon is non-functional as it is stranded between states. Your weapon's Bulk is always the greater Bulk of the two configurations, regardless of which configuration it's in—if one weapon is smaller than the other, you still need to keep any weapon parts on hand. Any runes on your weapon innovation affect the second weapon configuration as long as it would normally qualify for them.</p>",
+      "description": "<p>Tu innovacion tiene piezas intercambiables y entrelazadas que puedes usar para transformarla en otro tipo de arma. Cuando seleccionas esta dote, elige un arma de nivel 0. Debe ser un arma comun u otra a la que tengas acceso. Esta arma se convierte en la segunda configuracion de tu innovacion.</p>\n<p>Selecciona un nuevo conjunto de modificaciones de arma para esta nueva configuracion. Puedes gastar dos acciones de INTERACTUAR para cambiar tu innovacion de arma entre las dos configuraciones. Estas acciones no tienen que realizarse consecutivamente, pero si has realizado la primera y no la segunda, el arma no funciona porque queda atrapada entre estados. El Volumen de tu arma siempre es el mayor Volumen de las dos configuraciones, independientemente de en cual este; si un arma es mas pequena que la otra, aun necesitas tener a mano cualquier pieza del arma. Cualquier runa en tu innovacion de arma afecta a la segunda configuracion de arma siempre que normalmente pudiera aplicarse a ella.</p>",
       "prerequisites": [
         {
-          "value": "expert overdrive"
+          "value": "sobremarcha experta"
         },
         {
-          "value": "weapon innovation"
+          "value": "innovacion de arma"
         }
       ]
     },
@@ -11269,11 +11269,11 @@
       ]
     },
     "Dual-Weapon Reload": {
-      "name": "Recarga de arma dual",
-      "description": "<p><strong>Requirements</strong> You're wielding two one-handed weapons, each in a different hand, one of which is a ranged weapon.</p>\n<hr />\n<p>You carry your ammunition in a way that allows you to reload while holding two weapons. While you're wielding two one-handed weapons, each in a different hand, you don't need a free hand to reload a one-handed ranged weapon you're wielding.</p>",
+      "name": "Recarga con dos armas",
+      "description": "<p><strong>Requisitos</strong> Estas empunando dos armas de una mano, cada una en una mano distinta, una de las cuales es un arma a distancia.</p>\n<hr />\n<p>Llevas tu municion de una forma que te permite recargar mientras sostienes dos armas. Mientras empunas dos armas de una mano, cada una en una mano distinta, no necesitas una mano libre para recargar un arma a distancia de una mano que estes empunando.</p>",
       "prerequisites": [
         {
-          "value": "Gunslinger or Dual-Weapon Warrior Dedication"
+          "value": "Dedicacion de pistolero o guerrero de dos armas"
         }
       ]
     },
