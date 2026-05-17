@@ -1185,8 +1185,8 @@
       "description": "<p>Your dreams have always felt more real than reality itself, and upon learning of the Dimension of Dreams you weren't surprised—indeed, you've often found yourself entering these Dreamlands when you sleep. You've long felt that something in the Dreamlands has been calling to you, and that some great rescue or revelation awaits in a dream you've yet to experience. In the meantime, your dreams remain a potent source of inspiration and power, and the ability to draw from them to affect the waking world is something you've always been able to do. When you attempt an ARCANA, NATURE, RELIGION, or OCCULTISM check to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}, or when you attempt a check to Craft any work of art, you can spend a Mythic Point to attempt the check at mythic proficiency. The first time each day that you critically succeed at a check to Craft or at a Recall Knowledge check about a subject associated with dreaming or the Dreamlands, you regain a Mythic Point.</p>\n<hr />\n<p><strong>Edicts</strong> share your dreams with your friends and take interest if they share their dreams with you, take inspiration from your dreams when you create</p>\n<p><strong>Anathema</strong> deny a creature (including yourself) the chance to sleep long enough to dream, deride those who have ambitions that they're unlikely to ever achieve</p>"
     },
     "Drilled Reactions": {
-      "name": "Drilled Reactions",
-      "description": "<p>Your time spent training your allies allows them to respond quickly and instinctively to your commands. Once per round when you use a tactic, you can grant one ally of your choice benefiting from that tactic an extra reaction. This reaction has to be used for that tactic and is lost if not used.</p>"
+      "name": "Reacciones entrenadas",
+      "description": "<p>El tiempo que has dedicado a entrenar a tus aliados les permite responder con rapidez e instinto a tus ordenes. Una vez por asalto, cuando usas una tactica, puedes conceder una reaccion adicional a un aliado de tu eleccion que se beneficie de esa tactica. Esta reaccion debe usarse para esa tactica y se pierde si no se usa.</p>"
     },
     "Druid Spellcasting": {
       "name": "Lanzamiento de conjuros de druida",
@@ -1202,7 +1202,7 @@
     },
     "Dynamic Weighting": {
       "name": "Ponderación dinámica",
-      "description": "<p>Your weapon is modified to be heavier and easier to manipulate or retrieve. Your innovation gains the two-hand trait, with a damage die one size higher than the weapon's normal weapon damage die size (for instance, a longsword would gain the two-hand d10 trait). Your innovation also gains the versatile B trait. If it was a thrown weapon, it gains the tethered trait.</p>"
+      "description": "<p>Tu arma esta modificada para ser mas pesada y mas facil de manipular o recuperar. Tu innovacion obtiene el rasgo dos manos, con un dado de daño un tamaño superior al tamaño normal del dado de daño del arma; por ejemplo, una espada larga obtendria el rasgo dos manos d10. Tu innovacion tambien obtiene el rasgo versatil C. Si era un arma arrojadiza, obtiene el rasgo atada.</p>"
     },
     "Earth Gate": {
       "name": "Earth Gate",
@@ -1278,8 +1278,8 @@
       ]
     },
     "Elemental School": {
-      "name": "Elemental School",
-      "description": "<p>If you choose an elemental school, your curriculum spells can be any spells that you have access to and that have your chosen element's trait. Your school spells are the elemental focus spells of your chosen element, with the 1st-rank spell as your initial school spell and the 3rd-rank spell as the advanced school spell.</p>"
+      "name": "Escuela elemental",
+      "description": "<p>Si eliges una escuela elemental, tus conjuros de curriculum pueden ser cualquier conjuro al que tengas acceso y que tenga el rasgo del elemento elegido. Tus conjuros de escuela son los conjuros de foco elementales de tu elemento elegido, con el conjuro de rango 1 como conjuro inicial de escuela y el conjuro de rango 3 como conjuro avanzado de escuela.</p>"
     },
     "Emerald Boughs": {
       "name": "Emerald Boughs",
@@ -1299,15 +1299,15 @@
     },
     "Energetic Meltdown": {
       "name": "Derretimiento energético",
-      "description": "<p> A medida que canalizas energía a través de tus habilidades desviadas, parte de ella se vuelve contra ti, aumentando la temperatura de tu cuerpo o bailando sobre tu piel. </p>\n <p> @UUID[Compendium.pf2e.feat-effects.Item.0AD7BiKjT8a6Uh92]{Effect: Energetic Meltdown} </p>\n <p> <strong> Contragolpe leve </strong> Tomas [[/r @actor.level]]{damage equal to your level} mientras la energía recorre tu cuerpo. </p>\n <p> <strong> Reacción moderada </strong> La energía destroza tu cuerpo. Después de recibir el daño, ganas debilidad al tipo de energía desu reacción hasta sus próximos preparativos diarios. La debilidad es igual a un tercio de tu nivel. También pierdes inmunidad al tipo de energía si la tuvieras, hasta tus próximos preparativos diarios. </p>\n <p> <strong> Contragolpe severo </strong> Cualquier horno o pozo dentro de ti que proporcione la energía para tu desviación se sobrecarga por completo, cayendo en cascada fuera de ti en una explosión incontrolada. Repartes [[/r (@actor.level)d6]]{1d6 damage per level} a todas las criaturas en un @Template[type:emanation|distance:30] con un@Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true] guardar. Automáticamente recibes todo el daño sin intentar guardar. </p>"
+      "description": "<p>A medida que canalizas energia a traves de tus aptitudes desviadas, parte de ella se vuelve contra ti, aumentando la temperatura de tu cuerpo o danzando sobre tu piel.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.0AD7BiKjT8a6Uh92]{Efecto: derretimiento energetico}</p>\n<p><strong>Reaccion leve</strong> Recibes [[/r @actor.level]]{daño igual a tu nivel} mientras la energia recorre tu cuerpo.</p>\n<p><strong>Reaccion moderada</strong> La energia destroza tu cuerpo. Despues de recibir el daño, obtienes debilidad al tipo de energia de tu reaccion hasta tus siguientes preparativos diarios. La debilidad es igual a un tercio de tu nivel. Tambien pierdes cualquier inmunidad que tuvieras a ese tipo de energia hasta tus siguientes preparativos diarios.</p>\n<p><strong>Reaccion grave</strong> Cualquier horno o pozo dentro de ti que proporcione la energia para tu desviacion se sobrecarga por completo y estalla fuera de ti en una explosion incontrolada. Infliges [[/r (@actor.level)d6]]{1d6 de daño por nivel} a todas las criaturas en una @Template[type:emanation|distance:30], con una @Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]{salvacion basica de Fortaleza}. Recibes automaticamente todo el daño sin intentar la salvacion.</p>"
     },
     "Energy Barrier": {
       "name": "Barrera de energía",
       "description": "<p> Las defensas de tu armadura eliminan cualquier tipo de energía que se te presente. Mientras usas tu armadura, obtienes resistencia a todo daño energético (ácido, frío, electricidad, fuego, fuerza, sonido, vitalidad y daño del vacío) equivalente a 2 + la mitad de tu nivel. Debe tener la modificación del oscilador armónico, la reactancia metálica o el regulador flogisto para seleccionar esta modificación. </p>"
     },
     "Enhanced Damage": {
-      "name": "Enhanced Damage",
-      "description": "<p>You've made your innovation more powerful than other weapons of its kind. Increase your innovation's weapon damage die by one step (d4 to d6, d6 to d8, d8 to d10, d10 to d12). As normal, you can't increase your die by more than one size, so this modification isn't cumulative with complex simplicity.</p>"
+      "name": "Daño mejorado",
+      "description": "<p>Has hecho que tu innovacion sea mas poderosa que otras armas de su tipo. Aumenta en un paso el dado de daño del arma de tu innovacion (d4 a d6, d6 a d8, d8 a d10, d10 a d12). Como es normal, no puedes aumentar tu dado en mas de un tamaño, por lo que esta modificacion no es acumulativa con Simplicidad compleja.</p>"
     },
     "Enhanced Resistance": {
       "name": "Resistencia mejorada",
