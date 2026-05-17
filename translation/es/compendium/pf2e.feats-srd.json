@@ -4777,24 +4777,24 @@
       ]
     },
     "Bloom of Health": {
-      "name": "Bloom of Health",
-      "description": "<p>You shout a rallying cry that inspires the well-being of your kingdom's protectors. All your knights who hear your cry gain fast healing equal to half your level for 1 minute.</p>",
+      "name": "Floracion de salud",
+      "description": "<p>Lanzas un grito de animo que inspira el bienestar de los protectores de tu reino. Todos tus caballeros que escuchen tu grito obtienen curacion rapida igual a la mitad de tu nivel durante 1 minuto.</p>",
       "prerequisites": [
         {
-          "value": "Prophesied Monarch Dedication"
+          "value": "Dedicacion de monarca profetizado"
         }
       ]
     },
     "Blowgun Poisoner": {
-      "name": "Blowgun Poisoner",
-      "description": "<p>You can capably deliver toxins with a @UUID[Compendium.pf2e.equipment-srd.Item.FPwsiGqMCNPLHmjX]{Blowgun}. Your blowgun @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Strikes} can apply injury poisons even if they deal no damage due to a creature's resistance. If you critically succeed at a blowgun Strike using a poisoned dart, the target's initial save against the poison is one degree of success worse than the creature rolls; this is a misfortune effect.</p>\n<p>In addition, if you make a blowgun Strike while @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido} or @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{No detectado}, you don't automatically become @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{Observado}. Instead, immediately attempt a @Check[stealth] check against the Perception DC of the target. If you succeed, you don't become observed, and are hidden (if you were undetected, you still become hidden rather than remaining undetected).</p>"
+      "name": "Envenenador con cerbatana",
+      "description": "<p>Puedes administrar toxinas con soltura usando una @UUID[Compendium.pf2e.equipment-srd.Item.FPwsiGqMCNPLHmjX]{cerbatana}. Tus @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Golpes} con cerbatana pueden aplicar venenos de herida aunque no inflijan daño debido a la resistencia de una criatura. Si consigues un exito critico en un Golpe con cerbatana usando un dardo envenenado, la salvacion inicial del objetivo contra el veneno es un grado de exito peor que lo que tire la criatura; este es un efecto de infortunio.</p><p>Ademas, si haces un Golpe con cerbatana mientras estas @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido} o @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{No detectado}, no pasas automaticamente a estar @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{Observado}. En su lugar, intenta inmediatamente una prueba de @Check[stealth]{Sigilo} contra la CD de Percepcion del objetivo. Si tienes exito, no pasas a estar observado y quedas escondido; si estabas no detectado, pasas igualmente a estar escondido en lugar de seguir no detectado.</p>"
     },
     "Boarding Party": {
-      "name": "Boarding Party",
-      "description": "<p>You're practiced at scaling ships, and even a wet and slippery exterior won't stand in your way. You can CLIMB a sea vehicle even if you have one hand occupied. If both your hands are free, you gain a +2 circumstance bonus to your ATHLETICS check. You aren't @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while Balancing or Climbing on any part of a sea vehicle.</p>",
+      "name": "Grupo de abordaje",
+      "description": "<p>Tienes practica escalando barcos, y ni siquiera un exterior mojado y resbaladizo se interpone en tu camino. Puedes Trepar por un vehiculo marino aunque tengas una mano ocupada. Si tienes ambas manos libres, obtienes un bonificador circunstancial +2 a tu prueba de Atletismo. No quedas @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} mientras Mantienes el equilibrio o Trepas por cualquier parte de un vehiculo marino.</p>",
       "prerequisites": [
         {
-          "value": "Undersea Privateer Dedication"
+          "value": "Dedicacion de corsario submarino"
         }
       ]
     },
@@ -4811,11 +4811,11 @@
       ]
     },
     "Body Barrier": {
-      "name": "Body Barrier",
-      "description": "<p><strong>Trigger</strong> You and at least one ally are in the area of an effect that requires a Reflex save.</p>\n<hr />\n<p>When your allies are in danger, you don't hesitate to take the brunt of the blow for them. You grant all allies in the area standard cover against the triggering effect, and you gain weakness to all damage against the triggering effect equal to twice the number of allies that gain cover in this way.</p>",
+      "name": "Barrera corporal",
+      "description": "<p><strong>Disparador</strong> Tu y al menos un aliado estais en el area de un efecto que requiere una salvacion de Reflejos.</p><hr /><p>Cuando tus aliados estan en peligro, no dudas en recibir la peor parte del golpe por ellos. Concedes a todos los aliados en el area cobertura estandar contra el efecto desencadenante, y obtienes debilidad a todo el daño contra el efecto desencadenante igual al doble del numero de aliados que obtienen cobertura de este modo.</p>",
       "prerequisites": [
         {
-          "value": "Knight Vigilant Dedication"
+          "value": "Dedicacion de caballero vigilante"
         }
       ]
     },
@@ -4824,8 +4824,8 @@
       "description": "<p> <strong> Activador </strong> Un enemigo que puedes observar te apunta con un ataque u otro efecto dañino (Sólo se requiere para la reacción) </p>\n <hr />\n <p> El aire acumulado consume tu cuerpo, dejando solo una nube de vapor vivo. Esto tiene los mismos efectos que la forma de vapor. El efecto dura hasta el final de tu siguiente turno, pero puedes mantener la forma hasta 5 minutos. Si activas tu aura cinética, Cuerpo de Aire termina. </p>\n <p> Tu puedesuse Body of Air como reacción solo cuando se cumpla el desencadenante, pero puede usarlo como una actividad de 2 acciones sin que se cumpla el desencadenante. </p>\n <hr />\n <p> <strong> Nivel (+1) </strong> La resistencia aumenta en 1. </p>"
     },
     "Bodyguard": {
-      "name": "Bodyguard",
-      "description": "<p>You swear a vow to protect one of your allies at all costs, regardless of the risk this might pose to you. During your daily preparations, choose one of your allies as your charge. When you Taunt, the penalty your taunted enemy takes increases to –2 against your charge.</p>\n<p>You can take 10 minutes to change who your charge is before your next daily preparations.</p>"
+      "name": "Guardaespaldas",
+      "description": "<p>Juras proteger a uno de tus aliados a toda costa, sin importar el riesgo que esto pueda suponer para ti. Durante tus preparativos diarios, elige a uno de tus aliados como tu protegido. Cuando Provocas, el penalizador que recibe el enemigo provocado aumenta a -2 contra tu protegido.</p><p>Puedes dedicar 10 minutos a cambiar quien es tu protegido antes de tus siguientes preparativos diarios.</p>"
     },
     "Bodysnatcher": {
       "name": "ladrón de cuerpos",
@@ -4837,25 +4837,25 @@
       ]
     },
     "Bold Defiance": {
-      "name": "Bold Defiance",
-      "description": "<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Trigger</strong> You Change Shape.</p><hr /><p>You harden your form as you dance between shapes. You gain temporary Hit Points equal to your level that last for 1 minute.</p>",
-      "selfEffect": "Effect: Bold Defiance"
+      "name": "Desafio audaz",
+      "description": "<p><strong>Frecuencia</strong> una vez cada 10 minutos</p><p><strong>Disparador</strong> Cambias de forma.</p><hr /><p>Endureces tu forma mientras danzas entre formas. Obtienes Puntos de Golpe temporales iguales a tu nivel, que duran 1 minuto.</p>",
+      "selfEffect": "Efecto: Desafio audaz"
     },
     "Bolera's Interrogation": {
-      "name": "El interrogatorio de Bolera",
-      "description": "<p> <strong> Frecuencia </strong> Tres veces al día </p>\n <hr />\n <p> Centras tu atención en una sola criatura dentro de un radio de 30 pies. Esa criatura debe intentar una salvación de Voluntad contra tu CD de Percepción. Si falla, la criatura se ve incapaz de decir mentiras deliberadas e intencionadas y sufre un penalizador -2 a las pruebas de Engaño. En caso de fallo crítico, la penalización a las pruebas de Engaño es -4. Este efecto dura 10 minutos siempre y cuando estés dentro de los 30pies del objetivo y el objetivo es consciente de que estás usando la habilidad contra él. Si comienzas un nuevo interrogatorio, este efecto finaliza para cualquier objetivo anterior. Una vez finalizado el interrogatorio, el objetivo es inmune a esta habilidad durante 24 horas. </p>\n <p> @UUID[Compendium.pf2e.feat-effects.Item.bmVwaN0C4e9fE2Sz]{Effect: Bolera's Interrogation (failure)} </p>\n <p> @UUID[Compendium.pf2e.feat-effects.Item.VIScVb6Hl7KwoWfH]{Effect: Bolera's Interrogation (Critical Failure)} </p>",
+      "name": "Interrogatorio de Bolera",
+      "description": "<p><strong>Frecuencia</strong> tres veces al dia</p><hr /><p>Centras tu atencion en una sola criatura a 30 pies o menos. Esa criatura debe intentar una salvacion de Voluntad contra tu CD de Percepcion. Si falla, la criatura se ve incapaz de decir mentiras deliberadas e intencionadas y sufre un penalizador -2 a las pruebas de Engaño. Con un fallo critico, el penalizador a las pruebas de Engaño es -4. Este efecto dura 10 minutos mientras permanezcas a 30 pies o menos del objetivo y el objetivo sea consciente de que estas usando la capacidad contra el. Si comienzas un nuevo interrogatorio, este efecto termina para cualquier objetivo anterior. Una vez terminado el interrogatorio, el objetivo es inmune a esta capacidad durante 24 horas.</p><p>@UUID[Compendium.pf2e.feat-effects.Item.bmVwaN0C4e9fE2Sz]{Efecto: Interrogatorio de Bolera (fallo)}</p><p>@UUID[Compendium.pf2e.feat-effects.Item.VIScVb6Hl7KwoWfH]{Efecto: Interrogatorio de Bolera (fallo critico)}</p>",
       "prerequisites": [
         {
-          "value": "Dedicación del detective Edgewatch"
+          "value": "Dedicacion de detective de la Guardia del Distrito"
         }
       ]
     },
     "Bolster Ally": {
-      "name": "Bolster Ally",
-      "description": "<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Trigger</strong> One of your allies within 30 feet is targeted by a spell or ability that allows a saving throw.</p>\n<hr />\n<p>You shout encouragement to your embattled ally. The ally can use your saving throw modifier instead of their own against the triggering spell.</p>",
+      "name": "Reforzar aliado",
+      "description": "<p><strong>Frecuencia</strong> una vez cada 10 minutos</p><p><strong>Disparador</strong> Uno de tus aliados a 30 pies o menos es objetivo de un conjuro o capacidad que permite una tirada de salvacion.</p><hr /><p>Gritas palabras de animo a tu aliado en apuros. El aliado puede usar tu modificador de tirada de salvacion en lugar del suyo contra el conjuro desencadenante.</p>",
       "prerequisites": [
         {
-          "value": "Eagle Knight Dedication"
+          "value": "Dedicacion de Caballero del Aguila"
         }
       ]
     },
@@ -4872,35 +4872,35 @@
       ]
     },
     "Bolstered Recovery": {
-      "name": "Bolstered Recovery",
-      "description": "<p>Whenever you rest, you recover with remarkable speed. Double the number of Hit Points you regain and the amount by which condition values are reduced from a full night's rest. You gain the @UUID[Compendium.pf2e.actionspf2e.Item.8UJaVPsT5FA8XH87]{Instant Recovery} action.</p>",
+      "name": "Recuperacion reforzada",
+      "description": "<p>Siempre que descansas, te recuperas con velocidad notable. Dobla el numero de Puntos de Golpe que recuperas y la cantidad en que se reducen los valores de tus condiciones por una noche completa de descanso. Obtienes la accion @UUID[Compendium.pf2e.actionspf2e.Item.8UJaVPsT5FA8XH87]{Recuperacion instantanea}.</p>",
       "prerequisites": [
         {
-          "value": "Timewracked Dedication"
+          "value": "Dedicacion de marcado por el tiempo"
         }
       ]
     },
     "Bombing Run": {
-      "name": "Bombing Run",
-      "description": "<p><strong>Requirements</strong> You currently have a fly Speed.</p>\n<hr />\n<p>Using your elevation and speed to your advantage, you deliver aerial payloads with greater force. You Fly and can INTERACT to draw a bomb. At any point during your movement, you can also make a Strike with an alchemical bomb. The bomb deals its splash damage to every creature within 10 feet of the target.</p>",
+      "name": "Pasada de bombardeo",
+      "description": "<p><strong>Requisitos</strong> Tienes actualmente una Velocidad de vuelo.</p><hr /><p>Usando tu altura y velocidad en tu favor, entregas cargas aereas con mayor fuerza. Vuelas y puedes Interactuar para sacar una bomba. En cualquier momento durante tu movimiento, tambien puedes hacer un Golpe con una bomba alquimica. La bomba inflige su daño de salpicadura a todas las criaturas a 10 pies o menos del objetivo.</p>",
       "prerequisites": [
         {
-          "value": "Winged Warrior Dedication"
+          "value": "Dedicacion de guerrero alado"
         }
       ]
     },
     "Bon Mot": {
       "name": "Comentario agudo",
-      "description": "<p> Lanzas una broma perspicaz a un enemigo, distrayéndolo. Elige un enemigo dentro de 30 pies y tira una prueba de <span data-pf2-action=\"bonMot\" data-pf2-glyph=\"A\"> Diplomacia </span> contra la CD de Voluntad del objetivo. </p>\n <hr />\n <p> <strong> Éxito crítico </strong> El objetivo se distrae y sufre una penalización de estado de -3 a Percepción y salvación de Voluntad durante 1 minuto. </p>\n <p> @UUID[Compendium.pf2e.feat-effects.Item.CtrZFI3RV0yPNzTv]{Effect: Comentario agudo (Éxito crítico)} </p>\n <p> El objetivo puede finalizar el efecto antes de tiempo con una respuesta a tuBuen Mot. Esto puede ser una acción única que tenga el rasgo de concentración o una acción de habilidad adecuada para enmarcar su respuesta. El DJ determina qué acciones de habilidad califican, aunque debe realizar al menos 1 acción. Normalmente, la réplica necesita utilizar una acción de habilidad basada en el carisma lingüístico. </p>\n <p> <strong> Éxito </strong> Como éxito crítico, pero la penalización es -2. </p>\n <p> @UUID[Compendium.pf2e.feat-effects.Item.GoSls6SKCFmSoDxT]{Effect: Comentario agudo} </p>\n <p> <strong>Fallo crítico </strong> Tu broma es atroz. Recibirás el mismo castigo que recibiría un enemigo si tuvieras éxito. Esto termina después de 1 minuto o si emites otro Bon Mot y tienes éxito. </p>",
+      "description": "<p>Lanzas una pulla perspicaz a un enemigo, distrayendolo. Elige un enemigo a 30 pies o menos y tira una prueba de <span data-pf2-action=\"bonMot\" data-pf2-glyph=\"A\">Diplomacia</span> contra la CD de Voluntad del objetivo.</p><hr /><p><strong>Exito critico</strong> El objetivo se distrae y sufre un penalizador de estado -3 a Percepcion y a las salvaciones de Voluntad durante 1 minuto.</p><p>@UUID[Compendium.pf2e.feat-effects.Item.CtrZFI3RV0yPNzTv]{Efecto: Comentario agudo (exito critico)}</p><p>El objetivo puede terminar el efecto antes de tiempo con una replica a tu Comentario agudo. Esto puede ser una accion unica con el rasgo concentracion o una accion de habilidad adecuada para formular su respuesta. El DJ determina que acciones de habilidad califican, aunque debe realizar al menos 1 accion. Normalmente, la replica necesita usar una accion de habilidad basada en Carisma y con el rasgo linguistico.</p><p><strong>Exito</strong> Como exito critico, pero el penalizador es -2.</p><p>@UUID[Compendium.pf2e.feat-effects.Item.GoSls6SKCFmSoDxT]{Efecto: Comentario agudo}</p><p><strong>Fallo critico</strong> Tu broma es atroz. Recibes el mismo penalizador que recibiria un enemigo si tuvieras exito. Esto termina despues de 1 minuto o si emites otro Comentario agudo y tienes exito.</p>",
       "prerequisites": [
         {
-          "value": "rango entrenado en Diplomacia"
+          "value": "entrenado en Diplomacia"
         }
       ]
     },
     "Bond Companion": {
-      "name": "Bond Companion",
-      "description": "<p>You form a close bond with a companion, similar to that of a master and familiar, that lets you gift them with a touch of your inherent magic. You can spend time with another player character during your daily preparations to make them your designated companion for that day. That player must have a Focus Point pool. You gain the @UUID[Compendium.pf2e.actionspf2e.Item.SRdiCXHSLxqu3C67]{Fortify Focus} activity.</p>"
+      "name": "Vincular compañero",
+      "description": "<p>Formas un vinculo estrecho con un compañero, similar al de un maestro y familiar, que te permite regalarle un toque de tu magia inherente. Puedes pasar tiempo con otro personaje jugador durante tus preparativos diarios para convertirlo en tu compañero designado para ese dia. Ese jugador debe tener una reserva de Puntos de Foco. Obtienes la actividad @UUID[Compendium.pf2e.actionspf2e.Item.SRdiCXHSLxqu3C67]{Fortificar foco}.</p>"
     },
     "Bond Conservation": {
       "name": "Conservación del vínculo",
