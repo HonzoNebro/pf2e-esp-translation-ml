@@ -9129,14 +9129,14 @@
       ]
     },
     "Decry Thief": {
-      "name": "Denunciar al ladrón",
-      "description": "<p> Cuando intentas desmoralizar, puedes hacer que al objetivo le resulte más difícil huir, en lugar de los efectos normales de la acción. </p>\n <hr />\n <p> <strong> Éxito crítico </strong> Durante 1 ronda, el objetivo sufre una penalización de -10 pies a su velocidad y una penalización de -4 a su sigilo. </p>\n <p> @UUID[Compendium.pf2e.feat-effects.Item.kAgUld9PcI4XkHbq]{Effect: Decry Thief (Critical Success)} </p>\n <p> <strong> Éxito </strong> Durante 1 asalto, el objetivo sufre una penalización de estado de -5 pies a la velocidad y un-2 penalización de estado a Sigilo. </p>\n <p> @UUID[Compendium.pf2e.feat-effects.Item.FyaekbWsazkJhJda]{Effect: Decry Thief (Success)} </p>",
+      "name": "Denunciar al ladron",
+      "description": "<p>Cuando intentas Desmoralizar, puedes hacer que al objetivo le resulte mas dificil huir, en lugar de los efectos normales de la accion.</p>\n<hr />\n<p><strong>Exito critico</strong> Durante 1 asalto, el objetivo sufre un penalizador de estado -10 pies a su Velocidad y un penalizador de estado -4 a Sigilo.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.kAgUld9PcI4XkHbq]{Efecto: Denunciar al ladron (exito critico)}</p>\n<p><strong>Exito</strong> Durante 1 asalto, el objetivo sufre un penalizador de estado -5 pies a su Velocidad y un penalizador de estado -2 a Sigilo.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.FyaekbWsazkJhJda]{Efecto: Denunciar al ladron (exito)}</p>",
       "prerequisites": [
         {
-          "value": "Dedicación de la Guardia Zephyr"
+          "value": "Dedicacion de la Guardia Cefiro"
         },
         {
-          "value": "rango entrenado en Intimidación"
+          "value": "rango entrenado en Intimidacion"
         }
       ]
     },
@@ -9150,8 +9150,8 @@
       ]
     },
     "Deep Freeze": {
-      "name": "Congelación profunda",
-      "description": "<p>You vent a jet of supercooled fluid from your innovation, damaging a foe and slowing it down. Target one creature within 60 feet. That creature takes @Damage[@actor.level[cold]]{cold damage equal to your level}, with effects depending on its @Check[reflex|against:inventor] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage and takes a –5-foot status penalty to its Speeds for 1 round.</p>\n<p><strong>Failure</strong> The target takes full damage and takes a –10-foot status penalty to its Speeds for 1 round.</p>\n<p><strong>Critical Failure</strong> The target takes double damage, is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round, and takes a –15-foot status penalty to its Speeds for 1 round.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.BBGg5gpMmuBSo7Mi]{Effect: Deep Freeze}</p>\n<p><strong>Unstable Function</strong> Your innovation discharges an enormous cone of supercooled fluid, potentially causing cascading failures. Add the unstable trait to Deep Freeze. The ability affects all creatures within a @Template[cone|distance:60] instead of a single target, and it deals @Damage[(2*@actor.level)[cold]|traits:unstable|options:area-damage]{cold damage equal to double your level} instead of equal to your level.</p>\n<p>If you have the revolutionary innovation class feature, you can choose a @Template[cone|distance:60] or a @Template[cone|distance:90] when you use an unstable Deep Freeze.</p>\n<hr />\n<p><strong>Special</strong> If your innovation is a minion, it can take this action rather than you.</p>"
+      "name": "Congelacion profunda",
+      "description": "<p>Expulsas un chorro de fluido superenfriado desde tu innovacion, danando a un enemigo y ralentizandolo. Elige como objetivo una criatura a 60 pies o menos. Esa criatura recibe @Damage[@actor.level[cold]]{dano de frio igual a tu nivel}, con efectos que dependen de su salvacion de @Check[reflex|against:inventor]{Reflejos}.</p>\n<hr />\n<p><strong>Exito critico</strong> El objetivo no se ve afectado.</p>\n<p><strong>Exito</strong> El objetivo recibe la mitad del dano y sufre un penalizador de estado -5 pies a sus Velocidades durante 1 asalto.</p>\n<p><strong>Fallo</strong> El objetivo recibe todo el dano y sufre un penalizador de estado -10 pies a sus Velocidades durante 1 asalto.</p>\n<p><strong>Fallo critico</strong> El objetivo recibe el doble de dano, queda @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentizado 1} durante 1 asalto y sufre un penalizador de estado -15 pies a sus Velocidades durante 1 asalto.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.BBGg5gpMmuBSo7Mi]{Efecto: Congelacion profunda}</p>\n<p><strong>Funcion inestable</strong> Tu innovacion descarga un enorme cono de fluido superenfriado, lo que puede causar fallos en cascada. Anade el rasgo inestable a Congelacion profunda. La aptitud afecta a todas las criaturas dentro de un @Template[cone|distance:60]{cono de 60 pies} en lugar de a un unico objetivo, e inflige @Damage[(2*@actor.level)[cold]|traits:unstable|options:area-damage]{dano de frio igual al doble de tu nivel} en lugar de igual a tu nivel.</p>\n<p>Si tienes el rasgo de clase innovacion revolucionaria, puedes elegir un @Template[cone|distance:60]{cono de 60 pies} o un @Template[cone|distance:90]{cono de 90 pies} cuando usas una Congelacion profunda inestable.</p>\n<hr />\n<p><strong>Especial</strong> Si tu innovacion es un esbirro, puede realizar esta accion en lugar de ti.</p>"
     },
     "Deep Lore": {
       "name": "Saber profundo",
@@ -9174,11 +9174,11 @@
       "description": "<p> Tu visión es adecuada para la noche o el subsuelo. Obtienes visión en la oscuridad. </p>"
     },
     "Deepening Devotion": {
-      "name": "Deepening Devotion",
-      "description": "<p>Your investment in your draconic gift has unlocked greater power. When your spectral dragon shares your space, the status bonus to saves against sleep and paralysis increases to +2.</p>\n<p>In addition, you can use Draconic Salvation if you succeeded or failed on your saving throw, not only if you critically failed.</p>",
+      "name": "Devocion profunda",
+      "description": "<p>Tu inversion en tu don draconico ha desbloqueado un poder mayor. Cuando tu dragon espectral comparte tu espacio, el bonificador de estado a las salvaciones contra sueno y paralisis aumenta a +2.</p>\n<p>Ademas, puedes usar Salvacion draconica si tuviste exito o fallaste en tu salvacion, no solo si fallaste criticamente.</p>",
       "prerequisites": [
         {
-          "value": "Draconic Acolyte Dedication"
+          "value": "Dedicacion de acolito draconico"
         }
       ]
     },
@@ -9201,11 +9201,11 @@
       ]
     },
     "Defend Our Union": {
-      "name": "Defend Our Union",
-      "description": "<p><strong>Trigger</strong> You and your companion are within 15 feet of each other, and a foe successfully Strikes your united companion.</p>\n<hr />\n<p>You can protect your companion from danger with a well-timed attack. You can immediately Stride toward the triggering enemy and can make a Strike against them if they would be in the first range increment of your ranged weapon or within your melee reach. If this Strike is successful, reduce the damage to your companion by your level, or twice your level if the Strike was a critical success.</p>",
+      "name": "Defender nuestra union",
+      "description": "<p><strong>Desencadenante</strong> Tu y tu companero estais a 15 pies o menos el uno del otro, y un enemigo impacta con exito a tu companero unido con un Golpe.</p>\n<hr />\n<p>Puedes proteger a tu companero del peligro con un ataque oportuno. Puedes dar inmediatamente una Zancada hacia el enemigo desencadenante y hacer un Golpe contra el si estaria dentro del primer incremento de alcance de tu arma a distancia o dentro de tu alcance cuerpo a cuerpo. Si este Golpe tiene exito, reduce el dano a tu companero en tu nivel, o el doble de tu nivel si el Golpe fue un exito critico.</p>",
       "prerequisites": [
         {
-          "value": "Beast Lord Dedication"
+          "value": "Dedicacion de senor de las bestias"
         }
       ]
     },
@@ -9214,21 +9214,21 @@
       "description": "<p> Tu eidolon bloquea los ataques contra ti. Después de que tu eidolon use esta acción, obtienes una bonificación de circunstancia +2 a la CA hasta el comienzo de tu siguiente turno. Esta bonificación se aplica sólo mientras estás dentro del alcance de tu eidolon (en la mayoría de los casos, esto significa que tu eidolon está adyacente a ti o en tu espacio). </p>"
     },
     "Defender's Grit": {
-      "name": "Defender's Grit",
-      "description": "<p>You can't protect anyone if you're dead. You gain the @UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{Diehard} general feat. If you start your turn adjacent to your designated ally, you gain a number of temporary Hit Points equal to half your level that lasts until the beginning of your next turn.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.wIaXcsccLYf1Wi6Y]{Effect: Defender's Grit}</p>",
+      "name": "Temple del defensor",
+      "description": "<p>No puedes proteger a nadie si estas muerto. Obtienes la dote general @UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{Duro de matar}. Si comienzas tu turno adyacente a tu aliado designado, obtienes tantos Puntos de Golpe temporales como la mitad de tu nivel, que duran hasta el comienzo de tu siguiente turno.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.wIaXcsccLYf1Wi6Y]{Efecto: Temple del defensor}</p>",
       "prerequisites": [
         {
-          "value": "Ulfen Guard Dedication"
+          "value": "Dedicacion de guardia ulfeno"
         }
       ]
     },
     "Defensive Advance": {
-      "name": "Defensive Advance",
-      "description": "<p>With the protection of your shield, you dive into battle! You Raise your Shield and Stride. If you end your movement within melee reach of at least one enemy, you can make a melee Strike against that enemy.</p>\n<p>You can use Defensive Advance while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type.</p>"
+      "name": "Avance defensivo",
+      "description": "<p>Con la proteccion de tu escudo, te lanzas al combate. Alzas tu escudo y das una Zancada. Si terminas tu movimiento dentro del alcance cuerpo a cuerpo de al menos un enemigo, puedes hacer un Golpe cuerpo a cuerpo contra ese enemigo.</p>\n<p>Puedes usar Avance defensivo mientras Excavas, Trepas, Vuelas o Nadas en lugar de dar una Zancada si tienes el tipo de movimiento correspondiente.</p>"
     },
     "Defensive Armaments": {
       "name": "Armamento defensivo",
-      "description": "<p>You use bulky firearms or crossbows to shield your body. Any two-handed firearms and two-handed crossbows you wield gain the parry trait. If an appropriate weapon already has the parry trait, increase the circumstance bonus to AC it grants when used to parry from +1 to +2. While parrying with your weapon, you are immune to splash damage.</p>"
+      "description": "<p>Usas armas de fuego o ballestas voluminosas para proteger tu cuerpo. Cualquier arma de fuego a dos manos y ballesta a dos manos que empunes obtiene el rasgo parada. Si un arma apropiada ya tiene el rasgo parada, aumenta el bonificador de circunstancia a la CA que concede al usarla para parar de +1 a +2. Mientras paras con tu arma, eres inmune al dano de salpicadura.</p>"
     },
     "Defensive Coordination": {
       "name": "Coordinación defensiva",
@@ -9243,24 +9243,24 @@
       ]
     },
     "Defensive Dismissal": {
-      "name": "Defensive Dismissal",
-      "description": "<p><strong>Trigger</strong> A creature you're aware of critically succeeds on a Strike against you.</p>\n<p><strong>Requirements</strong> You're under a polymorph effect that you can Dismiss.</p>\n<hr />\n<p>You change your form as a means of evading a potentially fatal blow. You Dismiss the polymorph effect you're under, and the result of the triggering Strike becomes a success instead of a critical success. If you would no longer fit in your space as a result of returning to your normal form, this action fails and you don't Dismiss the polymorph effect.</p>"
+      "name": "Descarte defensivo",
+      "description": "<p><strong>Desencadenante</strong> Una criatura de la que eres consciente obtiene un exito critico en un Golpe contra ti.</p>\n<p><strong>Requisitos</strong> Estas bajo un efecto de polimorfia que puedes Descartar.</p>\n<hr />\n<p>Cambias tu forma como medio para evadir un golpe potencialmente fatal. Descartas el efecto de polimorfia bajo el que estas, y el resultado del Golpe desencadenante se convierte en un exito en lugar de un exito critico. Si ya no cabrias en tu espacio como resultado de volver a tu forma normal, esta accion falla y no Descartas el efecto de polimorfia.</p>"
     },
     "Defensive Growth": {
-      "name": "Defensive Growth",
-      "description": "<p><strong>Trigger</strong> You're the target of a physical attack.</p>\n<hr />\n<p>You grow a shield of woven flowers and branches, then Raise that Shield to defend yourself from the triggering attack. If you would take damage from the attack, you immediately @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block}. This is a @UUID[Compendium.pf2e.equipment-srd.Item.ezVp13Uw8cWW08Da]{Wooden Shield} (Hardness 3, HP 12, BT 6). The shield remains in your possession for a number of rounds equal to your level, or until it's destroyed.</p>\n<p><strong>Awakening</strong> The shield becomes stronger. It has Hardness 5, HP 40, BT 20.</p>\n<p><strong>Awakening</strong> The shield takes on a mind of its own and lashes out vengefully when destroyed. When the shield is destroyed, is explodes, dealing @Damage[4d6[piercing]] damage to your attacker, with a @Check[type:reflex|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true] save.</p>"
+      "name": "Crecimiento defensivo",
+      "description": "<p><strong>Desencadenante</strong> Eres el objetivo de un ataque fisico.</p>\n<hr />\n<p>Haces crecer un escudo de flores y ramas trenzadas, y luego Alzas ese escudo para defenderte del ataque desencadenante. Si fueras a recibir dano del ataque, inmediatamente usas @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Bloqueo con escudo}. Este es un @UUID[Compendium.pf2e.equipment-srd.Item.ezVp13Uw8cWW08Da]{Escudo de madera} (Dureza 3, PG 12, UR 6). El escudo permanece en tu posesion durante un numero de asaltos igual a tu nivel, o hasta que sea destruido.</p>\n<p><strong>Despertar</strong> El escudo se vuelve mas fuerte. Tiene Dureza 5, PG 40, UR 20.</p>\n<p><strong>Despertar</strong> El escudo adquiere mente propia y arremete vengativamente cuando es destruido. Cuando el escudo es destruido, explota e inflige @Damage[4d6[piercing]] de dano perforante a tu atacante, con una salvacion de @Check[type:reflex|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true]{Reflejos basica}.</p>"
     },
     "Defensive Instincts": {
-      "name": "Instintos Defensivos",
-      "description": "<p> <strong> Requisitos </strong> estás adyacente a al menos dos enemigos </p>\n <hr />\n <p> Tu cuerpo se tensa cuando te rodean, lo que te pone lo suficientemente nervioso como para anticipar un ataque. Obtienes una bonificación de circunstancia +1 a la CA hasta el comienzo de tu siguiente turno y paso. </p>",
-      "selfEffect": "Effect: Defensive Instincts"
+      "name": "Instintos defensivos",
+      "description": "<p><strong>Requisitos</strong> Estas adyacente al menos a dos enemigos.</p>\n<hr />\n<p>Tu cuerpo se tensa cuando te rodean, poniendote lo bastante en alerta como para anticipar un ataque. Obtienes un bonificador de circunstancia +1 a la CA hasta el comienzo de tu siguiente turno y das un Paso.</p>",
+      "selfEffect": "Efecto: Instintos defensivos"
     },
     "Defensive Needles": {
       "name": "Agujas defensivas",
-      "description": "<p> Tu cuerpo está cubierto de agujas o espinas afiladas que puedes usar para defenderte. Cada vez que una criatura te convierte en @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} o una criatura adyacente te golpea con un ataque desarmado, giras y agitas tu cuerpo, causando 2 daños perforantes a esa criatura. Este daño aumenta a 3 en el nivel 9, 4 en el nivel 13 y 5 en el nivel 17. </p>\n <p> [[/r (ceil(@actor.level/4))[piercing]]]{Leveled damage} </p>",
+      "description": "<p>Tu cuerpo esta cubierto de agujas o espinas afiladas que puedes usar para defenderte. Cada vez que una criatura te deja @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} o una criatura adyacente te impacta con un ataque sin armas, giras y agitas tu cuerpo, infligiendo 2 de dano perforante a esa criatura. Este dano aumenta a 3 a nivel 9, 4 a nivel 13 y 5 a nivel 17.</p>\n<p>[[/r (ceil(@actor.level/4))[piercing]]]{Dano por nivel}</p>",
       "prerequisites": [
         {
-          "value": "Herencia de Cactus Leshy o Pino Leshy"
+          "value": "Herencia de leshy cactus o leshy pino"
         }
       ]
     },
@@ -9273,20 +9273,20 @@
       "description": "<p> <strong> Frecuencia </strong> una vez cada 10 minutos </p>\n <p> <strong> Desencadenante </strong> Un ataque físico te reduciría a 0 Puntos de Golpe. </p>\n <hr />\n <p> Dejándote caer y poniéndote a rodar para dispersar la fuerza del golpe, puedes evadir parcialmente un ataque letal y permanecer consciente. Sufres mitad de daño del ataque desencadenante. </p>"
     },
     "Defensive Stratagem": {
-      "name": "Defensive Stratagem",
-      "description": "<p>By scrutinizing a foe, you learn how to better avoid its attacks. When you use Devise a Stratagem, you can choose a defensive stratagem instead of an attack or skill stratagem after you roll a d20.</p>\n<p><strong>Defensive Stratagem</strong> You can't attempt to Strike the target until the start of your next turn. You gain a +1 circumstance bonus to all your defenses against effects caused by the target until the start of your next turn.</p>"
+      "name": "Estratagema defensiva",
+      "description": "<p>Al escrutar a un enemigo, aprendes como evitar mejor sus ataques. Cuando usas Idear una estratagema, puedes elegir una estratagema defensiva en lugar de una estratagema de ataque o habilidad despues de tirar un d20.</p>\n<p><strong>Estratagema defensiva</strong> No puedes intentar Golpear al objetivo hasta el comienzo de tu siguiente turno. Obtienes un bonificador de circunstancia +1 a todas tus defensas contra efectos causados por el objetivo hasta el comienzo de tu siguiente turno.</p>"
     },
     "Defensive Swap": {
-      "name": "Defensive Swap",
-      "description": "<p><strong>Trigger</strong> You or an adjacent willing ally are the target of an attack.</p>\n<hr />\n<p>You and your allies work together selflessly to protect each other from harm. You and the required ally immediately swap positions with each other, and whichever of you was not the target of the triggering attack becomes the target instead.</p>\n<hr />\n<p><em>PFS Note:</em> This feat can be used by @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} PCs, but not PCs who are @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, immobilized, or otherwise unable to move of their own volition.</p>"
+      "name": "Intercambio defensivo",
+      "description": "<p><strong>Desencadenante</strong> Tu o un aliado voluntario adyacente sois el objetivo de un ataque.</p>\n<hr />\n<p>Tu y tus aliados trabajais juntos desinteresadamente para protegeros del dano. Tu y el aliado requerido intercambiais posiciones inmediatamente, y quien de vosotros no fuera el objetivo del ataque desencadenante se convierte en el objetivo en su lugar.</p>\n<hr />\n<p><em>Nota PFS:</em> Esta dote puede ser usada por PJ @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbados}, pero no por PJ que esten @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrados}, inmovilizados o de otro modo incapaces de moverse por voluntad propia.</p>"
     },
     "Defiance Unto Death": {
       "name": "Desafío hasta la muerte",
       "description": "<p> <strong> Acceso </strong> Elfo jurado </p>\n <hr />\n <p> Odias a los algholthus y su magia mental, y has sido entrenado para estar dispuesto a morir en lugar de ceder a la manipulación mental. Si comenzarías tu turno @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confundido} , @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlado} o @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Huyendo} debido a una salvación de Voluntad fallida, puedes intentar una salvación de Voluntad contra la misma CD; Si tienes éxito, te conviertes en @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado} hasta tu próximogirar, en lugar de actuar en contra de su voluntad. </p>"
     },
     "Defiant Banner": {
-      "name": "Defiant Banner",
-      "description": "<p>You vigorously wave your banner to remind yourself and your allies that you can and must endure. You and all allies within the aura of your commander's banner when you use this action gain resistance to bludgeoning, piercing, and slashing damage equal to your INTELLIGENCE modifier until the start of your next turn.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Zy7rrPCgMTeSzKj9]{Effect: Defiant Banner}</p>"
+      "name": "Estandarte desafiante",
+      "description": "<p>Agitas vigorosamente tu estandarte para recordarte a ti y a tus aliados que podeis y debeis resistir. Tu y todos los aliados dentro del aura de tu estandarte de comandante cuando usas esta accion obteneis resistencia al dano contundente, perforante y cortante igual a tu modificador de INTELIGENCIA hasta el comienzo de tu siguiente turno.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Zy7rrPCgMTeSzKj9]{Efecto: Estandarte desafiante}</p>"
     },
     "Define “Report”": {
       "name": "Define “Report”",
@@ -9301,8 +9301,8 @@
       ]
     },
     "Deflect Projectile": {
-      "name": "Deflect Projectile",
-      "description": "<p><strong>Trigger</strong> You are the target of a physical ranged attack.</p>\n<p><strong>Requirements</strong> You're aware of the attack, are not off-guard against it, and have a hand free.</p>\n<hr />\n<p>You gain a +4 circumstance bonus to AC against the triggering attack. If the attack misses, you have deflected it. You cannot use this feat to deflect unusually massive ranged projectiles (such as boulders or ballista bolts).</p>"
+      "name": "Desviar proyectil",
+      "description": "<p><strong>Desencadenante</strong> Eres el objetivo de un ataque fisico a distancia.</p>\n<p><strong>Requisitos</strong> Eres consciente del ataque, no estas desprevenido contra el y tienes una mano libre.</p>\n<hr />\n<p>Obtienes un bonificador de circunstancia +4 a la CA contra el ataque desencadenante. Si el ataque falla, lo has desviado. No puedes usar esta dote para desviar proyectiles a distancia inusualmente masivos, como rocas o virotes de balista.</p>"
     },
     "Deflecting Cloud": {
       "name": "Nube deflectora",
@@ -9322,15 +9322,15 @@
       }
     },
     "Deflecting Jewel": {
-      "name": "Deflecting Jewel",
-      "description": "<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You're the target of a ranged attack while you possess your head gem.</p>\n<p><strong>Requirements</strong> You're aware of the triggering attack.</p><hr /><p>You walk the line between two sides of something, such as belonging to two clans, having a mixed allegiance or faith, or being caught between two possible fates. Your dual NATURE has attuned your head gem to the half moon, and it has manifested the power to ward away attacks by drawing a line between them and you. You gain a +2 circumstance bonus to AC against the triggering attack.</p>"
+      "name": "Joya deflectora",
+      "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<p><strong>Desencadenante</strong> Eres el objetivo de un ataque a distancia mientras posees tu gema frontal.</p>\n<p><strong>Requisitos</strong> Eres consciente del ataque desencadenante.</p><hr /><p>Caminas por la frontera entre dos lados de algo, como pertenecer a dos clanes, tener una lealtad o fe mixta, o estar atrapado entre dos posibles destinos. Tu NATURALEZA dual ha armonizado tu gema frontal con la media luna, y ha manifestado el poder de apartar ataques trazando una linea entre ellos y tu. Obtienes un bonificador de circunstancia +2 a la CA contra el ataque desencadenante.</p>"
     },
     "Deflecting Pulse": {
-      "name": "Deflecting Pulse",
-      "description": "<p>Your ostilli can use its stored magic to protect you from other magic, granting you the Turn Aside Ambient Magic action.</p>\n<p><strong>Turn Aside Ambient Magic</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p>Your ostilli glows a faint yellow as it establishes a barrier. Choose acid, cold, electricity, fire, or sonic damage. Until the beginning of your next turn, you gain resistance against the chosen damage type equal to half your level.</p>",
+      "name": "Pulso deflector",
+      "description": "<p>Tu ostilli puede usar su magia almacenada para protegerte de otra magia, concediendote la accion Apartar magia ambiental.</p>\n<p><strong>Apartar magia ambiental</strong> <span class=\"action-glyph\">1</span> (concentracion)</p>\n<p>Tu ostilli brilla con un tenue color amarillo mientras establece una barrera. Elige dano de acido, frio, electricidad, fuego o sonico. Hasta el comienzo de tu siguiente turno, obtienes resistencia contra el tipo de dano elegido igual a la mitad de tu nivel.</p>",
       "prerequisites": [
         {
-          "value": "Ostilli Host Dedication"
+          "value": "Dedicacion de anfitrion de ostilli"
         }
       ]
     },
@@ -9352,11 +9352,11 @@
       ]
     },
     "Defy Chains": {
-      "name": "Defy Chains",
-      "description": "<p><strong>Trigger</strong> A fiend within 15 feet of you damages you with a Strike.</p>\n<hr />\n<p>You turn to face a fiend that attacked you, looking them squarely in the eyes (if it has them) and showing no fear. You increase the amount of damage you take by 4d6, and deal 4d6 spirit damage to the triggering fiend. The damage you take and deal increases to 5d6 at 18th level.</p>\n<p>In addition, if the fiend has an aura and you're in it, you can attempt an INTIMIDATION check to counteract the aura's effect, using half your level rounded up as the counteract rank. If you succeed, the effects of the aura are suppressed until the end of the triggering fiend's next turn.</p>",
+      "name": "Desafiar cadenas",
+      "description": "<p><strong>Desencadenante</strong> Un infernal a 15 pies o menos te dana con un Golpe.</p>\n<hr />\n<p>Te vuelves hacia el infernal que te ataco, mirandolo directamente a los ojos, si los tiene, y sin mostrar miedo. Aumentas la cantidad de dano que recibes en 4d6 e infliges 4d6 de dano espiritual al infernal desencadenante. El dano que recibes e infliges aumenta a 5d6 a nivel 18.</p>\n<p>Ademas, si el infernal tiene un aura y estas dentro de ella, puedes intentar una prueba de INTIMIDACION para contrarrestar el efecto del aura, usando la mitad de tu nivel redondeada hacia arriba como rango de contrarrestar. Si tienes exito, los efectos del aura se suprimen hasta el final del siguiente turno del infernal desencadenante.</p>",
       "prerequisites": [
         {
-          "value": "Nidalese Horselord Dedication"
+          "value": "Dedicacion de senor de caballos nidalense"
         }
       ]
     },
@@ -9379,21 +9379,21 @@
       ]
     },
     "Defy Hell": {
-      "name": "Defy Hell",
-      "description": "<p><strong>Requirements</strong> You aren't unholy.</p>\n<hr />\n<p>Your devotion to your cause gives you endless strength and courage to withstand the enemy's attacks. As long as you're in this stance, you gain a +2 status bonus to saves against mental effects and can make Hellbreaker Strikes.</p>\n<p><strong>Hellbreaker Strike</strong> <span class=\"action-glyph\">2</span> (holy) Make a weapon or unarmed Strike. This counts as two attacks when determining your multiple attack penalty. If your Strike hits, you deal an additional 2d8 spirit damage. At 18th level, this increases to 3d8 spirit damage.</p>",
+      "name": "Desafiar el Infierno",
+      "description": "<p><strong>Requisitos</strong> No eres sacrilego.</p>\n<hr />\n<p>Tu devocion a tu causa te da fuerza y valor inagotables para resistir los ataques del enemigo. Mientras estas en esta postura, obtienes un bonificador de estado +2 a las salvaciones contra efectos mentales y puedes hacer Golpes rompeinfiernos.</p>\n<p><strong>Golpe rompeinfiernos</strong> <span class=\"action-glyph\">2</span> (sagrado) Haz un Golpe con arma o sin armas. Esto cuenta como dos ataques al determinar tu penalizador por ataques multiples. Si tu Golpe impacta, infliges 2d8 de dano espiritual adicional. A nivel 18, esto aumenta a 3d8 de dano espiritual.</p>",
       "prerequisites": [
         {
-          "value": "Hellbreaker Dedication"
+          "value": "Dedicacion de rompeinfiernos"
         }
       ],
-      "selfEffect": "Stance: Defy Hell"
+      "selfEffect": "Postura: Desafiar el Infierno"
     },
     "Defy Sorrow": {
-      "name": "Defy Sorrow",
-      "description": "<p><strong>Trigger</strong> You're dealt mental damage or spirit damage or you fail or critically fail a saving throw against a mental effect.</p>\n<hr />\n<p>You draw on this spiritual pain to push your body to greater heights. You gain the @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} condition until the end of your next turn. You can use the extra action only to Step or Stride.</p>",
+      "name": "Desafiar la pena",
+      "description": "<p><strong>Desencadenante</strong> Recibes dano mental o dano espiritual, o fallas o fallas criticamente una salvacion contra un efecto mental.</p>\n<hr />\n<p>Recurres a este dolor espiritual para impulsar tu cuerpo a mayores alturas. Obtienes la condicion @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Acelerado} hasta el final de tu siguiente turno. Solo puedes usar la accion adicional para Dar un paso o dar una Zancada.</p>",
       "prerequisites": [
         {
-          "value": "Rivethun Invoker Dedication"
+          "value": "Dedicacion de invocador rivethun"
         }
       ]
     },
@@ -9407,11 +9407,11 @@
       ]
     },
     "Deific Font": {
-      "name": "Deific Font",
-      "description": "<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p>Your life force can fuel the stuff of miracles. You become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} or increase the value of your drained condition by 1 if you already have the drained condition. Before the end of your next turn, if you Cast a Spell of 4th rank or lower, you don't expend the spell's slot when you cast it, or if you cast a focus spell, it does not cost a Focus Point. The spell loses whatever tradition trait it would normally have and gains the divine trait.</p>",
+      "name": "Fuente deifica",
+      "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p>Tu fuerza vital puede alimentar la sustancia de los milagros. Quedas @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} o aumentas el valor de tu condicion drenado en 1 si ya la tienes. Antes del final de tu siguiente turno, si Lanzas un conjuro de rango 4 o inferior, no gastas el espacio del conjuro al lanzarlo; o si lanzas un conjuro de foco, no cuesta Punto de Foco. El conjuro pierde cualquier rasgo de tradicion que normalmente tuviera y obtiene el rasgo divino.</p>",
       "prerequisites": [
         {
-          "value": "Mortal Herald Dedication"
+          "value": "Dedicacion de heraldo mortal"
         }
       ]
     },
@@ -9459,8 +9459,8 @@
       "description": "<p> La vida subterránea te enseñó a nadar por el suelo como el agua. Obtienes una velocidad de madriguera de 10 pies a través de tierra o tierra suelta. </p>"
     },
     "Demand Surrender": {
-      "name": "Demand Surrender",
-      "description": "<p><strong>Requirements</strong> You and your allies currently outnumber enemies on the battlefield, and you or an ally has either @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} an opponent or reduced an opponent to 0 Hit Points since the start of your last turn.</p>\n<hr />\n<p>Confident in your victory, you command your opponent's surrender. Choose one opponent you are observing. You command that opponent to surrender in a strong voice. They must attempt a @Check[will|against:commander|options:inflicts:fleeing,inflicts:prone] save against your CLASS DC, with the following results.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature cannot take any hostile actions that include you as a target for 1 round.</p>\n<p><strong>Failure</strong> As success, and the target is @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing} for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature drops any weapons or items it is holding, lies @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} on the ground, and does not take any hostile actions against you or your allies for 1 minute, or until you or one of your allies attacks it.</p>"
+      "name": "Exigir rendicion",
+      "description": "<p><strong>Requisitos</strong> Tu y tus aliados superais actualmente en numero a los enemigos en el campo de batalla, y tu o un aliado habeis @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado} a un oponente o reducido a un oponente a 0 Puntos de Golpe desde el comienzo de tu ultimo turno.</p>\n<hr />\n<p>Seguro de tu victoria, ordenas la rendicion de tu oponente. Elige un oponente que estes observando. Ordenas a ese oponente que se rinda con voz firme. Debe intentar una salvacion de @Check[will|against:commander|options:inflicts:fleeing,inflicts:prone]{Voluntad} contra tu CD de clase, con los siguientes resultados.</p>\n<hr />\n<p><strong>Exito critico</strong> La criatura no se ve afectada.</p>\n<p><strong>Exito</strong> La criatura no puede realizar acciones hostiles que te incluyan como objetivo durante 1 asalto.</p>\n<p><strong>Fallo</strong> Como exito, y el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Huyendo} durante 1 asalto.</p>\n<p><strong>Fallo critico</strong> La criatura suelta cualquier arma u objeto que este sosteniendo, se tumba @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbada} en el suelo, y no realiza acciones hostiles contra ti ni tus aliados durante 1 minuto, o hasta que tu o uno de tus aliados la ataque.</p>"
     },
     "Demanding Challenge": {
       "name": "Reto exigente",
@@ -9472,15 +9472,15 @@
       ]
     },
     "Demolish Defenses": {
-      "name": "Demolish Defenses",
-      "description": "<p>With a powerful blow, you crack a foe's armor or tough hide, opening it up for further attacks. Make a melee Strike. This Strike deals one additional weapon die of damage; if the target is your taunted enemy, this increases to two additional weapon die of damage. This counts as two attacks for the purposes of calculating your multiple attack penalty. If you hit and deal damage, the target must attempt a @Check[fortitude|against:guardian|options:inflicts:clumsy,inflicts:off-guard] saving throw against your CLASS DC.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes no additional effect.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the end of your next turn.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} until the end of your next turn. Once it loses this clumsy condition, it's off-guard for 1 round.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 3}.</p>"
+      "name": "Demoler defensas",
+      "description": "<p>Con un golpe poderoso, agrietas la armadura o la piel dura de un enemigo, abriendolo a ataques posteriores. Haz un Golpe cuerpo a cuerpo. Este Golpe inflige un dado de arma adicional de dano; si el objetivo es tu enemigo provocado, esto aumenta a dos dados de arma adicionales de dano. Esto cuenta como dos ataques a efectos de calcular tu penalizador por ataques multiples. Si impactas e infliges dano, el objetivo debe intentar una salvacion de @Check[fortitude|against:guardian|options:inflicts:clumsy,inflicts:off-guard]{Fortaleza} contra tu CD de clase.</p>\n<hr />\n<p><strong>Exito critico</strong> El objetivo no sufre ningun efecto adicional.</p>\n<p><strong>Exito</strong> El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} hasta el final de tu siguiente turno.</p>\n<p><strong>Fallo</strong> El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} hasta el final de tu siguiente turno. Una vez pierde esta condicion torpe, queda desprevenido durante 1 asalto.</p>\n<p><strong>Fallo critico</strong> Como fallo, pero el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 3}.</p>"
     },
     "Demolishing Knockback": {
-      "name": "Demolishing Knockback",
-      "description": "<p>You make a forceful attack that has the power to push your foe through walls. Spend a Mythic Point and make a Strike at mythic proficiency. If you hit and deal damage to the target, you push them up to 15 feet away from you. If this movement would cause the target to collide with an object that has a hardness of 5 or less, the object breaks and the target is pushed through the object's space for the remainder of the forced movement, taking an additional @Damage[2d6[bludgeoning]] damage (the GM can decide that this is a different type of damage depending on the object the target was pushed through; for instance, @Damage[2d6[slashing]]{slashing} damage if the target is pushed through a pane of glass).</p>\n<p>If the forced movement doesn't cause the target to collide with an object, the target must succeed at a @Check[reflex|against:class] saving throw against your CLASS DC or be knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} at the end of the movement.</p>",
+      "name": "Retroceso demoledor",
+      "description": "<p>Realizas un ataque contundente con poder suficiente para empujar a tu enemigo a traves de muros. Gasta un Punto mitico y haz un Golpe con competencia mitica. Si impactas e infliges dano al objetivo, lo empujas hasta 15 pies alejandolo de ti. Si este movimiento haria que el objetivo chocara con un objeto que tiene dureza 5 o menos, el objeto se rompe y el objetivo es empujado a traves del espacio del objeto durante el resto del movimiento forzado, recibiendo @Damage[2d6[bludgeoning]] de dano contundente adicional; el DJ puede decidir que es un tipo de dano diferente segun el objeto que atraviese el objetivo, por ejemplo @Damage[2d6[slashing]]{cortante} si el objetivo es empujado a traves de un cristal.</p>\n<p>Si el movimiento forzado no hace que el objetivo choque con un objeto, el objetivo debe tener exito en una salvacion de @Check[reflex|against:class]{Reflejos} contra tu CD de clase o queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} al final del movimiento.</p>",
       "prerequisites": [
         {
-          "value": "Eternal Legend Dedication"
+          "value": "Dedicacion de leyenda eterna"
         }
       ]
     },
