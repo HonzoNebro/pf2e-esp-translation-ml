@@ -10230,8 +10230,8 @@
       ]
     },
     "Distracting Explosion": {
-      "name": "Explosión que distrae",
-      "description": "<p><strong>Trigger</strong> A creature within your reach uses a concentrate action.</p>\n<hr />\n<p>Your enemies think they can concentrate on something else while you're nearby? Oh, you'll give them a distraction, all right! Make a melee Strike against the triggering creature with a weapon or unarmed attack that is benefiting from your offensive boost. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.</p>\n<p><strong>Unstable Function</strong> You pull out all the stops to create an explosive distraction. Add the unstable trait to Distracting Explosion. If the attack hits, you disrupt the triggering concentrate action.</p>\n<hr />\n<p><strong>Special</strong> If your innovation is a minion, it can take this reaction instead of you, even though minions can't normally take reactions or act when it's not their turn. It uses your reaction for the turn to do so.</p>",
+      "name": "Explosion distractora",
+      "description": "<p><strong>Desencadenante</strong> Una criatura dentro de tu alcance usa una accion de concentracion.</p>\n<hr />\n<p>Tus enemigos creen que pueden concentrarse en otra cosa mientras estas cerca? Les daras una distraccion, desde luego. Haz un Golpe cuerpo a cuerpo contra la criatura desencadenante con un arma o ataque sin armas que se este beneficiando de tu impulso ofensivo. Este Golpe no cuenta para tu penalizador por ataques multiples, y tu penalizador por ataques multiples no se aplica a este Golpe.</p>\n<p><strong>Funcion inestable</strong> Pones toda la carne en el asador para crear una distraccion explosiva. Anade el rasgo inestable a Explosion distractora. Si el ataque impacta, interrumpes la accion de concentracion desencadenante.</p>\n<hr />\n<p><strong>Especial</strong> Si tu innovacion es un esbirro, puede realizar esta reaccion en lugar de ti, aunque los esbirros normalmente no puedan realizar reacciones ni actuar cuando no es su turno. Usa tu reaccion del turno para hacerlo.</p>",
       "prerequisites": [
         {
           "value": "impulso ofensivo"
@@ -10289,8 +10289,8 @@
       ]
     },
     "Distracting Toss": {
-      "name": "Distracting Toss",
-      "description": "<p>You toss one weapon into the air as a distraction as you throw another. Choose a creature within 30 feet and [[/act feint options=item:trait:bravado]] against it; you can attempt this Feint even if the target is not within melee range, and if the target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} as a result of the Feint, this applies to your thrown weapon attacks for the duration.</p>\n<p>Regardless of the result, you can then INTERACT to draw a thrown weapon and make a thrown weapon Strike against the target. If you have an open hand, you then catch the weapon you originally tossed into the air unless you critically failed at your attempt to Feint, in which case it lands on the ground at your feet.</p>"
+      "name": "Lanzamiento distractor",
+      "description": "<p>Lanzas un arma al aire como distraccion mientras arrojas otra. Elige una criatura a 30 pies o menos y [[/act feint options=item:trait:bravado]]{Finta} contra ella; puedes intentar esta Finta aunque el objetivo no este dentro de alcance cuerpo a cuerpo, y si el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} como resultado de la Finta, esto se aplica a tus ataques con armas arrojadizas durante la duracion.</p>\n<p>Independientemente del resultado, despues puedes INTERACTUAR para desenvainar un arma arrojadiza y hacer un Golpe con arma arrojadiza contra el objetivo. Si tienes una mano libre, entonces atrapas el arma que lanzaste originalmente al aire, salvo que fallaras criticamente tu intento de Fintar, en cuyo caso cae al suelo a tus pies.</p>"
     },
     "Disturbing Defense": {
       "name": "Defensa inquietante",
@@ -10311,14 +10311,14 @@
       ]
     },
     "Dive of the Divine": {
-      "name": "Dive of the Divine",
-      "description": "<p><strong>Requirements</strong> You are at least 20 feet above the ground.</p>\n<hr />\n<p>You dive from the sky, bringing down the might of the divine with you. You Fly straight down, landing safely in the nearest unoccupied space directly below you. When you land, all creatures in a @Template[type:emanation|distance:10] take @Damage[(ternary(gte(@actor.level,20),10,8))d10[spirit]|options:area-damage] damage (@Check[type:fortitude|basic|against:class-spell|options:area-effect] save against the higher of your CLASS DC or spell DC). On a failure, the target is pushed 5 feet (or 10 feet on a critical failure).</p>\n<p>At 20th level, the spirit damage increases to 10d10.</p>",
+      "name": "Picado divino",
+      "description": "<p><strong>Requisitos</strong> Estas al menos a 20 pies sobre el suelo.</p>\n<hr />\n<p>Te lanzas en picado desde el cielo, trayendo contigo el poder de lo divino. Vuelas directamente hacia abajo, aterrizando sin peligro en el espacio desocupado mas cercano directamente bajo ti. Cuando aterrizas, todas las criaturas en una @Template[type:emanation|distance:10]{emanacion de 10 pies} reciben @Damage[(ternary(gte(@actor.level,20),10,8))d10[spirit]|options:area-damage] de dano espiritual, con una salvacion de @Check[type:fortitude|basic|against:class-spell|options:area-effect]{Fortaleza basica} contra la mayor de tu CD de clase o CD de conjuro. Con un fallo, el objetivo es empujado 5 pies, o 10 pies con un fallo critico.</p>\n<p>A nivel 20, el dano espiritual aumenta a 10d10.</p>",
       "prerequisites": [
         {
-          "value": "Mortal Herald Dedication"
+          "value": "Dedicacion de heraldo mortal"
         },
         {
-          "value": "fly Speed of at least 20 feet"
+          "value": "Velocidad de vuelo de al menos 20 pies"
         }
       ]
     },
@@ -10360,31 +10360,31 @@
       ]
     },
     "Divert Destiny": {
-      "name": "Divert Destiny",
-      "description": "<p><strong>Trigger</strong> An attack or effect would reduce you to 0 Hit Points or kill you outright.</p>\n<hr />\n<p>You defy the fate before you, calling on wells of mythic vitality to sustain your life and allow you to persevere. You expend 1 Mythic Point and survive the triggering attack or effect, lose the wounded or dying conditions entirely, don't increase your doomed condition, and are conscious and standing with a number of Hit Points equal to 10 + your level, regardless of how many Hit Points you had before.</p>"
+      "name": "Desviar el destino",
+      "description": "<p><strong>Desencadenante</strong> Un ataque o efecto te reduciria a 0 Puntos de Golpe o te mataria directamente.</p>\n<hr />\n<p>Desafias el destino ante ti, recurriendo a pozos de vitalidad mitica para sostener tu vida y permitirte perseverar. Gastas 1 Punto mitico y sobrevives al ataque o efecto desencadenante, pierdes por completo las condiciones herido o moribundo, no aumentas tu condicion condenado, y estas consciente y de pie con un numero de Puntos de Golpe igual a 10 + tu nivel, independientemente de cuantos Puntos de Golpe tuvieras antes.</p>"
     },
     "Divert Streamflow": {
-      "name": "Divert Streamflow",
-      "description": "<p><strong>Trigger</strong> You're damaged by a melee Strike by a creature in your reach.</p>\n<hr />\n<p>With a brief gesture, you adapt swiftly to an attack like a flowing stream. Attempt an ATHLETICS check to @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposition} the creature who dealt the triggering damage. If you're successful, you can Step as a free action.</p>"
+      "name": "Desviar la corriente",
+      "description": "<p><strong>Desencadenante</strong> Recibes dano de un Golpe cuerpo a cuerpo de una criatura dentro de tu alcance.</p>\n<hr />\n<p>Con un breve gesto, te adaptas rapidamente a un ataque como una corriente que fluye. Intenta una prueba de ATLETISMO para @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposicionar} a la criatura que infligio el dano desencadenante. Si tienes exito, puedes Dar un paso como accion gratuita.</p>"
     },
     "Diverting Vortex": {
-      "name": "Vórtice desviador",
-      "description": "<p> <strong> Requisitos </strong> Tu acción más reciente fue lanzar un hechizo que no es un truco. </p>\n <hr />\n <p> Transfiere vestigios de energía mágica al aire a tu alrededor, creando un vórtice que desvía los ataques a distancia. Hasta el comienzo de tu siguiente turno, obtienes una bonificación de estado de +1 a la CA contra ataques con armas a distancia y ataques físicos sin armas a distancia. </p>",
-      "selfEffect": "Effect: Diverting Vortex"
+      "name": "Vortice desviador",
+      "description": "<p><strong>Requisitos</strong> Tu accion mas reciente fue lanzar un conjuro que no es un truco.</p>\n<hr />\n<p>Transfieres vestigios de energia magica al aire a tu alrededor, creando un vortice que desvia ataques a distancia. Hasta el comienzo de tu siguiente turno, obtienes un bonificador de estado +1 a la CA contra ataques con armas a distancia y ataques fisicos sin armas a distancia.</p>",
+      "selfEffect": "Efecto: Vortice desviador"
     },
     "Divide and Conquer": {
-      "name": "Divide and Conquer",
-      "description": "<p><strong>Requirements</strong> You are wielding a melee warshard weapon.</p>\n<hr />\n<p>When you face multiple foes, you wield your warshard weapon with vigor. Spend 1 Mythic Point, then Step to a space where you threaten at least two opponents with your warshard weapon. Attempt two Strikes at mythic proficiency, each against a different target. If you hit with both Strikes, you gain an additional effect based on the type of damage you inflict with your weapon. Both attacks count toward your multiple attack penalty, but the penalty doesn't increase until after you've made both of them. If your weapon doesn't deal one of these three damage types, you can't use it to Divide and Conquer, and if you deal two different types of damage to each target, you don't gain any additional effect.</p>\n<ul>\n<li><strong>Bludgeoning</strong> You knock your enemies around. Each damaged target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn.</li>\n<li><strong>Piercing</strong> Your strikes punch through your enemies, leaving bloody wounds. Each damaged target takes @Damage[1d8[persistent,bleed]] damage.</li>\n<li><strong>Slashing</strong> Your slashes leave particularly painful wounds. Each damaged target becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</li>\n</ul>",
+      "name": "Divide y venceras",
+      "description": "<p><strong>Requisitos</strong> Estas empunando un arma warshard cuerpo a cuerpo.</p>\n<hr />\n<p>Cuando te enfrentas a varios enemigos, blandes tu arma warshard con vigor. Gasta 1 Punto mitico y luego da un Paso a un espacio donde amenaces al menos a dos oponentes con tu arma warshard. Intenta dos Golpes con competencia mitica, cada uno contra un objetivo diferente. Si impactas con ambos Golpes, obtienes un efecto adicional segun el tipo de dano que infliges con tu arma. Ambos ataques cuentan para tu penalizador por ataques multiples, pero el penalizador no aumenta hasta despues de que hayas realizado ambos. Si tu arma no inflige uno de estos tres tipos de dano, no puedes usarla para Divide y venceras, y si infliges dos tipos de dano distintos a cada objetivo, no obtienes ningun efecto adicional.</p>\n<ul>\n<li><strong>Contundente</strong> Zarandeas a tus enemigos. Cada objetivo danado queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} hasta el comienzo de tu siguiente turno.</li>\n<li><strong>Perforante</strong> Tus golpes atraviesan a tus enemigos y dejan heridas sangrantes. Cada objetivo danado recibe @Damage[1d8[persistent,bleed]] de dano persistente de sangrado.</li>\n<li><strong>Cortante</strong> Tus cortes dejan heridas especialmente dolorosas. Cada objetivo danado queda @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 2}.</li>\n</ul>",
       "prerequisites": [
         {
-          "value": "Warshard Warrior Dedication"
+          "value": "Dedicacion de guerrero warshard"
         }
       ]
     },
     "Divine Aegis": {
-      "name": "Égida divina",
-      "description": "<p> <strong> Desencadenante </strong> Intentas una tirada de salvación contra un efecto mágico, pero aún no has tirado. </p>\n <hr />\n <p> Invocas energía divina para protegerte, ofreciendo protección contra otras tradiciones pero dejándote expuesto a otros efectos divinos. </p>\n <p> Hasta el comienzo de tu siguiente turno, obtienes una bonificación de circunstancia de +1 a los tiros de salvación contra efectos mágicos no divinos, pero también recibes una penalización de circunstancia de -1.para salvar contra los efectos divinos. </p>",
-      "selfEffect": "Effect: Divine Aegis"
+      "name": "Egida divina",
+      "description": "<p><strong>Desencadenante</strong> Intentas una salvacion contra un efecto magico, pero aun no has tirado.</p>\n<hr />\n<p>Invocas energia divina para protegerte, ofreciendo proteccion contra otras tradiciones pero dejandote expuesto a otros efectos divinos.</p>\n<p>Hasta el comienzo de tu siguiente turno, obtienes un bonificador de circunstancia +1 a las salvaciones contra efectos magicos no divinos, pero tambien sufres un penalizador de circunstancia -1 a las salvaciones contra efectos divinos.</p>",
+      "selfEffect": "Efecto: Egida divina"
     },
     "Divine Apex": {
       "name": "Ápice divino",
@@ -10421,8 +10421,8 @@
       "description": "<p> De tu colección de baratijas religiosas, sacas objetos divinos opuestos, como los símbolos religiosos de dos deidades que son odiados enemigos, y los combinas en una exhibición que provoca choques discordantes de energía divina que distraen especialmente a los fieles. Tira tu elección de una prueba @Check[type:deception|defense:will] o @Check[type:intimidation|defense:will] contra la CD de Voluntad de una criatura que puedas ver dentro de 60 pies, con los siguientes resultados. Si la criatura es particularmente devota de una deidad, como unclérigo, celestial, monitor, demonio u otra criatura con conjuros divinos, obtienes un bonificador +2 de circunstancia a tu prueba de habilidad. El DJ podría determinar que una criatura que desprecia a todas las deidades, como un algholllhu, no se ve afectada. </p>\n <hr />\n <p> <strong> Éxito crítico </strong> La criatura es @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} a tus ataques hasta el final de tu siguiente turno. </p>\n <p> <strong> Éxito </strong> La criatura está desprevenida contratus ataques hasta el final de tu turno actual. </p>"
     },
     "Divine Dragonblood": {
-      "name": "Divine Dragonblood",
-      "description": "<p>You can trace your lineage to a dragon with almost deific powers, such as a diabolic dragon or empyreal dragon. You are blessed with a small bit of divine protection. You gain the trained proficiency rank in RELIGION. If you would automatically become trained in RELIGION (from your background or class, for example), you instead become trained in a skill of your choice. In addition, you are endowed quick reactions. You gain a +1 circumstance bonus to initiative rolls. If you choose a draconic exemplar, you must choose a divine dragon.</p>"
+      "name": "Sangre de dragon divina",
+      "description": "<p>Puedes rastrear tu linaje hasta un dragon con poderes casi deificos, como un dragon diabolico o un dragon empireo. Estas bendecido con una pequena porcion de proteccion divina. Obtienes el rango de competencia entrenado en RELIGION. Si fueras a volverte automaticamente entrenado en RELIGION, por ejemplo por tu bagaje o clase, en su lugar te vuelves entrenado en una habilidad de tu eleccion. Ademas, estas dotado de reacciones rapidas. Obtienes un bonificador de circunstancia +1 a las tiradas de iniciativa. Si eliges un ejemplar draconico, debes elegir un dragon divino.</p>"
     },
     "Divine Effusion": {
       "name": "Efusión Divina",
@@ -10486,24 +10486,24 @@
       "description": "<p>Viertes energía en el sujeto de tu curación para potenciar sus ataques. Si la siguiente acción que utilizas es lanzar @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Dañar} o @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar} para restablecer Puntos de Golpe a una sola criatura, el objetivo inflige 1d6 daño adicional con sus armas cuerpo a cuerpo y ataques sin armas hasta el final de su siguiente turno. El tipo de daño es vacío si lanzas <em>dañar</em> y vitalidad si lanzas <em>curar</em>.</p>\n<p>Si el conjuro lanzado es por lo menos de 5.º rango, este daño se incrementa a 2d6 y si el conjuro es por lo menos de 8.º rango, el daño se incrementa a 3d6.</p>"
     },
     "Divine Invulnerability": {
-      "name": "Divine Invulnerability",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>Though you are not yet a god, you can invoke a measure of omnipotence that makes you high invulnerable. Spend a Mythic Point. You gain resistance to all damage equal to half your level for 1 minute as your aura smolders with power.</p>\n<p>During this time, if you cast a domain spell you received from this destiny, this resistance increases to equal your level until the beginning of your next turn.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.WdxPp1pTQTUYRTA3]{Effect: Divine Invulnerability (Domain Spell)}</p>",
+      "name": "Invulnerabilidad divina",
+      "description": "<p><strong>Frecuencia</strong> una vez al dia</p>\n<hr />\n<p>Aunque aun no eres un dios, puedes invocar una medida de omnipotencia que te vuelve sumamente invulnerable. Gasta un Punto mitico. Obtienes resistencia a todo dano igual a la mitad de tu nivel durante 1 minuto mientras tu aura arde con poder.</p>\n<p>Durante este tiempo, si lanzas un conjuro de dominio que recibiste de este destino, esta resistencia aumenta hasta igualar tu nivel hasta el comienzo de tu siguiente turno.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.WdxPp1pTQTUYRTA3]{Efecto: Invulnerabilidad divina (conjuro de dominio)}</p>",
       "prerequisites": [
         {
-          "value": "Godling Dedication"
+          "value": "Dedicacion de semidios"
         }
       ],
-      "selfEffect": "Effect: Divine Invulnerability"
+      "selfEffect": "Efecto: Invulnerabilidad divina"
     },
     "Divine Presence": {
-      "name": "Divine Presence",
-      "description": "<p>Your spirit becomes one with your deity, granting you the bearing of a god. As long as you are in this stance, you have a 5-foot emanation that has the aura trait. Whenever you take an action, you can take it from your space or any space within the emanation as if it were the space you occupy. An enemy that ends its turn completely within the emanation is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to your Strikes. You can Sustain the emanation to increase its radius by 5 feet, up to a maximum of 15 feet.</p>",
+      "name": "Presencia divina",
+      "description": "<p>Tu espiritu se vuelve uno con tu deidad, concediendote el porte de un dios. Mientras estas en esta postura, tienes una emanacion de 5 pies con el rasgo aura. Siempre que realizas una accion, puedes realizarla desde tu espacio o desde cualquier espacio dentro de la emanacion como si fuera el espacio que ocupas. Un enemigo que termina su turno completamente dentro de la emanacion queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} contra tus Golpes. Puedes Mantener la emanacion para aumentar su radio en 5 pies, hasta un maximo de 15 pies.</p>",
       "prerequisites": [
         {
-          "value": "Mortal Herald Dedication"
+          "value": "Dedicacion de heraldo mortal"
         }
       ],
-      "selfEffect": "Stance: Divine Presence"
+      "selfEffect": "Postura: Presencia divina"
     },
     "Divine Rebuttal": {
       "name": "Rechazo divino",
@@ -10519,8 +10519,8 @@
     },
     "Divine Weapon": {
       "name": "Arma divina",
-      "description": "<p> <strong> Frecuencia </strong> una vez por turno </p>\n <p> <strong> Desencadenante </strong> Acabas de Lanzar un conjuro usando uno de tus espacios de conjuro divinos en tu turno. </p>\n <hr />\n <p>  Desvías energía de conjuro residual a un arma que estás empuñando. Hasta el final de tu turno, el arma inflige 1d4 daño espiritual adicional. Si eres sagrado o sacrílego, los Golpes con el arma también obtienen dicho rasgo y el daño adicional se incrementa a 2d4 contra las criaturas del rasgo opuesto. </p>",
-      "selfEffect": "Effect: Divine Weapon"
+      "description": "<p><strong>Frecuencia</strong> una vez por turno</p>\n<p><strong>Desencadenante</strong> Acabas de Lanzar un conjuro usando uno de tus espacios de conjuro divinos en tu turno.</p>\n<hr />\n<p>Desvias energia de conjuro residual a un arma que estas empunando. Hasta el final de tu turno, el arma inflige 1d4 de dano espiritual adicional. Si eres sagrado o sacrilego, los Golpes con el arma tambien obtienen ese rasgo y el dano adicional aumenta a 2d4 contra criaturas con el rasgo opuesto.</p>",
+      "selfEffect": "Efecto: Arma divina"
     },
     "Divine Wings": {
       "name": "Alas divinas",
