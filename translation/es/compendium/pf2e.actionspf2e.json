@@ -979,8 +979,8 @@
       "description": "<p>El peso de la autoridad cae con fuerza sobre ti, igual que sobre las criaturas cercanas. Todos los enemigos en una @Template[type:burst|distance:15] a 60 pies o menos reciben @Damage[(@actor.level)[spirit]|options:area-damage]{daño espiritual igual a tu nivel} con una salvacion basica de @Check[will|against:exemplar|basic|options:area-effect] contra tu CD de clase. Cualquier enemigo que falle su salvacion debe arrodillarse inmediatamente, quedando @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} como accion gratuita.</p>"
     },
     "Hellbreaker Strike": {
-      "name": "Hellbreaker Strike",
-      "description": "<p>Make a weapon or unarmed Strike. This counts as two attacks when determining your multiple attack penalty. If your Strike hits, you deal an additional 2d8 spirit damage. At 18th level, this increases to 3d8 spirit damage.</p>"
+      "name": "Golpe rompeinfiernos",
+      "description": "<p>Haz un Golpe con arma o sin armas. Esto cuenta como dos ataques al determinar tu penalizador de ataque multiple. Si tu Golpe impacta, infliges 2d8 de daño espiritual adicional. A nivel 18, esto aumenta a 3d8 de daño espiritual.</p>"
     },
     "Hide": {
       "name": "Esconderse",
@@ -995,13 +995,13 @@
       "description": "<p> <strong> Frecuencia </strong> una vez al día </p>\n <hr />\n <p> <strong> Efecto </strong> Intentas una prueba de habilidad para realizar una actividad de exploración, incluso si normalmente requiere que estés entrenado para hacerlo. Estás entrenado en la habilidad el tiempo suficiente para realizar esa única verificación (hasta un máximo de 10 minutos). </p>\n <p> Ya sea que la prueba tenga éxito o no, en las próximas 24 horas deberás realizar un pequeño favor para apaciguar al espíritu que te ayudó.usted, determinado por el DJ (normalmente algo relacionado con una sensación, como probar una determinada comida, escuchar una canción específica o fumar en pipa). No puedes volver a acoger a Spirit hasta que hayas realizado el favor. Si no lo has completado después de 24 horas, estás @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigado} hasta que se cumpla la obligación. </p>"
     },
     "Host of Wrath": {
-      "name": "Host of Wrath",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Spend 1 Mythic Point. The spirits of four runelords of wrath (Angothane, Xiren, Thybidos, and Alaznist) swirl around you for 1 minute. While the spirits remain, whenever you hit or critically hit with a Reactive Strike, the target takes an additional 5 spirit damage, or 10 spirit damage if the target of your Reactive Strike is Xanderghul, the Runelord of Pride.</p>"
+      "name": "Hueste de ira",
+      "description": "<p><strong>Frecuencia</strong> una vez al dia</p>\n<hr />\n<p><strong>Efecto</strong> Gasta 1 Punto mitico. Los espiritus de cuatro señores runicos de la ira (Angothane, Xiren, Thybidos y Alaznist) giran a tu alrededor durante 1 minuto. Mientras los espiritus permanezcan, siempre que impactes o impactes criticamente con un Golpe reactivo, el objetivo recibe 5 de daño espiritual adicional, o 10 de daño espiritual si el objetivo de tu Golpe reactivo es Xanderghul, el Señor Runico del Orgullo.</p>"
     },
     "Hunt Prey": {
-      "name": "Perseguir presa",
-      "description": "<p> Designas a una única criatura como tu presa y centras tus ataques en dicha criatura. Debes ser capaz de ver u oír a la presa, o debes estar rastreando a la misma durante la exploración. </p>\n <p> Obtienes un bonificador +2 por circunstancia a las pruebas de Percepción cuando Buscas a tu presa y un bonificador +2 por circunstancia a las pruebas de Supervivencia cuando @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Buscas} a tu presa y un bonificador +2 por circunstancia a las pruebas de Supervivencia cuando @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Rastreas} a tu presa. Ignoras además el penalizador por llevar a cabo ataques a distancia en tu segundo incremento de alcance contra la presa a la que persigues. </p>\n <p> Sólo puedes tener una criatura designada como presa en un momento dado. Si utilizas Perseguir presa contra una criatura cuando ya tienes a otra designada, la criatura previa pierde la designación, que va a parar a la nueva presa. Tu designación dura hasta tus preparativos del día siguiente. </p>",
-      "selfEffect": "Effect: Hunt Prey"
+      "name": "Cazar presa",
+      "description": "<p>Designas a una unica criatura como tu presa y centras tus ataques en ella. Debes ser capaz de ver u oir a la presa, o debes estar rastreandola durante la exploracion.</p>\n<p>Obtienes un bonificador de circunstancia +2 a las pruebas de Percepcion cuando @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Buscas} a tu presa y un bonificador de circunstancia +2 a las pruebas de Supervivencia cuando @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Rastreas} a tu presa. Ademas, ignoras el penalizador por realizar ataques a distancia en tu segundo incremento de alcance contra la presa que cazas.</p>\n<p>Solo puedes tener una criatura designada como presa en un momento dado. Si usas Cazar presa contra una criatura cuando ya tienes otra designada, la criatura anterior pierde la designacion, que pasa a la nueva presa. Tu designacion dura hasta tus siguientes preparativos diarios.</p>",
+      "selfEffect": "Efecto: Cazar presa"
     },
     "Hunt Runelord": {
       "name": "Cazar señor de las runas",
@@ -1009,17 +1009,17 @@
       "selfEffect": "Efecto: Cazar señor de las runas"
     },
     "Hunt the Razer's Pawn": {
-      "name": "Hunt the Razer's Pawn",
-      "description": "<p>Designate a single creature that you can see or hear, or whom you've spent a significant amount of time studying and reading about from afar (subject to the GM's approval), and who you know to be an agent of Treerazer. You gain a +2 circumstance bonus to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} or @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense the Motive} of this creature. This creature takes a –1 circumstance penalty to saving throws against spells or effects you create; this penalty increases to –2 against effects that have the holy trait.</p>\n<p>You can have only one creature designated by Hunt the Razer's Pawn at a time. If you use this ability against a creature when you already have one designated, the prior creature loses the designation and the new creature gains the designation. This lasts until your next daily preparations.</p>",
-      "selfEffect": "Effect: Hunt the Razer's Pawn"
+      "name": "Cazar al peon del Devastador",
+      "description": "<p>Designa a una unica criatura que puedas ver u oir, o a la que hayas dedicado una cantidad significativa de tiempo a estudiar y leer desde lejos, sujeto a la aprobacion del DJ, y que sepas que es agente de Treerazer. Obtienes un bonificador de circunstancia +2 a las pruebas de Percepcion para @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Buscar} o @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sentir motivacion} de esta criatura. Esta criatura sufre un penalizador de circunstancia -1 a los tiros de salvacion contra conjuros o efectos que crees; este penalizador aumenta a -2 contra efectos que tengan el rasgo sagrado.</p>\n<p>Solo puedes tener una criatura designada por Cazar al peon del Devastador a la vez. Si usas esta aptitud contra una criatura cuando ya tienes una designada, la criatura anterior pierde la designacion y la nueva criatura la obtiene. Esto dura hasta tus siguientes preparativos diarios.</p>",
+      "selfEffect": "Efecto: Cazar al peon del Devastador"
     },
     "Hustle": {
       "name": "Aligerar",
       "description": "<p> Te esfuerzas para moverte al doble de tu velocidad de viaje. Puedes Aligerar tan sólo tantos minutos como tu modificador por Constitución x 10 (mínimo 10 minutos). Si estás en un grupo que Aligera, utiliza el menor modificador por Constitución de todo el grupo para determinar la rapidez con que el grupo puede Aligerar junto. </p>"
     },
     "I Defy You!": {
-      "name": "I Defy You!",
-      "description": "<p><strong>Trigger</strong> You fail a save against a mental effect</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You reroll the triggering save and must take the second result.</p>"
+      "name": "¡Te desafio!",
+      "description": "<p><strong>Desencadenante</strong> Fallas una salvacion contra un efecto mental</p>\n<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p><strong>Efecto</strong> Vuelves a tirar la salvacion desencadenante y debes quedarte con el segundo resultado.</p>"
     },
     "Identify Alchemy": {
       "name": "Identificar alquimia",
@@ -1038,8 +1038,8 @@
       "description": "<p> <strong> Desencadenante </strong> El objetivo de tu vulnerabilidad de explotación usa una acción de concentración, manipulación o movimiento, o abandona un cuadrado durante una acción de movimiento que está usando. </p>\n <p> <strong> Requisitos </strong> Estás sosteniendo tu arma y te estás beneficiando de Explotar la vulnerabilidad contra una criatura. La criatura debe estar a tu alcance si empuñas un arma cuerpo a cuerpo, o a 10 pies si empuñas un arma a distancia. </p><hr />\n <p> Tu arma detecta un momento de debilidad y guía tu mano para derribar a un enemigo. Realiza un Golpe contra la criatura desencadenante con tu arma. Si tu ataque es un golpe crítico, interrumpes la acción desencadenante. Este Golpe no cuenta para tu penalización por ataque múltiple, y tu penalización por ataque múltiple no se aplica a este Golpe. </p>"
     },
     "Impromptu Investment": {
-      "name": "Impromptu Investment",
-      "description": "<p>(one minute)</p>\n<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p><strong>Effect</strong> You can remove investiture from an item you currently have invested, and this investiture does not count against your daily limit. You can invest a new item in this item's place.</p>"
+      "name": "Investidura improvisada",
+      "description": "<p>(un minuto)</p>\n<p><strong>Frecuencia</strong> una vez cada 10 minutos</p><hr /><p><strong>Efecto</strong> Puedes retirar la investidura de un objeto que tengas actualmente investido, y esta investidura no cuenta contra tu limite diario. Puedes investir un nuevo objeto en lugar de este.</p>"
     },
     "Indomitable Act": {
       "name": "Acto indomable",
@@ -1066,12 +1066,12 @@
       "description": "<p><strong>Desencadenante</strong> Un aliado con el que has revisado estratagemas está a punto de hacer una tirada de ataque o una prueba de habilidad</p>\n<hr />\n<p><strong>Efecto</strong> El aliado tira dos veces los dados para la prueba desencadenante y utiliza el mejor de ambos resultados. Dicho aliado queda después temporalmente inmune a tu Estratagema inspirada hasta tus siguientes preparativos diarios.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.K0Sv9AHgq245hSLC]{Efecto: Estratagema inspirada}</p>"
     },
     "Insta-Ballista": {
-      "name": "Insta-Ballista",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>Your squad quickly assembles a special impromptu ballista and fires it to lethal effect. Signal all squadmates you previously chose to participate in this tactic (see Special); these squadmates must be within the aura of your commander's banner. They can all Stride as a free action to assemble into a close formation; as long as all the chosen squadmates end their movement no more than 10 feet away from any of the other chosen squadmates. They quickly assemble an impromptu ballista and fire it at an enemy of your choice within 200 feet.</p>\n<p>This is a ranged Strike using your proficiency bonus with martial weapons and gets an item bonus to the attack roll you make with it equal to the number of assisting squadmates (maximum +4). It deals @Damage[10d12[piercing]] damage. Once the attack is completed, the pieces of the impromptu ballista fall apart.</p>\n<hr />\n<p><strong>Special</strong> You must choose all squadmates who will participate in this tactic at the time you prepare it. Those squadmates must carry the pieces of your impromptu ballista, which can be made out of easily scavenged materials; these pieces are 8 Bulk in total and can be divided in 1 Bulk increments among any number of the chosen squadmates.</p>"
+      "name": "Balista instantanea",
+      "description": "<p><strong>Frecuencia</strong> una vez al dia</p>\n<hr />\n<p>Tu escuadra monta rapidamente una balista improvisada especial y la dispara con efecto letal. Señala a todos los compañeros de escuadra que elegiste previamente para participar en esta tactica (ver Especial); estos compañeros deben estar dentro del aura del estandarte de tu comandante. Todos pueden Caminar como accion gratuita para formar una formacion cerrada, siempre que todos los compañeros elegidos terminen su movimiento a no mas de 10 pies de cualquiera de los otros compañeros elegidos. Montan rapidamente una balista improvisada y la disparan contra un enemigo de tu eleccion a 200 pies o menos.</p>\n<p>Este es un Golpe a distancia que usa tu bonificador de competencia con armas marciales y obtiene un bonificador de objeto a la tirada de ataque que haces con el igual al numero de compañeros de escuadra que ayudan (maximo +4). Inflige @Damage[10d12[piercing]] de daño. Una vez completado el ataque, las piezas de la balista improvisada se desarman.</p>\n<hr />\n<p><strong>Especial</strong> Debes elegir a todos los compañeros de escuadra que participaran en esta tactica en el momento en que la prepares. Esos compañeros deben llevar las piezas de tu balista improvisada, que puede estar hecha de materiales faciles de recoger; estas piezas tienen 8 Volumen en total y pueden dividirse en incrementos de 1 Volumen entre cualquier numero de los compañeros elegidos.</p>"
     },
     "Instant Recovery": {
-      "name": "Instant Recovery",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Spend a Mythic Point. You regain Hit Points equal to your Constitution modifier (minimum 1) × your level and remove the @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} condition. If you're suffering from any recurring affliction such as poison or disease, attempt a saving throw against the affliction at mythic proficiency to see if you reduce the affliction's stage. This saving throw cannot increase your affliction's stage, nor does it change the affliction's maximum duration.</p>"
+      "name": "Recuperacion instantanea",
+      "description": "<p><strong>Frecuencia</strong> una vez al dia</p>\n<hr />\n<p><strong>Efecto</strong> Gasta un Punto mitico. Recuperas Puntos de Golpe iguales a tu modificador de Constitucion (minimo 1) × tu nivel y eliminas la condicion @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigado}. Si sufres alguna afliccion recurrente como veneno o enfermedad, intenta un tiro de salvacion contra la afliccion con competencia mitica para ver si reduces la etapa de la afliccion. Este tiro de salvacion no puede aumentar la etapa de tu afliccion ni cambia la duracion maxima de la afliccion.</p>"
     },
     "Intensify Vulnerability": {
       "name": "Intensificar la vulnerabilidad",
@@ -1082,20 +1082,20 @@
       "description": "<p> Utilizas tu mano o tus manos para manipular un objeto o el terreno. Puedes hacerte con un objeto no atendido o almacenado, abrir una puerta o llevar a cabo algún efecto similar. Podrías necesitar una prueba de habilidad para determinar si tu acción de Interactuar tiene éxito. </p>"
     },
     "Intercept Attack": {
-      "name": "Intercept Attack",
-      "description": "<p><strong>Trigger</strong> An ally within 10 feet of you takes physical damage.</p>\n<hr />\n<p>You fling yourself in the way of oncoming harm to protect an ally. You can Step, but you must end your movement adjacent to the triggering ally. You take the damage instead of the triggering ally. Apply your own immunities, weaknesses, and resistances to the damage, not the ally's.</p>\n<hr />\n<p><strong>Special</strong> You can extend this ability to an ally within 15 feet of you if the damage comes from your taunted enemy. If this ally is farther than you can Step to reach, you can Stride instead of Stepping; you still must end the movement adjacent to your ally.</p>"
+      "name": "Interceptar ataque",
+      "description": "<p><strong>Desencadenante</strong> Un aliado a 10 pies o menos de ti recibe daño fisico.</p>\n<hr />\n<p>Te lanzas al camino del daño entrante para proteger a un aliado. Puedes Dar un paso, pero debes terminar tu movimiento adyacente al aliado desencadenante. Recibes el daño en lugar del aliado desencadenante. Aplica tus propias inmunidades, debilidades y resistencias al daño, no las del aliado.</p>\n<hr />\n<p><strong>Especial</strong> Puedes extender esta aptitud a un aliado a 15 pies o menos de ti si el daño procede de tu enemigo provocado. Si este aliado esta mas lejos de lo que puedes alcanzar con un Paso, puedes Caminar en lugar de Dar un paso; aun asi debes terminar el movimiento adyacente a tu aliado.</p>"
     },
     "Intercession Spell": {
-      "name": "Intercession Spell",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> Your hierophant Casts a Spell</p>\n<hr />\n<p><strong>Effect</strong> Interceding directly in your hierophant's affairs, you grant them additional magic. They do not expend the spell slot, usage, or Focus Point.</p>"
+      "name": "Conjuro de intercesion",
+      "description": "<p><strong>Frecuencia</strong> una vez al dia</p>\n<p><strong>Desencadenante</strong> Tu hierofante Lanza un conjuro</p>\n<hr />\n<p><strong>Efecto</strong> Al interceder directamente en los asuntos de tu hierofante, le concedes magia adicional. No gasta el espacio de conjuro, uso o Punto de Foco.</p>"
     },
     "Into the Fray": {
       "name": "En la lucha",
       "description": "<p> <strong> Desencadenante </strong> Tiras la iniciativa. </p>\n <hr />\n <p> Sabes que los problemas pueden acechar en cada esquina y tus manos nunca se alejan mucho de tus pistoleras. Puedes interactuar para sacar un arma a distancia con una mano y luego puedes interactuar para sacar un arma cuerpo a cuerpo con una mano. Como primera acción en tu primer turno, puedes dar zancadas como acción gratuita hacia un enemigo que puedas percibir. Si no puedes percibir ningún enemigo o no puedes finalizar tu movimiento más cerca de uno,No puedo usar este Stride. </p>"
     },
     "Inured to Death": {
-      "name": "Inured to Death",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You take damage from an effect with the death or void trait</p>\n<hr />\n<p><strong>Effect</strong> You gain resistance to that damage equal to half your level (minimum 1).</p>"
+      "name": "Curtido ante la muerte",
+      "description": "<p><strong>Frecuencia</strong> una vez al dia</p>\n<p><strong>Desencadenante</strong> Recibes daño de un efecto con el rasgo muerte o vacio</p>\n<hr />\n<p><strong>Efecto</strong> Obtienes resistencia a ese daño igual a la mitad de tu nivel (minimo 1).</p>"
     },
     "Invest an Item": {
       "name": "Investir un objeto",
@@ -1122,8 +1122,8 @@
       "description": "<p> <strong> Frecuencia </strong> una vez al día </p>\n <hr />\n <p> <strong> Efecto </strong> uedes maldecir a otra criatura con la torpeza. Esta maldición tiene un rango de distancia de 30 pies (9 m) y debes ser capaz de ver a tu objetivo, que obtiene una salvación de Voluntad  @Check[type:will|dc:resolve(@actor.system.attributes.classOrSpellDC.value)]  contra tu CD de clase o contra tu CD de conjuro , la mayor de ambas.</p>\n <hr />\n <p> <strong> Éxito </strong>El objetivo no se ve afectado y queda inmune durante 24 horas.</p>\n <p> <strong> Fallo </strong> El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} durante 1 minuto. </p>\n <p> <strong> Fallo crítico </strong> El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} durante 1 minuto. </p>"
     },
     "Jumping Jenny": {
-      "name": "saltando jenny",
-      "description": "<p><strong>Cost</strong> 1 fireworks display</p>\n<hr />\n<p><strong>Effect</strong> Target a flying creature within 60 feet. Until the start of your next turn, each time that creature attempts to Fly, they must succeed at an @Check[acrobatics|against:class-spell|rollerRole:target] check to Maneuver in Flight against the DC of your fireworks display, or the Fly action is disrupted. If all the creature's attempts to Fly are disrupted, at the end of its turn, it falls harmlessly to the ground below. A jumping jenny costs 2 fireworks displays, rather than 1.</p>"
+      "name": "Jenny saltarina",
+      "description": "<p><strong>Coste</strong> 1 despliegue de fuegos artificiales</p>\n<hr />\n<p><strong>Efecto</strong> Elige como objetivo a una criatura voladora a 60 pies o menos. Hasta el comienzo de tu siguiente turno, cada vez que esa criatura intente Volar, debe tener exito en una prueba de @Check[acrobatics|against:class-spell|rollerRole:target] para Maniobrar en vuelo contra la CD de tu despliegue de fuegos artificiales, o la accion Volar queda interrumpida. Si todos los intentos de la criatura de Volar quedan interrumpidos, al final de su turno cae sin sufrir daño al suelo bajo ella. Una jenny saltarina cuesta 2 despliegues de fuegos artificiales en lugar de 1.</p>"
     },
     "Lantern Beam": {
       "name": "Haz de linterna",
