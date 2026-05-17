@@ -4367,19 +4367,19 @@
     },
     "Blasting Beams": {
       "name": "Rayos explosivos",
-      "description": "<p> <strong> Requisitos </strong> Tienes vía libre. </p>\n <hr />\n <p> Un rayo de calor dirigido o un arco de relámpago es una de las formas más sencillas de proyectar energía. Disparas una ráfaga o un rayo con una mano. Haz un @Check[type:deviant|defense:ac]{attack roll} contra una criatura dentro de 30 pies. Si tienes éxito, el rayo inflige @Damage[(floor(@actor.level/2)d6)[@actor.flags.pf2e.deviantAbilities.dragon.damageType]]{1d6 damage} por cada 2 niveles que tengas al objetivo, o duplica el daño en caso de un éxito crítico. </p>\n <hr />\n <p><strong> Despertar </strong> Tus rayos atraviesan objetivos. En lugar de hacer una tirada de ataque para dañar a una sola criatura dentro de 30 pies, puedes usar Bblasting Beams como una actividad de 2 acciones para dañar a todas las criaturas en un @Template[type:line|distance:60], con una salvación @Check[type:reflex|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true]. </p>\n <hr />\n <p> <strong> Despertar </strong> En su lugar, puedes optar por lanzar rayos más pequeños y más rápidos desde tus ojos. Estos atacan [[/r (floor(@actor.level/2)d4)]]{d4s} en lugar de d6, pero el ataque tiene laRasgo ágil, y no necesitas una mano libre para hacerlo, aunque tus ojos deben estar descubiertos. </p>"
+      "description": "<p><strong>Requisitos</strong> Tienes una mano libre.</p><hr /><p>Un rayo de calor dirigido o un arco de relampago es una de las formas mas sencillas de proyectar energia. Disparas una rafaga o un rayo con una mano. Haz una @Check[type:deviant|defense:ac]{tirada de ataque} contra una criatura a 30 pies o menos. Si tienes exito, el rayo inflige @Damage[(floor(@actor.level/2)d6)[@actor.flags.pf2e.deviantAbilities.dragon.damageType]]{1d6 de daño} por cada 2 niveles que tengas al objetivo, o el doble de daño con un exito critico.</p><hr /><p><strong>Despertar</strong> Tus rayos atraviesan a los objetivos. En lugar de hacer una tirada de ataque para dañar a una sola criatura a 30 pies o menos, puedes usar Rayos explosivos como actividad de 2 acciones para dañar a todas las criaturas en una @Template[type:line|distance:60]{linea de 60 pies}, con una salvacion basica de @Check[type:reflex|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true]{Reflejos}.</p><hr /><p><strong>Despertar</strong> En su lugar, puedes optar por lanzar rayos mas pequeños y rapidos desde los ojos. Estos usan [[/r (floor(@actor.level/2)d4)]]{d4} en lugar de d6, pero el ataque tiene el rasgo agil, y no necesitas una mano libre para hacerlo, aunque tus ojos deben estar descubiertos.</p>"
     },
     "Blaze of Revelation": {
-      "name": "Blaze of Revelation",
-      "description": "<p><strong>Requirements</strong> You are @UUID[Compendium.pf2e.conditionitems.Item.zXZjC8HLaRoLR17U]{Cursebound 4}.</p><hr /><p>Your mind and body can, for a short time and with great peril, surpass the final limits of your curse. For 1 minute, you shed torrential flames, become surrounded by spirits, or otherwise overflow with divine power in a way that suits your mystery. On each of your turns during that time, you can cast one revelation spell without spending Focus Points.</p>\n<p>At the end of the minute, the durations of any revelation spells you cast during that time end, and you must attempt a @Check[fortitude|dc:40] save.</p><hr /><p><strong>Critical Success</strong> You aren't otherwise affected.</p>\n<p><strong>Success</strong> You are @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 2} and can't reduce or remove this condition until your next preparations.</p>\n<p><strong>Failure</strong> You are @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 4} and can't reduce or remove this condition until your next preparations.</p>\n<p><strong>Critical Failure</strong> You die.</p>"
+      "name": "Llamarada de revelacion",
+      "description": "<p><strong>Requisitos</strong> Estas @UUID[Compendium.pf2e.conditionitems.Item.zXZjC8HLaRoLR17U]{Maldito 4}.</p><hr /><p>Tu mente y tu cuerpo pueden, durante un breve tiempo y con gran peligro, superar los limites finales de tu maldicion. Durante 1 minuto, desprendes llamas torrenciales, quedas rodeado de espiritus o desbordas de poder divino de alguna otra forma que encaje con tu misterio. En cada uno de tus turnos durante ese tiempo, puedes lanzar un conjuro de revelacion sin gastar Puntos de Foco.</p><p>Al final del minuto, las duraciones de cualquier conjuro de revelacion que hayas lanzado durante ese tiempo terminan, y debes intentar una salvacion de @Check[fortitude|dc:40]{Fortaleza CD 40}.</p><hr /><p><strong>Exito critico</strong> No sufres ningun otro efecto.</p><p><strong>Exito</strong> Quedas @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 2} y no puedes reducir ni eliminar esta condicion hasta tus siguientes preparativos.</p><p><strong>Fallo</strong> Quedas @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 4} y no puedes reducir ni eliminar esta condicion hasta tus siguientes preparativos.</p><p><strong>Fallo critico</strong> Mueres.</p>"
     },
     "Blazing Aura": {
       "name": "Aura ardiente",
       "description": "<p> <strong> Frecuencia </strong> una vez al día. </p>\n <p> <strong> Activador </strong> Tu turno comienza. </p>\n <hr />\n <p> Explotas en llamas. Los enemigos en un @Template[type:emanation|distance:20] reciben @Damage[7d6[fire]] daño ( @Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true] usando tu clase DC o hechizo DC, lo que sea mayor). Los aliados en el área son @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Acelerado} durante 1 ronda y pueden usar la acción adicional para atacar o caminar. </p>"
     },
     "Blazing Spirit": {
-      "name": "Blazing Spirit",
-      "description": "<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Trigger</strong> A creature damages you with a melee attack.</p>\n<p><strong>Requirements</strong> Your attuned apparition grants Battlegrounds LORE or Volcano LORE as an apparition skill.</p>\n<hr />\n<p>Your apparition grants fiery defenses. You gain resistance equal to your level against the triggering damage, and the triggering creature takes @Damage[(ternary(gte(@actor.level,18),3,ternary(gte(@actor.level,12),2,1)))d6[fire],(ternary(gte(@actor.level,18),3,ternary(gte(@actor.level,12),2,1)))[persistent,fire]] damage. This damage increases to 2d6 fire damage and 2 persistent fire damage at 12th level, and 3d6 fire damage and 3 persistent fire damage at 18th level.</p>"
+      "name": "Espiritu llameante",
+      "description": "<p><strong>Frecuencia</strong> una vez cada 10 minutos</p><p><strong>Disparador</strong> Una criatura te daña con un ataque cuerpo a cuerpo.</p><p><strong>Requisitos</strong> Tu aparicion armonizada concede Saber de campos de batalla o Saber de volcanes como habilidad de aparicion.</p><hr /><p>Tu aparicion te concede defensas igneas. Obtienes resistencia igual a tu nivel contra el daño desencadenante, y la criatura desencadenante recibe @Damage[(ternary(gte(@actor.level,18),3,ternary(gte(@actor.level,12),2,1)))d6[fire],(ternary(gte(@actor.level,18),3,ternary(gte(@actor.level,12),2,1)))[persistent,fire]]{daño de fuego y daño persistente de fuego}. Este daño aumenta a 2d6 de daño de fuego y 2 de daño persistente de fuego a nivel 12, y a 3d6 de daño de fuego y 3 de daño persistente de fuego a nivel 18.</p>"
     },
     "Blazing Streak": {
       "name": "Racha ardiente",
@@ -4401,24 +4401,24 @@
     },
     "Blazing Wave": {
       "name": "Ola ardiente",
-      "description": "<p> Las llamas fluyen de ti en una cascada, envolviendo a todos en un @Template[type:cone|distance:30] . Cada criatura en el área recibe @Damage[(floor((@actor.level -4)/2)+4)d6[fire] |rasgos:area-damage] daño con una salvación @Check[type:reflex|dc:resolve(@actor.system.proficiencies.classDCs.kineticist.dc)|basic:true] contra tu clase DC. Una criatura que falla críticamente su salvación es noqueada @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} . </p>\n <hr />\n <p> <strong> Nivel (+2) </strong> El daño aumenta en 1d6. </p>"
+      "description": "<p>Las llamas fluyen de ti en una cascada, envolviendo a todos en un @Template[type:cone|distance:30]{cono de 30 pies}. Cada criatura en el area recibe @Damage[(floor((@actor.level -4)/2)+4)d6[fire]|options:area-damage]{daño de fuego} con una salvacion basica de @Check[type:reflex|dc:resolve(@actor.system.proficiencies.classDCs.kineticist.dc)|basic:true]{Reflejos} contra tu CD de clase. Una criatura que falle criticamente su salvacion queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbada}.</p><hr /><p><strong>Nivel +2</strong> El daño aumenta en 1d6.</p>"
     },
     "Bleak Humorist": {
-      "name": "Bleak Humorist",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You are reduced to 0 Hit Points by a creature within 30 feet, but not immediately killed</p>\n<hr />\n<p>You've watched dozens of morbid comedies depicting Beldam I, Taldor's prankster emperor whose wife accidentally killed him when she struck him with a marble bust after he jumped out from behind curtains to frighten her. You are reminded of this depressing yet perversely comical tale whenever you are near death, and in your final moments of consciousness you murmur a bleak joke to the creature who reduced you to 0 Hit Points. The creature must attempt a @Check[will|against:class] save against your CLASS DC.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is distracted by giggles and can't use reactions until the beginning of your next turn.</p>\n<p><strong>Failure</strong> The target laughs uncontrollably. It can't use reactions until the beginning of your next turn and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}.</p>\n<p><strong>Critical Failure</strong> As failure, but the target also immediately falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>",
+      "name": "Humorista sombrio",
+      "description": "<p><strong>Frecuencia</strong> una vez al dia</p><p><strong>Disparador</strong> Una criatura a 30 pies o menos te reduce a 0 Puntos de Golpe, pero no te mata inmediatamente.</p><hr /><p>Has visto docenas de comedias morbidas que representan a Beldam I, el emperador bromista de Taldor, cuya esposa lo mato accidentalmente al golpearlo con un busto de marmol despues de que el saltara desde detras de unas cortinas para asustarla. Recuerdas esta historia deprimente pero perversamente comica siempre que estas cerca de la muerte, y en tus ultimos momentos de consciencia murmuras un chiste sombrio a la criatura que te redujo a 0 Puntos de Golpe. La criatura debe intentar una salvacion de @Check[will|against:class]{Voluntad} contra tu CD de clase.</p><hr /><p><strong>Exito critico</strong> El objetivo no se ve afectado.</p><p><strong>Exito</strong> El objetivo se distrae con risitas y no puede usar reacciones hasta el comienzo de tu siguiente turno.</p><p><strong>Fallo</strong> El objetivo rie de forma incontrolable. No puede usar reacciones hasta el comienzo de tu siguiente turno y queda @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentizado 1}.</p><p><strong>Fallo critico</strong> Como fallo, pero el objetivo tambien cae inmediatamente @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}.</p>",
       "prerequisites": [
         {
-          "value": "Kitharodian Actor Dedication"
+          "value": "Dedicacion de actor kitharodiano"
         }
       ]
     },
     "Bleed Out": {
-      "name": "Bleed Out",
-      "description": "<p><strong>Requirements</strong> Your most recent action was to cast a non-cantrip spell that granted you a blood magic effect.</p><hr /><p>You channel the residual energy from the last spell you cast into a ranged bloodletting. Make a ranged spell attack roll against the AC of a target within 60 feet. This attack deals persistent bleed damage equal to the rank of the spell you just cast.</p>"
+      "name": "Desangrar",
+      "description": "<p><strong>Requisitos</strong> Tu accion mas reciente fue lanzar un conjuro que no era un truco y que te concedio un efecto de magia de sangre.</p><hr /><p>Canalizas la energia residual del ultimo conjuro que lanzaste en una sangria a distancia. Haz una tirada de ataque de conjuro a distancia contra la CA de un objetivo a 60 pies o menos. Este ataque inflige daño persistente de sangrado igual al rango del conjuro que acabas de lanzar.</p>"
     },
     "Bleeding Finisher": {
       "name": "Remate sangrante",
-      "description": "<p> Tu golpe provoca un sangrado profuso. Realiza un golpe cortante o perforante con un arma o un ataque desarmado que te permita agregar tu daño de golpe preciso. </p>\n <p> Si golpeas, el objetivo también sufre @Damage[(@actor.flags.pf2e.swashbuckler.preciseStrike)d6[persistent,bleed]]{Persistente bleed damage} igual al daño preciso del remate de tu golpe. </p>"
+      "description": "<p>Tu golpe provoca un sangrado profuso. Realiza un Golpe cortante o perforante con un arma o ataque sin armas que te permita añadir tu daño de golpe preciso.</p><p>Si impactas, el objetivo tambien sufre @Damage[(@actor.flags.pf2e.swashbuckler.preciseStrike)d6[persistent,bleed]]{daño persistente de sangrado} igual al daño preciso del remate de tu golpe.</p>"
     },
     "Bless Shield": {
       "name": "Bendito Escudo",
@@ -4478,11 +4478,11 @@
       ]
     },
     "Blessed Counterstrike": {
-      "name": "Blessed Counterstrike",
-      "description": "<p><strong>Requirements</strong> An enemy triggered your champion's reaction since the end of your last turn.</p><hr /><p>You call upon divine power and make a weapon or unarmed Strike against the enemy who triggered your champion's reaction. The Strike deals one extra weapon damage die. If this Strike hits, until the start of your next turn, the target gains weakness equal to half your level to all Strikes made by you and your allies.</p>",
+      "name": "Contraataque bendito",
+      "description": "<p><strong>Requisitos</strong> Un enemigo desencadeno tu reaccion de campeon desde el final de tu ultimo turno.</p><hr /><p>Invocas poder divino y haces un Golpe con arma o sin armas contra el enemigo que desencadeno tu reaccion de campeon. El Golpe inflige un dado de daño de arma adicional. Si este Golpe impacta, hasta el comienzo de tu siguiente turno el objetivo obtiene debilidad igual a la mitad de tu nivel contra todos los Golpes realizados por ti y tus aliados.</p>",
       "prerequisites": [
         {
-          "value": "champion's reaction that grants an ally resistance to an enemy's damage (including the grandeur, justice, liberation, and redemption causes)"
+          "value": "reaccion de campeon que concede resistencia a un aliado contra el daño de un enemigo, incluidas las causas de grandeza, justicia, liberacion y redencion"
         }
       ]
     },
@@ -4518,11 +4518,11 @@
       ]
     },
     "Blessed Sentinel": {
-      "name": "Blessed Sentinel",
-      "description": "<p>You infuse a weapon with the blessing of Ketephys and attack. Make a Strike. This Strike gains the holy trait and deals an additional 1d4 spirit damage, or 2d4 spirit damage against fiends. This counts as two attacks for your multiple attack penalty.</p>",
+      "name": "Centinela bendito",
+      "description": "<p>Infundes un arma con la bendicion de Ketephys y atacas. Haz un Golpe. Este Golpe obtiene el rasgo sagrado e inflige 1d4 de daño espiritual adicional, o 2d4 de daño espiritual contra infernales. Esto cuenta como dos ataques para tu penalizador por ataques multiples.</p>",
       "prerequisites": [
         {
-          "value": "Wylderheart Dedication"
+          "value": "Dedicacion de corazon salvaje"
         }
       ]
     },
@@ -4542,11 +4542,11 @@
       ]
     },
     "Blessed Thorn Strike": {
-      "name": "Blessed Thorn Strike",
-      "description": "<p><strong>Requirements</strong> You witnessed an enemy harm an ally with a Strike or spell last round.</p>\n<hr />\n<p>When you see a foe hurt one of your allies, your righteous retribution causes your weapon to sprout holy thorns. Make a Strike against the triggering enemy. If you hit and deal damage, the target must also succeed at a @Check[fortitude|against:class-spell] saving throw against your CLASS DC or spell DC, whichever is higher, or become @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (or @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} on a critical failure).</p>",
+      "name": "Golpe de espina bendita",
+      "description": "<p><strong>Requisitos</strong> Presenciaste como un enemigo daño a un aliado con un Golpe o conjuro el asalto anterior.</p><hr /><p>Cuando ves a un enemigo herir a uno de tus aliados, tu justa retribucion hace que tu arma brote espinas sagradas. Haz un Golpe contra el enemigo desencadenante. Si impactas e infliges daño, el objetivo tambien debe tener exito en una tirada de salvacion de @Check[fortitude|against:class-spell]{Fortaleza} contra tu CD de clase o CD de conjuro, la que sea mayor, o queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1}, o @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 2} con un fallo critico.</p>",
       "prerequisites": [
         {
-          "value": "Rose Warden Dedication"
+          "value": "Dedicacion de guardian de la rosa"
         }
       ]
     },
@@ -4578,20 +4578,20 @@
       ]
     },
     "Bloc Tactics": {
-      "name": "Bloc Tactics",
-      "description": "<p>You have experience in undertaking direct action and know how to protect the identity and health of you and your allies when doing so. During your daily preparations, you can select a number of targets equal to half your level. You disguise the targets to hide their identities, which gives them a +4 status bonus to DECEPTION checks to prevent others from seeing through their disguises, and lets them add their level even if untrained. Additionally, the disguises also protect from smoke, fumes, and inhaled substances, giving the targets a +3 status bonus to saving throws against them. The targets can quickly doff or don their disguises with a two-action activity.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Eu3hA5BrHX9u9Bjc]{Effect: Bloc Tactics}</p>",
+      "name": "Tacticas de bloque",
+      "description": "<p>Tienes experiencia en emprender acciones directas y sabes como proteger la identidad y la salud de tus aliados y la tuya al hacerlo. Durante tus preparativos diarios, puedes seleccionar un numero de objetivos igual a la mitad de tu nivel. Disfrazas a los objetivos para ocultar sus identidades, lo que les da un bonificador de estado +4 a las pruebas de Engaño para impedir que otros vean a traves de sus disfraces, y les permite añadir su nivel aunque no esten entrenados. Ademas, los disfraces tambien protegen contra humo, vapores y sustancias inhaladas, concediendo a los objetivos un bonificador de estado +3 a las tiradas de salvacion contra ellos. Los objetivos pueden quitarse o ponerse rapidamente sus disfraces con una actividad de dos acciones.</p><p>@UUID[Compendium.pf2e.feat-effects.Item.Eu3hA5BrHX9u9Bjc]{Efecto: Tacticas de bloque}</p>",
       "prerequisites": [
         {
-          "value": "Broken Chain Dedication"
+          "value": "Dedicacion de cadena rota"
         }
       ]
     },
     "Blood And Spirit": {
-      "name": "Blood And Spirit",
-      "description": "<p>Your connection to the divine has sanctified your blood, but the power only manifests when you are shedding it. Choose holy or unholy. While you are taking persistent bleed damage, you can INTERACT to coat a piercing or slashing weapon you're wielding with your blood. Until the end of your turn, your Strikes with that weapon deal an additional 1d6 spirit damage with the chosen trait to creatures with the opposing trait.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.tu36I5HWaqOjaLVu]{Effect: Blood and Spirit}</p>\n<p>Alternatively, you can deal @Damage[1d6[slashing]] damage to yourself (which can't be resisted in any way) as part of that INTERACT action if you aren't taking persistent bleed damage.</p>",
+      "name": "Sangre y espiritu",
+      "description": "<p>Tu conexion con lo divino ha santificado tu sangre, pero el poder solo se manifiesta cuando la estas derramando. Elige sagrado o profano. Mientras estas sufriendo daño persistente de sangrado, puedes Interactuar para cubrir con tu sangre un arma perforante o cortante que empuñes. Hasta el final de tu turno, tus Golpes con esa arma infligen 1d6 de daño espiritual adicional con el rasgo elegido a criaturas con el rasgo opuesto.</p><p>@UUID[Compendium.pf2e.feat-effects.Item.tu36I5HWaqOjaLVu]{Efecto: Sangre y espiritu}</p><p>Como alternativa, puedes infligirte @Damage[1d6[slashing]]{1d6 de daño cortante}, que no puede resistirse de ningun modo, como parte de esa accion de Interactuar si no estas sufriendo daño persistente de sangrado.</p>",
       "prerequisites": [
         {
-          "value": "Divine Dragonblood"
+          "value": "Sangre de dragon divina"
         }
       ]
     },
