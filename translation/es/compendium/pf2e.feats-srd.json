@@ -5176,11 +5176,11 @@
       ]
     },
     "Breath Unleashed": {
-      "name": "Breath Unleashed",
-      "description": "<p>You're able to channel more of your draconic benefactor's power and focus it into your @UUID[Compendium.pf2e.feats-srd.Item.PPUNMjRLQYnmwQvF]{Kobold Breath}, increasing its effectiveness but requiring more time to recover. When you use Kobold Breath, you can increase the damage dice to d8s and increase the area to @Template[cone|distance:30]{30 feet for a cone} or @Template[line|distance:60]{60 feet for a line}. If you do, you can't use Kobold Breath again for 1 hour. During this time, Kobold Breath cannot be recharged using Kobold Momentum.</p>",
+      "name": "Aliento desatado",
+      "description": "<p>Puedes canalizar mas poder de tu benefactor draconico y concentrarlo en tu @UUID[Compendium.pf2e.feats-srd.Item.PPUNMjRLQYnmwQvF]{Aliento de kobold}, aumentando su eficacia pero requiriendo mas tiempo para recuperarte. Cuando usas Aliento de kobold, puedes aumentar los dados de daño a d8 y aumentar el area a @Template[cone|distance:30]{30 pies para un cono} o @Template[line|distance:60]{60 pies para una linea}. Si lo haces, no puedes volver a usar Aliento de kobold durante 1 hora. Durante este tiempo, Aliento de kobold no puede recargarse usando Impulso kobold.</p>",
       "prerequisites": [
         {
-          "value": "Kobold Breath"
+          "value": "Aliento de kobold"
         }
       ]
     },
@@ -5190,7 +5190,7 @@
     },
     "Breath of Hungry Death": {
       "name": "Aliento de muerte hambrienta",
-      "description": "<p> <strong> Frecuencia </strong> Una vez por hora </p>\n <hr />\n <p> Has descubierto misterios ocultos que te permiten desatar el hambre devastadora de Kabriri sobre tus enemigos con una sola exhalación, liberando una enorme nube de gas carnívoro que brilla con una enfermiza luz verde. Repartes @Damage[7d6[acid], 7d6[void]]{7d6 acid and 7d6 void damage} a todas las criaturas dentro de un @Template[type:cone|distance:30] ( @Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true] salvación con una CD igual a tu clase DC o hechizo DC, lo que sea mayor). ALa criatura que obtiene un fallo crítico en esta salvación de Reflejos también es @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado} durante 1 ronda. Una criatura que supera esta salvación se vuelve temporalmente inmune al Aliento de muerte hambrienta durante 24 horas. </p>\n <p> Cuando una criatura muere usando Breath of Hungry Death, su cuerpo se reduce a una pila humeante de cenizas que flotan con vapores necróticos. Puede utilizar una reacción para inhalar inmediatamente estos vapores y sentirse saciado o completamente saciado como si hubiera usado Consume Flesh.</p>",
+      "description": "<p><strong>Frecuencia</strong> una vez por hora</p><hr /><p>Has descubierto misterios ocultos que te permiten desatar el hambre devastadora de Kabriri sobre tus enemigos con una sola exhalacion, liberando una enorme nube de gas carnivoro que brilla con una enfermiza luz verde. Infliges @Damage[7d6[acid], 7d6[void]]{7d6 de daño de acido y 7d6 de daño de vacio} a todas las criaturas dentro de un @Template[type:cone|distance:30]{cono de 30 pies}, con una salvacion basica de @Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]{Reflejos} contra tu CD de clase o CD de conjuro, la que sea mayor. Una criatura que obtenga un fallo critico en esta salvacion de Reflejos tambien queda @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizada} durante 1 asalto. Una criatura que tenga exito en esta salvacion queda temporalmente inmune a Aliento de muerte hambrienta durante 24 horas.</p><p>Cuando una criatura muere usando Aliento de muerte hambrienta, su cuerpo se reduce a una pila humeante de cenizas que flotan con vapores necroticos. Puedes usar una reaccion para inhalar inmediatamente estos vapores y quedar saciado o completamente saciado como si hubieras usado Consumir carne.</p>",
       "prerequisites": [
         {
           "value": "Devorador secreto"
@@ -5202,17 +5202,17 @@
       "description": "<p><strong>Usage</strong> imbued into a body ikon</p>\n<hr />\n<p>Reddish ash stains your ikon, impossible to clean off. Every time you exhale, a tinge of red and a scent of spiced smoke float upon your breath. The imbued ikon gains the following ability.</p>\n<p><strong>Transcendence—@UUID[Compendium.pf2e.actionspf2e.Item.jD8RW5PdLI6snlsO]{Mark the Center}</strong> <span class=\"action-glyph\">1</span> (transcendence)</p>\n<p>@Embed[Compendium.pf2e.actionspf2e.Item.jD8RW5PdLI6snlsO inline]</p>"
     },
     "Breath of the Dragon (Dragon Disciple)": {
-      "name": "Breath of the Dragon (Dragon Disciple)",
-      "description": "<p>You can use a powerful breath weapon, much like the dragon you emulate. You gain the @UUID[Compendium.pf2e.spells-srd.Item.JcobNl4iE9HmMYtE]{Dragon Breath} sorcerer bloodline spell and a focus pool of 1 Focus Point. If you already have a focus pool, increase your number of Focus Points by 1.</p>",
+      "name": "Aliento del dragon (discipulo del dragon)",
+      "description": "<p>Puedes usar un arma de aliento poderosa, muy parecida a la del dragon al que emulas. Obtienes el conjuro de linaje de hechicero @UUID[Compendium.pf2e.spells-srd.Item.JcobNl4iE9HmMYtE]{Aliento de dragon} y una reserva de foco de 1 Punto de Foco. Si ya tienes una reserva de foco, aumenta tu numero de Puntos de Foco en 1.</p>",
       "prerequisites": [
         {
-          "value": "Dragon Disciple Dedication"
+          "value": "Dedicacion de discipulo del dragon"
         }
       ]
     },
     "Breath of the Dragon (Dragonblood)": {
-      "name": "Breath of the Dragon (Dragonblood)",
-      "description": "<p>Tapping into the physiology of your draconic ancestor, you can exhale a torrent of energy in a @Template[type:cone|distance:15] or a @Template[type:line|distance:30], dealing @Damage[1d4[untyped]] damage. Each creature in the area must attempt a basic saving throw against the higher of your CLASS DC or spell DC. You can't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d4. The shape of the breath, the damage type, and the saving throw match those of your draconic exemplar. This ability has the trait associated with the type of damage it deals.</p>"
+      "name": "Aliento del dragon (sangre de dragon)",
+      "description": "<p>Recurriendo a la fisiologia de tu ancestro draconico, puedes exhalar un torrente de energia en un @Template[type:cone|distance:15]{cono de 15 pies} o una @Template[type:line|distance:30]{linea de 30 pies}, infligiendo @Damage[1d4[untyped]]{1d4 de daño}. Cada criatura en el area debe intentar una salvacion basica contra la mayor entre tu CD de clase o CD de conjuro. No puedes volver a usar esta capacidad durante [[/r 1d4 #Recharge this ability]]{1d4 asaltos}.</p><p>A nivel 3 y cada 2 niveles a partir de entonces, el daño aumenta en 1d4. La forma del aliento, el tipo de daño y la tirada de salvacion coinciden con los de tu ejemplar draconico. Esta capacidad tiene el rasgo asociado con el tipo de daño que inflige.</p>"
     },
     "Briar Battler": {
       "name": "Luchador de zarzo",
@@ -5259,17 +5259,17 @@
       ]
     },
     "Brilliant Flash": {
-      "name": "Brilliant Flash",
-      "description": "<p>Your light cleanses souls of fear. When you use @UUID[Compendium.pf2e.actionspf2e.Item.ITWUi1r8Z7EtChkB]{Flash of Grandeur}, the attacker is also @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} for 1 round.</p>",
+      "name": "Destello brillante",
+      "description": "<p>Tu luz purifica las almas del miedo. Cuando usas @UUID[Compendium.pf2e.actionspf2e.Item.ITWUi1r8Z7EtChkB]{Destello de grandeza}, el atacante tambien queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} durante 1 asalto.</p>",
       "prerequisites": [
         {
-          "value": "grandeur case"
+          "value": "causa de grandeza"
         }
       ]
     },
     "Brilliant Vision": {
-      "name": "Brilliant Vision",
-      "description": "<p>You ignore concealment from clouds, dust, fog, mist, smoke, and similarly loose matter. You can also cast @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{See the Unseen} as an innate occult spell once per day.</p>"
+      "name": "Vision brillante",
+      "description": "<p>Ignoras la ocultacion de nubes, polvo, niebla, bruma, humo y materia suelta similar. Tambien puedes lanzar @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{Ver lo invisible} como conjuro innato ocultista una vez al dia.</p>"
     },
     "Brine May": {
       "name": "Maia salina",
@@ -5285,33 +5285,33 @@
       "description": "<p> El legado de tu ancestro elemental se afirma como agua salobre, como el agua de mar del océano. Obtienes la reacción @UUID[Compendium.pf2e.actionspf2e.Item.b6CanpXyUKJgxEwq]{Salt Wound}. </p>"
     },
     "Bring Into the Fold": {
-      "name": "Bring Into the Fold",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>Not all who oppress are irredeemable, and given encouragement and some time, they will abandon their cause and join your fight against the very system they used to uphold. If your next action is to issue an @UUID[Compendium.pf2e.actionspf2e.Item.cwBsPU24715fUCub]{Ultimatum of Liberation}, you may have up to 10 targets who can hear you attempt a @Check[will|against:class-spell] save against your CLASS DC or spell DC, whichever is higher. You can cause any changes in attitude to last longer than the current social interaction by spending at least 10 minutes speaking with the affected targets earnestly about your cause.</p>\n<hr />\n<p><strong>Success</strong> The target is unaffected.</p>\n<p><strong>Failure</strong> The target's attitude toward you improves by one step.</p>\n<p><strong>Critical Failure</strong> The target's attitude toward you improves by two steps.</p>",
+      "name": "Traer al redil",
+      "description": "<p><strong>Frecuencia</strong> una vez al dia</p><hr /><p>No todos los que oprimen son irredimibles, y con aliento y algo de tiempo abandonaran su causa y se uniran a tu lucha contra el mismo sistema que antes sostenian. Si tu siguiente accion es emitir un @UUID[Compendium.pf2e.actionspf2e.Item.cwBsPU24715fUCub]{Ultimatum de liberacion}, puedes hacer que hasta 10 objetivos que puedan oirte intenten una salvacion de @Check[will|against:class-spell]{Voluntad} contra tu CD de clase o CD de conjuro, la que sea mayor. Puedes hacer que cualquier cambio de actitud dure mas que la interaccion social actual dedicando al menos 10 minutos a hablar sinceramente con los objetivos afectados sobre tu causa.</p><hr /><p><strong>Exito</strong> El objetivo no se ve afectado.</p><p><strong>Fallo</strong> La actitud del objetivo hacia ti mejora un grado.</p><p><strong>Fallo critico</strong> La actitud del objetivo hacia ti mejora dos grados.</p>",
       "prerequisites": [
         {
-          "value": "Broken Chain Dedication"
+          "value": "Dedicacion de cadena rota"
         }
       ]
     },
     "Briny Beverage": {
-      "name": "Briny Beverage",
-      "description": "<p>You can survive off the sea as well as gain insight from its waters. You can drink saltwater and quench your thirst as though it's freshwater. In addition, once per day, you can take a gulp of seawater using an INTERACT action to gain imprecise wavesense with a range of 20 feet, which lasts for 1 minute. This wavesense functions only within the body of water you drank from.</p>",
+      "name": "Bebida salobre",
+      "description": "<p>Puedes sobrevivir del mar y obtener perspicacia de sus aguas. Puedes beber agua salada y saciar tu sed como si fuera agua dulce. Ademas, una vez al dia, puedes dar un trago de agua de mar usando una accion de Interactuar para obtener sentido de las olas impreciso con un alcance de 20 pies, que dura 1 minuto. Este sentido de las olas solo funciona dentro del cuerpo de agua del que bebiste.</p>",
       "prerequisites": [
         {
-          "value": "kijimuna gnome heritage"
+          "value": "herencia de gnomo kijimuna"
         }
       ]
     },
     "Bristle": {
       "name": "Erizarse",
-      "description": "<p> Te acurrucas en una postura que extiende tus espinas óseas. Obtienes una circunstancia +1 a la CA hasta el comienzo de tu siguiente turno. </p>\n <p> @UUID[Compendium.pf2e.feat-effects.Item.4Zj71naHbY6O9ggP]{Effect: Bristle} </p>\n <hr />\n <p> <strong> Especial </strong> Si tienes la reacción @UUID[Compendium.pf2e.actionspf2e.Item.oAWNluJaMlaGysXA]{Barbed Quills} o un ataque desarmado de púas, cada uno gana un bono de circunstancia +1 a las tiradas de daño hasta el comienzo de tu siguiente turno. </p>"
+      "description": "<p>Te encoges en una postura que extiende tus puas oseas. Obtienes un bonificador circunstancial +1 a la CA hasta el comienzo de tu siguiente turno.</p><p>@UUID[Compendium.pf2e.feat-effects.Item.4Zj71naHbY6O9ggP]{Efecto: Erizarse}</p><hr /><p><strong>Especial</strong> Si tienes la reaccion @UUID[Compendium.pf2e.actionspf2e.Item.oAWNluJaMlaGysXA]{Puas barbadas} o un ataque sin armas de puas, cada uno obtiene un bonificador circunstancial +1 a las tiradas de daño hasta el comienzo de tu siguiente turno.</p>"
     },
     "Broad Snare": {
-      "name": "Broad Snare",
-      "description": "<p>You can create longer snares for quick deployment, creating lines on the battlefield. When you prepare snares for quick deployment, you can prepare some of them as broad snares. A broad snare takes up a @Template[type:line|distance:20] starting from the square in which you craft the snare but it costs two of your quick deployment snares. A broad snare can trigger from a creature entering any portion of its area, and all its effects apply over the full area.</p>",
+      "name": "Trampa amplia",
+      "description": "<p>Puedes crear trampas mas largas para despliegue rapido, trazando lineas en el campo de batalla. Cuando preparas trampas para despliegue rapido, puedes preparar algunas de ellas como trampas amplias. Una trampa amplia ocupa una @Template[type:line|distance:20]{linea de 20 pies} que parte de la casilla en la que fabricas la trampa, pero cuesta dos de tus trampas de despliegue rapido. Una trampa amplia puede desencadenarse cuando una criatura entra en cualquier parte de su area, y todos sus efectos se aplican sobre el area completa.</p>",
       "prerequisites": [
         {
-          "value": "Snarecrafter Dedication"
+          "value": "Dedicacion de trampero"
         }
       ]
     },
@@ -5325,8 +5325,8 @@
       ]
     },
     "Broken Chain Dedication": {
-      "name": "Broken Chain Dedication",
-      "description": "<p>Your Calling was sparked by your outrage at tyrants, after having witnessed a brutal act of oppression that you could no longer abide. You may spend a Mythic Point when you attempt an @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} or @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{FORCE OPEN} check to do so at mythic proficiency. Additionally, you gain the @UUID[Compendium.pf2e.actionspf2e.Item.cwBsPU24715fUCub]{Ultimatum of Liberation} action, but you also gain the anathema, \"You must not use Ultimatum of Liberation on a creature you don't believe to be oppressing others or who has conceded their power\". If you break this anathema, you lose access to abilities granted by this archetype until you atone or make amends.</p>\n<p>Your GM has final say about what constitutes oppression, which can be a difficult and sometimes nebulous concept. In general, oppression is the cruel and unjust use of authority or power. Some examples include performing acts of violence against those without power, removing an individual's agency through mind control magic, and engaging in organized mistreatment or exploitation of others. When the members of a royal guard assault a beggar just to get him off the street, that is oppression. When a tax collector levies higher charges against the less fortunate because it's the law, they are participating in a system of oppression.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.8gUHChhAFihZP5M4]{Broken Chain}</p>"
+      "name": "Dedicacion de cadena rota",
+      "description": "<p>Tu Llamada prendio por tu indignacion ante los tiranos, tras presenciar un acto brutal de opresion que ya no podias tolerar. Puedes gastar un Punto Mitico cuando intentas una prueba de @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar} o @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Forzar apertura} para realizarla con competencia mitica. Ademas, obtienes la accion @UUID[Compendium.pf2e.actionspf2e.Item.cwBsPU24715fUCub]{Ultimatum de liberacion}, pero tambien obtienes el anatema: \"No debes usar Ultimatum de liberacion sobre una criatura que no creas que oprime a otros o que haya cedido su poder\". Si rompes este anatema, pierdes el acceso a las capacidades concedidas por este arquetipo hasta que expies tu falta o hagas reparaciones.</p><p>Tu DJ tiene la ultima palabra sobre que constituye opresion, un concepto que puede ser dificil y a veces nebuloso. En general, la opresion es el uso cruel e injusto de autoridad o poder. Algunos ejemplos incluyen realizar actos de violencia contra quienes carecen de poder, eliminar la agencia de una persona mediante magia de control mental y participar en maltratos o explotacion organizada de otros. Cuando los miembros de una guardia real agreden a un mendigo solo para sacarlo de la calle, eso es opresion. Cuando un recaudador de impuestos impone cargos mas altos a los menos afortunados porque es la ley, esta participando en un sistema de opresion.</p><p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.8gUHChhAFihZP5M4]{Cadena rota}</p>"
     },
     "Brutal Beating": {
       "name": "Paliza brutal",
@@ -5351,11 +5351,11 @@
       "description": "<p> Tus impactos críticos resultan particularmente devastadores. Con un impacto crítico con un arma cuerpo a cuerpo, añade un dado de daño adicional. Esto es además de cualquier dado adicional que obtienes si el arma es letal o fatal. El objetivo también sufre un daño persistente por sangrado igual a 2 dados de daño. </p>"
     },
     "Brutal Crush": {
-      "name": "Brutal Crush",
-      "description": "<p><strong>Requirements</strong> Your last action dealt bludgeoning damage using an unarmed Strike granted by a morph or polymorph effect.</p>\n<hr />\n<p>You've learned how to cloud your foes' minds with the brutal impact of your repeated attacks. Make an unarmed Strike against the same target. If the Strike hits and deals bludgeoning damage, the target is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 2} for 1 round (@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 3} on a critical hit).</p>",
+      "name": "Aplastamiento brutal",
+      "description": "<p><strong>Requisitos</strong> Tu ultima accion infligio daño contundente usando un Golpe sin armas concedido por un efecto de morfosis o polimorfia.</p><hr /><p>Has aprendido a nublar la mente de tus enemigos con el impacto brutal de tus ataques repetidos. Haz un Golpe sin armas contra el mismo objetivo. Si el Golpe impacta e inflige daño contundente, el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefacto 2} durante 1 asalto, o @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefacto 3} con un impacto critico.</p>",
       "prerequisites": [
         {
-          "value": "animal instinct or untamed order"
+          "value": "instinto animal u orden indomita"
         }
       ]
     },
