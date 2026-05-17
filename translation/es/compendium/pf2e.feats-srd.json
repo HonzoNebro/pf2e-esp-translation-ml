@@ -8938,14 +8938,14 @@
       ]
     },
     "Death Roll": {
-      "name": "Death Roll",
-      "description": "<p><strong>Requirements</strong> You are in your crocodile or hybrid shape and have a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}.</p>\n<hr />\n<p>You corkscrew your body, twisting your victim. You attempt a jaws Strike against the grabbed creature, with a +2 circumstance bonus if you're fighting in water. If the Strike hits, you knock the creature @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}; if it misses, they escape your GRAB.</p>",
+      "name": "Giro mortal",
+      "description": "<p><strong>Requisitos</strong> Estas en tu forma de cocodrilo o hibrida y tienes a una criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrada}.</p>\n<hr />\n<p>Giras tu cuerpo en espiral, retorciendo a tu victima. Intentas un Golpe de fauces contra la criatura agarrada, con un bonificador de circunstancia +2 si estas luchando en el agua. Si el Golpe impacta, derribas a la criatura y queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbada}; si falla, escapa de tu AGARRE.</p>",
       "prerequisites": [
         {
-          "value": "Werecreature Dedication"
+          "value": "Dedicacion de licantropo"
         },
         {
-          "value": "werecrocodile"
+          "value": "hombre cocodrilo"
         }
       ]
     },
@@ -8959,23 +8959,23 @@
       ]
     },
     "Death from Above": {
-      "name": "Death from Above",
-      "description": "<p><strong>Requirements</strong> You are standing, climbing, or balancing on a surface at least 10 feet above your target.</p>\n<hr />\n<p>You leap down on your target, using their body to cushion your fall and your momentum to empower your attack. Attempt an ATHLETICS check to @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap} to a space adjacent to the target. If you land adjacent to the target, compare the @Check[type:athletics|defense:reflex] check result against your target's Reflex DC.</p>\n<p>When you leap onto a creature in this way, you do not also deal damage for falling on a creature. Regardless of your result, the target is temporarily immune to your Death from Above for 1 minute.</p>\n<hr />\n<p><strong>Critical Success</strong> The target falls and lands @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}, reducing the falling damage you take by an amount equal to twice your level. You then can make a melee Strike against the target. The Strike gains the deadly d8 weapon property and deals an additional 1d6 bludgeoning damage. This additional damage increases to 2d6 if you are a master in ATHLETICS, and to 3d6 if you are legendary in ATHLETICS.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} until the beginning of your next turn, reducing the falling damage you take by an amount equal to your level. You can then make a melee Strike against the target, adding the deadly d8 weapon property to the attack.</p>\n<p><strong>Failure</strong> You can make a Strike against the target.</p>\n<p><strong>Critical Failure</strong> You fall prone, whether you take falling damage or not.</p>",
+      "name": "Muerte desde arriba",
+      "description": "<p><strong>Requisitos</strong> Estas de pie, trepando o equilibrandote sobre una superficie al menos 10 pies por encima de tu objetivo.</p>\n<hr />\n<p>Saltas sobre tu objetivo, usando su cuerpo para amortiguar tu caida y tu impulso para potenciar tu ataque. Intenta una prueba de ATLETISMO para @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Saltar} a un espacio adyacente al objetivo. Si aterrizas adyacente al objetivo, compara el resultado de la prueba de @Check[type:athletics|defense:reflex]{Atletismo} contra la CD de Reflejos de tu objetivo.</p>\n<p>Cuando saltas sobre una criatura de esta forma, no infliges tambien dano por caer sobre una criatura. Independientemente de tu resultado, el objetivo queda temporalmente inmune a tu Muerte desde arriba durante 1 minuto.</p>\n<hr />\n<p><strong>Exito critico</strong> El objetivo cae y aterriza @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}, reduciendo el dano de caida que recibes en una cantidad igual al doble de tu nivel. Entonces puedes hacer un Golpe cuerpo a cuerpo contra el objetivo. El Golpe obtiene la propiedad de arma mortal d8 e inflige 1d6 de dano contundente adicional. Este dano adicional aumenta a 2d6 si eres maestro en ATLETISMO, y a 3d6 si eres legendario en ATLETISMO.</p>\n<p><strong>Exito</strong> El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} hasta el comienzo de tu siguiente turno, reduciendo el dano de caida que recibes en una cantidad igual a tu nivel. Entonces puedes hacer un Golpe cuerpo a cuerpo contra el objetivo, anadiendo al ataque la propiedad de arma mortal d8.</p>\n<p><strong>Fallo</strong> Puedes hacer un Golpe contra el objetivo.</p>\n<p><strong>Fallo critico</strong> Caes tumbado, recibas o no dano de caida.</p>",
       "prerequisites": [
         {
-          "value": "Canopy Predator"
+          "value": "Depredador del dosel"
         },
         {
-          "value": "expert in Atletismo"
+          "value": "experto en Atletismo"
         }
       ]
     },
     "Death from Above (Eternal Legend)": {
-      "name": "Death from Above (Eternal Legend)",
-      "description": "<p><strong>Requirements</strong> You are adjacent to a climbable surface at least 10 feet tall.</p>\n<hr />\n<p>Seemingly to defy gravity, you use a nearby vertical surface to propel yourself upward and then strike downward like the driving rain. Stride up to half your Speed upward on the required surface; if you have a CLIMB Speed, you may use your full CLIMB Speed instead. The surface does not need to span the full height of your Stride. You can then either make a ranged Strike at a target within your weapon's first range increment and land in the space you began (or an adjacent space) without taking falling damage, or you can land in a space adjacent to a creature within 10 feet of the required surface without taking falling damage and make a melee Strike against that creature. Either Strike deals an extra two dice of weapon damage. In addition, the target dealt damage by your Strike must succeed at a @Check[fortitude|against:class] saving throw against your CLASS DC or become @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>",
+      "name": "Muerte desde arriba (leyenda eterna)",
+      "description": "<p><strong>Requisitos</strong> Estas adyacente a una superficie trepable de al menos 10 pies de alto.</p>\n<hr />\n<p>Aparentando desafiar la gravedad, usas una superficie vertical cercana para impulsarte hacia arriba y luego golpear hacia abajo como lluvia torrencial. Da una Zancada de hasta la mitad de tu Velocidad hacia arriba por la superficie requerida; si tienes Velocidad de TREPAR, puedes usar tu Velocidad de TREPAR completa en su lugar. La superficie no necesita cubrir toda la altura de tu Zancada. Luego puedes hacer un Golpe a distancia contra un objetivo dentro del primer incremento de alcance de tu arma y aterrizar en el espacio donde comenzaste, o en uno adyacente, sin recibir dano de caida; o puedes aterrizar en un espacio adyacente a una criatura a 10 pies o menos de la superficie requerida sin recibir dano de caida y hacer un Golpe cuerpo a cuerpo contra esa criatura. Cualquiera de los Golpes inflige dos dados adicionales de dano de arma. Ademas, el objetivo danado por tu Golpe debe tener exito en una salvacion de @Check[fortitude|against:class]{Fortaleza} contra tu CD de clase o queda @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1}.</p>",
       "prerequisites": [
         {
-          "value": "Eternal Legend Dedication"
+          "value": "Dedicacion de leyenda eterna"
         }
       ]
     },
@@ -8993,32 +8993,32 @@
       "description": "<p> Has pasado tu vida desafiando a la muerte misma, y ​​la proximidad a ese enemigo implacable sólo hace que tu corazón lata más fuerte. </p>\n <p> Cuando estás recibiendo daño persistente o tu valor @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Herido} es 1 o mayor, obtienes una bonificación de circunstancia +2 a las tiradas de salvación de Fortaleza. </p>"
     },
     "Deathblow": {
-      "name": "Deathblow",
-      "description": "<p>Your carefully prepared and placed shot brings instant death to your target. Attempt a Strike with a blowgun or sling using ammunition that you have poisoned with your simple injury poison. If the Strike is successful and you are @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} from the target, or unnoticed or undetected by them, the target must succeed at a @Check[fortitude|against:class|traits:death,incapacitation] save against your CLASS DC or die; this is a death and incapacitation effect. A creature that survives is temporarily immune to the instant death effect of Deathblow for 1 day.</p>",
+      "name": "Golpe mortal",
+      "description": "<p>Tu disparo cuidadosamente preparado y colocado trae muerte instantanea a tu objetivo. Intenta un Golpe con cerbatana u honda usando municion que hayas envenenado con tu veneno simple de herida. Si el Golpe tiene exito y estas @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido} del objetivo, o inadvertido o no detectado por el, el objetivo debe tener exito en una salvacion de @Check[fortitude|against:class|traits:death,incapacitation]{Fortaleza} contra tu CD de clase o muere; este es un efecto de muerte e incapacitacion. Una criatura que sobrevive queda temporalmente inmune al efecto de muerte instantanea de Golpe mortal durante 1 dia.</p>",
       "prerequisites": [
         {
-          "value": "Guerrilla Dedication"
+          "value": "Dedicacion de guerrillero"
         },
         {
-          "value": "Poisoned Sticks and Stones"
+          "value": "Palos y piedras envenenados"
         }
       ]
     },
     "Deathguard": {
-      "name": "Deathguard",
-      "description": "<p>The twisting rotted limbs, clattering bones, or swirling ectoplasm of your horde can hide you from others' vision. You and your allies can occupy the same space as your horde, becoming @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to all creatures when you do so.</p>",
+      "name": "Guardia de la muerte",
+      "description": "<p>Los miembros putrefactos retorcidos, huesos entrechocando o ectoplasma arremolinado de tu horda pueden ocultarte de la vista ajena. Tu y tus aliados podeis ocupar el mismo espacio que tu horda, quedando @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Ocultos} para todas las criaturas cuando lo haceis.</p>",
       "prerequisites": [
         {
-          "value": "Necrologist Dedication"
+          "value": "Dedicacion de necrologo"
         }
       ]
     },
     "Deathless Servant": {
-      "name": "Deathless Servant",
-      "description": "<p>The servants of apocalypse know that it is impossible to cheat death, but your will is sufficient to help you outlive even your strongest enemies. The first time each day you would be reduced to 0 Hit Points but not immediately killed, you avoid being knocked out and instead of taking the damage, you regain a number of Hit Points equal to @Damage[(2*@actor.level)[healing]]{twice your level}. Your @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded} condition increases by 1.</p>\n<p>In addition, whenever you have the wounded condition, you gain a status bonus to your ARMOR CLASS equal to your wounded condition value and a status bonus to the damage of your Strikes equal to twice your wounded condition value.</p>",
+      "name": "Sirviente inmortal",
+      "description": "<p>Los servidores del apocalipsis saben que es imposible enganar a la muerte, pero tu voluntad basta para ayudarte a sobrevivir incluso a tus enemigos mas fuertes. La primera vez cada dia que fueras a quedar reducido a 0 Puntos de Golpe pero no muerto de inmediato, evitas quedar inconsciente y, en lugar de recibir el dano, recuperas un numero de Puntos de Golpe igual a @Damage[(2*@actor.level)[healing]]{el doble de tu nivel}. Tu condicion @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Herido} aumenta en 1.</p>\n<p>Ademas, siempre que tengas la condicion herido, obtienes un bonificador de estado a tu CLASE DE ARMADURA igual al valor de tu condicion herido y un bonificador de estado al dano de tus Golpes igual al doble del valor de tu condicion herido.</p>",
       "prerequisites": [
         {
-          "value": "Apocalypse Rider Dedication"
+          "value": "Dedicacion de jinete del apocalipsis"
         }
       ]
     },
@@ -9036,11 +9036,11 @@
       "description": "<p> <strong> Frecuencia </strong> una vez por asalto</p>\n <p> <strong> Desencadenante </strong> Utilizas @UUID[Compendium.pf2e.classfeatures.Item.sPtl05wwTpqFI0lL]{Alquimia rápida} para elaborar una bomba alquímica que es por lo menos 2 niveles inferior a tu nivel de alquimia avanzada. </p>\n <hr />\n <p> Tus bombas imponen efectos adicionales a tus enemigos. Mezclas una sustancia en la bomba que causa uno de los siguientes efectos: @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado} , @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ensordecido}, @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} o bien un penalizador de -5 pies (-1,5 m) por estatus a las Velocidades.</p>\n <p> Si el ataque con esta bomba acierta, el objetivo debe conseguir una salvación de Fortaleza o sufrir dicho efecto hasta el final de tu siguiente turno. Utiliza la CD de tu clase para esta tirada de salvación (incluso si la bomba la lanza alguien que no eres tú). </p>"
     },
     "Debilitating Breath": {
-      "name": "Debilitating Breath",
-      "description": "<p>Your breath causes lasting hindrance to those it harms. Creatures who fail their saves against your @UUID[Compendium.pf2e.feats-srd.Item.7y8DKd24c7eqzJGV]{Breath of the Dragon} gain one of the following conditions, based on the damage type of your breath: @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} (electricity, cold, fire, or sonic damage), @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (acid, physical, or poison damage), or @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} (force, mental, spirit, vitality, or void damage). The condition lasts until the end of your next turn.</p>",
+      "name": "Aliento debilitante",
+      "description": "<p>Tu aliento causa un impedimento duradero a quienes dana. Las criaturas que fallen sus salvaciones contra tu @UUID[Compendium.pf2e.feats-srd.Item.7y8DKd24c7eqzJGV]{Aliento del dragon} obtienen una de las siguientes condiciones, segun el tipo de dano de tu aliento: @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} (dano de electricidad, frio, fuego o sonico), @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1} (dano de acido, fisico o veneno), o @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefacto 1} (dano de fuerza, mental, espiritual, vitalidad o vacio). La condicion dura hasta el final de tu siguiente turno.</p>",
       "prerequisites": [
         {
-          "value": "Breath of the Dragon"
+          "value": "Aliento del dragon"
         }
       ]
     },
@@ -9062,11 +9062,11 @@
       ]
     },
     "Deceptive Deduction": {
-      "name": "Deceptive Deduction",
-      "description": "<p><strong>Trigger</strong> A creature you can see uses @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}.</p>\n<hr />\n<p>You've had to take on many roles while working undercover, so you're practiced at following the example of those around you to pretend expertise in a variety of fields. You learn what skill the creature was using to Recall Knowledge and whether that creature is trained in the skill. If it's trained, you can use DECEPTION to Recall Knowledge as if it were that skill for the next minute.</p>",
+      "name": "Deduccion enganosa",
+      "description": "<p><strong>Desencadenante</strong> Una criatura que puedes ver usa @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recordar conocimiento}.</p>\n<hr />\n<p>Has tenido que asumir muchos papeles mientras trabajabas encubierto, por lo que tienes practica siguiendo el ejemplo de quienes te rodean para fingir pericia en diversos campos. Aprendes que habilidad estaba usando la criatura para Recordar conocimiento y si esa criatura esta entrenada en la habilidad. Si esta entrenada, puedes usar ENGAÑO para Recordar conocimiento como si fuera esa habilidad durante el siguiente minuto.</p>",
       "prerequisites": [
         {
-          "value": "Twilight Talon Dedication"
+          "value": "Dedicacion de Garra Crepuscular"
         }
       ]
     },
@@ -9084,11 +9084,11 @@
       ]
     },
     "Declare Anathema": {
-      "name": "Declare Anathema",
-      "description": "<p><strong>Frequency</strong> once per 10 minutes</p>\n<hr />\n<p>You declare a creature you are aware of within 30 feet anathema, causing their friends and strangers to shy away from them. Attempt a @Check[religion|against:will] check against the target's Will DC.</p>\n<hr />\n<p><strong>Critical Success</strong> Any creature that attempts to target the anathema creature with a beneficial effect must succeed at a @Check[flat|dc:5|showDC:all] or the action is disrupted. This curse remains until removed by @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Cleanse Affliction} or a similar effect, or an atone ritual. In addition, the creature gains weakness 10 to spirit damage for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.gyfPLgqeIgW7fYD0]{Effect: Declare Anathema}</p>\n<p><strong>Success</strong> As critical success, but the curse lasts for 1 minute.</p>\n<p><strong>Failure</strong> As critical success, but the curse lasts for 1 round and the target doesn't gain weakness to spirit damage.</p>\n<p><strong>Critical Failure</strong> The target is unaffected.</p>",
+      "name": "Declarar anatema",
+      "description": "<p><strong>Frecuencia</strong> una vez cada 10 minutos</p>\n<hr />\n<p>Declaras anatema a una criatura de la que seas consciente a 30 pies o menos, haciendo que amigos y extranos se aparten de ella. Intenta una prueba de @Check[religion|against:will]{Religion} contra la CD de Voluntad del objetivo.</p>\n<hr />\n<p><strong>Exito critico</strong> Cualquier criatura que intente elegir a la criatura anatema como objetivo de un efecto beneficioso debe tener exito en una @Check[flat|dc:5|showDC:all]{prueba sencilla CD 5} o la accion se interrumpe. Esta maldicion permanece hasta ser eliminada por @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Limpiar afliccion} o un efecto similar, o por un ritual de expiacion. Ademas, la criatura obtiene debilidad 10 al dano espiritual durante 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.gyfPLgqeIgW7fYD0]{Efecto: Declarar anatema}</p>\n<p><strong>Exito</strong> Como exito critico, pero la maldicion dura 1 minuto.</p>\n<p><strong>Fallo</strong> Como exito critico, pero la maldicion dura 1 asalto y el objetivo no obtiene debilidad al dano espiritual.</p>\n<p><strong>Fallo critico</strong> El objetivo no se ve afectado.</p>",
       "prerequisites": [
         {
-          "value": "Mortal Herald Dedication"
+          "value": "Dedicacion de heraldo mortal"
         }
       ]
     },
@@ -9102,29 +9102,29 @@
       ]
     },
     "Decree of Execution": {
-      "name": "Decree of Execution",
-      "description": "<p>You proclaim that a foe has violated the sanctity of your realm and must die. Speak your decree; a creature you designate within 60 feet who can hear your decree must attempt a @Check[will|against:class-spell] saving throw against your CLASS DC or spell DC, whichever is higher. Once targeted, the creature is temporarily immune for 1 year. Whether the target perishes or is marked for death depends on their level and the result of their saving throw.</p>\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> If the target is 14th level or lower, it drops to 1 Hit point. If the target is 15th level or higher, it takes @Damage[50[spirit]] damage.</p>\n<p><strong>Failure</strong> If the target is 14th level or lower, it dies instantly. If the target is 15th level or higher, it takes @Damage[50[spirit]] damage; if this damage brings it to 0 Hit Points, it dies instantly. Otherwise, it gains weakness 20 to all damage for 1 minute.</p>\n<p><strong>Critical Failure</strong> As failure, but a target who survives the damage is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} for 1 minute.</p>\n<p>When you speak a Decree of Execution, you can spend a Mythic Point as part of the action to remove the incapacitation trait.</p>",
+      "name": "Decreto de ejecucion",
+      "description": "<p>Proclamas que un enemigo ha violado la santidad de tu reino y debe morir. Pronuncia tu decreto; una criatura que designes a 60 pies o menos y que pueda oir tu decreto debe intentar una salvacion de @Check[will|against:class-spell]{Voluntad} contra tu CD de clase o CD de conjuro, la que sea mayor. Una vez objetivo, la criatura queda temporalmente inmune durante 1 ano. Que el objetivo perezca o quede marcado para morir depende de su nivel y del resultado de su salvacion.</p>\n<p><strong>Exito critico</strong> El objetivo no se ve afectado.</p>\n<p><strong>Exito</strong> Si el objetivo es de nivel 14 o inferior, cae a 1 Punto de Golpe. Si el objetivo es de nivel 15 o superior, recibe @Damage[50[spirit]] de dano espiritual.</p>\n<p><strong>Fallo</strong> Si el objetivo es de nivel 14 o inferior, muere instantaneamente. Si el objetivo es de nivel 15 o superior, recibe @Damage[50[spirit]] de dano espiritual; si este dano lo reduce a 0 Puntos de Golpe, muere instantaneamente. De lo contrario, obtiene debilidad 20 a todo dano durante 1 minuto.</p>\n<p><strong>Fallo critico</strong> Como fallo, pero un objetivo que sobreviva al dano queda @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1} durante 1 minuto.</p>\n<p>Cuando pronuncias un Decreto de ejecucion, puedes gastar un Punto mitico como parte de la accion para eliminar el rasgo incapacitacion.</p>",
       "prerequisites": [
         {
-          "value": "Prophesied Monarch Dedication"
+          "value": "Dedicacion de monarca profetizado"
         }
       ]
     },
     "Decree of Prosperity": {
-      "name": "Decree of Prosperity",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You speak with a gentle encouragement that inspires confidence and competence in your followers. Speak your decree; all your knights who hear your decree treat failures (but not critical failures) on non-attack skill checks as successes for 1 minute.</p>\n<p>When you speak a Decree of Prosperity, you can spend a Mythic Point as part of the action to have the inspiration spread to every individual within a 10-mile radius around you at that moment. Each individual receives a +2 status bonus to all checks to @UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{Earn Income}, and they're all able to find jobs of their level in the region for the next month. The people who benefit from this effect quickly learn that it happened because of your decree; for the next month, you can obtain food and lodging for free anywhere within the affected area, and you can obtain up to 10 common items of 3rd-level or lower at half price.</p>",
+      "name": "Decreto de prosperidad",
+      "description": "<p><strong>Frecuencia</strong> una vez al dia</p>\n<hr />\n<p>Hablas con un aliento amable que inspira confianza y competencia en tus seguidores. Pronuncia tu decreto; todos tus caballeros que oigan tu decreto tratan los fallos, pero no los fallos criticos, en pruebas de habilidad que no sean de ataque como exitos durante 1 minuto.</p>\n<p>Cuando pronuncias un Decreto de prosperidad, puedes gastar un Punto mitico como parte de la accion para hacer que la inspiracion se extienda a cada individuo en un radio de 10 millas a tu alrededor en ese momento. Cada individuo recibe un bonificador de estado +2 a todas las pruebas para @UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{Ganar ingresos}, y todos pueden encontrar trabajos de su nivel en la region durante el siguiente mes. Las personas que se benefician de este efecto aprenden rapidamente que ocurrio gracias a tu decreto; durante el siguiente mes, puedes obtener comida y alojamiento gratis en cualquier lugar dentro del area afectada, y puedes obtener hasta 10 objetos comunes de nivel 3 o inferior a mitad de precio.</p>",
       "prerequisites": [
         {
-          "value": "Prophesied Monarch Dedication"
+          "value": "Dedicacion de monarca profetizado"
         }
       ]
     },
     "Decree of War": {
-      "name": "Decree of War",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You declare your current foes as irredeemable enemies, calling your allies down upon them. Speak your decree; all your knights who hear your decree can use their reaction to Stride up to twice directly toward an enemy and then Strike that enemy if it's within their reach or range.</p>\n<p>When you speak a Decree of War, you can spend a Mythic Point as part of the action to let every individual within a 10-mile radius around you at that moment know that war has come to your kingdom. You and your knights are able to gain access to free food, lodging, and repairs of common items while within the affected area for the next month, as allied citizens and creatures come to your aid. During this time, you also receive at least 10-minutes' warning whenever an enemy group of more than 10 creatures travels in your direction, as allied scouts report to you.</p>",
+      "name": "Decreto de guerra",
+      "description": "<p><strong>Frecuencia</strong> una vez al dia</p>\n<hr />\n<p>Declaras a tus enemigos actuales como irredimibles, llamando a tus aliados contra ellos. Pronuncia tu decreto; todos tus caballeros que oigan tu decreto pueden usar su reaccion para dar hasta dos Zancadas directamente hacia un enemigo y luego Golpear a ese enemigo si esta dentro de su alcance cuerpo a cuerpo o a distancia.</p>\n<p>Cuando pronuncias un Decreto de guerra, puedes gastar un Punto mitico como parte de la accion para hacer saber a cada individuo en un radio de 10 millas a tu alrededor en ese momento que la guerra ha llegado a tu reino. Tu y tus caballeros podeis acceder a comida, alojamiento y reparaciones de objetos comunes gratis mientras esteis dentro del area afectada durante el siguiente mes, a medida que ciudadanos y criaturas aliadas acuden en vuestra ayuda. Durante este tiempo, tambien recibes al menos 10 minutos de aviso cada vez que un grupo enemigo de mas de 10 criaturas viaja en tu direccion, cuando exploradores aliados te informan.</p>",
       "prerequisites": [
         {
-          "value": "Prophesied Monarch Dedication"
+          "value": "Dedicacion de monarca profetizado"
         }
       ]
     },
