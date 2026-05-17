@@ -5620,11 +5620,11 @@
       "description": "<p>Tu composición adopta la forma de un cántico de llamada y respuesta que permite a tus aliados continuar el efecto sin ti. Si tu siguiente acción es lanzar un truco de composición con una duración de 1 asalto, se convierte en una llamada. Mientras el conjuro permanece activo, un aliado a tu elección afectado por el conjuro puede responder a tu llamada como una sola acción que tiene los rasgos auditivo y concentrar para prolongar durante 1 asalto la duración del mismo. Sólo un aliado puede responder a una llamada determinada, y responder a la respuesta del aliado no tiene efecto adicional alguno.</p>"
     },
     "Call of Elysium": {
-      "name": "Call of Elysium",
-      "description": "<p>The wild wonder of Elysium harmonizes within you, and in dire straits, you can share its benefits with your allies.</p>\n<p>Your Speed increases by 5 feet; the Speed increase from this feat isn't cumulative with any Speed increase from your ancestry feats (such as @UUID[Compendium.pf2e.feats-srd.Item.kCO4r8NOm8E2T3eH]{Nimble Elf}).</p>\n<p>Allies who begin their turn in combat adjacent to you gain a +5-foot status bonus to their Speed for the round.</p>",
+      "name": "Llamada de Elysium",
+      "description": "<p>La maravilla salvaje de Elysium armoniza en tu interior y, en situaciones desesperadas, puedes compartir sus beneficios con tus aliados.</p><p>Tu Velocidad aumenta en 5 pies; el aumento de Velocidad de este talento no es acumulativo con ningun aumento de Velocidad de tus talentos de ascendencia, como @UUID[Compendium.pf2e.feats-srd.Item.kCO4r8NOm8E2T3eH]{Elfo agil}.</p><p>Los aliados que comiencen su turno en combate adyacentes a ti obtienen un bonificador de estado +5 pies a su Velocidad durante el asalto.</p>",
       "prerequisites": [
         {
-          "value": "Musetouched"
+          "value": "Tocado por musas"
         }
       ]
     },
@@ -5637,46 +5637,46 @@
       "description": "<p> Llamas a las criaturas de la Naturaleza para que acudan en tu ayuda. Puedes invertir 10 minutos en sintonizarte con la Naturaleza para reemplazar un conjuro que has preparado en uno de tus espacios de conjuro de druida por un conjuro de @UUID[Compendium.pf2e.spells-srd.Item.4YnON9JHYqtLzccu]{Convocar animal} o @UUID[Compendium.pf2e.spells-srd.Item.jSRAyd57kd4WZ4yE]{Convocar planta u hongo} del mismo rango. </p>"
     },
     "Call the First Tools": {
-      "name": "Call the First Tools",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You can call upon the ancient powers bestowed on you by the gods to create any tools you might need at a moment's notice. You conjure forth a simple tool, such as a shovel or hammer, into your hands. This tool remains conjured until your next daily preparations so long as it's on your person. If the tool leaves your possession for more than 1 minute, it falls apart into a pile of silk that then dissolves into nothingness.</p>\n<p>At 9th level, you can use this ability once per hour instead of once per day. When using it in this way, you can maintain only one tool at a time; any previous tool you conjured dissolves into nothingness.</p>"
+      "name": "Llamar a las primeras herramientas",
+      "description": "<p><strong>Frecuencia</strong> una vez al dia</p><hr /><p>Puedes invocar los antiguos poderes que te otorgaron los dioses para crear cualquier herramienta que puedas necesitar en un instante. Conjuras en tus manos una herramienta simple, como una pala o un martillo. Esta herramienta permanece conjurada hasta tus siguientes preparativos diarios mientras este en tu persona. Si la herramienta abandona tu posesion durante mas de 1 minuto, se deshace en un monton de seda que despues se disuelve en la nada.</p><p>A nivel 9, puedes usar esta capacidad una vez por hora en lugar de una vez al dia. Cuando la usas de este modo, solo puedes mantener una herramienta a la vez; cualquier herramienta anterior que hayas conjurado se disuelve en la nada.</p>"
     },
     "Call the Hunt": {
-      "name": "Call the Hunt",
-      "description": "<p><strong>Requirements</strong> You are observing your hunted prey.</p>\n<hr />\n<p>You instruct your allies on how best to defeat your prey. Until the start of your next turn, whenever your hunted prey is within reach of you and at least one of your allies, it is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to all melee attacks. If you are sanctified, the unarmed attacks and weapon Strikes of you and all your allies gain the benefits of your sanctification against your hunted prey.</p>",
+      "name": "Llamar a la caza",
+      "description": "<p><strong>Requisitos</strong> Estas observando a tu presa cazada.</p><hr /><p>Indicas a tus aliados la mejor forma de derrotar a tu presa. Hasta el comienzo de tu siguiente turno, siempre que tu presa cazada este al alcance tuyo y de al menos uno de tus aliados, queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenida} contra todos los ataques cuerpo a cuerpo. Si estas santificado, tus ataques sin armas y Golpes con arma, asi como los de todos tus aliados, obtienen los beneficios de tu santificacion contra tu presa cazada.</p>",
       "prerequisites": [
         {
-          "value": "Vindicator Dedication"
+          "value": "Dedicacion de vindicador"
         }
       ]
     },
     "Call the Hurricane": {
-      "name": "Llama al huracán",
-      "description": "<p> Olas enormes giran en espiral a tu alrededor, contigo como el ojo del huracán. Las ondas aparecen en un @Template[type:emanation|distance:20], o en un @Template[type:emanation|distance:30] si estás en una masa de agua. Cada criatura en el área recibe @Damage[(floor((@actor.level -8)/2)+6)d8[bludgeoning] |traits:area-damage] daño con una salvación @Check[type:reflex|dc:resolve(@actor.system.proficiencies.classDCs.kineticist.dc)|basic:true] contra tu clase DC. Una criatura que falla su salvación es golpeada por las olas y empujada 10 pies (o 20 pies en un fallo crítico). </p>\n <hr />\n <p> <strong> Nivel (+2) </strong> El daño aumentapor 1d8. </p>"
+      "name": "Llamar al huracan",
+      "description": "<p>Olas enormes giran en espiral a tu alrededor, contigo como ojo del huracan. Las olas aparecen en una @Template[type:emanation|distance:20]{emanacion de 20 pies}, o en una @Template[type:emanation|distance:30]{emanacion de 30 pies} si estas en una masa de agua. Cada criatura en el area recibe @Damage[(floor((@actor.level -8)/2)+6)d8[bludgeoning]|options:area-damage]{daño contundente} con una salvacion basica de @Check[type:reflex|dc:resolve(@actor.system.proficiencies.classDCs.kineticist.dc)|basic:true]{Reflejos} contra tu CD de clase. Una criatura que falle su salvacion es golpeada por las olas y empujada 10 pies, o 20 pies con un fallo critico.</p><hr /><p><strong>Nivel +2</strong> El daño aumenta en 1d8.</p>"
     },
     "Call the Swarm": {
-      "name": "Call the Swarm",
-      "description": "<p><strong>Frequency</strong> once per day</p><hr /><p>You give a shrill whistle and point, and a massive swarm of rats pours forth from the surrounding terrain to fill a @Template[burst|distance:30] within 120 feet. The rats scurry over the ground and CLIMB up walls and surfaces, biting and clawing as they deal @Damage[6d8[piercing]] damage to all enemies in the area. The rats continue to swarm in the area for the next minute, dealing @Damage[3d8[piercing]] damage to any enemy that ends its turn in the area and transforming the area into difficult terrain (though the rats allow you and your allies to pass normally). You can Dismiss the effect.</p>",
+      "name": "Llamar al enjambre",
+      "description": "<p><strong>Frecuencia</strong> una vez al dia</p><hr /><p>Das un silbido estridente y señalas, y un enorme enjambre de ratas surge del terreno circundante para llenar una @Template[burst|distance:30]{explosion de 30 pies} a 120 pies o menos. Las ratas corretean por el suelo y Trepan por muros y superficies, mordiendo y arañando mientras infligen @Damage[6d8[piercing]]{6d8 de daño perforante} a todos los enemigos en el area. Las ratas siguen formando enjambre en el area durante el siguiente minuto, infligiendo @Damage[3d8[piercing]]{3d8 de daño perforante} a cualquier enemigo que termine su turno en el area y transformando el area en terreno dificil, aunque las ratas os permiten pasar normalmente a ti y a tus aliados. Puedes Descartar el efecto.</p>",
       "prerequisites": [
         {
-          "value": "Ratspeak"
+          "value": "Habla con ratas"
         }
       ]
     },
     "Call the Worm": {
-      "name": "Call the Worm",
-      "description": "<p>You gain @UUID[Compendium.pf2e.spells-srd.Item.4YnON9JHYqtLzccu]{Summon Animal}, heightened to 9th rank, as an innate primal spell that you can cast once per day, but can only summon a @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.vijBriZmbUJjbJNH]{Purple Worm}. At 20th level, you can summon an elite purple worm instead.</p>",
+      "name": "Llamar al gusano",
+      "description": "<p>Obtienes @UUID[Compendium.pf2e.spells-srd.Item.4YnON9JHYqtLzccu]{Invocar animal}, intensificado a rango 9, como conjuro innato primal que puedes lanzar una vez al dia, pero solo puede convocar un @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.vijBriZmbUJjbJNH]{gusano purpura}. A nivel 20, puedes convocar un gusano purpura de elite en su lugar.</p>",
       "prerequisites": [
         {
-          "value": "Worm Caller Dedication"
+          "value": "Dedicacion de llamador de gusanos"
         }
       ]
     },
     "Call to Battle": {
-      "name": "Call to Battle",
-      "description": "<p><strong>Trigger</strong> You lose the @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} condition.</p>\n<hr />\n<p>You channel the undying spirit of the einherjar to join to fight. You Stand. This movement doesn't trigger reactions.</p>",
+      "name": "Llamada a la batalla",
+      "description": "<p><strong>Disparador</strong> Pierdes la condicion @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente}.</p><hr /><p>Canalizas el espiritu inmortal del einherjar para unirte de nuevo a la lucha. Te Levantas. Este movimiento no desencadena reacciones.</p>",
       "prerequisites": [
         {
-          "value": "Battleblooded"
+          "value": "Sangre de batalla"
         }
       ]
     },
@@ -5716,17 +5716,17 @@
       ]
     },
     "Camouflage Coat": {
-      "name": "Camouflage Coat",
-      "description": "<p>You've learned to use your natural camouflage to your advantage, enhancing your ability to blend with your surroundings through careful movements and additional markings or attire. In your selected terrain, you can @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} or @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak} without cover or being @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto}.</p>",
+      "name": "Pelaje de camuflaje",
+      "description": "<p>Has aprendido a usar tu camuflaje natural en tu favor, mejorando tu capacidad para mezclarte con el entorno mediante movimientos cuidadosos y marcas o atuendos adicionales. En tu terreno seleccionado, puedes @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Esconderte} o @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Escabullirte} sin cobertura ni estar @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto}.</p>",
       "prerequisites": [
         {
-          "value": "mottle-coat centaur heritage"
+          "value": "herencia de centauro de pelaje moteado"
         }
       ]
     },
     "Campfire Chronicler Dedication": {
-      "name": "Campfire Chronicler Dedication",
-      "description": "<p>You've gained Isthralei's attention and can now offer stories up to him, either passing on your own stories or collecting those of travelers as he did. You become trained in RELIGION and SURVIVAL; for either of these skills in which you were already trained, you instead become trained in a skill of your choice. You gain the @UUID[Compendium.pf2e.actionspf2e.Item.7wQe43fSCG9DSWdj]{Offer Story} action.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.NmnvKVQl51xoGQU7]{Campfire Chronicler}</p>"
+      "name": "Dedicacion de cronista de fogata",
+      "description": "<p>Has llamado la atencion de Isthralei y ahora puedes ofrecerle historias, ya sea transmitiendo las tuyas propias o recopilando las de viajeros como hizo el. Quedas entrenado en Religion y Supervivencia; por cada una de estas habilidades en la que ya estuvieras entrenado, en su lugar quedas entrenado en una habilidad de tu eleccion. Obtienes la accion @UUID[Compendium.pf2e.actionspf2e.Item.7wQe43fSCG9DSWdj]{Ofrecer historia}.</p><p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.NmnvKVQl51xoGQU7]{Cronista de fogata}</p>"
     },
     "Can't Fall Here": {
       "name": "No puedo caer aquí",
@@ -5767,14 +5767,14 @@
       "description": "<p>Tu capacidad de evitar ser observado esta más allá de la capacidad de la mayoría de personas de tu profesión. Elige entre salvaciones de Fortaleza, de Reflejos, de Voluntad o pruebas de\nPercepción. Obtienes el rango experto en lo elegido. A 17.º nivel, obtienes el rango maestro.</p>"
     },
     "Canopy Predator": {
-      "name": "Canopy Predator",
-      "description": "<p>You are as at home in the treetops as you are beneath their branches. You gain a CLIMB Speed of 15 feet when moving through trees, vines, and other foliage. Whenever you succeed at an ATHLETICS check to CLIMB a tree or an Acrobatics check to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} on a branch, you get a critical success instead. You aren't @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} while Climbing or Balancing on a tree.</p>",
+      "name": "Depredador del dosel",
+      "description": "<p>Estas tan comodo en las copas de los arboles como bajo sus ramas. Obtienes una Velocidad de trepar de 15 pies al moverte por arboles, lianas y otro follaje. Siempre que tienes exito en una prueba de Atletismo para Trepar por un arbol o en una prueba de Acrobacias para @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Mantener el equilibrio} sobre una rama, obtienes un exito critico en su lugar. No quedas @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} mientras Trepas o Mantienes el equilibrio en un arbol.</p>",
       "prerequisites": [
         {
-          "value": "Verduran Shadow Dedication"
+          "value": "Dedicacion de sombra de Verduran"
         },
         {
-          "value": "rango entrenado en Atletismo"
+          "value": "entrenado en Atletismo"
         }
       ]
     },
@@ -5788,8 +5788,8 @@
     },
     "Cantorian Rejuvenation": {
       "name": "Rejuvenecimiento cantoriano",
-      "description": "<p> <strong> Frecuencia </strong> una vez al día </p>\n <hr />\n <p> La energía vivificante que fluye en tu sangre te revitaliza. Recuperas [[/r 4d6[healing]]]{4d6 Hit Points} y ​​ganas 10 puntos de vida temporales durante 1 minuto. Cuando alcanzas el nivel 15, recuperas [[/r 6d6[healing]]]{6d6 Hit Points} y ​​ganas 15 HP temporales. </p>",
-      "selfEffect": "Effect: Cantorian Rejuvenation"
+      "description": "<p><strong>Frecuencia</strong> una vez al dia</p><hr /><p>La energia vivificante que fluye en tu sangre te revitaliza. Recuperas [[/r 4d6[healing]]]{4d6 Puntos de Golpe} y obtienes 10 Puntos de Golpe temporales durante 1 minuto. Cuando alcanzas el nivel 15, recuperas [[/r 6d6[healing]]]{6d6 Puntos de Golpe} y obtienes 15 Puntos de Golpe temporales.</p>",
+      "selfEffect": "Efecto: Rejuvenecimiento cantoriano"
     },
     "Cantorian Restoration": {
       "name": "Restauración Cantoriana",
@@ -5804,14 +5804,14 @@
       "description": "<p><strong>Bardo, Oráculo, Hechicero</strong> El estudio amplía tu gama de conjuros sencillos.</p>\n<p><strong>Clérigo</strong> Estudias una gama más amplia de conjuros sencillos.</p>\n<p><strong>Mago, Magus</strong> El estudio dedicado te permite preparar una gama más amplia de conjuros simples para cada situación.</p>\n<p><strong>Psíquico</strong> Expandes lo que tu mente puede lograr.</p>\n<p><strong>Brujo</strong>  Tu patrón reconoce tu necesidad de ser flexible y versátil y te concede el poder de preparar una gama más amplia de conjuros sencillos.</p>\n<hr /> \n<p><strong>Preparado</strong> Puedes preparar dos trucos adicionales cada día.</p>\n<p><strong>Espontáneo</strong> Añade dos trucos adicionales de tu lista de conjuros a tu repertorio.</p>"
     },
     "Captain Dedication": {
-      "name": "Captain Dedication",
-      "description": "<p>You become trained in your choice of DIPLOMACY or INTIMIDATION; if you are already trained in both of these skills, you become trained in a skill of your choice. You also gain your choice of the @UUID[Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk]{Group Impression} or the @UUID[Compendium.pf2e.feats-srd.Item.gUqvezs2zzoTXFAI]{Group Coercion} skill feat. If you already have both of these skill feats, you gain another 1st-level skill feat for which you qualify.</p>\n<p>You also gain the assistance of a dedicated follower, who has agreed to accompany you on your journeys. They have the minion trait and begin as a novice follower.</p>\n<hr />\n<p><strong>Special</strong> Once you have a follower, you can never take a feat or class feature that grants an animal companion or another companion that prevents you from having an animal companion.</p>",
+      "name": "Dedicacion de capitan",
+      "description": "<p>Quedas entrenado en Diplomacia o Intimidacion, a tu eleccion; si ya estas entrenado en ambas habilidades, quedas entrenado en una habilidad de tu eleccion. Tambien obtienes a tu eleccion el talento de habilidad @UUID[Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk]{Impresion grupal} o @UUID[Compendium.pf2e.feats-srd.Item.gUqvezs2zzoTXFAI]{Coaccion grupal}. Si ya tienes ambos talentos de habilidad, obtienes otro talento de habilidad de nivel 1 para el que cumplas los requisitos.</p><p>Tambien obtienes la ayuda de un seguidor dedicado, que ha aceptado acompañarte en tus viajes. Tiene el rasgo esbirro y empieza como seguidor novato.</p><hr /><p><strong>Especial</strong> Una vez que tienes un seguidor, nunca puedes elegir un talento o rasgo de clase que te conceda un compañero animal u otro compañero que te impida tener un compañero animal.</p>",
       "prerequisites": [
         {
-          "value": "Charisma +2"
+          "value": "Carisma +2"
         },
         {
-          "value": "you don't have an animal companion, construct companion, or other companion that functions similarly"
+          "value": "no tienes compañero animal, compañero constructo u otro compañero que funcione de forma similar"
         }
       ]
     },
