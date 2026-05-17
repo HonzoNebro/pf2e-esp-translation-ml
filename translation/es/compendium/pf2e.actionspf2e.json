@@ -1875,11 +1875,11 @@
     },
     "Spinning Crush": {
       "name": "Aplastamiento giratorio",
-      "description": "<p><strong>Requirements</strong> You're wielding a loaded firearm or loaded crossbow.</p>\n<hr />\n<p>You go into a vicious spin, smashing your weapon into those nearby and increasing your momentum by firing. All creatures adjacent to you take @Damage[(4d6+@actor.abilities.str.mod)[bludgeoning]|options:area-damage]{4d6 bludgeoning damage plus your Strength modifier}; this increases to @Damage[(6d6+@actor.abilities.str.mod)[bludgeoning]|options:area-damage]{6d6} if your firearm has a striking rune, @Damage[(8d6+@actor.abilities.str.mod)[bludgeoning]|options:area-damage]{8d6} if it has a greater striking rune, and @Damage[(10d6+@actor.abilities.str.mod)[bludgeoning]|options:area-damage]{10d6} if it has a major striking rune. This ability does not apply other effects that increase damage with your firearm Strikes such as weapon specialization. Creatures affected by this attack must attempt a @Check[reflex|against:gunslinger|basic|options:area-effect,forced-movement] save. A creature that fails its save is also pushed 10 feet directly away from you.</p>"
+      "description": "<p><strong>Requisitos</strong> Estas empuñando un arma de fuego cargada o una ballesta cargada.</p>\n<hr />\n<p>Entras en un giro brutal, golpeando con tu arma a quienes estan cerca y aumentando tu impulso al disparar. Todas las criaturas adyacentes a ti reciben @Damage[(4d6+@actor.abilities.str.mod)[bludgeoning]|options:area-damage]{4d6 de daño contundente mas tu modificador de Fuerza}; esto aumenta a @Damage[(6d6+@actor.abilities.str.mod)[bludgeoning]|options:area-damage]{6d6} si tu arma de fuego tiene una runa impactante, @Damage[(8d6+@actor.abilities.str.mod)[bludgeoning]|options:area-damage]{8d6} si tiene una runa impactante mayor, y @Damage[(10d6+@actor.abilities.str.mod)[bludgeoning]|options:area-damage]{10d6} si tiene una runa impactante suprema. Esta aptitud no aplica otros efectos que aumenten el daño con tus Golpes de arma de fuego, como especializacion en armas. Las criaturas afectadas por este ataque deben intentar una salvacion basica de @Check[reflex|against:gunslinger|basic|options:area-effect,forced-movement]. Una criatura que falle su salvacion tambien es empujada 10 pies directamente alejandose de ti.</p>"
     },
     "Spirit Sanctification": {
-      "name": "Spirit Sanctification",
-      "description": "<p><strong>Cost</strong> 1 spirit wisp</p>\n<hr />\n<p><strong>Effect</strong> You immediately purify a spirit, which grants you a protective blessing before it departs. If your next action is to cast a halcyon spell, you gain a +1 status bonus to saving throws as well as resistance to void damage equal to the rank of the halcyon spell. These effects last for 1 round.</p>"
+      "name": "Santificacion espiritual",
+      "description": "<p><strong>Coste</strong> 1 brizna espiritual</p>\n<hr />\n<p><strong>Efecto</strong> Purificas inmediatamente un espiritu, que te concede una bendicion protectora antes de partir. Si tu siguiente accion es lanzar un conjuro halcyon, obtienes un bonificador de estado +1 a los tiros de salvacion, asi como resistencia al daño de vacio igual al rango del conjuro halcyon. Estos efectos duran 1 asalto.</p>"
     },
     "Spirit's Mercy": {
       "name": "Merced espiritual",
@@ -1899,8 +1899,8 @@
       "description": "<p>Difundes propaganda sobre una facción, lo que puede incluir un ejército, una organización u otro grupo concreto de personas. Esto tarda lo que normalmente tardarías en Recabar información, por lo general 2 horas. Al final de ese tiempo, el DJ tira una prueba secreta de Engaño para ver lo eficaz que has sido al difundir propaganda.</p>\n<hr />\n<p><strong>Éxito crítico</strong> Tu propaganda se difunde eficazmente y, durante el mes siguiente, las criaturas que tengan éxito en pruebas para Recabar información aprenden tu propaganda en lugar de hechos sobre el tema. No se puede rastrear hasta ti. También obtienes información como si hubieras tenido éxito en una prueba de @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recordar conocimiento} sobre la facción.</p>\n<p><strong>Éxito</strong> Como éxito crítico, pero la propaganda persiste durante 1 semana y un personaje que obtenga un éxito crítico en la prueba de habilidad para Recabar información puede rastrearla hasta ti.</p>\n<p><strong>Fallo</strong> Tu propaganda no logra arraigar.</p>\n<p><strong>Fallo crítico</strong> Tu propaganda es asombrosamente ineficaz y sufres un penalizador -4 por circunstancia a las pruebas de Engaño para difundir propaganda sobre el mismo tema durante 1 semana. Además, el tema y sus enemigos se enteran de que intentaste difundir propaganda.</p>"
     },
     "Spread Realm": {
-      "name": "Spread Realm",
-      "description": "<p><strong>Trigger</strong> Your previous action was to Sustain your manifested realm</p>\n<hr />\n<p><strong>Effect</strong> Your manifested realm further corrupts more of your surroundings. Increase your manifested realm's radius by 10 feet.</p>"
+      "name": "Extender reino",
+      "description": "<p><strong>Desencadenante</strong> Tu accion anterior fue Mantener tu reino manifestado</p>\n<hr />\n<p><strong>Efecto</strong> Tu reino manifestado corrompe aun mas de tu entorno. Aumenta el radio de tu reino manifestado en 10 pies.</p>"
     },
     "Spring the Trap": {
       "name": "Saltar la trampa",
@@ -1961,12 +1961,12 @@
       "description": "<p>Atacas con un arma que empuñas o con un ataque sin armas, designando como objetivo a una criatura a tu alcance (para un ataque cuerpo a cuerpo) o que está en un incremento de rango de distancia (para un ataque a distancia). Haz la tirada de ataque para el arma o el ataque sin armas que estás utilizando, y compara el resultado con la CA de la criatura objetivo para determinar el efecto.</p>\n<hr />\n<p><strong>Éxito crítico</strong> Como éxito, pero infliges doble daño.</p>\n<p><strong>Éxito</strong> Infliges daño según el arma o ataque sin armas, incluyendo cualquier modificador, bonificador y penalizador que tienes al daño.</p>"
     },
     "Strike Hard!": {
-      "name": "Strike Hard!",
-      "description": "<p>You command an ally to attack. Signal a squadmate within the aura of your commander's banner. That ally immediately attempts a Strike as a reaction.</p>"
+      "name": "¡Golpea fuerte!",
+      "description": "<p>Ordenas a un aliado que ataque. Señala a un compañero de escuadra dentro del aura del estandarte de tu comandante. Ese aliado intenta inmediatamente un Golpe como reaccion.</p>"
     },
     "Strike, Breathe, Rend": {
-      "name": "Strike, Breathe, Rend",
-      "description": "<p><strong>Requirements</strong> Your last action this turn was a successful Strike with the @UUID[Compendium.pf2e.classfeatures.Item.ndSCXO9Dg57fmZIY]{Noble Branch}</p>\n<hr />\n<p><strong>Effect</strong> You channel a rending pulse of energy down your weapon in the moment of contact. The target of the Strike takes spirit damage equal to the noble branch's weapon damage dice. This includes any extra dice from striking runes, but not from special abilities, property runes, or the like.</p>"
+      "name": "Golpear, respirar, desgarrar",
+      "description": "<p><strong>Requisitos</strong> Tu ultima accion este turno fue un Golpe con exito con @UUID[Compendium.pf2e.classfeatures.Item.ndSCXO9Dg57fmZIY]{Rama noble}</p>\n<hr />\n<p><strong>Efecto</strong> Canalizas un pulso desgarrador de energia por tu arma en el momento del contacto. El objetivo del Golpe recibe daño espiritual igual a los dados de daño de arma de la rama noble. Esto incluye cualquier dado adicional de runas impactantes, pero no de aptitudes especiales, runas de propiedad o similares.</p>"
     },
     "Study": {
       "name": "Estudiar",
@@ -1981,13 +1981,13 @@
       "description": "<p> Intentas proporcionarte alimento y refugio, y posiblemente también a otros, con un nivel de vida normal. Por lo general, se usa <span data-pf2-action=\"subsist\" data-pf2-skill=\"society\"> Sociedad </span> si estás en un asentamiento o <span data-pf2-action=\"subsist\" data-pf2-skill=\"survival\"> Supervivencia </span> si estás en la naturaleza. El DJ determina la CD según la naturaleza del lugar donde intentas subsistir. Es posible que necesites un rango mínimo de competencia para subsistir en entornos particularmente extraños. A diferencia de la mayoría de las actividades de tiempo libre, puedes subsistir después de 8 horas o menos de exploración, pero si lo haces, sufres un penalizador -5. </p>\n<section class=\"sample-tasks\">\n<h2>Ejemplos de tareas de subsistir</h2>\n<ul>\n<li><strong>No entrenado</strong> un bosque frondoso con clima tranquilo o una gran ciudad con abundantes recursos </li>\n<li><strong>Entrenado</strong> la ladera de una colina o poblado típicos</li>\n<li><strong>Experto</strong> unas montañas típicas o una aldea aislada</li>\n<li><strong>Maestro</strong> un desierto típico o una ciudad asediada</li>\n<li><strong>Legendario</strong> un yermo desolado o una ciudad de muertos vivientes</li>\n</ul>\n</section>\n<hr />\n<p><strong>Éxito crítico</strong> O bien proporcionas un nivel de vida de subsistencia para ti mismo y una criatura adicional, o bien mejoras tu propia comida y cobijo, lo que te concede un nivel de vida cómodo.</p>\n<p><strong>Éxito</strong> Encuentras suficiente comida y cobijo con protección básica ante los elementos, como para proporcionarte un nivel de vida de subsistencia.</p>\n<p><strong>Fallo</strong> Quedas expuesto a los elementos y no obtienes suficiente comida, \nquedando @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigado} hasta que consigues suficiente comida y cobijo.</p>\n<p><strong>Fallo crítico</strong> Atraes problemas, comes algo que no deberías o empeoras tu situación de alguna otra forma. Sufres un penalizador -2 por circunstancia a las pruebas de Subsistir durante 1 semana. No encuentras comida en absoluto; si no tienes nada almacenado, corres el peligro de morirte de hambre o de sed si continúas fallando.</p>"
     },
     "Summon Sloth": {
-      "name": "Summon Sloth",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Spend 1 Mythic Point. You summon the spirit of one of the seven runelords of sloth (Xirie, Ilthyrius, Azeradni, Zalelet, Krenlith, Ivarinna, or Krune) into an unoccupied space within 30 feet. Allies can move through a space occupied by one of these spirits, but a spirit's space is greater difficult terrain for your enemies.</p>\n<p>For the next minute, you can use a two-action activity with the concentrate trait to summon another runelord spirit in a different space within 30 feet, to a maximum of seven spirits. While you are within 120 feet of Xanderghul, the Runelord of Pride, you can summon an additional spirit as a single action (instead of as a two-action activity). At the end of the each of your turns, each spirit fires arcane energy at a different enemy of your choice within 120 feet of it (or does nothing if no enemy is within range), dealing @Damage[(2d4+2)[force]] damage. After 1 minute, all spirits disappear.</p>"
+      "name": "Convocar pereza",
+      "description": "<p><strong>Frecuencia</strong> una vez al dia</p>\n<hr />\n<p><strong>Efecto</strong> Gasta 1 Punto mitico. Convocas el espiritu de uno de los siete señores runicos de la pereza (Xirie, Ilthyrius, Azeradni, Zalelet, Krenlith, Ivarinna o Krune) en un espacio desocupado a 30 pies o menos. Los aliados pueden moverse a traves de un espacio ocupado por uno de estos espiritus, pero el espacio de un espiritu es terreno dificil mayor para tus enemigos.</p>\n<p>Durante el siguiente minuto, puedes usar una actividad de dos acciones con el rasgo concentracion para convocar otro espiritu de señor runico en un espacio distinto a 30 pies o menos, hasta un maximo de siete espiritus. Mientras estas a 120 pies o menos de Xanderghul, el Señor Runico del Orgullo, puedes convocar un espiritu adicional como una sola accion en lugar de una actividad de dos acciones. Al final de cada uno de tus turnos, cada espiritu dispara energia arcana a un enemigo distinto de tu eleccion a 120 pies o menos de el, o no hace nada si no hay enemigos dentro del alcance, infligiendo @Damage[(2d4+2)[force]] de daño. Tras 1 minuto, todos los espiritus desaparecen.</p>"
     },
     "Survive the Wilds": {
-      "name": "Survive the Wilds",
-      "description": "<p>You wrap the pelt around yourself. You can choose to change the damage type the pelt is attuned to. The pelt shines gold, drawing the offending energies into itself.</p>\n<p>Until the start of your next turn, this shine creates an aura in a @Template[type:emanation|distance:15]. You and all allies in the emanation gain a +2 circumstance bonus to AC and saving throws against effects with that trait.</p>",
-      "selfEffect": "Effect: Survive the Wilds"
+      "name": "Sobrevivir a lo salvaje",
+      "description": "<p>Te envuelves con la piel. Puedes elegir cambiar el tipo de daño al que la piel esta armonizada. La piel brilla en dorado, atrayendo hacia si las energias ofensivas.</p>\n<p>Hasta el comienzo de tu siguiente turno, este brillo crea un aura en una @Template[type:emanation|distance:15]. Tu y todos los aliados en la emanacion obteneis un bonificador de circunstancia +2 a la CA y a los tiros de salvacion contra efectos con ese rasgo.</p>",
+      "selfEffect": "Efecto: Sobrevivir a lo salvaje"
     },
     "Sustain": {
       "name": "Mantener",
@@ -1998,38 +1998,38 @@
       "description": "<p>Mantienes un efecto con una duración sostenida mientras te mueves a la mitad de velocidad. La mayoría de estos efectos pueden mantenerse durante 10 minutos, aunque algunos especifican que pueden mantenerse durante una duración diferente. Mantener un efecto que requiere tomar decisiones complejas, como <em>arma espectral</em>, puede dejarte @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigado}, si así lo determina el DJ.</p>"
     },
     "Swarm Forth": {
-      "name": "Swarm Forth",
-      "description": "<p><strong>Requirements</strong> Your swarm is within your body</p><hr /><p><strong>Effect</strong> Your swarm boils forth from your body into a space adjacent to yours. (Its space can overlap yours.) It remains separate from you until the end of your next turn, but you can Sustain the effect up to 1 minute. The effect also ends if you end your turn more than 60 feet away from the swarm. When you use Swarm Forth and each time you Sustain the effect, you can have the swarm Stride.</p>"
+      "name": "Surgir en enjambre",
+      "description": "<p><strong>Requisitos</strong> Tu enjambre esta dentro de tu cuerpo</p><hr /><p><strong>Efecto</strong> Tu enjambre brota hirviendo desde tu cuerpo hacia un espacio adyacente al tuyo. Su espacio puede solaparse con el tuyo. Permanece separado de ti hasta el final de tu siguiente turno, pero puedes Mantener el efecto durante hasta 1 minuto. El efecto tambien termina si acabas tu turno a mas de 60 pies del enjambre. Cuando usas Surgir en enjambre y cada vez que Mantienes el efecto, puedes hacer que el enjambre Camine.</p>"
     },
     "Swarming Assault": {
-      "name": "Swarming Assault",
-      "description": "<p><strong>Requirements</strong> Your eidolon is dispersed.</p>\n<hr />\n<p>Your eidolon swarms over each creature occupying its space, biting, pecking, clawing, or making similar attacks with its component bodies. It deals @Damage[(ceil(@actor.level / 2))d6|options:area-damage] damage to each creature in the area, with a @Check[reflex|basic|options:area-effect] save against your spell DC. You choose each time your eidolon uses Swarming Assault whether it deals piercing or slashing damage. Your eidolon then can't use Swarming Assault again for the next [[/r 1d4 #Recharge Swarming Assault]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6.</p>"
+      "name": "Asalto de enjambre",
+      "description": "<p><strong>Requisitos</strong> Tu eidolon esta disperso.</p>\n<hr />\n<p>Tu eidolon se abalanza sobre cada criatura que ocupa su espacio, mordiendo, picoteando, arañando o realizando ataques similares con sus cuerpos componentes. Inflige @Damage[(ceil(@actor.level / 2))d6|options:area-damage] de daño a cada criatura en el area, con una salvacion basica de @Check[reflex|basic|options:area-effect] contra tu CD de conjuro. Cada vez que tu eidolon usa Asalto de enjambre, eliges si inflige daño perforante o cortante. Despues, tu eidolon no puede volver a usar Asalto de enjambre durante los siguientes [[/r 1d4 #Recargar Asalto de enjambre]]{1d4 asaltos}.</p>\n<p>A nivel 3 y cada 2 niveles a partir de entonces, el daño aumenta en 1d6.</p>"
     },
     "Swift Choreography": {
-      "name": "Swift Choreography",
-      "description": "<p><strong>Trigger</strong> An ally within 30 feet would become @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado}, @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido}, @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}, or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado}</p><hr /><p><strong>Effect</strong> You call out a quick reminder to your ally about a special move you'd suggested to them at some point in the past, allowing the ally to avoid the triggering effect completely.</p>"
+      "name": "Coreografia veloz",
+      "description": "<p><strong>Desencadenante</strong> Un aliado a 30 pies o menos quedaria @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado}, @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido}, @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} o @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restringido}</p><hr /><p><strong>Efecto</strong> Lanzas a tu aliado un recordatorio rapido sobre un movimiento especial que le habias sugerido en algun momento del pasado, permitiendole evitar por completo el efecto desencadenante.</p>"
     },
     "Swim": {
       "name": "Nadar",
       "description": "<p> Haces una prueba de  <span data-pf2-action=\"swim\" data-pf2-glyph=\"A\"> Atletismo </span> para moverte una distancia máxima de 10 pies (3 m) a través del agua. El DJ es quien determina la CD, basada en la turbulencia o el peligro de las aguas; en la mayoría de casos de aguas en calma, obtienes un éxito crítico automático. Si tu Velocidad terrestre es 40 pies (12 m) o mayor, incrementa la distancia máxima posible en 5 pies (1,5 m) por cada 20 pies (6 m) de Velocidad por encima de 20 pies (6 m).</p>\n<p>Si acabas tu turno en el agua y no has conseguido llevar a cabo una acción de Nadar dicho turno, te hundes 10 pies (3 m) o te arrastra la corriente, a discreción del DJ. Esto no aplica si la última acción de tu turno fue entrar en el agua.</p>\n <hr />\n <p> <strong> Éxito crítico </strong> Te mueves atravesando el agua, incrementando en 5 pies (1,5 m) la distancia máxima.. </p>\n <p> <strong> Éxito </strong> Te mueves atravesando el agua. </p>\n <p> <strong> Fallo crítico </strong> No consigues avanzar. Si estás conteniendo la respiración, pierdes 1 asalto de aire. </p>\n <h2> Ejemplos de tareas de Nadar </h2>\n <p> <strong> No entrenado </strong> lago u otras aguas tranquilas </p>\n <p> <strong> Entrenado </strong> agua que fluye, como un río </p>\n <p> <strong> Experto </strong> río que fluye rápidamente </p>\n <p> <strong> Maestro </strong> mar tormentoso </p>\n <p> <strong> Legendario</strong> remolino, catarata </p>"
     },
     "Swirl Crimson Shroud": {
-      "name": "Sudario carmesí en forma de remolino",
-      "description": "<p> Puedes interactuar con tu sudario, girándolo a tu alrededor, para obtener una bonificación de circunstancia +1 a la CA hasta el comienzo de tu siguiente turno. </p>",
-      "selfEffect": "Effect: Crimson Shroud (AC)"
+      "name": "Agitar sudario carmesi",
+      "description": "<p>Puedes Interactuar con tu sudario, haciendolo girar a tu alrededor, para obtener un bonificador de circunstancia +1 a la CA hasta el comienzo de tu siguiente turno.</p>",
+      "selfEffect": "Efecto: Sudario carmesi (CA)"
     },
     "Tactical Retreat": {
-      "name": "Tactical Retreat",
-      "description": "<p><strong>Trigger</strong> You gain the frightened condition</p>\n<p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> Realizing that discretion is the better part of valor, you opt to put some distance between you and a threat. You gain the @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Huyendo} condition until the beginning of your next turn, and you Stride.</p>"
+      "name": "Retirada tactica",
+      "description": "<p><strong>Desencadenante</strong> Obtienes la condicion asustado</p>\n<p><strong>Frecuencia</strong> una vez por hora</p><hr /><p><strong>Efecto</strong> Al darte cuenta de que la discrecion es la mejor parte del valor, optas por poner distancia entre tu y una amenaza. Obtienes la condicion @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Huyendo} hasta el comienzo de tu siguiente turno, y Caminas.</p>"
     },
     "Tactical Takedown": {
       "name": "Derribo táctico",
       "description": "<p>Diriges una maniobra coordinada que hace caer a un enemigo. Da una señal a hasta dos compañeros de escuadra dentro del aura del estandarte de tu comandante. Cada uno de esos aliados puede Caminar hasta la mitad de su Velocidad como reacción. Si ambos terminan este movimiento adyacentes a un enemigo, ese enemigo debe tener éxito en una salvación de @Check[reflex|against:commander|options:inflicts:prone] contra tu CD de clase o caer @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}.</p>"
     },
     "Tail Toxin": {
-      "name": "Toxina de la cola",
-      "description": "<p> <strong> Frecuencia </strong> una vez al día </p>\n <p> <strong> Requisitos </strong> Estás empuñando un arma perforante o cortante </p>\n <hr />\n <p> Aplicas el veneno de tu cola a un arma perforante o cortante. Si tu próximo Golpe con esa arma antes del final de tu siguiente turno golpea e inflige daño, infliges daño de veneno persistente igual a tu nivel al objetivo. </p>",
-      "selfEffect": "Effect: Tail Toxin"
+      "name": "Toxina de cola",
+      "description": "<p><strong>Frecuencia</strong> una vez al dia</p>\n<p><strong>Requisitos</strong> Estas empuñando un arma perforante o cortante</p>\n<hr />\n<p>Aplicas el veneno de tu cola a un arma perforante o cortante. Si tu siguiente Golpe con esa arma antes del final de tu siguiente turno impacta e inflige daño, infliges daño persistente de veneno igual a tu nivel al objetivo.</p>",
+      "selfEffect": "Efecto: Toxina de cola"
     },
     "Take Control": {
       "name": "Tomar el control",
@@ -2037,8 +2037,8 @@
     },
     "Take Cover": {
       "name": "Ponerse a cubierto",
-      "description": "<p><strong>Requisitos</strong> Te estás beneficiando de cobertura, estás cerca de un rasgo que te permite ponerte a cubierto o estás @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}.</p>\n<hr />\n<p>Te arrimas a una pared o te agachas tras un obstáculo para sacar partido de la cobertura. Si tendrías cobertura normal, en su lugar obtienes cobertura mayor, que te proporciona un bonificador +4 por circunstancia a la CA a las salvaciones de Reflejos contra los efectos de área; y a las pruebas de Sigilo para @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Esconderse} , @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Movimiento furtivo} , o evitar la detección de cualquier otra forma. De lo contrario, obtienes los beneficios de la cobertura normal (un bonificador +2 por circunstancia). Esto dura hasta que te mueves de tu espacio actual, usas una acción de ataque, quedas @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} o acabas con este efecto como acción gratuita.</p>",
-      "selfEffect": "Effect: Cover"
+      "description": "<p><strong>Requisitos</strong> Te estas beneficiando de cobertura, estas cerca de un rasgo que te permite ponerte a cubierto o estas @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}.</p>\n<hr />\n<p>Te arrimas a una pared o te agachas tras un obstaculo para sacar partido de la cobertura. Si tendrias cobertura normal, en su lugar obtienes cobertura mayor, que te proporciona un bonificador de circunstancia +4 a la CA, a las salvaciones de Reflejos contra efectos de area y a las pruebas de Sigilo para @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Esconderse}, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Moverse furtivamente} o evitar la deteccion de cualquier otra forma. De lo contrario, obtienes los beneficios de la cobertura normal, un bonificador de circunstancia +2. Esto dura hasta que te mueves de tu espacio actual, usas una accion de ataque, quedas @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} o terminas este efecto como accion gratuita.</p>",
+      "selfEffect": "Efecto: Cobertura"
     },
     "Take a Breather": {
       "name": "Tomar un respiro",
@@ -2049,9 +2049,9 @@
       "description": "<p>Tu aliado salta para asegurar el terreno elevado con un poco de ayuda de la escuadra. Da una señal a un compañero de escuadra dentro del aura del estandarte de tu comandante; como acción gratuita, ese compañero de escuadra puede Caminar directamente hacia cualquier otro compañero de escuadra que ambos estéis observando. Si el primer compañero de escuadra termina este movimiento adyacente a otro compañero de escuadra, el primero puede @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Saltar} inmediatamente hasta 25 pies horizontalmente o 15 pies verticalmente como reacción, impulsado por el otro compañero de escuadra. Esta distancia aumenta a 40 pies horizontalmente o 25 pies verticalmente si tienes competencia legendaria en Saber sobre guerra.</p>"
     },
     "Talon Stance": {
-      "name": "Talon Stance",
-      "description": "<p><strong>Effect</strong> You sway in a loose stance that lets you sweep in wide arcs with the claws on your feet. The only Strikes you can make are spinning talon unarmed attacks. These deal @Damage[1d8[slashing]] damage, are in the brawling group, and have the finesse, sweep, and unarmed traits. You don't need a free hand to use spinning talon strikes.</p>",
-      "selfEffect": "Stance: Talon Stance"
+      "name": "Postura de espolones",
+      "description": "<p><strong>Efecto</strong> Te balanceas en una postura suelta que te permite barrer en amplios arcos con las garras de tus pies. Los unicos Golpes que puedes hacer son ataques sin armas de espolon giratorio. Estos infligen @Damage[1d8[slashing]] de daño, pertenecen al grupo pelea y tienen los rasgos sutileza, barrido y sin armas. No necesitas una mano libre para usar Golpes de espolon giratorio.</p>",
+      "selfEffect": "Postura: Postura de espolones"
     },
     "Tangle in Riddle": {
       "name": "Enredar en acertijo",
@@ -2062,17 +2062,17 @@
       "description": "<p> Intentas manipular la esencia mágica de una línea ley de la que eres consciente dentro de 30 pies. El DJ determina la CD basándose en la CD dura para el nivel de la línea ley. </p>\n <hr />\n <p> <strong> Éxito crítico </strong> Obtienes los beneficios de la línea ley hasta el final de tu siguiente turno. </p>\n <p> <strong> Éxito </strong> Obtienes los beneficios de la línea ley hasta el final de tu turno. </p>\n <p> <strong> Fracaso</strong> Recibes daño mental equivalente a 1d6 × el nivel de la línea ley. No puedes volver a tocar la Línea Ley durante 1 hora. </p>\n <p> <strong> Fallo crítico </strong> Como fracaso, y estás sujeto al efecto de reacción de la línea ley. No podrás volver a tocar la Línea Ley durante 24 horas. </p>"
     },
     "Tap the Past": {
-      "name": "Tap the Past",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You're about to attempt a check to Recall Knowledge</p><hr /><p><strong>Effect</strong> You concentrate on the glimpses of a previous life to find a memory of a tome or an applicable lesson from your past. You roll a second time and use the higher result. If you roll a critical failure, you get a failure instead. If you roll a success, you get a critical success instead.</p>",
-      "selfEffect": "Effect: Tap the Past"
+      "name": "Recurrir al pasado",
+      "description": "<p><strong>Frecuencia</strong> una vez al dia</p>\n<p><strong>Desencadenante</strong> Estas a punto de intentar una prueba para Recordar conocimiento</p><hr /><p><strong>Efecto</strong> Te concentras en los destellos de una vida anterior para encontrar el recuerdo de un tomo o una leccion aplicable de tu pasado. Tiras una segunda vez y usas el resultado mayor. Si sacas un fallo critico, obtienes un fallo en su lugar. Si sacas un exito, obtienes un exito critico en su lugar.</p>",
+      "selfEffect": "Efecto: Recurrir al pasado"
     },
     "Taunt": {
-      "name": "Taunt",
-      "description": "<p>With an attention-grabbing gesture, noise, cutting remark, or threatening shout, you attempt to draw an enemy to you instead of your allies. Taunt gains the auditory trait, visual trait, or both, depending on how you draw the target's attention. Even mindless creatures are drawn to your taunts. Choose an enemy within 30 feet to be your taunted enemy. If your taunted enemy takes a hostile action that includes at least one of your allies but doesn't include you, they take a –1 circumstance penalty to their attack rolls and DCs for that action, and they also become @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of their next turn.</p>\n<p>Your enemy remains taunted until the start of your next turn, and you can have only one Taunt in effect at a time. Taunting a new enemy ends this effect on any current target.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.FlyWq9znOHvpISNW]{Effect: Taunt}</p>"
+      "name": "Provocar",
+      "description": "<p>Con un gesto llamativo, un ruido, una pulla cortante o un grito amenazador, intentas atraer a un enemigo hacia ti en lugar de hacia tus aliados. Provocar obtiene el rasgo auditivo, visual o ambos, segun como atraigas la atencion del objetivo. Incluso las criaturas sin mente se ven atraidas por tus provocaciones. Elige un enemigo a 30 pies o menos como tu enemigo provocado. Si tu enemigo provocado realiza una accion hostil que incluye al menos a uno de tus aliados pero no te incluye a ti, sufre un penalizador de circunstancia -1 a sus tiradas de ataque y CD para esa accion, y tambien queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} hasta el comienzo de su siguiente turno.</p>\n<p>Tu enemigo permanece provocado hasta el comienzo de tu siguiente turno, y solo puedes tener una Provocacion en efecto a la vez. Provocar a un nuevo enemigo termina este efecto sobre cualquier objetivo actual.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.FlyWq9znOHvpISNW]{Efecto: Provocar}</p>"
     },
     "Tell Me More": {
-      "name": "Tell Me More",
-      "description": "<p><strong>Target</strong> one creature that shares a language you speak</p>\n<p><strong>Requirements</strong> You're not in combat</p>\n<hr />\n<p><strong>Effect</strong> Just batting your eyes and giving someone a familiar nudge can get them talking, ready to spill the beans about everything and everyone around them. You roll twice on all rolls to influence the target and use the better result.</p>"
+      "name": "Cuentame mas",
+      "description": "<p><strong>Objetivo</strong> una criatura que comparta un idioma que hablas</p>\n<p><strong>Requisitos</strong> No estas en combate</p>\n<hr />\n<p><strong>Efecto</strong> Con solo pestañear y darle a alguien un empujoncito familiar puedes hacer que hable, dispuesto a soltarlo todo sobre cualquier cosa y cualquiera a su alrededor. Tiras dos veces en todas las tiradas para influir en el objetivo y usas el mejor resultado.</p>"
     },
     "Ten Paces": {
       "name": "Diez pasos",
