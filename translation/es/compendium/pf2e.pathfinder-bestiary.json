@@ -5168,57 +5168,57 @@
       }
     },
     "Mu Spore": {
-      "name": "Mu Spore",
-      "hpDetails": "regeneration 50 (deactivated by sonic)",
-      "publicNotes": "<p>A mu spore is a thankfully rare fungoid monstrosity of vast power and strange intellect. Even the smallest mu spores are never less than a hundred feet long from tentacle tip to tentacle tip, yet despite this vast bulk, they are capable of flying with an uncommon grace, venting jets of foul-smelling spores to guide their flight.</p>\n<p>Many societies tell tales of vast mu spores appearing over cities at the dawn of apocalyptic events, but they're more than just ravenous eaters of nations. Mu spores often possess rare or esoteric knowledge, and if peaceful contact can be made, this LORE can be quite valuable. Their spores can also be used to craft certain foul drugs or deadly alchemical poisons, but harvesting these ingredients is dangerous, as the spores are not viable for long once they've been shed, forcing alchemists seeking to harvest them to operate in perilously close proximity to the abominations.</p>",
-      "senses": "windsense 240 feet",
+      "name": "Espora mu",
+      "hpDetails": "regeneración 50 (desactivada por sónico)",
+      "publicNotes": "<p>Una espora mu es una monstruosidad fúngica, afortunadamente rara, con un poder inmenso y un extraño intelecto. Incluso la más pequeña de las esporas mu nunca mide menos de cien pies de longitud de la punta de un tentáculo a la de otro, pero, a pesar de su colosal corpulencia, es capaz de volar con una gracilidad inesperada, expulsando chorros de esporas malolientes para orientar su vuelo.</p>\n<p>Muchas sociedades cuentan relatos sobre enormes esporas mu que aparecen encima de determinadas ciudades al inicio de eventos apocalípticos, pero son más que meras devoradoras de naciones. Las esporas mu a menudo poseen raros conocimientos esotéricos y, si se logra entablar contacto de forma pacífica, ese saber puede resultar muy valioso.</p>\n<p>Sus esporas también pueden usarse para elaborar ciertas drogas desagradables o venenos alquímicos letales, pero recolectarlas es peligroso porque las esporas pierden su efectividad poco después de desprenderse, lo que obliga a los alquimistas que pretenden trabajar con ellas a hacerlo peligrosamente cerca de estas abominaciones.</p>",
+      "senses": "sentido de viento 240 pies",
       "items": {
         "strike-melee->Jaws": {
-          "name": "Jaws"
+          "name": "Fauces"
         },
         "strike-melee->Tentacle": {
-          "name": "Tentacle"
+          "name": "Tentáculo"
         },
         "action->Windsense 240 feet": {
-          "name": "Windsense 240 feet",
-          "description": "<p>The mu spore senses vibrations in the air through its aerial spores.</p>"
+          "name": "Sentido de viento 240 pies",
+          "description": "<p>La espora mu siente vibraciones en el aire a través de sus esporas aéreas.</p>"
         },
         "action->Regeneration 50 (Deactivated by Sonic)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.lR9R5Vld8Eu2Dha5]\nRegeneration 50 (Deactivated by Sonic)"
+          "name": "<Compendium> la etiqueta será reemplazada con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.lR9R5Vld8Eu2Dha5]\nRegeneración 50 (desactivada por sónico)"
         },
         "action->Enormous": {
-          "name": "Enormous",
-          "description": "<p>A mu spore is a massive creature and takes up a space of 10 squares by 10 squares (50 feet by 50 feet).</p>"
+          "name": "Gigantesca",
+          "description": "<p>Una espora mu es una criatura enorme que ocupa un espacio de 10 casillas por 10 casillas (50 pies por 50 pies).</p>"
         },
         "action->Grasping Tendrils": {
-          "name": "Grasping Tendrils",
-          "description": "<p><strong>Trigger</strong> A creature within 10 feet of the mu spore moves or attacks the mu spore.</p>\n<hr />\n<p><strong>Effect</strong> The spore uses @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.i18TlebMzwONyPhI]{GRAB} on the triggering creature. There is no limit to how many creatures it can GRAB with the sticky tendrils that cover its body.</p>"
+          "name": "Agarrón con zarcillos",
+          "description": "<p><strong>Desencadenante</strong> Una criatura a 10 pies o menos de la espora mu se mueve o ataca a la espora mu.</p>\n<hr />\n<p><strong>Efecto</strong> La espora usa @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.i18TlebMzwONyPhI]{Agarrón} sobre la criatura desencadenante. No hay límite al número de criaturas que puede tener agarradas con los zarcillos pegajosos que recubren su cuerpo.</p>"
         },
         "action->Spores": {
-          "name": "Spores",
-          "description": "<p>60 feet. A living creature that enters the area or ends its turn within it is corrupted by spores. It must succeed at a @Check[fortitude|dc:42] save or be @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1}, and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round. Fungi and plants are immune.</p>"
+          "name": "Esporas",
+          "description": "<p>60 pies. Una criatura viva que entra en el área o termina su turno dentro de ella resulta corrompida por las esporas. Debe tener éxito en una salvación de @Check[fortitude|dc:42] o queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitada 1}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentizada 1} y @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} durante 1 asalto. Los hongos y las plantas son inmunes.</p>"
         },
         "action->Cough Spores": {
-          "name": "Cough Spores",
-          "description": "<p>The mu spore releases a cloud of burrowing spores in a @Template[cone|distance:400]. The spores deal @Damage[22d6[piercing]|options:area-damage] damage to all creatures, objects, and wooden structures in the area, but not to plants or fungi (@Check[reflex|dc:46|basic|options:area-effect] save).</p>\n<p>The mu spore can't use this ability again for [[/gmr 1d4 #Recharge Cough Spores]]{1d4 rounds}.</p>"
+          "name": "Toser esporas",
+          "description": "<p>La espora mu libera una nube de esporas consumidoras en un @Template[cone|distance:400]. Las esporas infligen @Damage[22d6[piercing]|options:area-damage] de daño perforante a todas las criaturas, objetos y estructuras de madera en el área, pero no a plantas ni hongos (salvación básica de @Check[reflex|dc:46|basic|options:area-effect]).</p>\n<p>La espora mu no puede volver a usar esta aptitud durante [[/gmr 1d4 #Recarga Toser esporas]]{1d4 asaltos}.</p>"
         },
         "action->Enormous Inhalation": {
-          "name": "Enormous Inhalation",
-          "description": "<p>The mu spore pulls all creatures and objects in a @Template[cone|distance:400] 400 feet towards it's mouth. A successful @Check[fortitude|dc:43] save halves the distance, or avoids the pull on a critical success. The mu spore automatically attempts to Swallow Whole each creature adjacent to it at the end of the inhalation.</p>"
+          "name": "Inhalación colosal",
+          "description": "<p>La espora mu tira de todas las criaturas y objetos en un @Template[cone|distance:400] 400 pies hacia su boca. Una salvación de @Check[fortitude|dc:43] con éxito reduce la distancia a la mitad, y un éxito crítico evita el arrastre. La espora mu intenta automáticamente Tragar de golpe a toda criatura adyacente a ella al final de la inhalación.</p>"
         },
         "action->Fast Swallow": {
-          "name": "Fast Swallow",
-          "description": "<p><strong>Trigger</strong> The mu spore @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabs} a creature with its jaws.</p>\n<hr />\n<p><strong>Effect</strong> The spore uses Swallow Whole.</p>"
+          "name": "Tragar de golpe",
+          "description": "<p><strong>Desencadenante</strong> La espora mu @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarra} a una criatura con sus fauces.</p>\n<hr />\n<p><strong>Efecto</strong> La espora usa Engullir.</p>"
         },
         "action->Greater Constrict": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.OmV6E3aELvq9CkK1]\n<p>@Damage[15[bludgeoning]] damage, @Check[fortitude|dc:45|basic] save</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
+          "description": "<Compendium> la etiqueta será reemplazada con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.OmV6E3aELvq9CkK1]\n<p>@Damage[15[bludgeoning]] de daño contundente, salvación @Check[fortitude|dc:45|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
         },
         "action->Overpowering Jaws": {
-          "name": "Overpowering Jaws",
-          "description": "<p>The mu spore still deals @Damage[18[piercing]] damage if its jaws Strike is a failure</p>"
+          "name": "Fauces abrumadoras",
+          "description": "<p>La espora mu sigue infligiendo @Damage[18[piercing]] de daño perforante si su Golpe de fauces falla, pero no en caso de fallo crítico.</p>"
         },
         "action->Swallow Whole": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]\n<p>Gargantuan, @Damage[(20d6+9)[acid]] damage, Rupture 37.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+          "description": "<Compendium> la etiqueta será reemplazada con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]\n<p>Gargantuesca, @Damage[(20d6+9)[acid]] de daño por ácido, Ruptura 37.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
         }
       }
     },
