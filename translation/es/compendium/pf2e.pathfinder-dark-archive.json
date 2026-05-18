@@ -45,7 +45,7 @@
       "disable": "<p>@Check[nature|dc:36|name:Calm Hound] (experto) to calm each hound, or @Check[occultism|dc:38|name:Banish Hound] (maestro) to banish each hound</p>",
       "hpDetails": "60 HP per hound",
       "reset": "<p>1 hour</p>",
-      "routine": "<p>(9 actions) La trampa loses 3 actions each round for each hound disabled. Each hound uses three actions to Zancada 40 pies after criaturas in the room, passing through corporeal criaturas during this movement if possible. Each criatura the hound moves through during its movement takes @Damage[(2d8 + 7)[void]] daño (@Check[reflex|dc:37|rasgos:damaging-effect] negates). A criatura can only be damaged by each hound once each round, no matter how many times the hound moves through their space.</p>",
+      "routine": "<p>(9 actions) La trampa loses 3 actions each round for each hound disabled. Each hound uses three actions to Zancada 40 pies after criaturas in the room, passing through corporeal criaturas during this movement if possible. Each criatura the hound moves through during its movement takes @Damage[(2d8 + 7)[void]] daño (@Check[reflex|dc:37|traits:damaging-effect] negates). A criatura can only be damaged by each hound once each round, no matter how many times the hound moves through their space.</p>",
       "items": {
         "action->Bay": {
           "name": "Bay",
@@ -63,14 +63,14 @@
       "items": {
         "action->Leap into the Unknown": {
           "name": "Leap into the Unknown",
-          "description": "<p><strong>Desencadenante</strong> A criatura enters a square adjacent to the ledge of an island or steps onto one of the red ropes</p>\n<hr />\n<p><strong>Efecto</strong> The call of the void tugs at the mind of intruders, compelling them to leap off the ledge. The criatura must succeed at a @Check[will|dc:34] save or @Check[acrobatics|dc:32|rasgos:action:balance] check to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} or else drop off the ledge. If the criatura falls off, it drops 100 pies, loops through the closed space of the mindscape, and lands in the square it fell from, taking falling daño as normal (usually @Damage[50[bludgeoning]|options:fall-daño] daño). The call of the void then rolls initiative.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura enters a square adjacent to the ledge of an island or steps onto one of the red ropes</p>\n<hr />\n<p><strong>Efecto</strong> The call of the void tugs at the mind of intruders, compelling them to leap off the ledge. The criatura must succeed at a @Check[will|dc:34] save or @Check[acrobatics|dc:32|traits:action:balance] check to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} or else drop off the ledge. If the criatura falls off, it drops 100 pies, loops through the closed space of the mindscape, and lands in the square it fell from, taking falling daño as normal (usually @Damage[50[bludgeoning]|options:fall-daño] daño). The call of the void then rolls initiative.</p>"
         }
       }
     },
     "Clone Mirrors": {
       "name": "Clone Mirrors",
       "description": "<p>Two opposing mirrors spawn illusory duplicates of criaturas in the hall in an unending tide.</p>",
-      "disable": "<p>@Check[thievery|dc:28|name:Reposition Mirror|rasgos:action:disable-a-device] (experto) to reposition each mirror, or @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (3rd rank; counteract DC 25) to counteract each mirror</p>",
+      "disable": "<p>@Check[thievery|dc:28|name:Reposition Mirror|traits:action:disable-a-device] (experto) to reposition each mirror, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (3rd rank; counteract DC 25) to counteract each mirror</p>",
       "hpDetails": "per mirror",
       "reset": "<p>1 day</p>",
       "routine": "<p>(2 actions) Este trap loses 1 action for each mirror disabled. Each mirror uses 1 action to Spawn a Reflection of a criatura reflected in the mirror. The hazard can have a maximum of four reflections spawned at once.</p>",
@@ -105,14 +105,14 @@
         },
         "action->Of Same Essence": {
           "name": "Of Same Essence",
-          "description": "<p>The cocoon and the Weaver share the same essence. Its conjuros never affect the Weaver if they would harm him, and the Weaver can ignore the any of the cocoon's active conjuro effects if he desires (such as @UUID[Compendium.pf2e.conjuros-srd.Item.tSosbMsftXcRaQgT]{Sea of Thought}).</p>"
+          "description": "<p>The cocoon and the Weaver share the same essence. Its conjuros never affect the Weaver if they would harm him, and the Weaver can ignore the any of the cocoon's active conjuro effects if he desires (such as @UUID[Compendium.pf2e.spells-srd.Item.tSosbMsftXcRaQgT]{Sea of Thought}).</p>"
         }
       }
     },
     "Confounding Portal": {
       "name": "Confounding Portal",
       "description": "<p>Tiny runes carved around a doorframe or on a hall's walls surreptitiously confound criaturas into circling the room or hallway they attempted to exit or pass through.</p>",
-      "disable": "<p>@Check[thievery|dc:17|name:Scratch Out Runes|rasgos:action:disable-a-device] to scratch out the runes, or @Check[arcana|dc:16|name:Destroy the Runes] to destroy the runes</p>",
+      "disable": "<p>@Check[thievery|dc:17|name:Scratch Out Runes|traits:action:disable-a-device] to scratch out the runes, or @Check[arcana|dc:16|name:Destroy the Runes] to destroy the runes</p>",
       "reset": "<p>Automatic</p>",
       "items": {
         "action->Confounding Misdirection": {
@@ -124,7 +124,7 @@
     "Constricting Hall": {
       "name": "Constricting Hall",
       "description": "<p>A hall's four walls become fluid and elastic when a criatura reaches the hall's midpoint.</p>",
-      "disable": "<p>@Check[thievery|dc:28|name:Stabilize Wall|rasgos:action:disable-a-device] (entrenado) to stabilize each wall, or @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank; counteract DC 26) to counteract each wall</p>",
+      "disable": "<p>@Check[thievery|dc:28|name:Stabilize Wall|traits:action:disable-a-device] (entrenado) to stabilize each wall, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank; counteract DC 26) to counteract each wall</p>",
       "reset": "<p>1 hour</p>",
       "routine": "<p>(4 actions) Este trap loses 1 action each round for each wall that has been disabled. Each wall uses 1 action to slam back and forth rapidly, pummeling one criatura in the hall with a wall Golpe. On a hit, el objetivo is additionally knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}. The walls distribute the attacks as evenly as possible among criaturas in the hall, and the Golpes don't apply the trap's multiple attack penalización.</p>",
       "items": {
@@ -140,9 +140,9 @@
     "Darkside Mirror": {
       "name": "Darkside Mirror",
       "description": "<p>A magic mirror replaces characters with malicious mirror duplicates from another dimension.</p>",
-      "disable": "<p>@Check[thievery|dc:34] (legendario) to retrieve a criatura from the other dimension within 10 minutes of the switch (possible only if their mirror duplicate is dead), @Check[thievery|dc:39] (maestro) to permanently disable the mirror once all mirror duplicates are dead, or @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (7th rank; counteract DC 32) to counteract the mirror for 1 minute and prevent additional replacements during that time.</p>",
+      "disable": "<p>@Check[thievery|dc:34] (legendario) to retrieve a criatura from the other dimension within 10 minutes of the switch (possible only if their mirror duplicate is dead), @Check[thievery|dc:39] (maestro) to permanently disable the mirror once all mirror duplicates are dead, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (7th rank; counteract DC 32) to counteract the mirror for 1 minute and prevent additional replacements during that time.</p>",
       "hpDetails": "The mirror can't be damaged while any mirror duplicate is alive",
-      "reset": "<p>The mirror is always ready to absorb criaturas into the other dimension. Ten minutes after a criatura is sucked into the mirror, if an ally doesn't rescue the criatura, it reaches the other dimension. In the mirror dimension, it counts as a mirror duplicate. Estos dimensions are alternate realities, not planes, so even conjuros like @UUID[Compendium.pf2e.conjuros-srd.Item.5bTt2CvYHPvaR7QQ]{Interplanar Teleport}<em> </em>can't reach them.</p>",
+      "reset": "<p>The mirror is always ready to absorb criaturas into the other dimension. Ten minutes after a criatura is sucked into the mirror, if an ally doesn't rescue the criatura, it reaches the other dimension. In the mirror dimension, it counts as a mirror duplicate. Estos dimensions are alternate realities, not planes, so even conjuros like @UUID[Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ]{Interplanar Teleport}<em> </em>can't reach them.</p>",
       "routine": "<p>(1 action) The mirror absorbs another reflected criatura and replaces it with a mirror duplicate. A mirror duplicate attacks on their own initiative, using the same statistics as the original criatura, but they hate all other non-duplicate criaturas. A mirror duplicate can spend 3 actions in contact with the mirror to return to their original dimension and release the duplicated criatura.</p>",
       "stealth": "<p>(maestro) to notice it isn't a regular mirror</p>",
       "items": {
@@ -155,7 +155,7 @@
     "Disorienting Illusions": {
       "name": "Disorienting Illusions",
       "description": "<p>Illusions cloaking this chamber cause it to appear distorted and constantly shifting, with the room and all its contents appearing tilted, irregular, and in motion.</p>",
-      "disable": "<p>@Check[crafting|dc:17|name:Calculate the Room's Dimensions] (entrenado) to calculate the room's dimensions despite the illusions, or @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (1st rank; counteract DC 17) to counteract the illusions</p>",
+      "disable": "<p>@Check[crafting|dc:17|name:Calculate the Room's Dimensions] (entrenado) to calculate the room's dimensions despite the illusions, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (1st rank; counteract DC 17) to counteract the illusions</p>",
       "reset": "<p>1 minute</p>",
       "items": {
         "action->Disorient": {
@@ -167,33 +167,33 @@
     "Distortion Mirror": {
       "name": "Distortion Mirror",
       "description": "<p>Fun-house mirrors distort a viewer's reflection, painfully reshaping their body to match what appears in the reflected images.</p>",
-      "disable": "<p>@Check[thievery|dc:38|name:Deface the Mirror|rasgos:action:disable-a-device] (maestro) to deface the mirror's pane, or @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (7th rank; counteract DC 36) to dispel the mirror or counteract the transformation</p>",
+      "disable": "<p>@Check[thievery|dc:38|name:Deface the Mirror|traits:action:disable-a-device] (maestro) to deface the mirror's pane, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (7th rank; counteract DC 36) to dispel the mirror or counteract the transformation</p>",
       "reset": "<p>1 day</p>",
       "stealth": "<p>0 to notice the mirror</p>",
       "items": {
         "action->Painful Transformation": {
           "name": "Painful Transformation",
-          "description": "<p><strong>Desencadenante</strong> A criatura is reflected in the mirror</p>\n<hr />\n<p><strong>Efecto</strong> The triggering criatura's body is painfully squished, stretched, and distorted to match their reflection. The criatura takes @Damage[(6d10 + 30)[force]] daño and must attempt a @Check[fortitude|dc:39|rasgos:damaging-effect] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo is unaffected.</p>\n<p><strong>Éxito</strong> El objetivo takes half daño and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1} for 1 round.</p>\n<p><strong>Fallo</strong> El objetivo takes full daño and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 2} for 4 rounds.</p>\n<p><strong>Fallo crítico</strong> El objetivo takes double daño and is torpe 2 and debilitado 2 for 1 minute. As long as the criatura is torpe or debilitado, it additionally takes a -10-pies penalización de estado to its Velocidades.</p>\n<p>When the effects of this trap end, the triggering criatura's transformation ends, and its body reverts to its natural form.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura is reflected in the mirror</p>\n<hr />\n<p><strong>Efecto</strong> The triggering criatura's body is painfully squished, stretched, and distorted to match their reflection. The criatura takes @Damage[(6d10 + 30)[force]] daño and must attempt a @Check[fortitude|dc:39|traits:damaging-effect] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo is unaffected.</p>\n<p><strong>Éxito</strong> El objetivo takes half daño and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1} for 1 round.</p>\n<p><strong>Fallo</strong> El objetivo takes full daño and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 2} for 4 rounds.</p>\n<p><strong>Fallo crítico</strong> El objetivo takes double daño and is torpe 2 and debilitado 2 for 1 minute. As long as the criatura is torpe or debilitado, it additionally takes a -10-pies penalización de estado to its Velocidades.</p>\n<p>When the effects of this trap end, the triggering criatura's transformation ends, and its body reverts to its natural form.</p>"
         }
       }
     },
     "Entrapping Chair": {
       "name": "Entrapping Chair",
       "description": "<p>A chair on concealed tracks surges forward, knocking a criatura into the chair's seat and trapping them in place with clamping armrests.</p>",
-      "disable": "<p>@Check[thievery|dc:23|name:Disrupt the Tracks|rasgos:action:disable-a-device] (experto) to disrupt the tracks</p>",
+      "disable": "<p>@Check[thievery|dc:23|name:Disrupt the Tracks|traits:action:disable-a-device] (experto) to disrupt the tracks</p>",
       "reset": "<p>La trampa resets automatically over 2 rounds if the chair is unoccupied.</p>",
       "stealth": "<p>(0 to notice the chair)</p>",
       "items": {
         "action->Take a Seat!": {
           "name": "Take a Seat!",
-          "description": "<p><strong>Desencadenante</strong> A criatura steps on the track</p>\n<hr />\n<p><strong>Efecto</strong> The chair rockets forward along the track and slams into the triggering criatura, dealing @Damage[(3d8 + 15)[bludgeoning]] daño. A criatura who succeeds at a @Check[reflex|dc:22|rasgos:damaging-effect] save takes no daño and moves out of the chair's path into a random adjacent square not containing the track. A criatura who fails this tirada de salvación is knocked into the chair's seat and immediately captured by the armrests, becoming @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} (@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado} on a critical failure; Escape DC 26).</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura steps on the track</p>\n<hr />\n<p><strong>Efecto</strong> The chair rockets forward along the track and slams into the triggering criatura, dealing @Damage[(3d8 + 15)[bludgeoning]] daño. A criatura who succeeds at a @Check[reflex|dc:22|traits:damaging-effect] save takes no daño and moves out of the chair's path into a random adjacent square not containing the track. A criatura who fails this tirada de salvación is knocked into the chair's seat and immediately captured by the armrests, becoming @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} (@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado} on a critical failure; Escape DC 26).</p>"
         }
       }
     },
     "Exhaling Portal": {
       "name": "Exhaling Portal",
       "description": "<p>Magic runes carved into a doorframe connect a door to the Plane of Air when opened, blowing criaturas down the connecting hall.</p>",
-      "disable": "<p>@Check[thievery|dc:30|name:Scratch Out Runes|rasgos:action:disable-a-device] (experto) twice to scratch out the runes, or @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (5th rank; counteract DC 30) to counteract the planar runes; @Check[athletics|dc:32|name:Shut the Door] to shut the door if it's open (using ATHLETICS only stops the trap, it doesn't fully disable it)</p>",
+      "disable": "<p>@Check[thievery|dc:30|name:Scratch Out Runes|traits:action:disable-a-device] (experto) twice to scratch out the runes, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (5th rank; counteract DC 30) to counteract the planar runes; @Check[athletics|dc:32|name:Shut the Door] to shut the door if it's open (using ATHLETICS only stops the trap, it doesn't fully disable it)</p>",
       "reset": "<p>Automatic after the door is shut</p>",
       "routine": "<p>(1 action) La trampa uses 1 action to blow powerful winds down the hall. Each criatura in the hall must attempt a @Check[fortitude|dc:32] save with the same results as Gust. If this forced movement would cause a criatura to collide with a solid object or fall downstairs or out a window, that criatura takes an additional @Damage[(2d10 + 11)[bludgeoning]] daño (or @Damage[20[bludgeoning]|options:fall-daño] daño due to a fall).</p>",
       "items": {
@@ -206,20 +206,20 @@
     "False Floor": {
       "name": "False Floor",
       "description": "<p>The floor in this chamber is an illusion, which conceals a 40-pies drop to the true floor below. Additionally, the area beneath the floor is magically silenced-no sound is audible within nor does sound leave this space.</p>",
-      "disable": "<p>Succeeding on a Perception check against the STEALTH DC of 21 (including the check to find the trap) disbelieves the illusory floor, or @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (2nd rank; counteract DC 18) to dispel the illusory floor; <em>dispel magic</em> (2nd level; counteract DC 20) to dispel the magical silence</p>",
+      "disable": "<p>Succeeding on a Perception check against the STEALTH DC of 21 (including the check to find the trap) disbelieves the illusory floor, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (2nd rank; counteract DC 18) to dispel the illusory floor; <em>dispel magic</em> (2nd level; counteract DC 20) to dispel the magical silence</p>",
       "reset": "<p>Automatic</p>",
       "stealth": "<p>(entrenado; or 0 if the illusory floor is dispelled)</p>",
       "items": {
         "action->Drop": {
           "name": "Drop",
-          "description": "<p><strong>Desencadenante</strong> A criatura walks onto the illusory floor</p>\n<hr />\n<p><strong>Efecto</strong> The triggering criatura falls through the illusory floor and takes falling daño (typically @Damage[20[bludgeoning]|options:fall-daño] daño). That criatura can use the @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{GRAB an Edge} reaction to avoid falling. The DC to @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{CLIMB} the walls (@Check[athletics|dc:20|rasgos:action:climb]) or GRAB an Edge is @Check[reflex|dc:20|rasgos:action:grab-an-edge].</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura walks onto the illusory floor</p>\n<hr />\n<p><strong>Efecto</strong> The triggering criatura falls through the illusory floor and takes falling daño (typically @Damage[20[bludgeoning]|options:fall-daño] daño). That criatura can use the @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{GRAB an Edge} reaction to avoid falling. The DC to @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{CLIMB} the walls (@Check[athletics|dc:20|traits:action:climb]) or GRAB an Edge is @Check[reflex|dc:20|traits:action:grab-an-edge].</p>"
         }
       }
     },
     "False Step Floor": {
       "name": "False Dar un paso Floor",
       "description": "<p>Each time a criatura enters the room, it slips through the floor, tumbles through an interdimensional void, and falls back into the room through the ceiling, landing on the floor.</p>",
-      "disable": "<p>@Check[thievery|dc:28|name:Disrupt the Magical Energy|rasgos:action:disable-a-device] (entrenado) to disrupt the magical energy, or @Check[arcana|dc:27|name:Realign the Magic] or @Check[occultism|dc:27|name:Realign the Magic] (entrenado) to realign the magical energy</p>",
+      "disable": "<p>@Check[thievery|dc:28|name:Disrupt the Magical Energy|traits:action:disable-a-device] (entrenado) to disrupt the magical energy, or @Check[arcana|dc:27|name:Realign the Magic] or @Check[occultism|dc:27|name:Realign the Magic] (entrenado) to realign the magical energy</p>",
       "reset": "<p>La trampa resets after 1 round.</p>",
       "items": {
         "action->False Step": {
@@ -240,7 +240,7 @@
         },
         "action->Destabilized Form": {
           "name": "Destabilized Form",
-          "description": "<p>When the Echo has fewer than 140 Puntos de Golpe, his form destabilizes, large chunks disintegrating from his face, limbs, and torso. White moths constantly stream from the missing spaces, creating a @Template[emanation|distance:10] that deals @Damage[6d6[mental]|options:area-daño] daño with a @Check[will|dc:34|basic|options:area-effect].</p>\n<p>As long as the aura persists, he can dissolve into moths and re-form at another location within 15 pies as a free action at the beginning of each of his turns; this has the occult, conjuration, and teleportation rasgos.</p>"
+          "description": "<p>When the Echo has fewer than 140 Puntos de Golpe, his form destabilizes, large chunks disintegrating from his face, limbs, and torso. White moths constantly stream from the missing spaces, creating a @Template[emanation|distance:10] that deals @Damage[6d6[mental]|options:area-damage] daño with a @Check[will|dc:34|basic|options:area-effect].</p>\n<p>As long as the aura persists, he can dissolve into moths and re-form at another location within 15 pies as a free action at the beginning of each of his turns; this has the occult, conjuration, and teleportation rasgos.</p>"
         },
         "action->Reactive Strike (Special)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc]\nReactive Golpe (Special)",
@@ -269,7 +269,7 @@
         },
         "action->Spindle's Web": {
           "name": "Spindle's Web",
-          "description": "<p>The Echo's spindle revolves faster and faster until it's a blur, lashing red threads in every direction. The threads deal @Damage[7d6[slashing],7d6[mental]]{7d6 daño cortante and 7d6 daño mental} to all criaturas in a @Template[emanation|distance:30], with a @Check[reflex|dc:34|basic]. If a criatura fails its save, the threads awaken the mindscape an</p>\n<p>chor within it, affecting it differently based on which anchor that criatura used to gain access to the center of the mindscape. (If there is a PC who didn't absorb a mindscape anchor, for instance because there are more than four PCs in the party, then use the anchor of the PC closest to them.)</p>\n<p>The Echo then can't use Spindle's Web for [[/br 1d4 #rounds]]{1d4 rounds}.</p>\n<ul>\n<li><strong>Lantern</strong> The lantern outlines the criatura with searing @UUID[Compendium.pf2e.conjuros-srd.Item.HRb2doyaLtaoCfi3]{Faerie Fire} that deals @Damage[2d6[persistent,fire]] daño.</li>\n<li><strong>Mirror</strong> The mirror reflects the criatura to another location, teleporting them to a clear space within 25 pies of their current location.</li>\n<li><strong>Chalice</strong> The chalice drains life force, granting the Echo temporary HP equal to half the daño dealt.</li>\n<li><strong>Tome</strong> The tome floods the criatura's mind with information; el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for 1 round.</li>\n</ul>"
+          "description": "<p>The Echo's spindle revolves faster and faster until it's a blur, lashing red threads in every direction. The threads deal @Damage[7d6[slashing],7d6[mental]]{7d6 daño cortante and 7d6 daño mental} to all criaturas in a @Template[emanation|distance:30], with a @Check[reflex|dc:34|basic]. If a criatura fails its save, the threads awaken the mindscape an</p>\n<p>chor within it, affecting it differently based on which anchor that criatura used to gain access to the center of the mindscape. (If there is a PC who didn't absorb a mindscape anchor, for instance because there are more than four PCs in the party, then use the anchor of the PC closest to them.)</p>\n<p>The Echo then can't use Spindle's Web for [[/br 1d4 #rounds]]{1d4 rounds}.</p>\n<ul>\n<li><strong>Lantern</strong> The lantern outlines the criatura with searing @UUID[Compendium.pf2e.spells-srd.Item.HRb2doyaLtaoCfi3]{Faerie Fire} that deals @Damage[2d6[persistent,fire]] daño.</li>\n<li><strong>Mirror</strong> The mirror reflects the criatura to another location, teleporting them to a clear space within 25 pies of their current location.</li>\n<li><strong>Chalice</strong> The chalice drains life force, granting the Echo temporary HP equal to half the daño dealt.</li>\n<li><strong>Tome</strong> The tome floods the criatura's mind with information; el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for 1 round.</li>\n</ul>"
         },
         "lore->Esoteric Lore": {
           "name": "Esoteric Lore"
@@ -292,11 +292,11 @@
         },
         "action->Am I Pretty?": {
           "name": "Am I Pretty?",
-          "description": "<p>The kuchisake-onna asks a single adjacent target, \"Am I pretty?\" El objetivo must attempt a @Check[will|dc:35|rasgos:mental] save. If it fails, it is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round, and if it critically fails, it is @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 1 round, though still able to respond to the question; this is a mental effect.</p>\n<p>If el objetivo responds \"No\", the kuchisake-onna makes two silver scissors Golpes against el objetivo. If el objetivo responds \"Yes\", the kuchisake-onna makes no Golpes this turn and must use Even Now? as their next action (waiting until the first action of their next turn, if necessary). If el objetivo otherwise responds in a confusing or noncommittal manner, the kuchisake-onna becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all criaturas for 1 round but can otherwise act normally.</p>"
+          "description": "<p>The kuchisake-onna asks a single adjacent target, \"Am I pretty?\" El objetivo must attempt a @Check[will|dc:35|traits:mental] save. If it fails, it is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round, and if it critically fails, it is @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 1 round, though still able to respond to the question; this is a mental effect.</p>\n<p>If el objetivo responds \"No\", the kuchisake-onna makes two silver scissors Golpes against el objetivo. If el objetivo responds \"Yes\", the kuchisake-onna makes no Golpes this turn and must use Even Now? as their next action (waiting until the first action of their next turn, if necessary). If el objetivo otherwise responds in a confusing or noncommittal manner, the kuchisake-onna becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all criaturas for 1 round but can otherwise act normally.</p>"
         },
         "action->Even Now?": {
           "name": "Even Now?",
-          "description": "<p><strong>Requisitos</strong> An adjacent criatura previously targeted by Am I Pretty? answered \"Yes\"</p>\n<hr />\n<p><strong>Efecto</strong> The kuchisake-onna takes off their mask, revealing their slit face and asking, \"Even now?\" El objetivo must attempt a @Check[will|dc:35|rasgos:mental] save.</p>\n<p>If it fails, it is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round, and if it critically fails, it is @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 1 round, though still able to respond to the question; this is a mental effect.</p>\n<p>Whether el objetivo responds \"Yes\" or \"No\", the kuchisake-onna makes two silver scissors Golpes against el objetivo.</p>"
+          "description": "<p><strong>Requisitos</strong> An adjacent criatura previously targeted by Am I Pretty? answered \"Yes\"</p>\n<hr />\n<p><strong>Efecto</strong> The kuchisake-onna takes off their mask, revealing their slit face and asking, \"Even now?\" El objetivo must attempt a @Check[will|dc:35|traits:mental] save.</p>\n<p>If it fails, it is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round, and if it critically fails, it is @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 1 round, though still able to respond to the question; this is a mental effect.</p>\n<p>Whether el objetivo responds \"Yes\" or \"No\", the kuchisake-onna makes two silver scissors Golpes against el objetivo.</p>"
         },
         "action->Lingering Enmity": {
           "name": "Lingering Enmity",
@@ -311,12 +311,12 @@
     "Mirror Door": {
       "name": "Mirror Door",
       "description": "<p>The reflection of a wall shows a phantom door where none exists. Este door can only be manipulated while viewed through the mirror's reflection.</p>",
-      "disable": "<p>@Check[thievery|dc:18|name:Open the Door|rasgos:action:disable-a-device] to open the door while viewing the reflection</p>",
+      "disable": "<p>@Check[thievery|dc:18|name:Open the Door|traits:action:disable-a-device] to open the door while viewing the reflection</p>",
       "reset": "<p>Automatic</p>",
       "items": {
         "action->Appear": {
           "name": "Appear",
-          "description": "<p><strong>Desencadenante</strong> A criatura views the wall through a mirror's reflection</p>\n<hr />\n<p><strong>Efecto</strong> A door appears in the mirror's reflection of the wall. The triggering criatura can open and manipulate this door only as long as they view it through the mirror and only by succeeding at a @Check[thievery|dc:18|name:Disable the Trap|rasgos:action:disable-a-device] check to disable the trap.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura views the wall through a mirror's reflection</p>\n<hr />\n<p><strong>Efecto</strong> A door appears in the mirror's reflection of the wall. The triggering criatura can open and manipulate this door only as long as they view it through the mirror and only by succeeding at a @Check[thievery|dc:18|name:Disable the Trap|traits:action:disable-a-device] check to disable the trap.</p>"
         }
       }
     },
@@ -361,7 +361,7 @@
         },
         "action->Light Vulnerability": {
           "name": "Light Vulnerability",
-          "description": "<p>An object shedding magical light (such as from the @UUID[Compendium.pf2e.conjuros-srd.Item.WBmvzNDfpwka3qT4]{Light} conjuro) is treated as magical when used to attack the shadow.</p>"
+          "description": "<p>An object shedding magical light (such as from the @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Light} conjuro) is treated as magical when used to attack the shadow.</p>"
         },
         "action->Crystal Siphon": {
           "name": "Crystal Siphon",
@@ -376,7 +376,7 @@
     "Reflected Desires": {
       "name": "Reflected Desires",
       "description": "<p>Este mirror reflects the viewer's deepest desires.</p>",
-      "disable": "<p>@Check[thievery|dc:18|name:Shroud the Mirror|rasgos:action:disable-a-device] (entrenado) to shroud the mirror without looking at it, or @Check[occultism|dc:17|name:Erect Mental Barriers] (entrenado) to erect mental barriers</p>",
+      "disable": "<p>@Check[thievery|dc:18|name:Shroud the Mirror|traits:action:disable-a-device] (entrenado) to shroud the mirror without looking at it, or @Check[occultism|dc:17|name:Erect Mental Barriers] (entrenado) to erect mental barriers</p>",
       "reset": "<p>Automatic</p>",
       "stealth": "<p>(0 to notice the mirror)</p>",
       "items": {
@@ -401,7 +401,7 @@
     "Shrinking Hall": {
       "name": "Shrinking Hall",
       "description": "<p>Este hallway is designed to shrink as criaturas traverse it, making access to the door at the hall's end impossible.</p>",
-      "disable": "<p>@Check[thievery|dc:21|name:Jam the Scales|rasgos:action:disable-a-device] (entrenado) to jam the scales built into the floor</p>",
+      "disable": "<p>@Check[thievery|dc:21|name:Jam the Scales|traits:action:disable-a-device] (entrenado) to jam the scales built into the floor</p>",
       "reset": "<p>After 10 minutes without weight being placed on this hall's floor, this trap resets, returning the hall to its original size.</p>",
       "items": {
         "action->Shrink": {
@@ -413,7 +413,7 @@
     "Shrouded Assailant": {
       "name": "Shrouded Assailant",
       "description": "<p>A spirit steps out of a covered mirror, pulling off and becoming shrouded in the cloth, which reveals the mirror. The shrouded figure attacks the living until the cloth is yanked off, which banishes the formless spirit.</p>",
-      "disable": "<p>@Check[thievery|dc:43|name:Steal the Cloth|rasgos:action:disable-a-device] (maestro) to steal the cloth before the spirit manifests, or @Check[athletics|dc:47|name:Pull the Cloth Off] to pull the cloth off the spirit after it manifests</p>",
+      "disable": "<p>@Check[thievery|dc:43|name:Steal the Cloth|traits:action:disable-a-device] (maestro) to steal the cloth before the spirit manifests, or @Check[athletics|dc:47|name:Pull the Cloth Off] to pull the cloth off the spirit after it manifests</p>",
       "hpDetails": "spirit",
       "reset": "<p>The haunt can be reset if the mirror is covered in a cloth or shroud.</p>",
       "routine": "<p>(3 actions) The spirit uses 3 actions to Dar un paso, fly 60 pies, or Golpe, in any order. On a successful Golpe the spirit's target is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}, and on a critical success, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}.</p>",
@@ -430,25 +430,25 @@
     "Shuffling Hall": {
       "name": "Shuffling Hall",
       "description": "<p>Four pressure plates along this mirrored hall rotate vertically when stepped on, sending a criatura on the pressure plate tipping into an adjacent featureless room while simultaneously replacing the pressure plate and walls in the hall. Each pressure plate dumps criaturas into a different room.</p>",
-      "disable": "<p>@Check[thievery|dc:12|name:Deactivate a Plate|rasgos:action:disable-a-device] to deactivate one pressure plate</p>",
+      "disable": "<p>@Check[thievery|dc:12|name:Deactivate a Plate|traits:action:disable-a-device] to deactivate one pressure plate</p>",
       "reset": "<p>Automatic</p>",
       "items": {
         "action->Flip": {
           "name": "Flip",
-          "description": "<p><strong>Desencadenante</strong> A criatura steps on a pressure plate</p>\n<hr />\n<p><strong>Efecto</strong> The floor and adjoining wall rotate up and over on a central axle, tipping the triggering criatura into an adjacent featureless room and simultaneously replacing the pressure plate and wall with another set on the same axle. The triggering criatura is pushed into an adjoining room, takes @Damage[1d8[bludgeoning]] daño, and lands @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}. A criatura who succeeds at a @Check[reflex|dc:19|rasgos:damaging-effect] save takes no daño and rolls out of the way of the trap, returning to the space they were in before stepping on the pressure plate.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura steps on a pressure plate</p>\n<hr />\n<p><strong>Efecto</strong> The floor and adjoining wall rotate up and over on a central axle, tipping the triggering criatura into an adjacent featureless room and simultaneously replacing the pressure plate and wall with another set on the same axle. The triggering criatura is pushed into an adjoining room, takes @Damage[1d8[bludgeoning]] daño, and lands @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}. A criatura who succeeds at a @Check[reflex|dc:19|traits:damaging-effect] save takes no daño and rolls out of the way of the trap, returning to the space they were in before stepping on the pressure plate.</p>"
         }
       }
     },
     "Sigil of Deepest Fears": {
       "name": "Sigil of Deepest Fears",
       "description": "<p>An arcane sigil forces criaturas to confront their greatest fear.</p>",
-      "disable": "<p>@Check[thievery|dc:43|name:Drain the Sigil's Power|rasgos:action:disable-a-device] (maestro) to drain the sigil's power harmlessly, or @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th rank; counteract DC 42) to counteract the sigil</p>",
+      "disable": "<p>@Check[thievery|dc:43|name:Drain the Sigil's Power|traits:action:disable-a-device] (maestro) to drain the sigil's power harmlessly, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th rank; counteract DC 42) to counteract the sigil</p>",
       "reset": "<p>1 day</p>",
       "stealth": "<p>(maestro)</p>",
       "items": {
         "action->Face Your Fear": {
           "name": "Face Tu Fear",
-          "description": "<p><strong>Desencadenante</strong> A criatura moves within 10 pies of the sigil</p>\n<hr />\n<p><strong>Efecto</strong> All criaturas within 120 pies of the sigil are affected by a @UUID[Compendium.pf2e.conjuros-srd.Item.qDjeG6dxT4aEEC6J]{Weird} conjuro (@Check[will|dc:40|rasgos:damaging-effect] save).</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura moves within 10 pies of the sigil</p>\n<hr />\n<p><strong>Efecto</strong> All criaturas within 120 pies of the sigil are affected by a @UUID[Compendium.pf2e.spells-srd.Item.qDjeG6dxT4aEEC6J]{Weird} conjuro (@Check[will|dc:40|traits:damaging-effect] save).</p>"
         }
       }
     },
@@ -486,7 +486,7 @@
       "items": {
         "action->Siphon Soul": {
           "name": "Siphon Soul",
-          "description": "<p><strong>Desencadenante</strong> A criatura touches the window</p>\n<hr />\n<p><strong>Efecto</strong> The triggering criatura takes @Damage[(8d10 + 44)[void]] daño (@Check[will|dc:42|basic]) as the window attempts to steal their soul. If this daño would kill el objetivo, its soul is trapped inside the window with the effects of @UUID[Compendium.pf2e.conjuros-srd.Item.GYmXvS9NJ7QwfWGg]{Seize Soul}.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura touches the window</p>\n<hr />\n<p><strong>Efecto</strong> The triggering criatura takes @Damage[(8d10 + 44)[void]] daño (@Check[will|dc:42|basic]) as the window attempts to steal their soul. If this daño would kill el objetivo, its soul is trapped inside the window with the effects of @UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg]{Seize Soul}.</p>"
         }
       }
     },
@@ -495,7 +495,7 @@
       "description": "<p>The pool sucks in criaturas that fall into it, making them sink into its endless depths.</p>",
       "disable": "<p>@Check[diplomacy|dc:32|name:Calm the Pool] (maestro) to quell the fear and calm the pool or @Check[intimidation|dc:35|name:Scare the Pool] to give the pool something worse to fear; three successes required.</p>",
       "reset": "<p>La trampa resets once there are no moving criaturas in it.</p>",
-      "routine": "<p>(3 actions) Water from the chalice increases the depth of the water by 10 pies for each action. Each time this happens, criaturas in the pool are pushed 10 pies down and take @Damage[1d6[bludgeoning]] daño. As the pool has no bottom, criaturas in it can fall down indefinitely; they must @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Swim} up to avoid drowning, but the water is especially choppy, so the ATHLETICS DC is @Check[athletics|dc:25|rasgos:action:swim]. The pool never overflows. Each successful check to Disable reduces the pool's actions by 1, and once the pool is completely Disabled, the water becomes still and the ATHLETICS DC to Swim becomes @Check[athletics|dc:10|rasgos:action:swim].</p>",
+      "routine": "<p>(3 actions) Water from the chalice increases the depth of the water by 10 pies for each action. Each time this happens, criaturas in the pool are pushed 10 pies down and take @Damage[1d6[bludgeoning]] daño. As the pool has no bottom, criaturas in it can fall down indefinitely; they must @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Swim} up to avoid drowning, but the water is especially choppy, so the ATHLETICS DC is @Check[athletics|dc:25|traits:action:swim]. The pool never overflows. Each successful check to Disable reduces the pool's actions by 1, and once the pool is completely Disabled, the water becomes still and the ATHLETICS DC to Swim becomes @Check[athletics|dc:10|traits:action:swim].</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
         "action->Downpour": {
@@ -544,7 +544,7 @@
         },
         "action->Dreams Unraveling": {
           "name": "Dreams Unraveling",
-          "description": "<p>When the Weaver has fewer than 155 Puntos de Golpe, his form partially unravels, revealing patches of pure horror acute enough to leave physical wounds. Este creates a 10-pies emanation that deals @Damage[3d6[mental],3d6[slashing]|options:area-daño]{3d6 daño mental and 3d6 daño cortante}, with a @Check[will|dc:36|basic|options:area-effect]. A criatura @UUID[Compendium.pf2e.actionspf2e.Item.UWdRX1VelipCzrCg]{Averting its Gaze} is immune to the aura.</p>"
+          "description": "<p>When the Weaver has fewer than 155 Puntos de Golpe, his form partially unravels, revealing patches of pure horror acute enough to leave physical wounds. Este creates a 10-pies emanation that deals @Damage[3d6[mental],3d6[slashing]|options:area-damage]{3d6 daño mental and 3d6 daño cortante}, with a @Check[will|dc:36|basic|options:area-effect]. A criatura @UUID[Compendium.pf2e.actionspf2e.Item.UWdRX1VelipCzrCg]{Averting its Gaze} is immune to the aura.</p>"
         },
         "action->Nameless Nightmare": {
           "name": "Nameless Nightmare",

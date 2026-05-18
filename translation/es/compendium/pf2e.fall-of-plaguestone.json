@@ -27,7 +27,7 @@
       "items": {
         "action->Beestings": {
           "name": "Picaduras de abeja",
-          "description": "<p>La criatura debe intentar una salvación de @Check[fortitude|dc:16|rasgos:damaging-effect]. Quienes fallen reciben @Damage[1d4[poison]] de daño y quedan @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpes 1} durante 1 minuto.</p>"
+          "description": "<p>La criatura debe intentar una salvación de @Check[fortitude|dc:16|traits:damaging-effect]. Quienes fallen reciben @Damage[1d4[poison]] de daño y quedan @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpes 1} durante 1 minuto.</p>"
         },
         "action->Swarming Stings": {
           "name": "Picaduras en enjambre",
@@ -133,12 +133,12 @@
     "Falling Debris": {
       "name": "Escombros que caen",
       "description": "<p>Una tabla del suelo sensible a la presión está conectada a una viga que sostiene escombros en el techo del pasadizo estrecho.</p>",
-      "disable": "<p>@Check[thievery|dc:15|name:Desactivar trampa|rasgos:mechanical,trap,hazard] (entrenado) en la tabla del suelo antes de que caigan los escombros</p>",
+      "disable": "<p>@Check[thievery|dc:15|name:Desactivar trampa|traits:mechanical,trap,hazard] (entrenado) en la tabla del suelo antes de que caigan los escombros</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
         "action->Falling Debris": {
           "name": "Escombros que caen",
-          "description": "<p><strong>Desencadenante</strong> Se ejerce presión sobre la tabla del suelo.</p>\n<hr />\n<p><strong>Efecto</strong> El techo del pasadizo estrecho se derrumba en la casilla donde el pasaje gira, y también en las dos casillas adyacentes. Cualquiera que esté en estas tres casillas recibe @Damage[3d6[bludgeoning]] de daño y puede intentar una salvación de @Check[reflex|dc:14|rasgos:damaging-effect] para reducir el daño. Para la criatura de la casilla central, donde se activa la trampa, esta es una salvación básica. Las criaturas en las dos casillas adyacentes no reciben daño con un éxito o éxito crítico, ya que evitan por completo los escombros que caen, pero reciben daño completo con una salvación fallida y daño doble con un fallo crítico. Las criaturas que reciben daño de los escombros quedan @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizadas}, atrapadas bajo el peso aplastante.</p>\n<p>Despejar una casilla de escombros requiere una prueba de habilidad con éxito de @Check[athletics|dc:17|name:Despejar escombros], con los siguientes efectos.</p>\n<hr />\n<p><strong>Éxito crítico</strong> La casilla queda despejada en 1 minuto.</p>\n<p><strong>Éxito</strong> La casilla queda despejada en 5 minutos.</p>\n<p><strong>Fallo</strong> La casilla queda despejada en 10 minutos.</p>\n<p><strong>Fallo crítico</strong> El techo sobre la casilla se derrumba aún más, infligiendo @Damage[2d6[bludgeoning]] de daño adicional al personaje que excava la casilla y a cualquier personaje atrapado en esa casilla. Esto tarda 1 minuto y no se progresa.</p>"
+          "description": "<p><strong>Desencadenante</strong> Se ejerce presión sobre la tabla del suelo.</p>\n<hr />\n<p><strong>Efecto</strong> El techo del pasadizo estrecho se derrumba en la casilla donde el pasaje gira, y también en las dos casillas adyacentes. Cualquiera que esté en estas tres casillas recibe @Damage[3d6[bludgeoning]] de daño y puede intentar una salvación de @Check[reflex|dc:14|traits:damaging-effect] para reducir el daño. Para la criatura de la casilla central, donde se activa la trampa, esta es una salvación básica. Las criaturas en las dos casillas adyacentes no reciben daño con un éxito o éxito crítico, ya que evitan por completo los escombros que caen, pero reciben daño completo con una salvación fallida y daño doble con un fallo crítico. Las criaturas que reciben daño de los escombros quedan @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizadas}, atrapadas bajo el peso aplastante.</p>\n<p>Despejar una casilla de escombros requiere una prueba de habilidad con éxito de @Check[athletics|dc:17|name:Despejar escombros], con los siguientes efectos.</p>\n<hr />\n<p><strong>Éxito crítico</strong> La casilla queda despejada en 1 minuto.</p>\n<p><strong>Éxito</strong> La casilla queda despejada en 5 minutos.</p>\n<p><strong>Fallo</strong> La casilla queda despejada en 10 minutos.</p>\n<p><strong>Fallo crítico</strong> El techo sobre la casilla se derrumba aún más, infligiendo @Damage[2d6[bludgeoning]] de daño adicional al personaje que excava la casilla y a cualquier personaje atrapado en esa casilla. Esto tarda 1 minuto y no se progresa.</p>"
         }
       }
     },
@@ -238,7 +238,7 @@
     "Ice Fall Trap": {
       "name": "Trampa de caída de hielo",
       "description": "<p>Compartimentos en el techo están preparados para verter un líquido alquímico congelante por toda la habitación si la puerta se abre sin usar la llave.</p>",
-      "disable": "<p>@Check[thievery|dc:20|name:Desactivar caída de hielo|rasgos:mechanical,trap] (entrenado) en la puerta permite abrirla sin activar la trampa.</p>",
+      "disable": "<p>@Check[thievery|dc:20|name:Desactivar caída de hielo|traits:mechanical,trap] (entrenado) en la puerta permite abrirla sin activar la trampa.</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
         "action->Ice Fall": {
@@ -356,7 +356,7 @@
     "Spear Launcher": {
       "name": "Lanzador de lanzas",
       "description": "<p>Una vieja ballesta pesada está oculta en un montón de basura, cargada con una lanza de madera y conectada a la cuerda que sujeta la puerta.</p>",
-      "disable": "<p>@Check[thievery|dc:18|rasgos:action:disable-a-device]{Latrocinio (entrenado)} en la cuerda permite a un PJ atarla y abrir la puerta sin activar la trampa.</p>",
+      "disable": "<p>@Check[thievery|dc:18|traits:action:disable-a-device]{Latrocinio (entrenado)} en la cuerda permite a un PJ atarla y abrir la puerta sin activar la trampa.</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
         "action->Spear": {

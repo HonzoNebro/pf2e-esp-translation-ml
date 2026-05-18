@@ -58,7 +58,7 @@
         },
         "action->Timber!": {
           "name": "Timber!",
-          "description": "<p><strong>Desencadenante</strong> An arboreal sapling that is not @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} either becomes prone or is reduced to 0 HP</p>\n<hr />\n<p><strong>Efecto</strong> The arboreal sapling topples over, dealing @Damage[2d6[bludgeoning]|options:area-daño] daño to itself and to criaturas in a @Template[line|distance:10] (@Check[reflex|dc:16|basic|options:area-effect,inflicts:prone]). Las criaturas that critically fail the tirada de salvación are also knocked prone.</p>"
+          "description": "<p><strong>Desencadenante</strong> An arboreal sapling that is not @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} either becomes prone or is reduced to 0 HP</p>\n<hr />\n<p><strong>Efecto</strong> The arboreal sapling topples over, dealing @Damage[2d6[bludgeoning]|options:area-damage] daño to itself and to criaturas in a @Template[line|distance:10] (@Check[reflex|dc:16|basic|options:area-effect,inflicts:prone]). Las criaturas that critically fail the tirada de salvación are also knocked prone.</p>"
         }
       }
     },
@@ -110,7 +110,7 @@
           "name": "Primal Innate Spells"
         },
         "spell->Speak with Animals (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.BBvV7qoXGdw09q1C]\nSpeak with Animals (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]\nSpeak with Animals (Constant)"
         },
         "strike-melee->Branch": {
           "name": "Branch"
@@ -168,19 +168,19 @@
           "name": "Primal Innate Spells"
         },
         "spell->Truespeech (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.SwUiVavHKMWG7t5K]\nTruespeech (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K]\nTruespeech (Constant)"
         },
         "spell->Speak with Plants (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.qvwIwJ9QBihy8R0t]\nSpeak with Plants (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]\nSpeak with Plants (Constant)"
         },
         "spell->Darkness (At Will)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.4GE2ZdODgIQtg51c]\nDarkness (At Will)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]\nDarkness (At Will)"
         },
         "spell->Shape Wood (At Will)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.CXICME10TkEJxz0P]\nShape Wood (At Will)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.CXICME10TkEJxz0P]\nShape Wood (At Will)"
         },
         "spell->Vanishing Tracks (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.zlnXpME1T2uvn8Lr]\nVanishing Tracks (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.zlnXpME1T2uvn8Lr]\nVanishing Tracks (Constant)"
         },
         "strike-melee->Jaws": {
           "name": "Jaws"
@@ -211,15 +211,15 @@
         },
         "action->Poison Breath": {
           "name": "Poison Breath",
-          "description": "<p>Avathrael exhales a cloud of sweet-smelling poisonous gas that deals @Damage[13d6[poison]|options:area-daño] daño in a @Template[cone|distance:50] (@Check[fortitude|dc:32|basic|options:area-effect,inflicts:sickened] save). A criatura that critically fails is also @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}. Avathrael can't use Poison Breath again for [[/gmr 1d4 #Recharge Poison Breath]]{1d4 rounds}.</p>"
+          "description": "<p>Avathrael exhales a cloud of sweet-smelling poisonous gas that deals @Damage[13d6[poison]|options:area-damage] daño in a @Template[cone|distance:50] (@Check[fortitude|dc:32|basic|options:area-effect,inflicts:sickened] save). A criatura that critically fails is also @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}. Avathrael can't use Poison Breath again for [[/gmr 1d4 #Recharge Poison Breath]]{1d4 rounds}.</p>"
         },
         "action->Shadow Step": {
           "name": "Shadow Dar un paso",
-          "description": "<p><strong>Frecuencia</strong> twice per day</p>\n<hr />\n<p><strong>Efecto</strong> Avathrael teleports with the effects of a 4th-rank @UUID[Compendium.pf2e.conjuros-srd.Item.VlNcjmYyu95vOUe8]{Translocate} conjuro, but Avathrael must begin and end the teleportation effect in an area of dim light or darkness. If they use 2 actions to activate this ability, Avathrael also regains @Damage[8d10[healing]] Puntos de Golpe. Avathrael can't use Shadow Dar un paso again for [[/gmr 1d4 #Recharge Shadow Dar un paso]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Frecuencia</strong> twice per day</p>\n<hr />\n<p><strong>Efecto</strong> Avathrael teleports with the effects of a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Translocate} conjuro, but Avathrael must begin and end the teleportation effect in an area of dim light or darkness. If they use 2 actions to activate this ability, Avathrael also regains @Damage[8d10[healing]] Puntos de Golpe. Avathrael can't use Shadow Dar un paso again for [[/gmr 1d4 #Recharge Shadow Dar un paso]]{1d4 rounds}.</p>"
         },
         "action->Shape Shadow Realm": {
           "name": "Shape Shadow Realm",
-          "description": "<p>Avathrael mentally reshapes their realm, reshaping terrain and creating obstacles to hinder their foes. All squares within a @Template[burst|distance:50] become difficult terrain. Las criaturas in the area take @Damage[10d6[void]|options:area-daño] daño (@Check[reflex|dc:32|basic|options:area-effect,inflicts:grabbed] save) from the shadows. On a failure, that criatura is additionally @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} by the malleable shadows ([[/act escape dc=32]]). At the beginning of Avathrael's turn, each criatura that's grabbed takes @Damage[4d6[void]] daño. Avathrael can't use Shape Shadow Realm again for [[/gmr 1d4 #Recharge Shape Shadow Realm]]{1d4 rounds}.</p>"
+          "description": "<p>Avathrael mentally reshapes their realm, reshaping terrain and creating obstacles to hinder their foes. All squares within a @Template[burst|distance:50] become difficult terrain. Las criaturas in the area take @Damage[10d6[void]|options:area-damage] daño (@Check[reflex|dc:32|basic|options:area-effect,inflicts:grabbed] save) from the shadows. On a failure, that criatura is additionally @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} by the malleable shadows ([[/act escape dc=32]]). At the beginning of Avathrael's turn, each criatura that's grabbed takes @Damage[4d6[void]] daño. Avathrael can't use Shape Shadow Realm again for [[/gmr 1d4 #Recharge Shape Shadow Realm]]{1d4 rounds}.</p>"
         },
         "action->Snuff Light": {
           "name": "Snuff Light",
@@ -249,7 +249,7 @@
           "name": "Primal Innate Spells"
         },
         "spell->Speak with Animals (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.BBvV7qoXGdw09q1C]\nSpeak with Animals (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]\nSpeak with Animals (Constant)"
         },
         "strike-melee->Shears": {
           "name": "Shears"
@@ -260,7 +260,7 @@
         },
         "action->Speak with Water": {
           "name": "Speak with Water",
-          "description": "<p>Una vez al día, four azhanas within 15 pies of each other can perform a 1-minute rite to communicate with an adjacent body of fresh water at least as large as an azhana. Este ability functions like @UUID[Compendium.pf2e.conjuros-srd.Item.YIMampGpij4Y30yE]{Speak with Stones}. Flowing water can generally speak about events happening upstream (even distantly upstream), but not events happening downstream.</p>"
+          "description": "<p>Una vez al día, four azhanas within 15 pies of each other can perform a 1-minute rite to communicate with an adjacent body of fresh water at least as large as an azhana. Este ability functions like @UUID[Compendium.pf2e.spells-srd.Item.YIMampGpij4Y30yE]{Speak with Stones}. Flowing water can generally speak about events happening upstream (even distantly upstream), but not events happening downstream.</p>"
         }
       }
     },
@@ -334,7 +334,7 @@
         },
         "action->Hurl Axes": {
           "name": "Hurl Axes",
-          "description": "<p>The loggers draw their hatchets, then launch a ranged attack in the form of a volley. Este volley is a @Template[burst|distance:10] within 120 pies that deals @Damage[3d6[slashing]|options:area-daño] daño (@Check[reflex|dc:18|basic|options:area-effect] save). When the crew is reduced to 8 or fewer squares, this area decreases to a @Template[burst|distance:5].</p>"
+          "description": "<p>The loggers draw their hatchets, then launch a ranged attack in the form of a volley. Este volley is a @Template[burst|distance:10] within 120 pies that deals @Damage[3d6[slashing]|options:area-damage] daño (@Check[reflex|dc:18|basic|options:area-effect] save). When the crew is reduced to 8 or fewer squares, this area decreases to a @Template[burst|distance:5].</p>"
         },
         "action->Tandem Chop": {
           "name": "Tandem Chop",
@@ -360,13 +360,13 @@
           "name": "Primal Innate Spells"
         },
         "spell->Fly (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.A2JfEKe6BZcTG1S8]\nFly (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.A2JfEKe6BZcTG1S8]\nFly (Constant)"
         },
         "spell->Environmental Endurance (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.5esP2GVzvxWsMgaX]\nEnvironmental Endurance (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.5esP2GVzvxWsMgaX]\nEnvironmental Endurance (Constant)"
         },
         "effect->Spell Efecto: Fly": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuro-effects.Item.MuRBCiZn5IKeaoxi]\n<p>Granted by @UUID[Compendium.pf2e.conjuros-srd.Item.A2JfEKe6BZcTG1S8]{Fly}</p>\n<p>El objetivo can soar through the air, gaining a fly Velocidad equal to its Velocidad or 20 pies, whichever is greater.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuro-effects.Item.MuRBCiZn5IKeaoxi]\n<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.A2JfEKe6BZcTG1S8]{Fly}</p>\n<p>El objetivo can soar through the air, gaining a fly Velocidad equal to its Velocidad or 20 pies, whichever is greater.</p>"
         },
         "strike-melee->Tendril": {
           "name": "Tendril"
@@ -393,7 +393,7 @@
         },
         "action->Accelerate Decay": {
           "name": "Accelerate Decay",
-          "description": "<p>The speaker in spores unleashes void energy that forces desiccation in a @Template[emanation|distance:30]. Each living criatura in the area takes @Damage[14d6[void]|options:area-daño] daño (@Check[fortitude|dc:33|basic|options:area-effect] save). Las criaturas afflicted by a disease take a –2 penalización de circunstancia to this save.</p>\n<p>All Small or smaller non-magical plant life (though not plant criaturas) in the area wither and die, eliminating any cover or concealment and leaving difficult terrain in their wake.</p>\n<p>The speaker in spores is immune to this effect and can't use this ability again for [[/gmr 1d4 #Recharge Accelerate Decay]]{1d4 rounds}.</p>"
+          "description": "<p>The speaker in spores unleashes void energy that forces desiccation in a @Template[emanation|distance:30]. Each living criatura in the area takes @Damage[14d6[void]|options:area-damage] daño (@Check[fortitude|dc:33|basic|options:area-effect] save). Las criaturas afflicted by a disease take a –2 penalización de circunstancia to this save.</p>\n<p>All Small or smaller non-magical plant life (though not plant criaturas) in the area wither and die, eliminating any cover or concealment and leaving difficult terrain in their wake.</p>\n<p>The speaker in spores is immune to this effect and can't use this ability again for [[/gmr 1d4 #Recharge Accelerate Decay]]{1d4 rounds}.</p>"
         },
         "action->Ayrzul's Blight": {
           "name": "Ayrzul's Blight",
@@ -550,7 +550,7 @@
         },
         "action->Sap Spray": {
           "name": "Sap Spray",
-          "description": "<p>The coiled conifer spews bile-like sap in a @Template[cone|distance:60]. Las criaturas in the area take @Damage[7d12[acid]|options:area-daño] daño (@Check[reflex|dc:33|basic|options:area-effect,inflicts:sickened] save) and become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure).</p>\n<p>The coiled conifer can't use this ability again for [[/gmr 1d4 #Recharge Sap Spray]]{1d4 rounds}.</p>"
+          "description": "<p>The coiled conifer spews bile-like sap in a @Template[cone|distance:60]. Las criaturas in the area take @Damage[7d12[acid]|options:area-damage] daño (@Check[reflex|dc:33|basic|options:area-effect,inflicts:sickened] save) and become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure).</p>\n<p>The coiled conifer can't use this ability again for [[/gmr 1d4 #Recharge Sap Spray]]{1d4 rounds}.</p>"
         },
         "action->Slithering Roots": {
           "name": "Slithering Roots",
@@ -611,11 +611,11 @@
         },
         "action->Blight Burst": {
           "name": "Blight Burst",
-          "description": "<p><strong>Desencadenante</strong> The creeping cone swarm is reduced to fewer than half its Puntos de Golpe or is reduced to 0 Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> A @Template[emanation|distance:15] of acid explodes from the creeping cone swarm. Las criaturas in the area take @Damage[3d12[acid]|options:area-daño] daño (@Check[reflex|dc:25|basic|options:area-effect] save). Non-blight bonded criaturas damaged by this effect are exposed to Ayrzul's Blight.</p>"
+          "description": "<p><strong>Desencadenante</strong> The creeping cone swarm is reduced to fewer than half its Puntos de Golpe or is reduced to 0 Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> A @Template[emanation|distance:15] of acid explodes from the creeping cone swarm. Las criaturas in the area take @Damage[3d12[acid]|options:area-damage] daño (@Check[reflex|dc:25|basic|options:area-effect] save). Non-blight bonded criaturas damaged by this effect are exposed to Ayrzul's Blight.</p>"
         },
         "action->Jagged Scales": {
           "name": "Jagged Scales",
-          "description": "<p>The creeping cones shake off a barrage of jagged, stony scales. Each criatura in a @Template[burst|distance:10] within 30 pies of the swarm takes @Damage[(2d12+7)[slashing]|options:area-daño] daño (@Check[reflex|dc:29|basic|options:area-effect] save).</p>"
+          "description": "<p>The creeping cones shake off a barrage of jagged, stony scales. Each criatura in a @Template[burst|distance:10] within 30 pies of the swarm takes @Damage[(2d12+7)[slashing]|options:area-damage] daño (@Check[reflex|dc:29|basic|options:area-effect] save).</p>"
         },
         "action->Pummeling Lurches": {
           "name": "Pummeling Lurches",
@@ -672,7 +672,7 @@
         },
         "action->Explosive End": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.edpED1d9NbvR2NmB]\nExplosive End",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.edpED1d9NbvR2NmB]\n<p>When the woodblessed dies, the planar portal inside of them collapses, causing them to explode in a @Template[burst|distance:20] of vines that deal @Damage[10d6[bludgeoning]|options:area-daño] daño to all criaturas with a @Check[reflex|dc:26|basic|options:area-effect] save. The woodblessed's body is completely consumed, though their root network and gear remain behind.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.edpED1d9NbvR2NmB]\n<p>When the woodblessed dies, the planar portal inside of them collapses, causing them to explode in a @Template[burst|distance:20] of vines that deal @Damage[10d6[bludgeoning]|options:area-damage] daño to all criaturas with a @Check[reflex|dc:26|basic|options:area-effect] save. The woodblessed's body is completely consumed, though their root network and gear remain behind.</p>"
         },
         "action->Ghostly Swoop": {
           "name": "Ghostly Swoop",
@@ -690,7 +690,7 @@
         },
         "action->Steal Soul": {
           "name": "Steal Soul",
-          "description": "<p>The sluagh reaper touches a dying criatura or a criatura that died within the past 1 hour. If el objetivo is a dying criatura, it must attempt a @Check[fortitude|dc:28] save-on a failure, its dying value increases by 1 (2 on a critical failure). If el objetivo is dead, it receives no save and the sluagh imprisons its soul in a small, grimy sack that keeps stolen souls fresh.</p>\n<p>The sack is magically locked. Any sluagh can open it without difficulty, but any others must @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{Pick the Lock} (@Check[thievery|dc:35|rasgos:action:pick-a-lock]) or use @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (5th rank; counteract DC 32). A criatura can INTERACT to empty an unlocked sack, which frees the souls but doesn't return them to life. While a soul is imprisoned, it can't be brought back to life by any means short of a @UUID[Compendium.pf2e.conjuros-srd.Item.6dDtGIUerazSHIOu]{Wish} or @UUID[Compendium.pf2e.conjuros-srd.Item.YfJTXyVGzLhM6V8U]{Miracle}. The sack can hold 12 souls at a time. Sluagh reapers typically attempt to return the souls to a queen so she can devour them.</p>"
+          "description": "<p>The sluagh reaper touches a dying criatura or a criatura that died within the past 1 hour. If el objetivo is a dying criatura, it must attempt a @Check[fortitude|dc:28] save-on a failure, its dying value increases by 1 (2 on a critical failure). If el objetivo is dead, it receives no save and the sluagh imprisons its soul in a small, grimy sack that keeps stolen souls fresh.</p>\n<p>The sack is magically locked. Any sluagh can open it without difficulty, but any others must @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{Pick the Lock} (@Check[thievery|dc:35|traits:action:pick-a-lock]) or use @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (5th rank; counteract DC 32). A criatura can INTERACT to empty an unlocked sack, which frees the souls but doesn't return them to life. While a soul is imprisoned, it can't be brought back to life by any means short of a @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Wish} or @UUID[Compendium.pf2e.spells-srd.Item.YfJTXyVGzLhM6V8U]{Miracle}. The sack can hold 12 souls at a time. Sluagh reapers typically attempt to return the souls to a queen so she can devour them.</p>"
         },
         "action->Tap Planar Gate": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.sQ2nzNDLMdGqECm6]\nTap Planar Gate",
@@ -768,13 +768,13 @@
           "secondarycheck": "Occultism,  Religion"
         },
         "spell->Speak with Plants (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.qvwIwJ9QBihy8R0t]\nSpeak with Plants (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]\nSpeak with Plants (Constant)"
         },
         "spell->Heartbond": {
           "cost": "fine wine and a set of matching rings or other tokens worth 40 gp total"
         },
         "spell->Speak with Animals (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.BBvV7qoXGdw09q1C]\nSpeak with Animals (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]\nSpeak with Animals (Constant)"
         },
         "strike-melee->Jaws": {
           "name": "Jaws"
@@ -939,7 +939,7 @@
         },
         "action->Labyrinthine Vision": {
           "name": "Labyrinthine Vision",
-          "description": "<p>The gritblight forces disorienting visions of Ayrzul's Blistering Labyrinth into the minds of nearby criaturas. All criaturas in a @Template[cone|distance:60] take @Damage[7d12[mental]|options:area-daño] daño with a @Check[will|dc:33|options:area-effect,damaging-effect] save. Las criaturas @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} by a gritblight's Labyrinthine Vision see only endless earthen tunnels in every direction.</p>\n<p>The gritblight can't use this ability again for [[/gmr 1d4 #Recharge Labyrinthine Vision]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura takes half daño.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and is blinded for 1 minute.</p>\n<p><strong>Fallo crítico</strong> The criatura takes double daño and is blinded permanently.</p>"
+          "description": "<p>The gritblight forces disorienting visions of Ayrzul's Blistering Labyrinth into the minds of nearby criaturas. All criaturas in a @Template[cone|distance:60] take @Damage[7d12[mental]|options:area-damage] daño with a @Check[will|dc:33|options:area-effect,damaging-effect] save. Las criaturas @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} by a gritblight's Labyrinthine Vision see only endless earthen tunnels in every direction.</p>\n<p>The gritblight can't use this ability again for [[/gmr 1d4 #Recharge Labyrinthine Vision]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura takes half daño.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and is blinded for 1 minute.</p>\n<p><strong>Fallo crítico</strong> The criatura takes double daño and is blinded permanently.</p>"
         },
         "action->Trample": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\n<p>Medium or smaller, claw, @Check[reflex|dc:33|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
@@ -1112,13 +1112,13 @@
     "Khasprickle": {
       "name": "Khasprickle",
       "blurb": "Male pukwudgie",
-      "publicNotes": "<p>Pukwudgies go by many names in many regions, but those who know of them agree that defying their mischievous NATURE provokes their wrath.</p>\n<p>In ancient times, pukwudgies traveled to the Universe from the First World, perhaps in the wake of the gnome emigration. Estos proud fey are obsessed with displays of respect, and while they first attempted to befriend mortals, each attempt ended in tragedy as the pukwudgies perceived any potential slight as a grave insult. Mortals, fearing these reactions, began to view pukwudgies as dangerous nuisances. Pukwudgies, in turn, began to resent mortals and the gods that favored them.</p>\n<p>At their best, pukwudgies play cruel jokes on mortals they encounter. At their worst, they've been known to kidnap and even kill those who don't treat them with proper respect. Violent fey like twigjacks and redcaps often gather under pukwudgie leadership, much to the pukwudgies' glee.</p>\n<p>Pukwudgies make their villages in the oldest forests, concealed under @UUID[Compendium.pf2e.conjuros-srd.Item.HBJPsonQnWcC3qdX]{Mirage} conjuros. They travel freely between the Universe and the First World through tiny portals beneath hills, trees, or stones. No strangers to violence, pukwudgies rarely travel alone and often anoint their quills or armas with a custom-brewed poison before entering hostile situations.</p>\n<p>Standing about 2 pies tall, a pukwudgie sports sharp quills growing from their head that extends down their back. Their skin tone varies by the region in which they live, ranging from pale gray to brown.</p>",
+      "publicNotes": "<p>Pukwudgies go by many names in many regions, but those who know of them agree that defying their mischievous NATURE provokes their wrath.</p>\n<p>In ancient times, pukwudgies traveled to the Universe from the First World, perhaps in the wake of the gnome emigration. Estos proud fey are obsessed with displays of respect, and while they first attempted to befriend mortals, each attempt ended in tragedy as the pukwudgies perceived any potential slight as a grave insult. Mortals, fearing these reactions, began to view pukwudgies as dangerous nuisances. Pukwudgies, in turn, began to resent mortals and the gods that favored them.</p>\n<p>At their best, pukwudgies play cruel jokes on mortals they encounter. At their worst, they've been known to kidnap and even kill those who don't treat them with proper respect. Violent fey like twigjacks and redcaps often gather under pukwudgie leadership, much to the pukwudgies' glee.</p>\n<p>Pukwudgies make their villages in the oldest forests, concealed under @UUID[Compendium.pf2e.spells-srd.Item.HBJPsonQnWcC3qdX]{Mirage} conjuros. They travel freely between the Universe and the First World through tiny portals beneath hills, trees, or stones. No strangers to violence, pukwudgies rarely travel alone and often anoint their quills or armas with a custom-brewed poison before entering hostile situations.</p>\n<p>Standing about 2 pies tall, a pukwudgie sports sharp quills growing from their head that extends down their back. Their skin tone varies by the region in which they live, ranging from pale gray to brown.</p>",
       "items": {
         "spellcastingEntry->Primal Innate Spells": {
           "name": "Primal Innate Spells"
         },
         "spell->Invisibility (At Will) (Self Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibility (At Will) (Self Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibility (At Will) (Self Only)"
         },
         "action->Defensive Quills": {
           "name": "Defensive Quills",
@@ -1195,7 +1195,7 @@
           "name": "Primal Innate Spells"
         },
         "spell->Speak with Plants (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.qvwIwJ9QBihy8R0t]\nSpeak with Plants (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]\nSpeak with Plants (Constant)"
         },
         "action->Troop Defenses": {
           "name": "Troop Defenses",
@@ -1206,7 +1206,7 @@
           "description": "<p>When a leshy mob's Puntos de Golpe reach a threshold that would reduce its size, a burst of primal energy explodes from the fallen leshies and empowers the surviving fighters. The leshy mob gains [[/r 4d8]] Puntos de Golpe temporales that last for 10 minutes. In addition, all squares within 5 pies of the troop become filled with various plants, becoming difficult terrain. If the environment is not a viable environment for these plants, they wither after 24 hours.</p>"
         },
         "action->Change Shape": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>The leshies can transform into an assortment of Small plants that fills a @Template[burst|distance:15] centered on any one square the leshy mob occupies, creating difficult terrain. When the leshies return to their natural form, they Form Up anywhere within the burst. Este otherwise uses the effects of @UUID[Compendium.pf2e.conjuros-srd.Item.dileJ0Yxqg76LMvu]{One with Plants}.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>The leshies can transform into an assortment of Small plants that fills a @Template[burst|distance:15] centered on any one square the leshy mob occupies, creating difficult terrain. When the leshies return to their natural form, they Form Up anywhere within the burst. Este otherwise uses the effects of @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{One with Plants}.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
         "action->One with the Foliage": {
           "name": "One with the Foliage",
@@ -1214,7 +1214,7 @@
         },
         "action->Rain of Seeds": {
           "name": "Rain of Seeds",
-          "description": "<p>The leshies GRAB and hurl an assortment of stones, spores, and explosive seeds, launching a ranged attack in the form of a volley. Este volley is a @Template[burst|distance:10] within 60 pies that deals @Damage[4d8[untyped]|options:area-daño] daño (@Check[reflex|dc:30|basic|options:area-effect] save).</p>\n<p>When the leshies are reduced to 8 or fewer squares, this area decreases to a @Template[burst|distance:5].</p>"
+          "description": "<p>The leshies GRAB and hurl an assortment of stones, spores, and explosive seeds, launching a ranged attack in the form of a volley. Este volley is a @Template[burst|distance:10] within 60 pies that deals @Damage[4d8[untyped]|options:area-damage] daño (@Check[reflex|dc:30|basic|options:area-effect] save).</p>\n<p>When the leshies are reduced to 8 or fewer squares, this area decreases to a @Template[burst|distance:5].</p>"
         },
         "action->Troop Movement": {
           "name": "Troop Movement",
@@ -1222,7 +1222,7 @@
         },
         "action->Veggielante Justice": {
           "name": "Veggielante Justice",
-          "description": "<p><span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">3</span></p>\n<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> The leshies assault each enemigo criatura within 5 pies, with a @Check[reflex|dc:30|basic|options:area-effect] save. The daño depends on the number of actions.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[3d8[untyped]|options:area-daño] daño</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d8+11)[untyped]|options:area-daño] daño</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+16)[untyped]|options:area-daño] daño</p>"
+          "description": "<p><span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">3</span></p>\n<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> The leshies assault each enemigo criatura within 5 pies, with a @Check[reflex|dc:30|basic|options:area-effect] save. The daño depends on the number of actions.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[3d8[untyped]|options:area-damage] daño</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d8+11)[untyped]|options:area-damage] daño</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+16)[untyped]|options:area-damage] daño</p>"
         }
       }
     },
@@ -1254,10 +1254,10 @@
           "name": "Innate Primal Spells"
         },
         "spell->Gentle Landing (At Will)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.TTwOKGqmZeKSyNMH]\nGentle Landing (At Will)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.TTwOKGqmZeKSyNMH]\nGentle Landing (At Will)"
         },
         "spell->Vanishing Tracks (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.zlnXpME1T2uvn8Lr]\nVanishing Tracks (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.zlnXpME1T2uvn8Lr]\nVanishing Tracks (Constant)"
         },
         "weapon->Sally Sharp-tongue": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.nOFcCidD5AwVZWTv]\nSally Sharp-tongue",
@@ -1314,7 +1314,7 @@
       "description": "<p>The illusion shatters, revealing the grove to be a lifeless scar and the seemingly peaceful loggers to be crawling aimlessly about the clearing, consumed by rage and lashing out at anything that comes near.</p>",
       "disable": "<p>@Check[nature|dc:22] (entrenado) to tame the primal energy, @Check[diplomacy|dc:23] (entrenado) to console the dryad, @Check[occultism|dc:24] (entrenado) to identify and heal the emotional wounds; three successes are required to disable the haunt.</p>",
       "reset": "<p>Unless Silene is destroyed, this haunt can recharge itself after 1 hour.</p>",
-      "routine": "<p>(1 action; emotion, mental, primal) Myristica bemoans her grove's fate, overwhelming foes with sorrow. Each criatura in the grove must attempt a @Check[will|dc:23|rasgos:emotion,mental,primal] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round and takes @Damage[2d6[mental]] daño.</p>\n<p><strong>Fallo crítico</strong> The criatura takes @Damage[2d6[mental]] daño, plus @Damage[2d6[persistent,mental]] daño. While taking this daño persistente, they are dazzled.</p>",
+      "routine": "<p>(1 action; emotion, mental, primal) Myristica bemoans her grove's fate, overwhelming foes with sorrow. Each criatura in the grove must attempt a @Check[will|dc:23|traits:emotion,mental,primal] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round and takes @Damage[2d6[mental]] daño.</p>\n<p><strong>Fallo crítico</strong> The criatura takes @Damage[2d6[mental]] daño, plus @Damage[2d6[persistent,mental]] daño. While taking this daño persistente, they are dazzled.</p>",
       "stealth": "<p>(experto) to recognize that the scene before them is an illusion.</p>",
       "items": {
         "action->Awaken": {
@@ -1402,10 +1402,10 @@
           "name": "Primal Innate Spells"
         },
         "spell->Earthbind (At Will)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.gPvtmKMRpg9I9D7H]\nEarthbind (At Will)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.gPvtmKMRpg9I9D7H]\nEarthbind (At Will)"
         },
         "spell->Speak with Plants (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.qvwIwJ9QBihy8R0t]\nSpeak with Plants (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]\nSpeak with Plants (Constant)"
         },
         "strike-melee->Branch": {
           "name": "Branch"
@@ -1415,7 +1415,7 @@
         },
         "action->Abeyance Rift": {
           "name": "Abeyance Rift",
-          "description": "<p>If Old Thornbarker dies unexpectedly before passing on their knowledge in a succession ritual, the amassed LORE within their roots and boughs explodes out in a shock wave that deals @Damage[8d10[mental]|options:area-daño] daño to criaturas within @Template[emanation|distance:30]{30 pies} (@Check[will|dc:32|basic|options:area-effect] save) before dissipating; those who fail also fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+          "description": "<p>If Old Thornbarker dies unexpectedly before passing on their knowledge in a succession ritual, the amassed LORE within their roots and boughs explodes out in a shock wave that deals @Damage[8d10[mental]|options:area-damage] daño to criaturas within @Template[emanation|distance:30]{30 pies} (@Check[will|dc:32|basic|options:area-effect] save) before dissipating; those who fail also fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
         },
         "action->Sycophantic Scamps": {
           "name": "Sycophantic Scamps",
@@ -1423,7 +1423,7 @@
         },
         "action->Memory Maelstrom": {
           "name": "Memory Maelstrom",
-          "description": "<p>Old Thornbreaker tries to overwhelm foes with a surge of information it has absorbed over its long life. Este surge deals @Damage[5d6[mental]|options:area-daño] daño to each enemigo within @Template[emanation|distance:40]{40 pies}, who must attempt a @Check[will|dc:32|options:area-effect,damaging-effect] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura maintains its composure, takes no daño, and is temporarily immune to Memory Maelstrom for 1 minute.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} and takes half daño.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3}.</p>\n<p><strong>Fallo crítico</strong> The criatura takes double daño, is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for [[/gmr 2d4 #Confusion Duration]]{2d4 rounds}, and is aturdido 3.</p>"
+          "description": "<p>Old Thornbreaker tries to overwhelm foes with a surge of information it has absorbed over its long life. Este surge deals @Damage[5d6[mental]|options:area-damage] daño to each enemigo within @Template[emanation|distance:40]{40 pies}, who must attempt a @Check[will|dc:32|options:area-effect,damaging-effect] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura maintains its composure, takes no daño, and is temporarily immune to Memory Maelstrom for 1 minute.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} and takes half daño.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3}.</p>\n<p><strong>Fallo crítico</strong> The criatura takes double daño, is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for [[/gmr 2d4 #Confusion Duration]]{2d4 rounds}, and is aturdido 3.</p>"
         },
         "lore->Cradle of Knot Lore": {
           "name": "Cradle of Knot Lore"
@@ -1501,7 +1501,7 @@
         },
         "action->Splinter Breath": {
           "name": "Splinter Breath",
-          "description": "<p>The phytohydra spews splinters in a @Template[cone|distance:60] that deals @Damage[4d6[piercing]|options:area-daño] daño to all criaturas in the area (@Check[reflex|dc:32|basic|options:area-effect] save). The daño increases by 2d6 for each head the phytohydra has.</p>\n<p>The phytohydra can't use Splinter Breath again for [[/gmr 1d4 #Recharge Splinter Breath]]{1d4 rounds}.</p>"
+          "description": "<p>The phytohydra spews splinters in a @Template[cone|distance:60] that deals @Damage[4d6[piercing]|options:area-damage] daño to all criaturas in the area (@Check[reflex|dc:32|basic|options:area-effect] save). The daño increases by 2d6 for each head the phytohydra has.</p>\n<p>The phytohydra can't use Splinter Breath again for [[/gmr 1d4 #Recharge Splinter Breath]]{1d4 rounds}.</p>"
         },
         "action->Storm of Branches": {
           "name": "Storm of Branches",
@@ -1541,7 +1541,7 @@
     "Poisonous Pollen Trap": {
       "name": "Poisonous Pollen Trap",
       "description": "<p>Flowers carved into the door emit colorful pollen when the door is touched.</p>",
-      "disable": "<p>@Check[thievery|dc:26] (experto) to deface the flower carvings, @Check[nature|dc:25] (experto) to neutralize the pollen, or @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank; counteract DC 26) to counteract the conjuration</p>",
+      "disable": "<p>@Check[thievery|dc:26] (experto) to deface the flower carvings, @Check[nature|dc:25] (experto) to neutralize the pollen, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank; counteract DC 26) to counteract the conjuration</p>",
       "reset": "<p>La trampa resets after 1 hour.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
@@ -1595,16 +1595,16 @@
           "name": "Primal Innate Spells"
         },
         "spell->Nature's Pathway (At Will)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.F1qxaqsEItmBura2]\nNATURE's Pathway (At Will)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.F1qxaqsEItmBura2]\nNATURE's Pathway (At Will)"
         },
         "spell->Unfettered Movement (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.aqRYNoSvxsVfqglH]\nUnfettered Movement (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH]\nUnfettered Movement (Constant)"
         },
         "spell->Speak with Plants (At Will)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.qvwIwJ9QBihy8R0t]\nSpeak with Plants (At Will)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]\nSpeak with Plants (At Will)"
         },
         "spell->Speak with Animals (At Will)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.BBvV7qoXGdw09q1C]\nSpeak with Animals (At Will)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]\nSpeak with Animals (At Will)"
         },
         "strike-melee->Flourishing Fist": {
           "name": "Flourishing Fist"
@@ -1618,7 +1618,7 @@
         },
         "action->Primal Destruction": {
           "name": "Primal Destruction",
-          "description": "<p>When the primal warden of Zibik is reduced to 0 Puntos de Golpe, it erupts with primal energy in a @Template[emanation|distance:30], dealing @Damage[12d6[void]|options:area-daño] daño. Each criatura in the area must attempt a @Check[will|dc:32|options:area-effect,damaging-effect,inflicts:debilitado,inflicts:stupefied] save with the following outcomes.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura takes half daño.</p>\n<p><strong>Éxito</strong> The criatura takes full daño.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and becomes temporarily cursed by Zibik to be @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 day; this is a curse effect with a counteract DC of 32.</p>\n<p><strong>Fallo crítico</strong> As failure, except the criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2}.</p>"
+          "description": "<p>When the primal warden of Zibik is reduced to 0 Puntos de Golpe, it erupts with primal energy in a @Template[emanation|distance:30], dealing @Damage[12d6[void]|options:area-damage] daño. Each criatura in the area must attempt a @Check[will|dc:32|options:area-effect,damaging-effect,inflicts:debilitado,inflicts:stupefied] save with the following outcomes.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura takes half daño.</p>\n<p><strong>Éxito</strong> The criatura takes full daño.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and becomes temporarily cursed by Zibik to be @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 day; this is a curse effect with a counteract DC of 32.</p>\n<p><strong>Fallo crítico</strong> As failure, except the criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2}.</p>"
         },
         "action->Rotten Burst": {
           "name": "Rotten Burst",
@@ -1676,10 +1676,10 @@
           "name": "Primal Innate Spells"
         },
         "spell->Speak with Plants (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.qvwIwJ9QBihy8R0t]\nSpeak with Plants (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]\nSpeak with Plants (Constant)"
         },
         "spell->Entangling Flora (At Will)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.J6vNvrUT3b1hx2iA]\nEntangling Flora (At Will)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.J6vNvrUT3b1hx2iA]\nEntangling Flora (At Will)"
         },
         "strike-melee->Rotting Fist": {
           "name": "Rotting Fist"
@@ -1720,11 +1720,11 @@
           "name": "Primal Spontaneous Spells"
         },
         "spell->Blight (Doesn't Require Secondary Casters)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.7yWXx3qC4eFNHhxD]\nBlight (Doesn't Require Secondary Casters)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.7yWXx3qC4eFNHhxD]\nBlight (Doesn't Require Secondary Casters)"
         },
         "action->Collective Swarm": {
           "name": "Collective Swarm",
-          "description": "<p>The rancorous druids collectively transform into a swarm of Tiny insects. They cast @UUID[Compendium.pf2e.conjuros-srd.Item.Pd2M1XY8EXrSfWgJ]{Swarm Form} heightened to 6th rank, but the duration is 1 hour instead of 5 minutes.</p>"
+          "description": "<p>The rancorous druids collectively transform into a swarm of Tiny insects. They cast @UUID[Compendium.pf2e.spells-srd.Item.Pd2M1XY8EXrSfWgJ]{Swarm Form} heightened to 6th rank, but the duration is 1 hour instead of 5 minutes.</p>"
         },
         "action->Troop Defenses": {
           "name": "Troop Defenses",
@@ -1800,10 +1800,10 @@
           "name": "Primal Innate Spells"
         },
         "spell->Speak with Plants (Constant, Trees Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.qvwIwJ9QBihy8R0t]\nSpeak with Plants (Constant, Trees Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]\nSpeak with Plants (Constant, Trees Only)"
         },
         "spell->Enlarge (Self Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.wzctak6BxOW8xvFV]\nEnlarge (Self Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]\nEnlarge (Self Only)"
         },
         "strike-melee->Bo Staff": {
           "name": "Bo Staff"
@@ -1819,7 +1819,7 @@
           "description": "<p>When a redwood leshy dies, a burst of primal energy explodes from their body, restoring @Damage[5d8[healing]]{5d8 Puntos de Golpe} to each plant criatura in a @Template[emanation|distance:30]. Este area is filled with saplings, becoming difficult terrain. If the environment isn't a viable environment for these trees, they wither after 24 hours.</p>"
         },
         "action->Change Shape": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>The redwood leshy can take the form of a Large tree, using the effects of @UUID[Compendium.pf2e.conjuros-srd.Item.dileJ0Yxqg76LMvu]{One with Plants}.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>The redwood leshy can take the form of a Large tree, using the effects of @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{One with Plants}.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
         "action->Looming Strike": {
           "name": "Looming Golpe",
@@ -1827,7 +1827,7 @@
         },
         "action->Needles That Catch the Clouds": {
           "name": "Needles That Catch the Clouds",
-          "description": "<p>The leshy can cast @UUID[Compendium.pf2e.conjuros-srd.Item.WzLKjSw6hsBhuklC]{Create Water}, @UUID[Compendium.pf2e.conjuros-srd.Item.K4LXpaBWrGy6jIER]{Downpour}, and @UUID[Compendium.pf2e.conjuros-srd.Item.9XHmC2JgTUIQ1CCm]{Mist} as innate primal conjuros una vez al día, but only while Large or larger.</p>"
+          "description": "<p>The leshy can cast @UUID[Compendium.pf2e.spells-srd.Item.WzLKjSw6hsBhuklC]{Create Water}, @UUID[Compendium.pf2e.spells-srd.Item.K4LXpaBWrGy6jIER]{Downpour}, and @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{Mist} as innate primal conjuros una vez al día, but only while Large or larger.</p>"
         }
       }
     },
@@ -1882,7 +1882,7 @@
         },
         "action->Rejuvenation": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ZIFaA4jDQjM0vq8q]\nRejuvenation",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ZIFaA4jDQjM0vq8q]\n<p>When Ruzadoya is destroyed, her armor rebuilds her body over the course of [[/gmr 1d10 #days]]{1d10 days}. If her body is destroyed before then, the process restarts.</p>\n<p>Ruzadoya can only be permanently destroyed by obliterating her armor (such as with @UUID[Compendium.pf2e.conjuros-srd.Item.r7ihOgKv19eJQnik]{Disintegrate}), transporting it to the Plane of Fire, or throwing it into the heart of a volcano.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ZIFaA4jDQjM0vq8q]\n<p>When Ruzadoya is destroyed, her armor rebuilds her body over the course of [[/gmr 1d10 #days]]{1d10 days}. If her body is destroyed before then, the process restarts.</p>\n<p>Ruzadoya can only be permanently destroyed by obliterating her armor (such as with @UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]{Disintegrate}), transporting it to the Plane of Fire, or throwing it into the heart of a volcano.</p>"
         },
         "action->Sapping Aura": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.bTJnxBQjr7G8yr30]\nSapping Aura",
@@ -1908,7 +1908,7 @@
         },
         "action->Withering Blast": {
           "name": "Withering Blast",
-          "description": "<p>Ruzadoya unleashes a @Template[cone|distance:30] of corruption. Las criaturas in the area take @Damage[8d12[void]|options:area-daño] daño (@Check[fortitude|dc:34|basic|options:area-effect] save).</p>\n<p>Ruzadoya can use this ability once every [[/gmr 1d4 #Recharge Withering Blast]]{1d4 rounds}.</p>"
+          "description": "<p>Ruzadoya unleashes a @Template[cone|distance:30] of corruption. Las criaturas in the area take @Damage[8d12[void]|options:area-damage] daño (@Check[fortitude|dc:34|basic|options:area-effect] save).</p>\n<p>Ruzadoya can use this ability once every [[/gmr 1d4 #Recharge Withering Blast]]{1d4 rounds}.</p>"
         },
         "lore->Warfare Lore": {
           "name": "Warfare Lore"
@@ -1929,7 +1929,7 @@
         },
         "action->Explosive End": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.edpED1d9NbvR2NmB]\nExplosive End",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.edpED1d9NbvR2NmB]\n<p>When the woodblessed dies, the planar portal inside of them collapses, causing them to explode in a @Template[burst|distance:20] of vines that deal @Damage[7d6[bludgeoning]|options:area-daño] daño to all criaturas with a @Check[reflex|dc:25|basic|options:area-effect] save. The woodblessed's body is completely consumed, though their root network and gear remain behind.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.edpED1d9NbvR2NmB]\n<p>When the woodblessed dies, the planar portal inside of them collapses, causing them to explode in a @Template[burst|distance:20] of vines that deal @Damage[7d6[bludgeoning]|options:area-damage] daño to all criaturas with a @Check[reflex|dc:25|basic|options:area-effect] save. The woodblessed's body is completely consumed, though their root network and gear remain behind.</p>"
         },
         "action->Luminant Aura": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.WIVta5JyoDl9b2UO]\nLuminant Aura"
@@ -1949,7 +1949,7 @@
       "description": "<p>The illusion shatters, revealing the grove to be a lifeless scar and the seemingly peaceful loggers to be crawling aimlessly about the clearing, consumed by rage and lashing out at anything that comes near.</p>",
       "disable": "<p>@Check[nature|dc:22] (entrenado) to tame the primal energy, @Check[religion|dc:24] (entrenado) to suppress the haunt, @Check[diplomacy|dc:25] (entrenado) to console the dryad; three successes are required to disable the haunt.</p>",
       "reset": "<p>Unless Silene is destroyed, this haunt can recharge itself after 1 hour.</p>",
-      "routine": "<p>(1 action; emotion, mental, primal) Sarracenia's rage overwhelms up to two living criaturas in the grove, each of which must attempt a @Check[will|dc:23|rasgos:emotion,mental,primal] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round.</p>\n<p><strong>Fallo crítico</strong> For 1 round, the criatura is confused, is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}, and gains a +4 bonificador de estado to tiradas de daño.</p>",
+      "routine": "<p>(1 action; emotion, mental, primal) Sarracenia's rage overwhelms up to two living criaturas in the grove, each of which must attempt a @Check[will|dc:23|traits:emotion,mental,primal] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round.</p>\n<p><strong>Fallo crítico</strong> For 1 round, the criatura is confused, is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}, and gains a +4 bonificador de estado to tiradas de daño.</p>",
       "stealth": "<p>(experto) to recognize that the scene before them is an illusion.</p>",
       "items": {
         "action->Awaken": {
@@ -1968,7 +1968,7 @@
           "name": "Primal Innate Spells"
         },
         "spell->Invisibility (At Will, Self Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibility (At Will, Self Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibility (At Will, Self Only)"
         },
         "strike-melee->Rapier": {
           "name": "Rapier"
@@ -1981,7 +1981,7 @@
         },
         "action->Sprinkle Pixie Dust": {
           "name": "Sprinkle Pixie Dust",
-          "description": "<p>The pixie sprinkles pixie dust onto one of their arrows. If the pixie hits a criatura with that arrow before the pixie's next turn, the arrow inflicts one of the following special effects instead of dealing daño. Each effect depends on el objetivo's DC 24 Will save. On a critical hit, el objetivo gets a result one degree worse than it rolled.</p>\n<ul>\n<li>Confusion (emotion, mental) (@Check[will|dc:24|rasgos:emotion,mental]) El objetivo suffers the effects of a 4th-rank confusion conjuro.</li>\n<li>Shadow Shroud (darkness, incapacitation) (@Check[will|dc:24|rasgos:darkness,incapacitation]) On a failed Will save, el objetivo is enveloped in shadows. It perceives its surroundings as though bright light conditions were only dim light and dim light as though it was darkness.</li>\n<li>Supernatural Chill (cold, shadow) (@Check[will|dc:24|basic|rasgos:cold,shadow]) El objetivo takes @Damage[5d6[cold]] daño (basic Fortitude save).\n\n</li>\n</ul>"
+          "description": "<p>The pixie sprinkles pixie dust onto one of their arrows. If the pixie hits a criatura with that arrow before the pixie's next turn, the arrow inflicts one of the following special effects instead of dealing daño. Each effect depends on el objetivo's DC 24 Will save. On a critical hit, el objetivo gets a result one degree worse than it rolled.</p>\n<ul>\n<li>Confusion (emotion, mental) (@Check[will|dc:24|traits:emotion,mental]) El objetivo suffers the effects of a 4th-rank confusion conjuro.</li>\n<li>Shadow Shroud (darkness, incapacitation) (@Check[will|dc:24|traits:darkness,incapacitation]) On a failed Will save, el objetivo is enveloped in shadows. It perceives its surroundings as though bright light conditions were only dim light and dim light as though it was darkness.</li>\n<li>Supernatural Chill (cold, shadow) (@Check[will|dc:24|basic|traits:cold,shadow]) El objetivo takes @Damage[5d6[cold]] daño (basic Fortitude save).\n\n</li>\n</ul>"
         },
         "action->Warden's Protection": {
           "name": "Warden's Protection",
@@ -2054,16 +2054,16 @@
           "name": "Primal Innate Spells"
         },
         "spell->Tree Stride": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.F1qxaqsEItmBura2]\nTree Zancada"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.F1qxaqsEItmBura2]\nTree Zancada"
         },
         "spell->Speak with Plants (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.qvwIwJ9QBihy8R0t]\nSpeak with Plants (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]\nSpeak with Plants (Constant)"
         },
         "spell->Entangle (At-Will)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.J6vNvrUT3b1hx2iA]\nEntangle (At-Will)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.J6vNvrUT3b1hx2iA]\nEntangle (At-Will)"
         },
         "spell->Tanglefoot": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.uZK2BYzPnxUBnDjr]\nTanglefoot"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.uZK2BYzPnxUBnDjr]\nTanglefoot"
         },
         "strike-melee->Lignifying Hand": {
           "name": "Lignifying Hand"
@@ -2148,7 +2148,7 @@
         },
         "equipment->Wand of Hawthorn (2nd-level)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.CKmIgVzlcN7g1YT4]\nWand of Hawthorn (2nd-level)",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.CKmIgVzlcN7g1YT4]\n<p>Carved from a hawthorn branch, this wand has a smooth handle, but the shaft remains covered in bark and long thorns. Polished red stones, arranged like a cluster of berries, decorate the pommel.</p>\n<p><strong>Activar</strong> Lanzar un conjuro</p>\n<p><strong>Frecuencia</strong> una vez al día, más sobrecarga</p>\n<hr />\n<p><strong>Efecto</strong> Lanzas 2nd-rank @UUID[Compendium.pf2e.conjuros-srd.Item.YWrfKetOqDwVFut7]{Oaken Resilience}, and el objetivo sprouts long thorns like those of a hawthorn tree. While @UUID[Compendium.pf2e.conjuros-srd.Item.YWrfKetOqDwVFut7]{Oaken Resilience} lasts, any criatura that hits el objetivo with an unarmed Golpe or otherwise touches it takes @Damage[1d4[piercing]] daño from the thorns. A criatura that has engulfed or swallowed el objetivo takes this daño as well at the start of each of el objetivo's turns.</p>\n<hr />\n<p><strong>Requisitos de fabricación</strong> Supply a casting of @UUID[Compendium.pf2e.conjuros-srd.Item.YWrfKetOqDwVFut7]{Oaken Resilience} of the appropriate rank.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.CKmIgVzlcN7g1YT4]\n<p>Carved from a hawthorn branch, this wand has a smooth handle, but the shaft remains covered in bark and long thorns. Polished red stones, arranged like a cluster of berries, decorate the pommel.</p>\n<p><strong>Activar</strong> Lanzar un conjuro</p>\n<p><strong>Frecuencia</strong> una vez al día, más sobrecarga</p>\n<hr />\n<p><strong>Efecto</strong> Lanzas 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.YWrfKetOqDwVFut7]{Oaken Resilience}, and el objetivo sprouts long thorns like those of a hawthorn tree. While @UUID[Compendium.pf2e.spells-srd.Item.YWrfKetOqDwVFut7]{Oaken Resilience} lasts, any criatura that hits el objetivo with an unarmed Golpe or otherwise touches it takes @Damage[1d4[piercing]] daño from the thorns. A criatura that has engulfed or swallowed el objetivo takes this daño as well at the start of each of el objetivo's turns.</p>\n<hr />\n<p><strong>Requisitos de fabricación</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.YWrfKetOqDwVFut7]{Oaken Resilience} of the appropriate rank.</p>"
         },
         "strike-melee->Claw": {
           "name": "Claw"
@@ -2162,7 +2162,7 @@
         },
         "action->Splinter Spray": {
           "name": "Splinter Spray",
-          "description": "<p>Splintershank sprays a barrage of splinters and brambles from his body in a @Template[cone|distance:15], dealing @Damage[7d6[piercing]|options:area-daño] daño (@Check[reflex|dc:24|basic|options:area-effect] save). He can't use Splinter Spray again for [[/gmr 1d4 #Recharge Splinter Spray]]{1d4 rounds}.</p>"
+          "description": "<p>Splintershank sprays a barrage of splinters and brambles from his body in a @Template[cone|distance:15], dealing @Damage[7d6[piercing]|options:area-damage] daño (@Check[reflex|dc:24|basic|options:area-effect] save). He can't use Splinter Spray again for [[/gmr 1d4 #Recharge Splinter Spray]]{1d4 rounds}.</p>"
         }
       }
     },
@@ -2184,7 +2184,7 @@
         },
         "action->Lightning Blast": {
           "name": "Lightning Blast",
-          "description": "<p><strong>Requisitos</strong> The stormdrinker is @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} due to Absorb Shock</p>\n<hr />\n<p><strong>Efecto</strong> The stormdrinker dismisses its Absorb Shock benefits to expel lightning in a @Template[line|distance:60], dealing @Damage[8d6[electricity]|options:area-daño] daño (@Check[reflex|dc:25|basic|options:area-effect] save).</p>"
+          "description": "<p><strong>Requisitos</strong> The stormdrinker is @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} due to Absorb Shock</p>\n<hr />\n<p><strong>Efecto</strong> The stormdrinker dismisses its Absorb Shock benefits to expel lightning in a @Template[line|distance:60], dealing @Damage[8d6[electricity]|options:area-damage] daño (@Check[reflex|dc:25|basic|options:area-effect] save).</p>"
         },
         "action->Ring Bell": {
           "name": "Ring Bell",
@@ -2205,7 +2205,7 @@
           "name": "Primal Innate Spells"
         },
         "spell->Invisibility (At Will, Self Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibility (At Will, Self Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibility (At Will, Self Only)"
         },
         "strike-melee->Shortsword": {
           "name": "Shortsword"
@@ -2215,7 +2215,7 @@
         },
         "action->Sprinkle Pixie Dust": {
           "name": "Sprinkle Pixie Dust",
-          "description": "<p>Sylvarindarian sprinkles pixie dust onto one of his arrows. If he hits a criatura with that arrow before his next turn, the arrow inflicts one of the following special effects of his choice instead of dealing daño. Each effect depends on the result of el objetivo's attempt at a DC 25 Will save. On a critical hit, el objetivo gets a result one degree worse than it rolled.</p>\n<ul>\n<li><strong>Charm</strong> (emotion, incapacitation, mental) (@Check[will|dc:25|rasgos:emotion,incapacitation,mental])The arrow has the effect of a @UUID[Compendium.pf2e.conjuros-srd.Item.vLA0q0WOK2YPuJs6]{Charm} conjuro, except el objetivo doesn't gain a bonus to its save if the only hostile act was Sylvarindarian firing his bow, and he can elige to direct el objetivo's adoration toward another criatura rather than himself.</li>\n<li><strong>Memory Loss</strong> (mental) (@Check[will|dc:25|rasgos:mental]) On a failed Will save, el objetivo loses the last 5 minutes of its memory.</li>\n<li><strong>Subdual</strong> (mental, nonlethal) El objetivo takes @Damage[6d6[mental]] daño, depending on the result of its @Check[will|dc:25|basic|rasgos:mental,nonlethal] save.</li>\n</ul>"
+          "description": "<p>Sylvarindarian sprinkles pixie dust onto one of his arrows. If he hits a criatura with that arrow before his next turn, the arrow inflicts one of the following special effects of his choice instead of dealing daño. Each effect depends on the result of el objetivo's attempt at a DC 25 Will save. On a critical hit, el objetivo gets a result one degree worse than it rolled.</p>\n<ul>\n<li><strong>Charm</strong> (emotion, incapacitation, mental) (@Check[will|dc:25|traits:emotion,incapacitation,mental])The arrow has the effect of a @UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6]{Charm} conjuro, except el objetivo doesn't gain a bonus to its save if the only hostile act was Sylvarindarian firing his bow, and he can elige to direct el objetivo's adoration toward another criatura rather than himself.</li>\n<li><strong>Memory Loss</strong> (mental) (@Check[will|dc:25|traits:mental]) On a failed Will save, el objetivo loses the last 5 minutes of its memory.</li>\n<li><strong>Subdual</strong> (mental, nonlethal) El objetivo takes @Damage[6d6[mental]] daño, depending on the result of its @Check[will|dc:25|basic|traits:mental,nonlethal] save.</li>\n</ul>"
         }
       }
     },
@@ -2232,23 +2232,23 @@
           "secondarycheck": "Occultism,  Religion"
         },
         "spell->Augury (At Will)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.41TZEjhO6D1nWw2X]\nAugury (At Will)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]\nAugury (At Will)"
         },
         "spell->Speak with Animals (Constant, Insects Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.BBvV7qoXGdw09q1C]\nSpeak with Animals (Constant, Insects Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]\nSpeak with Animals (Constant, Insects Only)"
         },
         "spell->Illusory Disguise (At Will, Male Human Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.i35dpZFI7jZcRoBo]\nIllusory Disguise (At Will, Male Human Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]\nIllusory Disguise (At Will, Male Human Only)"
         },
         "spell->Summon Animal (Bee Swarms Only, Treat as Wasp Swarms)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.4YnON9JHYqtLzccu]\nSummon Animal (Bee Swarms Only, Treat as Wasp Swarms)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.4YnON9JHYqtLzccu]\nSummon Animal (Bee Swarms Only, Treat as Wasp Swarms)"
         },
         "strike-melee->Slam": {
           "name": "Slam"
         },
         "action->Apian Emissaries": {
           "name": "Apian Emissaries",
-          "description": "<p>The Bee-Man can use bees to duplicate the effects of @UUID[Compendium.pf2e.conjuros-srd.Item.zvKWclOZ7A53DObE]{Clairvoyance} or @UUID[Compendium.pf2e.conjuros-srd.Item.vLzFcIaSXs7YTIqJ]{Message} at will, with a maximum range of 13 miles. A successful @Check[perception|dc:20] check identifies the presence of the bees acting as the sensors for these conjuros, but a @Check[nature|dc:24] (experto) check is required to realize they are behaving under outside influence.</p>"
+          "description": "<p>The Bee-Man can use bees to duplicate the effects of @UUID[Compendium.pf2e.spells-srd.Item.zvKWclOZ7A53DObE]{Clairvoyance} or @UUID[Compendium.pf2e.spells-srd.Item.vLzFcIaSXs7YTIqJ]{Message} at will, with a maximum range of 13 miles. A successful @Check[perception|dc:20] check identifies the presence of the bees acting as the sensors for these conjuros, but a @Check[nature|dc:24] (experto) check is required to realize they are behaving under outside influence.</p>"
         },
         "action->Smoke Susceptibility": {
           "name": "Smoke Susceptibility",
@@ -2391,7 +2391,7 @@
         },
         "action->Rain of Splinters": {
           "name": "Rain of Splinters",
-          "description": "<p>The twigjack bramble launches a volley of splinters and brambles in a @Template[burst|distance:10] within 30 pies that deals @Damage[4d6[piercing]|options:area-daño] daño (@Check[reflex|dc:21|basic|options:area-effect] save). When the bramble is reduced to 8 or fewer squares, this area decreases to a @Template[burst|distance:5].</p>"
+          "description": "<p>The twigjack bramble launches a volley of splinters and brambles in a @Template[burst|distance:10] within 30 pies that deals @Damage[4d6[piercing]|options:area-damage] daño (@Check[reflex|dc:21|basic|options:area-effect] save). When the bramble is reduced to 8 or fewer squares, this area decreases to a @Template[burst|distance:5].</p>"
         },
         "action->Troop Movement": {
           "name": "Troop Movement",
@@ -2431,14 +2431,14 @@
           "consumableSpellName": "Sound Body",
           "consumableSpellDescription": "<p>Tú send a surge of healing energy to restore el objetivo's body. Attempt to counteract an effect of tu choice imposing one of these conditions on el objetivo: @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded}, @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}, @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled}, or @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened}. If tú didn't counteract the effect, but tú would have if its counteract rank were 2 lower, instead suppress the effect until the beginning of tu next turn. The effect's duration doesn't elapse while it's suppressed.</p>\n<p>Este conjuro can't counteract or suppress curses, diseases, or conditions that are part of el objetivo's normal state.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> Add @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained} and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed} to the list of conditions.</p>\n<p><strong>Heightened (8th)</strong> Add @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned} to the list of conditions.</p>",
           "consumableSpellTarget": "1 willing criatura",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.QSQZJ5BC3DeHv153]\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.Et8RSCLx8w7uOLvo]{Sound Body}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>The conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro attack modifier and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so tú don't need to provide them when casting from a scroll. If the conjuro requires a locus, debes have that locus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.QSQZJ5BC3DeHv153]\n<p>@UUID[Compendium.pf2e.spells-srd.Item.Et8RSCLx8w7uOLvo]{Sound Body}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>The conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro attack modifier and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so tú don't need to provide them when casting from a scroll. If the conjuro requires a locus, debes have that locus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
         },
         "consumable->Scroll of Soothe (Rank 6)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.4sGIy77COooxhQuC]\nScroll of Soothe (Rank 6)",
           "consumableSpellName": "Soothe",
           "consumableSpellDescription": "<p>Tú grace el objetivo's mind, boosting its mental defenses and healing its wounds. El objetivo regains 1d10+4 Puntos de Golpe when tú Lanzar el conjuro and gains a +2 bonificador de estado to saves against mental effects for the duration.</p>\n<p>@UUID[Compendium.pf2e.conjuro-effects.Item.nkk4O5fyzrC0057i]{Spell Efecto: Soothe}</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing increases by 1d10+4.</p>",
           "consumableSpellTarget": "1 willing criatura",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.4sGIy77COooxhQuC]\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.szIyEsvihc5e1w8n]{Soothe}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>The conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro attack modifier and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so tú don't need to provide them when casting from a scroll. If the conjuro requires a locus, debes have that locus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.4sGIy77COooxhQuC]\n<p>@UUID[Compendium.pf2e.spells-srd.Item.szIyEsvihc5e1w8n]{Soothe}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>The conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro attack modifier and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so tú don't need to provide them when casting from a scroll. If the conjuro requires a locus, debes have that locus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
         },
         "strike-melee->Fighting Fan": {
           "name": "Fighting Fan"
@@ -2456,7 +2456,7 @@
         },
         "action->Explosive End": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.edpED1d9NbvR2NmB]\nExplosive End",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.edpED1d9NbvR2NmB]\n<p>When Unaasi dies, the planar portal inside them collapses, causing them to explode in a burst of scouring energy that deals @Damage[11d6[fire]|options:area-daño] daño to all criaturas in their luminant aura (@Check[reflex|dc:32|basic|options:area-effect] save). Their body is completely consumed, leaving behind only their gear.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.edpED1d9NbvR2NmB]\n<p>When Unaasi dies, the planar portal inside them collapses, causing them to explode in a burst of scouring energy that deals @Damage[11d6[fire]|options:area-damage] daño to all criaturas in their luminant aura (@Check[reflex|dc:32|basic|options:area-effect] save). Their body is completely consumed, leaving behind only their gear.</p>"
         },
         "action->Luminant Aura": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.WIVta5JyoDl9b2UO]\nLuminant Aura"
@@ -2467,11 +2467,11 @@
         },
         "action->Scouring Surge": {
           "name": "Scouring Surge",
-          "description": "<p>Unaasi unleashes the planar energy coursing through their body for a split-second, dealing @Damage[11d6[fire]|options:area-daño] daño (@Check[reflex|dc:30|basic|options:area-effect] save) to all criaturas in their luminant aura. They can't use Scouring Surge again for [[/gmr 1d4 #Recharge Scouring Surge]]{1d4 rounds}.</p>"
+          "description": "<p>Unaasi unleashes the planar energy coursing through their body for a split-second, dealing @Damage[11d6[fire]|options:area-damage] daño (@Check[reflex|dc:30|basic|options:area-effect] save) to all criaturas in their luminant aura. They can't use Scouring Surge again for [[/gmr 1d4 #Recharge Scouring Surge]]{1d4 rounds}.</p>"
         },
         "action->Signature Spells": {
           "name": "Signature Spells",
-          "description": "<p>Unaasi can heighten the following conjuros freely: @UUID[Compendium.pf2e.conjuros-srd.Item.vLA0q0WOK2YPuJs6]{Charm}, @UUID[Compendium.pf2e.conjuros-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage}, @UUID[Compendium.pf2e.conjuros-srd.Item.Fr58LDSrbndgld9n]{Resist Energy}, @UUID[Compendium.pf2e.conjuros-srd.Item.1bw6XJMOERcbC5Iq]{Rip the Spirit}, @UUID[Compendium.pf2e.conjuros-srd.Item.szIyEsvihc5e1w8n]{Soothe}.</p>"
+          "description": "<p>Unaasi can heighten the following conjuros freely: @UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6]{Charm}, @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage}, @UUID[Compendium.pf2e.spells-srd.Item.Fr58LDSrbndgld9n]{Resist Energy}, @UUID[Compendium.pf2e.spells-srd.Item.1bw6XJMOERcbC5Iq]{Rip the Spirit}, @UUID[Compendium.pf2e.spells-srd.Item.szIyEsvihc5e1w8n]{Soothe}.</p>"
         },
         "action->Steady Spellcasting": {
           "name": "Steady Spellcasting",
@@ -2489,13 +2489,13 @@
     "Unwelcome Guests": {
       "name": "Unwelcome Guests",
       "description": "<p>Unwelcome guests who touch this hatch are cursed.</p>",
-      "disable": "<p>@Check[occultism|dc:28] (experto) to drain the magic from the curse, @Check[thievery|dc:31] (maestro) to unweave the curse's bindings, or @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank, counteract DC 28) to counteract the curse</p>",
+      "disable": "<p>@Check[occultism|dc:28] (experto) to drain the magic from the curse, @Check[thievery|dc:31] (maestro) to unweave the curse's bindings, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank, counteract DC 28) to counteract the curse</p>",
       "reset": "<p>La trampa resets when the hatch is shut.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Curse Trespassers": {
           "name": "Curse Trespassers",
-          "description": "<p><strong>Desencadenante</strong> A criatura touches the hatch</p>\n<hr />\n<p><strong>Efecto</strong> The triggering criatura takes @Damage[(3d10+22)[force]] daño and is knocked back 10 pies. A criatura that succeeds at a @Check[will|dc:30] save takes half daño and isn't moved. On a failure, the criatura is additionally cursed. A cursed criatura takes a –2 penalización to Will saves, and siempre que the cursed criatura becomes affected by a conjuro, the criatura takes @Damage[1d10[force]] daño. The curse remains until removed by @UUID[Compendium.pf2e.conjuros-srd.Item.SUKaxVZW2TlM8lu0]{Cleanse Affliction} or similar magic.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.SN2UAhPQROyvuj6c]{Efecto: Curse Trespassers}</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura touches the hatch</p>\n<hr />\n<p><strong>Efecto</strong> The triggering criatura takes @Damage[(3d10+22)[force]] daño and is knocked back 10 pies. A criatura that succeeds at a @Check[will|dc:30] save takes half daño and isn't moved. On a failure, the criatura is additionally cursed. A cursed criatura takes a –2 penalización to Will saves, and siempre que the cursed criatura becomes affected by a conjuro, the criatura takes @Damage[1d10[force]] daño. The curse remains until removed by @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Cleanse Affliction} or similar magic.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.SN2UAhPQROyvuj6c]{Efecto: Curse Trespassers}</p>"
         }
       }
     },
@@ -2539,7 +2539,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.LJdbVTOZog39EEbi]\n<p>Longswords can be one-edged or two-edged swords. Their blades are heavy and they're between 3 and 4 pies in length.</p>"
         },
         "weapon->Cythbikian Staff": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.XnlYH66ZA7RR3QgR]\n<p>The <em>Cythbikian staff</em> is a gnarled length of rotting wood, riddled with mold and fungal growths. Originally called the Zibikian staff in honor of its creator, the green man Zibik, with whom Ghorus communed before magically receiving this staff. Ghorus spent years using samples of the staff's spores to invent armas for his war against Taldor.</p>\n<p>When tú invest this staff, a thin layer of fungi grows on tu hands, remaining until tu next daily preparations. If an enemigo takes daño from any of the conjuros tú cast by the <em>Cythbikian staff</em>, this fungus spreads up tu arms, and obtienes Puntos de Golpe temporales equal to double that conjuro's level. Estos Puntos de Golpe temporales last 10 minutes.</p>\n<p><strong>Activar—Rule by Roots</strong> <span class=\"action-glyph\">3</span> (fungus, manipulate)</p>\n<p><strong>Frecuencia</strong> once per week</p>\n<hr />\n<p><strong>Efecto</strong> Tú plunge the <em>Cythbikian staff</em> into the earth, causing a vast fungal network to spread out from the staff, coating the ground, plants, structures, and all criaturas in a @Template[emanation|distance:100] (@Check[reflex|dc:34] avoids) until the staff is removed or 24 hours have passed. Non-magical plants in the area die. A criatura covered by these fungal growths is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} and controlled, physically, by the fungus, as it moves them around like a living puppet. At the beginning of a grabbed criatura's turn, they can attempt to [[/act escape dc=34]]. On a failure, the fungus forces them to spend all of their remaining actions moving toward and attacking the nearest criatura in the area using melee Golpes with any arma at their disposal. The fungal growths pay no mind to how the bodies under their control operate, and grabbed criaturas are twisted, bent, and contorted in ways that harm their body. Each round, at the end of a grabbed criatura's turn, they take @Damage[8d6[bludgeoning]] daño from this painful manipulation (@Check[fortitude|dc:34|basic] save). A criatura that successfully Escapes or is physically removed from the area is no longer grabbed or controlled. When the <em>Cythbikian staff</em> is removed from the ground, or after 24 hours have passed, the mold dies and this effect ends. Over the course of a week, the mold decays and fertilizes the soil, providing valuable nutrients to the soil and preparing the region for new plant growth.</p>\n<p><strong>Activar</strong> Lanzar un conjuro</p>\n<hr />\n<p><strong>Efecto</strong> Gastas a number of charges from the staff to cast a conjuro from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.conjuros-srd.Item.9I8mp7RkjeXbkYfx]{Timber}</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.conjuros-srd.Item.MMIPT6jfwHfLPkm5]{Wall of Shrubs}, @UUID[Compendium.pf2e.conjuros-srd.Item.IHjiWCouSacC5b3g]{Wooden Fists}</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.conjuros-srd.Item.YWrfKetOqDwVFut7]{Oaken Resilience}, @UUID[Compendium.pf2e.conjuros-srd.Item.Bc6QqTmFV4q7G7L0]{Splinter Volley}</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.conjuros-srd.Item.XFtO4BBI22Uox2QP]{Sudden Blight}, @UUID[Compendium.pf2e.conjuros-srd.Item.KsWhliKfUs3IpW3c]{Wall of Thorns}</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.conjuros-srd.Item.kCgkreCT6g0dipMd]{Murderous Vine}, @UUID[Compendium.pf2e.conjuros-srd.Item.3VxVbZqIRvpKkg3O]{Fungal Infestation}</li>\n<li><strong>5th</strong> @UUID[Compendium.pf2e.conjuros-srd.Item.FHfrCABOmGVaEpPx]{Life-Draining Roots}, @UUID[Compendium.pf2e.conjuros-srd.Item.zCcfPS4y5SrZzU2x]{Plant Form}</li>\n<li><strong>6th</strong> @UUID[Compendium.pf2e.conjuros-srd.Item.2hMy9ROM2dOZB8Jq]{Lignify}, @UUID[Compendium.pf2e.conjuros-srd.Item.JbAcSLu62TU1OgNF]{Tangling Creepers}</li>\n</ul>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.XnlYH66ZA7RR3QgR]\n<p>The <em>Cythbikian staff</em> is a gnarled length of rotting wood, riddled with mold and fungal growths. Originally called the Zibikian staff in honor of its creator, the green man Zibik, with whom Ghorus communed before magically receiving this staff. Ghorus spent years using samples of the staff's spores to invent armas for his war against Taldor.</p>\n<p>When tú invest this staff, a thin layer of fungi grows on tu hands, remaining until tu next daily preparations. If an enemigo takes daño from any of the conjuros tú cast by the <em>Cythbikian staff</em>, this fungus spreads up tu arms, and obtienes Puntos de Golpe temporales equal to double that conjuro's level. Estos Puntos de Golpe temporales last 10 minutes.</p>\n<p><strong>Activar—Rule by Roots</strong> <span class=\"action-glyph\">3</span> (fungus, manipulate)</p>\n<p><strong>Frecuencia</strong> once per week</p>\n<hr />\n<p><strong>Efecto</strong> Tú plunge the <em>Cythbikian staff</em> into the earth, causing a vast fungal network to spread out from the staff, coating the ground, plants, structures, and all criaturas in a @Template[emanation|distance:100] (@Check[reflex|dc:34] avoids) until the staff is removed or 24 hours have passed. Non-magical plants in the area die. A criatura covered by these fungal growths is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} and controlled, physically, by the fungus, as it moves them around like a living puppet. At the beginning of a grabbed criatura's turn, they can attempt to [[/act escape dc=34]]. On a failure, the fungus forces them to spend all of their remaining actions moving toward and attacking the nearest criatura in the area using melee Golpes with any arma at their disposal. The fungal growths pay no mind to how the bodies under their control operate, and grabbed criaturas are twisted, bent, and contorted in ways that harm their body. Each round, at the end of a grabbed criatura's turn, they take @Damage[8d6[bludgeoning]] daño from this painful manipulation (@Check[fortitude|dc:34|basic] save). A criatura that successfully Escapes or is physically removed from the area is no longer grabbed or controlled. When the <em>Cythbikian staff</em> is removed from the ground, or after 24 hours have passed, the mold dies and this effect ends. Over the course of a week, the mold decays and fertilizes the soil, providing valuable nutrients to the soil and preparing the region for new plant growth.</p>\n<p><strong>Activar</strong> Lanzar un conjuro</p>\n<hr />\n<p><strong>Efecto</strong> Gastas a number of charges from the staff to cast a conjuro from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.9I8mp7RkjeXbkYfx]{Timber}</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.MMIPT6jfwHfLPkm5]{Wall of Shrubs}, @UUID[Compendium.pf2e.spells-srd.Item.IHjiWCouSacC5b3g]{Wooden Fists}</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.YWrfKetOqDwVFut7]{Oaken Resilience}, @UUID[Compendium.pf2e.spells-srd.Item.Bc6QqTmFV4q7G7L0]{Splinter Volley}</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.XFtO4BBI22Uox2QP]{Sudden Blight}, @UUID[Compendium.pf2e.spells-srd.Item.KsWhliKfUs3IpW3c]{Wall of Thorns}</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.kCgkreCT6g0dipMd]{Murderous Vine}, @UUID[Compendium.pf2e.spells-srd.Item.3VxVbZqIRvpKkg3O]{Fungal Infestation}</li>\n<li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.FHfrCABOmGVaEpPx]{Life-Draining Roots}, @UUID[Compendium.pf2e.spells-srd.Item.zCcfPS4y5SrZzU2x]{Plant Form}</li>\n<li><strong>6th</strong> @UUID[Compendium.pf2e.spells-srd.Item.2hMy9ROM2dOZB8Jq]{Lignify}, @UUID[Compendium.pf2e.spells-srd.Item.JbAcSLu62TU1OgNF]{Tangling Creepers}</li>\n</ul>"
         },
         "strike-melee->Echoblade": {
           "name": "Echoblade"
@@ -2552,11 +2552,11 @@
         },
         "action->Central Weapon": {
           "name": "Central Weapon",
-          "description": "<p>A swordkeeper's torso houses a single arma of a level no higher than the swordkeeper. While the swordkeeper is operational, the chamber requires four successful @Check[thievery|dc:32|rasgos:action:disable-a-device] checks to @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Disable a Device} to open; on a critical failure, the backlash deals @Damage[6d6[force]] daño (@Check[reflex|dc:30|basic] save) to the criatura attempting the check.</p>\n<p>If the swordkeeper is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}, @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned}, both DCs are reduced by 2.</p>\n<p>If the arma is removed, the swordkeeper's echoblades vanish.</p>"
+          "description": "<p>A swordkeeper's torso houses a single arma of a level no higher than the swordkeeper. While the swordkeeper is operational, the chamber requires four successful @Check[thievery|dc:32|traits:action:disable-a-device] checks to @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Disable a Device} to open; on a critical failure, the backlash deals @Damage[6d6[force]] daño (@Check[reflex|dc:30|basic] save) to the criatura attempting the check.</p>\n<p>If the swordkeeper is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}, @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned}, both DCs are reduced by 2.</p>\n<p>If the arma is removed, the swordkeeper's echoblades vanish.</p>"
         },
         "action->Colossal Echo": {
           "name": "Colossal Echo",
-          "description": "<p><strong>Requisitos</strong> The swordkeeper has a central arma</p>\n<hr />\n<p><strong>Efecto</strong> The swordkeeper projects a massive echoblade held in all four hands, dealing @Damage[9d8[force]|options:area-daño] daño to all criaturas in a @Template[line|distance:30] (@Check[reflex|dc:30|basic|options:area-effect] save).</p>\n<p>It can't use Colossal Echo again for [[/gmr 1d4 #Recharge Colossal Echo]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Requisitos</strong> The swordkeeper has a central arma</p>\n<hr />\n<p><strong>Efecto</strong> The swordkeeper projects a massive echoblade held in all four hands, dealing @Damage[9d8[force]|options:area-damage] daño to all criaturas in a @Template[line|distance:30] (@Check[reflex|dc:30|basic|options:area-effect] save).</p>\n<p>It can't use Colossal Echo again for [[/gmr 1d4 #Recharge Colossal Echo]]{1d4 rounds}.</p>"
         },
         "action->Echoblade Flurry": {
           "name": "Echoblade Flurry",
@@ -2579,7 +2579,7 @@
           "name": "Primal Innate Spells"
         },
         "spell->Speak with Animals (At Will)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.BBvV7qoXGdw09q1C]\nSpeak with Animals (At Will)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]\nSpeak with Animals (At Will)"
         },
         "strike-melee->Dagger": {
           "name": "Dagger"
@@ -2772,7 +2772,7 @@
           "target": "1 criatura"
         },
         "spell->Nature's Pathway (At Will)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.F1qxaqsEItmBura2]\nNATURE's Pathway (At Will)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.F1qxaqsEItmBura2]\nNATURE's Pathway (At Will)"
         },
         "strike-melee->Vine": {
           "name": "Vine"
@@ -2782,7 +2782,7 @@
         },
         "action->Green Tongue": {
           "name": "Green Tongue",
-          "description": "<p>A green man can communicate with plants, with the effects of @UUID[Compendium.pf2e.conjuros-srd.Item.qvwIwJ9QBihy8R0t]{Speak with Plants}, and can use DIPLOMACY to [[/act make-an-impression]] on plants and [[/act request]] things from plants.</p>"
+          "description": "<p>A green man can communicate with plants, with the effects of @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]{Speak with Plants}, and can use DIPLOMACY to [[/act make-an-impression]] on plants and [[/act request]] things from plants.</p>"
         },
         "action->Plantsense 60 feet": {
           "name": "Plantsense 60 pies",
@@ -2794,7 +2794,7 @@
         },
         "action->Green Caress": {
           "name": "Green Caress",
-          "description": "<p>60 pies. Living criaturas in the area other than plants slowly transform into non-criatura plants. The green man can exclude criaturas from this effect, but they must be aware of a criatura's presence and location to do so. A non-plant criatura in the area must attempt a @Check[fortitude|dc:45] save immediately before the start of its turn.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected, or if it is ralentizado by green caress, it reduces its ralentizado value by 2.</p>\n<p><strong>Éxito</strong> The criatura is unaffected, or if it is ralentizado by green caress, it reduces its ralentizado value by 1.</p>\n<p><strong>Fallo</strong> The criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}, or if it was already ralentizado by green caress, increases the ralentizado value by 1, as their body transforms more and more into a non-criatura plant. If the criatura ever becomes ralentizado to the point they have no actions left for their turn, they become an inanimate plant, a condition that can only be reversed by @UUID[Compendium.pf2e.conjuros-srd.Item.MLNeD5sAunV0E23j]{Primal Phenomenon} or similarly powerful magic.</p>\n<p><strong>Fallo crítico</strong> As failure, except the criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} (or increases the condition value by 2).</p>"
+          "description": "<p>60 pies. Living criaturas in the area other than plants slowly transform into non-criatura plants. The green man can exclude criaturas from this effect, but they must be aware of a criatura's presence and location to do so. A non-plant criatura in the area must attempt a @Check[fortitude|dc:45] save immediately before the start of its turn.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected, or if it is ralentizado by green caress, it reduces its ralentizado value by 2.</p>\n<p><strong>Éxito</strong> The criatura is unaffected, or if it is ralentizado by green caress, it reduces its ralentizado value by 1.</p>\n<p><strong>Fallo</strong> The criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}, or if it was already ralentizado by green caress, increases the ralentizado value by 1, as their body transforms more and more into a non-criatura plant. If the criatura ever becomes ralentizado to the point they have no actions left for their turn, they become an inanimate plant, a condition that can only be reversed by @UUID[Compendium.pf2e.spells-srd.Item.MLNeD5sAunV0E23j]{Primal Phenomenon} or similarly powerful magic.</p>\n<p><strong>Fallo crítico</strong> As failure, except the criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} (or increases the condition value by 2).</p>"
         },
         "action->Root In Place": {
           "name": "Root In Place",
@@ -2810,7 +2810,7 @@
         },
         "action->Embed": {
           "name": "Embed",
-          "description": "<p>The green man's thorns embed themselves into any criatura they daño, taking root into the ground. A target damaged by a thorn has its Velocidades halved, and it can't Dar un paso, @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Fly}, @UUID[Compendium.pf2e.conjuros-srd.Item.b5sGjGlBf58f8jn0]{Air Walk}, or otherwise leave the ground until the thorn is removed.</p>\n<p>Removing a thorn requires 3 INTERACT actions, which don't have to be consecutive. If the criatura performing the final action doesn't succeed at a @Check[medicine|dc:45] check as part of that action, el objetivo takes @Damage[10d6[untyped]] daño upon the thorn's removal.</p>"
+          "description": "<p>The green man's thorns embed themselves into any criatura they daño, taking root into the ground. A target damaged by a thorn has its Velocidades halved, and it can't Dar un paso, @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Fly}, @UUID[Compendium.pf2e.spells-srd.Item.b5sGjGlBf58f8jn0]{Air Walk}, or otherwise leave the ground until the thorn is removed.</p>\n<p>Removing a thorn requires 3 INTERACT actions, which don't have to be consecutive. If the criatura performing the final action doesn't succeed at a @Check[medicine|dc:45] check as part of that action, el objetivo takes @Damage[10d6[untyped]] daño upon the thorn's removal.</p>"
         },
         "action->Focus Vines": {
           "name": "Focus Vines",
@@ -2826,7 +2826,7 @@
         },
         "action->Green Rituals": {
           "name": "Green Rituals",
-          "description": "<p>A green man can perform all their rituals without secondary casters, relying on their own primal ties to the vital essence in spirits of NATURE.</p>\n<p>A green man's @UUID[Compendium.pf2e.conjuros-srd.Item.B4dDkYsHFo1H0CIF]{Awaken Animal} and @UUID[Compendium.pf2e.conjuros-srd.Item.pZc8ZwtsyWnxUUW0]{Primal Call} rituals work on plants instead of their usual range of choices.</p>\n<p>Most green men also know the ritual to create various types of leshys and possibly even magic allowing the creation of arboreals or more powerful plant criaturas.</p>"
+          "description": "<p>A green man can perform all their rituals without secondary casters, relying on their own primal ties to the vital essence in spirits of NATURE.</p>\n<p>A green man's @UUID[Compendium.pf2e.spells-srd.Item.B4dDkYsHFo1H0CIF]{Awaken Animal} and @UUID[Compendium.pf2e.spells-srd.Item.pZc8ZwtsyWnxUUW0]{Primal Call} rituals work on plants instead of their usual range of choices.</p>\n<p>Most green men also know the ritual to create various types of leshys and possibly even magic allowing the creation of arboreals or more powerful plant criaturas.</p>"
         },
         "action->Purge Plaguebearers": {
           "name": "Purge Plaguebearers",

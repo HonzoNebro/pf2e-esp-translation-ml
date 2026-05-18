@@ -20,7 +20,7 @@
         },
         "action->Spray Acid": {
           "name": "Spray Acid",
-          "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p><strong>Efecto</strong> The ankhrav spews acid in a @Template[cone|distance:30], dealing @Damage[3d6[acid],1d6[persistent,acid]|options:area-daño]{3d6 daño de ácido and 1d6 daño persistente de ácido} (@Check[reflex|dc:20|basic|options:area-effect] save).</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p><strong>Efecto</strong> The ankhrav spews acid in a @Template[cone|distance:30], dealing @Damage[3d6[acid],1d6[persistent,acid]|options:area-damage]{3d6 daño de ácido and 1d6 daño persistente de ácido} (@Check[reflex|dc:20|basic|options:area-effect] save).</p>"
         }
       }
     },
@@ -50,7 +50,7 @@
         },
         "action->Spray Acid": {
           "name": "Spray Acid",
-          "description": "<p>The hive mother spews acid in a @Template[cone|distance:60], dealing @Damage[8d6[acid],1d6[persistent,acid]|options:area-daño]{8d6 daño de ácido and 1d6 daño persistente de ácido} (@Check[reflex|dc:26|basic|options:area-effect] save).</p>\n<p>It can't spew acid again for [[/gmr 1d4 #Recharge Spray Acid]]{1d4 rounds}.</p>"
+          "description": "<p>The hive mother spews acid in a @Template[cone|distance:60], dealing @Damage[8d6[acid],1d6[persistent,acid]|options:area-damage]{8d6 daño de ácido and 1d6 daño persistente de ácido} (@Check[reflex|dc:26|basic|options:area-effect] save).</p>\n<p>It can't spew acid again for [[/gmr 1d4 #Recharge Spray Acid]]{1d4 rounds}.</p>"
         }
       }
     },
@@ -72,7 +72,7 @@
       "disable": "<p>@Check[occultism|dc:28] (experto) to funnel the magic powering the mist back into itself, or @Check[religion|dc:30] (experto) to exorcise some of the trapped souls and weaken the storm; three total successes in any combination are required to disable the haunt</p>",
       "reset": "<p>The haunt deactivates 1 minute after all criaturas leave the area of Fort Whiteskull but resets immediately. The army of mist resets 1 day after being disabled if the ancestor storm isn't put to rest.</p>",
       "routine": "<p>(3 actions) The army of mist uses 3 actions to make frozen fists Golpes against three random criaturas, favoring non-orcs or anyone who attempted to Disable it within the past round.</p>",
-      "stealth": "<p>(experto) or @UUID[Compendium.pf2e.conjuros-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}</p>",
+      "stealth": "<p>(experto) or @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}</p>",
       "items": {
         "action->Battle Roar": {
           "name": "Battle Roar",
@@ -133,7 +133,7 @@
         },
         "action->Horn": {
           "name": "Horn",
-          "description": "<p><span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">3</span></p>\n<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> The aurochs herd makes a melee attack against each enemigo in a @Template[emanation|distance:5] (@Check[reflex|dc:22|basic|options:area-effect] save). The daño depends on the number of actions.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d8+8)[piercing]|options:area-daño] daño</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+10)[piercing]|options:area-daño] daño</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d10+9)[piercing]|options:area-daño] daño</p>"
+          "description": "<p><span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">3</span></p>\n<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> The aurochs herd makes a melee attack against each enemigo in a @Template[emanation|distance:5] (@Check[reflex|dc:22|basic|options:area-effect] save). The daño depends on the number of actions.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d8+8)[piercing]|options:area-damage] daño</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+10)[piercing]|options:area-damage] daño</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d10+9)[piercing]|options:area-damage] daño</p>"
         },
         "action->Puncturing Charge": {
           "name": "Puncturing Charge",
@@ -164,46 +164,46 @@
           "requirements": "Puedes bleed"
         },
         "spell->Create Undead (Oathrisen)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.c3b6LdLlQDPngNIb]\nCreate Undead (Oathrisen)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.c3b6LdLlQDPngNIb]\nCreate Undead (Oathrisen)"
         },
         "equipment->Horrid Figurine": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.c8v8gWJ87xiUVnsb]\n<p>Carved in a putrid jade, the color of disease, this figurine is a bloated humanoid mass of writhing vermin and serpents, all rendered in disgusting detail. The creeping pattern is carved so they seem to move and contort the more one views the figurine. When activated, the effect is amplified to a disgusting or horrifying degree. The figurine can be activated twice per day. If tú try to activate it a third time during a day, it dissolves into a puddle of non-magical, putrid glue, causing tú to become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3}.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> command, INTERACT</p>\n<hr />\n<p><strong>Efecto</strong> Holding the figurine over tu head and speaking one command word causes a wave of nausea in a @Template[emanation|distance:20]. Each criatura in the emanation must succeed at a @Check[fortitude|dc:24] save or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}. Estás immune to this effect.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> command, INTERACT</p>\n<hr />\n<p><strong>Efecto</strong> Holding the figurine over tu head and speaking a different command word causes those around to tremble in fear. Each criatura in a @Template[emanation|distance:20] must succeed at a @Check[will|dc:24] save or become @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 3}. Estás immune to this effect.</p>"
         },
         "equipment->Spellbook": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.FOWF5f0tCaApv9RE]\nSpellbook",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.FOWF5f0tCaApv9RE]\n<p>A spellbook holds the written knowledge necessary to learn and prepare various conjuros, a necessity for wizards (who typically get one for free) and a useful luxury for other spellcasters looking to learn additional conjuros. Each spellbook can hold up to 100 conjuros. The Price listed is for a blank spellbook.</p>\n<p>Cantrips</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.MPxbKoR54gkYkqLO]{Gouging Claw}</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.6DfLZBl8wKIV03Iq]{Ignition}</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.TVKNbcgTee19PXZR]{Shield}</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.pwzdSlJgYqN7bs2w]{Telekinetic Hand}</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.60sgbuMWN0268dB7]{Telekinetic Projectile}</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.mAMEt4FFbdqoRnkN]{Void Warp}</p>\n<p>1st rank</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.aIHY2DArKFweIrpf]{comando}</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.aAbfKn8maGjJjk2W]{Mystic Armor}</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.xqmHD8JIjak15lRk]{Phantasmal Minion}</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.k34hDOfIIMAxNL4a]{Grim Tendrils}</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.9WGeBwIIbbUuWKq0]{Summon Undead}</p>\n<p>2nd rank</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.TaaMEYdZXQXF0Sks]{Blood Vendetta}</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.4GE2ZdODgIQtg51c]{Darkness}</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.8ViwItUgwT4lOvvb]{False Vitality}</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.mrDi3v933gsmnw25]{Telekinetic Maneuver}</p>\n<p>3rd rank</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.9AAkVUCwF6WVNNY2]{Lightning Bolt}</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.N1Z1oLPdBxaSgrEE]{Vampiric Feast}</p>\n<p>4th rank</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.zR67Rt3UMHKC5evy]{Flicker}</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.Jmxru8zMdYMRuO5n]{Vision of Death}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.FOWF5f0tCaApv9RE]\n<p>A spellbook holds the written knowledge necessary to learn and prepare various conjuros, a necessity for wizards (who typically get one for free) and a useful luxury for other spellcasters looking to learn additional conjuros. Each spellbook can hold up to 100 conjuros. The Price listed is for a blank spellbook.</p>\n<p>Cantrips</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.MPxbKoR54gkYkqLO]{Gouging Claw}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq]{Ignition}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR]{Shield}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]{Telekinetic Hand}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.60sgbuMWN0268dB7]{Telekinetic Projectile}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.mAMEt4FFbdqoRnkN]{Void Warp}</p>\n<p>1st rank</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]{comando}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.aAbfKn8maGjJjk2W]{Mystic Armor}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.xqmHD8JIjak15lRk]{Phantasmal Minion}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.k34hDOfIIMAxNL4a]{Grim Tendrils}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.9WGeBwIIbbUuWKq0]{Summon Undead}</p>\n<p>2nd rank</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.TaaMEYdZXQXF0Sks]{Blood Vendetta}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.8ViwItUgwT4lOvvb]{False Vitality}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.mrDi3v933gsmnw25]{Telekinetic Maneuver}</p>\n<p>3rd rank</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.9AAkVUCwF6WVNNY2]{Lightning Bolt}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]{Vampiric Feast}</p>\n<p>4th rank</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.zR67Rt3UMHKC5evy]{Flicker}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.Jmxru8zMdYMRuO5n]{Vision of Death}</p>"
         },
         "consumable->Scroll of Fireball (Rank 4)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.QSQZJ5BC3DeHv153]\nScroll of Fireball (Rank 4)",
           "consumableSpellName": "Fireball",
           "consumableSpellDescription": "<p>A roaring blast of fire detonates at a spot tú designate, dealing 6d6 daño de fuego.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The daño increases by 2d6.</p>",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.QSQZJ5BC3DeHv153]\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.sxQZ6yqTn0czJxVd]{Fireball}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>The conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro attack modifier and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so tú don't need to provide them when casting from a scroll. If the conjuro requires a locus, debes have that locus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.QSQZJ5BC3DeHv153]\n<p>@UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{Fireball}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>The conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro attack modifier and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so tú don't need to provide them when casting from a scroll. If the conjuro requires a locus, debes have that locus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
         },
         "consumable->Scroll of Lightning Bolt (Rank 4)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.QSQZJ5BC3DeHv153]\nScroll of Lightning Bolt (Rank 4)",
           "consumableSpellName": "Lightning Bolt",
           "consumableSpellDescription": "<p>A bolt of lightning strikes outward from tu hand, dealing 4d12 daño de electricidad.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The daño increases by 1d12.</p>",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.QSQZJ5BC3DeHv153]\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.9AAkVUCwF6WVNNY2]{Lightning Bolt}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>The conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro attack modifier and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so tú don't need to provide them when casting from a scroll. If the conjuro requires a locus, debes have that locus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.QSQZJ5BC3DeHv153]\n<p>@UUID[Compendium.pf2e.spells-srd.Item.9AAkVUCwF6WVNNY2]{Lightning Bolt}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>The conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro attack modifier and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so tú don't need to provide them when casting from a scroll. If the conjuro requires a locus, debes have that locus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
         },
         "consumable->Scroll of Peaceful Rest (Rank 2)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Y7UD64foDbDMV9sx]\nScroll of Peaceful Rest (Rank 2)",
           "consumableSpellName": "Peaceful Rest",
-          "consumableSpellDescription": "<p>The targeted corpse doesn't decay, nor can it be transformed into an undead. If the corpse is subject to a conjuro that requires the corpse to have died within a certain amount of time (for example, @UUID[Compendium.pf2e.conjuros-srd.Item.IkGYwHRLhkuoGReG]{Raise Dead}), do not count the duration of <em>peaceful rest</em> against that time. Este conjuro also prevents ordinary bugs and pests (such as maggots) from consuming the body.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The conjuro's duration is unlimited, but the conjuro takes one more action to cast and requires a cost (embalming fluid worth 6 gp).</p>",
+          "consumableSpellDescription": "<p>The targeted corpse doesn't decay, nor can it be transformed into an undead. If the corpse is subject to a conjuro that requires the corpse to have died within a certain amount of time (for example, @UUID[Compendium.pf2e.spells-srd.Item.IkGYwHRLhkuoGReG]{Raise Dead}), do not count the duration of <em>peaceful rest</em> against that time. Este conjuro also prevents ordinary bugs and pests (such as maggots) from consuming the body.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The conjuro's duration is unlimited, but the conjuro takes one more action to cast and requires a cost (embalming fluid worth 6 gp).</p>",
           "consumableSpellTarget": "1 corpse",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Y7UD64foDbDMV9sx]\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.xRgU9rrhmGAgG4Rc]{Peaceful Rest}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>The conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro attack modifier and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so tú don't need to provide them when casting from a scroll. If the conjuro requires a locus, debes have that locus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Y7UD64foDbDMV9sx]\n<p>@UUID[Compendium.pf2e.spells-srd.Item.xRgU9rrhmGAgG4Rc]{Peaceful Rest}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>The conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro attack modifier and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so tú don't need to provide them when casting from a scroll. If the conjuro requires a locus, debes have that locus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
         },
         "consumable->Scroll of See the Unseen (Rank 2)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Y7UD64foDbDMV9sx]\nScroll of See the Unseen (Rank 2)",
           "consumableSpellName": "See the Unseen",
           "consumableSpellDescription": "<p>Tu gaze pierces through illusions and finds @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} criaturas and spirits. Puedes see invisible criaturas as though they weren't invisible, although their features are blurred, making them @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} and difficult to identify. Puedes also see incorporeal criaturas, like ghosts, phased through an object from within 10 pies of an object's surface as blurry shapes seen through those objects. Subtler clues also grant tú a +2 bonificador de estado to checks tú make to disbelieve illusions.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> Este conjuro has a duration of 8 hours.</p>\n<p>@UUID[Compendium.pf2e.conjuro-effects.Item.T5bk6UH7yuYog1Fp]{Spell Efecto: See the Unseen}</p>",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Y7UD64foDbDMV9sx]\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.jwK43yKsHTkJQvQ9]{See the Unseen}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>The conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro attack modifier and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so tú don't need to provide them when casting from a scroll. If the conjuro requires a locus, debes have that locus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Y7UD64foDbDMV9sx]\n<p>@UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{See the Unseen}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>The conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro attack modifier and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so tú don't need to provide them when casting from a scroll. If the conjuro requires a locus, debes have that locus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
         },
         "consumable->Wand of Blazing Bolt (Rank 3)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.wrDmWkGxmwzYtfiA]\nWand of Blazing Bolt (Rank 3)",
           "consumableSpellName": "Blazing Bolt",
           "consumableSpellDescription": "<p>Tú fire a ray of heat and flame. Make a conjuro tirada de ataque against a single criatura. On a hit, el objetivo takes 2d6 daño de fuego, and on a critical hit, el objetivo takes double daño.</p>\n<p>For each additional action tú use when Casting the Spell, puedes fire an additional ray at a different target, to a maximum of three rays targeting three different targets for 3 actions. Estos attacks each increase tu multiple attack penalización, but tú don't increase tu multiple attack penalización until after tú make all the conjuro tiradas de ataque for <em>blazing bolt</em>. If tú spend 2 or more actions Casting the Spell, the daño increases to 4d6 daño de fuego on a hit, and it still deals double daño on a critical hit.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The daño to each target increases by 1d6 for the 1-action version, or by 2d6 for the 2-action and 3-action versions.</p>",
           "consumableSpellTarget": "1 or more criaturas",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.wrDmWkGxmwzYtfiA]\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.ZxHC7V7HtjUsB8zH]{Blazing Bolt}</p>\n<hr />\n<p>Este baton is about a pies long and contains a single conjuro. The appearance typically relates to the conjuro within.</p>\n<p><strong>Activar</strong> Lanzar un conjuro</p>\n<p><strong>Frecuencia</strong> una vez al día, más sobrecarga</p>\n<hr />\n<p><strong>Efecto</strong> Lanzas the Spell at the indicated rank.</p>\n<p><strong>Requisitos de fabricación</strong> Supply a casting of the conjuro at the listed rank.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.wrDmWkGxmwzYtfiA]\n<p>@UUID[Compendium.pf2e.spells-srd.Item.ZxHC7V7HtjUsB8zH]{Blazing Bolt}</p>\n<hr />\n<p>Este baton is about a pies long and contains a single conjuro. The appearance typically relates to the conjuro within.</p>\n<p><strong>Activar</strong> Lanzar un conjuro</p>\n<p><strong>Frecuencia</strong> una vez al día, más sobrecarga</p>\n<hr />\n<p><strong>Efecto</strong> Lanzas the Spell at the indicated rank.</p>\n<p><strong>Requisitos de fabricación</strong> Supply a casting of the conjuro at the listed rank.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
         },
         "strike-melee->Fist": {
           "name": "Fist"
@@ -213,7 +213,7 @@
         },
         "action->Whispered Secrets": {
           "name": "Whispered Secrets",
-          "description": "<p>While she possesses the horrid figurine, Azorena treats oathrisen as if they were two levels lower for the purpose of casting @UUID[Compendium.pf2e.conjuros-srd.Item.c3b6LdLlQDPngNIb]{Create Undead}. The figurine acts as her secondary caster and always provides a +4 bonificador de circunstancia to the primary check.</p>"
+          "description": "<p>While she possesses the horrid figurine, Azorena treats oathrisen as if they were two levels lower for the purpose of casting @UUID[Compendium.pf2e.spells-srd.Item.c3b6LdLlQDPngNIb]{Create Undead}. The figurine acts as her secondary caster and always provides a +4 bonificador de circunstancia to the primary check.</p>"
         },
         "action->Drain Bonded Item": {
           "name": "Drain Bonded Item",
@@ -224,9 +224,9 @@
     "Battle Illusion": {
       "name": "Battle Illusion",
       "description": "<p>The scene of the arid Cinderlands melts away as the water of the river refills and green grass spreads across the land. The sounds of battle can be heard everywhere and all allies have vanished, murderous orcs from the One Eye Hold taking their place.</p>",
-      "disable": "<p>@Check[occultism|dc:30] or @Check[religion|dc:30] (experto) twice to weaken the haunt or @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank; counteract DC 27) to counteract the illusions</p>",
+      "disable": "<p>@Check[occultism|dc:30] or @Check[religion|dc:30] (experto) twice to weaken the haunt or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank; counteract DC 27) to counteract the illusions</p>",
       "reset": "<p>The haunt deactivates 1 minute after all criaturas leave the Shadefields but resets immediately. The battle illusion resets 1 day after being disabled if the ancestor storm isn't put to rest.</p>",
-      "routine": "<p>(1 action; illusion, incapacitation, mental, occult) The haunt continues the illusion, making victims feel as though they've been abandoned and are surrounded by attackers on all sides. Each criatura in the haunt's area must make a @Check[will|dc:28|rasgos:illusion,incapacitation,mental,occult] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected and temporarily immune for 1 minute.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round.</p>\n<p><strong>Fallo crítico</strong> The criatura is hostile toward the supposed One Eye orcs and must spend all actions moving toward and attacking One Eye orcs. Este hostility lasts for 1 minute, until the haunt is disabled, or until they fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}. They cannot voluntarily stop attacking those they perceive as enemies.</p>",
+      "routine": "<p>(1 action; illusion, incapacitation, mental, occult) The haunt continues the illusion, making victims feel as though they've been abandoned and are surrounded by attackers on all sides. Each criatura in the haunt's area must make a @Check[will|dc:28|traits:illusion,incapacitation,mental,occult] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected and temporarily immune for 1 minute.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round.</p>\n<p><strong>Fallo crítico</strong> The criatura is hostile toward the supposed One Eye orcs and must spend all actions moving toward and attacking One Eye orcs. Este hostility lasts for 1 minute, until the haunt is disabled, or until they fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}. They cannot voluntarily stop attacking those they perceive as enemies.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Cries of War": {
@@ -400,7 +400,7 @@
         },
         "action->Frozen Breath": {
           "name": "Frozen Breath",
-          "description": "<p>Bugark exhales a @Template[type:cone|distance:60] of razor-sharp ice that deals @Damage[6d6[cold],5d6[slashing]|options:area-daño]{6d6 daño de frío and 5d6 slashing} daño (@Check[reflex|dc:30|basic|options:area-effect] save). Bugark can't use Frozen Breath again for [[/gmr 1d4 #Recharge Frozen Breath]]{1d4 rounds}.</p>"
+          "description": "<p>Bugark exhales a @Template[type:cone|distance:60] of razor-sharp ice that deals @Damage[6d6[cold],5d6[slashing]|options:area-damage]{6d6 daño de frío and 5d6 slashing} daño (@Check[reflex|dc:30|basic|options:area-effect] save). Bugark can't use Frozen Breath again for [[/gmr 1d4 #Recharge Frozen Breath]]{1d4 rounds}.</p>"
         },
         "action->Intimidating Strike": {
           "name": "Intimidating Golpe",
@@ -512,7 +512,7 @@
         },
         "equipment->Wand of Teeming Ghosts (2nd-Rank Spell, Bonded Item)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.yWlQQOs0A3ApEc1J]\nWand of Teeming Ghosts (2nd-Rank Spell, Bonded Item)",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.yWlQQOs0A3ApEc1J]\n<p>Este pale wooden wand is carved to resemble a thigh bone with metal caps at each end. Ghostly tendrils seem to swirl around it every so often.</p>\n<hr />\n<p><strong>Activar</strong> @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Lanzar un conjuro}</p>\n<p><strong>Frecuencia</strong> una vez al día, más sobrecarga</p>\n<hr />\n<p><strong>Efecto</strong> Lanzas @UUID[Compendium.pf2e.conjuros-srd.Item.8ViwItUgwT4lOvvb]{False Vitality} at 2nd rank. During the duration of the conjuro, wisps that resemble spirits flit around tú as long as tienes any Puntos de Golpe temporales from false life, and puedes use the following action.</p>\n<hr />\n<p><strong>Activation</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Desencadenante</strong> Tú successfully impart the @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} condition to a criatura</p>\n<p><strong>Requisitos</strong> Tienes at least 1 temporary Hit Point from false life</p>\n<hr />\n<p><strong>Efecto</strong> Tú end false life and increase the criatura's asustado condition value to 2.</p>\n<hr />\n<p><strong>Requisitos de fabricación</strong> Supply a casting of False Life at 2nd level</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.yWlQQOs0A3ApEc1J]\n<p>Este pale wooden wand is carved to resemble a thigh bone with metal caps at each end. Ghostly tendrils seem to swirl around it every so often.</p>\n<hr />\n<p><strong>Activar</strong> @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Lanzar un conjuro}</p>\n<p><strong>Frecuencia</strong> una vez al día, más sobrecarga</p>\n<hr />\n<p><strong>Efecto</strong> Lanzas @UUID[Compendium.pf2e.spells-srd.Item.8ViwItUgwT4lOvvb]{False Vitality} at 2nd rank. During the duration of the conjuro, wisps that resemble spirits flit around tú as long as tienes any Puntos de Golpe temporales from false life, and puedes use the following action.</p>\n<hr />\n<p><strong>Activation</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Desencadenante</strong> Tú successfully impart the @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} condition to a criatura</p>\n<p><strong>Requisitos</strong> Tienes at least 1 temporary Hit Point from false life</p>\n<hr />\n<p><strong>Efecto</strong> Tú end false life and increase the criatura's asustado condition value to 2.</p>\n<hr />\n<p><strong>Requisitos de fabricación</strong> Supply a casting of False Life at 2nd level</p>"
         },
         "strike-melee->Mace": {
           "name": "Mace"
@@ -583,7 +583,7 @@
           "name": "Druidic Order Spells"
         },
         "spell->Untamed Shift (Unmtamed Form Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.0xR9vrt6uDFl0Umo]\nUntamed Shift (Unmtamed Form Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.0xR9vrt6uDFl0Umo]\nUntamed Shift (Unmtamed Form Only)"
         },
         "shield->Sanguine Klar": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.kFe3JyiO27YBboJy]\n<p>Este <em>+1 striking wounding klar</em> (Hardness 8, HP 64, BT 32) is built with spikes made of beasts' fangs.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">f</span> envision</p>\n<p><strong>Frecuencia</strong> una vez por asalto</p>\n<p><strong>Desencadenante</strong> Tú or a criatura within 5 pies of tú suffers daño de sangrado</p>\n<hr />\n<p><strong>Efecto</strong> The sanguine klar regains a number of Puntos de Golpe equal to the daño de sangrado, up to an amount equal to its Hardness.</p>"
@@ -718,7 +718,7 @@
         },
         "action->Vomit Flotsam": {
           "name": "Vomit Flotsam",
-          "description": "<p>The floodslain vomits flotsam in a @Template[type:cone|distance:15]. Any criatura in the area takes @Damage[5d8[bludgeoning]|options:area-daño] daño (@Check[reflex|dc:19|basic|options:area-effect] save).</p>"
+          "description": "<p>The floodslain vomits flotsam in a @Template[type:cone|distance:15]. Any criatura in the area takes @Damage[5d8[bludgeoning]|options:area-damage] daño (@Check[reflex|dc:19|basic|options:area-effect] save).</p>"
         }
       }
     },
@@ -755,7 +755,7 @@
         },
         "action->Vomit Flotsam": {
           "name": "Vomit Flotsam",
-          "description": "<p>A floodslain criatura's body is filled with debris from their horrific death, which they can spew at their enemies. The floodslain vomits flotsam in a @Template[type:cone|distance:15]. Any criatura in the area takes @Damage[3d8[bludgeoning]|options:area-daño] daño with a @Check[type:reflex|against:fortitude|basic|options:area-effect] save against the floodslain's Fortitude DC.</p>"
+          "description": "<p>A floodslain criatura's body is filled with debris from their horrific death, which they can spew at their enemies. The floodslain vomits flotsam in a @Template[type:cone|distance:15]. Any criatura in the area takes @Damage[3d8[bludgeoning]|options:area-damage] daño with a @Check[type:reflex|against:fortitude|basic|options:area-effect] save against the floodslain's Fortitude DC.</p>"
         }
       }
     },
@@ -789,7 +789,7 @@
         },
         "action->Vomit Flotsam": {
           "name": "Vomit Flotsam",
-          "description": "<p>The floodslain vomits flotsam in a @Template[type:cone|distance:15]. Any criatura in the area takes @Damage[2d8[bludgeoning]|options:area-daño] daño (@Check[reflex|dc:18|basic|options:area-effect] save).</p>"
+          "description": "<p>The floodslain vomits flotsam in a @Template[type:cone|distance:15]. Any criatura in the area takes @Damage[2d8[bludgeoning]|options:area-damage] daño (@Check[reflex|dc:18|basic|options:area-effect] save).</p>"
         },
         "action->Knockdown": {
           "name": "Knockdown"
@@ -820,7 +820,7 @@
         },
         "action->Devastating Blast": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.IxJbFJ8dG5RbZWBD]\nDevastating Blast",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.IxJbFJ8dG5RbZWBD]\n<p>The graveknight unleashes a @Template[cone|distance:30] of energy. Las criaturas in the area take @Damage[11d6[cold]|options:area-daño] with a @Check[reflex|dc:29|basic|options:area-effect].</p>\n<p>The graveknight can use this ability once every [[/gmr 1d4 #Recharge Devastating Blast]] rounds.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.IxJbFJ8dG5RbZWBD]\n<p>The graveknight unleashes a @Template[cone|distance:30] of energy. Las criaturas in the area take @Damage[11d6[cold]|options:area-damage] with a @Check[reflex|dc:29|basic|options:area-effect].</p>\n<p>The graveknight can use this ability once every [[/gmr 1d4 #Recharge Devastating Blast]] rounds.</p>"
         },
         "action->Graveknight's Curse": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.5dbzWZbiTyPKgwKS]\nGraveknight's Curse",
@@ -828,7 +828,7 @@
         },
         "action->Phantom Mount": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.BgbSHRdkGH7raOgA]\nPhantom Mount",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.BgbSHRdkGH7raOgA]\n<p>HP 58; AC 27, Fort +17, Ref +15, Will +14</p>\n<hr />\n<p>The graveknight summons a supernatural mount, as @UUID[Compendium.pf2e.conjuros-srd.Item.WPKJOhEihhcIm2uQ]{Marvelous Mount} heightened to a rank equal to half the graveknight's level. Unlike <em>marvelous mount</em>, the steed's AC and tirada de salvación bonuses are all 4 lower than the graveknight's, and the steed has one-third the graveknight's Puntos de Golpe (rounded down).</p>\n<p>If the steed is destroyed, the graveknight must wait 1 hour before using this ability again.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.BgbSHRdkGH7raOgA]\n<p>HP 58; AC 27, Fort +17, Ref +15, Will +14</p>\n<hr />\n<p>The graveknight summons a supernatural mount, as @UUID[Compendium.pf2e.spells-srd.Item.WPKJOhEihhcIm2uQ]{Marvelous Mount} heightened to a rank equal to half the graveknight's level. Unlike <em>marvelous mount</em>, the steed's AC and tirada de salvación bonuses are all 4 lower than the graveknight's, and the steed has one-third the graveknight's Puntos de Golpe (rounded down).</p>\n<p>If the steed is destroyed, the graveknight must wait 1 hour before using this ability again.</p>"
         },
         "action->Weapon Master": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.6isn9nqnvfRrC1wW]\nWeapon Master"
@@ -976,7 +976,7 @@
       "description": "<p>A magical orb inflicts terrible visions of gruesome ends on anyone who approaches.</p>",
       "disable": "<p>@Check[nature|dc:27] (maestro) to infuse the locus with life force, @Check[occultism|dc:30] or @Check[religion|dc:30] (experto) to counteract the locus's energies, @Check[thievery|dc:35] (maestro) to extricate the orb from the altar</p>",
       "reset": "<p>The haunt deactivates 1 minute after all living criaturas leave the area. After 1 hour, the haunt reactivates.</p>",
-      "routine": "<p>(1 action; death, emotion, fear, mental) One living criatura in the haunt's location (determined randomly) is targeted by a 4th-rank @UUID[Compendium.pf2e.conjuros-srd.Item.Jmxru8zMdYMRuO5n]{Vision of Death} (@Check[will|dc:32|rasgos:death,emotion,fear,mental]). A criatura that critically fails their save doesn't physically flee but instead can't attempt to disable the hazard until they're no longer asustado. Once all criaturas have been affected, the haunt deactivates.</p>",
+      "routine": "<p>(1 action; death, emotion, fear, mental) One living criatura in the haunt's location (determined randomly) is targeted by a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Jmxru8zMdYMRuO5n]{Vision of Death} (@Check[will|dc:32|traits:death,emotion,fear,mental]). A criatura that critically fails their save doesn't physically flee but instead can't attempt to disable the hazard until they're no longer asustado. Once all criaturas have been affected, the haunt deactivates.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Death Grip": {
@@ -985,7 +985,7 @@
         },
         "action->Death Manifest": {
           "name": "Death Manifest",
-          "description": "<p>Casting @UUID[Compendium.pf2e.conjuros-srd.Item.Hnc7eGi7vyZenAIm]{Breath of Life}, @UUID[Compendium.pf2e.conjuros-srd.Item.YvXKGlHOt7mdW2jZ]{Death Ward}, or @UUID[Compendium.pf2e.conjuros-srd.Item.IkGYwHRLhkuoGReG]{Raise Dead} in the orb's presence automatically destroys the locus; other conjuros or abilities that restore the dead to life might also do so, at GM discretion.</p>"
+          "description": "<p>Casting @UUID[Compendium.pf2e.spells-srd.Item.Hnc7eGi7vyZenAIm]{Breath of Life}, @UUID[Compendium.pf2e.spells-srd.Item.YvXKGlHOt7mdW2jZ]{Death Ward}, or @UUID[Compendium.pf2e.spells-srd.Item.IkGYwHRLhkuoGReG]{Raise Dead} in the orb's presence automatically destroys the locus; other conjuros or abilities that restore the dead to life might also do so, at GM discretion.</p>"
         },
         "action->Unholy Repair": {
           "name": "Unholy Repair",
@@ -998,7 +998,7 @@
       "description": "<p>A magical orb drives intruders to commit acts of mindless destruction.</p>",
       "disable": "<p>@Check[crafting|dc:27] (maestro) to reconfigure the locus, @Check[occultism|dc:30] or @Check[religion|dc:30] (experto) to counteract the locus's energies, @Check[thievery|dc:35] (maestro) to extricate the orb from the altar</p>",
       "reset": "<p>The haunt deactivates 1 minute after all living criaturas leave the area. After 1 hour, the haunt reactivates.</p>",
-      "routine": "<p>(1 action; mental) The destructive impulses grow stronger. Affected criaturas must attempt a @Check[will|dc:32|rasgos:mental] save; criaturas who fail or critically fail can't attempt to disable the haunt that turn.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected and temporarily immune for 1 minute.</p>\n<p><strong>Éxito</strong> The criatura is unaffected this round.</p>\n<p><strong>Fallo</strong> The criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round, targeting both criaturas and objects.</p>\n<p><strong>Fallo crítico</strong> As failure but the confusion lasts for 1 minute.</p>",
+      "routine": "<p>(1 action; mental) The destructive impulses grow stronger. Affected criaturas must attempt a @Check[will|dc:32|traits:mental] save; criaturas who fail or critically fail can't attempt to disable the haunt that turn.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected and temporarily immune for 1 minute.</p>\n<p><strong>Éxito</strong> The criatura is unaffected this round.</p>\n<p><strong>Fallo</strong> The criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round, targeting both criaturas and objects.</p>\n<p><strong>Fallo crítico</strong> As failure but the confusion lasts for 1 minute.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Destruction's Fury": {
@@ -1007,7 +1007,7 @@
         },
         "action->Destruction Manifest": {
           "name": "Destruction Manifest",
-          "description": "<p>Casting @UUID[Compendium.pf2e.conjuros-srd.Item.TUj8eugNqAvB1vVR]{Creation} or a creation domain conjuro (@UUID[Compendium.pf2e.conjuros-srd.Item.xTpp8dHZsNMDm75B]{Creative Splash} or @UUID[Compendium.pf2e.conjuros-srd.Item.eb4FXf62NYArTqek]{Artistic Flourish}) in the orb's presence automatically destroys the locus; other conjuros or abilities that create things might also do so at GM discretion.</p>"
+          "description": "<p>Casting @UUID[Compendium.pf2e.spells-srd.Item.TUj8eugNqAvB1vVR]{Creation} or a creation domain conjuro (@UUID[Compendium.pf2e.spells-srd.Item.xTpp8dHZsNMDm75B]{Creative Splash} or @UUID[Compendium.pf2e.spells-srd.Item.eb4FXf62NYArTqek]{Artistic Flourish}) in the orb's presence automatically destroys the locus; other conjuros or abilities that create things might also do so at GM discretion.</p>"
         },
         "action->Unholy Repair": {
           "name": "Unholy Repair",
@@ -1028,7 +1028,7 @@
       "description": "<p>An arcane orb sits upon a sinister altar, filling criaturas in the area with unimaginable pain.</p>",
       "disable": "<p>@Check[medicine|dc:27] (maestro) to soothe the locus's pain, @Check[occultism|dc:30] or @Check[religion|dc:30] to counteract the locus's energies, @Check[thievery|dc:35] (maestro) to extricate the orb from the altar</p>",
       "reset": "<p>The haunt deactivates 1 minute after all living criaturas leave the area. After 1 hour, the haunt reactivates.</p>",
-      "routine": "<p>(1 action; mental, nonlethal) Las criaturas affected by the haunt's agony lash are wracked with pain, as 4th-rank @UUID[Compendium.pf2e.conjuros-srd.Item.R8bqnYiThB6MYTxD]{Phantom Pain} (@Check[will|dc:32|rasgos:mental,nonlethal]). If a criatura falls @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} due to the haunt, they don't continue taking daño.</p>",
+      "routine": "<p>(1 action; mental, nonlethal) Las criaturas affected by the haunt's agony lash are wracked with pain, as 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{Phantom Pain} (@Check[will|dc:32|traits:mental,nonlethal]). If a criatura falls @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} due to the haunt, they don't continue taking daño.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Agony Lash": {
@@ -1037,7 +1037,7 @@
         },
         "action->Pain Manifest": {
           "name": "Pain Manifest",
-          "description": "<p>Casting @UUID[Compendium.pf2e.conjuros-srd.Item.b515AZlB0sridKSq]{Calm} or @UUID[Compendium.pf2e.conjuros-srd.Item.szIyEsvihc5e1w8n]{Soothe} in the orb's presence automatically destroys the locus; other conjuros or abilities that ease pain might also do so, at GM discretion.</p>"
+          "description": "<p>Casting @UUID[Compendium.pf2e.spells-srd.Item.b515AZlB0sridKSq]{Calm} or @UUID[Compendium.pf2e.spells-srd.Item.szIyEsvihc5e1w8n]{Soothe} in the orb's presence automatically destroys the locus; other conjuros or abilities that ease pain might also do so, at GM discretion.</p>"
         },
         "action->Unholy Repair": {
           "name": "Unholy Repair",
@@ -1060,7 +1060,7 @@
         },
         "action->Fan the Flames": {
           "name": "Fan the Flames",
-          "description": "<p>The animated furnace opens its door and fans its flames in a @Template[cone|distance:30] that deals @Damage[5d6[fire]|options:area-daño] daño (@Check[reflex|dc:28|basic|options:area-effect] save).</p>"
+          "description": "<p>The animated furnace opens its door and fans its flames in a @Template[cone|distance:30] that deals @Damage[5d6[fire]|options:area-damage] daño (@Check[reflex|dc:28|basic|options:area-effect] save).</p>"
         },
         "action->Swallow Whole": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]\n<p>Large, @Damage[(2d8+9)[fire]], Rupture 15</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
@@ -1274,7 +1274,7 @@
       "disable": "<p>@Check[occultism|dc:28] (experto) to funnel the magic powering the weather back into itself, or @Check[religion|dc:30] (experto) to exorcise some of the trapped souls and weaken the storm; three total successes in any combination are required to disable the haunt</p>",
       "reset": "<p>The haunt deactivates 1 minute after all criaturas leave the Shadefields but resets immediately. The occult weather resets 1 day after being disabled if the ancestor storm isn't put to rest.</p>",
       "routine": "<p>(4 actions) The occult weather intensifies, with winds picking up speed and lightning and thunder sounding overhead. The occult weather uses 3 actions to make lightning Golpes against three random criaturas, favoring orcs or anyone who attempted to Disable it within the past round, then uses Wind of Screams as its final action.</p>",
-      "stealth": "<p>(experto) or @UUID[Compendium.pf2e.conjuros-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}.</p>",
+      "stealth": "<p>(experto) or @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}.</p>",
       "items": {
         "action->Thunder of Cries": {
           "name": "Thunder of Cries",
@@ -1360,7 +1360,7 @@
         },
         "action->Atonement for the Damned": {
           "name": "Atonement for the Damned",
-          "description": "<p>PCs might try to calm the phantoms instead of destroying them. At the GM's discretion, the PCs may attempt pruebas de habilidad to talk down the spirits. On a success, the phantom's AC lowers by 2 as they become more willing to move on from their shame and dishonor, and they might even waver in attacking the PCs. Spells or rituals like @UUID[Compendium.pf2e.conjuros-srd.Item.7Fd4lxozd11MQ55N]{Atone} that require penitent criaturas have no effect on these phantoms.</p>"
+          "description": "<p>PCs might try to calm the phantoms instead of destroying them. At the GM's discretion, the PCs may attempt pruebas de habilidad to talk down the spirits. On a success, the phantom's AC lowers by 2 as they become more willing to move on from their shame and dishonor, and they might even waver in attacking the PCs. Spells or rituals like @UUID[Compendium.pf2e.spells-srd.Item.7Fd4lxozd11MQ55N]{Atone} that require penitent criaturas have no effect on these phantoms.</p>"
         },
         "action->Ectoplasmic Bleed": {
           "name": "Ectoplasmic Bleed",
@@ -1368,7 +1368,7 @@
         },
         "action->Susceptible to Death": {
           "name": "Susceptible to Death",
-          "description": "<p>Though phantoms aren't alive, neither are they undead, and they are uniquely vulnerable to the effects of death. A phantom whose Puntos de Golpe are reduced to 0 as a result of a death effect (such as from a conjuro like @UUID[Compendium.pf2e.conjuros-srd.Item.Z9OrRXKgAPv6Hn5l]{Execute}) is immediately whisked away to the River of Souls, where their soul resumes the usual path to afterlife.</p>"
+          "description": "<p>Though phantoms aren't alive, neither are they undead, and they are uniquely vulnerable to the effects of death. A phantom whose Puntos de Golpe are reduced to 0 as a result of a death effect (such as from a conjuro like @UUID[Compendium.pf2e.spells-srd.Item.Z9OrRXKgAPv6Hn5l]{Execute}) is immediately whisked away to the River of Souls, where their soul resumes the usual path to afterlife.</p>"
         },
         "action->Phantom Touch": {
           "name": "Phantom Touch",
@@ -1511,7 +1511,7 @@
         },
         "action->Destructive Inferno": {
           "name": "Destructive Inferno",
-          "description": "<p>While raging, an orc raider can channel their destructive energy into an explosion of flame. Las criaturas in a @Template[emanation|distance:10]{10-pies radius} around the raider take @Damage[9d6[fire]|options:area-daño] daño (@Check[reflex|dc:23|basic|options:area-effect] save). The raider can't use Destructive Inferno again for [[/gmr 1d4 #Recharge Destructive Inferno]]{1d4 rounds}.</p>"
+          "description": "<p>While raging, an orc raider can channel their destructive energy into an explosion of flame. Las criaturas in a @Template[emanation|distance:10]{10-pies radius} around the raider take @Damage[9d6[fire]|options:area-damage] daño (@Check[reflex|dc:23|basic|options:area-effect] save). The raider can't use Destructive Inferno again for [[/gmr 1d4 #Recharge Destructive Inferno]]{1d4 rounds}.</p>"
         },
         "action->Rage": {
           "name": "Rage",
@@ -1779,7 +1779,7 @@
         },
         "action->Cindery Assault": {
           "name": "Cindery Assault",
-          "description": "<p>The Shadefield spirit cries out in pain and anguish as flaming objects and debris fly about in a @Template[type:emanation|distance:30]. Las criaturas in this area take @Damage[3d6[bludgeoning],1d6[persistent,fire]|options:area-daño]{3d6 daño contundente plus 1d6 daño persistente de fuego} (@Check[reflex|dc:20|basic|options:area-effect] save).</p>"
+          "description": "<p>The Shadefield spirit cries out in pain and anguish as flaming objects and debris fly about in a @Template[type:emanation|distance:30]. Las criaturas in this area take @Damage[3d6[bludgeoning],1d6[persistent,fire]|options:area-damage]{3d6 daño contundente plus 1d6 daño persistente de fuego} (@Check[reflex|dc:20|basic|options:area-effect] save).</p>"
         },
         "action->Corrupting Gaze": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ga0Oj7mmjSwWQgmR]\nCorrupting Gaze",
@@ -1840,7 +1840,7 @@
         },
         "action->Destructive Finale": {
           "name": "Destructive Finale",
-          "description": "<p><strong>Requisitos</strong> March to War is in effect</p>\n<hr />\n<p><strong>Efecto</strong> The skeletal drummer performs a boisterous finale. They elige a @Template[type:cone|distance:30] or @Template[type:emanation|distance:15], and they deal @Damage[4d6[sonic]|options:area-daño] daño to all criaturas in that area (@Check[reflex|dc:21|basic|options:area-effect] save). March to War immediately ends, and the skeletal drummer can't use March to War or Destructive Finale for [[/gmr 1d4 #Recharge Destructive Finale]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Requisitos</strong> March to War is in effect</p>\n<hr />\n<p><strong>Efecto</strong> The skeletal drummer performs a boisterous finale. They elige a @Template[type:cone|distance:30] or @Template[type:emanation|distance:15], and they deal @Damage[4d6[sonic]|options:area-damage] daño to all criaturas in that area (@Check[reflex|dc:21|basic|options:area-effect] save). March to War immediately ends, and the skeletal drummer can't use March to War or Destructive Finale for [[/gmr 1d4 #Recharge Destructive Finale]]{1d4 rounds}.</p>"
         },
         "action->March to War": {
           "name": "March to War",
@@ -2206,7 +2206,7 @@
       "description": "<p>Yagrekash appears to berate weak soldiers for not doing their part.</p>",
       "disable": "<p>@Check[deception|dc:28] (experto) or @Check[performance|dc:28] (experto) to feign joining the fray, or @Check[religion|dc:30] (maestro) to ward Yagrekash away; three total successes in any combination are required to disable the haunt</p>",
       "reset": "<p>The haunt deactivates 1 minute after all criaturas leave the area of Fort Whiteskull but resets immediately. Tyrant's orders resets 1 day after being disabled if the ancestor storm isn't put to rest.</p>",
-      "stealth": "<p>(experto) or @UUID[Compendium.pf2e.conjuros-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}</p>",
+      "stealth": "<p>(experto) or @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}</p>",
       "items": {
         "action->Command of the Legion": {
           "name": "comando of the Legion",
@@ -2218,7 +2218,7 @@
       "name": "Umbra's Rage",
       "description": "<p>The anger of the fallen Umbra Legion seeps into any criatura entering combat.</p>",
       "disable": "<p>@Check[religion|dc:26] (experto) to exorcise the closest spirits or @Check[diplomacy|dc:30] (experto) to calm them down</p>",
-      "stealth": "<p>(experto) or @UUID[Compendium.pf2e.conjuros-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}</p>",
+      "stealth": "<p>(experto) or @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}</p>",
       "items": {
         "action->Curse of Eternal Battle": {
           "name": "Curse of Eternal Battle",
@@ -2260,7 +2260,7 @@
         },
         "action->Roar of Zagresh": {
           "name": "Roar of Zagresh",
-          "description": "<p>With a mighty roar, Ungukk unleashes void energy in a @Template[type:emanation|distance:30]. Las criaturas in the area must make a @Check[fortitude|dc:30|options:area-effect,damaging-effect,inflicts:doomed] save or take @Damage[6d6[void]|options:area-daño] daño and become @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2} on a critical failure).</p>"
+          "description": "<p>With a mighty roar, Ungukk unleashes void energy in a @Template[type:emanation|distance:30]. Las criaturas in the area must make a @Check[fortitude|dc:30|options:area-effect,damaging-effect,inflicts:doomed] save or take @Damage[6d6[void]|options:area-damage] daño and become @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2} on a critical failure).</p>"
         },
         "action->Undying Conviction": {
           "name": "Convicción inmortal",
@@ -2302,7 +2302,7 @@
         },
         "action->Mask's Glare": {
           "name": "Mask's Glare",
-          "description": "<p>Una vez al día, Verthok can use her demon mask to cast 3rd-rank @UUID[Compendium.pf2e.conjuros-srd.Item.4koZzrnMXhhosn0D]{Fear} with a DC of @Check[will|dc:29].</p>"
+          "description": "<p>Una vez al día, Verthok can use her demon mask to cast 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{Fear} with a DC of @Check[will|dc:29].</p>"
         },
         "lore->Warfare Lore": {
           "name": "Warfare Lore"
@@ -2465,7 +2465,7 @@
         },
         "action->Undeath Manifest": {
           "name": "Undeath Manifest",
-          "description": "<p>A criatura who dies in the presence of the orb immediately becomes undead. Casting @UUID[Compendium.pf2e.conjuros-srd.Item.GUeRTriJkMlMlVrk]{Bind Undead} or @UUID[Compendium.pf2e.conjuros-srd.Item.xRgU9rrhmGAgG4Rc]{Peaceful Rest} in the presence of the orb automatically destroys the locus; other conjuros or abilities that combat undead might also do so, at GM discretion.</p>"
+          "description": "<p>A criatura who dies in the presence of the orb immediately becomes undead. Casting @UUID[Compendium.pf2e.spells-srd.Item.GUeRTriJkMlMlVrk]{Bind Undead} or @UUID[Compendium.pf2e.spells-srd.Item.xRgU9rrhmGAgG4Rc]{Peaceful Rest} in the presence of the orb automatically destroys the locus; other conjuros or abilities that combat undead might also do so, at GM discretion.</p>"
         }
       }
     },
@@ -2500,7 +2500,7 @@
         },
         "action->Warmask of Power": {
           "name": "Warmask of Power",
-          "description": "<p>Yagrekash's echo form retains her painted <em>divine warmask</em> dedicated to Zagresh, allowing her to cast @UUID[Compendium.pf2e.conjuros-srd.Item.Gb7SeieEvd0pL2Eh]{Sure Golpe} as an innate divine conjuro una vez al día.</p>"
+          "description": "<p>Yagrekash's echo form retains her painted <em>divine warmask</em> dedicated to Zagresh, allowing her to cast @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]{Sure Golpe} as an innate divine conjuro una vez al día.</p>"
         }
       }
     },

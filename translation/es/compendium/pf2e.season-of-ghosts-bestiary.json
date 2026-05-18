@@ -101,10 +101,10 @@
           "name": "Occult Innate Spells"
         },
         "spell->Create Undead (Zombie Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.c3b6LdLlQDPngNIb]\nCreate Undead (Zombie Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.c3b6LdLlQDPngNIb]\nCreate Undead (Zombie Only)"
         },
         "spell->Summon Undead (Zombie Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.9WGeBwIIbbUuWKq0]\nSummon Undead (Zombie Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.9WGeBwIIbbUuWKq0]\nSummon Undead (Zombie Only)"
         },
         "strike-melee->Claw": {
           "name": "Claw"
@@ -123,7 +123,7 @@
         },
         "action->Skilled Ritualist": {
           "name": "Skilled Ritualist",
-          "description": "<p>Bakenekos can only create zombies with @UUID[Compendium.pf2e.conjuros-srd.Item.c3b6LdLlQDPngNIb]{Create Undead} but can perform the ritual without secondary casters and lower the casting time to 4 hours.</p>"
+          "description": "<p>Bakenekos can only create zombies with @UUID[Compendium.pf2e.spells-srd.Item.c3b6LdLlQDPngNIb]{Create Undead} but can perform the ritual without secondary casters and lower the casting time to 4 hours.</p>"
         }
       }
     },
@@ -152,7 +152,7 @@
         },
         "action->Belch Butterflies": {
           "name": "Belch Butterflies",
-          "description": "<p>The guhdggi opens both of its mouths and, from its innermost humanoid mouth, belches forth a blast of red butterflies in a @Template[cone|distance:15]. All criaturas in the area must attempt a @Check[reflex|dc:22|options:area-effect,damaging-effect,inflicts:sickened] save as the hideous insects' razor sharp wings and tiny claws slash and cut away at exposed flesh. The guhdggi can't Belch Butterflies again for [[/gmr 1d4 #Recharge Belch Butterflies]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura takes no daño from the butterflies.</p>\n<p><strong>Éxito</strong> The criatura takes @Damage[2d6[slashing]|options:area-daño] daño from the butterflies.</p>\n<p><strong>Fallo</strong> The criatura takes @Damage[4d6[slashing],1d6[bleed]|options:area-daño]{4d6 daño cortante, 1d6 daño persistente de sangrado}, and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Fallo crítico</strong> The criatura takes @Damage[8d6[slashing],2d6[bleed]|options:area-daño]{8d6 daño cortante, 2d6 daño persistente de sangrado}, and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>"
+          "description": "<p>The guhdggi opens both of its mouths and, from its innermost humanoid mouth, belches forth a blast of red butterflies in a @Template[cone|distance:15]. All criaturas in the area must attempt a @Check[reflex|dc:22|options:area-effect,damaging-effect,inflicts:sickened] save as the hideous insects' razor sharp wings and tiny claws slash and cut away at exposed flesh. The guhdggi can't Belch Butterflies again for [[/gmr 1d4 #Recharge Belch Butterflies]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura takes no daño from the butterflies.</p>\n<p><strong>Éxito</strong> The criatura takes @Damage[2d6[slashing]|options:area-damage] daño from the butterflies.</p>\n<p><strong>Fallo</strong> The criatura takes @Damage[4d6[slashing],1d6[bleed]|options:area-damage]{4d6 daño cortante, 1d6 daño persistente de sangrado}, and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Fallo crítico</strong> The criatura takes @Damage[8d6[slashing],2d6[bleed]|options:area-damage]{8d6 daño cortante, 2d6 daño persistente de sangrado}, and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>"
         },
         "action->Cage Prey": {
           "name": "Cage Prey",
@@ -609,7 +609,7 @@
         },
         "action->Howl of Vengeful Fury": {
           "name": "Howl of Vengeful Fury",
-          "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p><strong>Efecto</strong> The red-hooded thatchling sobs pitifully before unleashing a terrifying scream. All non-thatchling criaturas within a @Template[emanation|distance:30] take @Damage[2d10[sonic]|options:area-daño] daño (@Check[fortitude|dc:18|basic|options:area-effect] save) and become immune to all thatchlings' distracting giggle for 1 minute. Thatchlings in the area gain 5 Puntos de Golpe temporales and a +1 bonificador de estado to their Golpes and tiradas de salvación for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.X1Q1uBiylZoJg3Co]{Efecto: Howl of Vengeful Fury}</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p><strong>Efecto</strong> The red-hooded thatchling sobs pitifully before unleashing a terrifying scream. All non-thatchling criaturas within a @Template[emanation|distance:30] take @Damage[2d10[sonic]|options:area-damage] daño (@Check[fortitude|dc:18|basic|options:area-effect] save) and become immune to all thatchlings' distracting giggle for 1 minute. Thatchlings in the area gain 5 Puntos de Golpe temporales and a +1 bonificador de estado to their Golpes and tiradas de salvación for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.X1Q1uBiylZoJg3Co]{Efecto: Howl of Vengeful Fury}</p>"
         },
         "action->Thatchling's Curse": {
           "name": "Thatchling's Curse",
@@ -632,10 +632,10 @@
           "name": "Divine Innate Spells"
         },
         "spell->Truesight (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.uqlxMQQeSGWEVjki]\nTruesight (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]\nTruesight (Constant)"
         },
         "spell->Truespeech (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.SwUiVavHKMWG7t5K]\nTruespeech (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K]\nTruespeech (Constant)"
         },
         "backpack->Pouch of Four Gems": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.DujblC14ytJEZMaz]\nPouch of Four Gems"
@@ -655,11 +655,11 @@
         },
         "action->Pouch of Four Gems": {
           "name": "Pouch of Four Gems",
-          "description": "<p>Each shinigami carries a pouch containing four black sapphires for use with @UUID[Compendium.pf2e.conjuros-srd.Item.GYmXvS9NJ7QwfWGg]{Seize Soul}. Each gem is capable of holding a soul of a maximum level equal to that of the shinigami. If the shinigami dies, the gems are destroyed as well, and any souls they contain are released harmlessly to travel to the Boneyard.</p>"
+          "description": "<p>Each shinigami carries a pouch containing four black sapphires for use with @UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg]{Seize Soul}. Each gem is capable of holding a soul of a maximum level equal to that of the shinigami. If the shinigami dies, the gems are destroyed as well, and any souls they contain are released harmlessly to travel to the Boneyard.</p>"
         },
         "action->Release Soul": {
           "name": "Release Soul",
-          "description": "<p><strong>Requisitos</strong> One of the gems in the shinigami's pouch contains a soul from bind soul</p>\n<hr />\n<p><strong>Efecto</strong> The shinigami crushes the gem, sending the soul to the Boneyard while releasing a wave of necromantic energy. All criaturas within a @Template[emanation|distance:30] take @Damage[18d6[untyped]|options:area-daño] daño (@Check[fortitude|dc:38|basic|options:area-effect,inflicts:drained,inflicts:sickened] save); the shinigami chooses whether this daño is vitality daño or daño de vacío. A criatura who takes daño from this effect and fails the tirada de salvación is also @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} (or @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 4} and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} on a critical failure).</p>"
+          "description": "<p><strong>Requisitos</strong> One of the gems in the shinigami's pouch contains a soul from bind soul</p>\n<hr />\n<p><strong>Efecto</strong> The shinigami crushes the gem, sending the soul to the Boneyard while releasing a wave of necromantic energy. All criaturas within a @Template[emanation|distance:30] take @Damage[18d6[untyped]|options:area-damage] daño (@Check[fortitude|dc:38|basic|options:area-effect,inflicts:drained,inflicts:sickened] save); the shinigami chooses whether this daño is vitality daño or daño de vacío. A criatura who takes daño from this effect and fails the tirada de salvación is also @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} (or @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 4} and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} on a critical failure).</p>"
         },
         "action->Spirit Touch": {
           "name": "Spirit Touch",

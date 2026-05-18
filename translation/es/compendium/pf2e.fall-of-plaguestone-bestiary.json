@@ -27,7 +27,7 @@
       "items": {
         "action->Beestings": {
           "name": "Beestings",
-          "description": "<p>The criatura must attempt a @Check[fortitude|dc:16|rasgos:damaging-effect] save. Those who fail take @Damage[1d4[poison]] daño and are @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 minute.</p>"
+          "description": "<p>The criatura must attempt a @Check[fortitude|dc:16|traits:damaging-effect] save. Those who fail take @Damage[1d4[poison]] daño and are @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 minute.</p>"
         },
         "action->Swarming Stings": {
           "name": "Swarming Stings",
@@ -65,7 +65,7 @@
         },
         "action->Siphon Vitality": {
           "name": "Siphon Vitality",
-          "description": "<p>The blood ooze draws forth blood from nearby criaturas, causing their flesh to break open and blood to spill out which replenishes the blood ooze. Each living criatura within @Template[emanation|distance:15]{15 pies} takes @Damage[3d6[slashing]|options:area-daño] daño (@Check[fortitude|dc:21|basic|options:area-effect] save).</p>\n<p>The blood ooze regains an amount of Puntos de Golpe equal to half the daño Siphon Vitality dealt to the single criatura that took the most daño.</p>"
+          "description": "<p>The blood ooze draws forth blood from nearby criaturas, causing their flesh to break open and blood to spill out which replenishes the blood ooze. Each living criatura within @Template[emanation|distance:15]{15 pies} takes @Damage[3d6[slashing]|options:area-damage] daño (@Check[fortitude|dc:21|basic|options:area-effect] save).</p>\n<p>The blood ooze regains an amount of Puntos de Golpe equal to half the daño Siphon Vitality dealt to the single criatura that took the most daño.</p>"
         }
       }
     },
@@ -101,7 +101,7 @@
         },
         "action->Acid Breath": {
           "name": "Acid Breath",
-          "description": "<p>The wolf unleashes a stream of bright green acid from its mouth, coating all criaturas in a @Template[line|distance:30]. All criaturas in the line take @Damage[3d6[acid]|options:area-daño] daño (@Check[reflex|dc:16|basic|options:area-effect] save).</p>\n<p>The caustic wolf cannot use this ability again for 1 minute.</p>"
+          "description": "<p>The wolf unleashes a stream of bright green acid from its mouth, coating all criaturas in a @Template[line|distance:30]. All criaturas in the line take @Damage[3d6[acid]|options:area-damage] daño (@Check[reflex|dc:16|basic|options:area-effect] save).</p>\n<p>The caustic wolf cannot use this ability again for 1 minute.</p>"
         },
         "action->Howl": {
           "name": "Howl",
@@ -133,12 +133,12 @@
     "Falling Debris": {
       "name": "Falling Debris",
       "description": "<p>A pressure-sensitive floorboard connects to a beam holding up debris in the crawlway's ceiling.</p>",
-      "disable": "<p>@Check[thievery|dc:15|name:Disable Trap|rasgos:mechanical,trap,hazard] (entrenado) on the floorboard before the debris falls</p>",
+      "disable": "<p>@Check[thievery|dc:15|name:Disable Trap|traits:mechanical,trap,hazard] (entrenado) on the floorboard before the debris falls</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
         "action->Falling Debris": {
           "name": "Falling Debris",
-          "description": "<p><strong>Desencadenante</strong> Pressure is placed on the floorboard.</p>\n<hr />\n<p><strong>Efecto</strong> The ceiling in the crawlway collapses in the square where the passage turns, and also in the two adjacent squares. Anyone in these three squares takes @Damage[3d6[bludgeoning]] daño and can attempt a @Check[reflex|dc:14|rasgos:damaging-effect] save to reduce the daño. For the criatura in the center square, where the trap is triggered, this is a basic save. Las criaturas in the two adjacent squares take no daño on a success or critical success as they avoid the falling debris entirely, but take full daño on a failed save, and take double daño on a critical failure. Las criaturas that take daño from the debris are @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}, trapped under the crushing weight.</p>\n<p>Clearing out a square of debris requires a successful @Check[athletics|dc:17|name:Clear Debris] prueba de habilidad, with the following effects.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The square is cleared in 1 minute.</p>\n<p><strong>Éxito</strong> The square is cleared in 5 minutes.</p>\n<p><strong>Fallo</strong> The square is cleared in 10 minutes.</p>\n<p><strong>Fallo crítico</strong> The ceiling above the square collapses further, dealing an additional @Damage[2d6[bludgeoning]] daño to the character digging out the square and any character trapped in that square. Este takes 1 minute and no progress is made.</p>"
+          "description": "<p><strong>Desencadenante</strong> Pressure is placed on the floorboard.</p>\n<hr />\n<p><strong>Efecto</strong> The ceiling in the crawlway collapses in the square where the passage turns, and also in the two adjacent squares. Anyone in these three squares takes @Damage[3d6[bludgeoning]] daño and can attempt a @Check[reflex|dc:14|traits:damaging-effect] save to reduce the daño. For the criatura in the center square, where the trap is triggered, this is a basic save. Las criaturas in the two adjacent squares take no daño on a success or critical success as they avoid the falling debris entirely, but take full daño on a failed save, and take double daño on a critical failure. Las criaturas that take daño from the debris are @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}, trapped under the crushing weight.</p>\n<p>Clearing out a square of debris requires a successful @Check[athletics|dc:17|name:Clear Debris] prueba de habilidad, with the following effects.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The square is cleared in 1 minute.</p>\n<p><strong>Éxito</strong> The square is cleared in 5 minutes.</p>\n<p><strong>Fallo</strong> The square is cleared in 10 minutes.</p>\n<p><strong>Fallo crítico</strong> The ceiling above the square collapses further, dealing an additional @Damage[2d6[bludgeoning]] daño to the character digging out the square and any character trapped in that square. Este takes 1 minute and no progress is made.</p>"
         }
       }
     },
@@ -173,7 +173,7 @@
         },
         "action->Lightning Rattle": {
           "name": "Lightning Rattle",
-          "description": "<p>The serpent rattles its strange metal tail and unleashes a bolt of lightning in a @Template[line|distance:60]. The bolt deals @Damage[2d10[electricity]|options:area-daño] daño (@Check[reflex|dc:17|basic|options:area-effect] save).</p>\n<p>Once the giant lightning serpent uses this ability, it must wait [[/gmr 1d4 #Recharge Lightning Rattle]]{1d4 rounds} before doing so again.</p>"
+          "description": "<p>The serpent rattles its strange metal tail and unleashes a bolt of lightning in a @Template[line|distance:60]. The bolt deals @Damage[2d10[electricity]|options:area-damage] daño (@Check[reflex|dc:17|basic|options:area-effect] save).</p>\n<p>Once the giant lightning serpent uses this ability, it must wait [[/gmr 1d4 #Recharge Lightning Rattle]]{1d4 rounds} before doing so again.</p>"
         }
       }
     },
@@ -238,7 +238,7 @@
     "Ice Fall Trap": {
       "name": "Ice Fall Trap",
       "description": "<p>Compartments in the ceiling are rigged to drop a freezing alchemical liquid into the entire room if the door is opened without using the key.</p>",
-      "disable": "<p>@Check[thievery|dc:20|name:Disable Ice Fall|rasgos:mechanical,trap] (entrenado) on the door allows it to be opened without springing the trap.</p>",
+      "disable": "<p>@Check[thievery|dc:20|name:Disable Ice Fall|traits:mechanical,trap] (entrenado) on the door allows it to be opened without springing the trap.</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
         "action->Ice Fall": {
@@ -356,7 +356,7 @@
     "Spear Launcher": {
       "name": "Spear Launcher",
       "description": "<p>An old heavy crossbow is hidden in a pile of trash, loaded with a wooden spear, and connected to the rope holding the door.</p>",
-      "disable": "<p>@Check[thievery|dc:18|rasgos:action:disable-a-device]{THIEVERY (entrenado)} on the rope allows a PC to tie the rope off and open the door without setting off the trap.</p>",
+      "disable": "<p>@Check[thievery|dc:18|traits:action:disable-a-device]{THIEVERY (entrenado)} on the rope allows a PC to tie the rope off and open the door without setting off the trap.</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
         "action->Spear": {

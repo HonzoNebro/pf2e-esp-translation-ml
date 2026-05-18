@@ -135,7 +135,7 @@
     },
     "Fire Breath": {
       "name": "Fire Breath",
-      "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p>The riding drake breathes a @Template[type:cone|distance:30] of fire, dealing @Damage[(max(1,floor(@actor.level/2)))d6[fire]|options:area-daño]{1d6 daño de fuego for every 2 levels} the drake has to all criaturas in the area (@Check[reflex|basic|options:area-effect|against:fire-breath] save). Este uses a entrenado DC using the drake's Constitution modifier or an experto DC if the drake is specialized.</p>"
+      "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p>The riding drake breathes a @Template[type:cone|distance:30] of fire, dealing @Damage[(max(1,floor(@actor.level/2)))d6[fire]|options:area-damage]{1d6 daño de fuego for every 2 levels} the drake has to all criaturas in the area (@Check[reflex|basic|options:area-effect|against:fire-breath] save). Este uses a entrenado DC using the drake's Constitution modifier or an experto DC if the drake is specialized.</p>"
     },
     "Flamethrower": {
       "name": "Flamethrower",
@@ -354,7 +354,7 @@
     },
     "Telekinetic Assault": {
       "name": "Asalto telecinético",
-      "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p>El fantasma lanza una ráfaga de emociones, causando que los objetos pequeños y los escombros vuelen en una emanación de 20 pies (6 m), causando @Damage[(floor(@actor.level / 2))d6[bludgeoning]|options:area-daño]{1d6 daño contundente por cada 2 niveles} que tenga el fantasma (salvación @Check[reflex|basic|against:telekinetic-assault|options:area-effect]). Esto utiliza una CD entrenada del modificador de Carisma del fantasma o experta si el fantasma está especializado.</p>"
+      "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p>El fantasma lanza una ráfaga de emociones, causando que los objetos pequeños y los escombros vuelen en una emanación de 20 pies (6 m), causando @Damage[(floor(@actor.level / 2))d6[bludgeoning]|options:area-damage]{1d6 daño contundente por cada 2 niveles} que tenga el fantasma (salvación @Check[reflex|basic|against:telekinetic-assault|options:area-effect]). Esto utiliza una CD entrenada del modificador de Carisma del fantasma o experta si el fantasma está especializado.</p>"
     },
     "Telepathic Pounce": {
       "name": "Telepathic Pounce",

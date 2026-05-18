@@ -35,7 +35,7 @@
         },
         "action->Invasive Blackfrost": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.kLQ0eq18SvKEvggc]\nInvasive Blackfrost",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.kLQ0eq18SvKEvggc]\n<p>Gatewalker characters are not immune to blackfrost effects inflicted by Ainamuuren</p>\n<p>Este affliction can't be reduced below stage 1, nor the daño from it healed, until successfully treated with @UUID[Compendium.pf2e.conjuros-srd.Item.SUKaxVZW2TlM8lu0]{Cleanse Affliction} or a similar effect; the affliction can then be removed as a normal disease. A criatura that dies from daño de frío while cursed with blackfrost rises as a blackfrost dead after 24 hours. Blackfrost has a counteract rank of 10.</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:32]</p>\n<p><strong>Stage 1</strong> @Damage[4d6[cold]] (1 minute)</p>\n<p><strong>Stage 2</strong> weakness to cold 5 and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} (1 day)</p>\n<p><strong>Stage 3</strong> weakness to cold 10 and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 2} (1 day)</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.kLQ0eq18SvKEvggc]\n<p>Gatewalker characters are not immune to blackfrost effects inflicted by Ainamuuren</p>\n<p>Este affliction can't be reduced below stage 1, nor the daño from it healed, until successfully treated with @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Cleanse Affliction} or a similar effect; the affliction can then be removed as a normal disease. A criatura that dies from daño de frío while cursed with blackfrost rises as a blackfrost dead after 24 hours. Blackfrost has a counteract rank of 10.</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:32]</p>\n<p><strong>Stage 1</strong> @Damage[4d6[cold]] (1 minute)</p>\n<p><strong>Stage 2</strong> weakness to cold 5 and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} (1 day)</p>\n<p><strong>Stage 3</strong> weakness to cold 10 and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 2} (1 day)</p>"
         },
         "action->Twist Deviance": {
           "name": "Twist Deviance",
@@ -125,7 +125,7 @@
         },
         "action->Carver's Curse": {
           "name": "Carver's Curse",
-          "description": "<p>When a tupilaq is created, the curse imparted by its creator manifests in the form of a single 5th-rank @UUID[Compendium.pf2e.conjuros-srd.Item.9AAkVUCwF6WVNNY2]{Lightning Bolt} the tupilaq can cast tres veces al día. The particular conjuro is a reflection of the creator's wish for vengeance.</p>"
+          "description": "<p>When a tupilaq is created, the curse imparted by its creator manifests in the form of a single 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.9AAkVUCwF6WVNNY2]{Lightning Bolt} the tupilaq can cast tres veces al día. The particular conjuro is a reflection of the creator's wish for vengeance.</p>"
         }
       }
     },
@@ -139,7 +139,7 @@
           "name": "Occult Innate Spells"
         },
         "spell->Translocate (At Will)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.VlNcjmYyu95vOUe8]\nTranslocate (At Will)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nTranslocate (At Will)"
         },
         "strike-melee->Nightmare Tendril": {
           "name": "Nightmare Tendril"
@@ -169,7 +169,7 @@
         },
         "action->Poison Stock": {
           "name": "Poison Stock",
-          "description": "<p>When the cabinet hits a criatura with its poison bottle Golpe, roll [[/br 1d4]] to determine what kind of poison splashes onto the struck criatura:</p>\n<ol>\n<li>nerve poison (@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1})</li>\n<li>weakening poison (@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1})</li>\n<li>noxious poison (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1})</li>\n<li>clouded mind poison (@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 1}).</li>\n</ol>\n<p>El objetivo must attempt a @Check[fortitude|dc:24|rasgos:poison] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unafected.</p>\n<p><strong>Éxito</strong> The criatura takes @Damage[1d6[poison]].</p>\n<p><strong>Fallo</strong> The criatura takes @Damage[2d6[poison]] and is aficted with the rolled poison's associated condition until the end of its next turn.</p>\n<p><strong>Fallo crítico</strong> The criatura takes @Damage[2d6[poison]] and is aficted with the rolled poison's associated condition for [[/br 1d4+1 #Rounds]] rounds.</p>"
+          "description": "<p>When the cabinet hits a criatura with its poison bottle Golpe, roll [[/br 1d4]] to determine what kind of poison splashes onto the struck criatura:</p>\n<ol>\n<li>nerve poison (@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1})</li>\n<li>weakening poison (@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1})</li>\n<li>noxious poison (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1})</li>\n<li>clouded mind poison (@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 1}).</li>\n</ol>\n<p>El objetivo must attempt a @Check[fortitude|dc:24|traits:poison] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unafected.</p>\n<p><strong>Éxito</strong> The criatura takes @Damage[1d6[poison]].</p>\n<p><strong>Fallo</strong> The criatura takes @Damage[2d6[poison]] and is aficted with the rolled poison's associated condition until the end of its next turn.</p>\n<p><strong>Fallo crítico</strong> The criatura takes @Damage[2d6[poison]] and is aficted with the rolled poison's associated condition for [[/br 1d4+1 #Rounds]] rounds.</p>"
         }
       }
     },
@@ -220,7 +220,7 @@
           "name": "Primal Innate Spells"
         },
         "spell->Truespeech (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.SwUiVavHKMWG7t5K]\nTruespeech (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K]\nTruespeech (Constant)"
         },
         "strike-melee->Talon": {
           "name": "Talon"
@@ -253,7 +253,7 @@
           "name": "Primal Innate Spells"
         },
         "spell->Shape Stone (At Will)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.McnPlLFvKtQVXNcG]\nShape Stone (At Will)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.McnPlLFvKtQVXNcG]\nShape Stone (At Will)"
         },
         "strike-melee->Jaws": {
           "name": "Jaws"
@@ -266,15 +266,15 @@
         },
         "action->Break Ground": {
           "name": "Break Ground",
-          "description": "<p>The guecubu stomps, and the ground breaks and ripples in a @Template[emanation|distance:30], erupting in razor-sharp, crisscrossing spikes of rock that deal @Damage[3d8[piercing]|options:area-daño] daño to criaturas in the area (@Check[reflex|dc:26|basic|options:area-effect] save).</p>\n<p>The area becomes difficult terrain and hazardous terrain, with each square dealing @Damage[3[piercing]] daño to a criatura that moves through it. A guecubu is immune to these effects.</p>\n<p>Ground under the effects of a @UUID[Compendium.pf2e.conjuros-srd.Item.Dbd5W6G8U2vzWolN]{Consecrate} ritual or a @UUID[Compendium.pf2e.conjuros-srd.Item.mpGCMTldMVa0pWYs]{Circle of Protection} conjuro tuned against evil or chaos can't be affected by this ability.</p>"
+          "description": "<p>The guecubu stomps, and the ground breaks and ripples in a @Template[emanation|distance:30], erupting in razor-sharp, crisscrossing spikes of rock that deal @Damage[3d8[piercing]|options:area-damage] daño to criaturas in the area (@Check[reflex|dc:26|basic|options:area-effect] save).</p>\n<p>The area becomes difficult terrain and hazardous terrain, with each square dealing @Damage[3[piercing]] daño to a criatura that moves through it. A guecubu is immune to these effects.</p>\n<p>Ground under the effects of a @UUID[Compendium.pf2e.spells-srd.Item.Dbd5W6G8U2vzWolN]{Consecrate} ritual or a @UUID[Compendium.pf2e.spells-srd.Item.mpGCMTldMVa0pWYs]{Circle of Protection} conjuro tuned against evil or chaos can't be affected by this ability.</p>"
         },
         "action->Shattering Death": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.v14HanKkdPGQd7Km]\nShattering Death",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.v14HanKkdPGQd7Km]\n<p>When the blackfrost guecubu is destroyed, it shatters and fills the air around it with a cloud of razor-sharp shards of ice. Las criaturas in a @Template[emanation|distance:10] take @Damage[8d8[cold]|options:area-daño] (@Check[reflex|dc:26|basic|options:area-effect,inflicts:bleed]). Las criaturas that critically fail this save also take @Damage[1d6[bleed]].</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.v14HanKkdPGQd7Km]\n<p>When the blackfrost guecubu is destroyed, it shatters and fills the air around it with a cloud of razor-sharp shards of ice. Las criaturas in a @Template[emanation|distance:10] take @Damage[8d8[cold]|options:area-damage] (@Check[reflex|dc:26|basic|options:area-effect,inflicts:bleed]). Las criaturas that critically fail this save also take @Damage[1d6[bleed]].</p>"
         },
         "action->Shove into Ice": {
           "name": "Shove into Ice",
-          "description": "<p>When the blackfrost guecubu successfully [[/act shove]]{Shoves} a criatura into an ice or frozen earth barrier, el objetivo must succeed at a @Check[reflex|dc:26] save or become merged with the barrier, with the effects of @UUID[Compendium.pf2e.conjuros-srd.Item.vh1RpbWfqdNC4L3P]{One with Stone} until el objetivo [[/act escape dc=26]]{Escapes}.</p>"
+          "description": "<p>When the blackfrost guecubu successfully [[/act shove]]{Shoves} a criatura into an ice or frozen earth barrier, el objetivo must succeed at a @Check[reflex|dc:26] save or become merged with the barrier, with the effects of @UUID[Compendium.pf2e.spells-srd.Item.vh1RpbWfqdNC4L3P]{One with Stone} until el objetivo [[/act escape dc=26]]{Escapes}.</p>"
         },
         "action->Tundra Glide": {
           "name": "Tundra Glide",
@@ -319,7 +319,7 @@
         },
         "action->Raise Blackfrost": {
           "name": "Raise Blackfrost",
-          "description": "<p>The blackfrost prophet selects a point within 60 pies, then calls upon shards of blackfrost to stab up through the crust in a @Template[burst|distance:30]. Las criaturas in the area take @Damage[2d8[piercing],2d8[cold]|options:area-daño]{2d8 daño perforante plus 2d8 daño de frío} (@Check[reflex|dc:28|basic|options:area-effect]). A criatura that takes daño de frío from this ability is exposed to blackfrost. Until the next time the blackfrost prophet uses Raise Blackfrost, the affected area is difficult terrain.</p>"
+          "description": "<p>The blackfrost prophet selects a point within 60 pies, then calls upon shards of blackfrost to stab up through the crust in a @Template[burst|distance:30]. Las criaturas in the area take @Damage[2d8[piercing],2d8[cold]|options:area-damage]{2d8 daño perforante plus 2d8 daño de frío} (@Check[reflex|dc:28|basic|options:area-effect]). A criatura that takes daño de frío from this ability is exposed to blackfrost. Until the next time the blackfrost prophet uses Raise Blackfrost, the affected area is difficult terrain.</p>"
         }
       }
     },
@@ -381,7 +381,7 @@
         },
         "action->Guardian Thorns": {
           "name": "Guardian Thorns",
-          "description": "<p>Bolan compels plant-based materials within @Template[emanation|distance:10]{10 pies} of him to grow sharp thorns and spiky branches. Este ability affects all walls, floors, and large objects made from dead organic material, such as wood. Affected areas become difficult terrain. Non-fey and non-plant criaturas in the affected area or those who move through an affected square take @Damage[2d10[piercing]|options:area-daño] (@Check[reflex|dc:18|basic|options:area-effect]). Este ability does not affect stone, dirt, living plants, or other materials. The effect ends when Bolan moves out of his square.</p>"
+          "description": "<p>Bolan compels plant-based materials within @Template[emanation|distance:10]{10 pies} of him to grow sharp thorns and spiky branches. Este ability affects all walls, floors, and large objects made from dead organic material, such as wood. Affected areas become difficult terrain. Non-fey and non-plant criaturas in the affected area or those who move through an affected square take @Damage[2d10[piercing]|options:area-damage] (@Check[reflex|dc:18|basic|options:area-effect]). Este ability does not affect stone, dirt, living plants, or other materials. The effect ends when Bolan moves out of his square.</p>"
         },
         "action->Item Treachery": {
           "name": "Item Treachery",
@@ -474,7 +474,7 @@
     "Cordon Alarm": {
       "name": "Cordon Alarm",
       "description": "<p>A hempen rope tied between trees emanates an invisible, cylindrical barrier that sounds an alarm when crossed.</p>",
-      "disable": "<p>@Check[thievery|dc:18] (entrenado) to move the rope without setting of the alarm, or @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (1st rank; counteract DC 16) to disable the rope's magic</p>",
+      "disable": "<p>@Check[thievery|dc:18] (entrenado) to move the rope without setting of the alarm, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (1st rank; counteract DC 16) to disable the rope's magic</p>",
       "reset": "<p>The alarm resets immediately. Multiple breaches can cause the alarm to sound in multiple places at the same time, though the alarm can still be triggered only una vez por asalto.</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
@@ -486,7 +486,7 @@
     },
     "Corpse Disposal": {
       "name": "Corpse Disposal",
-      "description": "<p>A wooden trapdoor conceals a spike-filled pit 10 pies square and 20 pies deep. The DC to CLIMB out of the pit is @Check[athletics|dc:10|rasgos:action:climb].</p>",
+      "description": "<p>A wooden trapdoor conceals a spike-filled pit 10 pies square and 20 pies deep. The DC to CLIMB out of the pit is @Check[athletics|dc:10|traits:action:climb].</p>",
       "disable": "<p>@Check[thievery|dc:18] (entrenado) to jam the trapdoor open</p>",
       "stealth": "<p>(or 0 if the trapdoor is disabled or broken)</p>",
       "items": {
@@ -710,7 +710,7 @@
         },
         "action->Fire Blast": {
           "name": "Fire Blast",
-          "description": "<p>The desa-desa releases a burst of explosive gasses in all directions, dealing @Damage[3d6[fire]|options:area-daño] to all criaturas in a @Template[emanation|distance:5]. The desa-desa can't use Fire Blast again for [[/gmr 1d4 #Recharge Fire Blast]]{1d4 rounds}.</p>"
+          "description": "<p>The desa-desa releases a burst of explosive gasses in all directions, dealing @Damage[3d6[fire]|options:area-damage] to all criaturas in a @Template[emanation|distance:5]. The desa-desa can't use Fire Blast again for [[/gmr 1d4 #Recharge Fire Blast]]{1d4 rounds}.</p>"
         },
         "action->Volatile Gasses": {
           "name": "Volatile Gasses",
@@ -721,7 +721,7 @@
     "Dream-Poisoned Door": {
       "name": "Dream-Poisoned Door",
       "description": "<p>Eerie shapes manifest within the doorway as it's opened, conjuring a group of four @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.Y9SDbANT1DWI1DKU]{Animate Dreams} into being.</p>",
-      "disable": "<p>@Check[occultism|dc:30] (experto) to concentrate on the eldritch energies and diffuse them through meditation, @Check[thievery|dc:35] (maestro) to scratch warding runes along the door's hinges and block dreams from manifesting, or @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (6th rank; counteract DC 30) to counteract the trap</p>",
+      "disable": "<p>@Check[occultism|dc:30] (experto) to concentrate on the eldritch energies and diffuse them through meditation, @Check[thievery|dc:35] (maestro) to scratch warding runes along the door's hinges and block dreams from manifesting, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (6th rank; counteract DC 30) to counteract the trap</p>",
       "stealth": "<p>(maestro)</p>",
       "items": {
         "action->Manifest Dream Guardians": {
@@ -746,7 +746,7 @@
           "name": "Occult Innate Spells"
         },
         "spell->Unfettered Movement (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.aqRYNoSvxsVfqglH]\nUnfettered Movement (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH]\nUnfettered Movement (Constant)"
         },
         "strike-melee->Claws": {
           "name": "Claws"
@@ -858,7 +858,7 @@
           "name": "Occult Innate Spells"
         },
         "spell->Enthrall (At Will)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.IihxWhRfpsBgQ5jS]\nEnthrall (At Will)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.IihxWhRfpsBgQ5jS]\nEnthrall (At Will)"
         },
         "strike-melee->Fist": {
           "name": "Fist"
@@ -876,11 +876,11 @@
         },
         "action->Blackfrost Rot": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.kLQ0eq18SvKEvggc]\nBlackfrost Rot",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.kLQ0eq18SvKEvggc]\n<p>Este affliction can't be reduced below stage 1, nor the daño from it healed, until successfully treated with @UUID[Compendium.pf2e.conjuros-srd.Item.SUKaxVZW2TlM8lu0]{Cleanse Affliction} or a similar effect; the affliction can then be removed as a normal disease. A criatura that dies from daño de frío while cursed with blackfrost rises as a blackfrost dead after 24 hours. Blackfrost has a counteract rank of 10.</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:30]</p>\n<p><strong>Stage 1</strong> @Damage[4d6[cold]] (1 minute)</p>\n<p><strong>Stage 2</strong> weakness to cold 5 and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} (1 day)</p>\n<p><strong>Stage 3</strong> weakness to cold 10 and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 2} (1 day)</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.kLQ0eq18SvKEvggc]\n<p>Este affliction can't be reduced below stage 1, nor the daño from it healed, until successfully treated with @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Cleanse Affliction} or a similar effect; the affliction can then be removed as a normal disease. A criatura that dies from daño de frío while cursed with blackfrost rises as a blackfrost dead after 24 hours. Blackfrost has a counteract rank of 10.</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:30]</p>\n<p><strong>Stage 1</strong> @Damage[4d6[cold]] (1 minute)</p>\n<p><strong>Stage 2</strong> weakness to cold 5 and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} (1 day)</p>\n<p><strong>Stage 3</strong> weakness to cold 10 and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 2} (1 day)</p>"
         },
         "action->Frozen Breath": {
           "name": "Frozen Breath",
-          "description": "<p>Equendia exhales a @Template[cone|distance:60] of icy shards that deal @Damage[6d6[cold],6d6[slashing]|options:area-daño]{6d6 cold and 6d6 slashing} (@Check[reflex|dc:30|basic|options:area-effect]). She can't use Frozen Breath again for [[/gmr 1d4 #Recharge Frozen Breath]]{1d4 rounds}.</p>"
+          "description": "<p>Equendia exhales a @Template[cone|distance:60] of icy shards that deal @Damage[6d6[cold],6d6[slashing]|options:area-damage]{6d6 cold and 6d6 slashing} (@Check[reflex|dc:30|basic|options:area-effect]). She can't use Frozen Breath again for [[/gmr 1d4 #Recharge Frozen Breath]]{1d4 rounds}.</p>"
         },
         "action->Hissing Command": {
           "name": "Hissing comando",
@@ -914,21 +914,21 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.tjLvRWklAylFhBHQ]\nScroll of Black Tentacles (Level 5)",
           "consumableSpellName": "Black Tentacles",
           "consumableSpellDescription": "<p><strong>Area</strong> 20-pies burst adjacent to a flat surface</p>\n<hr />\n<p>Oily black tentacles rise up and attempt to capture criaturas in the area. Make conjuro tiradas de ataque against the Fortitude DC of each criatura in the area. Any criatura tú succeed against is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} and takes 3d6 daño contundente. Siempre que a criatura ends its turn in the area, the tentacles attempt to GRAB that criatura if they haven't already, and they deal @Damage[1d6[bludgeoning]] daño to any criatura already Grabbed.</p>\n<p>The tentacles' Escape DC is equal to tu conjuro DC. A criatura can attack a tentacle in an attempt to release its grip. Its AC is equal to tu conjuro DC, and it is destroyed if it takes 12 or more daño. Even if destroyed, additional tentacles continue to grow in the area until the duration ends. Puedes Dismiss the conjuro.</p>",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.tjLvRWklAylFhBHQ]\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.2w4OpAGihn1JSHFD]{Black Tentacles}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>To Lanzar un conjuro from a scroll, the conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro tirada de ataque and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical material components and costs are provided when a scroll is created, so tú don't need to provide them when Lanzando un conjuro from a scroll. Debes replace any required material component for that conjuro with a somatic component. If the conjuro requires a focus, debes have that focus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.tjLvRWklAylFhBHQ]\n<p>@UUID[Compendium.pf2e.spells-srd.Item.2w4OpAGihn1JSHFD]{Black Tentacles}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>To Lanzar un conjuro from a scroll, the conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro tirada de ataque and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical material components and costs are provided when a scroll is created, so tú don't need to provide them when Lanzando un conjuro from a scroll. Debes replace any required material component for that conjuro with a somatic component. If the conjuro requires a focus, debes have that focus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
         },
         "consumable->Scroll of Confusion (Level 4)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.QSQZJ5BC3DeHv153]\nScroll of Confusion (Level 4)",
           "consumableSpellName": "Confusion",
           "consumableSpellDescription": "<p>Tú befuddle tu target with strange impulses, causing it to act randomly. The effects are determined by el objetivo's Will save. Puedes Dismiss the conjuro.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo is unaffected.</p>\n<p><strong>Éxito</strong> El objetivo babbles incoherently and is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1}.</p>\n<p><strong>Fallo</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confundido} for 1 minute. It can attempt a new save at the end of each of its turns to end the confusion.</p>\n<p><strong>Fallo crítico</strong> El objetivo is Confused for 1 minute, with no save to end early.</p>\n<hr />\n<p><strong>Heightened (8th)</strong> Puedes target up to 10 criaturas.</p>",
           "consumableSpellTarget": "1 criatura",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.QSQZJ5BC3DeHv153]\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.LiGbewa9pO0yjbsY]{Confusion}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>To Lanzar un conjuro from a scroll, the conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro tirada de ataque and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical material components and costs are provided when a scroll is created, so tú don't need to provide them when Lanzando un conjuro from a scroll. Debes replace any required material component for that conjuro with a somatic component. If the conjuro requires a focus, debes have that focus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.QSQZJ5BC3DeHv153]\n<p>@UUID[Compendium.pf2e.spells-srd.Item.LiGbewa9pO0yjbsY]{Confusion}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>To Lanzar un conjuro from a scroll, the conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro tirada de ataque and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical material components and costs are provided when a scroll is created, so tú don't need to provide them when Lanzando un conjuro from a scroll. Debes replace any required material component for that conjuro with a somatic component. If the conjuro requires a focus, debes have that focus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
         },
         "consumable->Scroll of Fly (Level 4)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.QSQZJ5BC3DeHv153]\nScroll of Fly (Level 4)",
           "consumableSpellName": "Fly",
           "consumableSpellDescription": "<p>El objetivo can soar through the air, gaining a fly Velocidad equal to its Velocidad or 20 pies, whichever is greater.</p>\n<p>@UUID[Compendium.pf2e.conjuro-effects.Item.MuRBCiZn5IKeaoxi]{Spell Efecto: Fly}</p>\n<hr />\n<p><strong>Heightened (7th)</strong> The duration increases to 1 hour.</p>",
           "consumableSpellTarget": "1 criatura",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.QSQZJ5BC3DeHv153]\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.A2JfEKe6BZcTG1S8]{Fly}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>To Lanzar un conjuro from a scroll, the conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro tirada de ataque and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical material components and costs are provided when a scroll is created, so tú don't need to provide them when Lanzando un conjuro from a scroll. Debes replace any required material component for that conjuro with a somatic component. If the conjuro requires a focus, debes have that focus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.QSQZJ5BC3DeHv153]\n<p>@UUID[Compendium.pf2e.spells-srd.Item.A2JfEKe6BZcTG1S8]{Fly}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>To Lanzar un conjuro from a scroll, the conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro tirada de ataque and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical material components and costs are provided when a scroll is created, so tú don't need to provide them when Lanzando un conjuro from a scroll. Debes replace any required material component for that conjuro with a somatic component. If the conjuro requires a focus, debes have that focus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
         },
         "strike-melee->Dagger": {
           "name": "Dagger"
@@ -945,7 +945,7 @@
         },
         "action->Dream Invasion": {
           "name": "Dream Invasion",
-          "description": "<p>When Etward casts @UUID[Compendium.pf2e.conjuros-srd.Item.yM3KTTSAIHhyuP14]{Dream Message} and targets a gatewalker (like one of the PCs), he manifests inside the character's dream, appearing as he does when he cast the conjuro. (Typically, Etward disguises himself as a saumen kar when he does this, to further unnerve el objetivo.) Rather than send a message to el objetivo of a dream invasion, Etward can instead sift through el objetivo's recent memories to gain a vague idea of what they did and where they were in the past 24 hours. Este leaves el objetivo feeling somewhat unsettled when they wake but causes no lasting harm.</p>"
+          "description": "<p>When Etward casts @UUID[Compendium.pf2e.spells-srd.Item.yM3KTTSAIHhyuP14]{Dream Message} and targets a gatewalker (like one of the PCs), he manifests inside the character's dream, appearing as he does when he cast the conjuro. (Typically, Etward disguises himself as a saumen kar when he does this, to further unnerve el objetivo.) Rather than send a message to el objetivo of a dream invasion, Etward can instead sift through el objetivo's recent memories to gain a vague idea of what they did and where they were in the past 24 hours. Este leaves el objetivo feeling somewhat unsettled when they wake but causes no lasting harm.</p>"
         },
         "action->Nightmarish Attack": {
           "name": "Nightmarish Attack",
@@ -965,7 +965,7 @@
       "description": "<p>The incense burners begin to smoke, filling the air with strangely nostalgic scents.</p>",
       "disable": "<p>@Check[occultism|dc:26] (experto) to enter a state akin to lucid dreaming so as to unweave the nightmare from within, or @Check[intimidation|dc:30] (maestro) to stand resolute against the nightmares and turn the fear back upon itself</p>",
       "reset": "<p>The hazard resets when Etward dreams in this room.</p>",
-      "routine": "<p>(2 actions; cold, enchantment, mental, occult) The haunt uses its first action to light incense burners again, forcing any criatura that isn't already @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} to save against that effect once more. Its second action is to cause any unconscious criaturas in the room to experience horrific, vivid dreams about being lost in the arctic during a blizzard, while enormous furred figures&mdash; saumen kar&mdash;lunge at them through the snow to attack repeatedly. Each unconscious criatura must attempt a @Check[fortitude|dc:28|rasgos:cold,enchantment,mental,occult] tirada de salvación. If at the end of the round there are no unconscious criaturas in the room, Etward's nightmare ends and the trap deactivates.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected and wakes up.</p>\n<p><strong>Éxito</strong> The criatura remains unconscious and takes @Damage[1d10[cold]] and @Damage[1d10[mental]]. Este daño does not wake the criatura, and those who are awake can see the unconscious criatura thrash as if in the throes of a nightmare while their body rimes over with layers of frost. The criatura can fight against the bitter cold and monstrous shapes by attempting a @Check[will|dc:28|rasgos:cold,enchantment,mental,occult] save as a three-action activity on its turn&mdash; on a success, the criatura wakes up.</p>\n<p><strong>Fallo</strong> As success, but 1d10+6 cold and @Damage[(1d10+6)[mental]], and with a @Check[will|dc:32|rasgos:cold,enchantment,mental,occult] save to wake up.</p>\n<p><strong>Fallo crítico</strong> The criatura remains unconscious and takes @Damage[(2d10+12)[cold]] and @Damage[(2d10+12)[mental]].</p>",
+      "routine": "<p>(2 actions; cold, enchantment, mental, occult) The haunt uses its first action to light incense burners again, forcing any criatura that isn't already @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} to save against that effect once more. Its second action is to cause any unconscious criaturas in the room to experience horrific, vivid dreams about being lost in the arctic during a blizzard, while enormous furred figures&mdash; saumen kar&mdash;lunge at them through the snow to attack repeatedly. Each unconscious criatura must attempt a @Check[fortitude|dc:28|traits:cold,enchantment,mental,occult] tirada de salvación. If at the end of the round there are no unconscious criaturas in the room, Etward's nightmare ends and the trap deactivates.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected and wakes up.</p>\n<p><strong>Éxito</strong> The criatura remains unconscious and takes @Damage[1d10[cold]] and @Damage[1d10[mental]]. Este daño does not wake the criatura, and those who are awake can see the unconscious criatura thrash as if in the throes of a nightmare while their body rimes over with layers of frost. The criatura can fight against the bitter cold and monstrous shapes by attempting a @Check[will|dc:28|traits:cold,enchantment,mental,occult] save as a three-action activity on its turn&mdash; on a success, the criatura wakes up.</p>\n<p><strong>Fallo</strong> As success, but 1d10+6 cold and @Damage[(1d10+6)[mental]], and with a @Check[will|dc:32|traits:cold,enchantment,mental,occult] save to wake up.</p>\n<p><strong>Fallo crítico</strong> The criatura remains unconscious and takes @Damage[(2d10+12)[cold]] and @Damage[(2d10+12)[mental]].</p>",
       "stealth": "<p>(maestro)</p>",
       "items": {
         "action->Light Incense Burners": {
@@ -1021,7 +1021,7 @@
     "Freezing Floor": {
       "name": "Freezing Floor",
       "description": "<p>The white brick floor radiates ice-cold air.</p>",
-      "disable": "<p>@Check[thievery|dc:24] (experto) to erase a rune, or @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (3rd rank; counteract DC 24) to dispel a rune; all three runes must be erased or dispelled to disable the trap.</p>",
+      "disable": "<p>@Check[thievery|dc:24] (experto) to erase a rune, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (3rd rank; counteract DC 24) to dispel a rune; all three runes must be erased or dispelled to disable the trap.</p>",
       "hpDetails": "to destroy the bricks and disable the trap;",
       "reset": "<p>La trampa deactivates and resets after 1 minute.</p>",
       "routine": "<p>(3 actions) With each action, the trap attempts a frost jet Golpe against any criatura standing on the white bricks. La trampa loses 1 action per disabled or dispelled rune.</p>",
@@ -1118,7 +1118,7 @@
           "name": "Primal Innate Spells"
         },
         "spell->Truespeech (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.SwUiVavHKMWG7t5K]\nTruespeech (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K]\nTruespeech (Constant)"
         },
         "strike-melee->Jaws": {
           "name": "Jaws"
@@ -1178,7 +1178,7 @@
         },
         "action->Blackfrost Breath": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ydrDZ7lqioLPWRlB]\nBlackfrost Breath",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ydrDZ7lqioLPWRlB]\n<p>Ilakni breathes out a @Template[cone|distance:60] of black wind. All criaturas in the area take @Damage[10d6[cold]|options:area-daño] daño (@Check[reflex|dc:30|basic|options:area-effect]); a criatura that fails the save is also exposed to blackfrost. Ilakni can't use Blackfrost Breath again for [[/gmr 1d4 #Recharge Blackfrost Breath]]{1d4 rounds}.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ydrDZ7lqioLPWRlB]\n<p>Ilakni breathes out a @Template[cone|distance:60] of black wind. All criaturas in the area take @Damage[10d6[cold]|options:area-damage] daño (@Check[reflex|dc:30|basic|options:area-effect]); a criatura that fails the save is also exposed to blackfrost. Ilakni can't use Blackfrost Breath again for [[/gmr 1d4 #Recharge Blackfrost Breath]]{1d4 rounds}.</p>"
         },
         "action->Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV]\n<p>@Damage[(1d8+12)[bludgeoning]], @Check[fortitude|dc:30|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
@@ -1276,7 +1276,7 @@
           "name": "Arcane Innate Spells"
         },
         "spell->Translate (Self Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.vTQvfYu2llKQedmY]\nTranslate (Self Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.vTQvfYu2llKQedmY]\nTranslate (Self Only)"
         },
         "strike-melee->Fountain Pen": {
           "name": "Fountain Pen"
@@ -1315,7 +1315,7 @@
           "name": "Primal Innate Spells"
         },
         "equipment->Shadewither Key": {
-          "gmNote": "<p>However, this boon comes with great risk: any elf who touches the Shadewither Key is immediately afflicted with the obnubilate curse (see below).</p>\n<p><strong>Destruction</strong> The <em>Shadewither Key's</em> magic can be destroyed by exposing the artifact to uncontained teleportation energies. If touched to an unlinked or malfunctioning aiudara, the <em>Shadewither Key</em> causes the gate to connect to a new counterpart. If this happens, the key's magic leaves it, rendering the item useless.</p>\n<hr />\n<p><strong>Obnubilate Curse</strong></p>\n<p>Only elves can be afflicted with this magical curse; other criaturas are immune. An elf who touches the Shadewither Key must save against the curse. Victims quickly fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}; then, over several days, they slowly blacken and shrivel like rotting fruit until they die. The corpse of an elf killed by the obnubilate curse is dry and charcoal-like; it collapses into ash at the slightest touch.</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:27|rasgos:curse,enchantment,incapacitation,magical,mental,shadow|overrideTraits:true]</p>\n<p><strong>Onset</strong> 1 minute</p>\n<p><strong>Stage 1</strong> unconscious and @Damage[3d6[mental]] (1 day)</p>\n<p><strong>Stage 2</strong> unconscious and @Damage[6d6[mental]] (2 days)</p>\n<p><strong>Stage 3</strong> unconscious and @Damage[6d6[mental]] (2 days)</p>\n<p><strong>Stage 4</strong> unconscious and @Damage[6d6[mental]], permanent loss of most recent year of memory (1 day)</p>\n<p><strong>Stage 5</strong> unconscious and @Damage[6d6[mental]], permanent loss of all memory (1 day)</p>\n<p><strong>Stage 6</strong> death.</p>"
+          "gmNote": "<p>However, this boon comes with great risk: any elf who touches the Shadewither Key is immediately afflicted with the obnubilate curse (see below).</p>\n<p><strong>Destruction</strong> The <em>Shadewither Key's</em> magic can be destroyed by exposing the artifact to uncontained teleportation energies. If touched to an unlinked or malfunctioning aiudara, the <em>Shadewither Key</em> causes the gate to connect to a new counterpart. If this happens, the key's magic leaves it, rendering the item useless.</p>\n<hr />\n<p><strong>Obnubilate Curse</strong></p>\n<p>Only elves can be afflicted with this magical curse; other criaturas are immune. An elf who touches the Shadewither Key must save against the curse. Victims quickly fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}; then, over several days, they slowly blacken and shrivel like rotting fruit until they die. The corpse of an elf killed by the obnubilate curse is dry and charcoal-like; it collapses into ash at the slightest touch.</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:27|traits:curse,enchantment,incapacitation,magical,mental,shadow|overrideTraits:true]</p>\n<p><strong>Onset</strong> 1 minute</p>\n<p><strong>Stage 1</strong> unconscious and @Damage[3d6[mental]] (1 day)</p>\n<p><strong>Stage 2</strong> unconscious and @Damage[6d6[mental]] (2 days)</p>\n<p><strong>Stage 3</strong> unconscious and @Damage[6d6[mental]] (2 days)</p>\n<p><strong>Stage 4</strong> unconscious and @Damage[6d6[mental]], permanent loss of most recent year of memory (1 day)</p>\n<p><strong>Stage 5</strong> unconscious and @Damage[6d6[mental]], permanent loss of all memory (1 day)</p>\n<p><strong>Stage 6</strong> death.</p>"
         },
         "strike-melee->Claw": {
           "name": "Claw"
@@ -1427,7 +1427,7 @@
           "name": "Occult Innate Spells"
         },
         "spell->Interplanar Teleport (Self Only; to Netherworld or the Universe Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.5bTt2CvYHPvaR7QQ]\nInterplanar Teleport (Self Only; to Netherworld or the Universe Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ]\nInterplanar Teleport (Self Only; to Netherworld or the Universe Only)"
         },
         "strike-melee->Dagger": {
           "name": "Dagger"
@@ -1457,7 +1457,7 @@
         },
         "action->Tenebral Form": {
           "name": "Tenebral Form",
-          "description": "<p>Leiko can Fly at full Velocidad in @UUID[Compendium.pf2e.conjuros-srd.Item.V8wXOsoejQhe6CyG]{Vapor Form}.</p>"
+          "description": "<p>Leiko can Fly at full Velocidad in @UUID[Compendium.pf2e.spells-srd.Item.V8wXOsoejQhe6CyG]{Vapor Form}.</p>"
         },
         "lore->Netherworld Lore": {
           "name": "Netherworld Lore"
@@ -1501,7 +1501,7 @@
           "name": "Occult Innate Spells"
         },
         "spell->Mindlink (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.D442XMADp01qJ7Cs]\nMindlink (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.D442XMADp01qJ7Cs]\nMindlink (Constant)"
         },
         "equipment->Shell (Porcelain Doll)": {
           "name": "Shell (Porcelain Doll)"
@@ -1640,7 +1640,7 @@
         },
         "action->Corner of the Eye": {
           "name": "Corner of the Eye",
-          "description": "<p>The ocluai creates a wave of disturbing illusory images in a @Template[burst|distance:10] centered on a point within 60 pies. Any criatura caught in this burst takes @Damage[3d6[mental]|options:area-daño] (@Check[will|dc:20|basic|options:area-effect]) as their peripheral vision churns with terrifying visions of worm-eaten corpses and monsters ready to pounce.</p>"
+          "description": "<p>The ocluai creates a wave of disturbing illusory images in a @Template[burst|distance:10] centered on a point within 60 pies. Any criatura caught in this burst takes @Damage[3d6[mental]|options:area-damage] (@Check[will|dc:20|basic|options:area-effect]) as their peripheral vision churns with terrifying visions of worm-eaten corpses and monsters ready to pounce.</p>"
         }
       }
     },
@@ -1655,7 +1655,7 @@
           "name": "Occult Innate Spells"
         },
         "spell->Translocate (At Will)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.VlNcjmYyu95vOUe8]\nTranslocate (At Will)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nTranslocate (At Will)"
         },
         "strike-melee->Nightmare Tendril": {
           "name": "Nightmare Tendril"
@@ -1687,23 +1687,23 @@
           "name": "Primal Innate Spells"
         },
         "spell->Speak with Animals (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.BBvV7qoXGdw09q1C]\nSpeak with Animals (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]\nSpeak with Animals (Constant)"
         },
         "spell->Tree Shape": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.dileJ0Yxqg76LMvu]\nTree Shape"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]\nTree Shape"
         },
         "spell->Light": {
           "target": "1 object of 1 Bulk or less, either unattended or possessed by tú or a willing ally"
         },
         "spell->Tidal Surge (At Will)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.iAnpxrLaBU4V6Sej]\nTidal Surge (At Will)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.iAnpxrLaBU4V6Sej]\nTidal Surge (At Will)"
         },
         "strike-melee->Aqueous Fist": {
           "name": "Aqueous Fist"
         },
         "action->Tied to the Land": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UHuA1hue5xrRM6KK]\nTied to the Land",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UHuA1hue5xrRM6KK]\n<p>A nymph queen is intrinsically tied to a specific region, such as a forest for a dryad queen. As long as the queen is healthy, the environment is exceptionally resilient, allowing the nymph queen to automatically attempt to counteract conjuros and rituals such as @UUID[Compendium.pf2e.conjuros-srd.Item.7yWXx3qC4eFNHhxD]{Blight} that would harm the environment, using her Spell DC with a counteract rank equal to the highest-level druid conjuro she can cast. When the nymph queen becomes physically or psychologically unhealthy, however, her warded region eventually becomes twisted or unhealthy as well. In that case, restoring the nymph queen swiftly heals the entire region.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UHuA1hue5xrRM6KK]\n<p>A nymph queen is intrinsically tied to a specific region, such as a forest for a dryad queen. As long as the queen is healthy, the environment is exceptionally resilient, allowing the nymph queen to automatically attempt to counteract conjuros and rituals such as @UUID[Compendium.pf2e.spells-srd.Item.7yWXx3qC4eFNHhxD]{Blight} that would harm the environment, using her Spell DC with a counteract rank equal to the highest-level druid conjuro she can cast. When the nymph queen becomes physically or psychologically unhealthy, however, her warded region eventually becomes twisted or unhealthy as well. In that case, restoring the nymph queen swiftly heals the entire region.</p>"
         },
         "action->Wild Empathy": {
           "name": "Wild Empathy",
@@ -1718,7 +1718,7 @@
         },
         "action->Focus Beauty": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.SEmSk1INZDmeoB5R]\nFocus Beauty",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.SEmSk1INZDmeoB5R]\n<p>On a failed save, if el objetivo was already affected by the naiad queen's beauty, the image of the queen sears into the criatura's mind, allowing no further sight and effectively @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinding} the criatura until restored via @UUID[Compendium.pf2e.conjuros-srd.Item.Et8RSCLx8w7uOLvo]{Sound Body} or a similar effect, or until the naiad queen chooses to remove the effect using a single action, which has the concentrate rasgo.</p>\n<hr />\n<p>The nymph queen focuses her beauty upon a target within her aura. The criatura must attempt a @Check[will|dc:23] save. On a failure, it is affected as if by the nymph queen's nymph's beauty aura; if it was already affected by the aura, it suffers a greater effect described in the nymph queen's entry. A nymph queen can Focus Beauty on a given criatura only once per turn.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.SEmSk1INZDmeoB5R]\n<p>On a failed save, if el objetivo was already affected by the naiad queen's beauty, the image of the queen sears into the criatura's mind, allowing no further sight and effectively @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinding} the criatura until restored via @UUID[Compendium.pf2e.spells-srd.Item.Et8RSCLx8w7uOLvo]{Sound Body} or a similar effect, or until the naiad queen chooses to remove the effect using a single action, which has the concentrate rasgo.</p>\n<hr />\n<p>The nymph queen focuses her beauty upon a target within her aura. The criatura must attempt a @Check[will|dc:23] save. On a failure, it is affected as if by the nymph queen's nymph's beauty aura; if it was already affected by the aura, it suffers a greater effect described in the nymph queen's entry. A nymph queen can Focus Beauty on a given criatura only once per turn.</p>"
         },
         "action->Inspiration": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.IFQd4GiHlV33p7oK]\nInspiration",
@@ -1755,7 +1755,7 @@
         },
         "action->Unstable Magic": {
           "name": "Unstable Magic",
-          "description": "<p>The protosoul takes @Damage[10[force]|options:area-daño] daño as it releases a burst of uncontained void energy in a @Template[type:emanation|distance:30]. Las criaturas in the area take @Damage[5d8[void]|options:area-daño] daño (@Check[fortitude|dc:30|basic|options:area-effect] save).</p>"
+          "description": "<p>The protosoul takes @Damage[10[force]|options:area-damage] daño as it releases a burst of uncontained void energy in a @Template[type:emanation|distance:30]. Las criaturas in the area take @Damage[5d8[void]|options:area-damage] daño (@Check[fortitude|dc:30|basic|options:area-effect] save).</p>"
         }
       }
     },
@@ -1791,7 +1791,7 @@
         },
         "action->Violent Deluge": {
           "name": "Violent Deluge",
-          "description": "<p><strong>Desencadenante</strong> The water tank is broken or destroyed</p>\n<hr />\n<p><strong>Efecto</strong> A torrent of water bursts from the shattered tank, dealing @Damage[3d8[bludgeoning]|options:area-daño] daño to each criatura within @Template[emanation|distance:15]{15 pies} (@Check[reflex|dc:22|basic|options:area-effect] save). La trampa is then disabled.</p>"
+          "description": "<p><strong>Desencadenante</strong> The water tank is broken or destroyed</p>\n<hr />\n<p><strong>Efecto</strong> A torrent of water bursts from the shattered tank, dealing @Damage[3d8[bludgeoning]|options:area-damage] daño to each criatura within @Template[emanation|distance:15]{15 pies} (@Check[reflex|dc:22|basic|options:area-effect] save). La trampa is then disabled.</p>"
         },
         "strike-melee->Water Jet": {
           "name": "Water Jet",
@@ -1821,7 +1821,7 @@
       "items": {
         "action->Sacred Geyser": {
           "name": "Sacred Geyser",
-          "description": "<p><strong>Desencadenante</strong> A criatura dips a vessel or otherwise attempts to remove water from the oasis</p>\n<hr />\n<p><strong>Efecto</strong> A jet of magical boiling water targets the triggering criatura and affects all criaturas within @Template[emanation|distance:5]{5 pies} of el objetivo. Las criaturas caught in the burst take @Damage[(2d10+13)[fire]|options:area-daño] (@Check[reflex|dc:23|basic|options:area-effect] save).</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura dips a vessel or otherwise attempts to remove water from the oasis</p>\n<hr />\n<p><strong>Efecto</strong> A jet of magical boiling water targets the triggering criatura and affects all criaturas within @Template[emanation|distance:5]{5 pies} of el objetivo. Las criaturas caught in the burst take @Damage[(2d10+13)[fire]|options:area-damage] (@Check[reflex|dc:23|basic|options:area-effect] save).</p>"
         }
       }
     },
@@ -1863,7 +1863,7 @@
     "Scholar's Bane": {
       "name": "Scholar's Bane",
       "description": "<p>Illusions overwhelm the minds of particularly intelligent criaturas, forcing them to relive every intellectual failure and shame they've ever suffered.</p>",
-      "disable": "<p>@Check[thievery|dc:22] (entrenado) to carve out one eye sensor, @Check[arcana|dc:22] or @Check[occultism|dc:22] (entrenado) to blank out one's mind (disables trap for self only), or @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (2nd rank; counteract DC 20) to counteract one eye sensor</p>",
+      "disable": "<p>@Check[thievery|dc:22] (entrenado) to carve out one eye sensor, @Check[arcana|dc:22] or @Check[occultism|dc:22] (entrenado) to blank out one's mind (disables trap for self only), or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (2nd rank; counteract DC 20) to counteract one eye sensor</p>",
       "reset": "<p>La trampa can function for 10 rounds, which don't need to be consecutive, before it must recharge for 24 hours.</p>",
       "routine": "<p>(4 actions) La trampa uses each action to target a criatura in the room with an INTELLIGENCE score of 10 or greater. A target must succeed at a @Check[will|dc:22] save or take @Damage[(2d8+2)[mental]] daño. On a critical failure, the criatura takes a –10-pies penalización de estado to Velocidad for 1 minute as they stagger under the weight of their failures. La trampa loses 1 action for each eye sensor disabled or destroyed.</p>",
       "stealth": "<p>(entrenado) to notice magical sensors hidden within four of the carvings' eyes</p>",
@@ -1877,7 +1877,7 @@
     "Shadow Guards": {
       "name": "Shadow Guards",
       "description": "<p>Shadowy caricatures of elves peel themselves from the floor and attack everyone in the room.</p>",
-      "disable": "<p>@Check[acrobatics|dc:16] to move through the room without touching any of the runes, followed by @Check[thievery|dc:18] (entrenado) to carve them out of the wood without triggering them; or @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (1st rank; counteract DC 16) to counteract the runes</p>",
+      "disable": "<p>@Check[acrobatics|dc:16] to move through the room without touching any of the runes, followed by @Check[thievery|dc:18] (entrenado) to carve them out of the wood without triggering them; or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (1st rank; counteract DC 16) to counteract the runes</p>",
       "reset": "<p>La trampa deactivates and resets after 1 minute. The drawings cannot pursue characters out of the room.</p>",
       "routine": "<p>(1 action) The drawings stab at each character in the room with spears drawn from sharp lines.</p>",
       "stealth": "<p>(entrenado) to notice the runes concealed among the drawings</p>",
@@ -1894,7 +1894,7 @@
     "Shadowshift Field": {
       "name": "Shadowshift Field",
       "description": "<p>Cross-planar seepage from the Oaksteward rebels' ritual causes shadowy warping effects to strain and daño living criaturas in the forest clearing.</p>",
-      "disable": "<p>@Check[arcana|dc:17] (entrenado) to will the Material Plane's hold on the area back into firmness and disable the effect for 1 hour, or @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (1st rank; counteract DC 15) to end the effect permanently</p>",
+      "disable": "<p>@Check[arcana|dc:17] (entrenado) to will the Material Plane's hold on the area back into firmness and disable the effect for 1 hour, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (1st rank; counteract DC 15) to end the effect permanently</p>",
       "reset": "<p>Este effect continues for 1 day, after which it ends and cannot be triggered again without another ritual.</p>",
       "routine": "<p>Each criatura in the clearing must attempt a @Check[fortitude|dc:17] save as the planar warping threatens to create microscopic tears inside their body. Fey, plant criaturas, and druids are unaffected.</p>\n<hr />\n<p><strong>Éxito crítico</strong> As success, and the criatura is healed by the primal magic, regaining @Damage[1d6[healing]] Puntos de Golpe.</p>\n<p><strong>Éxito</strong> The criatura is unaffected and immune to the effect for 24 hours.</p>\n<p><strong>Fallo</strong> The criatura takes @Damage[(1d6+3)[force]] daño.</p>\n<p><strong>Fallo crítico</strong> The criatura takes @Damage[(2d6+6)[force]] daño.</p>",
       "stealth": "<p>(entrenado) to notice the air and plants wavering and shifting</p>",
@@ -1908,7 +1908,7 @@
     "Shroud of Silence": {
       "name": "Shroud of Silence",
       "description": "<p>Sounds become muted in a @Template[line|distance:100|width:20]{20-pies-wide, 100-pies-long} segment of this street corridor.</p>",
-      "disable": "<p>@Check[occultism|dc:25] (experto) to twist the magic of the ley line around tú, disabling the hazard for only tú; or @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank; counteract DC 23) to disable the hazard permanently</p>",
+      "disable": "<p>@Check[occultism|dc:25] (experto) to twist the magic of the ley line around tú, disabling the hazard for only tú; or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank; counteract DC 23) to disable the hazard permanently</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Hush": {
@@ -1928,7 +1928,7 @@
           "name": "Divine Innate Spells"
         },
         "spell->Translocate (At Will)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.VlNcjmYyu95vOUe8]\nTranslocate (At Will)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nTranslocate (At Will)"
         },
         "action->Harmony Vulnerability": {
           "name": "Harmony Vulnerability",
@@ -1943,7 +1943,7 @@
         },
         "action->Infesting Exhalation": {
           "name": "Infesting Exhalation",
-          "description": "<p>The eshmok exhales a wave of stinging fiendish wasps out in a @Template[type:cone|distance:30], dealing @Damage[4d8[poison]|options:area-daño] daño to every criatura within the cone (@Check[reflex|dc:28|basic|options:area-effect] save). The swarming fiend wasps linger in the area for 6 rounds or until the eshmok is able to use Infesting Exhalation again, whichever comes first. Each criatura damaged by Infesting Exhalation or that enters the area must succeed at a @Check[fortitude|dc:28] save or take @Damage[2d8[persistent,poison]] daño and become @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} as the poison renders them dizzy and nauseous. At the end of each of their turns, they can attempt a new Fortitude save to end the effects. The eshmok can't use Infesting Exhalation again for [[/gmr 1d6 #Recharge Infesting Exhalation]]{1d6 rounds}.</p>"
+          "description": "<p>The eshmok exhales a wave of stinging fiendish wasps out in a @Template[type:cone|distance:30], dealing @Damage[4d8[poison]|options:area-damage] daño to every criatura within the cone (@Check[reflex|dc:28|basic|options:area-effect] save). The swarming fiend wasps linger in the area for 6 rounds or until the eshmok is able to use Infesting Exhalation again, whichever comes first. Each criatura damaged by Infesting Exhalation or that enters the area must succeed at a @Check[fortitude|dc:28] save or take @Damage[2d8[persistent,poison]] daño and become @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} as the poison renders them dizzy and nauseous. At the end of each of their turns, they can attempt a new Fortitude save to end the effects. The eshmok can't use Infesting Exhalation again for [[/gmr 1d6 #Recharge Infesting Exhalation]]{1d6 rounds}.</p>"
         }
       }
     },
@@ -2031,7 +2031,7 @@
           "name": "Primal Innate Spells"
         },
         "spell->Truespeech (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.SwUiVavHKMWG7t5K]\nTruespeech (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K]\nTruespeech (Constant)"
         },
         "strike-melee->Talon": {
           "name": "Talon"
@@ -2117,7 +2117,7 @@
         },
         "action->Frozen Wind": {
           "name": "Frozen Wind",
-          "description": "<p>The guest exhales a blast of freezing wind from its body in a @Template[cone|distance:20]. All criaturas in this area take @Damage[8d6[cold]|options:area-daño] (@Check[reflex|dc:25|basic|options:area-effect]). The Guest can't use Frozen Wind again for [[/gmr 1d4 #Recharge Frozen Wind]]{1d4 rounds}.</p>"
+          "description": "<p>The guest exhales a blast of freezing wind from its body in a @Template[cone|distance:20]. All criaturas in this area take @Damage[8d6[cold]|options:area-damage] (@Check[reflex|dc:25|basic|options:area-effect]). The Guest can't use Frozen Wind again for [[/gmr 1d4 #Recharge Frozen Wind]]{1d4 rounds}.</p>"
         },
         "action->Stunning Critical": {
           "name": "Stunning Critical",
@@ -2147,7 +2147,7 @@
         },
         "equipment->Spellbook": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.FOWF5f0tCaApv9RE]\nSpellbook",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.FOWF5f0tCaApv9RE]\n<p>A spellbook holds the written knowledge necessary to learn and prepare various conjuros, a necessity for wizards (who typically get one for free) and a useful luxury for other spellcasters looking to learn additional conjuros. Each spellbook can hold up to 100 conjuros. The Price listed is for a blank spellbook.</p>\n<p><strong>Cantrips</strong></p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.TVKNbcgTee19PXZR]{Shield}</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.uZK2BYzPnxUBnDjr]{Tangle Vine}</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.pwzdSlJgYqN7bs2w]{Telekinetic Hand}</p>\n<p><strong>1st</strong></p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage}</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.zDJS8E66UI0himqV]{Thunderstrike}</p>\n<p><strong>2nd</strong></p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.9h9YCncqah6VNsKf]{Acid Grip}</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.ZxHC7V7HtjUsB8zH]{Blazing Bolt}</p>\n<p>@UUID[Compendium.pf2e.conjuros-srd.Item.5KobTMrZeZxuXMgl]{Gecko Grip}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.FOWF5f0tCaApv9RE]\n<p>A spellbook holds the written knowledge necessary to learn and prepare various conjuros, a necessity for wizards (who typically get one for free) and a useful luxury for other spellcasters looking to learn additional conjuros. Each spellbook can hold up to 100 conjuros. The Price listed is for a blank spellbook.</p>\n<p><strong>Cantrips</strong></p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR]{Shield}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.uZK2BYzPnxUBnDjr]{Tangle Vine}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]{Telekinetic Hand}</p>\n<p><strong>1st</strong></p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.zDJS8E66UI0himqV]{Thunderstrike}</p>\n<p><strong>2nd</strong></p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.9h9YCncqah6VNsKf]{Acid Grip}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.ZxHC7V7HtjUsB8zH]{Blazing Bolt}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.5KobTMrZeZxuXMgl]{Gecko Grip}</p>"
         },
         "equipment->Ring With Nethys Mask Sigil": {
           "name": "Ring With Nethys Mask Sigil",
@@ -2285,17 +2285,17 @@
           "name": "Bard Composition Spells"
         },
         "spell->Inspire Courage": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.IAjvwqgiDr3qGYxY]\nInspire Courage"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]\nInspire Courage"
         },
         "spell->Mage Hand": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.pwzdSlJgYqN7bs2w]\nMage Hand"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]\nMage Hand"
         },
         "spell->Magic Aura": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.PRrZ7anETWPm90YY]\nMagic Aura",
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.PRrZ7anETWPm90YY]\nMagic Aura",
           "target": "1 object of 3 bulk or less"
         },
         "spell->Unseen Servant": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.xqmHD8JIjak15lRk]\nUnseen Servant"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.xqmHD8JIjak15lRk]\nUnseen Servant"
         },
         "equipment->Disguise Kit": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Jvp0x2Sc82WVpExT]\n<p>Este small wooden box contains cosmetics, false facial hair, spirit gum, and a few simple wigs. Tú usually need a disguise kit to set up a disguise in order to Impersonate someone using the DECEPTION skill. If has crafted a large number of disguises, puedes replenish tu cosmetics supply with replacement cosmetics suitable for the type of tu disguise kit.</p>"

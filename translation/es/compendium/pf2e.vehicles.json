@@ -297,7 +297,7 @@
       "items": {
         "action->Activate": {
           "name": "Activar",
-          "description": "<p> <strong> Activar </strong> <span class=\"action-glyph\"> T </span> ordenar, visualizar, interactuar </p>\n <p> <strong> Requisitos </strong> Estás pilotando Bunta </p>\n <p> <strong> Efecto </strong> Un río plateado fluye desde tu corazón, avanzando en una línea que fluye alrededor de los obstáculos como si fuera agua. Si <em> Bunta </em> viaja al menos a su velocidad a lo largo del río cada ronda durante 10 minutos, llegas a otroplano como si lanzaras @UUID[Compendium.pf2e.conjuros-srd.Item.5bTt2CvYHPvaR7QQ]{Interplanar Teleport} . Llegas a un destino que especificas o a una ubicación aleatoria si no tienes otra opción. Si <em> Bunta </em> alguna vez no viaja al menos a su velocidad en una ronda, puedes interrumpir esta activación. Si continúas, tienes un 1 % de probabilidad acumulada de terminar en una ubicación extraplanar aleatoria por cada ronda en la que <em> Bunt </em> a no viajó al menos a su Velocidad, hasta un máximo de un 60 % de probabilidad si <em> Bunta</em> no viajó al menos a su velocidad durante los 10 minutos completos. Mientras permanezca en <em> Bunta </em>, estará protegido de cualquier efecto nocivo del entorno del avión. </p>"
+          "description": "<p> <strong> Activar </strong> <span class=\"action-glyph\"> T </span> ordenar, visualizar, interactuar </p>\n <p> <strong> Requisitos </strong> Estás pilotando Bunta </p>\n <p> <strong> Efecto </strong> Un río plateado fluye desde tu corazón, avanzando en una línea que fluye alrededor de los obstáculos como si fuera agua. Si <em> Bunta </em> viaja al menos a su velocidad a lo largo del río cada ronda durante 10 minutos, llegas a otroplano como si lanzaras @UUID[Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ]{Interplanar Teleport} . Llegas a un destino que especificas o a una ubicación aleatoria si no tienes otra opción. Si <em> Bunta </em> alguna vez no viaja al menos a su velocidad en una ronda, puedes interrumpir esta activación. Si continúas, tienes un 1 % de probabilidad acumulada de terminar en una ubicación extraplanar aleatoria por cada ronda en la que <em> Bunt </em> a no viajó al menos a su Velocidad, hasta un máximo de un 60 % de probabilidad si <em> Bunta</em> no viajó al menos a su velocidad durante los 10 minutos completos. Mientras permanezca en <em> Bunta </em>, estará protegido de cualquier efecto nocivo del entorno del avión. </p>"
         },
         "action->Secret of Souls": {
           "name": "Secreto de las almas",
@@ -309,7 +309,7 @@
         },
         "action->Spirit Ship": {
           "name": "Barco espiritual",
-          "description": "<p> <em> Bunta </em> puede ser dañado por hechizos como @UUID[Compendium.pf2e.conjuros-srd.Item.PHVHBbdHeQRfjLmE]{Spirit Blast} que dañan el espíritu de una criatura directamente, y tales efectos ignoran la dureza de <em> Bunta </em>. </p>"
+          "description": "<p> <em> Bunta </em> puede ser dañado por hechizos como @UUID[Compendium.pf2e.spells-srd.Item.PHVHBbdHeQRfjLmE]{Spirit Blast} que dañan el espíritu de una criatura directamente, y tales efectos ignoran la dureza de <em> Bunta </em>. </p>"
         }
       }
     },
@@ -1223,7 +1223,7 @@
       "items": {
         "action->Alchemical Launcher": {
           "name": "Lanzador alquímico",
-          "description": "<p>Dos tripulantes realizan cada uno una actividad de 3 acciones en su turno para lanzar una enorme mezcla alquímica desde el carro. La mezcla explota al impactar, infligiendo @Damage[10d6[fire]|options:area-daño] de daño a cada criatura en una @Template[type:burst|distance:15] situada hasta a 50 pies (@Check[reflex|dc:30|basic]).</p>"
+          "description": "<p>Dos tripulantes realizan cada uno una actividad de 3 acciones en su turno para lanzar una enorme mezcla alquímica desde el carro. La mezcla explota al impactar, infligiendo @Damage[10d6[fire]|options:area-damage] de daño a cada criatura en una @Template[type:burst|distance:15] situada hasta a 50 pies (@Check[reflex|dc:30|basic]).</p>"
         }
       }
     },
@@ -1359,7 +1359,7 @@
         },
         "action->Release Steam": {
           "name": "Liberar vapor",
-          "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p><strong>Efecto</strong> Dos tripulantes realizan cada uno una actividad de 3 acciones en su turno para liberar una enorme acumulación de vapor alrededor del vehículo, infligiendo @Damage[11d6[fire]|options:area-daño] de daño a cada criatura en una @Template[type:emanation|distance:10] (@Check[reflex|dc:35|basic]). El mecanismo de liberación deja de funcionar si el vehículo está roto.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p><strong>Efecto</strong> Dos tripulantes realizan cada uno una actividad de 3 acciones en su turno para liberar una enorme acumulación de vapor alrededor del vehículo, infligiendo @Damage[11d6[fire]|options:area-damage] de daño a cada criatura en una @Template[type:emanation|distance:10] (@Check[reflex|dc:35|basic]). El mecanismo de liberación deja de funcionar si el vehículo está roto.</p>"
         }
       }
     },
@@ -1475,7 +1475,7 @@
       "items": {
         "action->Captivating Wealth": {
           "name": "Riqueza cautivadora",
-          "description": "<p> 40 pies. El oro, las gemas y otros adornos que adornan esta esfera voladora emiten un resplandor chispeante capaz de cautivar a las criaturas. Cada criatura que comienza su turno dentro del aura debe intentar un @Check[type:will|dc:36|rasgos:magic] ; en caso de falla, la criatura es @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinado} y ​​@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 2} mientras permanezca dentro del aura. Una criatura que tiene éxito es temporalmente inmune durante 1 hora. Cada vez que se activa la Defensa Prismática, el área de Riqueza Cautivadorase reduce en 10 pies durante 1 hora, hasta un mínimo de 0 pies. </p>"
+          "description": "<p> 40 pies. El oro, las gemas y otros adornos que adornan esta esfera voladora emiten un resplandor chispeante capaz de cautivar a las criaturas. Cada criatura que comienza su turno dentro del aura debe intentar un @Check[type:will|dc:36|traits:magic] ; en caso de falla, la criatura es @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinado} y ​​@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 2} mientras permanezca dentro del aura. Una criatura que tiene éxito es temporalmente inmune durante 1 hora. Cada vez que se activa la Defensa Prismática, el área de Riqueza Cautivadorase reduce en 10 pies durante 1 hora, hasta un mínimo de 0 pies. </p>"
         },
         "action->Protective Barrier": {
           "name": "Barrera protectora",
