@@ -1,3 +1,7 @@
+## [8.1.28](https://github.com/HonzoNebro/pf2e-esp-translation-ml/compare/v8.1.27...v8.1.28) (2026-05-18)
+
+
+
 ## [8.1.27](https://github.com/HonzoNebro/pf2e-esp-translation-ml/compare/v8.1.26...v8.1.27) (2026-05-18)
 
 
@@ -11,10 +15,6 @@
 
 
 ## [8.1.24](https://github.com/HonzoNebro/pf2e-esp-translation-ml/compare/v8.1.23...v8.1.24) (2026-05-17)
-
-
-
-## [8.1.23](https://github.com/HonzoNebro/pf2e-esp-translation-ml/compare/v8.1.22...v8.1.23) (2026-05-17)
 
 
 
