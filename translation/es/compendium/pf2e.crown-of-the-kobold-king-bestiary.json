@@ -1,15 +1,15 @@
 {
-  "label": "crown-of-the-kobold-king-bestiary",
+  "label": "Bestiario de La corona del rey kobold",
   "entries": {
     "Albino Giant Bat": {
       "name": "Albino Giant Bat",
-      "blurb": "Variant giant bat",
+      "blurb": "Variante de murcielago gigante",
       "items": {
         "strike-melee->Fangs": {
-          "name": "Fangs"
+          "name": "colmillos"
         },
         "strike-melee->Wings": {
-          "name": "Wings"
+          "name": "Alas"
         },
         "action->Echolocation (Precise) 40 feet": {
           "name": "Echolocation (Precise) 40 pies",
@@ -23,7 +23,7 @@
     },
     "Ashen Guardian": {
       "name": "Ashen Guardian",
-      "blurb": "Variant Shadow",
+      "blurb": "Variante de sombra",
       "publicNotes": "<p>The mysterious undead known as shadows lurk in dark places and feed on those who stray too far from the light. Those who parley with shadows, typically by keeping them at bay with a glowing arma, may learn great secrets, for they are ideal spies.</p>",
       "items": {
         "strike-melee->Shadow Hand": {
@@ -34,7 +34,7 @@
           "description": "<p>An object shedding magical light (such as from the @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Light} conjuro) is treated as magical when used to attack the shadow.</p>"
         },
         "action->Shadow Spawn": {
-          "name": "Shadow Spawn",
+          "name": "Engendro sombrío",
           "description": "<p>When a criatura's shadow is pulled free by Steal Shadow, it becomes a @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.XrmHgbKgcHDi4OnK]{Shadow Spawn} under the command of the shadow that created it. Este shadow spawn doesn't have Steal Shadow and is perpetually and incurably @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2}. If the criatura the shadow spawn was pulled from dies, the shadow spawn becomes a full-fledged, autonomous shadow. If the criatura recovers from its @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeeblement}, its shadow returns to it and the shadow spawn is extinguished.</p>"
         },
         "action->Slink in Shadows": {
@@ -42,7 +42,7 @@
           "description": "<p>The shadow can @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} or end its @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak} in a criatura's or object's shadow.</p>"
         },
         "action->Steal Shadow": {
-          "name": "Steal Shadow",
+          "name": "Robar sombra",
           "description": "<p><strong>Requisito</strong> The shadow hit a living criatura with a shadow hand Golpe on its previous action.</p>\n<hr />\n<p><strong>Efecto</strong> The shadow pulls at el objetivo's shadow, making the criatura @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1}. Este is cumulative with other debilitado conditions from shadows, to a maximum of debilitado 4. If this increases a criatura's debilitado value to 3 or more, el objetivo's shadow is separated from its body. Enfeebled from Steal Shadow decreases by 1 every hour.</p>"
         }
       }
@@ -63,7 +63,7 @@
     "Charge of the Spear Legion": {
       "name": "Charge of the Spear Legion",
       "description": "<p>When triggered, the room lurches suddenly on its side, causing those in the room to slide down toward the double line of spears on the west wall while the statues on the east slide down on a pulley-and-roller system to smash into the victims.</p>",
-      "disable": "<p>@Check[thievery|dc:20] to deactivate the triggering pressure plate near the northern door</p>",
+      "disable": "<p>@Check[thievery|dc:20] para desactivar la placa de presion desencadenante cerca de la puerta norte</p>",
       "reset": "<p>After 1 minute, the chamber rights itself and resets the trap.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
@@ -78,7 +78,7 @@
     },
     "Cilios": {
       "name": "Cilios",
-      "blurb": "Variant male mummy guardian",
+      "blurb": "Variante de male mummy guardian",
       "hpDetails": "curación de vacío",
       "languages": "any one ancient language",
       "publicNotes": "<p>The majority of mummies were created by cruel and selfish masters to serve as guardians to protect their tombs from intruders. The traditional method of creating a mummy guardian is a laborious and sadistic process that begins well before the poor soul to be transformed is dead, during which the victim is ritualistically starved of nourishing food and instead fed strange spices, preservative agents, and toxins intended to quicken the desiccation of the flesh. The victim remains immobile but painfully aware during the final stages, where its now-useless entrails are extracted before it's shrouded in funerary wrappings and entombed within a necromantically ensorcelled sarcophagus to await intrusions in the potentially distant future. While it's certainly possible to use other methods to create a mummy guardian from an already-deceased body, those who seek to create these foul undead as their guardians in the afterlife often feel that such methods result in inferior undead-the pain and agony of death by mummification being an essential step in the process.</p>\n<p>Regardless of the method of their creation, mummy guardians are more than just physical shells of flesh and bone-they retain fragmented, distorted versions of their minds, with only enough memories of their living personality remaining to fuel their undead anger and jealousy of those who yet live. Este burning rage only intensifies over the centuries of waiting within a crypt for the chance to actually act, and thus when most mummy guardians are awoken by tomb robbers or adventurers, they stop at nothing in pursuit of glorious slaughter.</p>\n<hr />\n<p>While many cultures practice mummification of the dead for benign reasons, undead mummies are created through foul rituals, typically to provide eternally vigilant guardians.</p>",
@@ -109,10 +109,10 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.ucz1WdBA0Ma34OsS]\n<p>Este arma consists of a three-pronged barbed hook attached to a length of chain. It can be used as a melee arma to stab at foes or hurled as a ranged arma. Some kobolds are particularly fond of using flying talons, especially as a sort of badge of office above those who serve them.</p>"
         },
         "strike-melee->Flying Talon": {
-          "name": "Flying Talon"
+          "name": "Garra voladora"
         },
         "strike-ranged->Flying Talon": {
-          "name": "Flying Talon"
+          "name": "Garra voladora"
         },
         "action->No Retreat": {
           "name": "No Retreat",
@@ -145,7 +145,7 @@
     "Dismemberment Table": {
       "name": "Dismemberment Table",
       "acDetails": "18 when broken",
-      "blurb": "Variant animated object",
+      "blurb": "Variante de animated object",
       "items": {
         "strike-melee->Blade": {
           "name": "Blade"
@@ -158,7 +158,7 @@
           "description": "<p>Like normal objects, an animated armor has Hardness. Este Hardness reduces any daño it takes by an amount equal to the Hardness. Once an animated armor is reduced to less than half its Puntos de Golpe, or immediately upon being damaged by a critical hit, its armadura de constructo breaks and its ARMOR CLASS is reduced to 18.</p>"
         },
         "action->Haunted": {
-          "name": "Haunted",
+          "name": "Obsesionado",
           "description": "<p>The dismemberment table is powered by unquiet spirits, and it takes daño from vitality energy as if it were undead. Vitality energy bypasses the table's hardness.</p>"
         },
         "action->Disabling Strike": {
@@ -169,7 +169,7 @@
     },
     "Drazmorg The Damned": {
       "name": "Drazmorg The Damned",
-      "blurb": "Male variant wight necromancer",
+      "blurb": "Male variante de wight necromancer",
       "hpDetails": "curación de vacío",
       "items": {
         "spellcastingEntry->Arcane Prepared Spells": {
@@ -201,11 +201,11 @@
           "name": "Claw"
         },
         "action->Final Spite": {
-          "name": "Final Spite",
+          "name": "Rencor final",
           "description": "<p><strong>Desencadenante</strong> The wight is reduced to 0 Puntos de Golpe.</p>\n<hr />\n<p><strong>Efecto</strong> The wight makes a Golpe before being destroyed. It doesn't gain any temporary HP from drain life on this Golpe.</p>"
         },
         "action->Drain Life": {
-          "name": "Drain Life",
+          "name": "Drenar La Vida",
           "description": "<p>When the wight damages a living criatura with its claw Golpe, the wight gains [[/r 3 #Temporary Puntos de Golpe]]{3 Puntos de Golpe temporales} and the criatura must succeed at a @Check[fortitude|dc:25] save or become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1}. Further daño dealt by the wraith increases the amount of drain by 1 on a failed save to a maximum of drained 4.</p>"
         },
         "action->Raise Bone Wall": {
@@ -217,7 +217,7 @@
           "description": "<p>A living humanoid slain by a wight's claw Golpe rises as a @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.ZPjQkKVMi3xoPcU0]{Wight Spawn} after [[/br 1d4 #Wight Spawn Transformation]]{1d4 rounds}. Este wight spawn is under the command of the wight that killed it. It doesn't have Drain Life or Wight Spawn and becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} for as long as it is a wight spawn. If the creator of the wight spawn dies, the wight spawn becomes a full-fledged, autonomous wight; it regains its free will, gains Drain Life and Wight Spawn, and is no longer torpe.</p>"
         },
         "lore->Academia Lore": {
-          "name": "Academia Lore"
+          "name": "Saber de Academia"
         }
       }
     },
@@ -257,11 +257,11 @@
           "name": "Fist"
         },
         "action->Bardic Lore": {
-          "name": "Bardic Lore",
+          "name": "Saber bárdico",
           "description": "<p>Edgrin can Recall Knowledge on any subject with a +7 modifier.</p>"
         },
         "lore->Bardic Lore": {
-          "name": "Bardic Lore"
+          "name": "Saber bárdico"
         }
       }
     },
@@ -280,7 +280,7 @@
       }
     },
     "Falling Debris": {
-      "name": "Falling Debris",
+      "name": "Escombros que caen",
       "description": "<p>A net filled with stones and a small anvil crashes down on someone who steps into the room.</p>",
       "disable": "<p>@Check[thievery|dc:17] to disarm the trap through a cracked-open door, or <span class=\"action-glyph\">3</span> INTERACT to open the door slowly without triggering the trap</p>",
       "items": {
@@ -298,17 +298,17 @@
           "description": "<p>Filled with cheap ale and wine</p>"
         },
         "strike-melee->Dagger": {
-          "name": "Dagger"
+          "name": "Daga"
         },
         "strike-ranged->Shortbow": {
-          "name": "Shortbow"
+          "name": "Arco corto"
         },
         "action->Slightly Drunk": {
           "name": "Slightly Drunk",
           "description": "<p>When first encountered, the hunters are slightly drunk and take a -1 penalización to all checks until they sober up.</p>"
         },
         "lore->Hunting Lore": {
-          "name": "Hunting Lore"
+          "name": "Saber de Caza"
         }
       }
     },
@@ -372,10 +372,10 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.2RuepCemJhrpKKao]\n<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a healing potion, tú regain @Damage[1d8[healing]] Puntos de Golpe.</p>"
         },
         "strike-melee->Shortsword": {
-          "name": "Shortsword"
+          "name": "Espada corta"
         },
         "strike-ranged->Dagger": {
-          "name": "Dagger"
+          "name": "Daga"
         },
         "action->Knife 'n Run": {
           "name": "Knife 'n Run",
@@ -486,7 +486,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.WPSp5MLb0VOfmUqH]\n<p>Este ordinary-looking hat allows tú to cloak yourself in illusions.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> INTERACT</p>\n<p><strong>Frecuencia</strong> any number of times per day</p>\n<hr />\n<p><strong>Efecto</strong> The hat casts a 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{Illusory Disguise} conjuro on tú. While setting up the disguise, puedes magically alter the hat to appear as a comb, ribbon, helm, or other piece of headwear.</p>"
         },
         "strike-melee->Heartripper Blade": {
-          "name": "Heartripper Blade"
+          "name": "Hoja desgarracorazones"
         },
         "action->Smoky Retreat": {
           "name": "Smoky Retreat",
@@ -502,13 +502,13 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.ScclzFrjyB0YJlrb]\n<p>Adder venom is a simple but effective way to enhance a arma.</p>\n<hr />\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> INTERACT (Injury)</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:18]</p>\n<p><strong>Maximum Duration</strong> 3 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d8[poison]] daño (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[1d10[poison]] daño (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[2d6[poison]] daño (1 round)</p>"
         },
         "strike-melee->Hatchet": {
-          "name": "Hatchet"
+          "name": "Hacha de mano"
         },
         "strike-ranged->Hatchet": {
-          "name": "Hatchet"
+          "name": "Hacha de mano"
         },
         "strike-ranged->Crossbow": {
-          "name": "Crossbow"
+          "name": "Ballesta"
         },
         "action->Hurried Retreat": {
           "name": "Hurried Retreat",
@@ -537,7 +537,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRay of Enfeeblement"
         },
         "strike-melee->Dagger": {
-          "name": "Dagger"
+          "name": "Daga"
         },
         "action->Whispering Retreat": {
           "name": "Whispering Retreat",
@@ -564,10 +564,10 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.plplsXJsqrdqNQVI]\n<p>Este piece of wood or silver is emblazoned with an image representing a deity. Some divine spellcasters, such as clerics, can use a religious symbol of their deity as a divine focus to use certain abilities and cast some conjuros. A religious symbol must be held in one hand to use it.</p>"
         },
         "strike-melee->Light Hammer": {
-          "name": "Light Hammer"
+          "name": "Martillo ligero"
         },
         "strike-ranged->Light Hammer": {
-          "name": "Light Hammer"
+          "name": "Martillo ligero"
         },
         "action->Final Blasphemy": {
           "name": "Final Blasphemy",
@@ -615,14 +615,14 @@
           "description": "<p>Este oversized red and gold satin cloak has a crude painting of a gold dragon on the back.</p>"
         },
         "strike-melee->Battle Axe": {
-          "name": "Battle Axe"
+          "name": "Hacha de batalla"
         },
         "action->Imperious Retreat": {
           "name": "Imperious Retreat",
           "description": "<p><strong>Requisitos</strong> King Merlokrep is adjacent to at least one enemigo</p>\n<hr />\n<p><strong>Efecto</strong> King Merlokrep whips his fabulous satin cloak into the face of an adjacent criatura and attempts an @Check[intimidation|defense:will] check against that criatura's Will DC. On a success, the criatura is humiliated and distracted by the act and is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} until the end of King Merlokrep's next turn. King Merlokrep then Strides up to his Velocidad and gains a +2 bonificador de circunstancia to AC against reactions triggered by this movement. He must end this movement in a space that isn't adjacent to any enemigo.</p>"
         },
         "action->Signature Spells": {
-          "name": "Signature Spells",
+          "name": "Conjuros de signatura",
           "description": "<p>King Merlokrep can cast any of his signature conjuros (Fireball, Dispel Magic, and Magic Missile) as heightened versions freely.</p>"
         },
         "action->Rise From Death": {
@@ -633,7 +633,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>King Merlokrep deals an additional 1d6 daño de precisión to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} criaturas.</p>"
         },
         "lore->Mining Lore": {
-          "name": "Mining Lore"
+          "name": "Saber de Mineria"
         }
       }
     },
@@ -647,18 +647,18 @@
       },
       "items": {
         "strike-melee->Greatpick": {
-          "name": "Greatpick"
+          "name": "Gran pico"
         },
         "action->Bark Command": {
           "name": "Bark comando",
           "description": "<p><strong>Requisitos</strong> Lekmek hasn't attempted a Golpe on this turn yet</p>\n<hr />\n<p><strong>Efecto</strong> Lekmek barks a command to a lower-level kobold within 30 pies. That kobold can immediately take a Zancada or Golpe action.</p>"
         },
         "action->False Retreat": {
-          "name": "False Retreat",
+          "name": "Falsa retirada",
           "description": "<p><strong>Requisitos</strong> Lekmek is adjacent to at least one enemigo</p>\n<hr />\n<p><strong>Efecto</strong> Lekmek Strides, as if he were attempting to run away but is actually attempting to open a foe up for an attack. If Lekmek's Zancada triggers a reaction, he can attempt a greatpick Golpe (using his highest attack modifier) on the criatura that takes this reaction. If he does so, Lekmek gains a +1 bonificador de circunstancia on his tirada de ataque.</p>"
         },
         "lore->Mining Lore": {
-          "name": "Mining Lore"
+          "name": "Saber de Mineria"
         }
       }
     },
@@ -711,7 +711,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]\n<p>@UUID[Compendium.pf2e.spells-srd.Item.5KobTMrZeZxuXMgl]{Gecko Grip}</p>\n<hr />\n<p>Este baton is about a pies long and contains a single conjuro. The appearance typically relates to the conjuro within.</p>\n<p><strong>Activar</strong> Lanzar un conjuro</p>\n<p><strong>Frecuencia</strong> una vez al día, más sobrecarga</p>\n<hr />\n<p><strong>Efecto</strong> Lanzas the Spell at the indicated level.</p>\n<p><strong>Requisitos de fabricación</strong> Proporciona un casting of the conjuro.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
         },
         "strike-melee->Sickle": {
-          "name": "Sickle"
+          "name": "Hoz"
         },
         "action->Wild Retreat": {
           "name": "Wild Retreat",
@@ -730,7 +730,7 @@
           "description": "<p><strong>Desencadenante</strong> A criatura walks into a large pit's square;</p>\n<p><strong>Efecto</strong> The triggering criatura falls into the pit but can attempt a @Check[reflex|dc:18] save to @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{GRAB an Edge} to avoid falling. On a failure, a criatura falls 20 pies into an eye-filled pit. The eyes cushion the fall so the 20-pies fall inflicts only @Damage[5[bludgeoning]|options:fall-daño] daño, but they also completely obscure vision; a character is effectively blind as long as they remain in the pit. The walls of the pit are slick, though a character can @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{CLIMB} them with a successful @Check[athletics|dc:25] check.</p>"
         },
         "action->Trip": {
-          "name": "Trip",
+          "name": "Derribar",
           "description": "<p><strong>Desencadenante</strong> A criatura walks into a small pit's square;</p>\n<p><strong>Efecto</strong> The triggering criatura must succeed at a @Check[reflex|dc:18] save or fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} (on a critical failure, the criatura also twists its ankle and becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} until it receives any amount of healing).</p>"
         }
       }
@@ -817,7 +817,7 @@
     },
     "The Disciples": {
       "name": "The Disciples",
-      "blurb": "Variant unrisen",
+      "blurb": "Variante de unrisen",
       "hpDetails": "curación de vacío",
       "languages": "(no puede hablar ningún idioma)",
       "publicNotes": "<p>An unrisen is a mangled conglomeration of splintered bones, decaying organs, and rotting flesh, created when a ritual such as resurrect goes catastrophically wrong. Immense care must be taken, for if the ritual is a critical failure, an unrisen can be the result—as many a ritualist has learned to their horror.</p>\n<p>Unrisen are barely intelligent, aware only of the agony constantly inflicted by their flawed creation and their resentment for the living. They tend to attack the casters involved in the botched ritual first before lashing out at everyone else around them. Though an unrisen's twisted form is unrecognizable as the intended target of the resurrection, its wordless howls are often disturbingly similar to the deceased's voice. If an unrisen is destroyed before it can rise again, it's reduced to a handful of metallic blue-green salts referred to as essential salts.</p>",
@@ -949,7 +949,7 @@
       "disable": "<p>@Check[crafting|dc:16] to quickly jury-rig some supports to prevent the stairs from collapsing</p>",
       "items": {
         "action->Collapse": {
-          "name": "Collapse",
+          "name": "Desplome",
           "description": "<p><strong>Desencadenante</strong> A Small or larger criatura attempts to CLIMB the stairs;</p>\n<p><strong>Efecto</strong> The stairs attempt a @Check[flat|dc:8] (if a Small criatura triggered the hazard) or a @Check[flat|dc:16] (if a Medium or multiple Small criaturas triggered it). On a failure, the stairs collapse. All criaturas on the stairs fall and take @Damage[(2d6 + 3)[bludgeoning]] daño from the collapsing rubble (@Check[reflex|dc:16|basic]).</p>"
         }
       }
@@ -959,7 +959,7 @@
       "publicNotes": "<p>Vargouilles are scavengers from the swamps of Abaddon, where they flop and flap through strange and haunted skies in constant search of fresh souls to torment. In this daemonic nightmare realm, vargouilles play a role similar to that of a raven or vulture, although they augment these roles with a malevolent delight in causing pain and anguish that no scavenger bird could ever hope to match. A vargouille is larger than a human head, typically between 12 and 20 inches high with a 15- to 35-inch wingspan. While vargouilles aren't natives of the Material Plane, they can be found there nevertheless, occupying graveyards, ancient battlefields, or anywhere one can find remnants of death and decay.</p>",
       "items": {
         "strike-melee->Bite": {
-          "name": "Bite"
+          "name": "Morder"
         },
         "action->Tenacious Wounds": {
           "name": "Tenacious Wounds",
@@ -992,10 +992,10 @@
           "gmNote": "<p>To prisoner cages</p>"
         },
         "strike-melee->Flying Talon": {
-          "name": "Flying Talon"
+          "name": "Garra voladora"
         },
         "strike-ranged->Flying Talon": {
-          "name": "Flying Talon"
+          "name": "Garra voladora"
         },
         "action->Intimidating Retreat": {
           "name": "Intimidating Retreat",

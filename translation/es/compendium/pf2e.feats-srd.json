@@ -15,7 +15,7 @@
       "description": "<p>Te transformas en un pajaro pequeño, como un pinzon o un gorrion, lo que te permite escuchar conversaciones ajenas y obtener informacion que de otro modo no podrias adquirir. Te vuelves Diminuto, obtienes el rasgo animal y no puedes hacer Golpes. Puedes Descartar el efecto para volver a tu forma normal, y recuperas tu forma normal automaticamente si quedas reducido a 0 Puntos de Golpe.</p>\n<p>Obtienes las siguientes estadisticas y aptitudes:</p>\n<p>CA = 20 + tu nivel. Ignora el penalizador de prueba y la reduccion de Velocidad de tu armadura.</p>\n<p>Velocidad de vuelo 25 pies.</p>\n<p>Debilidad 5 al daño fisico.</p>\n<p>Vision en penumbra y olfato impreciso 30 pies.</p>\n<p>Modificadores de Acrobacias y SIGILO +10, salvo que los tuyos sean mayores; modificador de ATLETISMO -4.</p>",
       "prerequisites": [
         {
-          "value": "Venture-Gossip Dedication"
+          "value": "Dedicacion de cotilla de expediciones"
         }
       ],
       "selfEffect": "Efecto: Me lo dijo un pajarito..."
@@ -239,7 +239,7 @@
           "value": "Dedicación de celebridades"
         },
         {
-          "value": "Mesmerizing Gaze"
+          "value": "Mirada fascinante"
         }
       ]
     },
@@ -946,7 +946,7 @@
       "description": "<p><strong>Requisitos</strong> Tu nimbo esta activo.</p>\n<hr />\n<p>Transfieres una porcion de tu chispa divina a un aliado, atenuando temporalmente tu nimbo para envolver a un aliado en una barrera de luz que repele atacantes. Selecciona una criatura voluntaria dentro de la luz brillante de tu nimbo. Rodeas al objetivo con una barrera protectora de luz; esta es una @Template[type:emanation|distance:10] centrada en el objetivo. Esta barrera dura 1 minuto, o hasta que la Descartes. Mientras la Egida para los inocentes esta activa, el area de tu nimbo se reduce a la mitad.</p>\n<p>El objetivo obtiene un bonificador de estado +1 a la CA. Cualquier enemigo dentro de la barrera, o que entre en la barrera, debe intentar un tiro de salvacion de @Check[fortitude|against:class-spell|options:area-effect,damaging-effect] contra tu CD DE CLASE o tu CD de conjuro. Una criatura solo necesita intentar esta salvacion una vez por asalto.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.dFNh66uyI5yxVKbt]{Efecto: Egida para los inocentes}</p>\n<hr />\n<p><strong>Exito critico</strong> La criatura no se ve afectada.</p>\n<p><strong>Exito</strong> La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrada} durante 1 asalto y trata el espacio dentro de la barrera como terreno dificil.</p>\n<p><strong>Fallo</strong> La criatura queda deslumbrada durante 1 minuto, es empujada 10 pies y trata el espacio dentro de la barrera como terreno dificil. Si una criatura fuera empujada contra una barrera solida u otra criatura, se detiene en ese punto y recibe @Damage[2d6[bludgeoning]|options:area-damage] de daño.</p>\n<p><strong>Fallo critico</strong> Como fallo, pero la criatura tambien queda @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegada} durante 1 asalto.</p>",
       "prerequisites": [
         {
-          "value": "Ascended Celestial Dedication"
+          "value": "Dedicacion de celestial ascendido"
         }
       ]
     },
@@ -1031,7 +1031,7 @@
       "description": "<p>La magia armoniosa de Nirvana fluye a traves de ti. Puedes lanzar @UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{Forma animal} y @UUID[Compendium.pf2e.spells-srd.Item.b515AZlB0sridKSq]{Calma} una vez al dia cada uno como conjuros innatos divinos de rango 2.</p>",
       "prerequisites": [
         {
-          "value": "Idyllkin"
+          "value": "Idilkin"
         }
       ]
     },
@@ -1105,7 +1105,7 @@
     "Air Shroud": {
       "name": "Cubierta de aire",
       "description": "<p> El aire turbulento inunda tu aura cinética. Esto no desplaza otra materia, sino que proporciona aire a las criaturas de tu aura cinética que necesitan aire para respirar. Los ataques con armas a distancia reciben una penalización de circunstancia de -1 a sus tiradas de ataque si sus caminos pasan a través de tu aura cinética. El aire en tu aura cinética es un terreno difícil para otras criaturas voladoras además de ti. </p>",
-      "selfEffect": "Stance: Air Shroud"
+      "selfEffect": "Postura: Cubierta de aire"
     },
     "Airborne Form": {
       "name": "Forma aerotransportada",
@@ -2224,7 +2224,7 @@
       "description": "<p> Eres descendiente de las valquirias que protegen a las almas dignas y pueden contener las garras de la muerte. Puedes lanzar @UUID[Compendium.pf2e.spells-srd.Item.Hnc7eGi7vyZenAIm]{Breath of Life} como un hechizo divino innato una vez al día. </p>",
       "prerequisites": [
         {
-          "value": "Battleblooded"
+          "value": "Sangre de batalla"
         }
       ]
     },
@@ -2516,7 +2516,7 @@
     "Assume Earth's Mantle": {
       "name": "Asumir el manto de la Tierra",
       "description": "<p> Enormes trozos de roca se agrupan alrededor de tu cuerpo. Puedes descartar este impulso. </p>\n <ul>\n <li> Te vuelves Grande si fueras más pequeño. Esto aumenta su alcance en 5 pies (o en 10 pies si comenzó siendo Tiny). </li>\n <li> Obtienes una velocidad de ascenso igual a tu velocidad terrestre, pero solo puedes usarla para escalar superficies de materia terrestre. </li>\n <li> La armadura te otorga un bono de circunstancia +1 a tus salvaciones de Fortaleza y un bono de circunstancia +2bonificación a tus DC de Fortaleza o Reflejos contra intentos de @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} ti, @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} ti, o derribarte @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} . </li>\n <li> Si tu Fuerza está por debajo de +4, esta armadura aumenta tu Fuerza a +4. Si tu Fuerza es +4 o superior, esta armadura te otorga una bonificación de +1 elemento a tu Fuerza. </li>\n <li> Si tienes el impulso Armadura en la Tierra, puedes agregar sus efectos a Asumir el Manto de la Tierra. </li>\n </ul>",
-      "selfEffect": "Stance: Assume Earth's Mantle"
+      "selfEffect": "Postura: asumir el manto de la Tierra"
     },
     "Assume Godhood": {
       "name": "Asumir divinidad",
@@ -2580,7 +2580,7 @@
       "description": "<p>Puedes lanzar @UUID[Compendium.pf2e.spells-srd.Item.TaaMEYdZXQXF0Sks]{Vendetta sangrienta} y @UUID[Compendium.pf2e.spells-srd.Item.dLdRqT6UxTKlsPgp]{Doblar a muerto} una vez al dia cada uno como conjuros innatos divinos de rango 2.</p>",
       "prerequisites": [
         {
-          "value": "Faultspawn"
+          "value": "Vástago de asura"
         }
       ]
     },
@@ -3004,7 +3004,7 @@
       "description": "<p> Posees una gran comprensión del proceso entre mortales y forasteros legales por igual. La fuente de este conocimiento puede ser la intuición, el estudio o una infancia transcurrida entre otras aforitas. </p>\n <p> Obtienes el rango de competencia entrenada en Diplomacia y Sociedad. Si automáticamente se capacita en una de esas habilidades (de su experiencia o clase, por ejemplo), en su lugar se capacita en una habilidad de su elección. También te capacitarás en Axis Lore.</p>\n <hr />\n <p> <em> Nota: Si ya estás entrenado en la habilidad proporcionada por esta dote, debes seleccionar manualmente una habilidad alternativa. También debes ingresar manualmente la habilidad Saber otorgada. </em> </p>",
       "prerequisites": [
         {
-          "value": "Aeonbound"
+          "value": "Vinculado al eon"
         }
       ]
     },
@@ -4600,7 +4600,7 @@
       "description": "<p>When tú would benefit from a blood magic effect through Blood Rising, puedes elige to benefit from two different blood magic effects tú know. The effects follow the same rules as given in Blood Rising, and each effect can have a different target.</p>",
       "prerequisites": [
         {
-          "value": "Blood Rising"
+          "value": "Sangre en ascenso"
         }
       ]
     },
@@ -4947,7 +4947,7 @@
       "description": "<p> Te encierras en huesos de dinosaurios espirituales para convertirte en un dinosaurio enorme. Puedes lanzar @UUID[Compendium.pf2e.spells-srd.Item.KhM8MhoUgoUjBMIz]{Dinosaur Form} sobre ti mismo como un hechizo innato primario de quinto rango una vez al día. </p>",
       "prerequisites": [
         {
-          "value": "Bone Magic"
+          "value": "Magia de huesos"
         }
       ]
     },
@@ -5370,7 +5370,7 @@
     "Buckler Dance": {
       "name": "Danza del escudo",
       "description": "<p> <strong> Requisitos </strong> Estás empuñando un @UUID[Compendium.pf2e.equipment-srd.Item.1k3AsSW7lpU0kEpY]{Buckler} . </p>\n <hr />\n <p> Giras tu escudo defensivamente ante cada ataque. Mientras estás en esta postura, constantemente tienes tu escudo levantado como si hubieras usado @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Alzar un escudo} , siempre y cuando cumplas con los requisitos de esa acción. </p>",
-      "selfEffect": "Stance: Buckler Dance"
+      "selfEffect": "Postura: Danza del escudo"
     },
     "Build the First Walls": {
       "name": "Alzar los primeros muros",
@@ -5558,7 +5558,7 @@
       "description": "<p>Either by beseeching a dragon or bending it to tu will, tú conjure a mighty criatura to assist tú. Una vez al día while estás @UUID[Compendium.pf2e.actionspf2e.Item.Ce9vzE3XWn0u5NcL]{Channeling Draconic Essence}, puedes cast @UUID[Compendium.pf2e.spells-srd.Item.kghwmH3tQjMIhdH1]{Summon Dragon} as an innate conjuro with a tradition matching tu draconic exemplar, heightened to half tu level rounded up.</p>",
       "prerequisites": [
         {
-          "value": "Draconic Acolyte Dedication"
+          "value": "Dedicación de acólito dracónico"
         }
       ]
     },
@@ -6414,7 +6414,7 @@
       "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p>Te conectas con la consciencia colectiva de la Mente Divina, la entidad gobernante de la sociedad axiomita, para analizar rápidamente variables casi infinitas y leer tu entorno. Durante 1 minuto, obtienes sentido del movimiento preciso hasta 60 pies, puedes ver criaturas y objetos @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisibles}, y obtienes los beneficios de @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]{Visión verdadera} (con un modificador de prueba de contrarrestar igual a tu modificador de Percepción).</p>",
       "prerequisites": [
         {
-          "value": "Aeonbound"
+          "value": "Vinculado al eon"
         }
       ],
       "selfEffect": "Efecto: Canalizar la Mente Divina"
@@ -6530,7 +6530,7 @@
       "description": "<p> <strong> Desencadenante </strong> Una criatura dentro de 30 pies falla críticamente su tirada de salvación inicial contra un veneno que tú creaste. </p>\n <hr />\n <p> Con enzimas cuidadosamente diseñadas, consigues que parte de tu veneno infecte a otro objetivo, utilizando a la víctima original como portador. Una criatura adyacente a la criatura desencadenante está expuesta al veneno desencadenante. </p>",
       "prerequisites": [
         {
-          "value": "Poisoner Dedication"
+          "value": "Dedicación del envenenador"
         }
       ]
     },
@@ -6982,7 +6982,7 @@
     "Cobra Stance": {
       "name": "Postura de cobra",
       "description": "<p> Entras en una postura tensa, enroscado como una cobra azotadora con las manos en posición de colmillos venenosos. </p>\n <p> Mientras estás en esta postura, los únicos ataques que puedes realizar son ataques desarmados con colmillos de cobra. Estos causan 1d4 de daño por veneno; están en el grupo de pelea; y tiene los rasgos ágil, mortal d10, delicadeza, no letal, veneno y desarmado. </p>\n <p> Mientras estás en Posición Cobra, obtienes una bonificación de circunstancia +1 a las salvaciones de Fortaleza y a tu CD de Fortaleza, y obtienesResistencia al veneno igual a la mitad de tu nivel. </p>",
-      "selfEffect": "Stance: Cobra Stance"
+      "selfEffect": "Postura: Postura de cobra"
     },
     "Coffin Bound": {
       "name": "Atado al ataúd",
@@ -8070,7 +8070,7 @@
     "Crane Stance": {
       "name": "Posición De La Grulla",
       "description": "<p> <strong> Requisitos </strong> Estás desarmado </p>\n <hr />\n <p> Entras en la postura de una grulla, sosteniendo tus brazos en una imitación de las alas de una grulla y usando movimientos fluidos y defensivos. </p>\n <p> Obtienes una bonificación de circunstancia +1 a la CA, pero los únicos ataques que puedes realizar son ataques con alas de grúa. Estos causan 1d6 de daño contundente; están en el grupo de pelea; y tener rasgos ágiles, delicados, no letales y desarmados. </p><p> Mientras estás en postura de grúa, reduce la CD para salto de altura y salto de longitud en 5, y cuando saltas, puedes moverte 5 pies adicionales en horizontal o 2 pies en vertical. </p>",
-      "selfEffect": "Stance: Crane Stance"
+      "selfEffect": "Postura: Postura de la Grulla"
     },
     "Cranial Detonation": {
       "name": "Detonacion craneal",
@@ -8331,7 +8331,7 @@
     "Crowned in Tempest's Fury": {
       "name": "Coronado en la furia de la tempestad",
       "description": "<p> Te vuelves uno con una tormenta devastadora del Plano de Aire, colocando una corona de relámpagos sobre tu frente. Chispas destellan en tus ojos y relámpagos caen constantemente en el aire a tu alrededor mientras los vientos aulladores te levantan del suelo. </p>\n <ul>\n <li> Cualquier criatura que entre en tu aura cinética o termine su turno allí sufre @Damage[2d12[electricity]] daño. </li>\n <li> Si no tienes Velocidad de vuelo, obtienes una Velocidad de vuelo de 20 pies. Si tienes el ciclónicoImpulso de ascenso, en cambio obtienes esa velocidad de vuelo y los beneficios adicionales. </li>\n <li> Obtienes una bonificación de estado de +10 pies a todas tus velocidades. </li>\n <li> Tus Explosiones elementales de aire causan un @Damage[1d12[electricity]] de daño adicional. </li>\n </ul>",
-      "selfEffect": "Stance: Crowned in Tempest's Fury"
+      "selfEffect": "Postura: Coronado por la furia de la tempestad"
     },
     "Crude Communication": {
       "name": "Comunicación cruda",
@@ -8558,7 +8558,7 @@
       "description": "<p>Inspired by the sixth line of the Crimson Oath, when tú oppose the enemies of Lastwall, tú aim to excise the rot from the land itself. Make a Golpe against an undead criatura using a arma with which tienes maestro proficiency. On a success, in addition to the attack's other effects, the criatura takes a –2 penalización de estado to the DC of any curses, diseases, or poisons it can inflict for 1 round. On a critical success, the undead criatura takes the –2 penalización de estado for 1 round, then a –1 penalización de estado for an additional round.</p>",
       "prerequisites": [
         {
-          "value": "Knight Reclaimant Dedication"
+          "value": "Dedicación del Caballero Reclamante"
         },
         {
           "value": "maestro proficiency in a arma"
@@ -9293,7 +9293,7 @@
       "description": "<p>Look, getting caught in a lie is a normal part of venture-gossip life. Sometimes tienes to give a sheepish smile and apologize for what has done. When tú fail a DECEPTION check, reroll with tu DIPLOMACY modifier. On a success, there are no hard feelings and the other person's attitude condition doesn't worsen. On a critical success, puedes attempt the DECEPTION again with no consequences.</p>",
       "prerequisites": [
         {
-          "value": "Venture-Gossip Dedication"
+          "value": "Dedicacion de cotilla de expediciones"
         },
         {
           "value": "maestro in Diplomacia"
@@ -9583,7 +9583,7 @@
     "Desert Wind": {
       "name": "Viento del desierto",
       "description": "<p> Un vórtice de arena y polvo te rodea. Cada criatura dentro de tu aura cinética (incluido tú) está @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} de cualquier criatura fuera de tu aura cinética, y las criaturas fuera del aura están ocultas de las criaturas dentro del aura que no sean tú. Tus impulsos de aire arrastran arenas que cortan a gran velocidad. </p>\n <p> Cuando usas un impulso de aire dañino que afecta al menos a una criatura en tu aura cinética, ese impulso causa 1 daño cortante adicional, o2 si el impulso tiene un único objetivo. </p>\n <hr />\n <p> <strong> Nivel (+2) </strong> El daño extra aumenta en 1, o 2 si el impulso tiene un único objetivo. </p>",
-      "selfEffect": "Stance: Desert Wind"
+      "selfEffect": "Postura: Viento del Desierto"
     },
     "Desiccating Inhalation": {
       "name": "Inhalacion secante",
@@ -9979,7 +9979,7 @@
           "value": "rango entrenado en Atletismo"
         }
       ],
-      "selfEffect": "Stance: Disarming Stance"
+      "selfEffect": "Postura: Postura de desarme"
     },
     "Disarming Twist": {
       "name": "Giro desarmante",
@@ -10167,7 +10167,7 @@
     "Disruptive Stance": {
       "name": "Posición perturbadora",
       "description": "<p> La más nimia de las distracciones puede provocar tu ira, y estás preparado para frustrar las acciones de tus enemigos. Mientras permanezcas en esta posición, podrás utilizar @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{Golpe reactivo} cuando una criatura a tu alcance utilice una acción de concentrar, además de las de manipular y de mover. Además, perturbas una acción desencadenante de concentrar o de manipular si tu Golpe acierta (no sólo si es un impacto crítico).</p>",
-      "selfEffect": "Stance: Disruptive Stance"
+      "selfEffect": "Postura: Postura disruptiva"
     },
     "Disruptive Stare": {
       "name": "Mirada disruptiva",
@@ -11166,7 +11166,7 @@
     "Drifting Pollen": {
       "name": "Polen a la deriva",
       "description": "<p> Una neblina de polen flota a tu alrededor. Una criatura en tu aura cinética cuando entras en la postura, o que luego entra en el aura o termina su turno en el aura, intenta realizar una salvación @Check[type:fortitude|dc:resolve(@actor.system.proficiencies.classDCs.kineticist.dc)] contra tu CD de clase. En caso de falla, es @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} ( @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 2} en una falla crítica) y @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado} hasta que ya no esté enfermo. Una criatura intenta esta salvación no más de una vez por ronda y no intenta una nueva salvación si ya está afectada.</p>",
-      "selfEffect": "Stance: Drifting Pollen"
+      "selfEffect": "Postura: polen a la deriva"
     },
     "Drilled Reflexes": {
       "name": "Reflejos instruidos",
@@ -11333,7 +11333,7 @@
           "value": "Parada de duelo"
         }
       ],
-      "selfEffect": "Stance: Dueling Dance"
+      "selfEffect": "Posición: Danza de duelo"
     },
     "Dueling Dance (Swashbuckler)": {
       "name": "Danza de duelo (espadachín)",
@@ -11343,7 +11343,7 @@
           "value": "Parada de duelo"
         }
       ],
-      "selfEffect": "Stance: Dueling Dance"
+      "selfEffect": "Posición: Danza de duelo"
     },
     "Dueling Parry": {
       "name": "Parada de duelo",
@@ -12795,7 +12795,7 @@
       "description": "<p>Elegant and expensive components are no replacement for tu skill and practice at ritual casting. If a ritual has a Cost entry that has a value in gp, reduce the amount necesitas to spend by 10%. If tú critically succeed at the primary check for a ritual, the gp value of components the ritual consumes is reduced by the same amount. For example, using resurrect to bring back a 14th-level criatura normally costs 1,050 gp, but would cost tú only 945 gp; and if tú critically succeeded at the primary RELIGION check, tú would spend only 840 gp.</p>",
       "prerequisites": [
         {
-          "value": "Ritualist Dedication"
+          "value": "Dedicación ritualista"
         }
       ]
     },
@@ -12838,7 +12838,7 @@
           "value": "maestría en diplomacia"
         },
         {
-          "value": "Hobnobber"
+          "value": "Confraternizador"
         }
       ],
       "rules": {
@@ -12893,7 +12893,7 @@
       "description": "<p>Having experienced the harshest environs that NATURE has to offer, tu body is able to adapt to intense heat and cold. During tu daily preparations, puedes elige to become protected from the effects of severe cold or severe heat until the next time tú make tu daily preparations. Starting at 12th level, this activity also protects tú from the effects of extreme cold or extreme heat.</p>",
       "prerequisites": [
         {
-          "value": "Wild Mimic Dedication"
+          "value": "Dedicación de imitador salvaje"
         }
       ]
     },
@@ -13156,7 +13156,7 @@
     "Everstand Stance": {
       "name": "Postura eterna",
       "description": "<p> <strong> Requisitos </strong> Estás empuñando un escudo. </p>\n <hr />\n <p> Apoyas tu escudo con ambas manos, mejorando su potencial tanto para ataque como para defensa. Cuando estás en esta postura, empuñas el escudo con ambas manos. Al empuñar un escudo de esta manera, aumenta el daño del arma del jefe o los picos del escudo en un paso, y aumenta la dureza del escudo en 2 cuando usas la reacción @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block}. </p>",
-      "selfEffect": "Stance: Everstand Stance"
+      "selfEffect": "Postura: Postura Everstand"
     },
     "Everstand Strike": {
       "name": "Huelga eterna",
@@ -13429,7 +13429,7 @@
       "description": "<p> Cuando realizas el ritual @UUID[Compendium.pf2e.spells-srd.Item.ofAQyLtLEGnOIs3N]{Harrowing}, la CD para la prueba primaria nunca es mayor que la CD estándar por nivel, y el costo del ritual se reduce a la mitad. Si utilizas una baraja de grada fina, el coste del ritual se elimina por completo. </p>",
       "prerequisites": [
         {
-          "value": "Harrower Dedication"
+          "value": "Dedicación del harrower"
         }
       ]
     },
@@ -13933,7 +13933,7 @@
       "description": "<p>When tú use Extraplanar Haze, puedes spend 1 additional action to disperse the particles as a @Template[type:emanation|distance:10] cloud centered on tú instead of as a haze; the activity gains the concentrate rasgo. All criaturas within the cloud become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto}, and all criaturas outside the cloud become concealed to criaturas within it.</p>",
       "prerequisites": [
         {
-          "value": "Extraplanar Haze"
+          "value": "Bruma extraplanar"
         }
       ]
     },
@@ -14014,7 +14014,7 @@
       "description": "<p>When tú successfully @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about a criatura puedes see, tú automatically learn if it has a weakness to holy or unholy in addition to any other results. If tú critically succeed at the check to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}, that criatura is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to tú until the end of tu turn.</p>",
       "prerequisites": [
         {
-          "value": "Sister of the Golden Erinys Dedication"
+          "value": "Dedicación de Hermana de la Erinia Dorada"
         }
       ]
     },
@@ -14314,7 +14314,7 @@
       "description": "<p>When tú weave magic, tu familiar traces symbols that throw off fear and doubt. If the next action tú use is to Lanzar un conjuro, tú or an ally within 30 pies gain a +2 bonificador de estado to tiradas de salvación against effects that would cause tú to be doomed or asustado for 1 round. At 14th level, tú or an ally gain a +3 bonificador de estado to tiradas de salvación against these effects instead.</p>",
       "prerequisites": [
         {
-          "value": "Familiar Sage Dedication"
+          "value": "Dedicación del sabio de familiar"
         }
       ]
     },
@@ -14351,7 +14351,7 @@
     "Fane's Fourberie": {
       "name": "Fourberie de Fane",
       "description": "<p> Stella Fane ha perfeccionado una técnica para usar naipes como armas que es en parte juego de manos y en parte magia. </p>\n <p> Cuando entres en esta postura, elige si tratar las cartas que tienes en tu poder como dagas o dardos; Puedes empuñar una carta de juego en todas las formas como arma elegida hasta que finalice la postura. Mientras la mayor parte del mazo permanezca en tu poder, cualquier carta que se pierda o se tire se podrá encontrar después de 1 minuto. De lo contrario, elLas cartas restantes probablemente se pierdan o destruyan. </p>\n <p> Un personaje que tiene esta dote puede encantar una sola baraja de cartas como arma mágica, grabando runas fundamentales y de propiedad directamente en la baraja de cartas. </p>",
-      "selfEffect": "Stance: Fane's Fourberie"
+      "selfEffect": "Postura: Fourberie de Fane"
     },
     "Fang Sharpener": {
       "name": "Fang Sharpener",
@@ -14730,7 +14730,7 @@
       "description": "<p>The eyes and noses of animals are naturally sharper than most humanoids. While in tu hybrid or animal shape, obtienes low-light vision and imprecise scent with a range of 30 pies.</p>",
       "prerequisites": [
         {
-          "value": "Werecreature Dedication"
+          "value": "Dedicacion de licantropo"
         }
       ]
     },
@@ -15614,7 +15614,7 @@
       "description": "<p>The simple and precise movements of tu hands allow tú to deflect blows with the same efficacy as a raised shield. When tú parry with tu fist, increase the bonificador de circunstancia to AC it grants from +1 to +2.</p>",
       "prerequisites": [
         {
-          "value": "Spirit Warrior Dedication"
+          "value": "Dedicación de Guerrero espiritual"
         }
       ]
     },
@@ -16559,7 +16559,7 @@
       "description": "<p>Though tu enemigo wields shadow and darkness as armas, they are no impediment to tú when tú ride tu trusted horse. To that end, tu mount can step onto patches of darkness as if they were solid. When tu horse moves through an area of darkness, it can treat empty spaces as solid ground. Este allows tu horse to move across gaps bridged by darkness or even into the air, ascending or descending at a maximum of a 45-degree angle. If tu horse isn't on actual solid ground and the area tu horse is in becomes dim light or brighter, tu horse falls.</p>",
       "prerequisites": [
         {
-          "value": "Nidalese Horselord Dedication"
+          "value": "Dedicación de señor de los caballos nidalés"
         }
       ]
     },
@@ -16761,7 +16761,7 @@
     "Geologic Attunement": {
       "name": "Sintonía geológica",
       "description": "<p> Te sintonizas con la tierra y la piedra que te rodean, extendiendo tus sentidos a través de ellas en ondas ondulantes. Ganas sentido de temblor (impreciso) en tu aura cinética. Una vez por ronda, puedes @UUID[Compendium.pf2e.actionspf2e.Item.sn2hIy1iIJX9Vpgj]{Point Out} una criatura que puedes sentir con temblor como acción gratuita. </p>\n <p> @UUID[Compendium.pf2e.feat-effects.Item.ebCWQB5nfK19GpY5]{Stance: Geologic Attunement} </p>\n <hr />\n <p> <strong> Nivel (13) </strong> El sentido del temblor se vuelve preciso. </p>",
-      "selfEffect": "Stance: Geologic Attunement"
+      "selfEffect": "Postura: Sintonía Geológica"
     },
     "Geomancer Dedication": {
       "name": "Dedicación del geomante",
@@ -17417,7 +17417,7 @@
     "Gorilla Stance": {
       "name": "Postura del gorila",
       "description": "<p> Te bajas al suelo y adoptas una postura imponente para caminar con los nudillos. </p>\n <p> Mientras estás en esta postura, los únicos golpes que puedes realizar son ataques desarmados con golpe de gorila. Estos causan 1d8 de daño contundente; están en el grupo de pelea; y tener los rasgos de retroceso, contundente, de agarre, no letal y desarmado. </p>\n <p> Mientras estás en Posición de gorila, obtienes un bonificador +2 de circunstancia a las pruebas de Atletismo para @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Trepar}, y si tirasSi tienes éxito en una prueba de Atletismo para Trepar, en su lugar obtienes un éxito crítico. </p>",
-      "selfEffect": "Stance: Gorilla Stance"
+      "selfEffect": "Postura: Postura del gorila"
     },
     "Goring Charge": {
       "name": "Carga empaladora",
@@ -17456,7 +17456,7 @@
           "value": "Doble tajo"
         }
       ],
-      "selfEffect": "Stance: Graceful Poise"
+      "selfEffect": "Postura: aplomo elegante"
     },
     "Graft Technician": {
       "name": "Técnico de injertos",
@@ -18662,7 +18662,7 @@
       "description": "<p> <strong> Requisitos </strong> Tienes un presagio de grada activo. </p>\n <hr />\n <p> Sacas una carta de tu mazo de Harrow justo antes de lanzar un hechizo para infundir tu magia con el potencial destinado. Si tu próxima acción es lanzar un hechizo, el palo de la carta que robas mejora el hechizo de una de las siguientes maneras. Si la carta que robas coincide con el palo de tu presagio de grada activa, el efecto se mejora aún más como se detalla a continuación. Cuando Harrow Cast,intente un @Check[type:flat|dc:11] . Si fallas esta prueba, perderás tu presagio de grada activa al final de tu turno. </p>\n <p> <strong> Martillo </strong> Se potencia la fuerza del hechizo. Este efecto solo mejora los hechizos ofensivos de un solo objetivo que requieren que realices un ataque de hechizo exitoso o que requieran una tirada de salvación del objetivo para resistir. Si golpeas al objetivo, o si falla su tirada de salvación, el hechizo inflige daño de fuerza adicional igual al rango del hechizo. EsteEl daño adicional se duplica si el presagio de tu grada es Hammers. </p>\n <p> <strong> Clave </strong> Parte de la magia permanece atrás, infundiendo tus defensas. Hasta el comienzo de tu siguiente turno, obtienes una bonificación de estado de +1 a tu CA y a todas las tiradas de salvación. Si tu presagio de grada son Llaves, esto aumenta a una bonificación de estado de +2. </p>\n <p> <strong> Escudo </strong> A medida que la magia del hechizo surte efecto, también te cura, restaurando puntos de vida iguales a 2d6 + elrango del hechizo. Si tu presagio de grada son Escudos, los puntos de vida restaurados aumentan a 4d6 + el doble del rango del hechizo. </p>\n <p> <strong> Libro </strong> La magia del hechizo infunde en tu mente ideas repentinas sobre el objetivo. Puedes intentar recuperar el conocimiento sobre el objetivo como acción gratuita, usando tu tirada de ataque con hechizos para realizar la prueba. Obtienes una bonificación de estado +2 a esta tirada si los Libros son tu horrendo presagio. </p>\n <p> <strong> Estrella </strong>La magia del hechizo refuerza a aquellos a quienes ayuda. Este efecto sólo mejora los hechizos de un solo objetivo lanzados sobre sujetos dispuestos. La magia restaura puntos de vida al objetivo afectado equivalentes a 2d6 + el rango del hechizo. Si tu presagio de grada es Estrellas, la magia también otorga al objetivo una bonificación de estado de +2 a todas las tiradas de salvación hasta el comienzo de tu siguiente turno. </p>\n <p> <strong> Corona </strong> La magia del hechizo es @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido} y ​​sutil, y es posible que los observadores no se den cuenta de que estáshacer algo más que manipular cartas en tu mazo de grada. Intente una prueba de Saber adivinación contra las CD de Percepción de todos los observadores. Si tu prueba tiene éxito contra la CD de Percepción de un observador, ese observador no se dará cuenta de que estás lanzando un hechizo, aunque normalmente los hechizos tienen manifestaciones sensoriales. Esto oculta sólo las acciones y manifestaciones de lanzamiento del hechizo, no sus efectos. Si tu presagio de grada son Coronas, obtienes una bonificación de estado de +2 a tu prueba de Saber adivinar.</p>",
       "prerequisites": [
         {
-          "value": "Harrower Dedication"
+          "value": "Dedicación del harrower"
         }
       ]
     },
@@ -18671,7 +18671,7 @@
       "description": "<p> Inmediatamente aprendes dos de los siguientes rituales: @UUID[Compendium.pf2e.spells-srd.Item.4Cntq9odgW6xMpAs]{Astral Projection} , @UUID[Compendium.pf2e.spells-srd.Item.gsYEuWv04XTDxe91]{Call Spirit} , @UUID[Compendium.pf2e.spells-srd.Item.7DN13ILADW2N9Z1t]{Commune} , @UUID[Compendium.pf2e.spells-srd.Item.7DN13ILADW2N9Z1t]{Commune} , @UUID[Compendium.pf2e.spells-srd.Item.hp6Q64dl7xbdn4gQ]{Collective Memories} , o @UUID[Compendium.pf2e.spells-srd.Item.2ykmAVKrsAWcazcC]{Binding Circle}. Cuando realizas cualquier ritual, puedes incorporar cartas de rastra al ritual para obtener una bonificación de estado de +2 a todas las pruebas de habilidad realizadas para resolver los efectos del ritual. Puedes realizar esta dote más de una vez; Cada vez que lo haces, aprendes dos nuevos rituales. </p>",
       "prerequisites": [
         {
-          "value": "Harrower Dedication"
+          "value": "Dedicación del harrower"
         }
       ]
     },
@@ -19965,7 +19965,7 @@
           "value": "Golpe reactivo"
         }
       ],
-      "selfEffect": "Stance: Impassable Wall Stance"
+      "selfEffect": "Postura: Postura de pared infranqueable"
     },
     "Impeccable Crafting": {
       "name": "Artesanía impecable",
@@ -20070,7 +20070,7 @@
       "description": "<p> <strong> Frecuencia </strong> una vez al día </p>\n <p> <strong> Desencadenante </strong> Fallarías críticamente una prueba de habilidad o sufrirías un efecto con el rasgo de desgracia. </p>\n <hr />\n <p> Cambias el tejido subyacente de la realidad para imponer una línea base de orden. Si el desencadenante fue una prueba de habilidad, recibirás un resultado de 10 + tu bonificación de competencia (no apliques ninguna otra bonificación, penalización o modificador). Si el desencadenante fue unefecto con el rasgo de desgracia, los efectos de desgracia y fortuna se cancelan entre sí de forma normal, negando el efecto de desgracia desencadenante. </p>",
       "prerequisites": [
         {
-          "value": "Aeonbound"
+          "value": "Vinculado al eon"
         }
       ]
     },
@@ -21175,7 +21175,7 @@
       "description": "<p> La orden de Axis impregna tu cuerpo y lo ayuda a mantener la coherencia. Tú y tus aliados podéis tratar vuestras heridas sin las herramientas del sanador. Una vez al día, cuando alguien obtiene un fracaso o un fallo crítico en una prueba para Tratar tus heridas, puedes centrarte en tu cohesión interna para aumentar el grado de éxito en un paso. </p>",
       "prerequisites": [
         {
-          "value": "Aeonbound"
+          "value": "Vinculado al eon"
         }
       ]
     },
@@ -21315,7 +21315,7 @@
       "description": "<p> Tu afinidad con el proceso y el orden te convierte en un artesano nato. Obtienes el rango de competencia entrenada en Elaboración (u otra habilidad de tu elección, si ya estás capacitado en Elaboración). Obtienes la dote de habilidad @UUID[Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o]{Specialty CRAFTING} en una especialidad de tu elección. </p>\n <hr />\n <p> <em> Nota: Si ya estás entrenado en la habilidad proporcionada por esta dote, debes seleccionar manualmente una habilidad alternativa. </em> </p>",
       "prerequisites": [
         {
-          "value": "Aeonbound"
+          "value": "Vinculado al eon"
         }
       ]
     },
@@ -21446,7 +21446,7 @@
       "description": "<p>Sometimes tu deity requires tú to act in the shadows, accomplishing things without drawing attention to yourself—or them.</p>\n<p>Una vez al día, when tú roll STEALTH for initiative at the start of a combat, puedes elige to be @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} for 1 minute. If tú spend a Mythic Point while beginning the @UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{Avoid Notice} exploration activity, estás invisible for as long as tú continue to Avoid Notice.</p>",
       "prerequisites": [
         {
-          "value": "Mortal Herald Dedication"
+          "value": "Dedicación de heraldo mortal"
         },
         {
           "value": "maestro in Sigilo"
@@ -21574,7 +21574,7 @@
     "Ironblood Stance": {
       "name": "Posición De La Sangre De Hierro",
       "description": "<p> <strong> Requisitos </strong> Estás desarmado </p>\n <hr />\n <p> Entras en la postura de hierro impenetrable, negándote a ceder ante cualquier golpe. Puedes realizar ataques desarmados con barrido de hierro. Estos causan 1d8 de daño contundente; están en el grupo de pelea; y tiene los rasgos no letal, parada, barrido y desarmado. </p>\n <p> Mientras estás en Posición Sangre de Hierro, obtienes resistencia 2 a todo el daño. La resistencia aumenta a 3 en el nivel 12, a 4 en el nivel 16,y a 5 en el nivel 20. </p>\n <p> @UUID[Compendium.pf2e.feat-effects.Item.tPKXLtDJ3bzJcXlv]{Stance: Ironblood Stance} </p>",
-      "selfEffect": "Stance: Ironblood Stance"
+      "selfEffect": "Postura: Postura de sangre de hierro"
     },
     "Ironblood Surge": {
       "name": "Oleada De Sangre De Hierro",
@@ -21687,7 +21687,7 @@
       "description": "<p>After mingling alongside the tastemakers of the Ivy District, tú understand how rumors spread through larger settlements. When tú use the @UUID[Compendium.pf2e.actionspf2e.Item.HFv62jIK98S2xw4x]{Influence Rumor} downtime activity in a city or metropolis, decrease the DC of the check by 5. When estás in the metropolis of Absalom, the DC is reduced by an additional 5. At the GM's discretion, this second reduction might apply to the DC of Influence Rumor's prueba de habilidad when tú manipulate a rumor outside of Absalom but among a group of Absalomians.</p>",
       "prerequisites": [
         {
-          "value": "Dandy Dedication"
+          "value": "Dedicación dandy"
         }
       ]
     },
@@ -21760,7 +21760,7 @@
     "Jellyfish Stance": {
       "name": "Postura de medusa",
       "description": "<p> <strong> Requisitos </strong> Estás desarmado. </p>\n <hr />\n <p> Relajas tu postura y aflojas tus articulaciones, permitiéndote moverte con una fluidez increíble. Puedes realizar ataques con latigazos punzantes que causan 1d6 de daño cortante. Estos ataques están en el grupo de pelea y tienen rasgos de delicadeza, no letal, alcance y desarmado. </p>\n <p> Mientras estás en Posición de medusa, obtienes un bonificador de circunstancia +2 a las salvaciones de Reflejos y a las pruebas para@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} y ​​@UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{Squeeze} . </p>",
-      "selfEffect": "Stance: Jellyfish Stance"
+      "selfEffect": "Postura: Postura de medusa"
     },
     "Jester's Gambol": {
       "name": "Cabriola del bufón",
@@ -22099,7 +22099,7 @@
     "Kindle Inner Flames": {
       "name": "Encender llamas interiores",
       "description": "<p> Así como una vela puede encender otra, despiertas el potencial latente para canalizar el fuego en otras criaturas. Arrojas brasas tenues y brillantes, al igual que tus aliados mientras están en tu aura cinética. Cualquiera que arroje estas brasas obtiene una bonificación de estado de +1 a las salvaciones de Reflejos y pruebas de Acrobacia y puede dar un Paso como acción gratuita una vez por ronda. Cuando una criatura afectada realiza una acción de movimiento, sus Golpes infligen un @Damage[2[fire]] de daño adicional hasta el final de su turno. </p>\n <p> @UUID[Compendium.pf2e.feat-effects.Item.hrEG2smy3tZyGxIn]{Stance: Kindle Inner Flames} </p>\n <hr />\n <p> <strong> Nivel (12) </strong> La bonificación de estado a las salvaciones de Reflejos y las pruebas de Acrobacia es +2, y los Ataques obtienen la runa <em> @UUID[Compendium.pf2e.equipment-srd.Item.XszNvxnymWYRaoTp]{Flaming} </em> en lugar de los 2 daños de fuego adicionales. </p>",
-      "selfEffect": "Stance: Kindle Inner Flames"
+      "selfEffect": "Postura: Enciende las llamas internas"
     },
     "Kinetic Activation": {
       "name": "Activación Cinética",
@@ -22445,7 +22445,7 @@
       "description": "<p>When tú Change Shape, puedes assume the form of a criatura that's Large or Huge in size. In addition to tu increased space, obtienes a +1 bonificador de circunstancia to INTIMIDATION checks.</p>",
       "prerequisites": [
         {
-          "value": "Shifting Faces"
+          "value": "Caras cambiantes"
         }
       ]
     },
@@ -22493,7 +22493,7 @@
       "description": "<p>When tú use @UUID[Compendium.pf2e.feats-srd.Item.gCUJYnWPQ9VM8eXk]{Commitment to Protection}, the effects on tu ally apply to all attacks the criatura or hazard makes until the beginning of tu next turn.</p>",
       "prerequisites": [
         {
-          "value": "Commitment to Protection"
+          "value": "Compromiso con la proteccion"
         }
       ]
     },
@@ -22667,7 +22667,7 @@
       "description": "<p>No matter what might happen to tú, tu legacy shall never die. If estás slain, any of tu knights who touches tu corpse can elige to take up tu mantle; over the course of 10 minutes, they don tu equipment, replace their attribute modifiers with yours, replace their skills and feats with yours, and become tú for all intents and purposes, retaining only their ancestry, heritage, and ancestry feats. If estás later returned to life, puedes elige to reclaim tu mantle from tu former knight; if tú do so, they revert to their previous state, and tú reclaim all that was yours. Otherwise, puedes elige to live a new life, retraining all tu skills and feats while adopting a new name and identity.</p>",
       "prerequisites": [
         {
-          "value": "Prophesied Monarch Dedication"
+          "value": "Dedicación de monarca profetizado"
         }
       ]
     },
@@ -23797,7 +23797,7 @@
       "description": "<p>When tú use @UUID[Compendium.pf2e.feats-srd.Item.7qBuzHY8kEG8SdEP]{Cat's Luck} to reroll, any criaturas tú elige within 10 pies who also just failed against the same effect (such as a single conjuro) can also reroll their tiradas de salvación and use the better result.</p>",
       "prerequisites": [
         {
-          "value": "Cat's Luck"
+          "value": "Suerte Felina"
         }
       ]
     },
@@ -23855,7 +23855,7 @@
           "value": "Golpe reactivo"
         }
       ],
-      "selfEffect": "Stance: Lunging Stance"
+      "selfEffect": "Postura: Postura de estocada"
     },
     "Luring Chomp": {
       "name": "Mordisco señuelo",
@@ -24118,7 +24118,7 @@
     "Magnetic Field": {
       "name": "Campo magnético",
       "description": "<p> Un campo magnético te rodea. Elija una polaridad cuando realice esta acción. Puedes cambiar la polaridad como acción gratuita al comienzo de cada uno de tus turnos mientras permaneces en esta postura. </p>\n <p> <strong> Atraer </strong> Una criatura que lleva armadura de metal, tiene el rasgo de metal o está hecha de metal trata los cuadrados de tu aura cinética como terreno difícil cuando se aleja de ti. Tiras desatendidos objetos metálicos de luz. A granel o menos en tu cinética.aura para ti. Se reúnen en tu espacio y se mueven contigo. </p>\n <p> <strong> Repeler </strong> Una criatura que lleva armadura de metal, tiene el rasgo de metal o está hecha de metal trata los cuadrados de tu aura cinética como terreno difícil cuando se acerca a ti. Empujas objetos metálicos desatendidos de luz de gran volumen o menos en tu aura cinética. Dejan de moverse una vez que están fuera de tu aura. </p>",
-      "selfEffect": "Stance: Magnetic Field"
+      "selfEffect": "Postura: Campo Magnético"
     },
     "Magnetic Pinions": {
       "name": "Piñones magnéticos",
@@ -24326,7 +24326,7 @@
       "description": "<p>Thanks to tu continued belief in tu ultimate transformation, tienes learned greater control over tu manifested realm. If tú spend a Mythic Point when tú Manifest tu Realm, puedes use the @UUID[Compendium.pf2e.actionspf2e.Item.JxuXTJIKRwmYn08D]{Drain Realm}, @UUID[Compendium.pf2e.actionspf2e.Item.Ssp7CCGMJhcAfeYw]{Spread Realm}, and @UUID[Compendium.pf2e.actionspf2e.Item.mpFTlTGmPBKXMq2C]{Unleash Realm} free actions.</p>",
       "prerequisites": [
         {
-          "value": "Archfiend Dedication"
+          "value": "Dedicacion de archimaligno"
         }
       ]
     },
@@ -24601,7 +24601,7 @@
           "value": "rango entrenado en Interpretación"
         }
       ],
-      "selfEffect": "Stance: Masquerade of Seasons Stance"
+      "selfEffect": "Postura: Postura de la Mascarada de las Estaciones"
     },
     "Mass Delusion": {
       "name": "Delirio masivo",
@@ -24713,7 +24713,7 @@
       "description": "<p>Kalistrade teaches that setbacks are only temporary and that perseverance is a treasured virtue. When tú fail, but not critically fail, at a SOCIETY or Mercantile LORE check to @UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{Earn Income} at a specific task and are allowed to continue working at that task on subsequent days, puedes elige to attempt the prueba de habilidad again the next day. If tú succeed, tú get a critical success and continue to earn that amount on further days spent working at the task, if the task lasts that long.</p>",
       "prerequisites": [
         {
-          "value": "Prophet of Kalistrade Dedication"
+          "value": "Dedicación de profeta de Kalistrade"
         }
       ]
     },
@@ -25652,7 +25652,7 @@
     "Mobile Shot Stance": {
       "name": "Posición de disparo móvil",
       "description": "<p> Tus disparos se vuelven ágiles y letales. Cuando estás en esta posición,\ntus Golpes a distancia no desencadenan Golpes reactivos u otras reacciones desencadenadas por un ataque a distancia. </p>\n <hr />\n <p> <strong> Especial </strong> Si tienes @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{Golpe reactivo}, puedes utilizarlo con un arma a distancia cargada que estás empuñando. La criatura desencadenante debe estar a 5 pies (1,5 m) o menos de ti para poder hacerlo</p>",
-      "selfEffect": "Stance: Mobile Shot Stance"
+      "selfEffect": "Postura: Postura de tiro móvil"
     },
     "Mobile Swarm": {
       "name": "Enjambre móvil",
@@ -25749,7 +25749,7 @@
     "Monastic Archer Stance": {
       "name": "Postura del arquero monástico",
       "description": "<p> <strong> Requisitos </strong> Estás desarmado y empuñas un arco largo, un arco corto o un arco con el rasgo de monje. </p>\n <hr />\n <p> Entras en una postura especializada para un arte marcial único centrado en el uso de un arco. Mientras estás en esta postura, los únicos golpes que puedes realizar son aquellos que usan arcos largos, arcos cortos o arcos con el rasgo de monje. </p>\n <p> Puedes usar @UUID[Compendium.pf2e.actionspf2e.Item.nbfNETdpee8CVM17]{Flurry of Blows} con estos arcos. Puedes usar tus otras dotes de monje ohabilidades de monje que normalmente requieren ataques desarmados con estos arcos cuando se ataca dentro de la mitad del primer incremento de alcance (normalmente 50 pies para un arco largo y 30 pies para un arco corto), siempre y cuando la dote o habilidad no requiera un solo golpe específico. </p>\n <p> @UUID[Compendium.pf2e.feat-effects.Item.1dxD3xsTzak6GNj5]{Stance: Monastic Archer Stance} </p>\n <hr />\n <p> <strong> Especial </strong> Cuando seleccionas esta dote, te entrenas en el arco largo, el arco corto y cualquier arco simple y marcial conel rasgo de monje. Si obtienes la característica de clase de golpes expertos, tu rango de competencia para estas armas aumenta a experto, y si obtienes la característica de clase de golpes maestros, tu rango de competencia para estas armas aumenta a maestro. </p>",
-      "selfEffect": "Stance: Monastic Archer Stance"
+      "selfEffect": "Postura: Postura del Arquero Monástico"
     },
     "Monastic Weaponry": {
       "name": "Armamento Monástico",
@@ -25994,7 +25994,7 @@
     "Mountain Stance": {
       "name": "Posición De La Montaña",
       "description": "<p> <strong> Requisitos </strong> Estás desarmado y tocando el suelo </p>\n <hr />\n <p> Entras en la postura de una montaña implacable, una técnica creada por primera vez por monjes enanos, que te permite golpear con el peso de una avalancha y bloquear los golpes con tus prendas. </p>\n <p> Los únicos golpes que puedes realizar son ataques desarmados con piedras que caen. Estos causan 1d8 de daño contundente; están en el grupo de pelea; y tener el contundente, no letal,y rasgos desarmados. </p>\n <p> Mientras estás en Posición de Montaña, obtienes una bonificación de +4 por elemento a la CA y una bonificación de +2 por circunstancia a cualquier defensa contra ser empujado o derribado. Tienes un límite de modificador de Destreza para tu CA de +0, lo que significa que no agregas tu Destreza a tu CA, y todas tus Velocidades se reducen en 5 pies. La bonificación del elemento a la CA de Mountain Stance es acumulativa con las runas de potencia de armadura en tu @UUID[Compendium.pf2e.equipment-srd.Item.dDIPA1WE9ESF67EB]{Explorer's Clothing} , @UUID[Compendium.pf2e.spells-srd.Item.aAbfKn8maGjJjk2W]{Mystic Armor} y ​​brazales de armadura.</p>",
-      "selfEffect": "Stance: Mountain Stance"
+      "selfEffect": "Postura: Postura de montaña"
     },
     "Mountain Strategy": {
       "name": "Estrategia de la montaña",
@@ -26057,7 +26057,7 @@
       "description": "<p>Without the firm hand of a patron, tu power begins to reflect deeper complexities, sometimes latching onto entirely unexpected sources of magical potency. When tú cast or Sustain @UUID[Compendium.pf2e.spells-srd.Item.IqBfoUaWDennHYoZ]{Manifest Will}, puedes elige any tradition's manifestation. While the conjuro is active, tú and allies in its area gain a +1 bonificador de estado to saves against conjuros with that tradition rasgo.</p>",
       "prerequisites": [
         {
-          "value": "Seneschal Witch Dedication"
+          "value": "Dedicación de bruja senescal"
         }
       ]
     },
@@ -26099,7 +26099,7 @@
           "value": "Disparo doble"
         }
       ],
-      "selfEffect": "Stance: Multishot Stance"
+      "selfEffect": "Postura: Postura de disparo múltiple"
     },
     "Multitalented": {
       "name": "Polifacético",
@@ -26257,7 +26257,7 @@
       "description": "<p>Long years of brave exploits haven't gone unnoticed. Whether tú know just the right things to say or those estás speaking with recognize tú as a reincarnated hero, obtienes a +2 bonificador de circunstancia to DIPLOMACY checks made to Gather Information or Make An Impression, and to INTIMIDATION checks made to @UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{COERCE}. At 18th level, these circumstance bonuses increase to +3. If tú spend a Mythic point when tú attempt such a check, tú do so at mythic proficiency.</p>",
       "prerequisites": [
         {
-          "value": "Heroic Scion Dedication"
+          "value": "Dedicación de vástago heroico"
         }
       ]
     },
@@ -27660,7 +27660,7 @@
     "Orchard's Endurance": {
       "name": "La resistencia del huerto",
       "description": "<p> Aparecen manchas de corteza en tu piel y la de tus aliados cercanos. Tú y tus aliados en tu aura cinética obtienen resistencia 5 al daño contundente y perforante. Además, tú y tus aliados afectados tiran pruebas planas para recuperarse del daño persistente dos veces y obtener el resultado más alto; Este es un efecto fortuna. </p>\n <p> @UUID[Compendium.pf2e.feat-effects.Item.YNoBbHUu7enOSKyv]{Stance: Orchard's Endurance} </p>\n <hr />\n <p> <strong> Nivel (+4) </strong> La resistencia aumenta en 2. </p>",
-      "selfEffect": "Stance: Orchard's Endurance"
+      "selfEffect": "Postura: Resistencia del huerto"
     },
     "Order Cross-Training": {
       "name": "Entrenamiento cruzado de la orden",
@@ -28210,7 +28210,7 @@
     "Paragon's Guard": {
       "name": "Guardia del Parangón",
       "description": "<p> <strong> Requisitos </strong> Empuñas un escudo. </p>\n <hr />\n <p> Una vez has tenido unos instantes para adoptar tu posición, siempre tienes preparado el escudo sin pensarlo. Cuando te encuentras en esta posición, tienes el escudo constantemente alzado como si hubieras utilizado la acción @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Alzar el escudo}. </p>",
-      "selfEffect": "Stance: Paragon's Guard"
+      "selfEffect": "Postura: Guardia de Paragon"
     },
     "Parallel Breakthrough": {
       "name": "Avance paralelo",
@@ -28371,7 +28371,7 @@
           "value": "Armamento monástico"
         }
       ],
-      "selfEffect": "Stance: Peafowl Stance"
+      "selfEffect": "Postura: Postura del pavo real"
     },
     "Peafowl Strut": {
       "name": "Puntal de pavo real",
@@ -29295,7 +29295,7 @@
     "Point Blank Stance": {
       "name": "Posición a quemarropa",
       "description": "<p> <strong> Requisitos </strong> Empuñas un arma a distancia </p>\n <hr />\n <p> Apuntas para eliminar rápidamente a enemigos cercanos. Cuando utilizas un arma a distancia de volea mientras estás en esta posición, no sufres el  penalizador a tus tiradas de ataque debido al rasgo volea. Cuando utilizas un arma a distancia que no tiene el rasgo volea, obtienes un bonificador +2 por circunstancia a las tiradas de daño en los ataques contra objetivos que están en el primer incremento de rango de distancia del arma.</p>",
-      "selfEffect": "Stance: Point Blank Stance"
+      "selfEffect": "Postura: postura a quemarropa"
     },
     "Poison Coat": {
       "name": "Abrigo de veneno",
@@ -29496,7 +29496,7 @@
           "value": "Dedicación del artista marcial"
         }
       ],
-      "selfEffect": "Stance: Powder Punch Stance"
+      "selfEffect": "Postura: Postura de golpe de pólvora"
     },
     "Power Slide": {
       "name": "Derrape controlado",
@@ -29621,7 +29621,7 @@
       "description": "<p> <strong> Requisitos </strong> Estás empuñando un @UUID[Compendium.pf2e.equipment-srd.Item.wkzxLpSe7LN6c5Ld]{Sawtooth Saber} en cada mano. </p>\n <hr />\n <p> Has dominado el estilo de asesinato característico de Red Mantis. Intenta @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint} un enemigo dentro de 30 pies. Si tu Finta tiene éxito, cuando uses Ataque de Oración en turnos posteriores, automáticamente harás que el objetivo esté desprevenido contra tus ataques cuerpo a cuerpo para ese turno sin realizar una prueba de Finta, siempre y cuandopermanece visible para el objetivo y el objetivo permanece a 30 pies de usted. Si usas tu Ataque de Oración contra un objetivo diferente, debes intentar Fintar al objetivo normalmente. </p>\n <p> Cuando usas el ataque de oración, tu próximo golpe exitoso con un sable de dientes de sierra en ese turno inflige @Damage[2d6[bleed]] al objetivo. </p>",
       "prerequisites": [
         {
-          "value": "Red Mantis Assassin Dedication"
+          "value": "Dedicación del asesino Mantis Roja"
         }
       ]
     },
@@ -30858,7 +30858,7 @@
     "Rain of Embers Stance": {
       "name": "Postura de lluvia de brasas",
       "description": "<p> <strong> Requisitos </strong> Estás desarmado. </p>\n <hr />\n <p> Entras en la postura de un fénix enfurecido, sosteniendo tus dedos tan rígidos como garras mortales mientras te mueves con gestos rápidos y parpadeantes que parpadean con llamas danzantes. Los únicos ataques que puedes realizar son ataques con garras de fuego. Estos causan 1d4 de daño por fuego; están en el grupo de pelea; y tiene rasgos ágiles, delicados, fogosos, no letales y desarmados. </p>\n <p> Mientras está bajo la lluvia dePostura de las brasas, obtienes una bonificación de estado de +1 a la CA y resistencia al fuego igual a la mitad de tu nivel (mínimo 1). </p>",
-      "selfEffect": "Stance: Rain of Embers Stance"
+      "selfEffect": "Postura: Postura de lluvia de brasas"
     },
     "Rain of Razors": {
       "name": "Lluvia de navajas",
@@ -31392,7 +31392,7 @@
       "description": "<p> Tienes una habilidad especial para robar la carta correcta, ya sea de una baraja Harrow, en un juego de cartas o incluso cuando robas de un @UUID[Compendium.pf2e.equipment-srd.Item.Gyi4IVrAVJRPJF2s]{Deck of Many Things}. Cuando intentas una prueba de habilidad que implica robar cartas o resolver los efectos de un efecto de adivinación (incluido intentar una tirada de salvación contra un efecto de adivinación hostil contra ti), obtienes una bonificación de estado de +2 a la prueba. Cuando robas una carta para determinar tu presagio de Harrow, realiza Harrow Casting, lanza @UUID[Compendium.pf2e.spells-srd.Item.ofAQyLtLEGnOIs3N]{Harrowing}, o si activas una baraja de cartas mágica, roba 2 cartas y elige la que prefieras como tu carta robada real. Incluso puedes usar esta habilidad cuando saques de un mazo de muchas cosas, pero solo una vez por mazo. La carta no utilizada se vuelve a barajar en la pila. </p>",
       "prerequisites": [
         {
-          "value": "Harrower Dedication"
+          "value": "Dedicación del harrower"
         }
       ]
     },
@@ -34162,7 +34162,7 @@
       "description": "<p> Lees el lenguaje corporal de una criatura inteligente a menos de 30 pies y captas señales sutiles para detectar su propensión general al bien o al mal, a la ley o al caos. El DJ realiza una prueba secreta @Check[type:perception|defense:deception|traits:secret], comparando el resultado con la CD de Engaño del objetivo. </p>\n <hr />\n <p> <strong> Éxito crítico </strong> Determinas la alineación del objetivo. </p>\n <p> <strong> Éxito </strong> Determinas la alineación del objetivo, perosólo a lo largo de un eje (su elección entre el eje del bien-mal o el eje legal-caótico). </p>\n <p> <strong> Fallo </strong> No aprendes la alineación del objetivo. </p>\n <p> <strong> Fallo crítico </strong> Determinas incorrectamente la alineación del objetivo, identificando erróneamente su alineación a lo largo de uno de los ejes o de ambos (a elección del DJ). </p>",
       "prerequisites": [
         {
-          "value": "Edgewatch Detective Dedication"
+          "value": "Dedicación del detective Edgewatch"
         }
       ]
     },
@@ -34900,7 +34900,7 @@
     "Shattershields": {
       "name": "Escudos destrozados",
       "description": "<p> Cuatro placas de metal picado flotan a tu alrededor para interceptar ataques. Tú y tus aliados en tu aura cinética obtienen una bonificación de circunstancia +1 a la CA. Cuando cualquier criatura con esta bonificación recibe daño de un ataque físico, una de las placas reduce el daño en su Dureza de 5. Si el daño excede la Dureza, esa placa se destruye. Puedes reponer todas las placas destruidas con una sola acción que tenga el rasgo concentrado. </p>\n <hr />\n <p> <strong> Nivel (+2)</strong> La Dureza aumenta en 1. </p>",
-      "selfEffect": "Stance: Shattershields"
+      "selfEffect": "Postura: Destrozaescudos"
     },
     "Shed Tail": {
       "name": "Soltar la cola",
@@ -35256,7 +35256,7 @@
           "value": "Armamento monástico"
         }
       ],
-      "selfEffect": "Stance: Shooting Stars Stance"
+      "selfEffect": "Postura: Postura de las estrellas fugaces"
     },
     "Shore Gift": {
       "name": "Don de la costa",
@@ -35700,7 +35700,7 @@
           "value": "Dedicación del sexto pilar"
         }
       ],
-      "selfEffect": "Stance: Six Pillars Stance"
+      "selfEffect": "Postura: Postura de los Seis Pilares"
     },
     "Sixth Pillar Dedication": {
       "name": "Dedicación del sexto pilar",
@@ -35898,7 +35898,7 @@
           "value": "Dedicación del Buscador del Cielo de Jalmeri"
         }
       ],
-      "selfEffect": "Stance: Sky and Heaven Stance"
+      "selfEffect": "Postura: Postura Cielo y Cielo"
     },
     "Skyseeker": {
       "name": "Buscador del cielo",
@@ -36271,7 +36271,7 @@
       "description": "<p>Tu conocimiento de las trampas te ayuda a defender tu guarida. Ganas la dote @UUID[Compendium.pf2e.feats-srd.Item.DMetdzt1VJL2Y62i]{Artesanía de lazos}. Cuando colocas un lazo, cualquier tirada de salvación que requiera usa la mayor entre tu CD DE CLASE y la CD del lazo. Los lazos que colocas dentro de tu ubicación predilecta aumentan su CD de SIGILO en 2.</p>",
       "prerequisites": [
         {
-          "value": "Guerrilla Dedication"
+          "value": "Dedicación del guerrillero"
         },
         {
           "value": "rango entrenado en Artesanía"
@@ -37314,7 +37314,7 @@
       "description": "<p>Though the city of Vigil itself has been destroyed, tú will carry on its warrior spirit to the end of tu days. The value of tu dying condition at which tú die increases by 1 (normally to dying 5, or dying 6 if tienes Diehard), and the reduction to tu maximum dying value from the doomed condition is 1 less severe (to a minimum of 0).</p>",
       "prerequisites": [
         {
-          "value": "No Stranger to Death"
+          "value": "No es ajeno a la muerte"
         }
       ]
     },
@@ -38063,7 +38063,7 @@
     "Steam Knight": {
       "name": "Caballero de vapor",
       "description": "<p> Transformas tu aura cinética en una armadura de vapor arremolinada que quema a tus enemigos y te impulsa en corrientes en chorro sobrecalentadas. Una criatura puede recibir daño de Steam Knight solo una vez por ronda. Tu armadura de vapor tiene los siguientes efectos. </p>\n <ul>\n <li> Obtienes una bonificación de estado de +10 pies a tu velocidad. </li>\n <li> Cuando @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}, puedes saltar a tu velocidad. No caes inmediatamente al final de un salto, siempre que saltesnuevamente con su próxima acción. Si saltas sobre una criatura y te acercas a 10 pies, esa criatura sufre @Damage[(floor((@actor.level -6)/5)+2)d6[fire]] de daño con una salvación @Check[type:reflex|dc:resolve(@actor.system.proficiencies.classDCs.kineticist.dc)|basic:true] contra tu CD de clase. </li>\n <li> Al inicio de cada uno de tus turnos, puedes emitir vapor como acción gratuita. Inflige @Damage[(floor((@actor.level -6)/5)+2)d6[fire]] daño a cada criatura en tu aura cinética con una salvación @Check[type:reflex|dc:resolve(@actor.system.attributes.classDC.value)|basic:true] contra tu clase DC. Una criatura que falla también es empujada 5 pies. </li>\n </ul>\n <hr />\n <p><strong> Nivel (+5) </strong> El daño por fuego de un salto o explosión de vapor aumenta en 1d6. </p>",
-      "selfEffect": "Stance: Steam Knight"
+      "selfEffect": "Postura: Caballero de vapor"
     },
     "Steam Spell": {
       "name": "Hechizo de vapor",
@@ -38201,7 +38201,7 @@
     "Stoked Flame Stance": {
       "name": "Postura de llama avivada",
       "description": "<p> <strong> Requisitos </strong> Estás desarmado. </p>\n <hr />\n <p> Entras en una postura de movimientos rápidos y ardientes. Puedes realizar ataques con chispas intermitentes que causan 1d8 de daño cortante. Están en el grupo de pelea y tienen rasgos contundentes, no letales, de barrido y desarmados. Si tienes acceso al efecto de especialización crítica de las chispas parpadeantes, puedes tomar un efecto alternativo: si tu golpe crítico causó daño, el objetivo recibe 1d6 persistentes.daño por fuego. </p>\n <p> Mientras estás en Posición de llama avivada, obtienes una bonificación de estado de +5 pies a tu velocidad. Si tienes un movimiento increíble, aumenta el beneficio del movimiento increíble a una bonificación de estado de +15 pies más 5 pies por cada 4 niveles más allá del 3.°. </p>\n <hr />\n <p> <strong> Especial </strong> Esta dote te permite elegir entre el rasgo divino u oculto, coincidiendo con tu tradición de hechizos de ki si es posible. </p>",
-      "selfEffect": "Stance: Stoked Flame Stance"
+      "selfEffect": "Postura: Postura de llama avivada"
     },
     "Stomp Ground": {
       "name": "Pisotear el suelo",
@@ -38748,7 +38748,7 @@
           "value": "rango entrenado en Engaño"
         }
       ],
-      "selfEffect": "Stance: Stumbling Stance"
+      "selfEffect": "Postura: postura del borracho"
     },
     "Stunning Appearance": {
       "name": "Aspecto impresionante",
@@ -39273,7 +39273,7 @@
       "description": "<p> <strong> Frecuencia </strong> una vez por hora </p>\n <p> <strong> Desencadenante </strong> Un enemigo realiza una acción hostil contra ti en combate. </p>\n <hr />\n <p> A veces algo se entromete inesperadamente en su caso, como una emboscada enviada para cerrar su investigación. Ha aprendido a compartimentar su líder principal y buscar uno nuevo para su situación actual. </p>\n <p> Tú @UUID[Compendium.pf2e.actionspf2e.Item.xTK2zsWFyxSJvYbX]{Pursue a Lead}contra el enemigo desencadenante, dejando a un lado pero sin finalizar una de tus pistas actualmente activas, si tienes dos pistas. Al final del encuentro de combate, dejas de seguir la pista contra el enemigo activador y regresas a la pista original, si tienes una. </p>",
       "prerequisites": [
         {
-          "value": "Person of Interest"
+          "value": "Persona de interés"
         }
       ]
     },
@@ -39841,7 +39841,7 @@
       "description": "<p>The blessings of Isthralei connect tú to the thrum of the stories that underlie all settlements. When attempting a check to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about a city tienes visited, obtienes a +2 bonificador de circunstancia and can use an associated LORE skill (such as Nerosyan LORE) with tu level as tu proficiency bonus even if estás untrained.</p>",
       "prerequisites": [
         {
-          "value": "Campfire Chronicler Dedication"
+          "value": "Dedicacion de cronista de fogata"
         }
       ]
     },
@@ -39960,7 +39960,7 @@
     "Tangled Forest Stance": {
       "name": "Posición Del Bosque Enmarañado",
       "description": "<p> <strong> Requisitos </strong> Estás desarmado </p>\n <hr />\n <p> Extiendes tus brazos como ramas nudosas para interferir con los movimientos de tus enemigos. Puedes realizar ataques desarmados con ramas de azote. Estos causan 1d8 de daño cortante; están en el grupo de pelea; y tener rasgos ágiles, delicados, no letales y desarmados. </p>\n <p> Mientras estás en Posición del Bosque Enredado y puedes actuar, cada enemigo a tu alcance que intente alejarse de ti debetener éxito en una salvación de Reflejos, una prueba de Acrobacia o una prueba de Atletismo contra la CD de tu clase o ser @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} para esa acción. Si lo prefieres, puedes permitir que el enemigo se mueva. </p>",
-      "selfEffect": "Stance: Tangled Forest Stance"
+      "selfEffect": "Postura: Postura del bosque enredado"
     },
     "Tanuki Lore": {
       "name": "Saber tanuki",
@@ -40589,7 +40589,7 @@
     "Thermal Nimbus": {
       "name": "Nimbo térmico",
       "description": "<p> Diriges ondas de calor hacia o desde tu puerta cinética para cambiar drásticamente la temperatura a tu alrededor. Elige frío o fuego. Tú y tus aliados en tu aura cinética obtienen una resistencia igual a tu nivel al daño de ese tipo. Cualquier criatura que comience su turno en tu aura cinética o se mueva hacia tu aura durante su turno sufre un daño igual a la mitad de tu nivel del tipo elegido. La resistencia elemental de una unión de puerta es acumulativa con la resistencia de Thermal Nimbus. </p>",
-      "selfEffect": "Stance: Thermal Nimbus"
+      "selfEffect": "Postura: Nimbo Térmico"
     },
     "Thick Hide Mask": {
       "name": "Máscara de piel gruesa",
@@ -40867,7 +40867,7 @@
     "Tiger Stance": {
       "name": "Posición Del Tigre",
       "description": "<p> <strong> Requisitos </strong> Estás desarmado </p>\n <hr />\n <p> Entras en la postura de un tigre y puedes realizar ataques con garras de tigre. Estos causan 1d8 de daño cortante; están en el grupo de pelea; y tener rasgos ágiles, delicados, no letales y desarmados. </p>\n <p> En caso de éxito crítico con tus garras de tigre, si infliges daño, el objetivo recibe @Damage[1d4[bleed]]. </p>\n <p> Siempre y cuando tu velocidad sea de al menos 20 pies mientras estás en TigerPostura, puedes dar un paso de 10 pies. </p>",
-      "selfEffect": "Stance: Tiger Stance"
+      "selfEffect": "Postura: Postura del tigre"
     },
     "Tight Follower": {
       "name": "Seguidor cercano",
@@ -41614,7 +41614,7 @@
       "description": "<p> <strong> Requisitos previos </strong> forma de la marca desencadenante </p>\n <p> <strong> Requisitos </strong> Estás empuñando un arma combinada. </p>\n <hr />\n <p> Cortas, apuñalas o golpeas a tu oponente con la parte cuerpo a cuerpo de tu arma combinada antes de apretar el gatillo a quemarropa. Realiza un ataque cuerpo a cuerpo con tu arma combinada. Si el ataque tiene éxito, puedes realizar inmediatamente un ataque a distancia contra el mismoobjetivo con esa combinación de armas, y obtienes una bonificación de circunstancia +2 a la tirada de ataque. Esto cuenta como dos ataques para tu penalización por ataque múltiple, pero no aplicas la penalización por ataque múltiple hasta después de realizar ambos ataques. </p>",
       "prerequisites": [
         {
-          "value": "Way of the Triggerbrand"
+          "value": "Camino de la Marca Gatillo"
         }
       ]
     },
@@ -42024,7 +42024,7 @@
           "value": "Parada gemela"
         }
       ],
-      "selfEffect": "Stance: Twinned Defense"
+      "selfEffect": "Postura: Defensa hermanada"
     },
     "Twinned Defense (Swashbuckler)": {
       "name": "Defensa gemela (espadachín)",
@@ -42034,7 +42034,7 @@
           "value": "Parada gemela"
         }
       ],
-      "selfEffect": "Stance: Twinned Defense"
+      "selfEffect": "Postura: Defensa hermanada"
     },
     "Twirl Through": {
       "name": "Girar a traves",
@@ -42646,7 +42646,7 @@
       "description": "<p>Thanks to tu powerful speeches, tu movement finds allies in all sectors of SOCIETY and even across enemigo lines, all eager to help tú accomplish tu goals. If tú spend a Mythic Point when tú use @UUID[Compendium.pf2e.actionspf2e.Item.cwBsPU24715fUCub]{Ultimatum of Liberation}, puedes ask four questions related to that criatura, as if tú succeeded at four Recall Knowledge checks. Este information comes to tú over the course of the next 1 to 2 hours, representing tidbits of information tú glean from local supporters. After receiving this information, the first time tú roll Initiative in an encounter with el objetivo of tu Ultimatum of Liberation or their allies, tú and all tu allies can make tu Initiative check with mythic proficiency.</p>",
       "prerequisites": [
         {
-          "value": "Broken Chain Dedication"
+          "value": "Dedicacion de cadena rota"
         }
       ]
     },
@@ -42752,7 +42752,7 @@
       "description": "<p>With a quick use of brute force, tú remove an obstacle and take a calculated shot as part of the same motion. Attempt to @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} one adjacent criatura, then make a ranged Golpe with a bow or crossbow estás wielding. The Golpe is made at the same multiple attack penalización as the Shove or Trip attempt, and this activity counts as one attack when calculating tu multiple attack penalización.</p>",
       "prerequisites": [
         {
-          "value": "Archer Dedication"
+          "value": "Dedicación del arquero"
         },
         {
           "value": "experto in Atletismo"
@@ -43224,7 +43224,7 @@
       "description": "<p> <strong> Requisitos </strong> Tienes un presagio de grada activo. </p>\n <hr />\n <p> Manifestas una baraja fantasmal de cartas de Harrow. Saca una carta de un mazo de grada y luego selecciona un objetivo dentro de un radio de 60 pies. La carta vuela por el aire para golpear a ese objetivo, infligiendo 4d6 de daño, con una tirada de salvación @Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true] contra la CD de tu clase o la CD del hechizo. El tipo de daño infligido está determinado por tu presagio de grada activa; si la carta extraída es del mismo palo quetu presagio de grada activa, el objetivo sufre una penalización de estado de -2 a su tirada de salvación. El daño aumenta a 6d6 si estás en el nivel 10 y a 8d6 si estás en el nivel 15. Puedes continuar lanzando cartas a objetivos en tu turno siempre que mantengas el mazo de Espíritu Vengativo; lanzar una carta requiere dos acciones. Este efecto dura mientras lo mantengas, hasta 1 minuto, o hasta que ya no tengas un presagio de grada activo. Una vez que finaliza el efecto, pierdes tu presagio de grada activa. </p>\n <p><strong> Martillos: </strong> @Damage[(ternary(gte(@actor.level,15),8,ternary(gte(@actor.level,10),6,4)))d6[cold]] </p>\n <p> <strong> Claves: </strong> @Damage[(ternary(gte(@actor.level,15),8,ternary(gte(@actor.level,10),6,4)))d6[fire]] </p>\n <p> <strong> Escudos: </strong> @Damage[(ternary(gte(@actor.level,15),8,ternary(gte(@actor.level,10),6,4)))d6[poison]] </p>\n <p> <strong> Libros: </strong> @Damage[(ternary(gte(@actor.level,15),8,ternary(gte(@actor.level,10),6,4)))d6[electricity]] </p>\n <p> <strong> Estrellas: </strong> @Damage[(ternary(gte(@actor.level,15),8,ternary(gte(@actor.level,10),6,4)))d6[mental]] </p>\n <p> <strong> Coronas: </strong> @Damage[(ternary(gte(@actor.level,15),8,ternary(gte(@actor.level,10),6,4)))d6[acid]] </p>",
       "prerequisites": [
         {
-          "value": "Harrower Dedication"
+          "value": "Dedicación del harrower"
         }
       ]
     },
@@ -43586,7 +43586,7 @@
       "description": "<p>When tú use Persistent Creation, puedes create up to three special wooden shields that provide a +2 bonificador de circunstancia to AC and have Hardness 15, 120 HP, and BT 60. A criatura that Raises a Shield made with tu Persistent Creation also gains a +2 bonificador por objeto to tiradas de salvación while the shield is raised.</p>",
       "prerequisites": [
         {
-          "value": "Persistent Creation"
+          "value": "Creación persistente"
         }
       ]
     },
@@ -44681,7 +44681,7 @@
           "value": "Armamento monástico"
         }
       ],
-      "selfEffect": "Stance: Whirling Blade Stance"
+      "selfEffect": "Postura: Postura de hoja giratoria"
     },
     "Whirling Clobber": {
       "name": "Golpiza giratoria",
@@ -44747,7 +44747,7 @@
           "value": "competencia experta en su personal"
         }
       ],
-      "selfEffect": "Stance: Whirlwind Stance"
+      "selfEffect": "Postura: Postura de torbellino"
     },
     "Whirlwind Strike": {
       "name": "Golpe de torbellino",
@@ -45150,7 +45150,7 @@
     "Winter Sleet": {
       "name": "Aguanieve de invierno",
       "description": "<p> Un aguanieve arremolinado y escalofriante te rodea, cruel como el invierno más profundo. Las superficies de tu aura cinética están cubiertas de hielo resbaladizo. Una criatura que se mueve sobre este terreno irregular cae inmediatamente a menos que @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balances} (CD 15). Una criatura está @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} sobre el hielo, como es normal en terrenos irregulares. Eres inmune a estos efectos. </p>\n <p> Si una criatura en el hielo recibe un golpe crítico por uno de tus impulsos de agua o falla críticamente en una salvación contrauno, esa criatura es @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} hasta el final de su siguiente turno. </p>",
-      "selfEffect": "Stance: Winter Sleet"
+      "selfEffect": "Postura: aguanieve invernal"
     },
     "Winter's Clutch": {
       "name": "Embrague de invierno",
@@ -45287,7 +45287,7 @@
     "Wolf Stance": {
       "name": "Posición Del Lobo",
       "description": "<p> <strong> Requisitos </strong> Estás desarmado </p>\n <hr />\n <p> Entras en la postura de un lobo, cerca del suelo con las manos apretadas como dientes con colmillos. Puedes realizar ataques desarmados con mandíbula de lobo. Estos causan 1d8 de daño perforante; están en el grupo de pelea; y tener rasgos ágiles, traidores, sutiles, no letales y desarmados. </p>\n <p> Si estás flanqueando a un objetivo mientras estás en posición de lobo, tus ataques desarmados con mandíbula de lobo también ganan el viaje.rasgo. </p>",
-      "selfEffect": "Stance: Wolf Stance"
+      "selfEffect": "Postura: Postura del lobo"
     },
     "Wolf in Sheep's Clothing": {
       "name": "Lobo con piel de oveja",
@@ -45750,13 +45750,13 @@
     "Level 15": "Level 15",
     "Aftermath": "Aftermath",
     "Captain": "Captain",
-    "Commander": "Commander",
+    "Commander": "Comandante",
     "Deviant": "Deviant",
     "Draconic Acolyte": "Draconic Acolyte",
     "Drake Rider": "Drake Rider",
-    "Guardian": "Guardian",
+    "Guardian": "Guardián",
     "Guerrilla": "Guerrilla",
-    "Hungerseed": "Hungerseed",
+    "Hungerseed": "Semilla hambrienta",
     "Level 18": "Level 18",
     "Level 20": "Level 20",
     "Miscellaneous": "Miscellaneous",
@@ -45765,7 +45765,7 @@
     "Reincarnated": "Reincarnated",
     "Shared Ancestry Feats": "Shared Ancestry Feats",
     "Shared Archetype Feats": "Shared arquetipo Feats",
-    "Variant Rules": "Variant Rules",
+    "Variant Rules": "Variante de Rules",
     "Wayang": "Wayang",
     "Yaoguai": "Yaoguai",
     "Aiuvarin": "Aiuvarin",
@@ -45779,80 +45779,80 @@
     "Monk": "monje",
     "Sixth Pillar": "Sixth Pillar",
     "Ancestry": "Ancestry",
-    "Android": "Android",
+    "Android": "Androide",
     "Dromaar": "Dromaar",
     "Level 7": "Level 7",
-    "Thaumaturge": "Thaumaturge",
+    "Thaumaturge": "Taumaturgo",
     "Level 11": "Level 11",
     "Changeling": "Changeling",
-    "Kineticist": "Kineticist",
+    "Kineticist": "Cinético",
     "Kobold": "Kobold",
     "Level 19": "Level 19",
-    "Beastkin": "Beastkin",
-    "Reflection": "Reflection",
-    "Nephilim": "Nephilim",
-    "Dhampir": "Dhampir",
-    "Human": "Human",
+    "Beastkin": "Piel de Bestia",
+    "Reflection": "Reflejo",
+    "Nephilim": "Nefilim",
+    "Dhampir": "Dhampiro",
+    "Human": "Humano",
     "Poisoner": "Poisoner",
-    "Summoner": "Summoner",
+    "Summoner": "Convocador",
     "Barbarian": "bárbaro",
-    "Dragonblood": "Dragonblood",
+    "Dragonblood": "Sangre de dragón",
     "Geomancer": "Geomancer",
-    "Lizardfolk": "Lizardfolk",
-    "Undine": "Undine",
-    "Duskwalker": "Duskwalker",
-    "Gunslinger": "Gunslinger",
+    "Lizardfolk": "Hombre lagarto",
+    "Undine": "ondina",
+    "Duskwalker": "Crepuscular",
+    "Gunslinger": "Pistolero",
     "Kitsune": "Kitsune",
     "Talos": "Talos",
     "Hellknight": "Hellknight",
     "Naari": "Naari",
     "Ranger": "explorador",
     "Tripkee": "Tripkee",
-    "Sylph": "Sylph",
+    "Sylph": "Sílfide",
     "Class": "Class",
-    "Gnome": "Gnome",
+    "Gnome": "Gnomo",
     "Inventor": "Inventor",
-    "Order of the Chain": "Order of the Chain",
+    "Order of the Chain": "Orden de la cadena",
     "Oread": "Oread",
     "Mind Smith": "Mind Smith",
-    "Order of the Gate": "Order of the Gate",
-    "Ratfolk": "Ratfolk",
-    "Swashbuckler": "Swashbuckler",
+    "Order of the Gate": "Orden de la puerta",
+    "Ratfolk": "Rátido",
+    "Swashbuckler": "Espadachín",
     "Nagaji": "Nagaji",
-    "Order of the Godclaw": "Order of the Godclaw",
-    "Psychic": "Psychic",
-    "Investigator": "Investigator",
-    "Merfolk": "Merfolk",
-    "Order of the Nail": "Order of the Nail",
+    "Order of the Godclaw": "Orden de la Garra Divina",
+    "Psychic": "Psíquico",
+    "Investigator": "Investigador",
+    "Merfolk": "Sirénido",
+    "Order of the Nail": "Orden del Clavo",
     "Fan Dancer": "Fan Dancer",
-    "Order of the Pyre": "Order of the Pyre",
+    "Order of the Pyre": "Orden de la pira",
     "Sorcerer": "hechicero",
     "Surki": "Surki",
     "Druid": "druida",
-    "Order of the Rack": "Order of the Rack",
+    "Order of the Rack": "Orden del estante",
     "Rogue": "pícaro",
-    "Skeleton": "Skeleton",
+    "Skeleton": "Esqueleto",
     "Captivator": "Captivator",
-    "Exemplar": "Exemplar",
-    "Order of the Scourge": "Order of the Scourge",
-    "Sprite": "Sprite",
+    "Exemplar": "Ejemplar",
+    "Order of the Scourge": "Orden de la plaga",
+    "Sprite": "Duende",
     "Cavalier": "Cavalier",
     "Cleric": "clérigo",
     "Shisk": "Shisk",
     "Game Hunter": "Game Hunter",
     "Samsaran": "Samsaran",
-    "Witch": "Witch",
+    "Witch": "Brujo",
     "Vishkanya": "Vishkanya",
     "Yaksha": "Yaksha",
     "Vanara": "Vanara",
     "Tengu": "Tengu",
     "Trapsmith": "Trapsmith",
     "Champion": "campeón",
-    "Palatine Detective": "Palatine Detective",
+    "Palatine Detective": "Detective palatino",
     "Tanuki": "Tanuki",
     "Bard": "bardo",
     "Cultivator": "Cultivator",
-    "Strix": "Strix",
+    "Strix": "Estrícido ",
     "Fighter": "guerrero",
     "Razmiran Priest": "Razmiran Priest",
     "Shoony": "Shoony",
@@ -45861,55 +45861,55 @@
     "Sarangay": "Sarangay",
     "General": "General",
     "Mortal Herald": "Mortal Herald",
-    "Orc": "Orc",
+    "Orc": "Orco",
     "Shared Class Feats": "Shared Class Feats",
     "Mythic": "Mythic",
-    "Oracle": "Oracle",
-    "Poppet": "Poppet",
+    "Oracle": "Oráculo",
+    "Poppet": "Muñeco",
     "Shadowdancer": "Shadowdancer",
-    "Animist": "Animist",
+    "Animist": "Animista",
     "Ghost Hunter": "Cazador de fantasmas",
-    "Minotaur": "Minotaur",
+    "Minotaur": "Minotauro",
     "Skill": "Skill",
     "Leshy": "Leshy",
     "Magus": "Magus",
     "Pactbound Initiate": "Pactbound Initiate",
     "Hellknight Signifer": "Hellknight Signifer",
     "Kashrishi": "Kashrishi",
-    "Halfling": "Halfling",
-    "Medic": "Medic",
+    "Halfling": "Mediano",
+    "Medic": "Médico",
     "Hobgoblin": "Hobgoblin",
     "Linguist": "Linguist",
     "Goblin": "Goblin",
     "Sanguimancer": "Sanguimancer",
     "Ghoran": "Ghoran",
     "Runescarred": "Runescarred",
-    "Dwarf": "Dwarf",
+    "Dwarf": "Enano",
     "Student of Perfection": "Student of Perfection",
-    "Catfolk": "Catfolk",
+    "Catfolk": "Félido",
     "Five-Breath Vanguard": "Five-Breath Vanguard",
-    "Fetchling": "Fetchling",
+    "Fetchling": "Aparecido",
     "Sniping Duo": "Sniping Duo",
-    "Centaur": "Centaur",
+    "Centaur": "Centauro",
     "Staff Acrobat": "Staff Acrobat",
-    "Awakened Animal": "Awakened Animal",
+    "Awakened Animal": "Animal Despertado",
     "Wylderheart": "Wylderheart",
     "Goloma": "Goloma",
     "Kholo": "Kholo",
     "Spellshot": "Spellshot",
-    "Fleshwarp": "Fleshwarp",
+    "Fleshwarp": "Modelado",
     "Undead Master": "Undead Master",
-    "Elf": "Elf",
+    "Elf": "Elfo",
     "Ghost": "Ghost",
     "Conrasu": "Conrasu",
     "Azarketi": "Azarketi",
     "Eternal Legend": "Eternal Legend",
     "Athamaru": "Athamaru",
     "Clockwork Reanimator": "Clockwork Reanimator",
-    "Automaton": "Automaton",
+    "Automaton": "Autómata",
     "Eagle Knight": "Caballera Águila",
     "Dual-Weapon Warrior": "Dual-Weapon Warrior",
-    "Jotunborn": "Jotunborn",
+    "Jotunborn": "Nacido de los gigantes",
     "Beast Gunner": "Beast Gunner",
     "Dragonet": "Dragonet",
     "Trick Driver": "Trick Driver",
@@ -45928,7 +45928,7 @@
     "Psychic Duelist": "Psychic Duelist",
     "Alkenstar Agent": "Alkenstar Agent",
     "Bastion": "Bastion",
-    "Lich": "Lich",
+    "Lich": "Liche",
     "Spirit Warrior": "Spirit Warrior",
     "Martial Artist": "Martial Artist",
     "Shieldmarshal": "Shieldmarshal",
@@ -45936,15 +45936,15 @@
     "Rivethun Emissary": "Rivethun Emissary",
     "Firebrand Braggart": "Firebrand Braggart",
     "Dandy": "Dandy",
-    "Seneschal": "Seneschal",
+    "Seneschal": "Senescal",
     "Knight Vigilant": "Caballero Vigilante",
     "Werecreature": "Werecreature",
     "Celebrity": "Celebrity",
-    "Bounty Hunter": "Bounty Hunter",
+    "Bounty Hunter": "Cazarrecompensas",
     "Aldori Duelist": "Aldori Duelist",
     "Marshal": "Marshal",
     "Swordmaster": "Swordmaster",
-    "Bright Lion": "Bright Lion",
+    "Bright Lion": "León brillante",
     "Tattooed Historian": "Tattooed Historian",
     "Elementalist": "Elementalist",
     "Scions of Domora": "Scions of Domora",
@@ -45959,21 +45959,21 @@
     "Artillerist": "Artillerist",
     "Apocalypse Rider": "Apocalypse Rider",
     "Alter Ego": "Alter Ego",
-    "Herbalist": "Herbalist",
+    "Herbalist": "Herbolario",
     "Bellflower Tiller": "Bellflower Tiller",
     "Pirate": "Pirate",
     "Blessed One": "Blessed One",
     "Curse Maelstrom": "Curse Maelstrom",
     "Twilight Speaker": "Twilight Speaker",
     "Bullet Dancer": "Bullet Dancer",
-    "Vindicator": "Vindicator",
+    "Vindicator": "Vindicador",
     "Lastwall Sentry": "Lastwall Sentry",
     "Ulfen Guard": "Ulfen Guard",
     "Unexpected Sharpshooter": "Unexpected Sharpshooter",
     "Thlipit Contestant": "Thlipit Contestant",
     "Stonebound": "Stonebound",
     "Talisman Dabbler": "Talisman Dabbler",
-    "Ghoul": "Ghoul",
+    "Ghoul": "Gul",
     "Loremaster": "Loremaster",
     "Ritualist": "Ritualist",
     "Time Mage": "Time Mage",
@@ -45990,12 +45990,12 @@
     "Overwatch": "Overwatch",
     "Cathartic Mage": "Cathartic Mage",
     "Folklorist": "Folklorist",
-    "Bloodrager": "Bloodrager",
+    "Bloodrager": "Ira sangrienta",
     "Rivethun Involutionist": "Rivethun Involutionist",
     "Butterfly Blade": "Butterfly Blade",
     "Magic Warrior": "Magic Warrior",
     "Scroll Trickster": "Scroll Trickster",
-    "Scout": "Scout",
+    "Scout": "Batidor",
     "Zombie": "Zombie",
     "Gray Gardener": "Gray Gardener",
     "Spell Trickster": "Spell Trickster",
@@ -46004,11 +46004,11 @@
     "Dragon Disciple": "Dragon Disciple",
     "Oozemorph": "Oozemorph",
     "Vigilante": "Vigilante",
-    "Avenger": "Avenger",
-    "Acrobat": "Acrobat",
+    "Avenger": "Vengador",
+    "Acrobat": "Acróbata",
     "Prophet of Kalistrade": "Prophet of Kalistrade",
     "Pistol Phenom": "Pistol Phenom",
-    "Ursine Avenger Hood": "Ursine Avenger Hood",
+    "Ursine Avenger Hood": "Capucha del Vengador Ursino",
     "Warrior of Legend": "Warrior of Legend",
     "Beast Lord": "Beast Lord",
     "Edgewatch Detective": "Edgewatch Detective",
@@ -46023,7 +46023,7 @@
     "Archer": "Archer",
     "Ghost Eater": "Ghost Eater",
     "Soul Warden": "Soul Warden",
-    "Gelid Shard": "Gelid Shard",
+    "Gelid Shard": "Fragmento gélido",
     "Flexible Spellcaster": "Flexible Spellcaster",
     "Stone Brawler": "Stone Brawler",
     "Starlit Sentinel": "Starlit Sentinel",
@@ -46032,7 +46032,7 @@
     "Golden League Xun": "Golden League Xun",
     "Eldritch Researcher": "Eldritch Researcher",
     "Sentinel": "Sentinel",
-    "Archaeologist": "Archaeologist",
+    "Archaeologist": "Arqueologo",
     "Golem Grafter": "Golem Grafter",
     "Zephyr Guard": "Zephyr Guard",
     "Eldritch Archer": "Eldritch Archer",
@@ -46052,7 +46052,7 @@
     "Battle Harbinger": "Battle Harbinger",
     "Vehicle Mechanic": "Vehicle Mechanic",
     "Splinter of Finality": "Splinter of Finality",
-    "Gladiator": "Gladiator",
+    "Gladiator": "Gladiador",
     "Duelist": "Duelist",
     "Hallowed Necromancer": "Nigromante sagrado",
     "Magaambyan Attendant": "Magaambyan Attendant",
@@ -46069,7 +46069,7 @@
     "Kitharodian Actor": "Kitharodian Actor",
     "Lepidstadt Surgeon": "Lepidstadt Surgeon",
     "Pactbinder": "Pactbinder",
-    "Runelord": "Runelord",
+    "Runelord": "Señor runico",
     "Blackjacket": "Blackjacket",
     "Field Propagandist": "Field Propagandist",
     "Iridian Choirmaster": "Iridian Choirmaster",

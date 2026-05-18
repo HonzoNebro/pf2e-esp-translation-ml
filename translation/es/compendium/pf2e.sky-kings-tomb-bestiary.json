@@ -1,13 +1,13 @@
 {
-  "label": "sky-kings-tomb-bestiary",
+  "label": "Bestiario de La tumba de los Reyes del Cielo",
   "entries": {
     "Alchemist Ivy": {
       "name": "Alchemist Ivy",
-      "blurb": "Variant Assassin Vine",
+      "blurb": "Variante de vid asesina",
       "publicNotes": "<p>The assassin vine is a carnivorous plant with a voracious appetite. Rather than consuming criaturas directly, it creates its own fertilizer by entangling prey and squeezing the life from it. Once the plant has killed a criatura, it pulls the carcass over to its roots to feed from the decaying flesh. Although an assassin vine lacks eyes, it can detect and track prey through a combination of using its root systems to detect vibrations through topsoil and its leaves to detect heat changes in the vicinity. Although the assassin vine has no real INTELLIGENCE, its learned behaviors mimic those of cunning ambush hunters.</p>\n<p>As it is slow moving, the assassin vine typically remains rooted in a single area for as long as it has sufficient prey. Though most often found along woodland trails or swamps, these plants can also be encountered in more rural settlements, poorly tended fields, and vineyards. While assassin vines can't be entrenado in the classical sense, they can be used as defenses, and woodland-dwelling criaturas like goblins and fey have been known to cultivate assassin vines as guardians for less-used routes into their lairs. In such cases, the tenders often seek to make the path more obvious than its disuse would otherwise suggest, while simultaneously working to ensure the bones of the vines' victims are removed to keep their presence a secret, resulting in what appears to be an easy approach to the den but is actually an organic ambush.</p>\n<p>Mature assassin vines grow to 20 pies long and have smaller vines extending off the main trunk that reach from to 5 to 10 pies in length. The smallest of these vines sprout every 6 inches or so; they tend to grow clusters of full leaves and occasionally bear small berries. A recently fed assassin vine can have bunches of plump, blood-red berries that are juicy and tart but leave a slightly unpleasant iron aftertaste, as if from the faint taste of blood from a bitten lip.</p>",
       "skillSpecialStealth": {
         "0": {
-          "label": "in forests or grasslands"
+          "label": "en bosques o praderas"
         }
       },
       "items": {
@@ -15,14 +15,14 @@
           "name": "Vine"
         },
         "strike-ranged->Sap": {
-          "name": "Sap"
+          "name": "Cachiporra"
         },
         "action->Tremorsense 30 feet": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]\nTremorsense 30 pies"
         },
         "action->Camouflage": {
-          "name": "Camouflage",
-          "description": "<p>The assassin vine can @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} in natural environments even if it doesn't have cover.</p>"
+          "name": "Camuflaje",
+          "description": "<p>La vid asesina puede @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Ocultarse} en entornos naturales aunque no tenga cobertura.</p>"
         },
         "action->Alchemical Resistance": {
           "name": "Alchemical Resistance",
@@ -45,7 +45,7 @@
       "name": "Algerschmick",
       "blurb": "Dvorovoi",
       "publicNotes": "<p>Traditionally, the dvorovoi is seen as the domovoi's younger sibling and has charge of a peasant's yard and all the animals and tools within. Animals favored by the dvorovoi become healthy, strong, and obedient, while less-loved livestock are exhausted and miserable. Peasants with a resident dvorovoi make sure to formally introduce new livestock to the house spirit and placate the spirit by leaving meals in the shed. Dvorovoi loathe white-furred animals and chase away any all-white cows or horses, though they have no similar grudge against chickens.</p>\n<hr />\n<p>House spirits are shy, often helpful, sometimes wrathful fey that dwell alongside peasants and farmers. They reside in the house, in the yard, in the granary, in the bathhouse-wherever people build and live. Due to this proximity, house spirits often take on the mannerisms or appearance of nearby mortals. Their reclusive NATURE and tendency to go unseen earned them the moniker of \"spirits,\" though in truth they are fully embodied fey.</p>\n<p>House spirits take an almost parental interest in \"their\" mortals. Given proper respect, these fey work tirelessly for their charges-they chop wood, care for livestock, mend clothes, sweep the floor, and tend to the stove. If offended, though, the house spirit becomes a menace, frightening animals or children and ruining belongings.</p>",
-      "senses": "tremorsense (imprecise) within their entire bound yard",
+      "senses": "sentido sismico (impreciso) en todo su patio vinculado",
       "items": {
         "spellcastingEntry->Primal Innate Spells": {
           "name": "Primal Innate Spells"
@@ -115,7 +115,7 @@
           "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> Alkepsur banters with a criatura within 60 pies while referencing a forgotten anecdote. The criatura must attempt either a @Check[will|dc:18] tirada de salvación or @Check[dwarf-lore|dc:15] check.</p>\n<p><strong>Éxito</strong> El objetivo is unaffected.</p>\n<p><strong>Fallo</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1} as they try to decipher the reference.</p>\n<p><strong>Fallo crítico</strong> The anecdote makes el objetivo @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confundido} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 2} for 1 round.</p>"
         },
         "lore->Dwarf Lore": {
-          "name": "Dwarf Lore"
+          "name": "Saber de Enanos"
         }
       }
     },
@@ -175,7 +175,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.unR8VVR4yyRnsmnB]\n<p>Restoring the vandalized inscriptions and reciting their corrected stories ushers these spirits back to the afterlife.</p>\n<hr />\n<p>When a ghost is destroyed, it re-forms after [[/br 2d4 #days]]{2d4 days} within the location it's bound to, fully healed. A ghost can be permanently destroyed only if someone determines the reason for its existence and sets right whatever prevents the spirit from resting.</p>"
         },
         "lore->Dwarf Lore": {
-          "name": "Dwarf Lore"
+          "name": "Saber de Enanos"
         }
       }
     },
@@ -224,10 +224,10 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.c21stU5rhN4F2fZl]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>Elixirs of life accelerate a living criatura's natural healing processes and immune system. Upon drinking this elixir, tú regain @Damage[(5d6+12)[healing]] Puntos de Golpe and gain +2 bonificador por objeto to tiradas de salvación against diseases and poisons for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efecto: Elixir of Life}</p>"
         },
         "strike-melee->Dagger": {
-          "name": "Dagger"
+          "name": "Daga"
         },
         "strike-ranged->Dagger": {
-          "name": "Dagger"
+          "name": "Daga"
         },
         "strike-melee->Moderate Alchemist's Fire": {
           "name": "Moderate alchemist's Fire"
@@ -272,7 +272,7 @@
           "description": "<p>Zogototaru's thrashing appears to crack the roof, dropping debris on a random criatura in the area. Este deals @Damage[4d6[bludgeoning]] daño (@Check[reflex|dc:22|basic] save).</p>"
         },
         "action->Tremor": {
-          "name": "Tremor",
+          "name": "Temblor",
           "description": "<p>Zogototaru's thrashing shakes the ground, knocking criaturas @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} in the area unless they succeed at a @Check[reflex|dc:20] save.</p>"
         }
       }
@@ -285,7 +285,7 @@
       "stealth": "<p>(maestro)</p>",
       "items": {
         "action->Animal Form": {
-          "name": "Animal Form",
+          "name": "Forma animal",
           "description": "<p><strong>Desencadenante</strong> A criatura damages the door</p>\n<hr />\n<p><strong>Efecto</strong> La trampa casts @UUID[Compendium.pf2e.spells-srd.Item.VuPDHoVEPLbMfCJC]{Bestial Curse} on the triggering criatura (@Check[fortitude|dc:32|traits:arcane,curse,polymorph,transmutation] save); on a critical failure, the duration is 2 hours.</p>"
         }
       }
@@ -301,10 +301,10 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.txmX5ghhPS72GKXy]\n<p>giant centipede venom causes severe muscle stiffness.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> INTERACT (Injury)</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:17]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d6[poison]] daño (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[1d8[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[1d12[poison]] daño, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1}, and desprevenido (1 round)</p>"
         },
         "strike-melee->Shortsword": {
-          "name": "Shortsword"
+          "name": "Espada corta"
         },
         "strike-ranged->Composite Shortbow": {
-          "name": "Composite Shortbow"
+          "name": "Arco corto compuesto"
         },
         "action->Sneak Attack": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>The Blacknoon apprentice deals an additional 1d6 daño de precisión to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} criaturas.</p>"
@@ -358,11 +358,11 @@
         },
         "strike-ranged->Light Hammer": [
           {
-            "name": "Light Hammer",
+            "name": "Martillo ligero",
             "id": "uo0E9r6SvOozRsyw"
           },
           {
-            "name": "Light Hammer",
+            "name": "Martillo ligero",
             "id": "sWCXaYTh85pV5ORu"
           }
         ],
@@ -392,17 +392,17 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.YFfG2fMyaIAXkmtr]\n<p>Providing the same defensive function as a standard gauntlet, this version has a group of spikes protruding from the knuckles to deliver daño perforante with a punch.</p>"
         },
         "strike-melee->Spiked Gauntlet": {
-          "name": "Spiked Gauntlet"
+          "name": "Guantelete armado"
         },
         "strike-ranged->Throwing Knife": {
-          "name": "Throwing Knife"
+          "name": "cuchillo arrojadizo"
         },
         "action->Shadow Shift": {
           "name": "Shadow Shift",
           "description": "<p>Caligni assassins are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} in dim light or darkness even to criaturas that can see clearly in those light levels.</p>"
         },
         "action->Swift Sneak": {
-          "name": "Swift Sneak",
+          "name": "Movimiento furtivo rápido",
           "description": "<p>The assassin can move their full speed while Sneaking.</p>"
         },
         "action->Countershadow": {
@@ -414,11 +414,11 @@
           "description": "<p>When a caligni assassin dies, their body disintegrates into a veil of supernatural darkness for 1 round. A 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness} conjuro appears, centered on the assassin's location, with a counteract DC of 23.</p>"
         },
         "action->Deny Advantage": {
-          "name": "Deny Advantage",
+          "name": "Negar ventaja",
           "description": "<p>The assassin isn't @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to criaturas of 8th level or lower that are @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido}, undetected, flanking, or using surprise attack.</p>"
         },
         "action->Quick Draw": {
-          "name": "Quick Draw",
+          "name": "Desenvainado rápido",
           "description": "<p>Extraes tu arma and attack with the same motion. Tú INTERACT to draw a arma, then Golpe with that arma.</p>"
         },
         "action->Shadow Leap": {
@@ -442,7 +442,7 @@
       "stealth": "<p>(maestro)</p>",
       "items": {
         "action->Collapse": {
-          "name": "Collapse",
+          "name": "Desplome",
           "description": "<p><strong>Desencadenante</strong> A criatura in contact with the ground travels down this hall</p>\n<hr />\n<p><strong>Efecto</strong> Caustic gas fills the hall, dealing @Damage[(4d10+26)[acid]] daño to all criaturas in area <strong>D5</strong> (@Check[reflex|dc:32|basic] save).</p>"
         }
       }
@@ -454,7 +454,7 @@
       "stealth": "<p>(entrenado)</p>",
       "items": {
         "action->Collapse": {
-          "name": "Collapse",
+          "name": "Desplome",
           "description": "<p><strong>Desencadenante</strong> A criatura moves the rubble</p>\n<hr />\n<p><strong>Efecto</strong> The cavern collapses in a cave-in that deals @Damage[(4d8+22)[bludgeoning]] daño to the triggering criatura and all criaturas in the cavern (@Check[reflex|dc:30|basic] save).</p>"
         }
       }
@@ -472,22 +472,22 @@
     },
     "Corrupted Blade Spirit": {
       "name": "Corrupted Blade Spirit",
-      "blurb": "Variant Corrupted Relic",
+      "blurb": "Variante de Corrupted Relic",
       "hpDetails": "curación de vacío",
       "publicNotes": "<p>Las criaturas that once held particular items dear can be bound to them after death, their souls inhabiting the item from within. Estos might be the faithful haunting symbols of their faith, warriors clinging to their old armas, or the greedy inhabiting their precious wealth. Estos spirits' physical bodies have long since degraded, but they keep their corrupted relics pristine. The spirits manifest on the unsuspecting or curious, determined to destroy anyone who would dare show any interest in their one precious possession.</p>\n<p>Though rare, there are several kinds of corrupted relics. The bound spirit can manifest in different ways, from animating an ancient arma to possessing anyone who dons the item. Destroying the relic often ends up being the simplest, most direct way to banish the haunt itself. Destroying or dispelling the spirit without destroying the relic, however, can sometimes leave priceless treasure behind.</p>\n<p>The amulet shown here has the air and death aspects. Its minor gifts, deadly spark and death gaze, power some of the spirit's abilities. Someone who claims the relic might gain different gifts from those aspects.</p>",
       "items": {
         "equipment->Amulet": {
-          "name": "Amulet",
+          "name": "Amuleto",
           "description": "<p><em>Relics are a special type of magic item that can grow in power as their wielders unlock additional abilities. The full rules for relics and their aspects begin on page 94 of the Gamemastery Guide.</em></p>"
         },
         "strike-melee->Clan Dagger": {
-          "name": "Clan Dagger"
+          "name": "Daga de clan"
         },
         "strike-melee->Spectral Hand": {
           "name": "Spectral Hand"
         },
         "strike-ranged->Deadly Spark": {
-          "name": "Deadly Spark"
+          "name": "Chispa letal"
         },
         "action->Lifesense (Imprecise) 60 feet": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg]\nLifesense (Imprecise) 60 pies"
@@ -529,7 +529,7 @@
           "description": "<p>Like normal objects, a crimson worm statue has Hardness. Este Hardness reduces any daño it takes by an amount equal to the Hardness. Once a crimson worm statue is reduced to less than half its Puntos de Golpe, or immediately upon being damaged by a critical hit, its armadura de constructo breaks and its ARMOR CLASS is reduced to 22.</p>"
         },
         "action->Thrash": {
-          "name": "Thrash",
+          "name": "Apalizar",
           "description": "<p>The crimson worm statue makes a Golpe against each criatura in its reach. It can strike up to once with its jaws and any number of times with its tail. Each attack counts toward the worm's multiple attack penalización, but the multiple attack penalización doesn't increase until after it makes all its attacks.</p>"
         },
         "action->Vomit Worms": {
@@ -544,10 +544,10 @@
       "speed": "troop movement",
       "items": {
         "action->Troop Defenses": {
-          "name": "Troop Defenses"
+          "name": "Defensas de tropas"
         },
         "action->Troop Movement": {
-          "name": "Troop Movement",
+          "name": "Movimiento de tropas",
           "description": "<p>Siempre que a troop Strides, it first Forms Up as a free action to condense into a 20-pies-by–20-pies area (minus any missing squares), then moves up to its Velocidad. See <em>Bestiary 3</em> for further details.</p>"
         },
         "action->Wild Swing": {
@@ -574,24 +574,24 @@
     },
     "Dwarven Monster Hunter": {
       "name": "Dwarven Monster Hunter",
-      "blurb": "Variant Monster Hunter",
+      "blurb": "Variante de Monster Hunter",
       "publicNotes": "<p>Some mercenaries eschew the complications of politics, oaths of service, and fealty and just get paid to hunt monsters. It's a straightforward form of mercenary service, often dangerous in the extreme, but one that can yield glory and fame.</p>\n<hr />\n<p>A broad category that includes those wielding arms, conjuros, or even guile and cunning, mercenaries hire themselves and their expertise to those with the gold to pay for it.</p>",
       "items": {
         "weapon->Greataxe": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.8COlYvHe6hKCXY8x]\n<p>Esta gran hacha de batalla es demasiado pesada para empuñarla con una sola mano. Many greataxes incorporate two blades, and they are often \"bearded\", having a hook at the bottom to increase the strength of their chopping power.</p>"
         },
         "strike-melee->Greataxe": {
-          "name": "Greataxe"
+          "name": "Gran hacha"
         },
         "strike-ranged->Composite Longbow": {
-          "name": "Composite Longbow"
+          "name": "Arco largo compuesto"
         },
         "action->Rage": {
-          "name": "Rage",
+          "name": "Furia",
           "description": "<p><strong>Requisitos</strong> The monster hunter isn't @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigado} or raging</p>\n<hr />\n<p><strong>Efecto</strong> The monster hunter gains 9 Puntos de Golpe temporales that last until the rage ends. While raging, they deal 8 daño adicional with melee attacks, gain a +10-pies bonificador de estado to their Velocidad, and take a -1 penalización to AC. The monster hunter can't use concentrate actions except @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} and rage actions.</p>\n<p>The rage lasts for 1 minute, until there are no enemies the monster hunter can perceive, or until the monster hunter falls unconscious.</p>\n<p>Once the rage ends, the monster hunter can't again for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.z3uyCMBddrPK5umr]{Efecto: Rage}</p>"
         },
         "action->Sudden Charge": {
-          "name": "Sudden Charge",
+          "name": "Carga repentina",
           "description": "<p>The monster hunter Strides twice and makes a melee Golpe.</p>"
         },
         "lore->Monster Lore": {
@@ -614,7 +614,7 @@
     },
     "Enraged Dream": {
       "name": "Enraged Dream",
-      "blurb": "Variant Animate Dream",
+      "blurb": "Variante de Animate Dream",
       "languages": "telepathy 100 pies",
       "publicNotes": "<p>An animate dream coalesces from centuries of stray fragments of reverie and dream left behind as slumbering minds drift through the Dimension of Dreams. In most cases, these fragments simply disperse on their own, but when dreamers flee from nightmares back to the waking world, these fragments can take on a supernatural life of their own. They have little reasoning and intent except to seek similar fragments, absorb them, and grow. When enough of them gather together, they merge into a horrific form as an animate dream.</p>\n<p>Individually, animate dreams can hold a wide range of appearances, but most take on rudimentary shapes akin to the living forms of the minds that spawned them. Animate dreams that rise from slumbering humanoids, the most commonly encountered, thus appear humanoid, but with distorted, nightmarish shapes that incorporate additional twisted limbs and frightening features. In these forms, animate dreams find their way out of the Dreamlands and into the waking world, only to discover they have no way of returning and suffer a relentless hunger that only new nightmares can sate.</p>\n<p>An animate dream thrives on the terror fueled by nightmares and fear and uses its supernatural abilities to invoke such feelings in the minds of its victims, cursing its prey by creating a permanent link to that individual's dreams. Thereafter, the victim is subjected to all manner of reoccurring nightmares. As the nightmares continue, the victim finds it more and more difficult to remain awake. In the end, the victim plunges into an accursed slumber from which it cannot return. Estos victims provide the animate dream with the purest form of fear and are its preferred sustenance.</p>\n<p>An animate dream can subsist on the ambient fear generated by regular nightmares, but these lesser fears aren't as satisfying, often driving the animate dream to seek out new victims. Left without a source of fear, an animate dream won't starve to death, but it will grow increasingly violent and desperate. Famished animate dreams are the ones most often encountered, as they have been forced to abandon subtlety to pursue more blatant methods of harvesting fear. Yet such animate dreams also tend to be the least powerful of their kind. Those who have grown metaphysically fat on fear have generally done so by adopting a specific nightmare theme, such as being buried alive, being swept away by ocean waves, or being consumed by wild beasts. Such animate dreams often have similarly themed innate conjuros to augment their powers.</p>",
       "saveDetails": "+1 de estado a todas las salvaciones contra magia",
@@ -635,7 +635,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA]\nTelepathy 100 pies"
         },
         "action->+1 Status to All Saves vs. Magic": {
-          "name": "+1 Status to All Saves vs. Magic"
+          "name": "+1 por estatus a todas las salvaciones contra la magia"
         },
         "action->Endless Nightmare": {
           "name": "Endless Nightmare",
@@ -664,7 +664,7 @@
       "publicNotes": "<h4>Sprite</h4>\n<p>The fey of the Ether Court in the Darklands have evolved somewhat differently from the First World kin that exiled them, becoming more cruel and less mischievous than is typical for their kind.</p>\n<h4>Ether Sprite</h4>\n<p>The excitable sprites of the Ether Court prefer to frolic, drink, insult each other, and perform improv comedy.</p>\n<h4>Sprite Collections</h4>\n<p>Ether sprites have a reputation for being thieves. In truth, they're generally curious about the world and simply have a tendency to walk away with objects that don't belong to them, not understanding the concept of ownership. As a result, ether sprites tend to have small interesting objects in their possession, such as talismans or gemstones.</p>",
       "items": {
         "strike-melee->Rapier": {
-          "name": "Rapier"
+          "name": "Espada ropera"
         },
         "strike-ranged->Luminous Spark": {
           "name": "Luminous Spark"
@@ -716,14 +716,14 @@
       "stealth": "<p>(maestro)</p>",
       "items": {
         "action->Collapse": {
-          "name": "Collapse",
+          "name": "Desplome",
           "description": "<p><strong>Desencadenante</strong> A criatura in contact with the ground travels down this hall</p>\n<hr />\n<p><strong>Efecto</strong> The bombs explodes, dealing @Damage[(6d8+12)[fire]] daño to the triggering criatura and all criaturas within 20 pies (@Check[reflex|dc:32|basic] save). Additionally, if the triggering criatura fails their tirada de salvación, they take @Damage[1d8[persistent,fire]] daño.</p>"
         }
       }
     },
     "Fazil": {
       "name": "Fazil",
-      "blurb": "Variant Kobold Scout",
+      "blurb": "Variante de Kobold Scout",
       "publicNotes": "<p>Most kobolds encountered outside of a well-defended warren or lair are kobold scouts, criaturas entrenado for stalking and the hunt.</p>\n<hr />\n<p>Kobolds are small, reptilian humanoids who carry physical similarities to true dragons. They lurk in dark spaces, usually tunnels and mines beneath the earth, in either warrens of their own design or complexes discovered and colonized after the original builders have moved on. Though kobolds are far more pragmatic than they are courageous, they use every inch of their cunning to even the playing field between themselves and other, stronger criaturas. They attack from the darkness and at range, and kobold artificers and engineers maestro the art of simple but effective traps, which they use to protect their lairs. Kobolds are skilled at working together by necessity, and they often set up ambushes or hit-and-run assaults that allow them to do the most daño possible without being harmed in return.</p>\n<p>Kobolds are diligent and hardworking criaturas, though they often turn these virtues toward selfish ends. While some kobolds live in communal collectives that maintain neutral relations with the criaturas around them, they can be easily swayed into serving malevolent powers or megalomaniac leaders. Este is in part due to kobolds' innate pragmatism, as they would rather concede to servitude than risk being killed, but it is also in part due to a reverence for the power that kobolds generally lack. Dragons in particular are viewed with a deferential awe, and kobolds eagerly offer their services to such mighty and glorious criaturas when they can. While kobolds may scheme against other leaders, especially those that control them via subjugation, dragons are usually viewed with adoration, no matter how brutal they might be to their kobold minions.</p>",
       "skillSpecialCrafting": {
         "0": {
@@ -736,10 +736,10 @@
           "description": "<p>Este kit contains tools and materials for creating snares. A snare kit allows tú to Craft snares using the CRAFTING skill.</p>"
         },
         "strike-melee->Shortsword": {
-          "name": "Shortsword"
+          "name": "Espada corta"
         },
         "strike-ranged->Crossbow": {
-          "name": "Crossbow"
+          "name": "Ballesta"
         },
         "action->Hurried Retreat": {
           "name": "Hurried Retreat",
@@ -779,16 +779,16 @@
           "description": "<p>Ferghaz holds other dwarves to an impossible standard, and his attacks carry the weight of a hundred generations' judgment. His Golpes deal an additional @Damage[1d4[mental]] daño to dwarves.</p>"
         },
         "lore->Dwarf Lore": {
-          "name": "Dwarf Lore"
+          "name": "Saber de Enanos"
         }
       }
     },
     "Flames of Taargick": {
       "name": "Flames of Taargick",
-      "blurb": "Variant weak elemental infernos",
+      "blurb": "Variante de weak elemental infernos",
       "hpDetails": "explosion",
       "publicNotes": "<p>Walking conflagrations of unimaginably hot fire, elemental infernos are harbingers of destruction and heedless chaos.</p>\n<hr />\n<p>Fire elementals are destructive manifestations of the scorching Plane of Fire.</p>",
-      "senses": "smoke vision",
+      "senses": "vision de humo",
       "items": {
         "strike-melee->Tendril": {
           "name": "Tendril"
@@ -801,7 +801,7 @@
           "description": "<p>The elemental inferno ignores the @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} condition from smoke.</p>"
         },
         "action->Explosion": {
-          "name": "Explosion",
+          "name": "Explosión",
           "description": "<p>When the elemental inferno dies, it explodes, dealing @Damage[7d6[fire]|options:area-damage] daño to each criatura in a @Template[emanation|distance:10|traits:fire,damaging-effect] (@Check[reflex|dc:30|basic|options:area-effect] save).</p>"
         },
         "action->Intense Heat": {
@@ -834,7 +834,7 @@
           "name": "Bag"
         },
         "strike-melee->Spiked Chain": {
-          "name": "Spiked Chain"
+          "name": "Cadena armada"
         },
         "strike-melee->Jaws": {
           "name": "Jaws",
@@ -853,7 +853,7 @@
           "description": "<p>Four-Tooth can use a spiked chain to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} with the ATHLETICS skill even if he doesn't have a free hand, and he adds the arma's bonificador por objeto to tiradas de ataque to the ATHLETICS check.</p>"
         },
         "lore->Accounting Lore": {
-          "name": "Accounting Lore"
+          "name": "Saber de Contabilidad"
         }
       }
     },
@@ -879,7 +879,7 @@
     },
     "Giant Leech": {
       "name": "giant Leech",
-      "blurb": "Variant giant Leech",
+      "blurb": "Variante de giant Leech",
       "publicNotes": "<p>Capable of growing to lengths of nearly 5 pies, giant leeches have circular maws filled with hook-like teeth. They prefer to dwell in stagnant or slow-moving shallow water or in damp, moist undergrowth. Horses and larger animals are their favorite prey, but they won't balk at a chance to latch onto a human- or halfling-sized meal.</p>",
       "items": {
         "strike-melee->Mouth": {
@@ -918,7 +918,7 @@
         },
         "action->Cold Healing": {
           "name": "Cold Healing",
-          "description": "<p>When a glacial worm is in extreme cold or surrounded by ice, it gains fast healing 10. When struck by a magical cold effect, a glacial worm regains Puntos de Golpe equal to half the daño de frío the effect would otherwise deal.</p>"
+          "description": "<p>When a glacial worm is in extreme cold or surrounded by ice, it gains curacion rapida 10. When struck by a magical cold effect, a glacial worm regains Puntos de Golpe equal to half the daño de frío the effect would otherwise deal.</p>"
         },
         "action->Inexorable": {
           "name": "Inexorable",
@@ -929,7 +929,7 @@
           "description": "<p>30 pies. A glacial worm's intense cold absorbs heat. Las criaturas that start their turn within the area take @Damage[3d6[cold]] daño (@Check[fortitude|dc:34|basic] save).</p>"
         },
         "action->Shake It Off": {
-          "name": "Shake It Off",
+          "name": "Recupérate",
           "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Desencadenante</strong> The glacial worm would be affected by a condition or adverse effect (such as <em>baleful polymorph</em>)</p>\n<hr />\n<p><strong>Efecto</strong> The glacial worm negates the triggering condition or effect. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way.</p>"
         },
         "action->Fast Swallow": {
@@ -940,7 +940,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]\n<p>Huge, @Damage[(3d8+12)[bludgeoning],2d6[cold]], Rupture 28</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
         },
         "action->Thrash": {
-          "name": "Thrash",
+          "name": "Apalizar",
           "description": "<p>The worm makes a Golpe once against each criatura in its reach. It can Golpe up to once with its jaws and any number of times with its body. Each attack counts toward the worm's multiple attack penalización, but the multiple attack penalización doesn't increase until after it makes all the attacks.</p>"
         }
       }
@@ -972,7 +972,7 @@
           "description": "<p>The gray worm recovers from the @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado}, and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido} conditions at the end of its turn. It's also immune to penalties to its Velocidades and the @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} condition, and it ignores difficult terrain and greater difficult terrain.</p>"
         },
         "action->Shake It Off": {
-          "name": "Shake It Off",
+          "name": "Recupérate",
           "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Desencadenante</strong> The gray worm would be affected by a condition or adverse effect (such as @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{Cursed Metamorphosis})</p>\n<hr />\n<p><strong>Efecto</strong> The gray worm negates the triggering condition or effect. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way.</p>"
         },
         "action->Paralysis": {
@@ -980,7 +980,7 @@
           "description": "<p>Any living criatura hit by a gray worm's stinger Golpe must succeed at a @Check[fortitude|dc:27] save or become @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado}. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
         },
         "action->Thrash": {
-          "name": "Thrash",
+          "name": "Apalizar",
           "description": "<p>The worm makes a Golpe once against each criatura in its reach. It can Golpe up to once with its jaws and any number of times with its body. Each attack counts toward the worm's multiple attack penalización, but the multiple attack penalización doesn't increase until after it makes all the attacks.</p>"
         }
       }
@@ -997,10 +997,10 @@
           "requirements": "Puedes bleed"
         },
         "strike-melee->Guisarme": {
-          "name": "Guisarme"
+          "name": "Bisarma"
         },
         "strike-ranged->Light Hammer": {
-          "name": "Light Hammer"
+          "name": "Martillo ligero"
         },
         "action->Iron Mind": {
           "name": "Iron Mind",
@@ -1015,14 +1015,14 @@
           "description": "<p>While adjacent to another royal guard, each royal guard gains a +2 bonificador de circunstancia to their Fortitude and Reflex DCs against attempts to @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}, @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip}, or @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{Tumble Through} them.</p>"
         },
         "action->Brutal Beating": {
-          "name": "Brutal Beating",
+          "name": "Paliza brutal",
           "description": "<p>A royal guard deals an additional 1d10 daño de precisión to @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} criaturas.</p>"
         }
       }
     },
     "Heartbroken Dream": {
       "name": "Heartbroken Dream",
-      "blurb": "Variant Animate Dream",
+      "blurb": "Variante de Animate Dream",
       "languages": "telepathy 100 pies",
       "publicNotes": "<p>An animate dream coalesces from centuries of stray fragments of reverie and dream left behind as slumbering minds drift through the Dimension of Dreams. In most cases, these fragments simply disperse on their own, but when dreamers flee from nightmares back to the waking world, these fragments can take on a supernatural life of their own. They have little reasoning and intent except to seek similar fragments, absorb them, and grow. When enough of them gather together, they merge into a horrific form as an animate dream.</p>\n<p>Individually, animate dreams can hold a wide range of appearances, but most take on rudimentary shapes akin to the living forms of the minds that spawned them. Animate dreams that rise from slumbering humanoids, the most commonly encountered, thus appear humanoid, but with distorted, nightmarish shapes that incorporate additional twisted limbs and frightening features. In these forms, animate dreams find their way out of the Dreamlands and into the waking world, only to discover they have no way of returning and suffer a relentless hunger that only new nightmares can sate.</p>\n<p>An animate dream thrives on the terror fueled by nightmares and fear and uses its supernatural abilities to invoke such feelings in the minds of its victims, cursing its prey by creating a permanent link to that individual's dreams. Thereafter, the victim is subjected to all manner of reoccurring nightmares. As the nightmares continue, the victim finds it more and more difficult to remain awake. In the end, the victim plunges into an accursed slumber from which it cannot return. Estos victims provide the animate dream with the purest form of fear and are its preferred sustenance.</p>\n<p>An animate dream can subsist on the ambient fear generated by regular nightmares, but these lesser fears aren't as satisfying, often driving the animate dream to seek out new victims. Left without a source of fear, an animate dream won't starve to death, but it will grow increasingly violent and desperate. Famished animate dreams are the ones most often encountered, as they have been forced to abandon subtlety to pursue more blatant methods of harvesting fear. Yet such animate dreams also tend to be the least powerful of their kind. Those who have grown metaphysically fat on fear have generally done so by adopting a specific nightmare theme, such as being buried alive, being swept away by ocean waves, or being consumed by wild beasts. Such animate dreams often have similarly themed innate conjuros to augment their powers.</p>",
       "saveDetails": "+1 de estado a todas las salvaciones contra magia",
@@ -1040,7 +1040,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA]\nTelepathy 100 pies"
         },
         "action->+1 Status to All Saves vs. Magic": {
-          "name": "+1 Status to All Saves vs. Magic"
+          "name": "+1 por estatus a todas las salvaciones contra la magia"
         },
         "action->Endless Nightmare": {
           "name": "Endless Nightmare",
@@ -1073,7 +1073,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.vLGDUFrg4yGzpTQX]\n<p>A REPAIR kit allows tú to perform simple repairs while traveling. It contains a portable anvil, tongs, woodworking tools, a whetstone, and oils for conditioning leather and wood. Puedes use a REPAIR kit to REPAIR items using the CRAFTING skill.</p>"
         },
         "strike-melee->Warhammer": {
-          "name": "Warhammer"
+          "name": "Martillo de guerra"
         },
         "action->Anchor the Unliving": {
           "name": "Anchor the Unliving",
@@ -1094,7 +1094,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Y7UD64foDbDMV9sx]\n<p>@UUID[Compendium.pf2e.spells-srd.Item.Mt6ZzkVX8Q4xigFq]{Create Food}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>To Lanzar un conjuro from a scroll, the conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro tirada de ataque and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical material components and costs are provided when a scroll is created, so tú don't need to provide them when Lanzando un conjuro from a scroll. Debes replace any required material component for that conjuro with a somatic component. If the conjuro requires a focus, debes have that focus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
         },
         "strike-melee->Clan Dagger": {
-          "name": "Clan Dagger"
+          "name": "Daga de clan"
         },
         "strike-melee->Jaws": {
           "name": "Jaws"
@@ -1106,7 +1106,7 @@
           "name": "Shattering Chant"
         },
         "action->Stench": {
-          "name": "Stench",
+          "name": "Hedor",
           "description": "<p>30 pies. A criatura that enters the area must attempt a @Check[fortitude|dc:21] save. On a failure, the criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}, and on a critical failure, the criatura also takes a –5 penalización de estado to its Velocidades for 1 round. While within the aura, the criatura takes a –2 penalización de circunstancia to saves to recover from the sickened condition. A criatura that succeeds at its save is temporarily immune to all xulgaths stenches for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uB3CVn3momZO9h0L]{Efecto: Xulgath Stench}</p>"
         },
         "action->+2 Status To Saves Vs. Petrifying Gaze": {
@@ -1133,20 +1133,20 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.LJdbVTOZog39EEbi]\n<p>Longswords can be one-edged or two-edged swords. Their blades are heavy and they're between 3 and 4 pies in length.</p>"
         },
         "strike-melee->Longsword": {
-          "name": "Longsword"
+          "name": "Espada larga"
         },
         "strike-melee->Shield Boss": {
-          "name": "Shield Boss"
+          "name": "Umbo de escudo"
         },
         "strike-ranged->Light Hammer": {
-          "name": "Light Hammer"
+          "name": "Martillo ligero"
         },
         "action->Bravery": {
-          "name": "Bravery",
+          "name": "Valentía",
           "description": "<p>When the Hrungul rolls a success on a Will save against a fear effect, he gets a critical success instead. In addition, any time he gains the @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado} condition, reduce its value by 1.</p>"
         },
         "action->Double Slice": {
-          "name": "Double Slice",
+          "name": "Doble tajo",
           "description": "<p>Hrungul makes a longsword Golpe, followed by a shield boss Golpe against the same target at a –2 penalización, each using his current multiple attack penalización. If both attacks hit, he combines their daño and applies resistances and weaknesses only once. Este counts as two attacks when calculating his multiple attack penalización.</p>"
         },
         "action->Grim Efficiency": {
@@ -1158,7 +1158,7 @@
           "description": "<p>At the start of his turn, Hrungul gains an additional reaction that he can use only to Shield Block.</p>"
         },
         "lore->Warfare Lore": {
-          "name": "Warfare Lore"
+          "name": "Saber de Guerra"
         }
       }
     },
@@ -1189,10 +1189,10 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.AITVZmakiu3RgfKo]\nBolts (4 magazines with 5 bolts each)"
         },
         "strike-ranged->Dagger": {
-          "name": "Dagger"
+          "name": "Daga"
         },
         "strike-ranged->Repeating Heavy Crossbow": {
-          "name": "Repeating Heavy Crossbow"
+          "name": "Ballesta pesada de repetición"
         },
         "action->+2 Status to All Saves vs. Magic": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kquBnQ0kObZztnBc]\n+2 Status to All Saves vs. Magic"
@@ -1205,7 +1205,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>The hryngar assassin deals an extra 2d6 daño de precisión to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} criaturas.</p>"
         },
         "action->Surprise Attack": {
-          "name": "Surprise Attack",
+          "name": "Ataque por sorpresa",
           "description": "<p>On the first round of combat, criaturas that haven't acted yet are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to the hryngar assassin.</p>"
         }
       }
@@ -1227,11 +1227,11 @@
         },
         "strike-ranged->Light Hammer": [
           {
-            "name": "Light Hammer",
+            "name": "Martillo ligero",
             "id": "h9USQEyWa6Up3H6l"
           },
           {
-            "name": "Light Hammer",
+            "name": "Martillo ligero",
             "id": "JedB5tgx4PI9K9wc"
           }
         ],
@@ -1263,7 +1263,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kquBnQ0kObZztnBc]\n+2 Status to All Saves vs. Magic"
         },
         "action->Troop Defenses": {
-          "name": "Troop Defenses"
+          "name": "Defensas de tropas"
         },
         "action->Bolt Barrage": {
           "name": "Bolt Barrage",
@@ -1278,7 +1278,7 @@
           "description": "<p>The hryngar breccia squad raises steel shields, with the effects of Alzar un escudo.</p>\n<hr />\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.2YgXoHvJfrDHucMr]{Efecto: Alzar un escudo}</p>"
         },
         "action->Troop Movement": {
-          "name": "Troop Movement",
+          "name": "Movimiento de tropas",
           "description": "<p>Siempre que the hryngar breccia squad Strides, it first Forms Up as a free action to condense into a 20-pies-by-20-pies area (minus any missing squares), then moves up to its Velocidad. Este works just like a Gargantuan criatura moving; for instance, if any square of the hryngar breccia squad enters difficult terrain, the extra movement cost applies to the entire hryngar breccia squad.</p>"
         },
         "action->Push Back": {
@@ -1301,10 +1301,10 @@
           "requirements": "Puedes bleed"
         },
         "strike-melee->Light Hammer": {
-          "name": "Light Hammer"
+          "name": "Martillo ligero"
         },
         "strike-ranged->Light Hammer": {
-          "name": "Light Hammer"
+          "name": "Martillo ligero"
         },
         "action->Toil is Strength": {
           "name": "Toil is Strength",
@@ -1341,19 +1341,19 @@
           "name": "Fist"
         },
         "strike-melee->Dagger": {
-          "name": "Dagger"
+          "name": "Daga"
         },
         "strike-ranged->Dagger": {
-          "name": "Dagger"
+          "name": "Daga"
         },
         "strike-ranged->Bola": {
-          "name": "Bola"
+          "name": "Boleadoras"
         },
         "strike-ranged->Hand Crossbow": {
-          "name": "Hand Crossbow"
+          "name": "Ballesta de mano"
         },
         "action->Lie to Me": {
-          "name": "Lie to Me",
+          "name": "Miénteme",
           "description": "<p>A king's agent uses their DECEPTION DC when someone tries to Lie to them.</p>"
         },
         "action->Counter Feint": {
@@ -1375,8 +1375,8 @@
     },
     "Hryngar Officer": {
       "name": "Hryngar Officer",
-      "acDetails": "(26 with shield raised)",
-      "blurb": "Variant Captain Of The Guard",
+      "acDetails": "(26 con el escudo alzado)",
+      "blurb": "Variante de Captain Of The Guard",
       "publicNotes": "<p>The captain of the guard leads a troop of soldiers who serve as security forces for a powerful individual, most often a high-ranking noble or very rich merchant, though this stat block could also represent a lower-ranking captain of the guard for the leader of a nation. A formidable opponent in their own right, the captain of the guard skillfully employs their troops to protect the life and health of their ward.</p>\n<hr />\n<p>Larger societies rely on those with the authority and the ability to interpret and enforce laws. In good-aligned societies, these officials carry out their duties fairly. In neutral and evil ones, these officials can be harsh and cruel (with an altered alignment to reflect this), imposing severe punishments on those who can't pay for mercy.</p>",
       "items": {
         "spellcastingEntry->Occult Innate Spells": {
@@ -1395,21 +1395,21 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Gq1cZWSKOtJhKd2p]\n<p>Plate mail consists of interlocking plates that encase nearly the entire body in a carapace of steel. It is costly and heavy, and the wearer often requires help to don it correctly, but it provides some of the best defense armor can supply. A suit of this armor comes with an undercoat of padded armor and a pair of gauntlets.</p>"
         },
         "strike-melee->Longsword": {
-          "name": "Longsword"
+          "name": "Espada larga"
         },
         "strike-ranged->Crossbow": {
-          "name": "Crossbow"
+          "name": "Ballesta"
         },
         "action->Aura of Command": {
           "name": "Aura of comando",
           "description": "<p>30 pies. The captain of the guard bolsters lower-level guards under their command, granting them a +1 bonificador de estado to their tiradas de ataque and a +2 bonificador de estado to their Will saves.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.T9wQ1LvsvPWTefQR]{Efecto: Under comando}</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.OxOMYmlPtjsEkRtY]{Efecto: Aura of comando}</p>"
         },
         "action->Bravery": {
-          "name": "Bravery",
+          "name": "Valentía",
           "description": "<p>When the captain of the guard rolls a success on a Will save against a fear effect, they get a critical success instead. In addition, any time they gain the @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado} condition, reduce its value by 1.</p>"
         },
         "action->Shield Warden": {
-          "name": "Shield Warden",
+          "name": "Guardián escudo",
           "description": "<p>When the captain has their shield raised, they can @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.m4HQ2o5aPxjXf2kY]{Shield Block} when an attack is made against an adjacent ally. If they do, the shield prevents that ally from taking daño instead of the captain.</p>"
         },
         "action->Shielded Advance": {
@@ -1417,16 +1417,16 @@
           "description": "<p><strong>Requisitos</strong> The captain of the guard has their shield raised</p>\n<hr />\n<p><strong>Efecto</strong> The captain of the guard presses forward, using their shield to push back foes.</p>\n<p>The captain Strides and @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shoves}, in either order. The multiple attack penalización doesn't apply to this Shove, though the Shove does count toward the captain's multiple attack penalización.</p>"
         },
         "lore->Legal Lore": {
-          "name": "Legal Lore"
+          "name": "Saber de Leyes"
         },
         "lore->Warfare Lore": {
-          "name": "Warfare Lore"
+          "name": "Saber de Guerra"
         }
       }
     },
     "Hryngar Rager": {
       "name": "Hryngar Rager",
-      "blurb": "Variant Monster Hunter",
+      "blurb": "Variante de Monster Hunter",
       "publicNotes": "<p>Some mercenaries eschew the complications of politics, oaths of service, and fealty and just get paid to hunt monsters. It's a straightforward form of mercenary service, often dangerous in the extreme, but one that can yield glory and fame.</p>\n<hr />\n<p>A broad category that includes those wielding arms, conjuros, or even guile and cunning, mercenaries hire themselves and their expertise to those with the gold to pay for it.</p>",
       "items": {
         "spellcastingEntry->Occult Innate Spells": {
@@ -1439,17 +1439,17 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.8COlYvHe6hKCXY8x]\n<p>Esta gran hacha de batalla es demasiado pesada para empuñarla con una sola mano. Many greataxes incorporate two blades, and they are often \"bearded\", having a hook at the bottom to increase the strength of their chopping power.</p>"
         },
         "strike-melee->Greataxe": {
-          "name": "Greataxe"
+          "name": "Gran hacha"
         },
         "strike-ranged->Composite Longbow": {
-          "name": "Composite Longbow"
+          "name": "Arco largo compuesto"
         },
         "action->Rage": {
-          "name": "Rage",
+          "name": "Furia",
           "description": "<p><strong>Requisitos</strong> The monster hunter isn't @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigado} or raging</p>\n<hr />\n<p><strong>Efecto</strong> The monster hunter gains 9 Puntos de Golpe temporales that last until the rage ends. While raging, they deal 8 daño adicional with melee attacks, gain a +10-pies bonificador de estado to their Velocidad, and take a -1 penalización to AC. The monster hunter can't use concentrate actions except @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} and rage actions.</p>\n<p>The rage lasts for 1 minute, until there are no enemies the monster hunter can perceive, or until the monster hunter falls unconscious.</p>\n<p>Once the rage ends, the monster hunter can't again for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.z3uyCMBddrPK5umr]{Efecto: Rage}</p>"
         },
         "action->Sudden Charge": {
-          "name": "Sudden Charge",
+          "name": "Carga repentina",
           "description": "<p>The monster hunter Strides twice and makes a melee Golpe.</p>"
         },
         "lore->Monster Lore": {
@@ -1459,7 +1459,7 @@
     },
     "Hryngar Skull Collector": {
       "name": "Hryngar Skull Collector",
-      "blurb": "Variant Executioner",
+      "blurb": "Variante de Executioner",
       "publicNotes": "<p>Executioners carry out sentences from cruel tyrants and legitimate rulers alike. Most remain numb to the necessity of their duty, but some evil executioners grow to love the power of having someone else's life in their hands.</p>\n<hr />\n<p>Larger societies rely on those with the authority and the ability to interpret and enforce laws. In good-aligned societies, these officials carry out their duties fairly. In neutral and evil ones, these officials can be harsh and cruel (with an altered alignment to reflect this), imposing severe punishments on those who can't pay for mercy.</p>",
       "items": {
         "spellcastingEntry->Occult Innate Spells": {
@@ -1475,7 +1475,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.ilbLQNy6TbBPW7sQ]\nHood"
         },
         "strike-melee->Greataxe": {
-          "name": "Greataxe"
+          "name": "Gran hacha"
         },
         "action->Behead": {
           "name": "Behead",
@@ -1486,14 +1486,14 @@
           "description": "<p>The executioner makes a melee Golpe. If it hits and deals daño, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}, or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} on a critical hit.</p>"
         },
         "action->Mark for Death": {
-          "name": "Mark for Death",
+          "name": "Marcar para la muerte",
           "description": "<p>The executioner marks a single criatura they can see for death. The first time each round the executioner Golpes that criatura, the Golpe deals 1d12 daño adicional de precisión.</p>\n<p>The criatura remains marked for death until the executioner is knocked out, marks a different criatura for death, or the encounter ends.</p>"
         }
       }
     },
     "Hryngar Veteran": {
       "name": "Hryngar Veteran",
-      "blurb": "Variant Gang Leader",
+      "blurb": "Variante de Gang Leader",
       "publicNotes": "<p>Cutthroats, killers, thieves, and toughs prey upon the vulnerable of SOCIETY. Directing their activities and keeping them in line are the duties of the gang leader.</p>\n<hr />\n<p>Villains pursue selfish and cruel goals, trampling over anyone foolish or purehearted enough to stand in their way.</p>",
       "items": {
         "spellcastingEntry->Occult Innate Spells": {
@@ -1510,25 +1510,25 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.2RuepCemJhrpKKao]\n<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a healing potion, tú regain @Damage[1d8[healing]] Puntos de Golpe.</p>"
         },
         "strike-melee->Shortsword": {
-          "name": "Shortsword"
+          "name": "Espada corta"
         },
         "strike-ranged->Sling": {
-          "name": "Sling"
+          "name": "Honda"
         },
         "action->Deny Advantage": {
-          "name": "Deny Advantage",
+          "name": "Negar ventaja",
           "description": "<p>The gang leader isn't @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to criaturas of 7th level or lower that are @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido}, @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{No detectado}, flanking, or using surprise attack.</p>"
         },
         "action->Evasion": {
-          "name": "Evasion",
+          "name": "Evasión",
           "description": "<p>When the gang leader rolls a success on a Reflex save, they get a critical success instead.</p>"
         },
         "action->Nimble Dodge": {
-          "name": "Nimble Dodge",
+          "name": "Esquiva ágil",
           "description": "<p><strong>Desencadenante</strong> The gang leader is targeted with an attack by an attacker they can see</p>\n<hr />\n<p><strong>Efecto</strong> The gang leader gains a +2 bonificador de circunstancia to AC against the triggering attack.</p>"
         },
         "action->Surprise Attack": {
-          "name": "Surprise Attack",
+          "name": "Ataque por sorpresa",
           "description": "<p>On the first round of combat, if the gang leader rolls DECEPTION or STEALTH for initiative, criaturas who haven't acted are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to the gang leader.</p>"
         },
         "action->Brutal Rally": {
@@ -1536,18 +1536,18 @@
           "description": "<p><strong>Desencadenante</strong> The gang leader rolls a critical hit against a criatura</p>\n<hr />\n<p><strong>Efecto</strong> All allies that can see the gang leader gain a +1 bonificador de circunstancia to tiradas de ataque until the start of the gang leader's next turn.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.7x0O2GqWBJiAk5PF]{Efecto: Brutal Rally}</p>"
         },
         "action->Gang Up": {
-          "name": "Gang Up",
+          "name": "Unir fuerzas",
           "description": "<p>Any enemigo is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} against the gang leader's melee attacks due to flanking as long as the enemigo is within melee reach of both the gang leader and one of the gang leader's allies.</p>"
         },
         "action->Quick Draw": {
-          "name": "Quick Draw",
+          "name": "Desenvainado rápido",
           "description": "<p>The gang leader @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interacts} to draw a arma, then Golpes with that arma.</p>"
         },
         "action->Sneak Attack": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>The gang leader deals an extra 2d6 daño de precisión to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} criaturas.</p>"
         },
         "lore->Underworld Lore": {
-          "name": "Underworld Lore"
+          "name": "Saber de Bajos fondos"
         }
       }
     },
@@ -1591,7 +1591,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>The hyphae tyrant transforms into a Small fungus. Este ability otherwise uses the effects of @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{One with Plants}.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
         "action->Spore Cloud": {
-          "name": "Spore Cloud",
+          "name": "Nube De Esporas",
           "description": "<p>A hyphae tyrant unleashes a cloud of spores in a @Template[emanation|distance:20]. Each non-fungi criatura in this area must succeed at a @Check[fortitude|dc:20|options:area-effect,damaging-effect] save or take @Damage[2[persistent,poison]|options:area-damage] daño. A criatura has its vision reduced as long as the daño persistente continues and can see only within 20 pies (or 10 pies on a critical failure).</p>"
         },
         "action->Spores": {
@@ -1633,7 +1633,7 @@
           "name": "Primal Innate Spells"
         },
         "strike-melee->Shortsword": {
-          "name": "Shortsword"
+          "name": "Espada corta"
         },
         "strike-ranged->Metal Scrap": {
           "name": "Metal Scrap"
@@ -1642,7 +1642,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>The jinkin deals 1d6 daño adicional de precisión to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} criaturas.</p>"
         },
         "action->Tinker": {
-          "name": "Tinker",
+          "name": "Manitas",
           "description": "<p>A group of six jinkins can work together for an hour to imbue an item with a curse at a range of 60 pies. While this process is lengthy, it's also unobtrusive and can be performed while @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hiding}. Jinkins prefer to use this ability on magic items. The curse makes the item unreliable (@Check[flat|dc:5] check or waste any action to INTERACT with or Activar the item), adds a bizarre requirement to use the item, or imparts some other curse of a similar caliber.</p>"
         }
       }
@@ -1665,7 +1665,7 @@
           "description": "<p>When a juvenile cave worm gains the @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido} condition, reduce the duration by half, to a minimum of 1 round. It also recovers from penalties to its Velocidades and the @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} condition at the end of its turn. Finally, it ignores non-magical difficult terrain and treats greater difficult terrain like difficult terrain.</p>"
         },
         "action->Shake It Off": {
-          "name": "Shake It Off",
+          "name": "Recupérate",
           "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Desencadenante</strong> The juvenile cave worm would be affected by a condition or adverse effect (such as @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{Cursed Metamorphosis})</p>\n<hr />\n<p><strong>Efecto</strong> The juvenile cave worm negates the triggering condition or effect. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way.</p>"
         },
         "action->Clumsy Leap": {
@@ -1703,7 +1703,7 @@
           "description": "<p>When a juvenile cave worm gains the @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido} condition, reduce the duration by half, to a minimum of 1 round. It also recovers from penalties to its Velocidades and the @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} condition at the end of its turn. Finally, it ignores non-magical difficult terrain and treats greater difficult terrain like difficult terrain.</p>"
         },
         "action->Shake It Off": {
-          "name": "Shake It Off",
+          "name": "Recupérate",
           "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Desencadenante</strong> The juvenile cave worm would be affected by a condition or adverse effect (such as @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{Cursed Metamorphosis})</p>\n<hr />\n<p><strong>Efecto</strong> The juvenile cave worm negates the triggering condition or effect. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way.</p>"
         },
         "action->Clumsy Leap": {
@@ -1741,7 +1741,7 @@
           "description": "<p>When a juvenile cave worm gains the @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido} condition, reduce the duration by half, to a minimum of 1 round. It also recovers from penalties to its Velocidades and the @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} condition at the end of its turn. Finally, it ignores non-magical difficult terrain and treats greater difficult terrain like difficult terrain.</p>"
         },
         "action->Shake It Off": {
-          "name": "Shake It Off",
+          "name": "Recupérate",
           "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Desencadenante</strong> The juvenile cave worm would be affected by a condition or adverse effect (such as @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{Cursed Metamorphosis})</p>\n<hr />\n<p><strong>Efecto</strong> The juvenile cave worm negates the triggering condition or effect. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way.</p>"
         },
         "action->Clumsy Leap": {
@@ -1780,7 +1780,7 @@
           "description": "<p>When a juvenile cave worm gains the @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido} condition, reduce the duration by half, to a minimum of 1 round. It also recovers from penalties to its Velocidades and the @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} condition at the end of its turn. Finally, it ignores non-magical difficult terrain and treats greater difficult terrain like difficult terrain.</p>"
         },
         "action->Shake It Off": {
-          "name": "Shake It Off",
+          "name": "Recupérate",
           "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Desencadenante</strong> The juvenile cave worm would be affected by a condition or adverse effect (such as @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{Cursed Metamorphosis})</p>\n<hr />\n<p><strong>Efecto</strong> The juvenile cave worm negates the triggering condition or effect. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way.</p>"
         },
         "action->Clumsy Leap": {
@@ -1818,7 +1818,7 @@
           "description": "<p>When a juvenile cave worm gains the @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido} condition, reduce the duration by half, to a minimum of 1 round. It also recovers from penalties to its Velocidades and the @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} condition at the end of its turn. Finally, it ignores non-magical difficult terrain and treats greater difficult terrain like difficult terrain.</p>"
         },
         "action->Shake It Off": {
-          "name": "Shake It Off",
+          "name": "Recupérate",
           "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Desencadenante</strong> The juvenile cave worm would be affected by a condition or adverse effect (such as @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{Cursed Metamorphosis})</p>\n<hr />\n<p><strong>Efecto</strong> The juvenile cave worm negates the triggering condition or effect. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way.</p>"
         },
         "action->Clumsy Leap": {
@@ -1840,8 +1840,8 @@
     },
     "Krohan (Possessed)": {
       "name": "Krohan (Possessed)",
-      "acDetails": "(19 with shield raised)",
-      "hpDetails": "Void Healing",
+      "acDetails": "(19 con el escudo alzado)",
+      "hpDetails": "Curación del vacío",
       "tokenName": "Krohan",
       "items": {
         "spellcastingEntry->Occult Innate Spells": {
@@ -1894,13 +1894,13 @@
           "description": "<p>Krohan gains a +2 bonificador de circunstancia to tiradas de ataque and pruebas de habilidad attempted to Aid others. He can attempt a Dwarf LORE check in place of any other tirada de ataque or prueba de habilidad to Aid a dwarf.</p>"
         },
         "lore->Dwarf Lore": {
-          "name": "Dwarf Lore"
+          "name": "Saber de Enanos"
         }
       }
     },
     "Krohan Veldollow": {
       "name": "Krohan Veldollow",
-      "acDetails": "(19 with shield raised)",
+      "acDetails": "(19 con el escudo alzado)",
       "items": {
         "spellcastingEntry->Occult Innate Spells": {
           "name": "Occult Innate Spells"
@@ -1923,10 +1923,10 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.ktjFOp3U0wQD9t0Z]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>An antidote protects tú against toxins. Upon drinking an antidote, obtienes a +2 bonificador por objeto to Fortitude tiradas de salvación against poisons for 6 hours.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.TjBxxlTvb6tJP1jS]{Efecto: Antidote}</p>"
         },
         "strike-melee->Pick": {
-          "name": "Pick"
+          "name": "Pico"
         },
         "strike-ranged->Composite Shortbow": {
-          "name": "Composite Shortbow"
+          "name": "Arco corto compuesto"
         },
         "action->Occult Catharsis": {
           "name": "Occult Catharsis",
@@ -1945,13 +1945,13 @@
           "description": "<p>Krohan gains a +2 bonificador de circunstancia to tiradas de ataque and pruebas de habilidad attempted to Aid others. He can attempt a Dwarf LORE check in place of any other tirada de ataque or prueba de habilidad to Aid a dwarf.</p>"
         },
         "lore->Dwarf Lore": {
-          "name": "Dwarf Lore"
+          "name": "Saber de Enanos"
         }
       }
     },
     "Lady Shimmersnip": {
       "name": "Lady Shimmersnip",
-      "blurb": "Variant giant Crab",
+      "blurb": "Variante de giant Crab",
       "publicNotes": "<p>Crabs are scavenging crustaceans known for their hard shells and iconic sideways gait. They use their claws to defend themselves, hunt, and fight other crabs for territory. When confronted with threats from outside their species, most crabs prefer to flee, but when retreat isn't possible, they clamp on to their foes as tightly as they can.</p>\n<p>The statistics presented here represent giant crabs that live close to the water's surface. Crabs that live deeper underwater often exhibit more extreme adaptations to their environment. Crabs who live in the depths where little light reaches gain darkvision and cold resistance, and those adapted to the most hostile reaches of the deep sea can detect nearby criaturas through subtle shifts in ocean currents.</p>\n<p>Estos skittering criaturas are prized for their delicious meat, but their size makes them dangerous targets for harvesting.</p>",
       "items": {
         "condition->Clumsy": {
@@ -1989,7 +1989,7 @@
           "description": "<p>When a juvenile cave worm gains the @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido} condition, reduce the duration by half, to a minimum of 1 round. It also recovers from penalties to its Velocidades and the @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} condition at the end of its turn. Finally, it ignores non-magical difficult terrain and treats greater difficult terrain like difficult terrain.</p>"
         },
         "action->Shake It Off": {
-          "name": "Shake It Off",
+          "name": "Recupérate",
           "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Desencadenante</strong> The larval cave worm brood would be affected by a condition or adverse effect (such as @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{Cursed Metamorphosis})</p>\n<hr />\n<p><strong>Efecto</strong> The larval brood negates the triggering condition or effect. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way.</p>"
         },
         "action->Ferocious Gnaw": {
@@ -2014,7 +2014,7 @@
           "description": "<p>When a juvenile cave worm gains the @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido} condition, reduce the duration by half, to a minimum of 1 round. It also recovers from penalties to its Velocidades and the @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} condition at the end of its turn. Finally, it ignores non-magical difficult terrain and treats greater difficult terrain like difficult terrain.</p>"
         },
         "action->Shake It Off": {
-          "name": "Shake It Off",
+          "name": "Recupérate",
           "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Desencadenante</strong> The larval cave worm brood would be affected by a condition or adverse effect (such as @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{Cursed Metamorphosis})</p>\n<hr />\n<p><strong>Efecto</strong> The larval brood negates the triggering condition or effect. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way.</p>"
         },
         "action->Ferocious Gnaw": {
@@ -2039,7 +2039,7 @@
           "description": "<p>When a juvenile cave worm gains the @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido} condition, reduce the duration by half, to a minimum of 1 round. It also recovers from penalties to its Velocidades and the @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} condition at the end of its turn. Finally, it ignores non-magical difficult terrain and treats greater difficult terrain like difficult terrain.</p>"
         },
         "action->Shake It Off": {
-          "name": "Shake It Off",
+          "name": "Recupérate",
           "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Desencadenante</strong> The larval cave worm brood would be affected by a condition or adverse effect (such as @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{Cursed Metamorphosis})</p>\n<hr />\n<p><strong>Efecto</strong> The larval brood negates the triggering condition or effect. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way.</p>"
         },
         "action->Ferocious Gnaw": {
@@ -2065,7 +2065,7 @@
           "description": "<p>When a juvenile cave worm gains the @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido} condition, reduce the duration by half, to a minimum of 1 round. It also recovers from penalties to its Velocidades and the @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} condition at the end of its turn. Finally, it ignores non-magical difficult terrain and treats greater difficult terrain like difficult terrain.</p>"
         },
         "action->Shake It Off": {
-          "name": "Shake It Off",
+          "name": "Recupérate",
           "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Desencadenante</strong> The larval cave worm brood would be affected by a condition or adverse effect (such as @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{Cursed Metamorphosis})</p>\n<hr />\n<p><strong>Efecto</strong> The larval brood negates the triggering condition or effect. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way.</p>"
         },
         "action->Ferocious Gnaw": {
@@ -2090,7 +2090,7 @@
           "description": "<p>When a juvenile cave worm gains the @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido} condition, reduce the duration by half, to a minimum of 1 round. It also recovers from penalties to its Velocidades and the @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} condition at the end of its turn. Finally, it ignores non-magical difficult terrain and treats greater difficult terrain like difficult terrain.</p>"
         },
         "action->Shake It Off": {
-          "name": "Shake It Off",
+          "name": "Recupérate",
           "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Desencadenante</strong> The larval cave worm brood would be affected by a condition or adverse effect (such as @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{Cursed Metamorphosis})</p>\n<hr />\n<p><strong>Efecto</strong> The larval brood negates the triggering condition or effect. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way.</p>"
         },
         "action->Ferocious Gnaw": {
@@ -2134,13 +2134,13 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRay of Enfeeblement"
         },
         "strike-melee->Club": {
-          "name": "Club"
+          "name": "Clava"
         },
         "strike-melee->Fist": {
           "name": "Fist"
         },
         "action->Unkillable": {
-          "name": "Unkillable",
+          "name": "Imposible de matar",
           "description": "<p>Mumkuh is nigh unkillable. She loses her weakness to slashing and gains resistance 3 against all daño, and she gains weakness 6 to critical hits.</p>"
         },
         "action->Command Zombie": {
@@ -2204,7 +2204,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.upzjwQ96cZG0Xlmx]\n<p>Este piece of wood or silver is emblazoned with an image representing a deity. Some divine spellcasters, such as clerics, can use a religious symbol of their deity as a divine focus to use certain abilities and cast some conjuros. A religious symbol must be held in one hand to use it.</p>"
         },
         "strike-melee->Staff": {
-          "name": "Staff"
+          "name": "Bastón"
         },
         "strike-melee->Tail": {
           "name": "Tail"
@@ -2220,23 +2220,23 @@
           "description": "<p>When Narseigus gains the @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido} condition, roll a @Check[flat|dc:15]. On a success, he ignores the condition.</p>"
         },
         "action->Shake It Off": {
-          "name": "Shake It Off",
+          "name": "Recupérate",
           "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Desencadenante</strong> Narseigus fails or critically fails a tirada de salvación against a condition or adverse effect (such as @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{Cursed Metamorphosis})</p>\n<hr />\n<p><strong>Efecto</strong> Narseigus rerolls the triggering tirada de salvación and uses the better result.</p>"
         },
         "action->Quickened Casting": {
-          "name": "Quickened Casting",
+          "name": "Lanzamiento apresurado",
           "description": "<p>If Narseigus' next action is to cast an occult spontaneous cantrip or an occult spontaneous conjuro of 4th level or lower, he reduces the number of actions to cast it by 1 (minimum 1 action).</p>"
         },
         "action->Steady Spellcasting": {
-          "name": "Steady Spellcasting",
+          "name": "Lanzamiento de conjuros firme",
           "description": "<p>If a reaction would disrupt Narseigus' spellcasting action, he attempts a @Check[flat|dc:15]. On a success, the action isn't disrupted.</p>"
         },
         "action->Worm Form": {
-          "name": "Worm Form",
+          "name": "Forma de gusano",
           "description": "<p>Narseigus partially transforms his lower body into that of a cave worm. He can use only his tail unarmed Golpe and his burrow and CLIMB Velocidades while in this form. Este transformation lasts for 1 minute.</p>"
         },
         "action->Worm's Feast": {
-          "name": "Worm's Feast",
+          "name": "La fiesta del gusano",
           "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> Narseigus calls forth a brood of infantile cave worms to feast on his enemigo's flesh. One criatura within 30 pies must attempt a @Check[fortitude|dc:27] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The worms writhe away harmlessly.</p>\n<p><strong>Éxito</strong> El objetivo takes @Damage[2d6[piercing],4d6[persistent,piercing]]{2d6 daño perforante and 4d6 persistent piercing} daño.</p>\n<p><strong>Fallo</strong> El objetivo takes @Damage[6d6[piercing],4d6[persistent,piercing]]{6d6 daño perforante and 4d6 persistent piercing} daño.</p>\n<p><strong>Fallo crítico</strong> As failure, plus el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} as long as it takes daño persistente perforante.</p>\n<hr />\n<p><em>Note: A DC for this ability was not provided by Paizo. The DC present here is a moderate DC for the criatura's level based on the Gamemastery Guide criatura building rules</em></p>"
         },
         "lore->Cave Worm Lore": {
@@ -2285,8 +2285,8 @@
       }
     },
     "Plague Zombie": {
-      "name": "Plague Zombie",
-      "blurb": "Variant Plague Zombie",
+      "name": "Zombi de la peste",
+      "blurb": "Variante de Plague Zombie",
       "hpDetails": "curación de vacío",
       "publicNotes": "<p>Plague zombies are infested with hideous contagions.</p>\n<hr />\n<p>A zombie's only desire is to consume the living. Unthinking and ever-shambling harbingers of death, zombies stop only when they're destroyed.</p>",
       "items": {
@@ -2301,7 +2301,7 @@
           "description": "<p><strong>Requisitos</strong> The zombie has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado}.</p>"
         },
         "action->Slow": {
-          "name": "Slow",
+          "name": "Lentificar",
           "description": "<p>A zombie is permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} and can't use reactions.</p>"
         },
         "action->Zombie Rot": {
@@ -2312,7 +2312,7 @@
     },
     "Redcap Cavalry": {
       "name": "Redcap Cavalry",
-      "hpDetails": "fast healing 10",
+      "hpDetails": "curacion rapida 10",
       "publicNotes": "<p>Whomever first imagined putting a fey with a bloodsoaked hat on a giant blood-crazed insect certainly had a sense of humor, but that didn't stop the redcaps from trying to domesticate and train giant bloodseekers. Although a flying cavalry was Queen Frilogarma's goal, her court ended up accidentally inventing redcap racing. In this sport, one redcap with a freshly soaked cap is swung around a racetrack by a giant arm while several other redcaps on giant bloodseekers fly after them. The \"bait\" redcap doesn't usually survive, but they are the center of attention for about two minutes.</p>\n<hr />\n<p>In the Ether Court, redcaps train to ride giant bloodseeker specially bred to be mounts. While their fey cousins outside the court see this as folly, redcap courtiers consider riding bloodseekers a noble sport.</p>\n<h2>That Bloody Hat</h2>\n<p>Even when a redcap isn't taking daño persistente de sangrado, their red caps drip crimson, soaked in the blood of their enemies. Este is more than enough to provoke criaturas who react strongly to the scent of blood. Las criaturas with scent treat a redcap as a criatura taking daño persistente de sangrado.</p>",
       "items": {
         "equipment->Iron Boots": {
@@ -2322,7 +2322,7 @@
           "name": "Red Cap"
         },
         "strike-melee->Scythe": {
-          "name": "Scythe"
+          "name": "Guadaña"
         },
         "strike-melee->Boot": {
           "name": "Boot"
@@ -2413,7 +2413,7 @@
           "name": "Fist"
         },
         "strike-melee->Spore Shephard's Staff": {
-          "name": "Spore Shephard's Staff"
+          "name": "Bastón de Spore Shephard"
         },
         "strike-ranged->Spore Pod": {
           "name": "Spore Pod"
@@ -2430,7 +2430,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>The hyphae tyrant transforms into a Small fungus. Este ability otherwise uses the effects of @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{One with Plants}.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
         "action->Spore Cloud": {
-          "name": "Spore Cloud",
+          "name": "Nube De Esporas",
           "description": "<p>A hyphae tyrant unleashes a cloud of spores in a @Template[emanation|distance:20]. Each non-fungi criatura in this area must succeed at a @Check[fortitude|dc:20|options:area-effect,damaging-effect] save or take @Damage[2[persistent,poison]|options:area-damage] daño. A criatura has its vision reduced as long as the daño persistente continues and can see only within 20 pies (or 10 pies on a critical failure).</p>"
         },
         "action->Spores": {
@@ -2454,7 +2454,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA]\nTelepathy 100 Feet"
         },
         "action->Telepathic Bond": {
-          "name": "Telepathic Bond",
+          "name": "Vínculo Telepático",
           "description": "<p>A slime puppeteer maintains a strong telepathic bond with the alghollthu that created it. Este bond has planetary reach, but the puppeteer is blind and deaf while accessing this bond.</p>"
         },
         "action->Stinky Sweat": {
@@ -2798,7 +2798,7 @@
     },
     "Sporeborn Sheep": {
       "name": "Sporeborn Sheep",
-      "blurb": "Variant Plague Zombie",
+      "blurb": "Variante de Plague Zombie",
       "hpDetails": "curación de vacío",
       "publicNotes": "<p>Plague zombies are infested with hideous contagions.</p>\n<hr />\n<p>A zombie's only desire is to consume the living. Unthinking and ever-shambling harbingers of death, zombies stop only when they're destroyed.</p>",
       "items": {
@@ -2813,7 +2813,7 @@
           "description": "<p>A headless spore sheep can't make Jaws attacks.</p>"
         },
         "action->Slow": {
-          "name": "Slow",
+          "name": "Lentificar",
           "description": "<p>A zombie is permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} and can't use reactions.</p>"
         },
         "action->Wasting Wheeze": {
@@ -2828,7 +2828,7 @@
     },
     "Sporeborn Skull": {
       "name": "Sporeborn Skull",
-      "blurb": "Variant Flaming Skull",
+      "blurb": "Variante de Flaming Skull",
       "hpDetails": "curación de vacío",
       "publicNotes": "<p>More dangerous than simple severed heads, these skulls are wreathed in unearthly flames.</p>\n<hr />\n<p>Beheaded are the reanimated heads of decapitation victims. Estos mindless undead fly through the air or roll around to attack their prey.</p>",
       "skillSpecialAcrobatics": {
@@ -2855,7 +2855,7 @@
     },
     "Stonemaker": {
       "name": "Stonemaker",
-      "blurb": "Variant basilisk",
+      "blurb": "Variante de basilisk",
       "publicNotes": "<p>The basilisk is an eight-legged reptile with a nasty disposition and the ability to turn criaturas to stone with its gaze. Folklore holds that, much like for the cockatrice, the first basilisks hatched from leathery eggs laid by snakes and incubated by roosters, but little in the basilisk's physiology lends any credence to this claim.</p>\n<p>A basilisk prefers to eat petrified flesh. Once a victim has been turned to stone, the basilisk crunches the fossilized corpse with its powerful jaws and lets its potent stomach acids do the rest. Este digestive process is extremely slow and inefficient, causing the basilisk to move so lethargically that it appears as if in mid-petrification itself. Este has even led to the saying \"as slow as a well-fed basilisk.\" Certainly basilisks are well-known for their slow gait and slothful NATURE, but a predator that can turn its prey to stone with a glance hardly has much need for speed.</p>\n<p>An adult basilisk is 13 pies long from head to tail and weighs roughly 300 pounds. Estos reptiles make hissing sounds when moving about that turns to a guttural gurgle when they're agitated. Though they are normally solitary criaturas that come together only to mate and lay eggs, there are periodic reports of regions being infested with unusual numbers of basilisks. What causes these unusual congregations of basilisk activity is unknown.</p>\n<p>For unknown reasons, weasels and ferrets are immune to the basilisk's stare, and they sometimes sneak into basilisk lairs while a parent is hunting in order to consume eggs or freshly hatched young. Some legends suggest that a basilisk's blood can transmute common stones into other material, but this is likely a case of witnesses misinterpreting the magical restoration of previously petrified criaturas or body parts.</p>",
       "saveDetails": "+2 status to saves vs. xulgath stench",
       "items": {
@@ -2955,7 +2955,7 @@
           "name": "Grasping Claw"
         },
         "strike-melee->Hammer": {
-          "name": "Hammer"
+          "name": "Martillo"
         },
         "strike-ranged->Flaming Cannon": {
           "name": "Flaming Cannon"
@@ -2984,7 +2984,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]\n<p>Large, @Damage[3d6[fire],3d6[void]]{3d6 fire and 3d6 void}, Rupture 21</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
         },
         "lore->Droskar Lore": {
-          "name": "Droskar Lore"
+          "name": "Saber de Droskar"
         }
       }
     },
@@ -3032,13 +3032,13 @@
           "gmNote": "<p>Key to area <strong>I8</strong></p>"
         },
         "strike-melee->Warhammer": {
-          "name": "Warhammer"
+          "name": "Martillo de guerra"
         },
         "strike-melee->Hatchet": {
-          "name": "Hatchet"
+          "name": "Hacha de mano"
         },
         "strike-ranged->Hatchet": {
-          "name": "Hatchet"
+          "name": "Hacha de mano"
         }
       }
     },
@@ -3055,7 +3055,7 @@
           "name": "Claw"
         },
         "strike-melee->Fangs": {
-          "name": "Fangs"
+          "name": "colmillos"
         },
         "action->Flurry of Claws": {
           "name": "Flurry of Claws",
@@ -3085,7 +3085,7 @@
           "name": "Claw"
         },
         "strike-melee->Fangs": {
-          "name": "Fangs"
+          "name": "colmillos"
         },
         "action->Telepathy 30 Feet": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA]\nTelepathy 30 Feet"
@@ -3117,7 +3117,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.unR8VVR4yyRnsmnB]\n<p>Restoring the vandalized inscriptions and reciting their corrected stories ushers these spirits back to the afterlife.</p>\n<hr />\n<p>When a ghost is destroyed, it re-forms after [[/br 2d4 #days]]{2d4 days} within the location it's bound to, fully healed. A ghost can be permanently destroyed only if someone determines the reason for its existence and sets right whatever prevents the spirit from resting.</p>"
         },
         "lore->Dwarf Lore": {
-          "name": "Dwarf Lore"
+          "name": "Saber de Enanos"
         }
       }
     },
@@ -3218,10 +3218,10 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]\nTrue Golpe"
         },
         "strike-melee->Fangs": {
-          "name": "Fangs"
+          "name": "colmillos"
         },
         "action->Guarded Thoughts": {
-          "name": "Guarded Thoughts",
+          "name": "Pensamientos cautelosos",
           "description": "<p>Dark nagas are immune to any form of mind reading.</p>"
         },
         "action->Dark Naga Venom": {
@@ -3237,11 +3237,11 @@
       "speed": "troop movement",
       "items": {
         "action->Stench": {
-          "name": "Stench",
+          "name": "Hedor",
           "description": "<p>30 pies. A criatura that enters the area must attempt a @Check[fortitude|dc:21] save. On a failure, the criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}, and on a critical failure, the criatura also takes a –5 penalización de estado to its Velocidades for 1 round. While within the aura, the criatura takes a –2 penalización de circunstancia to saves to recover from the sickened condition. A criatura that succeeds at its save is temporarily immune to all xulgaths stenches for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uB3CVn3momZO9h0L]{Efecto: Xulgath Stench}</p>"
         },
         "action->Troop Defenses": {
-          "name": "Troop Defenses",
+          "name": "Defensas de tropas",
           "description": "<p><strong>Thresholds</strong> 48 (3 segments), 24 (2 segments)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "action->Fang and Claw": {
@@ -3257,14 +3257,14 @@
           "description": "<p>The troop fires a ranged attack in the form of a @Template[burst|distance:5] within 50 pies that deals @Damage[3d6[piercing]|options:area-damage] daño (@Check[reflex|dc:18|basic|options:area-effect] save), then the troop either Steps or Strides up to 15 pies toward the area they attacked.</p>"
         },
         "action->Troop Movement": {
-          "name": "Troop Movement",
+          "name": "Movimiento de tropas",
           "description": "<p>Siempre que a troop Strides, it first Forms Up as a free action to condense into a 20-pies-by–20- pies area (minus any missing squares), then moves up to its Velocidad. Este works just like a Gargantuan criatura moving; for instance, if any square of the troop enters difficult terrain, the extra movement cost applies to the whole troop.</p>"
         }
       }
     },
     "Zivzeb": {
       "name": "Zivzeb",
-      "blurb": "Mimic",
+      "blurb": "Mimeto",
       "publicNotes": "<p>Thought to be the result of a failed experiment meant to animate objects or a sinister alghollthu creation, mimics are clever monsters that can take the form of common manufactured objects. Mimics are ambush predators and voracious eaters, surprising their prey through their uncanny ability to mimic the form of common furniture and miscellany. They remain disguised until unsuspecting adventurers happen by, then they lash out in ambush.</p>\n<p>Mimics possess complex alien minds, and while often cruel and self-serving, they also enjoy conversation with their prey from time to time. For unknown reasons, they are especially interested in humanoids. Mimics have a strong dislike for others of their kind and tend to live alone. A mimic can remain in its alternate form for an extremely long period of time, sometimes remaining disguised in a dungeon chamber for decades. Regardless of how long it waits, the mimic remains vigilant and alert, ready to strike at any moment.</p>",
       "items": {
         "equipment->Ventriloquist's Ring": {
@@ -3306,7 +3306,7 @@
           "description": "<p>Zogototaru looms and screeches ferociously. Las criaturas in a @Template[cone|distance:60] take @Damage[6d6[sonic]] daño (@Check[fortitude|dc:29|basic] save) and must attempt a @Check[will|dc:29] save.</p>\n<p><strong>Éxito crítico</strong> No effect.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}.</p>\n<p><strong>Fallo crítico</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ensordecido} for [[/br 1d6 #rounds]]{1d6 rounds} and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 3}.</p>"
         },
         "action->Thrash": {
-          "name": "Thrash",
+          "name": "Apalizar",
           "description": "<p>Zogototaru lashes her body, rattling the ground and splashing magma in a @Template[cone|distance:30]. Las criaturas in the area must attempt a @Check[reflex|dc:29] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> No effect.</p>\n<p><strong>Éxito</strong> The criatura takes @Damage[4d6[fire]] daño.</p>\n<p><strong>Fallo</strong> The criatura takes @Damage[4d6[fire]] daño and @Damage[4d6[bludgeoning]] daño, and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} for 1 round.</p>\n<p><strong>Fallo crítico</strong> The criatura takes @Damage[6d6[fire]] daño and @Damage[6d6[bludgeoning]] daño, and is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}.</p>\n<hr />\n<p><strong>Special</strong> The first time she Thrashes, Zogototaru destroys the pillars in area <strong>F2a</strong>. Anyone there can leap free as part of their Reflex tirada de salvación, landing on the closest surface. For the remainder of combat, the rear half of the crimson worm's body floats in the magma there, creating an improvised bridge 10 pies wide and 30 pies long. Las criaturas on Zogototaru take a –2 penalización de circunstancia to their Reflex saves against her Thrashing.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.QzJv3TybABeCjwQc]{Efecto: Riding Zogototaru}</p>"
         }
       }

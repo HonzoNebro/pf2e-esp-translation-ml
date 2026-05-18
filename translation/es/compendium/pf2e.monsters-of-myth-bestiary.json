@@ -1,5 +1,5 @@
 {
-  "label": "monsters-of-myth-bestiary",
+  "label": "Bestiario de Monstruos de mito",
   "entries": {
     "Ainamuuren": {
       "name": "Ainamuuren",
@@ -7,7 +7,7 @@
       "saveDetails": "+1 bonificador de estado to saves against evil and necromancy conjuros and effects",
       "skillSpecialStealth": {
         "0": {
-          "label": "in forests and snow"
+          "label": "en bosques y nieve"
         }
       },
       "items": {
@@ -21,17 +21,17 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.8COlYvHe6hKCXY8x]\n<p>Esta gran hacha de batalla es demasiado pesada para empuñarla con una sola mano. Many greataxes incorporate two blades, and they are often \"bearded\", having a hook at the bottom to increase the strength of their chopping power.</p>"
         },
         "strike-melee->Greataxe": {
-          "name": "Greataxe"
+          "name": "Gran hacha"
         },
         "strike-melee->Horns": {
           "name": "Horns"
         },
         "action->Blizzard Evasion": {
-          "name": "Blizzard Evasion",
+          "name": "Evasion de ventisca",
           "description": "<p><strong>Desencadenante</strong> Ainamuuren takes at least 40 points of daño físico from a single attack, and he isn't currently discorporated</p>\n<hr />\n<p><strong>Efecto</strong> Ainamuuren discorporates into a whirling blizzard for 3 rounds. During this time, he gains resistance 10 to daño físico and weakness 10 to daño de fuerza. He gains a fly speed of 40 pies, but the only action he can take is to Fly. While discorporated, the first time each round that Ainamuuren enters another criatura's space or a criatura enters Ainamuuren's space, that criatura takes @Damage[4d8[cold]] daño and must succeed at a @Check[fortitude|dc:34] save or be @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}. At the start of his turn, Ainamuuren can end this effect as a free action.</p>"
         },
         "action->Frostbite Runes": {
-          "name": "Frostbite Runes",
+          "name": "Runas de congelación",
           "description": "<p>Ainamuuren is marked by the runes of the saumen kar, a gift tied to their ancient curse. Ainamuuren gains a +1 bonificador de estado to tiradas de salvación against evil and necromancy conjuros and effects. He can sense the presence of evil undead as a pervasive taste of oily corruption in the air. Este is a vague sense that allows him to know when such a criatura is within 60 pies, though he can't precisely pinpoint their location with this sense. Este sense also extends to living criaturas who have the curación de vacío ability, like dhampir.</p>"
         },
         "action->Snowblind": {
@@ -39,16 +39,16 @@
           "description": "<p>Ainamuuren can @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} and @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak} during even light snowfall, even if it wouldn't be thick enough to normally grant concealment.</p>"
         },
         "action->Curse of the Saumen Kar": {
-          "name": "Curse of the Saumen Kar",
+          "name": "Maldición del Saumen Kar",
           "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> Ainamuuren activates the runes covering his body to create an icy prison around a Huge or smaller criatura he can see within 60 pies. The prison is a sphere made of unmelting ice, just large enough to fit his target. El objetivo, and any criaturas sharing its space, must attempt a @Check[reflex|dc:34] save. A criatura that fails becomes trapped inside the prison. If it succeeds, the criatura is pushed outside the prison into a space of its choice. If el objetivo shares its space with a gargantuan criatura, the effect fails.</p>\n<p>The dome has AC 10, Hardness 20, and 40 Puntos de Golpe; and is immune to cold, critical hits, and daño de precisión. The prison lasts until destroyed, until Ainamuuren uses this ability to create a new prison, or until he dies.</p>"
         }
       }
     },
     "Collapsing Structure": {
       "name": "Collapsing Structure",
-      "description": "<p>Ebeshra brushes against a structure, possibly causing it to collapse.</p>",
+      "description": "<p>Ebeshra roza una estructura, lo que puede hacer que se derrumbe.</p>",
       "disable": "<p>@Check[athletics|dc:43|name:Brace Building (Athletics)|traits:complex,environmental,kaiju,hazard] (maestro), @Check[crafting|dc:43|name:Brace Building (Crafting)|traits:complex,environmental,kaiju,hazard] (maestro), or @Check[engineering|dc:43|name:Brace Building (Engineering)|traits:complex,environmental,kaiju,hazard]{Engineering LORE} (maestro) to brace the structure to reduce the risk of collapse until the end of the criatura's next turn. The DC of the prueba plana for this round (see Routine) is increased by 4 on a success, or by 8 on a critical success. Increasing the prueba plana DC to 21 or higher stabilizes the structure, ending this hazard.</p>",
-      "reset": "<p>The building becomes susceptible to Shake Apart again 1d6 rounds after it's stabilized.</p>",
+      "reset": "<p>El edificio vuelve a ser susceptible a Sacudir hasta romper 1d6 asaltos despues de ser estabilizado.</p>",
       "routine": "<p>The GM rolls a @Check[flat|dc:9|showDC:owner] to determine if the building partially collapses, increasing the DC as listed above. On a successful check, dust and debris fall within the building and 30 pies around it, providing concealment and dealing @Damage[6d6[bludgeoning]] daño to [[/r 1d4 #Targets]] randomly chosen targets (@Check[reflex|dc:35|basic|name:Falling Debris|traits:hazard,complex,environmental,kaiju] save; on a critical failure, the criatura is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}). On a critical success, the effect is the same, but the debris deals @Damage[12d6[bludgeoning]] daño to [[/r 2d4 #Targets]] randomly chosen targets instead (@Check[reflex|dc:35|basic|name:Falling Debris|traits:hazard,complex,environmental,kaiju] save; on a critical failure, the criatura is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by rubble until freed [@UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{FORCE OPEN} DC 38, @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC 35]).</p>",
       "stealth": "<p>(maestro) to notice cracks forming in the walls of the structure as Ebeshra approaches</p>",
       "items": {
@@ -62,7 +62,7 @@
       "name": "Crystal Pin",
       "description": "<p>Ebeshra fires a crystal at a criatura to pin them onto the Material Plane.</p>",
       "disable": "<p>@Check[occultism|dc:48|name:Earn Ebeshra's Favor (Occultism)|traits:abjuration,divine,environmental,kaiju,hazard] (legendario) or @Check[religion|dc:48|name:Earn Ebeshra's Favor (Religion)|traits:abjuration,divine,environmental,kaiju,hazard] (legendario) to earn Ebeshra's favor and allow safe travel or @Check[deception|dc:51|name:Divert Ebeshra's Attention|traits:abjuration,divine,environmental,kaiju,hazard] (maestro) to momentarily divert Ebeshra's attention</p>",
-      "reset": "<p>Ebeshra waits [[/gmr 1d4 #Rounds]] rounds to break off another crystal.</p>",
+      "reset": "<p>Ebeshra espera [[/gmr 1d4 #Asaltos]] asaltos antes de desprender otro cristal.</p>",
       "items": {
         "action->Fire Pin": {
           "name": "Fire Pin",
@@ -74,13 +74,13 @@
       "name": "Cuetzmonquali",
       "languages": "(no puede hablar ningún idioma)",
       "publicNotes": "<p>Though stories call it the Burning Dragon, Cuetzmonquali is a unique criatura with no draconic heritage. Cuetzmonquali resembles an enormous reptile with large frills, two tails ending in massive stingers, and scales that appear to be made of burning flame. Cuetzmonquali is capable of growing any number of horns from its head, on which it can impale and trap its enemies. Each horn grows in a burst of searing flame that burns flesh and scales and results in a blackened obsidian spike jutting from its forehead. Estos horns molt off occasionally, leaving behind warnings of the beast's presence.</p>\n<p>In combat, Cuetzmonquali is a terrifying foe who uses its horns to skewer foes, unleashes white-hot blasts of flame to devastate those who don't approach, and injects a potent burning venom that ignites a foe from within their own body, sapping their strength. Against groups of weaker foes, it simply tramples them to death underfoot. Anyone courageous enough to face Cuetzmonquali and powerful or cunning enough to slay the criatura can lay claim to the treasure that lies in its belly: the legendario artifact known as the <em>Spear of the Destroyer's Flame</em>.</p>",
-      "senses": "smoke vision",
+      "senses": "vision de humo",
       "items": {
         "strike-melee->Jaws": {
           "name": "Jaws"
         },
         "strike-melee->Claws": {
-          "name": "Claws"
+          "name": "Garras"
         },
         "strike-melee->Tail": {
           "name": "Tail"
@@ -98,10 +98,10 @@
         },
         "action->Smoke Vision": {
           "name": "Smoke Vision",
-          "description": "<p>Smoke doesn't impair Cuetzmonquali's vision; it ignores concealment from smoke.</p>"
+          "description": "<p>El humo no perjudica la vision de Cuetzmonquali; ignora la ocultacion por humo.</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
+          "name": "Arma de aliento",
           "description": "<p>Cuetzmonquali unleashes a blast of fire that deals @Damage[12d10[fire]|options:area-damage] daño in a @Template[cone|distance:50] (@Check[reflex|dc:38|basic|options:area-effect] save). Las criaturas that fail their saves catch on fire and take @Damage[1d12[persistent,fire]] daño. Cuetzmonquali can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
         },
         "action->Burning Venom": {
@@ -189,7 +189,7 @@
           "description": "<p><strong>Requisitos</strong> Desert's Howl has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}</p>\n<hr />\n<p><strong>Efecto</strong> Desert's Howl begins to consume the criatura, dealing @Damage[(2d12+15)[piercing]] daño (@Check[fortitude|dc:41|basic] save) and exposing the criatura to its paralytic secretion.</p>"
         },
         "lore->Desert Lore": {
-          "name": "Desert Lore"
+          "name": "Saber de Desiertos"
         }
       }
     },
@@ -232,7 +232,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.lR9R5Vld8Eu2Dha5]\nRegeneración 20 (Deactivated by Cold Iron)"
         },
         "action->Attack of Opportunity": {
-          "name": "Attack of Opportunity",
+          "name": "Ataque de oportunidad",
           "description": "<p>[reaction] Tail only.</p>"
         },
         "action->Attack of Opportunity (Tail Only)": {
@@ -295,7 +295,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.3JOi2cMcGhT3eze1]\n<p>claw.</p>\n<p>If the grisantian lion Rends after a successful Dual Pounce, combine the Rend's daño with that from the Dual Pounce for the purpose of resistances and weaknesses.</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
         },
         "action->Vicious Rend": {
-          "name": "Vicious Rend",
+          "name": "Desgarro cruel",
           "description": "<p><strong>Desencadenante</strong> The grisantian lion uses Rend</p>\n<hr />\n<p><strong>Efecto</strong> El objetivo's armor takes daño equal to the daño from Rend. El objetivo can attempt a @Check[reflex|dc:29|basic] save to reduce this daño.</p>"
         }
       }
@@ -339,7 +339,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.3JOi2cMcGhT3eze1]\n<p>claw.</p>\n<p>If Grogrisant Rends after a successful Dual Pounce, combine the Rend's daño with that from the Dual Pounce for the purpose of resistances and weaknesses.</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
         },
         "action->Vicious Rend": {
-          "name": "Vicious Rend",
+          "name": "Desgarro cruel",
           "description": "<p><strong>Desencadenante</strong> Grogrisant uses Rend</p>\n<hr />\n<p><strong>Efecto</strong> El objetivo's armor takes daño equal to the daño from Rend. El objetivo can attempt a @Check[reflex|dc:37|basic] save, negating the armor daño on a successful save.</p>"
         }
       }
@@ -403,7 +403,7 @@
           "name": "Fist"
         },
         "strike-ranged->Energy Beam": {
-          "name": "Energy Beam"
+          "name": "Haz de energía"
         },
         "action->Telepathy 30 feet": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA]\nTelepathy 30 pies"
@@ -466,10 +466,10 @@
           "name": "Claw"
         },
         "strike-melee->Devil's Trident": {
-          "name": "Devil's Trident"
+          "name": "Tridente del diablo"
         },
         "strike-ranged->Devil's Trident": {
-          "name": "Devil's Trident"
+          "name": "Tridente del diablo"
         },
         "action->Lifesense (Imprecise) 30 feet": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg]\nLifesense (Imprecise) 30 pies"
@@ -478,7 +478,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.VdSMQ6yRZ3YXNXHL]\nWavesense (Imprecise) 30 pies"
         },
         "action->Coven": {
-          "name": "Coven",
+          "name": "Aquelarre",
           "description": "<p>The Kallas Devil adds @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P]{Dominate}, @UUID[Compendium.pf2e.spells-srd.Item.RCbLd7dfquHnuvrZ]{False Vision}, @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{Invisibility}, and @UUID[Compendium.pf2e.spells-srd.Item.GP3wewkQXEPrLxYj]{Subconscious Suggestion} to her coven's conjuros.</p>"
         },
         "action->Frightful Presence": {
@@ -581,7 +581,7 @@
     },
     "Krampus (The Horned Miser)": {
       "name": "Krampus (The Horned Miser)",
-      "blurb": "Variant Krampus",
+      "blurb": "Variante de Krampus",
       "languages": "tongues",
       "publicNotes": "<p>Krampus is a tall, goatlike humanoid with a pointed nose, swept-back horns, and hooved pies. His long, greasy tongue continually flickers out from his mouth, occasionally licking droplets of spittle from his dark brown fur. He wields a set of iron chains that act as an extension of his will. Krampus is never seen without a wicker basket draped over one shoulder, its bottom often stained with the blood of his victims. Krampus stands a little over 14 pies tall and weighs nearly 1,000 pounds.</p>\n<p>Krampus's origin is unknown; residents of the small towns and villages he terrorizes in northern Irrisen believe the criatura has always existed, coming forth once a year to punish those he deems wicked. While many legends have been told about Krampus's beginning, the most popular of them starts with a handful of mountain towns under the protection of a circle of druids. After a series of harsh winters that the townsfolk barely survived, they began to doubt the power of the druids and their rituals. As the villagers grew more resentful, the druid circle took drastic action. Under the light of a blue moon, the druids opened an imperfect portal to the primal realm of the fey and called forth the most powerful spiritual essence they could, and a new criatura was born-Krampus. However, unknown to the druids, the portal had been corrupted by the villagers' bitter resentment and doubt. Instead of a central figure to lead them in winter celebrations, as they had hoped, the druids had spawned a monster who sought to punish those who had behaved selfishly during lean times.</p>\n<p>Recognizing their error, the druids sought to banish their creation. They tracked Krampus down as he slept and shackled him in cold iron chains, hoping to subdue him and force him back to the First World. But Krampus was no fey, and cold iron held no power over him. When he awoke, he ripped the chains free, claimed them as his own, and tracked down the druids who had dared try to capture him. After their betrayal, Krampus can see no good in any mortal and longs only to punish the wicked for their selfish misdeeds.</p>\n<p>To this day, Krampus takes vicious delight in transforming his victims into the petulant children before killing them, and no manner of sacrifice can appease him. Luckily for any nearby villages, Krampus stalks their streets but once a year.</p>\n<p>Locals believe that Krampus makes his lair among the deep crevasses of ice somewhere within the Winterwall Glacier, which lines Avistan's northernmost reaches. No adventurer has yet braved the treacherous expanse to find and defeat him.</p>\n<p>While Krampus is most infamous for tracking and punishing the naughty, his own sins often inform his vindictive responses to others' misdeeds. An incarnation of Krampus who arose from irrepressible greed might possess abilities that better reflect his fierce miserly behavior, emphasizing less the abduction of miscreants and more the disproportionate punishment of thieves and robbers. Such a variant Krampus might arise in different cultures that tell different stories about Krampus, or Krampus's powers and NATURE might drift between incarnations each time he is defeated and arises anew elsewhere in the world the following year. In these cultures or incarnations, Krampus represents a remorseless yet generous spirit who's willing to grant boons to the truly worthy while tormenting any who fail his morality tests.</p>\n<p>Unfortunately for people in regions terrorized by this Krampus, his definition of \"any who fail his morality tests\" tend to be nearly everyone but the most innocent and generous of people.</p>",
       "senses": "blizzard sight",
@@ -614,7 +614,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.zi9ovfoRp2fMhfpO]\n+3 Greater Striking Cold Iron Spiked Chain"
         },
         "strike-melee->Spiked Chain": {
-          "name": "Spiked Chain"
+          "name": "Cadena armada"
         },
         "strike-melee->Claw": {
           "name": "Claw"
@@ -700,7 +700,7 @@
           "description": "<p>The Krampus celebrant ignores difficult terrain caused by snow and ice, and it treats greater difficult terrain caused by snow and ice as difficult terrain.</p>"
         },
         "action->Vandal": {
-          "name": "Vandal",
+          "name": "Vándalo",
           "description": "<p>Siempre que the Krampus celebrant deals daño to an object, it ignores the first 10 points of the object's Hardness.</p>"
         }
       }
@@ -720,7 +720,7 @@
           "name": "Limb"
         },
         "strike-ranged->Sling": {
-          "name": "Sling"
+          "name": "Honda"
         },
         "action->+4 Bonus on Perception to Find traps": {
           "name": "+4 Bonus on Perception to Find traps"
@@ -792,14 +792,14 @@
           "description": "<p><strong>Requisitos</strong> The Melfesh Monster has created a spore cloud, and the cloud is within range of one of the Melfesh Monster's fire abilities</p>\n<hr />\n<p><strong>Efecto</strong> The Melfesh Monster targets the cloud with one of its abilities with the fire rasgo. The spore cloud explodes, dealing @Damage[4d10[fire]] daño and @Damage[4[persistent,fire]] daño in a @Template[burst|distance:40] originating from a single square within the cloud (@Check[reflex|dc:24|basic] save).</p>"
         },
         "action->Spore Cloud": {
-          "name": "Spore Cloud",
+          "name": "Nube De Esporas",
           "description": "<p><strong>Frecuencia</strong> una vez por minuto</p>\n<hr />\n<p><strong>Efecto</strong> The Melfesh Monster conjures a cloud of spores within 60 pies in a @Template[burst|distance:20]. The cloud lasts 1 minute. Las criaturas that enter or begin their turn within the cloud must succeed at a @Check[fortitude|dc:21] save or take @Damage[3d8[poison]] daño, be @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}, and inhale spores that remain in their bodies for 1 minute (on a critical failure, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3} and an additional @Damage[4[persistent,poison]] daño).</p>"
         }
       }
     },
     "Mosquito Witch": {
-      "name": "Mosquito Witch",
-      "languages": "speak with animals",
+      "name": "Bruja mosquito",
+      "languages": "hablar con animales",
       "publicNotes": "<p>The Mosquito Witch is a humanoid figure with unpleasant, waxy skin. She always seems to have her head bowed and her shoulders hunched, a mane of unkempt black hair hiding all of her face save for a pair of unblinking red eyes and a long, sharp tongue that's as stiff and pointed as a proboscis. Fleshy, ribbed mosquito wings protrude from her back. She has six handless arms that taper into malformed points, which she keeps clutched to her chest like the legs of an insect's pupae. Her spindly legs also taper into points; when bloated from feeding, she must run on all eight limbs, which leave small holes in the ground as tracks.</p>",
       "senses": "swarmsense (imprecise) 30 pies",
       "items": {
@@ -820,7 +820,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]\nPest Form (At Will)"
         },
         "strike-melee->Bite": {
-          "name": "Bite"
+          "name": "Morder"
         },
         "strike-ranged->Swarm Strike": {
           "name": "Swarm Golpe"
@@ -849,10 +849,10 @@
     },
     "Mosquito Witch (The Hemoprophet)": {
       "name": "Mosquito Witch (The Hemoprophet)",
-      "languages": "speak with animals",
+      "languages": "hablar con animales",
       "publicNotes": "<p>The Mosquito Witch is a humanoid figure with unpleasant, waxy skin. She always seems to have her head bowed and her shoulders hunched, a mane of unkempt black hair hiding all of her face save for a pair of unblinking red eyes and a long, sharp tongue that's as stiff and pointed as a proboscis. Fleshy, ribbed mosquito wings protrude from her back. She has six handless arms that taper into malformed points, which she keeps clutched to her chest like the legs of an insect's pupae. Her spindly legs also taper into points; when bloated from feeding, she must run on all eight limbs, which leave small holes in the ground as tracks.</p>\n<h2>The Hemoprophet</h2>\n<p>Already versed in several folk divinations like dowsing and reading patterns in windblown winnowed husks, Shimmerford residents swiftly attributed divinatory powers to the Mosquito Witch.</p>\n<p>Este \"hemoprophet\" aspect can supposedly smell conundrums, and she visits those facing difficult decisions or mysteries in their dreams. The witch offers an answer to the dreamer's deepest question, and if the dreamer accepts, the witch drinks their blood as they sleep, tastes their options, and leaves an answer nearby, written with some of the stolen fluids. Este Mosquito Witch isn't necessarily malicious, but neither does she worry about draining too much or painting embarrassing blood-truths for all of Shimmerford to see. The blood's weight makes her footfalls heavy, and hunters often remark that especially deep tracks left by anyone are \"heavy with answers\" in homage to the Witch.</p>",
       "senses": "swarmsense (imprecise) 30 pies",
-      "tokenName": "Mosquito Witch",
+      "tokenName": "Bruja mosquito",
       "items": {
         "spellcastingEntry->Innate Occult Spells": {
           "name": "Innate Occult Spells"
@@ -861,7 +861,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.Ek5XI0aEdZhBgm21]\nPrying Eye"
         },
         "strike-melee->Bite": {
-          "name": "Bite"
+          "name": "Morder"
         },
         "strike-ranged->Swarm Strike": {
           "name": "Swarm Golpe"
@@ -902,10 +902,10 @@
     },
     "Mosquito Witch (The Legion Leech)": {
       "name": "Mosquito Witch (The Legion Leech)",
-      "languages": "speak with animals",
+      "languages": "hablar con animales",
       "publicNotes": "<p>The Mosquito Witch is a humanoid figure with unpleasant, waxy skin. She always seems to have her head bowed and her shoulders hunched, a mane of unkempt black hair hiding all of her face save for a pair of unblinking red eyes and a long, sharp tongue that's as stiff and pointed as a proboscis. Fleshy, ribbed mosquito wings protrude from her back. She has six handless arms that taper into malformed points, which she keeps clutched to her chest like the legs of an insect's pupae. Her spindly legs also taper into points; when bloated from feeding, she must run on all eight limbs, which leave small holes in the ground as tracks.</p>\n<h2>The Legion Leech</h2>\n<p>Mosquitoes are parasites. Like her namesake, the Mosquito Witch wanders the world before alighting in an unguarded area to drain it of life and happiness. Once sated, she withdraws to digest her stolen vitality.</p>\n<p>Este Legion Leech is associated with inexplicable wasting sicknesses, bloodseekers bold enough to carry off lambs, and ravenous mosquito swarms that cover and drain a bull dead in moments. Whereas other aspects are occasionally helpful or curious, the Legion Leech cares for little beyond snuffing out life.</p>",
       "senses": "swarmsense (imprecise) 30 pies",
-      "tokenName": "Mosquito Witch",
+      "tokenName": "Bruja mosquito",
       "items": {
         "spellcastingEntry->Innate Primal Spells": {
           "name": "Innate Primal Spells"
@@ -924,7 +924,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]\nPest Form (At Will)"
         },
         "strike-melee->Bite": {
-          "name": "Bite"
+          "name": "Morder"
         },
         "strike-ranged->Swarm Strike": {
           "name": "Swarm Golpe"
@@ -953,10 +953,10 @@
     },
     "Mosquito Witch (The Swarm Seer)": {
       "name": "Mosquito Witch (The Swarm Seer)",
-      "languages": "speak with animals",
+      "languages": "hablar con animales",
       "publicNotes": "<p>The Mosquito Witch is a humanoid figure with unpleasant, waxy skin. She always seems to have her head bowed and her shoulders hunched, a mane of unkempt black hair hiding all of her face save for a pair of unblinking red eyes and a long, sharp tongue that's as stiff and pointed as a proboscis. Fleshy, ribbed mosquito wings protrude from her back. She has six handless arms that taper into malformed points, which she keeps clutched to her chest like the legs of an insect's pupae. Her spindly legs also taper into points; when bloated from feeding, she must run on all eight limbs, which leave small holes in the ground as tracks.</p>\n<h2>The Swarm Seer</h2>\n<p>Few have seen the Mosquito Witch, yet almost everyone has suffered her namesake vermin at some point in time. Shimmerford summer skies shimmer with flies hatching from the river and myriad creeks, and \"wherever pests fly, the Witch can spy.\" In her Swarm Seer aspect, the Mosquito Witch is a haunting predator and verminous voyeur whose sanguineous appetites are equal to her fascination with societies. She keeps tabs on every inhabitant with parasocial glee, obsessing over their superstitions and abandoned trinkets-especially any representations of herself.</p>\n<p>Este Mosquito Witch rarely acts with outright malice or to bring direct harm to those around her. However, her haunting appearance, alien values, and tendency to express emotions with sky-blotting swarms inspires terror in her neighbors. Depending on the circumstances she might represent a fearsome and ineffable ally, a demigod of fecundity, or a terrible foe who long ago lost patience with humanity.</p>",
       "senses": "swarmsense (imprecise) 100 pies, swarmsight (precise) 20 pies",
-      "tokenName": "Mosquito Witch",
+      "tokenName": "Bruja mosquito",
       "items": {
         "spellcastingEntry->Innate Primal Spells": {
           "name": "Innate Primal Spells"
@@ -975,7 +975,7 @@
           "description": "<p>Creas up to four floating lights, no two of which are more than 10 pies apart. Each sheds light like a torch. When tú Sustain the Spell, puedes move any number of lights up to 60 pies. Each light must remain within 120 pies of tú and within 10 pies of all others, or it winks out.</p>"
         },
         "strike-melee->Bite": {
-          "name": "Bite"
+          "name": "Morder"
         },
         "strike-ranged->Swarm Strike": {
           "name": "Swarm Golpe"
@@ -1072,7 +1072,7 @@
           "description": "<p>The acid that coats the skin of Somnalu eats away at a arma that Golpes it. As long as Digestive Secretions is active on Somnalu, siempre que a criatura hits Somnalu with a metal or wooden arma, the criatura must succeed at a @Check[reflex|dc:33|traits:damaging-effect] save or else the arma takes @Damage[2d8[acid]] daño (after dealing daño to Somnalu as normal). Thrown armas and ammunition take this daño automatically with no tirada de salvación.</p>"
         },
         "action->Frightful Presence": {
-          "name": "Frightful Presence",
+          "name": "Presencia temible",
           "description": "<p>30 pies. @Check[will|dc:33]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Sleep Scent (Imprecise) 60 feet": {
@@ -1100,7 +1100,7 @@
           "description": "<p>Somnalu blasts poison gas in a @Template[burst|distance:30]{30-pies radius}. The gas lingers for 1 round, and all criaturas that begin their turn in the gas or enter the gas take @Damage[4d8[poison]] daño (@Check[fortitude|dc:36|basic] save). Any criatura in the gas is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto}, and other criaturas are concealed to all criaturas in the gas. However, Somnalu can see through this concealment.</p>"
         },
         "lore->Dreamlands Lore": {
-          "name": "Dreamlands Lore"
+          "name": "Saber de Tierras de los Suenos"
         }
       }
     },
@@ -1195,7 +1195,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O]\nAttack of Opportunity (Ghostly Hoof Only)"
         },
         "action->Rejuvenation": {
-          "name": "Rejuvenation",
+          "name": "Rejuvenecimiento",
           "description": "<p>Destroying the Spectral Devil releases its pure, evil essence into the world, where it can find a new body and re-form. When the Spectral Devil is destroyed, its essence finds the remains of a dead horse and rebuilds its physical body over the course of [[/gmr 1d10 #days]]{1d10 days}. Only completing a @UUID[Compendium.pf2e.spells-srd.Item.Dbd5W6G8U2vzWolN]{Consecrate} ritual heightened to at least 6th level, which consecrates the site of the Spectral Devil's destruction to a good deity, can prevent the Spectral Devil from returning and haunting the world once more.</p>"
         },
         "action->Accursed Shriek": {
@@ -1240,16 +1240,16 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.QOAjwtH9gycbDZCY]\n<p>Este ragged, mud-stained cape closes with a single black button engraved with a leering devil's face. When tú @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}, @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{High Jump}, or @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump} (or Vault, if estás Spring-Heeled Jack), obtienes a +1 bonificador por objeto to STEALTH checks to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} or @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak} until the start of tu next turn.</p>"
         },
         "strike-melee->Little Love": {
-          "name": "Little Love"
+          "name": "pequeño amor"
         },
         "strike-ranged->Little Love": {
-          "name": "Little Love"
+          "name": "pequeño amor"
         },
         "action->Frightful Presence": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>15 pies. @Check[will|dc:17]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
+          "name": "Arma de aliento",
           "description": "<p>Spring-Heeled Jack exhales a gout of bright blue fire that deals @Damage[4d6[fire]|options:area-damage] daño in a @Template[cone|distance:15] (@Check[reflex|dc:20|basic|options:area-effect] save).</p>\n<p>He can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
         },
         "action->Malicious Stab": {
@@ -1379,7 +1379,7 @@
           "name": "Whirling Sash"
         },
         "strike-melee->Glaive": {
-          "name": "Glaive"
+          "name": "Guja"
         },
         "strike-ranged->Goblinfire": {
           "name": "Goblinfire"
@@ -1538,7 +1538,7 @@
           "name": "Goblinfire"
         },
         "strike-ranged->Longbow": {
-          "name": "Longbow"
+          "name": "Arco largo"
         },
         "action->Exit Stage": {
           "name": "Exit Stage",
@@ -1561,7 +1561,7 @@
           "description": "<p>Taljjae fires an arrow that could shoot a star from the sky. All criaturas in a @Template[line|distance:120] take @Damage[10d12[piercing]] daño (@Check[reflex|dc:37|basic] save); on a critical failure, el objetivo falls to the ground without taking falling daño, and it can't Fly, Leap, levitate, or otherwise leave the ground until the end of Taljjae's next turn.</p>\n<p>Taljjae then can't use Cometfall Arrow for [[/gmr 1d4 #Recharge Cometfall Arrow]]{1d4 rounds}.</p>"
         },
         "action->Double Shot": {
-          "name": "Double Shot",
+          "name": "Disparo doble",
           "description": "<p>Taljjae fires two shots, making two Golpes, each against a separate target and with a -2 penalización. Both attacks count toward its multiple attack penalización, but the penalización doesn't increase until after it makes both attacks.</p>"
         },
         "action->Prop Master": {
@@ -1645,7 +1645,7 @@
           "name": "Whirling Sash"
         },
         "strike-melee->Staff": {
-          "name": "Staff"
+          "name": "Bastón"
         },
         "strike-ranged->Goblinfire": {
           "name": "Goblinfire"
@@ -1702,7 +1702,7 @@
           "name": "Mandibles"
         },
         "strike-melee->Barbed Spear": {
-          "name": "Barbed Spear",
+          "name": "Lanza barbada",
           "description": "<p>Este long claw comes to a fine point, with barbs that can grip onto flesh and cloth alike.</p>"
         },
         "strike-melee->Boiling Club": {
@@ -1775,7 +1775,7 @@
           "description": "<p>Tehialai's claw whirs and spins to cut through armor and ship hulls. Tehialai makes a toothed shredder Golpe. On a hit, el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} until the end of Tehialai's next turn and takes @Damage[2d12[bleed]].</p>"
         },
         "lore->Ocean Lore": {
-          "name": "Ocean Lore"
+          "name": "Saber de Oceanos"
         }
       }
     },
@@ -1785,7 +1785,7 @@
       "publicNotes": "<p>Though it superficially resembles a cypress tree and is easily mistaken for an arboreal or other similar plant criatura, Temteki is actually an earth elemental, a criatura of living earth and stone. In normal situations, Temteki is content to remain still and blend into the jungle when observing other criaturas, using its natural camouflage to assist in harrying those it considers interlopers disturbing its home. Temteki usually dissuades such intruders with a combination of surprise attacks and nonlethal snares; the elemental is more interested in getting them to leave than in dealing them any permanent harm. However, to those who prove determined to harm Temteki or its home, Temteki can be an implacable foe. Temteki's asymmetrical gait and appearance often alarm and confuse criaturas who aren't expecting to spot it, especially since it's surprisingly stealthy for its size and appearance.</p>",
       "skillSpecialStealth": {
         "0": {
-          "label": "in forests"
+          "label": "en bosques"
         }
       },
       "speed": "earth glide",
@@ -1807,7 +1807,7 @@
           "description": "<p>Temteki can use INTIMIDATION to COERCE or DEMORALIZE up to four targets instead of one, rolling separate INTIMIDATION checks against the Will DCs of each target. In addition, since Temteki Demoralizes using its appearance alone, it doesn't take a penalización to INTIMIDATION checks to DEMORALIZE for not speaking a language.</p>"
         },
         "action->Interposing Earth": {
-          "name": "Interposing Earth",
+          "name": "Tierra interpuesta",
           "description": "<p><strong>Desencadenante</strong> Temteki is targeted with a melee or ranged attack from an attacker it can see</p>\n<hr />\n<p><strong>Efecto</strong> Temteki raises earth to block, gaining a +2 bonificador de circunstancia to AC against the triggering attack.</p>"
         },
         "action->Earth Glide": {
@@ -1831,7 +1831,7 @@
       "saveDetails": "+2 status to all non-primal emotion effects",
       "skillSpecialStealth": {
         "0": {
-          "label": "in water"
+          "label": "en el agua"
         }
       },
       "items": {
@@ -1843,7 +1843,7 @@
         },
         "action->Frozen Contemplation": {
           "name": "Frozen Contemplation",
-          "description": "<p>Being frozen stops the constant pain Ulgrem-Axaan has experienced since its death. Ulgrem-Axaan has fast healing 5 while in severe cold or colder environments, or for 1 round after taking daño de frío.</p>"
+          "description": "<p>Being frozen stops the constant pain Ulgrem-Axaan has experienced since its death. Ulgrem-Axaan has curacion rapida 5 while in severe cold or colder environments, or for 1 round after taking daño de frío.</p>"
         },
         "action->Wavesense (Imprecise) 60 feet": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.VdSMQ6yRZ3YXNXHL]\nWavesense (Imprecise) 60 pies"
@@ -1903,7 +1903,7 @@
           "description": "<p><strong>Requisitos</strong> The Ulgrem-Lurann has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} with its jaws</p>\n<hr />\n<p><strong>Efecto</strong> Electricity courses through its body and mouth, dealing an additional @Damage[(1d4+6)[electricity]] daño to the grabbed target with a @Check[fortitude|dc:20|basic] save.</p>"
         },
         "action->Swallow Whole": {
-          "name": "Swallow Whole",
+          "name": "Engullir",
           "description": "<p>Small, @Damage[(1d6+6)[bludgeoning]], Rupture 9</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
         },
         "action->Voltaic Blow": {
@@ -1938,7 +1938,7 @@
           "name": "Fist"
         },
         "strike-ranged->Energy Beam": {
-          "name": "Energy Beam"
+          "name": "Haz de energía"
         },
         "action->Telepathy 100 feet": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA]\nTelepathy 100 pies"

@@ -1,5 +1,5 @@
 {
-  "label": "extinction-curse-bestiary",
+  "label": "Bestiario de La maldicion de la extincion",
   "entries": {
     "Ammut": {
       "name": "Ammut",
@@ -20,7 +20,7 @@
         },
         "strike-melee->Foot": {
           "name": "Foot",
-          "description": "<p>plus @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} @Check[fortitude|dc:38] negates.</p>",
+          "description": "<p>mas @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1}; una @Check[fortitude|dc:38] lo anula.</p>",
           "rules": {
             "0": {
               "text": "@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} (@Check[fortitude|dc:38] negates)"
@@ -34,7 +34,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA]\nTelepathy 100 pies"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
+          "name": "Arma de aliento",
           "description": "<p>The ammut exhales a blast of flame that deals @Damage[18d6[fire]|options:area-damage] daño to all criaturas in a @Template[cone|distance:30] (@Check[reflex|dc:37|basic|options:area-effect] save). The ammut can't use their Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]] rounds.</p>"
         },
         "action->Devour Soul": {
@@ -57,7 +57,7 @@
     "Ararda": {
       "name": "Ararda",
       "publicNotes": "<p>Before the Black Desert became a barren sandscape, cultures with grand magical traditions lived under its soaring roof. Estos communities eventually left the vault or died out, but the genies they summoned remained and became warped by the region's pervasive blightburn radiation. Now, these \"blightburn genies\" have bodies with features mirroring those of beasts that dwell in dark places, and their elemental lineages have been irreparably corrupted.</p>\n<hr />\n<p>Shaitans corrupted by the Black Desert's blightburn become scorpion-like arardas. While other earth genies sparkle with the iridescence of gemstones and evoke the power of the earth itself, arardas use their connection to the ground to harness the might of electricity. Arardas are so infused with this radioactive crystal that their mere presence is toxic to most living criaturas.</p>",
-      "senses": "detect magic",
+      "senses": "detectar magia",
       "speed": "earth glide",
       "items": {
         "spellcastingEntry->Arcane Innate Spells": {
@@ -85,7 +85,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]\nDetect Magic (Constant)"
         },
         "strike-melee->Maul": {
-          "name": "Maul"
+          "name": "Mazo"
         },
         "strike-melee->Sand Fist": {
           "name": "Sand Fist"
@@ -151,14 +151,14 @@
           "description": "<p><strong>Requisitos</strong> The bogey has killed a criatura within the last round and is adjacent to the criatura</p>\n<hr />\n<p><strong>Efecto</strong> The bogey consumes the criatura's soul. The soul is utterly destroyed-nothing short of @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Wish} or a similar effect can restore it to life, and only after the bogey has been slain. The bogey regains Puntos de Golpe equal to double the level of the consumed criatura. After devouring three souls within a year, the bogey transforms into a bugaboo.</p>"
         },
         "action->Surprise Attack": {
-          "name": "Surprise Attack",
+          "name": "Ataque por sorpresa",
           "description": "<p>On the first round of combat, criaturas that haven't acted yet are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to the bogey.</p>"
         }
       }
     },
     "Bogeyman": {
       "name": "Bogeyman",
-      "hpDetails": "fast healing 10",
+      "hpDetails": "curacion rapida 10",
       "languages": "tongues",
       "publicNotes": "<p>Estos nocturnal stalkers tail their chosen quarry for days, even weeks at a time, ominously showing up in back alleys, shadowy street corners, and even in victims' own homes before going in for the kill. For unfathomable reasons, a bogeyman may spare a victim's life and instead kidnap them, absconding to a far-off location before returning years later with a fresh bogey in tow.</p>\n<hr />\n<p>Bogeymen are stealers of innocence and devourers of souls. Few targets who survive an encounter with them remain unchanged. Different names are given to bogeymen according to their varying sizes and degrees of power, which typically advance as the monsters consume more souls.</p>",
       "speed": "mobility",
@@ -190,7 +190,7 @@
           "description": "<p><strong>Requisitos</strong> The bogeyman has killed a criatura within the last round and is adjacent to the criatura</p>\n<hr />\n<p><strong>Efecto</strong> The bogeyman consumes the criatura's soul. The soul is utterly destroyed-nothing short of @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Wish} or a similar effect can restore it to life, and only after the bogeyman has been slain. The bogeyman regains Puntos de Golpe equal to double the level of the consumed criatura. Each time the bogeyman consumes 10 souls, it increases its level by 1, and its statistics improve accordingly.</p>"
         },
         "action->Mobility": {
-          "name": "Mobility",
+          "name": "Movilidad",
           "description": "<p>When the bogeyman uses a Zancada action to move half their Velocidad or less, that movement does not trigger reactions.</p>"
         },
         "action->Sneak Attack": {
@@ -201,13 +201,13 @@
           "description": "<p>If a bogeyman scores a critical hit with a claw Golpe, el objetivo must attempt a @Check[will|dc:29] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo is unaffected.</p>\n<p><strong>Éxito</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.</p>\n<p><strong>Fallo</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}.</p>\n<p><strong>Fallo crítico</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 3} and @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing} for 1 round.</p>"
         },
         "action->Surprise Attack": {
-          "name": "Surprise Attack",
+          "name": "Ataque por sorpresa",
           "description": "<p>On the first round of combat, criaturas that haven't acted yet are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to the bogeyman.</p>"
         }
       }
     },
     "Bone Croupier": {
-      "name": "Bone Croupier",
+      "name": "Crupier de huesos",
       "hpDetails": "curación de vacío",
       "publicNotes": "<p>For many, gambling is just fun and games, but for some, it can become a bad habit or even a life-consuming addiction. Bone croupiers take the meaning of \"life-consuming\" to its literal extreme. Undead gamblers whose lust for cards and dice couldn't be sated in life, they haunt the shadowy corners of gambling halls and continue their search for that next hit of adrenaline.</p>\n<p>In undeath, gaming takes on a different flavor; with nothing left to lose, bone croupiers turn their attentions toward others, cajoling and palavering normally casual gamers into committing themselves to ever higher stakes. Before they know it, these unsuspecting victims have called in decades-old favors and put liens on their homes in the hope of winning back just a fraction of the pot. But by then the bone croupier has already claimed its prize-for to this undead chiseler, any earnings are incidental, and the real prize is encouraging others to lose their own.</p>\n<p>Bone croupiers often enshroud themselves in thick layers of cigar smoke or voluminous robes to mask their undead NATURE, but they almost always wear wicked grins at the table. Este smile is no ruse or part of its poker face, however-the truth is that bone croupiers truly delight in games, regardless of whether they are winning or losing, and despite their incredible skills of DECEPTION and trickery, most simply can't disguise their unbridled mirth.</p>",
       "items": {
@@ -283,7 +283,7 @@
           "description": "<p><strong>Requisitos</strong> The bugaboo has killed a criatura within the last round and is adjacent to the criatura</p>\n<hr />\n<p><strong>Efecto</strong> The bugaboo consumes the criatura's soul. The soul is utterly destroyed-nothing short of @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Wish} or a similar effect can restore it to life, and only after the bugaboo has been slain. The bugaboo regains Puntos de Golpe equal to double the level of the consumed criatura. After devouring six souls within a year, a bugaboo transforms into a bogeyman.</p>"
         },
         "action->Mobility": {
-          "name": "Mobility",
+          "name": "Movilidad",
           "description": "<p>When the bugaboo uses a Zancada action to move half their Velocidad or less, that movement does not trigger reactions.</p>"
         },
         "action->Sneak Attack": {
@@ -294,7 +294,7 @@
           "description": "<p>If a bugaboo scores a critical hit with a claw Golpe, el objetivo must attempt a @Check[will|dc:24] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo is unaffected.</p>\n<p><strong>Éxito</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.</p>\n<p><strong>Fallo</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}.</p>\n<p><strong>Fallo crítico</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 3} and @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing} for 1 round.</p>"
         },
         "action->Surprise Attack": {
-          "name": "Surprise Attack",
+          "name": "Ataque por sorpresa",
           "description": "<p>On the first round of combat, criaturas that haven't acted yet are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to the bugaboo.</p>"
         }
       }
@@ -332,7 +332,7 @@
           "description": "<p>Upon seeing its own reflection in a mirror or other reflective surface, the bugul noz must succeed at a @Check[will|dc:34] save or become @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} and @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for [[/r {1d4-1,1} kh #Rounds]]{1d4-1 rounds} (minimum 1 round). While confused and immobilized, the bugul noz cries and wallows in misery, making it immune to visual and auditory effects for the duration.</p>"
         },
         "action->Flail": {
-          "name": "Flail",
+          "name": "Mangual",
           "description": "<p>The bugul noz swings its limbs about wildly. It makes up to three claw Golpes, each against a different criatura and each with a -2 penalización de circunstancia. Its multiple attack penalización doesn't increase until after it makes all the attacks.</p>"
         },
         "action->Forest Jaunt": {
@@ -350,7 +350,7 @@
     },
     "Cat Sith": {
       "name": "Cat Sith",
-      "languages": "speak with animals",
+      "languages": "hablar con animales",
       "publicNotes": "<p>Cat siths can easily pass for common black house cats, noteworthy only for the white spots on their chests and their unusually bristly personalities. In actuality, they are cunning fey, fully capable of speech, trickery, and even walking upright on their hind legs and using their forepaws almost as skillfully as hands. Cat siths live around highland towns and cities, regularly venturing unnoticed into nearby communities by posing as domesticated felines or using magic to take humanoid form. While some cat siths gather information and undertake tasks for more powerful fey criaturas, others serve only their own mysterious agendas.</p>\n<p>Cat siths are harbingers of misfortune and find amusement in the unluckiness that follows in their wake. Though they are rarely malicious, they are fascinated by death in all its forms, and may go so far as to steal the souls of the dying for some inscrutable purpose.</p>",
       "items": {
         "spellcastingEntry->Occult Innate Spells": {
@@ -366,7 +366,7 @@
           "name": "Claw"
         },
         "action->Ill Omen": {
-          "name": "Ill Omen",
+          "name": "Mal fario",
           "description": "<p>60 pies. Any criatura within the area that can see the cat sith must succeed at a @Check[will|dc:21] save or become struck by an ill omen. On a failure, the criatura becomes immune to fortune effects as long as it remains in the aura and for 1 minute thereafter. On a critical failure, the criatura takes a -1 penalización to tiradas de ataque, pruebas de habilidad, and tiradas de salvación while within the ill omen aura and becomes immune to fortune effects for 1 day.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.zXzXDlh0HkyPJu8f]{Efecto: Ill Omen}</p>"
         },
         "action->Cat Sith's Mark": {
@@ -480,7 +480,7 @@
       "name": "Deghuun (Child of Mhar)",
       "languages": "telepathy 100 pies",
       "publicNotes": "<p>Mhar, an ancient evil deity of caverns, mountains, and volcanoes, belongs to the pantheon of the Great Old Ones-monstrous beings of alien intellect and unfathomable power. The so-called children of Mhar (known as deghuuns in the chaotic tongues of Mhar's enraptured cultists) physically resemble blue-gray octopods made of stone, mud, and molten iron. Venthole-like craters dot the surface of a deghuun's body, through which the criatura can gaze out with a single golden eye that it can move from crater to crater.</p>",
-      "senses": "smoke vision",
+      "senses": "vision de humo",
       "tokenName": "Deghuun",
       "items": {
         "spellcastingEntry->Divine Innate Spells": {
@@ -599,7 +599,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>10 pies. @Check[will|dc:26]</p>\n<p>Este aura is suppressed if the faceless butcher is using Change Shape.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Change Shape": {
-          "name": "Change Shape",
+          "name": "Cambiar de forma",
           "description": "<p>The faceless butcher can take on the exact form of any Small, Medium, or Large humanoid whose face they carry in their bag of faces, changing their shape and physical features to precisely match that of the victim whose face they wear. Este doesn't change the butcher's Velocidad or attack or daño bonuses with their Golpes.</p>"
         },
         "action->Remove Face": {
@@ -722,7 +722,7 @@
           "description": "<p>A harrow doll can cast @UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]{Augury} as part of a harrow reading, which takes the usual 10 minutes.</p>\n<p>When casting @UUID[Compendium.pf2e.spells-srd.Item.LQzlKbYjZSMFQawP]{Locate}, the harrow doll doesn't need to have previously observed a specific object to learn its direction, but instead can detail the direction only vaguely, using such phrases as \"beside a weeping mound\" or \"beneath the lost sky.\"</p>\n<p>When the harrow doll casts @UUID[Compendium.pf2e.spells-srd.Item.KHnhPHL4x1AQHfbC]{Mind Reading}, there is no effect if el objetivo critically succeeds its save.</p>\n<p>Each time a harrow doll makes a harrow reading, it also changes which tirada de salvación is affected by its fortune's favor ability.</p>"
         },
         "action->Fortune's Favor": {
-          "name": "Fortune's Favor",
+          "name": "Favor de la fortuna",
           "description": "<p>Siempre que the harrow doll attempts a specific type of tirada de salvación, it rolls twice and takes the higher result. The type of tirada de salvación is determined by the suit that featured most prominently in the doll's most recent harrow reading: Fortitude (Hammers or Shields), Reflex (Keys or Books), or Will (Stars or Crowns). If the suit of its latest harrow reading is unknown, roll [[/r 1d6]]{1d6} at the beginning of combat to randomly determine it.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.yQd2Yoht8libCMCv]{Efecto: Fortune's Favor}</p>"
         },
         "action->Harrowing Misfortune": {
@@ -730,14 +730,14 @@
           "description": "<p>A criatura struck by one of the harrow doll's cards must attempt a @Check[will|dc:25] save or be cursed with misfortune, which forces the criatura to roll twice and take the lower result on its next roll of a specific type, determined by the card's suit (roll [[/r 1d6]]{1d6} to randomly determine the suit). A criatura can be cursed with only one effect from harrowing misfortune at a time, with a new curse overriding any previous curse. The curse ends after 1 minute or after the specified roll is made, whichever comes first. The suits and their effects are: Hammers (melee tirada de ataque), Keys (Reflex save), Shields (Fortitude save), Books (prueba de habilidad), Stars (Will save), and Crowns (conjuro tirada de ataque).</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.7PYhxmQxCD5kzMlw]{Efecto: Harrowing Misfortune}</p>"
         },
         "lore->Lore": {
-          "name": "Lore"
+          "name": "Saber"
         }
       }
     },
     "Iffdahsil": {
       "name": "Iffdahsil",
-      "acDetails": "all-around vision",
-      "hpDetails": "fast healing 30, curación de vacío",
+      "acDetails": "vision en todas direcciones",
+      "hpDetails": "curacion rapida 30, curación de vacío",
       "publicNotes": "<p>The slithering horror known as Iffdahsil is an undead shoggoth that has haunted the vault of the Black Desert for millennia. Drow legends in particular tend to feature Iffdahsil, terrifying the elves from a young age.</p>",
       "saveDetails": "+1 status to all saves vs. magical effects",
       "items": {
@@ -770,7 +770,7 @@
           "description": "<p>60 pies. @Check[fortitude|dc:45]</p>\n<p>A criatura entering or starting its turn in the aura that fails at a Fortitude save becomes @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}. If el objetivo was already doomed or drained, the values of these conditions increase by 1, to a maximum of doomed 3 and drained 3. A criatura that dies while doomed 3 and drained 3 in this way disintegrates into black sand.</p>"
         },
         "action->Unkillable": {
-          "name": "Unkillable",
+          "name": "Imposible de matar",
           "description": "<p>Unlike most undead, Iffdahsil isn't destroyed at 0 HP. Iffdahsil's fast healing continues to function normally, though on any round it begins its turn at 0 HP, it is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 4} and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} until the start of its next turn. While Iffdahsil is at 0 HP, it can be killed permanently only by simultaneously exposing it to direct sunlight (or a 10th-rank @UUID[Compendium.pf2e.spells-srd.Item.a3aQxCpoj1q1NQxC]{Sunburst} conjuro) and casting a @UUID[Compendium.pf2e.spells-srd.Item.YfJTXyVGzLhM6V8U]{Miracle} or @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Wish} conjuro (or similar magic) directed at destroying it.</p>"
         },
         "action->Constrict": {
@@ -842,7 +842,7 @@
           "description": "<p>A lion visitant takes @Damage[7[slashing]]{7} daño adicional from whips.</p>"
         },
         "action->Pack Attack": {
-          "name": "Pack Attack",
+          "name": "Ataque en manada",
           "description": "<p>The visitant deals an extra 1d4 daño to any criatura that's within reach of at least two of the visitant's allies.</p>"
         },
         "action->Pounce": {
@@ -940,7 +940,7 @@
     "Muurfeli": {
       "name": "Muurfeli",
       "publicNotes": "<p>Whereas typical djinn can cleanse or clear areas with their arcane winds, the air magic of muurfeli is tainted by the Black Desert's noxious radiation and mixed with the realm's ambient fetid winds.</p>\n<hr />\n<p>Before the Black Desert became a barren sandscape, cultures with grand magical traditions lived under its soaring roof. Estos communities eventually left the vault or died out, but the genies they summoned remained and became warped by the region's pervasive blightburn radiation. Now, these \"blightburn genies\" have bodies with features mirroring those of beasts that dwell in dark places, and their elemental lineages have been irreparably corrupted.</p>",
-      "senses": "detect magic",
+      "senses": "detectar magia",
       "items": {
         "spellcastingEntry->Arcane Innate Spells": {
           "name": "Arcane Innate Spells"
@@ -967,7 +967,7 @@
           "name": "Fist"
         },
         "strike-melee->Scimitar": {
-          "name": "Scimitar"
+          "name": "Cimitarra"
         },
         "strike-ranged->Fetid Winds": {
           "name": "Fetid Winds"
@@ -996,7 +996,7 @@
         },
         "action->Assimilate Lava": {
           "name": "Assimilate Lava",
-          "description": "<p>An obsidian golem that submerges itself in lava or magma takes no daño from it, and for as long as it remains submerged, it becomes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} and gains fast healing 15.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.t8Yxrx3XgjS78Hxt]{Efecto: Assimilate Lava}</p>"
+          "description": "<p>An obsidian golem that submerges itself in lava or magma takes no daño from it, and for as long as it remains submerged, it becomes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} and gains curacion rapida 15.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.t8Yxrx3XgjS78Hxt]{Efecto: Assimilate Lava}</p>"
         },
         "action->Golem Antimagic": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.r34QDwKiWZoVymJa]\nGolem Antimagic",
@@ -1061,7 +1061,7 @@
     },
     "Saurian Warmonger": {
       "name": "Saurian Warmonger",
-      "languages": "speak with animals",
+      "languages": "hablar con animales",
       "publicNotes": "<p>Estos saurians adopt warfare as their primary role and greatest calling. They particularly excel at taking slaves.</p>\n<hr />\n<p>Enormous tyrannosaurus-humanoids, saurians are ancient beings who predate the rise of humans and dwell in the world's primeval jungles. While the saurians presented here are evil, saurians of all alignments exist.</p>",
       "items": {
         "spellcastingEntry->Primal Innate Spells": {
@@ -1077,7 +1077,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.FbquJr6FuXL3K373]\n+1 Striking Mancatcher"
         },
         "strike-melee->Spear": {
-          "name": "Spear"
+          "name": "Lanza"
         },
         "strike-melee->Mancatcher": {
           "name": "Mancatcher"
@@ -1089,7 +1089,7 @@
           "name": "Tail"
         },
         "strike-ranged->Spear": {
-          "name": "Spear"
+          "name": "Lanza"
         },
         "action->Boneshaking Roar": {
           "name": "Boneshaking Roar",
@@ -1111,7 +1111,7 @@
     },
     "Saurian Worldwatcher": {
       "name": "Saurian Worldwatcher",
-      "languages": "speak with animals",
+      "languages": "hablar con animales",
       "publicNotes": "<p>The longest-lived saurians favor introspection and take the long view of things-though this thoughtfulness should not be mistaken for weakness. Other saurians defer to worldwatchers' experience.</p>\n<hr />\n<p>Enormous tyrannosaurus-humanoids, saurians are ancient beings who predate the rise of humans and dwell in the world's primeval jungles. While the saurians presented here are evil, saurians of all alignments exist.</p>",
       "items": {
         "spellcastingEntry->Primal Innate Spells": {
@@ -1139,7 +1139,7 @@
           "name": "Tail"
         },
         "strike-ranged->Javelin": {
-          "name": "Javelin"
+          "name": "Jabalina"
         },
         "action->Raptor Jaw Disarm": {
           "name": "Raptor Jaw Disarm",
@@ -1164,13 +1164,13 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.w2ENw2VMPcsbif8g]\nSignal Arrows"
         },
         "strike-melee->Staff": {
-          "name": "Staff"
+          "name": "Bastón"
         },
         "strike-ranged->Longbow": {
-          "name": "Longbow"
+          "name": "Arco largo"
         },
         "action->Blunt Snout": {
-          "name": "Blunt Snout",
+          "name": "Hocico romo",
           "description": "<p>The Shoony Hierarch's blunt snout and labyrinthine sinus system make it resistant to phenomena that assail the nose. When it rolls a tirada de salvación against inhaled threats (such as inhaled poisons) and olfactory effects (such as xulgath stench), the outcome is one degree of success better than the result of its roll.</p>",
           "rules": {
             "0": {
@@ -1179,7 +1179,7 @@
           }
         },
         "action->Paddler Shoony": {
-          "name": "Paddler Shoony",
+          "name": "Remero Shoony",
           "description": "<p>Tú hail from shoonies who have lived long and successfully among the reeds and cattails of swamps and marshes, and have adapted to the challenges of living near waterlogged ares. Ignoras difficult terrain and greater difficult terrain from bogs. When tú roll a success to @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Swim}, tú get a critical success instead.</p>",
           "rules": {
             "0": {
@@ -1192,7 +1192,7 @@
           "description": "<p>The shoony hierarch sparks and launches an alchemically treated arrow that creates a bright light high in the sky. A signal arrow cannot be used to deal daño. Hierarchs carry a number of different arrows that signal different things; a red signal arrow might mean retreat, whereas a green arrow might be a call to gather in the village commons.</p>"
         },
         "lore->Shoony Lore": {
-          "name": "Shoony Lore"
+          "name": "Historia de Shoony"
         }
       }
     },
@@ -1210,13 +1210,13 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.LJdbVTOZog39EEbi]\n<p>Longswords can be one-edged or two-edged swords. Their blades are heavy and they're between 3 and 4 pies in length.</p>"
         },
         "strike-melee->Longsword": {
-          "name": "Longsword"
+          "name": "Espada larga"
         },
         "strike-ranged->Javelin": {
-          "name": "Javelin"
+          "name": "Jabalina"
         },
         "action->Blunt Snout": {
-          "name": "Blunt Snout",
+          "name": "Hocico romo",
           "description": "<p>The Shoony Militia Member's blunt snout and labyrinthine sinus system make it resistant to phenomena that assail the nose. When it rolls a tirada de salvación against inhaled threats (such as inhaled poisons) and olfactory effects (such as xulgath stench), the outcome is one degree of success better than the result of its roll.</p>",
           "rules": {
             "0": {
@@ -1241,7 +1241,7 @@
           "name": "Dirt Clod"
         },
         "action->Blunt Snout": {
-          "name": "Blunt Snout",
+          "name": "Hocico romo",
           "description": "<p>The Shoony Tiller's blunt snout and labyrinthine sinus system make it resistant to phenomena that assail the nose. When it rolls a tirada de salvación against inhaled threats (such as inhaled poisons) and olfactory effects (such as xulgath stench), the outcome is one degree of success better than the result of its roll.</p>",
           "rules": {
             "0": {
@@ -1250,11 +1250,11 @@
           }
         },
         "action->Dig Quickly": {
-          "name": "Dig Quickly",
+          "name": "Cavar rápidamente",
           "description": "<p><strong>Requisitos</strong> Estás standing on dirt, sand, snow, or similar particulate material.</p>\n<hr />\n<p><strong>Efecto</strong> Tu hands work as effectively as shovels when necesitas to dig a quick hole. Tú dig a shallow pit in the square tú currently occupy, turning the square into difficult terrain (including for tú). In addition, tú also kick up a cloud of grit in a direction of tu choice. The cloud extinguishes small, unattended, non-magical fires and helps smother the flames on burning criaturas located within the cone; criaturas in this cone that are taking @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{Persistent Fire Damage} can immediately attempt an additional @Check[flat|dc:15] to end the daño persistente.</p>"
         },
         "lore->Farming Lore": {
-          "name": "Farming Lore"
+          "name": "Saber de Agricultura"
         }
       }
     },
@@ -1317,7 +1317,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRay of Enfeeblement"
         },
         "strike-melee->Rhoka Sword": {
-          "name": "Rhoka Sword"
+          "name": "Espada rhoka"
         },
         "strike-melee->Jaws": {
           "name": "Jaws"
@@ -1363,7 +1363,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.rXt4629QSg7KDTgJ]\n+1 Striking Warhammer"
         },
         "strike-melee->Warhammer": {
-          "name": "Warhammer"
+          "name": "Martillo de guerra"
         },
         "strike-melee->Jaws": {
           "name": "Jaws"
@@ -1402,24 +1402,24 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRay of Enfeeblement"
         },
         "strike-melee->Rhoka Sword": {
-          "name": "Rhoka Sword"
+          "name": "Espada rhoka"
         },
         "strike-melee->Jaws": {
           "name": "Jaws"
         },
         "strike-ranged->Composite Longbow": {
-          "name": "Composite Longbow"
+          "name": "Arco largo compuesto"
         },
         "action->Necrotic Decay": {
           "name": "Necrotic Decay",
           "description": "<p>When an urdefhan dies, its invisible flesh quickly rots away and sublimates into a foul-smelling gas that fills a @Template[emanation|distance:5] around the body.</p>\n<p>Este gas deals @Damage[12d6[void]|options:area-damage] daño to criaturas in this area as their flesh curdles and rots as well (@Check[fortitude|dc:32|basic|options:area-effect] save).</p>"
         },
         "action->Deadly Aim": {
-          "name": "Deadly Aim",
+          "name": "Puntería mortal",
           "description": "<p>The urdefhan hunter makes a ranged Golpe at a -2 penalización. The urdefhan deals [[/r 4]] daño adicional with this Golpe.</p>"
         },
         "action->Double Shot": {
-          "name": "Double Shot",
+          "name": "Disparo doble",
           "description": "<p><strong>Requisitos</strong> The urdefhan hunter is wielding a ranged arma with reload 0</p>\n<hr />\n<p><strong>Efecto</strong> The urdefhan hunter makes two Golpes with the required arma at a single target. Estos Golpes both count toward the urdefhan's multiple attack penalización, but the penalización doesn't increase until both attacks are resolved.</p>"
         },
         "action->Mounted Bow Expert": {
@@ -1460,7 +1460,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.r0ifJfoz8aqf0mwk]\n<p>Aunque se la denomina coraza, this type of armor consists of several pieces of plate or half-plate armor that protect the torso, chest, neck, and sometimes the hips and lower legs. It strategically grants some of the protection of plate while allowing greater flexibility and speed.</p>"
         },
         "strike-melee->Ranseur": {
-          "name": "Ranseur"
+          "name": "Ronca"
         },
         "strike-melee->Jaws": {
           "name": "Jaws"
@@ -1541,7 +1541,7 @@
     },
     "Vitalia": {
       "name": "Vitalia",
-      "hpDetails": "fast healing 20",
+      "hpDetails": "curacion rapida 20",
       "publicNotes": "<p>Foul occult magic, rare alchemical reagents, and copious amounts of spilled blood are the keys to creating a vitalia-also known as a heart horror-though thankfully the exact means of their creation has been long forgotten.</p>\n<p>Now, most vitalias now come into being by sheer accident. Este unusual life-form cannot live without regular contact with blood, much like how fish cannot live long outside of water. Because of this, vitalias are rarely found outside the lairs of mad alchemists or wizards, living in pools of the life-giving substance. Physically, a vitalia somewhat resembles a blood-red giant jellyfish, though it also bears some semblance to a giant human heart.</p>",
       "senses": "bloodsense (precise) 30 pies",
       "items": {
@@ -1586,7 +1586,7 @@
         },
         "action->Sanguine Rain": {
           "name": "Sanguine Rain",
-          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> The vitalia pumps copious amounts of blood into the air, creating a cascading rain of vital fluids in a @Template[emanation|distance:15].</p>\n<p>All criaturas in the area are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} from one another. A criatura that benefits from consuming blood (such as bloodseekers or vampires) gains fast healing 10 while in the area. While in the area, a criatura taking daño persistente de sangrado cannot end that condition, even if it spends actions to attempt a prueba plana to do so.</p>\n<p>The rain lasts for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.nP1KEogCiRdVq0UB]{Efecto: Sanguine Rain}</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> The vitalia pumps copious amounts of blood into the air, creating a cascading rain of vital fluids in a @Template[emanation|distance:15].</p>\n<p>All criaturas in the area are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} from one another. A criatura that benefits from consuming blood (such as bloodseekers or vampires) gains curacion rapida 10 while in the area. While in the area, a criatura taking daño persistente de sangrado cannot end that condition, even if it spends actions to attempt a prueba plana to do so.</p>\n<p>The rain lasts for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.nP1KEogCiRdVq0UB]{Efecto: Sanguine Rain}</p>"
         }
       }
     },
@@ -1644,13 +1644,13 @@
           "name": "Claw"
         },
         "strike-melee->Dagger": {
-          "name": "Dagger"
+          "name": "Daga"
         },
         "strike-ranged->Dagger": {
-          "name": "Dagger"
+          "name": "Daga"
         },
         "action->Stench": {
-          "name": "Stench",
+          "name": "Hedor",
           "description": "<p>30 pies. A criatura entering the aura must attempt a @Check[fortitude|dc:16] save. On a failure, the criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}, and on a critical failure, the criatura also takes a –5-pies penalización de estado to its Velocidades for 1 round. While within the aura, the criatura takes a -2 penalización de circunstancia to saves to recover from the sickened condition. A criatura that succeeds at its save is temporarily immune to all xulgaths' stench for 1 minute.</p>\n<p>A xulgath bilebearer can activate or deactivate its stench aura as a free action.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uB3CVn3momZO9h0L]{Efecto: Xulgath Stench}</p>"
         },
         "action->Putrid Blast": {
@@ -1708,7 +1708,7 @@
           "description": "<p>Este pouch contains material components for those conjuros that require them. Though the components are used up over time, puedes refill spent components during tu daily preparations.</p>"
         },
         "strike-melee->Spiked Gauntlet": {
-          "name": "Spiked Gauntlet"
+          "name": "Guantelete armado"
         },
         "strike-melee->Jaws": {
           "name": "Jaws"
@@ -1717,7 +1717,7 @@
           "name": "Claw"
         },
         "action->Stench": {
-          "name": "Stench",
+          "name": "Hedor",
           "description": "<p>30 pies. A criatura that enters the area must attempt a @Check[fortitude|dc:28] save. On a failure, the criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}, and on a critical failure, the criatura also takes a –5-pies penalización de estado to its Velocidades for 1 round.</p>\n<p>While within the aura, the criatura takes a -2 penalización de circunstancia to saves to recover from the sickened condition.</p>\n<p>A criatura that succeeds at its save is temporarily immune to all xulgaths' stenches for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uB3CVn3momZO9h0L]{Efecto: Xulgath Stench}</p>"
         },
         "action->Devourer's Dictum": {
@@ -1762,7 +1762,7 @@
       "publicNotes": "<p>Xulgath physiological diversity doesn't always imply drastic change; some xulgaths are simply much larger and stronger than their clutchmates. Most xulgaths call such siblings spinesnappers, though terms like bonebreaker, marrowvent, or similarly violent epithets are equally common. A typical spinesnapper is 9 pies tall and weighs 350 pounds.</p>\n<p>In battle, spinesnappers have all the speed, grace, and strength of a sledgehammer. They are ideal shock troops and make a good first line of defense. When an inter-clutch conflict leads to a duel, spinesnappers are typically called upon to rise to the challenge. In this case, a spinesnapper representative from each clutch squares off for what is in theory a nonlethal wrestling match, after which the winner scrapes off some of the loser's scales as a trophy.</p>",
       "items": {
         "strike-melee->Maul": {
-          "name": "Maul"
+          "name": "Mazo"
         },
         "strike-melee->Jaws": {
           "name": "Jaws"
@@ -1771,7 +1771,7 @@
           "name": "Claw"
         },
         "action->Stench": {
-          "name": "Stench",
+          "name": "Hedor",
           "description": "<p>30 pies. A criatura entering the aura must attempt a @Check[fortitude|dc:21] save. On a failure, the criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}, and on a critical failure, the criatura also takes a –5-pies penalización de estado to its Velocidades for 1 round. While within the aura, the criatura takes a -2 penalización de circunstancia to saves to recover from the sickened condition. A criatura that succeeds at its save is temporarily immune to all xulgaths' stench for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uB3CVn3momZO9h0L]{Efecto: Xulgath Stench}</p>"
         },
         "action->Brutal Blow": {
@@ -1804,7 +1804,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]\nTremorsense (imprecise) 30 pies"
         },
         "action->Stench": {
-          "name": "Stench",
+          "name": "Hedor",
           "description": "<p>30 pies. A criatura entering the aura must attempt a @Check[fortitude|dc:24] save. On a failure, the criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}, and on a critical failure, the criatura also takes a –5-pies penalización de estado to its Velocidades for 1 round. While within the aura, the criatura takes a -2 penalización de circunstancia to saves to recover from the sickened condition. A criatura that succeeds at its save is temporarily immune to all xulgaths' stench for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uB3CVn3momZO9h0L]{Efecto: Xulgath Stench}</p>"
         },
         "action->Earthen Blow": {
@@ -1820,7 +1820,7 @@
           "description": "<p>The stoneliege turns their own body into solid stone like a statue and immediately becomes @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{Petrified}. Any criatura grappled or restrained by the stoneliege becomes @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}; to get free, the criatura must daño the statue enough to break it or succeed at a @Check[acrobatics|dc:28|name:Escape Stone Throes|traits:action:escape] check to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}.</p>"
         },
         "lore->Cave Lore": {
-          "name": "Cave Lore"
+          "name": "Saber de Cuevas"
         },
         "lore->Geology Lore": {
           "name": "Geology Lore"
@@ -1854,7 +1854,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.mrDi3v933gsmnw25]\nTelekinetic Maneuver (At Will)"
         },
         "strike-melee->Spear": {
-          "name": "Spear"
+          "name": "Lanza"
         },
         "strike-melee->Jaws": {
           "name": "Jaws"
@@ -1863,7 +1863,7 @@
           "name": "Claw"
         },
         "strike-ranged->Spear": {
-          "name": "Spear"
+          "name": "Lanza"
         },
         "action->Telepathy 100 feet": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA]\nTelepathy 100 pies"

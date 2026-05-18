@@ -19,7 +19,7 @@
       "description": "<p>The shadow hound releases an eerie bay, attempting to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} each foe in a @Template[type:emanation|distance:20]. Estos Demoralize attempts don't require a language and don't take any penalización due to not sharing a language.</p>"
     },
     "Bear Hug": {
-      "name": "Bear Hug",
+      "name": "Abrazo de oso",
       "description": "<p><strong>Requisitos</strong> The bear's last action was a successful claw Golpe.</p>\n<hr />\n<p>The bear makes another claw Golpe against the same target. If this Golpe hits, el objetivo is also @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, as if the bear had successfully @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grappled} el objetivo.</p>"
     },
     "Blood Feast": {
@@ -67,7 +67,7 @@
       "description": "<p>Tu air elemental flies in a circle, blowing gusts at tu foes before returning back to its starting position. The air elemental Flies up to half its Velocidad, makes two gust Golpes, then Flies up to half its Velocidad again to return to its original location. Both attacks count toward the air elemental's multiple attack penalización, but the penalización doesn't increase until after it makes both attacks.</p>"
     },
     "Constrict": {
-      "name": "Constrict",
+      "name": "Constreñir",
       "description": "<p><strong>Requisitos</strong> The snake has a smaller criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}.</p>\n<hr />\n<p>The snake deals @Damage[12[bludgeoning]] daño to the grabbed criatura; the criatura must attempt a @Check[fortitude|basic] save against tu class DC. If the snake is a specialized animal companion, increase this daño to @Damage[20[bludgeoning]|shortLabel].</p>"
     },
     "Crab Cannon": {
@@ -83,11 +83,11 @@
       "description": "<p>The giant wasp Flies up to 15 pies and then Golpes, or Golpes and then Flies up to 15 pies.</p>"
     },
     "Death Roll": {
-      "name": "Death Roll",
+      "name": "Giro mortal",
       "description": "<p><strong>Requisitos</strong> The crocodile has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}.</p>\n<hr />\n<p>The crocodile tucks its legs and rolls rapidly, twisting its victim. It makes a jaws Golpe with a +2 bonificador de circunstancia to the tirada de ataque against the grabbed criatura. If it hits, it also knocks the criatura @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. If it misses, it releases the criatura.</p>"
     },
     "Death from Above": {
-      "name": "Death from Above",
+      "name": "Muerte desde arriba",
       "description": "<p>The flying squirrel crashes down onto a target, furiously clawing at it. The flying squirrel falls to an empty space next to el objetivo, taking no daño, and makes two claw Golpes. Both attacks count toward its multiple attack penalización, but the penalización doesn't increase until after both attacks have been made.</p>"
     },
     "Defensive Curl": {
@@ -150,7 +150,7 @@
       "description": "<p>The sundaflora stands tall on its hind legs and begins to wave and dance, showing off its dazzling beauty to distract tu attackers. It attempts to @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint} el objetivo criatura, using its [[/act feint skill=performance]]{Performance } skill instead of Deception. If successful (or critically successful), el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to tú, rather than to tu sundaflora.</p>"
     },
     "Flyby Attack": {
-      "name": "Flyby Attack",
+      "name": "Ataque al pasar volando",
       "description": "<p>The bird Flies and makes a talon Golpe at any point along the way.</p>"
     },
     "Flying Strafe": {
@@ -170,7 +170,7 @@
       "description": "<p><strong>Requisitos</strong> The severed head's last action was a successful jaws Golpe. </p>\n<hr />\n<p>Tu severed head violently shakes itself back and forth, trying to tear away a mouthful of flesh. It makes another jaws Golpe against the same target. If the Golpe hits, it deals @Damage[1d6[persistent,bleed]] daño in addition to its usual daño.</p>"
     },
     "Gnaw": {
-      "name": "Gnaw",
+      "name": "Roer",
       "description": "<p><strong>Requisitos</strong> The animal companion's last action was a successful jaws Golpe.</p>\n<hr />\n<p>The Golpe's target takes @Damage[1d6[persistent,bleed]] daño and takes a –10-pies penalización de estado to its Velocidad until it removes the daño de sangrado. If the hyena is a specialized animal companion, the daño persistente de sangrado increases to @Damage[2d6[persistent,bleed]|shortLabel].</p>"
     },
     "Go For the Eyes!": {
@@ -202,7 +202,7 @@
       "description": "<p>The tarantula flicks its legs, flinging spiky hairs in a @Template[type:cone|distance:15]. Este deals @Damage[(4 + max(0,floor((@actor.level - 6) / 4)))d6[piercing]] daño with a @Check[type:reflex|against:hair-barrage|basic:true]. Este uses a entrenado DC using the tarantula's Dexterity modifier or an experto DC if the tarantula is specialized. Este daño increases by an additional 1d6 for every 4 levels tienes beyond 6th.</p>"
     },
     "Hustle": {
-      "name": "Hustle",
+      "name": "Aligerar",
       "description": "<p>The beetle moves at incredible speed. It Strides three times.</p>"
     },
     "Knock Aside": {
@@ -361,7 +361,7 @@
       "description": "<p>The shotalashu hunts by pinning its foes with not just its claws, but with its mind as well. One criatura within 30 pies must attempt a @Check[will|against:telepathic-pounce] save, with the following effects. Este uses a entrenado DC using the shotalashu's Charisma modifier or an experto DC if the shotalashu is specialized.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura takes a –5 pies penalización de estado to its Velocidades for one round.</p>\n<p><strong>Fallo</strong> The criatura takes a –10 pies penalización de estado to its Velocidades for one round. The shotalashu can then @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}.</p>\n<p><strong>Fallo crítico</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} and @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for one round. The shotalashu can then Leap.</p>"
     },
     "Throw Rock": {
-      "name": "Throw Rock",
+      "name": "Arrojar roca",
       "description": "<p>The arboreal sapling Interacts to pick up a rock within reach or retrieve a stowed rock, then throws it with a ranged rock Golpe that deals a base of 1d6 daño contundente with a range increment of 30 pies. The daño is 2d6 for a mature arboreal sapling and 3d6 for a specialized one.</p>",
       "rules": {
         "1": {

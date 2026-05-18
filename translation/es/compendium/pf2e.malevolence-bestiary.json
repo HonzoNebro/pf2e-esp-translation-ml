@@ -1,11 +1,11 @@
 {
-  "label": "malevolence-bestiary",
+  "label": "Bestiario de Malevolencia",
   "entries": {
     "Algea": {
       "name": "Algea",
       "publicNotes": "<p>Algeas protect (and sometimes retrieve) souls at risk of being claimed by other entities, particularly spellcasters who dabbled with otherworldly forces but never officially pledged their souls.</p>",
       "saveDetails": "+1 bonificador de estado to all saves vs. magic",
-      "senses": "see magic",
+      "senses": "ver magia",
       "items": {
         "spellcastingEntry->Innate Divine Spells": {
           "name": "Innate Divine Spells"
@@ -34,11 +34,11 @@
           "description": "<p>Each foe in the swarm's space takes @Damage[5d6[piercing]|traits:item:rune:property:ghost-touch] daño (@Check[reflex|dc:30|basic]) and is exposed to drain magic. Este daño affects incorporeal criaturas as if it had the effects of a ghost touch property rune.</p>"
         },
         "action->Soul Cage": {
-          "name": "Soul Cage",
+          "name": "Jaula del alma",
           "description": "<p>An incorporeal undead damaged by Frenzied Beaks must attempt a @Check[will|dc:30] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The undead is unaffected and is temporarily immune for 24 hours.</p>\n<p><strong>Éxito</strong> The undead takes a -10-pies penalización de estado to Velocidades for 1 round.</p>\n<p><strong>Fallo</strong> As success, but the undead is also @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} for 1 round, although it can attempt to Escape (DC 30).</p>\n<p><strong>Fallo crítico</strong> The undead is restrained for 1 round. The algea can attempt to plane shift with the @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado} criatura even if that criatura isn't willing, but an unwilling criatura can attempt a Will save to resist @UUID[Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ]{Interplanar Teleport}. If it succeeds, the algea plane shifts and leaves the incorporeal criatura behind, which is then no longer restrained.</p>"
         },
         "lore->Boneyard Lore": {
-          "name": "Boneyard Lore"
+          "name": "Saber de el Cementerio"
         }
       }
     },
@@ -64,7 +64,7 @@
           "description": "<p>Anitoli Nostreaema siphons the breath from living criaturas, sapping their strength. A living criatura hit by a jaws Golpe must attempt a @Check[fortitude|dc:24] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo is unaffected.</p>\n<p><strong>Éxito</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1} for 1 round.</p>\n<p><strong>Fallo</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1} for 24 hours and @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigado}.</p>\n<p><strong>Fallo crítico</strong> El objetivo is debilitado 1 for 24 hours, is fatigued, and falls @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente}.</p>"
         },
         "action->Steal Voice": {
-          "name": "Steal Voice",
+          "name": "Robar voz",
           "description": "<p>When Anatoli Nostraema hits a living criatura with a bony hand Golpe, it tries to pull the victim's voice into its aura. The victim must attempt a @Check[will|dc:24] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo is unaffected.</p>\n<p><strong>Éxito</strong> El objetivo's voice is weak for 1 minute. Anytime it attempts an action with the auditory rasgo, it must succeed at a @Check[flat|dc:5] check or the action is lost.</p>\n<p><strong>Fallo</strong> El objetivo loses the ability to speak for 1 hour, until the curse is removed, or until the attic whisperer is destroyed, whichever comes first. During this time, the attic whisperer can perfectly mimic el objetivo's voice, and el objetivo takes a -2 penalización de circunstancia to tiradas de salvación against that attic whisperer's aura of sobs.</p>\n<p><strong>Fallo crítico</strong> As failure, but the effects lasts until the attic whisperer is destroyed or the curse is removed.</p>"
         }
       }
@@ -145,7 +145,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg]\nLifesense 60 pies"
         },
         "action->Consume Flesh": {
-          "name": "Consume Flesh",
+          "name": "Consumir carne",
           "description": "<p><strong>Requisitos</strong> The esobok ghoul is adjacent to the corpse of a criatura that died within the last hour.</p>\n<hr />\n<p><strong>Efecto</strong> The ghoul devours a chunk of the corpse and regains @Damage[3d6[healing]] Puntos de Golpe.</p>\n<p>It can regain Puntos de Golpe from any given corpse only once.</p>"
         },
         "action->Corrupted Touch": {
@@ -168,7 +168,7 @@
     },
     "Haunted Nosoi": {
       "name": "Haunted Nosoi",
-      "languages": "truespeech",
+      "languages": "habla verdadera",
       "items": {
         "strike-melee->Beak": {
           "name": "Beak"
@@ -177,7 +177,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg]\nLifesense 60 pies"
         },
         "action->Truespeech": {
-          "name": "Truespeech",
+          "name": "Habla verdadera",
           "description": "<p>The haunted nosoi speaks in Requian, the language of psychopomps, but all criaturas hear its words in their native languages.</p>"
         },
         "action->Vengeful Burst": {
@@ -220,7 +220,7 @@
           "description": "<p>If a character forcefully presents Fulvia's ring to Ioseff as an action with the manipulate rasgo, he must attempt a @Check[will|dc:26] save; he's thereafter immune to Recoil for 24 hours.</p>\n<hr />\n<p><strong>Éxito crítico</strong> Ioseff is unaffected.</p>\n<p><strong>Éxito</strong> Ioseff takes @Damage[4d6[mental]] daño and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.</p>\n<p><strong>Fallo</strong> Ioseff takes @Damage[8d6[mental]] daño and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}.</p>\n<p><strong>Fallo crítico</strong> Ioseff takes @Damage[8d6[mental]] daño, is asustado 2, and is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 3}.</p>"
         },
         "action->Rejuvenation": {
-          "name": "Rejuvenation",
+          "name": "Rejuvenecimiento",
           "description": "<p>When a ghost is destroyed, it re-forms after [[/br 2d4 #days]]{2d4 days} within the location it's bound to, fully healed. A ghost can be permanently destroyed only if someone determines the reason for its existence and sets right whatever prevents the spirit from resting.</p>\n<hr />\n<p>In order to put Ioseff to rest, the following three conditions must be met after defeating Ioseff but before he rejuvenates:</p>\n<ul>\n<li>The undead brain collector in area D6 has been destroyed.</li>\n<li>The brains of his wife and children have been freed from the brain collector statue, allowing their souls to move to the Boneyard.</li>\n<li>The Void Mirror has been replaced in its frame in the Cosmic Crypt.</li>\n</ul>"
         },
         "action->Shame": {
@@ -352,7 +352,7 @@
           "description": "<p>A tanglebones can shift and adjust its mass to fit into smaller areas, allowing it to fit through tight spaces as if it were a Medium criatura. While Squeezing, it can move at its full Velocidad.</p>"
         },
         "action->Gnaw": {
-          "name": "Gnaw",
+          "name": "Roer",
           "description": "<p><strong>Requisitos</strong> The tanglebones has Grabbed a foe</p>\n<hr />\n<p><strong>Efecto</strong> The tanglebones gnaws and chews on the grabbed target with its many skulls, dealing @Damage[(2d6+8)[piercing]] daño (@Check[fortitude|dc:23|basic] save). On a critical failure, the criatura is also @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} from the pain.</p>"
         },
         "action->Skeletal Storm": {
@@ -375,7 +375,7 @@
           "name": "Jaws"
         },
         "strike-melee->Claws": {
-          "name": "Claws"
+          "name": "Garras"
         },
         "action->Absorb Phantom Brain": {
           "name": "Absorb Phantom Brain",
@@ -427,7 +427,7 @@
       "disable": "<p>@Check[occultism|dc:15|name:Exorcise Phantasm] or @Check[religion|dc:15|name:Exorcise Phantasm] (to exorcise the disquieting phantasm)</p>",
       "items": {
         "action->Haunting Vision": {
-          "name": "Haunting Vision",
+          "name": "Vision inquietante",
           "description": "<p><strong>Desencadenante</strong> A criatura comes within 5 pies of the phantasm</p>\n<hr />\n<p><strong>Efecto</strong> The disquieting phantasm creates a haunting vision. The triggering criatura must attempt a @Check[will|dc:19|name:Xarwin Manor Phantasm] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> If the criatura doesn't have the malevolence condition, the value of its malevolence condition increases by 1.</p>\n<p><strong>Fallo crítico</strong> The criatura increases its malevolence condition by 1.</p>"
         }
       }
@@ -527,7 +527,7 @@
           "description": "<p>Yianyin gives a long, passionate kiss to an @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} or willing criatura, dealing @Damage[4d6[void]] daño.</p>\n<p>Any criatura damaged by Yianyin's Kiss of Death for 3 consecutive rounds becomes unconscious and is @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Moribundo 1}.</p>"
         },
         "lore->Boneyard Lore": {
-          "name": "Boneyard Lore"
+          "name": "Saber de el Cementerio"
         }
       }
     }

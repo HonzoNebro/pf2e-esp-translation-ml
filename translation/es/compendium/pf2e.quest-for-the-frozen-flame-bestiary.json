@@ -1,11 +1,11 @@
 {
-  "label": "quest-for-the-frozen-flame-bestiary",
+  "label": "Bestiario de La busqueda de la llama helada",
   "entries": {
     "Abyss-warped Trees": {
       "name": "Abyss-warped Trees",
       "description": "<p>A forest of fiendish trees swing their branches and shift their roots to bludgeon and trip criaturas in the tainted grove (area <strong>A21</strong>).</p>",
       "disable": "<p>@Check[survival|dc:22|name:Find a Safe Location|traits:hazard,complex,environmental] (entrenado) to find a location the trees can't reach or @Check[religion|dc:24|name:Cast Out the Fiendish Energy|traits:hazard,complex,environmental] to recite a prayer that temporarily casts out the fiendish energy inside a single tree in the grove, disabling it for 1 minute. A disabled or destroyed tree creates a 5‑pies‑square area in the grove that's safe from this hazard.</p>",
-      "hpDetails": "per tree",
+      "hpDetails": "por arbol",
       "reset": "<p>The Abyss-warped trees cease moving 1 minute after no living criaturas are in the tainted grove. They reset immediately. A disabled tree reanimates after 1 minute. A destroyed tree regrows after 1 month.</p>",
       "routine": "<p>(4 actions) The Abyss‑warped trees use their first action each round to lash their roots; each criatura in the tainted grove must succeed at a @Check[reflex|dc:21|traits:hazard,complex,environmental] save or fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. The Abyss‑warped trees use their second, third, and fourth actions to make branch Golpes against up to three different criaturas in the tainted grove.</p>",
       "stealth": "<p>(entrenado) to determine the trees can move</p>",
@@ -25,7 +25,7 @@
     },
     "Acid Strongbox Trap": {
       "name": "Acid Strongbox Trap",
-      "description": "<p>An invisible magic field around the strongbox releases a spray of acid when disturbed.</p>",
+      "description": "<p>Un campo magico invisible alrededor de la caja fuerte libera un chorro de acido cuando se lo perturba.</p>",
       "disable": "<p>@Check[thievery|dc:22|name:Bleed Away the Magical Field|traits:acid,evocation,magical,trap,hazard] (experto) to harmlessly bleed away the magical field or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (2nd rank; counteract DC 20) to dispel it.</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
@@ -57,7 +57,7 @@
       "hpDetails": "curación de vacío",
       "skillSpecialStealth": {
         "0": {
-          "label": "in forests"
+          "label": "en bosques"
         }
       },
       "items": {
@@ -75,14 +75,14 @@
         },
         "action->Axe Vulnerability": {
           "name": "Axe Vulnerability",
-          "description": "<p>An arboreal tar tree takes 10 additional from axes.</p>"
+          "description": "<p>Un arbol alquitranado arboreo recibe 10 de dano adicional de las hachas.</p>"
         },
         "action->Spawn Tar Tree": {
           "name": "Spawn Tar Tree",
           "description": "<p>A living arboreal or animated tree slain by a tar tree's thorny branch Golpe rises as a tar tree spawn after [[/gmr 1d4 #rounds]]{1d4 rounds}. Este tar tree spawn is under the command of the tar tree that killed it. It doesn't have primal innate conjuros or the spawn tar tree ability and becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} for as long as it's a tar tree spawn. If the creator of the tar tree spawn dies, the tar tree spawn becomes a full-fledged, autonomous tar tree; it regains its free will, gains primal innate conjuros and the spawn tar tree ability, and is no longer torpe.</p>"
         },
         "action->Throw Rock": {
-          "name": "Throw Rock"
+          "name": "Arrojar roca"
         }
       }
     },
@@ -123,7 +123,7 @@
         },
         "consumable->Scroll of Fireball (Level 3)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.ZmefGBXGJF3CFDbn]\nScroll of Fireball (Level 3)",
-          "consumableSpellName": "Fireball",
+          "consumableSpellName": "Bola de fuego",
           "consumableSpellDescription": "<p>A roaring blast of fire appears at a spot tú designate, dealing 6d6 daño de fuego.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The daño increases by 2d6.</p>",
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.ZmefGBXGJF3CFDbn]\n<p>@UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{Fireball}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>To Lanzar un conjuro from a scroll, the conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro tirada de ataque and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical material components and costs are provided when a scroll is created, so tú don't need to provide them when Lanzando un conjuro from a scroll. Debes replace any required material component for that conjuro with a somatic component. If the conjuro requires a focus, debes have that focus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
         },
@@ -135,17 +135,17 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.RjuupS9xyXDLgyIr]\n<p>@UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>To Lanzar un conjuro from a scroll, the conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro tirada de ataque and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical material components and costs are provided when a scroll is created, so tú don't need to provide them when Lanzando un conjuro from a scroll. Debes replace any required material component for that conjuro with a somatic component. If the conjuro requires a focus, debes have that focus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
         },
         "strike-melee->Rapier": {
-          "name": "Rapier"
+          "name": "Espada ropera"
         },
         "strike-ranged->Heavy Crossbow": {
-          "name": "Heavy Crossbow"
+          "name": "Ballesta pesada"
         },
         "action->Mesmerizing Sigil": {
           "name": "Mesmerizing Sigil",
           "description": "<p><strong>Desencadenante</strong> A criatura targets Ardissa with a melee Golpe</p>\n<hr />\n<p><strong>Efecto</strong> Ardissa traces a dizzying symbol in the air. The criatura must attempt a @Check[will|dc:20] save. The criatura is then temporarily immune for 1 minute.</p>\n<hr />\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> Until the beginning of her next turn, Ardissa is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} from the criatura.</p>\n<p><strong>Fallo crítico</strong> Until the end of her next turn, Ardissa is @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido} from the criatura.</p>"
         },
         "action->Drain Bonded Item": {
-          "name": "Drain Bonded Item",
+          "name": "Drenar objeto vinculado",
           "description": "<p><strong>Frecuencia</strong> twice per day</p>\n<hr />\n<p><strong>Efecto</strong> Ardissa regains the ability to cast one conjuro she has already cast. She must still Lanzar el conjuro normally. She can use this ability once to recover a 1st-rank conjuro and once to recover a 2nd-rank conjuro. She typically uses this ability to recover her @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage} conjuros.</p>"
         }
       }
@@ -183,7 +183,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]\nVampiric Touch"
         },
         "spell->Create Undead": {
-          "cost": "black onyx, see Table 7-1"
+          "cost": "onice negro, consulta la Tabla 7-1"
         },
         "spell->Animate Dead": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.9WGeBwIIbbUuWKq0]\nAnimate Dead"
@@ -197,16 +197,16 @@
         },
         "consumable->Wand of Heal (Level 3)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.wrDmWkGxmwzYtfiA]\nWand of Heal (Level 3)",
-          "consumableSpellName": "Heal",
+          "consumableSpellName": "Curar",
           "consumableSpellDescription": "<p>Tú channel vitality energy to heal the living or daño the undead. If el objetivo is a willing living criatura, tú restore 1d8 Puntos de Golpe. If el objetivo is undead, tú deal that amount of vitality daño to it, and it gets a basic Fortitude save. The number of actions tú spend when Casting this Spell determines its targets, range, area, and other parameters.</p>\n<p><span class=\"action-glyph\">1</span> (somatic) The conjuro has a range of touch.</p>\n<p><span class=\"action-glyph\">2</span> (verbal, somatic) The conjuro has a range of 30 pies. If estás healing a living criatura, increase the Puntos de Golpe restored by 8.</p>\n<p><span class=\"action-glyph\">3</span> (material, somatic, verbal) Tú disperse vitality energy in a 30-pies emanation. Este targets all living and undead criaturas in the burst.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing or daño increases by 1d8, and the extra healing for the 2-action version increases by 8.</p>",
           "consumableSpellTarget": "1 willing living criatura or 1 undead",
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.wrDmWkGxmwzYtfiA]\n<p>@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal}</p>\n<hr />\n<p>Este baton is about a pies long and contains a single conjuro. The appearance typically relates to the conjuro within.</p>\n<p><strong>Activar</strong> Lanzar un conjuro</p>\n<p><strong>Frecuencia</strong> una vez al día, más sobrecarga</p>\n<hr />\n<p><strong>Efecto</strong> Lanzas the Spell at the indicated level.</p>\n<p><strong>Requisitos de fabricación</strong> Proporciona un casting of the conjuro.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
         },
         "strike-ranged->Spear": {
-          "name": "Spear"
+          "name": "Lanza"
         },
         "action->Siphon Life": {
-          "name": "Siphon Life",
+          "name": "Succionar Vida",
           "description": "<p><strong>Desencadenante</strong> A criatura within 30 pies uses a conjuro or ability with the healing rasgo that restores Puntos de Golpe or is el objetivo of a conjuro or ability with the healing rasgo that restores Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> Ashen Swale seizes upon the healing magic, drawing a portion of it into himself instead of the intended target. The healing effect restores 10 fewer Puntos de Golpe to one of its targets and Ashen Swale is restored 10 Puntos de Golpe or the total amount of healing, whichever is less.</p>"
         },
         "action->Corpse Puppet": {
@@ -218,12 +218,12 @@
           "description": "<p>Ashen Swale focuses on the link he shares with Idovik to quicken his eidolon's actions. Idovik is @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} 1 until the beginning of Ashen Swale's next turn.</p>"
         },
         "action->Manifest Eidolon": {
-          "name": "Manifest Eidolon",
+          "name": "Eidolón manifiesto",
           "description": "<p>Ashen Swale summons Idovik in an adjacent open space. If Idovik was already manifested, Ashen Swale chooses whether to unmanifest Idovik or to teleport Idovik to an adjacent open space. If Idovik unmanifested at 0 Puntos de Golpe, this process takes 1 minute instead of 3 actions, but Idovik regains 1 Hit Point when he remanifests.</p>"
         },
         "action->Transpose": {
-          "name": "Transpose",
-          "description": "<p>With a flash, Ashen Swale and Idovik switch places, each teleporting to the other's position.</p>"
+          "name": "Transponer",
+          "description": "<p>Con un destello, Ashen Swale e Idovik intercambian sus posiciones, teletransportandose cada uno al lugar del otro.</p>"
         }
       }
     },
@@ -267,14 +267,14 @@
           }
         },
         "strike-melee->Staff": {
-          "name": "Staff"
+          "name": "Bastón"
         },
         "action->Bloodline Magic": {
           "name": "Bloodline Magic",
           "description": "<p>When Azi casts @UUID[Compendium.pf2e.spells-srd.Item.GUeRTriJkMlMlVrk]{Bind Undead}, @UUID[Compendium.pf2e.spells-srd.Item.cqdmSmQnM0q6wbWG]{Drain Life}, @UUID[Compendium.pf2e.spells-srd.Item.8ViwItUgwT4lOvvb]{False Vitality}, @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm}, @UUID[Compendium.pf2e.spells-srd.Item.FM3SmEW8N1FCRjqt]{Talking Corpse}, or @UUID[Compendium.pf2e.spells-srd.Item.FedTjedva2rYk33r]{Undeath's Blessing}, either Azi gains Puntos de Golpe temporales equal to the conjuro's rank for 1 round, or a target takes @Damage[1[void]] per conjuro rank (if the conjuro already deals initial daño de vacío, combine this with the conjuro's initial daño before determining weaknesses and resistances).</p>"
         },
         "action->Reach Spell": {
-          "name": "Reach Spell",
+          "name": "Conjuro de alcance",
           "description": "<p>Azi can extend the range of her conjuros. If the next action Azi uses is to Lanzar un conjuro that has a range, increase that conjuro's range by 30 pies. If the conjuro normally has a range of touch, Azi extends its range to 30 pies.</p>"
         }
       }
@@ -317,8 +317,8 @@
           "name": "Jaws"
         },
         "action->Deep Breath": {
-          "name": "Deep Breath",
-          "description": "<p>A beaver can hold its breath for 15 minutes.</p>"
+          "name": "Contener La Respiración",
+          "description": "<p>Un castor puede contener la respiracion durante 15 minutos.</p>"
         },
         "action->Construct Shelter": {
           "name": "Construct Shelter",
@@ -336,7 +336,7 @@
     },
     "Bone Warrior": {
       "name": "Bone Warrior",
-      "acDetails": "23 with shield raised",
+      "acDetails": "23 con el escudo alzado",
       "items": {
         "weapon->Bastard Sword": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.6KWYmeRMxsQfWhhJ]\n<p>Este broad-bladed sword, sometimes called the hand-and-a-half sword, has a longer grip so it can be held in one hand or used with two hands to provide extra piercing or slashing power.</p>"
@@ -352,7 +352,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.plplsXJsqrdqNQVI]\n<p>Este piece of bone is emblazoned with an image representing Venexus. Some divine spellcasters, such as clerics, can use a religious symbol of their deity as a divine focus to use certain abilities and cast some conjuros. A religious symbol must be held in one hand to use it.</p>"
         },
         "strike-melee->Bastard Sword": {
-          "name": "Bastard Sword"
+          "name": "Espada bastarda"
         },
         "strike-melee->Fist": {
           "name": "Fist"
@@ -361,10 +361,10 @@
           "name": "Moderate Dread Ampoule"
         },
         "strike-ranged->Javelin": {
-          "name": "Javelin"
+          "name": "Jabalina"
         },
         "action->Sudden Charge": {
-          "name": "Sudden Charge",
+          "name": "Carga repentina",
           "description": "<p>The bone warrior Strides twice. If they end their movement within melee reach of an enemigo, the bone warrior makes a melee Golpe against that enemigo.</p>"
         }
       }
@@ -376,13 +376,13 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.zBYEU9E7034ENCmh]\n<p>Este armor is simply a layer of heavy, quilted cloth, but it is sometimes used because it's so inexpensive. Padded armor is easier to daño and destroy than other types of armor. Heavy armor comes with a padded armor undercoat included in its Price, though it loses the comfort rasgo when worn under heavy armor. Puedes wear just that padded armor or undercoat to sleep in, if tu heavy armor is destroyed, or when otherwise not wearing the full heavy armor. Este allows tú to keep the armor invested and benefit from the power of any runes on the associated heavy armor, but no one else can wear tu heavy armor without the padded undercoat.</p>"
         },
         "strike-melee->Club": {
-          "name": "Club"
+          "name": "Clava"
         },
         "strike-melee->Torch": {
-          "name": "Torch"
+          "name": "Antorcha"
         },
         "strike-ranged->Club": {
-          "name": "Club"
+          "name": "Clava"
         },
         "action->Spurred by Death": {
           "name": "Spurred by Death",
@@ -404,13 +404,13 @@
           "name": "Carved Wooden Trinket"
         },
         "strike-melee->Hatchet": {
-          "name": "Hatchet"
+          "name": "Hacha de mano"
         },
         "strike-ranged->Hatchet": {
-          "name": "Hatchet"
+          "name": "Hacha de mano"
         },
         "action->Evasion": {
-          "name": "Evasion",
+          "name": "Evasión",
           "description": "<p>When the commando rolls a success on a Reflex save, they get a critical success instead.</p>"
         },
         "action->Spurred by Death": {
@@ -422,7 +422,7 @@
           "description": "<p>Burning Mammoth commandos ably carve flesh and wood with their axes. An axe the commando uses gains the reach rasgo and deals an additional 1d6 daño (included in the <em>hatchet</em> Golpes above).</p>"
         },
         "action->Hunt Prey": {
-          "name": "Hunt Prey",
+          "name": "Perseguir presa",
           "description": "<p>The commando designates a single criatura they can see and hear, or one they're Tracking, as their prey. The commando gains a +2 bonificador de circunstancia to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} their prey and to SURVIVAL checks to @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Track} their prey. The first time the commando hits their designated prey in a round, they deal an additional 1d8 daño de precisión. The commando also ignores the penalización for making ranged attacks within the second range increment when attacking their prey. Estos effects last until the commando uses Hunt Prey again.</p>"
         }
       }
@@ -435,13 +435,13 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.ylUdMTsfOQGJ3MN3]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>An alchemical substance applied to one end of this tiny wooden stick ignites when struck against a rough surface. Creating a flame with a tindertwig is much faster than creating a flame with flint and steel. Puedes ignite the tindertwig and touch it to a flammable object as part of the same INTERACT action.</p>"
         },
         "strike-melee->Spear": {
-          "name": "Spear"
+          "name": "Lanza"
         },
         "strike-ranged->Spear": {
-          "name": "Spear"
+          "name": "Lanza"
         },
         "strike-ranged->Sling": {
-          "name": "Sling"
+          "name": "Honda"
         },
         "action->Spurred by Death": {
           "name": "Spurred by Death",
@@ -460,7 +460,7 @@
     },
     "Burning Mammoth Longshield": {
       "name": "Burning Mammoth Longshield",
-      "acDetails": "(17 with shield raised)",
+      "acDetails": "(17 con el escudo alzado)",
       "skillSpecialAthletics": {
         "0": {
           "label": "to Shove with Shield Raised"
@@ -478,13 +478,13 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.oyGXxUmS6QcthfRc]\nPolished Topaz"
         },
         "strike-melee->Spear": {
-          "name": "Spear"
+          "name": "Lanza"
         },
         "strike-melee->Shield Boss": {
-          "name": "Shield Boss"
+          "name": "Umbo de escudo"
         },
         "strike-ranged->Spear": {
-          "name": "Spear"
+          "name": "Lanza"
         },
         "action->Spurred by Death": {
           "name": "Spurred by Death",
@@ -512,10 +512,10 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.MPcM4Wt6KmWE2kGL]\n<p>Sometimes called a hauberk, this is a long shirt constructed of the same metal rings as chainmail. However, it is much lighter than chainmail and protects only the torso, upper arms, and upper legs of its wearer.</p>"
         },
         "strike-melee->Battle Axe": {
-          "name": "Battle Axe"
+          "name": "Hacha de batalla"
         },
         "strike-ranged->Javelin": {
-          "name": "Javelin"
+          "name": "Jabalina"
         },
         "strike-ranged->Tallow Bomb": {
           "name": "Tallow Bomb"
@@ -543,19 +543,19 @@
       "name": "Cairn Wight (G4)",
       "hpDetails": "curación de vacío",
       "publicNotes": "<p>Jealous guardians of tombs, barrows, and sepulchers, cairn wights usually spawn from necromantic rituals. For those mortals who cannot abide the thought of separation from their earthly possessions, the undead existence offered by transformation into a cairn wight can be tempting. Perhaps as frequently, particularly avaricious and wealthy royalty or merchants seek out victims to transform into cairn wights to guard their precious wealth for all time.</p>\n<p>Only in the rarest instances is the greed of a mortal strong enough to spontaneously transform them into a cairn wight without a dark ritual or the intercession of a powerful divine being. On those occasions, however, the resultant wight exhibits unmatched viciousness and likely owns rare treasure indeed.</p>\n<p>As guardians of material possessions, cairn wights are supernaturally bound to the armaments they wore during the ritual used to create them. They can spread their necromantic powers into the armas they wield. A slash from a cairn wight's sword channels life from the victim into the wight.</p>",
-      "tokenName": "Cairn Wight",
+      "tokenName": "Wight tumulario",
       "items": {
         "strike-melee->Club": {
-          "name": "Club"
+          "name": "Clava"
         },
         "strike-melee->Claw": {
           "name": "Claw"
         },
         "strike-ranged->Club": {
-          "name": "Club"
+          "name": "Clava"
         },
         "action->Final Spite": {
-          "name": "Final Spite",
+          "name": "Rencor final",
           "description": "<p><strong>Desencadenante</strong> The cairn wight is reduced to 0 Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The cairn wight makes a Golpe before being destroyed. It doesn't gain any temporary HP from drain life on this Golpe.</p>"
         },
         "action->Cairn Wight Spawn": {
@@ -563,7 +563,7 @@
           "description": "<p>A living humanoid slain by a cairn wight's arma or claw Golpe rises as a spawned wight after [[/gmr 1d4 #rounds]]{1d4 rounds}. Este spawned wight is under the command of the cairn wight that killed it. It doesn't have drain life or cairn wight spawn and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} for as long as it is a spawned wight.</p>\n<p>If its creator dies, the spawned wight becomes a full-fledged, autonomous cairn wight; it regains its free will, gains drain life and cairn wight spawn, and is no longer torpe.</p>"
         },
         "action->Drain Life": {
-          "name": "Drain Life",
+          "name": "Drenar La Vida",
           "description": "<p>When the cairn wight damages a living criatura with a melee Golpe, using an ataque sin armas or its bound arma, the cairn wight gains 5 Puntos de Golpe temporales and the criatura must succeed at a @Check[fortitude|dc:18|options:inflicts:drained] save or become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}. Further daño dealt by the cairn wraith increases the drained condition value by 1 on a failed save, to a maximum of drained 4.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.LRIYUFQ7FE9H4RWD]{Efecto: Drain Life}</p>"
         },
         "action->Funereal Dirge": {
@@ -591,7 +591,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.5SKGqxahAGsJgzRF]\n<p>While invested, this aeon stone grants the benefit of the @UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{Ghost Touch} property rune to tu armas and ataques sin armas.</p>\n<p>The resonant power grants a special activation.</p>\n<hr />\n<p><strong>Activar</strong> <span class=\"action-glyph\">1</span> imaginar</p>\n<p><strong>Frecuencia</strong> una vez por minuto</p>\n<hr />\n<p><strong>Efecto</strong> Obtienes the effects of @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{See the Unseen} for 1 round.</p>"
         },
         "treasure->Opal": {
-          "name": "Opal"
+          "name": "Ópalo"
         },
         "strike-melee->Claw": {
           "name": "Claw"
@@ -621,7 +621,7 @@
           "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> Calcifda makes a claw Golpe that originates from any stony or tarry surface within 60 pies. A criatura that fails its Fortitude save against coal curse from this Golpe increases its ralentizado value by 1 (@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} on a failed save, ralentizado 3 on a critical failure).</p>"
         },
         "action->Steady Spellcasting": {
-          "name": "Steady Spellcasting",
+          "name": "Lanzamiento de conjuros firme",
           "description": "<p>If a reaction would disrupt Calcifda's spellcasting action, she attempts a @Check[flat|dc:15]. On a success, the action isn't disrupted.</p>"
         },
         "lore->Gem Lore": {
@@ -637,7 +637,7 @@
           "name": "Jaws"
         },
         "action->Deep Breath": {
-          "name": "Deep Breath",
+          "name": "Contener La Respiración",
           "description": "<p>A castoroides can hold its breath for 1 hour.</p>"
         },
         "action->Slap": {
@@ -669,19 +669,19 @@
       "stealth": "(entrenado)",
       "items": {
         "action->Collapse": {
-          "name": "Collapse",
+          "name": "Desplome",
           "description": "<p><strong>Desencadenante</strong> A criatura moves into the unstable tunnel</p>\n<hr />\n<p><strong>Efecto</strong> The tunnel collapses in a cave-in that deals @Damage[(4d8+10)[bludgeoning]] daño to the triggering criatura and all criaturas in area <strong>A2</strong> (@Check[reflex|dc:21|basic]). On a failed save, the triggering criatura is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} ([[/act escape dc=21]]). Este collapse fully blocks the tunnel (area <strong>A2</strong>), making it impassable.</p>"
         }
       }
     },
     "Corrupted Elder Tree": {
       "name": "Corrupted Elder Tree",
-      "blurb": "Variant arboreal regent",
+      "blurb": "Variante de arboreal regent",
       "languages": "speak with plants",
       "publicNotes": "<p>Arboreal regents-also called treants-are lumbering, solitary criaturas responsible for guarding an entire forest. They take an especially long view of affairs and never act brashly or without much deliberation. They occasionally come together in small groups called groves to share news and pass their wisdom down to the arboreal wardens that have sprouted under their watch. In times of grave danger, all the groves in a region may gather for a great months-long meeting to plan and, eventually, act upon a threat.</p>\n<p>The typical arboreal regent is 30 pies tall, has a trunk 2 pies in diameter, and weighs 4,500 pounds.</p>\n<hr />\n<p>Arboreals are guardians of the forest and representatives of the trees. As long-lived as the woods they watch over, arboreals consider themselves parents and shepherds of trees rather than their gardeners. Consequently, while arboreals tend to be slow and methodical, they are terrifyingly swift when forced to fight in defense of the woods. Though they rarely seek out the companionship of short-lived folk-even elves are fugacious in the eyes of arboreals-and have an inherent distrust of change, arboreals have been known to tolerate those who seek to learn from their long-winded, rambling monologues, especially if such pupils also express a desire to protect the timberlands. Against those who threaten their realm, such as loggers eager to harvest lumber or settlers aiming to establish croplands or a town, arboreals' wrath is unwavering and devastating. Perhaps ironically, arboreals are gifted at tearing down what others build-a rasgo that serves vengeful members of their kind well.</p>",
       "skillSpecialStealth": {
         "0": {
-          "label": "in forests"
+          "label": "en bosques"
         }
       },
       "items": {
@@ -810,7 +810,7 @@
           "description": "<p><strong>Desencadenante</strong> An ally within 30 pies reduces a criatura to 0 HP</p>\n<hr />\n<p><strong>Efecto</strong> The everburning mammoth uses Drink Blood on a criatura that meets the ability's requirements.</p>"
         },
         "action->Drink Blood": {
-          "name": "Drink Blood",
+          "name": "Beber sangre",
           "description": "<p><strong>Requisitos</strong> A @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, or willing criatura is within the everburning mammoth's reach</p>\n<hr />\n<p><strong>Efecto</strong> The everburning mammoth tears into the criatura with its jaws and gorges itself on the victim's blood. Este requires an @Check[athletics|defense:fortitude] check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The victim is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}, and the everburning mammoth regains @Damage[15[healing]] HP, gaining any excess HP as Puntos de Golpe temporales. Drinking Blood from a criatura that's already drained doesn't restore any HP to the everburning mammoth but increases the victim's drain value by 1.</p>"
         },
         "action->Paralysis": {
@@ -836,12 +836,12 @@
     },
     "Fiendish Arboreal": {
       "name": "Fiendish Arboreal",
-      "acDetails": "(22 with shield raised)",
+      "acDetails": "(22 con el escudo alzado)",
       "blurb": "Demon‑touched arboreal wardens",
       "publicNotes": "<p>Arboreal wardens are the rangers of arboreal SOCIETY. Estos itinerant folk have an innate curiosity about the woodlands in which they dwell, and rarely stop to take root and rest in the same part of the forest twice. Este wanderlust makes wardens ideal forest patrollers and scouts. While they are robust combatants, they know better than to confront dangerous foes on their own. Instead, they report any dangers to arboreal regents. In rare cases, large groups of arboreal wardens congregate to form a copse. Copses travel beyond the boundaries of a forest to investigate the hinterlands and gather INTELLIGENCE on potential threats before returning to report their findings. Arboreal wardens do not pretend to understand to other criaturas' motives-like most forces of the natural world, they are ambivalent about mortal affairs that do not involve their forest.</p>\n<hr />\n<p>Arboreals are guardians of the forest and representatives of the trees. As long-lived as the woods they watch over, arboreals consider themselves parents and shepherds of trees rather than their gardeners. Consequently, while arboreals tend to be slow and methodical, they are terrifyingly swift when forced to fight in defense of the woods. Though they rarely seek out the companionship of short-lived folk-even elves are fugacious in the eyes of arboreals-and have an inherent distrust of change, arboreals have been known to tolerate those who seek to learn from their long-winded, rambling monologues, especially if such pupils also express a desire to protect the timberlands. Against those who threaten their realm, such as loggers eager to harvest lumber or settlers aiming to establish croplands or a town, arboreals' wrath is unwavering and devastating. Perhaps ironically, arboreals are gifted at tearing down what others build-a rasgo that serves vengeful members of their kind well.</p>",
       "skillSpecialStealth": {
         "0": {
-          "label": "in forests"
+          "label": "en bosques"
         }
       },
       "items": {
@@ -908,7 +908,7 @@
     },
     "Gathganara": {
       "name": "Gathganara",
-      "languages": "speak with animals",
+      "languages": "hablar con animales",
       "publicNotes": "<p>Naiads protect streams, ponds, springs, and other natural bodies of fresh water. While most naiads lead solitary lives close to their chosen ward, sometimes these nymphs congregate in coven-like groups where river tributaries meet, performing great magic and blessing the waters of the land. Because naiads' bonds to their bodies of water permit more flexibility, they are the nymphs most likely to INTERACT with humanoids and even visit their settlements on occasion. Unlike other nymphs, naiads occasionally become adventurers, especially when dark forces seek to despoil NATURE or otherwise threaten the land, joining forces with others to prevent the corruption of NATURE.</p>\n<hr />\n<p>Nymphs are a family of fey that take the form of beautiful humanoids with elven features and have a deep association with the natural world. The most common of their kind are the dryads, which are spirits that embody great trees, but many other kinds of nymphs exist, including naiads, who watch over bodies of water. All nymphs are guardians of some element of NATURE, typically a specific tree or pond, or even-in the case of nymph queens-whole forests or massive bodies of water.</p>",
       "items": {
         "spellcastingEntry->Primal Innate Spells": {
@@ -1013,7 +1013,7 @@
       "name": "Graylok Ambusher",
       "skillSpecialStealth": {
         "0": {
-          "label": "in snow"
+          "label": "en la nieve"
         }
       },
       "items": {
@@ -1021,25 +1021,25 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.r0ifJfoz8aqf0mwk]\n<p>Aunque se la denomina coraza, this type of armor consists of several pieces of plate or half-plate armor that protect the torso, chest, neck, and sometimes the hips and lower legs. It strategically grants some of the protection of plate while allowing greater flexibility and speed.</p>"
         },
         "strike-ranged->Hatchet": {
-          "name": "Hatchet"
+          "name": "Hacha de mano"
         },
         "strike-melee->Fist": {
           "name": "Fist"
         },
         "action->Deny Advantage": {
-          "name": "Deny Advantage",
+          "name": "Negar ventaja",
           "description": "<p>A Graylok ambusher isn't @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido}, undetected, or flanking criaturas of 8th level or lower or criaturas of 8th level or lower using sneak attack. However, such criaturas can still help other criaturas flank.</p>"
         },
         "action->Opportune Backstab": {
-          "name": "Opportune Backstab",
+          "name": "Puñalada trapera oportuna",
           "description": "<p><strong>Desencadenante</strong> A criatura within melee reach is hit by a melee attack from one of the Graylok ambusher's allies</p>\n<hr />\n<p><strong>Efecto</strong> The Graylok ambusher attempts a Golpe against the triggering criatura.</p>"
         },
         "action->Brutal Beating": {
-          "name": "Brutal Beating",
+          "name": "Paliza brutal",
           "description": "<p>When the Graylok ambusher scores a critical hit with a melee Golpe, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.</p>"
         },
         "action->Dread Striker": {
-          "name": "Dread Striker",
+          "name": "Pegador temible",
           "description": "<p>Any criatura that has the @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado} condition is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} against the Graylok ambusher's attacks.</p>"
         },
         "action->Ice Stride": {
@@ -1069,7 +1069,7 @@
           "name": "Sack with 10 Firebombs (see Throw Bomb)"
         },
         "strike-melee->Greataxe": {
-          "name": "Greataxe"
+          "name": "Gran hacha"
         },
         "strike-melee->Foot": {
           "name": "Foot"
@@ -1094,7 +1094,7 @@
     },
     "Graylok Gatebreaker": {
       "name": "Graylok Gatebreaker",
-      "acDetails": "(30 with shield raised, 32 behind cover)",
+      "acDetails": "(30 con el escudo alzado, 32 behind cover)",
       "items": {
         "shield->Tower Shield": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.ltundBNFAnP7bgPr]\n<p>Estos massive shields can be used to provide cover to nearly the entire body. Due to their size, they are typically made of wood reinforced with metal. AC increases to +4 if estás using the Take Cover action.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>5</td>\n<td>30</td>\n<td>15</td>\n</tr>\n</tbody>\n</table>"
@@ -1106,13 +1106,13 @@
           "name": "Battering Ram"
         },
         "strike-melee->Battle Axe": {
-          "name": "Battle Axe"
+          "name": "Hacha de batalla"
         },
         "strike-melee->Foot": {
           "name": "Foot"
         },
         "action->Shield Block": {
-          "name": "Shield Block",
+          "name": "Bloqueo con el escudo",
           "description": "<p>[reaction]</p>"
         },
         "action->Freeze Blade": {
@@ -1204,7 +1204,7 @@
       "name": "Hegremon",
       "skillSpecialStealth": {
         "0": {
-          "label": "in snow"
+          "label": "en la nieve"
         }
       },
       "items": {
@@ -1218,16 +1218,16 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.m99u0zXVbyPdK8Mf]\n<p>Drinking this thick, fortifying potion grants resistance 10 against daño de fuego for 1 hour.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>"
         },
         "strike-melee->Shortsword": {
-          "name": "Shortsword"
+          "name": "Espada corta"
         },
         "strike-melee->Foot": {
           "name": "Foot"
         },
         "strike-ranged->Mammoth Bow": {
-          "name": "Mammoth Bow"
+          "name": "Arco de mamut"
         },
         "action->Evasion": {
-          "name": "Evasion",
+          "name": "Evasión",
           "description": "<p>When Hegremon rolls a success on a Reflex save, he gets a critical success instead.</p>"
         },
         "action->Aimed Shot": {
@@ -1239,7 +1239,7 @@
           "description": "<p>(cold, evocation, primal) Hegremon breathes out a @Template[cone|distance:15] of freezing moisture that quickly condenses into ice, dealing @Damage[6d6[cold]|options:area-damage] daño. Each criatura in the cone must attempt a @Check[reflex|dc:28|basic|options:area-effect]. A criatura that fails its save is also @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} and takes 2d6 daño de frío at the end of each of its turns until it breaks free ([[/act escape dc=28]]). Hegremon can't use Chill Breath again for [[/gmr 1d4 #Recharge Chill Breath]]{1d4 rounds}.</p>"
         },
         "action->Hunt Prey": {
-          "name": "Hunt Prey",
+          "name": "Perseguir presa",
           "description": "<p>Hegremon designates a single criatura he can see and hear, or one he's Tracking, as his prey. Hegremon has a +2 bonificador de circunstancia to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} his prey and a +2 bonificador de circunstancia to SURVIVAL checks to @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Track} his prey. He ignores the penalización to ranged attacks within his second range increment against his prey. The first time Hegremon hits his prey in a round, he inflicts an additional 2d8 daño de precisión. Estos effects last until Hegremon uses Hunt Prey again.</p>"
         },
         "action->Hunting Shot": {
@@ -1251,11 +1251,11 @@
           "description": "<p>Hegremon isn't impeded by difficult terrain caused by snow or ice, nor does he need to attempt Acrobatics checks to keep from falling on slippery ice.</p>"
         },
         "action->Nature's Edge": {
-          "name": "Nature's Edge",
+          "name": "Ventaja De La Naturaleza",
           "description": "<p>Las criaturas in natural difficult terrain or on natural uneven ground are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to Hegremon.</p>"
         },
         "action->Penetrating Shot": {
-          "name": "Penetrating Shot",
+          "name": "Disparo perforante",
           "description": "<p>Hegremon chooses a target that's giving lesser cover to his prey and makes a <em>mammoth bow</em> Golpe against the chosen target and his prey. Este attack ignores lesser cover the chosen target provides his prey. Hegremon rolls daño twice and applies it to each criatura he hits. A Penetrating Shot counts as two attacks for his multiple attack penalización.</p>"
         }
       }
@@ -1288,7 +1288,7 @@
           "name": "Fist"
         },
         "strike-melee->Warhammer": {
-          "name": "Warhammer"
+          "name": "Martillo de guerra"
         },
         "action->+2 Status to All Saves vs. Disease and Poison": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kquBnQ0kObZztnBc]\n+2 Status to All Saves vs. Disease and Poison"
@@ -1301,7 +1301,7 @@
           "description": "<p><strong>Desencadenante</strong> Hobji hits a Medium or smaller criatura with his fist Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, and Hobji begins to strangle the criatura. The criatura is suffocating and no puede hablar as long as it's strangled. Este prevents it from casting conjuros with a verbal component or activating items with a command component.</p>"
         },
         "action->Surprise Attack": {
-          "name": "Surprise Attack",
+          "name": "Ataque por sorpresa",
           "description": "<p>In the first round of combat, criaturas that haven't acted yet are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to Hobji.</p>"
         }
       }
@@ -1338,7 +1338,7 @@
           "description": "<p>Idovik rushes forward, using his momentum to power his attack. Idovik Strides twice and then makes a tusk Golpe. As long as he moved at least 20 pies, he gains a +2 bonificador de circunstancia to his tirada de ataque. A Medium or smaller criatura struck by this attack must succeed at a @Check[reflex|dc:25] save or be knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} by the force of the blow.</p>"
         },
         "action->Spirit Link": {
-          "name": "Spirit Link",
+          "name": "Vínculo espiritual",
           "description": "<p>Even if his link is unusual, Idovik is bound to his summoner; he must remain within 100 pies of Ashen Swale at all times. If he ever moves outside this range or is reduced to 0 Puntos de Golpe, Idovik's physical form dissolves. Because his link functions unusually and he does not share Puntos de Golpe with Ashen Swale, Idovik remains manifested when Ashen Swale is @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} or dead, as long as he stays near Ashen Swale's body. If Ashen Swale dies, Idovik's form fades away over the next minute. When unmanifested, Idovik must be manifested before he can reappear.</p>"
         }
       }
@@ -1376,14 +1376,14 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.8COlYvHe6hKCXY8x]\n<p>Esta gran hacha de batalla es demasiado pesada para empuñarla con una sola mano. Many greataxes incorporate two blades, and they are often \"bearded\", having a hook at the bottom to increase the strength of their chopping power.</p>"
         },
         "strike-melee->Greataxe": {
-          "name": "Greataxe"
+          "name": "Gran hacha"
         },
         "action->Attack of Opportunity": {
-          "name": "Attack of Opportunity",
+          "name": "Ataque de oportunidad",
           "description": "<p>[reaction]</p>"
         },
         "action->Capture Magic": {
-          "name": "Capture Magic",
+          "name": "Capturar magia",
           "description": "<p><strong>Desencadenante</strong> Ivarsa succeeds at a save against a foe's harmful conjuro, or a foe fails a conjuro tirada de ataque against her with a harmful conjuro</p>\n<hr />\n<p><strong>Efecto</strong> Ivarsa enters her Arcane Cascade. If she's already in Arcane Cascade, she gains a +2 bonificador de estado to daño from Arcane Cascade until the end of her next turn.</p>"
         },
         "action->Arcane Cascade": {
@@ -1397,7 +1397,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.actionspf2e.Item.QDW9H8XLIjuW2fE4]\n<p>Ivarsa channels a conjuro into a punch or axe swing to deliver a magically charged attack. She casts @UUID[Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq]{Ignition} or @UUID[Compendium.pf2e.spells-srd.Item.gYjPm7YwGtEa1oxh]{Ray of Frost}. The effects of the conjuro don't occur immediately but are imbued into her attack instead. She makes a melee Golpe with a arma or ataque sin armas, which gains the arcane rasgo. Her conjuro is coupled with the attack, using her tirada de ataque to determine the effects of both the Golpe and the conjuro. Este counts as two attacks for her multiple attack penalización, but the penalización isn't applied until after she has completed the Spellstrike. After she uses Spellstrike, Ivarsa can't do so again until she recharges this ability as a single action, which has the concentrate rasgo. She also recharges her Spellstrike when she casts thunderous strike.</p>"
         },
         "lore->Warfare Lore": {
-          "name": "Warfare Lore"
+          "name": "Saber de Guerra"
         }
       }
     },
@@ -1426,14 +1426,14 @@
           }
         },
         "strike-melee->Staff": {
-          "name": "Staff"
+          "name": "Bastón"
         },
         "action->Child of Winter": {
           "name": "Child of Winter",
           "description": "<p>When Jesseri Casts a Spell that deals daño and doesn't have a duration, she deals daño adicional de frío that's equal to the conjuro's rank and ignores cold resistance 10.</p>"
         },
         "action->Signature Spells": {
-          "name": "Signature Spells",
+          "name": "Conjuros de signatura",
           "description": "<p>Jesseri can heighten @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} and @UUID[Compendium.pf2e.spells-srd.Item.9AAkVUCwF6WVNNY2]{Lightning Bolt} to any level for which she has an available conjuro slot.</p>"
         },
         "lore->Mammoth Lord Lore": {
@@ -1472,7 +1472,7 @@
           "name": "Beak"
         },
         "strike-melee->Longspear": {
-          "name": "Longspear"
+          "name": "Lanza larga"
         },
         "strike-ranged->Lightning Echo": {
           "name": "Lightning Echo"
@@ -1519,15 +1519,15 @@
           "description": "<p>15 pies. The lagofir is surrounded by fumes from the flammable oil it exudes. Each nonmagical open flame the size of a torch or larger within the emanation explodes, dealing @Damage[4d4[fire]] daño to all criaturas and objects adjacent to the flame (@Check[reflex|dc:17|basic]). After exploding, the fire source is extinguished.</p>"
         },
         "action->Deep Breath": {
-          "name": "Deep Breath",
+          "name": "Contener La Respiración",
           "description": "<p>A lagofir can hold its breath for 1 hour.</p>"
         },
         "action->Flammable": {
-          "name": "Flammable",
+          "name": "Inflamable",
           "description": "<p>Lagofirs excrete a warm, flammable oil. Any criatura that Grapples a lagofir or is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by a lagofir becomes coated in lagofir oil for 10 minutes or until the oil is washed off, which takes 1 minute of vigorous scrubbing. Any time a lagofir or a criatura coated in lagofir oil is dealt daño de fuego, it catches flame, taking @Damage[1d6[persistent,fire]] daño.</p>"
         },
         "action->Gnaw": {
-          "name": "Gnaw",
+          "name": "Roer",
           "description": "<p><strong>Requisitos</strong> The lagofir's last action was a successful jaws Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The lagofir gnaws on el objetivo, driving its teeth deeper into its prey. El objetivo takes @Damage[(1d8+3)[piercing]] daño.</p>"
         },
         "action->Nimble Rush": {
@@ -1568,7 +1568,7 @@
     },
     "Lomok": {
       "name": "Lomok",
-      "acDetails": "(32 with shield raised)",
+      "acDetails": "(32 con el escudo alzado)",
       "saveDetails": "+1 vs. disease",
       "items": {
         "spellcastingEntry->Divine Innate Spells": {
@@ -1587,13 +1587,13 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Gq1cZWSKOtJhKd2p]\n<p>Plate mail consists of interlocking plates that encase nearly the entire body in a carapace of steel. It is costly and heavy, and the wearer often requires help to don it correctly, but it provides some of the best defense armor can supply. A suit of this armor comes with an undercoat of padded armor and a pair of gauntlets.</p>"
         },
         "strike-melee->Longsword": {
-          "name": "Longsword"
+          "name": "Espada larga"
         },
         "strike-ranged->Spear": {
-          "name": "Spear"
+          "name": "Lanza"
         },
         "action->Aura of Courage": {
-          "name": "Aura of Courage",
+          "name": "Aura De Valor",
           "description": "<p>15 pies. Siempre que Lomok becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado}, reduce the condition value by 1 (minimum 0). At the end of his turn, when he would reduce his asustado condition value by 1, also reduce the value by 1 for all allies in his aura.</p>"
         },
         "action->Powerful Will": {
@@ -1605,7 +1605,7 @@
           "description": "<p><strong>Desencadenante</strong> Un enemigo damages one of Lomok's allies, and both combatants are within 15 pies of him</p>\n<hr />\n<p><strong>Efecto</strong> Lomok shields his ally and calls for retribution upon the attacker. The ally reduces the triggering daño by 13. Lomok and any allies within reach of the triggering enemigo can make melee Golpes against it.</p>"
         },
         "action->Shield Block": {
-          "name": "Shield Block",
+          "name": "Bloqueo con el escudo",
           "description": "<p><strong>Desencadenante</strong> While tienes tu shield raised, tú would take daño from a physical attack</p>\n<hr />\n<p>Tú snap tu shield in place to ward off a blow. Tu shield prevents tú from taking an amount of daño up to the shield's Hardness. Tú and the shield each take any remaining daño, possibly breaking or destroying the shield.</p>"
         },
         "action->Spurred by Death": {
@@ -1708,10 +1708,10 @@
           "name": "Claw"
         },
         "strike-ranged->Hatchet": {
-          "name": "Hatchet"
+          "name": "Hacha de mano"
         },
         "action->Attack of Opportunity": {
-          "name": "Attack of Opportunity",
+          "name": "Ataque de oportunidad",
           "description": "<p>[reaction]</p>"
         },
         "action->Dual Deny Advantage": {
@@ -1735,7 +1735,7 @@
           "description": "<p>Metuak makes a single hatchet or claw Golpe and compares the result to the AC of up to four foes, each of whom must be within his reach. He rolls daño once and applies it to each criatura he hits. A Soul Swipe counts as two attacks for his multiple attack penalización. Metuak's hatchet applies its sweep rasgo against all four targets.</p>"
         },
         "action->Terrifying Howl": {
-          "name": "Terrifying Howl",
+          "name": "Aullido Terrorífico",
           "description": "<p>Metuak unleashes a terrifying howl, attempting to DEMORALIZE each criatura within 30 pies. Estos criaturas are then immune to Terrifying Howl for 1 minute.</p>"
         }
       }
@@ -1759,7 +1759,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg]\nLifesense (Imprecise) 30 pies"
         },
         "action->Skitter": {
-          "name": "Skitter",
+          "name": "Zafarse",
           "description": "<p><strong>Desencadenante</strong> A criatura misses the necrohusk with a melee Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The necrohusk Steps.</p>"
         },
         "action->Frenzied Assault": {
@@ -1783,24 +1783,24 @@
       "stealth": "(entrenado)",
       "items": {
         "action->Explode": {
-          "name": "Explode",
+          "name": "Explotar",
           "description": "<p><strong>Desencadenante</strong> An open flame is brought into area <strong>A4</strong></p>\n<hr />\n<p><strong>Efecto</strong> The oil on the walls explodes, dealing @Damage[(4d8+10)[fire]] daño to all criaturas and objects in areas <strong>A4</strong> and <strong>A3</strong>(@Check[reflex|dc:21|traits:hazard,environmental,fire|basic]).</p>"
         }
       }
     },
     "Pakano": {
       "name": "Pakano",
-      "acDetails": "(21 with shield raised)",
+      "acDetails": "(21 con el escudo alzado)",
       "blurb": "Male Kellid hunter",
       "items": {
         "shield->Buckler": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.1k3AsSW7lpU0kEpY]\n<p>Este very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to tu forearm. Puedes Alzar un escudo with tu buckler as long as tienes that hand free or are holding a light object that's not a arma in that hand.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>6</td>\n<td>3</td>\n</tr>\n</tbody>\n</table>"
         },
         "strike-melee->Spear": {
-          "name": "Spear"
+          "name": "Lanza"
         },
         "strike-ranged->Spear": {
-          "name": "Spear"
+          "name": "Lanza"
         },
         "strike-ranged->Tallow Bomb": {
           "name": "Tallow Bomb"
@@ -1810,7 +1810,7 @@
           "description": "<p><strong>Desencadenante</strong> An ally within 30 pies reduces a criatura to 0 HP</p>\n<hr />\n<p><strong>Efecto</strong> Pakano Steps or Strides.</p>"
         },
         "action->Hunt Prey": {
-          "name": "Hunt Prey",
+          "name": "Perseguir presa",
           "description": "<p>Pakano designates a single criatura he can see and hear, or one he's Tracking, as his prey. He gains a +2 bonificador de circunstancia to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} his prey and to SURVIVAL checks to @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Track} his prey.</p>\n<p>The first time Pakano hits his designated prey in a round, he deals an additional 1d8 daño de precisión. Pakano also ignores the penalización for making ranged attacks within his second range increment.</p>\n<p>Estos effects last until Pakano uses Hunt Prey again.</p>"
         },
         "action->Spear Fighter": {
@@ -1849,7 +1849,7 @@
           "description": "<p>The frost worm emits a hypnotic trill. Each non-frost worm criatura within 100 pies must attempt a @Check[will|dc:32] save. The effects of Worm Trill last for 1 round, but if the frost worm uses this ability again on subsequent rounds, it extends this duration by 1 round for any criatura already affected.</p>\n<p><strong>Éxito</strong> The criatura is unaffected and is immune to Worm Trill for 24 hours.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the frost worm.</p>\n<p><strong>Fallo crítico</strong> As failure, but the fascinated condition doesn't end if the frost worm uses hostile actions against the criatura.</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
+          "name": "Arma de aliento",
           "description": "<p>The frost worm exhales a blast of frost, dealing @Damage[13d6[cold]|options:area-damage] daño to criaturas in a @Template[cone|distance:50] (@Check[reflex|dc:32|basic|options:area-effect] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
         },
         "action->Freezing Blood": {
@@ -1869,7 +1869,7 @@
       "stealth": "<p>(entrenado)</p>",
       "items": {
         "action->Tiger Slash": {
-          "name": "Tiger Slash",
+          "name": "Zarpazo Del Tigre",
           "description": "<p><strong>Desencadenante</strong> A living criatura approaches within 5 pies of the cave painting</p>\n<hr />\n<p><strong>Efecto</strong> The haunt deals @Damage[4d8[slashing]] daño with semisolid claws (@Check[will|dc:18|basic]). On a failed save, el objetivo is also @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} and @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing} for 1 round (or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} and fleeing for 1 minute on a critical failure).</p>"
         }
       }
@@ -1890,7 +1890,7 @@
       "name": "Rhino Warriors",
       "items": {
         "strike-melee->Pick": {
-          "name": "Pick"
+          "name": "Pico"
         },
         "action->Counter-Charge": {
           "name": "Counter-Charge",
@@ -2043,7 +2043,7 @@
       "stealth": "(experto)",
       "items": {
         "action->Rain of Bolts": {
-          "name": "Rain of Bolts",
+          "name": "Lluvia de virotes",
           "description": "<p><strong>Desencadenante</strong> A criatura attacks the graveknights in area <strong>G1</strong> or enters the castle</p>\n<hr />\n<p><strong>Efecto</strong> The haunt makes a spectral bolt Golpe against the triggering criatura, then rolls initiative.</p>"
         },
         "action->Routine": {
@@ -2062,7 +2062,7 @@
     },
     "Summer Hora": {
       "name": "Summer Hora",
-      "languages": "speak with animals, speak with plants",
+      "languages": "hablar con animales, hablar con plantas",
       "privateNotes": "<p>Summer horai appear constantly bathed in sunlight, with skin and clothing of red, orange, and yellow, like the sunlight of high summer.</p>\n<p>The Summer Hora is under the constant effects of @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]{Speak with Animals} and @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]{Speak with Plants}.</p>",
       "items": {
         "spellcastingEntry->Primal Innate Spells": {
@@ -2105,7 +2105,7 @@
     },
     "Summer Hora Queen": {
       "name": "Summer Hora Queen",
-      "languages": "speak with animals, speak with plants",
+      "languages": "hablar con animales, hablar con plantas",
       "privateNotes": "<p>Hora queens rule over wide stretches of land, nourishing and protecting native animals and plants. Most hora queens watch over their regions in pairs: one summer and one winter, or one autumn and one spring.</p>\n<p>The Summer Hora Queen is under the constant effects of @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]{Speak with Animals} and @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]{Speak with Plants}.</p>",
       "items": {
         "spellcastingEntry->Primal Prepared Spells": {
@@ -2306,7 +2306,7 @@
           "name": "Foot"
         },
         "action->Flammable": {
-          "name": "Flammable",
+          "name": "Inflamable",
           "description": "<p>A tar zombie requires a successful DC 20 prueba plana to recover from daño persistente de fuego. Este DC isn't reduced for assisted recovery.</p>"
         },
         "action->Fling": {
@@ -2340,7 +2340,7 @@
           "name": "Fist"
         },
         "action->Flammable": {
-          "name": "Flammable",
+          "name": "Inflamable",
           "description": "<p>A tar zombie requires a successful DC 20 prueba plana to recover from daño persistente de fuego. Este DC isn't reduced for assisted recovery.</p>"
         },
         "action->Tar-Splattered Charge": {
@@ -2370,7 +2370,7 @@
           "name": "Fist"
         },
         "action->Flammable": {
-          "name": "Flammable",
+          "name": "Inflamable",
           "description": "<p>A tar zombie requires a successful DC 20 prueba plana to recover from daño persistente de fuego. Este DC isn't reduced for assisted recovery.</p>"
         },
         "action->Vomit Tar": {
@@ -2437,12 +2437,12 @@
         },
         "consumable->Wand of Widening (Darkness Level 2)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]\nWand of Widening (Darkness Level 2)",
-          "consumableSpellName": "Darkness",
+          "consumableSpellName": "Oscuridad",
           "consumableSpellDescription": "<p>Creas a shroud of darkness that prevents light from penetrating or emanating within the area. Light does not enter the area and any non-magical light sources, such as a torch or lantern, do not emanate any light while inside the area, even if their light radius would extend beyond the darkness. Este also suppresses magical light of tu darkness conjuro's rank or lower. Light can't pass through, so criaturas in the area can't see outside. From outside, it appears as a globe of pure darkness.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> Even criaturas with darkvision (but not greater darkvision) can barely see through the darkness. They treat targets seen through the darkness as @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto}.</p>",
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]\n<p>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness}</p>\n<p>The end of this wand is forked instead of tapered.</p>\n<p><strong>Activar</strong> Lanzar un conjuro; The activation takes <span class=\"action-glyph\">2</span> if the conjuro normally takes <span class=\"action-glyph\">1</span> to cast, or <span class=\"action-glyph\">3</span> if the conjuro normally take <span class=\"action-glyph\">2</span></p>\n<p><strong>Frecuencia</strong> Una vez al día, más sobrecarga</p>\n<hr />\n<p><strong>Efecto</strong> Lanzas the Spell, and increase its area. Add 5 pies to the radius of a burst that normally has a radius of at least 10 pies; add 5 pies to the length of a cone or line that is normally 15 pies long or smaller; or add 10 pies to the length of a larger cone or line.</p>\n<hr />\n<p><strong>Requisitos de fabricación</strong> Supply a casting of a conjuro of the appropriate rank. The conjuro must have a casting time of <span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">2</span>, can't have a duration, and must have an area of burst (10 pies or more), cone, or line.</p>"
         },
         "strike-melee->Fangs": {
-          "name": "Fangs"
+          "name": "colmillos"
         },
         "action->+2 Circumstance to All Saves vs. Disease": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kquBnQ0kObZztnBc]\n+2 Circumstance to All Saves vs. Disease"
@@ -2470,25 +2470,25 @@
       "blurb": "Female halfling ex-crusader",
       "items": {
         "strike-melee->Shortsword": {
-          "name": "Shortsword"
+          "name": "Espada corta"
         },
         "strike-ranged->Crossbow": {
-          "name": "Crossbow"
+          "name": "Ballesta"
         },
         "action->Guide's Warning": {
           "name": "Guide's Warning",
           "description": "<p>When Vare is about to roll a Perception or SURVIVAL check to determine her initiative, she can alert her allies as a free action. Vare visually or audibly warns allies, granting them a +1 bonificador de circunstancia to their initiative rolls. Depending on how Vare warns allies, this action has the auditory or visual rasgo.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.UiISDbCjK6AUDsll]{Efecto: Guide's Warning}</p>"
         },
         "action->Snare Crafting": {
-          "name": "Snare Crafting",
+          "name": "Preparar Trampas De Lazo",
           "description": "<p>Vare can use the CRAFTING skill to create the following snares: alarm snare, hampering snare, irritating thorn snare, marking snare, signaling snare, and smoke screen snare. Vare can create four snares each day without paying for the materials, using 3 INTERACT actions to set up each snare.</p>"
         },
         "action->Guiding Words": {
-          "name": "Guiding Words",
+          "name": "Palabras guía",
           "description": "<p>Vare points out a weakness of a criatura within 30 pies. Vare and all allies that can hear or see her gain a +1 bonificador de estado to attack and tiradas de daño against that criatura until the beginning of Vare's next turn. Vare adds an extra 1d6 daño de precisión to her arma and ataques sin armas that hit that criatura for the duration.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uqjx1bwYduHwwC7d]{Efecto: Guiding Words}</p>"
         },
         "lore->Scouting Lore": {
-          "name": "Scouting Lore"
+          "name": "Saber de Exploracion"
         }
       }
     },
@@ -2541,11 +2541,11 @@
           "description": "<p>Inclement weather doesn't impair Venexus's vision; she ignores concealment from fog, mist, rain, and snowfall.</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
+          "name": "Arma de aliento",
           "description": "<p>Venexus breathes a cloud of frost that deals @Damage[10d6[cold]|options:area-damage] daño in a @Template[cone|distance:40] (@Check[reflex|dc:28|basic|options:area-effect]). She can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
         },
         "action->Draconic Frenzy": {
-          "name": "Draconic Frenzy",
+          "name": "Frenesí Dracónico",
           "description": "<p>Venexus makes two claw Golpes and one tail Golpe in any order.</p>"
         },
         "action->Draconic Momentum": {
@@ -2584,11 +2584,11 @@
           "description": "<p><strong>Desencadenante</strong> A criatura within reach of the chosen's tail Golpe uses an action to Golpe or attempt a prueba de habilidad</p>\n<hr />\n<p><strong>Efecto</strong> Venexus's chosen attempts to Golpe the triggering criatura with their tail. If it hits, the criatura takes a -2 penalización de circunstancia to the triggering roll.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.QqC9xymSXSVunDgl]{Efecto: Tail Lash}</p>"
         },
         "action->Change Shape": {
-          "name": "Change Shape",
+          "name": "Cambiar de forma",
           "description": "<p>Venexus's chosen changes between their humanoid shape and hybrid shape. They gain a tail unarmed Golpe while in their hybrid shape.</p>"
         },
         "action->Flurry of Blows": {
-          "name": "Flurry of Blows",
+          "name": "Ráfaga De Golpes",
           "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> Venexus's chosen makes two unarmed Golpes. If both hit the same criatura, combine their daño for the purpose of resistances and weaknesses.</p>"
         },
         "action->Ice Walk": {
@@ -2603,7 +2603,7 @@
     },
     "Venexus's Wyrmling": {
       "name": "Venexus's Wyrmling",
-      "senses": "snow vision",
+      "senses": "vision de nieve",
       "speed": "Ice climb 30",
       "items": {
         "strike-melee->Jaws": {
@@ -2627,11 +2627,11 @@
           "description": "<p>Snow doesn't impair a white dragon's vision; the wyrmling ignores concealment from snowfall.</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
+          "name": "Arma de aliento",
           "description": "<p>The wyrmling breathes a cloud of frost that deals @Damage[6d6[cold]|options:area-damage] daño in a @Template[cone|distance:30] (@Check[reflex|dc:22|basic|options:area-effect]). They can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
         },
         "action->Draconic Frenzy": {
-          "name": "Draconic Frenzy",
+          "name": "Frenesí Dracónico",
           "description": "<p>The wyrmling makes two claw Golpes and one tail Golpe in any order.</p>"
         },
         "action->Draconic Momentum": {
@@ -2671,7 +2671,7 @@
     },
     "Yana No-trail": {
       "name": "Yana No-trail",
-      "languages": "speak with animals",
+      "languages": "hablar con animales",
       "items": {
         "spellcastingEntry->Primal Innate Spells": {
           "name": "Primal Innate Spells"
@@ -2687,15 +2687,15 @@
           "description": "<p>Yana treats environmental cold effects as if they were one step less extreme.</p>"
         },
         "action->Evasion": {
-          "name": "Evasion",
+          "name": "Evasión",
           "description": "<p>When Yana rolls a success on a Reflex save, he gets a critical success instead.</p>"
         },
         "action->Nimble Dodge": {
-          "name": "Nimble Dodge",
+          "name": "Esquiva ágil",
           "description": "<p><strong>Desencadenante</strong> Yana is targeted by a melee or ranged attack from an attacker he can see</p>\n<hr />\n<p><strong>Efecto</strong> Yana gains a +2 bonificador de circunstancia to AC against the triggering attack.</p>"
         },
         "action->Change Shape": {
-          "name": "Change Shape",
+          "name": "Cambiar de forma",
           "description": "<p>Yana can transform into an Ulfen human, Tiny fox, or hybrid kitsune form. Using Change Shape counts as creating a disguise for the Impersonate use of DECEPTION. He can remain in any of his forms indefinitely.</p>"
         },
         "action->Sneak Attack": {
@@ -2704,7 +2704,7 @@
       }
     },
     "Zombie Mammoth": {
-      "name": "Zombie Mammoth",
+      "name": "Zombi mamut",
       "hpDetails": "curación de vacío",
       "items": {
         "condition->Slowed": {
@@ -2720,7 +2720,7 @@
           "name": "Foot"
         },
         "action->Slow": {
-          "name": "Slow",
+          "name": "Lentificar",
           "description": "<p>A zombie is permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use reactions.</p>"
         },
         "action->Dual Tusks": {
@@ -2739,7 +2739,7 @@
     },
     "Zombie Megaloceros": {
       "name": "Zombie Megaloceros",
-      "blurb": "Variant megaloceros",
+      "blurb": "Variante de megaloceros",
       "hpDetails": "curación de vacío",
       "publicNotes": "<p>The megaloceros is similar in form to the elk, but far superior in size. The average male's antlers weigh nearly 100 pounds and can be wider than his body is long. Megaloceroses stand up to 9 pies tall, weigh 1,500 pounds, and grow antlers over 12 pies wide.</p>",
       "items": {
@@ -2753,7 +2753,7 @@
           "name": "Hoof"
         },
         "action->Slow": {
-          "name": "Slow",
+          "name": "Lentificar",
           "description": "<p>A zombie is permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use reactions.</p>"
         },
         "action->Furious Charge": {

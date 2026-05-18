@@ -41,7 +41,7 @@
           "name": "Hoof"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
+          "name": "Arma de aliento",
           "description": "<p>The Azmakian effigy exhales rusting gas in a @Template[cone|distance:15]. The gas deals @Damage[2d6[untyped]|options:area-damage] daño to the highest-level metal item carried by every criatura in the area, ignoring these items' Hardness (@Check[fortitude|dc:22|basic|options:area-effect]); unattended metal items in the area take this daño automatically. The Azmakian effigy can't use its Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
         },
         "action->Powerful Charge": {
@@ -65,7 +65,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.ZxHC7V7HtjUsB8zH]\nScorching Ray"
         },
         "strike-melee->Greatsword": {
-          "name": "Greatsword"
+          "name": "Mandoble"
         },
         "strike-melee->Claw": {
           "name": "Claw"
@@ -82,7 +82,7 @@
           "description": "<p>The bloodshroud is enveloped by a shroud of flowing blood. If a criatura deals daño to a bloodshroud with a melee Golpe or touches the bloodshroud, the criatura must attempt a @Check[fortitude|dc:30] save. Any Puntos de Golpe temporales the bloodshroud gains from Sanguine Shroud fade after 1 hour.</p>\n<hr />\n<p><strong>Éxito crítico</strong> As success, but the criatura becomes temporarily immune to Sanguine Shroud for 24 hours.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} and takes @Damage[2d6[bleed]] daño. The bloodshroud gains 15 Puntos de Golpe temporales.</p>\n<p><strong>Fallo crítico</strong> As failure, but the criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2}, and the bloodshroud gains 25 Puntos de Golpe temporales.</p>"
         },
         "action->Spellstrike": {
-          "name": "Spellstrike",
+          "name": "Golpe de hechizo",
           "description": "<p><strong>Frecuencia</strong> until recharged</p>\n<hr />\n<p><strong>Efecto</strong> The bloodshroud channels a conjuro that takes 1 or 2 actions to cast and requires a conjuro tirada de ataque into a claw or greatsword Golpe. The effects of the conjuro don't occur immediately but are imbued into the bloodshroud's attack instead. The bloodshroud makes a melee Golpe with a arma or claw. The conjuro is coupled with the bloodshroud's attack, using the tirada de ataque result to determine the effects of both the Golpe and the conjuro. Este counts as two attacks for the purposes of determining the bloodshroud's multiple attack penalización, but the penalización is not applied until after the Spellstrike. Using Bloodshift automatically recharges the bloodshroud's Spellstrike.</p>"
         }
       }
@@ -241,7 +241,7 @@
     },
     "Ghoul Antipaladin": {
       "name": "Ghoul Antipaladin",
-      "acDetails": "31 with shield raised",
+      "acDetails": "31 con el escudo alzado",
       "hpDetails": "curación de vacío",
       "publicNotes": "<p>The church of Kabriri selects only the most devoted and deadly ghouls to protect their libraries of secret-filled tomes.</p>",
       "items": {
@@ -264,13 +264,13 @@
           "name": "Claw"
         },
         "strike-melee->Flail": {
-          "name": "Flail"
+          "name": "Mangual"
         },
         "strike-ranged->Heavy Crossbow": {
-          "name": "Heavy Crossbow"
+          "name": "Ballesta pesada"
         },
         "action->Destructive Vengeance": {
-          "name": "Destructive Vengeance",
+          "name": "Venganza destructiva",
           "description": "<p><strong>Desencadenante</strong> The ghoul antipaladin takes daño from an enemigo within 15 pies</p>\n<hr />\n<p><strong>Efecto</strong> The ghoul antipaladin increases the amount of daño they take by [[/r 3d6]], and they deal 3d6 daño to the triggering enemigo, choosing @Damage[3d6[spirit]] or @Damage[3d6[void]] daño to deal to the enemigo each time the antipaladin uses this reaction. In addition, the antipaladin deals 4 daño adicional of the chosen type with their Golpes against the triggering criatura until the end of the antipaladin's turn. Un enemigo damaged from the ghoul antipaladin's Destructive Vengeance also takes @Damage[4[persistent,spirit]] daño; this applies only to the daño the reaction itself deals to the triggering criatura, not the daño the antipaladin deals with subsequent Golpes.</p>"
         },
         "action->Consume Flesh": {
@@ -314,10 +314,10 @@
           "name": "Claw"
         },
         "strike-ranged->Composite Shortbow": {
-          "name": "Composite Shortbow"
+          "name": "Arco corto compuesto"
         },
         "action->Deny Advantage": {
-          "name": "Deny Advantage",
+          "name": "Negar ventaja",
           "description": "<p>The razorclaw isn't @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to criaturas of 13th level or lower that are @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido}, @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected}, flanking, or using @UUID[Compendium.pf2e.classfeatures.Item.w6rMqmGzhUahdnA7]{Surprise Attack}.</p>"
         },
         "action->Adamantine Edges": {
@@ -348,7 +348,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UU1Fp3PRuTFONjC9]\n<p>The ghoul razorclaw jumps up to half its Velocidad. Este movement doesn't trigger reactions.</p>"
         },
         "lore->Underworld Lore": {
-          "name": "Underworld Lore"
+          "name": "Saber de Bajos fondos"
         }
       }
     },
@@ -379,7 +379,7 @@
           "name": "Grave Ray"
         },
         "action->Coven": {
-          "name": "Coven",
+          "name": "Aquelarre",
           "description": "<p>A grave hag adds @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm}, @UUID[Compendium.pf2e.spells-srd.Item.xlRv8vCTHh1NeMpw]{Mimic Undead}, and the @UUID[Compendium.pf2e.spells-srd.Item.gsYEuWv04XTDxe91]{Call Spirit} ritual to her coven's conjuros.</p>"
         },
         "action->Sacrifice Ally": {
@@ -391,7 +391,7 @@
           "description": "<p>The grave hag names a single criatura within 30 pies; that criatura must succeed at a @Check[will|dc:28] save or be afflicted with a grave curse equal to the hag's level. The curse lasts until the hag chooses to end it or is slain, rather than by returning items. Regardless of the save result, el objetivo is then temporarily immune to the hag's grave curse for 24 hours.</p>\n<hr />\n<p><strong>Efecto</strong> Estás hounded by undead criaturas of the same level as the curse. Every night, debes attempt a @Check[flat|dc:15] check. On a failure, an incorporeal undead manifests to hassle and harry tú throughout the night, retreating before it can take much daño and often preventing tú from gaining a full night's rest. Siempre que tú enter a graveyard or other area where bodies are buried, debes succeed at the same prueba plana or a body animates as a corporeal undead (typically a skeleton or zombie) to attack tú.</p>\n<p>Estos undead are temporary and exist only to harry tú; if sufres control of the undead, move on, or otherwise avoid their attacks, incorporeal undead discorporate and corporeal undead collapse into ordinary corpses. The curse can be removed by returning the stolen items to their resting place.</p>"
         },
         "action->Grave Impressions": {
-          "name": "Grave Impressions",
+          "name": "Impresiones sepulcrales",
           "description": "<p>The hag targets a living criatura within 30 pies and overwhelms it with feelings of entombment. El objetivo attempts a @Check[fortitude|dc:28] save and is then temporarily immune to the hag's Grave Impressions for 24 hours.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo is unaffected.</p>\n<p><strong>Éxito</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 1 round.</p>\n<p><strong>Fallo</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}.</p>\n<p><strong>Fallo crítico</strong> El objetivo is unconscious and can't awaken for 1 hour.</p>"
         },
         "action->Grave's Grip": {
@@ -529,7 +529,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.unR8VVR4yyRnsmnB]\n<p>When a pyrogeist is destroyed, it reforms where it was destroyed after [[/br 2d4 #Days]]{2d4 days}, fully healed. The pyrogeist can be permanently destroyed only if someone determines the reason for its existence and sets right whatever prevents the spirit from resting.</p>"
         },
         "action->Breath Weapon": {
-          "name": "Breath Weapon",
+          "name": "Arma de aliento",
           "description": "<p>A pyrogeist can spit a cone of spectral fire in a @Template[cone|distance:30], dealing @Damage[10d6[void]|options:area-damage] daño (@Check[fortitude|dc:29|basic|options:area-effect]). A criatura that fails the save also takes @Damage[1d6[persistent,void]] daño and is subject to the effects of @UUID[Compendium.pf2e.spells-srd.Item.HRb2doyaLtaoCfi3]{Faerie Fire} until the daño persistente ends.</p>"
         },
         "action->Pyrokinetic Whirlwind": {
@@ -557,10 +557,10 @@
           "name": "Ghost Touch Arquebus"
         },
         "strike-ranged->Flintlock Pistol": {
-          "name": "Flintlock Pistol"
+          "name": "Pistola de chispa"
         },
         "action->Coven": {
-          "name": "Coven",
+          "name": "Aquelarre",
           "description": "<p>A rust hag adds @UUID[Compendium.pf2e.spells-srd.Item.B3eLlbaPxOYHcs1o]{Curse of Lost Time}, @UUID[Compendium.pf2e.spells-srd.Item.0fYE64odlKqISzft]{Rusting Grasp}, and @UUID[Compendium.pf2e.spells-srd.Item.lKcsmeOrgHtK4xQa]{Summon Construct} to her coven's conjuros.</p>"
         },
         "action->Change Shape": {
@@ -636,7 +636,7 @@
           "name": "Fist"
         },
         "action->Coven": {
-          "name": "Coven",
+          "name": "Aquelarre",
           "description": "<p>A skull fairy adds @UUID[Compendium.pf2e.spells-srd.Item.EoKBlgf6Smt8opaU]{Veil of Privacy} and @UUID[Compendium.pf2e.spells-srd.Item.GKpEcy9WId6NJvtx]{Stinking Cloud} to their coven's conjuros.</p>"
         },
         "action->Shadowy Pop": {

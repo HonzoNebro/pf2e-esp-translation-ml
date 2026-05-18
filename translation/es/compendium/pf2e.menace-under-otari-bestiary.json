@@ -5,7 +5,7 @@
       "name": "Animated Armor (BB)",
       "acDetails": "(13 after armadura de constructo breaks), armadura de constructo",
       "publicNotes": "<p>Los objetos pueden recibir una apariencia de vida mediante rituales u otra magia extraña, turning them into animated objects. Estos objects move, work, and fight based on the commands given to them by their creators, who usually set them on guard duty or have them perform menial labor.</p>\n<p>Suits of animated armor might serve as guardians, but sometimes high-end martial academies use them as training partners. They're most often found in wizards' laboratories and ancient dungeons.</p>",
-      "tokenName": "Animated Armor",
+      "tokenName": "Armadura animada",
       "items": {
         "strike-melee->Longsword": {
           "name": "espada larga"
@@ -40,7 +40,7 @@
     "Boar (BB)": {
       "name": "Boar (BB)",
       "publicNotes": "<p>Foul-tempered and tough, boars are far more dangerous than domesticated pigs. Estos omnivorous mammals are hunted heavily because their meat is considered a delicacy. Boars are most likely to attack humanoids in self-defense or during their mating season in the winter months, when the males grow an extra inch of tissue to protect their organs as they fight off rivals. In some cultures, boars are entrenado to become much more aggressive for use as war beasts and guardians. When such boars escape back into the wild, they can become true terrors of the region.</p>",
-      "tokenName": "Boar",
+      "tokenName": "Jabali",
       "items": {
         "strike-melee->Tusk": {
           "name": "Tusk"
@@ -74,7 +74,7 @@
     "Bugbear Prowler (BB)": {
       "name": "Bugbear Prowler (BB)",
       "publicNotes": "<p> Estas criaturas sigilosas y crueles se deleitan en sembrar miedo y atormentar a sus víctimas. Los osgos son los monstruos que acechan en el armario y se esconden debajo de la cama. Los osos insecto, que se alimentan de granjas remotas, revelan su presencia con golpes en la noche o crujidos de tablas, inspirando temor, sospecha y miedo en aquellos a quienes atormentan. </p>",
-      "tokenName": "Bugbear Prowler",
+      "tokenName": "Bugbear merodeador",
       "items": {
         "weapon->Longsword": {
           "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.LJdbVTOZog39EEbi]\n <p> Las espadas largas pueden ser espadas de uno o dos filos. Sus hojas son pesadas y miden entre 3 y 4 pies de largo. </p>"
@@ -101,7 +101,7 @@
     "Caligni Dancer (BB)": {
       "name": "Caligni Dancer (BB)",
       "publicNotes": "<p>Caligni lurk in subterranean cities, and they relish the chance to creep above ground at night to steal resources, spy on surface dwellers, or simply cause mischief.</p>",
-      "tokenName": "Caligni Dancer",
+      "tokenName": "Caligni bailarín",
       "items": {
         "strike-melee->Mace": {
           "name": "Mazo"
@@ -125,7 +125,7 @@
     "Caligni Hunter (BB)": {
       "name": "Caligni Hunter (BB)",
       "publicNotes": "<p>Caligni lurk in subterranean cities, and they relish the chance to creep above ground at night to steal resources, spy on surface dwellers, or simply cause mischief.</p>",
-      "tokenName": "Caligni Hunter",
+      "tokenName": "Caligni cazador",
       "items": {
         "spellcastingEntry->Occult Innate Spells": {
           "name": "Hechizos innatos ocultos"
@@ -141,7 +141,7 @@
           "description": "<p>When first exposed to bright light, the caligni can't see until the end of their next turn. All squares are difficult terrain for them, and they take a -4 penalización de estado to Perception. If they try to attack a criatura, the attack fails unless they succeed at a @Check[type:flat|dc:11]. Light doesn't blind them again for 1 hour.</p>"
         },
         "action->Sneak Attack": {
-          "name": "Sneak Attack",
+          "name": "Ataque furtivo",
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6]\n<p>The caligni hunter deals an extra 1d6 daño to criaturas that have the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} condition.</p>"
         },
         "action->Final Fate": {
@@ -149,7 +149,7 @@
           "description": "<p>When a caligni hunter dies, their body explodes. All criaturas within @Template[type:emanation|distance:20]{20 pies} must take @Damage[5d6[fire]]. Each criatura in the area must attempt a @Check[type:reflex|dc:19|basic:true] save.</p>"
         },
         "action->Darkening Poison": {
-          "name": "Darkening Poison",
+          "name": "Veneno oscurecedor",
           "description": "<p>The next time the hunter deals daño with a shortsword Golpe, el objetivo must succeed at a @Check[type:fortitude|dc:16|traits:damaging-effect] save or take @Damage[1d8[poison]] daño and treat all criaturas as @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} for 1 round.</p>"
         }
       }
@@ -157,7 +157,7 @@
     "Caligni Skulker (BB)": {
       "name": "Caligni Skulker (BB)",
       "publicNotes": "<p>Caligni lurk in subterranean cities, and they relish the chance to creep above ground at night to steal resources, spy on surface dwellers, or simply cause mischief.</p>",
-      "tokenName": "Caligni Skulker",
+      "tokenName": "Caligni acechador",
       "items": {
         "strike-melee->Dagger": {
           "name": "Daga"
@@ -174,11 +174,11 @@
           "description": "<p>When a caligni skulker dies, their body dissolves fog of inky darkness. All light sources within @Template[type:emanation|distance:20]{20 pies} are extinguished. Any light conjuros in the area go out for 1 round.</p>"
         },
         "action->Darkening Poison": {
-          "name": "Darkening Poison",
+          "name": "Veneno oscurecedor",
           "description": "<p>The next time the skulker deals daño with a dagger Golpe, el objetivo must succeed at a @Check[type:fortitude|dc:16|traits:damaging-effect] save or take @Damage[1d8[poison]] daño and treat all criaturas as @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} for 1 round.</p>"
         },
         "action->Sneak Attack": {
-          "name": "Sneak Attack",
+          "name": "Ataque furtivo",
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6]\n<p>The caligni skulker deals an extra 1d6 daño to criaturas that have the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} condition.</p>"
         }
       }
@@ -194,7 +194,7 @@
           "description": "<p> Cuando una criatura se mueve hacia cualquiera de los cuadrados en el área delineada, la trampa dispara tres lanzas desde la pared occidental. Realiza un ataque a distancia contra la criatura más occidental de cada fila. </p>"
         },
         "strike-melee->Spear": {
-          "name": "Spear"
+          "name": "Lanza"
         }
       }
     },
@@ -264,7 +264,7 @@
           "name": "Estoque"
         },
         "strike-ranged->Hand Crossbow": {
-          "name": "Hand Crossbow"
+          "name": "Ballesta de mano"
         },
         "action->Light Blindness": {
           "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.I0HYG0ctCLP5JRsW]\n <p> Cuando se expone por primera vez a una luz brillante, el drow @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Can't See} hasta el final de su siguiente turno. Todas las casillas son terreno difícil para ellos y sufren una penalización de -4 a su estado de Percepción. Si intentan atacar a una criatura, el ataque falla a menos que tengan éxito en un @Check[type:flat|dc:11]. La luz no los vuelve a cegar durante 1 hora. </p>"
@@ -283,7 +283,7 @@
           "name": "Espada corta"
         },
         "strike-ranged->Hand Crossbow": {
-          "name": "Hand Crossbow"
+          "name": "Ballesta de mano"
         },
         "action->Light Blindness": {
           "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.I0HYG0ctCLP5JRsW]\n <p> Cuando se expone por primera vez a una luz brillante, el drow @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Can't See} hasta el final de su siguiente turno. Todas las casillas son terreno difícil para ellos y sufren una penalización de -4 a su estado de Percepción. Si intentan atacar a una criatura, el ataque falla a menos que tengan éxito en un @Check[type:flat|dc:11]. La luz no los vuelve a cegar durante 1 hora. </p>"
@@ -309,7 +309,7 @@
           "name": "Daga"
         },
         "strike-ranged->Hand Crossbow": {
-          "name": "Hand Crossbow"
+          "name": "Ballesta de mano"
         },
         "action->Light Blindness": {
           "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.I0HYG0ctCLP5JRsW]\n <p> Cuando se expone por primera vez a una luz brillante, el drow @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Can't See} hasta el final de su siguiente turno. Todas las casillas son terreno difícil para ellos y sufren una penalización de -4 a su estado de Percepción. Si intentan atacar a una criatura, el ataque falla a menos que tengan éxito en un @Check[type:flat|dc:11]. La luz no los vuelve a cegar durante 1 hora. </p>"
@@ -357,7 +357,7 @@
       "name": "Forest Troll (BB)",
       "hpDetails": "regeneration 20 (desactivada por electricity or fire)",
       "publicNotes": "<p>Forest trolls are dim-witted, gangly giants who stalk the fringes of civilization. They rely on their incredible strength to overpower foes with their vicious claws. A troll's endless hunger drives them to consume a variety of living criaturas. Trolls stand anywhere from 12 to 16 pies tall, though they prefer to hunch to lull foes into a false sense of security.</p>",
-      "tokenName": "Forest Troll",
+      "tokenName": "Trol del bosque",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -428,7 +428,7 @@
     "Ghoul Stalker (BB)": {
       "name": "Ghoul Stalker (BB)",
       "publicNotes": "<p>The flesh-eating undead, known as ghouls, haunt sinister locations such as lonely graveyards and ruined crypts, making meals of corpses. Legends say that those captured by ghouls hear foul whispers that curse them into craving raw meat, eventually turning them into ghouls.</p>",
-      "tokenName": "Ghoul Stalker",
+      "tokenName": "Gul acechador",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -456,7 +456,7 @@
     "Giant Ant (BB)": {
       "name": "Giant Ant (BB)",
       "publicNotes": "<p>giant ants form vast underground colonies, excavating deep burrows or infesting existing caverns. giant ants look identical to their smaller kin, but their size makes them a deadly threat to farms and travelers alike.</p>",
-      "tokenName": "Giant Ant",
+      "tokenName": "Hormiga gigante",
       "items": {
         "strike-melee->Mandible": {
           "name": "Mandible"
@@ -512,7 +512,7 @@
           "name": "colmillos"
         },
         "strike-ranged->Web": {
-          "name": "Web"
+          "name": "Telaraña"
         },
         "action->Descend on a Web": {
           "name": "Descender en una Web",
@@ -559,7 +559,7 @@
           "name": "Gran espada"
         },
         "strike-ranged->Shortbow": {
-          "name": "Shortbow"
+          "name": "Arco corto"
         },
         "action->Goblin Scuttle": {
           "name": "Duende escurridizo",
@@ -599,7 +599,7 @@
           "name": "Espada corta"
         },
         "strike-ranged->Shortbow": {
-          "name": "Shortbow"
+          "name": "Arco corto"
         },
         "action->Goblin Scuttle": {
           "name": "Goblin escurridizo",
@@ -669,7 +669,7 @@
       "name": "Hobgoblin Soldier (BB)",
       "acDetails": "(20 con escudo levantado)",
       "publicNotes": "<p> Los hobgoblins son singularmente devotos de la guerra, y toda su civilización se basa en fomentar y mantener el conflicto y, al mismo tiempo, demostrar su superioridad en la batalla. Altamente organizados, trabajan eficiente y eficazmente en grupos, ya sea un pequeño grupo de asalto, una banda de guerra itinerante o un ejército completamente reglamentado. Físicamente, los hobgoblins son tan altos como los humanos y tienen la piel gris cenicienta. </p>",
-      "tokenName": "Hobgoblin Soldier",
+      "tokenName": "Hobgoblin soldado",
       "items": {
         "weapon->Longsword": {
           "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.LJdbVTOZog39EEbi]\n <p> Las espadas largas pueden ser espadas de uno o dos filos. Sus hojas son pesadas y miden entre 3 y 4 pies de largo. </p>"
@@ -682,7 +682,7 @@
           "name": "espada larga"
         },
         "strike-ranged->Shortbow": {
-          "name": "Shortbow"
+          "name": "Arco corto"
         },
         "action->Formation": {
           "name": "Formación",
@@ -714,7 +714,7 @@
           "description": "<p>When a criatura within 10 pies uses a move action or leaves a square during a move action it's using, the dragon can use their reaction to make a tail Golpe at the criatura with a -2 penalización. If it hits, the criatura stops moving in the square it was in when the dragon used this reaction.</p>"
         },
         "action->Draconic Frenzy": {
-          "name": "Draconic Frenzy",
+          "name": "Frenesí Dracónico",
           "description": "<p>The dragon makes two claw Golpes and one tail Golpe in any order.</p>"
         },
         "action->Draconic Momentum": {
@@ -766,14 +766,14 @@
           "name": "Claw"
         },
         "strike-melee->Staff": {
-          "name": "Staff"
+          "name": "Bastón"
         },
         "action->Scamper": {
-          "name": "Scamper",
+          "name": "Corretear",
           "description": "<p>If the kobold is adjacent to at least one enemigo, the kobold Strides up to 30 pies and gains a +2 bonificador de circunstancia to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemigo.</p>"
         },
         "lore->Dragon Lore": {
-          "name": "Dragon Lore"
+          "name": "Saber de Dragones"
         }
       }
     },
@@ -789,14 +789,14 @@
           "name": "Claw"
         },
         "strike-melee->Staff": {
-          "name": "Staff"
+          "name": "Bastón"
         },
         "action->Scamper": {
-          "name": "Scamper",
+          "name": "Corretear",
           "description": "<p>If the kobold is adjacent to at least one enemigo, the kobold Strides up to 30 pies and gains a +2 bonificador de circunstancia to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemigo.</p>"
         },
         "lore->Dragon Lore": {
-          "name": "Dragon Lore"
+          "name": "Saber de Dragones"
         }
       }
     },
@@ -812,14 +812,14 @@
           "name": "Claw"
         },
         "strike-melee->Staff": {
-          "name": "Staff"
+          "name": "Bastón"
         },
         "action->Scamper": {
-          "name": "Scamper",
+          "name": "Corretear",
           "description": "<p>If the kobold is adjacent to at least one enemigo, the kobold Strides up to 30 pies and gains a +2 bonificador de circunstancia to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemigo.</p>"
         },
         "lore->Dragon Lore": {
-          "name": "Dragon Lore"
+          "name": "Saber de Dragones"
         }
       }
     },
@@ -835,14 +835,14 @@
           "name": "Claw"
         },
         "strike-melee->Staff": {
-          "name": "Staff"
+          "name": "Bastón"
         },
         "action->Scamper": {
-          "name": "Scamper",
+          "name": "Corretear",
           "description": "<p>If the kobold is adjacent to at least one enemigo, the kobold Strides up to 30 pies and gains a +2 bonificador de circunstancia to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemigo.</p>"
         },
         "lore->Dragon Lore": {
-          "name": "Dragon Lore"
+          "name": "Saber de Dragones"
         }
       }
     },
@@ -858,14 +858,14 @@
           "name": "Claw"
         },
         "strike-melee->Staff": {
-          "name": "Staff"
+          "name": "Bastón"
         },
         "action->Scamper": {
-          "name": "Scamper",
+          "name": "Corretear",
           "description": "<p>If the kobold is adjacent to at least one enemigo, the kobold Strides up to 30 pies and gains a +2 bonificador de circunstancia to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemigo.</p>"
         },
         "lore->Dragon Lore": {
-          "name": "Dragon Lore"
+          "name": "Saber de Dragones"
         }
       }
     },
@@ -878,7 +878,7 @@
           "name": "Espada corta"
         },
         "strike-ranged->Crossbow": {
-          "name": "Crossbow"
+          "name": "Ballesta"
         },
         "action->Scamper": {
           "name": "Corretear",
@@ -1011,7 +1011,7 @@
     "Minotaur Hunter (BB)": {
       "name": "Minotaur Hunter (BB)",
       "publicNotes": "<p>A minotaur is a large humanoid with a bovine head and hooves. Though often mistaken for aggressive brutes, many minotaurs are skilled artisans. Lone minotaurs tend to make their lairs within a maze or old ruin, hunting anyone who dares to invade their labyrinthine home.</p>",
-      "tokenName": "Minotaur Hunter",
+      "tokenName": "Minotauro cazador",
       "items": {
         "strike-melee->Greataxe": {
           "name": "gran hacha"
@@ -1094,7 +1094,7 @@
     "Orc Veteran (BB)": {
       "name": "Orc Veteran (BB)",
       "publicNotes": "<p> El típico soldado orco es un combatiente violento familiar para muchos aventureros. Los guerreros orcos luchan por sus fortalezas, por las riquezas y, quizás sobre todo, por la gloria. Demostrar su propia fuerza mejora su posición dentro de su fortaleza orca, por lo que la batalla es una parte crucial de la vida de cualquier orco que aspire algún día a liderar o pasar a la historia. </p>",
-      "tokenName": "Orc Veteran",
+      "tokenName": "Orco veterano",
       "items": {
         "armor->Breastplate": {
           "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.r0ifJfoz8aqf0mwk]\n <p> Aunque se la conoce como coraza, este tipo de armadura consta de varias piezas de armadura de placa o media placa que protegen el torso, el pecho, el cuello y, a veces, las caderas y la parte inferior de las piernas. Otorga estratégicamente parte de la protección de la placa al tiempo que permite una mayor flexibilidad y velocidad. </p>"
@@ -1150,7 +1150,7 @@
           "name": "Espada corta"
         },
         "strike-ranged->Shortbow": {
-          "name": "Shortbow"
+          "name": "Arco corto"
         },
         "action->-2 Penalty on Perception to Hear things": {
           "name": "-2 Penalty on Perception to Hear things"
@@ -1173,7 +1173,7 @@
           "label": "to Swim"
         }
       },
-      "tokenName": "Reefclaw",
+      "tokenName": "Garracife",
       "items": {
         "strike-melee->Claw": {
           "name": "Garra"
@@ -1301,7 +1301,7 @@
           "name": "Garra"
         },
         "strike-ranged->Shortbow": {
-          "name": "Shortbow"
+          "name": "Arco corto"
         }
       }
     },
@@ -1355,7 +1355,7 @@
           "description": "<p> Cuando se aplica presión a la losa del piso, la trampa dispara una lanza, atacando a la criatura u objeto en la losa del piso. La trampa realiza un ataque con lanza a distancia. </p>"
         },
         "strike-melee->Spear": {
-          "name": "Spear"
+          "name": "Lanza"
         }
       }
     },
@@ -1385,7 +1385,7 @@
     "Warg (BB)": {
       "name": "Warg (BB)",
       "publicNotes": "<p>Wargs are often mistaken for wolves, but they have a cunning INTELLIGENCE and the ability to speak. Wargs often form hunting parties with orcs and hobgoblins. Most wargs are amenable to this arrangement, but if food should run out, wargs are more than willing to integrate goblinoid flesh into their diet.</p>",
-      "tokenName": "Warg",
+      "tokenName": "Wargo",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -1477,7 +1477,7 @@
     "Xulgath Leader (BB)": {
       "name": "Xulgath Leader (BB)",
       "publicNotes": "<p>Xulgath leaders exhibit greater strength and more affinity for violence than other members of a xulgath community.</p>",
-      "tokenName": "Xulgath Leader",
+      "tokenName": "Xulgath líder",
       "items": {
         "weapon->Greataxe": {
           "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.8COlYvHe6hKCXY8x]\n <p> Esta gran hacha de batalla es demasiado pesada para manejarla con una sola mano. Muchas grandes hachas incorporan dos hojas y, a menudo, tienen \"barba\" y tienen un gancho en la parte inferior para aumentar la fuerza de su poder de corte. </p>"

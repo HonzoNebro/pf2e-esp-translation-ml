@@ -31,7 +31,7 @@
           "description": "<p>The amalgamite teleports into an unoccupied space they can see within 50 pies.</p>"
         },
         "action->Transpose": {
-          "name": "Transpose",
+          "name": "Transponer",
           "description": "<p>The amalgamite teleports up to two destabilized criaturas within 50 pies that they can see. They can either move a single criatura to an unoccupied space or swap the positions of two criaturas of the same size. If the amalgamite swaps two criaturas, they can elige their self as one target. An unwilling criatura can attempt a @Check[will|dc:33] save. If either target succeeds at this tirada de salvación, both are unaffected.</p>"
         },
         "lore->Lore (Any One Subcategory)": {
@@ -233,10 +233,10 @@
       "hpDetails": "destabilized form",
       "items": {
         "strike-melee->Rope Dart": {
-          "name": "Rope Dart"
+          "name": "Dardo de cuerda"
         },
         "strike-ranged->Rope Dart": {
-          "name": "Rope Dart"
+          "name": "Dardo de cuerda"
         },
         "action->Destabilized Form": {
           "name": "Destabilized Form",
@@ -272,7 +272,7 @@
           "description": "<p>The Echo's spindle revolves faster and faster until it's a blur, lashing red threads in every direction. The threads deal @Damage[7d6[slashing],7d6[mental]]{7d6 daño cortante and 7d6 daño mental} to all criaturas in a @Template[emanation|distance:30], with a @Check[reflex|dc:34|basic]. If a criatura fails its save, the threads awaken the mindscape an</p>\n<p>chor within it, affecting it differently based on which anchor that criatura used to gain access to the center of the mindscape. (If there is a PC who didn't absorb a mindscape anchor, for instance because there are more than four PCs in the party, then use the anchor of the PC closest to them.)</p>\n<p>The Echo then can't use Spindle's Web for [[/br 1d4 #rounds]]{1d4 rounds}.</p>\n<ul>\n<li><strong>Lantern</strong> The lantern outlines the criatura with searing @UUID[Compendium.pf2e.spells-srd.Item.HRb2doyaLtaoCfi3]{Faerie Fire} that deals @Damage[2d6[persistent,fire]] daño.</li>\n<li><strong>Mirror</strong> The mirror reflects the criatura to another location, teleporting them to a clear space within 25 pies of their current location.</li>\n<li><strong>Chalice</strong> The chalice drains life force, granting the Echo temporary HP equal to half the daño dealt.</li>\n<li><strong>Tome</strong> The tome floods the criatura's mind with information; el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for 1 round.</li>\n</ul>"
         },
         "lore->Esoteric Lore": {
-          "name": "Esoteric Lore"
+          "name": "Conocimiento esotérico"
         }
       }
     },
@@ -303,7 +303,7 @@
           "description": "<p>The kuchisake-onna's silver scissors Golpes are manifestations of the toxic malice that created them and vanish when the kuchisake-onna is destroyed.</p>\n<p>When the kuchisake-onna has less than half their maximum Puntos de Golpe remaining, this concentrated enmity begins to leak out and make their attacks more vicious. Their silver scissors Golpes deal 6d6 daño persistente de sangrado.</p>\n<hr />\n<p><em>Note: Due to a later published errata this daño persistente is doubled on a critical hit. Due to the high daño potential for this criatura's level that interaction may not be intended.</em></p>"
         },
         "action->Rend": {
-          "name": "Rend",
+          "name": "Rasgadura",
           "description": "<p>Silver Scissors</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
         }
       }
@@ -334,10 +334,10 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.BlqDXtRZcevCYRNz]\nCrystal Flower Crown"
         },
         "strike-melee->Dagger": {
-          "name": "Dagger"
+          "name": "Daga"
         },
         "strike-ranged->Dagger": {
-          "name": "Dagger"
+          "name": "Daga"
         },
         "action->Crystal Vitality Link": {
           "name": "Crystal Vitality Link",
@@ -387,7 +387,7 @@
       }
     },
     "Reflection": {
-      "name": "Reflection",
+      "name": "Reflejo",
       "items": {
         "strike-melee->Reflected Weapon": {
           "name": "Reflected Weapon"
@@ -405,7 +405,7 @@
       "reset": "<p>After 10 minutes without weight being placed on this hall's floor, this trap resets, returning the hall to its original size.</p>",
       "items": {
         "action->Shrink": {
-          "name": "Shrink",
+          "name": "Encoger",
           "description": "<p><strong>Desencadenante</strong> 100 pounds of weight or more is placed on the hallway's floor</p>\n<hr />\n<p><strong>Efecto</strong> The hall's last 40 pies of walls angle inward, causing the hall to shrink and contract down, reaching 6 inches in height and width at the hall's far end and completely blocking access to the hall's exit door for anything but a Tiny criatura Squeezing.</p>"
         }
       }
@@ -499,7 +499,7 @@
       "stealth": "<p>(entrenado)</p>",
       "items": {
         "action->Downpour": {
-          "name": "Downpour",
+          "name": "Aguacero",
           "description": "<p><strong>Desencadenante</strong> A criatura falls into the pool</p>\n<hr />\n<p><strong>Efecto</strong> More water pours forth from the chalice. Las criaturas in the pool become @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}, and they can't decrease their torpe condition so long as they remain in the pool. La trampa then rolls initiative.</p>"
         }
       }
@@ -574,7 +574,7 @@
     },
     "Verdure's Moonflower": {
       "name": "Verdure's Moonflower",
-      "hpDetails": "fast healing 10",
+      "hpDetails": "curacion rapida 10",
       "languages": "telepathy 1 mile (other moonflowers only)",
       "publicNotes": "<p>Estos enormous plants have thick, knotted trunks festooned with fanged blossoms. A gaping mouth sits at the top of the trunk, capable of swallowing most criaturas smaller than the moonflower whole. Moonflowers can move slowly on their powerful roots or use them to attack, but usually they dig them deeply into the surrounding ground and remain stationary to await prey.</p>\n<p>Though moonflowers no puede hablar in the conventional sense, they communicate telepathically with other moonflowers. Explorers who encounter a single moonflower can thus be assured that any other moonflowers in the vicinity will be prepared for them. Those who manage to intercept a moonflower's telepathic communications are assaulted by visions of dreadful, primeval jungles ruled over by titanic plant life. Whether this is some vision of the past or a dream of the future shared by all moonflowers is unknown.</p>\n<p>Moonflowers are alien life-forms from a long-dead planet, but their proliferation throughout the galaxy has been ensured through the machinations of the Dominion of the Black, a sinister, alien organization from the dark places between the stars.</p>",
       "skillSpecialStealth": {
@@ -585,7 +585,7 @@
       "tokenName": "Moonflower",
       "items": {
         "strike-melee->Bite": {
-          "name": "Bite"
+          "name": "Morder"
         },
         "strike-melee->Root": {
           "name": "Root"
