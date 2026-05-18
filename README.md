@@ -78,6 +78,14 @@ npm run glossary:repair-hybrids -- translation/es
 
 Sin `--write`, genera un informe en `sources/reports/glossary-hybrid-repair.json`. Con `--write`, solo restaura terminos del glosario a ingles en cadenas que siguen siendo mayoritariamente inglesas o que coinciden exactamente con la fuente inglesa tras deshacer esas sustituciones.
 
+Para detectar texto visible que sigue probablemente en ingles:
+
+```bash
+npm run translation:detect
+```
+
+Por defecto revisa `translation/es/compendium/pf2e.feats-srd.json`. Puedes pasar archivos o carpetas tras `--`. El detector ignora parametros tecnicos de Foundry como `@Damage[...]`, `@Check[...]`, `@Template[...]`, `@UUID[...]`, `@Embed[...]` y tiradas inline, pero conserva las etiquetas visibles entre llaves para detectar texto que si vera el usuario.
+
 Los commits deberian seguir [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
 ## Licencia y atribucion
