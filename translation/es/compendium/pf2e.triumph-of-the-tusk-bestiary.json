@@ -46,11 +46,11 @@
         },
         "action->Frenzy Pheromone": {
           "name": "Frenzy Pheromone",
-          "description": "<p>The hive mother unleashes a pheromone that causes all other ankhravs within a @Template[emanation|distance:100] to become @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} until the start of the hive mother's next turn, and they can use the extra action only for Burrow, Zancada, or Golpe actions.</p>\n<p>The hive mother can't unleash the pheromone again for [[/gmr 1d4 #Recharge Frenzy Pheromone]]{1d4 rounds}.</p>"
+          "description": "<p>The hive mother unleashes a pheromone that causes all other ankhravs within a @Template[emanation|distance:100] to become @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} until the start of the hive mother's next turn, and they can use the extra action only for Burrow, Zancada, or Golpe actions.</p>\n<p>The hive mother can't unleash the pheromone again for [[/gmr 1d4 #Recharge Frenzy Pheromone]]{1d4 asaltos}.</p>"
         },
         "action->Spray Acid": {
           "name": "Spray Acid",
-          "description": "<p>The hive mother spews acid in a @Template[cone|distance:60], dealing @Damage[8d6[acid],1d6[persistent,acid]|options:area-damage]{8d6 daño de ácido and 1d6 daño persistente de ácido} (@Check[reflex|dc:26|basic|options:area-effect] salvación).</p>\n<p>It can't spew acid again for [[/gmr 1d4 #Recharge Spray Acid]]{1d4 rounds}.</p>"
+          "description": "<p>The hive mother spews acid in a @Template[cone|distance:60], dealing @Damage[8d6[acid],1d6[persistent,acid]|options:area-damage]{8d6 daño de ácido and 1d6 daño persistente de ácido} (@Check[reflex|dc:26|basic|options:area-effect] salvación).</p>\n<p>It can't spew acid again for [[/gmr 1d4 #Recharge Spray Acid]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -400,7 +400,7 @@
         },
         "action->Frozen Breath": {
           "name": "Frozen Breath",
-          "description": "<p>Bugark exhales a @Template[type:cone|distance:60] of razor-sharp ice that deals @Damage[6d6[cold],5d6[slashing]|options:area-damage]{6d6 daño de frío and 5d6 slashing} daño (@Check[reflex|dc:30|basic|options:area-effect] salvación). Bugark can't use Frozen Breath again for [[/gmr 1d4 #Recharge Frozen Breath]]{1d4 rounds}.</p>"
+          "description": "<p>Bugark exhales a @Template[type:cone|distance:60] of razor-sharp ice that deals @Damage[6d6[cold],5d6[slashing]|options:area-damage]{6d6 daño de frío and 5d6 slashing} daño (@Check[reflex|dc:30|basic|options:area-effect] salvación). Bugark can't use Frozen Breath again for [[/gmr 1d4 #Recharge Frozen Breath]]{1d4 asaltos}.</p>"
         },
         "action->Intimidating Strike": {
           "name": "Intimidating Golpe",
@@ -606,7 +606,7 @@
         },
         "action->Ancestral Fury": {
           "name": "Ancestral Fury",
-          "description": "<p>Diskah cries out in grief and rage. All criaturas within a 30-pies radius must attempt a @Check[will|dc:28] salvación or have the @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing} condition for 1 asalto. Diskah can't use Ancestral Fury again for [[/gmr 1d4 #Recharge Ancestral Fury]]{1d4 rounds}.</p>"
+          "description": "<p>Diskah cries out in grief and rage. All criaturas within a 30-pies radius must attempt a @Check[will|dc:28] salvación or have the @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing} condition for 1 asalto. Diskah can't use Ancestral Fury again for [[/gmr 1d4 #Recharge Ancestral Fury]]{1d4 asaltos}.</p>"
         },
         "action->Lunar Blaze": {
           "name": "Lunar Blaze",
@@ -1055,7 +1055,7 @@
           "name": "Door"
         },
         "action->Construct Armor (Hardness 8)": {
-          "name": "Construct Armor (Hardness 8)",
+          "name": "Armadura de constructo (Dureza 8)",
           "description": "<p>Like normal objects, an animated furnace has Hardness. Este Hardness reduces any daño the furnace takes by an amount equal to the Hardness. Once an animated furnace is reduced to fewer than half its Puntos de Golpe, or immediately upon being damaged by a impacto crítico, its armadura de constructo breaks, removing the Hardness and reducing its ARMOR CLASS to 24.</p>"
         },
         "action->Fan the Flames": {
@@ -1412,7 +1412,7 @@
         },
         "action->Zagresh's Gaze": {
           "name": "Zagresh's Gaze",
-          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> The oracle of Zagresh throws aside her armas and focuses on the pure divine power of destruction. She attempts a @Check[will|dc:27] salvación. On a success, she gains access to her claw and jaws Golpes. Este effect lasts [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> The oracle of Zagresh throws aside her armas and focuses on the pure divine power of destruction. She attempts a @Check[will|dc:27] salvación. On a success, she gains access to her claw and jaws Golpes. Este effect lasts [[/gmr 1d4 #rounds]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -1511,7 +1511,7 @@
         },
         "action->Destructive Inferno": {
           "name": "Destructive Inferno",
-          "description": "<p>While raging, an orc raider can channel their destructive energy into an explosion of flame. Las criaturas in a @Template[emanation|distance:10]{10-pies radius} around the raider take @Damage[9d6[fire]|options:area-damage] daño (@Check[reflex|dc:23|basic|options:area-effect] salvación). The raider can't use Destructive Inferno again for [[/gmr 1d4 #Recharge Destructive Inferno]]{1d4 rounds}.</p>"
+          "description": "<p>While raging, an orc raider can channel their destructive energy into an explosion of flame. Las criaturas in a @Template[emanation|distance:10]{10-pies radius} around the raider take @Damage[9d6[fire]|options:area-damage] daño (@Check[reflex|dc:23|basic|options:area-effect] salvación). The raider can't use Destructive Inferno again for [[/gmr 1d4 #Recharge Destructive Inferno]]{1d4 asaltos}.</p>"
         },
         "action->Rage": {
           "name": "Furia",
@@ -1840,7 +1840,7 @@
         },
         "action->Destructive Finale": {
           "name": "Destructive Finale",
-          "description": "<p><strong>Requisitos</strong> March to War is in effect</p>\n<hr />\n<p><strong>Efecto</strong> The skeletal drummer performs a boisterous finale. They elige a @Template[type:cone|distance:30] or @Template[type:emanation|distance:15], and they deal @Damage[4d6[sonic]|options:area-damage] daño to all criaturas in that area (@Check[reflex|dc:21|basic|options:area-effect] salvación). March to War immediately ends, and the skeletal drummer can't use March to War or Destructive Finale for [[/gmr 1d4 #Recharge Destructive Finale]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Requisitos</strong> March to War is in effect</p>\n<hr />\n<p><strong>Efecto</strong> The skeletal drummer performs a boisterous finale. They elige a @Template[type:cone|distance:30] or @Template[type:emanation|distance:15], and they deal @Damage[4d6[sonic]|options:area-damage] daño to all criaturas in that area (@Check[reflex|dc:21|basic|options:area-effect] salvación). March to War immediately ends, and the skeletal drummer can't use March to War or Destructive Finale for [[/gmr 1d4 #Recharge Destructive Finale]]{1d4 asaltos}.</p>"
         },
         "action->March to War": {
           "name": "March to War",
@@ -1952,7 +1952,7 @@
         },
         "action->Corrupting Spite": {
           "name": "Corrupting Spite",
-          "description": "<p>The wight's ataques sin armas and bound armas inflict a curse that makes a criatura grow weak and spiteful. If a wight inflicts corrupting spite on a criatura already afflicted by it, the victim attempts a new save, ignoring the result if it's better than a failure.</p>\n<p>A living humanoid that dies while under the curse rises as a wight after [[/gmr 1d4 #Wight Spawn Timer]]{1d4 rounds}, controlled by the wight that killed it. The wight spawn can't inflict corrupting spite and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2}. If its creator dies or after roughly a month of existence, the new wight becomes autonomous and turns into a normal wight</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:22];</p>\n<hr />\n<p><strong>Etapa 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} and doesn't treat any criaturas as allies (1 asalto)</p>\n<p><strong>Etapa 3</strong> As stage 2, except @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 3} (1 asalto)</p>\n<p><strong>Etapa 4</strong> As stage 2, except @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 4} (1 asalto).</p>"
+          "description": "<p>The wight's ataques sin armas and bound armas inflict a curse that makes a criatura grow weak and spiteful. If a wight inflicts corrupting spite on a criatura already afflicted by it, the victim attempts a new save, ignoring the result if it's better than a failure.</p>\n<p>A living humanoid that dies while under the curse rises as a wight after [[/gmr 1d4 #Wight Spawn Timer]]{1d4 asaltos}, controlled by the wight that killed it. The wight spawn can't inflict corrupting spite and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2}. If its creator dies or after roughly a month of existence, the new wight becomes autonomous and turns into a normal wight</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:22];</p>\n<hr />\n<p><strong>Etapa 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} and doesn't treat any criaturas as allies (1 asalto)</p>\n<p><strong>Etapa 3</strong> As stage 2, except @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 3} (1 asalto)</p>\n<p><strong>Etapa 4</strong> As stage 2, except @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 4} (1 asalto).</p>"
         }
       }
     },
@@ -2140,7 +2140,7 @@
         },
         "action->Tentacle Regrowth": {
           "name": "Tentacle Regrowth",
-          "description": "<p>A trighoul ordinarily has three tentacles. A criatura can attempt to sever a tentacle by specifically targeting it and dealing daño equal to the tentacle's Puntos de Golpe. A tentacle that isn't severed completely returns to full Puntos de Golpe at the end of any criatura's turn. A severed trighoul tentacles regrows, restored to full Puntos de Golpe, after [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
+          "description": "<p>A trighoul ordinarily has three tentacles. A criatura can attempt to sever a tentacle by specifically targeting it and dealing daño equal to the tentacle's Puntos de Golpe. A tentacle that isn't severed completely returns to full Puntos de Golpe at the end of any criatura's turn. A severed trighoul tentacles regrows, restored to full Puntos de Golpe, after [[/gmr 1d4 #rounds]]{1d4 asaltos}.</p>"
         },
         "action->Puppet Show": {
           "name": "Puppet Show",

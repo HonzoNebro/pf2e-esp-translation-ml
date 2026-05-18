@@ -25,7 +25,7 @@
         },
         "action->Forge Breath": {
           "name": "Forge Breath",
-          "description": "<p>The accursed forge-spurned breathes a cloud of stinging soot, ash, and glowing embers. Este can affect either a @Template[type:cone|distance:30] or a @Template[type:burst|distance:20] centered on the accursed forge-spurned and persists for [[/br 1d4 #rounds]]{1d4 rounds}.</p>\n<p>Las criaturas that move into or start their turn in the area take @Damage[12d6[fire]] daño (@Check[type:reflex|dc:36|basic:true] salvación).</p>\n<p>A criatura that fails its save is also @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegado} for 1 minuto. Las criaturas within the cloud are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto}, though not from the accursed forge-spurned.</p>\n<p>The accursed forge-spurned can't use Forge Breath again until it has used Inflate Bellows.</p>"
+          "description": "<p>The accursed forge-spurned breathes a cloud of stinging soot, ash, and glowing embers. Este can affect either a @Template[type:cone|distance:30] or a @Template[type:burst|distance:20] centered on the accursed forge-spurned and persists for [[/br 1d4 #rounds]]{1d4 asaltos}.</p>\n<p>Las criaturas that move into or start their turn in the area take @Damage[12d6[fire]] daño (@Check[type:reflex|dc:36|basic:true] salvación).</p>\n<p>A criatura that fails its save is also @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegado} for 1 minuto. Las criaturas within the cloud are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto}, though not from the accursed forge-spurned.</p>\n<p>The accursed forge-spurned can't use Forge Breath again until it has used Inflate Bellows.</p>"
         },
         "action->Inflate Bellows": {
           "name": "Inflate Bellows",
@@ -130,7 +130,7 @@
         },
         "action->Soul Shriek": {
           "name": "Soul Shriek",
-          "description": "<p>The aluum enforcer emits a keening wail in a @Template[type:cone|distance:15] that deals @Damage[9d6[sonic]] daño (@Check[type:fortitude|dc:27|basic:true] salvación). A criatura that fails its save is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 3} on a critical failure.</p>\n<p>The aluum can't use Soul Shriek again for [[/br 1d4 #Recharge Soul Shriek]]{1d4 rounds}.</p>"
+          "description": "<p>The aluum enforcer emits a keening wail in a @Template[type:cone|distance:15] that deals @Damage[9d6[sonic]] daño (@Check[type:fortitude|dc:27|basic:true] salvación). A criatura that fails its save is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 3} on a critical failure.</p>\n<p>The aluum can't use Soul Shriek again for [[/br 1d4 #Recharge Soul Shriek]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -142,11 +142,11 @@
         },
         "action->Vulnerable to Dispelling": {
           "name": "Vulnerable to Dispelling",
-          "description": "<p>The animated dragonstorm can be targeted by @UUID[Compendium.pf2e.spells-srd.Item.ihbRf964JDXztcy3]{Disjunction} and @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic}. If targeted by such a conjuro of 9th rank or higher, the construct loses its resistance to acid, cold, electricity, fire, and daño físico and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
+          "description": "<p>The animated dragonstorm can be targeted by @UUID[Compendium.pf2e.spells-srd.Item.ihbRf964JDXztcy3]{Disjunction} and @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic}. If targeted by such a conjuro of 9th rank or higher, the construct loses its resistance to acid, cold, electricity, fire, and daño físico and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for [[/gmr 1d4 #rounds]]{1d4 asaltos}.</p>"
         },
         "action->Channel Dragonstorm": {
           "name": "Channel Dragonstorm",
-          "description": "<p>The animated dragonstorm directs a @Template[type:cone|distance:30] of dragonstorm energy. Este deals @Damage[3d8[acid],3d8[cold],3d8[electricity],3d8[fire],3d8[poison]]{3d8 acid, 3d8 cold, 3d8 electricity, 3d8 fire, and 3d8 daño de veneno} to criaturas in the cone (@Check[type:reflex|dc:40|basic:true] salvación). The animated dragonstorm can't use Channel Dragonstorm again for [[/br 1d4 #Recharge Channel Dragonstorm]]{1d4 rounds}.</p>"
+          "description": "<p>The animated dragonstorm directs a @Template[type:cone|distance:30] of dragonstorm energy. Este deals @Damage[3d8[acid],3d8[cold],3d8[electricity],3d8[fire],3d8[poison]]{3d8 acid, 3d8 cold, 3d8 electricity, 3d8 fire, and 3d8 daño de veneno} to criaturas in the cone (@Check[type:reflex|dc:40|basic:true] salvación). The animated dragonstorm can't use Channel Dragonstorm again for [[/br 1d4 #Recharge Channel Dragonstorm]]{1d4 asaltos}.</p>"
         },
         "action->Destructive Strikes": {
           "name": "Destructive Golpes",
@@ -305,7 +305,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>Belmazog spews a gout of acid that deals @Damage[10d6[acid]] daño in a @Template[type:cone|distance:30] (@Check[type:reflex|dc:28|basic:true] salvación).</p>\n<p>Belmazog can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>Belmazog spews a gout of acid that deals @Damage[10d6[acid]] daño in a @Template[type:cone|distance:30] (@Check[type:reflex|dc:28|basic:true] salvación).</p>\n<p>Belmazog can't use Arma de aliento again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Drowning Drone": {
           "name": "Drowning Drone",
@@ -698,7 +698,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The priest breathes fire that deals @Damage[7d6[fire]] daño in a @Template[type:cone|distance:30] (@Check[type:reflex|dc:23|basic:true] salvación).</p>\n<p>It can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The priest breathes fire that deals @Damage[7d6[fire]] daño in a @Template[type:cone|distance:30] (@Check[type:reflex|dc:23|basic:true] salvación).</p>\n<p>It can't use Arma de aliento again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Shrieking Frenzy": {
           "name": "Shrieking Frenzy",
@@ -786,7 +786,7 @@
     "Dahak's Shell": {
       "name": "Concha de Dahak",
       "description": "<p>Un ring de eight dragon pillar replicas mark el border de un dome de magico prismatic energy que entirely contains el Fortress de Sorrow.</p>",
-      "disable": "<p>Each dragon pillar that is destroyed removes the corresponding color's effect from Dahak's shell; as long as even one color remains active, the pillars marking the shell's border cannot be damaged themselves, but a successful @Check[type:thievery|dc:32|name:Disable Color|traits:magical,trap,hazard] (maestro) check or a successful @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (6th level; counteract DC 30) against one of the eight pillars can cause a randomly determined active color in the shell defense (below) to become deactivated for [[/br 1d4 #rounds]]{1d4 rounds}.</p>",
+      "disable": "<p>Each dragon pillar that is destroyed removes the corresponding color's effect from Dahak's shell; as long as even one color remains active, the pillars marking the shell's border cannot be damaged themselves, but a successful @Check[type:thievery|dc:32|name:Disable Color|traits:magical,trap,hazard] (maestro) check or a successful @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (6th level; counteract DC 30) against one of the eight pillars can cause a randomly determined active color in the shell defense (below) to become deactivated for [[/br 1d4 #rounds]]{1d4 asaltos}.</p>",
       "stealth": "<p>o @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detectar magia}</p>",
       "items": {
         "strike-ranged->Eye Beam": {
@@ -886,7 +886,7 @@
         },
         "action->Lava Bomb": {
           "name": "Lava Bomb",
-          "description": "<p>The dalos causes a volcanic explosion to erupt from its head, lobbing a mass of molten rock up to 100 pies. Este lava bomb deals @Damage[6d8[fire],6d8[bludgeoning]]{6d8 daño de fuego and 6d8 daño contundente} to each criatura in a @Template[type:burst|distance:20]{20-pies radius} of its impact point, with a @Check[type:reflex|dc:33|basic:true] salvación.</p>\n<p>The dalos can't use Lava Bomb again for [[/br 1d4 #Recharge Lava Bomb]]{1d4 rounds}.</p>"
+          "description": "<p>The dalos causes a volcanic explosion to erupt from its head, lobbing a mass of molten rock up to 100 pies. Este lava bomb deals @Damage[6d8[fire],6d8[bludgeoning]]{6d8 daño de fuego and 6d8 daño contundente} to each criatura in a @Template[type:burst|distance:20]{20-pies radius} of its impact point, with a @Check[type:reflex|dc:33|basic:true] salvación.</p>\n<p>The dalos can't use Lava Bomb again for [[/br 1d4 #Recharge Lava Bomb]]{1d4 asaltos}.</p>"
         },
         "action->Throw Rock": {
           "name": "Arrojar roca"
@@ -1121,7 +1121,7 @@
         },
         "action->Glare of Rage": {
           "name": "Glare of Rage",
-          "description": "<p>The dragonscarred dead focuses its boundless frustration in a gaze targeting one criatura it can see within 30 pies. That criatura must attempt a @Check[type:will|dc:30] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1}.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido} for 1 asalto.</p>\n<p><strong>Fallo crítico</strong> The criatura is aturdido for [[/br 1d4 #rounds]]{1d4 rounds} and is @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigado}.</p>"
+          "description": "<p>The dragonscarred dead focuses its boundless frustration in a gaze targeting one criatura it can see within 30 pies. That criatura must attempt a @Check[type:will|dc:30] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1}.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido} for 1 asalto.</p>\n<p><strong>Fallo crítico</strong> The criatura is aturdido for [[/br 1d4 #rounds]]{1d4 asaltos} and is @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigado}.</p>"
         },
         "lore->Dragon Lore": {
           "name": "Saber de Dragones"
@@ -1149,7 +1149,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The construct breathes in one of two ways, then can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>\n<p>- Flame (arcane, evocation, fire) A blast of flame deals @Damage[15d10[fire]] daño to all criaturas in a @Template[type:cone|distance:60] (@Check[type:reflex|dc:45|basic:true] salvación). Este daño de fuego does not harm objects or constructs.</p>\n<p>- Weakening Gas (arcane, necromancy) A cloud of gold-flecked gas forces each criatura in a @Template[type:cone|distance:60] to attempt a @Check[type:fortitude|dc:45] salvación; the effect lasts 1 minuto.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 2}.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 5}.</p>\n<p><strong>Fallo crítico</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 8}.</p>"
+          "description": "<p>The construct breathes in one of two ways, then can't use Arma de aliento again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>\n<p>- Flame (arcane, evocation, fire) A blast of flame deals @Damage[15d10[fire]] daño to all criaturas in a @Template[type:cone|distance:60] (@Check[type:reflex|dc:45|basic:true] salvación). Este daño de fuego does not harm objects or constructs.</p>\n<p>- Weakening Gas (arcane, necromancy) A cloud of gold-flecked gas forces each criatura in a @Template[type:cone|distance:60] to attempt a @Check[type:fortitude|dc:45] salvación; the effect lasts 1 minuto.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 2}.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 5}.</p>\n<p><strong>Fallo crítico</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 8}.</p>"
         },
         "action->Reverberating Revenge": {
           "name": "Reverberating Revenge",
@@ -1417,7 +1417,7 @@
         },
         "action->Dazzling Display": {
           "name": "Pantalla deslumbrante",
-          "description": "<p>The emperor bird flaps its mesmerizing wings. Each criatura within @Template[type:emanation|distance:15]{15 pies} that can see the emperor bird must attempt a @Check[type:will|dc:19] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado} for 1 asalto.</p>\n<p><strong>Fallo</strong> The criatura is dazzled for [[/br 1d4 #Dazzled Duration]]{1d4 rounds}.</p>\n<p><strong>Fallo crítico</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confundido} for [[/br 1d4 #Confused Duration]]{1d4 rounds}.</p>"
+          "description": "<p>The emperor bird flaps its mesmerizing wings. Each criatura within @Template[type:emanation|distance:15]{15 pies} that can see the emperor bird must attempt a @Check[type:will|dc:19] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado} for 1 asalto.</p>\n<p><strong>Fallo</strong> The criatura is dazzled for [[/br 1d4 #Dazzled Duration]]{1d4 asaltos}.</p>\n<p><strong>Fallo crítico</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confundido} for [[/br 1d4 #Confused Duration]]{1d4 asaltos}.</p>"
         },
         "action->Tail Lash": {
           "name": "Latigazo de cola",
@@ -1519,7 +1519,7 @@
         },
         "action->Forge Breath": {
           "name": "Forge Breath",
-          "description": "<p>The forge-spurned breathes a cloud of stinging soot, ash, and glowing embers. Este can affect either a @Template[type:cone|distance:30] or a @Template[type:burst|distance:20] centered on the forge-spurned and persists for [[/br 1d4 #rounds]]{1d4 rounds}.</p>\n<p>Each criatura that moves into or starts their turn in the area takes @Damage[6d6[fire]] daño, with a @Check[type:reflex|dc:21|basic:true] salvación. A criatura that fails its save is also @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegado} for 1 minuto.</p>\n<p>Las criaturas within the cloud are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto}, though not from the forge-spurned.</p>\n<p>The forge-spurned can't use Forge Breath again until it has used Inflate Bellows.</p>"
+          "description": "<p>The forge-spurned breathes a cloud of stinging soot, ash, and glowing embers. Este can affect either a @Template[type:cone|distance:30] or a @Template[type:burst|distance:20] centered on the forge-spurned and persists for [[/br 1d4 #rounds]]{1d4 asaltos}.</p>\n<p>Each criatura that moves into or starts their turn in the area takes @Damage[6d6[fire]] daño, with a @Check[type:reflex|dc:21|basic:true] salvación. A criatura that fails its save is also @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegado} for 1 minuto.</p>\n<p>Las criaturas within the cloud are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto}, though not from the forge-spurned.</p>\n<p>The forge-spurned can't use Forge Breath again until it has used Inflate Bellows.</p>"
         },
         "action->Inflate Bellows": {
           "name": "Inflate Bellows",
@@ -1672,7 +1672,7 @@
         },
         "action->Noxious Breath": {
           "name": "Noxious Breath",
-          "description": "<p>The grauladon hisses and unleashes a nauseating cloud of halitosis in a @Template[type:cone|distance:15]. Each criatura in the area must succeed at a @Check[type:fortitude|dc:18] tirada de salvación or be @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 2} on a critical failure).</p>\n<p>The grauladon can't use Noxious Breath or Reactive Breath again for [[/br 1d4 #Recharge Noxious Breath]]{1d4 rounds}.</p>"
+          "description": "<p>The grauladon hisses and unleashes a nauseating cloud of halitosis in a @Template[type:cone|distance:15]. Each criatura in the area must succeed at a @Check[type:fortitude|dc:18] tirada de salvación or be @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 2} on a critical failure).</p>\n<p>The grauladon can't use Noxious Breath or Reactive Breath again for [[/br 1d4 #Recharge Noxious Breath]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -1837,7 +1837,7 @@
           "name": "Key to Manacles"
         },
         "equipment->Manacles (Average) (Marked with the Symbol of the Scarlet Triad)": {
-          "name": "Manacles (Average) (Marked with the Symbol of the Scarlet Triad)"
+          "name": "Grilletes (normales) (marcados con el símbolo de la Tríada Escarlata)"
         },
         "equipment->Spellbook": {
           "name": "Spellbook"
@@ -2685,7 +2685,7 @@
         },
         "action->Necrotic Pulse": {
           "name": "Necrotic Pulse",
-          "description": "<p>Each criatura in a @Template[type:emanation|distance:10] must succeed at a @Check[type:fortitude|dc:32] salvación or take @Damage[1d6[persistent,void]] daño and be @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for 1 minuto as their flesh and bones temporarily atrophy. The golem can't use Necrotic Pulse again for [[/br 1d4 #Recharge Necrotic Pulse]]{1d4 rounds}.</p>"
+          "description": "<p>Each criatura in a @Template[type:emanation|distance:10] must succeed at a @Check[type:fortitude|dc:32] salvación or take @Damage[1d6[persistent,void]] daño and be @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for 1 minuto as their flesh and bones temporarily atrophy. The golem can't use Necrotic Pulse again for [[/br 1d4 #Recharge Necrotic Pulse]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -2727,7 +2727,7 @@
           "description": "<p>Smoke doesn't impair a red dragon's vision; it ignores the concealed condition from smoke.</p>"
         },
         "action->Attack of Opportunity (Jaws Only)": {
-          "name": "Attack of Opportunity (Jaws Only)",
+          "name": "Ataque de oportunidad (solo mandíbulas)",
           "description": "<p>Jaws only</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
         "action->Dragon Heat": {
@@ -2743,7 +2743,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The manifestation of Dahak breathes a blast of dragonstorm energy that deals @Damage[5d6[acid],5d6[cold],5d6[electricity],5d6[fire],5d6[poison]]{5d6 acid, 5d6 cold, 5d6 electricity, 5d6 fire, and 5d6 daño de veneno} in a @Template[type:cone|distance:60] (@Check[type:reflex|dc:46|basic:true|name:Dragonstorm Breath|traits:fire,acid,cold,electricity,poison] salvación).</p>\n<p>It can't use Dragonstorm Breath again for [[/br 1d4 #Recharge Dragonstorm Breath]]{1d4 rounds}.</p>"
+          "description": "<p>The manifestation of Dahak breathes a blast of dragonstorm energy that deals @Damage[5d6[acid],5d6[cold],5d6[electricity],5d6[fire],5d6[poison]]{5d6 acid, 5d6 cold, 5d6 electricity, 5d6 fire, and 5d6 daño de veneno} in a @Template[type:cone|distance:60] (@Check[type:reflex|dc:46|basic:true|name:Dragonstorm Breath|traits:fire,acid,cold,electricity,poison] salvación).</p>\n<p>It can't use Dragonstorm Breath again for [[/br 1d4 #Recharge Dragonstorm Breath]]{1d4 asaltos}.</p>"
         },
         "action->Draconic Frenzy": {
           "name": "Frenesí Dracónico",
@@ -2751,7 +2751,7 @@
         },
         "action->Draconic Momentum": {
           "name": "Impulso dracónico",
-          "description": "<p>El dragón recarga Breath Weapon siempre que consigue un impacto crítico con un Golpe.</p>"
+          "description": "<p>El dragón recarga Arma de aliento siempre que consigue un impacto crítico con un Golpe.</p>"
         },
         "action->Manipulate Energy": {
           "name": "Manipulate Energy",
@@ -2908,7 +2908,7 @@
           "name": "+2 Status to All Saves vs. Magic"
         },
         "action->Attack of Opportunity (Jaws Only)": {
-          "name": "Attack of Opportunity (Jaws Only)",
+          "name": "Ataque de oportunidad (solo mandíbulas)",
           "description": "<p>Jaws only</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
         "action->Dragonstorm Aura": {
@@ -2931,15 +2931,15 @@
         },
         "action->Draconic Momentum": {
           "name": "Impulso dracónico",
-          "description": "<p>El dragón recarga Breath Weapon siempre que consigue un impacto crítico con un Golpe.</p>"
+          "description": "<p>El dragón recarga Arma de aliento siempre que consigue un impacto crítico con un Golpe.</p>"
         },
         "action->Dragonstorm Breath": {
           "name": "Dragonstorm Breath",
-          "description": "<p>The manifestation of Dahak breathes a blast of dragonstorm energy that deals @Damage[5d6[acid],5d6[cold],5d6[electricity],5d6[fire],5d6[poison]]{5d6 acid, 5d6 cold, 5d6 electricity, 5d6 fire, and 5d6 daño de veneno} in a @Template[type:cone|distance:60] (@Check[type:reflex|dc:48|basic:true|traits:fire,acid,cold,electricity,poison] salvación). It can't use Dragonstorm Breath again for [[/br 1d4 #Recharge Dragonstorm Breath]]{1d4 rounds}.</p>"
+          "description": "<p>The manifestation of Dahak breathes a blast of dragonstorm energy that deals @Damage[5d6[acid],5d6[cold],5d6[electricity],5d6[fire],5d6[poison]]{5d6 acid, 5d6 cold, 5d6 electricity, 5d6 fire, and 5d6 daño de veneno} in a @Template[type:cone|distance:60] (@Check[type:reflex|dc:48|basic:true|traits:fire,acid,cold,electricity,poison] salvación). It can't use Dragonstorm Breath again for [[/br 1d4 #Recharge Dragonstorm Breath]]{1d4 asaltos}.</p>"
         },
         "action->Focused Breath Weapon": {
-          "name": "Focused Breath Weapon",
-          "description": "<p>The manifestation breathes a blast of energy that deals 12d12 daño in a @Template[type:line|distance:90] (@Check[type:reflex|dc:44|basic:true] salvación). The type of daño this Breath Weapon deals can be @Damage[12d12[acid]]{acid}, @Damage[12d12[cold]]{cold}, @Damage[12d12[electricity]]{electricity}, @Damage[12d12[fire]]{fire}, or @Damage[12d12[poison]]{poison}, as chosen by the manifestation when it attacks. The manifestation can't use its focused Breath Weapon again for 2 asaltos, and the next time it uses its Breath Weapon, it must deal a different type of daño than the previous usage.</p>"
+          "name": "Focused Arma de aliento",
+          "description": "<p>The manifestation breathes a blast of energy that deals 12d12 daño in a @Template[type:line|distance:90] (@Check[type:reflex|dc:44|basic:true] salvación). The type of daño this Arma de aliento deals can be @Damage[12d12[acid]]{acid}, @Damage[12d12[cold]]{cold}, @Damage[12d12[electricity]]{electricity}, @Damage[12d12[fire]]{fire}, or @Damage[12d12[poison]]{poison}, as chosen by the manifestation when it attacks. The manifestation can't use its focused Arma de aliento again for 2 asaltos, and the next time it uses its Arma de aliento, it must deal a different type of daño than the previous usage.</p>"
         },
         "lore->Dragon Lore": {
           "name": "Saber de Dragones"
@@ -3017,11 +3017,11 @@
         },
         "action->Golden Luck": {
           "name": "Golden Luck",
-          "description": "<p><strong>Desencadenante</strong> Mengkare fails a tirada de salvación.</p>\n<hr />\n<p><strong>Efecto</strong> Mengkare improves his result by one degree of success, turning a failure into a success or a critical failure into a normal failure.</p>\n<p>Mengkare can't use this ability again for [[/gmr 1d4 #Recharge Golden Luck]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Desencadenante</strong> Mengkare fails a tirada de salvación.</p>\n<hr />\n<p><strong>Efecto</strong> Mengkare improves his result by one degree of success, turning a failure into a success or a critical failure into a normal failure.</p>\n<p>Mengkare can't use this ability again for [[/gmr 1d4 #Recharge Golden Luck]]{1d4 asaltos}.</p>"
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>Mengkare breathes in one of two ways. He can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>\n<ul>\n<li><strong>Flame</strong> (arcane,evocation,fire); Mengkare breathes a blast of flame in a @Template[type:cone|distance:80] that deals @Damage[24d6[fire]] daño (@Check[type:reflex|dc:46|basic:true|name:Breath Weapon (Flame)] salvación).</li>\n<li><strong>Weakening Gas</strong> (arcane,necromancy); The dragon breathes a blast of weakening gas. Each criatura within a @Template[type:cone|distance:30] must succeed at a @Check[type:fortitude|dc:46|name:Breath Weapon (Weakening Gas)] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 4} for 1 minuto (or @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 5} on a critical failure).</li>\n</ul>"
+          "description": "<p>Mengkare breathes in one of two ways. He can't use Arma de aliento again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>\n<ul>\n<li><strong>Flame</strong> (arcane,evocation,fire); Mengkare breathes a blast of flame in a @Template[type:cone|distance:80] that deals @Damage[24d6[fire]] daño (@Check[type:reflex|dc:46|basic:true|name:Arma de aliento (Flame)] salvación).</li>\n<li><strong>Weakening Gas</strong> (arcane,necromancy); The dragon breathes a blast of weakening gas. Each criatura within a @Template[type:cone|distance:30] must succeed at a @Check[type:fortitude|dc:46|name:Arma de aliento (Weakening Gas)] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 4} for 1 minuto (or @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 5} on a critical failure).</li>\n</ul>"
         },
         "action->Change Shape": {
           "name": "Cambiar de forma",
@@ -3037,7 +3037,7 @@
         },
         "action->Explosive Breath": {
           "name": "Explosive Breath",
-          "description": "<p>When Mengkare uses Breath Weapon, he can expel an explosive orb of flame instead of a cone. When he does, he fires the orb at the corner of a square within 60 pies. The orb immediately detonates and deals @Damage[24d6[fire]] daño (@Check[type:reflex|dc:48|basic:true|name:Explosive Orb|traits:fire] salvación) to all criaturas within a @Template[type:burst|distance:30]. Las criaturas that critically fail their save catch on fire and take @Damage[4d6[persistent,fire]] daño.</p>"
+          "description": "<p>When Mengkare uses Arma de aliento, he can expel an explosive orb of flame instead of a cone. When he does, he fires the orb at the corner of a square within 60 pies. The orb immediately detonates and deals @Damage[24d6[fire]] daño (@Check[type:reflex|dc:48|basic:true|name:Explosive Orb|traits:fire] salvación) to all criaturas within a @Template[type:burst|distance:30]. Las criaturas that critically fail their save catch on fire and take @Damage[4d6[persistent,fire]] daño.</p>"
         }
       }
     },
@@ -3453,7 +3453,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>Racharak breathes flames that deals @Damage[9d6[fire]] daño to all criaturas in a @Template[type:cone|distance:30] (@Check[type:reflex|dc:26|basic:true] salvación).</p>\n<p>She can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}</p>"
+          "description": "<p>Racharak breathes flames that deals @Damage[9d6[fire]] daño to all criaturas in a @Template[type:cone|distance:30] (@Check[type:reflex|dc:26|basic:true] salvación).</p>\n<p>She can't use Arma de aliento again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 asaltos}</p>"
         },
         "action->Draconic Frenzy": {
           "name": "Frenesí Dracónico",
@@ -3785,7 +3785,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.MPcM4Wt6KmWE2kGL]\n<p>Sometimes called a hauberk, this is a long shirt constructed of the same metal rings as chainmail. However, it is much lighter than chainmail and protects only the torso, upper arms, and upper legs of its wearer.</p>"
         },
         "equipment->Manacles (Average) (Marked with the Symbol of the Scarlet Triad)": {
-          "name": "Manacles (Average) (Marked with the Symbol of the Scarlet Triad)"
+          "name": "Grilletes (normales) (marcados con el símbolo de la Tríada Escarlata)"
         },
         "strike-melee->Greatclub": {
           "name": "Gran clava"
@@ -3930,7 +3930,7 @@
       "name": "Furtivo de la tríada escarlata",
       "items": {
         "equipment->Manacles (Average) (Marked with the Symbol of the Scarlet Triad)": {
-          "name": "Manacles (Average) (Marked with the Symbol of the Scarlet Triad)"
+          "name": "Grilletes (normales) (marcados con el símbolo de la Tríada Escarlata)"
         },
         "equipment->Key to Manacles": {
           "name": "Key to Manacles"
@@ -4012,7 +4012,7 @@
       "saveDetails": "+2 de circunstancia a todas las salvaciones contra Empujar, Derribar o ser tumbado",
       "items": {
         "equipment->Manacles (Average) (Marked with the Symbol of the Scarlet Triad)": {
-          "name": "Manacles (Average) (Marked with the Symbol of the Scarlet Triad)"
+          "name": "Grilletes (normales) (marcados con el símbolo de la Tríada Escarlata)"
         },
         "equipment->Key to Manacles": {
           "name": "Key to Manacles"
@@ -4138,7 +4138,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The spawn breathes flames that deals @Damage[9d6[fire]|options:area-damage] daño to all criaturas in a @Template[cone|distance:30] (@Check[reflex|dc:26|basic|options:area-effect] salvación).</p>\n<p>They can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}</p>"
+          "description": "<p>The spawn breathes flames that deals @Damage[9d6[fire]|options:area-damage] daño to all criaturas in a @Template[cone|distance:30] (@Check[reflex|dc:26|basic|options:area-effect] salvación).</p>\n<p>They can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}</p>"
         },
         "action->Draconic Frenzy": {
           "name": "Frenesí Dracónico",
@@ -4189,7 +4189,7 @@
         },
         "action->Obliteration Beam": {
           "name": "Obliteration Beam",
-          "description": "<p><strong>Requisitos</strong> The spiritbound aluum has bound a soul using its @UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg]{Seize Soul} innate conjuro</p>\n<hr />\n<p><strong>Efecto</strong> The spiritbound aluum transforms the captured soul's essence into raw magical energy, channeling the spirit into a beam that deals @Damage[20d6[force]] daño in a @Template[type:line|distance:30] (@Check[type:reflex|dc:38|basic:true] salvación). The remaining fragments of the captured soul are released to the Great Beyond.</p>\n<p>The spiritbound aluum can't use Obliteration Beam again for [[/br 1d4 #Recharge Obliteration Beam]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Requisitos</strong> The spiritbound aluum has bound a soul using its @UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg]{Seize Soul} innate conjuro</p>\n<hr />\n<p><strong>Efecto</strong> The spiritbound aluum transforms the captured soul's essence into raw magical energy, channeling the spirit into a beam that deals @Damage[20d6[force]] daño in a @Template[type:line|distance:30] (@Check[type:reflex|dc:38|basic:true] salvación). The remaining fragments of the captured soul are released to the Great Beyond.</p>\n<p>The spiritbound aluum can't use Obliteration Beam again for [[/br 1d4 #Recharge Obliteration Beam]]{1d4 asaltos}.</p>"
         },
         "action->Paralyzing Force": {
           "name": "Paralyzing Force",
@@ -4201,7 +4201,7 @@
         },
         "action->Soul Shriek": {
           "name": "Soul Shriek",
-          "description": "<p>The aluum enforcer emits a keening wail in a @Template[type:cone|distance:15] that deals @Damage[16d6[sonic]] daño (@Check[type:fortitude|dc:27|basic:true] salvación). A criatura that fails its save is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 3} on a critical failure.</p>\n<p>The aluum can't use Soul Shriek again for [[/br 1d4 #Recharge Soul Shriek]]{1d4 rounds}.</p>"
+          "description": "<p>The aluum enforcer emits a keening wail in a @Template[type:cone|distance:15] that deals @Damage[16d6[sonic]] daño (@Check[type:fortitude|dc:27|basic:true] salvación). A criatura that fails its save is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 3} on a critical failure.</p>\n<p>The aluum can't use Soul Shriek again for [[/br 1d4 #Recharge Soul Shriek]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -4248,7 +4248,7 @@
         },
         "action->Resonant Wail": {
           "name": "Resonant Wail",
-          "description": "<p>Talamira releases an anguish-filled cry of despair. All criaturas within 30 pies must attempt a @Check[type:will|dc:33] salvación to resist.</p>\n<p>Talamira can't use Resonant Wail for [[/br 1d4 #Recharge Resonant Wail]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura wails with anguish for 3 asaltos. The shrieks resonate within the room's wailing crystals, giving the crystals a +2 bonificador de estado on tiradas de ataque against that criatura during this time.</p>\n<p><strong>Fallo</strong> As success, but the criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for 1 minuto as it sobs uncontrollably. If the criatura is already ralentizado 1 by crushing despair, it is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 2} as long as it's under both effects simultaneously.</p>\n<p><strong>Fallo crítico</strong> As failure, but the criatura is also @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 3} from its overwhelming sadness.</p>"
+          "description": "<p>Talamira releases an anguish-filled cry of despair. All criaturas within 30 pies must attempt a @Check[type:will|dc:33] salvación to resist.</p>\n<p>Talamira can't use Resonant Wail for [[/br 1d4 #Recharge Resonant Wail]]{1d4 asaltos}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura wails with anguish for 3 asaltos. The shrieks resonate within the room's wailing crystals, giving the crystals a +2 bonificador de estado on tiradas de ataque against that criatura during this time.</p>\n<p><strong>Fallo</strong> As success, but the criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for 1 minuto as it sobs uncontrollably. If the criatura is already ralentizado 1 by crushing despair, it is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 2} as long as it's under both effects simultaneously.</p>\n<p><strong>Fallo crítico</strong> As failure, but the criatura is also @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 3} from its overwhelming sadness.</p>"
         },
         "action->Telekinetic Crystalline Assault": {
           "name": "Telekinetic Crystalline Assault",
@@ -4316,7 +4316,7 @@
         },
         "action->Spine Volley": {
           "name": "Spine Volley",
-          "description": "<p>Tarrasque flings spines in a @Template[type:cone|distance:120], dealing @Damage[(3d10+20)[piercing]] daño to each criatura in the area (@Check[type:reflex|dc:53|basic:true] salvación).</p>\n<p>Tarrasque can't use Spine Volley again for [[/br 1d4 #Recharge Spine Volley]]{1d4 rounds}.</p>"
+          "description": "<p>Tarrasque flings spines in a @Template[type:cone|distance:120], dealing @Damage[(3d10+20)[piercing]] daño to each criatura in the area (@Check[type:reflex|dc:53|basic:true] salvación).</p>\n<p>Tarrasque can't use Spine Volley again for [[/br 1d4 #Recharge Spine Volley]]{1d4 asaltos}.</p>"
         },
         "action->Swallow Whole": {
           "description": "<p>Huge, @Damage[(10d6+12)[bludgeoning],10d6[acid]], Rupture 50</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
@@ -4380,7 +4380,7 @@
         },
         "action->Demilich Eye Gems": {
           "name": "Demilich Eye Gems",
-          "description": "<p>A demilich has gemstone eyes that glow when the demilich is active. Each eye contains an 8th-rank conjuro that targets one criatura (usually one eye has @UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]{Quandary} and the other @UUID[Compendium.pf2e.spells-srd.Item.BKIet436snMNcnez]{Polar Ray}). The demilich can Activar an eye. Este uses the number of spellcasting actions the conjuro requires, and also requires command and envision components.</p>\n<p>When the demilich casts a conjuro from a gemstone eye, that eye stops glowing for [[/gmr 1d4 #rounds]]{1d4 rounds}, during which time that eye's conjuro can't be used. Occasionally, one or both of the two <em>@UUID[Compendium.pf2e.equipment-srd.Item.Q4o8pEdxSY0bnJQZ]{Demilich Eye Gems}</em> can be harvested from a destroyed demilich as magic items.</p>"
+          "description": "<p>A demilich has gemstone eyes that glow when the demilich is active. Each eye contains an 8th-rank conjuro that targets one criatura (usually one eye has @UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]{Quandary} and the other @UUID[Compendium.pf2e.spells-srd.Item.BKIet436snMNcnez]{Polar Ray}). The demilich can Activar an eye. Este uses the number of spellcasting actions the conjuro requires, and also requires command and envision components.</p>\n<p>When the demilich casts a conjuro from a gemstone eye, that eye stops glowing for [[/gmr 1d4 #rounds]]{1d4 asaltos}, during which time that eye's conjuro can't be used. Occasionally, one or both of the two <em>@UUID[Compendium.pf2e.equipment-srd.Item.Q4o8pEdxSY0bnJQZ]{Demilich Eye Gems}</em> can be harvested from a destroyed demilich as magic items.</p>"
         },
         "action->Devour Soul": {
           "name": "Devour Soul",
@@ -4598,14 +4598,14 @@
         },
         "action->Scoff at the Divine": {
           "name": "Scoff at the Divine",
-          "description": "<p><strong>Desencadenante</strong> A criatura within 30 pies casts a divine conjuro or uses a divine ability.</p>\n<p><strong>Requisitos</strong> Vaklish has an unexpended conjuro slot that can be used to cast @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic}.</p>\n<hr />\n<p><strong>Efecto</strong> Vaklish expends a conjuro slot that could be used to cast <em>dispel magic</em> and attempts to counteract the triggering conjuro or ability.</p>\n<p>Vaklish can't Scoff at the Divine for [[/gmr 1d4 #Recharge Scoff at the Divine]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura within 30 pies casts a divine conjuro or uses a divine ability.</p>\n<p><strong>Requisitos</strong> Vaklish has an unexpended conjuro slot that can be used to cast @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic}.</p>\n<hr />\n<p><strong>Efecto</strong> Vaklish expends a conjuro slot that could be used to cast <em>dispel magic</em> and attempts to counteract the triggering conjuro or ability.</p>\n<p>Vaklish can't Scoff at the Divine for [[/gmr 1d4 #Recharge Scoff at the Divine]]{1d4 asaltos}.</p>"
         },
         "action->Change Shape": {
           "description": "<p>Vaklish takes on the appearance of any Medium humanoid. Este doesn't change Valish's Velocidad or the attack and daño modifiers with his Golpes but might change the tipo de daño his Golpes deal (typically to bludgeoning). He typically loses his fangs Golpe unless the humanoid form has fangs or a similar ataque sin armas.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
         "action->Disturbing Vision": {
           "name": "Disturbing Vision",
-          "description": "<p>Vaklish's eyes flash green as it projects a telepathic wave in a @Template[type:emanation|distance:30]. All criaturas in the area are assailed by a vision of evil decadence from one of the rakshasa's past lives. Each non-evil criatura in the area must succeed at a @Check[type:will|dc:32] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} (and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1} on a critical failure).</p>\n<p>The visions last [[/br 1d4 #Duration Disturbing Vision]]{1d4 rounds}, and while they do, Vaklish and all evil criaturas in the area gain a +1 bonificador de estado to all checks. Vaklish can use this ability again only once the previous visions end.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.AThOnEYzPO9ssYTB]{Efecto: Disturbing Vision}</p>"
+          "description": "<p>Vaklish's eyes flash green as it projects a telepathic wave in a @Template[type:emanation|distance:30]. All criaturas in the area are assailed by a vision of evil decadence from one of the rakshasa's past lives. Each non-evil criatura in the area must succeed at a @Check[type:will|dc:32] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} (and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1} on a critical failure).</p>\n<p>The visions last [[/br 1d4 #Duration Disturbing Vision]]{1d4 asaltos}, and while they do, Vaklish and all evil criaturas in the area gain a +1 bonificador de estado to all checks. Vaklish can use this ability again only once the previous visions end.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.AThOnEYzPO9ssYTB]{Efecto: Disturbing Vision}</p>"
         }
       }
     },
@@ -4634,7 +4634,7 @@
         },
         "action->Hostile Juxtaposition": {
           "name": "Hostile Juxtaposition",
-          "description": "<p><strong>Desencadenante</strong> A criatura targets the vazgorlu with a Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The vazgorlu chooses a different criatura within 60 pies and attempts to swap places with that criatura using @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Translocate} in the instant before the Golpe. El objetivo must attempt a @Check[type:will|dc:39|traits:arcana] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo resists the teleportation, and the vazgorlu can't use Hostile Juxtaposition for [[/br 1d4 #Recharge Hostile Juxtaposition]]{1d4 rounds}.</p>\n<p><strong>Éxito</strong> El objetivo resists the teleportation.</p>\n<p><strong>Fallo</strong> El objetivo and the vazgorlu instantly swap places, and the triggering Golpe is resolved against el objetivo instead.</p>\n<p><strong>Fallo crítico</strong> As failure, but el objetivo is transported to the vazgorlu's demiplane after resolving the triggering Golpe against it.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura targets the vazgorlu with a Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The vazgorlu chooses a different criatura within 60 pies and attempts to swap places with that criatura using @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Translocate} in the instant before the Golpe. El objetivo must attempt a @Check[type:will|dc:39|traits:arcana] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo resists the teleportation, and the vazgorlu can't use Hostile Juxtaposition for [[/br 1d4 #Recharge Hostile Juxtaposition]]{1d4 asaltos}.</p>\n<p><strong>Éxito</strong> El objetivo resists the teleportation.</p>\n<p><strong>Fallo</strong> El objetivo and the vazgorlu instantly swap places, and the triggering Golpe is resolved against el objetivo instead.</p>\n<p><strong>Fallo crítico</strong> As failure, but el objetivo is transported to the vazgorlu's demiplane after resolving the triggering Golpe against it.</p>"
         },
         "action->Demiplane Lair": {
           "name": "Demiplane Lair",
@@ -4696,7 +4696,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>Veshumirix breathes a blast of magma that deals @Damage[9d6[fire],4d12[bludgeoning]]{9d6 daño de fuego and 4d12 daño contundente} in a @Template[type:cone|distance:60]{60-pies cone} (@Check[type:reflex|dc:42|basic:true] salvación).</p>\n<p>He can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>Veshumirix breathes a blast of magma that deals @Damage[9d6[fire],4d12[bludgeoning]]{9d6 daño de fuego and 4d12 daño contundente} in a @Template[type:cone|distance:60]{60-pies cone} (@Check[type:reflex|dc:42|basic:true] salvación).</p>\n<p>He can't use Arma de aliento again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Draconic Frenzy": {
           "name": "Frenesí Dracónico",
@@ -4704,7 +4704,7 @@
         },
         "action->Draconic Momentum": {
           "name": "Impulso dracónico",
-          "description": "<p>Veshumirix recharges his Breath Weapon siempre que he scores a impacto crítico with a Golpe.</p>"
+          "description": "<p>Veshumirix recharges his Arma de aliento siempre que he scores a impacto crítico con un Golpe.</p>"
         },
         "action->Magma Swim": {
           "name": "Magma Swim",
@@ -4712,7 +4712,7 @@
         },
         "action->Volcanic Purge": {
           "name": "Volcanic Purge",
-          "description": "<p>If the next action Veshumirix uses is Breath Weapon, the magma clings to those it damages. Each criatura that fails its save against the Breath Weapon takes @Damage[4d6[persistent,fire]] daño, and as long as it has this daño persistente de fuego, it also takes a –10-pies penalización de estado to its Velocidades.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.7qoZauizAKfPIXeu]{Efecto: Volcanic Purge}</p>"
+          "description": "<p>If the next action Veshumirix uses is Arma de aliento, the magma clings to those it damages. Each criatura that fails its save against the Arma de aliento takes @Damage[4d6[persistent,fire]] daño, and as long as it has this daño persistente de fuego, it also takes a –10-pies penalización de estado to its Velocidades.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.7qoZauizAKfPIXeu]{Efecto: Volcanic Purge}</p>"
         }
       }
     },
@@ -4721,7 +4721,7 @@
       "description": "<p>Blasts of fire and smoke pour out of the tunnel walls to coalesce into the burning form of Dahak himself; a PC who succeeds at a @Check[type:religion|dc:20|name:Recognize Depiction of Dahak|traits:hazard,complex,fire,magical,trap,action:recall-knowledge] check to Recall Knowledge notes that the fiery dragon closely resembles classical depictions of the draconic god of destruction.</p>",
       "disable": "<p>@Check[type:religion|dc:26|name:Counteract Dahak With Prayers|traits:complex,fire,magical,trap,hazard] (experto) to utter prayers to a non-evil deity to counteract Dahak's presence (prayers to Apsu allow this check to be made if the character is merely entrenado in RELIGION), @Check[type:thievery|dc:30|name:Divert the Hazard's Energy Back|traits:complex,fire,magical,trap,hazard] (experto) to divert the hazard's energies back upon themselves, or a successful @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th level; counteract DC 26).</p>",
       "reset": "<p>The vision of Dahak deactivates and resets automatically once no criaturas remain within the Huntergate way station.</p>",
-      "routine": "<p>(2 actions) The vision of Dahak manifests next to the criatura that is closest to the center of the way station, then uses its Breath Weapon in a direction that catches the most possible targets in its area.</p>",
+      "routine": "<p>(2 actions) The vision of Dahak manifests next to the criatura that is closest to the center of the way station, then uses its Arma de aliento in a direction that catches the most possible targets in its area.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Manifest": {
@@ -4910,7 +4910,7 @@
         },
         "action->Howl": {
           "name": "Howl",
-          "description": "<p><strong>Frecuencia</strong> Three times per day</p>\n<hr />\n<p><strong>Efecto</strong> The wendigo unleashes a forlorn howl that can be heard up to 1 mile away. Any criatura that hears the howl must succeed at a @Check[type:will|dc:38] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}. Any criatura that critically fails and is within 120 pies of the wendigo is instead @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 3}, and is also fleeing for [[/br 1d4 #rounds]]{1d4 rounds} (or until it's no longer asustado, whichever comes first).</p>\n<p>A criatura asustado by a wendigo's howl still naturally recovers from its fright but can't reduce it below asustado 1 in this way until 1 hora has passed or magic is used. Whether it succeeds or fails its save, a criatura is then temporarily immune to that wendigo's Howl for 24 horas.</p>"
+          "description": "<p><strong>Frecuencia</strong> Three times per day</p>\n<hr />\n<p><strong>Efecto</strong> The wendigo unleashes a forlorn howl that can be heard up to 1 mile away. Any criatura that hears the howl must succeed at a @Check[type:will|dc:38] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}. Any criatura that critically fails and is within 120 pies of the wendigo is instead @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 3}, and is also fleeing for [[/br 1d4 #rounds]]{1d4 asaltos} (or until it's no longer asustado, whichever comes first).</p>\n<p>A criatura asustado by a wendigo's howl still naturally recovers from its fright but can't reduce it below asustado 1 in this way until 1 hora has passed or magic is used. Whether it succeeds or fails its save, a criatura is then temporarily immune to that wendigo's Howl for 24 horas.</p>"
         },
         "action->Ride the Wind": {
           "name": "Ride the Wind",
@@ -5030,7 +5030,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>Xotani breathes a blast of flame that deals @Damage[18d6[fire],4d6[persistent,fire]]{18d6 daño de fuego plus 4d6 daño persistente de fuego} to all criaturas in a @Template[type:cone|distance:70] (@Check[type:reflex|dc:42|basic:true] salvación).</p>\n<p>It can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>Xotani breathes a blast of flame that deals @Damage[18d6[fire],4d6[persistent,fire]]{18d6 daño de fuego plus 4d6 daño persistente de fuego} to all criaturas in a @Template[type:cone|distance:70] (@Check[type:reflex|dc:42|basic:true] salvación).</p>\n<p>It can't use Arma de aliento again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Swallow Whole": {
           "description": "<p>Huge, @Damage[(8d6+8)[bludgeoning],12d6[fire]], Rupture 35</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
@@ -5065,7 +5065,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The Xotanispawn sprays a @Template[type:cone|distance:60] of magma that deals @Damage[10d10[fire],2d6[persistent,fire]]{10d10 daño de fuego and 2d6 daño persistente de fuego} to all criaturas in the area (@Check[type:reflex|dc:39|basic:true] salvación).</p>\n<p>The Xotanispawn can't use its Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The Xotanispawn sprays a @Template[type:cone|distance:60] of magma that deals @Damage[10d10[fire],2d6[persistent,fire]]{10d10 daño de fuego and 2d6 daño persistente de fuego} to all criaturas in the area (@Check[type:reflex|dc:39|basic:true] salvación).</p>\n<p>The Xotanispawn can't use its Arma de aliento again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Heat Surge": {
           "name": "Heat Surge",

@@ -2655,7 +2655,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.rdTEF1hfAWbN58NE]\nMejorar Víveres (a voluntad)"
         },
         "spell->Invisibility (At Will) (Self Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibility (At Will) (Self Only)",
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibilidad (a voluntad, solo personal)",
           "target": "uno mismo"
         },
         "spell->Detect Magic (Constant)": {
@@ -3230,7 +3230,7 @@
         },
         "action->Slowing Frost": {
           "name": "Slowing Frost",
-          "description": "<p>The ice devil channels the extreme cold of its body through its appendages and armas. A criatura hit by an ice devil's arma or ataque sin armas in melee must attempt a @Check[fortitude|dc:32] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for [[/gmr 1d4 #rounds]]{1d4 rounds}. A arma used by an ice devil gains the effects of a <em>@UUID[Compendium.pf2e.equipment-srd.Item.M5M1WJ5KzbYfRGsY]{Frost}</em> rune while the gelugon holds it, and the ice devil can throw any such arma with a 20-pies range increment, trailing motes of frost.</p>"
+          "description": "<p>The ice devil channels the extreme cold of its body through its appendages and armas. A criatura hit by an ice devil's arma or ataque sin armas in melee must attempt a @Check[fortitude|dc:32] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for [[/gmr 1d4 #rounds]]{1d4 asaltos}. A arma used by an ice devil gains the effects of a <em>@UUID[Compendium.pf2e.equipment-srd.Item.M5M1WJ5KzbYfRGsY]{Frost}</em> rune while the gelugon holds it, and the ice devil can throw any such arma with a 20-pies range increment, trailing motes of frost.</p>"
         },
         "action->Tactician of Cocytus": {
           "name": "Tactician of Cocytus",
@@ -4490,11 +4490,11 @@
         },
         "action->Frenzy Pheromone": {
           "name": "Frenzy Pheromone",
-          "description": "<p>The hive mother unleashes a pheromone that causes all other ankhravs within a @Template[emanation|distance:100] to become @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened 1} until the start of the hive mother's next turn, and they can use the extra action only for Burrow, Zancada, or Golpe actions.</p>\n<p>The hive mother can't unleash the pheromone again for [[/gmr 1d4 #Recharge Frenzy Pheromone]]{1d4 rounds}.</p>"
+          "description": "<p>The hive mother unleashes a pheromone that causes all other ankhravs within a @Template[emanation|distance:100] to become @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened 1} until the start of the hive mother's next turn, and they can use the extra action only for Burrow, Zancada, or Golpe actions.</p>\n<p>The hive mother can't unleash the pheromone again for [[/gmr 1d4 #Recharge Frenzy Pheromone]]{1d4 asaltos}.</p>"
         },
         "action->Spray Acid": {
           "name": "Spray Acid",
-          "description": "<p>The hive mother spews acid in a @Template[cone|distance:60], dealing @Damage[8d6[acid],1d6[persistent,acid]|options:area-damage]{8d6 daño de ácido and 1d6 daño persistente de ácido} (@Check[reflex|dc:26|basic|options:area-effect] salvación).</p>\n<p>It can't spew acid again for [[/gmr 1d4 #Recharge Spray Acid]]{1d4 rounds}.</p>"
+          "description": "<p>The hive mother spews acid in a @Template[cone|distance:60], dealing @Damage[8d6[acid],1d6[persistent,acid]|options:area-damage]{8d6 daño de ácido and 1d6 daño persistente de ácido} (@Check[reflex|dc:26|basic|options:area-effect] salvación).</p>\n<p>It can't spew acid again for [[/gmr 1d4 #Recharge Spray Acid]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -5641,14 +5641,14 @@
         },
         "action->Scoff at the Divine": {
           "name": "Scoff at the Divine",
-          "description": "<p><strong>Desencadenante</strong> A criatura within 30 pies casts a divine conjuro or uses a divine ability.</p>\n<p><strong>Requisitos</strong> The raja rakshasa has an unexpended conjuro slot that can be used to cast @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic}.</p>\n<hr />\n<p><strong>Efecto</strong> The raja rakshasa expends a conjuro slot that could be used to cast dispel magic and attempts to counteract the triggering conjuro or ability.</p>\n<p>The raja rakshasa can't Scoff at the Divine for [[/gmr 1d4 #Recharge Scoff at the Divine]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura within 30 pies casts a divine conjuro or uses a divine ability.</p>\n<p><strong>Requisitos</strong> The raja rakshasa has an unexpended conjuro slot that can be used to cast @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic}.</p>\n<hr />\n<p><strong>Efecto</strong> The raja rakshasa expends a conjuro slot that could be used to cast dispel magic and attempts to counteract the triggering conjuro or ability.</p>\n<p>The raja rakshasa can't Scoff at the Divine for [[/gmr 1d4 #Recharge Scoff at the Divine]]{1d4 asaltos}.</p>"
         },
         "action->Change Shape": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>The raja rakshasa takes on the appearance of any Medium humanoid. Este doesn't change the raja rakshasa's Velocidad or its attack and daño modifiers with its Golpes but might change the tipo de daño its Golpes deal (typically to bludgeoning). It typically loses its fangs Golpe unless the humanoid form has fangs or a similar ataque sin armas.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
         "action->Disturbing Vision": {
           "name": "Disturbing Vision",
-          "description": "<p>The raja rakshasa's eyes flash green as it projects a telepathic wave in a @Template[emanation|distance:30]. All criaturas in the area are assailed by a vision of evil decadence from one of the rakshasa's past lives. Each non-evil criatura in the area must succeed at a @Check[will|dc:29] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} on a critical failure). The visions last [[/gmr 1d4 #Disturbing Visions Duration]]{1d4 rounds}, and while they do, the raja rakshasa and all evil criaturas in the area gain a +1 bonificador de estado to all checks. The raja rakshasa can use this ability again only once the previous visions end.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.AThOnEYzPO9ssYTB]{Efecto: Disturbing Vision}</p>"
+          "description": "<p>The raja rakshasa's eyes flash green as it projects a telepathic wave in a @Template[emanation|distance:30]. All criaturas in the area are assailed by a vision of evil decadence from one of the rakshasa's past lives. Each non-evil criatura in the area must succeed at a @Check[will|dc:29] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} on a critical failure). The visions last [[/gmr 1d4 #Disturbing Visions Duration]]{1d4 asaltos}, and while they do, the raja rakshasa and all evil criaturas in the area gain a +1 bonificador de estado to all checks. The raja rakshasa can use this ability again only once the previous visions end.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.AThOnEYzPO9ssYTB]{Efecto: Disturbing Vision}</p>"
         }
       }
     },
@@ -7351,7 +7351,7 @@
         },
         "action->Lightning Crash": {
           "name": "Lightning Crash",
-          "description": "<p>The uthul unleashes a powerful bolt of lightning and a stunning thunderclap. The bolt deals @Damage[6d12[electricity]|options:area-damage] daño to all criaturas in a @Template[line|distance:30], with a @Check[reflex|dc:34|basic|options:area-effect] salvación, and every criatura in a @Template[emanation|distance:20] must attempt a @Check[fortitude|dc:34|options:area-effect,inflicts:aturdido] salvación.</p>\n<p>The uthul can't use Lightning Crash again for [[/gmr 1d4 #Recharge Lightning Crash]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned} for 1 asalto.</p>\n<p><strong>Fallo crítico</strong> The criatura is aturdido for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
+          "description": "<p>The uthul unleashes a powerful bolt of lightning and a stunning thunderclap. The bolt deals @Damage[6d12[electricity]|options:area-damage] daño to all criaturas in a @Template[line|distance:30], with a @Check[reflex|dc:34|basic|options:area-effect] salvación, and every criatura in a @Template[emanation|distance:20] must attempt a @Check[fortitude|dc:34|options:area-effect,inflicts:aturdido] salvación.</p>\n<p>The uthul can't use Lightning Crash again for [[/gmr 1d4 #Recharge Lightning Crash]]{1d4 asaltos}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned} for 1 asalto.</p>\n<p><strong>Fallo crítico</strong> The criatura is aturdido for [[/gmr 1d4 #rounds]]{1d4 asaltos}.</p>"
         },
         "action->Swiftness": {
           "name": "Swiftness",

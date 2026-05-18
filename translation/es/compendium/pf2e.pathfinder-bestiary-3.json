@@ -464,7 +464,7 @@
           "name": "Door"
         },
         "action->Construct Armor (Hardness 10)": {
-          "name": "Construct Armor (Hardness 10)",
+          "name": "Armadura de constructo (Dureza 10)",
           "description": "<p>Like normal objects, an animated furnace has Hardness. Este Hardness reduces any daño the furnace takes by an amount equal to the Hardness. Once an animated furnace is reduced to fewer than half its Puntos de Golpe, or immediately upon being damaged by a impacto crítico, its armadura de constructo breaks, removing the Hardness and reducing its ARMOR CLASS to 26.</p>"
         },
         "action->Fan the Flames": {
@@ -633,7 +633,7 @@
         },
         "action->Leech Moisture": {
           "name": "Leech Moisture",
-          "description": "<p>The arboreal reaper grows still and focuses intently on a single foe within 50 pies, draining moisture from el objetivo's body. Este deals @Damage[10d6[void]] daño (@Check[fortitude|dc:25|basic] salvación).</p>\n<p>The arboreal reaper can't Leech Moisture again for [[/gmr 1d4 #Recharge Leech Moisture]]{1d4 rounds}.</p>"
+          "description": "<p>The arboreal reaper grows still and focuses intently on a single foe within 50 pies, draining moisture from el objetivo's body. Este deals @Damage[10d6[void]] daño (@Check[fortitude|dc:25|basic] salvación).</p>\n<p>The arboreal reaper can't Leech Moisture again for [[/gmr 1d4 #Recharge Leech Moisture]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -1166,7 +1166,7 @@
         },
         "action->Energy Conversion": {
           "name": "Energy Conversion",
-          "description": "<p>Siempre que the calikang is hit by an electricity conjuro's tirada de ataque or rolls a successful save against a conjuro that deals daño de electricidad, they absorb the energy.</p>\n<p>Este heals the calikang for an amount of HP equal to quadruple the conjuro's rank and recharges their Breath Weapon. A calikang can't absorb their own conjuros this way.</p>"
+          "description": "<p>Siempre que the calikang is hit by an electricity conjuro's tirada de ataque or rolls a successful save against a conjuro that deals daño de electricidad, they absorb the energy.</p>\n<p>Este heals the calikang for an amount of HP equal to quadruple the conjuro's rank and recharges their Arma de aliento. A calikang can't absorb their own conjuros this way.</p>"
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
@@ -1194,7 +1194,7 @@
         },
         "action->Camel Spit": {
           "name": "Escupitajo de camello",
-          "description": "<p>To drive away enemies, the camel spits the partially digested contents of its stomach at a criatura within 10 pies.</p>\n<p>On a hit, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 asalto and must succeed at a @Check[fortitude|dc:17] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p>The camel can't use its camel spit Golpe again for [[/gmr 1d4 #Recharge Camel Spit]]{1d4 rounds}.</p>"
+          "description": "<p>To drive away enemies, the camel spits the partially digested contents of its stomach at a criatura within 10 pies.</p>\n<p>On a hit, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 asalto and must succeed at a @Check[fortitude|dc:17] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p>The camel can't use its camel spit Golpe again for [[/gmr 1d4 #Recharge Camel Spit]]{1d4 asaltos}.</p>"
         },
         "action->Sand Stride": {
           "name": "Sand Zancada",
@@ -1382,7 +1382,7 @@
         },
         "action->Shrieking Scream": {
           "name": "Shrieking Scream",
-          "description": "<p>The clacking skull swarm emits a terrifying, painful scream that deals @Damage[10d6[sonic]|options:area-damage] daño to all criaturas in a @Template[cone|distance:30] (@Check[will|dc:29|basic|options:area-effect,inflicts:asustado] salvación). A criatura that fails this save is also @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} on a critical failure).</p>\n<p>The swarm can't use Frightening Scream again for [[/gmr 1d4 #Recharge Shrieking Scream]]{1d4 rounds}.</p>"
+          "description": "<p>The clacking skull swarm emits a terrifying, painful scream that deals @Damage[10d6[sonic]|options:area-damage] daño to all criaturas in a @Template[cone|distance:30] (@Check[will|dc:29|basic|options:area-effect,inflicts:asustado] salvación). A criatura that fails this save is also @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} on a critical failure).</p>\n<p>The swarm can't use Frightening Scream again for [[/gmr 1d4 #Recharge Shrieking Scream]]{1d4 asaltos}.</p>"
         },
         "action->Swarming Gnaw": {
           "name": "Swarming Gnaw",
@@ -1405,7 +1405,7 @@
         },
         "action->Shrieking Scream": {
           "name": "Shrieking Scream",
-          "description": "<p>The clacking skull swarm emits a terrifying, painful scream that deals @Damage[10d6[sonic]|options:area-damage] daño to all criaturas in a @Template[cone|distance:30] (@Check[will|dc:29|basic|options:area-effect,inflicts:asustado] salvación). A criatura that fails this save is also @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} on a critical failure).</p>\n<p>The swarm can't use Frightening Scream again for [[/gmr 1d4 #Recharge Shrieking Scream]]{1d4 rounds}.</p>"
+          "description": "<p>The clacking skull swarm emits a terrifying, painful scream that deals @Damage[10d6[sonic]|options:area-damage] daño to all criaturas in a @Template[cone|distance:30] (@Check[will|dc:29|basic|options:area-effect,inflicts:asustado] salvación). A criatura that fails this save is also @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} on a critical failure).</p>\n<p>The swarm can't use Frightening Scream again for [[/gmr 1d4 #Recharge Shrieking Scream]]{1d4 asaltos}.</p>"
         },
         "action->Swarming Gnaw": {
           "name": "Swarming Gnaw",
@@ -1439,7 +1439,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The clockwork dragon breathes a spray of flaming oil that deals @Damage[16d6[fire]|options:area-damage] daño in a @Template[cone|distance:40] (@Check[reflex|dc:37|basic|options:area-effect] salvación).</p>\n<p>Las criaturas that fail their saves are covered in burning oil and take @Damage[2d6[persistent,fire]].</p>\n<p>The clockwork dragon can't use Breath Weapon again for 2 asaltos.</p>"
+          "description": "<p>The clockwork dragon breathes a spray of flaming oil that deals @Damage[16d6[fire]|options:area-damage] daño in a @Template[cone|distance:40] (@Check[reflex|dc:37|basic|options:area-effect] salvación).</p>\n<p>Las criaturas that fail their saves are covered in burning oil and take @Damage[2d6[persistent,fire]].</p>\n<p>The clockwork dragon can't use Arma de aliento again for 2 asaltos.</p>"
         },
         "action->Draconic Frenzy": {
           "name": "Frenesí Dracónico",
@@ -1579,7 +1579,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.VdSMQ6yRZ3YXNXHL]\nWavesense (Imprecise) 30 pies"
         },
         "action->Attack of Opportunity (Stinger Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O]\nAttack of Opportunity (Stinger Only)",
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O]\nAtaque de oportunidad (solo aguijón)",
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O]\n<p>Stinger only</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
         "action->Eurypterid Venom": {
@@ -2012,7 +2012,7 @@
           "name": "Divine Innate Spells"
         },
         "spell->Invisibility (At Will) (Self Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibility (At Will) (Self Only)",
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibilidad (a voluntad, solo personal)",
           "target": "uno mismo"
         },
         "strike-melee->Bite": {
@@ -2075,7 +2075,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The draconal breathes a blast of energy that deals @Damage[21d6[fire]|options:area-damage] daño to criaturas they elige to daño in a @Template[cone|distance:60] (@Check[reflex|dc:44|basic|options:area-effect] salvación).</p>\n<p>They can make this effect nonlethal for selected criaturas in the area or elige not to daño certain criaturas at all.</p>\n<p>They can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The draconal breathes a blast of energy that deals @Damage[21d6[fire]|options:area-damage] daño to criaturas they elige to daño in a @Template[cone|distance:60] (@Check[reflex|dc:44|basic|options:area-effect] salvación).</p>\n<p>They can make this effect nonlethal for selected criaturas in the area or elige not to daño certain criaturas at all.</p>\n<p>No puede volver a usar su arma de aliento durante [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Dragon's Wisdom": {
           "name": "Dragon's Wisdom",
@@ -2127,7 +2127,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The draconal breathes a blast of energy that deals @Damage[21d6[cold]|options:area-damage] daño to criaturas they elige to daño in a @Template[cone|distance:60] (@Check[reflex|dc:44|basic|options:area-effect] salvación).</p>\n<p>They can make this effect nonlethal for selected criaturas in the area or elige not to daño certain criaturas at all.</p>\n<p>They can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The draconal breathes a blast of energy that deals @Damage[21d6[cold]|options:area-damage] daño to criaturas they elige to daño in a @Template[cone|distance:60] (@Check[reflex|dc:44|basic|options:area-effect] salvación).</p>\n<p>They can make this effect nonlethal for selected criaturas in the area or elige not to daño certain criaturas at all.</p>\n<p>No puede volver a usar su arma de aliento durante [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Dragon's Wisdom": {
           "name": "Dragon's Wisdom",
@@ -2179,7 +2179,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The draconal breathes a blast of energy that deals @Damage[21d6[fire]|options:area-damage] daño to criaturas they elige to daño in a @Template[cone|distance:60] (@Check[reflex|dc:44|basic|options:area-effect] salvación).</p>\n<p>They can make this effect nonlethal for selected criaturas in the area or elige not to daño certain criaturas at all.</p>\n<p>They can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The draconal breathes a blast of energy that deals @Damage[21d6[fire]|options:area-damage] daño to criaturas they elige to daño in a @Template[cone|distance:60] (@Check[reflex|dc:44|basic|options:area-effect] salvación).</p>\n<p>They can make this effect nonlethal for selected criaturas in the area or elige not to daño certain criaturas at all.</p>\n<p>No puede volver a usar su arma de aliento durante [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Dragon's Wisdom": {
           "name": "Dragon's Wisdom",
@@ -2231,7 +2231,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The draconal breathes a blast of energy that deals @Damage[21d6[cold]|options:area-damage] daño to criaturas they elige to daño in a @Template[cone|distance:60] (@Check[reflex|dc:44|basic|options:area-effect] salvación).</p>\n<p>They can make this effect nonlethal for selected criaturas in the area or elige not to daño certain criaturas at all.</p>\n<p>They can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The draconal breathes a blast of energy that deals @Damage[21d6[cold]|options:area-damage] daño to criaturas they elige to daño in a @Template[cone|distance:60] (@Check[reflex|dc:44|basic|options:area-effect] salvación).</p>\n<p>They can make this effect nonlethal for selected criaturas in the area or elige not to daño certain criaturas at all.</p>\n<p>No puede volver a usar su arma de aliento durante [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Dragon's Wisdom": {
           "name": "Dragon's Wisdom",
@@ -2283,7 +2283,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The draconal breathes a blast of energy that deals @Damage[21d6[acid]|options:area-damage] daño to criaturas they elige to daño in a @Template[cone|distance:60] (@Check[reflex|dc:44|basic|options:area-effect] salvación).</p>\n<p>They can make this effect nonlethal for selected criaturas in the area or elige not to daño certain criaturas at all.</p>\n<p>They can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The draconal breathes a blast of energy that deals @Damage[21d6[acid]|options:area-damage] daño to criaturas they elige to daño in a @Template[cone|distance:60] (@Check[reflex|dc:44|basic|options:area-effect] salvación).</p>\n<p>They can make this effect nonlethal for selected criaturas in the area or elige not to daño certain criaturas at all.</p>\n<p>No puede volver a usar su arma de aliento durante [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Dragon's Wisdom": {
           "name": "Dragon's Wisdom",
@@ -2326,7 +2326,7 @@
         },
         "action->Bittersweet Dreams": {
           "name": "Bittersweet Dreams",
-          "description": "<p>The dramofir swishes their robes in a mesmerizing display that brings the dreams in the robes to life before the viewer's very eyes. Each criatura within @Template[emanation|distance:30]{30 pies} must attempt a @Check[will|dc:34] salvación or be filled with ennui.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected and temporarily immune for 24 horas.</p>\n<p><strong>Éxito</strong> For 1 asalto, the criatura takes a -1 penalización de estado to tiradas de ataque, tiradas de salvación, and pruebas de habilidad, and all other emotion effects on it are suppressed.</p>\n<p><strong>Fallo</strong> As success, but the criatura is also @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and the duration is [[/gmr 1d4 #Duration Bittersweet Dreams]]{1d4 rounds}.</p>\n<p><strong>Fallo crítico</strong> As success, but the criatura is also ralentizado 1, the penalización de estado is -2, and the duration is 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.4FginnDcOt4wfedf]{Efecto: Bittersweet Dreams}</p>"
+          "description": "<p>The dramofir swishes their robes in a mesmerizing display that brings the dreams in the robes to life before the viewer's very eyes. Each criatura within @Template[emanation|distance:30]{30 pies} must attempt a @Check[will|dc:34] salvación or be filled with ennui.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected and temporarily immune for 24 horas.</p>\n<p><strong>Éxito</strong> For 1 asalto, the criatura takes a -1 penalización de estado to tiradas de ataque, tiradas de salvación, and pruebas de habilidad, and all other emotion effects on it are suppressed.</p>\n<p><strong>Fallo</strong> As success, but the criatura is also @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and the duration is [[/gmr 1d4 #Duration Bittersweet Dreams]]{1d4 asaltos}.</p>\n<p><strong>Fallo crítico</strong> As success, but the criatura is also ralentizado 1, the penalización de estado is -2, and the duration is 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.4FginnDcOt4wfedf]{Efecto: Bittersweet Dreams}</p>"
         },
         "action->Pluck Dream": {
           "name": "Pluck Dream",
@@ -2626,11 +2626,11 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The elder wyrmwraith unleashes a burst of void energy that deals @Damage[24d6[void]|options:area-damage] daño to all criaturas in a @Template[cone|distance:90] (@Check[reflex|dc:46|basic|options:area-effect] salvación).</p>\n<p>They can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The elder wyrmwraith unleashes a burst of void energy that deals @Damage[24d6[void]|options:area-damage] daño to all criaturas in a @Template[cone|distance:90] (@Check[reflex|dc:46|basic|options:area-effect] salvación).</p>\n<p>No puede volver a usar su arma de aliento durante [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Consume Souls": {
           "name": "Consume Souls",
-          "description": "<p>The elder wyrmwraith inhales sharply, sucking in the souls of nearby criaturas. Each criatura in a @Template[cone|distance:60] must attempt a @Check[will|dc:46|options:area-effect,damaging-effect] salvación.</p>\n<p>The elder wyrmwraith can't Consume Souls again for [[/gmr 1d4 #Recharge Consume Souls]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1}.</p>\n<p><strong>Fallo</strong> The criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2} and takes @Damage[100[void]|options:area-damage] daño.</p>\n<p><strong>Fallo crítico</strong> The criatura is slain. As long as the wyrmwraith still exists, the slain criatura can't be returned to life through any means.</p>"
+          "description": "<p>The elder wyrmwraith inhales sharply, sucking in the souls of nearby criaturas. Each criatura in a @Template[cone|distance:60] must attempt a @Check[will|dc:46|options:area-effect,damaging-effect] salvación.</p>\n<p>The elder wyrmwraith can't Consume Souls again for [[/gmr 1d4 #Recharge Consume Souls]]{1d4 asaltos}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1}.</p>\n<p><strong>Fallo</strong> The criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2} and takes @Damage[100[void]|options:area-damage] daño.</p>\n<p><strong>Fallo crítico</strong> The criatura is slain. As long as the wyrmwraith still exists, the slain criatura can't be returned to life through any means.</p>"
         },
         "action->Divine Dispelling": {
           "name": "Divine Dispelling",
@@ -2646,7 +2646,7 @@
         },
         "action->Ectoplasmic Form": {
           "name": "Ectoplasmic Form",
-          "description": "<p>An elder wyrmwraith can push through the ectoplasmic veil to temporarily assume a physical form made of ectoplasm. The elder wyrmwraith loses the incorporeal rasgo for [[/gmr 1d4 #Duration Physical Form]]{1d4 rounds}, though they can return to their incorporeal form as a free action before then. Once this ability ends, the elder wyrmwraith can't use this ability again for [[/gmr 1d4 #Recharge Ectoplasmatic Form]]{1d4 rounds}. While in their ectoplasmic form, the elder wyrmwraith's AC increases to 52 and they gain 125 Puntos de Golpe temporales. They lose their immunity to daño de precisión and all of their resistances. Their melee Golpes deal slashing and daño perforante, respectively, instead of daño de vacío.</p>",
+          "description": "<p>An elder wyrmwraith can push through the ectoplasmic veil to temporarily assume a physical form made of ectoplasm. The elder wyrmwraith loses the incorporeal rasgo for [[/gmr 1d4 #Duration Physical Form]]{1d4 asaltos}, though they can return to their incorporeal form as a free action before then. Once this ability ends, the elder wyrmwraith can't use this ability again for [[/gmr 1d4 #Recharge Ectoplasmatic Form]]{1d4 asaltos}. While in their ectoplasmic form, the elder wyrmwraith's AC increases to 52 and they gain 125 Puntos de Golpe temporales. They lose their immunity to daño de precisión and all of their resistances. Their melee Golpes deal slashing and daño perforante, respectively, instead of daño de vacío.</p>",
           "selfEffect": "Efecto: Forma ectoplasmática (física)"
         },
         "action->Phase Lurch": {
@@ -2987,7 +2987,7 @@
         },
         "action->Tide of Creation": {
           "name": "Tide of Creation",
-          "description": "<p><strong>Requisitos</strong> The eunemvro isn't @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}</p>\n<hr />\n<p><strong>Efecto</strong> The eunemvro channels from their soul a blast of searing vitality energy, bathing their enemies in a wave of blinding light and cosmic power.</p>\n<p>The eunemvro creates either a @Template[cone|distance:10] or a @Template[line|distance:30], dealing @Damage[6d8[vitality]|options:area-damage] daño (@Check[fortitude|dc:22|basic|options:area-effect,inflicts:blinded] salvación). A criatura that critically fails its save is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for [[/gmr 1d4 #Duration Blinded]]{1d4 rounds}.</p>\n<p>After using this ability, the eunemvro becomes fatigued.</p>"
+          "description": "<p><strong>Requisitos</strong> The eunemvro isn't @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}</p>\n<hr />\n<p><strong>Efecto</strong> The eunemvro channels from their soul a blast of searing vitality energy, bathing their enemies in a wave of blinding light and cosmic power.</p>\n<p>The eunemvro creates either a @Template[cone|distance:10] or a @Template[line|distance:30], dealing @Damage[6d8[vitality]|options:area-damage] daño (@Check[fortitude|dc:22|basic|options:area-effect,inflicts:blinded] salvación). A criatura that critically fails its save is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for [[/gmr 1d4 #Duration Blinded]]{1d4 asaltos}.</p>\n<p>After using this ability, the eunemvro becomes fatigued.</p>"
         },
         "lore->Forge of Creation Lore": {
           "name": "Forge of Creation LORE"
@@ -3209,7 +3209,7 @@
         },
         "action->Flaming Shroud": {
           "name": "Flaming Shroud",
-          "description": "<p>A flaming skull is shrouded in hideous flames. It deals @Damage[1d6[fire]] daño to any unattended item it touches and on a forehead Golpe. On a impacto crítico with a Golpe, el objetivo catches fire, taking @Damage[1d4[persistent,fire]].</p>"
+          "description": "<p>A flaming skull is shrouded in hideous flames. It deals @Damage[1d6[fire]] daño to any unattended item it touches and on a forehead Golpe. On a impacto crítico con un Golpe, el objetivo catches fire, taking @Damage[1d4[persistent,fire]].</p>"
         }
       }
     },
@@ -3226,7 +3226,7 @@
         },
         "action->Spray Perfume": {
           "name": "Spray Perfume",
-          "description": "<p>The flumph sprays a @Template[line|distance:20] of foul-smelling liquid. Each criatura caught in the spray must succeed at a @Check[fortitude|dc:16] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure).</p>\n<p>The odor from the spray lingers for [[/gmr 1d4 #Duration Spray Perfume]]{1d4 hours} on all criaturas that failed their saves. The sprayed criaturas can be detected by smell at a range of 100 pies, and any criaturas adjacent to them take a -2 penalización de circunstancia to saves against Spray Perfume or to recover from the sickened condition.</p>\n<p>The flumph can't use Spray Perfume again for [[/gmr 1d4 #Recharge Spray Perfume]]{1d4 rounds}.</p>"
+          "description": "<p>The flumph sprays a @Template[line|distance:20] of foul-smelling liquid. Each criatura caught in the spray must succeed at a @Check[fortitude|dc:16] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure).</p>\n<p>The odor from the spray lingers for [[/gmr 1d4 #Duration Spray Perfume]]{1d4 hours} on all criaturas that failed their saves. The sprayed criaturas can be detected by smell at a range of 100 pies, and any criaturas adjacent to them take a -2 penalización de circunstancia to saves against Spray Perfume or to recover from the sickened condition.</p>\n<p>The flumph can't use Spray Perfume again for [[/gmr 1d4 #Recharge Spray Perfume]]{1d4 asaltos}.</p>"
         },
         "lore->Dark Tapestry Lore": {
           "name": "Dark Tapestry LORE"
@@ -3281,7 +3281,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon unleashes a swarm of insects that deals @Damage[14d6[piercing]|options:area-damage] daño in a @Template[cone|distance:40] (@Check[reflex|dc:34|basic|options:area-effect] salvación) before dispersing.</p>\n<p>A criatura that critically fails is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} from the insects' venom; this is a poison effect.</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon unleashes a swarm of insects that deals @Damage[14d6[piercing]|options:area-damage] daño in a @Template[cone|distance:40] (@Check[reflex|dc:34|basic|options:area-effect] salvación) before dispersing.</p>\n<p>A criatura that critically fails is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} from the insects' venom; this is a poison effect.</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Coiling Frenzy": {
           "name": "Coiling Frenzy",
@@ -3289,7 +3289,7 @@
         },
         "action->Draconic Momentum": {
           "name": "Impulso dracónico",
-          "description": "<p>El dragón recarga Breath Weapon siempre que consigue un impacto crítico con un Golpe.</p>"
+          "description": "<p>El dragón recarga Arma de aliento siempre que consigue un impacto crítico con un Golpe.</p>"
         },
         "action->Draining Blight": {
           "name": "Draining Blight",
@@ -3385,7 +3385,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon unleashes a swarm of insects that deals @Damage[14d6[piercing]|options:area-damage] daño in a @Template[cone|distance:40] (@Check[reflex|dc:34|basic|options:area-effect] salvación) before dispersing.</p>\n<p>A criatura that critically fails is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} from the insects' venom; this is a poison effect.</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon unleashes a swarm of insects that deals @Damage[14d6[piercing]|options:area-damage] daño in a @Template[cone|distance:40] (@Check[reflex|dc:34|basic|options:area-effect] salvación) before dispersing.</p>\n<p>A criatura that critically fails is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} from the insects' venom; this is a poison effect.</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Draining Blight": {
           "name": "Draining Blight",
@@ -3455,7 +3455,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon unleashes a swarm of insects that deals @Damage[20d6[piercing]|options:area-damage] daño in a @Template[cone|distance:60] (@Check[reflex|dc:41|basic|options:area-effect] salvación) before dispersing.</p>\n<p>A criatura that critically fails is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} from the insects' venom; this is a poison effect.</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon unleashes a swarm of insects that deals @Damage[20d6[piercing]|options:area-damage] daño in a @Template[cone|distance:60] (@Check[reflex|dc:41|basic|options:area-effect] salvación) before dispersing.</p>\n<p>A criatura that critically fails is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} from the insects' venom; this is a poison effect.</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Coiling Frenzy": {
           "name": "Coiling Frenzy",
@@ -3463,7 +3463,7 @@
         },
         "action->Draconic Momentum": {
           "name": "Impulso dracónico",
-          "description": "<p>El dragón recarga Breath Weapon siempre que consigue un impacto crítico con un Golpe.</p>"
+          "description": "<p>El dragón recarga Arma de aliento siempre que consigue un impacto crítico con un Golpe.</p>"
         },
         "action->Draining Blight": {
           "name": "Draining Blight",
@@ -3569,7 +3569,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon unleashes a swarm of insects that deals @Damage[20d6[piercing]|options:area-damage] daño in a @Template[cone|distance:60] (@Check[reflex|dc:41|basic|options:area-effect] salvación) before dispersing.</p>\n<p>A criatura that critically fails is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} from the insects' venom; this is a poison effect.</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon unleashes a swarm of insects that deals @Damage[20d6[piercing]|options:area-damage] daño in a @Template[cone|distance:60] (@Check[reflex|dc:41|basic|options:area-effect] salvación) before dispersing.</p>\n<p>A criatura that critically fails is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} from the insects' venom; this is a poison effect.</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Draining Blight": {
           "name": "Draining Blight",
@@ -3639,7 +3639,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon unleashes a swarm of insects that deals @Damage[10d6[piercing]|options:area-damage] daño in a @Template[cone|distance:30] (@Check[reflex|dc:29|basic|options:area-effect] salvación) before dispersing.</p>\n<p>A criatura that critically fails is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} from the insects' venom; this is a poison effect.</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon unleashes a swarm of insects that deals @Damage[10d6[piercing]|options:area-damage] daño in a @Template[cone|distance:30] (@Check[reflex|dc:29|basic|options:area-effect] salvación) before dispersing.</p>\n<p>A criatura that critically fails is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} from the insects' venom; this is a poison effect.</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Coiling Frenzy": {
           "name": "Coiling Frenzy",
@@ -3650,7 +3650,7 @@
         },
         "action->Draconic Momentum": {
           "name": "Impulso dracónico",
-          "description": "<p>El dragón recarga Breath Weapon siempre que consigue un impacto crítico con un Golpe.</p>"
+          "description": "<p>El dragón recarga Arma de aliento siempre que consigue un impacto crítico con un Golpe.</p>"
         },
         "action->Woodland Stride": {
           "name": "Woodland Zancada",
@@ -3718,7 +3718,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon unleashes a swarm of insects that deals @Damage[10d6[piercing]|options:area-damage] daño in a @Template[cone|distance:30] (@Check[reflex|dc:29|basic|options:area-effect] salvación) before dispersing.</p>\n<p>A criatura that critically fails is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} from the insects' venom; this is a poison effect.</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon unleashes a swarm of insects that deals @Damage[10d6[piercing]|options:area-damage] daño in a @Template[cone|distance:30] (@Check[reflex|dc:29|basic|options:area-effect] salvación) before dispersing.</p>\n<p>A criatura that critically fails is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} from the insects' venom; this is a poison effect.</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV]\n<p>@Damage[(2d8+8)[bludgeoning]], @Check[fortitude|dc:29|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
@@ -4098,7 +4098,7 @@
         },
         "action->Emit Musk": {
           "name": "Emit Musk",
-          "description": "<p>The giant pangolin releases a disorienting and repulsive musk within a @Template[emanation|distance:5]. Each criatura in the area must attempt a @Check[fortitude|dc:20] salvación.</p>\n<p>The pangolin can't Emit Musk again for [[/gmr 1d4 #Recharge Emit Musk]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura becomes temporarily immune to pangolin musk for 1 minuto.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Fallo crítico</strong> The criatura becomes sickened 1 and is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} until no longer sickened.</p>"
+          "description": "<p>The giant pangolin releases a disorienting and repulsive musk within a @Template[emanation|distance:5]. Each criatura in the area must attempt a @Check[fortitude|dc:20] salvación.</p>\n<p>The pangolin can't Emit Musk again for [[/gmr 1d4 #Recharge Emit Musk]]{1d4 asaltos}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura becomes temporarily immune to pangolin musk for 1 minuto.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Fallo crítico</strong> The criatura becomes sickened 1 and is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} until no longer sickened.</p>"
         },
         "action->Roll Up": {
           "name": "Roll Up",
@@ -4456,11 +4456,11 @@
         },
         "action->Gremlin Lice": {
           "name": "Gremlin Lice",
-          "description": "<p>Siempre que a living criatura touches or is touched by a grimple (including via a successful unarmed melee Golpe), it must succeed at a @Check[reflex|dc:13] salvación or become infested by gremlin lice.</p>\n<p>While infested, the targeted criatura is distracted by the itching sensation and is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}, though it can use an INTERACT action to scratch at the itching lice to suppress the stupefied condition from the lice for [[/gmr 1d4 #Suppress Lice]]{1d4 rounds}.</p>\n<p>The infestation ends after 24 horas or until the criatura is submerged in water or exposed to a severe cold environment, whichever comes first.</p>"
+          "description": "<p>Siempre que a living criatura touches or is touched by a grimple (including via a successful unarmed melee Golpe), it must succeed at a @Check[reflex|dc:13] salvación or become infested by gremlin lice.</p>\n<p>While infested, the targeted criatura is distracted by the itching sensation and is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}, though it can use an INTERACT action to scratch at the itching lice to suppress the stupefied condition from the lice for [[/gmr 1d4 #Suppress Lice]]{1d4 asaltos}.</p>\n<p>The infestation ends after 24 horas or until the criatura is submerged in water or exposed to a severe cold environment, whichever comes first.</p>"
         },
         "action->Putrid Vomit": {
           "name": "Putrid Vomit",
-          "description": "<p>The grimple spews a @Template[line|distance:30] of vomit. Each criatura in the line must succeed at a @Check[fortitude|dc:16] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure).</p>\n<p>The grimple can't use Putrid Vomit again for [[/gmr 1d4 #Recharge Putrid Vomit]]{1d4 rounds}.</p>"
+          "description": "<p>The grimple spews a @Template[line|distance:30] of vomit. Each criatura in the line must succeed at a @Check[fortitude|dc:16] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure).</p>\n<p>The grimple can't use Putrid Vomit again for [[/gmr 1d4 #Recharge Putrid Vomit]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -4733,7 +4733,7 @@
         },
         "action->Shriek": {
           "name": "Shriek",
-          "description": "<p>The harpy skeleton emits an unearthly, bone-chilling scream that deals @Damage[4d10[mental]|options:area-damage] daño to all criaturas in a @Template[cone|distance:30] (@Check[will|dc:26|basic|options:area-effect,inflicts:asustado] salvación). A criatura that fails its save is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} (or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} on a critical failure).</p>\n<p>The harpy skeleton can't Shriek again for [[/gmr 1d4 #Recharge Shriek]]{1d4 rounds}.</p>"
+          "description": "<p>The harpy skeleton emits an unearthly, bone-chilling scream that deals @Damage[4d10[mental]|options:area-damage] daño to all criaturas in a @Template[cone|distance:30] (@Check[will|dc:26|basic|options:area-effect,inflicts:asustado] salvación). A criatura that fails its save is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} (or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} on a critical failure).</p>\n<p>The harpy skeleton can't Shriek again for [[/gmr 1d4 #Recharge Shriek]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -4859,7 +4859,7 @@
         },
         "action->Send Beyond": {
           "name": "Send Beyond",
-          "description": "<p><strong>Requisitos</strong> The titan has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}</p>\n<hr />\n<p><strong>Efecto</strong> The titan thrusts the criatura into a nightmare realm full of lightless hands and eyes. Este has the effects of @UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]{Quandary} (DC 48), but the criatura can use OCCULTISM to escape in addition to Perception or SURVIVAL. The titan can't use Send Beyond for [[/gmr 1d4 #Recharge Send Beyond]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Requisitos</strong> The titan has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}</p>\n<hr />\n<p><strong>Efecto</strong> The titan thrusts the criatura into a nightmare realm full of lightless hands and eyes. Este has the effects of @UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]{Quandary} (DC 48), but the criatura can use OCCULTISM to escape in addition to Perception or SURVIVAL. The titan can't use Send Beyond for [[/gmr 1d4 #Recharge Send Beyond]]{1d4 asaltos}.</p>"
         },
         "action->Shape Void": {
           "name": "Shape Void",
@@ -4927,7 +4927,7 @@
         },
         "action->Torturous Buzz": {
           "name": "Torturous Buzz",
-          "description": "<p>The swarm emits a distracting, cacophonous buzzing. Each criatura within @Template[emanation|distance:20]{20 pies} must attempt a @Check[will|dc:26] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected and temporarily immune for 1 minuto.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 asalto.</p>\n<p><strong>Fallo crítico</strong> The criatura is confused for [[/gmr 1d4 #Duration Confused]]{1d4 rounds}.</p>"
+          "description": "<p>The swarm emits a distracting, cacophonous buzzing. Each criatura within @Template[emanation|distance:20]{20 pies} must attempt a @Check[will|dc:26] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected and temporarily immune for 1 minuto.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 asalto.</p>\n<p><strong>Fallo crítico</strong> The criatura is confused for [[/gmr 1d4 #Duration Confused]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -5035,7 +5035,7 @@
           "name": "Sunset Ray"
         },
         "action->Tied to the Land": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UHuA1hue5xrRM6KK]\nTied to the Land",
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UHuA1hue5xrRM6KK]\nLigado a la tierra",
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UHuA1hue5xrRM6KK]\n<p>A hesperid queen is intrinsically tied to a isolated region, usually an island or island chain, a remote coast, or secluded valley. As long as the queen is healthy, the environment is exceptionally resilient, allowing the hesperid queen to automatically attempt to counteract conjuros and rituals such as @UUID[Compendium.pf2e.spells-srd.Item.7yWXx3qC4eFNHhxD]{Blight} that would harm the environment, with a [[/r 1d20+37 #Counteract]]{+37} counteract modifier and a counteract rank of 10.</p>\n<p>When the hesperid queen becomes physically or psychologically unhealthy, however, her warded region eventually becomes twisted or unhealthy as well. In that case, restoring the hesperid queen swiftly heals the entire region.</p>"
         },
         "action->Nymph's Beauty": {
@@ -5115,7 +5115,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The house drake breathes a @Template[cone|distance:10] of silver mist. Each criatura within the mist must succeed at a @Check[will|dc:16|options:area-effect] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 asalto.</p>\n<p>The house drake can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The house drake breathes a @Template[cone|distance:10] of silver mist. Each criatura within the mist must succeed at a @Check[will|dc:16|options:area-effect] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 asalto.</p>\n<p>The house drake can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Silver Strike": {
           "name": "Silver Golpe",
@@ -5561,7 +5561,7 @@
         },
         "action->Unsettled Mind": {
           "name": "Unsettled Mind",
-          "description": "<p>Any criatura affected by any of a kimenhul's mental conjuros or abilities becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 3} for the duration of that effect and for [[/gmr 1d4 #Duration Stupefied]]{1d4 rounds} thereafter.</p>"
+          "description": "<p>Any criatura affected by any of a kimenhul's mental conjuros or abilities becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 3} for the duration of that effect and for [[/gmr 1d4 #Duration Stupefied]]{1d4 asaltos} thereafter.</p>"
         }
       }
     },
@@ -5605,7 +5605,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The kirin breathes fire in a @Template[cone|distance:30], dealing @Damage[8d6[fire]|options:area-damage] daño (@Check[reflex|dc:25|basic|options:area-effect] salvación).</p>\n<p>The kirin can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The kirin breathes fire in a @Template[cone|distance:30], dealing @Damage[8d6[fire]|options:area-damage] daño (@Check[reflex|dc:25|basic|options:area-effect] salvación).</p>\n<p>The kirin can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Rearing Thrust": {
           "name": "Rearing Thrust",
@@ -5900,7 +5900,7 @@
           "description": "<p><strong>Requisitos</strong> Krampus has a Medium or smaller criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}</p>\n<hr />\n<p><strong>Efecto</strong> Krampus attempts to stuff the grabbed criatura into his basket, attempting an @Check[athletics|against:reflex] check against el objetivo's Reflex DC. If he succeeds, the criatura is shoved into Krampus's basket and Krampus's spiked chain or claw is freed for future Golpes.</p>\n<p>The captured criatura is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}, and subjected to Krampus's regression ability at the start of each round it is captured.</p>\n<p>If the victim [[/act escape dc=48]]{Escapes}, it climbs out of the basket. A captured criatura can attack the interior of the basket, but only with ataques sin armas or armas of light Bulk or less, against an AC of 40. If the captured criatura deals 40 slashing or daño perforante, the basket is broken and all the criaturas inside spill out. A criatura that gets free by either Escaping or by someone breaking the basket is deposited in a square of their choosing adjacent to Krampus.</p>\n<p>The basket is an extradimensional space, so the weight of the criaturas within doesn't count against Krampus's Bulk limit. Up to four Small criaturas or two Medium criaturas can fit in the basket at one time.</p>\n<p>Krampus can @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{REPAIR} the basket as a 2-action activity that doesn't require tools. If the basket is lost or destroyed, Krampus can create a new one with 1 hora of work. The basket functions as a normal sack if used by anyone other than Krampus.</p>"
         },
         "action->Punish the Naughty": {
-          "name": "Punish the Naughty",
+          "name": "Castigar a los traviesos",
           "description": "<p>Krampus designates a single target he can see as \"naughty.\" He gains a +2 bonificador de circunstancia to Perception checks when he @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seeks} the naughty target and a +2 bonificador de circunstancia to SURVIVAL checks to @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Track} the naughty target.</p>\n<p>On melee attacks against the naughty target, Krampus's spiked chain gains the agile rasgo. In addition, when Krampus @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabs} the naughty target, he can attempt to Capture them as a free action. Krampus can have only one naughty target at a time.</p>"
         },
         "action->Regression": {
@@ -5928,7 +5928,7 @@
         },
         "action->Compulsive Counting": {
           "name": "Compulsive Counting",
-          "description": "<p>When numerous small items are scattered before the kuchisake-onna, they compulsively begins to count them. The kuchisake-onna becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all criaturas for [[/gmr 1d4 #Duration Desprevenido]]{1d4 rounds}.</p>"
+          "description": "<p>When numerous small items are scattered before the kuchisake-onna, they compulsively begins to count them. The kuchisake-onna becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all criaturas for [[/gmr 1d4 #Duration Desprevenido]]{1d4 asaltos}.</p>"
         },
         "action->Am I Pretty?": {
           "name": "Am I Pretty?",
@@ -6100,7 +6100,7 @@
           "description": "<p>The lampad queen can use DIPLOMACY to [[/act make-an-impression]] on and make very simple [[/act request]]{Requests} of subterranean animals, plants, and fungi, as well as stones.</p>"
         },
         "action->Tied to the Land": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UHuA1hue5xrRM6KK]\nTied to the Land",
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UHuA1hue5xrRM6KK]\nLigado a la tierra",
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UHuA1hue5xrRM6KK]\n<p>A lampad queen is intrinsically tied to a specific underground region, usually a cave system. As long as the queen is healthy, the environment is exceptionally resilient, allowing the lampad queen to automatically attempt to counteract conjuros and rituals such as @UUID[Compendium.pf2e.spells-srd.Item.7yWXx3qC4eFNHhxD]{Blight} that would harm the environment, with a [[/r 1d20+30 #Counteract]]{+30} counteract modifier and a counteract rank of 8.</p>\n<p>When the lampad queen becomes physically or psychologically unhealthy, however, her warded region eventually becomes twisted or unhealthy as well. In that case, restoring the lampad queen swiftly heals the entire region.</p>"
         },
         "action->Nymph's Beauty": {
@@ -6358,7 +6358,7 @@
         },
         "action->Cone of Chalk": {
           "name": "Cone of Chalk",
-          "description": "<p>The living graffiti expels a @Template[cone|distance:15] of chalk. Each criatura in the area must succeed at a @Check[reflex|dc:20] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 asalto or until it Interacts to wipe the chalk from its eyes.</p>\n<p>The living graffiti can't use Cone of Chalk again for [[/gmr 1d4 #Recharge Cone of Chalk]]{1d4 rounds}.</p>"
+          "description": "<p>The living graffiti expels a @Template[cone|distance:15] of chalk. Each criatura in the area must succeed at a @Check[reflex|dc:20] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 asalto or until it Interacts to wipe the chalk from its eyes.</p>\n<p>The living graffiti can't use Cone of Chalk again for [[/gmr 1d4 #Recharge Cone of Chalk]]{1d4 asaltos}.</p>"
         },
         "action->Splatter": {
           "name": "Splatter",
@@ -6442,7 +6442,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.MlpbeZ61Euhl0d60]\nCloudkill"
         },
         "spell->Glyph of Warding (At Will)": {
-          "name": "Glyph of Warding (At Will)",
+          "name": "Glifo custodio (a voluntad)",
           "description": "<p>Creas a trap by binding a hostile conjuro into a symbol. While Casting this Spell, tú also Lanzar un conjuro of a lower conjuro rank to store in the glyph. The stored conjuro must take 3 actions or fewer to cast, have a hostile effect, and target one criatura or have an area. Puedes set a password, a trigger, or both for the glyph. Any criatura that moves, opens, or touches el objetivo container or enters el objetivo area that doesn't speak the password or that matches the trigger activates the glyph, releasing the harmful conjuro within.</p>\n<p>Once a conjuro is stored in the glyph, the glyph gains all the rasgos of that conjuro. If the stored conjuro targets one or more criaturas, it targets the criatura that set off the glyph. If it has an area, that area is centered on the criatura that set off the glyph. Glyph of warding's duration ends when the glyph is triggered. The glyph counts as a magical trap, using tu conjuro DC for both the Perception check to notice it and the THIEVERY check to disable it; both checks require the criatura attempting them to be entrenado in order to succeed.</p>\n<p>Puedes Dismiss glyph of warding. The maximum number of glyphs of warding puedes have active at a time is equal to tu spellcasting ability modifier.</p>",
           "target": "1 container or a 10-pies-by-10-pies area"
         },
@@ -6478,7 +6478,7 @@
           "name": "Divine Innate Spells"
         },
         "spell->Glyph of Warding (At Will)": {
-          "name": "Glyph of Warding (At Will)",
+          "name": "Glifo custodio (a voluntad)",
           "description": "<p>Creas a trap by binding a hostile conjuro into a symbol. While Casting this Spell, tú also Lanzar un conjuro of a lower conjuro rank to store in the glyph. The stored conjuro must take 3 actions or fewer to cast, have a hostile effect, and target one criatura or have an area. Puedes set a password, a trigger, or both for the glyph. Any criatura that moves, opens, or touches el objetivo container or enters el objetivo area that doesn't speak the password or that matches the trigger activates the glyph, releasing the harmful conjuro within.</p>\n<p>Once a conjuro is stored in the glyph, the glyph gains all the rasgos of that conjuro. If the stored conjuro targets one or more criaturas, it targets the criatura that set off the glyph. If it has an area, that area is centered on the criatura that set off the glyph. Glyph of warding's duration ends when the glyph is triggered. The glyph counts as a magical trap, using tu conjuro DC for both the Perception check to notice it and the THIEVERY check to disable it; both checks require the criatura attempting them to be entrenado in order to succeed.</p>\n<p>Puedes Dismiss glyph of warding. The maximum number of glyphs of warding puedes have active at a time is equal to tu spellcasting ability modifier.</p>",
           "target": "1 container or a 10-pies-by-10-pies area"
         },
@@ -6523,7 +6523,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.GaRQlC9Yw1BGKHfN]\nCrushing Despair"
         },
         "spell->Glyph of Warding (At Will)": {
-          "name": "Glyph of Warding (At Will)",
+          "name": "Glifo custodio (a voluntad)",
           "description": "<p>Creas a trap by binding a hostile conjuro into a symbol. While Casting this Spell, tú also Lanzar un conjuro of a lower conjuro rank to store in the glyph. The stored conjuro must take 3 actions or fewer to cast, have a hostile effect, and target one criatura or have an area. Puedes set a password, a trigger, or both for the glyph. Any criatura that moves, opens, or touches el objetivo container or enters el objetivo area that doesn't speak the password or that matches the trigger activates the glyph, releasing the harmful conjuro within.</p>\n<p>Once a conjuro is stored in the glyph, the glyph gains all the rasgos of that conjuro. If the stored conjuro targets one or more criaturas, it targets the criatura that set off the glyph. If it has an area, that area is centered on the criatura that set off the glyph. Glyph of warding's duration ends when the glyph is triggered. The glyph counts as a magical trap, using tu conjuro DC for both the Perception check to notice it and the THIEVERY check to disable it; both checks require the criatura attempting them to be entrenado in order to succeed.</p>\n<p>Puedes Dismiss glyph of warding. The maximum number of glyphs of warding puedes have active at a time is equal to tu spellcasting ability modifier.</p>",
           "target": "1 container or a 10-pies-by-10-pies area"
         },
@@ -6569,7 +6569,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]\nTrue Seeing (Constant)"
         },
         "spell->Glyph of Warding (At Will)": {
-          "name": "Glyph of Warding (At Will)",
+          "name": "Glifo custodio (a voluntad)",
           "description": "<p>Creas a trap by binding a hostile conjuro into a symbol. While Casting this Spell, tú also Lanzar un conjuro of a lower conjuro rank to store in the glyph. The stored conjuro must take 3 actions or fewer to cast, have a hostile effect, and target one criatura or have an area. Puedes set a password, a trigger, or both for the glyph. Any criatura that moves, opens, or touches el objetivo container or enters el objetivo area that doesn't speak the password or that matches the trigger activates the glyph, releasing the harmful conjuro within.</p>\n<p>Once a conjuro is stored in the glyph, the glyph gains all the rasgos of that conjuro. If the stored conjuro targets one or more criaturas, it targets the criatura that set off the glyph. If it has an area, that area is centered on the criatura that set off the glyph. Glyph of warding's duration ends when the glyph is triggered. The glyph counts as a magical trap, using tu conjuro DC for both the Perception check to notice it and the THIEVERY check to disable it; both checks require the criatura attempting them to be entrenado in order to succeed.</p>\n<p>Puedes Dismiss glyph of warding. The maximum number of glyphs of warding puedes have active at a time is equal to tu spellcasting ability modifier.</p>",
           "target": "1 container or a 10-pies-by-10-pies area"
         },
@@ -7286,7 +7286,7 @@
         },
         "action->Song of the Swamp": {
           "name": "Song of the Swamp",
-          "description": "<p><strong>Frecuencia</strong> once per 10 minutos</p>\n<hr />\n<p><strong>Efecto</strong> The mobogo unleashes a booming croak. All boggards and mobogos within @Template[emanation|distance:50]{50 pies} gain a +2 bonificador de estado to tiradas de daño and saves against fear for 1 asalto. Other criaturas in the area of effect must attempt a @Check[will|dc:27] salvación.</p>\n<hr />\n<p><strong>Éxito</strong> The criatura is unaffected and is temporarily immune for 24 horas.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for [[/gmr 1d4 #Duration Slowed]]{1d4 rounds}.</p>\n<p><strong>Fallo crítico</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} for [[/gmr 1d4 #Duration Slowed]]{1d4 rounds}.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.hftFxE8JGJGzXAtU]{Efecto: Song of the Swamp}</p>"
+          "description": "<p><strong>Frecuencia</strong> once per 10 minutos</p>\n<hr />\n<p><strong>Efecto</strong> The mobogo unleashes a booming croak. All boggards and mobogos within @Template[emanation|distance:50]{50 pies} gain a +2 bonificador de estado to tiradas de daño and saves against fear for 1 asalto. Other criaturas in the area of effect must attempt a @Check[will|dc:27] salvación.</p>\n<hr />\n<p><strong>Éxito</strong> The criatura is unaffected and is temporarily immune for 24 horas.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for [[/gmr 1d4 #Duration Slowed]]{1d4 asaltos}.</p>\n<p><strong>Fallo crítico</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} for [[/gmr 1d4 #Duration Slowed]]{1d4 asaltos}.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.hftFxE8JGJGzXAtU]{Efecto: Song of the Swamp}</p>"
         },
         "action->Swallow Whole": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]\n<p>Large, @Damage[(2d12+6)[bludgeoning]], Rupture 19</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
@@ -7790,7 +7790,7 @@
         },
         "action->Blazing Admonition": {
           "name": "Blazing Admonition",
-          "description": "<p>Heat scorches those who lay eyes on the nightmarchers. All criaturas in a @Template[cone|distance:60] take @Damage[15d6[fire]|options:area-damage] daño (@Check[reflex|dc:34|basic|options:area-effect] salvación).</p>\n<p>@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} criaturas and the nightmarchers' kin are unaffected as long as they have not taken a hostile action against the nightmarchers.</p>\n<p>The nightmarchers can't use Blazing Admonition for [[/gmr 1d4 #Recharge Blazing Admonition]]{1d4 rounds}.</p>"
+          "description": "<p>Heat scorches those who lay eyes on the nightmarchers. All criaturas in a @Template[cone|distance:60] take @Damage[15d6[fire]|options:area-damage] daño (@Check[reflex|dc:34|basic|options:area-effect] salvación).</p>\n<p>@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} criaturas and the nightmarchers' kin are unaffected as long as they have not taken a hostile action against the nightmarchers.</p>\n<p>The nightmarchers can't use Blazing Admonition for [[/gmr 1d4 #Recharge Blazing Admonition]]{1d4 asaltos}.</p>"
         },
         "action->Missile Volley": {
           "name": "Missile Volley",
@@ -7843,7 +7843,7 @@
           "target": "1 criatura"
         },
         "spell->Invisibility (At Will) (Self Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibility (At Will) (Self Only)",
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibilidad (a voluntad, solo personal)",
           "target": "uno mismo"
         },
         "spell->Restore Senses": {
@@ -8575,7 +8575,7 @@
         },
         "action->Wildfire Storm": {
           "name": "Wildfire Storm",
-          "description": "<p>The peri spreads their wings and spins, forming a whirlwind of flame that deals @Damage[15d6[fire]|options:area-damage] daño in a @Template[emanation|distance:20] (@Check[reflex|dc:34|basic|options:area-effect] salvación).</p>\n<p>They can't use Wildfire Storm again for [[/gmr 1d4 #Recharge Wildfire Storm]]{1d4 rounds}.</p>"
+          "description": "<p>The peri spreads their wings and spins, forming a whirlwind of flame that deals @Damage[15d6[fire]|options:area-damage] daño in a @Template[emanation|distance:20] (@Check[reflex|dc:34|basic|options:area-effect] salvación).</p>\n<p>No puede volver a usar Wildfire Storm durante [[/gmr 1d4 #Recharge Wildfire Storm]]{1d4 asaltos}.</p>"
         },
         "lore->Lore (Any one Celestial Plane)": {
           "name": "Saber (Any one Celestial Plane)"
@@ -8903,7 +8903,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.KHnhPHL4x1AQHfbC]\nLectura de la mente (a voluntad)"
         },
         "spell->Invisibility (At Will) (Self Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibility (At Will) (Self Only)",
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibilidad (a voluntad, solo personal)",
           "target": "uno mismo"
         },
         "strike-melee->Tendril": {
@@ -9008,7 +9008,7 @@
           "name": "Garra"
         },
         "action->Attack of Opportunity (Jaws Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O]\nAttack of Opportunity (Jaws Only)",
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O]\nAtaque de oportunidad (solo mandíbulas)",
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O]\n<p>Jaws Only</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
         "action->Drink Oil": {
@@ -9249,7 +9249,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon shoots a ball of water that deals @Damage[13d6[bludgeoning]|options:area-damage] daño in a @Template[burst|distance:25] within 50 pies (@Check[reflex|dc:32|basic|options:area-effect] salvación). All non-magical fire in the radius is extinguished.</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon shoots a ball of water that deals @Damage[13d6[bludgeoning]|options:area-damage] daño in a @Template[burst|distance:25] within 50 pies (@Check[reflex|dc:32|basic|options:area-effect] salvación). All non-magical fire in the radius is extinguished.</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Coiling Frenzy": {
           "name": "Coiling Frenzy",
@@ -9257,7 +9257,7 @@
         },
         "action->Draconic Momentum": {
           "name": "Impulso dracónico",
-          "description": "<p>El dragón recarga Breath Weapon siempre que consigue un impacto crítico con un Golpe.</p>"
+          "description": "<p>El dragón recarga Arma de aliento siempre que consigue un impacto crítico con un Golpe.</p>"
         },
         "action->Greater Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.OmV6E3aELvq9CkK1]\n<p>@Damage[(3d8+6)[bludgeoning]], @Check[fortitude|dc:30|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
@@ -9351,7 +9351,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon shoots a ball of water that deals @Damage[13d6[bludgeoning]|options:area-damage] daño in a @Template[burst|distance:25] within 50 pies (@Check[reflex|dc:32|basic|options:area-effect] salvación). All non-magical fire in the radius is extinguished.</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon shoots a ball of water that deals @Damage[13d6[bludgeoning]|options:area-damage] daño in a @Template[burst|distance:25] within 50 pies (@Check[reflex|dc:32|basic|options:area-effect] salvación). All non-magical fire in the radius is extinguished.</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Greater Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.OmV6E3aELvq9CkK1]\n<p>@Damage[(3d8+6)[bludgeoning]], @Check[fortitude|dc:30|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
@@ -9419,7 +9419,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon shoots a ball of water that deals @Damage[18d6[bludgeoning]|options:area-damage] daño in a @Template[burst|distance:30] within 60 pies (@Check[reflex|dc:38|basic|options:area-effect] salvación). All non-magical fire in the radius is extinguished.</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon shoots a ball of water that deals @Damage[18d6[bludgeoning]|options:area-damage] daño in a @Template[burst|distance:30] within 60 pies (@Check[reflex|dc:38|basic|options:area-effect] salvación). All non-magical fire in the radius is extinguished.</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Coiling Frenzy": {
           "name": "Coiling Frenzy",
@@ -9427,7 +9427,7 @@
         },
         "action->Draconic Momentum": {
           "name": "Impulso dracónico",
-          "description": "<p>El dragón recarga Breath Weapon siempre que consigue un impacto crítico con un Golpe.</p>"
+          "description": "<p>El dragón recarga Arma de aliento siempre que consigue un impacto crítico con un Golpe.</p>"
         },
         "action->Greater Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.OmV6E3aELvq9CkK1]\n<p>@Damage[(3d10+8)[bludgeoning]], @Check[fortitude|dc:38|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
@@ -9534,7 +9534,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon shoots a ball of water that deals @Damage[18d6[bludgeoning]|options:area-damage] daño in a @Template[burst|distance:30] within 60 pies (@Check[reflex|dc:38|basic|options:area-effect] salvación). All non-magical fire in the radius is extinguished.</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon shoots a ball of water that deals @Damage[18d6[bludgeoning]|options:area-damage] daño in a @Template[burst|distance:30] within 60 pies (@Check[reflex|dc:38|basic|options:area-effect] salvación). All non-magical fire in the radius is extinguished.</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Greater Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.OmV6E3aELvq9CkK1]\n<p>@Damage[(3d10+8)[bludgeoning]], @Check[fortitude|dc:38|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
@@ -9597,7 +9597,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon shoots a ball of water that deals @Damage[9d6[bludgeoning]|options:area-damage] daño in a @Template[burst|distance:20] within 40 pies (@Check[reflex|dc:26|basic|options:area-effect] salvación). All non-magical fire in the radius is extinguished.</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon shoots a ball of water that deals @Damage[9d6[bludgeoning]|options:area-damage] daño in a @Template[burst|distance:20] within 40 pies (@Check[reflex|dc:26|basic|options:area-effect] salvación). All non-magical fire in the radius is extinguished.</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Coiling Frenzy": {
           "name": "Coiling Frenzy",
@@ -9608,7 +9608,7 @@
         },
         "action->Draconic Momentum": {
           "name": "Impulso dracónico",
-          "description": "<p>El dragón recarga Breath Weapon siempre que consigue un impacto crítico con un Golpe.</p>"
+          "description": "<p>El dragón recarga Arma de aliento siempre que consigue un impacto crítico con un Golpe.</p>"
         },
         "action->Hyponatremia": {
           "name": "Hyponatremia",
@@ -9671,7 +9671,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon shoots a ball of water that deals @Damage[9d6[bludgeoning]|options:area-damage] daño in a @Template[burst|distance:20] within 40 pies (@Check[reflex|dc:26|basic|options:area-effect] salvación). All non-magical fire in the radius is extinguished.</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon shoots a ball of water that deals @Damage[9d6[bludgeoning]|options:area-damage] daño in a @Template[burst|distance:20] within 40 pies (@Check[reflex|dc:26|basic|options:area-effect] salvación). All non-magical fire in the radius is extinguished.</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV]\n<p>@Damage[(2d8+6)[bludgeoning]], @Check[fortitude|dc:26|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
@@ -9729,7 +9729,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.KHnhPHL4x1AQHfbC]\nLectura de la mente (a voluntad)"
         },
         "spell->Invisibility (At Will) (Self Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibility (At Will) (Self Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibilidad (a voluntad, solo personal)"
         },
         "spell->Remove Fear": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.EfFMLVbmkBWmzoLF]\nRemove Fear",
@@ -9814,7 +9814,7 @@
         },
         "action->Rain of Debris": {
           "name": "Rain of Debris",
-          "description": "<p>The sepid calls forth a hail of stone, wood, metal, and similar debris in a @Template[emanation|distance:40], dealing @Damage[10d6[bludgeoning],5d6[spirit]|options:area-damage]{10d6 daño contundente and 5d6 daño de espíritu}. Each criatura in the area other than the sepid must attempt a @Check[reflex|dc:31|basic|options:area-effect] tirada de salvación.</p>\n<p>The sepid can't use Rain of Debris again for [[/gmr 1d4 #Recharge Rain of Debris]]{1d4 rounds}.</p>"
+          "description": "<p>The sepid calls forth a hail of stone, wood, metal, and similar debris in a @Template[emanation|distance:40], dealing @Damage[10d6[bludgeoning],5d6[spirit]|options:area-damage]{10d6 daño contundente and 5d6 daño de espíritu}. Each criatura in the area other than the sepid must attempt a @Check[reflex|dc:31|basic|options:area-effect] tirada de salvación.</p>\n<p>The sepid can't use Rain of Debris again for [[/gmr 1d4 #Recharge Rain of Debris]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -10311,7 +10311,7 @@
         },
         "action->Countered by Fire": {
           "name": "Countered by Fire",
-          "description": "<p>If the sky dragon takes daño de fuego, the elemental magic of metal within them is tempered. Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque and AC, and their jaws Golpes don't deal daño de electricidad. Este limitation ends if the dragon uses Breath Weapon.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.a4bZrBNL17zPjDiH]{Efecto: Countered by Fire}</p>"
+          "description": "<p>If the sky dragon takes daño de fuego, the elemental magic of metal within them is tempered. Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque and AC, and their jaws Golpes don't deal daño de electricidad. Este limitation ends if the dragon uses Arma de aliento.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.a4bZrBNL17zPjDiH]{Efecto: Countered by Fire}</p>"
         },
         "action->Fed by Earth": {
           "name": "Fed by Earth",
@@ -10322,7 +10322,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon shoots a ball of electricity that deals @Damage[7d12[electricity]|options:area-damage] daño in a @Template[burst|distance:25] within 50 pies (@Check[reflex|dc:33|basic|options:area-effect] salvación).</p>\n<p>They can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon shoots a ball of electricity that deals @Damage[7d12[electricity]|options:area-damage] daño in a @Template[burst|distance:25] within 50 pies (@Check[reflex|dc:33|basic|options:area-effect] salvación).</p>\n<p>No puede volver a usar su arma de aliento durante [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Coiling Frenzy": {
           "name": "Coiling Frenzy",
@@ -10334,7 +10334,7 @@
         },
         "action->Draconic Momentum": {
           "name": "Impulso dracónico",
-          "description": "<p>El dragón recarga Breath Weapon siempre que consigue un impacto crítico con un Golpe.</p>"
+          "description": "<p>El dragón recarga Arma de aliento siempre que consigue un impacto crítico con un Golpe.</p>"
         },
         "action->Greater Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.OmV6E3aELvq9CkK1]\n<p>@Damage[(3d8+8)[bludgeoning]], @Check[fortitude|dc:33|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
@@ -10380,7 +10380,7 @@
           "requirements": "foco de campana de plata de 3 po"
         },
         "spell->Detect Alignment (At Will) (Evil Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetect Alignment (At Will) (Evil Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetectar alineamiento (a voluntad, solo mal)"
         },
         "spell->Feather Fall": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.TTwOKGqmZeKSyNMH]\nFeather Fall"
@@ -10401,7 +10401,7 @@
         },
         "action->Countered by Fire": {
           "name": "Countered by Fire",
-          "description": "<p>If the sky dragon takes daño de fuego, the elemental magic of metal within them is tempered. Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque and AC, and their jaws Golpes don't deal daño de electricidad. Este limitation ends if the dragon uses Breath Weapon.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.a4bZrBNL17zPjDiH]{Efecto: Countered by Fire}</p>"
+          "description": "<p>If the sky dragon takes daño de fuego, the elemental magic of metal within them is tempered. Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque and AC, and their jaws Golpes don't deal daño de electricidad. Este limitation ends if the dragon uses Arma de aliento.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.a4bZrBNL17zPjDiH]{Efecto: Countered by Fire}</p>"
         },
         "action->Fed by Earth": {
           "name": "Fed by Earth",
@@ -10412,7 +10412,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon shoots a ball of electricity that deals @Damage[7d12[electricity]|options:area-damage] daño in a @Template[burst|distance:25] within 50 pies (@Check[reflex|dc:33|basic|options:area-effect] salvación).</p>\n<p>They can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon shoots a ball of electricity that deals @Damage[7d12[electricity]|options:area-damage] daño in a @Template[burst|distance:25] within 50 pies (@Check[reflex|dc:33|basic|options:area-effect] salvación).</p>\n<p>No puede volver a usar su arma de aliento durante [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Divine Lightning": {
           "name": "Divine Lightning",
@@ -10457,7 +10457,7 @@
         },
         "action->Countered by Fire": {
           "name": "Countered by Fire",
-          "description": "<p>If the sky dragon takes daño de fuego, the elemental magic of metal within them is tempered. Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque and AC, and their jaws Golpes don't deal daño de electricidad. Este limitation ends if the dragon uses Breath Weapon.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.a4bZrBNL17zPjDiH]{Efecto: Countered by Fire}</p>"
+          "description": "<p>If the sky dragon takes daño de fuego, the elemental magic of metal within them is tempered. Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque and AC, and their jaws Golpes don't deal daño de electricidad. Este limitation ends if the dragon uses Arma de aliento.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.a4bZrBNL17zPjDiH]{Efecto: Countered by Fire}</p>"
         },
         "action->Fed by Earth": {
           "name": "Fed by Earth",
@@ -10468,7 +10468,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon shoots a ball of electricity that deals @Damage[9d12[electricity],2d12[sonic]|options:area-damage] in a @Template[burst|distance:30] within 60 pies (@Check[reflex|dc:40|basic|options:area-effect] salvación).</p>\n<p>They can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon shoots a ball of electricity that deals @Damage[9d12[electricity],2d12[sonic]|options:area-damage] in a @Template[burst|distance:30] within 60 pies (@Check[reflex|dc:40|basic|options:area-effect] salvación).</p>\n<p>No puede volver a usar su arma de aliento durante [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Coiling Frenzy": {
           "name": "Coiling Frenzy",
@@ -10480,7 +10480,7 @@
         },
         "action->Draconic Momentum": {
           "name": "Impulso dracónico",
-          "description": "<p>El dragón recarga Breath Weapon siempre que consigue un impacto crítico con un Golpe.</p>"
+          "description": "<p>El dragón recarga Arma de aliento siempre que consigue un impacto crítico con un Golpe.</p>"
         },
         "action->Greater Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.OmV6E3aELvq9CkK1]\n<p>@Damage[(3d10+11)[bludgeoning]], @Check[fortitude|dc:40|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
@@ -10536,7 +10536,7 @@
           "requirements": "foco de campana de plata de 3 po"
         },
         "spell->Detect Alignment (At Will) (Evil Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetect Alignment (At Will) (Evil Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetectar alineamiento (a voluntad, solo mal)"
         },
         "spell->Feather Fall": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.TTwOKGqmZeKSyNMH]\nFeather Fall"
@@ -10557,7 +10557,7 @@
         },
         "action->Countered by Fire": {
           "name": "Countered by Fire",
-          "description": "<p>If the sky dragon takes daño de fuego, the elemental magic of metal within them is tempered. Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque and AC, and their jaws Golpes don't deal daño de electricidad. Este limitation ends if the dragon uses Breath Weapon.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.a4bZrBNL17zPjDiH]{Efecto: Countered by Fire}</p>"
+          "description": "<p>If the sky dragon takes daño de fuego, the elemental magic of metal within them is tempered. Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque and AC, and their jaws Golpes don't deal daño de electricidad. Este limitation ends if the dragon uses Arma de aliento.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.a4bZrBNL17zPjDiH]{Efecto: Countered by Fire}</p>"
         },
         "action->Fed by Earth": {
           "name": "Fed by Earth",
@@ -10568,7 +10568,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon shoots a ball of electricity that deals @Damage[9d12[electricity],2d12[sonic]|options:area-damage] in a @Template[burst|distance:30] within 60 pies (@Check[reflex|dc:40|basic|options:area-effect] salvación).</p>\n<p>They can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon shoots a ball of electricity that deals @Damage[9d12[electricity],2d12[sonic]|options:area-damage] in a @Template[burst|distance:30] within 60 pies (@Check[reflex|dc:40|basic|options:area-effect] salvación).</p>\n<p>No puede volver a usar su arma de aliento durante [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Divine Lightning": {
           "name": "Divine Lightning",
@@ -10613,7 +10613,7 @@
         },
         "action->Countered by Fire": {
           "name": "Countered by Fire",
-          "description": "<p>If the sky dragon takes daño de fuego, the elemental magic of metal within them is tempered. Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque and AC, and their jaws Golpes don't deal daño de electricidad. Este limitation ends if the dragon uses Breath Weapon.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.a4bZrBNL17zPjDiH]{Efecto: Countered by Fire}</p>"
+          "description": "<p>If the sky dragon takes daño de fuego, the elemental magic of metal within them is tempered. Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque and AC, and their jaws Golpes don't deal daño de electricidad. Este limitation ends if the dragon uses Arma de aliento.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.a4bZrBNL17zPjDiH]{Efecto: Countered by Fire}</p>"
         },
         "action->Fed by Earth": {
           "name": "Fed by Earth",
@@ -10624,7 +10624,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon shoots a ball of electricity that deals @Damage[5d12[electricity]|options:area-damage] daño in a @Template[burst|distance:20] within 40 pies (@Check[reflex|dc:28|basic|options:area-effect] salvación).</p>\n<p>They can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon shoots a ball of electricity that deals @Damage[5d12[electricity]|options:area-damage] daño in a @Template[burst|distance:20] within 40 pies (@Check[reflex|dc:28|basic|options:area-effect] salvación).</p>\n<p>No puede volver a usar su arma de aliento durante [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Coiling Frenzy": {
           "name": "Coiling Frenzy",
@@ -10635,7 +10635,7 @@
         },
         "action->Draconic Momentum": {
           "name": "Impulso dracónico",
-          "description": "<p>El dragón recarga Breath Weapon siempre que consigue un impacto crítico con un Golpe.</p>"
+          "description": "<p>El dragón recarga Arma de aliento siempre que consigue un impacto crítico con un Golpe.</p>"
         },
         "action->Perfected Flight": {
           "name": "Perfected Flight",
@@ -10661,7 +10661,7 @@
           "requirements": "foco de campana de plata de 3 po"
         },
         "spell->Detect Alignment (At Will) (Evil Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetect Alignment (At Will) (Evil Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetectar alineamiento (a voluntad, solo mal)"
         },
         "spell->Feather Fall": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.TTwOKGqmZeKSyNMH]\nFeather Fall"
@@ -10682,7 +10682,7 @@
         },
         "action->Countered by Fire": {
           "name": "Countered by Fire",
-          "description": "<p>If the sky dragon takes daño de fuego, the elemental magic of metal within them is tempered. Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque and AC, and their jaws Golpes don't deal daño de electricidad. Este limitation ends if the dragon uses Breath Weapon.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.a4bZrBNL17zPjDiH]{Efecto: Countered by Fire}</p>"
+          "description": "<p>If the sky dragon takes daño de fuego, the elemental magic of metal within them is tempered. Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque and AC, and their jaws Golpes don't deal daño de electricidad. Este limitation ends if the dragon uses Arma de aliento.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.a4bZrBNL17zPjDiH]{Efecto: Countered by Fire}</p>"
         },
         "action->Fed by Earth": {
           "name": "Fed by Earth",
@@ -10693,7 +10693,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon shoots a ball of electricity that deals @Damage[5d12[electricity]|options:area-damage] daño in a @Template[burst|distance:20] within 40 pies (@Check[reflex|dc:28|basic|options:area-effect] salvación).</p>\n<p>They can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon shoots a ball of electricity that deals @Damage[5d12[electricity]|options:area-damage] daño in a @Template[burst|distance:20] within 40 pies (@Check[reflex|dc:28|basic|options:area-effect] salvación).</p>\n<p>No puede volver a usar su arma de aliento durante [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV]\n<p>@Damage[(2d8+7)[bludgeoning]], @Check[fortitude|dc:24|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
@@ -10870,7 +10870,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H]\nSugestión (a voluntad)"
         },
         "spell->Detect Alignment (At Will) (Good or Evil Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetect Alignment (At Will) (Good or Evil Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetectar alineamiento (a voluntad, solo bien o mal)"
         },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -10890,7 +10890,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon unleashes a roar charged with psychic energy, dealing @Damage[16d6[mental]|options:area-damage] daño in a @Template[cone|distance:40] (@Check[will|dc:36|basic|options:area-effect] salvación).</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon unleashes a roar charged with psychic energy, dealing @Damage[16d6[mental]|options:area-damage] daño in a @Template[cone|distance:40] (@Check[will|dc:36|basic|options:area-effect] salvación).</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Coiling Frenzy": {
           "name": "Coiling Frenzy",
@@ -10898,7 +10898,7 @@
         },
         "action->Draconic Momentum": {
           "name": "Impulso dracónico",
-          "description": "<p>El dragón recarga Breath Weapon siempre que consigue un impacto crítico con un Golpe.</p>"
+          "description": "<p>El dragón recarga Arma de aliento siempre que consigue un impacto crítico con un Golpe.</p>"
         },
         "action->Gleaming Armor": {
           "name": "Armadura reluciente",
@@ -10948,7 +10948,7 @@
           "target": "1 criatura"
         },
         "spell->Detect Alignment (At Will) (Good or Evil Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetect Alignment (At Will) (Good or Evil Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetectar alineamiento (a voluntad, solo bien o mal)"
         },
         "spell->True Strike": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]\nTrue Golpe"
@@ -10971,7 +10971,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon unleashes a roar charged with psychic energy, dealing @Damage[16d6[mental]|options:area-damage] daño in a @Template[cone|distance:40] (@Check[will|dc:36|basic|options:area-effect] salvación).</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon unleashes a roar charged with psychic energy, dealing @Damage[16d6[mental]|options:area-damage] daño in a @Template[cone|distance:40] (@Check[will|dc:36|basic|options:area-effect] salvación).</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Gleaming Armor": {
           "name": "Armadura reluciente",
@@ -10998,7 +10998,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H]\nSugestión (a voluntad)"
         },
         "spell->Detect Alignment (At Will) (Good or Evil Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetect Alignment (At Will) (Good or Evil Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetectar alineamiento (a voluntad, solo bien o mal)"
         },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -11022,7 +11022,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon unleashes a roar charged with psychic energy, dealing @Damage[21d6[mental]|options:area-damage] daño in a @Template[cone|distance:50] (@Check[will|dc:43|basic|options:area-effect] salvación).</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon unleashes a roar charged with psychic energy, dealing @Damage[21d6[mental]|options:area-damage] daño in a @Template[cone|distance:50] (@Check[will|dc:43|basic|options:area-effect] salvación).</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Coiling Frenzy": {
           "name": "Coiling Frenzy",
@@ -11030,7 +11030,7 @@
         },
         "action->Draconic Momentum": {
           "name": "Impulso dracónico",
-          "description": "<p>El dragón recarga Breath Weapon siempre que consigue un impacto crítico con un Golpe.</p>"
+          "description": "<p>El dragón recarga Arma de aliento siempre que consigue un impacto crítico con un Golpe.</p>"
         },
         "action->Gleaming Armor": {
           "name": "Armadura reluciente",
@@ -11089,7 +11089,7 @@
           "target": "1 criatura"
         },
         "spell->Detect Alignment (At Will) (Good or Evil Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetect Alignment (At Will) (Good or Evil Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetectar alineamiento (a voluntad, solo bien o mal)"
         },
         "spell->True Strike": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]\nTrue Golpe"
@@ -11116,7 +11116,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon unleashes a roar charged with psychic energy, dealing @Damage[21d6[mental]|options:area-damage] daño in a @Template[cone|distance:50] (@Check[will|dc:43|basic|options:area-effect] salvación).</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon unleashes a roar charged with psychic energy, dealing @Damage[21d6[mental]|options:area-damage] daño in a @Template[cone|distance:50] (@Check[will|dc:43|basic|options:area-effect] salvación).</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Gleaming Armor": {
           "name": "Armadura reluciente",
@@ -11143,7 +11143,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H]\nSugestión (a voluntad)"
         },
         "spell->Detect Alignment (At Will) (Good or Evil Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetect Alignment (At Will) (Good or Evil Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetectar alineamiento (a voluntad, solo bien o mal)"
         },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -11163,7 +11163,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon unleashes a roar charged with psychic energy, dealing @Damage[12d6[mental]|options:area-damage] daño in a @Template[cone|distance:30] (@Check[will|dc:30|basic|options:area-effect] salvación).</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon unleashes a roar charged with psychic energy, dealing @Damage[12d6[mental]|options:area-damage] daño in a @Template[cone|distance:30] (@Check[will|dc:30|basic|options:area-effect] salvación).</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Coiling Frenzy": {
           "name": "Coiling Frenzy",
@@ -11174,7 +11174,7 @@
         },
         "action->Draconic Momentum": {
           "name": "Impulso dracónico",
-          "description": "<p>El dragón recarga Breath Weapon siempre que consigue un impacto crítico con un Golpe.</p>"
+          "description": "<p>El dragón recarga Arma de aliento siempre que consigue un impacto crítico con un Golpe.</p>"
         },
         "action->Gleaming Armor": {
           "name": "Armadura reluciente",
@@ -11211,7 +11211,7 @@
           "target": "1 criatura"
         },
         "spell->Detect Alignment (At Will) (Good or Evil Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetect Alignment (At Will) (Good or Evil Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetectar alineamiento (a voluntad, solo bien o mal)"
         },
         "spell->True Strike": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]\nTrue Golpe"
@@ -11234,7 +11234,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon unleashes a roar charged with psychic energy, dealing @Damage[12d6[mental]|options:area-damage] daño in a @Template[cone|distance:30] (@Check[will|dc:30|basic|options:area-effect] salvación).</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon unleashes a roar charged with psychic energy, dealing @Damage[12d6[mental]|options:area-damage] daño in a @Template[cone|distance:30] (@Check[will|dc:30|basic|options:area-effect] salvación).</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV]\n<p>@Damage[(2d8+10)[bludgeoning]], @Check[fortitude|dc:26|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
@@ -11259,7 +11259,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.VdSMQ6yRZ3YXNXHL]\nWavesense (Imprecise) 30 pies"
         },
         "action->Attack of Opportunity (Stinger Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O]\nAttack of Opportunity (Stinger Only)",
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O]\nAtaque de oportunidad (solo aguijón)",
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O]\n<p>Stinger only</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
         "action->Chitinous Spines": {
@@ -11374,7 +11374,7 @@
           "name": "Divine Innate Spells"
         },
         "spell->Detect Alignment (At Will) (Evil Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetect Alignment (At Will) (Evil Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetectar alineamiento (a voluntad, solo mal)"
         },
         "action->Telepathy 60 feet": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA]\nTelepathy 60 pies"
@@ -11426,7 +11426,7 @@
           "name": "Divine Innate Spells"
         },
         "spell->Detect Alignment (At Will) (Evil Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetect Alignment (At Will) (Evil Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetectar alineamiento (a voluntad, solo mal)"
         },
         "action->Telepathy 60 feet": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA]\nTelepathy 60 pies"
@@ -11695,7 +11695,7 @@
         },
         "action->Colossal Echo": {
           "name": "Colossal Echo",
-          "description": "<p><strong>Requisitos</strong> The swordkeeper has a central arma</p>\n<hr />\n<p><strong>Efecto</strong> The swordkeeper projects a massive echoblade held in all four hands, dealing @Damage[9d8[force]|options:area-damage] daño to all criaturas in a @Template[line|distance:30] (@Check[reflex|dc:30|basic|options:area-effect] salvación).</p>\n<p>It can't use Colossal Echo again for [[/gmr 1d4 #Recharge Colossal Echo]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Requisitos</strong> The swordkeeper has a central arma</p>\n<hr />\n<p><strong>Efecto</strong> The swordkeeper projects a massive echoblade held in all four hands, dealing @Damage[9d8[force]|options:area-damage] daño to all criaturas in a @Template[line|distance:30] (@Check[reflex|dc:30|basic|options:area-effect] salvación).</p>\n<p>It can't use Colossal Echo again for [[/gmr 1d4 #Recharge Colossal Echo]]{1d4 asaltos}.</p>"
         },
         "action->Echoblade Flurry": {
           "name": "Echoblade Flurry",
@@ -11961,7 +11961,7 @@
         },
         "action->Expel Wave": {
           "name": "Expel Wave",
-          "description": "<p><strong>Requisitos</strong> The tiddalik is waterlogged</p>\n<hr />\n<p><strong>Efecto</strong> The tiddalik expels a wave of water in a @Template[cone|distance:60] that deals @Damage[6d6[bludgeoning]|options:area-damage] daño (@Check[reflex|dc:25|basic|options:area-effect] salvación). Las criaturas that fail the save are pushed back 5 pies (10 pies on a critical failure).</p>\n<p>The tiddalik can't use Expel Wave again for [[/gmr 1d4 #Recharge Expel Wave]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Requisitos</strong> The tiddalik is waterlogged</p>\n<hr />\n<p><strong>Efecto</strong> The tiddalik expels a wave of water in a @Template[cone|distance:60] that deals @Damage[6d6[bludgeoning]|options:area-damage] daño (@Check[reflex|dc:25|basic|options:area-effect] salvación). Las criaturas that fail the save are pushed back 5 pies (10 pies on a critical failure).</p>\n<p>The tiddalik can't use Expel Wave again for [[/gmr 1d4 #Recharge Expel Wave]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -11990,7 +11990,7 @@
         },
         "action->Self-Resurrection": {
           "name": "Self-Resurrection",
-          "description": "<p>When a tidehawk dies, it melts into a torrent of rainwater. If this rain falls into a body of water, such as an ocean or lake, the tidehawk returns to life fully healed [[/gmr 1d4 #Self-Resurrection]]{1d4 rounds} later, as if subject to a 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.kqhPt9344UkcGVYO]{Resurrect} ritual. Self-resurrection happens only if there are remains to resurrect; for instance, a tidehawk killed by a @UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]{Disintegrate} conjuro can't use this ability. A tidehawk that dies while above land must wait until its rainwater runs or seeps into an appropriate body of water to self-resurrect. A tidehawk can self-resurrect only once per year.</p>"
+          "description": "<p>When a tidehawk dies, it melts into a torrent of rainwater. If this rain falls into a body of water, such as an ocean or lake, the tidehawk returns to life fully healed [[/gmr 1d4 #Self-Resurrection]]{1d4 asaltos} later, as if subject to a 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.kqhPt9344UkcGVYO]{Resurrect} ritual. Self-resurrection happens only if there are remains to resurrect; for instance, a tidehawk killed by a @UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]{Disintegrate} conjuro can't use this ability. A tidehawk that dies while above land must wait until its rainwater runs or seeps into an appropriate body of water to self-resurrect. A tidehawk can self-resurrect only once per year.</p>"
         },
         "action->Oceanic Armor": {
           "name": "Oceanic Armor",
@@ -12113,7 +12113,7 @@
         },
         "action->Sudden Destruction": {
           "name": "Sudden Destruction",
-          "description": "<p><strong>Requisitos</strong> The tolokand hasn't cast any of its spontaneous conjuros this turn</p>\n<hr />\n<p><strong>Efecto</strong> The tolokand casts one of its spontaneous conjuros, using up the conjuro slot normally. The tolokand can't cast any further spontaneous conjuros this turn and can't use this ability again for [[/gmr 1d4 #Recharge Sudden Destruction]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Requisitos</strong> The tolokand hasn't cast any of its spontaneous conjuros this turn</p>\n<hr />\n<p><strong>Efecto</strong> The tolokand casts one of its spontaneous conjuros, using up the conjuro slot normally. The tolokand can't cast any further spontaneous conjuros this turn and can't use this ability again for [[/gmr 1d4 #Recharge Sudden Destruction]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -12337,7 +12337,7 @@
           "name": "Mandíbulas"
         },
         "action->Construct Armor (Hardness 8)": {
-          "name": "Construct Armor (Hardness 8)",
+          "name": "Armadura de constructo (Dureza 8)",
           "description": "<p>Like normal objects, a tupilaq has Hardness. Este Hardness reduces any daño it takes by an amount equal to the Hardness.</p>\n<p>Once a tupilaq is reduced to less than half its Puntos de Golpe, or immediately upon being damaged by a impacto crítico, its armadura de constructo breaks, it loses its Hardness, and its ARMOR CLASS is reduced to 22.</p>"
         },
         "action->Carver's Curse": {
@@ -12509,7 +12509,7 @@
         },
         "action->Countered by Water": {
           "name": "Countered by Water",
-          "description": "<p>If the underworld dragon takes daño from a conjuro with the cold or water rasgo, the elemental magic of fire within them is momentarily dampened.</p>\n<p>Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque, and their jaws Golpes don't deal daño de fuego, and they lose their sweltering heat aura.</p>\n<p>Este limitation ends if the dragon uses Breath Weapon.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.81XYZZ3H0GL8thdQ]{Efecto: Countered by Water}</p>"
+          "description": "<p>If the underworld dragon takes daño from a conjuro with the cold or water rasgo, the elemental magic of fire within them is momentarily dampened.</p>\n<p>Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque, and their jaws Golpes don't deal daño de fuego, and they lose their sweltering heat aura.</p>\n<p>Este limitation ends if the dragon uses Arma de aliento.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.81XYZZ3H0GL8thdQ]{Efecto: Countered by Water}</p>"
         },
         "action->Fed by Wood": {
           "name": "Fed by Wood",
@@ -12528,7 +12528,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon breathes a blast of fire that explodes in a @Template[burst|distance:25] within 50 pies, dealing @Damage[10d6[fire]|options:area-damage] daño (@Check[reflex|dc:30|basic|options:area-effect] salvación). Las criaturas that fail the save also take @Damage[2d6[persistent,fire]].</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon breathes a blast of fire that explodes in a @Template[burst|distance:25] within 50 pies, dealing @Damage[10d6[fire]|options:area-damage] daño (@Check[reflex|dc:30|basic|options:area-effect] salvación). Las criaturas that fail the save also take @Damage[2d6[persistent,fire]].</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Coiling Frenzy": {
           "name": "Coiling Frenzy",
@@ -12536,7 +12536,7 @@
         },
         "action->Draconic Momentum": {
           "name": "Impulso dracónico",
-          "description": "<p>El dragón recarga Breath Weapon siempre que consigue un impacto crítico con un Golpe.</p>"
+          "description": "<p>El dragón recarga Arma de aliento siempre que consigue un impacto crítico con un Golpe.</p>"
         },
         "action->Greater Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.OmV6E3aELvq9CkK1]\n<p>@Damage[(2d8+10)[bludgeoning]], @Check[fortitude|dc:30|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
@@ -12612,7 +12612,7 @@
         },
         "action->Countered by Water": {
           "name": "Countered by Water",
-          "description": "<p>If the underworld dragon takes daño from a conjuro with the cold or water rasgo, the elemental magic of fire within them is momentarily dampened.</p>\n<p>Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque, and their jaws Golpes don't deal daño de fuego, and they lose their sweltering heat aura.</p>\n<p>Este limitation ends if the dragon uses Breath Weapon.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.81XYZZ3H0GL8thdQ]{Efecto: Countered by Water}</p>"
+          "description": "<p>If the underworld dragon takes daño from a conjuro with the cold or water rasgo, the elemental magic of fire within them is momentarily dampened.</p>\n<p>Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque, and their jaws Golpes don't deal daño de fuego, and they lose their sweltering heat aura.</p>\n<p>Este limitation ends if the dragon uses Arma de aliento.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.81XYZZ3H0GL8thdQ]{Efecto: Countered by Water}</p>"
         },
         "action->Fed by Wood": {
           "name": "Fed by Wood",
@@ -12631,7 +12631,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon breathes a blast of fire that explodes in a @Template[burst|distance:25] within 50 pies, dealing @Damage[10d6[fire]|options:area-damage] daño (@Check[reflex|dc:30|basic|options:area-effect] salvación). Las criaturas that fail the save also take @Damage[2d6[persistent,fire]].</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon breathes a blast of fire that explodes in a @Template[burst|distance:25] within 50 pies, dealing @Damage[10d6[fire]|options:area-damage] daño (@Check[reflex|dc:30|basic|options:area-effect] salvación). Las criaturas that fail the save also take @Damage[2d6[persistent,fire]].</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Greater Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.OmV6E3aELvq9CkK1]\n<p>@Damage[(2d8+10)[bludgeoning]], @Check[fortitude|dc:30|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
@@ -12668,7 +12668,7 @@
         },
         "action->Countered by Water": {
           "name": "Countered by Water",
-          "description": "<p>If the underworld dragon takes daño from a conjuro with the cold or water rasgo, the elemental magic of fire within them is momentarily dampened.</p>\n<p>Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque, and their jaws Golpes don't deal daño de fuego, and they lose their sweltering heat aura.</p>\n<p>Este limitation ends if the dragon uses Breath Weapon.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.81XYZZ3H0GL8thdQ]{Efecto: Countered by Water}</p>"
+          "description": "<p>If the underworld dragon takes daño from a conjuro with the cold or water rasgo, the elemental magic of fire within them is momentarily dampened.</p>\n<p>Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque, and their jaws Golpes don't deal daño de fuego, and they lose their sweltering heat aura.</p>\n<p>Este limitation ends if the dragon uses Arma de aliento.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.81XYZZ3H0GL8thdQ]{Efecto: Countered by Water}</p>"
         },
         "action->Fed by Wood": {
           "name": "Fed by Wood",
@@ -12687,7 +12687,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon breathes a blast of fire that explodes in a @Template[burst|distance:30] within 60 pies, dealing @Damage[14d6[fire]|options:area-damage] daño (@Check[reflex|dc:39|basic|options:area-effect] salvación). Las criaturas that fail the save also take @Damage[3d6[persistent,fire]].</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon breathes a blast of fire that explodes in a @Template[burst|distance:30] within 60 pies, dealing @Damage[14d6[fire]|options:area-damage] daño (@Check[reflex|dc:39|basic|options:area-effect] salvación). Las criaturas that fail the save also take @Damage[3d6[persistent,fire]].</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Coiling Frenzy": {
           "name": "Coiling Frenzy",
@@ -12695,7 +12695,7 @@
         },
         "action->Draconic Momentum": {
           "name": "Impulso dracónico",
-          "description": "<p>El dragón recarga Breath Weapon siempre que consigue un impacto crítico con un Golpe.</p>"
+          "description": "<p>El dragón recarga Arma de aliento siempre que consigue un impacto crítico con un Golpe.</p>"
         },
         "action->Greater Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.OmV6E3aELvq9CkK1]\n<p>@Damage[(3d10+9)[bludgeoning]], @Check[fortitude|dc:37|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
@@ -12778,7 +12778,7 @@
         },
         "action->Countered by Water": {
           "name": "Countered by Water",
-          "description": "<p>If the underworld dragon takes daño from a conjuro with the cold or water rasgo, the elemental magic of fire within them is momentarily dampened.</p>\n<p>Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque, and their jaws Golpes don't deal daño de fuego, and they lose their sweltering heat aura.</p>\n<p>Este limitation ends if the dragon uses Breath Weapon.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.81XYZZ3H0GL8thdQ]{Efecto: Countered by Water}</p>"
+          "description": "<p>If the underworld dragon takes daño from a conjuro with the cold or water rasgo, the elemental magic of fire within them is momentarily dampened.</p>\n<p>Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque, and their jaws Golpes don't deal daño de fuego, and they lose their sweltering heat aura.</p>\n<p>Este limitation ends if the dragon uses Arma de aliento.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.81XYZZ3H0GL8thdQ]{Efecto: Countered by Water}</p>"
         },
         "action->Fed by Wood": {
           "name": "Fed by Wood",
@@ -12797,7 +12797,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon breathes a blast of fire that explodes in a @Template[burst|distance:30] within 60 pies, dealing @Damage[14d6[fire]|options:area-damage] daño (@Check[reflex|dc:39|basic|options:area-effect] salvación). Las criaturas that fail the save also take @Damage[3d6[persistent,fire]].</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon breathes a blast of fire that explodes in a @Template[burst|distance:30] within 60 pies, dealing @Damage[14d6[fire]|options:area-damage] daño (@Check[reflex|dc:39|basic|options:area-effect] salvación). Las criaturas that fail the save also take @Damage[3d6[persistent,fire]].</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Greater Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.OmV6E3aELvq9CkK1]\n<p>@Damage[(3d10+9)[bludgeoning]], @Check[fortitude|dc:37|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
@@ -12837,7 +12837,7 @@
         },
         "action->Countered by Water": {
           "name": "Countered by Water",
-          "description": "<p>If the underworld dragon takes daño from a conjuro with the cold or water rasgo, the elemental magic of fire within them is momentarily dampened.</p>\n<p>Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque, and their jaws Golpes don't deal daño de fuego.</p>\n<p>Este limitation ends if the dragon uses Breath Weapon.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.81XYZZ3H0GL8thdQ]{Efecto: Countered by Water}</p>"
+          "description": "<p>If the underworld dragon takes daño from a conjuro with the cold or water rasgo, the elemental magic of fire within them is momentarily dampened.</p>\n<p>Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque, and their jaws Golpes don't deal daño de fuego.</p>\n<p>Este limitation ends if the dragon uses Arma de aliento.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.81XYZZ3H0GL8thdQ]{Efecto: Countered by Water}</p>"
         },
         "action->Fed by Wood": {
           "name": "Fed by Wood",
@@ -12852,7 +12852,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon breathes a blast of fire that explodes in a @Template[burst|distance:20] within 40 pies, dealing @Damage[7d6[fire]|options:area-damage] daño (@Check[reflex|dc:25|basic|options:area-effect] salvación). Las criaturas that fail the save also take @Damage[1d6[persistent,fire]].</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon breathes a blast of fire that explodes in a @Template[burst|distance:20] within 40 pies, dealing @Damage[7d6[fire]|options:area-damage] daño (@Check[reflex|dc:25|basic|options:area-effect] salvación). Las criaturas that fail the save also take @Damage[1d6[persistent,fire]].</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Coiling Frenzy": {
           "name": "Coiling Frenzy",
@@ -12863,7 +12863,7 @@
         },
         "action->Draconic Momentum": {
           "name": "Impulso dracónico",
-          "description": "<p>El dragón recarga Breath Weapon siempre que consigue un impacto crítico con un Golpe.</p>"
+          "description": "<p>El dragón recarga Arma de aliento siempre que consigue un impacto crítico con un Golpe.</p>"
         }
       }
     },
@@ -12920,7 +12920,7 @@
         },
         "action->Countered by Water": {
           "name": "Countered by Water",
-          "description": "<p>If the underworld dragon takes daño from a conjuro with the cold or water rasgo, the elemental magic of fire within them is momentarily dampened.</p>\n<p>Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque, and their jaws Golpes don't deal daño de fuego.</p>\n<p>Este limitation ends if the dragon uses Breath Weapon.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.81XYZZ3H0GL8thdQ]{Efecto: Countered by Water}</p>"
+          "description": "<p>If the underworld dragon takes daño from a conjuro with the cold or water rasgo, the elemental magic of fire within them is momentarily dampened.</p>\n<p>Until the end of their next turn, they take a -1 penalización de circunstancia to tiradas de ataque, and their jaws Golpes don't deal daño de fuego.</p>\n<p>Este limitation ends if the dragon uses Arma de aliento.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.81XYZZ3H0GL8thdQ]{Efecto: Countered by Water}</p>"
         },
         "action->Fed by Wood": {
           "name": "Fed by Wood",
@@ -12935,7 +12935,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The dragon breathes a blast of fire that explodes in a @Template[burst|distance:20] within 40 pies, dealing @Damage[7d6[fire]|options:area-damage] daño (@Check[reflex|dc:25|basic|options:area-effect] salvación). Las criaturas that fail the save also take @Damage[1d6[persistent,fire]].</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon breathes a blast of fire that explodes in a @Template[burst|distance:20] within 40 pies, dealing @Damage[7d6[fire]|options:area-damage] daño (@Check[reflex|dc:25|basic|options:area-effect] salvación). Las criaturas that fail the save also take @Damage[1d6[persistent,fire]].</p>\n<p>The dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV]\n<p>@Damage[(2d8+4)[bludgeoning]], @Check[fortitude|dc:25|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
@@ -13140,14 +13140,14 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.b515AZlB0sridKSq]\nCalm Emotions"
         },
         "spell->Invisibility (At Will) (Self Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibility (At Will) (Self Only)",
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibilidad (a voluntad, solo personal)",
           "target": "uno mismo"
         },
         "spell->Speak with Animals (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]\nHablar con los animales (constante)"
         },
         "spell->Detect Alignment (At Will) (Evil Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetect Alignment (At Will) (Evil Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetectar alineamiento (a voluntad, solo mal)"
         },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -13691,7 +13691,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The wyrmwraith unleashes a burst of void energy that deals @Damage[18d6[void]|options:area-damage] daño to all criaturas in a @Template[cone|distance:60] (@Check[reflex|dc:38|basic|options:area-effect] salvación).</p>\n<p>They can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The wyrmwraith unleashes a burst of void energy that deals @Damage[18d6[void]|options:area-damage] daño to all criaturas in a @Template[cone|distance:60] (@Check[reflex|dc:38|basic|options:area-effect] salvación).</p>\n<p>No puede volver a usar su arma de aliento durante [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Divine Dispelling": {
           "name": "Divine Dispelling",
@@ -13707,7 +13707,7 @@
         },
         "action->Ectoplasmic Form": {
           "name": "Ectoplasmic Form",
-          "description": "<p>A wyrmwraith can push through the ectoplasmic veil to temporarily assume a physical form made of ectoplasm. The wyrmwraith loses the incorporeal rasgo for [[/gmr 1d4 #Duration Physical Form]]{1d4 rounds}, though they can return to their incorporeal form as a free action before then. Once this ability ends, the wyrmwraith can't use this ability again for [[/gmr 1d4 #Recharge Ectoplasmatic Form]]{1d4 rounds}. While in their ectoplasmic form, the wyrmwraith's AC increases to 43 and they gain 100 Puntos de Golpe temporales. They lose their immunity to daño de precisión and all of their resistances. Their melee Golpes deal slashing and daño perforante, respectively, instead of daño de vacío.</p>",
+          "description": "<p>A wyrmwraith can push through the ectoplasmic veil to temporarily assume a physical form made of ectoplasm. The wyrmwraith loses the incorporeal rasgo for [[/gmr 1d4 #Duration Physical Form]]{1d4 asaltos}, though they can return to their incorporeal form as a free action before then. Once this ability ends, the wyrmwraith can't use this ability again for [[/gmr 1d4 #Recharge Ectoplasmatic Form]]{1d4 asaltos}. While in their ectoplasmic form, the wyrmwraith's AC increases to 43 and they gain 100 Puntos de Golpe temporales. They lose their immunity to daño de precisión and all of their resistances. Their melee Golpes deal slashing and daño perforante, respectively, instead of daño de vacío.</p>",
           "selfEffect": "Efecto: Forma ectoplasmática (física)"
         },
         "action->Phase Lurch": {
@@ -13840,7 +13840,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The xiuh couatl breaths a gout of flame and lightning in an @Template[line|distance:80] that deals @Damage[5d8[electricity],5d8[fire]|options:area-damage] daño (@Check[reflex|dc:32|basic|options:area-effect] salvación).</p>\n<p>The xiuh couatl can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The xiuh couatl breaths a gout of flame and lightning in an @Template[line|distance:80] that deals @Damage[5d8[electricity],5d8[fire]|options:area-damage] daño (@Check[reflex|dc:32|basic|options:area-effect] salvación).</p>\n<p>The xiuh couatl can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Greater Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.OmV6E3aELvq9CkK1]\n<p>@Damage[(1d10+10)[bludgeoning],1d8[electricity]]{1d10+10 bludgeoning plus 1d8 electricity}, @Check[fortitude|dc:32|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
@@ -13963,7 +13963,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The zombie dragon breathes a wave of fetid viscera that deals @Damage[5d6[bludgeoning],5d6[poison]|options:area-damage] daño (@Check[reflex|dc:28|basic|options:area-effect] salvación). A criatura that critically fails is also @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>\n<p>The zombie dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The zombie dragon breathes a wave of fetid viscera that deals @Damage[5d6[bludgeoning],5d6[poison]|options:area-damage] daño (@Check[reflex|dc:28|basic|options:area-effect] salvación). A criatura that critically fails is also @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>\n<p>The zombie dragon can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -13988,10 +13988,10 @@
           "target": "1 criatura"
         },
         "spell->Shield Other": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.d7Lwx6KAs47MtF0q]\nShield Other"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.d7Lwx6KAs47MtF0q]\nEscudar a otro"
         },
         "spell->Detect Alignment (At Will) (Evil Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetect Alignment (At Will) (Evil Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetectar alineamiento (a voluntad, solo mal)"
         },
         "strike-melee->Katana": {
           "name": "Katana"

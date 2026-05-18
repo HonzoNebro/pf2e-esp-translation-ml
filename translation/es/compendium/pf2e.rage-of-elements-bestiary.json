@@ -146,7 +146,7 @@
         },
         "action->Curtain of Calm": {
           "name": "Curtain of Calm",
-          "description": "<p>20 pies. The asp of grief consumes the emotions of the criaturas around it. Un enemigo that begins its turn in the aura must attempt a @Check[will|dc:29] salvación. If it fails, the asp consumes its grief. The criatura feels a lack of feelings and motivation, reducing its asustado value by 1 and becoming @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 1} (or @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 2} on a critical failure) for [[/br 1d4 #rounds]]{1d4 rounds}. Regardless of the result of the tirada de salvación, the criatura is temporarily immune to curtain of calm for 1 minuto. The asp becomes charged with grief (see iron grief) for 1 minuto siempre que a criatura fails this tirada de salvación.</p>"
+          "description": "<p>20 pies. The asp of grief consumes the emotions of the criaturas around it. Un enemigo that begins its turn in the aura must attempt a @Check[will|dc:29] salvación. If it fails, the asp consumes its grief. The criatura feels a lack of feelings and motivation, reducing its asustado value by 1 and becoming @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 1} (or @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 2} on a critical failure) for [[/br 1d4 #rounds]]{1d4 asaltos}. Regardless of the result of the tirada de salvación, the criatura is temporarily immune to curtain of calm for 1 minuto. The asp becomes charged with grief (see iron grief) for 1 minuto siempre que a criatura fails this tirada de salvación.</p>"
         },
         "action->Iron Grief": {
           "name": "Iron Grief",
@@ -334,7 +334,7 @@
         },
         "action->Scalding Breath": {
           "name": "Scalding Breath",
-          "description": "<p>The boiling spring breathes out a cloud of steam in a @Template[cone|distance:30] that deals @Damage[14d6[fire]|options:area-damage] daño to each criatura in the area (@Check[reflex|dc:33|basic|options:area-effect] salvación). The boiling spring can't use Scalding Breath again for [[/gmr 1d4 #Recharge Scalding Breath]]{1d4 rounds}.</p>"
+          "description": "<p>The boiling spring breathes out a cloud of steam in a @Template[cone|distance:30] that deals @Damage[14d6[fire]|options:area-damage] daño to each criatura in the area (@Check[reflex|dc:33|basic|options:area-effect] salvación). The boiling spring can't use Scalding Breath again for [[/gmr 1d4 #Recharge Scalding Breath]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -433,7 +433,7 @@
         },
         "action->Breathe Smoke": {
           "name": "Breathe Smoke",
-          "description": "<p>The brass bastion exhales superheated smoke and cinders in a @Template[burst|distance:10] centered on a corner of its space. The smoke persists for 1 asalto. Any criatura in the area (or that later enters the area) takes @Damage[15d6[fire]] daño (@Check[reflex|dc:34|basic] salvación); on a critical failure, the criatura catches fire, taking @Damage[2d6[persistent,fire]] daño as well. All criaturas in the smoke become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto}, and all criaturas outside the smoke become concealed to criaturas within it. The brass bastion can't Breathe Smoke again for [[/br 1d4 #Recharge Breathe Smoke]]{1d4 rounds}.</p>"
+          "description": "<p>The brass bastion exhales superheated smoke and cinders in a @Template[burst|distance:10] centered on a corner of its space. The smoke persists for 1 asalto. Any criatura in the area (or that later enters the area) takes @Damage[15d6[fire]] daño (@Check[reflex|dc:34|basic] salvación); on a critical failure, the criatura catches fire, taking @Damage[2d6[persistent,fire]] daño as well. All criaturas in the smoke become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto}, and all criaturas outside the smoke become concealed to criaturas within it. The brass bastion can't Breathe Smoke again for [[/br 1d4 #Recharge Breathe Smoke]]{1d4 asaltos}.</p>"
         },
         "action->Heat Weapon": {
           "name": "Heat Weapon",
@@ -612,7 +612,7 @@
         },
         "action->Release Light": {
           "name": "Release Light",
-          "description": "<p>The strider emits the light that continually refracts within them to cast @UUID[Compendium.pf2e.spells-srd.Item.Hb8GdAhP0zBCv3zU]{Chromatic Ray} as an innate primal conjuro heightened to 5th rank, with a +21 conjuro tirada de ataque. The crystal strider can't Release Light again for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
+          "description": "<p>The strider emits the light that continually refracts within them to cast @UUID[Compendium.pf2e.spells-srd.Item.Hb8GdAhP0zBCv3zU]{Chromatic Ray} as an innate primal conjuro heightened to 5th rank, with a +21 conjuro tirada de ataque. The crystal strider can't Release Light again for [[/gmr 1d4 #rounds]]{1d4 asaltos}.</p>"
         },
         "action->Trample": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\n<p>Large or smaller, leg, @Check[reflex|dc:29|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
@@ -1055,7 +1055,7 @@
         },
         "action->Exploit Regret": {
           "name": "Exploit Regret",
-          "description": "<p><strong>Desencadenante</strong> A criatura fails an attack against the shuyookh</p>\n<hr />\n<p><strong>Efecto</strong> The shuyookh asks the triggering criatura if it wishes it had hit. If the criatura indicates yes, the shuyookh takes daño as if the attack had hit and the expression of regret makes the shuyookh @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Acelerado} for [[/br 1d4 #Quickened Rounds]]{1d4 rounds}; they can use their extra action to Fly, Zancada, or Golpe.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura fails an attack against the shuyookh</p>\n<hr />\n<p><strong>Efecto</strong> The shuyookh asks the triggering criatura if it wishes it had hit. If the criatura indicates yes, the shuyookh takes daño as if the attack had hit and the expression of regret makes the shuyookh @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Acelerado} for [[/br 1d4 #Quickened Rounds]]{1d4 asaltos}; they can use their extra action to Fly, Zancada, or Golpe.</p>"
         },
         "action->Heat of Blazing Wings": {
           "name": "Heat of Blazing Wings",
@@ -1510,7 +1510,7 @@
         },
         "action->Reverse Polarity": {
           "name": "Reverse Polarity",
-          "description": "<p>The living lodestone switches the polarity of its magnetic field from positive to negative, or vice versa. Each criatura affected by the lodestone's aura falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} unless it succeeds at a @Check[reflex|dc:21] salvación.</p>\n<p>The lodestone can't Reverse Polarity again for [[/br 1d4 #rounds]]{1d4 rounds}.</p>"
+          "description": "<p>The living lodestone switches the polarity of its magnetic field from positive to negative, or vice versa. Each criatura affected by the lodestone's aura falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} unless it succeeds at a @Check[reflex|dc:21] salvación.</p>\n<p>The lodestone can't Reverse Polarity again for [[/br 1d4 #rounds]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -1601,7 +1601,7 @@
         },
         "action->Scream": {
           "name": "Scream",
-          "description": "<p>The melomach unleashes a guttural, ear-piercing wail. All criaturas in a @Template[cone|distance:120] take @Damage[7d12[sonic]] daño with a @Check[fortitude|dc:32] salvación.</p>\n<p>The melomach can't Scream again for [[/br 1d4 #Recharge Scream]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura takes half daño.</p>\n<p><strong>Fallo</strong> The criatura takes full daño, is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1}, and is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ensordecido} for 1 minuto.</p>\n<p><strong>Fallo crítico</strong> The criatura takes double daño, is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 3}, and is deafened permanently.</p>"
+          "description": "<p>The melomach unleashes a guttural, ear-piercing wail. All criaturas in a @Template[cone|distance:120] take @Damage[7d12[sonic]] daño with a @Check[fortitude|dc:32] salvación.</p>\n<p>The melomach can't Scream again for [[/br 1d4 #Recharge Scream]]{1d4 asaltos}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura takes half daño.</p>\n<p><strong>Fallo</strong> The criatura takes full daño, is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1}, and is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ensordecido} for 1 minuto.</p>\n<p><strong>Fallo crítico</strong> The criatura takes double daño, is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 3}, and is deafened permanently.</p>"
         }
       }
     },
@@ -1643,7 +1643,7 @@
         },
         "action->Breathe Shrapnel": {
           "name": "Breathe Shrapnel",
-          "description": "<p>The metal scamp breathes a @Template[cone|distance:15] of jagged metal flakes that deals @Damage[(2d4)[slashing],(1d4)[bleed]|options:area-damage] daño to each criatura within the area (@Check[reflex|dc:17|basic|options:area-effect] salvación).</p>\n<p>The metal scamp can't Breathe Shrapnel again for [[/gmr 1d4 #Recharge Breathe Shrapnel]]{1d4 rounds}.</p>"
+          "description": "<p>The metal scamp breathes a @Template[cone|distance:15] of jagged metal flakes that deals @Damage[(2d4)[slashing],(1d4)[bleed]|options:area-damage] daño to each criatura within the area (@Check[reflex|dc:17|basic|options:area-effect] salvación).</p>\n<p>The metal scamp can't Breathe Shrapnel again for [[/gmr 1d4 #Recharge Breathe Shrapnel]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -1731,7 +1731,7 @@
         },
         "action->Blazing Rush": {
           "name": "Blazing Rush",
-          "description": "<p>The gatecrasher Strides up to double their Velocidad in a straight line. They can pass through enemigo spaces and make a hammer gauntlet Golpe against each criatura they move through. Blazing Rush can't be used again for [[/gmr 1d4 #Recharge Blazing Rush]]{1d4 rounds}.</p>"
+          "description": "<p>The gatecrasher Strides up to double their Velocidad in a straight line. They can pass through enemigo spaces and make a hammer gauntlet Golpe against each criatura they move through. Blazing Rush can't be used again for [[/gmr 1d4 #Recharge Blazing Rush]]{1d4 asaltos}.</p>"
         },
         "action->Burning Touch": {
           "name": "Burning Touch",
@@ -2006,7 +2006,7 @@
         },
         "action->Searing Spew": {
           "name": "Searing Spew",
-          "description": "<p>The oregorger belches forth a cloud of caustic, rusted debris from its maw, filling a cube adjacent to itself that's @Template[cube|distance:10]{10 pies} on each side. Any criatura in this area takes @Damage[6d6[acid],6d6[slashing]|options:area-damage] daño (@Check[reflex|dc:30|basic|options:area-effect]). The ground under the cloud is difficult terrain for 1 hora, after which the shrapnel crumbles to dust.</p>\n<p>The oregorger can't use Searing Spew again for [[/gmr 1d4 #Recharge Searing Spew]]{1d4 rounds}, but the ability recharges if the oregorger damages an item with devour metal.</p>"
+          "description": "<p>The oregorger belches forth a cloud of caustic, rusted debris from its maw, filling a cube adjacent to itself that's @Template[cube|distance:10]{10 pies} on each side. Any criatura in this area takes @Damage[6d6[acid],6d6[slashing]|options:area-damage] daño (@Check[reflex|dc:30|basic|options:area-effect]). The ground under the cloud is difficult terrain for 1 hora, after which the shrapnel crumbles to dust.</p>\n<p>The oregorger can't use Searing Spew again for [[/gmr 1d4 #Recharge Searing Spew]]{1d4 asaltos}, but the ability recharges if the oregorger damages an item with devour metal.</p>"
         }
       }
     },
@@ -2235,7 +2235,7 @@
         },
         "action->Lightlure": {
           "name": "Lightlure",
-          "description": "<p><strong>Efecto</strong> The saltborn stalkers move their luminescent lures in an entrancing light show, drawing nearby criaturas into their grasp. Each criatura in a @Template[emanation|distance:100] must attempt a @Check[will|dc:33] salvación; regardless of the result of its save, the criatura is then temporarily immune to Lightlure for 24 horas.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinado} with the lures and must spend all its actions on its next turn to move closer to them as expediently as possible, avoiding obvious dangers along its path.</p>\n<p><strong>Fallo crítico</strong> As failure, but the criatura is also @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado} for [[/br 1d4 #rounds]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Efecto</strong> The saltborn stalkers move their luminescent lures in an entrancing light show, drawing nearby criaturas into their grasp. Each criatura in a @Template[emanation|distance:100] must attempt a @Check[will|dc:33] salvación; regardless of the result of its save, the criatura is then temporarily immune to Lightlure for 24 horas.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinado} with the lures and must spend all its actions on its next turn to move closer to them as expediently as possible, avoiding obvious dangers along its path.</p>\n<p><strong>Fallo crítico</strong> As failure, but the criatura is also @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado} for [[/br 1d4 #rounds]]{1d4 asaltos}.</p>"
         },
         "action->Saline Crust": {
           "name": "Saline Crust",
@@ -2347,7 +2347,7 @@
         },
         "action->Blinding Heat": {
           "name": "Blinding Heat",
-          "description": "<p>The solar crow expands its wings and unleashes blazing hot, blinding light in a @Template[emanation|distance:120]. Each criatura in the area takes @Damage[9d6[fire]] daño with a @Check[reflex|dc:29] salvación. The crow can't use Blinding Heat again for [[/br 1d4 #Recharge Blinding Heat]]{1d4 rounds}, and its glow aura is deactivated during this time.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura takes half daño and is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado} for 1 asalto.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegado} for 1 asalto.</p>\n<p><strong>Fallo crítico</strong> The criatura takes double daño and is blinded for 1 minuto.</p>"
+          "description": "<p>The solar crow expands its wings and unleashes blazing hot, blinding light in a @Template[emanation|distance:120]. Each criatura in the area takes @Damage[9d6[fire]] daño with a @Check[reflex|dc:29] salvación. The crow can't use Blinding Heat again for [[/br 1d4 #Recharge Blinding Heat]]{1d4 asaltos}, and its glow aura is deactivated during this time.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura takes half daño and is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado} for 1 asalto.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegado} for 1 asalto.</p>\n<p><strong>Fallo crítico</strong> The criatura takes double daño and is blinded for 1 minuto.</p>"
         },
         "action->Burning Talons": {
           "name": "Burning Talons",
@@ -2617,7 +2617,7 @@
         },
         "action->Crystal Burst": {
           "name": "Crystal Burst",
-          "description": "<p>An explosion of razor-sharp splinters deals @Damage[24d6[piercing]|options:area-damage|traits:item:frequency:limited] daño in a @Template[burst|distance:30] within 120 pies, with a @Check[reflex|dc:46|basic|options:area-effect] salvación. The vault keeper can't use Crystal Burst again for [[/gmr 1d4 #Recharge Crystal Burst]]{1d4 rounds}.</p>"
+          "description": "<p>An explosion of razor-sharp splinters deals @Damage[24d6[piercing]|options:area-damage|traits:item:frequency:limited] daño in a @Template[burst|distance:30] within 120 pies, with a @Check[reflex|dc:46|basic|options:area-effect] salvación. The vault keeper can't use Crystal Burst again for [[/gmr 1d4 #Recharge Crystal Burst]]{1d4 asaltos}.</p>"
         },
         "action->Earth Glide": {
           "name": "Earth Glide",
@@ -2692,7 +2692,7 @@
         },
         "action->Crystal Burst": {
           "name": "Crystal Burst",
-          "description": "<p>An explosion of razor-sharp splinters deals @Damage[15d6[piercing]|options:area-damage|traits:item:frequency:limited] daño in a @Template[burst|distance:30] within 120 pies, with a @Check[reflex|dc:35|basic|options:area-effect] salvación. The vault keeper can't use Crystal Burst again for [[/gmr 1d4 #Recharge Crystal Burst]]{1d4 rounds}.</p>"
+          "description": "<p>An explosion of razor-sharp splinters deals @Damage[15d6[piercing]|options:area-damage|traits:item:frequency:limited] daño in a @Template[burst|distance:30] within 120 pies, with a @Check[reflex|dc:35|basic|options:area-effect] salvación. The vault keeper can't use Crystal Burst again for [[/gmr 1d4 #Recharge Crystal Burst]]{1d4 asaltos}.</p>"
         },
         "action->Slashing Surge": {
           "name": "Slashing Surge",
@@ -2810,7 +2810,7 @@
         },
         "action->Breathe Pollen": {
           "name": "Breathe Pollen",
-          "description": "<p>The wood scamp breathes choking pollen in a @Template[cone|distance:15] that deals @Damage[2d6[poison]|options:area-damage] daño to each criatura within the area (@Check[reflex|dc:17|basic|options:area-effect] salvación; criaturas who don't need to breathe are immune). The wood scamp can't Breathe Pollen again for [[/gmr 1d4 #Recharge Breathe Pollen]]{1d4 rounds}.</p>"
+          "description": "<p>The wood scamp breathes choking pollen in a @Template[cone|distance:15] that deals @Damage[2d6[poison]|options:area-damage] daño to each criatura within the area (@Check[reflex|dc:17|basic|options:area-effect] salvación; criaturas who don't need to breathe are immune). The wood scamp can't Breathe Pollen again for [[/gmr 1d4 #Recharge Breathe Pollen]]{1d4 asaltos}.</p>"
         },
         "action->Thorn Puncture": {
           "name": "Thorn Puncture",
@@ -3009,7 +3009,7 @@
         },
         "action->Magnetic Storm": {
           "name": "Magnetic Storm",
-          "description": "<p><strong>Requisitos</strong> The shuyookh's magnetic field is active</p>\n<hr />\n<p><strong>Efecto</strong> The shuyookh electromagnetically flings razor-sharp metal scraps. Each criatura in a @Template[emanation|distance:30] takes @Damage[8d6[slashing],3d12[electricity]|options:area-damage] daño, with a @Check[fortitude|dc:32|basic|options:area-effect] salvación.</p>\n<p>The shuyookh's magnetic field is deactivated for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Requisitos</strong> The shuyookh's magnetic field is active</p>\n<hr />\n<p><strong>Efecto</strong> The shuyookh electromagnetically flings razor-sharp metal scraps. Each criatura in a @Template[emanation|distance:30] takes @Damage[8d6[slashing],3d12[electricity]|options:area-damage] daño, with a @Check[fortitude|dc:32|basic|options:area-effect] salvación.</p>\n<p>The shuyookh's magnetic field is deactivated for [[/gmr 1d4 #rounds]]{1d4 asaltos}.</p>"
         },
         "action->Mercurial Wish": {
           "name": "Mercurial Wish",

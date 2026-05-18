@@ -1469,7 +1469,7 @@
         }
       },
       "Pyrkaion": {
-        "AuraOfSophistryNote": "<p>Quedas @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefacto 1} and gain weakness 4 to daño mental for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.Rr4stNn2zqzspjQu]</p>"
+        "AuraOfSophistryNote": "<p>Quedas @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefacto 1} and gain weakness 4 to daño mental for [[/gmr 1d4 #rounds]]{1d4 asaltos}.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.Rr4stNn2zqzspjQu]</p>"
       },
       "QuantiumGolem": {
         "Type": {
@@ -2659,7 +2659,7 @@
           "HalveAuraToggle": "Aegis for the Innocent — Halve aura radius"
         },
         "CelestialArmaments": {
-          "Note": "Cuando tú critically hit a target with the arma, el objetivo must succeed at a @Check[fortitude|against:class-spell] or be @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for [[/r 1d4 #rounds]]{1d4 rounds}."
+          "Note": "Cuando tú critically hit a target with the arma, el objetivo must succeed at a @Check[fortitude|against:class-spell] or be @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for [[/r 1d4 #rounds]]{1d4 asaltos}."
         },
         "CelestialRebirth": {
           "SpellDescriptionAlteration": "Cuando tú cast a conjuro with the healing rasgo that doesn't target tú, tú regain @Damage[(@item.rank)d6[healing]] Puntos de Golpe."
@@ -2978,7 +2978,7 @@
             "Description": "Tu eidolon exhala a blast of destructive energy. Tu eidolon causa @Damage[((ceil(@actor.level/2))d6)[@actor.flags.pf2e.breathweapon.breathDamage]|options:area-damage] daño a all criaturas in a @Template[line|distance:60], with a basic Reflex save against tu conjuro DC."
           }
         },
-        "Cooldown": "Tu eidolon no puede volver a usar their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.",
+        "Cooldown": "Tu eidolon no puede volver a usar their Arma de aliento again for the next [[/r 1d4 #rounds]]{1d4 asaltos}.",
         "Scaling": "At 3rd level and every 2 levels thereafter, the daño increases by 1d6."
       },
       "BrokenChain": {
@@ -3750,26 +3750,26 @@
       "Dragonblood": {
         "BreathOfTheDragon": {
           "Cone": {
-            "Fortitude": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[cone|distance:15], dealing @Damage[ceil(@actor.level/2)d4[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[fortitude|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 rounds}.",
-            "Reflex": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[cone|distance:15], dealing @Damage[ceil(@actor.level/2)d4[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[reflex|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 rounds}.",
-            "Will": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[cone|distance:15], dealing @Damage[ceil(@actor.level/2)d4[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[will|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 rounds}."
+            "Fortitude": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[cone|distance:15], dealing @Damage[ceil(@actor.level/2)d4[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[fortitude|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 asaltos}.",
+            "Reflex": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[cone|distance:15], dealing @Damage[ceil(@actor.level/2)d4[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[reflex|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 asaltos}.",
+            "Will": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[cone|distance:15], dealing @Damage[ceil(@actor.level/2)d4[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[will|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 asaltos}."
           },
           "Line": {
-            "Fortitude": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[line|distance:30], dealing @Damage[ceil(@actor.level/2)d4[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[fortitude|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 rounds}.",
-            "Reflex": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[line|distance:30], dealing @Damage[ceil(@actor.level/2)d4[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[reflex|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 rounds}.",
-            "Will": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[line|distance:30], dealing @Damage[ceil(@actor.level/2)d4[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[will|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 rounds}."
+            "Fortitude": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[line|distance:30], dealing @Damage[ceil(@actor.level/2)d4[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[fortitude|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 asaltos}.",
+            "Reflex": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[line|distance:30], dealing @Damage[ceil(@actor.level/2)d4[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[reflex|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 asaltos}.",
+            "Will": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[line|distance:30], dealing @Damage[ceil(@actor.level/2)d4[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[will|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 asaltos}."
           }
         },
         "FormidableBreath": {
           "Cone": {
-            "Fortitude": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[cone|distance:30], dealing @Damage[ceil(@actor.level/2)d6[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[fortitude|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 rounds}.",
-            "Reflex": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[cone|distance:30], dealing @Damage[ceil(@actor.level/2)d6[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[reflex|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 rounds}.",
-            "Will": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[cone|distance:30], dealing @Damage[ceil(@actor.level/2)d6[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[will|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 rounds}."
+            "Fortitude": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[cone|distance:30], dealing @Damage[ceil(@actor.level/2)d6[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[fortitude|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 asaltos}.",
+            "Reflex": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[cone|distance:30], dealing @Damage[ceil(@actor.level/2)d6[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[reflex|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 asaltos}.",
+            "Will": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[cone|distance:30], dealing @Damage[ceil(@actor.level/2)d6[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[will|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 asaltos}."
           },
           "Line": {
-            "Fortitude": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[line|distance:60], dealing @Damage[ceil(@actor.level/2)d6[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[fortitude|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 rounds}.",
-            "Reflex": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[line|distance:60], dealing @Damage[ceil(@actor.level/2)d6[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[reflex|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 rounds}.",
-            "Will": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[line|distance:60], dealing @Damage[ceil(@actor.level/2)d6[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[will|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 rounds}."
+            "Fortitude": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[line|distance:60], dealing @Damage[ceil(@actor.level/2)d6[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[fortitude|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 asaltos}.",
+            "Reflex": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[line|distance:60], dealing @Damage[ceil(@actor.level/2)d6[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[reflex|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 asaltos}.",
+            "Will": "Tapping into the physiology of tu draconic ancestor, puedes exhale a torrent of energy in a @Template[line|distance:60], dealing @Damage[ceil(@actor.level/2)d6[@actor.flags.pf2e.dragonblood.damageType]|options:area-damage] daño. Each criatura in the area must attempt a @Check[will|against:class-spell|basic]. Puedes't use this ability again for [[/r 1d4 #Recharge this ability]]{1d4 asaltos}."
           }
         },
         "HeartOfEarth": {
@@ -3787,7 +3787,7 @@
       "Dragonet": {
         "DragonetBreath": {
           "Description": {
-            "Base": "Tienes developed tu magical breath. Tú expel the dragonet breath associated with tu heritage. Dragonet Breath gains the rasgos listed in parentheses, and the DC is tu class DC or conjuro DC, whichever is higher. After tú use Dragonet Breath, puedes't use it again for [[/r 1d4 #Recharge Dragonet Breath]]{1d4 rounds}.",
+            "Base": "Tienes developed tu magical breath. Tú expel the dragonet breath associated with tu heritage. Dragonet Breath gains the rasgos listed in parentheses, and the DC is tu class DC or conjuro DC, whichever is higher. After tú use Dragonet Breath, puedes't use it again for [[/r 1d4 #Recharge Dragonet Breath]]{1d4 asaltos}.",
             "FeyDragonet": "**Fey Dragonet** (arcane, poison) Tú breathe a @Template[type:cone|distance:15] of euphoric gas. Each criatura in the area must succeed at a @Check[fortitude|against:class-spell|options:area-effect,inflicts:stupefied|traits:arcane,poison] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefacto 1} durante 1 asalto.",
             "HomingDrake": "**Homing Drake** (acid) Tú expel a @Template[type:line|distance:30] of caustic spittle that deals @Damage[(ceil(@actor.level/2))d4[acid]|options:area-damage] daño with a @Check[reflex|against:class-spell|basic|options:area-effect,damage:material:silver|traits:acid] salvación. At 3rd level and every 2 levels thereafter, the daño increases by 1d4.",
             "HouseDrake": "**House Drake** (arcane, mental) Tú breathe out a cloud of silver mist in a @Template[type:cone|distance:15] that deals @Damage[(ceil(@actor.level/2))d4[mental]|options:area-damage] daño with a @Check[will|against:class-spell|options:area-effect|traits:arcane,mental] salvación. It counts as silver for the purpose of weaknesses. At 3rd level and every 2 levels thereafter, the daño increases by 1d4.",
@@ -3806,14 +3806,14 @@
       "DragonForm": {
         "DragonBreath": {
           "cone": {
-            "fortitude": "Tú exhale deadly magical energy in a @Template[type:cone|distance:30], dealing @Damage[10d6|options:area-damage] daño a each criatura in the area with a @Check[fortitude|basic|options:area-effect] against tu conjuro DC. Once activated, Dragon Breath can't be used again for [[/r 1d4 #Recharge Dragon Breath]]{1d4 rounds}.",
-            "reflex": "Tú exhale deadly magical energy in a @Template[type:cone|distance:30], dealing @Damage[10d6|options:area-damage] daño a each criatura in the area with a @Check[reflex|basic|options:area-effect] against tu conjuro DC. Once activated, Dragon Breath can't be used again for [[/r 1d4 #Recharge Dragon Breath]]{1d4 rounds}.",
-            "will": "Tú exhale deadly magical energy in a @Template[type:cone|distance:30], dealing @Damage[10d6|options:area-damage] daño a each criatura in the area with a @Check[will|basic|options:area-effect] against tu conjuro DC. Once activated, Dragon Breath can't be used again for [[/r 1d4 #Recharge Dragon Breath]]{1d4 rounds}."
+            "fortitude": "Tú exhale deadly magical energy in a @Template[type:cone|distance:30], dealing @Damage[10d6|options:area-damage] daño a each criatura in the area with a @Check[fortitude|basic|options:area-effect] against tu conjuro DC. Once activated, Dragon Breath can't be used again for [[/r 1d4 #Recharge Dragon Breath]]{1d4 asaltos}.",
+            "reflex": "Tú exhale deadly magical energy in a @Template[type:cone|distance:30], dealing @Damage[10d6|options:area-damage] daño a each criatura in the area with a @Check[reflex|basic|options:area-effect] against tu conjuro DC. Once activated, Dragon Breath can't be used again for [[/r 1d4 #Recharge Dragon Breath]]{1d4 asaltos}.",
+            "will": "Tú exhale deadly magical energy in a @Template[type:cone|distance:30], dealing @Damage[10d6|options:area-damage] daño a each criatura in the area with a @Check[will|basic|options:area-effect] against tu conjuro DC. Once activated, Dragon Breath can't be used again for [[/r 1d4 #Recharge Dragon Breath]]{1d4 asaltos}."
           },
           "line": {
-            "fortitude": "Tú exhale deadly magical energy in a @Template[type:line|distance:100], dealing @Damage[10d6|options:area-damage] daño a each criatura in the area with a @Check[fortitude|basic|options:area-effect] against tu conjuro DC. Once activated, Dragon Breath can't be used again for [[/r 1d4 #Recharge Dragon Breath]]{1d4 rounds}.",
-            "reflex": "Tú exhale deadly magical energy in a @Template[type:line|distance:100], dealing @Damage[10d6|options:area-damage] daño a each criatura in the area with a @Check[reflex|basic|options:area-effect] against tu conjuro DC. Once activated, Dragon Breath can't be used again for [[/r 1d4 #Recharge Dragon Breath]]{1d4 rounds}.",
-            "will": "Tú exhale deadly magical energy in a @Template[type:line|distance:100], dealing @Damage[10d6|options:area-damage] daño a each criatura in the area with a @Check[will|basic|options:area-effect] against tu conjuro DC. Once activated, Dragon Breath can't be used again for [[/r 1d4 #Recharge Dragon Breath]]{1d4 rounds}."
+            "fortitude": "Tú exhale deadly magical energy in a @Template[type:line|distance:100], dealing @Damage[10d6|options:area-damage] daño a each criatura in the area with a @Check[fortitude|basic|options:area-effect] against tu conjuro DC. Once activated, Dragon Breath can't be used again for [[/r 1d4 #Recharge Dragon Breath]]{1d4 asaltos}.",
+            "reflex": "Tú exhale deadly magical energy in a @Template[type:line|distance:100], dealing @Damage[10d6|options:area-damage] daño a each criatura in the area with a @Check[reflex|basic|options:area-effect] against tu conjuro DC. Once activated, Dragon Breath can't be used again for [[/r 1d4 #Recharge Dragon Breath]]{1d4 asaltos}.",
+            "will": "Tú exhale deadly magical energy in a @Template[type:line|distance:100], dealing @Damage[10d6|options:area-damage] daño a each criatura in the area with a @Check[will|basic|options:area-effect] against tu conjuro DC. Once activated, Dragon Breath can't be used again for [[/r 1d4 #Recharge Dragon Breath]]{1d4 asaltos}."
           }
         }
       },
@@ -4067,7 +4067,7 @@
           "Note": {
             "Acid": "On a hit, el objetivo becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}",
             "Cold": "On a hit, el objetivo takes a -10-pies penalización de estado to their Velocidades durante 1 minuto (@UUID[Compendium.pf2e.equipment-effects.Item.s79LDAwEZex6sy14]{Efecto: Drake Rifle (Cold)})",
-            "Electricity": "On a hit, el objetivo becomes @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} for [[/r 1d4 #rounds]]{1d4 rounds}",
+            "Electricity": "On a hit, el objetivo becomes @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} for [[/r 1d4 #rounds]]{1d4 asaltos}",
             "Fire": "On a hit, el objetivo is pushed 10 pies away from tú, and if it's on the ground, it falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}",
             "Poison": "On a hit, el objetivo becomes @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} durante 1 minuto"
           }
@@ -5057,7 +5057,7 @@
           "Vitriol": "Vitriolo (ácido)"
         },
         "Overdrive": {
-          "CriticalFailure": "Whoops! Something explodes. Sufres @Damage[(ceil(@actor.level / 2))[@actor.flags.pf2e.inventor.explode]|immutable|name:PF2E.SpecificRule.Inventor.Innovation.MalfunctionDamage] daño, and puedes't use Overdrive again for [[/r 1d4 #Recharge Overdrive]]{1d4 rounds} as tu gizmos reset.",
+          "CriticalFailure": "Whoops! Something explodes. Sufres @Damage[(ceil(@actor.level / 2))[@actor.flags.pf2e.inventor.explode]|immutable|name:PF2E.SpecificRule.Inventor.Innovation.MalfunctionDamage] daño, and puedes't use Overdrive again for [[/r 1d4 #Recharge Overdrive]]{1d4 asaltos} as tu gizmos reset.",
           "CriticalSuccess": "Tus artilugios entran en un estado de increíble eficiencia llamado crítico @UUID[Compendium.pf2e.feat-effects.Item.1XlJ9xLzL19GHoOL]{Overdrive}, añadiendo un gran poder a tus ataques.",
           "Fallo": "Tu gizmos whine concerningly and begin to smoke. Tu Golpes deal 1 daño adicional de fuego. @UUID[Compendium.pf2e.feat-effects.Item.1XlJ9xLzL19GHoOL]{Overdrive}",
           "FireDamage": "Sobremarcha: daño por incendio",

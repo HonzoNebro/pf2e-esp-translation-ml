@@ -42,7 +42,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>The Azmakian effigy exhales rusting gas in a @Template[cone|distance:15]. The gas deals @Damage[2d6[untyped]|options:area-damage] daño to the highest-level metal item carried by every criatura in the area, ignoring these items' Hardness (@Check[fortitude|dc:22|basic|options:area-effect]); unattended metal items in the area take this daño automatically. The Azmakian effigy can't use its Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The Azmakian effigy exhales rusting gas in a @Template[cone|distance:15]. The gas deals @Damage[2d6[untyped]|options:area-damage] daño to the highest-level metal item carried by every criatura in the area, ignoring these items' Hardness (@Check[fortitude|dc:22|basic|options:area-effect]); unattended metal items in the area take this daño automatically. The Azmakian effigy can't use its Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Powerful Charge": {
           "name": "Powerful Charge",
@@ -424,7 +424,7 @@
         },
         "action->Alchemical Amplification": {
           "name": "Alchemical Amplification",
-          "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p><strong>Efecto</strong> The necrohulk draws upon alchemical stores to push its body into overdrive. It becomes @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} for [[/gmr 1d4 #Quickened Duration]]{1d4 rounds}. It can use this extra action to Dar un paso, Zancada, or Golpe.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p><strong>Efecto</strong> The necrohulk draws upon alchemical stores to push its body into overdrive. It becomes @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} for [[/gmr 1d4 #Quickened Duration]]{1d4 asaltos}. It can use this extra action to Dar un paso, Zancada, or Golpe.</p>"
         },
         "action->Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV]\n<p>@Damage[6d6[bludgeoning]], @Check[fortitude|dc:32|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
@@ -455,7 +455,7 @@
         },
         "action->Alchemical Amplification": {
           "name": "Alchemical Amplification",
-          "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p><strong>Efecto</strong> The necrohulk draws upon alchemical stores to push its body into overdrive. It becomes @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} for [[/gmr 1d4 #Quickened Duration]]{1d4 rounds}. It can use this extra action to Dar un paso, Zancada, or Golpe.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p><strong>Efecto</strong> The necrohulk draws upon alchemical stores to push its body into overdrive. It becomes @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} for [[/gmr 1d4 #Quickened Duration]]{1d4 asaltos}. It can use this extra action to Dar un paso, Zancada, or Golpe.</p>"
         },
         "action->Rend": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.3JOi2cMcGhT3eze1]\n<p>Fist</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
@@ -618,7 +618,7 @@
         },
         "action->Shadow Breath": {
           "name": "Shadow Breath",
-          "description": "<p>The shadowforged guardian expels a @Template[cone|distance:30] of twisting shadows from its mouth. All criaturas in the area must attempt a @Check[fortitude|dc:29|options:area-effect,inflicts:debilitado,inflicts:ralentizado] salvación. The guardian can't use Shadow Breath for [[/gmr 1d4 #Recharge Shadow Breath]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} until the end of its next turn.</p>\n<p><strong>Fallo</strong> The criatura is debilitado 1 for 1 hora and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 minuto.</p>\n<p><strong>Fallo crítico</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} for 24 horas and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} for 1 minuto.</p>"
+          "description": "<p>The shadowforged guardian expels a @Template[cone|distance:30] of twisting shadows from its mouth. All criaturas in the area must attempt a @Check[fortitude|dc:29|options:area-effect,inflicts:debilitado,inflicts:ralentizado] salvación. The guardian can't use Shadow Breath for [[/gmr 1d4 #Recharge Shadow Breath]]{1d4 asaltos}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} until the end of its next turn.</p>\n<p><strong>Fallo</strong> The criatura is debilitado 1 for 1 hora and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 minuto.</p>\n<p><strong>Fallo crítico</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} for 24 horas and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} for 1 minuto.</p>"
         }
       }
     },

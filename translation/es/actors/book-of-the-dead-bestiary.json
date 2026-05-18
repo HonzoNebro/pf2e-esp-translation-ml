@@ -258,7 +258,7 @@
         },
         "action->Blazing Howl": {
           "name": "Aullido ardiente",
-          "description": "<p> El objeto quemado grita de agonía, lo que hace que las criaturas en un @Template[type:emanation|distance:15] estallen en llamas, lo que causa @Damage[4d6[fire]] daño a cada criatura en el área ( @Check[type:will|dc:17|basic:true] ). Una criatura que falla críticamente su salvación es @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL] {Asustado 1} ; Esta condición de miedo es una emoción, miedo y efecto mental. </p>\n <p> Los quemados no pueden usar Blazing Howl para [[/br 1d4 #Recharge Blazing Howl]] {1d4 rounds}. </p>"
+          "description": "<p> El objeto quemado grita de agonía, lo que hace que las criaturas en un @Template[type:emanation|distance:15] estallen en llamas, lo que causa @Damage[4d6[fire]] daño a cada criatura en el área ( @Check[type:will|dc:17|basic:true] ). Una criatura que falla críticamente su salvación es @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL] {Asustado 1} ; Esta condición de miedo es una emoción, miedo y efecto mental. </p>\n <p> Los quemados no pueden usar Blazing Howl para [[/br 1d4 #Recharge Blazing Howl]] {1d4 asaltos}. </p>"
         }
       }
     },
@@ -765,7 +765,7 @@
         },
         "action->Destructive Finale": {
           "name": "Final destructivo",
-          "description": "<p> <strong> Requisitos </strong> Danza con la Muerte está vigente </p>\n <hr />\n <p> <strong> Efecto </strong> Los huesos que tocan el violín realizan un final bullicioso. Eligen un @Template[type:cone|distance:30] o @Template[type:emanation|distance:15] y ​​causan @Damage[4d6[sonic]] daño a todas las criaturas en esa área ( @Check[type:reflex|dc:21|basic:true] ). </p>\n <p> Danza con la Muerte termina inmediatamente, y los huesos del violín no pueden usar Danza con la Muerte o Final Destructivo durante [[/br 1d4 #Recharge]] {1d4 rounds} .</p>"
+          "description": "<p> <strong> Requisitos </strong> Danza con la Muerte está vigente </p>\n <hr />\n <p> <strong> Efecto </strong> Los huesos que tocan el violín realizan un final bullicioso. Eligen un @Template[type:cone|distance:30] o @Template[type:emanation|distance:15] y ​​causan @Damage[4d6[sonic]] daño a todas las criaturas en esa área ( @Check[type:reflex|dc:21|basic:true] ). </p>\n <p> Danza con la Muerte termina inmediatamente, y los huesos del violín no pueden usar Danza con la Muerte o Final Destructivo durante [[/br 1d4 #Recharge]] {1d4 asaltos} .</p>"
         },
         "lore->Theater Lore": {
           "name": "Historia del teatro"
@@ -835,7 +835,7 @@
         },
         "action->Time Shift": {
           "name": "Cambio de hora",
-          "description": "<p> Una criatura golpeada por el toque de desplazamiento temporal del espectro flux debe superar una tirada de salvación @Check[type:will|dc:35] o será impulsada hacia adelante en el tiempo, desapareciendo de su espacio. El objetivo reaparece automáticamente en la misma ubicación después de [[/br 1d4 #Time Shift]] {1d4 rounds} pero puede intentar una salvación de Voluntad adicional al final de cada uno de sus turnos para finalizar la duración. Si su espacio original está ocupado cuando regresa, la criatura aparece en el espacio desocupado más cercano. Dado que la criatura es empujada hacia adelante entiempo, no experimenta nada del tiempo intermedio. Del mismo modo, cualquier efecto sobre la criatura con una duración no disminuye su duración y se reanuda cuando la criatura reaparece. Una criatura que tiene éxito en cualquier tirada de salvación contra el cambio de tiempo es temporalmente inmune durante 1 hora. </p>"
+          "description": "<p> Una criatura golpeada por el toque de desplazamiento temporal del espectro flux debe superar una tirada de salvación @Check[type:will|dc:35] o será impulsada hacia adelante en el tiempo, desapareciendo de su espacio. El objetivo reaparece automáticamente en la misma ubicación después de [[/br 1d4 #Time Shift]] {1d4 asaltos} pero puede intentar una salvación de Voluntad adicional al final de cada uno de sus turnos para finalizar la duración. Si su espacio original está ocupado cuando regresa, la criatura aparece en el espacio desocupado más cercano. Dado que la criatura es empujada hacia adelante entiempo, no experimenta nada del tiempo intermedio. Del mismo modo, cualquier efecto sobre la criatura con una duración no disminuye su duración y se reanuda cuando la criatura reaparece. Una criatura que tiene éxito en cualquier tirada de salvación contra el cambio de tiempo es temporalmente inmune durante 1 hora. </p>"
         }
       }
     },
@@ -906,7 +906,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p> El gashadokuro respira un chorro de fragmentos de hueso en un @Template[type:cone|distance:30]. Cada criatura en el área sufre @Damage[8d12[piercing]] de daño ( @Check[type:reflex|dc:34|basic:true] ). </p>\n <p> No puede volver a usar Breath Weapon durante [[/br 1d4 #Recharge Breath Weapon]] {1d4 rounds} . </p>"
+          "description": "<p> El gashadokuro respira un chorro de fragmentos de hueso en un @Template[type:cone|distance:30]. Cada criatura en el área sufre @Damage[8d12[piercing]] de daño ( @Check[type:reflex|dc:34|basic:true] ). </p>\n <p> No puede volver a usar su arma de aliento durante [[/br 1d4 #Recharge Breath Weapon]] {1d4 asaltos} . </p>"
         },
         "action->Corpse Consumption": {
           "name": "Consumo de cadáveres",
@@ -963,7 +963,7 @@
         },
         "action->Blinding Breath": {
           "name": "Aliento cegador",
-          "description": "<p> El gholdako exhala un @Template[type:cone|distance:60] de aliento nocivo que causa @Damage[7d8[void]] daño ( @Check[type:reflex|dc:29|basic:true] ). Una criatura que falla su salvación también es @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2] {Cegado} hasta el final de su siguiente turno (o durante 1 minuto en caso de un fallo crítico) mientras una película lechosa cubre sus ojos. </p>\n <p> El gholdako no puede volver a usar Aliento cegador durante [[/br 1d4 #Recharge Blinding Breath]] {1d4 rounds}. </p>"
+          "description": "<p> El gholdako exhala un @Template[type:cone|distance:60] de aliento nocivo que causa @Damage[7d8[void]] daño ( @Check[type:reflex|dc:29|basic:true] ). Una criatura que falla su salvación también es @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2] {Cegado} hasta el final de su siguiente turno (o durante 1 minuto en caso de un fallo crítico) mientras una película lechosa cubre sus ojos. </p>\n <p> El gholdako no puede volver a usar Aliento cegador durante [[/br 1d4 #Recharge Blinding Breath]] {1d4 asaltos}. </p>"
         },
         "action->Infectious Visions": {
           "name": "Visiones infecciosas",
@@ -1157,7 +1157,7 @@
         },
         "action->Devastating Blast": {
           "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.IxJbFJ8dG5RbZWBD]\nExplosión devastadora",
-          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.IxJbFJ8dG5RbZWBD]\n <p> El caballero de las tumbas desata una @Template[type:cone|distance:30] de energía. Las criaturas en el área reciben @Damage[8d12[electricity]] de daño ( @Check[type:reflex|dc:34|basic:true] salvación). </p>\n <p> El caballero de las tumbas puede usar esta habilidad una vez cada [[/br 1d4 #Recharge Devastating Blast]] {1d4 rounds} . </p>"
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.IxJbFJ8dG5RbZWBD]\n <p> El caballero de las tumbas desata una @Template[type:cone|distance:30] de energía. Las criaturas en el área reciben @Damage[8d12[electricity]] de daño ( @Check[type:reflex|dc:34|basic:true] salvación). </p>\n <p> El caballero de las tumbas puede usar esta habilidad una vez cada [[/br 1d4 #Recharge Devastating Blast]] {1d4 asaltos} . </p>"
         },
         "action->Exemplar of Violence": {
           "name": "Ejemplar de violencia",
@@ -1263,7 +1263,7 @@
         },
         "action->Desiccation Aura": {
           "name": "Aura de desecación",
-          "description": "<p> 30 pies. Una nube de polvo acre y asfixiante se arremolina alrededor de la serpiente hueca, drenando la humedad de cualquier enemigo que se encuentre dentro. Una criatura que ingresa al aura o comienza su turno en el aura debe tener éxito en una salvación @Check[type:fortitude|dc:34] o convertirse en @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7] {Debilitado 2} y ​​@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3] {Lentificado 1} para [[/r 1d4 #rounds]] {1d4 rounds} ( [[/r 2d4 #rounds]] {2d4 rounds} en un fallo crítico). Una criatura que tiene éxito es temporalmente inmune durante 24 horas. </p>"
+          "description": "<p> 30 pies. Una nube de polvo acre y asfixiante se arremolina alrededor de la serpiente hueca, drenando la humedad de cualquier enemigo que se encuentre dentro. Una criatura que ingresa al aura o comienza su turno en el aura debe tener éxito en una salvación @Check[type:fortitude|dc:34] o convertirse en @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7] {Debilitado 2} y ​​@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3] {Lentificado 1} para [[/r 1d4 #rounds]] {1d4 asaltos} ( [[/r 2d4 #rounds]] {2d4 rounds} en un fallo crítico). Una criatura que tiene éxito es temporalmente inmune durante 24 horas. </p>"
         },
         "action->Divine Guardian": {
           "name": "guardián divino",
@@ -1423,7 +1423,7 @@
         },
         "action->Spawn Hunter Wight": {
           "name": "Espectro cazador de engendros",
-          "description": "<p> Un humanoide vivo asesinado por el arma o la garra de un espectro cazador. El golpe se eleva cuando un espectro cazador aparece después de [[/br 1d4 #rounds]] {1d4 rounds} . Este engendro está bajo el mando del cazador que los mató. No tienen vida de drenaje ni engendro de cazador y son @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm] {Torpe 2} mientras sean un engendro de cazador. Si el creador del engendro del cazador muere, el engendro del cazador se convierte en un cazador completamente autónomo; recuperan su libre albedrío, ganan vida de drenajey engendran un espectro cazador, y ya no son torpes </p>"
+          "description": "<p> Un humanoide vivo asesinado por el arma o la garra de un espectro cazador. El golpe se eleva cuando un espectro cazador aparece después de [[/br 1d4 #rounds]] {1d4 asaltos} . Este engendro está bajo el mando del cazador que los mató. No tienen vida de drenaje ni engendro de cazador y son @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm] {Torpe 2} mientras sean un engendro de cazador. Si el creador del engendro del cazador muere, el engendro del cazador se convierte en un cazador completamente autónomo; recuperan su libre albedrío, ganan vida de drenajey engendran un espectro cazador, y ya no son torpes </p>"
         }
       }
     },
@@ -1469,7 +1469,7 @@
         },
         "action->Great Despair": {
           "name": "Gran desesperación",
-          "description": "<p> 30 pies. Las criaturas vivientes son @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL] {Asustado 1} mientras están en el aura de gran desesperación de una momia de hielo. No pueden recuperarse naturalmente de este miedo mientras están en el área, pero se recuperan instantáneamente una vez que la abandonan. Cuando una criatura entra por primera vez al área, debe tener éxito en una salvación @Check[type:will|dc:24] (después de recibir el penalizador por estar asustada) o ser @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF] {Paralizado} para [[/r 1d4 #rounds]] {1d4 rounds}. Luego, la criatura es temporalmente inmune durante 24 horas. </p>\n <p>@UUID[Compendium.pf2e.bestiary-effects.Item.1bOSJ2LbEC28aI9f] {Efecto: Despair} </p>"
+          "description": "<p> 30 pies. Las criaturas vivientes son @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL] {Asustado 1} mientras están en el aura de gran desesperación de una momia de hielo. No pueden recuperarse naturalmente de este miedo mientras están en el área, pero se recuperan instantáneamente una vez que la abandonan. Cuando una criatura entra por primera vez al área, debe tener éxito en una salvación @Check[type:will|dc:24] (después de recibir el penalizador por estar asustada) o ser @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF] {Paralizado} para [[/r 1d4 #rounds]] {1d4 asaltos}. Luego, la criatura es temporalmente inmune durante 24 horas. </p>\n <p>@UUID[Compendium.pf2e.bestiary-effects.Item.1bOSJ2LbEC28aI9f] {Efecto: Despair} </p>"
         },
         "action->Snow Vision": {
           "name": "Visión de nieve",
@@ -1485,7 +1485,7 @@
         },
         "action->Frozen Breath": {
           "name": "Aliento helado",
-          "description": "<p> La momia de hielo exhala un @Template[type:cone|distance:60] de hielo afilado que causa @Damage[5d6[cold], 4d6[corte]] {5d6 cold and 4d6 daño cortante} ( @Check[type:reflex|dc:26|basic:true]). </p>\n <p> La momia de hielo no puede volver a usar Frozen Breath durante [[/br 1d4 #Recharge Frozen Breath]] {1d4 rounds}. </p>"
+          "description": "<p> La momia de hielo exhala un @Template[type:cone|distance:60] de hielo afilado que causa @Damage[5d6[cold], 4d6[corte]] {5d6 cold and 4d6 daño cortante} ( @Check[type:reflex|dc:26|basic:true]). </p>\n <p> La momia de hielo no puede volver a usar Frozen Breath durante [[/br 1d4 #Recharge Frozen Breath]] {1d4 asaltos}. </p>"
         }
       }
     },
@@ -1652,7 +1652,7 @@
         },
         "action->Paralyzing Spew": {
           "name": "Vomito paralizante",
-          "description": "<p> El lacedon descarga un chorro de vómito de carroña a una criatura dentro de un radio de 20 pies, causando @Damage[1d6[poison]] daño con un @Check[type:fortitude|dc:17|basic:true] . Una criatura no elfa que falla su salvación también es @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF] {Paralizado} . Puede intentar una nueva salvación para poner fin a la parálisis al final de cada uno de sus turnos, y la CD disminuye acumulativamente en 1 en cada salvación. El lacedon no puede volver a usar Paralyzing Spew durante [[/br 1d4 #Recharge Paralyzing Spew]] {1d4 rounds} . </p>"
+          "description": "<p> El lacedon descarga un chorro de vómito de carroña a una criatura dentro de un radio de 20 pies, causando @Damage[1d6[poison]] daño con un @Check[type:fortitude|dc:17|basic:true] . Una criatura no elfa que falla su salvación también es @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF] {Paralizado} . Puede intentar una nueva salvación para poner fin a la parálisis al final de cada uno de sus turnos, y la CD disminuye acumulativamente en 1 en cada salvación. El lacedon no puede volver a usar Paralyzing Spew durante [[/br 1d4 #Recharge Paralyzing Spew]] {1d4 asaltos} . </p>"
         },
         "lore->Athletics": {
           "skillVariants": {
@@ -1897,7 +1897,7 @@
         },
         "action->Great Despair": {
           "name": "Gran desesperación",
-          "description": "<p> 30 pies. Las criaturas vivientes son @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL] {Asustado 1} mientras están en el aura de gran desesperación de una momia profeta. No pueden recuperarse naturalmente de este miedo mientras están en el área, pero se recuperan instantáneamente una vez que la abandonan. Cuando una criatura entra por primera vez al área, debe tener éxito en una salvación @Check[type:will|dc:31] (después de recibir el penalizador por estar asustada) o ser @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF] {Paralizado} para [[/r 1d4 #rounds]] {1d4 rounds}. Luego, la criatura es temporalmente inmune durante 24 horas. </p>\n <p>@UUID[Compendium.pf2e.bestiary-effects.Item.1bOSJ2LbEC28aI9f] {Efecto: Despair} </p>"
+          "description": "<p> 30 pies. Las criaturas vivientes son @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL] {Asustado 1} mientras están en el aura de gran desesperación de una momia profeta. No pueden recuperarse naturalmente de este miedo mientras están en el área, pero se recuperan instantáneamente una vez que la abandonan. Cuando una criatura entra por primera vez al área, debe tener éxito en una salvación @Check[type:will|dc:31] (después de recibir el penalizador por estar asustada) o ser @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF] {Paralizado} para [[/r 1d4 #rounds]] {1d4 asaltos}. Luego, la criatura es temporalmente inmune durante 24 horas. </p>\n <p>@UUID[Compendium.pf2e.bestiary-effects.Item.1bOSJ2LbEC28aI9f] {Efecto: Despair} </p>"
         },
         "action->Sand Vision": {
           "name": "Visión de arena",
@@ -2332,7 +2332,7 @@
         },
         "action->Spawn Prowler Wight": {
           "name": "Engendrar espectro merodeador",
-          "description": "<p> Un humanoide viviente asesinado por el arma o la garra de un espectro merodeador. El golpe se eleva como un espectro cazador que aparece después de [[/br 1d4 #rounds]] {1d4 rounds}. Este engendro está bajo el mando del espectro merodeador que los mató. No tienen drenaje de vida ni engendran espectros merodeadores y son @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm] {Torpe 2} mientras sean engendros de espectros merodeadores. Si el creador del engendro del espectro merodeador muere, el engendro del espectro merodeador se convierte en un espectro merodeador completamente autónomo; recuperan su libre albedrío, ganan drenajevida y engendran espectros merodeadores, y ya no son torpes </p>"
+          "description": "<p> Un humanoide viviente asesinado por el arma o la garra de un espectro merodeador. El golpe se eleva como un espectro cazador que aparece después de [[/br 1d4 #rounds]] {1d4 asaltos}. Este engendro está bajo el mando del espectro merodeador que los mató. No tienen drenaje de vida ni engendran espectros merodeadores y son @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm] {Torpe 2} mientras sean engendros de espectros merodeadores. Si el creador del engendro del espectro merodeador muere, el engendro del espectro merodeador se convierte en un espectro merodeador completamente autónomo; recuperan su libre albedrío, ganan drenajevida y engendran espectros merodeadores, y ya no son torpes </p>"
         }
       }
     },
@@ -2381,7 +2381,7 @@
         },
         "action->Ghostly Swoop": {
           "name": "Redada fantasmal",
-          "description": "<p> La reina sluagh se vuelve incorpórea hasta el inicio de su siguiente turno, y vuela hasta su velocidad de vuelo. Si bien son incorpóreos, son inmunes al daño de precisión y tienen resistencia 10 a todo el daño (excepto fuerza, toque fantasma o vitalidad); esta resistencia se duplica contra daños no mágicos. </p>\n <p> Después de usar Ghostly Swoop, la reina sluagh no puede volver a usarlo por [[/br 1d4 #Recharge]] {1d4 rounds}. </p>"
+          "description": "<p> La reina sluagh se vuelve incorpórea hasta el inicio de su siguiente turno, y vuela hasta su velocidad de vuelo. Si bien son incorpóreos, son inmunes al daño de precisión y tienen resistencia 10 a todo el daño (excepto fuerza, toque fantasma o vitalidad); esta resistencia se duplica contra daños no mágicos. </p>\n <p> Después de usar Ghostly Swoop, la reina sluagh no puede volver a usarlo por [[/br 1d4 #Recharge]] {1d4 asaltos}. </p>"
         },
         "action->Soul Theft": {
           "name": "Robo de alma",
@@ -2467,7 +2467,7 @@
         },
         "action->Demolition": {
           "name": "Demolición",
-          "description": "<p> El relictner brama con furia, provocando que la estructura circundante colapse. Todas las criaturas en un @Template[type:emanation|distance:30] reciben @Damage[8d10[bludgeoning]] daño por la caída de escombros ( @Check[type:reflex|dc:31|basic:true] ). Una criatura que falla su salvación es noqueada @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60] {Tumbado} . La zona se vuelve terreno difícil. </p>\n <p> El relictner no puede volver a usar Demolición durante [[/br 1d4 #Recharge Demolition]] {1d4 rounds} . </p>"
+          "description": "<p> El relictner brama con furia, provocando que la estructura circundante colapse. Todas las criaturas en un @Template[type:emanation|distance:30] reciben @Damage[8d10[bludgeoning]] daño por la caída de escombros ( @Check[type:reflex|dc:31|basic:true] ). Una criatura que falla su salvación es noqueada @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60] {Tumbado} . La zona se vuelve terreno difícil. </p>\n <p> El relictner no puede volver a usar Demolición durante [[/br 1d4 #Recharge Demolition]] {1d4 asaltos} . </p>"
         }
       }
     },
@@ -2642,7 +2642,7 @@
         },
         "action->Exhale": {
           "name": "Exhalar",
-          "description": "<p> El shadern exhala una nube de humo espeso en un @Template[type:burst|distance:10] {10-pies burst} centrado en ellos. La nube permanece en su lugar durante [[/br 1d4 #rounds]] {1d4 rounds} . Todas las criaturas dentro del humo se vuelven @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W] {Oculto} , y todas las criaturas fuera del humo quedan ocultas para las criaturas dentro de él. La exhalación finaliza Death Gasp, mientras el shadern deja de contener la respiración. </p>"
+          "description": "<p> El shadern exhala una nube de humo espeso en un @Template[type:burst|distance:10] {10-pies burst} centrado en ellos. La nube permanece en su lugar durante [[/br 1d4 #rounds]] {1d4 asaltos} . Todas las criaturas dentro del humo se vuelven @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W] {Oculto} , y todas las criaturas fuera del humo quedan ocultas para las criaturas dentro de él. La exhalación finaliza Death Gasp, mientras el shadern deja de contener la respiración. </p>"
         },
         "action->Smoldering Fist": {
           "name": "Puño humeante",
@@ -2771,7 +2771,7 @@
         },
         "action->Stony Shards": {
           "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.WUXY9F8SLVQSC2b8]\nFragmentos de piedra",
-          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.WUXY9F8SLVQSC2b8]\n <p> Pequeños fragmentos se desprenden de las astas de los siabrae cuando atacan, alojándose en las heridas del objetivo e infligiendo una terrible maldición. Una criatura dañada por el Golpe de las astas de piedra de un siabrae debe tener éxito en una salvación @Check[type:fortitude|dc:37] o convertirse en @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm] {Torpe 2} por [[/r 1d4 #rounds]] {1d4 rounds} en caso de falla. Si la criatura falla críticamente, o falla mientras ya tiene 2 o más de torpeza, la criatura queda petrificada.</p>"
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.WUXY9F8SLVQSC2b8]\n <p> Pequeños fragmentos se desprenden de las astas de los siabrae cuando atacan, alojándose en las heridas del objetivo e infligiendo una terrible maldición. Una criatura dañada por el Golpe de las astas de piedra de un siabrae debe tener éxito en una salvación @Check[type:fortitude|dc:37] o convertirse en @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm] {Torpe 2} por [[/r 1d4 #rounds]] {1d4 asaltos} en caso de falla. Si la criatura falla críticamente, o falla mientras ya tiene 2 o más de torpeza, la criatura queda petrificada.</p>"
         }
       }
     },
@@ -2917,7 +2917,7 @@
         },
         "action->Ghostly Swoop": {
           "name": "Redada fantasmal",
-          "description": "<p> El sluagh reaper se vuelve incorpóreo hasta el comienzo de su siguiente turno y vuela hasta su velocidad de vuelo. Si bien son incorpóreos, son inmunes al daño de precisión y tienen resistencia 10 a todo el daño (excepto fuerza, toque fantasma o vitalidad); esta resistencia se duplica contra daños no mágicos. </p>\n <p> Después de usar Ghostly Swoop, el sluagh reaper no puede volver a usarlo durante [[/br 1d4 #Recharge]] {1d4 rounds}. </p>"
+          "description": "<p> El sluagh reaper se vuelve incorpóreo hasta el comienzo de su siguiente turno y vuela hasta su velocidad de vuelo. Si bien son incorpóreos, son inmunes al daño de precisión y tienen resistencia 10 a todo el daño (excepto fuerza, toque fantasma o vitalidad); esta resistencia se duplica contra daños no mágicos. </p>\n <p> Después de usar Ghostly Swoop, el sluagh reaper no puede volver a usarlo durante [[/br 1d4 #Recharge]] {1d4 asaltos}. </p>"
         },
         "action->Sneak Attack": {
           "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n <p> El segador sluagh inflige 3d6 de daño de precisión adicional a @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] {Desprevenido} criaturas. </p>"
@@ -3049,7 +3049,7 @@
       "name": "Muebles que se derriban",
       "description": "<p> Un espíritu travieso empuja una estantería hacia una criatura. </p>",
       "disable": "<p> @Check[type:athletics|dc:16|name:Hold the furniture upright] para mantener los muebles en posición vertical o @Check[type:occultism|dc:18|name:Foil the spirit's influence] (entrenado) para frustrar los esfuerzos del espíritu por influir en la materia </p>",
-      "reset": "<p> Si el refugio daña exitosamente a una criatura con Derribar muebles, el espíritu se ríe por [[/br 1d4 #Laughing Duration]] {1d4 rounds} mientras el refugio se reinicia; Cada vez que se activa el refugio, debe derribar un mueble vertical diferente. Si el refugio no logra dañar a una criatura, el espíritu gime de frustración y se reinicia después de hacer pucheros por [[/br 1d4 #Haunt Reset]] {1d4 hours} . </p>",
+      "reset": "<p> Si el refugio daña exitosamente a una criatura con Derribar muebles, el espíritu se ríe por [[/br 1d4 #Laughing Duration]] {1d4 asaltos} mientras el refugio se reinicia; Cada vez que se activa el refugio, debe derribar un mueble vertical diferente. Si el refugio no logra dañar a una criatura, el espíritu gime de frustración y se reinicia después de hacer pucheros por [[/br 1d4 #Haunt Reset]] {1d4 hours} . </p>",
       "stealth": "<p> (entrenado) para escuchar el gruñido de esfuerzo del espíritu mientras trabaja para derribar los muebles </p>",
       "items": {
         "action->Topple Furniture": {
@@ -3083,7 +3083,7 @@
         },
         "action->Scream in Agony": {
           "name": "Grito de agonía",
-          "description": "<p> Cada criatura en el aura de Mirada Torturada del atormentado sufre @Damage[14d6[mental]] daño ( @Check[type:will|dc:34|basic:true] ). Una criatura que falla también es @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 1} (o @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 2} en caso de fallo crítico). </p>\n <p> El atormentado no puede volver a Gritar en Agonía durante [[/br 1d4 #Recharge Scream in Agony]] {1d4 rounds}, pero recarga la habilidad cada vez que recibe daño del golpe crítico de un atacante o de su propio fallo crítico en una tirada de salvación. </p>"
+          "description": "<p> Cada criatura en el aura de Mirada Torturada del atormentado sufre @Damage[14d6[mental]] daño ( @Check[type:will|dc:34|basic:true] ). Una criatura que falla también es @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 1} (o @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 2} en caso de fallo crítico). </p>\n <p> El atormentado no puede volver a Gritar en Agonía durante [[/br 1d4 #Recharge Scream in Agony]] {1d4 asaltos}, pero recarga la habilidad cada vez que recibe daño del golpe crítico de un atacante o de su propio fallo crítico en una tirada de salvación. </p>"
         }
       }
     },
@@ -3112,7 +3112,7 @@
         },
         "action->Scream in Agony": {
           "name": "Grito de agonía",
-          "description": "<p> Cada criatura en el aura de Mirada Torturada del atormentado sufre @Damage[14d6[mental]] daño ( @Check[type:will|dc:34|basic:true] ). Una criatura que falla también es @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 1} (o @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 2} en caso de fallo crítico). </p>\n <p> El atormentado no puede volver a Gritar en Agonía durante [[/br 1d4 #Recharge Scream in Agony]] {1d4 rounds}, pero recarga la habilidad cada vez que recibe daño del golpe crítico de un atacante o de su propio fallo crítico en una tirada de salvación. </p>"
+          "description": "<p> Cada criatura en el aura de Mirada Torturada del atormentado sufre @Damage[14d6[mental]] daño ( @Check[type:will|dc:34|basic:true] ). Una criatura que falla también es @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 1} (o @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 2} en caso de fallo crítico). </p>\n <p> El atormentado no puede volver a Gritar en Agonía durante [[/br 1d4 #Recharge Scream in Agony]] {1d4 asaltos}, pero recarga la habilidad cada vez que recibe daño del golpe crítico de un atacante o de su propio fallo crítico en una tirada de salvación. </p>"
         }
       }
     },
@@ -3137,11 +3137,11 @@
         },
         "action->Tortured Gaze": {
           "name": "Mirada torturada",
-          "description": "<p> 30 pies o 60 pies si el atormentado tiene 125 HP o menos. </p>\n <p> La agonía psíquica de un atormentado se derrama en el mundo que los rodea, infligiendo alucinaciones asesinas que replican los últimos momentos del atormentado. Una criatura no muerta que finaliza su turno en el aura debe tener éxito en una salvación @Check[type:will|dc:32] o para [[/br 1d4 #Dislocation Duration]] {1d4 rounds} , la criatura es @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm] {Torpe 2} y ​​@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3] {Lentificado 1} . Si bien tiene una condición de Mirada Torturada, una criaturaNo puede obtener una nueva condición del aura, pero puede recibir daño nuevamente. </p>"
+          "description": "<p> 30 pies o 60 pies si el atormentado tiene 125 HP o menos. </p>\n <p> La agonía psíquica de un atormentado se derrama en el mundo que los rodea, infligiendo alucinaciones asesinas que replican los últimos momentos del atormentado. Una criatura no muerta que finaliza su turno en el aura debe tener éxito en una salvación @Check[type:will|dc:32] o para [[/br 1d4 #Dislocation Duration]] {1d4 asaltos} , la criatura es @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm] {Torpe 2} y ​​@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3] {Lentificado 1} . Si bien tiene una condición de Mirada Torturada, una criaturaNo puede obtener una nueva condición del aura, pero puede recibir daño nuevamente. </p>"
         },
         "action->Scream in Agony": {
           "name": "Grito de agonía",
-          "description": "<p> Cada criatura en el aura de Mirada Torturada del atormentado sufre @Damage[14d6[mental]] daño ( @Check[type:will|dc:34|basic:true] ). Una criatura que falla también es @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 1} (o @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 2} en caso de fallo crítico). </p>\n <p> El atormentado no puede volver a Gritar en Agonía durante [[/br 1d4 #Recharge Scream in Agony]] {1d4 rounds}, pero recarga la habilidad cada vez que recibe daño del golpe crítico de un atacante o de su propio fallo crítico en una tirada de salvación. </p>"
+          "description": "<p> Cada criatura en el aura de Mirada Torturada del atormentado sufre @Damage[14d6[mental]] daño ( @Check[type:will|dc:34|basic:true] ). Una criatura que falla también es @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 1} (o @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 2} en caso de fallo crítico). </p>\n <p> El atormentado no puede volver a Gritar en Agonía durante [[/br 1d4 #Recharge Scream in Agony]] {1d4 asaltos}, pero recarga la habilidad cada vez que recibe daño del golpe crítico de un atacante o de su propio fallo crítico en una tirada de salvación. </p>"
         }
       }
     },
@@ -3170,7 +3170,7 @@
         },
         "action->Scream in Agony": {
           "name": "Grito de agonía",
-          "description": "<p> Cada criatura en el aura de Mirada Torturada del atormentado sufre @Damage[14d6[mental]] daño ( @Check[type:will|dc:34|basic:true] ). Una criatura que falla también es @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 1} (o @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 2} en caso de fallo crítico). </p>\n <p> El atormentado no puede volver a Gritar en Agonía durante [[/br 1d4 #Recharge Scream in Agony]] {1d4 rounds}, pero recarga la habilidad cada vez que recibe daño del golpe crítico de un atacante o de su propio fallo crítico en una tirada de salvación. </p>"
+          "description": "<p> Cada criatura en el aura de Mirada Torturada del atormentado sufre @Damage[14d6[mental]] daño ( @Check[type:will|dc:34|basic:true] ). Una criatura que falla también es @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 1} (o @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 2} en caso de fallo crítico). </p>\n <p> El atormentado no puede volver a Gritar en Agonía durante [[/br 1d4 #Recharge Scream in Agony]] {1d4 asaltos}, pero recarga la habilidad cada vez que recibe daño del golpe crítico de un atacante o de su propio fallo crítico en una tirada de salvación. </p>"
         }
       }
     },
@@ -3199,7 +3199,7 @@
         },
         "action->Scream in Agony": {
           "name": "Grito de agonía",
-          "description": "<p> Cada criatura en el aura de Mirada Torturada del atormentado sufre @Damage[14d6[mental]] daño ( @Check[type:will|dc:34|basic:true] ). Una criatura que falla también es @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 1} (o @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 2} en caso de fallo crítico). </p>\n <p> El atormentado no puede volver a Gritar en Agonía durante [[/br 1d4 #Recharge Scream in Agony]] {1d4 rounds}, pero recarga la habilidad cada vez que recibe daño del golpe crítico de un atacante o de su propio fallo crítico en una tirada de salvación. </p>"
+          "description": "<p> Cada criatura en el aura de Mirada Torturada del atormentado sufre @Damage[14d6[mental]] daño ( @Check[type:will|dc:34|basic:true] ). Una criatura que falla también es @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 1} (o @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 2} en caso de fallo crítico). </p>\n <p> El atormentado no puede volver a Gritar en Agonía durante [[/br 1d4 #Recharge Scream in Agony]] {1d4 asaltos}, pero recarga la habilidad cada vez que recibe daño del golpe crítico de un atacante o de su propio fallo crítico en una tirada de salvación. </p>"
         }
       }
     },
@@ -3228,7 +3228,7 @@
         },
         "action->Scream in Agony": {
           "name": "Grito de agonía",
-          "description": "<p> Cada criatura en el aura de Mirada Torturada del atormentado sufre @Damage[14d6[mental]] daño ( @Check[type:will|dc:34|basic:true] ). Una criatura que falla también es @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 1} (o @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 2} en caso de fallo crítico). </p>\n <p> El atormentado no puede volver a Gritar en Agonía durante [[/br 1d4 #Recharge Scream in Agony]] {1d4 rounds}, pero recarga la habilidad cada vez que recibe daño del golpe crítico de un atacante o de su propio fallo crítico en una tirada de salvación. </p>"
+          "description": "<p> Cada criatura en el aura de Mirada Torturada del atormentado sufre @Damage[14d6[mental]] daño ( @Check[type:will|dc:34|basic:true] ). Una criatura que falla también es @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 1} (o @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 2} en caso de fallo crítico). </p>\n <p> El atormentado no puede volver a Gritar en Agonía durante [[/br 1d4 #Recharge Scream in Agony]] {1d4 asaltos}, pero recarga la habilidad cada vez que recibe daño del golpe crítico de un atacante o de su propio fallo crítico en una tirada de salvación. </p>"
         }
       }
     },
@@ -3261,11 +3261,11 @@
         },
         "action->Agonized Howl": {
           "name": "Aullido agonizante",
-          "description": "<p> El no resucitado aúlla de dolor ante su maldita existencia. Las criaturas dentro de un @Template[type:emanation|distance:30] reciben @Damage[9d8[mental]] daño ( @Check[type:will|dc:30|basic:true] ). Los no resucitados no pueden volver a usar Aullido agonizante durante [[/br 1d4 #Recharge Agonized Howl]] {1d4 rounds} . </p>"
+          "description": "<p> El no resucitado aúlla de dolor ante su maldita existencia. Las criaturas dentro de un @Template[type:emanation|distance:30] reciben @Damage[9d8[mental]] daño ( @Check[type:will|dc:30|basic:true] ). Los no resucitados no pueden volver a usar Aullido agonizante durante [[/br 1d4 #Recharge Agonized Howl]] {1d4 asaltos} . </p>"
         },
         "action->Awful Approach": {
           "name": "Enfoque horrible",
-          "description": "<p> El no resucitado remodela su forma grotesca para moverse rápidamente. Da dos zancadas. Cualquier criatura viviente que pueda ver a los no resucitados durante este movimiento debe tener éxito en una salvación @Check[type:fortitude|dc:28] o ser @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 1} ( @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 2} en un fallo crítico). Este es un efecto mental y visual. Los no resucitados no pueden volver a usar Awful Approach por [[/br 1d4 #Recharge Awful Approach]] {1d4 rounds} . </p>"
+          "description": "<p> El no resucitado remodela su forma grotesca para moverse rápidamente. Da dos zancadas. Cualquier criatura viviente que pueda ver a los no resucitados durante este movimiento debe tener éxito en una salvación @Check[type:fortitude|dc:28] o ser @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 1} ( @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 2} en un fallo crítico). Este es un efecto mental y visual. Los no resucitados no pueden volver a usar Awful Approach por [[/br 1d4 #Recharge Awful Approach]] {1d4 asaltos} . </p>"
         },
         "action->Death Grip": {
           "name": "Abrazo de la muerte",
@@ -3612,7 +3612,7 @@
         },
         "action->Spawn Wight Soldier": {
           "name": "Soldado Wight engendrado",
-          "description": "<p> Un humanoide vivo asesinado por el arma o el golpe de garra de un comandante de wight asciende como un wight del nivel del comandante o inferior, más a menudo un wight cazador o un wight merodeador, después de [[/br 1d4 #rounds]] {1d4 rounds} . Este engendro está bajo el mando del comandante wight que los mató. No tienen drenaje de vida ni engendro de soldado wight y son @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm] {Torpe 2} mientras sean un engendro de wight. Si el creador del engendro del espectro muere, el engendro del espectro se convierte en un espectro completamente autónomo;recuperan su libre albedrío, ganan vida de drenaje y generan soldados wight, y ya no son torpes. </p>"
+          "description": "<p> Un humanoide vivo asesinado por el arma o el golpe de garra de un comandante de wight asciende como un wight del nivel del comandante o inferior, más a menudo un wight cazador o un wight merodeador, después de [[/br 1d4 #rounds]] {1d4 asaltos} . Este engendro está bajo el mando del comandante wight que los mató. No tienen drenaje de vida ni engendro de soldado wight y son @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm] {Torpe 2} mientras sean un engendro de wight. Si el creador del engendro del espectro muere, el engendro del espectro se convierte en un espectro completamente autónomo;recuperan su libre albedrío, ganan vida de drenaje y generan soldados wight, y ya no son torpes. </p>"
         },
         "action->Tactical Direction": {
           "name": "Dirección táctica",
@@ -3652,7 +3652,7 @@
         },
         "action->Sudden Surge": {
           "name": "Aumento repentino",
-          "description": "<p> <strong> Desencadenante </strong> Comienza el turno del zombi cáscara </p>\n <hr />\n <p> <strong> Efecto </strong> El marchito tiene un repentino estallido de velocidad. Son @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl] {Acelerado} este turno y pueden usar la acción adicional solo para dar zancadas o atacar. Si la primera acción del marchito este turno es un ataque cuerpo a cuerpo, el objetivo es @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] {Desprevenido} contra el ataque. </p>\n <p> Los marchitos no pueden usar Sudden Surge durante [[/br 1d4 #Recharge Sudden Surge]]{1d4 rounds} . </p>"
+          "description": "<p> <strong> Desencadenante </strong> Comienza el turno del zombi cáscara </p>\n <hr />\n <p> <strong> Efecto </strong> El marchito tiene un repentino estallido de velocidad. Son @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl] {Acelerado} este turno y pueden usar la acción adicional solo para dar zancadas o atacar. Si la primera acción del marchito este turno es un ataque cuerpo a cuerpo, el objetivo es @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] {Desprevenido} contra el ataque. </p>\n <p> Los marchitos no pueden usar Sudden Surge durante [[/br 1d4 #Recharge Sudden Surge]]{1d4 asaltos} . </p>"
         }
       }
     },

@@ -60,7 +60,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p> Akrida escupe una gota de ácido verde viscoso en un @Template[type:line|distance:30] que causa @Damage[5d6[acid]] daño ( @Check[type:reflex|dc:20|basic:true] ). </p>\n <p> Akrida no puede volver a usar Breath Weapon durante [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}. </p>"
+          "description": "<p> Akrida escupe una gota de ácido verde viscoso en un @Template[type:line|distance:30] que causa @Damage[5d6[acid]] daño ( @Check[type:reflex|dc:20|basic:true] ). </p>\n <p> Akrida no puede volver a usar Arma de aliento durante [[/br 1d4 #Recharge Breath Weapon]]{1d4 asaltos}. </p>"
         },
         "action->Frantic Scramble": {
           "name": "Lucha frenética",
@@ -458,7 +458,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p> La cabeza de dragón azul de la mantícora quimérica respira un @Template[type:line|distance:60] de electricidad que causa @Damage[8d6[electricity]] daño a todas las criaturas en el área ( @Check[type:reflex|dc:25|basic:true] ). </p>\n <p> La mantícora quimérica no puede volver a usar Arma de aliento durante [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds} . </p>"
+          "description": "<p> La cabeza de dragón azul de la mantícora quimérica respira un @Template[type:line|distance:60] de electricidad que causa @Damage[8d6[electricity]] daño a todas las criaturas en el área ( @Check[type:reflex|dc:25|basic:true] ). </p>\n <p> La mantícora quimérica no puede volver a usar Arma de aliento durante [[/br 1d4 #Recharge Breath Weapon]]{1d4 asaltos} . </p>"
         },
         "action->Spike Volley": {
           "name": "Volea de púas",
@@ -611,7 +611,7 @@
         },
         "action->Furnace Belch": {
           "name": "Eructo del horno",
-          "description": "<p> El triturador mecánico expulsa una nube de cenizas calientes y brasas que causa @Damage[6d6[fire]] daño en un @Template[type:cone|distance:15] ( @Check[type:reflex|dc:22|basic:true] ). El triturador mecánico no puede volver a utilizar Furnace Belch durante [[/br 1d4 #Recharge Furnace Belch]]{1d4 rounds} . </p>"
+          "description": "<p> El triturador mecánico expulsa una nube de cenizas calientes y brasas que causa @Damage[6d6[fire]] daño en un @Template[type:cone|distance:15] ( @Check[type:reflex|dc:22|basic:true] ). El triturador mecánico no puede volver a utilizar Furnace Belch durante [[/br 1d4 #Recharge Furnace Belch]]{1d4 asaltos} . </p>"
         }
       }
     },
@@ -2060,7 +2060,7 @@
         },
         "action->Sandstorm Breath": {
           "name": "Aliento de tormenta de arena",
-          "description": "<p> El draco del desierto escupe una bola de arena cargada eléctricamente a una distancia de 60 pies que explota en una nube con un @Template[type:burst|distance:15]. Las criaturas en el área reciben @Damage[9d6[electricity]] daño ( @Check[type:reflex|dc:28|basic:true] salvación). La nube permanece durante [[/br 1d4 #Cloud Duration]]{1d4 rounds} , otorgando @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealment} a todo lo que hay dentro. El draco del desierto no puede volver a usar Sandstorm Breath durante [[/br 1d6 #Recharge Sandstorm Breath]]{1d6 rounds}. </p>"
+          "description": "<p> El draco del desierto escupe una bola de arena cargada eléctricamente a una distancia de 60 pies que explota en una nube con un @Template[type:burst|distance:15]. Las criaturas en el área reciben @Damage[9d6[electricity]] daño ( @Check[type:reflex|dc:28|basic:true] salvación). La nube permanece durante [[/br 1d4 #Cloud Duration]]{1d4 asaltos} , otorgando @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealment} a todo lo que hay dentro. El draco del desierto no puede volver a usar Sandstorm Breath durante [[/br 1d6 #Recharge Sandstorm Breath]]{1d6 rounds}. </p>"
         },
         "action->Velocidad Surge": {
           "name": "Aumento de velocidad",
@@ -2101,7 +2101,7 @@
         },
         "action->Squirt Acid": {
           "name": "Chorro de ácido",
-          "description": "<p> El sapo gigante mutante arroja un @Template[type:line|distance:60] de ácido de las pústulas de su espalda. Las criaturas en el área reciben @Damage[3d6[acid]] daño ( @Check[type:reflex|dc:20|basic:true] ). El sapo gigante mutante no puede rociar ácido durante [[/br 1d4 #Recharge Squirt Acid]]{1d4 rounds}. </p>"
+          "description": "<p> El sapo gigante mutante arroja un @Template[type:line|distance:60] de ácido de las pústulas de su espalda. Las criaturas en el área reciben @Damage[3d6[acid]] daño ( @Check[type:reflex|dc:20|basic:true] ). El sapo gigante mutante no puede rociar ácido durante [[/br 1d4 #Recharge Squirt Acid]]{1d4 asaltos}. </p>"
         },
         "action->Swallow Whole": {
           "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]\n <p> Medio, @Damage[(1d8+3)[bludgeoning]] daño, Ruptura 8 </p>\n <p> @Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole] </p>"
@@ -2825,7 +2825,7 @@
         },
         "action->Smog Wraith Spawn": {
           "name": "Engendro de espectro de smog",
-          "description": "<p> Un humanoide viviente asesinado por la mano nociva de un espectro de smog. Golpe se eleva cuando un espectro de smog aparece después de [[/br 1d4 #Rounds]]{1d4 rounds}. Este engendro está bajo el mando del espectro de smog que lo mató. No tiene smog nocivo ni engendros de espectros de smog y se convierte en @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} mientras sea un engendro de espectros de smog. Si el creador del engendro muere, el engendro se convierte en un espectro de smog autónomo y de pleno derecho; recupera su libre albedrío, obtiene engendros de espectros de smog y smog nocivo, yYa no es torpe. </p>"
+          "description": "<p> Un humanoide viviente asesinado por la mano nociva de un espectro de smog. Golpe se eleva cuando un espectro de smog aparece después de [[/br 1d4 #Rounds]]{1d4 asaltos}. Este engendro está bajo el mando del espectro de smog que lo mató. No tiene smog nocivo ni engendros de espectros de smog y se convierte en @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} mientras sea un engendro de espectros de smog. Si el creador del engendro muere, el engendro se convierte en un espectro de smog autónomo y de pleno derecho; recupera su libre albedrío, obtiene engendros de espectros de smog y smog nocivo, yYa no es torpe. </p>"
         }
       }
     },
@@ -3018,7 +3018,7 @@
         },
         "action->Otherworldly Mind": {
           "name": "Mente de otro mundo",
-          "description": "<p> Cada vez que una criatura apunta al perro con un efecto mental, esa criatura sufre @Damage[4d6[mental]] daño ( @Check[type:will|dc:29|basic:true] salvación). En caso de falla crítica, también se convierte en @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confundido} para [[/br 1d4 #rounds]]{1d4 rounds} . </p>"
+          "description": "<p> Cada vez que una criatura apunta al perro con un efecto mental, esa criatura sufre @Damage[4d6[mental]] daño ( @Check[type:will|dc:29|basic:true] salvación). En caso de falla crítica, también se convierte en @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confundido} para [[/br 1d4 #rounds]]{1d4 asaltos} . </p>"
         },
         "action->Ripping Gaze": {
           "name": "Mirada rasgada",

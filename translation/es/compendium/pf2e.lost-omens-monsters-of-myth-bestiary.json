@@ -102,7 +102,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>Cuetzmonquali unleashes a blast of fire that deals @Damage[12d10[fire]|options:area-damage] daño in a @Template[cone|distance:50] (@Check[reflex|dc:38|basic|options:area-effect] salvación). Las criaturas that fail their saves catch on fire and take @Damage[1d12[persistent,fire]] daño. Cuetzmonquali can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>Cuetzmonquali unleashes a blast of fire that deals @Damage[12d10[fire]|options:area-damage] daño in a @Template[cone|distance:50] (@Check[reflex|dc:38|basic|options:area-effect] salvación). Las criaturas that fail their saves catch on fire and take @Damage[1d12[persistent,fire]] daño. Cuetzmonquali can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Burning Venom": {
           "name": "Burning Venom",
@@ -142,7 +142,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.HBJPsonQnWcC3qdX]\nHallucinatory Terrain (At Will)"
         },
         "spell->Invisibility (At Will, Self Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibility (At Will, Self Only)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibilidad (a voluntad, solo personal)"
         },
         "strike-melee->Claw": {
           "name": "Garra"
@@ -414,7 +414,7 @@
         },
         "action->Empty Wail": {
           "name": "Empty Wail",
-          "description": "<p>The imperfect automaton utters a mournful cry in a @Template[cone|distance:30]. The cry deals @Damage[4d6[mental]] daño to all criaturas in the area (@Check[will|dc:22] salvación). The imperfect automaton can't use its Empty Wail again for [[/gmr 1d4 #Recharge Empty Wail]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura takes half daño.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for [[/gmr 1d4+1 #rounds]]{1d4+1 asaltos}.</p>\n<p><strong>Fallo crítico</strong> The criatura takes double daño and is stupefied 1 for 1d4+1 asaltos and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>"
+          "description": "<p>The imperfect automaton utters a mournful cry in a @Template[cone|distance:30]. The cry deals @Damage[4d6[mental]] daño to all criaturas in the area (@Check[will|dc:22] salvación). The imperfect automaton can't use its Empty Wail again for [[/gmr 1d4 #Recharge Empty Wail]]{1d4 asaltos}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura takes half daño.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for [[/gmr 1d4+1 #rounds]]{1d4+1 asaltos}.</p>\n<p><strong>Fallo crítico</strong> The criatura takes double daño and is stupefied 1 for 1d4+1 asaltos and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>"
         },
         "action->Impassioned Strikes": {
           "name": "Impassioned Golpes",
@@ -650,7 +650,7 @@
           "description": "<p>Krampus's greed is so great that expending any of his wealth causes him to become physically ill and potentially nauseous. Siempre que Krampus uses a consumable item from his bountiful bag, or when he witnesses one of his possessions stolen, he must attempt a @Check[will|dc:44] salvación.</p>\n<p><strong>Éxito</strong> Krampus is unaffected.</p>\n<p><strong>Fallo</strong> Krampus becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Fallo crítico</strong> Krampus becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>"
         },
         "action->Punish the Naughty": {
-          "name": "Punish the Naughty",
+          "name": "Castigar a los traviesos",
           "description": "<p><strong>Requisitos</strong> Krampus can sense el objetivo with his thief scent.</p>\n<hr />\n<p>Krampus designates a single target he can see as \"naughty\" He gains a +2 bonificador de circunstancia to Perception checks when he Seeks the naughty target and a +2 bonificador de circunstancia to SURVIVAL checks to Track the naughty target.</p>\n<p>On melee attacks against the naughty target, Krampus's spiked chain gains the agile rasgo. In addition, when Krampus Grabs the naughty target, he can attempt to Capture them as a free action. Krampus can have only one naughty target at a time.</p>"
         },
         "action->Snowstep": {
@@ -744,7 +744,7 @@
         },
         "action->Infectious Spores": {
           "name": "Infectious Spores",
-          "description": "<p>Kuworsys releases a choking field of spores within a @Template[burst|distance:30]{30-pies radius}, continuing to release them until the end of its next turn. Las criaturas who begin their turns within the area of the spores, or who enter the area, must attempt a @Check[fortitude|dc:32|traits:disease] salvación. On a failure, the criatura becomes afflicted with addictive exhaustion.</p>\n<p>Kuworsys then can't use its Infectious Spores again for [[/gmr 1d4 #Recharge Infectious Spores]]{1d4 rounds}.</p>"
+          "description": "<p>Kuworsys releases a choking field of spores within a @Template[burst|distance:30]{30-pies radius}, continuing to release them until the end of its next turn. Las criaturas who begin their turns within the area of the spores, or who enter the area, must attempt a @Check[fortitude|dc:32|traits:disease] salvación. On a failure, the criatura becomes afflicted with addictive exhaustion.</p>\n<p>Kuworsys then can't use its Infectious Spores again for [[/gmr 1d4 #Recharge Infectious Spores]]{1d4 asaltos}.</p>"
         },
         "action->Rear Back": {
           "name": "Rear Back",
@@ -842,7 +842,7 @@
           "description": "<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:29]</p>\n<p><strong>Duración máxima</strong> 6 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[2d6[piercing],2d6[poison]]{2d6 piercing and 2d6 poison} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[2d6[piercing],3d6[poison]]{2d6 piercing and 3d6 poison} (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[2d6[piercing],5d6[poison]]{2d6 piercing and 5d6 poison}</p>"
         },
         "action->Terror From Within": {
-          "name": "Terror From Within",
+          "name": "Terror interior",
           "description": "<p>The Mosquito Witch's powers feed on fear. When taking bleed or daño perforante dealt by the Mosquito Witch's bleed and dipteric dread, a criatura takes daño adicional equal to twice the criatura's asustado value.</p>"
         }
       }
@@ -895,7 +895,7 @@
           "description": "<p><strong>Desencadenante</strong> A criatura adjacent to the Mosquito Witch takes daño persistente de sangrado</p>\n<hr />\n<p><strong>Efecto</strong> The Mosquito Witch slurps up some of the criatura's blood and gains Blood Points equal to the daño de sangrado dealt.</p>"
         },
         "action->Terror From Within": {
-          "name": "Terror From Within",
+          "name": "Terror interior",
           "description": "<p>The Mosquito Witch's powers feed on fear. When taking bleed or daño perforante dealt by the Mosquito Witch's bleed and dipteric dread, a criatura takes daño adicional equal to twice the criatura's asustado value.</p>"
         }
       }
@@ -946,7 +946,7 @@
           "description": "<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:29]</p>\n<p><strong>Duración máxima</strong> 6 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[2d6[piercing],2d6[poison]]{2d6 piercing and 2d6 poison} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[2d6[piercing],3d6[poison]]{2d6 piercing and 3d6 poison} (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[2d6[piercing],5d6[poison]]{2d6 piercing and 5d6 poison}</p>"
         },
         "action->Terror From Within": {
-          "name": "Terror From Within",
+          "name": "Terror interior",
           "description": "<p>The Mosquito Witch's powers feed on fear. When taking bleed or daño perforante dealt by the Mosquito Witch's bleed and dipteric dread, a criatura takes daño adicional equal to twice the criatura's asustado value.</p>"
         }
       }
@@ -1009,7 +1009,7 @@
           "description": "<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:29]</p>\n<p><strong>Duración máxima</strong> 6 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[2d6[piercing],2d6[poison]]{2d6 piercing and 2d6 poison} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[2d6[piercing],3d6[poison]]{2d6 piercing and 3d6 poison} (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[2d6[piercing],5d6[poison]]{2d6 piercing and 5d6 poison}</p>"
         },
         "action->Terror From Within": {
-          "name": "Terror From Within",
+          "name": "Terror interior",
           "description": "<p>The Mosquito Witch's powers feed on fear. When taking bleed or daño perforante dealt by the Mosquito Witch's bleed and dipteric dread, a criatura takes daño adicional equal to twice the criatura's asustado value.</p>"
         }
       }
@@ -1081,7 +1081,7 @@
         },
         "action->Acid Spew": {
           "name": "Acid Spew",
-          "description": "<p>Somnalu jets acid from its skin, dousing all criaturas in a @Template[line|distance:60|width:15]{15-pies-wide, 60-pies-long line}. Each criatura in this area takes @Damage[10d8[acid]] daño (@Check[reflex|dc:33|basic] salvación). It can't use this ability again for [[/gmr 1d4 #Recharge Acid Spew]]{1d4 rounds}.</p>"
+          "description": "<p>Somnalu jets acid from its skin, dousing all criaturas in a @Template[line|distance:60|width:15]{15-pies-wide, 60-pies-long line}. Each criatura in this area takes @Damage[10d8[acid]] daño (@Check[reflex|dc:33|basic] salvación). It can't use this ability again for [[/gmr 1d4 #Recharge Acid Spew]]{1d4 asaltos}.</p>"
         },
         "action->Caustic Trench": {
           "name": "Caustic Trench",
@@ -1133,7 +1133,7 @@
         },
         "action->Clearing Blink": {
           "name": "Clearing Blink",
-          "description": "<p><strong>Desencadenante</strong> The Somnalu Oculus would be affected by a condition</p>\n<hr />\n<p><strong>Efecto</strong> The Somnalu Oculus rapidly blinks, using dream wisps as an eyelid. The Somnalu Oculus attempts to counteract the source of the condition with a counteract modifier of [[/r 1d20+24 #Counteract]]{+24} and a counteract rank of 8.</p>\n<p>It can't use Clearing Blink again for [[/gmr 1d4 #Recharge Clearing Blink]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Desencadenante</strong> The Somnalu Oculus would be affected by a condition</p>\n<hr />\n<p><strong>Efecto</strong> The Somnalu Oculus rapidly blinks, using dream wisps as an eyelid. The Somnalu Oculus attempts to counteract the source of the condition with a counteract modifier of [[/r 1d20+24 #Counteract]]{+24} and a counteract rank of 8.</p>\n<p>It can't use Clearing Blink again for [[/gmr 1d4 #Recharge Clearing Blink]]{1d4 asaltos}.</p>"
         },
         "action->Scrutinizing Presence": {
           "name": "Scrutinizing Presence",
@@ -1200,7 +1200,7 @@
         },
         "action->Accursed Shriek": {
           "name": "Accursed Shriek",
-          "description": "<p>The Spectral Devil unleashes a terrifying whinny in a @Template[cone|distance:30] that deals @Damage[5d10[sonic]] daño. Each criatura in the area must attempt a @Check[reflex|dc:29] salvación.</p>\n<p>The Spectral Devil can't use Accursed Shriek for [[/gmr 1d4 #Recharge Accursed Shriek]]{1d4 rounds}.</p>\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura takes half daño.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} by the eerie noise.</p>\n<p><strong>Fallo crítico</strong> The criatura takes full daño, is asustado 2, and becomes cursed. The victim's mind echoes with the sound of the whinny, impairing concentration. The cursed criatura is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} until the curse is removed.</p>"
+          "description": "<p>The Spectral Devil unleashes a terrifying whinny in a @Template[cone|distance:30] that deals @Damage[5d10[sonic]] daño. Each criatura in the area must attempt a @Check[reflex|dc:29] salvación.</p>\n<p>The Spectral Devil can't use Accursed Shriek for [[/gmr 1d4 #Recharge Accursed Shriek]]{1d4 asaltos}.</p>\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura takes half daño.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} by the eerie noise.</p>\n<p><strong>Fallo crítico</strong> The criatura takes full daño, is asustado 2, and becomes cursed. The victim's mind echoes with the sound of the whinny, impairing concentration. The cursed criatura is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} until the curse is removed.</p>"
         },
         "action->Trample": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\n<p>Medium or smaller, Ghostly Hoof, @Check[reflex|dc:26|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
@@ -1250,7 +1250,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p>Spring-Heeled Jack exhales a gout of bright blue fire that deals @Damage[4d6[fire]|options:area-damage] daño in a @Template[cone|distance:15] (@Check[reflex|dc:20|basic|options:area-effect] salvación).</p>\n<p>He can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>Spring-Heeled Jack exhales a gout of bright blue fire that deals @Damage[4d6[fire]|options:area-damage] daño in a @Template[cone|distance:15] (@Check[reflex|dc:20|basic|options:area-effect] salvación).</p>\n<p>He can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
         },
         "action->Malicious Stab": {
           "name": "Malicious Stab",
@@ -1300,7 +1300,7 @@
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
-          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the criatura possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all other criaturas for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the criatura possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all other criaturas for [[/gmr 1d4 #Rounds]]{1d4 asaltos}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
         },
         "action->Jelly Sense": {
           "name": "Jelly Sense",
@@ -1345,7 +1345,7 @@
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
-          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the criatura possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all other criaturas for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the criatura possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all other criaturas for [[/gmr 1d4 #Rounds]]{1d4 asaltos}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
         },
         "action->Jelly Sense": {
           "name": "Jelly Sense",
@@ -1394,7 +1394,7 @@
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
-          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the criatura possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all other criaturas for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the criatura possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all other criaturas for [[/gmr 1d4 #Rounds]]{1d4 asaltos}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
         },
         "action->Jelly Sense": {
           "name": "Jelly Sense",
@@ -1450,7 +1450,7 @@
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
-          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the criatura possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all other criaturas for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the criatura possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all other criaturas for [[/gmr 1d4 #Rounds]]{1d4 asaltos}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
         },
         "action->Jelly Sense": {
           "name": "Jelly Sense",
@@ -1504,7 +1504,7 @@
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
-          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the criatura possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all other criaturas for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the criatura possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all other criaturas for [[/gmr 1d4 #Rounds]]{1d4 asaltos}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
         },
         "action->Jelly Sense": {
           "name": "Jelly Sense",
@@ -1546,7 +1546,7 @@
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
-          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the criatura possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all other criaturas for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the criatura possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all other criaturas for [[/gmr 1d4 #Rounds]]{1d4 asaltos}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
         },
         "action->Jelly Sense": {
           "name": "Jelly Sense",
@@ -1558,7 +1558,7 @@
         },
         "action->Cometfall Arrow": {
           "name": "Cometfall Arrow",
-          "description": "<p>Taljjae fires an arrow that could shoot a star from the sky. All criaturas in a @Template[line|distance:120] take @Damage[10d12[piercing]] daño (@Check[reflex|dc:37|basic] salvación); on a critical failure, el objetivo falls to the ground without taking falling daño, and it can't Fly, Leap, levitate, or otherwise leave the ground until the end of Taljjae's next turn.</p>\n<p>Taljjae then can't use Cometfall Arrow for [[/gmr 1d4 #Recharge Cometfall Arrow]]{1d4 rounds}.</p>"
+          "description": "<p>Taljjae fires an arrow that could shoot a star from the sky. All criaturas in a @Template[line|distance:120] take @Damage[10d12[piercing]] daño (@Check[reflex|dc:37|basic] salvación); on a critical failure, el objetivo falls to the ground without taking falling daño, and it can't Fly, Leap, levitate, or otherwise leave the ground until the end of Taljjae's next turn.</p>\n<p>Taljjae then can't use Cometfall Arrow for [[/gmr 1d4 #Recharge Cometfall Arrow]]{1d4 asaltos}.</p>"
         },
         "action->Double Shot": {
           "name": "Disparo doble",
@@ -1593,7 +1593,7 @@
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
-          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the criatura possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all other criaturas for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the criatura possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all other criaturas for [[/gmr 1d4 #Rounds]]{1d4 asaltos}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
         },
         "action->Jelly Sense": {
           "name": "Jelly Sense",
@@ -1656,7 +1656,7 @@
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
-          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the criatura possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all other criaturas for [[/gmr 1d4 #Rounds]]{1d4 rounds}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
+          "description": "<p>If Taljjae detects buckwheat jelly with its jelly sense, it becomes @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the food and the criatura possessing it (if applicable) and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all other criaturas for [[/gmr 1d4 #Rounds]]{1d4 asaltos}, or until it uses an appropriate number of INTERACT actions to consume the jelly (generally 2: 1 to take the jelly, and another to eat it). If there's more than one helping of jelly, the condition ends once Taljjae consumes the jelly once.</p>"
         },
         "action->Jelly Sense": {
           "name": "Jelly Sense",

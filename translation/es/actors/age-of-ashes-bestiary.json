@@ -25,7 +25,7 @@
         },
         "action->Forge Breath": {
           "name": "Forjar aliento",
-          "description": "<p> El maldito despreciado por la forja respira una nube de hollín, cenizas y brasas ardientes. Esto puede afectar a un @Template[type:cone|distance:30] o un @Template[type:burst|distance:20] centrado en la forja maldita despreciada y persiste durante [[/br 1d4 #rounds]] {1d4 rounds}. </p>\n <p> Las criaturas que se mueven o comienzan su turno en el área reciben @Damage[12d6[fire]] daño ( @Check[type:reflex|dc:36|basic:true] salvación). </p>\n <p> Una criatura que falla su salvación también es @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2] {Cegado} durante 1 minuto. Criaturas dentro delnube son @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W] {Oculto} , aunque no de la maldita forja despreciada. </p>\n <p> El maldito despreciado por la forja no puede volver a usar Forge Breath hasta que haya usado Inflate Bellows. </p>"
+          "description": "<p> El maldito despreciado por la forja respira una nube de hollín, cenizas y brasas ardientes. Esto puede afectar a un @Template[type:cone|distance:30] o un @Template[type:burst|distance:20] centrado en la forja maldita despreciada y persiste durante [[/br 1d4 #rounds]] {1d4 asaltos}. </p>\n <p> Las criaturas que se mueven o comienzan su turno en el área reciben @Damage[12d6[fire]] daño ( @Check[type:reflex|dc:36|basic:true] salvación). </p>\n <p> Una criatura que falla su salvación también es @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2] {Cegado} durante 1 minuto. Criaturas dentro delnube son @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W] {Oculto} , aunque no de la maldita forja despreciada. </p>\n <p> El maldito despreciado por la forja no puede volver a usar Forge Breath hasta que haya usado Inflate Bellows. </p>"
         },
         "action->Inflate Bellows": {
           "name": "Inflar fuelles",
@@ -129,7 +129,7 @@
         },
         "action->Soul Shriek": {
           "name": "Grito del alma",
-          "description": "<p> El ejecutor de aluum emite un gemido quejumbroso en un @Template[type:cone|distance:15] que causa @Damage[9d6[sonic]] daño ( @Check[type:fortitude|dc:27|basic:true] salvación). Una criatura que falla su salvación es @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix] {Aturdido 1} , o @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix] {Aturdido 3} en caso de fallo crítico. </p>\n <p> El aluum no puede usar Soul Shriek nuevamente por [[/br 1d4 #Recharge Soul Shriek]] {1d4 rounds}. </p>"
+          "description": "<p> El ejecutor de aluum emite un gemido quejumbroso en un @Template[type:cone|distance:15] que causa @Damage[9d6[sonic]] daño ( @Check[type:fortitude|dc:27|basic:true] salvación). Una criatura que falla su salvación es @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix] {Aturdido 1} , o @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix] {Aturdido 3} en caso de fallo crítico. </p>\n <p> El aluum no puede usar Soul Shriek nuevamente por [[/br 1d4 #Recharge Soul Shriek]] {1d4 asaltos}. </p>"
         }
       }
     },
@@ -141,11 +141,11 @@
         },
         "action->Vulnerable to Dispelling": {
           "name": "Vulnerable a la disipación",
-          "description": "<p> La tormenta de dragón animada puede ser objetivo de disyunción y disipación de magia. Si es objetivo de un hechizo de 9º rango o superior, el constructo pierde su resistencia al ácido, frío, electricidad, fuego y daño físico y queda ralentizado 1 por [[/br 1d4 #rounds]] {1d4 rounds} . </p>"
+          "description": "<p> La tormenta de dragón animada puede ser objetivo de disyunción y disipación de magia. Si es objetivo de un hechizo de 9º rango o superior, el constructo pierde su resistencia al ácido, frío, electricidad, fuego y daño físico y queda ralentizado 1 por [[/br 1d4 #rounds]] {1d4 asaltos} . </p>"
         },
         "action->Channel Dragonstorm": {
           "name": "Tormenta de dragones del canal",
-          "description": "<p> La tormenta de dragón animada dirige un @Template[type:cone|distance:30] de energía de tormenta de dragón. Esto causa @Damage[3d8[acid], 3d8[frío],3d8[electricidad],3d8[fuego],3d8[veneno]] {3d8 acid, 3d8 cold, 3d8 electricity, 3d8 fire, and 3d8 daño de veneno} a las criaturas en el cono ( @Check[type:reflex|dc:40|basic:true] salvación). La tormenta de dragones animada no puede volver a usar Channel Dragonstorm durante [[/br 1d4 #Recharge Channel Dragonstorm]] {1d4 rounds} . </p>"
+          "description": "<p> La tormenta de dragón animada dirige un @Template[type:cone|distance:30] de energía de tormenta de dragón. Esto causa @Damage[3d8[acid], 3d8[frío],3d8[electricidad],3d8[fuego],3d8[veneno]] {3d8 acid, 3d8 cold, 3d8 electricity, 3d8 fire, and 3d8 daño de veneno} a las criaturas en el cono ( @Check[type:reflex|dc:40|basic:true] salvación). La tormenta de dragones animada no puede volver a usar Channel Dragonstorm durante [[/br 1d4 #Recharge Channel Dragonstorm]] {1d4 asaltos} . </p>"
         },
         "action->Destructive Strikes": {
           "name": "Golpes destructivos",
@@ -299,7 +299,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p> Belmazog arroja una gota de ácido que causa @Damage[10d6[acid]] daño en una @Template[type:cone|distance:30] ( @Check[type:reflex|dc:28|basic:true] salvación). </p>\n <p> Belmazog no puede volver a usar Breath Weapon durante [[/br 1d4 #Recharge Breath Weapon]] {1d4 rounds}. </p>"
+          "description": "<p> Belmazog arroja una gota de ácido que causa @Damage[10d6[acid]] daño en una @Template[type:cone|distance:30] ( @Check[type:reflex|dc:28|basic:true] salvación). </p>\n <p> Belmazog no puede volver a usar Arma de aliento durante [[/br 1d4 #Recharge Breath Weapon]] {1d4 asaltos}. </p>"
         },
         "action->Drowning Drone": {
           "name": "Dron ahogado",
@@ -695,7 +695,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p> El sacerdote escupe fuego que causa @Damage[7d6[fire]] daño en una @Template[type:cone|distance:30] ( @Check[type:reflex|dc:23|basic:true] salvación). </p>\n <p> No puede volver a usar Breath Weapon durante [[/br 1d4 #Recharge Breath Weapon]] {1d4 rounds} . </p>"
+          "description": "<p> El sacerdote escupe fuego que causa @Damage[7d6[fire]] daño en una @Template[type:cone|distance:30] ( @Check[type:reflex|dc:23|basic:true] salvación). </p>\n <p> No puede volver a usar su arma de aliento durante [[/br 1d4 #Recharge Breath Weapon]] {1d4 asaltos} . </p>"
         },
         "action->Shrieking Frenzy": {
           "name": "Frenesí de gritos",
@@ -783,7 +783,7 @@
     "Dahak's Shell": {
       "name": "Concha de Dahak",
       "description": "<p> Un anillo de ocho réplicas de pilares de dragón marca el borde de una cúpula de energía prismática mágica que contiene en su totalidad la Fortaleza del Dolor. </p>",
-      "disable": "<p> Cada pilar del dragón que se destruye elimina el efecto del color correspondiente del caparazón de Dahak; Mientras un solo color permanezca activo, los pilares que marcan el borde del caparazón no pueden dañarse por sí mismos, pero una prueba exitosa de @Check[type:thievery|dc:32|name:Disable Color|traits:magical,trap,hazard] (maestro) o una exitosa @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG] {Dispel Magic} (6º nivel; contrarresta CD 30) contra uno de los ocho pilares puede causar una El color activo determinado aleatoriamente en la defensa del caparazón (abajo) se desactivará durante [[/br 1d4 #rounds]] {1d4 rounds}.</p>",
+      "disable": "<p> Cada pilar del dragón que se destruye elimina el efecto del color correspondiente del caparazón de Dahak; Mientras un solo color permanezca activo, los pilares que marcan el borde del caparazón no pueden dañarse por sí mismos, pero una prueba exitosa de @Check[type:thievery|dc:32|name:Disable Color|traits:magical,trap,hazard] (maestro) o una exitosa @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG] {Dispel Magic} (6º nivel; contrarresta CD 30) contra uno de los ocho pilares puede causar una El color activo determinado aleatoriamente en la defensa del caparazón (abajo) se desactivará durante [[/br 1d4 #rounds]] {1d4 asaltos}.</p>",
       "stealth": "<p> o @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl] {Detect Magic} </p>",
       "items": {
         "strike-ranged->Eye Beam": {
@@ -883,7 +883,7 @@
         },
         "action->Lava Bomb": {
           "name": "Bomba de lava",
-          "description": "<p> El dalos provoca una explosión volcánica que brota de su cabeza, lanzando una masa de roca fundida a una altura de hasta 100 pies. Esta bomba de lava inflige @Damage[6d8[fire] ,6d8[contundente]] {6d8 daño de fuego and 6d8 daño contundente} a cada criatura en un @Template[type:burst|distance:20] {20-pies radius} de su punto de impacto, con una salvación de @Check[type:reflex|dc:33|basic:true]. </p>\n <p> Los dalos no pueden volver a usar Lava Bomb durante [[/br 1d4 #Recharge Lava Bomb]] {1d4 rounds} . </p>"
+          "description": "<p> El dalos provoca una explosión volcánica que brota de su cabeza, lanzando una masa de roca fundida a una altura de hasta 100 pies. Esta bomba de lava inflige @Damage[6d8[fire] ,6d8[contundente]] {6d8 daño de fuego and 6d8 daño contundente} a cada criatura en un @Template[type:burst|distance:20] {20-pies radius} de su punto de impacto, con una salvación de @Check[type:reflex|dc:33|basic:true]. </p>\n <p> Los dalos no pueden volver a usar Lava Bomb durante [[/br 1d4 #Recharge Lava Bomb]] {1d4 asaltos} . </p>"
         },
         "action->Throw Rock": {
           "name": "tirar piedra"
@@ -1115,7 +1115,7 @@
         },
         "action->Glare of Rage": {
           "name": "Mirada de rabia",
-          "description": "<p> El muerto con cicatrices de dragón concentra su frustración ilimitada en una mirada dirigida a una criatura que puede ver a menos de 30 pies. Esa criatura debe intentar una salvación @Check[type:will|dc:30]. </p>\n <hr />\n <p> <strong> Éxito crítico </strong> La criatura no se ve afectada. </p>\n <p> <strong> Éxito </strong> La criatura es @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix] {Aturdido 1} . </p>\n <p> <strong> Fallo </strong> La criatura es @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix] {Aturdido}durante 1 ronda. </p>\n <p> <strong> Fallo crítico </strong> La criatura queda aturdida por [[/br 1d4 #rounds]] {1d4 rounds} y ​​es @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw] {Fatigado} . </p>"
+          "description": "<p> El muerto con cicatrices de dragón concentra su frustración ilimitada en una mirada dirigida a una criatura que puede ver a menos de 30 pies. Esa criatura debe intentar una salvación @Check[type:will|dc:30]. </p>\n <hr />\n <p> <strong> Éxito crítico </strong> La criatura no se ve afectada. </p>\n <p> <strong> Éxito </strong> La criatura es @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix] {Aturdido 1} . </p>\n <p> <strong> Fallo </strong> La criatura es @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix] {Aturdido}durante 1 ronda. </p>\n <p> <strong> Fallo crítico </strong> La criatura queda aturdida por [[/br 1d4 #rounds]] {1d4 asaltos} y ​​es @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw] {Fatigado} . </p>"
         },
         "lore->Dragon Lore": {
           "name": "Conocimiento del dragón"
@@ -1143,7 +1143,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p> La construcción respira de una de dos maneras, luego no puede usar Breath Weapon nuevamente durante [[/br 1d4 #Recharge Breath Weapon]] {1d4 rounds} . </p>\n <p> - Llama (arcano, evocación, fuego) Una explosión de llamas causa @Damage[15d10[fire]] daño a todas las criaturas en una @Template[type:cone|distance:60] ( @Check[type:reflex|dc:45|basic:true] salvación). Este daño por incendio no daña objetos ni construcciones. </p>\n <p> - Gas debilitante (arcano, nigromancia) Una nube de gas con motas doradas obliga a cada criatura en un @Template[type:cone|distance:60] a intentar un @Check[type:fortitude|dc:45]ahorrar; el efecto dura 1 minuto. </p>\n <hr />\n <p> <strong> Éxito crítico </strong> La criatura no se ve afectada. </p>\n <p> <strong> Éxito </strong> La criatura es @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7] {Debilitado 2} . </p>\n <p> <strong> Fallo </strong> La criatura es @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7] {Debilitado 5} . </p>\n <p> <strong> Fallo crítico </strong> La criatura es @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7] {Debilitado 8} . </p>"
+          "description": "<p> La construcción respira de una de dos maneras, luego no puede usar Arma de aliento nuevamente durante [[/br 1d4 #Recharge Breath Weapon]] {1d4 asaltos} . </p>\n <p> - Llama (arcano, evocación, fuego) Una explosión de llamas causa @Damage[15d10[fire]] daño a todas las criaturas en una @Template[type:cone|distance:60] ( @Check[type:reflex|dc:45|basic:true] salvación). Este daño por incendio no daña objetos ni construcciones. </p>\n <p> - Gas debilitante (arcano, nigromancia) Una nube de gas con motas doradas obliga a cada criatura en un @Template[type:cone|distance:60] a intentar un @Check[type:fortitude|dc:45]ahorrar; el efecto dura 1 minuto. </p>\n <hr />\n <p> <strong> Éxito crítico </strong> La criatura no se ve afectada. </p>\n <p> <strong> Éxito </strong> La criatura es @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7] {Debilitado 2} . </p>\n <p> <strong> Fallo </strong> La criatura es @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7] {Debilitado 5} . </p>\n <p> <strong> Fallo crítico </strong> La criatura es @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7] {Debilitado 8} . </p>"
         },
         "action->Reverberating Revenge": {
           "name": "Venganza reverberante",
@@ -1427,7 +1427,7 @@
         },
         "action->Dazzling Display": {
           "name": "Pantalla deslumbrante",
-          "description": "<p> El pájaro emperador bate sus fascinantes alas. Cada criatura dentro de @Template[type:emanation|distance:15] {15 pies} que pueda ver al pájaro emperador debe intentar una salvación @Check[type:will|dc:19]. </p>\n <hr />\n <p> <strong> Éxito crítico </strong> La criatura no se ve afectada. </p>\n <p> <strong> Éxito </strong> La criatura es @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh] {Deslumbrado} durante 1 ronda. </p>\n <p> <strong> Fallo </strong> La criatura queda deslumbrada por[[/br 1d4 #Dazzled Duration]] {1d4 rounds} . </p>\n <p> <strong> Fallo crítico </strong> La criatura es @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ] {Confuso} para [[/br 1d4 #Confused Duration]] {1d4 rounds} . </p>"
+          "description": "<p> El pájaro emperador bate sus fascinantes alas. Cada criatura dentro de @Template[type:emanation|distance:15] {15 pies} que pueda ver al pájaro emperador debe intentar una salvación @Check[type:will|dc:19]. </p>\n <hr />\n <p> <strong> Éxito crítico </strong> La criatura no se ve afectada. </p>\n <p> <strong> Éxito </strong> La criatura es @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh] {Deslumbrado} durante 1 ronda. </p>\n <p> <strong> Fallo </strong> La criatura queda deslumbrada por[[/br 1d4 #Dazzled Duration]] {1d4 asaltos} . </p>\n <p> <strong> Fallo crítico </strong> La criatura es @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ] {Confuso} para [[/br 1d4 #Confused Duration]] {1d4 asaltos} . </p>"
         },
         "action->Tail Lash": {
           "name": "Latigazo de cola",
@@ -1529,7 +1529,7 @@
         },
         "action->Forge Breath": {
           "name": "Forjar aliento",
-          "description": "<p> El despreciado por la forja respira una nube de hollín, cenizas y brasas ardientes. Esto puede afectar a un @Template[type:cone|distance:30] o a un @Template[type:burst|distance:20] centrado en la forja despreciada y persiste durante [[/br 1d4 #rounds]] {1d4 rounds}. </p>\n <p> Cada criatura que se mueve o comienza su turno en el área sufre @Damage[6d6[fire]] de daño, con una salvación de @Check[type:reflex|dc:21|basic:true]. Una criatura que falla su salvación también es @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2] {Cegado} durante 1 minuto. </p>\n <p> Criaturas dentro de la nubeson @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W] {Oculto} , aunque no de la forja despreciada. </p>\n <p> El despreciado por la forja no puede volver a usar Forge Breath hasta que haya usado Inflate Bellows. </p>"
+          "description": "<p> El despreciado por la forja respira una nube de hollín, cenizas y brasas ardientes. Esto puede afectar a un @Template[type:cone|distance:30] o a un @Template[type:burst|distance:20] centrado en la forja despreciada y persiste durante [[/br 1d4 #rounds]] {1d4 asaltos}. </p>\n <p> Cada criatura que se mueve o comienza su turno en el área sufre @Damage[6d6[fire]] de daño, con una salvación de @Check[type:reflex|dc:21|basic:true]. Una criatura que falla su salvación también es @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2] {Cegado} durante 1 minuto. </p>\n <p> Criaturas dentro de la nubeson @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W] {Oculto} , aunque no de la forja despreciada. </p>\n <p> El despreciado por la forja no puede volver a usar Forge Breath hasta que haya usado Inflate Bellows. </p>"
         },
         "action->Inflate Bellows": {
           "name": "Inflar fuelles",
@@ -1688,7 +1688,7 @@
         },
         "action->Noxious Breath": {
           "name": "Aliento nocivo",
-          "description": "<p> El grauladon silba y desata una nauseabunda nube de halitosis en un @Template[type:cone|distance:15] . Cada criatura en el área debe tener éxito en una tirada de salvación @Check[type:fortitude|dc:18] o ser @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 1} ( @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 2} en un fallo crítico). </p>\n <p> El grauladon no puede volver a usar Aliento Nocivo o Aliento Reactivo durante [[/br 1d4 #Recharge Noxious Breath]] {1d4 rounds} . </p>"
+          "description": "<p> El grauladon silba y desata una nauseabunda nube de halitosis en un @Template[type:cone|distance:15] . Cada criatura en el área debe tener éxito en una tirada de salvación @Check[type:fortitude|dc:18] o ser @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 1} ( @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 2} en un fallo crítico). </p>\n <p> El grauladon no puede volver a usar Aliento Nocivo o Aliento Reactivo durante [[/br 1d4 #Recharge Noxious Breath]] {1d4 asaltos} . </p>"
         }
       }
     },
@@ -2684,7 +2684,7 @@
         },
         "action->Necrotic Pulse": {
           "name": "Pulso necrótico",
-          "description": "<p> Cada criatura en un @Template[type:emanation|distance:10] debe tener éxito en una salvación @Check[type:fortitude|dc:32] o recibir @Damage[1d6[persistent,void]] daño y ser @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3] {Lentificado 1} durante 1 minuto mientras su carne y huesos se atrofian temporalmente. El golem no puede volver a usar Pulso Necrótico durante [[/br 1d4 #Recharge Necrotic Pulse]] {1d4 rounds} . </p>"
+          "description": "<p> Cada criatura en un @Template[type:emanation|distance:10] debe tener éxito en una salvación @Check[type:fortitude|dc:32] o recibir @Damage[1d6[persistent,void]] daño y ser @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3] {Lentificado 1} durante 1 minuto mientras su carne y huesos se atrofian temporalmente. El golem no puede volver a usar Pulso Necrótico durante [[/br 1d4 #Recharge Necrotic Pulse]] {1d4 asaltos} . </p>"
         }
       }
     },
@@ -2745,7 +2745,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p> La manifestación de Dahak exhala una ráfaga de energía de tormenta de dragón que inflige @Damage[5d6[acid], 5d6[frío],5d6[electricidad],5d6[fuego],5d6[veneno]] {5d6 acid, 5d6 cold, 5d6 electricity, 5d6 fire, and 5d6 daño de veneno} en una @Template[type:cone|distance:60] ( @Check[type:reflex|dc:46|basic:true|name:Dragonstorm Breath|traits:fire,acid,cold,electricity,poison] salvación). </p>\n <p> No puede volver a usar Dragonstorm Breath durante [[/br 1d4 #Recharge Dragonstorm Breath]] {1d4 rounds}. </p>"
+          "description": "<p> La manifestación de Dahak exhala una ráfaga de energía de tormenta de dragón que inflige @Damage[5d6[acid], 5d6[frío],5d6[electricidad],5d6[fuego],5d6[veneno]] {5d6 acid, 5d6 cold, 5d6 electricity, 5d6 fire, and 5d6 daño de veneno} en una @Template[type:cone|distance:60] ( @Check[type:reflex|dc:46|basic:true|name:Dragonstorm Breath|traits:fire,acid,cold,electricity,poison] salvación). </p>\n <p> No puede volver a usar Dragonstorm Breath durante [[/br 1d4 #Recharge Dragonstorm Breath]] {1d4 asaltos}. </p>"
         },
         "action->Draconic Frenzy": {
           "name": "Frenesí dracónico",
@@ -2940,7 +2940,7 @@
         },
         "action->Dragonstorm Breath": {
           "name": "Aliento de tormenta de dragón",
-          "description": "<p> La manifestación de Dahak exhala una ráfaga de energía de tormenta de dragón que inflige @Damage[5d6[acid], 5d6[frío],5d6[electricidad],5d6[fuego],5d6[veneno]] {5d6 acid, 5d6 cold, 5d6 electricity, 5d6 fire, and 5d6 daño de veneno} en una @Template[type:cone|distance:60] ( @Check[type:reflex|dc:48|basic:true|traits:fire,acid,cold,electricity,poison] salvación). No puede volver a usar Dragonstorm Breath durante [[/br 1d4 #Recharge Dragonstorm Breath]] {1d4 rounds} . </p>"
+          "description": "<p> La manifestación de Dahak exhala una ráfaga de energía de tormenta de dragón que inflige @Damage[5d6[acid], 5d6[frío],5d6[electricidad],5d6[fuego],5d6[veneno]] {5d6 acid, 5d6 cold, 5d6 electricity, 5d6 fire, and 5d6 daño de veneno} en una @Template[type:cone|distance:60] ( @Check[type:reflex|dc:48|basic:true|traits:fire,acid,cold,electricity,poison] salvación). No puede volver a usar Dragonstorm Breath durante [[/br 1d4 #Recharge Dragonstorm Breath]] {1d4 asaltos} . </p>"
         },
         "action->Focused Breath Weapon": {
           "name": "Arma de aliento enfocado",
@@ -3025,11 +3025,11 @@
         },
         "action->Golden Luck": {
           "name": "Suerte Dorada",
-          "description": "<p> <strong> Desencadenante </strong> Mengkare falla un tiro de salvación. </p>\n <hr />\n <p> <strong> Efecto </strong> Mengkare mejora su resultado en un grado de éxito, convirtiendo un fracaso en un éxito o un fracaso crítico en un fracaso normal. </p>\n <p> Mengkare no puede volver a usar esta habilidad por [[/br 1d4 #Recharge Golden Luck]] {1d4 rounds}. </p>"
+          "description": "<p> <strong> Desencadenante </strong> Mengkare falla un tiro de salvación. </p>\n <hr />\n <p> <strong> Efecto </strong> Mengkare mejora su resultado en un grado de éxito, convirtiendo un fracaso en un éxito o un fracaso crítico en un fracaso normal. </p>\n <p> Mengkare no puede volver a usar esta habilidad por [[/br 1d4 #Recharge Golden Luck]] {1d4 asaltos}. </p>"
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p> Mengkare respira de dos maneras. No puede volver a usar Breath Weapon durante [[/br 1d4 #Recharge Breath Weapon]] {1d4 rounds} . </p>\n <ul>\n <li> <strong> Llama </strong> (arcano,evocación,fuego); Mengkare lanza una ráfaga de llamas en un @Template[type:cone|distance:80] que causa @Damage[24d6[fire]] daño ( @Check[type:reflex|dc:46|basic:true|name:Breath Weapon (Flame)] salvación). </li>\n <li> <strong> Gas debilitante </strong> (arcano,nigromancia); El dragón exhala una ráfaga de gas debilitante. Cada criatura dentro de un @Template[type:cone|distance:30] debetener éxito en una salvación @Check[type:fortitude|dc:46|name:Breath Weapon (Weakening Gas)] o convertirse en @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7] {Debilitado 4} durante 1 minuto (o @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7] {Debilitado 5} en un fallo crítico). </li>\n </ul>"
+          "description": "<p> Mengkare respira de dos maneras. No puede volver a usar su arma de aliento durante [[/br 1d4 #Recharge Breath Weapon]] {1d4 asaltos} . </p>\n <ul>\n <li> <strong> Llama </strong> (arcano,evocación,fuego); Mengkare lanza una ráfaga de llamas en un @Template[type:cone|distance:80] que causa @Damage[24d6[fire]] daño ( @Check[type:reflex|dc:46|basic:true|name:Arma de aliento (Flame)] salvación). </li>\n <li> <strong> Gas debilitante </strong> (arcano,nigromancia); El dragón exhala una ráfaga de gas debilitante. Cada criatura dentro de un @Template[type:cone|distance:30] debetener éxito en una salvación @Check[type:fortitude|dc:46|name:Arma de aliento (Weakening Gas)] o convertirse en @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7] {Debilitado 4} durante 1 minuto (o @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7] {Debilitado 5} en un fallo crítico). </li>\n </ul>"
         },
         "action->Change Shape": {
           "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.mEbrInCpag7YThH2]\nCambiar forma",
@@ -3045,7 +3045,7 @@
         },
         "action->Explosive Breath": {
           "name": "Aliento explosivo",
-          "description": "<p> Cuando Mengkare usa Breath Weapon, puede expulsar un orbe explosivo de llamas en lugar de un cono. Cuando lo hace, dispara el orbe a la esquina de un cuadrado a 60 pies. El orbe detona inmediatamente y causa @Damage[24d6[fire]] daño (salvación @Check[type:reflex|dc:48|basic:true|name:Explosive Orb|traits:fire]) a todas las criaturas dentro de un @Template[type:burst|distance:30] . Las criaturas que fallan críticamente en su salvación se incendian y reciben @Damage[4d6[persistent,fire]] de daño. </p>"
+          "description": "<p> Cuando Mengkare usa Arma de aliento, puede expulsar un orbe explosivo de llamas en lugar de un cono. Cuando lo hace, dispara el orbe a la esquina de un cuadrado a 60 pies. El orbe detona inmediatamente y causa @Damage[24d6[fire]] daño (salvación @Check[type:reflex|dc:48|basic:true|name:Explosive Orb|traits:fire]) a todas las criaturas dentro de un @Template[type:burst|distance:30] . Las criaturas que fallan críticamente en su salvación se incendian y reciben @Damage[4d6[persistent,fire]] de daño. </p>"
         }
       }
     },
@@ -3466,7 +3466,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p> Racharak exhala llamas que causan @Damage[9d6[fire]] daño a todas las criaturas en una @Template[type:cone|distance:30] ( @Check[type:reflex|dc:26|basic:true] salvación). </p>\n <p> No puede volver a usar Arma de Aliento por [[/br 1d4 #Recharge Breath Weapon]] {1d4 rounds} </p>"
+          "description": "<p> Racharak exhala llamas que causan @Damage[9d6[fire]] daño a todas las criaturas en una @Template[type:cone|distance:30] ( @Check[type:reflex|dc:26|basic:true] salvación). </p>\n <p> No puede volver a usar Arma de Aliento por [[/br 1d4 #Recharge Breath Weapon]] {1d4 asaltos} </p>"
         },
         "action->Draconic Frenzy": {
           "name": "Frenesí dracónico",
@@ -4171,7 +4171,7 @@
         },
         "action->Obliteration Beam": {
           "name": "Haz de destrucción",
-          "description": "<p> <strong> Requisitos </strong> El aluum vinculado al espíritu ha vinculado un alma usando su @UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg] {Seize Soul} hechizo innato </p>\n <hr />\n <p> <strong> Efecto </strong> El aluum ligado al espíritu transforma la esencia del alma capturada en energía mágica pura, canalizando el espíritu en un rayo que causa @Damage[20d6[force]] daño en una @Template[type:line|distance:30] ( @Check[type:reflex|dc:38|basic:true] salvación). Los fragmentos restantes del alma capturada son liberados al Gran Más Allá. </p><p> El aluum ligado al espíritu no puede volver a usar Obliteration Beam durante [[/br 1d4 #Recharge Obliteration Beam]] {1d4 rounds}. </p>"
+          "description": "<p> <strong> Requisitos </strong> El aluum vinculado al espíritu ha vinculado un alma usando su @UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg] {Seize Soul} hechizo innato </p>\n <hr />\n <p> <strong> Efecto </strong> El aluum ligado al espíritu transforma la esencia del alma capturada en energía mágica pura, canalizando el espíritu en un rayo que causa @Damage[20d6[force]] daño en una @Template[type:line|distance:30] ( @Check[type:reflex|dc:38|basic:true] salvación). Los fragmentos restantes del alma capturada son liberados al Gran Más Allá. </p><p> El aluum ligado al espíritu no puede volver a usar Obliteration Beam durante [[/br 1d4 #Recharge Obliteration Beam]] {1d4 asaltos}. </p>"
         },
         "action->Paralyzing Force": {
           "name": "Fuerza paralizante",
@@ -4183,7 +4183,7 @@
         },
         "action->Soul Shriek": {
           "name": "Grito del alma",
-          "description": "<p> El ejecutor de aluum emite un gemido quejumbroso en un @Template[type:cone|distance:15] que causa @Damage[16d6[sonic]] daño ( @Check[type:fortitude|dc:27|basic:true] salvación). Una criatura que falla su salvación es @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix] {Aturdido 1} , o @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix] {Aturdido 3} en caso de fallo crítico. </p>\n <p> El aluum no puede usar Soul Shriek nuevamente por [[/br 1d4 #Recharge Soul Shriek]] {1d4 rounds}. </p>"
+          "description": "<p> El ejecutor de aluum emite un gemido quejumbroso en un @Template[type:cone|distance:15] que causa @Damage[16d6[sonic]] daño ( @Check[type:fortitude|dc:27|basic:true] salvación). Una criatura que falla su salvación es @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix] {Aturdido 1} , o @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix] {Aturdido 3} en caso de fallo crítico. </p>\n <p> El aluum no puede usar Soul Shriek nuevamente por [[/br 1d4 #Recharge Soul Shriek]] {1d4 asaltos}. </p>"
         }
       }
     },
@@ -4230,7 +4230,7 @@
         },
         "action->Resonant Wail": {
           "name": "Lamento resonante",
-          "description": "<p> Talamira lanza un grito de angustia y desesperación. Todas las criaturas en un radio de 30 pies deben intentar una salvación @Check[type:will|dc:33] para resistir. </p>\n <p> Talamira no puede usar Lamento Resonante para [[/br 1d4 #Recharge Resonant Wail]] {1d4 rounds}. </p>\n <hr />\n <p> <strong> Éxito crítico </strong> La criatura no se ve afectada. </p>\n <p> <strong> Éxito </strong> La criatura gime de angustia durante 3 rondas. Los gritos resuenan dentro de los lamentos de la habitación.cristales, dándoles a los cristales una bonificación de estado de +2 en las tiradas de ataque contra esa criatura durante este tiempo. </p>\n <p> <strong> Fracaso </strong> Como éxito, pero la criatura es @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3] {Lentificado 1} durante 1 minuto mientras solloza incontrolablemente. Si la criatura ya está ralentizada 1 por la desesperación aplastante, es @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3] {Lentificado 2} siempre que esté bajo ambos efectos simultáneamente. </p>\n <p> <strong> Fallo crítico </strong> Como fallo, pero elLa criatura también está @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix] {Aturdido 3} por su abrumadora tristeza. </p>"
+          "description": "<p> Talamira lanza un grito de angustia y desesperación. Todas las criaturas en un radio de 30 pies deben intentar una salvación @Check[type:will|dc:33] para resistir. </p>\n <p> Talamira no puede usar Lamento Resonante para [[/br 1d4 #Recharge Resonant Wail]] {1d4 asaltos}. </p>\n <hr />\n <p> <strong> Éxito crítico </strong> La criatura no se ve afectada. </p>\n <p> <strong> Éxito </strong> La criatura gime de angustia durante 3 rondas. Los gritos resuenan dentro de los lamentos de la habitación.cristales, dándoles a los cristales una bonificación de estado de +2 en las tiradas de ataque contra esa criatura durante este tiempo. </p>\n <p> <strong> Fracaso </strong> Como éxito, pero la criatura es @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3] {Lentificado 1} durante 1 minuto mientras solloza incontrolablemente. Si la criatura ya está ralentizada 1 por la desesperación aplastante, es @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3] {Lentificado 2} siempre que esté bajo ambos efectos simultáneamente. </p>\n <p> <strong> Fallo crítico </strong> Como fallo, pero elLa criatura también está @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix] {Aturdido 3} por su abrumadora tristeza. </p>"
         },
         "action->Telekinetic Crystalline Assault": {
           "name": "Asalto cristalino telequinético",
@@ -4301,7 +4301,7 @@
         },
         "action->Spine Volley": {
           "name": "Volea de columna",
-          "description": "<p> Tarrasque arroja espinas en un @Template[type:cone|distance:120] , causando @Damage[(3d10+20)[piercing]] daño a cada criatura en el área ( @Check[type:reflex|dc:53|basic:true] salvación). </p>\n <p> Tarrasque no puede volver a usar Spine Volley por [[/br 1d4 #Recharge Spine Volley]] {1d4 rounds}. </p>"
+          "description": "<p> Tarrasque arroja espinas en un @Template[type:cone|distance:120] , causando @Damage[(3d10+20)[piercing]] daño a cada criatura en el área ( @Check[type:reflex|dc:53|basic:true] salvación). </p>\n <p> Tarrasque no puede volver a usar Spine Volley por [[/br 1d4 #Recharge Spine Volley]] {1d4 asaltos}. </p>"
         },
         "action->Swallow Whole": {
           "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]\n <p> Enorme, @Damage[(10d6+12)[bludgeoning], 10d6[ácido]], Ruptura 50 </p>\n <hr />\n <p> @Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole] </p>"
@@ -4365,7 +4365,7 @@
         },
         "action->Demilich Eye Gems": {
           "name": "Gemas del ojo de Demilich",
-          "description": "<p> Un demilich tiene ojos de piedras preciosas que brillan cuando el demilich está activo. Cada ojo contiene un hechizo de octavo rango que apunta a una criatura (normalmente un ojo tiene @UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7] {Quandary} y ​​el otro @UUID[Compendium.pf2e.spells-srd.Item.BKIet436snMNcnez] {Polar Ray}). El demilich puede activar un ojo. Esto utiliza la cantidad de acciones de lanzamiento de hechizos que requiere el hechizo y también requiere componentes de comando e visualización. </p>\n <p> Cuando el demilich lanza un hechizo desde un ojo de piedra preciosa, ese ojo deja de brillar por[[/br 1d4 #rounds]] {1d4 rounds} , tiempo durante el cual el hechizo de ese ojo no se puede usar. Ocasionalmente, uno o ambos de los dos <em> @UUID[Compendium.pf2e.equipment-srd.Item.Q4o8pEdxSY0bnJQZ] {Demilich Eye Gems} </em> se pueden recolectar de un demilich destruido como objetos mágicos. </p>"
+          "description": "<p> Un demilich tiene ojos de piedras preciosas que brillan cuando el demilich está activo. Cada ojo contiene un hechizo de octavo rango que apunta a una criatura (normalmente un ojo tiene @UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7] {Quandary} y ​​el otro @UUID[Compendium.pf2e.spells-srd.Item.BKIet436snMNcnez] {Polar Ray}). El demilich puede activar un ojo. Esto utiliza la cantidad de acciones de lanzamiento de hechizos que requiere el hechizo y también requiere componentes de comando e visualización. </p>\n <p> Cuando el demilich lanza un hechizo desde un ojo de piedra preciosa, ese ojo deja de brillar por[[/br 1d4 #rounds]] {1d4 asaltos} , tiempo durante el cual el hechizo de ese ojo no se puede usar. Ocasionalmente, uno o ambos de los dos <em> @UUID[Compendium.pf2e.equipment-srd.Item.Q4o8pEdxSY0bnJQZ] {Demilich Eye Gems} </em> se pueden recolectar de un demilich destruido como objetos mágicos. </p>"
         },
         "action->Devour Soul": {
           "name": "Devorar alma",
@@ -4578,14 +4578,14 @@
         },
         "action->Scoff at the Divine": {
           "name": "Burlarse de lo Divino",
-          "description": "<p> <strong> Desencadenante </strong> Una criatura dentro de 30 pies lanza un hechizo divino o usa una habilidad divina. </p>\n <p> <strong> Requisitos </strong> Vaklish tiene un espacio de hechizo no gastado que puede usarse para lanzar @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG] {Dispel Magic}. </p>\n <hr />\n <p> <strong> Efecto </strong> Vaklish gasta un espacio de hechizo que podría usarse para lanzar <em> disipar magia </em> e intenta contrarrestar el hechizo desencadenante ocapacidad. </p>\n <p> Vaklish no puede burlarse de lo Divino por [[/br 1d4 #Recharge Scoff at the Divine]] {1d4 rounds}. </p>"
+          "description": "<p> <strong> Desencadenante </strong> Una criatura dentro de 30 pies lanza un hechizo divino o usa una habilidad divina. </p>\n <p> <strong> Requisitos </strong> Vaklish tiene un espacio de hechizo no gastado que puede usarse para lanzar @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG] {Dispel Magic}. </p>\n <hr />\n <p> <strong> Efecto </strong> Vaklish gasta un espacio de hechizo que podría usarse para lanzar <em> disipar magia </em> e intenta contrarrestar el hechizo desencadenante ocapacidad. </p>\n <p> Vaklish no puede burlarse de lo Divino por [[/br 1d4 #Recharge Scoff at the Divine]] {1d4 asaltos}. </p>"
         },
         "action->Change Shape": {
           "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n <p> Vaklish adopta la apariencia de cualquier humanoide mediano. Esto no cambia la velocidad de Valish ni los modificadores de ataque y daño con sus golpes, pero podría cambiar el tipo de daño que infligen sus golpes (normalmente contundente). Por lo general, pierde su ataque con colmillos a menos que la forma humanoide tenga colmillos o un ataque desarmado similar. </p>\n <hr />\n <p> @Localize[PF2E.NPC.Abilities.Glossary.ChangeShape] </p>"
         },
         "action->Disturbing Vision": {
           "name": "Visión perturbadora",
-          "description": "<p> Los ojos de Vaklish brillan en verde mientras proyecta una onda telepática en un @Template[type:emanation|distance:30]. Todas las criaturas de la zona son asaltadas por una visión de decadencia maligna de una de las vidas pasadas del rakshasa. Cada criatura no malvada en el área debe tener éxito en una salvación @Check[type:will|dc:32] o convertirse en @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 1} (y @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix] {Aturdido 1} en caso de un fallo crítico). </p>\n <p> Las visiones duran [[/br 1d4 #Duration Disturbing Vision]] {1d4 rounds} , y mientras lo hacen, Vaklish y todas las criaturas malvadas de la zonaobtienes una bonificación de estado de +1 a todas las pruebas. Vaklish puede volver a utilizar esta habilidad sólo una vez que finalicen las visiones anteriores. </p>\n <p> @UUID[Compendium.pf2e.bestiary-effects.Item.AThOnEYzPO9ssYTB] {Efecto: Disturbing Vision} </p>"
+          "description": "<p> Los ojos de Vaklish brillan en verde mientras proyecta una onda telepática en un @Template[type:emanation|distance:30]. Todas las criaturas de la zona son asaltadas por una visión de decadencia maligna de una de las vidas pasadas del rakshasa. Cada criatura no malvada en el área debe tener éxito en una salvación @Check[type:will|dc:32] o convertirse en @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] {Indispuesto 1} (y @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix] {Aturdido 1} en caso de un fallo crítico). </p>\n <p> Las visiones duran [[/br 1d4 #Duration Disturbing Vision]] {1d4 asaltos} , y mientras lo hacen, Vaklish y todas las criaturas malvadas de la zonaobtienes una bonificación de estado de +1 a todas las pruebas. Vaklish puede volver a utilizar esta habilidad sólo una vez que finalicen las visiones anteriores. </p>\n <p> @UUID[Compendium.pf2e.bestiary-effects.Item.AThOnEYzPO9ssYTB] {Efecto: Disturbing Vision} </p>"
         }
       }
     },
@@ -4614,7 +4614,7 @@
         },
         "action->Hostile Juxtaposition": {
           "name": "Yuxtaposición hostil",
-          "description": "<p> <strong> Desencadenante </strong> Una criatura apunta al vazgorlu con un Golpe </p>\n <hr />\n <p> <strong> Efecto </strong> El vazgorlu elige una criatura diferente dentro de 60 pies e intenta intercambiar lugares con esa criatura usando @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8] {Translocate} en el instante anterior al Golpe. El objetivo debe intentar una salvación @Check[type:will|dc:39|traits:arcana]. </p>\n <hr />\n <p> <strong> Éxito crítico </strong> El objetivo resiste elteletransportación, y el vazgorlu no puede usar yuxtaposición hostil para [[/br 1d4 #Recharge Hostile Juxtaposition]] {1d4 rounds} . </p>\n <p> <strong> Éxito </strong> El objetivo resiste la teletransportación. </p>\n <p> <strong> Fallo </strong> El objetivo y el vazgorlu intercambian lugares instantáneamente, y el Golpe desencadenante se resuelve contra el objetivo. </p>\n <p> <strong> Fallo crítico </strong> Como fallo, pero el objetivo es transportado alel semiplano de vazgorlu después de resolver el ataque desencadenante contra él. </p>"
+          "description": "<p> <strong> Desencadenante </strong> Una criatura apunta al vazgorlu con un Golpe </p>\n <hr />\n <p> <strong> Efecto </strong> El vazgorlu elige una criatura diferente dentro de 60 pies e intenta intercambiar lugares con esa criatura usando @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8] {Translocate} en el instante anterior al Golpe. El objetivo debe intentar una salvación @Check[type:will|dc:39|traits:arcana]. </p>\n <hr />\n <p> <strong> Éxito crítico </strong> El objetivo resiste elteletransportación, y el vazgorlu no puede usar yuxtaposición hostil para [[/br 1d4 #Recharge Hostile Juxtaposition]] {1d4 asaltos} . </p>\n <p> <strong> Éxito </strong> El objetivo resiste la teletransportación. </p>\n <p> <strong> Fallo </strong> El objetivo y el vazgorlu intercambian lugares instantáneamente, y el Golpe desencadenante se resuelve contra el objetivo. </p>\n <p> <strong> Fallo crítico </strong> Como fallo, pero el objetivo es transportado alel semiplano de vazgorlu después de resolver el ataque desencadenante contra él. </p>"
         },
         "action->Demiplane Lair": {
           "name": "Guarida de semiplano",
@@ -4674,7 +4674,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p> Veshumirix exhala una ráfaga de magma que inflige @Damage[9d6[fire] ,4d12[contundente]] {9d6 daño de fuego and 4d12 daño contundente} en una @Template[type:cone|distance:60] {60-pies cone} ( @Check[type:reflex|dc:42|basic:true] salvación). </p>\n <p> No puede volver a usar Breath Weapon durante [[/br 1d4 #Recharge Breath Weapon]] {1d4 rounds}. </p>"
+          "description": "<p> Veshumirix exhala una ráfaga de magma que inflige @Damage[9d6[fire] ,4d12[contundente]] {9d6 daño de fuego and 4d12 daño contundente} en una @Template[type:cone|distance:60] {60-pies cone} ( @Check[type:reflex|dc:42|basic:true] salvación). </p>\n <p> No puede volver a usar su arma de aliento durante [[/br 1d4 #Recharge Breath Weapon]] {1d4 asaltos}. </p>"
         },
         "action->Draconic Frenzy": {
           "name": "Frenesí dracónico",
@@ -4884,7 +4884,7 @@
         },
         "action->Howl": {
           "name": "Aullido",
-          "description": "<p> <strong> Frecuencia </strong> Tres veces al día </p>\n <hr />\n <p> <strong> Efecto </strong> El wendigo desata un aullido desolado que se puede escuchar hasta a 1 milla de distancia. Cualquier criatura que escuche el aullido debe tener éxito en una salvación @Check[type:will|dc:38] o ser @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL] {Asustado 1}. Cualquier criatura que falle críticamente y esté a 120 pies del wendigo es en cambio @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL] {Asustado 3} y ​​también huye por [[/br 1d4 #rounds]] {1d4 rounds} (o hasta que ya no esté disponible).ya no está asustado, lo que ocurra primero). </p>\n <p> Una criatura asustada por el aullido de un wendigo aún se recupera naturalmente de su miedo, pero no puede reducirlo por debajo de asustado 1 de esta manera hasta que haya pasado 1 hora o se use magia. Ya sea que tenga éxito o falle en su salvación, una criatura es temporalmente inmune al Aullido de ese wendigo durante 24 horas. </p>"
+          "description": "<p> <strong> Frecuencia </strong> Tres veces al día </p>\n <hr />\n <p> <strong> Efecto </strong> El wendigo desata un aullido desolado que se puede escuchar hasta a 1 milla de distancia. Cualquier criatura que escuche el aullido debe tener éxito en una salvación @Check[type:will|dc:38] o ser @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL] {Asustado 1}. Cualquier criatura que falle críticamente y esté a 120 pies del wendigo es en cambio @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL] {Asustado 3} y ​​también huye por [[/br 1d4 #rounds]] {1d4 asaltos} (o hasta que ya no esté disponible).ya no está asustado, lo que ocurra primero). </p>\n <p> Una criatura asustada por el aullido de un wendigo aún se recupera naturalmente de su miedo, pero no puede reducirlo por debajo de asustado 1 de esta manera hasta que haya pasado 1 hora o se use magia. Ya sea que tenga éxito o falle en su salvación, una criatura es temporalmente inmune al Aullido de ese wendigo durante 24 horas. </p>"
         },
         "action->Ride the Wind": {
           "name": "Montar el viento",
@@ -5006,7 +5006,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p> Xotani exhala una ráfaga de llamas que inflige @Damage[18d6[fire] ,4d6[persistent,fire]] {18d6 daño de fuego plus 4d6 daño persistente de fuego} a todas las criaturas en una @Template[type:cone|distance:70] ( @Check[type:reflex|dc:42|basic:true] salvación). </p>\n <p> No puede volver a usar Breath Weapon durante [[/br 1d4 #Recharge Breath Weapon]] {1d4 rounds}. </p>"
+          "description": "<p> Xotani exhala una ráfaga de llamas que inflige @Damage[18d6[fire] ,4d6[persistent,fire]] {18d6 daño de fuego plus 4d6 daño persistente de fuego} a todas las criaturas en una @Template[type:cone|distance:70] ( @Check[type:reflex|dc:42|basic:true] salvación). </p>\n <p> No puede volver a usar su arma de aliento durante [[/br 1d4 #Recharge Breath Weapon]] {1d4 asaltos}. </p>"
         },
         "action->Swallow Whole": {
           "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]\n <p> Enorme, @Damage[(8d6+8)[bludgeoning] ,12d6[fuego]], Ruptura 35 </p>\n <hr />\n <p> @Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole] </p>"
@@ -5038,7 +5038,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p> El Xotanispawn rocía un @Template[type:cone|distance:60] de magma que causa @Damage[10d10[fire], 2d6[persistent,fire]] {10d10 daño de fuego and 2d6 daño persistente de fuego} a todas las criaturas en el área ( @Check[type:reflex|dc:39|basic:true] salvación). </p>\n <p> El Xotanispawn no puede volver a usar su arma de aliento durante [[/br 1d4 #Recharge Breath Weapon]] {1d4 rounds} . </p>"
+          "description": "<p> El Xotanispawn rocía un @Template[type:cone|distance:60] de magma que causa @Damage[10d10[fire], 2d6[persistent,fire]] {10d10 daño de fuego and 2d6 daño persistente de fuego} a todas las criaturas en el área ( @Check[type:reflex|dc:39|basic:true] salvación). </p>\n <p> El Xotanispawn no puede volver a usar su arma de aliento durante [[/br 1d4 #Recharge Breath Weapon]] {1d4 asaltos} . </p>"
         },
         "action->Heat Surge": {
           "name": "Oleada de calor",

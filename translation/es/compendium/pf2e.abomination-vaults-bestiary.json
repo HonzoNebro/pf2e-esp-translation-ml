@@ -1161,7 +1161,7 @@
         },
         "action->Shadow Flitter": {
           "name": "Revoloteo de sombras",
-          "description": "<p> La temible llama se teletransporta a un cuadrado que pueden ver dentro de 30 pies y que no está en un área de luz brillante. La temible brizna no se puede volver a usar para [[/br 1d4 #Recharge Shadow Flitter]]{1d4 rounds} . </p>"
+          "description": "<p> La temible llama se teletransporta a un cuadrado que pueden ver dentro de 30 pies y que no está en un área de luz brillante. La temible brizna no se puede volver a usar para [[/br 1d4 #Recharge Shadow Flitter]]{1d4 asaltos} . </p>"
         },
         "action->Wearying Touch": {
           "name": "Toque cansado",
@@ -1733,7 +1733,7 @@
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p> El gibtanius vomita un chorro de ácido que causa @Damage[9d6[acid]] daño a todas las criaturas en una @Template[type:line|distance:60] ( @Check[type:reflex|dc:26|basic:true] salvación). </p>\n <p> No puede volver a usar Breath Weapon durante [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds} . </p>"
+          "description": "<p> El gibtanius vomita un chorro de ácido que causa @Damage[9d6[acid]] daño a todas las criaturas en una @Template[type:line|distance:60] ( @Check[type:reflex|dc:26|basic:true] salvación). </p>\n <p> No puede volver a usar su arma de aliento durante [[/br 1d4 #Recharge Breath Weapon]]{1d4 asaltos} . </p>"
         }
       }
     },
@@ -2054,7 +2054,7 @@
         },
         "action->Poisoned Breath": {
           "name": "Aliento envenenado",
-          "description": "<p> Jarelle exhala una @Template[type:cone|distance:15] de niebla tóxica que causa @Damage[5d6[poison]] daño ( @Check[type:fortitude|dc:22|basic:true] salvación; en caso de fallo crítico, el objetivo también es @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1} durante 24 horas). </p>\n <p> Luego no podrá volver a usar Aliento envenenado durante [[/br 1d4 #Recharge Poisoned Breath]]{1d4 rounds}. </p>"
+          "description": "<p> Jarelle exhala una @Template[type:cone|distance:15] de niebla tóxica que causa @Damage[5d6[poison]] daño ( @Check[type:fortitude|dc:22|basic:true] salvación; en caso de fallo crítico, el objetivo también es @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1} durante 24 horas). </p>\n <p> Luego no podrá volver a usar Aliento envenenado durante [[/br 1d4 #Recharge Poisoned Breath]]{1d4 asaltos}. </p>"
         },
         "lore->Library Lore": [
           {
@@ -2911,7 +2911,7 @@
       "items": {
         "action->Stasis Field": {
           "name": "Campo de estasis",
-          "description": "<p> <strong> Desencadenante </strong> Una criatura no diabólica se mueve hacia la luz </p>\n <hr />\n <p> <strong> Efecto </strong> La luz se expande para llenar la habitación, y cada criatura no diabólica dentro de la habitación debe intentar una salvación @Check[type:will|dc:26]. Suena un timbre agudo en el cuartel (área <strong> D15 </strong> ), audible también en esta sala. La trampa luego tira iniciativa. </p>\n <hr />\n <p> <strong> Éxito crítico</strong> El objetivo no se ve afectado. </p>\n <p> <strong> Éxito </strong> El objetivo es @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 2} . </p>\n <p> <strong> Fallo </strong> El objetivo es @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado} durante 1 ronda. </p>\n <p> <strong> Fallo crítico </strong> El objetivo es @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 2} durante [[/br 1d4 #Duration Anonadado]]{1d4 rounds} y ​​queda paralizado durante 1 asalto. </p>"
+          "description": "<p> <strong> Desencadenante </strong> Una criatura no diabólica se mueve hacia la luz </p>\n <hr />\n <p> <strong> Efecto </strong> La luz se expande para llenar la habitación, y cada criatura no diabólica dentro de la habitación debe intentar una salvación @Check[type:will|dc:26]. Suena un timbre agudo en el cuartel (área <strong> D15 </strong> ), audible también en esta sala. La trampa luego tira iniciativa. </p>\n <hr />\n <p> <strong> Éxito crítico</strong> El objetivo no se ve afectado. </p>\n <p> <strong> Éxito </strong> El objetivo es @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 2} . </p>\n <p> <strong> Fallo </strong> El objetivo es @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado} durante 1 ronda. </p>\n <p> <strong> Fallo crítico </strong> El objetivo es @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 2} durante [[/br 1d4 #Duration Anonadado]]{1d4 asaltos} y ​​queda paralizado durante 1 asalto. </p>"
         }
       }
     },
@@ -4123,7 +4123,7 @@
         },
         "action->Feed on Fear": {
           "name": "Alimentarse del miedo",
-          "description": "<p> <strong> Frecuencia </strong> una vez por ronda </p>\n <p> <strong> Requisito </strong> Un enemigo está afectado por un efecto de miedo o tiene la condición de asustado o moribundo, y se encuentra a 25 pies del voidglotton </p>\n <hr />\n <p> <strong> Efecto </strong> El glotón del vacío se alimenta del terror de la criatura. Recupera [[/r 3d4[healing]]] Puntos de Vida y su Brillo se reaviva si se hubiera extinguido. </p>\n <p> No puedeusa Consumir Luz nuevamente para [[/br 1d4 #Recharge Consume Light]]{1d4 rounds} , ya que está demasiado saturado de miedo para suprimir su Resplandor. </p>"
+          "description": "<p> <strong> Frecuencia </strong> una vez por ronda </p>\n <p> <strong> Requisito </strong> Un enemigo está afectado por un efecto de miedo o tiene la condición de asustado o moribundo, y se encuentra a 25 pies del voidglotton </p>\n <hr />\n <p> <strong> Efecto </strong> El glotón del vacío se alimenta del terror de la criatura. Recupera [[/r 3d4[healing]]] Puntos de Vida y su Brillo se reaviva si se hubiera extinguido. </p>\n <p> No puedeusa Consumir Luz nuevamente para [[/br 1d4 #Recharge Consume Light]]{1d4 asaltos} , ya que está demasiado saturado de miedo para suprimir su Resplandor. </p>"
         },
         "action->Magic Immunity": {
           "name": "Inmunidad mágica",
@@ -4345,7 +4345,7 @@
         },
         "action->Witchflame Kindling": {
           "name": "Encendido de llama mágica",
-          "description": "<p> <strong> Requisitos </strong> Una criatura a 30 pies del fuego brujo arde con llama mágica </p>\n <hr />\n <p> <strong> Efecto </strong> Los ojos y la boca del fuego brujo brillan intensamente, y la llama de la bruja en la criatura objetivo momentáneamente arde mucho más caliente, causando @Damage[5d6[fire] ,5d6[void]]{5d6 daño de fuego and 5d6 daño de vacío} a esa criatura ( @Check[type:fortitude|dc:28|basic:true] salvación). </p>\n <p> El fuego brujo no puede usar Witchflame Kindling para [[/br 1d4 #Recharge Witchflame Kindling]]{1d4 rounds}.</p>"
+          "description": "<p> <strong> Requisitos </strong> Una criatura a 30 pies del fuego brujo arde con llama mágica </p>\n <hr />\n <p> <strong> Efecto </strong> Los ojos y la boca del fuego brujo brillan intensamente, y la llama de la bruja en la criatura objetivo momentáneamente arde mucho más caliente, causando @Damage[5d6[fire] ,5d6[void]]{5d6 daño de fuego and 5d6 daño de vacío} a esa criatura ( @Check[type:fortitude|dc:28|basic:true] salvación). </p>\n <p> El fuego brujo no puede usar Witchflame Kindling para [[/br 1d4 #Recharge Witchflame Kindling]]{1d4 asaltos}.</p>"
         }
       }
     },
