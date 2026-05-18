@@ -20,7 +20,7 @@
         },
         "action->Spray Acid": {
           "name": "Spray Acid",
-          "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p><strong>Efecto</strong> The ankhrav spews acid in a @Template[cone|distance:30], dealing @Damage[3d6[acid],1d6[persistent,acid]|options:area-damage]{3d6 daño de ácido and 1d6 daño persistente de ácido} (@Check[reflex|dc:20|basic|options:area-effect] save).</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p><strong>Efecto</strong> The ankhrav spews acid in a @Template[cone|distance:30], dealing @Damage[3d6[acid],1d6[persistent,acid]|options:area-damage]{3d6 daño de ácido and 1d6 daño persistente de ácido} (@Check[reflex|dc:20|basic|options:area-effect] salvación).</p>"
         }
       }
     },
@@ -50,7 +50,7 @@
         },
         "action->Spray Acid": {
           "name": "Spray Acid",
-          "description": "<p>The hive mother spews acid in a @Template[cone|distance:60], dealing @Damage[8d6[acid],1d6[persistent,acid]|options:area-damage]{8d6 daño de ácido and 1d6 daño persistente de ácido} (@Check[reflex|dc:26|basic|options:area-effect] save).</p>\n<p>It can't spew acid again for [[/gmr 1d4 #Recharge Spray Acid]]{1d4 rounds}.</p>"
+          "description": "<p>The hive mother spews acid in a @Template[cone|distance:60], dealing @Damage[8d6[acid],1d6[persistent,acid]|options:area-damage]{8d6 daño de ácido and 1d6 daño persistente de ácido} (@Check[reflex|dc:26|basic|options:area-effect] salvación).</p>\n<p>It can't spew acid again for [[/gmr 1d4 #Recharge Spray Acid]]{1d4 rounds}.</p>"
         }
       }
     },
@@ -62,7 +62,7 @@
       "items": {
         "action->Shocking Fallo": {
           "name": "Shocking Fallo",
-          "description": "<p><strong>Desencadenante</strong> A criatura fails one of the disable checks</p>\n<hr />\n<p><strong>Efecto</strong> An electric jolt shocks all criaturas who were attempting to open the box. Este deals @Damage[(2d8+5)[electricity]]{2d8+5 nonlethal electricity} daño, and each criatura must attempt a @Check[reflex|dc:21|basic] save.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura fails one of the disable checks</p>\n<hr />\n<p><strong>Efecto</strong> An electric jolt shocks all criaturas who were attempting to open the box. Este deals @Damage[(2d8+5)[electricity]]{2d8+5 nonlethal electricity} daño, and each criatura must attempt a @Check[reflex|dc:21|basic] salvación.</p>"
         }
       }
     },
@@ -70,13 +70,13 @@
       "name": "Army of Mist",
       "description": "<p>The wind intensifies and the seeping fog rushes forward in a stampede of ghostly orcs screaming wordless battle cries, armas raised to slaughter their foes.</p>",
       "disable": "<p>@Check[occultism|dc:28] (experto) to funnel the magic powering the mist back into itself, or @Check[religion|dc:30] (experto) to exorcise some of the trapped souls and weaken the storm; three total successes in any combination are required to disable the haunt</p>",
-      "reset": "<p>The haunt deactivates 1 minute after all criaturas leave the area of Fort Whiteskull but resets immediately. The army of mist resets 1 day after being disabled if the ancestor storm isn't put to rest.</p>",
+      "reset": "<p>The haunt deactivates 1 minuto after all criaturas leave the area of Fort Whiteskull but resets immediately. The army of mist resets 1 día after being disabled if the ancestor storm isn't put to rest.</p>",
       "routine": "<p>(3 actions) The army of mist uses 3 actions to make frozen fists Golpes against three random criaturas, favoring non-orcs or anyone who attempted to Disable it within the past round.</p>",
       "stealth": "<p>(experto) or @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}</p>",
       "items": {
         "action->Battle Roar": {
           "name": "Battle Roar",
-          "description": "<p><strong>Desencadenante</strong> A criatura enters the haunt's area</p>\n<hr />\n<p><strong>Efecto</strong> The orc warriors roar in fury, dealing @Damage[(2d10+13)[sonic]] daño (@Check[fortitude|dc:28|basic] save) to all living criaturas within the haunt, then rolls initiative. Las criaturas that critically fail their saves are @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} until Umbra's Last Stand is quelled.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura enters the haunt's area</p>\n<hr />\n<p><strong>Efecto</strong> The orc warriors roar in fury, dealing @Damage[(2d10+13)[sonic]] daño (@Check[fortitude|dc:28|basic] salvación) to all living criaturas within the haunt, then rolls initiative. Las criaturas that critically fail their saves are @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} until Umbra's Last Stand is quelled.</p>"
         },
         "strike-ranged->Frozen Fists": {
           "name": "Frozen Fists"
@@ -133,14 +133,14 @@
         },
         "action->Horn": {
           "name": "Cuerno",
-          "description": "<p><span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">3</span></p>\n<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> The aurochs herd makes a melee attack against each enemigo in a @Template[emanation|distance:5] (@Check[reflex|dc:22|basic|options:area-effect] save). The daño depends on the number of actions.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d8+8)[piercing]|options:area-damage] daño</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+10)[piercing]|options:area-damage] daño</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d10+9)[piercing]|options:area-damage] daño</p>"
+          "description": "<p><span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">3</span></p>\n<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> The aurochs herd makes a melee attack against each enemigo in a @Template[emanation|distance:5] (@Check[reflex|dc:22|basic|options:area-effect] salvación). The daño depends on the number of actions.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d8+8)[piercing]|options:area-damage] daño</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+10)[piercing]|options:area-damage] daño</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d10+9)[piercing]|options:area-damage] daño</p>"
         },
         "action->Puncturing Charge": {
           "name": "Puncturing Charge",
           "description": "<p><strong>Requisitos</strong> The aurochs herd has formed a Circle of Horns</p>\n<hr />\n<p><strong>Efecto</strong> The aurochs herd Strides to an enemigo and makes a Horn Golpe, dealing @Damage[(3d8+8)[piercing]] daño plus @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.LbnsT8yXchHMQT3t]{Improved Knockdown}.</p>"
         },
         "action->Trample": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\n<p>Huge or smaller, hoof (@Damage[(3d6+6)[bludgeoning]] daño; @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} criaturas take @Damage[(4d6+6)[bludgeoning]] daño), @Check[reflex|dc:25|basic] save (any criatura that fails its save is knocked prone).</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\n<p>Huge or smaller, hoof (@Damage[(3d6+6)[bludgeoning]] daño; @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} criaturas take @Damage[(4d6+6)[bludgeoning]] daño), @Check[reflex|dc:25|basic] salvación (any criatura that fails its save is knocked prone).</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
         },
         "action->Troop Movement": {
           "name": "Movimiento de tropas",
@@ -167,7 +167,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.c3b6LdLlQDPngNIb]\nCreate Undead (Oathrisen)"
         },
         "equipment->Horrid Figurine": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.c8v8gWJ87xiUVnsb]\n<p>Carved in a putrid jade, the color of disease, this figurine is a bloated humanoid mass of writhing vermin and serpents, all rendered in disgusting detail. The creeping pattern is carved so they seem to move and contort the more one views the figurine. When activated, the effect is amplified to a disgusting or horrifying degree. The figurine can be activated twice per day. If tú try to activate it a third time during a day, it dissolves into a puddle of non-magical, putrid glue, causing tú to become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3}.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> command, INTERACT</p>\n<hr />\n<p><strong>Efecto</strong> Holding the figurine over tu head and speaking one command word causes a wave of nausea in a @Template[emanation|distance:20]. Each criatura in the emanation must succeed at a @Check[fortitude|dc:24] save or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}. Estás immune to this effect.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> command, INTERACT</p>\n<hr />\n<p><strong>Efecto</strong> Holding the figurine over tu head and speaking a different command word causes those around to tremble in fear. Each criatura in a @Template[emanation|distance:20] must succeed at a @Check[will|dc:24] save or become @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 3}. Estás immune to this effect.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.c8v8gWJ87xiUVnsb]\n<p>Carved in a putrid jade, the color of disease, this figurine is a bloated humanoid mass of writhing vermin and serpents, all rendered in disgusting detail. The creeping pattern is carved so they seem to move and contort the more one views the figurine. When activated, the effect is amplified to a disgusting or horrifying degree. The figurine can be activated twice per day. If tú try to activate it a third time during a day, it dissolves into a puddle of non-magical, putrid glue, causing tú to become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3}.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> command, INTERACT</p>\n<hr />\n<p><strong>Efecto</strong> Holding the figurine over tu head and speaking one command word causes a wave of nausea in a @Template[emanation|distance:20]. Each criatura in the emanation must succeed at a @Check[fortitude|dc:24] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}. Estás immune to this effect.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> command, INTERACT</p>\n<hr />\n<p><strong>Efecto</strong> Holding the figurine over tu head and speaking a different command word causes those around to tremble in fear. Each criatura in a @Template[emanation|distance:20] must succeed at a @Check[will|dc:24] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 3}. Estás immune to this effect.</p>"
         },
         "equipment->Spellbook": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.FOWF5f0tCaApv9RE]\nSpellbook",
@@ -201,7 +201,7 @@
         "consumable->Wand of Blazing Bolt (Rank 3)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.wrDmWkGxmwzYtfiA]\nWand of Blazing Bolt (Rank 3)",
           "consumableSpellName": "Virote ardiente",
-          "consumableSpellDescription": "<p>Tú fire a ray of heat and flame. Make a conjuro tirada de ataque against a single criatura. On a hit, el objetivo takes 2d6 daño de fuego, and on a critical hit, el objetivo takes double daño.</p>\n<p>For each additional action tú use when Casting the Spell, puedes fire an additional ray at a different target, to a maximum of three rays targeting three different targets for 3 actions. Estos attacks each increase tu multiple attack penalización, but tú don't increase tu multiple attack penalización until after tú make all the conjuro tiradas de ataque for <em>blazing bolt</em>. If tú spend 2 or more actions Casting the Spell, the daño increases to 4d6 daño de fuego on a hit, and it still deals double daño on a critical hit.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The daño to each target increases by 1d6 for the 1-action version, or by 2d6 for the 2-action and 3-action versions.</p>",
+          "consumableSpellDescription": "<p>Tú fire a ray of heat and flame. Make a conjuro tirada de ataque against a single criatura. On a hit, el objetivo takes 2d6 daño de fuego, and on a impacto crítico, el objetivo takes double daño.</p>\n<p>For each additional action tú use when Casting the Spell, puedes fire an additional ray at a different target, to a maximum of three rays targeting three different targets for 3 actions. Estos attacks each increase tu multiple attack penalización, but tú don't increase tu multiple attack penalización until after tú make all the conjuro tiradas de ataque for <em>blazing bolt</em>. If tú spend 2 or more actions Casting the Spell, the daño increases to 4d6 daño de fuego on a hit, and it still deals double daño on a impacto crítico.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The daño to each target increases by 1d6 for the 1-action version, or by 2d6 for the 2-action and 3-action versions.</p>",
           "consumableSpellTarget": "1 or more criaturas",
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.wrDmWkGxmwzYtfiA]\n<p>@UUID[Compendium.pf2e.spells-srd.Item.ZxHC7V7HtjUsB8zH]{Blazing Bolt}</p>\n<hr />\n<p>Este baton is about a pies long and contains a single conjuro. The appearance typically relates to the conjuro within.</p>\n<p><strong>Activar</strong> Lanzar un conjuro</p>\n<p><strong>Frecuencia</strong> una vez al día, más sobrecarga</p>\n<hr />\n<p><strong>Efecto</strong> Lanzas the Spell at the indicated rank.</p>\n<p><strong>Requisitos de fabricación</strong> Supply a casting of the conjuro at the listed rank.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
         },
@@ -225,13 +225,13 @@
       "name": "Battle Illusion",
       "description": "<p>El scene de el arid Cinderlands melts away as el agua de el river refills y green grass spreads across el land. El sounds de battle puede be heard everywhere y todos aliados tienen vanished, murderous orcs de el One Eye Hold taking su place.</p>",
       "disable": "<p>@Check[occultism|dc:30] or @Check[religion|dc:30] (experto) twice to weaken the haunt or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank; counteract DC 27) to counteract the illusions</p>",
-      "reset": "<p>The haunt deactivates 1 minute after all criaturas leave the Shadefields but resets immediately. The battle illusion resets 1 day after being disabled if the ancestor storm isn't put to rest.</p>",
-      "routine": "<p>(1 action; illusion, incapacitation, mental, occult) The haunt continues the illusion, making victims feel as though they've been abandoned and are surrounded by attackers on all sides. Each criatura in the haunt's area must make a @Check[will|dc:28|traits:illusion,incapacitation,mental,occult] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected and temporarily immune for 1 minute.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round.</p>\n<p><strong>Fallo crítico</strong> The criatura is hostile toward the supposed One Eye orcs and must spend all actions moving toward and attacking One Eye orcs. Este hostility lasts for 1 minute, until the haunt is disabled, or until they fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}. They cannot voluntarily stop attacking those they perceive as enemies.</p>",
+      "reset": "<p>The haunt deactivates 1 minuto after all criaturas leave the Shadefields but resets immediately. The battle illusion resets 1 día after being disabled if the ancestor storm isn't put to rest.</p>",
+      "routine": "<p>(1 action; illusion, incapacitation, mental, occult) The haunt continues the illusion, making victims feel as though they've been abandoned and are surrounded by attackers on all sides. Each criatura in the haunt's area must make a @Check[will|dc:28|traits:illusion,incapacitation,mental,occult] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected and temporarily immune for 1 minuto.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 asalto.</p>\n<p><strong>Fallo crítico</strong> The criatura is hostile toward the supposed One Eye orcs and must spend all actions moving toward and attacking One Eye orcs. Este hostility lasts for 1 minuto, until the haunt is disabled, or until they fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}. They cannot voluntarily stop attacking those they perceive as enemies.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Cries of War": {
           "name": "Cries of War",
-          "description": "<p><strong>Desencadenante</strong> Two or more criaturas enter the haunt's area</p>\n<hr />\n<p><strong>Efecto</strong> Each criatura sees the forms of nearby allies shift and fade, replaced with hostile One Eye orcs. Each criatura in the area must attempt a @Check[will|dc:30] save. The haunt then rolls initiative.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura sees through the illusions and is temporarily immune to the haunt's routine for 1 minute.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura believes the illusions are true; if they become @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} by the haunt's routine, they can't attempt flat checks to end the confused condition when they take daño.</p>\n<p><strong>Fallo crítico</strong> As failure and the criatura is filled with feelings of abandonment and betrayal. When the criatura rolls against the haunt's routine, they must roll twice and take the worse result. Este is a misfortune effect.</p>"
+          "description": "<p><strong>Desencadenante</strong> Two or more criaturas enter the haunt's area</p>\n<hr />\n<p><strong>Efecto</strong> Each criatura sees the forms of nearby allies shift and fade, replaced with hostile One Eye orcs. Each criatura in the area must attempt a @Check[will|dc:30] salvación. The haunt then rolls initiative.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura sees through the illusions and is temporarily immune to the haunt's routine for 1 minuto.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura believes the illusions are true; if they become @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} by the haunt's routine, they can't attempt flat checks to end the confused condition when they take daño.</p>\n<p><strong>Fallo crítico</strong> As failure and the criatura is filled with feelings of abandonment and betrayal. When the criatura rolls against the haunt's routine, they must roll twice and take the worse result. Este is a misfortune effect.</p>"
         }
       }
     },
@@ -287,7 +287,7 @@
         },
         "action->Curse of Whispers": {
           "name": "Curse of Whispers",
-          "description": "<p>A criatura muffled by this curse cannot speak above a whisper. The criatura must succeed at a @Check[fortitude|dc:25] save to use actions with the auditory rasgo</p>\n<p><strong>Tirada de salvación</strong> @Check[will|dc:25]</p>\n<p><strong>Stage 1</strong> muffled for 1 minute (1 minute)</p>\n<p><strong>Stage 2</strong> muffled for 1 minute (1 minute)</p>\n<p><strong>Stage 3</strong> muffled for 1 day (1 day)</p>"
+          "description": "<p>A criatura muffled by this curse cannot speak above a whisper. The criatura must succeed at a @Check[fortitude|dc:25] salvación to use actions with the auditory rasgo</p>\n<p><strong>Tirada de salvación</strong> @Check[will|dc:25]</p>\n<p><strong>Etapa 1</strong> muffled for 1 minuto (1 minuto)</p>\n<p><strong>Etapa 2</strong> muffled for 1 minuto (1 minuto)</p>\n<p><strong>Etapa 3</strong> muffled for 1 día (1 día)</p>"
         },
         "action->Wound Ripper": {
           "name": "Wound Ripper",
@@ -346,7 +346,7 @@
         },
         "action->Wyvern Poison": {
           "name": "Veneno de Wyvern",
-          "description": "<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:25]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[3d6[poison]] daño plus @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[3d8[poison]] daño plus @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[3d10[poison]] daño plus @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3} (1 round)</p>"
+          "description": "<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:25]</p>\n<p><strong>Duración máxima</strong> 6 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[3d6[poison]] daño plus @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[3d8[poison]] daño plus @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[3d10[poison]] daño plus @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3} (1 asalto)</p>"
         }
       }
     },
@@ -362,7 +362,7 @@
         },
         "action->Bristle Spines": {
           "name": "Bristle Spines",
-          "description": "<p>When an adjacent criatura hits the bristle boar with a melee attack, that criatura takes @Damage[1d6[piercing]] daño unless it succeeds at a @Check[reflex|dc:17] save.</p>"
+          "description": "<p>When an adjacent criatura hits the bristle boar with a melee attack, that criatura takes @Damage[1d6[piercing]] daño unless it succeeds at a @Check[reflex|dc:17] salvación.</p>"
         },
         "action->Ferocity": {
           "name": "Ferocidad"
@@ -373,7 +373,7 @@
         },
         "action->Dustup": {
           "name": "Dustup",
-          "description": "<p><strong>Requisitos</strong> The bristle boar is standing in an area with soil, dust, sand, or similar debris</p>\n<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> The bristle boar spins and kicks up dirt, knocking it into foes' faces. Each adjacent criatura must attempt a @Check[fortitude|dc:17] save.</p>\n<hr />\n<p><strong>Éxito</strong> The criatura is unaffected and immune to the bristle boar's Dustup for 24 hours.</p>\n<p><strong>Éxito</strong> The criatura unaffected.</p>\n<p><strong>Fallo</strong> The criatura @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>\n<p><strong>Fallo crítico</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} and dazzled for 1 round.</p>"
+          "description": "<p><strong>Requisitos</strong> The bristle boar is standing in an area with soil, dust, sand, or similar debris</p>\n<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> The bristle boar spins and kicks up dirt, knocking it into foes' faces. Each adjacent criatura must attempt a @Check[fortitude|dc:17] salvación.</p>\n<hr />\n<p><strong>Éxito</strong> The criatura is unaffected and immune to the bristle boar's Dustup for 24 horas.</p>\n<p><strong>Éxito</strong> The criatura unaffected.</p>\n<p><strong>Fallo</strong> The criatura @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 asalto.</p>\n<p><strong>Fallo crítico</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} and dazzled for 1 asalto.</p>"
         }
       }
     },
@@ -396,15 +396,15 @@
           "description": "<p>Bugark ignores the @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} condition from falling snow.</p>"
         },
         "action->Reactive Strike": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc]\n<p>Bugark can use Reactive Golpe when a criatura within his reach uses a concentrate action, in addition to its normal trigger. He can disrupt triggering concentrate actions, and it disrupts actions on any hit, not just a critical hit.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc]\n<p>Bugark can use Reactive Golpe when a criatura within his reach uses a concentrate action, in addition to its normal trigger. He can disrupt triggering concentrate actions, and it disrupts actions on any hit, not just a impacto crítico.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
         },
         "action->Frozen Breath": {
           "name": "Frozen Breath",
-          "description": "<p>Bugark exhales a @Template[type:cone|distance:60] of razor-sharp ice that deals @Damage[6d6[cold],5d6[slashing]|options:area-damage]{6d6 daño de frío and 5d6 slashing} daño (@Check[reflex|dc:30|basic|options:area-effect] save). Bugark can't use Frozen Breath again for [[/gmr 1d4 #Recharge Frozen Breath]]{1d4 rounds}.</p>"
+          "description": "<p>Bugark exhales a @Template[type:cone|distance:60] of razor-sharp ice that deals @Damage[6d6[cold],5d6[slashing]|options:area-damage]{6d6 daño de frío and 5d6 slashing} daño (@Check[reflex|dc:30|basic|options:area-effect] salvación). Bugark can't use Frozen Breath again for [[/gmr 1d4 #Recharge Frozen Breath]]{1d4 rounds}.</p>"
         },
         "action->Intimidating Strike": {
           "name": "Intimidating Golpe",
-          "description": "<p>Bugark makes a melee Golpe. If he hits and deals daño, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}, or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} on a critical hit.</p>"
+          "description": "<p>Bugark makes a melee Golpe. If he hits and deals daño, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}, or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} on a impacto crítico.</p>"
         },
         "action->Smite": {
           "name": "Castigar",
@@ -416,7 +416,7 @@
       "name": "Bull Stampede",
       "description": "<p>Uros agitados pisotean las calles.</p>",
       "disable": "<p>Four @Check[athletics|dc:27], @Check[intimidation|dc:27], @Check[nature|dc:27] (experto), or @Check[survival|dc:27] (experto) checks to guide the herd, find it paths through Stockside, or keep it in line.</p>",
-      "routine": "<p>(1 action) The stampede advances, trampling everything in its path. Each criatura attempting to control the stampede must attempt a @Check[reflex|dc:30] save or be caught up in the stampede, taking @Damage[(2d12+15)[bludgeoning]] daño; a criatura who succeeded at a prueba de habilidad to disable the hazard this round has a +1 bonificador de circunstancia to the Reflex save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura takes no daño.</p>\n<p><strong>Éxito</strong> The criatura takes half daño.</p>\n<p><strong>Fallo</strong> The criatura takes full daño.</p>\n<p><strong>Fallo crítico</strong> The criatura takes double daño and cannot attempt to disable the hazard next round, as they must spend it extricating themselves from the stampede.</p>",
+      "routine": "<p>(1 action) The stampede advances, trampling everything in its path. Each criatura attempting to control the stampede must attempt a @Check[reflex|dc:30] salvación or be caught up in the stampede, taking @Damage[(2d12+15)[bludgeoning]] daño; a criatura who succeeded at a prueba de habilidad to disable the hazard this round has a +1 bonificador de circunstancia to the Reflex save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura takes no daño.</p>\n<p><strong>Éxito</strong> The criatura takes half daño.</p>\n<p><strong>Fallo</strong> The criatura takes full daño.</p>\n<p><strong>Fallo crítico</strong> The criatura takes double daño and cannot attempt to disable the hazard next round, as they must spend it extricating themselves from the stampede.</p>",
       "stealth": "<p>(entrenado) to anticipate the herd's movements</p>",
       "items": {
         "action->Rampage": {
@@ -471,11 +471,11 @@
         },
         "action->Fit of Rage": {
           "name": "Fit of Rage",
-          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> The champion swings his greatclub in a wide circle, making a melee Golpe against all criaturas within reach. On a critical hit, enemies are moved back 5 pies. Este is forced movement. Each Golpe counts toward the champion's multiple attack penalización, but his penalización doesn't increase until he's made all of his attacks.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> The champion swings his greatclub in a wide circle, making a melee Golpe against all criaturas within reach. On a impacto crítico, enemies are moved back 5 pies. Este is forced movement. Each Golpe counts toward the champion's multiple attack penalización, but his penalización doesn't increase until he's made all of his attacks.</p>"
         },
         "action->Intimidating Strike": {
           "name": "Intimidating Golpe",
-          "description": "<p>The champion of Zagresh makes a melee Golpe. If they hit and deal daño, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}, or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} on a critical hit.</p>"
+          "description": "<p>The champion of Zagresh makes a melee Golpe. If they hit and deal daño, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}, or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} on a impacto crítico.</p>"
         }
       }
     },
@@ -487,7 +487,7 @@
       "items": {
         "action->Structural Collapse": {
           "name": "Structural Collapse",
-          "description": "<p><strong>Desencadenante</strong> The trip wires are pulled or severed</p>\n<hr />\n<p><strong>Efecto</strong> The wires pull away the mechanisms supporting the stairs, causing them to collapse. Each criatura standing on the affected area must attempt a @Check[reflex|dc:29] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura jumps safely to the cliff and is unaffected.</p>\n<p><strong>Éxito</strong> The criatura jumps to the cliff, but takes @Damage[10[bludgeoning]|options:fall-daño] daño from the leap.</p>\n<p><strong>Fallo</strong> The criatura falls to the next section of stairs, 100 pies down the cliff, and takes @Damage[50[bludgeoning]|options:fall-daño] daño. They can @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{GRAB an Edge} to avoid falling.</p>\n<p><strong>Fallo crítico</strong> As failure, but the fall distance is 200 pies, all the way down the cliff, dealing @Damage[100[bludgeoning]|options:fall-daño] daño.</p>"
+          "description": "<p><strong>Desencadenante</strong> The trip wires are pulled or severed</p>\n<hr />\n<p><strong>Efecto</strong> The wires pull away the mechanisms supporting the stairs, causing them to collapse. Each criatura standing on the affected area must attempt a @Check[reflex|dc:29] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura jumps safely to the cliff and is unaffected.</p>\n<p><strong>Éxito</strong> The criatura jumps to the cliff, but takes @Damage[10[bludgeoning]|options:fall-daño] daño from the leap.</p>\n<p><strong>Fallo</strong> The criatura falls to the next section of stairs, 100 pies down the cliff, and takes @Damage[50[bludgeoning]|options:fall-daño] daño. They can @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{GRAB an Edge} to avoid falling.</p>\n<p><strong>Fallo crítico</strong> As failure, but the fall distance is 200 pies, all the way down the cliff, dealing @Damage[100[bludgeoning]|options:fall-daño] daño.</p>"
         }
       }
     },
@@ -560,11 +560,11 @@
         },
         "action->Field of Slaughter": {
           "name": "Field of Slaughter",
-          "description": "<p>40 pies. Allies within the aura treat their armas and ataques sin armas as <em>keen</em>, even if the armas don't meet the requirements. Critical hits within the aura deal 3d6 daño persistente de sangrado, in addition to any other critical hit effects. If the critical hit would already deal daño persistente de sangrado, increase the daño to 3d6+3.</p>"
+          "description": "<p>40 pies. Allies within the aura treat their armas and ataques sin armas as <em>keen</em>, even if the armas don't meet the requirements. Critical hits within the aura deal 3d6 daño persistente de sangrado, in addition to any other impacto crítico effects. If the impacto crítico would already deal daño persistente de sangrado, increase the daño to 3d6+3.</p>"
         },
         "action->Ravage Heretic": {
           "name": "Ravage Heretic",
-          "description": "<p><strong>Desencadenante</strong> A criatura within 60 pies who the deathless zealot can see and who doesn't worship Zagresh casts a divine conjuro</p>\n<hr />\n<p><strong>Efecto</strong> The deathless zealot attempts to counteract the triggering conjuro using their conjuro attack modifier and a counteract rank of 5. If the conjuro is counteracted, the caster is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3} from the pain of the backlash. If the deathless zealot fails to counteract the conjuro, the caster is temporarily immune to further uses of this ability for 24 hours.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura within 60 pies who the deathless zealot can see and who doesn't worship Zagresh casts a divine conjuro</p>\n<hr />\n<p><strong>Efecto</strong> The deathless zealot attempts to counteract the triggering conjuro using their conjuro attack modifier and a counteract rank of 5. If the conjuro is counteracted, the caster is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3} from the pain of the backlash. If the deathless zealot fails to counteract the conjuro, the caster is temporarily immune to further uses of this ability for 24 horas.</p>"
         },
         "action->Spellsmash": {
           "name": "Spellsmash",
@@ -606,11 +606,11 @@
         },
         "action->Ancestral Fury": {
           "name": "Ancestral Fury",
-          "description": "<p>Diskah cries out in grief and rage. All criaturas within a 30-pies radius must attempt a @Check[will|dc:28] save or have the @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing} condition for 1 round. Diskah can't use Ancestral Fury again for [[/gmr 1d4 #Recharge Ancestral Fury]]{1d4 rounds}.</p>"
+          "description": "<p>Diskah cries out in grief and rage. All criaturas within a 30-pies radius must attempt a @Check[will|dc:28] salvación or have the @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing} condition for 1 asalto. Diskah can't use Ancestral Fury again for [[/gmr 1d4 #Recharge Ancestral Fury]]{1d4 rounds}.</p>"
         },
         "action->Lunar Blaze": {
           "name": "Lunar Blaze",
-          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> Diskah calls out to the moon and is wreathed in fiery white moonlight for 1 minute. While this ability is active, Diskah is immune to daño de fuego and her melee Golpes deal an additional 1d6 daño persistente de fuego. Any criatura that hits her with a melee attack or otherwise touches her takes @Damage[1d8[fire]] daño.</p>",
+          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> Diskah calls out to the moon and is wreathed in fiery white moonlight for 1 minuto. While this ability is active, Diskah is immune to daño de fuego and her melee Golpes deal an additional 1d6 daño persistente de fuego. Any criatura that hits her with a melee attack or otherwise touches her takes @Damage[1d8[fire]] daño.</p>",
           "selfEffect": "Efecto: Lunar Blaze"
         },
         "action->Spirit's Blessing": {
@@ -643,7 +643,7 @@
         },
         "action->Wallow": {
           "name": "Wallow",
-          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> The war pig rapidly rolls over. If it has a rider, the war pig @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.nZMQh4AaBr291TUf]{Bucks} as a free action. The war pig gains 1d8 Puntos de Golpe temporales for 1 minute and can then attempt an immediate prueba plana to recover from a single source of persistent acid, fire, or daño mental. If the war pig Wallows in an area with ample mud, water, loose soil, or similar material, the war pig instead gains 2d8 Puntos de Golpe temporales, for 1 minute and reduces the prueba plana DC to recover from daño persistente by 1.</p>",
+          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> The war pig rapidly rolls over. If it has a rider, the war pig @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.nZMQh4AaBr291TUf]{Bucks} as a free action. The war pig gains 1d8 Puntos de Golpe temporales for 1 minuto and can then attempt an immediate prueba plana to recover from a single source of persistent acid, fire, or daño mental. If the war pig Wallows in an area with ample mud, water, loose soil, or similar material, the war pig instead gains 2d8 Puntos de Golpe temporales, for 1 minuto and reduces the prueba plana DC to recover from daño persistente by 1.</p>",
           "selfEffect": "Efecto: Wallow"
         }
       }
@@ -673,11 +673,11 @@
         },
         "action->Death Echo": {
           "name": "Death Echo",
-          "description": "<p><strong>Requisitos</strong> The flood ghoul has damaged a criatura with a melee attack</p>\n<hr />\n<p><strong>Efecto</strong> The flood ghoul unleashes a wave of memories of its death by drowning. The targeted criatura must succeed at a @Check[will|dc:15] save or become @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 1 round as they relive the flood ghoul's dying moments. A criatura who successfully saves becomes temporarily immune for 1 hour.</p>"
+          "description": "<p><strong>Requisitos</strong> The flood ghoul has damaged a criatura with a melee attack</p>\n<hr />\n<p><strong>Efecto</strong> The flood ghoul unleashes a wave of memories of its death by drowning. The targeted criatura must succeed at a @Check[will|dc:15] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 1 asalto as they relive the flood ghoul's dying moments. A criatura who successfully saves becomes temporarily immune for 1 hora.</p>"
         },
         "action->Forbidden Cravings": {
           "name": "Forbidden Cravings",
-          "description": "<p>A criatura can still eat and drink while sickened by this curse</p>\n<p><strong>Tirada de salvación</strong> @Check[will|dc:18]</p>\n<p><strong>Stage 1</strong> carrier with no ill effects (1 day)</p>\n<p><strong>Stage 2</strong> @Damage[2d6[void]] daño and el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} until it consumes raw meat (1 day)</p>\n<p><strong>Stage 3</strong> as stage 2</p>\n<p><strong>Stage 4</strong> as stage 2 unless el objetivo has consumed raw meat in the past 24 hours; then it takes @Damage[4d6[void]] daño and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} until it consumes raw meat</p>\n<p><strong>Stage 5</strong> If the criatura has eaten raw meat in the past 24 hours, it dies and rises as a ghoul; if not, it returns to stage 4 .</p>"
+          "description": "<p>A criatura can still eat and drink while sickened by this curse</p>\n<p><strong>Tirada de salvación</strong> @Check[will|dc:18]</p>\n<p><strong>Etapa 1</strong> carrier with no ill effects (1 día)</p>\n<p><strong>Etapa 2</strong> @Damage[2d6[void]] daño and el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} until it consumes raw meat (1 día)</p>\n<p><strong>Etapa 3</strong> as stage 2</p>\n<p><strong>Etapa 4</strong> as stage 2 unless el objetivo has consumed raw meat in the past 24 horas; then it takes @Damage[4d6[void]] daño and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} until it consumes raw meat</p>\n<p><strong>Etapa 5</strong> If the criatura has eaten raw meat in the past 24 horas, it dies and rises as a ghoul; if not, it returns to stage 4 .</p>"
         },
         "action->Ghoul Whispers": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.pOW2IvfVusdmD5v5]\nGhoul Whispers",
@@ -706,11 +706,11 @@
         },
         "action->Drowning Touch": {
           "name": "Drowning Touch",
-          "description": "<p>El objetivo's lungs begin to fill with water, and they must attempt a @Check[fortitude|dc:22] save. A target affected by Drowning Touch can spend a single action coughing in an attempt to recover, which immediately lets them attempt a new Fortitude save against the effect. A success improves the previous result by 1 step. A critical success improves the previous result by 2, and a critical failure decreases it by 1.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} for 1 round.</p>\n<p><strong>Fallo crítico</strong> The criatura is ralentizado 2 and drowning.</p>"
+          "description": "<p>El objetivo's lungs begin to fill with water, and they must attempt a @Check[fortitude|dc:22] salvación. A target affected by Drowning Touch can spend a single action coughing in an attempt to recover, which immediately lets them attempt a new Fortitude save against the effect. A success improves the previous result by 1 step. A critical success improves the previous result by 2, and a critical failure decreases it by 1.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 asalto.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} for 1 asalto.</p>\n<p><strong>Fallo crítico</strong> The criatura is ralentizado 2 and drowning.</p>"
         },
         "action->Floodslain Spawn": {
           "name": "Floodslain Spawn",
-          "description": "<p>A living animal or humanoid killed by a floodslain criatura will rise as a floodslain if their corpse is left in water for 24 hours. The new floodslain isn't under the control of the floodslain criatura that killed it.</p>"
+          "description": "<p>A living animal or humanoid killed by a floodslain criatura will rise as a floodslain if their corpse is left in water for 24 horas. The new floodslain isn't under the control of the floodslain criatura that killed it.</p>"
         },
         "action->Sodden Ground": {
           "name": "Sodden Ground",
@@ -718,7 +718,7 @@
         },
         "action->Vomit Flotsam": {
           "name": "Vomit Flotsam",
-          "description": "<p>The floodslain vomits flotsam in a @Template[type:cone|distance:15]. Any criatura in the area takes @Damage[5d8[bludgeoning]|options:area-damage] daño (@Check[reflex|dc:19|basic|options:area-effect] save).</p>"
+          "description": "<p>The floodslain vomits flotsam in a @Template[type:cone|distance:15]. Any criatura in the area takes @Damage[5d8[bludgeoning]|options:area-damage] daño (@Check[reflex|dc:19|basic|options:area-effect] salvación).</p>"
         }
       }
     },
@@ -744,7 +744,7 @@
         },
         "action->Drowning Touch": {
           "name": "Drowning Touch",
-          "description": "<p>When the floodslain criatura damages a criatura with a non-arma melee attack, el objetivo's lungs begin to fill with water. El objetivo must attempt a @Check[type:fortitude|against:will] save against the floodslain's Will DC. A target affected by Drowning Touch can spend a single action coughing in an attempt to recover, which immediately lets them attempt a new Fortitude save against the effect. A success improves the previous result by 1 step. A critical success improves the previous result by 2, and a critical failure decreases it by 1.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} for 1 round.</p>\n<p><strong>Fallo crítico</strong> The criatura is ralentizado 2 and drowning.</p>"
+          "description": "<p>When the floodslain criatura damages a criatura with a non-arma melee attack, el objetivo's lungs begin to fill with water. El objetivo must attempt a @Check[type:fortitude|against:will] salvación against the floodslain's Will DC. A target affected by Drowning Touch can spend a single action coughing in an attempt to recover, which immediately lets them attempt a new Fortitude save against the effect. A success improves the previous result by 1 step. A critical success improves the previous result by 2, and a critical failure decreases it by 1.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 asalto.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} for 1 asalto.</p>\n<p><strong>Fallo crítico</strong> The criatura is ralentizado 2 and drowning.</p>"
         },
         "action->Floodslain Spawn": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.Er6lawGn6pPbhYuk]\nFloodslain Spawn"
@@ -755,7 +755,7 @@
         },
         "action->Vomit Flotsam": {
           "name": "Vomit Flotsam",
-          "description": "<p>A floodslain criatura's body is filled with debris from their horrific death, which they can spew at their enemies. The floodslain vomits flotsam in a @Template[type:cone|distance:15]. Any criatura in the area takes @Damage[3d8[bludgeoning]|options:area-damage] daño with a @Check[type:reflex|against:fortitude|basic|options:area-effect] save against the floodslain's Fortitude DC.</p>"
+          "description": "<p>A floodslain criatura's body is filled with debris from their horrific death, which they can spew at their enemies. The floodslain vomits flotsam in a @Template[type:cone|distance:15]. Any criatura in the area takes @Damage[3d8[bludgeoning]|options:area-damage] daño with a @Check[type:reflex|against:fortitude|basic|options:area-effect] salvación against the floodslain's Fortitude DC.</p>"
         }
       }
     },
@@ -773,11 +773,11 @@
         },
         "action->Drowning Touch": {
           "name": "Drowning Touch",
-          "description": "<p>El objetivo's lungs begin to fill with water and they must attempt a @Check[fortitude|dc:17] save. A target affected by Drowning Touch can spend a single action coughing in an attempt to recover, which immediately lets them attempt a new Fortitude save against the effect. A success improves the previous result by 1 step. A critical success improves the previous result by 2, and a critical failure decreases it by 1.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} for 1 round.</p>\n<p><strong>Fallo crítico</strong> The criatura is ralentizado 2 and drowning.</p>"
+          "description": "<p>El objetivo's lungs begin to fill with water and they must attempt a @Check[fortitude|dc:17] salvación. A target affected by Drowning Touch can spend a single action coughing in an attempt to recover, which immediately lets them attempt a new Fortitude save against the effect. A success improves the previous result by 1 step. A critical success improves the previous result by 2, and a critical failure decreases it by 1.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 asalto.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} for 1 asalto.</p>\n<p><strong>Fallo crítico</strong> The criatura is ralentizado 2 and drowning.</p>"
         },
         "action->Floodslain Spawn": {
           "name": "Floodslain Spawn",
-          "description": "<p>A living animal or humanoid killed by a floodslain criatura will rise as a floodslain if their corpse is left in water for 24 hours. The new floodslain isn't under the control of the floodslain criatura that killed it.</p>"
+          "description": "<p>A living animal or humanoid killed by a floodslain criatura will rise as a floodslain if their corpse is left in water for 24 horas. The new floodslain isn't under the control of the floodslain criatura that killed it.</p>"
         },
         "action->Pack Attack": {
           "name": "Ataque en manada",
@@ -789,7 +789,7 @@
         },
         "action->Vomit Flotsam": {
           "name": "Vomit Flotsam",
-          "description": "<p>The floodslain vomits flotsam in a @Template[type:cone|distance:15]. Any criatura in the area takes @Damage[2d8[bludgeoning]|options:area-damage] daño (@Check[reflex|dc:18|basic|options:area-effect] save).</p>"
+          "description": "<p>The floodslain vomits flotsam in a @Template[type:cone|distance:15]. Any criatura in the area takes @Damage[2d8[bludgeoning]|options:area-damage] daño (@Check[reflex|dc:18|basic|options:area-effect] salvación).</p>"
         },
         "action->Knockdown": {
           "name": "Derribo"
@@ -824,11 +824,11 @@
         },
         "action->Graveknight's Curse": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.5dbzWZbiTyPKgwKS]\nGraveknight's Curse",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.5dbzWZbiTyPKgwKS]\n<p>Este curse affects anyone who wears a graveknight's armor for at least 1 hour</p>\n<p><strong>Tirada de salvación</strong> @Check[will|dc:33] save</p>\n<p><strong>Onset</strong> 1 hour</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} and can't remove armor (1 day)</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2}, –10-pies penalización de estado to Velocidades, and can't remove armor (1 day)</p>\n<p><strong>Stage 3</strong> dies and transforms into the armor's graveknight.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.5dbzWZbiTyPKgwKS]\n<p>Este curse affects anyone who wears a graveknight's armor for at least 1 hora</p>\n<p><strong>Tirada de salvación</strong> @Check[will|dc:33] salvación</p>\n<p><strong>Onset</strong> 1 hora</p>\n<p><strong>Etapa 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} and can't remove armor (1 día)</p>\n<p><strong>Etapa 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2}, –10-pies penalización de estado to Velocidades, and can't remove armor (1 día)</p>\n<p><strong>Etapa 3</strong> dies and transforms into the armor's graveknight.</p>"
         },
         "action->Phantom Mount": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.BgbSHRdkGH7raOgA]\nPhantom Mount",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.BgbSHRdkGH7raOgA]\n<p>HP 58; AC 27, Fort +17, Ref +15, Will +14</p>\n<hr />\n<p>The graveknight summons a supernatural mount, as @UUID[Compendium.pf2e.spells-srd.Item.WPKJOhEihhcIm2uQ]{Marvelous Mount} heightened to a rank equal to half the graveknight's level. Unlike <em>marvelous mount</em>, the steed's AC and tirada de salvación bonuses are all 4 lower than the graveknight's, and the steed has one-third the graveknight's Puntos de Golpe (rounded down).</p>\n<p>If the steed is destroyed, the graveknight must wait 1 hour before using this ability again.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.BgbSHRdkGH7raOgA]\n<p>HP 58; AC 27, Fort +17, Ref +15, Will +14</p>\n<hr />\n<p>The graveknight summons a supernatural mount, as @UUID[Compendium.pf2e.spells-srd.Item.WPKJOhEihhcIm2uQ]{Marvelous Mount} heightened to a rank equal to half the graveknight's level. Unlike <em>marvelous mount</em>, the steed's AC and tirada de salvación bonuses are all 4 lower than the graveknight's, and the steed has one-third the graveknight's Puntos de Golpe (rounded down).</p>\n<p>If the steed is destroyed, the graveknight must wait 1 hora before using this ability again.</p>"
         },
         "action->Weapon Master": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.6isn9nqnvfRrC1wW]\nMaestro de armas"
@@ -850,7 +850,7 @@
         },
         "action->Clatter": {
           "name": "Clatter",
-          "description": "<p>The ironbill snaps its beak together. Las criaturas within 30 pies take @Damage[2d10[sonic]] daño (@Check[will|dc:22|basic] save). On a failure, the criatura is also @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} on a critical failure).</p>"
+          "description": "<p>The ironbill snaps its beak together. Las criaturas within 30 pies take @Damage[2d10[sonic]] daño (@Check[will|dc:22|basic] salvación). On a failure, the criatura is also @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} on a critical failure).</p>"
         },
         "action->Flyby Attack": {
           "name": "Ataque al pasar volando",
@@ -931,7 +931,7 @@
         },
         "action->Back Pedal": {
           "name": "Back Pedal",
-          "description": "<p><strong>Desencadenante</strong> K'zaard is targeted by a Golpe</p>\n<hr />\n<p><strong>Efecto</strong> K'zaard moves unpredictably and suddenly as he tries to dodge. He gains a +1 bonificador de circunstancia against the triggering attack. After the attack is resolved, K'zaard can Dar un paso.</p>"
+          "description": "<p><strong>Desencadenante</strong> K'zaard is targeted by a Golpe</p>\n<hr />\n<p><strong>Efecto</strong> K'zaard moves unpredictably and suddenly as he tries to dodge. He gains a +1 bonificador de circunstancia against el ataque desencadenante. After the attack is resolved, K'zaard can Dar un paso.</p>"
         },
         "action->Ferocity": {
           "name": "Ferocidad"
@@ -946,7 +946,7 @@
         },
         "action->Weaseling Words": {
           "name": "Weaseling Words",
-          "description": "<p>K'zaard weaves together a short speech that gives the listener pause. Enemies within 30 pies must attempt a @Check[will|dc:24] save. While a criatura is asustado by this ability, it's @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to K'zaard.</p>\n<hr />\n<p><strong>Éxito crítico</strong> No effect, and the criatura is temporarily immune to Weaseling Words for 1 minute.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is uncertain and @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.</p>\n<p><strong>Fallo crítico</strong> The criatura is riddled with self-doubt about its own actions. It is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} and can't take hostile actions against K'zaard until the asustado condition ends.</p>"
+          "description": "<p>K'zaard weaves together a short speech that gives the listener pause. Enemies within 30 pies must attempt a @Check[will|dc:24] salvación. While a criatura is asustado by this ability, it's @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to K'zaard.</p>\n<hr />\n<p><strong>Éxito crítico</strong> No effect, and the criatura is temporarily immune to Weaseling Words for 1 minuto.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is uncertain and @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.</p>\n<p><strong>Fallo crítico</strong> The criatura is riddled with self-doubt about its own actions. It is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} and can't take hostile actions against K'zaard until the asustado condition ends.</p>"
         }
       }
     },
@@ -962,7 +962,7 @@
         },
         "action->Biggest Fan!": {
           "name": "Biggest Fan!",
-          "description": "<p><strong>Desencadenante</strong> An ally Kar can see critically succeeds at a prueba de habilidad or tirada de ataque</p>\n<hr />\n<p><strong>Efecto</strong> Kar cheers exuberantly, showering the triggering ally with fawning praise. The triggering ally gains 1d6 Puntos de Golpe temporales that last 1 minute.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.GGxPoUu7tcASRY0G]{Efecto: Biggest Fan!}</p>"
+          "description": "<p><strong>Desencadenante</strong> An ally Kar can see critically succeeds at a prueba de habilidad or tirada de ataque</p>\n<hr />\n<p><strong>Efecto</strong> Kar cheers exuberantly, showering the triggering ally with fawning praise. The triggering ally gains 1d6 Puntos de Golpe temporales that last 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.GGxPoUu7tcASRY0G]{Efecto: Biggest Fan!}</p>"
         },
         "action->My Turn!": {
           "name": "My Turn!",
@@ -975,13 +975,13 @@
       "name": "Locus of Death",
       "description": "<p>Un orbe magico inflige visiones terribles de finales espantosos a cualquiera que se acerque.</p>",
       "disable": "<p>@Check[nature|dc:27] (maestro) to infuse the locus with life force, @Check[occultism|dc:30] or @Check[religion|dc:30] (experto) to counteract the locus's energies, @Check[thievery|dc:35] (maestro) to extricate the orb from the altar</p>",
-      "reset": "<p>The haunt deactivates 1 minute after all living criaturas leave the area. After 1 hour, the haunt reactivates.</p>",
+      "reset": "<p>The haunt deactivates 1 minuto after all living criaturas leave the area. After 1 hora, the haunt reactivates.</p>",
       "routine": "<p>(1 action; death, emotion, fear, mental) One living criatura in the haunt's location (determined randomly) is targeted by a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Jmxru8zMdYMRuO5n]{Vision of Death} (@Check[will|dc:32|traits:death,emotion,fear,mental]). A criatura that critically fails their save doesn't physically flee but instead can't attempt to disable the hazard until they're no longer asustado. Once all criaturas have been affected, the haunt deactivates.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Death Grip": {
           "name": "Death Grip",
-          "description": "<p><strong>Desencadenante</strong> A criatura touches the orb or attempts to disable the haunt</p>\n<hr />\n<p><strong>Efecto</strong> Necromantic energy lashes out from the orb and the triggering criatura must succeed at a @Check[will|dc:32] save or be @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} on a critical failure). The haunt then rolls initiative.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura touches the orb or attempts to disable the haunt</p>\n<hr />\n<p><strong>Efecto</strong> Necromantic energy lashes out from the orb and the triggering criatura must succeed at a @Check[will|dc:32] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} on a critical failure). The haunt then rolls initiative.</p>"
         },
         "action->Death Manifest": {
           "name": "Death Manifest",
@@ -997,13 +997,13 @@
       "name": "Locus of Destruction",
       "description": "<p>Un orbe magico impulsa a los intrusos a cometer actos de destruccion irracional.</p>",
       "disable": "<p>@Check[crafting|dc:27] (maestro) to reconfigure the locus, @Check[occultism|dc:30] or @Check[religion|dc:30] (experto) to counteract the locus's energies, @Check[thievery|dc:35] (maestro) to extricate the orb from the altar</p>",
-      "reset": "<p>The haunt deactivates 1 minute after all living criaturas leave the area. After 1 hour, the haunt reactivates.</p>",
-      "routine": "<p>(1 action; mental) The destructive impulses grow stronger. Affected criaturas must attempt a @Check[will|dc:32|traits:mental] save; criaturas who fail or critically fail can't attempt to disable the haunt that turn.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected and temporarily immune for 1 minute.</p>\n<p><strong>Éxito</strong> The criatura is unaffected this round.</p>\n<p><strong>Fallo</strong> The criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round, targeting both criaturas and objects.</p>\n<p><strong>Fallo crítico</strong> As failure but the confusion lasts for 1 minute.</p>",
+      "reset": "<p>The haunt deactivates 1 minuto after all living criaturas leave the area. After 1 hora, the haunt reactivates.</p>",
+      "routine": "<p>(1 action; mental) The destructive impulses grow stronger. Affected criaturas must attempt a @Check[will|dc:32|traits:mental] salvación; criaturas who fail or critically fail can't attempt to disable the haunt that turn.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected and temporarily immune for 1 minuto.</p>\n<p><strong>Éxito</strong> The criatura is unaffected this round.</p>\n<p><strong>Fallo</strong> The criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 asalto, targeting both criaturas and objects.</p>\n<p><strong>Fallo crítico</strong> As failure but the confusion lasts for 1 minuto.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Destruction's Fury": {
           "name": "Destruction's Fury",
-          "description": "<p><strong>Desencadenante</strong> A criatura touches the orb or attempts to disable the haunt</p>\n<hr />\n<p><strong>Efecto</strong> A destructive fury fills the minds of all living criaturas in the area, who must succeed at a @Check[will|dc:32] save or be @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} (@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} on a critical failure) for 1 minute. The haunt then rolls initiative.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura touches the orb or attempts to disable the haunt</p>\n<hr />\n<p><strong>Efecto</strong> A destructive fury fills the minds of all living criaturas in the area, who must succeed at a @Check[will|dc:32] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} (@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} on a critical failure) for 1 minuto. The haunt then rolls initiative.</p>"
         },
         "action->Destruction Manifest": {
           "name": "Destruction Manifest",
@@ -1027,13 +1027,13 @@
       "name": "Locus of Pain",
       "description": "<p>An arcane orb sits upon a sinister altar, filling criaturas in the area with unimaginable pain.</p>",
       "disable": "<p>@Check[medicine|dc:27] (maestro) to soothe the locus's pain, @Check[occultism|dc:30] or @Check[religion|dc:30] to counteract the locus's energies, @Check[thievery|dc:35] (maestro) to extricate the orb from the altar</p>",
-      "reset": "<p>The haunt deactivates 1 minute after all living criaturas leave the area. After 1 hour, the haunt reactivates.</p>",
+      "reset": "<p>The haunt deactivates 1 minuto after all living criaturas leave the area. After 1 hora, the haunt reactivates.</p>",
       "routine": "<p>(1 action; mental, nonlethal) Las criaturas affected by the haunt's agony lash are wracked with pain, as 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{Phantom Pain} (@Check[will|dc:32|traits:mental,nonlethal]). If a criatura falls @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} due to the haunt, they don't continue taking daño.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Agony Lash": {
           "name": "Agony Lash",
-          "description": "<p><strong>Desencadenante</strong> A criatura touches the orb or attempts to disable the haunt</p>\n<hr />\n<p><strong>Efecto</strong> All living criaturas within 60 pies are overwhelmed by pain and must succeed at a @Check[fortitude|dc:32] save or be @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure). The haunt then rolls initiative.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura touches the orb or attempts to disable the haunt</p>\n<hr />\n<p><strong>Efecto</strong> All living criaturas within 60 pies are overwhelmed by pain and must succeed at a @Check[fortitude|dc:32] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure). The haunt then rolls initiative.</p>"
         },
         "action->Pain Manifest": {
           "name": "Pain Manifest",
@@ -1056,11 +1056,11 @@
         },
         "action->Construct Armor (Hardness 8)": {
           "name": "Construct Armor (Hardness 8)",
-          "description": "<p>Like normal objects, an animated furnace has Hardness. Este Hardness reduces any daño the furnace takes by an amount equal to the Hardness. Once an animated furnace is reduced to fewer than half its Puntos de Golpe, or immediately upon being damaged by a critical hit, its armadura de constructo breaks, removing the Hardness and reducing its ARMOR CLASS to 24.</p>"
+          "description": "<p>Like normal objects, an animated furnace has Hardness. Este Hardness reduces any daño the furnace takes by an amount equal to the Hardness. Once an animated furnace is reduced to fewer than half its Puntos de Golpe, or immediately upon being damaged by a impacto crítico, its armadura de constructo breaks, removing the Hardness and reducing its ARMOR CLASS to 24.</p>"
         },
         "action->Fan the Flames": {
           "name": "Fan the Flames",
-          "description": "<p>The animated furnace opens its door and fans its flames in a @Template[cone|distance:30] that deals @Damage[5d6[fire]|options:area-damage] daño (@Check[reflex|dc:28|basic|options:area-effect] save).</p>"
+          "description": "<p>The animated furnace opens its door and fans its flames in a @Template[cone|distance:30] that deals @Damage[5d6[fire]|options:area-damage] daño (@Check[reflex|dc:28|basic|options:area-effect] salvación).</p>"
         },
         "action->Swallow Whole": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]\n<p>Large, @Damage[(2d8+9)[fire]], Rupture 15</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
@@ -1130,7 +1130,7 @@
         },
         "action->Trampling Charge": {
           "name": "Cargo por pisoteo",
-          "description": "<p>Molog urges Bloodwing forward, trampling enemies in their path. He commands her to Zancada or Fly up to her Velocidad, moving through the spaces of any foes in his path up to Large size. Bloodwing deals daño equal to her claw melee Golpe to each criatura whose space they move through, subject to a @Check[reflex|dc:31|basic] save. On a critical failure, the criatura also becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} until the end of Molog's next turn. He can daño a given criatura only once during this movement.</p>"
+          "description": "<p>Molog urges Bloodwing forward, trampling enemies in their path. He commands her to Zancada or Fly up to her Velocidad, moving through the spaces of any foes in his path up to Large size. Bloodwing deals daño equal to her claw melee Golpe to each criatura whose space they move through, subject to a @Check[reflex|dc:31|basic] salvación. On a critical failure, the criatura also becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} until the end of Molog's next turn. He can daño a given criatura only once during this movement.</p>"
         },
         "action->Weapon Adept": {
           "name": "Weapon Adept",
@@ -1180,7 +1180,7 @@
         },
         "action->Corrupting Gaze": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ga0Oj7mmjSwWQgmR]\nCorrupting Gaze",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ga0Oj7mmjSwWQgmR]\n<p>The moonstalker stares at a criatura it can see within 30 pies. El objetivo takes @Damage[4d6[void]] daño (@Check[will|dc:25|basic] save). A criatura that fails its save is also @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 minute.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ga0Oj7mmjSwWQgmR]\n<p>The moonstalker stares at a criatura it can see within 30 pies. El objetivo takes @Damage[4d6[void]] daño (@Check[will|dc:25|basic] salvación). A criatura that fails its save is also @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 minuto.</p>"
         },
         "action->Hunt Prey": {
           "name": "Perseguir presa",
@@ -1212,7 +1212,7 @@
         },
         "action->Intimidating Strike": {
           "name": "Intimidating Golpe",
-          "description": "<p>Murshek makes a melee Golpe. If she hits and deals daño, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}, or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} on a critical hit.</p>"
+          "description": "<p>Murshek makes a melee Golpe. If she hits and deals daño, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}, or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} on a impacto crítico.</p>"
         },
         "action->Toxic Teamwork": {
           "name": "Toxic Teamwork",
@@ -1249,7 +1249,7 @@
         },
         "action->Stunning Fist": {
           "name": "Stunning Fist",
-          "description": "<p>When Nakasha targets the same criatura with two Golpes from her Flurry of Blows, she can try to stun the criatura. If either Golpe hits and deals daño, el objetivo must succeed at a @Check[fortitude|dc:23] save or be @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} (or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3} on a critical failure).</p>"
+          "description": "<p>When Nakasha targets the same criatura with two Golpes from her Flurry of Blows, she can try to stun the criatura. If either Golpe hits and deals daño, el objetivo must succeed at a @Check[fortitude|dc:23] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} (or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3} on a critical failure).</p>"
         },
         "lore->Gorum Lore": {
           "name": "Saber de Gorum"
@@ -1259,7 +1259,7 @@
     "Nighttime Conflagration": {
       "name": "Nighttime Conflagration",
       "disable": "<p>@Check[athletics|dc:27] a beat out el flames, @Check[crafting|dc:27] a rig up un firefighting device, o @Check[nature|dc:27] a cut off avenues de el fuego's spread. con un exito, one casilla de el fuego es extinguished (two casillas con un exito critico). Dousing un casilla en agua, such as con create agua, automatically extinguishes que casilla. Cuando todos casillas son extinguished, el peligro ends.</p>",
-      "routine": "<p>(1+ actions) Each square of flames spreads to an adjacent square, taking one action per square. Las criaturas adjacent to the fire take @Damage[3d6[fire]] daño each round from the heat (@Check[fortitude|dc:30|basic] save); a criatura who fails their save is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} by the smoke (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure). If there are more than 10 active squares of flames, criaturas adjacent to the fire instead take @Damage[6d6[fire]] daño each round (@Check[fortitude|dc:30|basic] save), and a criatura who fails their save is sickened 2 (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3} on a critical failure). A criatura standing in the flames takes @Damage[12d6[fire]] daño each round (@Check[reflex|dc:30|basic] save); a criatura who fails their save also takes @Damage[4d6[persistent,fire]] daño.</p>",
+      "routine": "<p>(1+ actions) Each square of flames spreads to an adjacent square, taking one action per square. Las criaturas adjacent to the fire take @Damage[3d6[fire]] daño each round from the heat (@Check[fortitude|dc:30|basic] salvación); a criatura who fails their save is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} by the smoke (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure). If there are more than 10 active squares of flames, criaturas adjacent to the fire instead take @Damage[6d6[fire]] daño each round (@Check[fortitude|dc:30|basic] salvación), and a criatura who fails their save is sickened 2 (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3} on a critical failure). A criatura standing in the flames takes @Damage[12d6[fire]] daño each round (@Check[reflex|dc:30|basic] salvación); a criatura who fails their save also takes @Damage[4d6[persistent,fire]] daño.</p>",
       "stealth": "<p>(entrenado) (decreases by 2 each round the hazard is active) to smell the smoke and hear the crackling flames</p>",
       "items": {
         "action->Growing Blaze": {
@@ -1272,17 +1272,17 @@
       "name": "Occult Weather",
       "description": "<p>El sky suddenly darkens con storm clouds rumbling overhead, el faces de el muerto forming en el clouds above as su voices wail along el high winds.</p>",
       "disable": "<p>@Check[occultism|dc:28] (experto) to funnel the magic powering the weather back into itself, or @Check[religion|dc:30] (experto) to exorcise some of the trapped souls and weaken the storm; three total successes in any combination are required to disable the haunt</p>",
-      "reset": "<p>The haunt deactivates 1 minute after all criaturas leave the Shadefields but resets immediately. The occult weather resets 1 day after being disabled if the ancestor storm isn't put to rest.</p>",
+      "reset": "<p>The haunt deactivates 1 minuto after all criaturas leave the Shadefields but resets immediately. The occult weather resets 1 día after being disabled if the ancestor storm isn't put to rest.</p>",
       "routine": "<p>(4 actions) The occult weather intensifies, with winds picking up speed and lightning and thunder sounding overhead. The occult weather uses 3 actions to make lightning Golpes against three random criaturas, favoring orcs or anyone who attempted to Disable it within the past round, then uses Wind of Screams as its final action.</p>",
       "stealth": "<p>(experto) or @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}.</p>",
       "items": {
         "action->Thunder of Cries": {
           "name": "Thunder of Cries",
-          "description": "<p><strong>Desencadenante</strong> A criatura enters the haunt's area</p>\n<hr />\n<p><strong>Efecto</strong> The clouds darken and thunder roars, filled with the wails and screams of those killed in these lands. The shrieks of the spirits deal @Damage[(3d6+13)[sonic]] daño to all criaturas in the area (@Check[fortitude|dc:28|basic] save). The haunt then rolls initiative.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura enters the haunt's area</p>\n<hr />\n<p><strong>Efecto</strong> The clouds darken and thunder roars, filled with the wails and screams of those killed in these lands. The shrieks of the spirits deal @Damage[(3d6+13)[sonic]] daño to all criaturas in the area (@Check[fortitude|dc:28|basic] salvación). The haunt then rolls initiative.</p>"
         },
         "action->Wind of Screams": {
           "name": "Wind of Screams",
-          "description": "<p>The occult weather intensifies the wind blowing around the area, buffeting all criaturas within a @Template[type:line|distance:60]. Each criatura in the line must attempt a @Check[fortitude|dc:32] save or be knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}, taking @Damage[(1d10+6)[bludgeoning]] daño.</p>"
+          "description": "<p>The occult weather intensifies the wind blowing around the area, buffeting all criaturas within a @Template[type:line|distance:60]. Each criatura in the line must attempt a @Check[fortitude|dc:32] salvación or be knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}, taking @Damage[(1d10+6)[bludgeoning]] daño.</p>"
         },
         "strike-ranged->Lightning": {
           "name": "Lightning"
@@ -1364,7 +1364,7 @@
         },
         "action->Ectoplasmic Bleed": {
           "name": "Ectoplasmic Bleed",
-          "description": "<p>If a criatura hits the phantom with a melee Golpe, the criatura is splashed with ectoplasm, taking @Damage[(2d4+7)[spirit]] daño (@Check[reflex|dc:21|basic] save). On a failure, the criatura is also @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}.</p>"
+          "description": "<p>If a criatura hits the phantom with a melee Golpe, the criatura is splashed with ectoplasm, taking @Damage[(2d4+7)[spirit]] daño (@Check[reflex|dc:21|basic] salvación). On a failure, the criatura is also @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}.</p>"
         },
         "action->Susceptible to Death": {
           "name": "Susceptible to Death",
@@ -1376,7 +1376,7 @@
         },
         "action->Skullcracker": {
           "name": "Skullcracker",
-          "description": "<p>The One Eye phantom grabs the head of a criatura as a jagged, spectral stone seeped with blood manifests before it. The One Eye phantom smashes the head of the criatura against the stone with supernatural force, dealing @Damage[(2d12+7)[spirit]] daño with a @Check[will|dc:19] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura takes half daño.</p>\n<p><strong>Fallo</strong> The criatura hallucinates that their skull has been fractured. They take full daño and are @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2}.</p>\n<p><strong>Fallo crítico</strong> As failure, but double daño and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>"
+          "description": "<p>The One Eye phantom grabs the head of a criatura as a jagged, spectral stone seeped with blood manifests before it. The One Eye phantom smashes the head of the criatura against the stone with supernatural force, dealing @Damage[(2d12+7)[spirit]] daño with a @Check[will|dc:19] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura takes half daño.</p>\n<p><strong>Fallo</strong> The criatura hallucinates that their skull has been fractured. They take full daño and are @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2}.</p>\n<p><strong>Fallo crítico</strong> As failure, but double daño and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>"
         }
       }
     },
@@ -1412,7 +1412,7 @@
         },
         "action->Zagresh's Gaze": {
           "name": "Zagresh's Gaze",
-          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> The oracle of Zagresh throws aside her armas and focuses on the pure divine power of destruction. She attempts a @Check[will|dc:27] save. On a success, she gains access to her claw and jaws Golpes. Este effect lasts [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> The oracle of Zagresh throws aside her armas and focuses on the pure divine power of destruction. She attempts a @Check[will|dc:27] salvación. On a success, she gains access to her claw and jaws Golpes. Este effect lasts [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
         }
       }
     },
@@ -1445,7 +1445,7 @@
         },
         "action->Dooming Proclamation": {
           "name": "Dooming Proclamation",
-          "description": "<p>The orc doomsayer shouts pronouncements that presage the unstoppable approach of a cataclysmic event. Each enemigo within 30 pies attempts a @Check[will|dc:21] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> No effect and temporarily immune for 1 minute.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.</p>\n<p><strong>Fallo crítico</strong> The criatura's mind fills with images of the end times. The criatura takes @Damage[3d6[mental]] daño and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}.</p>"
+          "description": "<p>The orc doomsayer shouts pronouncements that presage the unstoppable approach of a cataclysmic event. Each enemigo within 30 pies attempts a @Check[will|dc:21] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> No effect and temporarily immune for 1 minuto.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.</p>\n<p><strong>Fallo crítico</strong> The criatura's mind fills with images of the end times. The criatura takes @Damage[3d6[mental]] daño and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}.</p>"
         },
         "action->Infused Strikes": {
           "name": "Infused Golpes",
@@ -1511,11 +1511,11 @@
         },
         "action->Destructive Inferno": {
           "name": "Destructive Inferno",
-          "description": "<p>While raging, an orc raider can channel their destructive energy into an explosion of flame. Las criaturas in a @Template[emanation|distance:10]{10-pies radius} around the raider take @Damage[9d6[fire]|options:area-damage] daño (@Check[reflex|dc:23|basic|options:area-effect] save). The raider can't use Destructive Inferno again for [[/gmr 1d4 #Recharge Destructive Inferno]]{1d4 rounds}.</p>"
+          "description": "<p>While raging, an orc raider can channel their destructive energy into an explosion of flame. Las criaturas in a @Template[emanation|distance:10]{10-pies radius} around the raider take @Damage[9d6[fire]|options:area-damage] daño (@Check[reflex|dc:23|basic|options:area-effect] salvación). The raider can't use Destructive Inferno again for [[/gmr 1d4 #Recharge Destructive Inferno]]{1d4 rounds}.</p>"
         },
         "action->Rage": {
           "name": "Furia",
-          "description": "<p><strong>Requisitos</strong> Tú aren't @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} or raging.</p>\n<hr />\n<p>Tú tap into tu inner fury and begin raging. Obtienes a number of Puntos de Golpe temporales equal to tu level plus tu Constitution modifier. While estás raging:</p>\n<ul>\n<li>Tú deal 2 daño adicional on melee Golpes. Este daño adicional is halved if tu arma or ataque sin armas is agile.</li>\n<li>\n<p>Puedes't use actions with the concentrate rasgo unless they also have the rage rasgo. Puedes @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} while raging.</p>\n</li>\n</ul>\n<p>Rage lasts for 1 minute, until tú fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, or until the encounter ends, whichever comes first. Puedes't voluntarily stop raging. When tú stop raging, tú lose any remaining Puntos de Golpe temporales from Rage, and can't gain Puntos de Golpe temporales from using the Rage action again for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.MaepXeSHiMoWDm7u]{Efecto: Rage Temporary Puntos de Golpe Immunity}</p>",
+          "description": "<p><strong>Requisitos</strong> Tú aren't @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} or raging.</p>\n<hr />\n<p>Tú tap into tu inner fury and begin raging. Obtienes a number of Puntos de Golpe temporales equal to tu level plus tu Constitution modifier. While estás raging:</p>\n<ul>\n<li>Tú deal 2 daño adicional on melee Golpes. Este daño adicional is halved if tu arma or ataque sin armas is agile.</li>\n<li>\n<p>Puedes't use actions with the concentrate rasgo unless they also have the rage rasgo. Puedes @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} while raging.</p>\n</li>\n</ul>\n<p>Rage lasts for 1 minuto, until tú fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, or until the encounter ends, whichever comes first. Puedes't voluntarily stop raging. When tú stop raging, tú lose any remaining Puntos de Golpe temporales from Rage, and can't gain Puntos de Golpe temporales from using the Rage action again for 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.MaepXeSHiMoWDm7u]{Efecto: Rage Temporary Puntos de Golpe Immunity}</p>",
           "selfEffect": "Efecto: Furia"
         },
         "lore->Warfare Lore": {
@@ -1560,7 +1560,7 @@
         },
         "action->Brawler Critical Specialization": {
           "name": "Brawler Critical Specialization",
-          "description": "<p>When the orc spinecracker gets a critical hit with a brawling arma, el objetivo must succeed at a @Check[fortitude|dc:22] save or be @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} until the end of the spinecracker's next turn.</p>"
+          "description": "<p>When the orc spinecracker gets a impacto crítico with a brawling arma, el objetivo must succeed at a @Check[fortitude|dc:22] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} until the end of the spinecracker's next turn.</p>"
         },
         "action->Combat Grab": {
           "name": "Agarrón de combate",
@@ -1644,11 +1644,11 @@
         },
         "action->Palpares Venom": {
           "name": "Palpares Venom",
-          "description": "<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:30]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[3d6[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[3d8[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[3d10[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} (1 minute)</p>"
+          "description": "<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:30]</p>\n<p><strong>Duración máxima</strong> 6 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[3d6[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[3d8[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[3d10[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} (1 minuto)</p>"
         },
         "action->Pit Trap": {
           "name": "Pit Trap",
-          "description": "<p>The palpares Burrows to create a @Template[emanation|distance:30]{30-pies radius} sloping pit centered on itself that's 10 pies deep at the center. All criaturas in the area must attempt a @Check[reflex|dc:30] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is moved by tremors to a square outside the edge of the pit.</p>\n<p><strong>Éxito</strong> As critical success, but the criatura is also @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 round.</p>\n<p><strong>Fallo</strong> The criatura falls 10 pies into the pit and is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>\n<p><strong>Fallo crítico</strong> As failure, and the criatura is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>"
+          "description": "<p>The palpares Burrows to create a @Template[emanation|distance:30]{30-pies radius} sloping pit centered on itself that's 10 pies deep at the center. All criaturas in the area must attempt a @Check[reflex|dc:30] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is moved by tremors to a square outside the edge of the pit.</p>\n<p><strong>Éxito</strong> As critical success, but the criatura is also @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 asalto.</p>\n<p><strong>Fallo</strong> The criatura falls 10 pies into the pit and is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>\n<p><strong>Fallo crítico</strong> As failure, and the criatura is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>"
         },
         "action->Venomous Bite": {
           "name": "Venomous Bite",
@@ -1779,11 +1779,11 @@
         },
         "action->Cindery Assault": {
           "name": "Cindery Assault",
-          "description": "<p>The Shadefield spirit cries out in pain and anguish as flaming objects and debris fly about in a @Template[type:emanation|distance:30]. Las criaturas in this area take @Damage[3d6[bludgeoning],1d6[persistent,fire]|options:area-damage]{3d6 daño contundente plus 1d6 daño persistente de fuego} (@Check[reflex|dc:20|basic|options:area-effect] save).</p>"
+          "description": "<p>The Shadefield spirit cries out in pain and anguish as flaming objects and debris fly about in a @Template[type:emanation|distance:30]. Las criaturas in this area take @Damage[3d6[bludgeoning],1d6[persistent,fire]|options:area-damage]{3d6 daño contundente plus 1d6 daño persistente de fuego} (@Check[reflex|dc:20|basic|options:area-effect] salvación).</p>"
         },
         "action->Corrupting Gaze": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ga0Oj7mmjSwWQgmR]\nCorrupting Gaze",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ga0Oj7mmjSwWQgmR]\n<p>The Shadefield spirit stares at a criatura it can see within 30 pies. El objetivo takes @Damage[3d6[void]] daño (@Check[will|dc:20|basic] save). A criatura that fails its save is also @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 minute.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ga0Oj7mmjSwWQgmR]\n<p>The Shadefield spirit stares at a criatura it can see within 30 pies. El objetivo takes @Damage[3d6[void]] daño (@Check[will|dc:20|basic] salvación). A criatura that fails its save is also @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 minuto.</p>"
         },
         "action->Sworn to the Storm": {
           "name": "Sworn to the Storm",
@@ -1795,13 +1795,13 @@
       "name": "Shoanti Ancestor Storm",
       "description": "<p>Smoke and fire explode up around the boundaries of the storm, accusatory screams and threats of violence echoing over the winds and crackling of flames. Broken armas and shields litter the ground and Shoanti warriors emerge from the smoke, blood running down their faces as they prepare for battle.</p>",
       "disable": "<p>@Check[occultism|dc:26] a redirect el anger de el haunt back onto itself, @Check[intimidation|dc:28] a goad el Shadefield espiritus into attacking someone outside de el ritual circle, o @Check[religion|dc:28] a assuage el espiritus en el area. Four successes son needed a disable el haunt long enough for el ritual a be completed.</p>",
-      "reset": "<p>The haunt deactivates 1 minute after all criaturas leave the Shadefields but resets immediately. The haunt is only permanently disabled when Diskah Night Watcher is put to rest. Otherwise, the haunt reforms within 24 hours of being Disabled.</p>",
+      "reset": "<p>The haunt deactivates 1 minuto after all criaturas leave the Shadefields but resets immediately. The haunt is only permanently disabled when Diskah Night Watcher is put to rest. Otherwise, the haunt reforms within 24 horas of being Disabled.</p>",
       "routine": "<p>(4 actions) The ancestor storm uses 1 action to release a pulse of void energy, restoring @Damage[10[healing]] Puntos de Golpe to each Shadefield spirit in the area, before using its next 2 actions to make an arrows of rage Golpe against all non-Shoanti criaturas within 60 pies of the cairn. The haunt then uses its 4th action to use Calling the Blood on one random leader participating in the ritual. The haunt loses an action for each Shadefield spirit killed, and when there are no Shadefield spirits remaining, the haunt uses its next action to summon a new Shadefield spirit into the battle.</p>",
       "stealth": "<p>(entrenado) to notice the smoke intensifying and filling with the tortured faces of lost souls</p>",
       "items": {
         "action->Ancestors' Wrath": {
           "name": "Ancestors' Wrath",
-          "description": "<p><strong>Desencadenante</strong> The ritual begins</p>\n<hr />\n<p><strong>Efecto</strong> The ancestor storm howls in fury and pain. Este deals @Damage[(2d10+11)[spirit]] daño to all non-Shoanti criaturas in the area, who must attempt a @Check[fortitude|dc:28|basic] save. The haunt then rolls initiative.</p>"
+          "description": "<p><strong>Desencadenante</strong> The ritual begins</p>\n<hr />\n<p><strong>Efecto</strong> The ancestor storm howls in fury and pain. Este deals @Damage[(2d10+11)[spirit]] daño to all non-Shoanti criaturas in the area, who must attempt a @Check[fortitude|dc:28|basic] salvación. The haunt then rolls initiative.</p>"
         },
         "action->Calling the Blood": {
           "name": "Calling the Blood",
@@ -1840,11 +1840,11 @@
         },
         "action->Destructive Finale": {
           "name": "Destructive Finale",
-          "description": "<p><strong>Requisitos</strong> March to War is in effect</p>\n<hr />\n<p><strong>Efecto</strong> The skeletal drummer performs a boisterous finale. They elige a @Template[type:cone|distance:30] or @Template[type:emanation|distance:15], and they deal @Damage[4d6[sonic]|options:area-damage] daño to all criaturas in that area (@Check[reflex|dc:21|basic|options:area-effect] save). March to War immediately ends, and the skeletal drummer can't use March to War or Destructive Finale for [[/gmr 1d4 #Recharge Destructive Finale]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Requisitos</strong> March to War is in effect</p>\n<hr />\n<p><strong>Efecto</strong> The skeletal drummer performs a boisterous finale. They elige a @Template[type:cone|distance:30] or @Template[type:emanation|distance:15], and they deal @Damage[4d6[sonic]|options:area-damage] daño to all criaturas in that area (@Check[reflex|dc:21|basic|options:area-effect] salvación). March to War immediately ends, and the skeletal drummer can't use March to War or Destructive Finale for [[/gmr 1d4 #Recharge Destructive Finale]]{1d4 rounds}.</p>"
         },
         "action->March to War": {
           "name": "March to War",
-          "description": "<p>The skeletal drummer plays a regular beat that compels others to march. Each criatura in a @Template[type:emanation|distance:30] must attempt a @Check[will|dc:19] save. Undead are immune. The effect lasts until the end of the skeletal drummer's next turn, but the skeletal drummer can Sustain the effect on all affected criaturas that remain within the emanation.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected and is temporarily immune for 1 hour.</p>\n<p><strong>Éxito</strong> The criatura can't use actions with the move rasgo except to march, which uses the Zancada action to move up to half the criatura's Velocidad. If the criatura has other Velocidades, it can also march using those modes of travel.</p>\n<p><strong>Fallo</strong> As success, and the criatura must spend at least 1 action each turn marching.</p>"
+          "description": "<p>The skeletal drummer plays a regular beat that compels others to march. Each criatura in a @Template[type:emanation|distance:30] must attempt a @Check[will|dc:19] salvación. Undead are immune. The effect lasts until the end of the skeletal drummer's next turn, but the skeletal drummer can Sustain the effect on all affected criaturas that remain within the emanation.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected and is temporarily immune for 1 hora.</p>\n<p><strong>Éxito</strong> The criatura can't use actions with the move rasgo except to march, which uses the Zancada action to move up to half the criatura's Velocidad. If the criatura has other Velocidades, it can also march using those modes of travel.</p>\n<p><strong>Fallo</strong> As success, and the criatura must spend at least 1 action each turn marching.</p>"
         },
         "lore->Warfare Lore": {
           "name": "Saber de Guerra"
@@ -1863,7 +1863,7 @@
         },
         "action->Hard to Target": {
           "name": "Hard to Target",
-          "description": "<p>With their loose, shifting skin, a skinslough's vital organs are difficult to locate. Each time a skinslough would take daño de precisión or daño adicional from a critical hit, it attempts a @Check[flat|dc:5]. On a success, the daño adicional is negated.</p>"
+          "description": "<p>With their loose, shifting skin, a skinslough's vital organs are difficult to locate. Each time a skinslough would take daño de precisión or daño adicional from a impacto crítico, it attempts a @Check[flat|dc:5]. On a success, the daño adicional is negated.</p>"
         },
         "action->Slough": {
           "name": "Slough",
@@ -1874,11 +1874,11 @@
         },
         "action->Skin Net": {
           "name": "Skin Net",
-          "description": "<p>The skinslough interacts to pull off part of its skin and throw it at a criatura within 30 pies, making a ranged attack with a +12 modifier. If it hits, el objetivo takes a –10-pies penalización de circunstancia to its Velocidades for 1 round and must make a @Check[fortitude|dc:18] save. If the skinslough critically hits, el objetivo gets a result one degree of success worse than the outcome of its Fortitude save.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.2tOVDTjCZVx4uEjP]{Efecto: Skin Net}</p>\n<hr />\n<p><strong>Éxito crítico</strong> As success, and the criatura automatically succeeds at tiradas de salvación against the skinslough's Skin Net for 24 hours.</p>\n<p><strong>Éxito</strong> El objetivo is unaffected except for the penalización to Velocidad.</p>\n<p><strong>Fallo</strong> El objetivo is also @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Fallo crítico</strong> El objetivo is also @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>"
+          "description": "<p>The skinslough interacts to pull off part of its skin and throw it at a criatura within 30 pies, making a ranged attack with a +12 modifier. If it hits, el objetivo takes a –10-pies penalización de circunstancia to its Velocidades for 1 asalto and must make a @Check[fortitude|dc:18] salvación. If the skinslough critically hits, el objetivo gets a result one degree of success worse than the outcome of its Fortitude save.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.2tOVDTjCZVx4uEjP]{Efecto: Skin Net}</p>\n<hr />\n<p><strong>Éxito crítico</strong> As success, and the criatura automatically succeeds at tiradas de salvación against the skinslough's Skin Net for 24 horas.</p>\n<p><strong>Éxito</strong> El objetivo is unaffected except for the penalización to Velocidad.</p>\n<p><strong>Fallo</strong> El objetivo is also @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Fallo crítico</strong> El objetivo is also @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>"
         },
         "action->Sloughing Sickness": {
           "name": "Sloughing Sickness",
-          "description": "<p>Este horrifying disease can make a target's skin slough away.</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:18]</p>\n<p><strong>Stage 1</strong> carrier with no ill effect (1 hour)</p>\n<p><strong>Stage 2</strong> @Damage[(2d4+4)[void]] daño and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} (1 day)</p>\n<p><strong>Stage 3</strong> @Damage[(4d4+4)[void]] daño, torpe 1, and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} (1 day).</p>"
+          "description": "<p>Este horrifying disease can make a target's skin slough away.</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:18]</p>\n<p><strong>Etapa 1</strong> carrier with no ill effect (1 hora)</p>\n<p><strong>Etapa 2</strong> @Damage[(2d4+4)[void]] daño and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} (1 día)</p>\n<p><strong>Etapa 3</strong> @Damage[(4d4+4)[void]] daño, torpe 1, and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} (1 día).</p>"
         }
       }
     },
@@ -1915,7 +1915,7 @@
       "items": {
         "action->Slam Closed": {
           "name": "Slam Closed",
-          "description": "<p><strong>Desencadenante</strong> Pressure is placed on the associated floor tile</p>\n<hr />\n<p><strong>Efecto</strong> The door falls, closing off the hallway. The door deals @Damage[(3d8+3)[bludgeoning],(3d8+3)[piercing]]{3d8+3 daño contundente and 3d8+3 piercing} daño to anyone beneath or adjacent to the door when it falls, and it pushes them out of its space (away from the door, or in a random direction if the criatura is directly beneath the door) as it falls. A criatura that succeeds at a @Check[reflex|dc:22] save takes no daño and moves out of the way in a random direction. On a critical success, they elige the direction.</p>\n<p>Lifting the closed door requires a successful @Check[athletics|dc:25] check. Hitting the floor panels triggers the trap. The slab uses the same AC and saves as the trap, but it has Hardness 8 and 60 HP (UR 30).</p>"
+          "description": "<p><strong>Desencadenante</strong> Pressure is placed on the associated floor tile</p>\n<hr />\n<p><strong>Efecto</strong> The door falls, closing off the hallway. The door deals @Damage[(3d8+3)[bludgeoning],(3d8+3)[piercing]]{3d8+3 daño contundente and 3d8+3 piercing} daño to anyone beneath or adjacent to the door when it falls, and it pushes them out of its space (away from the door, or in a random direction if the criatura is directly beneath the door) as it falls. A criatura that succeeds at a @Check[reflex|dc:22] salvación takes no daño and moves out of the way in a random direction. On a critical success, they elige the direction.</p>\n<p>Lifting the closed door requires a successful @Check[athletics|dc:25] check. Hitting the floor panels triggers the trap. The slab uses the same AC and saves as the trap, but it has Hardness 8 and 60 HP (UR 30).</p>"
         }
       }
     },
@@ -1944,7 +1944,7 @@
         },
         "action->Fueled by Spite": {
           "name": "Fueled by Spite",
-          "description": "<p>Each time a criatura loses Puntos de Golpe due to a corrupting spite curse the wight inflicted, the wight gains 5 Puntos de Golpe temporales that last for 1 minute.</p>"
+          "description": "<p>Each time a criatura loses Puntos de Golpe due to a corrupting spite curse the wight inflicted, the wight gains 5 Puntos de Golpe temporales that last for 1 minuto.</p>"
         },
         "action->Cleaving Rush": {
           "name": "Cleaving Rush",
@@ -1952,7 +1952,7 @@
         },
         "action->Corrupting Spite": {
           "name": "Corrupting Spite",
-          "description": "<p>The wight's ataques sin armas and bound armas inflict a curse that makes a criatura grow weak and spiteful. If a wight inflicts corrupting spite on a criatura already afflicted by it, the victim attempts a new save, ignoring the result if it's better than a failure.</p>\n<p>A living humanoid that dies while under the curse rises as a wight after [[/gmr 1d4 #Wight Spawn Timer]]{1d4 rounds}, controlled by the wight that killed it. The wight spawn can't inflict corrupting spite and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2}. If its creator dies or after roughly a month of existence, the new wight becomes autonomous and turns into a normal wight</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:22];</p>\n<hr />\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} (1 round)</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} and doesn't treat any criaturas as allies (1 round)</p>\n<p><strong>Stage 3</strong> As stage 2, except @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 3} (1 round)</p>\n<p><strong>Stage 4</strong> As stage 2, except @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 4} (1 round).</p>"
+          "description": "<p>The wight's ataques sin armas and bound armas inflict a curse that makes a criatura grow weak and spiteful. If a wight inflicts corrupting spite on a criatura already afflicted by it, the victim attempts a new save, ignoring the result if it's better than a failure.</p>\n<p>A living humanoid that dies while under the curse rises as a wight after [[/gmr 1d4 #Wight Spawn Timer]]{1d4 rounds}, controlled by the wight that killed it. The wight spawn can't inflict corrupting spite and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2}. If its creator dies or after roughly a month of existence, the new wight becomes autonomous and turns into a normal wight</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:22];</p>\n<hr />\n<p><strong>Etapa 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} and doesn't treat any criaturas as allies (1 asalto)</p>\n<p><strong>Etapa 3</strong> As stage 2, except @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 3} (1 asalto)</p>\n<p><strong>Etapa 4</strong> As stage 2, except @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 4} (1 asalto).</p>"
         }
       }
     },
@@ -1965,7 +1965,7 @@
       "items": {
         "action->Calcium Consumption": {
           "name": "Calcium Consumption",
-          "description": "<p><strong>Desencadenante</strong> A criatura with bones touches the mold or steps into an area covered with it</p>\n<hr />\n<p><strong>Efecto</strong> The mold shudders and slithers onto the triggering criatura as it attempts to absorb calcium through their skin. The criatura attempts a @Check[type:fortitude|dc:25] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo shakes the mold off and is unaffected.</p>\n<p><strong>Éxito</strong> A small patch of mold clings to el objetivo and deals @Damage[(2d10+9)[piercing]] daño.</p>\n<p><strong>Fallo</strong> The mold clings to el objetivo. El objetivo takes @Damage[(4d10+18)[piercing]] daño and is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}.</p>\n<p><strong>Fallo crítico</strong> The mold envelops el objetivo. As failure, except el objetivo is also @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} until it's healed to its Hit Point maximum.</p>\n<p><em>Note: A DC was not provided for this ability by Paizo. The DC present here is a hard DC for the hazard level according to the GM Core hazard building Tables.</em></p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura with bones touches the mold or steps into an area covered with it</p>\n<hr />\n<p><strong>Efecto</strong> The mold shudders and slithers onto the triggering criatura as it attempts to absorb calcium through their skin. The criatura attempts a @Check[type:fortitude|dc:25] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo shakes the mold off and is unaffected.</p>\n<p><strong>Éxito</strong> A small patch of mold clings to el objetivo and deals @Damage[(2d10+9)[piercing]] daño.</p>\n<p><strong>Fallo</strong> The mold clings to el objetivo. El objetivo takes @Damage[(4d10+18)[piercing]] daño and is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}.</p>\n<p><strong>Fallo crítico</strong> The mold envelops el objetivo. As failure, except el objetivo is also @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} until it's healed to its Hit Point maximum.</p>\n<p><em>Note: A DC was not provided for this ability by Paizo. The DC present here is a hard DC for the hazard level according to the GM Core hazard building Tables.</em></p>"
         }
       }
     },
@@ -1994,7 +1994,7 @@
         },
         "action->Flood Frenzy": {
           "name": "Flood Frenzy",
-          "description": "<p>As the night falls in flood season, the stormblood tiger must enter hybrid form, can't Change Shape thereafter, becomes one size larger, increases its reach by 5 pies, and increases the daño of its jaws Golpe by 2. When the sun rises or the lands dry again, the stormblood tiger returns to humanoid form and is @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} for 24 hours.</p>"
+          "description": "<p>As the night falls in flood season, the stormblood tiger must enter hybrid form, can't Change Shape thereafter, becomes one size larger, increases its reach by 5 pies, and increases the daño of its jaws Golpe by 2. When the sun rises or the lands dry again, the stormblood tiger returns to humanoid form and is @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} for 24 horas.</p>"
         },
         "action->Rend": {
           "name": "Rasgadura",
@@ -2021,7 +2021,7 @@
       "items": {
         "action->Unholy Leech": {
           "name": "Unholy Leech",
-          "description": "<p><strong>Desencadenante</strong> A criatura enters the cavern</p>\n<hr />\n<p><strong>Efecto</strong> The shadow latches onto the Carcass Man, unleashing a @Template[type:emanation|distance:30] of necromantic energy. Las criaturas in the area except the Carcass Man must make a @Check[fortitude|dc:30] save or take @Damage[2d12[void]] daño. The haunt then rolls initiative.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura takes half daño and is pushed back 5 pies.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and is pushed back 15 pies.</p>\n<p><strong>Fallo crítico</strong> As failure and the criatura is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} and knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura enters the cavern</p>\n<hr />\n<p><strong>Efecto</strong> The shadow latches onto the Carcass Man, unleashing a @Template[type:emanation|distance:30] of necromantic energy. Las criaturas in the area except the Carcass Man must make a @Check[fortitude|dc:30] salvación or take @Damage[2d12[void]] daño. The haunt then rolls initiative.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura takes half daño and is pushed back 5 pies.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and is pushed back 15 pies.</p>\n<p><strong>Fallo crítico</strong> As failure and the criatura is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} and knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
         },
         "action->Unholy Presence": {
           "name": "Unholy Presence",
@@ -2048,15 +2048,15 @@
         },
         "action->Annihilation Aura": {
           "name": "Annihilation Aura",
-          "description": "<p>20 pies. The Carcass Man's form exudes the impulse to destroy. Upon entering the aura, criaturas must attempt a @Check[will|dc:31|options:area-effect,inflicts:confused] save. Regardless of the results, criaturas are temporarily immune for 1 minute.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> Urges to attack cloud the criatura's mind and if they do not deal daño to another criatura on their turn, they become @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} until the end of their next turn.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} until the end of their next turn.</p>\n<p><strong>Fallo crítico</strong> The criatura is confused for 1 minute.</p>"
+          "description": "<p>20 pies. The Carcass Man's form exudes the impulse to destroy. Upon entering the aura, criaturas must attempt a @Check[will|dc:31|options:area-effect,inflicts:confused] salvación. Regardless of the results, criaturas are temporarily immune for 1 minuto.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> Urges to attack cloud the criatura's mind and if they do not deal daño to another criatura on their turn, they become @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} until the end of their next turn.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} until the end of their next turn.</p>\n<p><strong>Fallo crítico</strong> The criatura is confused for 1 minuto.</p>"
         },
         "action->Neck Snap": {
           "name": "Neck Snap",
-          "description": "<p><strong>Requisitos</strong> The Carcass Man has a criatura Grabbed</p>\n<hr />\n<p><strong>Efecto</strong> The criatura takes @Damage[6d6[bludgeoning]] daño (@Check[fortitude|dc:31|basic] save); a criatura that critically fails their save is @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} until they heal at least 30 HP. The Carcass Man then releases the criatura.</p>"
+          "description": "<p><strong>Requisitos</strong> The Carcass Man has a criatura Grabbed</p>\n<hr />\n<p><strong>Efecto</strong> The criatura takes @Damage[6d6[bludgeoning]] daño (@Check[fortitude|dc:31|basic] salvación); a criatura that critically fails their save is @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} until they heal at least 30 HP. The Carcass Man then releases the criatura.</p>"
         },
         "action->Revel in Destruction": {
           "name": "Revel in Destruction",
-          "description": "<p><strong>Requisitos</strong> The Carcass Man's last action reduced a criatura to 0 HP</p>\n<hr />\n<p><strong>Efecto</strong> The Carcass Man exults in his victory, painting his face in the criatura's blood. He is @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} until the end of his next turn but can use this extra action only to Golpe. Non-worshippers of Zagresh who witness the display must succeed at a @Check[will|dc:31] save or be @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} on a critical failure).</p>"
+          "description": "<p><strong>Requisitos</strong> The Carcass Man's last action reduced a criatura to 0 HP</p>\n<hr />\n<p><strong>Efecto</strong> The Carcass Man exults in his victory, painting his face in the criatura's blood. He is @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} until the end of his next turn but can use this extra action only to Golpe. Non-worshippers of Zagresh who witness the display must succeed at a @Check[will|dc:31] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} on a critical failure).</p>"
         },
         "action->Three-Arm Devastation": {
           "name": "Three-Arm Devastation",
@@ -2089,11 +2089,11 @@
         },
         "action->Plaque Burst": {
           "name": "Plaque Burst",
-          "description": "<p>When killed, a tooth fairy bursts into sticky, foul-smelling white dust. Each criatura in a @Template[emanation|distance:5] must succeed at a @Check[fortitude|dc:19] save or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure).</p>"
+          "description": "<p>When killed, a tooth fairy bursts into sticky, foul-smelling white dust. Each criatura in a @Template[emanation|distance:5] must succeed at a @Check[fortitude|dc:19] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure).</p>"
         },
         "action->Tooth Tug": {
           "name": "Tooth Tug",
-          "description": "<p><strong>Requisitos</strong> The tooth fairy's last action was a successful pliers Golpe against a criatura with teeth</p>\n<hr />\n<p><strong>Efecto</strong> The tooth fairy attempts a @Check[thievery|defense:fortitude] check against the criatura's Fortitude DC, dealing @Damage[2[bleed]] daño on any result but a critical failure. On a critical success, it also pulls out one of el objetivo's teeth.</p>\n<p>If the criatura loses a tooth, it takes a –1 penalización de estado to Charisma-based pruebas de habilidad and must succeed at a @Check[flat|dc:5] to Lanzar un conjuro unless that conjuro has the subtle rasgo. Estos effects last for 1 day, or until the stolen tooth is returned and el objetivo regains at least 1 Hit Point.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.4q8Of8NM9DC8kWyK]{Efecto: Tooth Tug}</p>"
+          "description": "<p><strong>Requisitos</strong> The tooth fairy's last action was a successful pliers Golpe against a criatura with teeth</p>\n<hr />\n<p><strong>Efecto</strong> The tooth fairy attempts a @Check[thievery|defense:fortitude] check against the criatura's Fortitude DC, dealing @Damage[2[bleed]] daño on any result but a critical failure. On a critical success, it also pulls out one of el objetivo's teeth.</p>\n<p>If the criatura loses a tooth, it takes a –1 penalización de estado to Charisma-based pruebas de habilidad and must succeed at a @Check[flat|dc:5] to Lanzar un conjuro unless that conjuro has the subtle rasgo. Estos effects last for 1 día, or until the stolen tooth is returned and el objetivo regains at least 1 Hit Point.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.4q8Of8NM9DC8kWyK]{Efecto: Tooth Tug}</p>"
         }
       }
     },
@@ -2101,12 +2101,12 @@
       "name": "Trampling Livestock",
       "description": "<p>Several ghostly mammoths arise de el floorboards, pawing at el suelo en terror before stampeding toward el puerta.</p>",
       "disable": "<p>@Check[religion|dc:28] to exorcise the animals' spirits, or @Check[nature|dc:26] or @Check[Stabling Lore|dc:24] to soothe them</p>",
-      "reset": "<p>1 day</p>",
+      "reset": "<p>1 día</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
         "action->Sudden Stampede": {
           "name": "Sudden Stampede",
-          "description": "<p><strong>Desencadenante</strong> The door to the stable opens</p>\n<hr />\n<p><strong>Efecto</strong> The mammoth spirits activate in panic, materializing into physical forms as they stampede toward the door to escape. All criaturas standing within 20 pies of the door take @Damage[(4d10+26)[force]] daño (@Check[reflex|dc:28|basic] save).</p>"
+          "description": "<p><strong>Desencadenante</strong> The door to the stable opens</p>\n<hr />\n<p><strong>Efecto</strong> The mammoth spirits activate in panic, materializing into physical forms as they stampede toward the door to escape. All criaturas standing within 20 pies of the door take @Damage[(4d10+26)[force]] daño (@Check[reflex|dc:28|basic] salvación).</p>"
         }
       }
     },
@@ -2197,7 +2197,7 @@
       "items": {
         "action->Cascade": {
           "name": "Cascade",
-          "description": "<p><strong>Desencadenante</strong> The zombie mammoth horde moves beneath the peaks</p>\n<hr />\n<p><strong>Efecto</strong> An avalanche of snow and ice cascades down the mountainside at astonishing speed. All criaturas on the ground within a 200-pies radius must attempt @Check[reflex|dc:30] saves.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura takes no daño.</p>\n<p><strong>Éxito</strong> The criatura takes @Damage[4d6[bludgeoning]] daño and @Damage[4d6[cold]] daño.</p>\n<p><strong>Fallo</strong> The criatura is swept away, moving 200 pies down the mountainside, and takes @Damage[8d6[bludgeoning]] daño and @Damage[8d6[cold]] daño.</p>\n<p><strong>Fallo crítico</strong> As failure, but the criatura is also buried, taking an additional @Damage[2d6[bludgeoning]] daño and then @Damage[1d6[cold]] daño per minute of burial. Locating a buried criatura requires a @Check[perception|dc:28] or @Check[survival|dc:28] check; once located, a buried criatura can be extricated with a @Check[athletics|dc:28] check in one round or dug out with a @Check[athletics|dc:23] check with 4 minutes of work.</p>"
+          "description": "<p><strong>Desencadenante</strong> The zombie mammoth horde moves beneath the peaks</p>\n<hr />\n<p><strong>Efecto</strong> An avalanche of snow and ice cascades down the mountainside at astonishing speed. All criaturas on the ground within a 200-pies radius must attempt @Check[reflex|dc:30] salvacións.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura takes no daño.</p>\n<p><strong>Éxito</strong> The criatura takes @Damage[4d6[bludgeoning]] daño and @Damage[4d6[cold]] daño.</p>\n<p><strong>Fallo</strong> The criatura is swept away, moving 200 pies down the mountainside, and takes @Damage[8d6[bludgeoning]] daño and @Damage[8d6[cold]] daño.</p>\n<p><strong>Fallo crítico</strong> As failure, but the criatura is also buried, taking an additional @Damage[2d6[bludgeoning]] daño and then @Damage[1d6[cold]] daño per minute of burial. Locating a buried criatura requires a @Check[perception|dc:28] or @Check[survival|dc:28] check; once located, a buried criatura can be extricated with a @Check[athletics|dc:28] check in one round or dug out with a @Check[athletics|dc:23] check with 4 minutes of work.</p>"
         }
       }
     },
@@ -2205,12 +2205,12 @@
       "name": "Tyrant's Orders",
       "description": "<p>Yagrekash appears a berate debil soldiers for no doing su part.</p>",
       "disable": "<p>@Check[deception|dc:28] (experto) or @Check[performance|dc:28] (experto) to feign joining the fray, or @Check[religion|dc:30] (maestro) to ward Yagrekash away; three total successes in any combination are required to disable the haunt</p>",
-      "reset": "<p>The haunt deactivates 1 minute after all criaturas leave the area of Fort Whiteskull but resets immediately. Tyrant's orders resets 1 day after being disabled if the ancestor storm isn't put to rest.</p>",
+      "reset": "<p>The haunt deactivates 1 minuto after all criaturas leave the area of Fort Whiteskull but resets immediately. Tyrant's orders resets 1 día after being disabled if the ancestor storm isn't put to rest.</p>",
       "stealth": "<p>(experto) or @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}</p>",
       "items": {
         "action->Command of the Legion": {
           "name": "comando of the Legion",
-          "description": "<p><strong>Desencadenante</strong> A PC critically fails a prueba de habilidad to navigate the ancestor storm</p>\n<hr />\n<p><strong>Efecto</strong> Yagrekash barks orders at the PCs to join the battle. All PCs must attempt a @Check[will|dc:27] save; orc and dromaar PCs take a –1 penalización.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} for 1 minute.</p>\n<p><strong>Fallo</strong> The criatura is compelled to join the Umbra Legion in battle, taking @Damage[(2d12+13)[mental]] daño.</p>\n<p><strong>Fallo crítico</strong> As failure, but the daño is doubled.</p>"
+          "description": "<p><strong>Desencadenante</strong> A PC critically fails a prueba de habilidad to navigate the ancestor storm</p>\n<hr />\n<p><strong>Efecto</strong> Yagrekash barks orders at the PCs to join the battle. All PCs must attempt a @Check[will|dc:27] salvación; orc and dromaar PCs take a –1 penalización.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} for 1 minuto.</p>\n<p><strong>Fallo</strong> The criatura is compelled to join the Umbra Legion in battle, taking @Damage[(2d12+13)[mental]] daño.</p>\n<p><strong>Fallo crítico</strong> As failure, but the daño is doubled.</p>"
         }
       }
     },
@@ -2222,7 +2222,7 @@
       "items": {
         "action->Curse of Eternal Battle": {
           "name": "Curse of Eternal Battle",
-          "description": "<p><strong>Desencadenante</strong> A criatura enters combat while in Umbra's Last Stand</p>\n<hr />\n<p><strong>Efecto</strong> The criatura must attempt a @Check[will|dc:26] save as the rage of the surrounding orcs threatens to overwhelm them.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round.</p>\n<p><strong>Fallo crítico</strong> As failure, but the criatura is confused for 1 minute.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura enters combat while in Umbra's Last Stand</p>\n<hr />\n<p><strong>Efecto</strong> The criatura must attempt a @Check[will|dc:26] salvación as the rage of the surrounding orcs threatens to overwhelm them.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 asalto.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 asalto.</p>\n<p><strong>Fallo crítico</strong> As failure, but the criatura is confused for 1 minuto.</p>"
         }
       }
     },
@@ -2260,7 +2260,7 @@
         },
         "action->Roar of Zagresh": {
           "name": "Roar of Zagresh",
-          "description": "<p>With a mighty roar, Ungukk unleashes void energy in a @Template[type:emanation|distance:30]. Las criaturas in the area must make a @Check[fortitude|dc:30|options:area-effect,damaging-effect,inflicts:doomed] save or take @Damage[6d6[void]|options:area-damage] daño and become @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2} on a critical failure).</p>"
+          "description": "<p>With a mighty roar, Ungukk unleashes void energy in a @Template[type:emanation|distance:30]. Las criaturas in the area must make a @Check[fortitude|dc:30|options:area-effect,damaging-effect,inflicts:doomed] salvación or take @Damage[6d6[void]|options:area-damage] daño and become @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2} on a critical failure).</p>"
         },
         "action->Undying Conviction": {
           "name": "Convicción inmortal",
@@ -2285,7 +2285,7 @@
         },
         "action->Blade Ally": {
           "name": "Blade Ally",
-          "description": "<p>In her hands, Verthok's orc necksplitter is a <em>fearsome</em> arma, and she gains the axe critical hit effect.</p>"
+          "description": "<p>In her hands, Verthok's orc necksplitter is a <em>fearsome</em> arma, and she gains the axe impacto crítico effect.</p>"
         },
         "action->Destructive Vengeance": {
           "name": "Venganza destructiva",
@@ -2298,7 +2298,7 @@
         },
         "action->Greater Cruelty": {
           "name": "Mayor crueldad",
-          "description": "<p>If Verthok's next action is to cast touch of the void on a living criatura, el objetivo is also debilitado, torpe, or @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 minute if it fails its save (@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} on a critical failure).</p>"
+          "description": "<p>If Verthok's next action is to cast touch of the void on a living criatura, el objetivo is also debilitado, torpe, or @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 minuto if it fails its save (@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} on a critical failure).</p>"
         },
         "action->Mask's Glare": {
           "name": "Mask's Glare",
@@ -2325,7 +2325,7 @@
         },
         "action->Stomp": {
           "name": "Stomp",
-          "description": "<p>The war aurochs strikes the ground with its hooves, causing tremors in a @Template[type:emanation|distance:30]. Las criaturas in the area must attempt a @Check[reflex|dc:25] save or be knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+          "description": "<p>The war aurochs strikes the ground with its hooves, causing tremors in a @Template[type:emanation|distance:30]. Las criaturas in the area must attempt a @Check[reflex|dc:25] salvación or be knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
         },
         "action->Trample": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\n<p>Large or smaller, hoof, @Check[reflex|dc:25|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
@@ -2352,7 +2352,7 @@
         },
         "action->Wallow": {
           "name": "Wallow",
-          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> The war pig rapidly rolls over. If it has a rider, the war pig @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.nZMQh4AaBr291TUf]{Bucks} as a free action. The war pig gains 1d8 Puntos de Golpe temporales for 1 minute and can then attempt an immediate prueba plana to recover from a single source of persistent acid, fire, or daño mental. If the war pig Wallows in an area with ample mud, water, loose soil, or similar material, the war pig instead gains 2d8 Puntos de Golpe temporales, for 1 minute and reduces the prueba plana DC to recover from daño persistente by 1.</p>",
+          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> The war pig rapidly rolls over. If it has a rider, the war pig @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.nZMQh4AaBr291TUf]{Bucks} as a free action. The war pig gains 1d8 Puntos de Golpe temporales for 1 minuto and can then attempt an immediate prueba plana to recover from a single source of persistent acid, fire, or daño mental. If the war pig Wallows in an area with ample mud, water, loose soil, or similar material, the war pig instead gains 2d8 Puntos de Golpe temporales, for 1 minuto and reduces the prueba plana DC to recover from daño persistente by 1.</p>",
           "selfEffect": "Efecto: Wallow"
         }
       }
@@ -2369,7 +2369,7 @@
         },
         "action->Piercing Fangs": {
           "name": "Piercing Fangs",
-          "description": "<p><strong>Requisitos</strong> The warcat has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}</p>\n<hr />\n<p><strong>Efecto</strong> The warcat clamps on to the criatura's neck. The criatura takes @Damage[(3d12+10)[piercing]] daño plus @Damage[1d4[bleed]] daño (@Check[fortitude|dc:33|basic] save).</p>"
+          "description": "<p><strong>Requisitos</strong> The warcat has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}</p>\n<hr />\n<p><strong>Efecto</strong> The warcat clamps on to the criatura's neck. The criatura takes @Damage[(3d12+10)[piercing]] daño plus @Damage[1d4[bleed]] daño (@Check[fortitude|dc:33|basic] salvación).</p>"
         },
         "action->Pounce": {
           "name": "Pounce",
@@ -2407,7 +2407,7 @@
         },
         "action->Drain Life": {
           "name": "Drenar La Vida",
-          "description": "<p>When the wight sniper damages a living criatura using an ataque sin armas or ranged arma, the sniper gains 2d6 Puntos de Golpe temporales, and the criatura must succeed at a @Check[fortitude|dc:22|options:inflicts:drained] save or become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}. Further daño dealt by the wight sniper's attacks increase the value of the drained condition by 1 on a failed save, to a maximum of drained 4.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.7EBdAHY7y06Bk4un]{Efecto: Drain Life (Wight Spell Sniper)}</p>"
+          "description": "<p>When the wight sniper damages a living criatura using an ataque sin armas or ranged arma, the sniper gains 2d6 Puntos de Golpe temporales, and the criatura must succeed at a @Check[fortitude|dc:22|options:inflicts:drained] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}. Further daño dealt by the wight sniper's attacks increase the value of the drained condition by 1 on a failed save, to a maximum of drained 4.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.7EBdAHY7y06Bk4un]{Efecto: Drain Life (Wight Spell Sniper)}</p>"
         },
         "action->Drain the Prey": {
           "name": "Drain the Prey",
@@ -2435,7 +2435,7 @@
         },
         "action->Terrifying Strike": {
           "name": "Terrifying Golpe",
-          "description": "<p>The wyvern rider attempts a arma Golpe against a target, shouting threats and curses. If it hits, el objetivo must succeed at a @Check[will|dc:28] save or be @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 4} on a critical failure).</p>"
+          "description": "<p>The wyvern rider attempts a arma Golpe against a target, shouting threats and curses. If it hits, el objetivo must succeed at a @Check[will|dc:28] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 4} on a critical failure).</p>"
         },
         "action->Weapon Adept": {
           "name": "Weapon Adept",
@@ -2451,8 +2451,8 @@
       "name": "Wraithwell",
       "description": "<p>An orb of undeath draws criaturas closer to a cursed existence.</p>",
       "disable": "<p>@Check[religion|dc:27] to negate the forces of undeath (maestro), @Check[occultism|dc:30] (experto) to channel vital energy, @Check[thievery|dc:35] (maestro) to extricate the orb from the altar</p>",
-      "reset": "<p>The haunt deactivates 1 minute after all living criaturas leave the area. After 1 hour, the haunt reactivates.</p>",
-      "routine": "<p>(1 action; void) The wraiths attack all living criaturas in the area, dealing @Damage[(3d10+14)[void]] daño (@Check[fortitude|dc:32|basic] save). Las criaturas who fail their saves are @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} (@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} on a critical failure) or increase their drained value by 1 (2 on a critical failure), up to a maximum of @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 4}.</p>",
+      "reset": "<p>The haunt deactivates 1 minuto after all living criaturas leave the area. After 1 hora, the haunt reactivates.</p>",
+      "routine": "<p>(1 action; void) The wraiths attack all living criaturas in the area, dealing @Damage[(3d10+14)[void]] daño (@Check[fortitude|dc:32|basic] salvación). Las criaturas who fail their saves are @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} (@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} on a critical failure) or increase their drained value by 1 (2 on a critical failure), up to a maximum of @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 4}.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Unholy Repair": {
@@ -2461,7 +2461,7 @@
         },
         "action->Wraith Storm": {
           "name": "Wraith Storm",
-          "description": "<p><strong>Desencadenante</strong> A criatura touches the orb or attempts to disable the haunt</p>\n<hr />\n<p><strong>Efecto</strong> A cyclone of wraiths spirals from the orb, grasping at all living criaturas in the area. Targeted criaturas must succeed at a @Check[will|dc:32] save or be @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2} on a critical failure).</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura touches the orb or attempts to disable the haunt</p>\n<hr />\n<p><strong>Efecto</strong> A cyclone of wraiths spirals from the orb, grasping at all living criaturas in the area. Targeted criaturas must succeed at a @Check[will|dc:32] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2} on a critical failure).</p>"
         },
         "action->Undeath Manifest": {
           "name": "Undeath Manifest",
@@ -2496,7 +2496,7 @@
         },
         "action->Mask of Pain": {
           "name": "Máscara de dolor",
-          "description": "<p><strong>Desencadenante</strong> Yagrekash succeeds at a @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{DEMORALIZE} check</p>\n<hr />\n<p><strong>Efecto</strong> The criatura Demoralized takes @Damage[4d6[mental]] daño and is then temporarily immune to daño adicional from Mask of Pain for 24 hours.</p>"
+          "description": "<p><strong>Desencadenante</strong> Yagrekash succeeds at a @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{DEMORALIZE} check</p>\n<hr />\n<p><strong>Efecto</strong> The criatura Demoralized takes @Damage[4d6[mental]] daño and is then temporarily immune to daño adicional from Mask of Pain for 24 horas.</p>"
         },
         "action->Warmask of Power": {
           "name": "Warmask of Power",
@@ -2519,7 +2519,7 @@
         },
         "action->Half-Ear's Luck": {
           "name": "Half-Ear's Luck",
-          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Desencadenante</strong> Zdagren takes a critical hit or critically fails a tirada de salvación</p>\n<hr />\n<p><strong>Efecto</strong> The critical hit becomes a normal hit, or the critical failure becomes a normal failure.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Desencadenante</strong> Zdagren takes a impacto crítico or critically fails a tirada de salvación</p>\n<hr />\n<p><strong>Efecto</strong> The impacto crítico becomes a impacto normal, or the critical failure becomes a normal failure.</p>"
         },
         "action->Double Slice": {
           "name": "Doble tajo",
@@ -2550,7 +2550,7 @@
         },
         "action->Ripping Maul": {
           "name": "Ripping Maul",
-          "description": "<p><strong>Requisitos</strong> The zombie brown bear has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}</p>\n<hr />\n<p><strong>Efecto</strong> The zombie chews and rips at el objetivo, dealing @Damage[(2d8+5)[piercing]] daño with a @Check[type:reflex|dc:17|basic] save.</p>\n<p><em>Note: A DC was not provided for this ability by Paizo. The DC present here is a moderate DC for the criatura level according to the GM Core criatura building Tables.</em></p>"
+          "description": "<p><strong>Requisitos</strong> The zombie brown bear has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}</p>\n<hr />\n<p><strong>Efecto</strong> The zombie chews and rips at el objetivo, dealing @Damage[(2d8+5)[piercing]] daño with a @Check[type:reflex|dc:17|basic] salvación.</p>\n<p><em>Note: A DC was not provided for this ability by Paizo. The DC present here is a moderate DC for the criatura level according to the GM Core criatura building Tables.</em></p>"
         },
         "action->Grab": {
           "name": "Agarrón"

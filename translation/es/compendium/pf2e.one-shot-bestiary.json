@@ -15,11 +15,11 @@
         },
         "action->Broken Armor": {
           "name": "Broken Armor",
-          "description": "<p>When an armored cave bear is reduced to half its Puntos de Golpe or less or it's hit with a critical hit from an adamantine arma, it loses its physical resistance.</p>"
+          "description": "<p>When an armored cave bear is reduced to half its Puntos de Golpe or less or it's hit with a impacto crítico from an adamantine arma, it loses its physical resistance.</p>"
         },
         "action->Armored Charge": {
           "name": "Armored Charge",
-          "description": "<p>The armored cave bear Strides up to its Velocidad in a straight line, slamming its armored skull into every criatura whose space it moves into. Each criatura in this line of movement must attempt a @Check[fortitude|dc:26] save. The armored cave bear can't use Armored Charge again for [[/gmr 1d4 #Recharge Armored Charge]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura takes no daño and stops the armored cave bear's movement.</p>\n<p><strong>Éxito</strong> The criatura takes no daño.</p>\n<p><strong>Fallo</strong> The criatura takes @Damage[4d8[bludgeoning]] daño.</p>\n<p><strong>Fallo crítico</strong> The criatura takes @Damage[8d8[bludgeoning]] daño and is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+          "description": "<p>The armored cave bear Strides up to its Velocidad in a straight line, slamming its armored skull into every criatura whose space it moves into. Each criatura in this line of movement must attempt a @Check[fortitude|dc:26] salvación. The armored cave bear can't use Armored Charge again for [[/gmr 1d4 #Recharge Armored Charge]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura takes no daño and stops the armored cave bear's movement.</p>\n<p><strong>Éxito</strong> The criatura takes no daño.</p>\n<p><strong>Fallo</strong> The criatura takes @Damage[4d8[bludgeoning]] daño.</p>\n<p><strong>Fallo crítico</strong> The criatura takes @Damage[8d8[bludgeoning]] daño and is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
         },
         "action->Mauler": {
           "name": "Mauler",
@@ -101,7 +101,7 @@
       "description": "<p>Los tres cristales mas grandes de la mesa empiezan a vibrar y emiten un repique que crece rapidamente.</p>",
       "disable": "<p>@Check[thievery|dc:17] (entrenado) or @Check[occultism|dc:17] (entrenado) to disrupt the magic enchanting one of the crystals, or @Check[performance|dc:20] (entrenado) by a character who can cast @UUID[Compendium.pf2e.spells-srd.Item.WILXkjU5Yq3yw10r]{Counter PERFORMANCE} to use sound to redirect the noise back into the crystal, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (2nd rank, DC 18) to counteract a crystal.</span></p>",
       "hpDetails": "PG por cristal",
-      "routine": "<p>(3 actions) The hazard loses 1 action for each crystal that's disabled or destroyed. On each of the trap's actions, one of the crystals fires a blast of sound at a single Small or larger criatura in the room. El objetivo is randomly determined and takes @Damage[1d8[sonic]] daño (@Check[fortitude|dc:20|basic]); a target who critically fails this save is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute. At the end of the hazard's routine, attempt a @Check[flat|dc:10|name:Destroy a Crystal]. On a success, one of the crystals shatters and is destroyed.</p>",
+      "routine": "<p>(3 actions) The hazard loses 1 action for each crystal that's disabled or destroyed. On each of the trap's actions, one of the crystals fires a blast of sound at a single Small or larger criatura in the room. El objetivo is randomly determined and takes @Damage[1d8[sonic]] daño (@Check[fortitude|dc:20|basic]); a target who critically fails this save is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minuto. At the end of the hazard's routine, attempt a @Check[flat|dc:10|name:Destroy a Crystal]. On a success, one of the crystals shatters and is destroyed.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Shrill Chime": {
@@ -119,7 +119,7 @@
       "items": {
         "action->Exhale": {
           "name": "Exhale",
-          "description": "<p><strong>Desencadenante</strong> A criatura enters either of the marked areas, or a criatura remains in the room for 1 minute</p>\n<hr />\n<p><strong>Efecto</strong> La trampa breathes cold that envelops a @Template[burst|distance:15]{15-pies burst} centered on the triggering criatura's square. Este deals @Damage[(4d8+18)[cold]] daño (@Check[reflex|dc:24|basic|traits:cold,evocation,magical,trap,hazard] save), and a criatura that critically fails the save becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 10 minutes due to frostbite.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura enters either of the marked areas, or a criatura remains in the room for 1 minuto</p>\n<hr />\n<p><strong>Efecto</strong> La trampa breathes cold that envelops a @Template[burst|distance:15]{15-pies burst} centered on the triggering criatura's square. Este deals @Damage[(4d8+18)[cold]] daño (@Check[reflex|dc:24|basic|traits:cold,evocation,magical,trap,hazard] salvación), and a criatura that critically fails the save becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 10 minutos due to frostbite.</p>"
         }
       }
     },
@@ -169,18 +169,18 @@
         },
         "action->Red Cap": {
           "name": "Red Cap",
-          "description": "<p>A redcap's woolen hat is dyed with the blood of its victims. If the redcap loses its cap, it no longer benefits from fast healing and takes a -4 penalización de estado to its tiradas de daño. It can create a new cap in 10 minutes, but that cap doesn't grant its powers until the redcap has turned it red with Blood Soak. A cap has no benefit for criaturas other than the redcap who made it.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.s5mS7CyE0oOYlecv]{Efecto: Lost Red Cap}</p>"
+          "description": "<p>A redcap's woolen hat is dyed with the blood of its victims. If the redcap loses its cap, it no longer benefits from fast healing and takes a -4 penalización de estado to its tiradas de daño. It can create a new cap in 10 minutos, but that cap doesn't grant its powers until the redcap has turned it red with Blood Soak. A cap has no benefit for criaturas other than the redcap who made it.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.s5mS7CyE0oOYlecv]{Efecto: Lost Red Cap}</p>"
         },
         "action->Fast Healing 10": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.fJSNOw4zHGbIm4bZ]\nFast Healing 10"
         },
         "action->Divine Revulsion": {
           "name": "Divine Revulsion",
-          "description": "<p>If a redcap sees a criatura brandish a religious symbol of a good deity (which requires an INTERACT action by that criatura) or use one to cast a divine conjuro, the redcap must attempt a @Check[will|dc:19] save. It then becomes temporarily immune to all brandished religious symbols for 10 minutes.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The redcap is unaffected</p>\n<p><strong>Éxito</strong> The redcap is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}</p>\n<p><strong>Fallo</strong> The redcap gains the @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing} condition for 1 round and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 4}</p>"
+          "description": "<p>If a redcap sees a criatura brandish a religious symbol of a good deity (which requires an INTERACT action by that criatura) or use one to cast a divine conjuro, the redcap must attempt a @Check[will|dc:19] salvación. It then becomes temporarily immune to all brandished religious symbols for 10 minutos.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The redcap is unaffected</p>\n<p><strong>Éxito</strong> The redcap is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}</p>\n<p><strong>Fallo</strong> The redcap gains the @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing} condition for 1 asalto and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 4}</p>"
         },
         "action->Blood Soak": {
           "name": "Blood Soak",
-          "description": "<p>The redcap dips its cap in the blood of a slain foe. The foe must have died in the last minute, and the redcap must have helped kill it. The redcap gains a +4 bonificador de estado to tiradas de daño for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.wPIGBcpCqCWgrCiq]{Efecto: Blood Soak}</p>"
+          "description": "<p>The redcap dips its cap in the blood of a slain foe. The foe must have died in the last minute, and the redcap must have helped kill it. The redcap gains a +4 bonificador de estado to tiradas de daño for 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.wPIGBcpCqCWgrCiq]{Efecto: Blood Soak}</p>"
         },
         "action->Deadly Cleave": {
           "name": "Deadly Cleave",
@@ -245,7 +245,7 @@
           "name": "Improvised Wax Sprayer"
         },
         "consumable->Bestial Mutagen (Moderate)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.VISk5uLPVIvNWovB]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<hr />\n<p>Tu features transform into something bestial and sufres on muscle mass, but tu lumbering form is torpe.</p>\n<p><strong>Beneficio</strong> Obtienes a +2 bonificador por objeto to ATHLETICS checks and unarmed tiradas de ataque. Obtienes a claw ataque sin armas (@Damage[1d6[slashing]] daño) with the agile rasgo and a jaws ataque sin armas (@Damage[1d8[piercing]] daño).</p>\n<p><strong>Drawback</strong> Sufres a -1 penalización to AC and a -2 penalización to Reflex saves.</p>\n<p><strong>Duration</strong> 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.xFQRiVU6h8EA6Lw9]{Efecto: Bestial Mutagen (Moderate)}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.VISk5uLPVIvNWovB]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<hr />\n<p>Tu features transform into something bestial and sufres on muscle mass, but tu lumbering form is torpe.</p>\n<p><strong>Beneficio</strong> Obtienes a +2 bonificador por objeto to ATHLETICS checks and unarmed tiradas de ataque. Obtienes a claw ataque sin armas (@Damage[1d6[slashing]] daño) with the agile rasgo and a jaws ataque sin armas (@Damage[1d8[piercing]] daño).</p>\n<p><strong>Drawback</strong> Sufres a -1 penalización to AC and a -2 penalización to Reflex saves.</p>\n<p><strong>Duration</strong> 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.xFQRiVU6h8EA6Lw9]{Efecto: Bestial Mutagen (Moderate)}</p>"
         },
         "strike-melee->Wax Stirring Stick": {
           "name": "Wax Stirring Stick"
@@ -260,7 +260,7 @@
         },
         "action->Spray Hot Wax": {
           "name": "Spray Hot Wax",
-          "description": "<p>Darius sprays hot wax from his improvised wax sprayer in a @Template[cone|distance:15]. All criaturas in the area must attempt a @Check[reflex|dc:20|options:area-effect,damaging-effect] save. Scented candle homonoculi in the area take no daño, instead healing @Damage[2d6[healing]] daño. After using the hot wax cannon, Darius can't use it again until he takes two INTERACT actions while adjacent to the cauldron of bubbling wax to reload the sprayer.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura takes no daño.</p>\n<p><strong>Éxito</strong> The criatura takes @Damage[2d6[fire]|options:area-damage] daño.</p>\n<p><strong>Fallo</strong> The criatura takes @Damage[3d6[fire],1d6[persistent,fire]|options:area-damage]{3d6 daño de fuego plus 1d6 daño persistente de fuego}.</p>\n<p><strong>Fallo crítico</strong> The criatura takes @Damage[5d6[fire],2d6[persistent,fire]|options:area-damage]{5d6 daño de fuego plus 2d6 daño persistente de fuego}.</p>"
+          "description": "<p>Darius sprays hot wax from his improvised wax sprayer in a @Template[cone|distance:15]. All criaturas in the area must attempt a @Check[reflex|dc:20|options:area-effect,damaging-effect] salvación. Scented candle homonoculi in the area take no daño, instead healing @Damage[2d6[healing]] daño. After using the hot wax cannon, Darius can't use it again until he takes two INTERACT actions while adjacent to the cauldron of bubbling wax to reload the sprayer.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura takes no daño.</p>\n<p><strong>Éxito</strong> The criatura takes @Damage[2d6[fire]|options:area-damage] daño.</p>\n<p><strong>Fallo</strong> The criatura takes @Damage[3d6[fire],1d6[persistent,fire]|options:area-damage]{3d6 daño de fuego plus 1d6 daño persistente de fuego}.</p>\n<p><strong>Fallo crítico</strong> The criatura takes @Damage[5d6[fire],2d6[persistent,fire]|options:area-damage]{5d6 daño de fuego plus 2d6 daño persistente de fuego}.</p>"
         }
       }
     },
@@ -277,16 +277,16 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.upzjwQ96cZG0Xlmx]\n<p>Este piece of wood or silver is emblazoned with an image representing a deity. Some divine spellcasters, such as clerics, can use a religious symbol of their deity as a divine focus to use certain abilities and cast some conjuros. A religious symbol must be held in one hand to use it.</p>"
         },
         "consumable->Darkvision Elixir (Moderate)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Y8115p3cmQJBqk5d]\n<p><strong>Activar</strong> <span class=\"action-glyph\">1</span> INTERACT</p>\n<p>After tú drink this elixir, tu sight becomes sharper in darkness. Obtienes darkvision for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.bcxVvIbuZWOvsKcA]{Efecto: Darkvision Elixir (Moderate)}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Y8115p3cmQJBqk5d]\n<p><strong>Activar</strong> <span class=\"action-glyph\">1</span> INTERACT</p>\n<p>After tú drink this elixir, tu sight becomes sharper in darkness. Obtienes darkvision for 1 hora.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.bcxVvIbuZWOvsKcA]{Efecto: Darkvision Elixir (Moderate)}</p>"
         },
         "consumable->Elixir of Life (Moderate)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.c21stU5rhN4F2fZl]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>Elixirs of life accelerate a living criatura's natural healing processes and immune system. Upon drinking this elixir, tú regain @Damage[(5d6+12)[healing]] Puntos de Golpe and gain +2 bonificador por objeto to tiradas de salvación against diseases and poisons for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efecto: Elixir of Life}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.c21stU5rhN4F2fZl]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>Elixirs of life accelerate a living criatura's natural healing processes and immune system. Upon drinking this elixir, tú regain @Damage[(5d6+12)[healing]] Puntos de Golpe and gain +2 bonificador por objeto to tiradas de salvación against diseases and poisons for 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efecto: Elixir of Life}</p>"
         },
         "consumable->Giant Scorpion Venom": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.QGXNqpP5KvSldoZz]\n<p>Scorpion venom is excruciating and its effects are somewhat debilitating.</p>\n<hr />\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> INTERACT (Injury)</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:22]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d10[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[2d10[poison]] daño and debilitado 1 (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[2d10[poison]] daño and debilitado 2 (1 round)</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.QGXNqpP5KvSldoZz]\n<p>Scorpion venom is excruciating and its effects are somewhat debilitating.</p>\n<hr />\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> INTERACT (Injury)</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:22]</p>\n<p><strong>Duración máxima</strong> 6 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[1d10[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[2d10[poison]] daño and debilitado 1 (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[2d10[poison]] daño and debilitado 2 (1 asalto)</p>"
         },
         "consumable->Giant Wasp Venom": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.aBOPYlfHAcXUmhF7]\n<p>giant wasp venom interferes with a victim's movement.</p>\n<hr />\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> INTERACT (Injury)</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:25]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[2d6[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[3d6[poison]] daño and torpe 2 (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[4d6[poison]] daño and torpe 2 (1 round)</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.aBOPYlfHAcXUmhF7]\n<p>giant wasp venom interferes with a victim's movement.</p>\n<hr />\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> INTERACT (Injury)</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:25]</p>\n<p><strong>Duración máxima</strong> 6 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[2d6[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[3d6[poison]] daño and torpe 2 (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[4d6[poison]] daño and torpe 2 (1 asalto)</p>"
         },
         "strike-melee->Shortsword": {
           "name": "Espada corta"
@@ -341,16 +341,16 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.upzjwQ96cZG0Xlmx]\n<p>Este piece of wood or silver is emblazoned with an image representing a deity. Some divine spellcasters, such as clerics, can use a religious symbol of their deity as a divine focus to use certain abilities and cast some conjuros. A religious symbol must be held in one hand to use it.</p>"
         },
         "consumable->Darkvision Elixir (Moderate)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Y8115p3cmQJBqk5d]\n<p><strong>Activar</strong> <span class=\"action-glyph\">1</span> INTERACT</p>\n<p>After tú drink this elixir, tu sight becomes sharper in darkness. Obtienes darkvision for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.bcxVvIbuZWOvsKcA]{Efecto: Darkvision Elixir (Moderate)}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Y8115p3cmQJBqk5d]\n<p><strong>Activar</strong> <span class=\"action-glyph\">1</span> INTERACT</p>\n<p>After tú drink this elixir, tu sight becomes sharper in darkness. Obtienes darkvision for 1 hora.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.bcxVvIbuZWOvsKcA]{Efecto: Darkvision Elixir (Moderate)}</p>"
         },
         "consumable->Elixir of Life (Moderate)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.c21stU5rhN4F2fZl]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>Elixirs of life accelerate a living criatura's natural healing processes and immune system. Upon drinking this elixir, tú regain @Damage[(5d6+12)[healing]] Puntos de Golpe and gain +2 bonificador por objeto to tiradas de salvación against diseases and poisons for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efecto: Elixir of Life}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.c21stU5rhN4F2fZl]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>Elixirs of life accelerate a living criatura's natural healing processes and immune system. Upon drinking this elixir, tú regain @Damage[(5d6+12)[healing]] Puntos de Golpe and gain +2 bonificador por objeto to tiradas de salvación against diseases and poisons for 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efecto: Elixir of Life}</p>"
         },
         "consumable->Giant Scorpion Venom": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.QGXNqpP5KvSldoZz]\n<p>Scorpion venom is excruciating and its effects are somewhat debilitating.</p>\n<hr />\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> INTERACT (Injury)</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:22]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d10[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[2d10[poison]] daño and debilitado 1 (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[2d10[poison]] daño and debilitado 2 (1 round)</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.QGXNqpP5KvSldoZz]\n<p>Scorpion venom is excruciating and its effects are somewhat debilitating.</p>\n<hr />\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> INTERACT (Injury)</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:22]</p>\n<p><strong>Duración máxima</strong> 6 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[1d10[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[2d10[poison]] daño and debilitado 1 (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[2d10[poison]] daño and debilitado 2 (1 asalto)</p>"
         },
         "consumable->Giant Wasp Venom": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.aBOPYlfHAcXUmhF7]\n<p>giant wasp venom interferes with a victim's movement.</p>\n<hr />\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> INTERACT (Injury)</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:25]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[2d6[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[3d6[poison]] daño and torpe 2 (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[4d6[poison]] daño and torpe 2 (1 round)</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.aBOPYlfHAcXUmhF7]\n<p>giant wasp venom interferes with a victim's movement.</p>\n<hr />\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> INTERACT (Injury)</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:25]</p>\n<p><strong>Duración máxima</strong> 6 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[2d6[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[3d6[poison]] daño and torpe 2 (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[4d6[poison]] daño and torpe 2 (1 asalto)</p>"
         },
         "strike-melee->Shortsword": {
           "name": "Espada corta"
@@ -432,7 +432,7 @@
         },
         "action->Old Giant Wasp Venom": {
           "name": "Old giant Wasp Venom",
-          "description": "<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:22]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<hr />\n<p><strong>Stage 1</strong> @Damage[2d6[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[3d6[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[4d6[poison]] daño and torpe 2 (1 round).</p>"
+          "description": "<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:22]</p>\n<p><strong>Duración máxima</strong> 6 asaltos</p>\n<hr />\n<p><strong>Etapa 1</strong> @Damage[2d6[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[3d6[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[4d6[poison]] daño and torpe 2 (1 asalto).</p>"
         }
       }
     },
@@ -531,7 +531,7 @@
         },
         "action->Crawfish Venom": {
           "name": "Crawfish Venom",
-          "description": "<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:17]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d6[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[1d6[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} (1 round).</p>"
+          "description": "<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:17]</p>\n<p><strong>Duración máxima</strong> 4 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[1d6[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[1d6[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} (1 asalto).</p>"
         },
         "action->Grab": {
           "name": "Agarrón",
@@ -551,7 +551,7 @@
         },
         "action->Verdant Burst": {
           "name": "Explosión verde",
-          "description": "<p>When a leshy dies, a burst of primal energy explodes from its body, restoring @Damage[2d8[healing]] Puntos de Golpe to each plant criatura within a @Template[emanation|distance:30]. Este area is filled with plants of the same type as the leshy, becoming difficult terrain. If the terrain isn't a viable environment for these plants, they wither after 24 hours.</p>"
+          "description": "<p>When a leshy dies, a burst of primal energy explodes from its body, restoring @Damage[2d8[healing]] Puntos de Golpe to each plant criatura within a @Template[emanation|distance:30]. Este area is filled with plants of the same type as the leshy, becoming difficult terrain. If the terrain isn't a viable environment for these plants, they wither after 24 horas.</p>"
         },
         "action->Change Shape": {
           "name": "Cambiar de forma",
@@ -572,7 +572,7 @@
         },
         "action->Verdant Burst": {
           "name": "Explosión verde",
-          "description": "<p>When a leshy dies, a burst of primal energy explodes from its body, restoring @Damage[2d8[healing]] Puntos de Golpe to each plant criatura within a @Template[emanation|distance:30]. Este area is filled with plants of the same type as the leshy, becoming difficult terrain. If the terrain isn't a viable environment for these plants, they wither after 24 hours.</p>"
+          "description": "<p>When a leshy dies, a burst of primal energy explodes from its body, restoring @Damage[2d8[healing]] Puntos de Golpe to each plant criatura within a @Template[emanation|distance:30]. Este area is filled with plants of the same type as the leshy, becoming difficult terrain. If the terrain isn't a viable environment for these plants, they wither after 24 horas.</p>"
         },
         "action->Bend Back": {
           "name": "Bend Back",
@@ -605,7 +605,7 @@
         },
         "action->Verdant Burst": {
           "name": "Explosión verde",
-          "description": "<p>When a leshy dies, a burst of primal energy explodes from its body, restoring @Damage[2d8[healing]] Puntos de Golpe to each plant criatura within a @Template[emanation|distance:30]. Este area is filled with plants of the same type as the leshy, becoming difficult terrain. If the terrain isn't a viable environment for these plants, they wither after 24 hours.</p>"
+          "description": "<p>When a leshy dies, a burst of primal energy explodes from its body, restoring @Damage[2d8[healing]] Puntos de Golpe to each plant criatura within a @Template[emanation|distance:30]. Este area is filled with plants of the same type as the leshy, becoming difficult terrain. If the terrain isn't a viable environment for these plants, they wither after 24 horas.</p>"
         },
         "action->Change Shape": {
           "name": "Cambiar de forma",
@@ -626,7 +626,7 @@
         },
         "action->Verdant Burst": {
           "name": "Explosión verde",
-          "description": "<p>When a leshy dies, a burst of primal energy explodes from its body, restoring @Damage[2d8[healing]] Puntos de Golpe to each plant criatura within a @Template[emanation|distance:30]. Este area is filled with plants of the same type as the leshy, becoming difficult terrain. If the terrain isn't a viable environment for these plants, they wither after 24 hours.</p>"
+          "description": "<p>When a leshy dies, a burst of primal energy explodes from its body, restoring @Damage[2d8[healing]] Puntos de Golpe to each plant criatura within a @Template[emanation|distance:30]. Este area is filled with plants of the same type as the leshy, becoming difficult terrain. If the terrain isn't a viable environment for these plants, they wither after 24 horas.</p>"
         },
         "action->Change Shape": {
           "name": "Cambiar de forma",
@@ -650,7 +650,7 @@
         },
         "action->Verdant Burst": {
           "name": "Explosión verde",
-          "description": "<p>When a leshy dies, a burst of primal energy explodes from its body, restoring @Damage[2d8[healing]] Puntos de Golpe to each plant criatura within a @Template[emanation|distance:30]. Este area is filled with plants of the same type as the leshy, becoming difficult terrain. If the terrain isn't a viable environment for these plants, they wither after 24 hours.</p>"
+          "description": "<p>When a leshy dies, a burst of primal energy explodes from its body, restoring @Damage[2d8[healing]] Puntos de Golpe to each plant criatura within a @Template[emanation|distance:30]. Este area is filled with plants of the same type as the leshy, becoming difficult terrain. If the terrain isn't a viable environment for these plants, they wither after 24 horas.</p>"
         },
         "action->Change Shape": {
           "name": "Cambiar de forma",
@@ -706,14 +706,14 @@
         },
         "action->Bubonic Plague": {
           "name": "Bubonic Plague",
-          "description": "<p>A criatura can't remove the fatigued condition while infected</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:23]</p>\n<hr />\n<p><strong>Onset</strong> 1 day</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} (1 day)</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} and fatigued (1 day)</p>\n<p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 3}, fatigued, and take @Damage[1d6[bleed]] every [[/br 1d20 #Minutes]]{1d20 minutes} (1 day)</p>"
+          "description": "<p>A criatura can't remove the fatigued condition while infected</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:23]</p>\n<hr />\n<p><strong>Onset</strong> 1 día</p>\n<p><strong>Etapa 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} (1 día)</p>\n<p><strong>Etapa 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} and fatigued (1 día)</p>\n<p><strong>Etapa 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 3}, fatigued, and take @Damage[1d6[bleed]] every [[/br 1d20 #Minutes]]{1d20 minutes} (1 día)</p>"
         },
         "action->Change Shape": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>The pairaka can take the appearance of any Small or Medium humanoid or animal. Este doesn't change their Velocidad or their attack and daño modifiers with the Golpes, but it might change the tipo de daño their strikes deal.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
         "action->Tormenting Dreams": {
           "name": "Tormenting Dreams",
-          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> The pairaka torments a sleeping criatura within 100 pies with visions of betrayals by loved ones and friends. El objetivo must attempt a @Check[will|dc:25] save, with the effects of the @UUID[Compendium.pf2e.spells-srd.Item.Uqj344bezBq3ESdq]{Nightmare} conjuro.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> The pairaka torments a sleeping criatura within 100 pies with visions of betrayals by loved ones and friends. El objetivo must attempt a @Check[will|dc:25] salvación, with the effects of the @UUID[Compendium.pf2e.spells-srd.Item.Uqj344bezBq3ESdq]{Nightmare} conjuro.</p>"
         }
       }
     },
@@ -733,7 +733,7 @@
         },
         "action->Enhanced Hunting Spider Venom": {
           "name": "Enhanced Hunting Spider Venom",
-          "description": "<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:23|basic]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<hr />\n<p><strong>Stage 1</strong> @Damage[1d10[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[1d12[poison]] daño, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}, and desprevenido (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[2d6[poison]] daño, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2}, and desprevenido (1 round).</p>\n<hr />\n<p><strong>Note</strong> The torpe condition caused by this venom persists for 24 hours before fading.</p>"
+          "description": "<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:23|basic]</p>\n<p><strong>Duración máxima</strong> 6 asaltos</p>\n<hr />\n<p><strong>Etapa 1</strong> @Damage[1d10[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[1d12[poison]] daño, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}, and desprevenido (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[2d6[poison]] daño, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2}, and desprevenido (1 asalto).</p>\n<hr />\n<p><strong>Note</strong> The torpe condition caused by this venom persists for 24 horas before fading.</p>"
         }
       }
     },
@@ -744,7 +744,7 @@
       "items": {
         "action->Collapse": {
           "name": "Desplome",
-          "description": "<p><strong>Desencadenante</strong> A criatura attempts to CLIMB or remove an object from the wall or the wall suffers a forceful impact</p>\n<hr />\n<p><strong>Efecto</strong> The wall collapses, dealing @Damage[2d8[bludgeoning]] daño to criaturas on it or within 10 pies of it. A criatura that succeeds at a @Check[reflex|dc:18|traits:damaging-effect] save takes half daño and rolls out of the way in a random direction. On a critical success, they take no daño and can elige the direction.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura attempts to CLIMB or remove an object from the wall or the wall suffers a forceful impact</p>\n<hr />\n<p><strong>Efecto</strong> The wall collapses, dealing @Damage[2d8[bludgeoning]] daño to criaturas on it or within 10 pies of it. A criatura that succeeds at a @Check[reflex|dc:18|traits:damaging-effect] salvación takes half daño and rolls out of the way in a random direction. On a critical success, they take no daño and can elige the direction.</p>"
         }
       }
     },
@@ -757,7 +757,7 @@
         },
         "action->Construct Armor (Hardness 5)": {
           "name": "Construct Armor (Hardness 5)",
-          "description": "<p>Like normal objects, an animated rocking horse has Hardness. Este Hardness reduces any daño it takes by an amount equal to the Hardness. Once the animated rocking horse is reduced to less than half its Puntos de Golpe, or immediately upon being damaged by a critical hit, its armadura de constructo breaks and its ARMOR CLASS is reduced to 13.</p>"
+          "description": "<p>Like normal objects, an animated rocking horse has Hardness. Este Hardness reduces any daño it takes by an amount equal to the Hardness. Once the animated rocking horse is reduced to less than half its Puntos de Golpe, or immediately upon being damaged by a impacto crítico, its armadura de constructo breaks and its ARMOR CLASS is reduced to 13.</p>"
         },
         "action->Trample": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\n<p>Princess Sunset Strides up to double its Velocidad and can move through the spaces of criaturas of size Small or smaller, Trampling each criatura whose space it enters. Princess Sunset can attempt to Trample the same criatura only once in a single use of Trample. The monster deals the daño of the headbutt Golpe, but trampled criaturas can attempt a basic Reflex save at @Check[reflex|dc:14|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
@@ -781,7 +781,7 @@
         },
         "action->Perfume Aura": {
           "name": "Perfume Aura",
-          "description": "<p>5 pies. The scented candle homunculus's fragrance of lavender is overwhelmingly intense. Any criatura other than the homunculus's maestro who enters the aura must attempt a @Check[fortitude|dc:15] save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is temporarily immune to the homunculus's aura for 24 hours.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Fallo crítico</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round and sickened 1.</p>"
+          "description": "<p>5 pies. The scented candle homunculus's fragrance of lavender is overwhelmingly intense. Any criatura other than the homunculus's maestro who enters the aura must attempt a @Check[fortitude|dc:15] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is temporarily immune to the homunculus's aura for 24 horas.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Fallo crítico</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 asalto and sickened 1.</p>"
         },
         "action->Dunk in Wax": {
           "name": "Dunk in Wax",
@@ -822,7 +822,7 @@
         },
         "action->Splitsoul": {
           "name": "Splitsoul",
-          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> The soulbound guardian lends some of the energy animating it to other inanimate objects in the area. Three Small items or pieces of furniture within 60 pies come to life for 1 minute. Estos objects have the minion rasgo, though all the objects can act when the soulbound guardian uses a single action to issue them commands. The soulbound guardian can also issue commands to each object as part of using this ability.</p>\n<p>Each object animated in this way has a Velocidad of 20 pies and can make an unarmed melee Golpe at +11 that deals @Damage[(1d6+3)[bludgeoning]] daño. In addition, each object has an AC of 16, a Hardness of 3, and 14 Puntos de Golpe.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> The soulbound guardian lends some of the energy animating it to other inanimate objects in the area. Three Small items or pieces of furniture within 60 pies come to life for 1 minuto. Estos objects have the minion rasgo, though all the objects can act when the soulbound guardian uses a single action to issue them commands. The soulbound guardian can also issue commands to each object as part of using this ability.</p>\n<p>Each object animated in this way has a Velocidad of 20 pies and can make an unarmed melee Golpe at +11 that deals @Damage[(1d6+3)[bludgeoning]] daño. In addition, each object has an AC of 16, a Hardness of 3, and 14 Puntos de Golpe.</p>"
         }
       }
     },
@@ -862,7 +862,7 @@
           "name": "Pinza"
         },
         "equipment->Boots of Elvenkind": {
-          "gmNote": "<p>Estos <em>boots of elvenkind</em> have a special jinkin‑made curse to punish anyone who would dare to steal them from Vilm. If anyone wears these boots without a pair of red wool socks underneath them, with every step they experience the sensation of walking with a rock in their shoe. No matter how much they search for the offending rock, however, they'll never find it. When a wearer without red socks Activates the boots, they constrict painfully around their pies, dealing @Damage[2d10[bludgeoning]] daño (@Check[fortitude|dc:18|basic] save).</p>"
+          "gmNote": "<p>Estos <em>boots of elvenkind</em> have a special jinkin‑made curse to punish anyone who would dare to steal them from Vilm. If anyone wears these boots without a pair of red wool socks underneath them, with every step they experience the sensation of walking with a rock in their shoe. No matter how much they search for the offending rock, however, they'll never find it. When a wearer without red socks Activates the boots, they constrict painfully around their pies, dealing @Damage[2d10[bludgeoning]] daño (@Check[fortitude|dc:18|basic] salvación).</p>"
         },
         "strike-melee->Pincer Claw": {
           "name": "Pinza"
@@ -920,19 +920,19 @@
         },
         "action->Resilient Form": {
           "name": "Resilient Form",
-          "description": "<p><strong>Desencadenante</strong> Zikritrax is critically hit with a arma or ataque sin armas</p>\n<hr />\n<p><strong>Efecto</strong> The dragon's tough scales ward off deadly attacks. The dragon attempts a @Check[flat|dc:17]. On a success, the triggering attack becomes a normal hit.</p>"
+          "description": "<p><strong>Desencadenante</strong> Zikritrax is critically hit with a arma or ataque sin armas</p>\n<hr />\n<p><strong>Efecto</strong> The dragon's tough scales ward off deadly attacks. The dragon attempts a @Check[flat|dc:17]. On a success, el ataque desencadenante becomes a impacto normal.</p>"
         },
         "action->Adamantine Body": {
           "name": "Cuerpo adamantino",
-          "description": "<p>The dragon's unarmed melee Golpes are adamantine.</p>"
+          "description": "<p>Los Golpes cuerpo a cuerpo sin armas del dragón son de adamantina.</p>"
         },
         "action->Avalanche Breath": {
           "name": "Avalanche Breath",
-          "description": "<p>Zikritrax belches a mass of boulders that deals @Damage[11d8[bludgeoning]|options:area-damage] daño in a @Template[type:cone|distance:40] (@Check[reflex|dc:33|basic] save). He can't use Avalanche Breath again for [[/gmr 1d4 #Recharge Avalanche Breath]]{1d4 rounds}.</p>"
+          "description": "<p>Zikritrax belches a mass of boulders that deals @Damage[11d8[bludgeoning]|options:area-damage] daño in a @Template[type:cone|distance:40] (@Check[reflex|dc:33|basic] salvación). He can't use Avalanche Breath again for [[/gmr 1d4 #Recharge Avalanche Breath]]{1d4 rounds}.</p>"
         },
         "action->Burrowing Pounce": {
           "name": "Burrowing Pounce",
-          "description": "<p><strong>Requisitos</strong> Zikritrax is burrowed</p>\n<hr />\n<p><strong>Efecto</strong> Zikritrax Burrows, then Leaps out of the ground, landing at a point within 25 pies. Zikritrax makes a melee Golpe against a criatura within reach when he lands. If the Golpe is a critical hit, el objetivo is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+          "description": "<p><strong>Requisitos</strong> Zikritrax is burrowed</p>\n<hr />\n<p><strong>Efecto</strong> Zikritrax Burrows, then Leaps out of the ground, landing at a point within 25 pies. Zikritrax makes a melee Golpe against a criatura within reach when he lands. If the Golpe is a impacto crítico, el objetivo is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
         },
         "action->Draconic Frenzy": {
           "name": "Frenesí Dracónico",
@@ -940,7 +940,7 @@
         },
         "action->Draconic Momentum": {
           "name": "Impulso dracónico",
-          "description": "<p>Zikritrax recharges his Avalanche Breath siempre que he scores a critical hit with a Golpe.</p>"
+          "description": "<p>Zikritrax recharges his Avalanche Breath siempre que he scores a impacto crítico with a Golpe.</p>"
         },
         "action->Rock Tunneler": {
           "name": "Rock Tunneler",

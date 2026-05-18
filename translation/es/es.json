@@ -3041,8 +3041,8 @@
           "flame": "El objetivo takes @Damage[(1d6 + @item.system.runes.potency)[persistent,fire]]. Obtienes an bonificador por objeto to this daño de fuego equal to the arma's bonificador por objeto to tiradas de ataque.",
           "grenade": "Apply the effect listed in the grenade's entry to each criatura that rolls a critical failure against the effects of the grenade.",
           "hammer": "El objetivo es derribado @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} a menos que tenga éxito en una salvación @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Hammer Critical Specialization] contra tu clase DC.",
-          "laser": "El objetivo must succeed at a @Check[fortitude|against:class] save against tu class DC or be @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the start of tu next turn.",
-          "mental": "El objetivo must succeed at a @Check[will|against:class] save against tu class DC or be @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} until the start of tu next turn.",
+          "laser": "El objetivo must succeed at a @Check[fortitude|against:class] salvación against tu class DC or be @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the start of tu next turn.",
+          "mental": "El objetivo must succeed at a @Check[will|against:class] salvación against tu class DC or be @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} until the start of tu next turn.",
           "plasma": "El objetivo takes @Damage[(1d6 + @item.system.runes.potency)[persistent,electricity]]. Obtienes an bonificador por objeto to this daño de electricidad equal to the arma's bonificador por objeto to tiradas de ataque.",
           "poison": "El objetivo must succeed at a @Check[fortitude|against:class] or be @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} until the start of tu next turn.",
           "polearm": "El objetivo se mueve 5 pies en la dirección que elijas. Este es un movimiento forzado.",
@@ -3051,7 +3051,7 @@
           "shock": "El objetivo must succeed at a @Check[fortitude|against:class] or be @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} until the start of tu next turn.",
           "sling": "El objetivo debe tener éxito en una salvación @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Sling Critical Specialization] contra tu DC de clase o ser @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1} .",
           "sniper": "El objetivo takes 2 daño adicional per dados de daño del arma.",
-          "sonic": "El objetivo must succeed at a @Check[fortitude|against:class] or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute.",
+          "sonic": "El objetivo must succeed at a @Check[fortitude|against:class] or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minuto.",
           "spear": "Las armas de este tipo perforan al objetivo, debilitando sus ataques. El objetivo es @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} hasta el comienzo de tu siguiente turno.",
           "sword": "El objetivo queda desequilibrado por tu ataque, convirtiéndose en @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} hasta el comienzo de tu siguiente turno."
         },
@@ -4738,7 +4738,7 @@
     "TraitDescriptionBlight": "Blights are corruptions of nature's wrath.",
     "TraitDescriptionBoggard": "Los boggards son humanoides similares a ranas. Suelen tener visión en la oscuridad.",
     "TraitDescriptionBomb": "Una bomba alquímica combina componentes alquímicos volátiles que explotan cuando la bomba golpea una criatura u objeto. La mayoría de las bombas alquímicas causan daño, aunque algunas producen otros efectos.",
-    "TraitDescriptionBoost": "Puedes boost this arma with an Interactuar action to add an additional dado de daño of the listed size to the next damaging attack tú make with the arma until the end of tu next turn. The daño from this rasgo increases to 2 dice for advanced-grade and superior-grade armas, 3 dice for elite-grade and ultimate-grade armas, and 4 dice for paragon-grade armas. On a critical hit, roll these after doubling the arma's daño. Multiple boosts have no effect.",
+    "TraitDescriptionBoost": "Puedes boost this arma with an Interactuar action to add an additional dado de daño of the listed size to the next damaging attack tú make with the arma until the end of tu next turn. The daño from this rasgo increases to 2 dice for advanced-grade and superior-grade armas, 3 dice for elite-grade and ultimate-grade armas, and 4 dice for paragon-grade armas. On a impacto crítico, roll these after doubling the arma's daño. Multiple boosts have no effect.",
     "TraitDescriptionBottledBreath": "Las botellas de aliento son botellas encantadas de nubes y niebla, desarrolladas por primera vez por los habitantes del Plano del Aire. Puedes activar un objeto con el rasgo de aliento embotellado mientras lo inhalas o hacer que otra criatura lo inhale.",
     "TraitDescriptionBrace": "Un arma de refuerzo es eficaz para dañar a los oponentes en movimiento. Cuando estás listo para atacar a un oponente que se mueve dentro de tu alcance, hasta el comienzo de tu siguiente turno, los golpes con el arma de refuerzo infligen 2 daños de precisión adicionales por cada dado de daño de arma que tenga.",
     "TraitDescriptionBrandish": "The brandish rasgo indicates an ability that involves tú waving or otherwise actively displaying tu banner. To use an ability that has the brandish rasgo, debes be holding tu banner in one hand or wielding a arma it is attached to. Since tienes to be actively signaling with tu banner to direct tu squadmates while using a tactic with the brandish rasgo, tú cannot use free actions or reactions granted as part of a brandish tactic unless specifically noted otherwise.",
@@ -4751,7 +4751,7 @@
     "TraitDescriptionCalling": "The calling rasgo identifies mechanical options a character gains when they first gain mythic power. Every calling option grants a way to use and regain Mythic Points.",
     "TraitDescriptionCantrip": "Un conjuro que puedes lanzar a voluntad y que aumenta automáticamente a la mitad de tu nivel redondeado hacia arriba.",
     "TraitDescriptionCapacity": "Las armas que tienen el rasgo capacidad suelen tener múltiples cañones o recámaras capaces de contener una unidad de munición. La capacidad siempre va acompañada de un número que indica el número de barriles o recámaras. Después de disparar un arma de capacidad, puedes seleccionar el siguiente cañón o recámara cargado como una acción de Interactuar que no requiere tener las manos libres. Cada cañón o recámara se puede recargar después de dispararlo como una acción de Interactuar separada.",
-    "TraitDescriptionCaster": "Este arma can be modified by Lanzando un conjuro (including a cantrip) with 2 or more actions. If tú do, resolve the conjuro normally. Once the conjuro is cast, if it had the acid, cold, fire, electricity, sonic, spirit, vitality, or void rasgo, the arma deals daño of that type instead of its usual daño until the end of tu next turn. If the arma has the aeon rasgo and a conjuro gem installed, this lasts 1 minute. If the conjuro deals more than one type of daño, elige one when tú fire the arma.",
+    "TraitDescriptionCaster": "Este arma can be modified by Lanzando un conjuro (including a cantrip) with 2 or more actions. If tú do, resolve the conjuro normally. Once the conjuro is cast, if it had the acid, cold, fire, electricity, sonic, spirit, vitality, or void rasgo, the arma deals daño of that type instead of its usual daño until the end of tu next turn. If the arma has the aeon rasgo and a conjuro gem installed, this lasts 1 minuto. If the conjuro deals more than one type of daño, elige one when tú fire the arma.",
     "TraitDescriptionCatalyst": "Los elementos con el rasgo de catalizador son componentes de hechizos materiales consumibles que alteran o magnifican hechizos específicos. Activar un catalizador es parte de Lanzar el hechizo. El catalizador podría aumentar el número de acciones necesarias para lanzar el hechizo, como se indica en la entrada Activar del catalizador. Además, el hechizo gana componentes materiales si aún no los tenía o agrega el catalizador a sus componentes existentes. Debido a que el catalizador se convierte en parte de los componentes del material, se puede extraer elcatalizador como parte de Lanzar el hechizo.",
     "TraitDescriptionCatfolk": "Una criatura con este rasgo es miembro de la ascendencia de los felinos.",
     "TraitDescriptionCelestial": "Las criaturas que proceden de los Planos alineados con el bien o que tienen una fuerte conexión con ellos se denominan celestiales. Los celestiales pueden sobrevivir a los efectos ambientales básicos de los Planos de la Esfera Exterior.",
@@ -4766,7 +4766,7 @@
     "TraitDescriptionCleric": "Esto indica habilidades de la clase clérigo.",
     "TraitDescriptionClimbing": "La mano que empuña el arma está disponible para escalar.",
     "TraitDescriptionClockwork": "Los mecanismos de relojería son construcciones intrincadas y complejas que pueden programarse para realizar funciones específicas.",
-    "TraitDescriptionCoagulant": "Healing alchemical items with the coagulant rasgo lose effectiveness when many are applied in a short period of time. If a criatura heals Puntos de Golpe from an item with the coagulant rasgo, that criatura is temporarily immune to healing Puntos de Golpe from subsequent items with the coagulant rasgo for 10 minutes (but not immune to any other effects of those items).",
+    "TraitDescriptionCoagulant": "Healing alchemical items with the coagulant rasgo lose effectiveness when many are applied in a short period of time. If a criatura heals Puntos de Golpe from an item with the coagulant rasgo, that criatura is temporarily immune to healing Puntos de Golpe from subsequent items with the coagulant rasgo for 10 minutos (but not immune to any other effects of those items).",
     "TraitDescriptionCoatl": "Una familia de serpientes aladas sobrenaturales que sirven como guardianas y mensajeras en el Universo para diversas divinidades sagradas.",
     "TraitDescriptionCobbled": "Esta arma de fuego está improvisada y es probable que falle. No importa qué tan bien lo mantengas, en una tirada de ataque fallida, el ataque falla y debes tirar un @Check[type:flat|dc:5]. Si fallas esta prueba, el arma falla.",
     "TraitDescriptionCoda": "<p> Los instrumentos con el rasgo de coda funcionan principalmente como pentagramas y tienen el rasgo de pentagrama. Hay dos diferencias: los instrumentos Coda tienen forma de instrumentos musicales y sólo pueden ser preparados por bardos. Debido a que no son bastones físicamente, no puedes atacar con un instrumento de coda ni puedes grabarlo con runas de armas. </p> <p> El proceso de preparación de un instrumento de coda implica tocar porciones significativas de canciones relacionadas con los hechizos dentro delinstrumento, ya sea estándares antiguos o de su propia creación. Esto deja reverberaciones mágicas dentro del instrumento que te permiten completar las canciones tocando su coda más tarde durante el día. </p>",
@@ -6424,7 +6424,7 @@
       "flickering": {
         "Name": "Flickering",
         "Note": {
-          "criticalSuccess": "On a critical hit, the arma flashes bright pulses of color into the criatura's eyes, @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzling} the criatura for 1 round (this effect has the visual rasgo)."
+          "criticalSuccess": "On a impacto crítico, the arma flashes bright pulses of color into the criatura's eyes, @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzling} the criatura for 1 asalto (this effect has the visual rasgo)."
         }
       },
       "flurrying": {
@@ -6576,7 +6576,7 @@
           "Bow": "La prueba de Atletismo para liberar el misil es CD 20.",
           "Brawling": "El objetivo sufre una penalización de circunstancia de -4 a su salvación.",
           "Club": "Puedes derribar al objetivo hasta 15 pies de distancia.",
-          "Crossbow": "If el objetivo of the critical hit is adjacent to a surface, it gets stuck to that surface by the missile, as the bow critical specialization.",
+          "Crossbow": "If el objetivo of the impacto crítico is adjacent to a surface, it gets stuck to that surface by the missile, as the bow critical specialization.",
           "Dart": "El daño base por sangrado persistente aumenta a [[/r 2d6[bleed]]].",
           "Firearm": "El objetivo takes a –4 penalización de circunstancia to its save.",
           "Flail": "Mueves el objetivo 5 pies. No puedes alejarlo de ti, pero puedes moverlo en otra dirección de tu elección.",
@@ -6644,7 +6644,7 @@
       "nightmare": {
         "Name": "Pesadilla",
         "Note": {
-          "criticalSuccess": "On a critical hit, el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 1} by overwhelming visions in their mind of personal horrors that linger. If tú critically hit a criatura that's already stupefied, it becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} as well. Estos critical hit effects have the emotion, fear, and mental rasgos."
+          "criticalSuccess": "On a impacto crítico, el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 1} by overwhelming visions in their mind of personal horrors that linger. If tú critically hit a criatura that's already stupefied, it becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} as well. Estos impacto crítico effects have the emotion, fear, and mental rasgos."
         }
       },
       "pacifying": {
