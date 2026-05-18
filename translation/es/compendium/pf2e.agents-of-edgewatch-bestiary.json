@@ -3,7 +3,7 @@
   "entries": {
     "Acidic Poison Cloud Trap": {
       "name": "Acidic Poison Cloud Trap",
-      "description": "<p>Five nozzles hidden across the apartment's ceiling spew thick clouds of acidic poison from a reinforced tank behind the wall.</p>",
+      "description": "<p>Cinco boquillas ocultas en el techo del apartamento expulsan densas nubes de veneno acido desde un deposito reforzado tras la pared.</p>",
       "disable": "<p>@Check[thievery|dc:35|name:Block One Nozzle|traits:action:disable-a-device] (experto) to block one of the nozzles or @Check[thievery|dc:40|name:Shut Off the Tank|traits:action:disable-a-device] (maestro) to shut off the tank. La trampa deactivates after 5 rounds, once the tank is empty.</p>",
       "hpDetails": "to destroy a nozzle; <strong>Tank Hardness</strong> 20; <strong>TankHP</strong> 100 (UR 50) to daño the tank enough to stop it from spewing gas",
       "routine": "<p>(1 action) When it's triggered, the trap has five active nozzles, but at the end of its turn each round, one random nozzle deactivates. On the trap's turn, the active nozzles emit a cloud of acidic poison gas that expands to fill the apartment. The cloud deals @Damage[1d6[acid]] daño and @Damage[1d6[poison]] daño per active nozzle to each criatura and object in the room (@Check[fortitude|dc:33|basic|name:Spew Cloud|traits:poison] save). Unattended objects automatically fail saves to avoid the daño.</p>",
@@ -208,11 +208,11 @@
         },
         "action->Infused Items": {
           "name": "Infused Items",
-          "description": "<p>Japu carries the following infused items, which last 24 hours or until the next time he makes his daily preparations: infused moderate acid flasks (2), infused moderate alchemist's fires (2), moderate elixirs of life (2), infused reagents (6), infused moderate tanglefoot bags (2).</p>"
+          "description": "<p>Japu carries el following infused objetos, que last 24 horas o hasta la proxima vez el makes su daily preparations: infused moderado acido flasks (2), infused moderado alchemist's fires (2), moderado elixirs de life (2), infused reagents (6), infused moderado tanglefoot bags (2).</p>"
         },
         "action->Alchemical Formulas (10th)": {
           "name": "Alchemical Formulas (10th)",
-          "description": "<p>moderate acid flask, moderate alchemist's fire, greater antidote, moderate bravo's brew, moderate elixir of life, moderate tanglefoot bag, wyvern poison</p>"
+          "description": "<p>moderado acido flask, moderado alchemist's fuego, mayor antidote, moderado bravo's brew, moderado elixir de life, moderado tanglefoot bag, wyvern veneno</p>"
         },
         "action->Expanded Splash": {
           "name": "Salpicadura Extendida",
@@ -282,11 +282,11 @@
         },
         "action->Infused Items": {
           "name": "Infused Items",
-          "description": "<p>The chemist carries the following infused items, which last 24 hours or until the next time the amateur chemist makes their daily preparations: infused moderate bottled lightning (4), infused moderate frost vials (2), infused reagents (6), infused moderate silvertongue mutagens (2).</p>"
+          "description": "<p>El chemist carries el following infused objetos, que last 24 horas o hasta la proxima vez el amateur chemist makes su daily preparations: infused moderado bottled lightning (4), infused moderado frost vials (2), infused reagents (6), infused moderado silvertongue mutagens (2).</p>"
         },
         "action->Alchemical Formulas (5th)": {
           "name": "Alchemical Formulas (5th)",
-          "description": "<p>lesser antidote, moderate bottled lightning, moderate frost vial, graveroot, hunting spider venom, moderate quicksilver mutagen, moderate silvertongue mutagen</p>"
+          "description": "<p>antidoto menor, relampago embotellado moderado, vial de escarcha moderado, raiz de tumba, veneno de arana cazadora, mutageno de azogue moderado, mutageno lengua de plata moderado</p>"
         },
         "action->Calculated Splash": {
           "name": "Salpicadura Calculada",
@@ -324,7 +324,7 @@
     },
     "Arcane Feedback Trap": {
       "name": "Arcane Feedback Trap",
-      "description": "<p>A spike of stone bursts from the south wall and quickly retracts.</p>",
+      "description": "<p>Una pua de piedra brota del muro sur y se retrae rapidamente.</p>",
       "disable": "<p>@Check[arcana|dc:33|name:Quell Rippling Stone] (maestro) to quell the rippling stone or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (7th rank, counteract DC 31) to dispel the magical feedback.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
@@ -464,7 +464,7 @@
       "name": "Baatamidar",
       "hpDetails": "regeneration 30 (desactivada por lawful)",
       "languages": "telepathy 100 pies",
-      "publicNotes": "<p>Baatamidars are drawn to destroy planar communities on the fringes where the Outer Planes touch the chaos of the Maelstrom. They resemble floating blobs of undulating, prismatic ooze with four quivering tentacles and dribbles of oily slime that always drip upwards.</p>",
+      "publicNotes": "<p>Baatamidars son drawn a destruir planar communities en el fringes where el Outer Planes touch el chaos de el Maelstrom. They resemble floating blobs de undulating, prismatic ooze con four quivering tentacles y dribbles de oily slime que always drip upwards.</p>",
       "items": {
         "spellcastingEntry->Arcane Innate Spells": {
           "name": "Arcane Innate Spells"
@@ -546,7 +546,7 @@
     },
     "Barrel Launcher": {
       "name": "Barrel Launcher",
-      "blurb": "Elite clockwork assassin",
+      "blurb": "Asesino mecanico de elite",
       "senses": "vision de humo",
       "items": {
         "strike-melee->Rapier Hand": {
@@ -560,7 +560,7 @@
         },
         "action->Integrated Launcher": {
           "name": "Integrated Launcher",
-          "description": "<p>A projectile launcher is integrated into a clockwork assassin's systems, containing 10 spinning blades and five smoke bombs. When the assassin is destroyed, the launcher and its ammunition are also destroyed.</p>"
+          "description": "<p>Un lanzaproyectiles esta integrado en los sistemas de un asesino mecanico, con 10 hojas giratorias y cinco bombas de humo. Cuando el asesino es destruido, el lanzador y su municion tambien son destruidos.</p>"
         },
         "action->Smoke Vision": {
           "name": "Smoke Vision",
@@ -731,7 +731,7 @@
     },
     "Blackfinger's Prayer": {
       "name": "Blackfinger's Prayer",
-      "description": "<p>The trapdoor's metal is infused with a deadly toxin that seeps out when the trap is triggered.</p>",
+      "description": "<p>El metal de la trampilla esta infundido con una toxina mortal que rezuma cuando se desencadena la trampa.</p>",
       "disable": "<p>@Check[thievery|dc:50|name:Gum Up Trapdoor|traits:action:disable-a-device] (legendario) to gum up the trapdoor's porous metal surface, @Check[crafting|dc:45|name:Render Toxin Inert] (maestro) to render the toxin inert, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th rank; counteract DC 45) to counteract the trap's magic</p>",
       "stealth": "<p>(legendario)</p>",
       "items": {
@@ -877,7 +877,7 @@
     },
     "Blune Bandersworth": {
       "name": "Blune Bandersworth",
-      "languages": "arcadian",
+      "languages": "arcadio",
       "items": {
         "spellcastingEntry->Arcane Prepared Spells": {
           "name": "Arcane Prepared Spells"
@@ -969,7 +969,7 @@
         },
         "action->Ferocious Devotion": {
           "name": "Ferocious Devotion",
-          "description": "<p>When an illusory toady is destroyed, it dissolves into a puddle of cerulean quintessence before reforming to quasi-life once more. One round after it is destroyed, the toady starts re-forming. One round after that, the toady is completely healed and begins to fight once more.</p>\n<p>If damaged while it is re-forming but before the process is complete, the toady is destroyed but splits into two cerulean puddles that begin re-forming into two identical toadies 1 round later, each with half the maximum HP of the original toady (this is similar to an @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.uQBOJfjtzEXvpLQz]{Ochre Jelly's} Split ability); the toadies begin re-forming 1 round later.</p>\n<p>The toadies are permanently destroyed only by @UUID[Compendium.pf2e.spells-srd.Item.ihbRf964JDXztcy3]{Disjunction} or if @UUID[Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.sUrJ7jxzBiJTbwVo]{Blune} falls unconscious.</p>"
+          "description": "<p>Cuando un illusory toady es destruido, ello dissolves into un puddle de cerulean quintessence before reforming a quasi-life once more. One asalto after ello es destruido, el toady starts re-forming. One asalto after que, el toady es completely healed y begins a fight once more.</p> <p>Si damaged mientras ello es re-forming but before el process es complete, el toady es destruido but splits into two cerulean puddles que begin re-forming into two identical toadies 1 asalto later, cada con half el maximum PG de el original toady (este es similar a un @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.uQBOJfjtzEXvpLQz]{Ochre Jelly's} Split ability); el toadies begin re-forming 1 asalto later.</p> <p>El toadies son permanently destruido solo by @UUID[Compendium.pf2e.spells-srd.Item.ihbRf964JDXztcy3]{Disjunction} o si @UUID[Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.sUrJ7jxzBiJTbwVo]{Blune} cae unconscious.</p>"
         },
         "action->Amplify Spell": {
           "name": "Amplify Spell",
@@ -979,9 +979,9 @@
     },
     "Boiling Fountains": {
       "name": "Boiling Fountains",
-      "description": "<p>Four pressure plates beneath the floorboards activate dragon-headed fountains on either side of the room, which spray boiling water across the area between them.</p>",
+      "description": "<p>Four pressure plates beneath el floorboards activate dragon-headed fountains en either side de el sala, que spray boiling agua across el area between them.</p>",
       "disable": "<p>@Check[thievery|dc:21|name:Disable Pressure Plate|traits:action:disable-a-device] (entrenado) to disable each pressure plate, @Check[thievery|dc:16|name:Jam Fountain|traits:action:disable-a-device] to jam each fountain, or @Check[thievery|dc:18|name:Deflect Fountain's Spray|traits:action:disable-a-device] to deflect a fountain's spray</p>",
-      "reset": "<p>Once a pressure plate has been activated, it must be reset manually.</p>",
+      "reset": "<p>Once un pressure plate tiene been activated, ello debe be reinicia manually.</p>",
       "stealth": "<p>(entrenado) to spot the pressure plates</p>",
       "items": {
         "action->Scalding Spray": {
@@ -992,7 +992,7 @@
     },
     "Boiling Tub Trap": {
       "name": "Boiling Tub Trap",
-      "description": "<p>A snapped trip wire causes an alchemical bomb to detonate and blow up part of the tin tub, spilling boiling water all over the trap's victim.</p>",
+      "description": "<p>Un snapped trip wire causes un alchemical bomb a detonate y blow up part de el tin tub, spilling boiling agua todos over el trampa's victim.</p>",
       "disable": "<p>@Check[thievery|dc:32|name:Remove Trip Wire|traits:action:disable-a-device] (maestro) to safely remove the trip wire from the bomb</p>",
       "stealth": "<p>(maestro)</p>",
       "items": {
@@ -1048,7 +1048,7 @@
         },
         "action->Partial Amphibian": {
           "name": "Partial Amphibian",
-          "description": "<p>The bregdi can breathe air for up to 10 minutes, or up to an hour so long as its skin remains wet.</p>"
+          "description": "<p>El bregdi puede breathe air for up a 10 minutos, o up a un hora so long as su piel remains wet.</p>"
         },
         "action->Aquatic Ambush": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.HBrBrUzjfvj2gDXB]\n<p>50 pies</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AquaticAmbush]</p>"
@@ -1068,7 +1068,7 @@
     },
     "Burning Chandelier Trap": {
       "name": "Burning Chandelier Trap",
-      "description": "<p>Four large flaming chandeliers swing wildly around the room.</p>",
+      "description": "<p>Four grande flaming chandeliers swing wildly around el sala.</p>",
       "disable": "<p>@Check[thievery|dc:36|name:Disable a Chandelier|traits:action:disable-a-device] (maestro) to disable a chandelier or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (8th rank; counteract DC 33) to permanently drain the magic from a chandelier. Any amount of daño de frío that overcomes a chandelier's cold resistance extinguishes its flames and removes its daño persistente de fuego and flame dart attack. @Check[thievery|dc:41|name:Disable Trap (Control Panel)|traits:action:disable-a-device] (legendario) to disable the entire trap from the hidden control panel in the southeast corner of the room.</p>",
       "hpDetails": "<strong>Panel Hardness</strong> 18; <strong>Panel HP</strong> 88 (UR 44); <strong>Resistances</strong> cold 15",
       "reset": "<p>La trampa deactivates and resets 1 minute after there are no living criaturas remaining in the room.</p>",
@@ -1197,7 +1197,7 @@
     },
     "Carvey": {
       "name": "Carvey",
-      "publicNotes": "<p>Made of odd scraps of skin and muscle, a flesh golem is a grotesque parody of life. Though it has no mind, it can still go into a berserk rage when harmed, giving it a faint semblance of emotion. Flesh golems guard the laboratories and charnel houses of fleshwarpers and necromancers who feel no compunctions about desecrating corpses for their own ends. Though the first flesh golem is believed to have been a misguided attempt to create from simple base elements, these monstrosities are far from human. In isolated cases, echoes of a personality might rise in a flesh golem if the brain used as part of its construction belonged to a particularly powerful personality, but such tragic instances are rare in the extreme.</p>",
+      "publicNotes": "<p>Made de odd scraps de piel y muscle, un flesh golem es un grotesque parody de life. Though ello tiene no mind, ello puede still go into un berserk rage cuando harmed, giving ello un faint semblance de emotion. Flesh golems guard el laboratories y charnel houses de fleshwarpers y necromancers who feel no compunctions about desecrating corpses for su own ends. Though el first flesh golem es believed a tienen been un misguided attempt a create de simple base elements, these monstrosities son far de human. In isolated cases, echoes de un personality might rise en un flesh golem si el brain used as part de su construction belonged a un particularly powerful personality, but such tragic instances son rare en el extreme.</p>",
       "items": {
         "strike-melee->Fist": {
           "name": "Fist"
@@ -1366,7 +1366,7 @@
         },
         "action->Recalibrate": {
           "name": "Recalibrate",
-          "description": "<p>The clockwork amalgam can recalibrate its internal structure to shed damaged components and replace them with new ones, restoring @Damage[125[healing]] HP to the construct. Each time it uses this ability, the clockwork amalgam permanently deactivates one of its five melee attacks as the components from that arm reassemble within the core of the machine.</p>"
+          "description": "<p>El clockwork amalgam puede recalibrate su internal structure a shed damaged components y replace them con nuevo ones, restoring @Damage[125[healing]] PG a el construct. Each time ello usa este ability, el clockwork amalgam permanently deactivates one de su five melee ataques as el components de que arm reassemble dentro de el core de el machine.</p>"
         },
         "action->Whirring Doom": {
           "name": "Whirring Doom",
@@ -1384,7 +1384,7 @@
       "name": "Clockwork Arms",
       "description": "<p>Four claw-tipped clockwork arms suspended from the ceiling pick up and deposit criaturas into a nearby hatch.</p>",
       "disable": "<p>@Check[thievery|dc:43|name:Deactivate One Arm|traits:action:disable-a-device] (maestro) to jam and deactivate one of the arms or @Check[athletics|dc:46|name:Tear Arm Off Machine] (legendario) to tear an arm off the machine.</p>",
-      "hpDetails": "to destroy one arm",
+      "hpDetails": "a destruir one arm",
       "routine": "<p>(4 actions) La trampa loses 1 action per arm destroyed or disabled. On its turn, the trap makes claw Golpes against criaturas other than the Rumormonger or the Inkmaster. If an arm already has a criatura grabbed, the trap spends 2 actions to use its Open Hatch ability.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
@@ -1417,7 +1417,7 @@
         },
         "action->Integrated Launcher": {
           "name": "Integrated Launcher",
-          "description": "<p>A projectile launcher is integrated into a clockwork assassin's systems, containing 10 spinning blades and five smoke bombs. When the assassin is destroyed, the launcher and its ammunition are also destroyed.</p>"
+          "description": "<p>Un lanzaproyectiles esta integrado en los sistemas de un asesino mecanico, con 10 hojas giratorias y cinco bombas de humo. Cuando el asesino es destruido, el lanzador y su municion tambien son destruidos.</p>"
         },
         "action->Smoke Vision": {
           "name": "Smoke Vision",
@@ -1464,7 +1464,7 @@
         },
         "action->Integrated Launcher": {
           "name": "Integrated Launcher",
-          "description": "<p>A projectile launcher is integrated into a clockwork assassin's systems, containing 10 spinning blades and five smoke bombs. When the assassin is destroyed, the launcher and its ammunition are also destroyed.</p>"
+          "description": "<p>Un lanzaproyectiles esta integrado en los sistemas de un asesino mecanico, con 10 hojas giratorias y cinco bombas de humo. Cuando el asesino es destruido, el lanzador y su municion tambien son destruidos.</p>"
         },
         "action->Smoke Vision": {
           "name": "Smoke Vision",
@@ -1514,7 +1514,7 @@
         },
         "action->Integrated Launcher": {
           "name": "Integrated Launcher",
-          "description": "<p>A projectile launcher is integrated into a clockwork assassin's systems, containing 10 spinning blades and five smoke bombs. When the assassin is destroyed, the launcher and its ammunition are also destroyed.</p>"
+          "description": "<p>Un lanzaproyectiles esta integrado en los sistemas de un asesino mecanico, con 10 hojas giratorias y cinco bombas de humo. Cuando el asesino es destruido, el lanzador y su municion tambien son destruidos.</p>"
         },
         "action->Smoke Vision": {
           "name": "Smoke Vision",
@@ -1543,12 +1543,12 @@
     },
     "Clockwork Poison Bomb": {
       "name": "Clockwork Poison Bomb",
-      "description": "<p>A clockwork bomb releases gouts of poisonous smoke. The smoke issues forth from a single nozzle attached to two tanks of pressurized poison</p>",
+      "description": "<p>Un clockwork bomb releases gouts de poisonous humo. El humo issues forth de un single nozzle attached a two tanks de pressurized veneno</p>",
       "disable": "<p>Three [[/act disable-device dc=31]]{DC 31 THIEVERY} (experto) checks to @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Disable a Device} to disable the latches that lock the nozzle in place, then one [[/act disable-device dc=35]]{DC 35 THIEVERY} (maestro) check to Disable a Device to turn off the nozzle; DCs decrease by 2 if Oggvurm is immobilized, paralyzed, unconscious, or dead</p>",
       "hpDetails": "to ruin the nozzle (making it impossible to disable, in which case the only way to disarm the bomb is to destroy both its tanks); <strong>Tank Hardness</strong> 15; <strong>Tank HP</strong> 80 (UR 40) to destroy one of the tanks (both tanks must be destroyed to disarm the bomb",
       "reset": "<p>La trampa issues smoke for 3 minutes before its tanks run dry. The tanks must be replaced before the bomb can be reactivated.</p>",
       "routine": "<p>(1 action) On its turn, the bomb spews forth a smoky gout of airborne @UUID[Compendium.pf2e.equipment-srd.Item.WvDbdESFJY6Be2u1]{Blackfinger Blight} poison. The cloud fills a 20-pies radius, or a 10-pies radius if only one tank remains intact. If the bomb is already in the center of a blackfinger blight cloud, the radius of that cloud increases by 20 pies (or 10 pies, if only one tank remains intact) instead.</p>",
-      "stealth": "<p>The bomb uses Oggvurm's initiative roll as its Stealth roll</p>",
+      "stealth": "<p>El bomb usa Oggvurm's initiative roll as su Stealth roll</p>",
       "items": {
         "action->Poisonous Cloud": {
           "name": "Poisonous Cloud",
@@ -1565,7 +1565,7 @@
         },
         "action->Clutching Cobbles": {
           "name": "Clutching Cobbles",
-          "description": "<p>The cobbleswarm's space is difficult terrain.</p>"
+          "description": "<p>El cobbleswarm's espacio es terreno dificil.</p>"
         },
         "action->Grasping Bites": {
           "name": "Grasping Bites",
@@ -1639,7 +1639,7 @@
       "name": "Daemonic Infector",
       "skillSpecialCrafting": {
         "0": {
-          "label": "when crafting poison"
+          "label": "cuando crafting veneno"
         }
       },
       "items": {
@@ -1690,7 +1690,7 @@
         },
         "action->Steady Spellcasting": {
           "name": "Lanzamiento de conjuros firme",
-          "description": "<p>If a reaction would disrupt the Daemonic Infector's spellcasting action, he attempts a @Check[flat|dc:15] check. On a success, the action isn't disrupted.</p>"
+          "description": "<p>Si un reaction would disrupt el Daemonic Infector's spellcasting action, el attempts un @Check[flat|dc:15] prueba. con un exito, el action isn't disrupted.</p>"
         },
         "lore->Norgorber Lore": {
           "name": "Norgorber Lore"
@@ -1790,7 +1790,7 @@
     },
     "Dart Barrage": {
       "name": "Dart Barrage",
-      "description": "<p>Four dart-loaded pipes hidden in the diagonal walls are connected to a pressure plate under the brass seal in the room's center.</p>",
+      "description": "<p>Four dart-loaded pipes oculto en el diagonal muros son connected a un pressure plate under el brass seal en el sala's center.</p>",
       "disable": "<p>@Check[thievery|dc:22|name:Disable Pressure Plate|traits:action:disable-a-device] (entrenado) to disable the pressure plate, or four @Check[thievery|dc:18|name:Plug Dart Launcher|traits:action:disable-a-device] (entrenado) checks to plug the dart launchers</p>",
       "hpDetails": "(UR 30) to destroy the seal and disable the trap",
       "reset": "<p>La trampa runs out of darts after 4 rounds of firing and must be reset manually by dismantling the walls to reload the launchers. If at any point there are no longer more than two criaturas placing weight on the floor, the trap ceases firing but remains armed, ready to resume firing its remaining darts once triggered again.</p>",
@@ -1999,11 +1999,11 @@
         },
         "strike-ranged->Bloody Spew": {
           "name": "Bloody Spew",
-          "description": "<p>@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round</p>"
+          "description": "<p>@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} durante 1 asalto</p>"
         },
         "action->Vein Walker": {
           "name": "Vein Walker",
-          "description": "<p>The excorion moves about by way of hundreds of pulsating blood vessels, which stretch from its body in dozens of tight, ropy bundles and anchor it to the ground. An excorion cannot be Tripped, Shoved, or otherwise forcibly moved except by magic, and the excorion ignores difficult terrain (but not greater difficult terrain).</p>"
+          "description": "<p>El excorion mueve about by way de hundreds de pulsating sangre vessels, que stretch de su cuerpo en dozens de tight, ropy bundles y anchor ello a el suelo. Un excorion cannot be Tripped, Shoved, o otherwise forcibly moved except by magia, y el excorion ignora el terreno dificil (but no terreno dificil mayor).</p>"
         },
         "action->Bloody Handprint": {
           "name": "Bloody Handprint",
@@ -2043,7 +2043,7 @@
         },
         "action->Vein Walker": {
           "name": "Vein Walker",
-          "description": "<p>The excorion moves about by way of hundreds of pulsating blood vessels, which stretch from its body in dozens of tight, ropy bundles and anchor it to the ground.</p>\n<p>An excorion can't be @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Tripped}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shoved}, or otherwise forcibly moved except by magic, and the excorion ignores difficult terrain (but not greater difficult terrain).</p>"
+          "description": "<p>El excorion mueve about by way de hundreds de pulsating sangre vessels, que stretch de su cuerpo en dozens de tight, ropy bundles y anchor ello a el suelo.</p> <p>Un excorion puede't be @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Tripped}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shoved}, o otherwise forcibly moved except by magia, y el excorion ignora el terreno dificil (but no terreno dificil mayor).</p>"
         },
         "action->Blinding Bile": {
           "name": "Blinding Bile",
@@ -2061,7 +2061,7 @@
     },
     "Exploding Statue": {
       "name": "Exploding Statue",
-      "description": "<p>A hollow statue filled with explosives is connected to a trip wire running along the adjacent door.</p>",
+      "description": "<p>Un hollow statue filled con explosives es connected a un trip wire running along el adjacent puerta.</p>",
       "disable": "<p>@Check[thievery|dc:21|name:Safely Cut Wire|traits:action:disable-a-device] (entrenado) to safely cut the wire</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
@@ -2073,8 +2073,8 @@
     },
     "Explosive Barrels": {
       "name": "Explosive Barrels",
-      "description": "<p>Wooden barrels marked with an oil-drop symbol catch fire and explode.</p>",
-      "disable": "<p>@Check[survival|dc:20|name:Smother the Flames] to smother the flames without rupturing the barrels</p>",
+      "description": "<p>Wooden barrels marked con un oil-drop symbol catch fuego y explode.</p>",
+      "disable": "<p>@Check[survival|dc:20|name:Smother the Flames] a smother el flames sin rupturing el barrels</p>",
       "items": {
         "action->Explode": {
           "name": "Explotar",
@@ -2110,7 +2110,7 @@
     },
     "False Door Trap": {
       "name": "Trampa de puerta falsa",
-      "description": "<p>A hidden needle delivers a magical poison to anyone trying to open the door.</p>",
+      "description": "<p>Un oculto needle delivers un magico veneno a anyone trying a open el puerta.</p>",
       "disable": "<p>@Check[thievery|dc:32|name:Jam Needle in Housing|traits:action:disable-a-device] (maestro) to jam the needle in its housing or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (6th rank, counteract DC 30) to dispel the magical poison.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
@@ -2186,7 +2186,7 @@
     },
     "Field Of Opposition": {
       "name": "Field Of Opposition",
-      "description": "<p>A distortion in space spawns an aggressive, malevolent shadow duplicate of any characters who pass between Terimor's faces.</p>",
+      "description": "<p>Un distortion en espacio spawns un aggressive, malevolent shadow duplicate de cualquier characters who pass between Terimor's faces.</p>",
       "disable": "<p>@Check[thievery|dc:42|name:Disable Thievery] (legendario) to permanently disable the planar distortion (DC increases by 2 for each duplicate still extant), or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (10th rank; counteract DC 42) to destroy the planar distortion</p>",
       "items": {
         "action->Spawn Mirror Duplicate": {
@@ -2296,7 +2296,7 @@
     },
     "Freezing Alarm": {
       "name": "Freezing Alarm",
-      "description": "<p>Miniature snowflake-shaped glyphs on the ground cause a layer of ice to ripple over the floor of the room and sound a silent alarm.</p>",
+      "description": "<p>Miniature snowflake-shaped glyphs en el suelo cause un layer de hielo a ripple over el suelo de el sala y sound un silent alarm.</p>",
       "disable": "<p>@Check[arcana|dc:53|name:Disable Arcana] (legendario) to draw a fiery counteracting glyph over each snowflake, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th rank, counteract DC 48)</p>",
       "reset": "<p>1 day</p>",
       "stealth": "<p>(maestro)</p>",
@@ -2342,7 +2342,7 @@
         },
         "action->Rejuvenation": {
           "name": "Rejuvenecimiento",
-          "description": "<p>When Frefferth is destroyed, his body and items dissipate into shadowy nothingness and the knight re-forms after [[/gmr 1d4 #days]]{1d4 days} within the sarcophagus in area <strong>D12</strong>, fully healed.</p>\n<p>Frefferth can be trapped only by returning the @UUID[Compendium.pf2e.equipment-srd.Item.6MIBHKMJmD8uQVam]{Chain of the Stilled Spirit} to the sarcophagus (see areas <strong>D12</strong> and <strong>D34</strong>), in which case Frefferth's body dissipates, leaving his items in the spot where he was last slain.</p>"
+          "description": "<p>Cuando Frefferth es destruido, su cuerpo y objetos dissipate into shadowy nothingness y el knight re-forms after [[/gmr 1d4 #days]]{1d4 days} dentro de el sarcophagus en area <strong>D12</strong>, fully healed.</p> <p>Frefferth puede be trapped solo by returning el @UUID[Compendium.pf2e.equipment-srd.Item.6MIBHKMJmD8uQVam]{Chain de el Stilled espiritual} a el sarcophagus (see areas <strong>D12</strong> y <strong>D34</strong>), en que case Frefferth's cuerpo dissipates, leaving su objetos en el spot where el fue last slain.</p>"
         },
         "action->Head Hunter": {
           "name": "Head Hunter",
@@ -2473,8 +2473,8 @@
     },
     "Gas Trap": {
       "name": "Gas Trap",
-      "description": "<p>A spring slams and locks the room's door before four hidden gas vents begin pumping poison gas into the chamber.</p>",
-      "disable": "<p>Four @Check[thievery|dc:20|name:Block Gas Vents|traits:action:disable-a-device] checks to block the gas vents, or a @Check[thievery|dc:26|name:Unlock Door|traits:action:pick-a-lock] check to unlock the door and escape</p>",
+      "description": "<p>Un spring slams y locks el sala's puerta before four oculto gas vents begin pumping veneno gas into el camara.</p>",
+      "disable": "<p>Four @Check[thievery|dc:20|name:Block Gas Vents|traits:action:disable-a-device] pruebas a block el gas vents, o un @Check[thievery|dc:26|name:Unlock Door|traits:action:pick-a-lock] prueba a unlock el puerta y escapar</p>",
       "reset": "<p>La trampa must be manually rearmed by unblocking the vents or replacing the poison gas tank in area <strong>E30</strong>.</p>",
       "routine": "<p>(1 action) Each round on its initiative count, the trap pumps more toxic gas into the room.</p>\n<p>Any breathing criatura in the room takes @Damage[4d6[poison]] daño (a successful @Check[fortitude|dc:22|traits:poison,damaging-effect] save halves the daño taken). If a criatura acts before the trap on the first round, it has the option of holding its breath to postpone taking daño from the trap-holding one's breath after the trap's first action has no effect, since the air in the criatura's lungs is already tainted. Locating and blocking one of the hidden gas vents reduces the daño de veneno by 1d6-if all four are blocked, the trap is disabled, though the door remains locked. Otherwise, the trap functions for 1 minute before all the gas is expended and characters in the room cease taking daño, after which the trap ventilates the room for 1 additional minute.</p>",
       "stealth": "<p>(entrenado) to smell the poison gas or hear it hissing</p>",
@@ -2726,7 +2726,7 @@
         },
         "action->Rejuvenation": {
           "name": "Rejuvenecimiento",
-          "description": "<p>When a graveknight is destroyed, its armor rebuilds its body over the course of [[/gmr 1d10 #days]] days-or more quickly if the armor is worn by a living host. If the body is destroyed before then, the process restarts.</p>\n<p>A graveknight can only be permanently destroyed by obliterating its armor (such as with @UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]{Disintegrate}), transporting it to the Forge of Creation, or throwing it into the heart of a volcano.</p>"
+          "description": "<p>Cuando un graveknight es destruido, su armadura rebuilds su cuerpo over el course de [[/gmr 1d10 #days]] dias-o more quickly si el armadura es worn by un vivo host. Si el cuerpo es destruido before then, el process restarts.</p> <p>Un graveknight puede solo be permanently destruido by obliterating su armadura (such as con @UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]{Disintegrate}), transporting ello a el Forge de Creation, o throwing ello into el heart de un volcano.</p>"
         },
         "action->Sacrilegious Aura": {
           "name": "Sacrilegious Aura",
@@ -2756,7 +2756,7 @@
     "Greater Planar Rift": {
       "name": "Greater Planar Rift",
       "description": "<p>A ragged planar rift drags things into its depths and hurls criaturas through from its terminal end.</p>",
-      "disable": "<p>@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th rank; counteract DC 46) to seal the rift</p>",
+      "disable": "<p>@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel magia} (9th rank; counteract DC 46) a seal el rift</p>",
       "stealth": "<p>(legendario)</p>",
       "items": {
         "action->Greater Planar Rift": {
@@ -3213,7 +3213,7 @@
     },
     "Hidden Chute": {
       "name": "Escondido Chute",
-      "description": "<p>A trapdoor in the floor conceals a stone chute.</p>",
+      "description": "<p>Un trapdoor en el suelo conceals un piedra chute.</p>",
       "disable": "<p>@Check[thievery|dc:20|name:Remove Trapdoor|traits:action:disable-a-device] (entrenado) to remove the trapdoor or lock it in position using a catch hidden inside the room's doorframe</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
@@ -3255,7 +3255,7 @@
         },
         "action->Motion Sense 100 feet": {
           "name": "Motion Sense 100 pies",
-          "description": "<p>A hundun chaos mage can sense nearby motion through vibration and air movement.</p>"
+          "description": "<p>Un hundun chaos mage puede sentido nearby motion through vibration y air movement.</p>"
         },
         "action->Entropic Feedback": {
           "name": "Entropic Feedback",
@@ -3396,7 +3396,7 @@
     },
     "Inky Tendrils": {
       "name": "Inky Tendrils",
-      "description": "<p>Six giant tentacles reach up from the ink lake, grabbing any foes in reach and dragging them underwater.</p>",
+      "description": "<p>Six giant tentacles reach up de el ink lake, grabbing cualquier foes en reach y dragging them underwater.</p>",
       "disable": "<p>@Check[athletics|dc:48|name:Disable Athletics] (legendario) or @Check[acrobatics|dc:45|name:Disable Acrobatics] (maestro) to tie one tentacle into a knot, rendering it useless, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (8th rank; counteract DC 44) to counteract one tentacle.</p>\n<p>The death of the Daemonic Rumormonger permanently dispels all the inky tendrils.</p>",
       "routine": "<p>(6 actions) The hazard loses 1 action for every tentacle that is disabled or destroyed. The tentacles can combine their actions to use the hazard's Inky Imitator ability. A broken tentacle can still Golpe, but it can't GRAB. Este hazard takes no multiple attack penalización.</p>",
       "items": {
@@ -3423,9 +3423,9 @@
     "Iron Maiden Trap": {
       "name": "Iron Maiden Trap",
       "description": "<p>A pressure plate hidden on the floor before an iron maiden causes the torture device to snap shut and trap the triggering criatura inside.</p>",
-      "disable": "<p>@Check[thievery|dc:28|name:Disable Pressure Plate|traits:action:disable-a-device] to disable the pressure plate</p>",
+      "disable": "<p>@Check[thievery|dc:28|name:Disable Pressure Plate|traits:action:disable-a-device] a disable el pressure plate</p>",
       "hpDetails": "Iron Maiden Hardness 12; Iron Maiden HP 46 (UR 23)",
-      "reset": "<p>The pressure plate must be reset manually.</p>",
+      "reset": "<p>El pressure plate debe be reinicia manually.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Slam Shut": {
@@ -3569,7 +3569,7 @@
         },
         "action->Steady Spellcasting": {
           "name": "Lanzamiento de conjuros firme",
-          "description": "<p>If a reaction would disrupt Flakfatter's spellcasting action, he attempts a @Check[flat|dc:15] check. On a success, the action isn't disrupted.</p>"
+          "description": "<p>Si un reaction would disrupt Flakfatter's spellcasting action, el attempts un @Check[flat|dc:15] prueba. con un exito, el action isn't disrupted.</p>"
         },
         "lore->Norgorber Lore": {
           "name": "Norgorber Lore"
@@ -3938,11 +3938,11 @@
         },
         "action->Blood Scent": {
           "name": "Blood Scent",
-          "description": "<p>The lusca can smell blood in the water up to 1 mile away.</p>"
+          "description": "<p>El lusca puede smell sangre en el agua up a 1 mile away.</p>"
         },
         "action->Storm Bringer": {
           "name": "Storm Bringer",
-          "description": "<p>When the lusca is near the surface for more than 1 hour, clouds appear and deliver a thunderstorm with a 2-mile radius centered on its location. The weather returns to normal 1 hour after the lusca departs.</p>"
+          "description": "<p>Cuando el lusca es near el surface for more than 1 hora, clouds appear y deliver un thunderstorm con un 2-mile radius centered en su location. El weather returns a normal 1 hora after el lusca departs.</p>"
         },
         "action->Capsize": {
           "name": "Capsize",
@@ -3958,11 +3958,11 @@
         },
         "action->Rend (jaws)": {
           "name": "Rend (jaws)",
-          "description": "<p>Jaws</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
+          "description": "<p>Jaws</p> <hr /> <p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
         },
         "action->Swallow Whole": {
           "name": "Engullir",
-          "description": "<p>Huge, @Damage[(4d12+9)[bludgeoning]], Rupture 38</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+          "description": "<p>enorme, @Damage[(4d12+9)[bludgeoning]], Rupture 38</p> <hr /> <p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
         },
         "action->Grab": {
           "name": "Agarrón"
@@ -4014,7 +4014,7 @@
     },
     "Minchgorm": {
       "name": "Minchgorm",
-      "languages": "tongues (can speak only through simulacra)",
+      "languages": "tongues (puede speak solo through simulacra)",
       "items": {
         "spellcastingEntry->Innate Primal Spells": {
           "name": "Innate Primal Spells"
@@ -4035,7 +4035,7 @@
         },
         "action->Swallow Whole": {
           "name": "Engullir",
-          "description": "<p>Large, @Damage[(3d10+16)[bludgeoning]], Rupture 36</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+          "description": "<p>grande, @Damage[(3d10+16)[bludgeoning]], Rupture 36</p> <hr /> <p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
         },
         "action->Watery Simulacra": {
           "name": "Watery Simulacra",
@@ -4162,7 +4162,7 @@
         },
         "action->Swift Sneak": {
           "name": "Movimiento furtivo rápido",
-          "description": "<p>Mobana can move her full speed when @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneaking}.</p>"
+          "description": "<p>Mobana puede mover su full speed cuando @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneaking}.</p>"
         },
         "action->Deny Advantage": {
           "name": "Negar ventaja",
@@ -4272,7 +4272,7 @@
         },
         "action->Vulnerable to Neutralize Poison": {
           "name": "Vulnerable to Neutralize Poison",
-          "description": "<p>Casting @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Cleanse Affliction} on the golem deactivates its Breath Weapon for 1 minute.</p>"
+          "description": "<p>Casting @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Cleanse Affliction} en el golem deactivates su Breath arma durante 1 minuto.</p>"
         },
         "action->Vulnerable to Rust": {
           "name": "Vulnerable to Rust",
@@ -4298,7 +4298,7 @@
     },
     "Myrna Rath": {
       "name": "Myrna Rath",
-      "senses": "detect alignment, detect magic",
+      "senses": "detect alignment, detect magia",
       "items": {
         "spellcastingEntry->Innate Occult Spells": {
           "name": "Innate Occult Spells"
@@ -4424,11 +4424,11 @@
         },
         "action->Odorless": {
           "name": "Odorless",
-          "description": "<p>A myrucarx emits no smell and can't be detected by scent.</p>"
+          "description": "<p>Un myrucarx emits no smell y puede't be detected by olfato.</p>"
         },
         "action->Painful Light": {
           "name": "Painful Light",
-          "description": "<p>When attempting a save against a light effect, a myrucarx gets a result one degree of success lower than it rolled. A myrucarx caught in sunlight is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2}.</p>"
+          "description": "<p>Cuando attempting un salvacion against un light effect, un myrucarx gets un result one degree de success lower than ello rolled. Un myrucarx caught en sunlight es @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} y @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2}.</p>"
         },
         "action->Illusory Persona": {
           "name": "Illusory Persona",
@@ -4444,7 +4444,7 @@
       "name": "Najra Lizard",
       "skillSpecialDeception": {
         "0": {
-          "label": "to Create a Diversion"
+          "label": "a Create un Diversion"
         }
       },
       "items": {
@@ -4472,8 +4472,8 @@
       "name": "Needling Stairs",
       "description": "<p>Este staircase has springs in each step, which send poisoned needles shooting up through tiny holes in the wood when stepped on. Each step, 6 in total, takes up one 5-pies square.</p>",
       "disable": "<p>@Check[thievery|dc:33|name:Disable Stair Spring|traits:action:disable-a-device] (maestro) on each stair to disable its spring, or deactivate the switch in area <strong>C8</strong> to deactivate the whole trap. Cutting the wire on the topmost stair ([[/act disable-device dc=35]]) that connects the staircase to the control switch prevents the control switch from turning the trap on or off.</p>",
-      "hpDetails": "to break the spring under the step and make that step safe to stand on",
-      "reset": "<p>If deactivated via the switch, the trap can be reactivated with the switch in area <strong>C8</strong>.</p>",
+      "hpDetails": "a romper el spring under el dar un paso y make que dar un paso safe a stand en",
+      "reset": "<p>Si deactivated via el switch, el trampa puede be reactivated con el switch en area <strong>C8</strong>.</p>",
       "routine": "<p>(1 action) La trampa makes a separate poisoned needle Golpe against each criatura currently on an active step as 1 action. Because it is constantly jabbing needles up through any weight-bearing steps, the trap can also use its Bloody Feet free action to jab at a criatura on one of the steps during that criatura's turn.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
@@ -4542,11 +4542,11 @@
         },
         "action->Easy to Call": {
           "name": "Easy to Call",
-          "description": "<p>The sahkil is considered 2 levels lower for the purposes of being summoned by rituals (such as @UUID[Compendium.pf2e.spells-srd.Item.2ykmAVKrsAWcazcC]{Binding Circle}), but is always free to attack or leave instead of negotiate unless the primary caster's check is a critical success.</p>"
+          "description": "<p>El sahkil es considered 2 levels lower for el purposes de being summoned by rituals (such as @UUID[Compendium.pf2e.spells-srd.Item.2ykmAVKrsAWcazcC]{Binding Circle}), but es always free a ataque o leave instead de negotiate unless el primary caster's prueba es un critical success.</p>"
         },
         "action->Skip Between": {
           "name": "Skip Between",
-          "description": "<p>The sahkil can move itself between the Ethereal Plane and the Material Plane, as @UUID[Compendium.pf2e.spells-srd.Item.D2nPKbIS67m9199U]{Ethereal Jaunt}, except that this ability has an unlimited duration and can be Dismissed.</p>"
+          "description": "<p>El sahkil puede mover itself between el Ethereal Plane y el Material Plane, as @UUID[Compendium.pf2e.spells-srd.Item.D2nPKbIS67m9199U]{Ethereal Jaunt}, except que este ability tiene un unlimited duration y puede be Dismissed.</p>"
         },
         "action->Tainted Backlash": {
           "name": "Tainted Backlash",
@@ -4841,7 +4841,7 @@
         },
         "action->Easy to Call": {
           "name": "Easy to Call",
-          "description": "<p>The sahkil is considered 2 levels lower for the purposes of being summoned by rituals (such as @UUID[Compendium.pf2e.spells-srd.Item.2ykmAVKrsAWcazcC]{Binding Circle}), but is always free to attack or leave instead of negotiate unless the primary caster's check is a critical success.</p>"
+          "description": "<p>El sahkil es considered 2 levels lower for el purposes de being summoned by rituals (such as @UUID[Compendium.pf2e.spells-srd.Item.2ykmAVKrsAWcazcC]{Binding Circle}), but es always free a ataque o leave instead de negotiate unless el primary caster's prueba es un critical success.</p>"
         },
         "action->Crowded Mob": {
           "name": "Crowded Mob",
@@ -4861,7 +4861,7 @@
         },
         "action->Skip Between": {
           "name": "Skip Between",
-          "description": "<p>The sahkil can move itself between the Ethereal Plane and the Material Plane, as @UUID[Compendium.pf2e.spells-srd.Item.D2nPKbIS67m9199U]{Ethereal Jaunt}, except that this ability has an unlimited duration and can be Dismissed</p>"
+          "description": "<p>El sahkil puede mover itself between el Ethereal Plane y el Material Plane, as @UUID[Compendium.pf2e.spells-srd.Item.D2nPKbIS67m9199U]{Ethereal Jaunt}, except que este ability tiene un unlimited duration y puede be Dismissed</p>"
         },
         "lore->Dream Lore": {
           "name": "Dream Lore"
@@ -4893,7 +4893,7 @@
     },
     "Plunger Chute": {
       "name": "Plunger Chute",
-      "description": "<p>A trapdoor in the floor conceals a hidden chute, and a moving section of wall shoves victims into it.</p>",
+      "description": "<p>Un trapdoor en el suelo conceals un oculto chute, y un moviendose section de muro shoves victims into ello.</p>",
       "disable": "<p>@Check[thievery|dc:23|name:Jam the Trapdoor Shut|traits:action:disable-a-device] (experto) to jam the trapdoor shut or activate a hidden bypass switch by twisting a fitting on the gas lamp</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
@@ -4939,7 +4939,7 @@
     },
     "Poisoned Dart Statue": {
       "name": "Poisoned Dart Statue",
-      "description": "<p>Countless poison darts fire from holes in the statues and walls of this hall.</p>",
+      "description": "<p>Countless veneno darts fuego de holes en el statues y muros de este hall.</p>",
       "disable": "<p>@Check[thievery|dc:34|name:Disable Trap|traits:action:disable-a-device] (maestro) on the control panel deactivates the trap.</p>",
       "reset": "<p>La trampa deactivates and resets after 1 minute.</p>",
       "routine": "<p>(1 action) La trampa launches one dart against every criatura in the hall as 1 action. Because it launches darts continuously, the trap can also use the Continuous Barrage free action (see below) to launch darts at each criatura during that criatura's turn. La trampa doesn't take a multiple attack penalización.</p>",
@@ -5000,7 +5000,7 @@
         },
         "strike-ranged->Composite Shortbow": {
           "name": "Arco corto compuesto",
-          "description": "<p>@UUID[Compendium.pf2e.equipment-srd.Item.Wjkw0lEUOhypYvzo]{Shadow Essence} on the first 3 arrows</p>"
+          "description": "<p>@UUID[Compendium.pf2e.equipment-srd.Item.Wjkw0lEUOhypYvzo]{Shadow Essence} en el first 3 arrows</p>"
         },
         "action->Attack of Opportunity": {
           "name": "Ataque de oportunidad",
@@ -5018,7 +5018,7 @@
     "Prospecti Statue": {
       "name": "Prospecti Statue",
       "acDetails": "(22 when broken); armadura de constructo",
-      "publicNotes": "<p>As with any humanoid animated statues of Medium size, giant animated statues are used to guard locations of importance, but their increased size and power make them most useful in large vaults, spacious chambers, or outdoor locations. Animated objects of this strength and size are ideal for tasks and responsibilities usually performed by golems, and more powerful animated objects are thus all but unheard of.</p>",
+      "publicNotes": "<p>As con cualquier humanoide animated statues de mediano size, giant animated statues son used a guard locations de importance, but su increased size y power make them most useful en grande vaults, spacious chambers, o outdoor locations. Animated objects de este strength y size son ideal for tasks y responsibilities usually performed by golems, y more powerful animated objects son thus todos but unheard de.</p>",
       "items": {
         "weapon->+1 Longsword (Huge)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.LJdbVTOZog39EEbi]\n+1 Longsword (Huge)",
@@ -5054,7 +5054,7 @@
         },
         "action->Vulnerable to Neutralize Poison": {
           "name": "Vulnerable to Neutralize Poison",
-          "description": "<p>Casting @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Cleanse Affliction} on the golem deactivates its Breath Weapon for 1 minute.</p>"
+          "description": "<p>Casting @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Cleanse Affliction} en el golem deactivates su Breath arma durante 1 minuto.</p>"
         },
         "action->Vulnerable to Rust": {
           "name": "Vulnerable to Rust",
@@ -5117,7 +5117,7 @@
         },
         "action->Deep Breath": {
           "name": "Contener La Respiración",
-          "description": "<p>A ravenile can hold their breath for 20 minutes.</p>"
+          "description": "<p>Un ravenile puede contener la respiracion for 20 minutos.</p>"
         },
         "action->Forced Regeneration": {
           "name": "Forced Regeneración",
@@ -5172,7 +5172,7 @@
         },
         "action->Reflective Plating": {
           "name": "Reflective Plating",
-          "description": "<p>Reginald engages his defensive plating, which casts @UUID[Compendium.pf2e.spells-srd.Item.OOELvfkTedBMlWtq]{Spell Turning} on him (counteract modifier +32).</p>"
+          "description": "<p>Reginald engages su defensive plating, que casts @UUID[Compendium.pf2e.spells-srd.Item.OOELvfkTedBMlWtq]{Spell Turning} en him (counteract modifier +32).</p>"
         },
         "action->Slither": {
           "name": "Culebrear",
@@ -5243,14 +5243,14 @@
         },
         "action->Malefic Binding": {
           "name": "Malefic Binding",
-          "description": "<p>The rhevanna can target celestials with their @UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg]{Seize Soul} ability, and a gem containing a celestial bound by a rhevanna has Hardness 40.</p>\n<p>If the rhevanna destroys a gem in which they placed a celestial, the celestial is destroyed forever.</p>"
+          "description": "<p>El rhevanna puede objetivo celestials con su @UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg]{Seize Soul} ability, y un gem containing un celestial bound by un rhevanna tiene Dureza 40.</p> <p>Si el rhevanna destroys un gem en que ellos placed un celestial, el celestial es destruido forever.</p>"
         }
       }
     },
     "Rigged Cubby": {
       "name": "Rigged Cubby",
-      "description": "<p>A hidden string connected to precariously stacked bricks causes the cubby to collapse in on itself when the string is pulled.</p>",
-      "disable": "<p>@Check[thievery|dc:20|name:Cut String|traits:action:disable-a-device] to cut the string without setting off the trap</p>",
+      "description": "<p>Un oculto string connected a precariously stacked bricks causes el cubby a collapse en en itself cuando el string es pulled.</p>",
+      "disable": "<p>@Check[thievery|dc:20|name:Cut String|traits:action:disable-a-device] a cut el string sin setting off el trampa</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Collapse": {
@@ -5422,7 +5422,7 @@
     },
     "Shatterling": {
       "name": "Shatterling",
-      "senses": "mirror senses",
+      "senses": "mirror sentidos",
       "items": {
         "strike-melee->Mirror Hand": {
           "name": "Mirror Hand"
@@ -5460,7 +5460,7 @@
         },
         "action->Wipe Away Cracks": {
           "name": "Wipe Away Cracks",
-          "description": "<p>The shatterling touches a broken mirror, instantly repairing it.</p>"
+          "description": "<p>El shatterling touches un roto mirror, instantly repairing ello.</p>"
         }
       }
     },
@@ -5490,7 +5490,7 @@
         },
         "action->Deep Breath": {
           "name": "Contener La Respiración",
-          "description": "<p>A Shikwashim mercenary can hold their breath for 20 minutes.</p>"
+          "description": "<p>Un Shikwashim mercenary puede contener la respiracion for 20 minutos.</p>"
         },
         "action->Coordinated Distraction": {
           "name": "Distracción coordinada",
@@ -5522,7 +5522,7 @@
         },
         "action->Compression": {
           "name": "Compression",
-          "description": "<p>When a shredskin successfully @UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{Squeezes}, it moves through the tight space at full speed. Narrow confines are not difficult terrain for a shredskin.</p>"
+          "description": "<p>Cuando un shredskin successfully @UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{Squeezes}, ello mueve through el tight espacio at full speed. Narrow confines son no terreno dificil for un shredskin.</p>"
         },
         "action->Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV]\n<p>@Damage[(1d4+4)[bludgeoning]] daño, @Check[fortitude|dc:16|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
@@ -5737,7 +5737,7 @@
         },
         "action->Spider Swarm Host": {
           "name": "Spider Swarm Host",
-          "description": "<p>Skitterstitches host a @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.NcYbJS5PWBGdNDqh]{Spider Swarm} within themselves, which erupts out when the Skitterstitch is destroyed</p>"
+          "description": "<p>Skitterstitches host un @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.NcYbJS5PWBGdNDqh]{Spider Swarm} dentro de themselves, que erupts out cuando el Skitterstitch es destruido</p>"
         },
         "action->Flay": {
           "name": "Flay",
@@ -5755,7 +5755,7 @@
     },
     "Sleepless Sun Veteran": {
       "name": "Sleepless Sun Veteran",
-      "senses": "wary",
+      "senses": "cauteloso",
       "items": {
         "weapon->+1 Striking Temple Sword": {
           "name": "+1 Striking Temple Sword",
@@ -5915,7 +5915,7 @@
     },
     "Supplicant Statues": {
       "name": "Supplicant Statues",
-      "description": "<p>Six statues rapidly slide around the room on rollers, slowing down intruders and striking at them with spring-loaded sword arms.</p>",
+      "description": "<p>Six statues rapidly slide around el sala en rollers, slowing down intruders y striking at them con spring-loaded sword arms.</p>",
       "disable": "<p>@Check[thievery|dc:34|name:Disable Statue Rollers|traits:action:disable-a-device] (maestro) to disable a specific statue's rollers, or @Check[thievery|dc:39|name:Disable Trap (Control Panel)|traits:action:disable-a-device] (maestro) on the control panel in <strong>A4</strong> deactivates the whole trap. For each statue disabled, the trap loses 1 action from its routine and the DC for its predictive impediment ability decreases by 4. @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (7th rank, counteract DC 32) doesn't harm the statues but removes the predictive impediment ability. Breaking the control panel prevents the trap from resetting.</p>",
       "hpDetails": "<strong>Control Panel Hardness</strong> 10; <strong>Control Panel HP</strong> 20 (UR 10)",
       "reset": "<p>La trampa deactivates and resets one minute after the room is empty.</p>",
@@ -6090,7 +6090,7 @@
         },
         "action->Clockwork Brain": {
           "name": "Clockwork Brain",
-          "description": "<p>A second brain, made of clockwork, is implanted in the Inkmaster's skull. Any time he makes a Will save, he rolls twice and takes the higher result.</p>"
+          "description": "<p>Un second brain, made de clockwork, es implanted en el Inkmaster's skull. Any time el makes un salvacion de Voluntad, el rolls twice y recibe el higher result.</p>"
         },
         "action->Paralyzing Gaze": {
           "name": "Paralyzing Gaze",
@@ -6114,7 +6114,7 @@
         },
         "action->Rend": {
           "name": "Rasgadura",
-          "description": "<p>Claw</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
+          "description": "<p>garra</p> <hr /> <p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
         },
         "action->Improved Grab": {
           "name": "Agarrón mejorado",
@@ -6126,7 +6126,7 @@
       "name": "The Laughing Fiend's Greeting",
       "description": "<p>Subtle but deadly magical runes link this mural to Kharnas's maestro. Good- or neutral-aligned criaturas who examine the mural witness the castle's drawbridge silently descend, revealing an endless darkness.</p>",
       "disable": "<p>@Check[thievery|dc:44|name:Disable Thievery] (legendario) to obscure or mar the magical runes set into the mural, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th rank; counteract DC 42) to counteract the mural</p>",
-      "reset": "<p>1 week</p>",
+      "reset": "<p>1 semana</p>",
       "stealth": "<p>(legendario)</p>",
       "items": {
         "action->Tegresin's Greeting": {
@@ -6137,7 +6137,7 @@
     },
     "The Rabbit Prince": {
       "name": "El príncipe conejo",
-      "senses": "superior senses",
+      "senses": "superior sentidos",
       "speed": "freedom of movement, quick movements",
       "items": {
         "spellcastingEntry->Innate Occult Spells": {
@@ -6172,8 +6172,8 @@
           "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Desencadenante</strong> The Rabbit Prince fails a prueba de habilidad or a tirada de salvación</p>\n<hr />\n<p><strong>Efecto</strong> The Rabbit Prince rerolls the triggering check, but he must use the new result, even if it's worse.</p>"
         },
         "action->Perfect Will": {
-          "name": "Perfect Will",
-          "description": "<p>If the Rabbit Prince rolls a success on a Will save, he gets a critical success instead, and if he rolls a critical failure, he gets a failure instead.</p>"
+          "name": "Voluntad perfecta",
+          "description": "<p>Si el Rabbit Prince rolls un success en un salvacion de Voluntad, el gets un exito critico en su lugar, y si el rolls un critical failure, el gets un failure instead.</p>"
         },
         "action->Superior Senses": {
           "name": "Superior Senses",
@@ -6189,7 +6189,7 @@
         },
         "action->Occult Rituals": {
           "name": "Occult Rituals",
-          "description": "<p>DC 38; <em>imprisonment</em>, <em>inveigle</em></p>"
+          "description": "<p>CD 38; <em>encarcelamiento</em>, <em>embaucar</em></p>"
         },
         "action->Quick Movements": {
           "name": "Quick Movements",
@@ -6277,7 +6277,7 @@
       "description": "<p>A large metallic arm, 20 pies long, is set into the floor. It rotates around the room to wind up nearby clockwork criaturas.</p>",
       "disable": "<p>@Check[thievery|dc:50|name:Deactivate System|traits:action:disable-a-device] (maestro) to deactivate the system, or @Check[athletics|dc:40|name:Jam Gears] (legendario) to jam the gears for 1 round</p>",
       "reset": "<p>The Winder resets as soon as no criaturas remain in the room.</p>",
-      "routine": "<p>(1, 2, or 4 actions, depending on the encounter's threat level) The Winder uses each of its actions to Wind clockwork assassins in the room, starting with inactive ones.</p>",
+      "routine": "<p>(1, 2, o 4 actions, depending en el encounter's threat level) El Winder usa cada de su actions a Wind clockwork assassins en el sala, starting con inactive ones.</p>",
       "stealth": "<p>(maestro)</p>",
       "items": {
         "action->Wind Up": {
@@ -6292,7 +6292,7 @@
     },
     "Tiderunner Aquamancer": {
       "name": "Tiderunner Aquamancer",
-      "saveDetails": "+1 status to all saves vs. enchantments, -2 to all saves vs. aboleth effects",
+      "saveDetails": "+1 status a todos saves vs. enchantments, -2 a todos saves vs. aboleth effects",
       "items": {
         "spellcastingEntry->Arcane Prepared Spells": {
           "name": "Arcane Prepared Spells"
@@ -6379,7 +6379,7 @@
         },
         "action->Motion Sense 60 feet": {
           "name": "Motion Sense 60 pies",
-          "description": "<p>Tyrroicese can sense nearby motion through vibration and air movement.</p>"
+          "description": "<p>Tyrroicese puede sentido nearby motion through vibration y air movement.</p>"
         },
         "action->Pseudopod Burst": {
           "name": "Pseudopod Burst",
@@ -6483,7 +6483,7 @@
         },
         "action->Motion Sense 60 feet": {
           "name": "Motion Sense 60 pies",
-          "description": "<p>A vaultbreaker ooze can sense nearby motion through vibration and air movement.</p>"
+          "description": "<p>Un vaultbreaker ooze puede sentido nearby motion through vibration y air movement.</p>"
         },
         "action->Treasure Sense (Imprecise) 30 feet": {
           "name": "Treasure Sense (Imprecise) 30 pies",
@@ -6641,7 +6641,7 @@
     },
     "Water Elemental Vessel": {
       "name": "Water Elemental Vessel",
-      "publicNotes": "<p>Spellcasters create elemental vessels by harvesting raw elemental energy and then binding it within a specially enchanted magic circle to grant it life.</p>",
+      "publicNotes": "<p>Spellcasters create elemental vessels by harvesting raw elemental energy y then binding ello dentro de un specially enchanted magia circle a grant ello life.</p>",
       "items": {
         "spellcastingEntry->Innate Arcane Spells": {
           "name": "Innate Arcane Spells"
@@ -6689,7 +6689,7 @@
     "Water Elemental Vessel (I2)": {
       "name": "Water Elemental Vessel (I2)",
       "blurb": "Variante de water elemental vessel",
-      "publicNotes": "<p>Spellcasters create elemental vessels by harvesting raw elemental energy and then binding it within a specially enchanted magic circle to grant it life.</p>",
+      "publicNotes": "<p>Spellcasters create elemental vessels by harvesting raw elemental energy y then binding ello dentro de un specially enchanted magia circle a grant ello life.</p>",
       "tokenName": "Water Elemental Vessel",
       "items": {
         "spellcastingEntry->Innate Arcane Spells": {
@@ -6737,7 +6737,7 @@
     },
     "Waxworks Onslaught Trap": {
       "name": "Waxworks Onslaught Trap",
-      "description": "<p>Four huge tubs containing congealed wax, enchanted to melt and envelop unwary intruders, each sit atop a cold fire.</p>",
+      "description": "<p>Four enorme tubs containing congealed wax, enchanted a melt y envelop unwary intruders, cada sit atop un frio fuego.</p>",
       "disable": "<p>@Check[thievery|dc:43|name:Drain Wax from a Tub|traits:action:disable-a-device] (maestro) to drain the wax from a tub or @Check[athletics|dc:45|name:Push Through Wax|traits:action:force-open] (maestro) to push through the wax blocking a sealed door and escape (other criaturas must push their own way through, as the wax reseals)</p>",
       "hpDetails": "to destroy a tub and prevent it from making any further attacks; <strong>Door Seal Hardness</strong> 18; <strong>Door Seal HP</strong> 72 (UR 36) to destroy the wax on a sealed door and allow anyone to escape through the door",
       "reset": "<p>La trampa deactivates and resets after 1 hour. At that time, the wax in the tubs cools and congeals, and any wax elsewhere in the room magically goes back into the tubs.</p>",
@@ -6774,7 +6774,7 @@
         },
         "action->Chain Expert": {
           "name": "Chain Expert",
-          "description": "<p>The Skinner can effectively wield abnormally long spiked chains and can do so using only one hand.</p>"
+          "description": "<p>El Skinner puede effectively wield abnormally long spiked chains y puede do so using solo one hand.</p>"
         },
         "action->Chain Up": {
           "name": "Chain Up",

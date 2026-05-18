@@ -17,7 +17,7 @@
         },
         "action->Eternal Damnation": {
           "name": "Eternal Damnation",
-          "description": "<p>As long as its <em>soul chain</em> remains intact, the accursed forge-spurned can't be truly destroyed and rises again fully healed at the next sundown, even if its physical body was destroyed.</p>"
+          "description": "<p>Mientras su <em>cadena de alma</em> permanezca intacta, el repudiado de la forja maldito no puede ser destruido de verdad y se alza de nuevo completamente curado al siguiente ocaso, incluso si su cuerpo fisico fue destruido.</p>"
         },
         "action->Searing Heat": {
           "name": "Searing Heat",
@@ -257,7 +257,7 @@
       "name": "Barzillai's Hounds",
       "description": "<p>Sabuesos infernales invisibles para todos salvo para su unico objetivo queman a la victima elegida.</p>",
       "disable": "<p>@Check[type:religion|dc:24|name:Exorcise the Hounds|traits:complex,haunt,hazard] (experto) to perform an exorcism (with 2 actions)</p>",
-      "reset": "<p>If their designated target dies or the hounds can't reach it in a turn, the hounds vanish into noxious smoke, but they manifest again elsewhere in the city after the next sunset.</p>",
+      "reset": "<p>Si su objetivo designado muere o los sabuesos no pueden alcanzarlo en un turno, los sabuesos se desvanecen en humo nocivo, pero se manifiestan de nuevo en otro lugar de la ciudad despues del siguiente ocaso.</p>",
       "routine": "<p>(2 actions) The haunt uses its first action to Zancada (Velocidad 60 pies), then its second action for a jaws Golpe against its designated target if it is in reach. If el objetivo is not in reach, the haunt resets.</p>",
       "items": {
         "action->Begin the Hunt": {
@@ -364,10 +364,10 @@
     },
     "Black Powder Bomb": {
       "name": "Black Powder Bomb",
-      "description": "<p>Three bulky kegs of black powder placed at key locations in the temple are triggered to explode in unison, causing the entire structure to collapse into rubble and slide partially down the cliff face.</p>",
+      "description": "<p>Tres voluminosos barriles de polvora negra colocados en puntos clave del templo se activan para explotar al unisono, haciendo que toda la estructura se derrumbe en escombros y se deslice parcialmente por la pared del acantilado.</p>",
       "disable": "<p>No special skills are required to disable this manually activated trap. As an INTERACT action, a PC can sweep aside some black powder to interrupt the fuse line, but this doesn't prevent Gerhard from activating a keg via blunderbuss. A keg that is removed from its position (either by being thrown over the cliff or merely carried away) retains its explosive potential, but as long as one of the three kegs are removed they no longer have the precise placement required to trigger a collapse-an explosion at this point merely inflicts daño de fuego in the appropriate areas but does not particularly daño the temple structure itself.</p>\n<p>A keg's contents can be dispersed by scattering the gunpowder to the wind (most efficiently by pouring it over the cliff side) as a 2-action activity, or rendered permanently inert by pouring a gallon of water into the powder, inhibiting its explosive qualities. The kegs themselves can be destroyed with daño (note that the AC listed below for each keg takes into account the fact that Gerhard has wedged the kegs into nooks in the temple's stone flooring and walls), but note that any daño de fuego (including incidental daño de fuego from area effects like a fireball or Gerhard's blunderbuss) causes them to explode. At tu option, other actions may be similarly effective at disabling this hazard.</p>",
       "routine": "<p>If Gerhard lights the black powder fuse, it burns at a speed of 10 pies each round; when the fuse reaches a keg 6 rounds later, the black powder bomb explodes. The bomb explodes immediately if he shoots a barrel with his blunderbuss.</p>",
-      "stealth": "<p>The three powder kegs aren't particularly well hidden, but they are out of sight to casual observation.</p>",
+      "stealth": "<p>Los tres barriles de polvora no estan especialmente bien ocultos, pero quedan fuera de la vista en una observacion casual.</p>",
       "items": {
         "action->Destructive Explosion": {
           "name": "Destructive Explosion",
@@ -403,7 +403,7 @@
     },
     "Bloody Blade Mercenary": {
       "name": "Bloody Blade Mercenary",
-      "blurb": "Human (half-orc) ranger 1",
+      "blurb": "Explorador humano (semiorco) 1",
       "items": {
         "weapon->Longsword": {
           "description": "<p>Longswords can be one-edged or two-edged swords. Their blades are heavy and they're between 3 and 4 pies in length.</p>"
@@ -470,7 +470,7 @@
     },
     "Calmont": {
       "name": "Calmont",
-      "blurb": "Male halfling rogue 3",
+      "blurb": "Picaro mediano varon 3",
       "senses": "ojos agudos",
       "items": {
         "equipment->Thieves' Tools": {
@@ -564,7 +564,7 @@
         },
         "action->Rejuvenation": {
           "name": "Rejuvenecimiento",
-          "description": "<p>Candlaron's echo rejuvenates so long as Dahak's manifestation lives.</p>\n<hr />\n<p>When a ghost is destroyed, it re-forms after [[/br 2d4 #days]]{2d4 days} within the location it's bound to, fully healed. A ghost can be permanently destroyed only if someone determines the reason for its existence and sets right whatever prevents the spirit from resting.</p>"
+          "description": "<p>El eco de Candlaron rejuvenece mientras viva la manifestacion de Dahak.</p>\n<hr />\n<p>Cuando un fantasma es destruido, se reforma tras [[/br 2d4 #dias]]{2d4 dias} en el lugar al que esta vinculado, completamente curado. Un fantasma solo puede ser destruido permanentemente si alguien determina la razon de su existencia y corrige aquello que impide que el espiritu descanse.</p>"
         },
         "action->Frightful Moan": {
           "name": "Gemido espantoso",
@@ -585,7 +585,7 @@
         },
         "action->Motion Sense": {
           "name": "Motion Sense",
-          "description": "<p>A carnivorous crystal can sense nearby motion through vibration and air movement.</p>"
+          "description": "<p>Un cristal carnivoro puede sentir el movimiento cercano mediante vibraciones y corrientes de aire.</p>"
         },
         "action->Split": {
           "name": "Split",
@@ -614,7 +614,7 @@
     },
     "Caustic Vapor": {
       "name": "Caustic Vapor",
-      "description": "<p>The door slams shut, and poison gas fills the room.</p>",
+      "description": "<p>La puerta se cierra de golpe y gas venenoso llena la sala.</p>",
       "disable": "<p>@Check[type:occultism|dc:36|name:Exorcise the Spirits|traits:mechanical,trap] (maestro) or @Check[type:religion|dc:36|name:Exorcise the Spirits|traits:mechanical,trap] (maestro) to exorcise the spirits</p>",
       "reset": "<p>La trampa resets after 1 day.</p>",
       "stealth": "<p>(maestro)</p>",
@@ -735,9 +735,9 @@
     "Crucidaemon": {
       "name": "Crucidaemon",
       "languages": "telepathy 100 pies",
-      "publicNotes": "<p>Of all the ways to die, crucidaemons represent perhaps one of the least desirable: death by torture. The fiend's shapely body, which appears to be sculpted from iron or mithril, belies a sinister wrath and love of inflicting pain. Crucidaemons particularly enjoy inflicting pain with their curved, serrated daggers, which are attached to their bodies via a chain that pierces each wrist.</p>\n<p>A crucidaemon's existence is dedicated to subjecting its prey to an eternity of pain and terror. Unlike other daemons, many of which are eager to feed on mortal souls as soon as they can, the crucidaemon takes much greater pleasure in prolonging the agony of its victims. Oftentimes, a crucidaemon will inflict such torment and pain upon its prey that when the end finally comes, the victim tearfully thanks the daemon for the mercy of oblivion. An encounter with a crucidaemon that does not end with its death is far from over-crucidaemons have unequaled patience for those who dare oppose them.</p>",
+      "publicNotes": "<p>Of todos el ways a die, crucidaemons represent perhaps one de el least desirable: death by torture. El fiend's shapely cuerpo, que appears a be sculpted de hierro o mithril, belies un sinister wrath y love de inflicting pain. Crucidaemons particularly enjoy inflicting pain con su curved, serrated daggers, que son attached a su bodies via un chain que pierces cada wrist.</p> <p>Un crucidaemon's existence es dedicated a subjecting su prey a un eternity de pain y terror. Unlike otro daemons, many de que son eager a feed en mortal souls as soon as ellos puede, el crucidaemon recibe much mayor pleasure en prolonging el agony de su victims. Oftentimes, un crucidaemon va a inflict such torment y pain upon su prey que cuando el end finally comes, el victim tearfully thanks el daemon for el mercy de oblivion. Un encounter con un crucidaemon que does no end con su death es far de over-crucidaemons tienen unequaled patience for those who dare oppose them.</p>",
       "saveDetails": "+1 de estado a todas las salvaciones contra magia",
-      "senses": "detect alignment (good only)",
+      "senses": "detectar alineamiento (solo bien)",
       "items": {
         "spellcastingEntry->Divine Innate Spells": {
           "name": "Divine Innate Spells"
@@ -779,13 +779,13 @@
         },
         "action->Manifest Dagger": {
           "name": "Manifest Dagger",
-          "description": "<p>The crucidaemon summons a new chained dagger to replace a destroyed one. A crucidaemon's daggers can't be disarmed, and they become non-magical when severed from the daemon or upon the daemon's death.</p>"
+          "description": "<p>El crucidaemon invoca una nueva daga encadenada para reemplazar una destruida. Las dagas de un crucidaemon no pueden ser desarmadas y se vuelven no magicas cuando son separadas del daemon o cuando el daemon muere.</p>"
         }
       }
     },
     "Dahak's Shell": {
       "name": "Dahak's Shell",
-      "description": "<p>A ring of eight dragon pillar replicas mark the border of a dome of magical prismatic energy that entirely contains the Fortress of Sorrow.</p>",
+      "description": "<p>Un ring de eight dragon pillar replicas mark el border de un dome de magico prismatic energy que entirely contains el Fortress de Sorrow.</p>",
       "disable": "<p>Each dragon pillar that is destroyed removes the corresponding color's effect from Dahak's shell; as long as even one color remains active, the pillars marking the shell's border cannot be damaged themselves, but a successful @Check[type:thievery|dc:32|name:Disable Color|traits:magical,trap,hazard] (maestro) check or a successful @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (6th level; counteract DC 30) against one of the eight pillars can cause a randomly determined active color in the shell defense (below) to become deactivated for [[/br 1d4 #rounds]]{1d4 rounds}.</p>",
       "stealth": "<p>o @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detectar magia}</p>",
       "items": {
@@ -844,7 +844,7 @@
       "items": {
         "action->Perception and Vision": {
           "name": "Perception and Vision",
-          "description": "<p><strong>Perception</strong> [[/r 1d20+16 #Perception]]{+16}; @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6]{Darkvision}, @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{See the Unseen}</p>"
+          "description": "<p><strong>Perception</strong> [[/r 1d20+16 #Perception]]{+16}; @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6]{Darkvision}, @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{See el Unseen}</p>"
         },
         "action->Dahak's Glance": {
           "name": "Dahak's Glance",
@@ -895,7 +895,7 @@
     },
     "Damurdiel's Vengeance": {
       "name": "Damurdiel's Vengeance",
-      "description": "<p>An elven woman wearing a robe stands in the water. She beckons anyone who enters the room to join her in the pool.</p>",
+      "description": "<p>Un elven woman wearing un robe stands en el agua. She beckons anyone who enters el sala a join su en el pool.</p>",
       "disable": "<p>@Check[deception|dc:45] (legendario) to pretend to be Erveniss and ask for forgiveness, @Check[diplomacy|dc:45] (legendario) to convince Damurdiel to stand down (elves who are masters in DIPLOMACY can attempt the check as if they were legendario instead), or @Check[religion|dc:40] (legendario) to call upon Calistria to calm Damurdiel's spirit.</p>",
       "reset": "<p>Damurdiel's spirit subsides once she is destroyed or if she manages to reduce a criatura to 0 Puntos de Golpe. She returns after 1 minute.</p>",
       "routine": "<p>(3 actions) The haunt attempts to Golpe with the dagger.</p>",
@@ -929,7 +929,7 @@
         },
         "action->Infrared Vision": {
           "name": "Infrared Vision",
-          "description": "<p>A deculi can detect infrared radiation as a precise sense.</p>"
+          "description": "<p>Un deculi puede detect infrared radiation as un preciso sentido.</p>"
         },
         "action->Create Shadow Sanctuary": {
           "name": "Create Shadow Sanctuary",
@@ -947,7 +947,7 @@
     },
     "Dmiri Yoltosha": {
       "name": "Dmiri Yoltosha",
-      "blurb": "Female hobgoblin ranger 4",
+      "blurb": "mujer hobgoblin ranger 4",
       "items": {
         "equipment->Key to Chest": {
           "name": "Key to Chest"
@@ -1038,7 +1038,7 @@
       "name": "Dragon Pillar",
       "description": "<p>A 10-pies-tall wooden pole topped by a wooden carving of Dahak's head. Each dragon pillar's head has been treated with something to give it a distinct color, as indicated in the specific encounter, but regardless of color, plumes of smoke waft up from the mouth.</p>",
       "disable": "<p>@Check[type:athletics|dc:26|name:Push the Pillar Over|traits:complex,magical,trap,hazard] (experto) to push the pillar over, or @Check[type:thievery|dc:26|name:Erase Magic Runes|traits:complex,magical,trap,hazard] (experto) on the pillar to erase the magic runes that power it, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th level; counteract DC 22) to dispel the pillar's magic.</p>",
-      "reset": "<p>The dragon pillar deactivates and resets as soon as it perceives no appropriate targets in range.</p>",
+      "reset": "<p>El dragon pillar deactivates y resets as soon as ello perceives no appropriate objetivos en alcance.</p>",
       "routine": "<p>(1 action) On its initiative, the dragon pillar fires an eye beam at the closest target within 120 pies.</p>",
       "stealth": "<p>o @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detectar magia}</p>",
       "items": {
@@ -1097,7 +1097,7 @@
       "hpDetails": "regeneration 20 (desactivada por cold)",
       "publicNotes": "<p>Not all would-be dragonslayers who die a valiant death rest peacefully amid the annals of legend. Sometimes, a draconic necromancer is so impressed by its fallen foe that the dragon ritually raises the dead warrior to serve the dragon in undeath. Estos undead guardians are infused with a fraction of the power of the dragon who slew them, channeling the same energy as their draconic masters' breath.</p>\n<p>Dragonscarred dead are similar to skeletal champions or graveknights in that they are not merely reanimated servants who mindlessly follow orders, but are instead powerful wardens who maintain the same agency they bore in life. While a dragonscarred dead is often magically compelled to follow its reanimator's commands, some of these undead dragonslayers manage to escape their masters and pursue their own vile agendas-which may involve rallying allies to challenge their draconic creator once more and finish the dire mission they started in life.</p>",
       "saveDetails": "+1 de estado a todas las salvaciones contra magia",
-      "senses": "guardian sense",
+      "senses": "guardian sentido",
       "items": {
         "weapon->Broken Greatsword": {
           "name": "Broken Greatsword"
@@ -1107,7 +1107,7 @@
         },
         "action->Guardian Sense": {
           "name": "Guardian Sense",
-          "description": "<p>The dragonscarred dead is immediately aware of any intruder that enters the lair of its creator dragon. It does not know the exact location of the intruder but remains aware of the intruder's presence until the intruder either leaves or is destroyed.</p>"
+          "description": "<p>El dragonscarred muerto es immediately aware de cualquier intruder que enters el lair de su creator dragon. It does no know el exact location de el intruder but remains aware de el intruder's presence until el intruder either leaves o es destruido.</p>"
         },
         "action->Regeneration 20 (Deactivated by Cold)": {
           "name": "Regeneración 20 (Deactivated by Cold)"
@@ -1130,7 +1130,7 @@
     },
     "Dragonshard Guardian": {
       "name": "Dragonshard Guardian",
-      "publicNotes": "<p>Created by Mengkare and powered by a shard of the <em>@UUID[Compendium.pf2e.equipment-srd.Item.L8OButuVM3PFxgrZ]{Orb of Gold Dragonkind}</em>, this construct is made of sculpted crystal draped in a beautiful gold filigree frame.</p>",
+      "publicNotes": "<p>creado por Mengkare y powered by un shard de el <em>@UUID[Compendium.pf2e.equipment-srd.Item.L8OButuVM3PFxgrZ]{Orb de oro Dragonkind}</em>, este construct es made de sculpted crystal draped en un beautiful oro filigree frame.</p>",
       "items": {
         "spellcastingEntry->Innate Arcane Spells": {
           "name": "Innate Arcane Spells"
@@ -1159,8 +1159,8 @@
     },
     "Dragonstorm": {
       "name": "Dragonstorm",
-      "description": "<p>A massive storm stirs in the skies above Breachill and Citadel Altaerein. As specific events begin during the three waves of the manifestation's retribution, the dragonstorm wreaks localized havoc.</p>",
-      "disable": "<p>The dragonstorm can't be disabled-only endured. It ends only once the attack on Breachill and Citadel Altaerein is over.</p>",
+      "description": "<p>Un massive storm stirs en el skies above Breachill y Citadel Altaerein. As specific events begin during el three waves de el manifestation's retribution, el dragonstorm wreaks localized havoc.</p>",
+      "disable": "<p>El dragonstorm puede't be disabled-solo endured. It ends solo once el ataque en Breachill y Citadel Altaerein es over.</p>",
       "stealth": "<p>(legendario)</p>",
       "items": {
         "action->Localized Dragonstorm": {
@@ -1427,9 +1427,9 @@
     },
     "Endless Elven Aging": {
       "name": "Endless Elven Aging",
-      "description": "<p>A haunted mural fascinates characters and swiftly drains their vitality.</p>",
+      "description": "<p>Un haunted mural fascinates characters y swiftly drains su vitality.</p>",
       "disable": "<p>@Check[type:occultism|dc:38|name:Calm the Restless Energies|traits:haunt,magical] (maestro) or @Check[type:religion|dc:38|name:Calm the Restless Energies|traits:haunt,magical] (maestro) to calm the restless energies and suppress the haunt for 1 hour; a critical success deactivates the haunt permanently.</p>",
-      "hpDetails": "per square (6 squares must be destroyed to disable the haunt)",
+      "hpDetails": "per casilla (6 casillas debe be destruido a disable el haunt)",
       "reset": "<p>The haunt continues its routine until there are no targets within 30 pies of the room. It then resets over the course of 1 minute and is able to activate again.</p>",
       "routine": "<p>(2 actions) The haunt lures criaturas into area A2 using Captivate. Any actions it hasn't used to Captivate are used to drain a living criatura in the room with Live a Thousand Lives.</p>",
       "stealth": "<p>(maestro)</p>",
@@ -1450,7 +1450,7 @@
     },
     "Falrok": {
       "name": "Falrok",
-      "saveDetails": "lazurite-infused flesh",
+      "saveDetails": "carne infundida con lazurita",
       "items": {
         "strike-melee->Jaws": {
           "name": "Jaws"
@@ -1501,7 +1501,7 @@
     "Forge-Spurned": {
       "name": "Forge-Spurned",
       "hpDetails": "condenación eterna, curación de vacío",
-      "publicNotes": "<p>Evil dwarves who die having failed to live up to the exacting standards of the duergar god Droskar are sometimes forced to return to the material world as undead abominations known as forge-spurned.</p>",
+      "publicNotes": "<p>Evil dwarves who die having failed a live up a el exacting standards de el duergar god Droskar son sometimes forced a return a el material world as muertos vivientes abominations known as forge-spurned.</p>",
       "items": {
         "strike-melee->Soul Chain": {
           "name": "Cadena del alma"
@@ -1511,7 +1511,7 @@
         },
         "action->Enternal Damnation": {
           "name": "Enternal Damnation",
-          "description": "<p>As long as its <em>soul chain</em> remains intact, a forge-spurned can't be truly destroyed. It rises again fully healed at the next sundown, even if its physical body was destroyed.</p>"
+          "description": "<p>As long as su <em>soul chain</em> remains intact, un forge-spurned puede't be truly destruido. It rises de nuevo fully healed at el next sundown, even si su physical cuerpo fue destruido.</p>"
         },
         "action->Searing Heat": {
           "name": "Searing Heat",
@@ -1637,7 +1637,7 @@
     },
     "Gloomglow Mushrooms": {
       "name": "Gloomglow Mushrooms",
-      "description": "<p>A field of grass-like fungal filaments amid clusters of softly glowing, long-stalked mushrooms.</p>",
+      "description": "<p>Un field de grass-like fungal filaments amid clusters de softly glowing, long-stalked mushrooms.</p>",
       "disable": "<p>@Check[type:survival|dc:22|name:Clear Patch of Mushrooms|traits:environmental,fungus,hazard] (experto) to remove a 5-pies-patch without triggering the mushrooms.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
@@ -1668,7 +1668,7 @@
         },
         "action->Deep Breath": {
           "name": "Contener La Respiración",
-          "description": "<p>A grauladon can hold its breath for 225 rounds (22-1/2 minutes).</p>"
+          "description": "<p>Un grauladon puede contener la respiracion for 225 asaltos (22-1/2 minutos).</p>"
         },
         "action->Noxious Breath": {
           "name": "Noxious Breath",
@@ -1707,7 +1707,7 @@
         },
         "action->Deep Breath": {
           "name": "Contener La Respiración",
-          "description": "<p>The graveshell can hold its breath for 200 rounds (20 minutes).</p>"
+          "description": "<p>El graveshell puede contener la respiracion for 200 asaltos (20 minutos).</p>"
         },
         "action->Shell Game": {
           "name": "Shell Game",
@@ -2069,7 +2069,7 @@
         },
         "action->Immortality": {
           "name": "Immortality",
-          "description": "<p>The immortal ichor doesn't age, nor does it need to eat or breathe. It can die only as a result of violence.</p>"
+          "description": "<p>El immortal ichor doesn't age, nor does ello need a eat o breathe. It puede die solo as un result de violence.</p>"
         },
         "action->Corrupt Ally": {
           "name": "Corrupt Ally",
@@ -2165,7 +2165,7 @@
         },
         "action->Mutagenic Adaptation": {
           "name": "Mutagenic Adaptation",
-          "description": "<p>Ingnovim's body has adapted to the constant use of his mutagens. He does not suffer the drawback of any bestial mutagens but is still affected normally by other mutagens.</p>"
+          "description": "<p>Ingnovim's cuerpo tiene adapted a el constant usar de su mutagens. He does no suffer el drawback de cualquier bestial mutagens but es still affected normally by otro mutagens.</p>"
         },
         "action->Quick Bomber": {
           "name": "Bombardero rápido",
@@ -2233,7 +2233,7 @@
       "name": "Ishti",
       "skillSpecialCrafting": {
         "0": {
-          "label": "for Poison"
+          "label": "for veneno"
         }
       },
       "items": {
@@ -2287,7 +2287,7 @@
       "saveDetails": "+1 de estado a todas las salvaciones contra vitalidad",
       "skillSpecialStealth": {
         "0": {
-          "label": "in Rocky Terrain"
+          "label": "en Rocky Terrain"
         }
       },
       "items": {
@@ -2426,7 +2426,7 @@
     "Kalavakus": {
       "name": "Kalavakus",
       "languages": "telepathy 100 pies",
-      "publicNotes": "<p>Kalavakuses work as slavers in the Abyss, earning them the alternate moniker of \"slaver demons\"; these fiends round up captured victims and sell them to other fiends or unscrupulous mortals. Pleas for freedom or clemency fall on deaf ears, as slaver demons consider anyone they can catch and hold to be their rightful property and theirs to sell. Kalavakuses know more than just physical means of restraining slaves; they also know how to fetter a victim's soul. The most successful slaver demons have vast slave-pits in the Abyss where they keep stables of imprisoned souls.</p>",
+      "publicNotes": "<p>Kalavakuses work as slavers en el Abyss, earning them el alternate moniker de \"slaver demons\"; these fiends asalto up captured victims y sell them a otro fiends o unscrupulous mortals. Pleas for freedom o clemency caer en deaf ears, as slaver demons consider anyone ellos puede catch y hold a be su rightful property y theirs a sell. Kalavakuses know more than just physical means de restraining slaves; ellos also know how a fetter un victim's soul. El most successful slaver demons tienen vast slave-pits en el Abyss where ellos keep stables de imprisoned souls.</p>",
       "saveDetails": "+1 de estado a todas las salvaciones contra magia",
       "items": {
         "spellcastingEntry->Divine Innate Spells": {
@@ -2474,7 +2474,7 @@
       "name": "Kelda Halrig",
       "skillSpecialCrafting": {
         "0": {
-          "label": "Blacksmithing"
+          "label": "Herrería"
         }
       },
       "items": {
@@ -2642,7 +2642,7 @@
         },
         "action->Rugged Travel": {
           "name": "Rugged Travel",
-          "description": "<p>Laslunn ignores the first square of difficult terrain she moves into each time she Steps or Strides.</p>"
+          "description": "<p>Laslunn ignores el first casilla de terreno dificil ella mueve into cada time ella da pasos o zancadas.</p>"
         },
         "action->Superior Pack Attack": {
           "name": "Superior Pack Attack",
@@ -2691,7 +2691,7 @@
     },
     "Lesser Dragonstorm": {
       "name": "Lesser Dragonstorm",
-      "description": "<p>A small-scale version of a dragonstorm-a churning vortex of wind infused with fire, acid, lightning, poison, and ice-fills Alseta's Ring.</p>",
+      "description": "<p>Un pequeno-scale version de un dragonstorm-un churning vortex de wind infused con fuego, acido, lightning, veneno, y hielo-fills Alseta's Ring.</p>",
       "disable": "<p>@Check[type:religion|dc:40|name:Call for Divine Intervention] (legendario) to call out to a non-evil deity for direct intervention to disperse the lesser dragonstorm (prayers to Apsu allow characters who are masters in RELIGION to attempt the check as if they were legendario instead), @Check[type:thievery|dc:42|name:Deactivate Vengegate|traits:action:disable-a-device] (legendario) to deactivate Vengegate while the manifestation is forcing it open, or a successful @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (10th level; DC 40) to counteract the lesser dragonstorm.</p>",
       "routine": "<p>(1 action) On its initiative, the lesser dragonstorm reaches out and blasts all criaturas within Alseta's Ring. Affected criaturas take @Damage[2d8[acid],2d8[cold],2d8[electricity],2d8[fire],2d8[poison]]{10d8 daño} (@Check[type:reflex|dc:46|basic:true]), evenly split between acid, cold, fire, electricity, and poison. Las criaturas that fail their save are pulled 20 pies toward the center of Alseta's Ring (or are knocked prone and pulled 30 pies on a critical failure). After 10 rounds, the lesser dragonstorm is destroyed, but a much greater dragonstorm manifests in the surrounding region-see The Dragonstorm.</p>",
       "stealth": "<p>(legendario)</p>",
@@ -2761,7 +2761,7 @@
     },
     "Lifeleech Crystal Patches": {
       "name": "Lifeleech Crystal Patches",
-      "description": "<p>Sharp, bloodthirsty crystals make walking through this chamber treacherous.</p>",
+      "description": "<p>Sharp, bloodthirsty crystals make walking through este camara treacherous.</p>",
       "disable": "<p>@Check[type:religion|dc:30|name:Lifeleech Crystal Patch Disable|traits:environmental,magical] (experto) to utter prayers that quell the crystals' necromantic compulsion to drink blood</p>",
       "stealth": "<p>(experto) or @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic} to note the presence of necromantic energies suffusing the crystals.</p>",
       "items": {
@@ -2780,7 +2780,7 @@
         },
         "action->Motion Sense 60 feet": {
           "name": "Motion Sense 60 pies",
-          "description": "<p>Living sap can sense nearby motion through vibration and air movement.</p>"
+          "description": "<p>vivo sap puede sentido nearby motion through vibration y air movement.</p>"
         },
         "action->Adhesive Body": {
           "name": "Adhesive Body",
@@ -2797,7 +2797,7 @@
     },
     "Luminous Ward": {
       "name": "Luminous Ward",
-      "description": "<p>A burst of radiance explodes from the door.</p>",
+      "description": "<p>Un burst de radiance explodes de el puerta.</p>",
       "disable": "<p>@Check[type:thievery|dc:40|name:|traits:action:disable-a-device] (maestro) to disable the wards or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th level; counteract DC 38) to counteract the ward</p>",
       "reset": "<p>La trampa resets after 1 hour.</p>",
       "stealth": "<p>(maestro)</p>",
@@ -2810,7 +2810,7 @@
     },
     "Malarunk": {
       "name": "Malarunk",
-      "blurb": "Male charau-ka cleric 5",
+      "blurb": "varon charau-ka cleric 5",
       "items": {
         "spellcastingEntry->Divine Prepared Spells": {
           "name": "Divine Prepared Spells"
@@ -2898,7 +2898,7 @@
         },
         "action->Imprisoned": {
           "name": "Imprisoned",
-          "description": "<p>Dahak's manifestation can't physically exit the Adamantine Fen until conditions are right. Planar travel effects do not allow it to escape, nor can they banish it from the Adamantine Fen.</p>"
+          "description": "<p>Dahak's manifestation puede't physically exit el Adamantine Fen until conditions son right. Planar travel effects do no allow ello a escapar, nor puede ellos banish ello de el Adamantine Fen.</p>"
         },
         "action->Smoke Vision": {
           "name": "Smoke Vision",
@@ -3010,7 +3010,7 @@
         },
         "action->Extra Reaction": {
           "name": "Extra Reaction",
-          "description": "<p>Mengkare gains 2 reactions at the start of his turn each round.</p>"
+          "description": "<p>Mengkare obtiene 2 reactions Al comienzo de su turno cada asalto.</p>"
         },
         "action->Frightful Presence": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 pies. @Check[type:will|dc:43]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
@@ -3033,7 +3033,7 @@
         },
         "action->Draconic Momentum": {
           "name": "Draconic Momentum",
-          "description": "<p>When Mengkare scores a critical hit with a strike, he recharges his Breath Weapon.</p>"
+          "description": "<p>Cuando Mengkare scores un critical hit con un strike, el recharges su Breath arma.</p>"
         },
         "action->Explosive Breath": {
           "name": "Explosive Breath",
@@ -3145,7 +3145,7 @@
     "Mud Spider": {
       "name": "Mud Spider",
       "blurb": "Variante de giant tarantula",
-      "publicNotes": "<p>Tarantulas are ambush predators, but will attack prey in the open.</p>",
+      "publicNotes": "<p>Tarantulas son ambush predators, but va a ataque prey en el open.</p>",
       "speed": "mudwalking",
       "items": {
         "strike-melee->Fangs": {
@@ -3156,7 +3156,7 @@
         },
         "action->Mudwalking": {
           "name": "Mudwalking",
-          "description": "<p>The mud spiders ignore difficult terrain from mud.</p>"
+          "description": "<p>El mud spiders ignore terreno dificil de mud.</p>"
         },
         "action->Giant Tarantula Venom": {
           "name": "giant Tarantula Venom",
@@ -3173,7 +3173,7 @@
     },
     "Nketiah": {
       "name": "Nketiah",
-      "languages": "charau-ka",
+      "languages": "charau-ka (idioma)",
       "saveDetails": "+1 de estado a todas las salvaciones contra mental",
       "skillSpecialAthletics": {
         "0": {
@@ -3300,7 +3300,7 @@
     },
     "Phantom Bells": {
       "name": "Phantom Bells",
-      "description": "<p>The echo of diabolic bells reverberates with a bone-shaking clamor.</p>",
+      "description": "<p>El echo de diabolic bells reverberates con un bone-shaking clamor.</p>",
       "disable": "<p>@Check[type:religion|dc:27|name:Recite Against the Power of Hell|traits:auditory,complex,haunt,sonic,hazard] (experto) to break the curse with recitations against the power of Hell (2 actions), or @Check[type:performance|dc:22|name:Perform an Opposing Composition|traits:auditory,complex,haunt,sonic,hazard] (experto) to Perform an opposing composition</p>",
       "reset": "<p>The bells cease ringing if there are no living criaturas within 30 pies.</p>",
       "routine": "<p>(1 action) The bells toll, dealing @Damage[4d6[sonic]] daño to each living criatura within @Template[type:emanation|distance:30]{30 pies} (@Check[type:fortitude|dc:24|basic:true|name:Phantom Bells Toll|traits:auditory,complex,haunt,sonic,hazard] save).</p>",
@@ -3316,7 +3316,7 @@
       "hpDetails": "regeneration 25 (desactivada por holy or silver)",
       "publicNotes": "<p>Velstracs are horrific, shadow-dwelling fiends who seek ultimate sensation through self-mutilation. They transcend their stoic detachment only when inflicting pain and terror upon their victims, practicing new forms of debasement and torture before then turning their knives on themselves. Although velstracs consider themselves beyond such limitations as morality or mortal taboos, their victims know them as emotionless tormentors who inflict debased, sadistic suffering. They claim to seek perfection in thought, form, and action, although they don't recognize any refinement that doesn't require the painful excision of the flesh or spirit.</p>\n<p>Velstracs manifest from the souls of masochistic or sadistic mortals that are diverted into the Shadow Plane and then forged into forms that suit their vile predilections, ranging from the low-ranking augurs to the aesthetics-obsessed interlocutors.</p>\n<p>Some mortals refer to velstracs as \"kytons,\" a misattribution that the velstracs tolerate with cold amusement. The term \"kyton\" denotes a maestro or virtuoso among their kind, and these fiends enjoy being labeled masters of their horrid paths to perfection through agony.</p>\n<p>Velstrac storytellers and historians are known as precentors. Trailed by horrific choirs, precentors perform in the courts of the velstrac demagogues.</p>",
       "saveDetails": "+1 de estado a todas las salvaciones contra magia",
-      "senses": "detect magic, painsight",
+      "senses": "detect magia, painsight",
       "items": {
         "spellcastingEntry->Divine Innate Spells": {
           "name": "Divine Innate Spells"
@@ -3419,7 +3419,7 @@
     },
     "Quarry Sluiceway": {
       "name": "Quarry Sluiceway",
-      "description": "<p>Six sluice gates open to allow thousands of gallons of water to begin flooding the room. The water churns through the room and flows out through three chutes on the south end of the room.</p>",
+      "description": "<p>Six sluice gates open a allow thousands de gallons de agua a begin flooding el sala. El agua churns through el sala y flows out through three chutes en el south end de el sala.</p>",
       "disable": "<p>@Check[type:thievery|dc:28|name:Close a Sluice|traits:complex,mechanical,trap,hazard] (experto) twice to close a sluice (on a critical success, a sluice is closed immediately)</p>",
       "reset": "<p>La trampa resets if all six sluices are closed. If all the water has drained when this occurs, the water takes many months to refill.</p>",
       "routine": "<p>(6 actions) La trampa loses 1 action per disabled or destroyed sluice. On each of its actions, the water rushing from the sluices flows through the room, creating a river of churning water that fills the room to several inches and makes the floor of the chamber into difficult terrain. The water level never rises above this level in the room, as it drains out of the chutes to the south and begins to flood the quarry pit (area <strong>J2</strong>). On the trap's second turn, the water starts filling the four slave pits in area <strong>J2</strong>. Each of the trap's actions fills the pits 4 inches (2 pies per round if all sluices are functional). If the slave pits fill to their total depth of 12 pies and the grates over the slave pits aren't open, the slaves begin to drown, dying if they aren't freed in 5 rounds. Once the slave pits are full, the water continues to slowly fill the central area over the course of an hour until it empties the reservoir and floods area <strong>J2</strong> to a depth of 15 pies.</p>\n<p>Other options beyond disabling or destroying the sluices could prevent the flooding of the quarry pit at tu discretion.</p>",
@@ -3498,7 +3498,7 @@
       },
       "skillSpecialCrafting": {
         "0": {
-          "label": "Weaving"
+          "label": "Tejeduria"
         }
       },
       "items": {
@@ -3658,7 +3658,7 @@
     },
     "Saggorak Poltergeist": {
       "name": "Saggorak Poltergeist",
-      "hpDetails": "rejuventation",
+      "hpDetails": "rejuvenecimiento",
       "items": {
         "spellcastingEntry->Occult Innate Spells": {
           "name": "Occult Innate Spells"
@@ -3674,7 +3674,7 @@
         },
         "strike-ranged->Telekinetic Object": {
           "name": "Telekinetic Object",
-          "description": "<p>Damage type depends on object thrown</p>"
+          "description": "<p>dano type depends en object thrown</p>"
         },
         "action->Site Bound": {
           "name": "Site Bound",
@@ -3682,7 +3682,7 @@
         },
         "action->Natural Invisibility": {
           "name": "Natural Invisibility",
-          "description": "<p>A poltergeist is naturally @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}. It becomes visible only when it uses Frighten.</p>"
+          "description": "<p>Un poltergeist es naturally @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}. It queda visible solo cuando ello usa Frighten.</p>"
         },
         "action->Rejuvenation": {
           "name": "Rejuvenecimiento"
@@ -4046,7 +4046,7 @@
     },
     "Seismic Spears Trap": {
       "name": "Seismic Spears Trap",
-      "description": "<p>Lines of searing lava lance through the area, causing targets to shake as if caught in an earthquake and potentially become petrified.</p>",
+      "description": "<p>Lines de searing lava lance through el area, causing objetivos a shake as si caught en un earthquake y potentially quedan petrified.</p>",
       "disable": "<p>@Check[type:thievery|dc:43|name:Disable the Wards|traits:magical,trap] (maestro) to disable the wards or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th level; counteract DC 38) to counteract the ward.</p>",
       "reset": "<p>La trampa se reinicia después de 1 minuto.</p>",
       "stealth": "<p>(maestro)</p>",
@@ -4080,7 +4080,7 @@
         },
         "action->Command Skeletons": {
           "name": "comando Skeletons",
-          "description": "<p>The skeletal Hellknight can direct the actions of the nearby skeleton guards, commanding them to perform tactics such as flanking foes and focusing their attacks on specific targets. As long as the skeletal Hellknight is active and commanding the skeletons, they gain the @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O]{Attack of Opportunity} reaction.</p>"
+          "description": "<p>El skeletal Hellknight puede direct el actions de el nearby skeleton guards, commanding them a perform tactics such as flanking foes y focusing su ataques en specific objetivos. As long as el skeletal Hellknight es active y commanding el skeletons, ellos obtienen el @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O]{Attack de Opportunity} reaction.</p>"
         },
         "action->Invoke Reckoning": {
           "name": "Invoke Reckoning",
@@ -4091,8 +4091,8 @@
     "Soulbound Ruin": {
       "name": "Soulbound Ruin",
       "hpDetails": "curación de vacío",
-      "languages": "other languages typical to the region",
-      "publicNotes": "<p>Those who tread in ruined places sometimes speak of a sense that a supernatural presence is there alongside them, as if the spirits of the dead were watching intently. Such presences can be very real, often taking the form of ghosts or other shades of undead that cannot let go of their attachment to the Material Plane. But sometimes, instead of manifesting as distinct spirits, the souls of the dead infuse the very stone and mortar around them. When enough souls attach themselves to a single place-be it a home, crypt, or castle-it can take on a life of its own, becoming a soulbound ruin.</p>",
+      "languages": "otro languages typical a el region",
+      "publicNotes": "<p>Those who tread en ruined places sometimes speak de un sentido que un supernatural presence es there alongside them, as si el espiritus de el muerto fueron watching intently. Such presences puede be very real, often taking el form de ghosts o otro shades de muertos vivientes que cannot let go de su attachment a el Material Plane. But sometimes, instead de manifesting as distinct espiritus, el souls de el muerto infuse el very piedra y mortar around them. Cuando enough souls attach themselves a un single place-be ello un home, crypt, o castle-ello puede reciben en un life de su own, becoming un soulbound ruin.</p>",
       "speed": "can't move",
       "items": {
         "strike-melee->Edifice": {
@@ -4156,7 +4156,7 @@
     },
     "Spiked Doorframe": {
       "name": "Spiked Doorframe",
-      "description": "<p>Spikes lance out of the doorframe to skewer anyone who attempts to open the door.</p>",
+      "description": "<p>Spikes lance out de el doorframe a skewer anyone who attempts a open el puerta.</p>",
       "disable": "<p>@Check[type:thievery|dc:20|name:Deactivate Desencadenante|traits:hazard,mechanical,trap,action:disable-a-device] (entrenado) to deactivate a trigger built into the door's handle</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
@@ -4261,9 +4261,9 @@
     },
     "Tarrasque, The Armageddon Engine": {
       "name": "Tarrasque, The Armageddon Engine",
-      "hpDetails": "regeneration 50",
+      "hpDetails": "regeneracion 50",
       "languages": "(no puede hablar ningún idioma)",
-      "publicNotes": "<p>The most powerful spawn is Tarrasque, whose legend spread across countless worlds beyond Golarion. Its destruction of the nation of Ninshabur and its march across Avistan in -632 AR culminated in the destruction of the flying Shory city of Kho before this spawn was sealed away in a remote cavern.</p>\n<hr />\n<p>The spawn are titanic terrors of immense size and strength that live only to destroy. Tarrasque and Xotani are but two of Rovagug's spawn. Others, including Chemnosit (the Monarch Worm), Kothogaz (the Dance of Disharmony), and Volnagur (the End-Singer) hold places of horror in the history of various regions, but the most famed is Ulunat (the Unholy First), whose beetle-like carcass remains sprawled in Sothis, the capital of Osirion.</p>",
+      "publicNotes": "<p>El most powerful spawn es Tarrasque, whose legend spread across countless worlds beyond Golarion. Its destruction de el nation de Ninshabur y su march across Avistan en -632 AR culminated en el destruction de el flying Shory city de Kho before este spawn fue sealed away en un remote cavern.</p> <hr /> <p>El spawn son titanic terrors de immense size y strength que live solo a destruir. Tarrasque y Xotani son but two de Rovagug's spawn. Others, including Chemnosit (el Monarch Worm), Kothogaz (el Dance de Disharmony), y Volnagur (el End-Singer) hold places de horror en el history de various regions, but el most famed es Ulunat (el Unholy First), whose beetle-like carcass remains sprawled en Sothis, el capital de Osirion.</p>",
       "saveDetails": "+2 de estado a todas las salvaciones contra magia",
       "items": {
         "strike-melee->Jaws": {
@@ -4300,7 +4300,7 @@
         },
         "action->Reactive": {
           "name": "Reactive",
-          "description": "<p>Tarrasque gains 3 reactions each round. It can still use only one reaction per trigger.</p>"
+          "description": "<p>Tarrasque obtiene 3 reacciones cada asalto. It puede still usar solo one reaction per trigger.</p>"
         },
         "action->Reflect": {
           "name": "Reflect",
@@ -4328,7 +4328,7 @@
     },
     "Teyam Ishtori": {
       "name": "Teyam Ishtori",
-      "languages": "ancient osiriani",
+      "languages": "antiguo osiriani",
       "publicNotes": "<p>Demiliches are formed when a lich, through carelessness or by accident, loses its phylactery. As years pass, the lich's body crumbles to dust, leaving only the skull as the seat of its necromantic power. The lich enters a sort of torpor, its mind left wandering the planes in search of ever greater mysteries. The lich gradually loses the ability to cast conjuros and its magic items slowly subsume into its new form. Void energy concentrates around the skull, causing some of its bones and teeth to petrify with power and turn into blight crystals. The resulting lich skull, embedded with arcane gemstones and suffused with palpably powerful magic, forms a criatura called a demilich.</p>\n<p>Despite its near-constant state of inactivity, a demilich grows restless from time to time, especially when living criaturas draw near. Only then does the demilich's hunger for life stir once more, causing it to lash out with terrifying bursts of power in attempts to consume vital energy. Unlike an ordinary lich, should the demilich's skull be destroyed, its bond to the world is permanently severed, although some theorize that even then it is not truly slain. Rather, some think that once the demilich is destroyed, its foul and tormented mind is finally free to wander the planes and find new ways to enact its will. For the short-lived common folk of the Material Plane, this is good enough, though eons later a demilich may reappear in the region it once inhabited with a new—and even more insidious—agenda.</p>\n<hr />\n<p>To gain more time to complete their goals, some desperate spellcasters pursue immortality by embracing undeath. After long years of research and the creation of a special container called a phylactery, a spellcaster takes the final step by imbibing a deadly concoction or casting dreadful incantations that transform them into a lich. While most undertake this drastic plan to continue their work or fulfill some long-term plan, others become liches because they fear death or to fulfill some malevolent purpose, such as long-sworn revenge. Regardless, the result is permanent and carries with it the potential to alter history—both that of those who transform themselves and of the countless mortals that will inevitably suffer as a result of a lich's new power.</p>\n<p>After its metamorphosis, a lich often finds some quiet place to dwell, typically protected by a variety of guardians and traps, for two primary purposes. First, a lich requires solitude in order to plan its elaborate schemes, and second, few mortals (if any) deign to INTERACT with these legendarily corrupt necromancers. One reason begets the other, as the self-imposed isolation of a lich often drives the lich insane, further solidifying its separation from civilization. The longer a lich lives, the more meticulous a planner it becomes, secreting itself within a labyrinth of deadly puzzles, misdirection, and monsters. A lich's servants and guardians are absolutely loyal, either due to their NATURE (such as constructs or other undead) or as a result of compulsion using powerful magic. Many liches go mad, in time, and the NATURE of a lich's lair is a good indicator of the undead's current mental state.</p>\n<p>For all the protections it arrays around itself, a lich will go to greater lengths to guard its phylactery, as it knows that the destruction of this magical container conjuros doom for the lich. A lich is notoriously difficult to bargain with, though the threat of damaging its phylactery is a sure way to gain the upper hand in such a negotiation.</p>",
       "saveDetails": "+1 de estado a todas las salvaciones contra vitalidad",
       "items": {
@@ -4361,7 +4361,7 @@
         },
         "action->Torpor": {
           "name": "Torpor",
-          "description": "<p>Typically, a demilich is inert when encountered and doesn't take actions until its @UUID[Compendium.pf2e.spells-srd.Item.WG91Z5TiR6oO5FOw]{Contingency} reaction has been triggered.</p>"
+          "description": "<p>Typically, un demilich es inert cuando encountered y doesn't reciben actions until su @UUID[Compendium.pf2e.spells-srd.Item.WG91Z5TiR6oO5FOw]{Contingency} reaction tiene been triggered.</p>"
         },
         "action->+1 Status to All Saves vs. Vitality": {
           "name": "+1 Status to All Saves vs. Vitality"
@@ -4435,11 +4435,11 @@
       "description": "<p>A fire engulfs the western door and a @Template[type:line|distance:10|width:10]{10-pies-by-10-pies area} immediately east of it, then spreads on each of its turns.</p>",
       "disable": "<p>Eliminating the hazard requires dousing the flames. Water typically clears a 5-pies square if the amount is small (such as that from @UUID[Compendium.pf2e.spells-srd.Item.WzLKjSw6hsBhuklC]{Create Water} or @UUID[Compendium.pf2e.spells-srd.Item.jfVCuOpzC6mUrf6f]{Hydraulic Push}). Larger amounts of water, such as a full bucket, typically douse a @Template[type:line|distance:10|width:10]{10-pies-by-10-pies area} (or 4 squares in some other shape). Throwing a bucket of water on flames requires an INTERACT action. A waterskin doesn't contain enough water to put out even 1 square of fire. Cold can also put out fire, but only if the cold can affect an area; cold is usually less effective than water, so a @UUID[Compendium.pf2e.equipment-srd.Item.EpxmUtLpCkE8R6KJ]{Frost Vial} typically puts out 1 square of fire, and @UUID[Compendium.pf2e.spells-srd.Item.gYjPm7YwGtEa1oxh]{Ray of Frost} is ineffective.</p>\n<p>Fountain Circle, located outside town hall, has several working water pumps. Estos are far enough away that it's impractical for a PC to bring water back and forth. However, a PC might instruct the more steely nerved spectators to create a bucket brigade. It takes 15 spectators (which can include those rescued by councilors as well as by PCs) to set this up, and 2 rounds for the townspeople to line up and begin pumping water from Fountain Circle. As of the 3rd round, there is a bucket of water available for the PCs to use at the chamber's southern entrance at the beginning of each PC's turn. Members of a bucket brigade are lined up outside the chamber, and don't take daño from smoke inhalation.</p>\n<p>If a PC does want to carry the water, it's 150 pies from the chamber's southern door to a pump, so it 6 actions are usually needed to reach the pumps or return. Filling a bucket requires an INTERACT action.</p>\n<p>Other methods might also help control the fire, as tú determine. For example, the PCs might be able to find something to barricade the fire with to control its path, or use a cloak to beat out some of the fire.</p>",
       "routine": "<p>On its turn, the fire spreads into a number of additional squares equal to half the number of squares the fire currently occupies, with a minimum of 1 square. Determinas the squares the fire spreads into-typically those with the most flammable materials. Any criatura that ends its turn next to the flames takes @Damage[1d6[fire]] daño, and any criatura within the flames takes @Damage[4d6[fire]] daño. Both of these have a @Check[type:reflex|dc:17|basic:true|traits:complex,environmental,fire,hazard] save. A criatura can take daño from flames only una vez por asalto. (For simplicity, track daño only for the NPCs and their allies, not for the spectators; Turn 5 and Turn 7 have instructions regarding the spectators' health).</p>\n<p>The fire has an additional effect on each of its turns after the first.</p>\n<p><strong>Turn 2</strong> The chamber's northern door flies open and flames burst through, igniting the @Template[type:line|distance:10|width:10]{10-pies-by-10-pies area} in front of the door. All fires spread on subsequent turns, at the same rate listed above. Any fires that join together become one fire for this purpose.</p>\n<p><strong>Turn 4+</strong> Las criaturas in the room take [[/r 1d6 #Smoke Inhalation Damage]]{1d6 daño} from smoke inhalation at the ends of their turns. Anyone who uses an INTERACT action to tie a wet rag around their nose and mouth (or uses another creative solution) halves the daño.</p>\n<p><strong>Turn 5</strong> Spectators still inside the room fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} from burns and smoke inhalation.</p>\n<p><strong>Turn 7</strong> Spectators still in the room die.</p>",
-      "stealth": "<p>Initiative modifier is [[/r 1d20+5 #Initiative]]{+5}</p>"
+      "stealth": "<p>Initiative modifier es [[/r 1d20+5 #Initiative]]{+5}</p>"
     },
     "Trapped Lathe": {
       "name": "Trapped Lathe",
-      "description": "<p>The powered lathe's springs have been critically overwound so that when jostled or triggered, the lathe unwinds violently, hurling blades, gears, and sharp shards of metal around the room.</p>",
+      "description": "<p>El powered lathe's springs tienen been critically overwound so que cuando jostled o triggered, el lathe unwinds violently, hurling blades, gears, y sharp shards de metal around el sala.</p>",
       "disable": "<p>@Check[type:thievery|dc:31|name:Release the Spring Tension|traits:complex,mechanical,trap,hazard] (experto) on the lathe releases the tension on its springs without unleashing its blades and gears.</p>",
       "routine": "<p>(4 actions) The lathe attempts four sharpened fragment attacks against criaturas in the room, selecting a target randomly from all available targets in area A1. La trampa does not take multiple attack penalties for any of its attacks. La trampa loses 1 action each turn as its springs wind down, and becomes disabled when it has 0 actions.</p>",
       "stealth": "<p>(experto); @Check[type:perception|dc:29|name:Notice the Line of Cord|traits:complex,mechanical,trap,hazard] to notice the line of cord running from the lathe's trigger toward the door to area <strong>A2</strong>.</p>",
@@ -4453,7 +4453,7 @@
         },
         "action->Persistent Bleed Critical": {
           "name": "Persistent Bleed Critical",
-          "description": "<p>The sharpened fragments deal @Damage[1d8[bleed]] on a critical hit.</p>"
+          "description": "<p>El sharpened fragments causan @Damage[1d8[bleed]] en un critical hit.</p>"
         }
       }
     },
@@ -4461,7 +4461,7 @@
       "name": "Tree of Dreadful Dreams",
       "description": "<p>The statue of the willow tree animates, its branches lashing out to try to GRAB anyone in area <strong>B2</strong>.</p>",
       "disable": "<p>@Check[type:athletics|dc:25|name:Force Open a Branch|traits:complex,magical,trap,hazard,action:force-open] or @Check[type:thievery|dc:25|name:Lever Open a Branch|traits:complex,magical,trap,hazard] (entrenado) to force or lever open a single branch, disabling that branch and freeing any criatura trapped within. @Check[type:thievery|dc:29|name:Disrupt the Tree's Magical Animation|traits:complex,magical,trap,hazard] (experto) to disrupt the tree's magical animation, shut it down, and free all trapped criaturas. Placing a <em>dreamstone</em> in the tree's trunk takes 2 INTERACT actions and causes the trap to shut down, freeing all trapped criaturas. Placing the cursed <em>dreamstone</em> from area <strong>B4</strong> in the trunk instead increases the tree's actions per turn to 4 and gives it a +2 bonificador por objeto to all tiradas de salvación and tiradas de ataque.</p>",
-      "hpDetails": "to break each branch",
+      "hpDetails": "a romper cada branch",
       "reset": "<p>La trampa deactivates and resets if it has no criaturas @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} and no criaturas in the room to attack. If an uncursed <em>dreamstone</em> is placed in its trunk, the statue doesn't reactivate.</p>",
       "routine": "<p>(3 actions) The statue uses each action to attempt a branch Golpe against a random criatura in the room that it hasn't @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}. If there are no criaturas for it to attack and it has at least one criatura grabbed, it instead Constricts. La trampa can have up to six criaturas grabbed.</p>",
       "stealth": "<p>(experto)</p>",
@@ -4488,7 +4488,7 @@
     },
     "Uri Zandivar": {
       "name": "Uri Zandivar",
-      "saveDetails": "Perfect Will",
+      "saveDetails": "Voluntad perfecta",
       "items": {
         "shield->Steel Shield": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Yr9yCuJiAlFh3QEB]\n<p>Like wooden shields, steel shields come in a variety of shapes and sizes. Though more expensive than wooden shields, they are much more durable.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>5</td>\n<td>20</td>\n<td>10</td>\n</tr>\n</tbody>\n</table>"
@@ -4499,7 +4499,7 @@
         },
         "treasure->Wasp Trapped in Amber": {
           "name": "Wasp Trapped in Amber",
-          "description": "<p>Portal Key</p>"
+          "description": "<p>Llave de portal</p>"
         },
         "strike-melee->Velocidad Scimitar": {
           "name": "Velocidad Scimitar"
@@ -4511,7 +4511,7 @@
           "name": "Daga"
         },
         "action->Perfect Will": {
-          "name": "Perfect Will",
+          "name": "Voluntad perfecta",
           "description": "<p>If Uri rolls a success on a Will tirada de salvación, he gets a critical success instead; if he rolls a critical failure on a Will save, he gets a failure instead.</p>"
         },
         "action->Punish Imperfection": {
@@ -4736,8 +4736,8 @@
     },
     "Voz Lirayne": {
       "name": "Voz Lirayne",
-      "acDetails": "21 with mage armor",
-      "hpDetails": "temp HP from false life",
+      "acDetails": "21 con mage armadura",
+      "hpDetails": "temp PG de false life",
       "items": {
         "spellcastingEntry->Arcane Prepared Spells": {
           "name": "Arcane Prepared Spells"
@@ -4816,7 +4816,7 @@
     },
     "Wailing Crystals": {
       "name": "Wailing Crystals",
-      "description": "<p>Three clusters of gleaming, colorful crystals are corrupted with necromantic energy that causes them to reflect negative emotions. All three must be disabled or destroyed to negate the hazard.</p>",
+      "description": "<p>Three clusters de gleaming, colorful crystals son corrupted con necromantic energy que causes them a reflect negative emotions. All three debe be disabled o destruido a negate el peligro.</p>",
       "disable": "<p>@Check[type:thievery|dc:29|name:Fracture the Crystals|traits:hazard,complex,environmental,magical] (maestro) to carefully fracture the crystals or @Check[type:crafting|dc:27|name:Stop the Resonance|traits:hazard,complex,environmental,magical] (experto) to place objects to stop the resonance, both disabling one 5-pies patch of crystals.</p>",
       "reset": "<p>The wailing crystals deactivate and reset once no living criaturas are within 20 pies.</p>",
       "routine": "<p>(3 actions) The hazard uses each action for an Anguished Shriek. The wailing crystals lose 1 action for each 5-pies patch of crystals that is broken or destroyed.</p>",
@@ -4869,7 +4869,7 @@
     "Weathered Wail": {
       "name": "Weathered Wail",
       "hpDetails": "regeneration 30 (desactivada por cold iron)",
-      "languages": "telepathy 1 mile",
+      "languages": "telepatia 1 milla",
       "saveDetails": "+1 de estado a todas las salvaciones contra magia",
       "items": {
         "spellcastingEntry->Primal Innate Spells": {
@@ -4896,7 +4896,7 @@
         },
         "action->Heatsight": {
           "name": "Heatsight",
-          "description": "<p>Heatsight is a precise sense that sees heat signatures.</p>"
+          "description": "<p>Heatsight es un preciso sentido que sees heat signatures.</p>"
         },
         "action->+1 Status to All Saves vs. Magic": {
           "name": "+1 por estatus a todas las salvaciones contra la magia"
@@ -4906,7 +4906,7 @@
         },
         "action->Dream Haunting": {
           "name": "Dream Haunting",
-          "description": "<p>A target that fails its save against the wendigo's @UUID[Compendium.pf2e.spells-srd.Item.Uqj344bezBq3ESdq]{Nightmare} is exposed to wendigo torment.</p>"
+          "description": "<p>Un objetivo que fails su salvacion against el wendigo's @UUID[Compendium.pf2e.spells-srd.Item.Uqj344bezBq3ESdq]{Nightmare} es exposed a wendigo torment.</p>"
         },
         "action->Howl": {
           "name": "Howl",
@@ -4927,7 +4927,7 @@
       "description": "<p>Estos heavy doors, carved with an image of Dahak, echo with a hatred so powerful that it can kill anyone who comes nearby, manifesting a vision of Dahak's head emerging from the doors to strike at a foe.</p>",
       "disable": "<p>@Check[type:thievery|dc:29|name:Disrupt the Divine Magic|traits:complex,magical,trap,hazard] (experto) to disrupt the divine magic, @Check[type:religion|dc:29|name:Placate Wrathful Energies|traits:complex,magical,trap,hazard] (experto) to placate the wrathful energies, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (5th level; counteract DC 26).</p>",
       "reset": "<p>La trampa deactivates and resets if 1 minute passes without any criatura being in range.</p>",
-      "routine": "<p>(1 action) On its initiative, the wrath of the destroyer targets the closest target in area <strong>C6</strong> with Face of the Fatal Divine.</p>",
+      "routine": "<p>(1 action) On su initiative, el wrath de el destroyer objetivos el closest objetivo en area <strong>C6</strong> con Face de el Fatal divino.</p>",
       "stealth": "<p>(experto) to notice subtle vapors of magical energy seething across the doors</p>",
       "items": {
         "action->Expunge": {
@@ -4946,7 +4946,7 @@
       "publicNotes": "<p>A gug's most horrid feature is its barrel-shaped head, which splits vertically to reveal numerous rows of sharp, yellow teeth and an open throat. Its eyes on either side of its head-jaw are small but keen. Bony ridges protect its eyes from the frantic flailing of its prey, as it prefers meals of raw and writhing meat over fungi and molds. It grips said prey with powerful arms that split at the elbow into a pair of forearms, giving it four clawed paws. Estos monstrous brutes are covered with shaggy black fur, often crusted with blood and gore.</p>\n<p>Although gugs may seem bestial, they have keen and wicked intellects. Gugs lair far underground, but they sometimes come to the surface to hunt during dark nights, either alone or in small groups. As they possess voracious appetites, most gugs consume the criaturas they catch, but some instead kidnap their victims and retreat below the surface, leaving only a lingering stench and odd, clawed paw-prints. Victims are taken to rancid lairs marked with strange runes and sacrificed to the gugs' wicked gods of blood, darkness, and nightmares. Dire rumors tell of lightless gug cities made of titanic blocks of stone far underground, where powerful gug leaders preach their vile doctrines to mobs of howling gugs.</p>\n<p>Gugs have a strange relationship with ghouls, which seems to date from their shared origin in a distant subterranean world. Gugs live in fear of ghouls, despite towering over them; however, this strange fear doesn't apply to ghasts, whom gugs consume as voraciously as they do other criaturas.</p>\n<p>Gugs stand 16 pies tall and weigh 2,000 pounds, although they have an eerie, graceful gait that belies their immense size. Their light step and ability to squeeze through very small crannies makes gugs common bogeymen in tales of strange disappearances or bloody massacres.</p>\n<p>Some particularly bloodthirsty gugs gain awful powers as gifts from their eldritch patrons. Estos monsters are known as savants, are never less than 12th level in power, and gain several occult innate conjuros. Though each savant's precise mix of conjuros varies, normally, these conjuros grant invisibility, offer power to manipulate and change rock, or invoke awful and destructive energies upon living flesh.</p>",
       "skillSpecialAcrobatics": {
         "0": {
-          "label": "to Squeeze"
+          "label": "a Squeeze"
         }
       },
       "speed": "freedom of movement",
@@ -4988,9 +4988,9 @@
     },
     "Xotani, The Firebleeder": {
       "name": "Xotani, The Firebleeder",
-      "hpDetails": "regeneration 25",
+      "hpDetails": "regeneracion 25",
       "languages": "no puede hablar ningún idioma",
-      "publicNotes": "<p>A monstrosity of living flame and magma, Xotani may be the weakest of Rovagug's spawn, but it remains a formidable threat. Xotani was slain in 2104 AR by an alliance of spellcasters, but recently its deathlike slumber was interrupted. Its corpse twitches, signaling that it might be close to returning.</p>\n<hr />\n<p>The spawn are titanic terrors of immense size and strength that live only to destroy. Tarrasque and Xotani are but two of Rovagug's spawn. Others, including Chemnosit (the Monarch Worm), Kothogaz (the Dance of Disharmony), and Volnagur (the End-Singer) hold places of horror in the history of various regions, but the most famed is Ulunat (the Unholy First), whose beetle-like carcass remains sprawled in Sothis, the capital of Osirion.</p>",
+      "publicNotes": "<p>Un monstrosity de vivo flame y magma, Xotani puede be el weakest de Rovagug's spawn, but ello remains un formidable threat. Xotani fue slain en 2104 AR by un alliance de spellcasters, but recently su deathlike slumber fue interrupted. Its corpse twitches, signaling que ello might be close a returning.</p> <hr /> <p>El spawn son titanic terrors de immense size y strength que live solo a destruir. Tarrasque y Xotani son but two de Rovagug's spawn. Others, including Chemnosit (el Monarch Worm), Kothogaz (el Dance de Disharmony), y Volnagur (el End-Singer) hold places de horror en el history de various regions, but el most famed es Ulunat (el Unholy First), whose beetle-like carcass remains sprawled en Sothis, el capital de Osirion.</p>",
       "senses": "blindsight (precise) 120 pies",
       "tokenName": "Xotani",
       "items": {
@@ -5018,11 +5018,11 @@
         },
         "action->Light Blindness": {
           "name": "Ceguera ante la luz",
-          "description": "<p>Xotani's light blindness is caused by only sunlight.</p>"
+          "description": "<p>Xotani's light blindness es causado por solo sunlight.</p>"
         },
         "action->Reactive": {
           "name": "Reactive",
-          "description": "<p>Xotani gains 3 reactions each round. It can still use only one reaction per trigger.</p>"
+          "description": "<p>Xotani obtiene 3 reacciones cada asalto. It puede still usar solo one reaction per trigger.</p>"
         },
         "action->Bomb Barrage": {
           "name": "Bomb Barrage",
@@ -5104,7 +5104,7 @@
       "blurb": "Humana",
       "skillSpecialCrafting": {
         "0": {
-          "label": "to Craft alchemical items"
+          "label": "a Craft alchemical objetos"
         }
       },
       "items": {
@@ -5163,11 +5163,11 @@
         },
         "action->Infused Items": {
           "name": "Infused Items",
-          "description": "<p>Zuferian's items listed as infused last for 24 hours, or until her next daily preparations.</p>"
+          "description": "<p>Zuferian's objetos listed as infused last durante 24 horas, o until su next daily preparations.</p>"
         },
         "action->Alchemical Formulas": {
           "name": "Alchemical Formulas",
-          "description": "<p>@UUID[Compendium.pf2e.equipment-srd.Item.jC8GmH0Un6vDxdMj]{Acid Flask (Greater)}</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.n5yTlTs63o53n3k6]{Alchemist's Fire (Greater)}</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.r2iTRbt1zpkAqHj2]{Bottled Lightning (Greater)}</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.bz8Y8bVUe7QfBk9g]{Darkvision Elixir (Greater)}</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.87AzvRja9uQOLJCC]{Deathcap Powder}</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.mYozcVg9fQY6zO7C]{Elixir of Life (Greater)}</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.intVPcEzbE9o4NQd]{Frost Vial (Greater)}</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.zo0ophqfKunJFxZN]{Lethargy Poison}</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.iRDCa4OVSTGUD3vi]{Purple Worm Venom}</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.5Qkz4RVJr2Kx3RL6]{Tanglefoot Bag (Greater)}</p>"
+          "description": "<p>@UUID[Compendium.pf2e.equipment-srd.Item.jC8GmH0Un6vDxdMj]{Acid Flask (mayor)}</p> <p>@UUID[Compendium.pf2e.equipment-srd.Item.n5yTlTs63o53n3k6]{Alchemist's fuego (mayor)}</p> <p>@UUID[Compendium.pf2e.equipment-srd.Item.r2iTRbt1zpkAqHj2]{Bottled Lightning (mayor)}</p> <p>@UUID[Compendium.pf2e.equipment-srd.Item.bz8Y8bVUe7QfBk9g]{Darkvision Elixir (mayor)}</p> <p>@UUID[Compendium.pf2e.equipment-srd.Item.87AzvRja9uQOLJCC]{Deathcap Powder}</p> <p>@UUID[Compendium.pf2e.equipment-srd.Item.mYozcVg9fQY6zO7C]{Elixir de Life (mayor)}</p> <p>@UUID[Compendium.pf2e.equipment-srd.Item.intVPcEzbE9o4NQd]{Frost Vial (mayor)}</p> <p>@UUID[Compendium.pf2e.equipment-srd.Item.zo0ophqfKunJFxZN]{Lethargy veneno}</p> <p>@UUID[Compendium.pf2e.equipment-srd.Item.iRDCa4OVSTGUD3vi]{Purple Worm Venom}</p> <p>@UUID[Compendium.pf2e.equipment-srd.Item.5Qkz4RVJr2Kx3RL6]{Tanglefoot Bag (mayor)}</p>"
         },
         "action->Expanded Splash": {
           "name": "Salpicadura Extendida",

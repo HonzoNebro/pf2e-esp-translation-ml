@@ -43,7 +43,7 @@
     },
     "Algerschmick": {
       "name": "Algerschmick",
-      "blurb": "Dvorovoi",
+      "blurb": "Dvorovoi domestico",
       "publicNotes": "<p>Traditionally, the dvorovoi is seen as the domovoi's younger sibling and has charge of a peasant's yard and all the animals and tools within. Animals favored by the dvorovoi become healthy, strong, and obedient, while less-loved livestock are exhausted and miserable. Peasants with a resident dvorovoi make sure to formally introduce new livestock to the house spirit and placate the spirit by leaving meals in the shed. Dvorovoi loathe white-furred animals and chase away any all-white cows or horses, though they have no similar grudge against chickens.</p>\n<hr />\n<p>House spirits are shy, often helpful, sometimes wrathful fey that dwell alongside peasants and farmers. They reside in the house, in the yard, in the granary, in the bathhouse-wherever people build and live. Due to this proximity, house spirits often take on the mannerisms or appearance of nearby mortals. Their reclusive NATURE and tendency to go unseen earned them the moniker of \"spirits,\" though in truth they are fully embodied fey.</p>\n<p>House spirits take an almost parental interest in \"their\" mortals. Given proper respect, these fey work tirelessly for their charges-they chop wood, care for livestock, mend clothes, sweep the floor, and tend to the stove. If offended, though, the house spirit becomes a menace, frightening animals or children and ruining belongings.</p>",
       "senses": "sentido sismico (impreciso) en todo su patio vinculado",
       "items": {
@@ -58,11 +58,11 @@
         },
         "spell->Charm (Animals Only)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6]\nCharm (Animals Only)",
-          "target": "1 animal"
+          "target": "1 animal objetivo"
         },
         "spell->Command (Animals Only)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]\ncomando (Animals Only)",
-          "target": "1 animal"
+          "target": "1 animal objetivo"
         },
         "spell->Mage Hand": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]\nMage Hand"
@@ -79,7 +79,7 @@
         },
         "action->Shy": {
           "name": "Shy",
-          "description": "<p>A dvorovoi is naturally @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} while within sight of their bound home. The dvorovoi can become visible, or even selectively visible-allowing some people to see them.</p>"
+          "description": "<p>Un dvorovoi es naturally @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} mientras dentro de sight de su bound home. El dvorovoi puede quedan visible, o even selectively visible-allowing some people a see them.</p>"
         },
         "action->Rile Augdunars": {
           "name": "Rile Augdunars",
@@ -146,7 +146,7 @@
     "Ancestor Statue": {
       "name": "Ancestor Statue",
       "acDetails": "(17 when broken); armadura de constructo",
-      "blurb": "Elite animated statue",
+      "blurb": "Estatua animada de elite",
       "publicNotes": "<p>Animated statues are often used to guard crypts, small shrines, or areas in government buildings where they can be positioned amid normal statues to hide their true NATURE until an intruder arouses their ire. Adventurers' suspicions regarding statues suddenly animating and attacking has led many less scrupulous adventurers to automatically attack any statues they encounter, ruining harmless, ancient relics.</p>\n<hr />\n<p>Granted a semblance of life through the use of rituals or other strange magic, animated objects take many forms and serve a variety of uses. A few examples of typical animated objects are listed below. Many of these criaturas serve as guardians, surprising unsuspecting adventurers when they suddenly attack. Others serve as idle distractions for the exceptionally rich, simple servants created to handle odd jobs, and the like.</p>",
       "items": {
         "strike-melee->Fist": {
@@ -181,7 +181,7 @@
     },
     "Angry Dead": {
       "name": "Angry Dead",
-      "description": "<p>The faces of the original dwarven inhabitants of the city appear in the stone and scream in anger.</p>",
+      "description": "<p>Los rostros de los habitantes enanos originales de la ciudad aparecen en la piedra y gritan de ira.</p>",
       "disable": "<p>@Check[religion|dc:23] (entrenado) to ritually pray for the dead or @Check[occultism|dc:25] (entrenado) to exorcise the spirits' anger; a dwarf succeeds at a @Check[diplomacy|dc:22] or Intimidate check, asking or ordering the spirits to stand down.</p>",
       "reset": "<p>The haunt deactivates 1 round after all living criaturas leave the area. After 1 hour, the haunt reactivates. If the haunt is disabled by a dwarf succeeding at a DIPLOMACY or Intimidate check, the haunt is destroyed.</p>",
       "routine": "<p>(1 action) The faces continue to scream, dealing @Damage[5d6[sonic]] daño (@Check[reflex|dc:26|basic] save) to all living criaturas within 20 pies of the steps. On a critical failure, a criatura takes double daño and is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ensordecido} for 1 round. Deaf criaturas are immune to this effect.</p>",
@@ -258,9 +258,9 @@
     },
     "Avernal Flashback": {
       "name": "Avernal Flashback",
-      "description": "<p>A phantasmal crimson worm appears to rampage outside the workshop, afflicting the area with phantom tremors, blistering heat, and cave-ins.</p>",
+      "description": "<p>Un gusano carmesi fantasmal parece arrasar el exterior del taller, afligiendo el area con temblores fantasmales, calor abrasador y derrumbes.</p>",
       "disable": "<p>@Check[athletics|dc:22], @Check[occultism|dc:22], or @Check[religion|dc:22]; it takes three successful checks to weaken the haunt or erect supports that brace the ceiling. A PC who speaks Dwarven can attempt @Check[diplomacy|dc:22] (entrenado) checks to calm the phantasmal cave worm.</p>",
-      "routine": "<p>(2 actions) Zogototaru uses 1 action to create a Tremor. With her other action, she either Exudes Heat or makes Rocks Fall, alternating between the two each round.</p>",
+      "routine": "<p>(2 acciones) Zogototaru usa 1 accion para crear un Temblor. Con su otra accion, Exuda calor o hace Caer rocas, alternando entre ambas cada asalto.</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
         "action->Exude Heat": {
@@ -374,7 +374,7 @@
     },
     "Buried Shock Glyph": {
       "name": "Buried Shock Glyph",
-      "description": "<p>A magical glyph unleashes a blast of electricity when handled.</p>",
+      "description": "<p>Un magico glyph unleashes un blast de electricidad cuando handled.</p>",
       "disable": "<p>@Check[athletics|dc:20] (entrenado) to hurl the stone a safe distance before it activates, or @Check[thievery|dc:21] to delicately move the stone without triggering the glyph.</p>",
       "hpDetails": "UR 16",
       "items": {
@@ -403,7 +403,7 @@
         },
         "action->Swift Sneak": {
           "name": "Movimiento furtivo rápido",
-          "description": "<p>The assassin can move their full speed while Sneaking.</p>"
+          "description": "<p>El assassin puede mover su full speed mientras Sneaking.</p>"
         },
         "action->Countershadow": {
           "name": "Countershadow",
@@ -436,7 +436,7 @@
     },
     "Caustic Gas Trap": {
       "name": "Caustic Gas Trap",
-      "description": "<p>Pressure plates in the hall trigger the release of caustic gas.</p>",
+      "description": "<p>Pressure plates en el hall trigger el release de caustic gas.</p>",
       "disable": "<p>@Check[crafting|dc:28] (maestro) to neutralize the acid or @Check[thievery|dc:30] (maestro) to disable the pressure plates</p>",
       "reset": "<p>A 10-minute INTERACT activity and a new supply of caustic gas.</p>",
       "stealth": "<p>(maestro)</p>",
@@ -449,7 +449,7 @@
     },
     "Cave-In": {
       "name": "Cave-In",
-      "description": "<p>The rubble shifts and the cavern ceiling collapses.</p>",
+      "description": "<p>El rubble shifts y el cavern techo collapses.</p>",
       "disable": "<p>@Check[crafting|dc:28] (experto) or @Check[survival|dc:31] (entrenado) to prop up the cavern ceiling without triggering a collapse.</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
@@ -461,7 +461,7 @@
     },
     "Coal Residue": {
       "name": "Coal Residue",
-      "description": "<p>Combustible material can ignite and burn ferociously.</p>",
+      "description": "<p>Combustible material puede ignite y burn ferociously.</p>",
       "disable": "<p>@Check[mining-lore|dc:15] (entrenado) to spread inert material over the area or @Check[survival|dc:18] to pry up enough of the material to prevent a chain reaction.</p>",
       "items": {
         "action->Ignite": {
@@ -478,7 +478,7 @@
       "items": {
         "equipment->Amulet": {
           "name": "Amuleto",
-          "description": "<p><em>Relics are a special type of magic item that can grow in power as their wielders unlock additional abilities. The full rules for relics and their aspects begin on page 94 of the Gamemastery Guide.</em></p>"
+          "description": "<p><em>Relics son un special type de magia objeto que puede grow en power as su wielders unlock adicional abilities. El full rules for relics y su aspects begin en page 94 de el Gamemastery Guide.</em></p>"
         },
         "strike-melee->Clan Dagger": {
           "name": "Daga de clan"
@@ -601,7 +601,7 @@
     },
     "Electrified Hall": {
       "name": "Electrified Hall",
-      "description": "<p>Runes hidden in the door's carvings blast lightning down the hall.</p>",
+      "description": "<p>runas oculto en el puerta's carvings blast lightning down el hall.</p>",
       "disable": "<p>@Check[thievery|dc:30] (maestro) to scratch out the runes, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (5th rank; counteract DC 28) to counteract the runes</p>",
       "reset": "<p>automatico</p>",
       "stealth": "<p>(experto)</p>",
@@ -645,7 +645,7 @@
     },
     "Enraged Polar Bear Spirit": {
       "name": "Enraged Polar Bear Spirit",
-      "description": "<p>The ghostly spirit of a polar bear stands on its hind legs and roars.</p>",
+      "description": "<p>El ghostly espiritual de un polar bear stands en su hind legs y roars.</p>",
       "disable": "<p>@Check[nature|dc:26] (experto) to calm the spirit, @Check[intimidate|dc:30] (maestro) to cow the spirit, or @Check[religion|dc:30] (experto) to contain the spiritual corruption (each successful check reduces its number of actions by 1)</p>",
       "reset": "<p>The bear spirit calms after no criaturas are in the room for 1 minute but is ready to lash out again after 10 minutes.</p>",
       "routine": "<p>(3 actions) The bear moves around the room at an alarming speed, seemingly teleporting, and Golpes a random criatura with its spiritual claws.</p>",
@@ -661,7 +661,7 @@
     },
     "Ether Sprite": {
       "name": "Ether Sprite",
-      "publicNotes": "<h4>Sprite</h4>\n<p>The fey of the Ether Court in the Darklands have evolved somewhat differently from the First World kin that exiled them, becoming more cruel and less mischievous than is typical for their kind.</p>\n<h4>Ether Sprite</h4>\n<p>The excitable sprites of the Ether Court prefer to frolic, drink, insult each other, and perform improv comedy.</p>\n<h4>Sprite Collections</h4>\n<p>Ether sprites have a reputation for being thieves. In truth, they're generally curious about the world and simply have a tendency to walk away with objects that don't belong to them, not understanding the concept of ownership. As a result, ether sprites tend to have small interesting objects in their possession, such as talismans or gemstones.</p>",
+      "publicNotes": "<h4>Sprite</h4> <p>El fey de el Ether Court en el Darklands tienen evolved somewhat differently de el First World kin que exiled them, becoming more cruel y less mischievous than es typical for su kind.</p> <h4>Ether Sprite</h4> <p>El excitable sprites de el Ether Court prefer a frolic, drink, insult cada otro, y perform improv comedy.</p> <h4>Sprite Collections</h4> <p>Ether sprites tienen un reputation for being thieves. In truth, ellos're generally curious about el world y simply tienen un tendency a walk away con objects que don't belong a them, no understanding el concept de ownership. As un result, ether sprites tend a tienen pequeno interesting objects en su possession, such as talismans o gemstones.</p>",
       "items": {
         "strike-melee->Rapier": {
           "name": "Espada ropera"
@@ -681,7 +681,7 @@
     },
     "Ether Sprite Swarm": {
       "name": "Ether Sprite Swarm",
-      "publicNotes": "<p>One ether sprite is quite enough for most, and can be tiresome for even the fey. When a group of them get together, it's outright bedlam.</p>\n<hr />\n<p>The fey of the Ether Court in the Darklands have evolved somewhat differently from the First World kin that exiled them, becoming more cruel and less mischievous than is typical for their kind.</p>\n<h2>Sprite Collections</h2>\n<p>Ether sprites have a reputation for being thieves. In truth, they're generally curious about the world and simply have a tendency to walk away with objects that don't belong to them, not understanding the concept of ownership. As a result, ether sprites tend to have small interesting objects in their possession, such as talismans or gemstones.</p>",
+      "publicNotes": "<p>One ether sprite es quite enough for most, y puede be tiresome for even el fey. Cuando un group de them get together, ello's outright bedlam.</p> <hr /> <p>El fey de el Ether Court en el Darklands tienen evolved somewhat differently de el First World kin que exiled them, becoming more cruel y less mischievous than es typical for su kind.</p> <h2>Sprite Collections</h2> <p>Ether sprites tienen un reputation for being thieves. In truth, ellos're generally curious about el world y simply tienen un tendency a walk away con objects que don't belong a them, no understanding el concept de ownership. As un result, ether sprites tend a tienen pequeno interesting objects en su possession, such as talismans o gemstones.</p>",
       "items": {
         "action->Natural Glow": {
           "name": "Natural Glow",
@@ -711,7 +711,7 @@
     },
     "Explosive Entrance": {
       "name": "Explosive Entrance",
-      "description": "<p>An alchemical bombs explodes when the rubble is shifted, filling the hall with flame.</p>",
+      "description": "<p>Un alchemical bombs explodes cuando el rubble es shifted, filling el hall con flame.</p>",
       "disable": "<p>@Check[crafting|dc:30] (maestro) to nullify the bomb's alchemical components or @Check[thievery|dc:28] (maestro) to disable the bomb</p>",
       "stealth": "<p>(maestro)</p>",
       "items": {
@@ -754,7 +754,7 @@
       "name": "Ferghaz",
       "blurb": "Eco ancestral",
       "hpDetails": "curación de vacío, rejuvenation",
-      "languages": "empyrean",
+      "languages": "empireo",
       "items": {
         "strike-melee->Ghostly Hammer": {
           "name": "Ghostly Hammer"
@@ -786,8 +786,8 @@
     "Flames of Taargick": {
       "name": "Flames of Taargick",
       "blurb": "Variante de weak elemental infernos",
-      "hpDetails": "explosion",
-      "publicNotes": "<p>Walking conflagrations of unimaginably hot fire, elemental infernos are harbingers of destruction and heedless chaos.</p>\n<hr />\n<p>Fire elementals are destructive manifestations of the scorching Plane of Fire.</p>",
+      "hpDetails": "explosion ignea",
+      "publicNotes": "<p>Walking conflagrations de unimaginably hot fuego, elemental infernos son harbingers de destruction y heedless chaos.</p> <hr /> <p>fuego elementals son destructive manifestations de el scorching Plane de fuego.</p>",
       "senses": "vision de humo",
       "items": {
         "strike-melee->Tendril": {
@@ -904,7 +904,7 @@
     },
     "Glacial Worm": {
       "name": "Glacial Worm",
-      "hpDetails": "cold healing",
+      "hpDetails": "frio healing",
       "publicNotes": "<p>Cave worm eggs that lie dormant for a long period may experience significant climactic shift. If the temperature falls below freezing, the worms may hatch as glacial worms, also called white worms. Estos criaturas immediately migrate as far north as possible, seeking the glaciers or icebergs that will nourish and house them. Glacial worms lack stingers, as liquid venom is less effective in cold temperatures. Occasionally, such criaturas are carried far south on icebergs that have carved off the main ice sheets of the polar regions.</p>",
       "items": {
         "strike-melee->Jaws": {
@@ -948,7 +948,7 @@
     "Gray Worm": {
       "name": "Gray Worm",
       "hpDetails": "curación de vacío",
-      "publicNotes": "<p>One subspecies that some call unnatural is the gray worm. It is theorized that these cave worms hatched near the corpses of thousands of graves, perhaps deep in the layers of the Darklands that once held large populations at the moment of Starfall. The void energy associated with the collective extinction of so much life has warped these worms so that they embody the misery and death caused by the cataclysm. They are unique among cave worms in that they prefer not to swallow prey alive, but to eat only dead flesh.</p>",
+      "publicNotes": "<p>One subspecies que some call unnatural es el gray worm. It es theorized que these cave worms hatched near el corpses de thousands de graves, perhaps deep en el layers de el Darklands que once held grande populations at el moment de Starfall. El void energy associated con el collective extinction de so much life tiene warped these worms so que ellos embody el misery y death causado por el cataclysm. They son unique among cave worms en que ellos prefer no a swallow prey alive, but a eat solo muerto flesh.</p>",
       "senses": "olfato de sangre",
       "items": {
         "strike-melee->Jaws": {
@@ -988,7 +988,7 @@
     "Hagegraf Royal Guard": {
       "name": "Hagegraf Royal Guard",
       "publicNotes": "<p>While the city guards patrol the Long Walk, the royal guards protect King Orgukagan and the royal family, as well as important royal interests.</p>\n<hr />\n<p>Hryngars descend from dwarves who did not undertake the Quest for Sky and remained denizens of the Darklands. Most now worship Droskar, god of toil.</p>\n<h2>Upworlder Prejudice</h2>\n<p>Many upworlders' only experience with denizens from the Darklands come from Darklands raids. Este has unfortunately caused many on the surface to believe that all Darklands peoples are murderous, which, of course, isn't the case. The Darklands are a harsh realm, and the people who live there have adapted to survive in an unforgiving environment that rewards the strong and punishes the meek. Yet despite this, there are still rich cultures and compassionate beings below the surface of Golarion.</p>\n<h2>Highhelm Propaganda</h2>\n<p>Upworlders often believe that hryngars make shoddy armas and armor, but this is propaganda spread by dwarves on the surface. Any proud hryngar knows that if tú work hard enough on a project, it will come out just as well as crafters who rely on clever secrets and modern techniques. Therefore hryngar-made products often have fewer aesthetic elements in their design. Their creations tend to focus more on pure function.</p>",
-      "senses": "iron mind",
+      "senses": "hierro mind",
       "items": {
         "spellcastingEntry->Occult Innate Spells": {
           "name": "Occult Innate Spells"
@@ -1004,7 +1004,7 @@
         },
         "action->Iron Mind": {
           "name": "Iron Mind",
-          "description": "<p>Royal guards automatically disbelieve all illusions of 2nd level or lower.</p>"
+          "description": "<p>Royal guards automatically disbelieve todos illusions de 2nd level o lower.</p>"
         },
         "action->Stop Right There!": {
           "name": "Stop Right There!",
@@ -1155,7 +1155,7 @@
         },
         "action->Quick Block": {
           "name": "Quick Block",
-          "description": "<p>At the start of his turn, Hrungul gains an additional reaction that he can use only to Shield Block.</p>"
+          "description": "<p>Al comienzo de su turno, Hrungul obtiene un reaccion adicional que el puede usar solo a escudo Block.</p>"
         },
         "lore->Warfare Lore": {
           "name": "Saber de Guerra"
@@ -1377,7 +1377,7 @@
       "name": "Hryngar Officer",
       "acDetails": "(26 con el escudo alzado)",
       "blurb": "Variante de Captain Of The Guard",
-      "publicNotes": "<p>The captain of the guard leads a troop of soldiers who serve as security forces for a powerful individual, most often a high-ranking noble or very rich merchant, though this stat block could also represent a lower-ranking captain of the guard for the leader of a nation. A formidable opponent in their own right, the captain of the guard skillfully employs their troops to protect the life and health of their ward.</p>\n<hr />\n<p>Larger societies rely on those with the authority and the ability to interpret and enforce laws. In good-aligned societies, these officials carry out their duties fairly. In neutral and evil ones, these officials can be harsh and cruel (with an altered alignment to reflect this), imposing severe punishments on those who can't pay for mercy.</p>",
+      "publicNotes": "<p>El captain de el guard leads un troop de soldiers who serve as security forces for un powerful individual, most often un high-ranking noble o very rich merchant, though este stat block could also represent un lower-ranking captain de el guard for el leader de un nation. Un formidable opponent en su own right, el captain de el guard skillfully employs su troops a protect el life y health de su ward.</p> <hr /> <p>Larger societies rely en those con el authority y el ability a interpret y enforce laws. In good-aligned societies, these officials carry out su duties fairly. In neutral y evil ones, these officials puede be harsh y cruel (con un altered alignment a reflect este), imposing severe punishments en those who puede't pay for mercy.</p>",
       "items": {
         "spellcastingEntry->Occult Innate Spells": {
           "name": "Occult Innate Spells"
@@ -1460,7 +1460,7 @@
     "Hryngar Skull Collector": {
       "name": "Hryngar Skull Collector",
       "blurb": "Variante de Executioner",
-      "publicNotes": "<p>Executioners carry out sentences from cruel tyrants and legitimate rulers alike. Most remain numb to the necessity of their duty, but some evil executioners grow to love the power of having someone else's life in their hands.</p>\n<hr />\n<p>Larger societies rely on those with the authority and the ability to interpret and enforce laws. In good-aligned societies, these officials carry out their duties fairly. In neutral and evil ones, these officials can be harsh and cruel (with an altered alignment to reflect this), imposing severe punishments on those who can't pay for mercy.</p>",
+      "publicNotes": "<p>Executioners carry out sentences de cruel tyrants y legitimate rulers alike. Most remain numb a el necessity de su duty, but some evil executioners grow a love el power de having someone else's life en su hands.</p> <hr /> <p>Larger societies rely en those con el authority y el ability a interpret y enforce laws. In good-aligned societies, these officials carry out su duties fairly. In neutral y evil ones, these officials puede be harsh y cruel (con un altered alignment a reflect este), imposing severe punishments en those who puede't pay for mercy.</p>",
       "items": {
         "spellcastingEntry->Occult Innate Spells": {
           "name": "Occult Innate Spells"
@@ -1521,7 +1521,7 @@
         },
         "action->Evasion": {
           "name": "Evasión",
-          "description": "<p>When the gang leader rolls a success on a Reflex save, they get a critical success instead.</p>"
+          "description": "<p>Cuando el gang leader rolls un success en un salvacion de Reflejos, ellos get un exito critico en su lugar.</p>"
         },
         "action->Nimble Dodge": {
           "name": "Esquiva ágil",
@@ -1552,7 +1552,7 @@
       }
     },
     "Hyphae Tyrant": {
-      "name": "Hyphae Tyrant",
+      "name": "Tirano de hifas",
       "languages": "hablar con plantas (solo hongos)",
       "publicNotes": "<p>Leshy creations sometimes fall prey to herbivores and foragers. Whereas most take the loss in stride, fungus leshies sometimes grow bitter and explore the grimmer elements of fungi: decomposition and possession. Combining unethical experiments, mind-altering cordyceps spores, and occult magic fueled by their own victim narrative, a fungus leshy can transform into a hyphae tyrant, who in turn transforms corpses into sporeborn puppets to torment local fauna. Estos leshies' greatest tragedy is perhaps their own impermanence. As their agendas increasingly celebrate decay, a hyphae tyrant's spite and occult narrative slowly drain their life force, ultimately ending in a final burst of destructive energy.</p>\n<h2>Troubled Reincarnation</h2>\n<p>Typically, a leshy's spirit wanders the natural world after death, eventually inhabiting a new leshy body. It's unclear whether a hyphae tyrant's spirit can ever become a new leshy. It's speculated that they eventually become natural haunts, transform into oni, or even fade forever unless found and redeemed.</p>",
       "senses": "sporesense (imprecise) 60 pies",
@@ -1602,13 +1602,13 @@
     },
     "Inexorable Door": {
       "name": "Inexorable Door",
-      "description": "<p>A recessed mechanism slowly pushes two iron doors closed, holding them in pace for 24 hours.</p>",
+      "description": "<p>Un recessed mechanism slowly pushes two hierro puertas closed, holding them en pace durante 24 horas.</p>",
       "disable": "<p>@Check[thievery|dc:21] (experto)</p>",
       "hpDetails": "UR 27"
     },
     "Invertebrate Infiltrator Trap": {
       "name": "Invertebrate Infiltrator Trap",
-      "description": "<p>Variant confounding betrayal</p>\n<p>Allies appear to shed their skin, transforming into either giant worm monsters or masses of wriggling worms.</p>",
+      "description": "<p>Variant confounding betrayal</p> <p>aliados appear a shed su piel, transforming into either giant worm monsters o masses de wriggling worms.</p>",
       "disable": "<p>@Check[thievery|dc:28] (experto) twice to suppress the trap's trigger, or @Check[occultism|dc:28] (experto) to create a ward against the trap's mental effects.</p>",
       "reset": "<p>The haunt deactivates 1 minute after all criaturas leave the area but resets immediately thereafter.</p>",
       "routine": "<p>(1 action, illusion, incapacitation, occult) The haunt continues to confound victims' senses and inspire them to commit violence against each other. Each criatura in the haunt's area must attempt a @Check[will|dc:26].</p>\n<p><strong>Éxito crítico</strong> The criatura is unaffected and temporarily immune for 1 minute.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is confused for 1 round.</p>\n<p><strong>Fallo crítico</strong> The criatura is confused for 1 minute.</p>",
@@ -2108,7 +2108,7 @@
       "description": "<p>Escondido jets expel gas that quickly freezes, causing limited daño to nearby books.</p>",
       "disable": "<p>@Check[thievery|dc:27] (experto) to deactivate the trap without its control key or @Check[crafting|dc:26] to create and apply a chemical that neutralizes the gas.</p>",
       "hpDetails": "(UR 30)",
-      "reset": "<p><span class=\"fontstyle0\">8 hours</span> </p>",
+      "reset": "<p><span class=\"fontstyle0\">8 horas</span> </p>",
       "stealth": "<p><span class=\"fontstyle0\">(experto)</span> </p>",
       "items": {
         "action->Icy Mist": {
@@ -2121,7 +2121,7 @@
       "name": "Mumkuh",
       "blurb": "elite zombie lord mujer",
       "hpDetails": "curación de vacío",
-      "publicNotes": "<p>Cunning zombie lords command their lesser kin, which they can use in unexpected ways. They have been known to direct or collaborate with husk and withered zombies, creating cells of intelligent zombies hiding within the ranks of mindless undead.</p>\n<hr />\n<p>Simple to create and varied in purpose, these shambling undead are often used for their strength and endless stamina to conduct boring, repetitive tasks.</p>",
+      "publicNotes": "<p>Cunning zombie lords command su menor kin, que ellos puede usar en unexpected ways. They tienen been known a direct o collaborate con husk y withered zombies, creating cells de intelligent zombies hiding dentro de el ranks de mindless muertos vivientes.</p> <hr /> <p>Simple a create y varied en purpose, these shambling muertos vivientes son often used for su strength y endless stamina a conduct boring, repetitive tasks.</p>",
       "items": {
         "spellcastingEntry->Divine Innate Spells": {
           "name": "Divine Innate Spells"
@@ -2229,7 +2229,7 @@
         },
         "action->Steady Spellcasting": {
           "name": "Lanzamiento de conjuros firme",
-          "description": "<p>If a reaction would disrupt Narseigus' spellcasting action, he attempts a @Check[flat|dc:15]. On a success, the action isn't disrupted.</p>"
+          "description": "<p>Si un reaction would disrupt Narseigus' spellcasting action, el attempts un @Check[flat|dc:15]. con un exito, el action isn't disrupted.</p>"
         },
         "action->Worm Form": {
           "name": "Forma de gusano",
@@ -2246,9 +2246,9 @@
     },
     "Offended Epitaphs": {
       "name": "Offended Epitaphs",
-      "description": "<p>Funerary inscriptions flicker and display different messages, causing ghostly ancestors to briefly appear and complain that their descendants have forgotten them.</p>",
-      "disable": "<p>three @Check[diplomacy|dc:20], @Check[occultism|dc:20], or @Check[religion|dc:20] checks to rebuke the cantankerous spirits</p>",
-      "routine": "<p>(2 actions) Ancestral spirits appear throughout areas <strong>D1</strong> and <strong>D2</strong>, each fading after several rounds to be replaced by a different spirit.</p>",
+      "description": "<p>Funerary inscriptions flicker y display diferente messages, causing ghostly ancestors a briefly appear y complain que su descendants tienen forgotten them.</p>",
+      "disable": "<p>three @Check[diplomacy|dc:20], @Check[occultism|dc:20], o @Check[religion|dc:20] pruebas a rebuke el cantankerous espiritus</p>",
+      "routine": "<p>(2 actions) Ancestral espiritus appear throughout areas <strong>D1</strong> y <strong>D2</strong>, cada fading after several asaltos a be replaced by un diferente espiritual.</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
         "action->Growing Grumbles": {
@@ -2263,7 +2263,7 @@
     },
     "Ornery Augdunars": {
       "name": "Ornery Augdunars",
-      "description": "<p>Spooked augdunars gallop wildly about the paddock, biting and kicking as they run.</p>",
+      "description": "<p>Spooked augdunars gallop wildly about el paddock, biting y kicking as ellos run.</p>",
       "disable": "<p>Succeed at four of the following checks in any combination: @Check[nature|dc:14] (entrenado) to calm the animals, @Check[intimidation|dc:16] (untrained) to scare the augdunars away, @Check[will|dc:18] (entrenado) to avoid flinching and project confidence, causing the augdunars to veer away. For each success, the hazard takes a cumulative -1 penalización to tiradas de ataque.</p>",
       "routine": "<p>(2 actions) The augdunars use an action to Golpe one target with their jaws, and they use another action to @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} a different target (ATHLETICS [[/r 1d20+9 #Athletics]]{+9}). If the augdunars have taken daño since their last turn, they instead use Lashing Hooves with their first action and then make either a jaws Golpe or Trip attempt with their second action.</p>",
       "stealth": "<p>(entrenado)</p>",
@@ -2288,7 +2288,7 @@
       "name": "Zombi de la peste",
       "blurb": "Variante de Plague Zombie",
       "hpDetails": "curación de vacío",
-      "publicNotes": "<p>Plague zombies are infested with hideous contagions.</p>\n<hr />\n<p>A zombie's only desire is to consume the living. Unthinking and ever-shambling harbingers of death, zombies stop only when they're destroyed.</p>",
+      "publicNotes": "<p>Plague zombies son infested con hideous contagions.</p> <hr /> <p>Un zombie's solo desire es a consume el vivo. Unthinking y ever-shambling harbingers de death, zombies stop solo cuando ellos're destruido.</p>",
       "items": {
         "condition->Slowed": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]\n<p>Tienes fewer actions. Slowed always includes a value. When tú regain tu actions at the start of tu turn, reduce the number of actions tú regain by tu ralentizado value. Because ralentizado has its effect at the start of tu turn, tú don't immediately lose actions if tú become ralentizado during tu turn.</p>"
@@ -2354,9 +2354,9 @@
     },
     "Repelling Surge": {
       "name": "Repelling Surge",
-      "description": "<p>A shockwave of energy surges out from the room's center.</p>",
+      "description": "<p>Un shockwave de energy surges out de el sala's center.</p>",
       "disable": "<p>@Check[arcana|dc:29] (experto) to fool the wards, @Check[thievery|dc:31] (maestro) to disable the wards, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (5th rank; counteract DC 28) to counteract the wards</p>",
-      "reset": "<p>Automatic</p>",
+      "reset": "<p>Automatico</p>",
       "stealth": "<p>(maestro)</p>",
       "items": {
         "action->Repel": {
@@ -2370,7 +2370,7 @@
       "description": "<p>A 10-pies-long, 5-pies-thick column of stone thuds to the ground, just in front of the bridge. It immediately starts to roll down the bridge, quickly picking up speed.</p>",
       "disable": "<p>@Check[thievery|dc:25] check to create a wedge to immobilize the column, @Check[athletics|dc:21] check to immobilize the column until the end of the criatura's next turn, a criatura can CLIMB over an @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} column with a successful @Check[athletics|dc:18] check.</p>",
       "hpDetails": "(UR 29)",
-      "routine": "<p>(1 action) The rolling stone cylinder trap uses Crushing Roll.</p>",
+      "routine": "<p>(1 action) El rolling piedra cylinder trampa usa Crushing Roll.</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
         "action->Drop and Roll": {
@@ -2388,7 +2388,7 @@
     },
     "Skibrellon": {
       "name": "Skibrellon",
-      "blurb": "Hyphae Tyrant",
+      "blurb": "Tirano de hifas",
       "languages": "hablar con plantas (solo hongos)",
       "publicNotes": "<p>Leshy creations sometimes fall prey to herbivores and foragers. Whereas most take the loss in stride, fungus leshies sometimes grow bitter and explore the grimmer elements of fungi: decomposition and possession. Combining unethical experiments, mind-altering cordyceps spores, and occult magic fueled by their own victim narrative, a fungus leshy can transform into a hyphae tyrant, who in turn transforms corpses into sporeborn puppets to torment local fauna. Estos leshies' greatest tragedy is perhaps their own impermanence. As their agendas increasingly celebrate decay, a hyphae tyrant's spite and occult narrative slowly drain their life force, ultimately ending in a final burst of destructive energy.</p>\n<h2>Troubled Reincarnation</h2>\n<p>Typically, a leshy's spirit wanders the natural world after death, eventually inhabiting a new leshy body. It's unclear whether a hyphae tyrant's spirit can ever become a new leshy. It's speculated that they eventually become natural haunts, transform into oni, or even fade forever unless found and redeemed.</p>",
       "senses": "sporesense (imprecise) 60 pies",
@@ -2753,7 +2753,7 @@
     },
     "Spitter Pods": {
       "name": "Spitter Pods",
-      "description": "<p>Specialized spore pods burst open, expel toxic globules, and recharge from alchemical reservoirs.</p>",
+      "description": "<p>Specialized spore pods burst open, expel toxic globules, y recharge de alchemical reservoirs.</p>",
       "disable": "<p>@Check[crafting|dc:18] to add disruptive chemicals to the fungus's reservoir, @Check[nature|dc:18] (entrenado) to recognize how to constrict the chemicals' flow, or @Check[deception|dc:20] (entrenado) to spread spores that befuddle the fungus; three total successes are required to disable the trap.</p>",
       "routine": "<p>(3 actions) The spitter pods alternate between making Golpes and Reloading. The pods lose 1 action for each successful check to disable the trap.</p>",
       "stealth": "<p>(entrenado)</p>",
@@ -2780,7 +2780,7 @@
         },
         "action->Spore Pop": {
           "name": "Spore Pop",
-          "description": "<p>If a sporeborn myceloid is reduced to 0 HP by a critical hit, it pops, forcing it to immediately Emit Spores, even if it has already used the ability that day.</p>"
+          "description": "<p>Si un sporeborn myceloid es reduced a 0 PG by un critical hit, ello pops, forcing ello a immediately Emit Spores, even si ello tiene already used el ability que dia.</p>"
         },
         "action->Emit Spores": {
           "name": "Emit Spores",
@@ -2800,7 +2800,7 @@
       "name": "Sporeborn Sheep",
       "blurb": "Variante de Plague Zombie",
       "hpDetails": "curación de vacío",
-      "publicNotes": "<p>Plague zombies are infested with hideous contagions.</p>\n<hr />\n<p>A zombie's only desire is to consume the living. Unthinking and ever-shambling harbingers of death, zombies stop only when they're destroyed.</p>",
+      "publicNotes": "<p>Plague zombies son infested con hideous contagions.</p> <hr /> <p>Un zombie's solo desire es a consume el vivo. Unthinking y ever-shambling harbingers de death, zombies stop solo cuando ellos're destruido.</p>",
       "items": {
         "condition->Slowed": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]\n<p>Tienes fewer actions. Slowed always includes a value. When tú regain tu actions at the start of tu turn, reduce the number of actions tú regain by tu ralentizado value. Because ralentizado has its effect at the start of tu turn, tú don't immediately lose actions if tú become ralentizado during tu turn.</p>"
@@ -2810,7 +2810,7 @@
         },
         "action->Headless": {
           "name": "Headless",
-          "description": "<p>A headless spore sheep can't make Jaws attacks.</p>"
+          "description": "<p>Un headless spore sheep puede't make Jaws ataques.</p>"
         },
         "action->Slow": {
           "name": "Lentificar",
@@ -2936,7 +2936,7 @@
         },
         "action->Rock Tunneler": {
           "name": "Rock Tunneler",
-          "description": "<p>Stoneriver can burrow through solid stone, leaving behind a tunnel if he desires.</p>"
+          "description": "<p>Stoneriver puede burrow through solid piedra, leaving behind un tunnel si el desires.</p>"
         },
         "action->Swallow Whole": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]\n<p>Large, @Damage[6d6[bludgeoning],2d6[fire]]{6d6 bludgeoning plus 2d6 fire} and devour magic, Rupture 40</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
@@ -3029,7 +3029,7 @@
         },
         "equipment->Key": {
           "name": "Key",
-          "gmNote": "<p>Key to area <strong>I8</strong></p>"
+          "gmNote": "<p>Key a area <strong>I8</strong></p>"
         },
         "strike-melee->Warhammer": {
           "name": "Martillo de guerra"
@@ -3047,7 +3047,7 @@
       "publicNotes": "<p>Several groups of ulat-kinis have rediscovered the ancient way of kirtanang, a martial art from that uses broad, flowing motions of the claws.</p>\n<h2>Ulat-Kini Culture</h2>\n<p>The criaturas who surface humanoids consider scum still hold grand empires beneath the waves. While some ulat-kinis still revere the alghollthu who created them and others have learned to hate their creators, there are ulat-kinis who have found a new way forward. They have developed their own culture outside of alghollthu influence, founding new underwater traditions and creating new cultural standards.</p>",
       "skillSpecialStealth": {
         "0": {
-          "label": "while swimming"
+          "label": "mientras swimming"
         }
       },
       "items": {
@@ -3123,7 +3123,7 @@
     },
     "Unbreakable Sorrow": {
       "name": "Unbreakable Sorrow",
-      "description": "<p>The PCs hear the sound of sobbing and feel an overwhelming sense of sorrow, as if they'd lost something more precious to them than their own life.</p>",
+      "description": "<p>El PJ hear el sound de sobbing y feel un overwhelming sentido de sorrow, as si ellos'd lost something more precious a them than su own life.</p>",
       "disable": "<p>@Check[deception|dc:32] or @Check[performance|dc:32] (maestro) to laugh away the sadness, @Check[occultism|dc:31] (experto) to banish the psychic imprint, @Check[thievery|dc:33] (maestro) to disperse the emotional energy</p>",
       "reset": "<p>La trampa resets automatically after 24 hours.</p>",
       "stealth": "<p>(maestro)</p>",
@@ -3199,7 +3199,7 @@
       "name": "Voxnia",
       "blurb": "elite dark naga mujer",
       "publicNotes": "<p>Dark nagas are wicked, jealous criaturas that crave power and wealth. Indeed, the dark naga sees such ideals as spiritual expressions of an essential truth: if one can take something, that something is theirs to have. The dark naga sees other criaturas as lessers worthy only of subjugation or as rivals who must be eliminated.</p>\n<p>Dark nagas dwell in remote places other criaturas have forsaken, searching abandoned ruins for wealth and potent magic items. Those unlucky trespassers into a dark naga's lair typically find themselves as the naga's slaves or playthings, put to sleep with the monster's poison or incinerated by its deadly magic. Some dark nagas are more disposed toward socializing than others; in these cases, they may become wicked despots who rule over enclaves of captive or unsuspecting subjects. Subtler dark nagas, especially those who crave finer luxuries, dwell in or under the wealthy settlements and use their wiles to garner a decadent following, forming something akin to a cult with the naga as the jewelry-bedecked object of worship.</p>\n<hr />\n<p>Nagas are serpentine beings with magical powers and keen, nearly inscrutable intellects. Physically, they resemble massive snakes with eerie visages that resemble those of humans. Nagas use their innate magic and poisonous fangs to keep all but the most stalwart foes at bay. Beyond the natural armas they use to ward away foes, little is understood of the naga's unsettling physiology.</p>\n<p>Nagas are intelligent criaturas with powerful needs to pursue, be they the accumulation of knowledge, the collection of rare art, or the rule of an entire nation. On Golarion, the nation of Nagajor is one such SOCIETY-an entire empire ruled by nagas and populated by reptilian humanoids who serve their naga rulers with a patriotic pride that borders on worship.</p>\n<p>Still, most adventurers INTERACT with nagas on a much smaller scale, encountering them as dangerous guardians in remote locations or not-so-abandoned ruins. In many cases, these nagas have heard of distant Nagajor, but they are usually unwilling to abandon their own pursuits to seek out a land where they might be worshipped as gods.</p>",
-      "saveDetails": "guarded thoughts",
+      "saveDetails": "pensamientos protegidos",
       "senses": "mind reading 30 pies",
       "items": {
         "spellcastingEntry->Arcane Spontaneous Spells": {
@@ -3222,7 +3222,7 @@
         },
         "action->Guarded Thoughts": {
           "name": "Pensamientos cautelosos",
-          "description": "<p>Dark nagas are immune to any form of mind reading.</p>"
+          "description": "<p>Dark nagas son inmune un cualquier form de mind reading.</p>"
         },
         "action->Dark Naga Venom": {
           "name": "Dark Naga Venom",
@@ -3265,7 +3265,7 @@
     "Zivzeb": {
       "name": "Zivzeb",
       "blurb": "Mimeto",
-      "publicNotes": "<p>Thought to be the result of a failed experiment meant to animate objects or a sinister alghollthu creation, mimics are clever monsters that can take the form of common manufactured objects. Mimics are ambush predators and voracious eaters, surprising their prey through their uncanny ability to mimic the form of common furniture and miscellany. They remain disguised until unsuspecting adventurers happen by, then they lash out in ambush.</p>\n<p>Mimics possess complex alien minds, and while often cruel and self-serving, they also enjoy conversation with their prey from time to time. For unknown reasons, they are especially interested in humanoids. Mimics have a strong dislike for others of their kind and tend to live alone. A mimic can remain in its alternate form for an extremely long period of time, sometimes remaining disguised in a dungeon chamber for decades. Regardless of how long it waits, the mimic remains vigilant and alert, ready to strike at any moment.</p>",
+      "publicNotes": "<p>Thought a be el result de un failed experiment meant a animate objects o un sinister alghollthu creation, mimics son clever monsters que puede reciben el form de common manufactured objects. Mimics son ambush predators y voracious eaters, surprising su prey through su uncanny ability a mimic el form de common furniture y miscellany. They remain disguised until unsuspecting adventurers happen by, then ellos lash out en ambush.</p> <p>Mimics possess complex alien minds, y mientras often cruel y self-serving, ellos also enjoy conversation con su prey de time a time. For unknown reasons, ellos son especially interested en humanoides. Mimics tienen un strong dislike for others de su kind y tend a live alone. Un mimic puede remain en su alternate form for un extremely long period de time, sometimes remaining disguised en un dungeon camara for decades. Regardless de how long ello waits, el mimic remains vigilant y alert, ready a strike at cualquier moment.</p>",
       "items": {
         "equipment->Ventriloquist's Ring": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.1r6StS0irdvi5JHY]\n<p>Este elegant copper ring has miniature images of songbirds engraved around its circumference. Obtienes a +1 bonificador por objeto to DECEPTION checks.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> INTERACT</p>\n<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> Twisting the ring around tu finger allows tú to magically throw tu voice, with the effects of a @UUID[Compendium.pf2e.spells-srd.Item.yV7Ouzaoe7DHLESI]{Ventriloquism} conjuro (@Check[perception|dc:19]).</p>"
@@ -3292,10 +3292,10 @@
     },
     "Zogototaru": {
       "name": "Zogototaru",
-      "description": "<p>Narseigus's worm-calling enchantments have attained imperfect control over Zogototaru, compelling her to aid him. She follows his directions loosely and with little finesse.</p>",
+      "description": "<p>Narseigus's worm-calling enchantments tienen attained imperfect control over Zogototaru, compelling su a aid him. She follows su directions loosely y con little finesse.</p>",
       "disable": "<p>Disable @Check[arcana|dc:28] or @Check[occultism|dc:28] (entrenado) to identify a loophole in mind-controlling magic, @Check[diplomacy|dc:30] to reason with Zogototaru, or @Check[deception|dc:31] or @Check[performance|dc:31] to speak as if the PC were Taargick</p>",
-      "routine": "<p>(1 action) Zogototaru acts on Narseigus's most recent command, either Rescuing, Roaring, or Thrashing.</p>",
-      "stealth": "<p><strong>Perception</strong> +15</p>",
+      "routine": "<p>(1 action) Zogototaru acts en Narseigus's most recent command, either Rescuing, Roaring, o Thrashing.</p>",
+      "stealth": "<p><strong>Percepcion</strong> +15</p>",
       "items": {
         "action->Rescue": {
           "name": "Rescue",

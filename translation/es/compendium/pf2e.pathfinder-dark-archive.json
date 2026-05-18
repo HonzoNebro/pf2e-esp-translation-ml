@@ -1,5 +1,5 @@
 {
-  "label": "pathfinder-dark-archive",
+  "label": "Archivo Oscuro de Pathfinder",
   "entries": {
     "Amalgamite": {
       "name": "Amalgamite",
@@ -41,7 +41,7 @@
     },
     "Bounding Hounds": {
       "name": "Bounding Hounds",
-      "description": "<p>Three phantom hounds chase down intruders, damaging any they pass through.</p>",
+      "description": "<p>Tres sabuesos fantasmales persiguen a los intrusos, danando a cualquiera que atraviesen.</p>",
       "disable": "<p>@Check[nature|dc:36|name:Calm Hound] (experto) to calm each hound, or @Check[occultism|dc:38|name:Banish Hound] (maestro) to banish each hound</p>",
       "hpDetails": "60 PG por hound",
       "reset": "<p>1 hora</p>",
@@ -55,9 +55,9 @@
     },
     "Call of the Void": {
       "name": "Call of the Void",
-      "description": "<p>A supernatural compulsion to leap into the unknown exerts itself on anyone who approaches the ledge.</p>",
-      "disable": "<p>@Check[occultism|dc:34|name:Expel Magical Compulsion] or @Check[arcana|dc:36|name:Expel Magical Compulsion] to expel the magical compulsion from the current island and from any of the red ropes directly attached to it, darkening the rope in color. The Echo also automatically disables the hazard from any island he's standing on, and any of the red ropes directly attached to it, when he Reconstitutes from Thought on that island.</p>",
-      "reset": "<p>The call of the void persists as long as the Echo exists, though it doesn't activate until the Echo has rolled initiative. The hazard resets each day.</p>",
+      "description": "<p>Una compulsion sobrenatural a saltar hacia lo desconocido se impone sobre cualquiera que se acerque al saliente.</p>",
+      "disable": "<p>@Check[occultism|dc:34|name:Expel Magical Compulsion] o @Check[arcana|dc:36|name:Expel Magical Compulsion] a expel el magico compulsion de el current island y de cualquier de el red ropes directly attached a ello, darkening el rope en color. El Echo also automatically disables el peligro de cualquier island el's standing en, y cualquier de el red ropes directly attached a ello, cuando el Reconstitutes de Thought en que island.</p>",
+      "reset": "<p>La llamada del vacio persiste mientras exista el Eco, aunque no se activa hasta que el Eco haya tirado iniciativa. El peligro se reinicia cada dia.</p>",
       "routine": "<p>(1 action) The call targets all criaturas adjacent to a ledge or on one of the red ropes and tugs at their minds. A criatura who has already fallen this round is immune.</p>",
       "stealth": "<p>(experto) to notice a slight tugging feeling</p>",
       "items": {
@@ -71,7 +71,7 @@
       "name": "Clone Mirrors",
       "description": "<p>Two opposing mirrors spawn illusory duplicates of criaturas in the hall in an unending tide.</p>",
       "disable": "<p>@Check[thievery|dc:28|name:Reposition Mirror|traits:action:disable-a-device] (experto) to reposition each mirror, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (3rd rank; counteract DC 25) to counteract each mirror</p>",
-      "hpDetails": "per mirror",
+      "hpDetails": "por espejo",
       "reset": "<p>1 day</p>",
       "routine": "<p>(2 actions) Este trap loses 1 action for each mirror disabled. Each mirror uses 1 action to Spawn a Reflection of a criatura reflected in the mirror. The hazard can have a maximum of four reflections spawned at once.</p>",
       "items": {
@@ -112,8 +112,8 @@
     "Confounding Portal": {
       "name": "Confounding Portal",
       "description": "<p>Tiny runes carved around a doorframe or on a hall's walls surreptitiously confound criaturas into circling the room or hallway they attempted to exit or pass through.</p>",
-      "disable": "<p>@Check[thievery|dc:17|name:Scratch Out Runes|traits:action:disable-a-device] to scratch out the runes, or @Check[arcana|dc:16|name:Destroy the Runes] to destroy the runes</p>",
-      "reset": "<p>Automatic</p>",
+      "disable": "<p>@Check[thievery|dc:17|name:Scratch Out Runes|traits:action:disable-a-device] a scratch out el runas, o @Check[arcana|dc:16|name:Destroy the Runes] a destruir el runas</p>",
+      "reset": "<p>Automatico</p>",
       "items": {
         "action->Confounding Misdirection": {
           "name": "Confounding Misdirection",
@@ -139,9 +139,9 @@
     },
     "Darkside Mirror": {
       "name": "Darkside Mirror",
-      "description": "<p>A magic mirror replaces characters with malicious mirror duplicates from another dimension.</p>",
+      "description": "<p>Un magia mirror replaces characters con malicious mirror duplicates de another dimension.</p>",
       "disable": "<p>@Check[thievery|dc:34] (legendario) to retrieve a criatura from the other dimension within 10 minutes of the switch (possible only if their mirror duplicate is dead), @Check[thievery|dc:39] (maestro) to permanently disable the mirror once all mirror duplicates are dead, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (7th rank; counteract DC 32) to counteract the mirror for 1 minute and prevent additional replacements during that time.</p>",
-      "hpDetails": "The mirror can't be damaged while any mirror duplicate is alive",
+      "hpDetails": "El mirror puede't be damaged mientras cualquier mirror duplicate es alive",
       "reset": "<p>The mirror is always ready to absorb criaturas into the other dimension. Ten minutes after a criatura is sucked into the mirror, if an ally doesn't rescue the criatura, it reaches the other dimension. In the mirror dimension, it counts as a mirror duplicate. Estos dimensions are alternate realities, not planes, so even conjuros like @UUID[Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ]{Interplanar Teleport}<em> </em>can't reach them.</p>",
       "routine": "<p>(1 action) The mirror absorbs another reflected criatura and replaces it with a mirror duplicate. A mirror duplicate attacks on their own initiative, using the same statistics as the original criatura, but they hate all other non-duplicate criaturas. A mirror duplicate can spend 3 actions in contact with the mirror to return to their original dimension and release the duplicated criatura.</p>",
       "stealth": "<p>(maestro) to notice it isn't a regular mirror</p>",
@@ -156,7 +156,7 @@
       "name": "Disorienting Illusions",
       "description": "<p>Illusions cloaking this chamber cause it to appear distorted and constantly shifting, with the room and all its contents appearing tilted, irregular, and in motion.</p>",
       "disable": "<p>@Check[crafting|dc:17|name:Calculate the Room's Dimensions] (entrenado) to calculate the room's dimensions despite the illusions, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (1st rank; counteract DC 17) to counteract the illusions</p>",
-      "reset": "<p>1 minute</p>",
+      "reset": "<p>1 minuto</p>",
       "items": {
         "action->Disorient": {
           "name": "Disorient",
@@ -166,10 +166,10 @@
     },
     "Distortion Mirror": {
       "name": "Distortion Mirror",
-      "description": "<p>Fun-house mirrors distort a viewer's reflection, painfully reshaping their body to match what appears in the reflected images.</p>",
+      "description": "<p>Fun-house mirrors distort un viewer's reflection, painfully reshaping su cuerpo a match what appears en el reflected images.</p>",
       "disable": "<p>@Check[thievery|dc:38|name:Deface the Mirror|traits:action:disable-a-device] (maestro) to deface the mirror's pane, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (7th rank; counteract DC 36) to dispel the mirror or counteract the transformation</p>",
       "reset": "<p>1 day</p>",
-      "stealth": "<p>0 to notice the mirror</p>",
+      "stealth": "<p>0 a notice el mirror</p>",
       "items": {
         "action->Painful Transformation": {
           "name": "Painful Transformation",
@@ -182,7 +182,7 @@
       "description": "<p>A chair on concealed tracks surges forward, knocking a criatura into the chair's seat and trapping them in place with clamping armrests.</p>",
       "disable": "<p>@Check[thievery|dc:23|name:Disrupt the Tracks|traits:action:disable-a-device] (experto) to disrupt the tracks</p>",
       "reset": "<p>La trampa resets automatically over 2 rounds if the chair is unoccupied.</p>",
-      "stealth": "<p>(0 to notice the chair)</p>",
+      "stealth": "<p>(0 a notice el chair)</p>",
       "items": {
         "action->Take a Seat!": {
           "name": "Take a Seat!",
@@ -207,7 +207,7 @@
       "name": "False Floor",
       "description": "<p>The floor in this chamber is an illusion, which conceals a 40-pies drop to the true floor below. Additionally, the area beneath the floor is magically silenced-no sound is audible within nor does sound leave this space.</p>",
       "disable": "<p>Succeeding on a Perception check against the STEALTH DC of 21 (including the check to find the trap) disbelieves the illusory floor, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (2nd rank; counteract DC 18) to dispel the illusory floor; <em>dispel magic</em> (2nd level; counteract DC 20) to dispel the magical silence</p>",
-      "reset": "<p>Automatic</p>",
+      "reset": "<p>Automatico</p>",
       "stealth": "<p>(entrenado; or 0 if the illusory floor is dispelled)</p>",
       "items": {
         "action->Drop": {
@@ -230,7 +230,7 @@
     },
     "K. H. W.'s Echo": {
       "name": "K. H. W.'s Echo",
-      "hpDetails": "destabilized form",
+      "hpDetails": "forma desestabilizada",
       "items": {
         "strike-melee->Rope Dart": {
           "name": "Dardo de cuerda"
@@ -304,15 +304,15 @@
         },
         "action->Rend": {
           "name": "Rasgadura",
-          "description": "<p>Silver Scissors</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
+          "description": "<p>plata Scissors</p> <hr /> <p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
         }
       }
     },
     "Mirror Door": {
       "name": "Mirror Door",
       "description": "<p>The reflection of a wall shows a phantom door where none exists. Este door can only be manipulated while viewed through the mirror's reflection.</p>",
-      "disable": "<p>@Check[thievery|dc:18|name:Open the Door|traits:action:disable-a-device] to open the door while viewing the reflection</p>",
-      "reset": "<p>Automatic</p>",
+      "disable": "<p>@Check[thievery|dc:18|name:Open the Door|traits:action:disable-a-device] a open el puerta mientras viewing el reflection</p>",
+      "reset": "<p>Automatico</p>",
       "items": {
         "action->Appear": {
           "name": "Appear",
@@ -322,7 +322,7 @@
     },
     "Mother Mitera": {
       "name": "Mother Mitera",
-      "hpDetails": "crystal vitality link",
+      "hpDetails": "vinculo de vitalidad cristalina",
       "items": {
         "spellcastingEntry->Primal Prepared Spells": {
           "name": "Primal Prepared Spells"
@@ -377,8 +377,8 @@
       "name": "Reflected Desires",
       "description": "<p>Este mirror reflects the viewer's deepest desires.</p>",
       "disable": "<p>@Check[thievery|dc:18|name:Shroud the Mirror|traits:action:disable-a-device] (entrenado) to shroud the mirror without looking at it, or @Check[occultism|dc:17|name:Erect Mental Barriers] (entrenado) to erect mental barriers</p>",
-      "reset": "<p>Automatic</p>",
-      "stealth": "<p>(0 to notice the mirror)</p>",
+      "reset": "<p>Automatico</p>",
+      "stealth": "<p>(0 a notice el mirror)</p>",
       "items": {
         "action->Tempt": {
           "name": "Tempt",
@@ -402,7 +402,7 @@
       "name": "Shrinking Hall",
       "description": "<p>Este hallway is designed to shrink as criaturas traverse it, making access to the door at the hall's end impossible.</p>",
       "disable": "<p>@Check[thievery|dc:21|name:Jam the Scales|traits:action:disable-a-device] (entrenado) to jam the scales built into the floor</p>",
-      "reset": "<p>After 10 minutes without weight being placed on this hall's floor, this trap resets, returning the hall to its original size.</p>",
+      "reset": "<p>despues de 10 minutos sin weight being placed en este hall's suelo, este trampa resets, returning el hall a su original size.</p>",
       "items": {
         "action->Shrink": {
           "name": "Encoger",
@@ -412,9 +412,9 @@
     },
     "Shrouded Assailant": {
       "name": "Shrouded Assailant",
-      "description": "<p>A spirit steps out of a covered mirror, pulling off and becoming shrouded in the cloth, which reveals the mirror. The shrouded figure attacks the living until the cloth is yanked off, which banishes the formless spirit.</p>",
+      "description": "<p>Un espiritual da pasos out de un covered mirror, pulling off y becoming shrouded en el cloth, que reveals el mirror. El shrouded figure ataques el vivo until el cloth es yanked off, que banishes el formless espiritual.</p>",
       "disable": "<p>@Check[thievery|dc:43|name:Steal the Cloth|traits:action:disable-a-device] (maestro) to steal the cloth before the spirit manifests, or @Check[athletics|dc:47|name:Pull the Cloth Off] to pull the cloth off the spirit after it manifests</p>",
-      "hpDetails": "spirit",
+      "hpDetails": "espiritual",
       "reset": "<p>The haunt can be reset if the mirror is covered in a cloth or shroud.</p>",
       "routine": "<p>(3 actions) The spirit uses 3 actions to Dar un paso, fly 60 pies, or Golpe, in any order. On a successful Golpe the spirit's target is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}, and on a critical success, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}.</p>",
       "items": {
@@ -430,8 +430,8 @@
     "Shuffling Hall": {
       "name": "Shuffling Hall",
       "description": "<p>Four pressure plates along this mirrored hall rotate vertically when stepped on, sending a criatura on the pressure plate tipping into an adjacent featureless room while simultaneously replacing the pressure plate and walls in the hall. Each pressure plate dumps criaturas into a different room.</p>",
-      "disable": "<p>@Check[thievery|dc:12|name:Deactivate a Plate|traits:action:disable-a-device] to deactivate one pressure plate</p>",
-      "reset": "<p>Automatic</p>",
+      "disable": "<p>@Check[thievery|dc:12|name:Deactivate a Plate|traits:action:disable-a-device] a deactivate one pressure plate</p>",
+      "reset": "<p>Automatico</p>",
       "items": {
         "action->Flip": {
           "name": "Flip",
@@ -479,9 +479,9 @@
     },
     "Spirit Window": {
       "name": "Spirit Window",
-      "description": "<p>Spirits trapped inside a haunted window harm those who touch the window.</p>",
+      "description": "<p>espiritus trapped inside un haunted window harm those who touch el window.</p>",
       "disable": "<p>@Check[occultism|dc:48|name:Free the Spirits] (legendario) to free the spirits from the mirror, or @Check[religion|dc:48|name:Banish the Spirits] (legendario) to banish the spirits</p>",
-      "hpDetails": "Hardness 35 (window)",
+      "hpDetails": "Dureza 35 (window)",
       "reset": "<p>1 round</p>",
       "items": {
         "action->Siphon Soul": {
@@ -575,11 +575,11 @@
     "Verdure's Moonflower": {
       "name": "Verdure's Moonflower",
       "hpDetails": "curacion rapida 10",
-      "languages": "telepathy 1 mile (other moonflowers only)",
+      "languages": "telepathy 1 mile (otro moonflowers solo)",
       "publicNotes": "<p>Estos enormous plants have thick, knotted trunks festooned with fanged blossoms. A gaping mouth sits at the top of the trunk, capable of swallowing most criaturas smaller than the moonflower whole. Moonflowers can move slowly on their powerful roots or use them to attack, but usually they dig them deeply into the surrounding ground and remain stationary to await prey.</p>\n<p>Though moonflowers no puede hablar in the conventional sense, they communicate telepathically with other moonflowers. Explorers who encounter a single moonflower can thus be assured that any other moonflowers in the vicinity will be prepared for them. Those who manage to intercept a moonflower's telepathic communications are assaulted by visions of dreadful, primeval jungles ruled over by titanic plant life. Whether this is some vision of the past or a dream of the future shared by all moonflowers is unknown.</p>\n<p>Moonflowers are alien life-forms from a long-dead planet, but their proliferation throughout the galaxy has been ensured through the machinations of the Dominion of the Black, a sinister, alien organization from the dark places between the stars.</p>",
       "skillSpecialStealth": {
         "0": {
-          "label": "in Thick Vegetation"
+          "label": "en Thick Vegetation"
         }
       },
       "tokenName": "Moonflower",

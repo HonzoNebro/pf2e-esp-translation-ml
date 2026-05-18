@@ -215,7 +215,7 @@
         },
         "action->Hasten Eidolon": {
           "name": "Hasten Eidolon",
-          "description": "<p>Ashen Swale focuses on the link he shares with Idovik to quicken his eidolon's actions. Idovik is @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} 1 until the beginning of Ashen Swale's next turn.</p>"
+          "description": "<p>Ashen Swale focuses en el link el shares con Idovik a quicken su eidolon's actions. Idovik es @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} 1 until el beginning de Ashen Swale's next turn.</p>"
         },
         "action->Manifest Eidolon": {
           "name": "Eidolón manifiesto",
@@ -411,7 +411,7 @@
         },
         "action->Evasion": {
           "name": "Evasión",
-          "description": "<p>When the commando rolls a success on a Reflex save, they get a critical success instead.</p>"
+          "description": "<p>Cuando el comando obtiene un exito en una salvacion de Reflejos, obtiene en su lugar un exito critico.</p>"
         },
         "action->Spurred by Death": {
           "name": "Spurred by Death",
@@ -463,7 +463,7 @@
       "acDetails": "(17 con el escudo alzado)",
       "skillSpecialAthletics": {
         "0": {
-          "label": "to Shove with Shield Raised"
+          "label": "para Empujar con Escudo alzado"
         }
       },
       "items": {
@@ -574,7 +574,7 @@
     },
     "Calcifda": {
       "name": "Calcifda",
-      "senses": "gemsight",
+      "senses": "vista de gemas",
       "items": {
         "spellcastingEntry->Occult Innate Spells": {
           "name": "Occult Innate Spells"
@@ -602,7 +602,7 @@
         },
         "action->Light Sickness": {
           "name": "Light Sickness",
-          "description": "<p>Calcifda is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} in bright light.</p>"
+          "description": "<p>Calcifda queda @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} bajo luz brillante.</p>"
         },
         "action->Coal Curse": {
           "name": "Coal Curse",
@@ -622,7 +622,7 @@
         },
         "action->Steady Spellcasting": {
           "name": "Lanzamiento de conjuros firme",
-          "description": "<p>If a reaction would disrupt Calcifda's spellcasting action, she attempts a @Check[flat|dc:15]. On a success, the action isn't disrupted.</p>"
+          "description": "<p>Si una reaccion fuese a interrumpir la accion de lanzamiento de conjuro de Calcifda, intenta una @Check[flat|dc:15]. Con un exito, la accion no se interrumpe.</p>"
         },
         "lore->Gem Lore": {
           "name": "Gem Lore"
@@ -631,14 +631,14 @@
     },
     "Castoroides": {
       "name": "Castoroides",
-      "publicNotes": "<p>Beavers are stocky, herbivorous rodents that live in freshwater ecosystems throughout Avistan. They live in lodges, which they construct from logs, grass, rocks, and mud.</p>\n<p>Castoroides are bear-sized beavers that build their lodges on land near a water source rather than in the water.</p>",
+      "publicNotes": "<p>Beavers son stocky, herbivorous rodents que live en freshwater ecosystems throughout Avistan. They live en lodges, que ellos construct de logs, grass, rocks, y mud.</p> <p>Castoroides son bear-sized beavers que build su lodges en land near un agua source rather than en el agua.</p>",
       "items": {
         "strike-melee->Jaws": {
           "name": "Jaws"
         },
         "action->Deep Breath": {
           "name": "Contener La Respiración",
-          "description": "<p>A castoroides can hold its breath for 1 hour.</p>"
+          "description": "<p>Un castoroides puede contener la respiracion durante 1 hora.</p>"
         },
         "action->Slap": {
           "name": "Slap",
@@ -646,7 +646,7 @@
         },
         "action->Construct Shelter": {
           "name": "Construct Shelter",
-          "description": "<p>The castoroides rapidly constructs a simple mound along one side of its space, which can be used to Take Cover.</p>"
+          "description": "<p>El castoroides construye rapidamente un monticulo simple a lo largo de un lado de su espacio, que puede usarse para Ponerse a cubierto.</p>"
         },
         "action->Gouge": {
           "name": "Gouge",
@@ -664,7 +664,7 @@
     },
     "Cave-in": {
       "name": "Cave-in",
-      "description": "The tunnel collapses, filling the passage with stone.",
+      "description": "El tunel se derrumba y llena el pasaje de piedra.",
       "disable": "<p>@Check[survival|dc:25|name:Prop up ceiling] (entrenado) to prop up the tunnel ceiling without triggering a collapse</p>",
       "stealth": "(entrenado)",
       "items": {
@@ -737,7 +737,7 @@
     },
     "Death's Slumber Ward": {
       "name": "Death's Slumber Ward",
-      "description": "<p>A whirlwind of four ephemeral, magical threads dispels the undead and shrouds the living in an endless slumber.</p>",
+      "description": "<p>Un torbellino de cuatro hilos magicos efimeros disipa a los muertos vivientes y envuelve a los vivos en un sueno interminable.</p>",
       "disable": "<p>@Check[religion|dc:23|name:Dissipate One of the Threads|traits:hazard,magical,trap,complex] (experto) or @Check[performance|dc:21|name:Dissipate One of the Threads|traits:hazard,magical,trap,complex] (entrenado) to dissipate one of the four threads. Characters who failed or critically failed a PERFORMANCE check to participate in Grandfather Eiwa's funeral in Chapter 1 have been able to reflect on the experience; these characters gain a +2 bonificador de circunstancia to their PERFORMANCE checks to disable this trap.</p>\n<p>La trampa is destroyed when all four threads are dissipated.</p>",
       "reset": "<p>The haunt deactivates 1 minute after no living or undead criaturas are within 100 pies, then resets.</p>",
       "routine": "<p>(4 actions) Each thread of energy passes through a random living or undead criatura within 60 pies, dealing 4d6 daño (@Check[will|dc:22|basic|name:Death's Slumber Ward|traits:hazard,magical,trap,complex]) to the criatura. A thread deals @Damage[4d6[void]] daño to living criaturas and @Damage[4d6[vitality]] daño to undead criaturas. Each thread passes through a different random criatura, if possible. Each dissipated thread reduces the trap's number of actions by 1.</p>",
@@ -821,7 +821,7 @@
     },
     "Falling Stalactites": {
       "name": "Falling Stalactites",
-      "description": "Unstable stalactites fall from the ceiling.",
+      "description": "Estalactitas inestables caen del techo.",
       "disable": "<p>@Check[survival|dc:20|name:Safely remove Stalactite|traits:hazard,environmental] (entrenado) to remove a stalactite without triggering a fall</p>",
       "stealth": "(entrenado)",
       "items": {
@@ -837,7 +837,7 @@
     "Fiendish Arboreal": {
       "name": "Fiendish Arboreal",
       "acDetails": "(22 con el escudo alzado)",
-      "blurb": "Demon‑touched arboreal wardens",
+      "blurb": "Guardianes arboreos tocados por demonios",
       "publicNotes": "<p>Arboreal wardens are the rangers of arboreal SOCIETY. Estos itinerant folk have an innate curiosity about the woodlands in which they dwell, and rarely stop to take root and rest in the same part of the forest twice. Este wanderlust makes wardens ideal forest patrollers and scouts. While they are robust combatants, they know better than to confront dangerous foes on their own. Instead, they report any dangers to arboreal regents. In rare cases, large groups of arboreal wardens congregate to form a copse. Copses travel beyond the boundaries of a forest to investigate the hinterlands and gather INTELLIGENCE on potential threats before returning to report their findings. Arboreal wardens do not pretend to understand to other criaturas' motives-like most forces of the natural world, they are ambivalent about mortal affairs that do not involve their forest.</p>\n<hr />\n<p>Arboreals are guardians of the forest and representatives of the trees. As long-lived as the woods they watch over, arboreals consider themselves parents and shepherds of trees rather than their gardeners. Consequently, while arboreals tend to be slow and methodical, they are terrifyingly swift when forced to fight in defense of the woods. Though they rarely seek out the companionship of short-lived folk-even elves are fugacious in the eyes of arboreals-and have an inherent distrust of change, arboreals have been known to tolerate those who seek to learn from their long-winded, rambling monologues, especially if such pupils also express a desire to protect the timberlands. Against those who threaten their realm, such as loggers eager to harvest lumber or settlers aiming to establish croplands or a town, arboreals' wrath is unwavering and devastating. Perhaps ironically, arboreals are gifted at tearing down what others build-a rasgo that serves vengeful members of their kind well.</p>",
       "skillSpecialStealth": {
         "0": {
@@ -883,9 +883,9 @@
     },
     "Footsteps Of Legends": {
       "name": "Footsteps Of Legends",
-      "description": "The characters witness Burning Mammoths walking this mountain pass in ages long past.",
+      "description": "El characters witness Burning Mammoths walking este montana pass en ages long past.",
       "disable": "<p>@Check[diplomacy|dc:26|name:Convince the spirits to remain dormant|traits:hazard,haunt] (entrenado) to convince the spirits to remain dormant, or @Check[religion|dc:26|name:Ritually silence the spirits|traits:hazard,haunt] (entrenado) to ritually silence the spirits</p>",
-      "reset": "1 hour",
+      "reset": "1 hora",
       "stealth": "(experto)",
       "items": {
         "action->Ancestral Journey": {
@@ -922,7 +922,7 @@
         },
         "action->Subterranean Naiad": {
           "name": "Subterranean Naiad",
-          "description": "<p>Gathganara has darkvision, rather than low-light vision.</p>"
+          "description": "<p>Gathganara tiene darkvision, rather than low-light vision.</p>"
         },
         "action->Wild Empathy": {
           "name": "Wild Empathy",
@@ -934,7 +934,7 @@
         },
         "action->Water Healing": {
           "name": "Water Healing",
-          "description": "<p>While within her bonded body of water, the naiad heals 1 Hit Point every 10 minutes.</p>"
+          "description": "<p>Mientras dentro de su bonded cuerpo de agua, el naiad heals 1 Hit Point every 10 minutos.</p>"
         }
       }
     },
@@ -1044,11 +1044,11 @@
         },
         "action->Ice Stride": {
           "name": "Ice Zancada",
-          "description": "<p>A frost giant isn't impeded by difficult terrain caused by snow or ice, nor do they need to attempt Acrobatics checks to keep from falling on slippery ice.</p>"
+          "description": "<p>Un frost giant isn't impeded by terreno dificil causado por nieve o hielo, nor do ellos need a attempt Acrobatics pruebas a keep de falling en slippery hielo.</p>"
         },
         "action->Light Step": {
           "name": "Light Dar un paso",
-          "description": "<p>When the Graylok ambusher Strides or Steps, they ignore difficult terrain.</p>"
+          "description": "<p>Cuando el Graylok ambusher zancadas o da pasos, ellos ignore terreno dificil.</p>"
         },
         "action->Sneak Attack": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>The Graylok ambusher deals an additional 2d6 daño de precisión to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} criaturas.</p>"
@@ -1076,7 +1076,7 @@
         },
         "action->Ice Stride": {
           "name": "Ice Zancada",
-          "description": "<p>A frost giant isn't impeded by difficult terrain caused by snow or ice, nor do they need to attempt Acrobatics checks to keep from falling on slippery ice.</p>"
+          "description": "<p>Un frost giant isn't impeded by terreno dificil causado por nieve o hielo, nor do ellos need a attempt Acrobatics pruebas a keep de falling en slippery hielo.</p>"
         },
         "action->Ignite Greataxe": {
           "name": "Ignite Greataxe",
@@ -1113,7 +1113,7 @@
         },
         "action->Shield Block": {
           "name": "Bloqueo con el escudo",
-          "description": "<p>[reaction]</p>"
+          "description": "<p>[reaction] Reaccion</p>"
         },
         "action->Freeze Blade": {
           "name": "Freeze Blade",
@@ -1121,7 +1121,7 @@
         },
         "action->Ice Stride": {
           "name": "Ice Zancada",
-          "description": "<p>A frost giant isn't impeded by difficult terrain caused by snow or ice, nor do they need to attempt Acrobatics checks to keep from falling on slippery ice.</p>"
+          "description": "<p>Un frost giant isn't impeded by terreno dificil causado por nieve o hielo, nor do ellos need a attempt Acrobatics pruebas a keep de falling en slippery hielo.</p>"
         },
         "action->Shielded Stride": {
           "name": "Shielded Zancada",
@@ -1168,7 +1168,7 @@
     },
     "Hail of Razor Stones": {
       "name": "Hail of Razor Stones",
-      "description": "<p>When a concealed cord is tripped, several sharp stones fall onto the square containing the cord.</p>",
+      "description": "<p>Cuando un concealed cord es tripped, several sharp stones caer onto el casilla containing el cord.</p>",
       "disable": "<p>@Check[thievery|dc:18|name:Cut the Trip Cord|traits:hazard,mechanical,trap] (entrenado) to safely cut the trip cord</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
@@ -1180,10 +1180,10 @@
     },
     "Hall Of Fiery Doom": {
       "name": "Hall Of Fiery Doom",
-      "description": "While the roof is on fire and collapsing timbers crush those within the hall, demons fly down from the sky to pluck victims from the flames.",
+      "description": "Mientras el roof es en fuego y collapsing timbers crush those dentro de el hall, demons volar down de el sky a pluck victims de el flames.",
       "disable": "<p>Two @Check[athletics|dc:32] or @Check[diplomacy|dc:32] checks to douse the flames; ATHLETICS to do the work yourself or DIPLOMACY to muster the ghostly soldiers. Este reduces the hazard's actions by 1 and prevents it from using Burning Timbers. Banish the demons with up to two @Check[arcana|dc:35], @Check[occultism|dc:35], or @Check[religion|dc:35]checks; each success reduces the hazard's actions by 1, and two successes prevent it from using Demonic Abduction. When the hazard loses all 3 actions, Burning Timbers, and Demonic Abduction, it's disabled.</p>",
-      "reset": "The hall falls quiet for 24 hours, after which it can trigger again.",
-      "routine": "<p>(3 actions) The haunt spends 1 action to fill the hall with burning timbers falling from above, and 2 actions to pluck up random victims and drop them to their deaths.</p>",
+      "reset": "El hall cae quiet durante 24 horas, after que ello puede trigger de nuevo.",
+      "routine": "<p>(3 actions) El haunt spends 1 action a fill el hall con burning timbers falling de above, y 2 actions a pluck up random victims y drop them a su deaths.</p>",
       "stealth": "(maestro)",
       "items": {
         "action->Burst of Fire": {
@@ -1228,7 +1228,7 @@
         },
         "action->Evasion": {
           "name": "Evasión",
-          "description": "<p>When Hegremon rolls a success on a Reflex save, he gets a critical success instead.</p>"
+          "description": "<p>Cuando Hegremon rolls un success en un salvacion de Reflejos, el gets un exito critico en su lugar.</p>"
         },
         "action->Aimed Shot": {
           "name": "Aimed Shot",
@@ -1248,7 +1248,7 @@
         },
         "action->Ice Stride": {
           "name": "Ice Zancada",
-          "description": "<p>Hegremon isn't impeded by difficult terrain caused by snow or ice, nor does he need to attempt Acrobatics checks to keep from falling on slippery ice.</p>"
+          "description": "<p>Hegremon isn't impeded by terreno dificil causado por nieve o hielo, nor does el need a attempt Acrobatics pruebas a keep de falling en slippery hielo.</p>"
         },
         "action->Nature's Edge": {
           "name": "Ventaja De La Naturaleza",
@@ -1271,7 +1271,7 @@
       },
       "skillSpecialCrafting": {
         "0": {
-          "label": "to Craft traps"
+          "label": "a Craft trampas"
         }
       },
       "items": {
@@ -1327,7 +1327,7 @@
         },
         "action->Indomitable Step": {
           "name": "Indomitable Dar un paso",
-          "description": "<p>Idovik ignores difficult terrain and uneven ground, and he treats greater difficult terrain as normal difficult terrain.</p>"
+          "description": "<p>Idovik ignora el terreno dificil y uneven suelo, y el treats terreno dificil mayor as normal terreno dificil.</p>"
         },
         "action->Otherworldly Roar": {
           "name": "Otherworldly Roar",
@@ -1380,7 +1380,7 @@
         },
         "action->Attack of Opportunity": {
           "name": "Ataque de oportunidad",
-          "description": "<p>[reaction]</p>"
+          "description": "<p>[reaction] Reaccion</p>"
         },
         "action->Capture Magic": {
           "name": "Capturar magia",
@@ -1391,7 +1391,7 @@
         },
         "action->Companion Bond": {
           "name": "Companion Bond",
-          "description": "<p>When Ivarsa uses a teleportation effect while she's riding a mount, the mount teleports with her.</p>"
+          "description": "<p>Cuando Ivarsa usa un teleportation effect mientras ella's riding un mount, el mount teleports con su.</p>"
         },
         "action->Spellstrike": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.actionspf2e.Item.QDW9H8XLIjuW2fE4]\n<p>Ivarsa channels a conjuro into a punch or axe swing to deliver a magically charged attack. She casts @UUID[Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq]{Ignition} or @UUID[Compendium.pf2e.spells-srd.Item.gYjPm7YwGtEa1oxh]{Ray of Frost}. The effects of the conjuro don't occur immediately but are imbued into her attack instead. She makes a melee Golpe with a arma or ataque sin armas, which gains the arcane rasgo. Her conjuro is coupled with the attack, using her tirada de ataque to determine the effects of both the Golpe and the conjuro. Este counts as two attacks for her multiple attack penalización, but the penalización isn't applied until after she has completed the Spellstrike. After she uses Spellstrike, Ivarsa can't do so again until she recharges this ability as a single action, which has the concentrate rasgo. She also recharges her Spellstrike when she casts thunderous strike.</p>"
@@ -1443,7 +1443,7 @@
     },
     "Kadlaka": {
       "name": "Kadlaka",
-      "publicNotes": "<p>Kadlakas-strong, lanky humanoids with raven-like features-combine the most formidable aspects of talented hunters and airborne scouts, to say nothing of their potent magical powers over thunder and lightning. Though they shy from most humanoids, kadlakas readily form friendships with ravens and other birds, and they sometimes make temporary alliances with people who prove themselves capable stewards of wild animals and the natural order of things. When they do settle on a roost-whether for a single season or a lifetime-kadlakas often position themselves as guardians of a natural feature or local flock. Because a kadlaka's natural form might frighten humanoid travelers, they often take on the guise of a human or other common bipedal ancestry to gain information and pass on warnings.</p>",
+      "publicNotes": "<p>Kadlakas-strong, lanky humanoides con raven-like features-combine el most formidable aspects de talented hunters y airborne scouts, a say nothing de su potent magico powers over thunder y lightning. Though ellos shy de most humanoides, kadlakas readily form friendships con ravens y otro birds, y ellos sometimes make temporary alliances con people who prove themselves capable stewards de wild animals y el natural order de things. Cuando ellos do settle en un roost-whether for un single season o un lifetime-kadlakas often position themselves as guardians de un natural feature o local flock. Because un kadlaka's natural form might frighten humanoide travelers, ellos often reciben en el guise de un human o otro common bipedal ancestry a obtienen information y pass en warnings.</p>",
       "items": {
         "spellcastingEntry->Primal Innate Spells": {
           "name": "Primal Innate Spells"
@@ -1512,7 +1512,7 @@
         },
         "action->Cold Adaptation": {
           "name": "Cold Adaptation",
-          "description": "<p>The lagofir reduces the effects it suffers from cold environments by one step.</p>"
+          "description": "<p>El lagofir reduces el effects ello suffers de frio environments by one dar un paso.</p>"
         },
         "action->Consuming Fumes": {
           "name": "Consuming Fumes",
@@ -1520,7 +1520,7 @@
         },
         "action->Deep Breath": {
           "name": "Contener La Respiración",
-          "description": "<p>A lagofir can hold its breath for 1 hour.</p>"
+          "description": "<p>Un lagofir puede contener la respiracion durante 1 hora.</p>"
         },
         "action->Flammable": {
           "name": "Inflamable",
@@ -1598,7 +1598,7 @@
         },
         "action->Powerful Will": {
           "name": "Powerful Will",
-          "description": "<p>When Lomok rolls a success on a Will save, he gets a critical success instead.</p>"
+          "description": "<p>Cuando Lomok rolls un success en un salvacion de Voluntad, el gets un exito critico en su lugar.</p>"
         },
         "action->Retributive Strike": {
           "name": "Retributive Golpe",
@@ -1630,7 +1630,7 @@
         },
         "action->Cold Adaptation": {
           "name": "Cold Adaptation",
-          "description": "<p>The bison reduces the effects it suffers from cold environments by one step.</p>"
+          "description": "<p>El bison reduces el effects ello suffers de frio environments by one dar un paso.</p>"
         },
         "action->Toss": {
           "name": "Toss",
@@ -1688,8 +1688,8 @@
     },
     "Methane Flue": {
       "name": "Methane Flue",
-      "description": "<p>Invisible but highly flammable natural gas has built up beneath the ground, where geological pressure can ignite it.</p>",
-      "disable": "<p>@Check[survival|dc:28|name:Diffuse the Flames|traits:environmental,hazard] to dig around the vent in a way that diffuses the fumes</p>",
+      "description": "<p>invisible but highly flammable natural gas tiene built up beneath el suelo, where geological pressure puede ignite ello.</p>",
+      "disable": "<p>@Check[survival|dc:28|name:Diffuse the Flames|traits:environmental,hazard] a dig around el vent en un way que diffuses el fumes</p>",
       "stealth": "(experto) to hear hissing gas",
       "items": {
         "action->Flame Spurt": {
@@ -1712,7 +1712,7 @@
         },
         "action->Attack of Opportunity": {
           "name": "Ataque de oportunidad",
-          "description": "<p>[reaction]</p>"
+          "description": "<p>[reaction] Reaccion</p>"
         },
         "action->Dual Deny Advantage": {
           "name": "Dual Deny Advantage",
@@ -1778,7 +1778,7 @@
     },
     "Oil Explosion": {
       "name": "Oil Explosion",
-      "description": "The flammable oil catches flame and explodes, burning up in a ball of fire.",
+      "description": "El flammable oil catches flame y explodes, burning up en un ball de fuego.",
       "disable": "<p>@Check[survival|dc:25|name:Neutralize the oil|traits:hazard,environmental,fire] (entrenado) or @Check[crafting|dc:23|name:Neutralize the oil|traits:hazard,environmental,fire] to neutralize the oil without setting it alight</p>",
       "stealth": "(entrenado)",
       "items": {
@@ -1824,7 +1824,7 @@
       "blurb": "Kellid hunter varon",
       "skillSpecialStealth": {
         "0": {
-          "label": "in ice and snow"
+          "label": "en hielo y nieve"
         }
       },
       "tokenName": "Pakano",
@@ -1863,9 +1863,9 @@
     },
     "Pouncing Tiger Haunt": {
       "name": "Pouncing Tiger Haunt",
-      "description": "<p>A cave painting of a great cat roars to life and leaps off the wall to attack.</p>",
+      "description": "<p>Un cave painting de un great cat roars a life y salta off el muro a ataque.</p>",
       "disable": "<p>@Check[nature|dc:18|name:Quell the Spirit|traits:hazard,haunt] (entrenado) or @Check[religion|dc:18|name:Quell the Spirit|traits:hazard,haunt] (entrenado) to quell the spirit</p>",
-      "reset": "<p>If the cave painting isn't destroyed, the haunt resets after 1 day.</p>",
+      "reset": "<p>Si el cave painting isn't destruido, el haunt resets after 1 dia.</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
         "action->Tiger Slash": {
@@ -1898,7 +1898,7 @@
         },
         "action->Str": {
           "name": "Str",
-          "description": "<p>+5, <strong>Dex</strong>+2, <strong>Con</strong>+3, <strong>Int</strong>-1, <strong>Wis</strong>+1, <strong>Cha</strong>+0</p>"
+          "description": "<p>+5, <strong>Des</strong>+2, <strong>Con</strong>+3, <strong>Int</strong>-1, <strong>Sab</strong>+1, <strong>Car</strong>+0</p>"
         },
         "action->Dig In": {
           "name": "Dig In",
@@ -1916,7 +1916,7 @@
         },
         "action->Motion Sense 60 feet": {
           "name": "Motion Sense 60 pies",
-          "description": "<p>A rime sludge can sense nearby motion through vibration and air movement.</p>"
+          "description": "<p>Un rime sludge puede sentido nearby motion through vibration y air movement.</p>"
         },
         "action->Noxious Sublimation": {
           "name": "Noxious Sublimation",
@@ -1924,13 +1924,13 @@
         },
         "action->Slushy Undulation": {
           "name": "Slushy Undulation",
-          "description": "<p>A rime sludge ignores difficult terrain and greater difficult terrain from ice and snow and doesn't risk falling @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} when crossing ice.</p>"
+          "description": "<p>Un rime sludge ignora el terreno dificil y terreno dificil mayor de hielo y nieve y doesn't risk falling @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} cuando crossing hielo.</p>"
         }
       }
     },
     "Rockfall Ceiling": {
       "name": "Rockfall Ceiling",
-      "description": "A load of rocks, held up by a rope pulley, is dropped on the cavern's lower level.",
+      "description": "Un load de rocks, held up by un rope pulley, es dropped en el cavern's lower level.",
       "disable": "<p>@Check[thievery|dc:25|name:Pin the pulley in place|traits:hazard,mechanical,trap] (entrenado) to pin the pulley in place</p>",
       "stealth": "(entrenado)",
       "items": {
@@ -1943,7 +1943,7 @@
     "Roru": {
       "name": "Roru",
       "languages": "speak with animals, telepathy 100 pies",
-      "publicNotes": "<p>Rorus, sometimes called hunter demons, are brutal fiends that arise from the souls of mortals who mutilated animal corpses. As demons, these individuals don animal pelts, then infiltrate packs or herds to corrupt entire swaths of animals, turning their victims bloodthirsty and feral.</p>",
+      "publicNotes": "<p>Rorus, sometimes called hunter demons, son brutal fiends que arise de el souls de mortals who mutilated animal corpses. As demons, these individuals don animal pelts, then infiltrate packs o herds a corrupt entire swaths de animals, turning su victims bloodthirsty y feral.</p>",
       "skillSpecialNature": {
         "0": {
           "label": "to comando an Animal"
@@ -2037,9 +2037,9 @@
     },
     "Spectral Archers": {
       "name": "Spectral Archers",
-      "description": "Ghostly soldiers wielding crossbows manifest within the towers that flank the gatehouse and rain bolts down upon intruders.",
+      "description": "Ghostly soldiers wielding crossbows manifest dentro de el towers que flank el gatehouse y rain bolts down upon intruders.",
       "disable": "<p>@Check[intimidation|dc:31|traits:haunt,hazard] (experto) to cow the archers into fleeing or @Check[religion|dc:28|name:Banish the Spirits|traits:haunt,hazard] (experto) to temporarily banish the spirits</p>",
-      "reset": "The haunt vanishes permanently if the graveknights are destroyed. Otherwise, it returns after 1 hour.",
+      "reset": "El haunt vanishes permanently si el graveknights son destruido. Otherwise, ello returns despues de 1 hora.",
       "stealth": "(experto)",
       "items": {
         "action->Rain of Bolts": {
@@ -2063,7 +2063,7 @@
     "Summer Hora": {
       "name": "Summer Hora",
       "languages": "hablar con animales, hablar con plantas",
-      "privateNotes": "<p>Summer horai appear constantly bathed in sunlight, with skin and clothing of red, orange, and yellow, like the sunlight of high summer.</p>\n<p>The Summer Hora is under the constant effects of @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]{Speak with Animals} and @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]{Speak with Plants}.</p>",
+      "privateNotes": "<p>Summer horai appear constantly bathed en sunlight, con piel y clothing de red, orange, y yellow, like el sunlight de high summer.</p> <p>El Summer Hora es under el constant effects de @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]{Speak con Animals} y @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]{Speak con plantas}.</p>",
       "items": {
         "spellcastingEntry->Primal Innate Spells": {
           "name": "Primal Innate Spells"
@@ -2088,11 +2088,11 @@
         },
         "action->Summer Bound": {
           "name": "Summer Bound",
-          "description": "<p>During the winter months, a summer hora can't take reactions, is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}, and can't reduce their sickened condition below 1.</p>"
+          "description": "<p>During el winter meses, un summer hora puede't reciben reactions, es @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}, y puede't reduce su indispuesto condition below 1.</p>"
         },
         "action->Solstice Dependent": {
           "name": "Solstice Dependent",
-          "description": "<p>An hora is mystically bonded to a natural location with a simple astronomical calendar that marks the summer and winter solstice. If they aren't at that location at dawn when the sunlight touches the calendar, they become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}, increasing the value by 1 for each missed day and reducing by 1 only when they witness dawn's light touch the calendar. Even on a cloudy day, there's enough sunlight to satisfy the hora's need. An hora can perform a 24-hour ritual to bond to a new location.</p>"
+          "description": "<p>Un hora es mystically bonded a un natural location con un simple astronomical calendar que marks el summer y winter solstice. Si ellos aren't at que location at dawn cuando el sunlight touches el calendar, ellos quedan @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}, increasing el value by 1 for cada missed dia y reducing by 1 solo cuando ellos witness dawn's light touch el calendar. Even en un cloudy dia, there's enough sunlight a satisfy el hora's need. Un hora puede perform un 24-hora ritual a bond a un nuevo location.</p>"
         },
         "action->Summer's Salvation": {
           "name": "Summer's Salvation",
@@ -2106,7 +2106,7 @@
     "Summer Hora Queen": {
       "name": "Summer Hora Queen",
       "languages": "hablar con animales, hablar con plantas",
-      "privateNotes": "<p>Hora queens rule over wide stretches of land, nourishing and protecting native animals and plants. Most hora queens watch over their regions in pairs: one summer and one winter, or one autumn and one spring.</p>\n<p>The Summer Hora Queen is under the constant effects of @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]{Speak with Animals} and @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]{Speak with Plants}.</p>",
+      "privateNotes": "<p>Hora queens rule over wide stretches de land, nourishing y protecting native animals y plantas. Most hora queens watch over su regions en pairs: one summer y one winter, o one autumn y one spring.</p> <p>El Summer Hora Queen es under el constant effects de @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]{Speak con Animals} y @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]{Speak con plantas}.</p>",
       "items": {
         "spellcastingEntry->Primal Prepared Spells": {
           "name": "Primal Prepared Spells"
@@ -2175,7 +2175,7 @@
         },
         "action->Summer Bound": {
           "name": "Summer Bound",
-          "description": "<p>During the winter months, a summer hora can't take reactions, is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}, and can't reduce their sickened condition below 1.</p>"
+          "description": "<p>During el winter meses, un summer hora puede't reciben reactions, es @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}, y puede't reduce su indispuesto condition below 1.</p>"
         },
         "action->Tied to the Land": {
           "name": "Tied to the Land",
@@ -2250,7 +2250,7 @@
         },
         "action->Motion Sense": {
           "name": "Motion Sense",
-          "description": "<p>A tar ooze can sense nearby motion through vibration and movement.</p>"
+          "description": "<p>Un tar ooze puede sentido nearby motion through vibration y movement.</p>"
         },
         "action->Sticky": {
           "name": "Sticky",
@@ -2273,7 +2273,7 @@
       "name": "Tar Pit",
       "description": "A 15-pies-wide patch of tar covered with dirt and leaves attempts to capture criaturas that step onto it.",
       "disable": "<p>@Check[survival|dc:25|name:Reveal the Tar Pit|traits:environmental,hazard] (experto) to disturb the surface and reveal the tar pit</p>",
-      "reset": "Though the hazard still captures anyone who touches it, the surface doesn't become hidden again until it settles, which takes 24 hours.",
+      "reset": "Though el peligro still captures anyone who touches ello, el surface doesn't quedan oculto de nuevo until ello settles, que recibe 24 horas.",
       "routine": "<p>(1 action) On its initiative, the tar pit pulls down each criatura within it, thick tar adhering to the criatura's body. A criatura that was submerged up to its waist becomes submerged up to its neck, and a criatura that was submerged up to its neck is pulled under and must hold its breath to avoid suffocation. A criatura in the tar pit can attempt a @Check[athletics|dc:33] check to @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{CLIMB} to either raise itself by one step (if it's submerged to its neck or full submerged) or to move 5 pies if it's submerged only up to its waist. On a critical failure, the criatura is pulled down one step. Other criaturas can Aid the criatura, typically by using a rope or similar aid or by attempting to pull the criatura out with their own @Check[athletics|dc:33] check, with the same results as if the criatura attempted the check. In addition to the usual results, a character adjacent to the tar pit who critically fails while Aiding moves into the tar pit. A criatura that Climbs out of the tar pit escapes the hazard and lands @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} in an adjacent space.</p>",
       "stealth": "(experto)",
       "items": {
@@ -2286,7 +2286,7 @@
     "Tar Zombie Mammoth": {
       "name": "Tar Zombie Mammoth",
       "hpDetails": "curación de vacío",
-      "privateNotes": "<p>Slow A tar zombie is permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use reactions.</p>",
+      "privateNotes": "<p>Slow Un tar zombie es permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} y puede't usar reactions.</p>",
       "skillSpecialStealth": {
         "0": {
           "label": "en pozos de alquitran"
@@ -2326,7 +2326,7 @@
     "Tar Zombie Predator": {
       "name": "Tar Zombie Predator",
       "hpDetails": "curación de vacío",
-      "privateNotes": "<p>Slow A tar zombie is permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use reactions.</p>",
+      "privateNotes": "<p>Slow Un tar zombie es permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} y puede't usar reactions.</p>",
       "skillSpecialStealth": {
         "0": {
           "label": "en pozos de alquitran"
@@ -2356,7 +2356,7 @@
     "Tar Zombie Snatcher": {
       "name": "Tar Zombie Snatcher",
       "hpDetails": "curación de vacío",
-      "privateNotes": "<p>Slow A tar zombie is permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use reactions.</p>",
+      "privateNotes": "<p>Slow Un tar zombie es permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} y puede't usar reactions.</p>",
       "skillSpecialStealth": {
         "0": {
           "label": "en pozos de alquitran"
@@ -2384,7 +2384,7 @@
       "publicNotes": "<p>Inhabitants of damp, subterranean caves, blindheims resemble stubby humanoids with oversized, frog-like heads and bulbous eyes. Their eyes emit a soft glow at all times, but a blindheim can draw back the heavy membrane that normally covers them to emit an intense light as bright as day. Estos simple criaturas use their lights to draw in or disorient prey, mostly small animals like lizards, rodents, or fish. However, they might go after larger prey if trying to feed their young. When they encounter criaturas their own size or larger they retreat, flashing their eyes to facilitate their escape if necessary. They often hunt in pairs or small packs. Using their lights to coordinate from a distance, they slowly close in on the criaturas they hunt. One common hunting pattern involves one blindheim diving deep and using its light to chase fish to the surface, while another up above snatches them up and tosses them onto the land to eat later.</p>\n<p>Blindheims make their nests in damp caverns, especially grottoes next to underground lakes or bogs. An ideal nest rests in a cozy cavern with plenty of fungus to eat, a few fish swimming in a lake, and the comforting drip of water from the ceiling. Blindheims prefer to lead quiet and serene lives, and even when first born they emit only the meekest of vocalizations. A blindheim is born shining, and its parents cuddle over it to dim the light so as to avoid attracting predators.</p>\n<p>It's not just animals that endanger blindheims. Underground peoples find the criaturas useful and attempt to capture them for specialized purposes. Duergars use them as \"raid frogs,\" placing heavy hoods over blindheims' heads and revealing them suddenly during raids to blind their foes. They sometimes send the criaturas along with their slaves that lack darkvision into the mines as a source of light. Drow use them for some of these same purposes, and some nobles have been known to treat the criaturas as mere lanterns, having them hoisted to the ceilings of their halls. Neither duergars nor drow take good care of the captive criaturas, so blindheims rarely last long in captivity.</p>",
       "skillSpecialAthletics": {
         "0": {
-          "label": "to Jump or Swim"
+          "label": "a Jump o Swim"
         }
       },
       "items": {
@@ -2396,7 +2396,7 @@
         },
         "action->Crushed Windpipes": {
           "name": "Crushed Windpipes",
-          "description": "<p>The blindheim can't vocalize and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} until its neck injuries heal.</p>"
+          "description": "<p>El blindheim puede't vocalize y es @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} until su neck injuries heal.</p>"
         },
         "action->Spotlight": {
           "name": "Spotlight",
@@ -2496,7 +2496,7 @@
       "name": "Venexus",
       "blurb": "young white dragon mujer",
       "saveDetails": "+1 de estado a todas las salvaciones contra magia",
-      "senses": "storm vision",
+      "senses": "vision de tormenta",
       "speed": "ice climb 30 pies",
       "items": {
         "spellcastingEntry->Arcane Innate Spells": {
@@ -2568,7 +2568,7 @@
     },
     "Venexus's Chosen": {
       "name": "Venexus's Chosen",
-      "blurb": "Dragonkin monks",
+      "blurb": "Monjes draconidos",
       "items": {
         "spellcastingEntry->Primal Innate Spells": {
           "name": "Primal Innate Spells"
@@ -2593,7 +2593,7 @@
         },
         "action->Ice Walk": {
           "name": "Ice Walk",
-          "description": "<p>Venexus's chosen ignores difficult terrain and greater difficult terrain from ice and snow and doesn't risk falling when crossing ice.</p>"
+          "description": "<p>Venexus's chosen ignora el terreno dificil y terreno dificil mayor de hielo y nieve y doesn't risk falling cuando crossing hielo.</p>"
         },
         "action->Powerful Fists": {
           "name": "Powerful Fists",
@@ -2648,7 +2648,7 @@
       "name": "Weykoward",
       "skillSpecialStealth": {
         "0": {
-          "label": "among junk or debris"
+          "label": "among junk o debris"
         }
       },
       "items": {
@@ -2684,11 +2684,11 @@
         },
         "action->Cold Tolerant": {
           "name": "Cold Tolerant",
-          "description": "<p>Yana treats environmental cold effects as if they were one step less extreme.</p>"
+          "description": "<p>Yana treats environmental frio effects as si ellos fueron one dar un paso less extreme.</p>"
         },
         "action->Evasion": {
           "name": "Evasión",
-          "description": "<p>When Yana rolls a success on a Reflex save, he gets a critical success instead.</p>"
+          "description": "<p>Cuando Yana rolls un success en un salvacion de Reflejos, el gets un exito critico en su lugar.</p>"
         },
         "action->Nimble Dodge": {
           "name": "Esquiva ágil",
@@ -2721,7 +2721,7 @@
         },
         "action->Slow": {
           "name": "Lentificar",
-          "description": "<p>A zombie is permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use reactions.</p>"
+          "description": "<p>Un zombie es permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} y puede't usar reactions.</p>"
         },
         "action->Dual Tusks": {
           "name": "Dual Tusks",
@@ -2754,7 +2754,7 @@
         },
         "action->Slow": {
           "name": "Lentificar",
-          "description": "<p>A zombie is permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use reactions.</p>"
+          "description": "<p>Un zombie es permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} y puede't usar reactions.</p>"
         },
         "action->Furious Charge": {
           "name": "Furious Charge",
