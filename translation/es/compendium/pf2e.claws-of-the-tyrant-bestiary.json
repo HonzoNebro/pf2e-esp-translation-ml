@@ -73,7 +73,7 @@
       "name": "Carnivorous Mold",
       "description": "<p>Spores explode onto nearby criaturas, leaving welts as the mold dissolves exposed flesh.</p>",
       "disable": "<p>@Check[religion|dc:42] (legendario) to neutralize the void energy that animates the mold, or @Check[survival|dc:36] (maestro) to remove the mold without triggering the spores</p>",
-      "hpDetails": "BT 65",
+      "hpDetails": "UR 65",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Spore Explosion": {
@@ -154,7 +154,7 @@
       "name": "Chernasardo Chomper",
       "description": "<p>Estos animal snares have been repurposed to discourage unwanted intruders. When a criatura steps onto the snare, jaws with sharpened teeth close around the criatura's leg.</p>",
       "disable": "<p>@Check[acrobatics|dc:26] (entrenado) to step clear the snare before it springs, or @Check[thievery|dc:22] (entrenado) to trigger the trap harmlessly</p>",
-      "hpDetails": "BT 30",
+      "hpDetails": "UR 30",
       "stealth": "<p>(entrenado) to spot the snare</p>",
       "items": {
         "action->Bite": {
@@ -201,8 +201,8 @@
       "name": "Cleansing Suite",
       "description": "<p>Los cerrojos del interior de las puertas resuenan cuando aparecen tres runas brillantes en el techo.</p>",
       "disable": "<p>@Check[arcana|dc:42], @Check[nature|dc:42], @Check[occultism|dc:42], or @Check[religion|dc:42] to erase the runes, or @Check[crafting|dc:46] or @Check[thievery|dc:46] to destroy the runes, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th rank, counteract DC 41); each rune requires a success to remove (three runes total)</p>",
-      "hpDetails": "(runes) BT 65",
-      "reset": "<p>1 minute after the hazard activates, the deadbolts unlock and the hazard resets.</p>",
+      "hpDetails": "(runas) UR 65",
+      "reset": "<p>1 minuto despues de que se active el peligro, los cerrojos se desbloquean y el peligro se reinicia.</p>",
       "routine": "<p>(3 actions) The cleansing suite activates one of its runes. The hazard can't activate the same rune more than once per turn. Disabling a rune removes one of the hazard's actions and prevents the hazard from activating that rune.</p>",
       "stealth": "<p>(maestro)</p>",
       "items": {
@@ -228,7 +228,7 @@
       "name": "Collapsing Bridge",
       "description": "<p>Metal supports twist and shear off the bridge, causing stretches of the structure to collapse.</p>",
       "disable": "<p>@Check[engineering-lore|dc:40] to identify and reinforce weak points, @Check[crafting|dc:43] (maestro) to construct secondary supports, or @Check[athletics|dc:45] (legendario) to reinforce the bridge with found materials; three successes are required to halt the collapse</p>",
-      "hpDetails": "BT 52",
+      "hpDetails": "UR 52",
       "routine": "<p>(1 action) The collapse radiates out from the damaged section of the bridge. All squares adjacent to a collapsed section also fall into the water.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
@@ -367,7 +367,7 @@
       "name": "Electrified Entrance",
       "description": "<p>Magical runes electrocute anyone who crosses the door's threshold.</p>",
       "disable": "<p>@Check[acrobatics|dc:26] (entrenado) to jump through the door before the runes trigger, @Check[thievery|dc:28] (experto) to scratch out the runes, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank; counteract DC 24) to counteract the runes</p>",
-      "hpDetails": "BT 26",
+      "hpDetails": "UR 26",
       "reset": "<p>1 minute</p>",
       "stealth": "<p>(entrenado) to spot the runes etched into the door's frame</p>",
       "items": {
@@ -400,7 +400,7 @@
         },
         "action->Disperse": {
           "name": "Disperse",
-          "description": "<p>The engerra Strides or Flies. Este movement doesn't trigger reactions. During the movement, the engerra can move through occupied spaces and tiny cracks, and it ignores difficult terrain and greater difficult terrain. It then coalesces back into its normal form.</p>"
+          "description": "<p>The engerra Strides or Flies. Este movement no desencadena reacciones. During the movement, the engerra can move through occupied spaces and tiny cracks, and it ignores difficult terrain and greater difficult terrain. It then coalesces back into its normal form.</p>"
         },
         "action->Dying Breath": {
           "name": "Dying Breath",
@@ -465,7 +465,7 @@
       "name": "Grasping Gauntlet",
       "description": "<p>A gauntlet of magical force clutches criaturas trying to steal gear from the armory.</p>",
       "disable": "<p>@Check[arcana|dc:45], @Check[nature|dc:45], @Check[occultism|dc:45], or @Check[religion|dc:45] to trick the hazard's magic into nullifying itself, @Check[athletics|dc:41] to wrestle the gauntlet into submission, @Check[thievery|dc:39] to slide an object into the gauntlet's grasp, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th rank; counteract DC 41)</p>",
-      "reset": "<p>1 hour</p>",
+      "reset": "<p>1 hora</p>",
       "stealth": "<p>(maestro)</p>",
       "items": {
         "action->Seize Thief": {
@@ -495,14 +495,14 @@
       "name": "Hardened Entry",
       "description": "<p>A portcullis drops from the ceiling, landing with a heavy thunk. Seconds later, a cloud of acid rises from a metal grate in the floor.</p>",
       "disable": "<p>@Check[athletics|dc:45] to prevent the portcullis from dropping, @Check[crafting|dc:48] (maestro) to create a compound to neutralize the cloud of acid, or @Check[thievery|dc:35] (experto) to jam the pressure plate</p>",
-      "hpDetails": "BT 55",
+      "hpDetails": "UR 55",
       "reset": "<p>Once triggered, the trap must be manually reset by raising the portcullis. Once all the vials are smashed, the trap can't use its routine again until the vials are replaced.</p>",
       "routine": "<p>(1 action) A cloud of acidic vapor rises from the grate beneath the portcullis in a @Template[type:emanation|distance:5]. Any criatura that enters the area or starts its turn inside the cloud takes @Damage[(3d12+20)[acid]] daño (@Check[fortitude|dc:40|basic] save). A criatura that critically fails the save also takes @Damage[1d12[persistent,acid]] daño. Each time the hazard uses this routine beyond the first, increase the radius of the emanation by 5 pies.</p>",
       "stealth": "<p>(maestro)</p>",
       "items": {
         "action->Falling Portcullis": {
           "name": "Falling Portcullis",
-          "description": "<p><strong>Desencadenante</strong> A criatura Strides beneath the portcullis while it is raised</p>\n<hr />\n<p><strong>Efecto</strong> The portcullis slams down, driving its sharpened ends through a grate in the floor. Las criaturas directly beneath the portcullis take @Damage[(3d12+20)[piercing]] daño (@Check[reflex|dc:40|basic] save). The portcullis is made of adamantine and has Hardness 31 and 120 HP (BT 60). La trampa then rolls initiative.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura Strides beneath the portcullis while it is raised</p>\n<hr />\n<p><strong>Efecto</strong> The portcullis slams down, driving its sharpened ends through a grate in the floor. Las criaturas directly beneath the portcullis take @Damage[(3d12+20)[piercing]] daño (@Check[reflex|dc:40|basic] save). The portcullis is made of adamantine and has Hardness 31 and 120 HP (UR 60). La trampa then rolls initiative.</p>"
         }
       }
     },
@@ -704,7 +704,7 @@
     },
     "Oceanius and Glory Arcely": {
       "name": "Oceanius and Glory Arcely",
-      "blurb": "Male angel guardians",
+      "blurb": "angel guardians varon",
       "languages": "habla verdadera",
       "items": {
         "spellcastingEntry->Divine Innate Spells": {
@@ -937,7 +937,7 @@
     },
     "Raised Cavalry": {
       "name": "Raised Cavalry",
-      "hpDetails": "Thresholds 360 (4 segments), 240 (3 segments), 140 (2 segments)",
+      "hpDetails": "Umbrales 360 (4 segmentos), 240 (3 segmentos), 140 (2 segmentos)",
       "publicNotes": "<p>Undead are plentiful throughout the Gravelands, but even so, necromancers must sometimes get creative to organize the varied undead they have on hand into a cohesive military unit. While the typical raised cavalry is a mix of skeletons, zombies, and ghouls, many units also incorporate mummies, ghosts, and more powerful undead.</p>\n<p>The Knights of Lastwall have reported battalions of undead rising from the fields where they were buried, presumably in preparation for a future assault. One of the most infamous of these staging grounds was Fallowdeep, the network of subterranean tunnels beneath the former dwarven fortress of Hammer Rock. When the Whispering Tyrant attacked the nations of the Inner Sea, Fallowdeep's supply of undead was vastly depleted, but caches of corpses no doubt remain there for a resourceful necromancer to exploit.</p>",
       "speed": "troop movement",
       "items": {
@@ -954,7 +954,7 @@
         },
         "action->Troop Defenses": {
           "name": "Defensas de tropas",
-          "description": "<p><strong>Thresholds</strong> 360 (4 segments), 240 (3 segments), 140 (2 segments)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
+          "description": "<p><strong>Umbrales</strong> 360 (4 segmentos), 240 (3 segmentos), 140 (2 segmentos)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "action->Troop Movement": {
           "name": "Movimiento de tropas"
@@ -1197,7 +1197,7 @@
       "name": "Thieves' Lament",
       "description": "<p>A rune inscribed on the inside of the lock releases a burst of flame that burns the thief's hands and their tools.</p>",
       "disable": "<p>@Check[thievery|dc:30] (experto) to scratch out the rune, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank; counteract DC 24) to counteract the runes</p>",
-      "hpDetails": "BT 36",
+      "hpDetails": "UR 36",
       "stealth": "<p>(entrenado) to spot the rune inside the lock</p>",
       "items": {
         "action->Flash Flame": {

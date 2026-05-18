@@ -138,7 +138,7 @@
         },
         "action->Troop Defenses": {
           "name": "Defensas de tropas",
-          "description": "<p><strong>Thresholds</strong> 50 (3 segments), 25 (2 segments)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
+          "description": "<p><strong>Umbrales</strong> 50 (3 segmentos), 25 (2 segmentos)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "action->Pitchforks and Torches": {
           "name": "Pitchforks and Torches",
@@ -251,7 +251,7 @@
     },
     "Breath of Blood": {
       "name": "Breath of Blood",
-      "description": "<p>A churning pool of blood bubbles and seethes, periodically venting noxious vapors into the air.</p>",
+      "description": "<p>Un charco de sangre revuelta burbujea y hierve, liberando periodicamente vapores nocivos al aire.</p>",
       "disable": "<p>Three @Check[nature|dc:33] or @Check[occultism|dc:33] checks to draw from the blood its magical NATURE, causing it to clot and become inert, a @Check[religion|dc:36] check to offer prayers to sever the sacred link to Kabriri, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (6th rank; counteract DC 29) to render the hazard inert for 10 minutes</p>",
       "reset": "<p>The hazard settles back down 1 round after all criaturas leave the room and can trigger again at the start of the next round.</p>",
       "routine": "<p>(2 actions) The bubbles furiously sputter and burst on the hazard's first action, filling the air with toxic vapor that inflicts @Damage[6d6[poison]] daño (@Check[fortitude|dc:30|basic] save) to all criaturas in area <strong>J3b</strong>. A criatura that's holding its breath gains a +4 bonificador de circunstancia to this save. On the hazard's second action, the bubbles Vent Toxins at a random target in area <strong>J3b</strong>.</p>",
@@ -593,7 +593,7 @@
     "Fiendish Flock": {
       "name": "Fiendish Flock",
       "blurb": "Variante de raven swarm",
-      "languages": "Can't Speak Any Language",
+      "languages": "No puede hablar ningun idioma",
       "publicNotes": "<p>A flock of ravens is known as an unkindness. Certainly the name lives up to its meaning when a swarm of ravens decides to work together. In most cases, a raven swarm like the one presented here won't attack larger foes, but when manipulated by supernatural forces or simple desperation born from hunger, an unkindness of ravens can be a surprisingly dangerous foe.</p>\n<hr />\n<p>Few birds are as cunning and social as the raven.</p>",
       "items": {
         "action->Beaks and Talons": {
@@ -753,7 +753,7 @@
         },
         "action->Swift Leap": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UU1Fp3PRuTFONjC9]\nSwift Leap",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UU1Fp3PRuTFONjC9]\n<p>The ghast jumps up to half its Velocidad. Este movement doesn't trigger reactions.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UU1Fp3PRuTFONjC9]\n<p>The ghast jumps up to half its Velocidad. Este movement no desencadena reacciones.</p>"
         }
       }
     },
@@ -896,7 +896,7 @@
     },
     "Gurlunk": {
       "name": "Gurlunk",
-      "blurb": "Male goblin ranger",
+      "blurb": "goblin ranger varon",
       "items": {
         "strike-melee->Dogslicer": {
           "name": "Rajaperros"
@@ -997,7 +997,7 @@
         "spell->Veil (Self Only)": {
           "name": "Veil (Self Only)",
           "description": "<p>Tú disguise the targets as other criaturas of the same body shape and roughly similar height (within 6 inches) and weight (within 50 pounds). The disguise can hide the targets' identities or let them appear to be of another ancestry, but it's not precise enough to impersonate specific individuals. The conjuro doesn't change voice, scent, or mannerisms. Tú elige the disguise for each target; for example, tú could make one target appear to be a dwarf and another an elf. Casting veil counts as setting up a disguise for the purpose of the Impersonate action. It allows el objetivo to ignore any circumstance penalties they might take for being disguised as dissimilar criaturas, and it gives the targets a +4 bonificador de estado to DECEPTION checks to prevent others from seeing through their disguises, and add their level even if untrained. Puedes Dismiss any or all of these disguises.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The conjuro also disguises the targets' voices and scents; it gains the auditory and olfactory rasgos.</p>\n<p><strong>Heightened (7th)</strong> The targets can appear as any criatura of the same size, even specific individuals. Debes have seen an individual to reproduce their appearance. The conjuro also disguises the targets' voices and scents; it gains the auditory and olfactory rasgos.</p>",
-          "target": "self"
+          "target": "uno mismo"
         },
         "spell->Glitterdust": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]\nGlitterdust"
@@ -1100,7 +1100,7 @@
       "publicNotes": "<p>Intellect devourers serve as advance scouts and infiltrators for the powerful force of alien beings called the Dominion of the Black. Estos monsters roam the Darklands, from which they mount secret invasions of the world above. When an intellect devourer infiltrates a SOCIETY, its first priority is to acquire a body. It might first seek out a graveyard for a fresh corpse, as this is easier than fighting and killing someone. When the aberration compresses itself into the host's brain cavity, its real body goes dull to sensation as it connects to the nervous system of its host. If found out, an intellect devourer might quickly inhabit a new body to make its escape, preferably something inconspicuous such as a domestic animal.</p>",
       "skillSpecialDeception": {
         "0": {
-          "label": "with liar's lexicon"
+          "label": "con lexico del mentiroso"
         }
       },
       "items": {
@@ -1132,7 +1132,7 @@
     },
     "Kanker": {
       "name": "Kanker",
-      "blurb": "Male ghast alchemist",
+      "blurb": "ghast alchemist varon",
       "hpDetails": "curación de vacío",
       "items": {
         "weapon->Thunderstone (Greater)": {
@@ -1214,7 +1214,7 @@
         },
         "action->Swift Leap": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UU1Fp3PRuTFONjC9]\nSwift Leap",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UU1Fp3PRuTFONjC9]\n<p>The ghast jumps up to half its Velocidad. Este movement doesn't trigger reactions.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UU1Fp3PRuTFONjC9]\n<p>The ghast jumps up to half its Velocidad. Este movement no desencadena reacciones.</p>"
         },
         "action->Toxic Effluvium": {
           "name": "Toxic Effluvium",
@@ -1238,7 +1238,7 @@
     },
     "Minargul": {
       "name": "Minargul",
-      "blurb": "Female goblin witch",
+      "blurb": "goblin witch mujer",
       "items": {
         "spellcastingEntry->Divine Prepared Spells": {
           "name": "Divine Prepared Spells"
@@ -1327,7 +1327,7 @@
     },
     "Narlo Nyrell": {
       "name": "Narlo Nyrell",
-      "blurb": "Male herexen oracle",
+      "blurb": "herexen oracle varon",
       "hpDetails": "curación de vacío",
       "publicNotes": "<p>When a cleric rebels against their deity and dies in the grip of blasphemous rage, the heresies they committed in life may fuel their transformation into an undead herexen. Herexens seek vengeance against the deity they once worshipped, defiling temples, slaying the faithful, and rallying lesser undead and death cultists to aid them in their unholy quests. Though a herexen's divine gifts have mostly been corrupted into the vileness of undeath, they stubbornly cling to remnants of their former power, still wielding magic and armaments favored by the deity they so greatly despise.</p>\n<p>Groups of herexens that blasphemed against the same deity sometimes combine to form a mockery of a congregation, conducting blasphemous rites with something approaching euphoria. Estos congregations are more often formed from a blasphemous cult who practiced their heresy together in life and died together, though some gather independent herexens of the same former faith.</p>",
       "items": {
@@ -1447,7 +1447,7 @@
     },
     "Red Bishop": {
       "name": "Red Bishop",
-      "blurb": "Male mothman agent of Pazuzu",
+      "blurb": "mothman agent of Pazuzu varon",
       "languages": "(no puede hablar ningún idioma), telepathy 100 pies",
       "publicNotes": "<p>Little is known of the strange criaturas known as mothmen, save that when they make themselves known, calamity is sure to follow. The mothman sees themself as an agent of fate-provided such fate is devastating and destructive. Often, those who encounter a mothman never recall the meeting, yet live on to unknowingly pursue and enable the criatura's obscure plans.</p>\n<p>The name \"mothmen\" is, of course, not these criaturas' own name for themselves, but an appellation granted by the fearful who glimpse them and tell harrowing tales of their sightings. They each keep their own names, or a collection for use in different situations, yet have no need for a collective word for their kind.</p>",
       "items": {
@@ -1500,9 +1500,9 @@
     },
     "Ripnugget": {
       "name": "Ripnugget",
-      "blurb": "Male goblin graveknight",
+      "blurb": "goblin graveknight varon",
       "hpDetails": "curación de vacío, rejuvenation",
-      "publicNotes": "<p>Graveknights are undead warriors granted unlife by a cursed suit of armor.</p>",
+      "publicNotes": "<p>Los caballeros sepulcrales son guerreros muertos vivientes a quienes una armadura maldita concede no-vida.</p>",
       "items": {
         "strike-melee->Dogslicer": {
           "name": "Rajaperros"
@@ -1538,7 +1538,7 @@
     },
     "Scarhorn": {
       "name": "Scarhorn",
-      "blurb": "Female old black dragon",
+      "blurb": "old black dragon mujer",
       "saveDetails": "+1 de estado a todas las salvaciones contra magia",
       "items": {
         "spellcastingEntry->Arcane Prepared Spells": {
@@ -1595,7 +1595,7 @@
       "blurb": "Variante de serpentfolk bone prophet",
       "languages": "telepathy 100 pies",
       "publicNotes": "<p>The speakers for the dead known as bone prophets hold an esteemed place as voices for their decapitated god. Burial rites, necromantic rituals, and the delivery of cryptic utterances supposedly whispered to them by Ydersius all fall under the dominion of these priests. Bone prophets often raise fallen aapophs as skeletons.</p>",
-      "saveDetails": "+4 status to will saves vs. mental",
+      "saveDetails": "+4 de estado a salvaciones de Voluntad contra mental",
       "items": {
         "spellcastingEntry->Divine Spontaneous Spells": {
           "name": "Divine Spontaneous Spells"
@@ -1711,7 +1711,7 @@
       "publicNotes": "<p>Estos roughly human-sized reptiles have amazing pies capable of clinging tenaciously to any surface. giant geckos are typically docile and shy but can be aggressive when cornered or defending their territory. Estos large-eyed lizards are found in a wide variety of habitats, from rainforests and deserts to mountain slopes or even underground caverns. They spend most of their time climbing around in large trees or on rocky cliffs, whether hunting for small animals or hiding from predators. A giant gecko's scales are often quite brightly colored or decorated in intricate patterns. giant geckos span nearly 8 pies in length from head to tail, and they weigh about 120 pounds.</p>\n<p>giant geckos are sometimes used by smaller humanoids as guardians or mounts, as their docile NATURE makes them relatively easy to tame and train. Their superior climbing skills make giant geckos particularly popular within societies that dwell underground or near cliffs, such as goblins and kobolds. Their bright coloration also makes them favorite exotic pets in high SOCIETY.</p>\n<hr />\n<p>Lizards have a wide range of appearances and abilities, but most share a basic reptilian shape-long tails, wide toothy mouths, and four legs. While a few species are capable of movement on two legs for short periods of time, most are strictly quadrupedal. The three species presented here represent the most common and well-known of the larger species.</p>",
       "skillSpecialAthletics": {
         "0": {
-          "label": "to Climb"
+          "label": "para Trepar"
         }
       },
       "items": {
@@ -1773,7 +1773,7 @@
       "publicNotes": "<p>Intellect devourers serve as advance scouts and infiltrators for the powerful force of alien beings called the Dominion of the Black. Estos monsters roam the Darklands, from which they mount secret invasions of the world above. When an intellect devourer infiltrates a SOCIETY, its first priority is to acquire a body. It might first seek out a graveyard for a fresh corpse, as this is easier than fighting and killing someone. When the aberration compresses itself into the host's brain cavity, its real body goes dull to sensation as it connects to the nervous system of its host. If found out, an intellect devourer might quickly inhabit a new body to make its escape, preferably something inconspicuous such as a domestic animal.</p>",
       "skillSpecialDeception": {
         "0": {
-          "label": "with liar's lexicon"
+          "label": "con lexico del mentiroso"
         }
       },
       "items": {
@@ -1836,8 +1836,8 @@
     },
     "Tunch": {
       "name": "Tunch",
-      "blurb": "Male goblin alchemist",
-      "saveDetails": "+1 status vs. poison",
+      "blurb": "goblin alchemist varon",
+      "saveDetails": "+1 de estado contra veneno",
       "items": {
         "weapon->Glue Bomb (Moderate)": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.evBPzM1VsuYcoenn]\n<p><strong>Activar</strong> <span class=\"action-glyph\">1</span> Golpe</p>\n<hr />\n<p>A glue bomb is a harmless explosive mechanism bursting with sticky substances. When tú hit a criatura with a glue bomb, that criatura takes a –15-pies penalización de estado to its Velocidades for 1 minute. Obtienes a +1 bonificador por objeto to tiradas de ataque, and the @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC is 19.</p>\n<p>On a critical hit, a criatura in contact with a solid surface becomes stuck to the surface and @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round, and a criatura flying via wings has its wings tangled, causing it to fall safely to the ground and become unable to Fly again for 1 round. Glue bombs are not effective when used on a criatura that is in water.</p>\n<p>El objetivo can end any effects by Escaping or spending a total of 3 INTERACT actions to carefully remove the sticky substances. Estos INTERACT actions don't have to be consecutive, and other criaturas can provide the actions as well.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.sgQknR94qDt5ILBx]{Efecto: Glue Bomb}</p>"
@@ -1915,7 +1915,7 @@
       "name": "Vizmivool",
       "blurb": "Female serpentfolk clérigo de Ydersius",
       "languages": "telepathy 100 pies",
-      "saveDetails": "+4 status to will saves vs. mental",
+      "saveDetails": "+4 de estado a salvaciones de Voluntad contra mental",
       "items": {
         "spellcastingEntry->Divine Prepared Spells": {
           "name": "Divine Prepared Spells"
@@ -1995,7 +1995,7 @@
     },
     "Wolgur Wrabs": {
       "name": "Wolgur Wrabs",
-      "blurb": "Male variante de ghast",
+      "blurb": "variante de ghast varon",
       "hpDetails": "curación de vacío",
       "publicNotes": "<p>Ghasts-feral, foul-smelling, and constantly hungry-are the more powerful kin of ghouls. They are relentless in the pursuit of their prey.</p>\n<hr />\n<p>Few criaturas are more ubiquitous to sinister locations such as lonely graveyards and ruined crypts than the flesh-eating undead known as ghouls.</p>",
       "items": {
@@ -2023,7 +2023,7 @@
         },
         "action->Swift Leap": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UU1Fp3PRuTFONjC9]\nSwift Leap",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UU1Fp3PRuTFONjC9]\n<p>The ghast jumps up to half its Velocidad. Este movement doesn't trigger reactions.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UU1Fp3PRuTFONjC9]\n<p>The ghast jumps up to half its Velocidad. Este movement no desencadena reacciones.</p>"
         }
       }
     },
@@ -2076,7 +2076,7 @@
     },
     "Ziondriel": {
       "name": "Ziondriel",
-      "blurb": "Female variante de drider",
+      "blurb": "variante de drider mujer",
       "publicNotes": "<p>The first fleshwarping process mastered by the drow remains both their most successful and most infamous: the drider. Fusing the body of a drow with that of a giant spider, driders are a sexually dimorphic fleshwarp-the only fleshwarp known to be able to produce young. While female driders have the upper torsos of elegant drow women with mouths featuring sharp poisoned fangs, male driders have hideous, mutated countenances that further blend the humanoid form with that of a spider; the difference in appearance is perhaps a reflection on the matriarchal NATURE of drow SOCIETY. In combat, all driders are equally dangerous.</p>\n<p>Although the fleshwarping process was originally intended to be a punishment for drow who fell from grace, the significant powers and strengths gained from the horrifying transformation are attractive to some drow, and an increasing number of lower-ranking citizens in drow cities volunteer themselves for the painful procedure. In return for mandatory time serving as a guardian, soldier, or other public servant, such volunteer driders are later allowed to lead their own lives, typically in caverns located in a city's periphery. The painful truth is that for most driders, they do not live long enough to see this reward, for the drow have a penchant for working their fleshwarped slaves to death or deploying them in deadly war missions in which SURVIVAL is a only a remote possibility.</p>\n<p>Most driders use arcane magic, but driders who use divine magic are well known, while a rare few use occult or primal magic. A drider's innate conjuros remain the same regardless of the magical tradition, but those who use different types of magic as prepared conjuros may well have entirely different conjuros prepared than the drider presented below.</p>\n<hr />\n<p>Some criaturas, notably drow, are not happy with merely killing their enemies. They revel in the total degradation of their foes through the horrifying transformative technique known as fleshwarping. Though the fleshwarping process was not created by the drow, many believe they perfected it. The drow torture their enemies in vats of churning magical reagents, reshaping their flesh and psyche alike into horrid and monstrous things. The reconstitution of flesh results in countless variations of fleshwarps, and the following are just a couple of examples of these horrors.</p>",
       "saveDetails": "+1 de estado a todas las salvaciones contra magia",
       "items": {
@@ -2125,7 +2125,7 @@
     },
     "Ziradini": {
       "name": "Ziradini",
-      "blurb": "Male dero cleric",
+      "blurb": "dero cleric varon",
       "items": {
         "spellcastingEntry->Divine Prepared Spells": {
           "name": "Divine Prepared Spells"
@@ -2155,7 +2155,7 @@
     "Zoog": {
       "name": "Zoog",
       "publicNotes": "<p>Furry, tentacle-snouted, and prone to chittering, zoogs dwell in the shadowy parts of the world where dreams have an uncanny knack for coming true. They typically gather in small families, and while zoogs normally eat fungi and plants, some have developed a taste for sentient beings.</p>\n<h2>Zoogs Vs. Cats</h2>\n<p>Zoogs and cats have a storied hatred, though neither side can remember the original cause. Zoogs have been known to prey on kittens, but their courage fails quickly when confronted by a full-grown cat. Cats, on the other hand, are always quick to pounce, chase, and attack zoogs on sight.</p>",
-      "senses": "Spell Sight",
+      "senses": "Vision de conjuros",
       "items": {
         "spellcastingEntry->Primal Innate Spells": {
           "name": "Primal Innate Spells"
@@ -2170,7 +2170,7 @@
           "name": "Claw"
         },
         "action->Spell Sight": {
-          "name": "Spell Sight",
+          "name": "Vision de conjuros",
           "description": "<p>A zoog's eyes shed bright light in a @Template[cone|distance:15] (and dim light in the next 15 pies). Any magic effect in this area glows faintly. A zoog can quell or renew this light as a free action on its turn.</p>"
         },
         "action->Otherworldly Touch": {
@@ -2182,7 +2182,7 @@
     "Zoog Swarm": {
       "name": "Zoog Swarm",
       "publicNotes": "<p>If a family of zoogs avoids infighting and locates a reliable enough food source, their numbers can swell into truly massive swarms.</p>\n<hr />\n<p>Furry, tentacle-snouted, and prone to chittering, zoogs dwell in the shadowy parts of the world where dreams have an uncanny knack for coming true. They typically gather in small families, and while zoogs normally eat fungi and plants, some have developed a taste for sentient beings.</p>\n<h2>Zoogs Vs. Cats</h2>\n<p>Zoogs and cats have a storied hatred, though neither side can remember the original cause. Zoogs have been known to prey on kittens, but their courage fails quickly when confronted by a full-grown cat. Cats, on the other hand, are always quick to pounce, chase, and attack zoogs on sight.</p>",
-      "senses": "Spell Sight",
+      "senses": "Vision de conjuros",
       "items": {
         "spellcastingEntry->Primal Innate Spells": {
           "name": "Primal Innate Spells"
@@ -2191,7 +2191,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]\nSpeak with Animals (At Will)"
         },
         "action->Spell Sight": {
-          "name": "Spell Sight",
+          "name": "Vision de conjuros",
           "description": "<p>A zoog's eyes shed bright light in a @Template[emanation|distance:15] (and dim light in the next 15 pies). Any magic effect in this area glows faintly. A zoog can quell or renew this light as a free action on its turn.</p>"
         },
         "action->Gnash and Slash": {

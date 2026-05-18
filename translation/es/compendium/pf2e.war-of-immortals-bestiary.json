@@ -73,7 +73,7 @@
       "name": "Boneburst",
       "description": "<p>A low howl rises from the ground, gathering strength as scraps of ancient armor, bone fragments, and clumps of earth rise into the air. Crimson vapor holds the faceless shape together, never coalescing into an identifiable form, but merely writhing through ever-changing images of torment and destruction.</p>",
       "disable": "<p>@Check[occultism|dc:38|name:Negate Psychic Resonances] (maestro) to temporarily negate the psychic resonances around each fragment, causing the agglomeration to fall apart, or @Check[religion|dc:33|name:Interrupt Unholy Power] (experto) to temporarily interrupt Verex-That-Was's unholy power with divine energy from another source. If a boneburst takes 40 points of daño from a single source and it isn't destroyed, it is rendered dormant for 1 round.</p>",
-      "hpDetails": "(BT 45)",
+      "hpDetails": "(UR 45)",
       "reset": "<p>If the boneburst spends 5 consecutive rounds without coalescing around a living criatura, it falls dormant, sinking back into the earth. After it falls dormant or is disabled, the boneburst gathers energy over the course of the next hour, after which it can be triggered again.</p>",
       "routine": "<p>(2 actions) An awakened boneburst occupies a @Template[square|distance:20]; it is reduced to a @Template[square|distance:10] when it reaches its BT. It can occupy the same space as other criaturas, but not other bonebursts. On its initiative, the boneburst Flies up to 30 pies toward the nearest living criatura as its first action. As its second action, the boneburst then coalesces around any living criatura within its space, invisible shards of bone tearing at their flesh. Each living criatura in its space takes @Damage[(2d10+18)[slashing],1d10[spirit]|options:area-damage]{2d10+18 daño cortante and 1d10 daño de espíritu} (@Check[reflex|dc:35|basic|options:area-effect] save). If no living criaturas are within its space, the boneburst can use its second action to Fly up to 30 pies.</p>",
       "stealth": "<p>(maestro) to notice that clouds of debris are coalescing into swirling, faceless shapes held together by rust-red fog and spectral, dripping clots of gore</p>",
@@ -163,11 +163,11 @@
     "Mythic Gogiteth": {
       "name": "Mythic Gogiteth",
       "acDetails": "vision en todas direcciones",
-      "languages": "(Can't Speak)",
+      "languages": "(No puede hablar)",
       "publicNotes": "<p>Gogiteths are horrific nightmares with grasping, spiderlike legs; vicious, gnashing teeth; and far too many eyes. Of all the criaturas on Golarion for whom the acquisition of mythic power might prove a nightmare for others, the gogiteth is arguably one of the most terrible.</p>\n<p>Normally, a gogiteth's victims at least have the possible salvation of hearing the horrible crackling and popping of its joints as it clambers towards them through the dark, an opportunity to flee the slavering nightmare seeking them. Mythic ambusher gogiteths are unnaturally silent, however. The first sound a criatura might hear when being hunted by such a monstrosity is the sharp wheeze of their own fleeting breath as the gogiteth's jaws snap shut around them, or the tearing of their flesh and clothing as one of its legs pierces them through.</p>\n<p>Though little is known about the origins of gogiteths, mythic gogiteths generally acquire mythic power in the same way that other criaturas do. Golarion has no shortage of vile deities who might take cruel delight in bestowing a sliver of mythic power upon a criatura as frightful and terrible as a gogiteth. Their traditional hive homes in the Darklands make it unlikely that they would be affected by the Godsrain, but it is not impossible that droplets of Gorum's spilled blood could seep through cracks and make their way down into the thirsty jaws of one of these nightmarish monstrosities.</p>",
       "skillSpecialSurvival": {
         "0": {
-          "label": "to Track"
+          "label": "para Rastrear"
         }
       },
       "tokenName": "Gogiteth",
@@ -189,7 +189,7 @@
         },
         "action->Skittering Reposition": {
           "name": "Skittering Reposition",
-          "description": "<p><strong>Desencadenante</strong> A criatura that starts its move outside the gogiteth's reach moves into its reach.</p>\n<hr />\n<p><strong>Efecto</strong> The gogiteth moves 10 pies. Este does not trigger reactions.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura that starts its move outside the gogiteth's reach moves into its reach.</p>\n<hr />\n<p><strong>Efecto</strong> The gogiteth moves 10 pies. Este no desencadena reacciones.</p>"
         },
         "action->Carry Off Prey": {
           "name": "Carry Off Prey",
@@ -354,7 +354,7 @@
       "name": "Oliphaunt of Jandelay",
       "languages": "(no puede hablar ningún idioma)",
       "publicNotes": "<h3>Harbinger of Annihilation</h3>\n<p>The Oliphaunt of Jandelay is drawn to worlds that are hurtling toward imminent annihilation.</p>",
-      "saveDetails": "mythic resilience (all saves)",
+      "saveDetails": "resiliencia mitica (todas las salvaciones)",
       "speed": "legendario vigor, unfettered movement",
       "items": {
         "spellcastingEntry->Divine Innate Spells": {
@@ -444,7 +444,7 @@
       "name": "Sublime Breath",
       "languages": "habla verdadera",
       "publicNotes": "<h3>Bringers of Inspiration</h3>\n<p>A sublime breath seeks to perfect their craft, or, when they see the seed of potential in a worthy mortal, to inspire them to new heights.</p>",
-      "saveDetails": "+2 status to all saves vs. emotion; mythic resilience (Will)",
+      "saveDetails": "+2 de estado a todas las salvaciones contra emocion; resiliencia mitica (Voluntad)",
       "items": {
         "equipment->Immaculate Instrument": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.LeKkgh335aJTQr8T]\n<p>Este object, made of silver light, takes the form of a small musical instrument, prop, or other tool associated with a specific art form. The holder of the immaculate instrument never suffers from creative blocks of any kind and their work is always insightful and skilled. A character who uses the immaculate instrument to @UUID[Compendium.pf2e.actionspf2e.Item.EEDElIyin4z60PXx]{Perform} or Craft can attempt the check at mythic proficiency once per month, and as long as they possess their immaculate instrument, they treat any critical failures with these skills as failures.</p>\n<hr />\n<p><strong>Destruction</strong> If the holder uses the immaculate instrument to intentionally produce a work that is not just mediocre or crass, but one that devalues the public opinion of the art form itself in a showing of at least 100 spectators, the instrument fades away in shame.</p>"
@@ -516,7 +516,7 @@
       "name": "Verex-That-Was",
       "hpDetails": "regeneration 30 (desactivada por sloughstone armas)",
       "publicNotes": "<h3>A Bloody Spawn of Rovagug</h3>\n<p>Once an orc god, Verex-That-Was has been reshaped into a towering criatura of mangled flesh and bone.</p>",
-      "saveDetails": "mythic resilience (all saves)",
+      "saveDetails": "resiliencia mitica (todas las salvaciones)",
       "items": {
         "strike-melee->Claw": {
           "name": "Claw"

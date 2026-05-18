@@ -51,7 +51,7 @@
       "name": "Avalanche Doors",
       "description": "<p>The double door is a false door; when triggered, the door slams downward like a drawbridge to crush anyone standing before it.</p>",
       "disable": "<p>@Check[thievery|dc:22] (entrenado) to detach the trigger from the doors and lock them in place</p>",
-      "hpDetails": "BT 25",
+      "hpDetails": "UR 25",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Topple Forward": {
@@ -64,7 +64,7 @@
       "name": "Charge of the Spear Legion",
       "description": "<p>When triggered, the room lurches suddenly on its side, causing those in the room to slide down toward the double line of spears on the west wall while the statues on the east slide down on a pulley-and-roller system to smash into the victims.</p>",
       "disable": "<p>@Check[thievery|dc:20] para desactivar la placa de presion desencadenante cerca de la puerta norte</p>",
-      "reset": "<p>After 1 minute, the chamber rights itself and resets the trap.</p>",
+      "reset": "<p>Tras 1 minuto, la camara se endereza y reinicia la trampa.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Shift Sideways": {
@@ -80,7 +80,7 @@
       "name": "Cilios",
       "blurb": "Variante de male mummy guardian",
       "hpDetails": "curación de vacío",
-      "languages": "any one ancient language",
+      "languages": "cualquier idioma antiguo",
       "publicNotes": "<p>The majority of mummies were created by cruel and selfish masters to serve as guardians to protect their tombs from intruders. The traditional method of creating a mummy guardian is a laborious and sadistic process that begins well before the poor soul to be transformed is dead, during which the victim is ritualistically starved of nourishing food and instead fed strange spices, preservative agents, and toxins intended to quicken the desiccation of the flesh. The victim remains immobile but painfully aware during the final stages, where its now-useless entrails are extracted before it's shrouded in funerary wrappings and entombed within a necromantically ensorcelled sarcophagus to await intrusions in the potentially distant future. While it's certainly possible to use other methods to create a mummy guardian from an already-deceased body, those who seek to create these foul undead as their guardians in the afterlife often feel that such methods result in inferior undead-the pain and agony of death by mummification being an essential step in the process.</p>\n<p>Regardless of the method of their creation, mummy guardians are more than just physical shells of flesh and bone-they retain fragmented, distorted versions of their minds, with only enough memories of their living personality remaining to fuel their undead anger and jealousy of those who yet live. Este burning rage only intensifies over the centuries of waiting within a crypt for the chance to actually act, and thus when most mummy guardians are awoken by tomb robbers or adventurers, they stop at nothing in pursuit of glorious slaughter.</p>\n<hr />\n<p>While many cultures practice mummification of the dead for benign reasons, undead mummies are created through foul rituals, typically to provide eternally vigilant guardians.</p>",
       "items": {
         "strike-melee->Fist": {
@@ -101,7 +101,7 @@
       "blurb": "Kobold rogue",
       "skillSpecialCrafting": {
         "0": {
-          "label": "traps"
+          "label": "trampas"
         }
       },
       "items": {
@@ -169,7 +169,7 @@
     },
     "Drazmorg The Damned": {
       "name": "Drazmorg The Damned",
-      "blurb": "Male variante de wight necromancer",
+      "blurb": "variante de wight necromancer varon",
       "hpDetails": "curación de vacío",
       "items": {
         "spellcastingEntry->Arcane Prepared Spells": {
@@ -223,7 +223,7 @@
     },
     "Edgrin Galesong": {
       "name": "Edgrin Galesong",
-      "blurb": "Male halfling bard",
+      "blurb": "halfling bard varon",
       "items": {
         "spellcastingEntry->Occult Spontaneous Spells": {
           "name": "Occult Spontaneous Spells"
@@ -232,7 +232,7 @@
           "name": "Bard Composition Spells"
         },
         "spell->Alarm": {
-          "requirements": "3 gp silver bell focus"
+          "requirements": "foco de campana de plata de 3 po"
         },
         "spell->Dancing Lights": {
           "name": "Dancing Lights",
@@ -269,7 +269,7 @@
       "name": "Explosive Crystal Spheres",
       "description": "<p>Shimmering, glyph-graven, two-pies-diameter crystalline spheres shimmer and condense in the air, launching with explosive force at intruders.</p>",
       "disable": "<p>@Check[thievery|dc:25] (experto) to locate and deface tiny activation runes located at one of the six locations that spawn crystal spheres, or @Check[arcana|dc:28] (experto) or @Check[occultism|dc:28] (experto) to manipulate the magical energy at one of those locations to render the spheres inert, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (3rd rank; counteract DC 22) to counteract one of the crystal sphere spawn points</p>",
-      "hpDetails": "BT 27",
+      "hpDetails": "UR 27",
       "routine": "<p>(6 actions) On each of the trap's actions, a crystal sphere that hasn't yet taken an action during the turn either flies 25 pies toward the closest criatura in the Outer Ring (if no criatura is within 25 pies), or it attacks a visible criatura within 25 pies (the crystal spheres can sense targets via darkvision). If a crystal sphere attacks a target, that target takes @Damage[1d6[force]] daño (@Check[reflex|dc:24|basic]) as the sphere hits them and bursts. A criatura can be attacked by multiple spheres in a turn, but a sphere always targets the closest target. Once a sphere attacks and bursts, it vanishes but respawns at its spawn point at the start of the next turn and continues its routine. A sphere that has been destroyed or had its spawn point disabled vanishes and doesn't continue to respawn and attack, and the trap loses 1 action for each sphere destroyed or disabled in this way.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
@@ -318,7 +318,7 @@
       "publicNotes": "<p>The wormlike gricks terrorize the caverns and tunnels in which it dwells, lying in wait near heavily traveled underground passages or subterranean cities for the chance to reach forth from the darkness and take its prey. Those laid low by a grick are rarely consumed on the spot. Instead, gricks haul back fresh food back to their lair in a tight burrow or high on a cavern ledge, where they consume their spoils in small bites at the gricks' leisure.</p>\n<p>The origin of gricks is unknown. Even though these criaturas have a rudimentary INTELLIGENCE, they don't have any social structure to speak of. Most gricks are encountered alone. Even on those occasions when unfortunate travelers meet multiple gricks in small groups, those gricks don't appear to communicate or work together; each instead attacks an individual target and retreats with its prize as soon as it manages to bring down an opponent. Capable predators, gricks also have a strangely arma-resistant hide that makes them especially dangerous to the unprepared. Many novice adventurers have fallen to grick attacks merely because they couldn't daño these criaturas with their non-magical armas. Those familiar with gricks (especially dwarves, morlocks, and xulgaths) know the best strategy for dealing with them when one lacks access to magic armas is to fall back and wait for more powerful or magical reinforcements.</p>\n<p>Gricks rely on their dark coloration and ability to CLIMB walls to keep them out of sight until they're ready to spring an ambush. On occasions, when food becomes scarce in a particular area, gricks have been known to travel to the surface and roam the wilderness in search of prey, but they make these sojourns almost always out of necessity, lasting only as long as it takes them to find entrances to new subterranean lairs. Estos criaturas prefer darkness and the comfort of a ceiling overhead; they avoid the open sky and go to great lengths to keep the cover of trees, low clouds, or buildings between them and the empty gulf overhead.</p>\n<p>Some Darklands societies have tried to recruit gricks as guardians or even beasts of burden, but their INTELLIGENCE-while middling at best-is more than enough for them to stubbornly resist and even resent attempts at \"training.\" The best most societies can manage is to keep a grick guardian happy by making sure it remains well-fed and comfortable.</p>",
       "skillSpecialStealth": {
         "0": {
-          "label": "in rocky terrain"
+          "label": "en terreno rocoso"
         }
       },
       "items": {
@@ -336,7 +336,7 @@
     },
     "Grimbal": {
       "name": "Grimbal",
-      "blurb": "Male dwarf ghost",
+      "blurb": "dwarf ghost varon",
       "hpDetails": "curación de vacío, rejuvenation",
       "items": {
         "strike-melee->Ghostly Hand": {
@@ -357,10 +357,10 @@
     },
     "Gurtlekep": {
       "name": "Gurtlekep",
-      "blurb": "Male kobold lookout",
+      "blurb": "kobold lookout varon",
       "skillSpecialCrafting": {
         "0": {
-          "label": "traps"
+          "label": "trampas"
         }
       },
       "items": {
@@ -467,7 +467,7 @@
     },
     "Jekkajak": {
       "name": "Jekkajak",
-      "blurb": "Female kobold sorcerer",
+      "blurb": "kobold sorcerer mujer",
       "items": {
         "spellcastingEntry->Divine Spontaneous Spells": {
           "name": "Divine Spontaneous Spells"
@@ -496,7 +496,7 @@
     },
     "Kapmek": {
       "name": "Kapmek",
-      "blurb": "Male kobold slurk-trainer",
+      "blurb": "kobold slurk-trainer varon",
       "items": {
         "consumable->Black Adder Venom": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.ScclzFrjyB0YJlrb]\n<p>Adder venom is a simple but effective way to enhance a arma.</p>\n<hr />\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> INTERACT (Injury)</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:18]</p>\n<p><strong>Maximum Duration</strong> 3 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d8[poison]] daño (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[1d10[poison]] daño (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[2d6[poison]] daño (1 round)</p>"
@@ -525,7 +525,7 @@
     },
     "Kerrdremak": {
       "name": "Kerrdremak",
-      "blurb": "Male kobold witch",
+      "blurb": "kobold witch varon",
       "items": {
         "spellcastingEntry->Divine Prepared Spells": {
           "name": "Divine Prepared Spells"
@@ -541,7 +541,7 @@
         },
         "action->Whispering Retreat": {
           "name": "Whispering Retreat",
-          "description": "<p><strong>Requisitos</strong> Kerrdremak is adjacent to at least one enemigo;</p>\n<p><strong>Efecto</strong> Kerrdremak whispers under his breath, and one adjacent enemigo must attempt a @Check[will|dc:17] save or become @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} as they hear a whispering voice just behind them that claims to know when el objetivo will die; el objetivo is then temporarily immune to Whispering Retreat for 1 hour. Kerrdremak then Strides, and this movement doesn't trigger reactions from asustado criaturas. He must end this movement in a space that isn't adjacent to any enemigo.</p>"
+          "description": "<p><strong>Requisitos</strong> Kerrdremak is adjacent to at least one enemigo;</p>\n<p><strong>Efecto</strong> Kerrdremak whispers under his breath, and one adjacent enemigo must attempt a @Check[will|dc:17] save or become @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} as they hear a whispering voice just behind them that claims to know when el objetivo will die; el objetivo is then temporarily immune to Whispering Retreat for 1 hour. Kerrdremak then Strides, and this movement no desencadena reacciones from asustado criaturas. He must end this movement in a space that isn't adjacent to any enemigo.</p>"
         }
       }
     },
@@ -581,10 +581,10 @@
     },
     "King Merlokrep": {
       "name": "King Merlokrep",
-      "blurb": "Male kobold king",
+      "blurb": "kobold king varon",
       "skillSpecialCrafting": {
         "0": {
-          "label": "traps"
+          "label": "trampas"
         }
       },
       "items": {
@@ -639,7 +639,7 @@
     },
     "Lekmek": {
       "name": "Lekmek",
-      "blurb": "Male kobold bully",
+      "blurb": "kobold bully varon",
       "skillSpecialCrafting": {
         "0": {
           "label": "Traps"
@@ -666,7 +666,7 @@
       "name": "Lodestone Trap",
       "description": "<p>The magical lodestone discharges bolts of electricity that also magnetize metal in the room.</p>",
       "disable": "<p>@Check[thievery|dc:18] to unhook the pressure plates from the trap, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (2nd rank, counteract DC 18) to counteract the trap</p>",
-      "hpDetails": "BT 15",
+      "hpDetails": "UR 15",
       "reset": "<p>At the end of a round in which there are no criaturas standing on the floor or stuck to the lodestone, the trap deactivates. The vargouilles return to their alcoves, and the doors close. La trampa resets automatically after 1 minute.</p>",
       "routine": "<p>(1 action) On its initiative, the trap exerts a strong magnetic pull on the doors, causing the north and west doors to open if they're closed, or causing the south and east doors to close if they're open. A character can open or close a door against this pull with a successful @Check[athletics|dc:18] check to @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{FORCE OPEN} the door. At the same time, any character in the room who wears primarily metal armor must attempt a @Check[reflex|dc:18] save (characters in medium metal armor suffer a -1 penalización de circunstancia to this save, and characters in heavy metal armor suffer a -2 penalización de circunstancia).</p>\n<hr />\n<p><strong>Éxito crítico</strong> The PC is unaffected.</p>\n<p><strong>Éxito</strong> The PC resists the pull but treats the room as difficult terrain.</p>\n<p><strong>Fallo</strong> The PC treats the room as difficult terrain and is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}. A PC who's already prone suffers a critical failure instead.</p>\n<p><strong>Fallo crítico</strong> As failure, but the PC is also pulled 5 pies toward the lodestone. A PC who is adjacent to the lodestone instead becomes stuck to it and is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado} as long as the trap continues its routine (escape DC 18).</p>",
       "items": {
@@ -690,7 +690,7 @@
     },
     "Narlynark": {
       "name": "Narlynark",
-      "blurb": "Male kobold druid",
+      "blurb": "kobold druid varon",
       "items": {
         "spellcastingEntry->Primal Prepared Spells": {
           "name": "Primal Prepared Spells"
@@ -849,7 +849,7 @@
       "name": "The Last Crucible",
       "description": "<p>Magically hardened sheets of obsidian drop down over the room's exits while the machinery within taps into wells of magma to begin spewing lava-and monsters-into the maze.</p>",
       "disable": "<p>@Check[thievery|dc:28] (experto) to disable the main pressure plate at area <strong>H4a</strong> and deactivate the trap entirely (this causes the obsidian walls to retract up into the ceiling as well), @Check[thievery|dc:25] (entrenado) to disable one of the three lava spouts, or @Check[athletics|dc:28] (entrenado) to @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{FORCE OPEN} a fallen obsidian wall</p>",
-      "hpDetails": "BT 29 to smash a 5-ft-sq hole in the wall; Spout H 13; Spout HP 20 (BT 10)",
+      "hpDetails": "UR 29 to smash a 5-ft-sq hole in the wall; Spout H 13; Spout HP 20 (UR 10)",
       "reset": "<p>The Last Crucible deactivates and resets 10 minutes after it has no target criaturas (because the criaturas either left area <strong>H4</strong> or died). Any thoqquas that still live sense the magma river at area <strong>H6</strong> and eventually make their way north to that area to swim away.</p>",
       "routine": "<p>(3 actions) La trampa loses 1 action per disabled spout each turn. On each action, a different spout located at one of the three areas marked <strong>H4c</strong> spews a gout of lava at the closest non-thoqqua target in its line of sight; these spouts use magical sensors that have darkvision and a Perception DC of 25. Originally, agents of the abbot would come through here after the trap was triggered, deactivate it, and clean out the hardened blobs of lava and dead bodies that remained, but the amount of time it would take for this trap to clog tunnels with cooled lava makes tracking that slow accretion over the course of this adventure unnecessary.</p>",
       "stealth": "<p>(experto)</p>",
@@ -899,7 +899,7 @@
       "name": "Toxic Furnace",
       "description": "<p>The smoking furnace begins to hiss and click, and its vents swivel and adjust to spew toxic fumes in the direction of intruders.</p>",
       "disable": "<p>@Check[thievery|dc:25] (entrenado) to render one of the vents useless, or @Check[athletics|dc:25] to wrench and bend a vent until it no longer functions</p>",
-      "hpDetails": "Furnace BT 28, Vent Hardness 10, Vent HP 18 (BT 9)",
+      "hpDetails": "Furnace UR 28, Vent Hardness 10, Vent HP 18 (UR 9)",
       "reset": "<p>La trampa se reinicia después de 1 minuto, during which it sees no criaturas to target.</p>",
       "routine": "<p>(3 actions) La trampa loses 1 action for each disabled vent. On each of the trap's actions, a vent spews a gout of boiling toxin at a living criatura in sight of it. It can't target a single criatura more than una vez por asalto, so if there aren't enough viable targets for all 3 actions, the trap loses those unspent actions.</p>",
       "stealth": "<p>(experto)</p>",
@@ -977,10 +977,10 @@
     },
     "Ygrik": {
       "name": "Ygrik",
-      "blurb": "Male kobold jailer",
+      "blurb": "kobold jailer varon",
       "skillSpecialCrafting": {
         "0": {
-          "label": "traps"
+          "label": "trampas"
         }
       },
       "items": {
