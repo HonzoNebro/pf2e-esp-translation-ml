@@ -3,8 +3,8 @@
   "entries": {
     "Animated Armor (BB)": {
       "name": "Animated Armor (BB)",
-      "acDetails": "(13 after construct armor breaks), construct armor",
-      "publicNotes": "<p>Objects can be given a semblance of life through the use of rituals or other strange magic, turning them into animated objects. These objects move, work, and fight based on the commands given to them by their creators, who usually set them on guard duty or have them perform menial labor.</p>\n<p>Suits of animated armor might serve as guardians, but sometimes high-end martial academies use them as training partners. They're most often found in wizards' laboratories and ancient dungeons.</p>",
+      "acDetails": "(13 after armadura de constructo breaks), armadura de constructo",
+      "publicNotes": "<p>Los objetos pueden recibir una apariencia de vida mediante rituales u otra magia extraña, turning them into animated objects. Estos objects move, work, and fight based on the commands given to them by their creators, who usually set them on guard duty or have them perform menial labor.</p>\n<p>Suits of animated armor might serve as guardians, but sometimes high-end martial academies use them as training partners. They're most often found in wizards' laboratories and ancient dungeons.</p>",
       "tokenName": "Animated Armor",
       "items": {
         "strike-melee->Longsword": {
@@ -15,7 +15,7 @@
         },
         "action->Construct Armor": {
           "name": "Construct Armor",
-          "description": "<p>The animated armor reduces all daño it takes by 9. However, after a critical hit that deals daño, or after its HP drops below 10, its construct armor breaks. Its AC drops to 13 and it no longer reduces daño by 9.</p>"
+          "description": "<p>The animated armor reduces all daño it takes by 9. However, after a critical hit that deals daño, or after its HP drops below 10, its armadura de constructo breaks. Its AC drops to 13 and it no longer reduces daño by 9.</p>"
         }
       }
     },
@@ -39,14 +39,14 @@
     },
     "Boar (BB)": {
       "name": "Boar (BB)",
-      "publicNotes": "<p>Foul-tempered and tough, boars are far more dangerous than domesticated pigs. These omnivorous mammals are hunted heavily because their meat is considered a delicacy. Boars are most likely to attack humanoids in self-defense or during their mating season in the winter months, when the males grow an extra inch of tissue to protect their organs as they fight off rivals. In some cultures, boars are entrenado to become much more aggressive for use as war beasts and guardians. When such boars escape back into the wild, they can become true terrors of the region.</p>",
+      "publicNotes": "<p>Foul-tempered and tough, boars are far more dangerous than domesticated pigs. Estos omnivorous mammals are hunted heavily because their meat is considered a delicacy. Boars are most likely to attack humanoids in self-defense or during their mating season in the winter months, when the males grow an extra inch of tissue to protect their organs as they fight off rivals. In some cultures, boars are entrenado to become much more aggressive for use as war beasts and guardians. When such boars escape back into the wild, they can become true terrors of the region.</p>",
       "tokenName": "Boar",
       "items": {
         "strike-melee->Tusk": {
           "name": "Tusk"
         },
         "action->Ferocity": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.N1kstYbHScxgUQtN]\n<p>When the boar is reduced to 0 Puntos de Golpe, it can use its reaction to remain conscious with 1 Hit Point, but it gains the @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded 1} condition (or increases its wounded value by 1 if it already has that condition). It can't use this ability at wounded 3.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.N1kstYbHScxgUQtN]\n<p>When the boar is reduced to 0 Puntos de Golpe, it can use its reaction to remain conscious with 1 Hit Point, but it gains the @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded 1} condition (or increases its wounded value by 1 if it already has that condition). It can't use this ability at wounded 3.</p>"
         },
         "action->Boar Charge": {
           "name": "Boar Charge",
@@ -90,11 +90,11 @@
         },
         "action->Bushwhack": {
           "name": "Bushwhack",
-          "description": "<p>The bugbear prowler Strides up to 10 pies and attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} a creature that can't see them and doesn't know where they are. If the bugbear succeeds, they also deal daño from their fist Golpe to that creature.</p>"
+          "description": "<p>The bugbear prowler Strides up to 10 pies and attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} a criatura that can't see them and doesn't know where they are. If the bugbear succeeds, they also deal daño from their fist Golpe to that criatura.</p>"
         },
         "action->Mauler": {
           "name": "Torturador",
-          "description": "<p>The bugbear prowler gains a +3 bonificador de circunstancia to tiradas de daño against creatures they have @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}.</p>"
+          "description": "<p>The bugbear prowler gains a +3 bonificador de circunstancia to tiradas de daño against criaturas they have @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}.</p>"
         }
       }
     },
@@ -111,14 +111,14 @@
         },
         "action->Light Blindness": {
           "name": "Ceguera a la luz",
-          "description": "<p>When first exposed to bright light, the caligni can't see until the end of their next turn. All squares are difficult terrain for them, and they take a -4 penalización de estado to Perception. If they try to attack a creature, the attack fails unless they succeed at a @Check[type:flat|dc:11]. Light doesn't blind them again for 1 hour.</p>"
+          "description": "<p>When first exposed to bright light, the caligni can't see until the end of their next turn. All squares are difficult terrain for them, and they take a -4 penalización de estado to Perception. If they try to attack a criatura, the attack fails unless they succeed at a @Check[type:flat|dc:11]. Light doesn't blind them again for 1 hour.</p>"
         },
         "action->Final Dance": {
           "name": "Final Dance",
-          "description": "<p>When a caligni dancer dies, their body dissolves into a swirl of darkness and light. All creatures within @Template[type:emanation|distance:10]{10 pies} must succeed at a @Check[type:will|dc:17] save or take a -2 penalización de circunstancia on all tiradas de ataque for 1 round.</p>"
+          "description": "<p>When a caligni dancer dies, their body dissolves into a swirl of darkness and light. All criaturas within @Template[type:emanation|distance:10]{10 pies} must succeed at a @Check[type:will|dc:17] save or take a -2 penalización de circunstancia on all tiradas de ataque for 1 round.</p>"
         },
         "action->Sneak Attack": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>The caligni dancer deals an additional 1d6 daño to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} creatures.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>The caligni dancer deals an additional 1d6 daño to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} criaturas.</p>"
         }
       }
     },
@@ -138,19 +138,19 @@
         },
         "action->Light Blindness": {
           "name": "Ceguera a la luz",
-          "description": "<p>When first exposed to bright light, the caligni can't see until the end of their next turn. All squares are difficult terrain for them, and they take a -4 penalización de estado to Perception. If they try to attack a creature, the attack fails unless they succeed at a @Check[type:flat|dc:11]. Light doesn't blind them again for 1 hour.</p>"
+          "description": "<p>When first exposed to bright light, the caligni can't see until the end of their next turn. All squares are difficult terrain for them, and they take a -4 penalización de estado to Perception. If they try to attack a criatura, the attack fails unless they succeed at a @Check[type:flat|dc:11]. Light doesn't blind them again for 1 hour.</p>"
         },
         "action->Sneak Attack": {
           "name": "Sneak Attack",
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6]\n<p>The caligni hunter deals an extra 1d6 daño to creatures that have the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} condition.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6]\n<p>The caligni hunter deals an extra 1d6 daño to criaturas that have the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} condition.</p>"
         },
         "action->Final Fate": {
           "name": "Final Fate",
-          "description": "<p>When a caligni hunter dies, their body explodes. All creatures within @Template[type:emanation|distance:20]{20 pies} must take @Damage[5d6[fire]]. Each creature in the area must attempt a @Check[type:reflex|dc:19|basic:true] save.</p>"
+          "description": "<p>When a caligni hunter dies, their body explodes. All criaturas within @Template[type:emanation|distance:20]{20 pies} must take @Damage[5d6[fire]]. Each criatura in the area must attempt a @Check[type:reflex|dc:19|basic:true] save.</p>"
         },
         "action->Darkening Poison": {
           "name": "Darkening Poison",
-          "description": "<p>The next time the hunter deals daño with a shortsword Golpe, the target must succeed at a @Check[type:fortitude|dc:16|rasgos:damaging-effect] save or take @Damage[1d8[poison]] daño and treat all creatures as @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} for 1 round.</p>"
+          "description": "<p>The next time the hunter deals daño with a shortsword Golpe, el objetivo must succeed at a @Check[type:fortitude|dc:16|rasgos:damaging-effect] save or take @Damage[1d8[poison]] daño and treat all criaturas as @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} for 1 round.</p>"
         }
       }
     },
@@ -167,7 +167,7 @@
         },
         "action->Light Blindness": {
           "name": "Ceguera a la luz",
-          "description": "<p>When first exposed to bright light, the caligni can't see until the end of their next turn. All squares are difficult terrain for them, and they take a -4 penalización de estado to Perception. If they try to attack a creature, the attack fails unless they succeed at a @Check[type:flat|dc:11]. Light doesn't blind them again for 1 hour.</p>"
+          "description": "<p>When first exposed to bright light, the caligni can't see until the end of their next turn. All squares are difficult terrain for them, and they take a -4 penalización de estado to Perception. If they try to attack a criatura, the attack fails unless they succeed at a @Check[type:flat|dc:11]. Light doesn't blind them again for 1 hour.</p>"
         },
         "action->Final Night": {
           "name": "Final Night",
@@ -175,11 +175,11 @@
         },
         "action->Darkening Poison": {
           "name": "Darkening Poison",
-          "description": "<p>The next time the skulker deals daño with a dagger Golpe, the target must succeed at a @Check[type:fortitude|dc:16|rasgos:damaging-effect] save or take @Damage[1d8[poison]] daño and treat all creatures as @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} for 1 round.</p>"
+          "description": "<p>The next time the skulker deals daño with a dagger Golpe, el objetivo must succeed at a @Check[type:fortitude|dc:16|rasgos:damaging-effect] save or take @Damage[1d8[poison]] daño and treat all criaturas as @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} for 1 round.</p>"
         },
         "action->Sneak Attack": {
           "name": "Sneak Attack",
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6]\n<p>The caligni skulker deals an extra 1d6 daño to creatures that have the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} condition.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6]\n<p>The caligni skulker deals an extra 1d6 daño to criaturas that have the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} condition.</p>"
         }
       }
     },
@@ -255,7 +255,7 @@
           "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Yr9yCuJiAlFh3QEB]\n <p> Un escudo tiene 20 puntos de vida. Si un escudo alguna vez recibe 10 daños o más, se convierte en @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Roto} . Un escudo roto no se puede usar para @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Alzar un escudo} o @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block} , pero aún puedes @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{Reparar}. Si el escudo pierde los 20 puntos de vida, queda completamente destruido. </p>"
         },
         "armor->Chain Shirt": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.MPcM4Wt6KmWE2kGL]\n<p>Sometimes called a hauberk, this is a long shirt constructed of the same metal rings as chainmail. However, it is much lighter than chainmail and protects only the torso, upper arms, and upper legs of its wearer.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.MPcM4Wt6KmWE2kGL]\n<p>Sometimes called a hauberk, this is a long shirt constructed of the same metal rings as chainmail. However, it is much lighter than chainmail and protects only the torso, upper arms, and upper legs of its wearer.</p>"
         },
         "equipment->Religious Symbol (Wooden)": {
           "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.plplsXJsqrdqNQVI]\n <p> Esta pieza de madera o plata está adornada con una imagen que representa una deidad. Algunos lanzadores de conjuros divinos, como los clérigos, pueden utilizar un símbolo religioso de su deidad como foco divino para utilizar ciertas habilidades y lanzar algunos hechizos. Se debe sostener un símbolo religioso en una mano para usarlo. </p>"
@@ -355,8 +355,8 @@
     },
     "Forest Troll (BB)": {
       "name": "Forest Troll (BB)",
-      "hpDetails": "regeneration 20 (deactivated by electricity or fire)",
-      "publicNotes": "<p>Forest trolls are dim-witted, gangly giants who stalk the fringes of civilization. They rely on their incredible strength to overpower foes with their vicious claws. A troll's endless hunger drives them to consume a variety of living creatures. Trolls stand anywhere from 12 to 16 pies tall, though they prefer to hunch to lull foes into a false sense of security.</p>",
+      "hpDetails": "regeneration 20 (desactivada por electricity or fire)",
+      "publicNotes": "<p>Forest trolls are dim-witted, gangly giants who stalk the fringes of civilization. They rely on their incredible strength to overpower foes with their vicious claws. A troll's endless hunger drives them to consume a variety of living criaturas. Trolls stand anywhere from 12 to 16 pies tall, though they prefer to hunch to lull foes into a false sense of security.</p>",
       "tokenName": "Forest Troll",
       "items": {
         "strike-melee->Jaws": {
@@ -366,7 +366,7 @@
           "name": "Garra"
         },
         "action->Regeneration 20 (Deactivated by Electricity or Fire)": {
-          "name": "Regeneration 20 (Deactivated by Electricity or Fire)",
+          "name": "Regeneración 20 (Deactivated by Electricity or Fire)",
           "description": "<p>The troll regains 20 Puntos de Golpe at the start of their turn unless they've taken electricity or daño de fuego since their last turn. The troll can't die unless their regeneration is deactivated when they're reduced to 0 HP.</p>"
         },
         "action->Easily Misled": {
@@ -438,7 +438,7 @@
         },
         "action->Stench": {
           "name": "Hedor",
-          "description": "<p>A creature that comes within 10 pies of the ghoul and can smell the ghoul must attempt a @Check[type:fortitude|dc:14] save. On a failure, the creature takes a -1 penalización de estado to all checks and DCs until it uses an action to retch (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}). A creature that succeeds at its save isn't affected by any ghoul's stench for 1 minute.</p>"
+          "description": "<p>A criatura that comes within 10 pies of the ghoul and can smell the ghoul must attempt a @Check[type:fortitude|dc:14] save. On a failure, the criatura takes a -1 penalización de estado to all checks and DCs until it uses an action to retch (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}). A criatura that succeeds at its save isn't affected by any ghoul's stench for 1 minute.</p>"
         },
         "action->Consume Flesh": {
           "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23]\nConsumir carne",
@@ -446,7 +446,7 @@
         },
         "action->Sneak Attack": {
           "name": "Ataque furtivo",
-          "description": "<p>The ghoul stalker deals an extra 1d4 daño to creatures that have the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} condition.</p>"
+          "description": "<p>The ghoul stalker deals an extra 1d4 daño to criaturas that have the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} condition.</p>"
         },
         "action->Swift Leap": {
           "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UU1Fp3PRuTFONjC9]\nSalto veloz"
@@ -470,7 +470,7 @@
         },
         "action->Haul Away": {
           "name": "Haul Away",
-          "description": "<p>If the giant ant has a creature grabbed or restrained with its mandibles, it can spend this action to Zancada up to its speed, carrying the creature with it. At the end of the Zancada, place the creature in any open square adjacent to the giant ant.</p>"
+          "description": "<p>If the giant ant has a criatura grabbed or restrained with its mandibles, it can spend this action to Zancada up to its speed, carrying the criatura with it. At the end of the Zancada, place the criatura in any open square adjacent to the giant ant.</p>"
         }
       }
     },
@@ -609,7 +609,7 @@
     },
     "Harpy (BB)": {
       "name": "Arpía (BB)",
-      "publicNotes": "<p>Harpies are an amalgamation of human and bird, using their ancestral control of the wind to lure prey or even directly pull in their next meal. Harpies can eat most creatures, but prefer to eat humans and elves in particular. Harpies live in family groups or larger clans, although they rarely hunt in big groups, preferring to keep most meals for themselves.</p>",
+      "publicNotes": "<p>Harpies are an amalgamation of human and bird, using their ancestral control of the wind to lure prey or even directly pull in their next meal. Harpies can eat most criaturas, but prefer to eat humans and elves in particular. Harpies live in family groups or larger clans, although they rarely hunt in big groups, preferring to keep most meals for themselves.</p>",
       "tokenName": "Arpía",
       "items": {
         "strike-melee->Talon": {
@@ -620,11 +620,11 @@
         },
         "action->Stench": {
           "name": "Hedor",
-          "description": "<p>A creature that comes within 30 pies of the harpy and can smell the harpy must attempt a @Check[type:fortitude|dc:21] save. On a failure, the creature takes a -1 penalización de estado to all checks and DCs until it uses an action to retch. A creature that succeeds at its save isn't affected by any harpy's stenches for 1 minute.</p>"
+          "description": "<p>A criatura that comes within 30 pies of the harpy and can smell the harpy must attempt a @Check[type:fortitude|dc:21] save. On a failure, the criatura takes a -1 penalización de estado to all checks and DCs until it uses an action to retch. A criatura that succeeds at its save isn't affected by any harpy's stenches for 1 minute.</p>"
         },
         "action->Hungry Winds": {
           "name": "Hungry Winds",
-          "description": "<p>The harpy uses the wind to pull its prey closer. A target within 20 pies must succeed at a @Check[type:fortitude|dc:21] save or be pulled adjacent to the harpy. The harpy then makes a jaws strike against the target. If the target is pulled into the air and cannot fly, it falls as normal.</p>"
+          "description": "<p>The harpy uses the wind to pull its prey closer. A target within 20 pies must succeed at a @Check[type:fortitude|dc:21] save or be pulled adjacent to the harpy. The harpy then makes a jaws strike against el objetivo. If el objetivo is pulled into the air and cannot fly, it falls as normal.</p>"
         }
       }
     },
@@ -644,11 +644,11 @@
         },
         "action->Hellfire Breath": {
           "name": "Hellfire Breath",
-          "description": "<p>The hell hound breathes flames that deal @Damage[4d6[fire]] daño to all creatures in a @Template[type:cone|distance:15]. Each affected creature must attempt a @Check[type:reflex|dc:19|basic:true] save.</p>\n<p>The hell hound can't use Breath Weapon again for [[/br 1d4 #Recharge Hellfire Breath]]{1d4 rounds}. If the hell hound would take daño de fuego or is the target of a fire effect, its Hellfire Breath recharges.</p>"
+          "description": "<p>The hell hound breathes flames that deal @Damage[4d6[fire]] daño to all criaturas in a @Template[type:cone|distance:15]. Each affected criatura must attempt a @Check[type:reflex|dc:19|basic:true] save.</p>\n<p>The hell hound can't use Breath Weapon again for [[/br 1d4 #Recharge Hellfire Breath]]{1d4 rounds}. If the hell hound would take daño de fuego or is el objetivo of a fire effect, its Hellfire Breath recharges.</p>"
         },
         "action->Pack Attack": {
           "name": "Ataque de manada",
-          "description": "<p>The hell hound's jaws Golpe deals 1d4 daño adicional to creatures within reach of two of the hell hounds' allies.</p>"
+          "description": "<p>The hell hound's jaws Golpe deals 1d4 daño adicional to criaturas within reach of two of the hell hounds' allies.</p>"
         }
       }
     },
@@ -711,7 +711,7 @@
         },
         "action->Twisting Tail": {
           "name": "Twisting Tail",
-          "description": "<p>When a creature within 10 pies uses a move action or leaves a square during a move action it's using, the dragon can use their reaction to make a tail Golpe at the creature with a -2 penalty. If it hits, the creature stops moving in the square it was in when the dragon used this reaction.</p>"
+          "description": "<p>When a criatura within 10 pies uses a move action or leaves a square during a move action it's using, the dragon can use their reaction to make a tail Golpe at the criatura with a -2 penalización. If it hits, the criatura stops moving in the square it was in when the dragon used this reaction.</p>"
         },
         "action->Draconic Frenzy": {
           "name": "Draconic Frenzy",
@@ -723,7 +723,7 @@
         },
         "action->Poison Breath": {
           "name": "Poison Breath",
-          "description": "<p>The dragon breathes a toxic cloud that deals @Damage[5d6[poison]] daño in a @Template[type:cone|distance:30]. Each creature in the area must attempt a @Check[type:reflex|dc:21|basic:true] save.</p>\n<p>The dragon can't use their Poison Breath again for [[/br 1d4 #Recharge Poison Breath]]{1d4 rounds}.</p>"
+          "description": "<p>The dragon breathes a toxic cloud that deals @Damage[5d6[poison]] daño in a @Template[type:cone|distance:30]. Each criatura in the area must attempt a @Check[type:reflex|dc:21|basic:true] save.</p>\n<p>The dragon can't use their Poison Breath again for [[/br 1d4 #Recharge Poison Breath]]{1d4 rounds}.</p>"
         }
       }
     },
@@ -756,7 +756,7 @@
     },
     "Kobold Mage (Black, BB)": {
       "name": "Kobold Mage (Black, BB)",
-      "publicNotes": "<p>Kobolds are small, reptilian humanoids who are often seen in the service of more powerful creatures. They lurk in dark places, usually tunnels and mines. Kobold mages use magic to carry out their schemes, often in service of a dragon or other powerful creatures.</p>",
+      "publicNotes": "<p>Kobolds are small, reptilian humanoids who are often seen in the service of more powerful criaturas. They lurk in dark places, usually tunnels and mines. Kobold mages use magic to carry out their schemes, often in service of a dragon or other powerful criaturas.</p>",
       "tokenName": "Kobold Mage (Black)",
       "items": {
         "spellcastingEntry->Wizard Spells": {
@@ -770,7 +770,7 @@
         },
         "action->Scamper": {
           "name": "Scamper",
-          "description": "<p>If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 pies and gains a +2 bonificador de circunstancia to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy.</p>"
+          "description": "<p>If the kobold is adjacent to at least one enemigo, the kobold Strides up to 30 pies and gains a +2 bonificador de circunstancia to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemigo.</p>"
         },
         "lore->Dragon Lore": {
           "name": "Dragon Lore"
@@ -779,7 +779,7 @@
     },
     "Kobold Mage (Blue, BB)": {
       "name": "Kobold Mage (Blue, BB)",
-      "publicNotes": "<p>Kobolds are small, reptilian humanoids who are often seen in the service of more powerful creatures. They lurk in dark places, usually tunnels and mines. Kobold mages use magic to carry out their schemes, often in service of a dragon or other powerful creatures.</p>",
+      "publicNotes": "<p>Kobolds are small, reptilian humanoids who are often seen in the service of more powerful criaturas. They lurk in dark places, usually tunnels and mines. Kobold mages use magic to carry out their schemes, often in service of a dragon or other powerful criaturas.</p>",
       "tokenName": "Kobold Mage (Blue)",
       "items": {
         "spellcastingEntry->Wizard Spells": {
@@ -793,7 +793,7 @@
         },
         "action->Scamper": {
           "name": "Scamper",
-          "description": "<p>If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 pies and gains a +2 bonificador de circunstancia to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy.</p>"
+          "description": "<p>If the kobold is adjacent to at least one enemigo, the kobold Strides up to 30 pies and gains a +2 bonificador de circunstancia to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemigo.</p>"
         },
         "lore->Dragon Lore": {
           "name": "Dragon Lore"
@@ -802,7 +802,7 @@
     },
     "Kobold Mage (Green, BB)": {
       "name": "Kobold Mage (Green, BB)",
-      "publicNotes": "<p>Kobolds are small, reptilian humanoids who are often seen in the service of more powerful creatures. They lurk in dark places, usually tunnels and mines. Kobold mages use magic to carry out their schemes, often in service of a dragon or other powerful creatures.</p>",
+      "publicNotes": "<p>Kobolds are small, reptilian humanoids who are often seen in the service of more powerful criaturas. They lurk in dark places, usually tunnels and mines. Kobold mages use magic to carry out their schemes, often in service of a dragon or other powerful criaturas.</p>",
       "tokenName": "Kobold Mage (Green)",
       "items": {
         "spellcastingEntry->Wizard Spells": {
@@ -816,7 +816,7 @@
         },
         "action->Scamper": {
           "name": "Scamper",
-          "description": "<p>If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 pies and gains a +2 bonificador de circunstancia to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy.</p>"
+          "description": "<p>If the kobold is adjacent to at least one enemigo, the kobold Strides up to 30 pies and gains a +2 bonificador de circunstancia to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemigo.</p>"
         },
         "lore->Dragon Lore": {
           "name": "Dragon Lore"
@@ -825,7 +825,7 @@
     },
     "Kobold Mage (Red, BB)": {
       "name": "Kobold Mage (Red, BB)",
-      "publicNotes": "<p>Kobolds are small, reptilian humanoids who are often seen in the service of more powerful creatures. They lurk in dark places, usually tunnels and mines. Kobold mages use magic to carry out their schemes, often in service of a dragon or other powerful creatures.</p>",
+      "publicNotes": "<p>Kobolds are small, reptilian humanoids who are often seen in the service of more powerful criaturas. They lurk in dark places, usually tunnels and mines. Kobold mages use magic to carry out their schemes, often in service of a dragon or other powerful criaturas.</p>",
       "tokenName": "Kobold Mage (Red)",
       "items": {
         "spellcastingEntry->Wizard Spells": {
@@ -839,7 +839,7 @@
         },
         "action->Scamper": {
           "name": "Scamper",
-          "description": "<p>If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 pies and gains a +2 bonificador de circunstancia to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy.</p>"
+          "description": "<p>If the kobold is adjacent to at least one enemigo, the kobold Strides up to 30 pies and gains a +2 bonificador de circunstancia to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemigo.</p>"
         },
         "lore->Dragon Lore": {
           "name": "Dragon Lore"
@@ -848,7 +848,7 @@
     },
     "Kobold Mage (White, BB)": {
       "name": "Kobold Mage (White, BB)",
-      "publicNotes": "<p>Kobolds are small, reptilian humanoids who are often seen in the service of more powerful creatures. They lurk in dark places, usually tunnels and mines. Kobold mages use magic to carry out their schemes, often in service of a dragon or other powerful creatures.</p>",
+      "publicNotes": "<p>Kobolds are small, reptilian humanoids who are often seen in the service of more powerful criaturas. They lurk in dark places, usually tunnels and mines. Kobold mages use magic to carry out their schemes, often in service of a dragon or other powerful criaturas.</p>",
       "tokenName": "Kobold Mage (White)",
       "items": {
         "spellcastingEntry->Wizard Spells": {
@@ -862,7 +862,7 @@
         },
         "action->Scamper": {
           "name": "Scamper",
-          "description": "<p>If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 pies and gains a +2 bonificador de circunstancia to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy.</p>"
+          "description": "<p>If the kobold is adjacent to at least one enemigo, the kobold Strides up to 30 pies and gains a +2 bonificador de circunstancia to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemigo.</p>"
         },
         "lore->Dragon Lore": {
           "name": "Dragon Lore"
@@ -896,7 +896,7 @@
       "items": {
         "consumable->Spike Trap": {
           "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.3V2U720YhW2nyGVx]\nTrampa de púas",
-          "description": "<p>This basic snare consists of hidden spikes that rely on a creature's momentum to lacerate or potentially impale it as it enters the snare's square, dealing 2d8 daño perforante. The creature must attempt a @Check[reflex|dc:17|basic] tirada de salvación.</p>"
+          "description": "<p>Este basic snare consists of hidden spikes that rely on a criatura's momentum to lacerate or potentially impale it as it enters the snare's square, dealing 2d8 daño perforante. The criatura must attempt a @Check[reflex|dc:17|basic] tirada de salvación.</p>"
         },
         "strike-melee->Shortsword": {
           "name": "Espada corta"
@@ -1025,7 +1025,7 @@
         },
         "action->Axe Swipe": {
           "name": "Axe Swipe",
-          "description": "<p>The minotaur makes two Golpes with its greataxe against two adjacent enemies, both of whom are within its reach. The second attack uses the same multiple attack penalty as the first, but attacks it makes after this take a -10 multiple attack penalty.</p>"
+          "description": "<p>The minotaur makes two Golpes with its greataxe against two adjacent enemies, both of whom are within its reach. The second attack uses the same multiple attack penalización as the first, but attacks it makes after this take a -10 multiple attack penalización.</p>"
         },
         "action->Powerful Charge": {
           "name": "Powerful Charge",
@@ -1112,7 +1112,7 @@
           "name": "Jabalina"
         },
         "action->Ferocity": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.N1kstYbHScxgUQtN]\n<p>When the orc is reduced to 0 Puntos de Golpe, they can use their reaction to remain conscious with 1 Hit Point, but they gain the @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Herido 1} condition (or increases the wounded value by 1 if they already have that condition). The orc can't use this ability at wounded 3.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.N1kstYbHScxgUQtN]\n<p>When the orc is reduced to 0 Puntos de Golpe, they can use their reaction to remain conscious with 1 Hit Point, but they gain the @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Herido 1} condition (or increases the wounded value by 1 if they already have that condition). The orc can't use this ability at wounded 3.</p>"
         }
       }
     },
@@ -1167,7 +1167,7 @@
     },
     "Reefclaw (BB)": {
       "name": "Reefclaw (BB)",
-      "publicNotes": "<p>Reefclaws are aquatic monsters that resemble huge shrimp or lobsters. Though reefclaws can't speak, they are intelligent enough to understand the local language of humanoids near their hunting grounds.</p>",
+      "publicNotes": "<p>Reefclaws are aquatic monsters that resemble huge shrimp or lobsters. Though reefclaws no puede hablar, they are intelligent enough to understand the local language of humanoids near their hunting grounds.</p>",
       "skillSpecialAthletics": {
         "0": {
           "label": "to Swim"
@@ -1184,7 +1184,7 @@
         },
         "action->Constrict": {
           "name": "Apretar",
-          "description": "<p>If the reefclaw has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado}, it can spend one action to crush them in its coils. The creature takes @Damage[1d6[bludgeoning]] daño depending on its @Check[type:fortitude|dc:17|basic:true] save.</p>"
+          "description": "<p>If the reefclaw has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado}, it can spend one action to crush them in its coils. The criatura takes @Damage[1d6[bludgeoning]] daño depending on its @Check[type:fortitude|dc:17|basic:true] save.</p>"
         },
         "action->Reefclaw Venom": {
           "name": "Reefclaw Venom",
@@ -1192,7 +1192,7 @@
         },
         "action->Grab": {
           "name": "Agarrar",
-          "description": "<p>When the reeflclaw succeeds at its claw Golpe, it can use this action immediately after to attempt to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the target. This Grapple doesn't apply or count toward the reefclaw's multiple attack penalty.</p>"
+          "description": "<p>When the reeflclaw succeeds at its claw Golpe, it can use this action immediately after to attempt to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} el objetivo. Este Grapple doesn't apply or count toward the reefclaw's multiple attack penalización.</p>"
         }
       }
     },
@@ -1392,18 +1392,18 @@
         },
         "action->Avenging Bite": {
           "name": "Avenging Bite",
-          "description": "<p>When a creature within the reach of the warg's bite attacks one of its allies, the warg can spend its reaction to make a jaws Golpe against that creature.</p>"
+          "description": "<p>When a criatura within the reach of the warg's bite attacks one of its allies, the warg can spend its reaction to make a jaws Golpe against that criatura.</p>"
         },
         "action->Pack Attack": {
           "name": "Ataque de manada",
-          "description": "<p>The warg's jaws Golpe deals 1d4 daño adicional to creatures within reach of two of the warg's allies.</p>"
+          "description": "<p>The warg's jaws Golpe deals 1d4 daño adicional to criaturas within reach of two of the warg's allies.</p>"
         },
         "action->Shred": {
           "name": "Shred",
-          "description": "<p>If the warg has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}, it can spend one action to shred them with its teeth. The creature takes @Damage[1d6[slashing]] daño and can make a @Check[type:fortitude|dc:18|basic:true] save.</p>"
+          "description": "<p>If the warg has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}, it can spend one action to shred them with its teeth. The criatura takes @Damage[1d6[slashing]] daño and can make a @Check[type:fortitude|dc:18|basic:true] save.</p>"
         },
         "action->Grab": {
-          "description": "<p>When the warg succeeds at its jaws Golpe, it can use this action immediately after to attempt to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the target. This Grapple doesn't apply or count toward the warg's multiple attack penalty.</p>"
+          "description": "<p>When the warg succeeds at its jaws Golpe, it can use this action immediately after to attempt to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} el objetivo. Este Grapple doesn't apply or count toward the warg's multiple attack penalización.</p>"
         }
       }
     },
@@ -1453,7 +1453,7 @@
         },
         "action->Corrupting Spite": {
           "name": "Corrupting Spite",
-          "description": "<p>When the wight deals daño to a living creature with its claw or dagger Golpe, the wight regains 2 Puntos de Golpe and the target must succeed at a @Check[fortitude|dc:17] save or take 2 daño that can't be healed. The wight can use corrupting spite multiple times, but a single creature can't take more than 8 unhealable daño.</p>\n<p>Each full night of rest heals 2 of the unhealable daño, and a full day of bed rest increases the recovery to 4 of the unhealable daño.</p>"
+          "description": "<p>When the wight deals daño to a living criatura with its claw or dagger Golpe, the wight regains 2 Puntos de Golpe and el objetivo must succeed at a @Check[fortitude|dc:17] save or take 2 daño that can't be healed. The wight can use corrupting spite multiple times, but a single criatura can't take more than 8 unhealable daño.</p>\n<p>Each full night of rest heals 2 of the unhealable daño, and a full day of bed rest increases the recovery to 4 of the unhealable daño.</p>"
         }
       }
     },
@@ -1470,7 +1470,7 @@
           "description": "<p> Si el lobo golpea a un objetivo que al menos dos de sus aliados podrían alcanzar con un ataque cuerpo a cuerpo, el lobo inflige 1d4 de daño adicional en ese golpe. </p>"
         },
         "action->Knockdown": {
-          "description": "<p>When the wolf succeeds at its jaws Golpe, it can use this action immediately after to attempt to @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} the target. This Trip doesn't apply or count toward the wolf's multiple attack penalty.</p>"
+          "description": "<p>When the wolf succeeds at its jaws Golpe, it can use this action immediately after to attempt to @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} el objetivo. Este Trip doesn't apply or count toward the wolf's multiple attack penalización.</p>"
         }
       }
     },

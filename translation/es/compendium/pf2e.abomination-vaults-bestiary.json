@@ -403,7 +403,7 @@
         },
         "action->Death Burst": {
           "name": "Estallido mortal",
-          "description": "<p>Cuando el vaciasangre muere, su cuerpo explota en un estallido rojo y turbio de sangre seca necrótica en un @Template[emanation|distance:20]{área de 20 pies (6 m)}.</p>\n<p>Las criaturas al alcance deben hacer una salvación de @Check[reflex|dc:21|options:area-effect,damaging-effect].</p>\n<hr />\n<p><strong>Éxito crítico</strong> La criatura no se ve afectada.</p>\n<p><strong>Éxito</strong> La criatura sufre @Damage[2d6[void]|options:area-damage]{2d6 daño de vacío}.</p>\n<p><strong>Fallo</strong> La criatura sufre @Damage[4d6[void]|options:area-damage]{4d6 daño de vacío}.</p>\n<p><strong>Fallo crítico</strong> La criatura sufre @Damage[6d6[void]|options:area-damage]{6d6 daño de vacío} y queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitada 2} durante 1 hora.</p>"
+          "description": "<p>Cuando el vaciasangre muere, su cuerpo explota en un estallido rojo y turbio de sangre seca necrótica en un @Template[emanation|distance:20]{área de 20 pies (6 m)}.</p>\n<p>Las criaturas al alcance deben hacer una salvación de @Check[reflex|dc:21|options:area-effect,damaging-effect].</p>\n<hr />\n<p><strong>Éxito crítico</strong> La criatura no se ve afectada.</p>\n<p><strong>Éxito</strong> La criatura sufre @Damage[2d6[void]|options:area-daño]{2d6 daño de vacío}.</p>\n<p><strong>Fallo</strong> La criatura sufre @Damage[4d6[void]|options:area-daño]{4d6 daño de vacío}.</p>\n<p><strong>Fallo crítico</strong> La criatura sufre @Damage[6d6[void]|options:area-daño]{6d6 daño de vacío} y queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitada 2} durante 1 hora.</p>"
         },
         "action->Blood Drain": {
           "name": "Drenar sangre",
@@ -452,8 +452,8 @@
           "name": "Corona de barro y bichos"
         },
         "ammo->Blowgun Darts (Poisoned)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.sqhr1crb184s3Vnd]\nBlowgun Darts (Poisoned)",
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.sqhr1crb184s3Vnd]\n<p>These thin, light darts are typically made of hardwood and stabilized with fletching of down or fur. They are often hollow so they can be used to deliver poison.</p>\n<hr />\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.CeKPffF0FaEyhLMp]{Spear Frog Poison}</p>"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.sqhr1crb184s3Vnd]\nBlowgun Darts (Poisoned)",
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.sqhr1crb184s3Vnd]\n<p>Estos thin, light darts are typically made of hardwood and stabilized with fletching of down or fur. They are often hollow so they can be used to deliver poison.</p>\n<hr />\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.CeKPffF0FaEyhLMp]{Spear Frog Poison}</p>"
         },
         "strike-melee->Trident": {
           "name": "Tridente"
@@ -513,7 +513,7 @@
         },
         "action->Light Flare": {
           "name": "Destello de luz",
-          "description": "<p><strong>Requisito</strong> El aura de luz del caminante brillante está contenida</p>\n<hr />\n<p><strong>Efecto</strong> El caminante brillante vuelve a encender su Aura de luz con una ráfaga de brillo que inflige @Damage[5d6[fire]|options:area-damage]{5d6 puntos de daño por fuego} (salvación @Check[reflex|dc:25|basic|options:area-effect]) a las criaturas que se encuentren en una @Template[burst|distance:20]{explosión de 20 pies (6 m)}.</p>\n<p>Las criaturas @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbradas} o con @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.I0HYG0ctCLP5JRsW]{Ceguera ante la luz} encuentran este destello particularmente doloroso; el resultado de la salvación de dichas criaturas es un grado de éxito peor que el resultado que obtenga.</p>"
+          "description": "<p><strong>Requisito</strong> El aura de luz del caminante brillante está contenida</p>\n<hr />\n<p><strong>Efecto</strong> El caminante brillante vuelve a encender su Aura de luz con una ráfaga de brillo que inflige @Damage[5d6[fire]|options:area-daño]{5d6 puntos de daño por fuego} (salvación @Check[reflex|dc:25|basic|options:area-effect]) a las criaturas que se encuentren en una @Template[burst|distance:20]{explosión de 20 pies (6 m)}.</p>\n<p>Las criaturas @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbradas} o con @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.I0HYG0ctCLP5JRsW]{Ceguera ante la luz} encuentran este destello particularmente doloroso; el resultado de la salvación de dichas criaturas es un grado de éxito peor que el resultado que obtenga.</p>"
         },
         "action->Shadow Jump": {
           "name": "Salto sombrío",
@@ -549,7 +549,7 @@
         },
         "action->Devastating Blast": {
           "name": "Explosión devastadora",
-          "description": "<p>El caballero sepulcral desata un @Template[cone|distance:30]{cono de energía de 30 pies (9 m)}. Todas las criaturas en el área sufren @Damage[6d12[cold]|options:area-damage]{6d12 daño de frio} (salvación @Check[reflex|dc:29|basic|options:area-effect]).</p>\n<p>El caballero sepulcral puede usar esta aptitud tan solo una vez cada [[/gmr 1d4 #Recarga Explosión devastadora]]{1d4 asaltos}.</p>"
+          "description": "<p>El caballero sepulcral desata un @Template[cone|distance:30]{cono de energía de 30 pies (9 m)}. Todas las criaturas en el área sufren @Damage[6d12[cold]|options:area-daño]{6d12 daño de frio} (salvación @Check[reflex|dc:29|basic|options:area-effect]).</p>\n<p>El caballero sepulcral puede usar esta aptitud tan solo una vez cada [[/gmr 1d4 #Recarga Explosión devastadora]]{1d4 asaltos}.</p>"
         },
         "action->Graveknight's Curse": {
           "name": "Maldición del caballero sepulcral",
@@ -595,7 +595,7 @@
         },
         "action->Death Flame": {
           "name": "Llama fúnebre",
-          "description": "<p>Cuando el caligni defensor muere, su cuerpo arde en un destello de llamas blancas. Todas las criaturas en una @Template[type:burst|distance:20]{explosión de 6 pies (1,8 m)} reciben @Damage[6d10[fire]|options:area-damage]{6d10 de daño por fuego} (salvación @Check[reflex|dc:26|basic|options:area-effect]). Su equipo y tesoro no se ven afectados por las llamas y quedan en un montón en el lugar donde murió.</p>"
+          "description": "<p>Cuando el caligni defensor muere, su cuerpo arde en un destello de llamas blancas. Todas las criaturas en una @Template[type:burst|distance:20]{explosión de 6 pies (1,8 m)} reciben @Damage[6d10[fire]|options:area-daño]{6d10 de daño por fuego} (salvación @Check[reflex|dc:26|basic|options:area-effect]). Su equipo y tesoro no se ven afectados por las llamas y quedan en un montón en el lugar donde murió.</p>"
         },
         "action->Black Smear Poison": {
           "name": "Veneno de mancha negra",
@@ -1508,7 +1508,7 @@
         },
         "action->Death Shadows": {
           "name": "Sombras fúnebres",
-          "description": "<p>Cuando Dulac muere, su cuerpo se destruye en una explosión de sombras heladas. Todas las criaturas en una explosión de 20 pies (6 m) sufren @Damage[8d8[cold]|options:area-damage]{8d8 de daño por frío} (salvación @Check[reflex|dc:28|basic|options:area-effect]).</p>\n<p>El equipo y el tesoro de Dulac no se ven afectados por las sombras y quedan en un montón en el lugar en el que murió.</p>"
+          "description": "<p>Cuando Dulac muere, su cuerpo se destruye en una explosión de sombras heladas. Todas las criaturas en una explosión de 20 pies (6 m) sufren @Damage[8d8[cold]|options:area-daño]{8d8 de daño por frío} (salvación @Check[reflex|dc:28|basic|options:area-effect]).</p>\n<p>El equipo y el tesoro de Dulac no se ven afectados por las sombras y quedan en un montón en el lugar en el que murió.</p>"
         },
         "action->Opportune Step": {
           "name": "Paso oportuno",
@@ -1692,7 +1692,7 @@
         },
         "action->Death Motes": {
           "name": "Motas fúnebres",
-          "description": "<p>Cuando Galudu muere, su cuerpo estalla en motas brillantes de energía mágica. Todas las criaturas en una @Template[burst|distance:20]{explosión de 20 pies (6 m)} sufren @Damage[12d6[force]|options:area-damage]{12d6 de daño de fuerza} (salvación @Check[reflex|dc:30|basic|options:area-effect]). El equipo de Galudu no se ve afectado por la explosión y queda amontonado en el lugar en el que murió.</p>"
+          "description": "<p>Cuando Galudu muere, su cuerpo estalla en motas brillantes de energía mágica. Todas las criaturas en una @Template[burst|distance:20]{explosión de 20 pies (6 m)} sufren @Damage[12d6[force]|options:area-daño]{12d6 de daño de fuerza} (salvación @Check[reflex|dc:30|basic|options:area-effect]). El equipo de Galudu no se ve afectado por la explosión y queda amontonado en el lugar en el que murió.</p>"
         },
         "action->Opportune Step": {
           "name": "Paso oportuno",
@@ -2174,7 +2174,7 @@
         },
         "action->Necrotic Decay": {
           "name": "Putrefacción necrótica",
-          "description": "<p>Cuando Khurfel muere, su carne invisible se pudre rápidamente y se sublima en un gas maloliente que llena una @Template[emanation|distance:10]{emanación de 10 pies (3 m)} alrededor de su cuerpo. El gas inflige @Damage[10d6[void]|options:area-damage]{10d6 de daño de vacío} a las criaturas que se encuentran en esta área mientras su carne también se cuaja y se pudre (salvación @Check[fortitude|dc:28|basic|options:area-effect]).</p>"
+          "description": "<p>Cuando Khurfel muere, su carne invisible se pudre rápidamente y se sublima en un gas maloliente que llena una @Template[emanation|distance:10]{emanación de 10 pies (3 m)} alrededor de su cuerpo. El gas inflige @Damage[10d6[void]|options:area-daño]{10d6 de daño de vacío} a las criaturas que se encuentran en esta área mientras su carne también se cuaja y se pudre (salvación @Check[fortitude|dc:28|basic|options:area-effect]).</p>"
         },
         "action->Frenzied Attack": {
           "name": "Ataque frenético",
@@ -2484,7 +2484,7 @@
         },
         "action->Explosive Decay": {
           "name": "Deterioro explosivo",
-          "description": "<p>Cuando un mulventok muere, su piel reflectante se desgarra y explota en un @Template[burst|distance:20]{radio de 20 pies (6 m)}. Las criaturas atrapadas en la explosión quedan cubiertas de vísceras y sufren @Damage[8d6[void]|options:area-damage]{8d6 de daño del vacío} (salvación @Check[reflex|dc:22|basic|options:area-effect]).</p>"
+          "description": "<p>Cuando un mulventok muere, su piel reflectante se desgarra y explota en un @Template[burst|distance:20]{radio de 20 pies (6 m)}. Las criaturas atrapadas en la explosión quedan cubiertas de vísceras y sufren @Damage[8d6[void]|options:area-daño]{8d6 de daño del vacío} (salvación @Check[reflex|dc:22|basic|options:area-effect]).</p>"
         },
         "action->Stay in the Fight": {
           "name": "Permanecer en la lucha",
@@ -3040,7 +3040,7 @@
         },
         "action->Spore Explosion": {
           "name": "Explosión de esporas",
-          "description": "<p>Cuando el bejín cráneo de la parca muere, explota, infligiendo @Damage[8d8[poison]|options:area-damage]{8d8 de daño por veneno} a cada criatura en una @Template[emanation|distance:20]{emanación de 20 pies (6 m)} (salvación @Check[fortitude|dc:28|basic|options:area-effect]).</p>\n<p>Las criaturas que fallan la salvación quedan expuestas a la podredumbre del cráneo.</p>"
+          "description": "<p>Cuando el bejín cráneo de la parca muere, explota, infligiendo @Damage[8d8[poison]|options:area-daño]{8d8 de daño por veneno} a cada criatura en una @Template[emanation|distance:20]{emanación de 20 pies (6 m)} (salvación @Check[fortitude|dc:28|basic|options:area-effect]).</p>\n<p>Las criaturas que fallan la salvación quedan expuestas a la podredumbre del cráneo.</p>"
         },
         "action->Paralysis": {
           "name": "Parálisis",
@@ -3052,7 +3052,7 @@
         },
         "action->Spore Cloud": {
           "name": "Nube de esporas",
-          "description": "<p>El bejín libera un @Template[cone|distance:30]{cono de esporas de 30 pies (9 m)} que inflige @Damage[4d8[poison]|options:area-damage]{4d8 de daño por veneno} (salvación @Check[fortitude|dc:28|basic|options:area-effect]) a las criaturas en el cono.</p>\n<p>Las criaturas que fallan esta salvación también quedan expuestas a la podredumbre del cráneo.</p>"
+          "description": "<p>El bejín libera un @Template[cone|distance:30]{cono de esporas de 30 pies (9 m)} que inflige @Damage[4d8[poison]|options:area-daño]{4d8 de daño por veneno} (salvación @Check[fortitude|dc:28|basic|options:area-effect]) a las criaturas en el cono.</p>\n<p>Las criaturas que fallan esta salvación también quedan expuestas a la podredumbre del cráneo.</p>"
         }
       }
     },
@@ -3235,7 +3235,7 @@
         "consumable->Wand of See Invisibility (Level 2)": {
           "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]\nVarita de Ver Invisibilidad (Nivel 2)",
           "consumableSpellName": "Ver Invisibilidad",
-          "consumableSpellDescription": "<p>Puedes see @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} creatures and objects. They appear to you as translucent shapes, and they are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} to you.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The conjuro has a duration of 8 hours.</p>",
+          "consumableSpellDescription": "<p>Puedes see @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} criaturas and objects. They appear to tú as translucent shapes, and they are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} to tú.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The conjuro has a duration of 8 hours.</p>",
           "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]\n <p> @UUID[Compendium.pf2e.conjuros-srd.Item.jwK43yKsHTkJQvQ9]{See the Unseen} </p> <hr /> <p> Este bastón mide aproximadamente un pie de largo y contiene un solo hechizo. La apariencia normalmente se relaciona con el hechizo interior. </p>\n <p> <strong> Activar </strong> Lanzar un hechizo </p>\n <p> <strong> Frecuencia </strong> una vez al día, más recargo </p>\n <hr />\n <p> <strong>Efecto </strong> Lanzas el Hechizo al nivel indicado. </p>\n <p> <strong> Requisitos de artesanía </strong> Proporcionar un lanzamiento del hechizo del nivel indicado. </p>\n <hr />\n <p> <em> Nota: Para crear un pergamino o varita de un hechizo específico, arrastre el hechizo desde el compendio o navegador de compendio al inventario de un PC, NPC o actor de botín. </em> </p>"
         },
         "strike-melee->Bite": {
@@ -3338,7 +3338,7 @@
         "consumable->Wand of Status (Level 2)": {
           "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]\nVarita de estatus (nivel 2)",
           "consumableSpellName": "Estado",
-          "consumableSpellDescription": " <p> As long as you and the target are on the same plane of existence and both alive, you remain aware of its present state. Conoces the target's direction from you, distance from you, and any conditions affecting it. </p> \n <hr /> \n <p>  <strong> Heightened (4th) </strong>  The conjuro's range increases to 30 pies, and puedes target up to 10 creatures. </p> ",
+          "consumableSpellDescription": " <p> As long as tú and el objetivo are on the same plane of existence and both alive, tú remain aware of its present state. Conoces el objetivo's direction from tú, distance from tú, and any conditions affecting it. </p> \n <hr /> \n <p>  <strong> Heightened (4th) </strong>  The conjuro's range increases to 30 pies, and puedes target up to 10 criaturas. </p> ",
           "consumableSpellTarget": "1 criatura viviente dispuesta",
           "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]\n <p> @UUID[Compendium.pf2e.conjuros-srd.Item.HTou8cG05yuSkesj]{Status} </p> <hr /> <p> Este bastón mide aproximadamente un pie de largo y contiene un solo hechizo. La apariencia normalmente se relaciona con el hechizo interior. </p>\n <p> <strong> Activar </strong> Lanzar un hechizo </p>\n <p> <strong> Frecuencia </strong> una vez al día, más recargo </p>\n <hr />\n <p> <strong>Efecto </strong> Lanzas el Hechizo al nivel indicado. </p>\n <p> <strong> Requisitos de artesanía </strong> Proporcionar un lanzamiento del hechizo del nivel indicado. </p>\n <hr />\n <p> <em> Nota: Para crear un pergamino o varita de un hechizo específico, arrastre el hechizo desde el compendio o navegador de compendio al inventario de un PC, NPC o actor de botín. </em> </p>"
         },
