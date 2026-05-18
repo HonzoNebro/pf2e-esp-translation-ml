@@ -252,6 +252,49 @@ class Translator {
         return name.replace("ß", "ss");
     }
 
+    translateNameQualifier(qualifier) {
+        const qualifiers = {
+            Acrobatics: "Acrobacias",
+            Arcana: "Arcanos",
+            Athletics: "Atletismo",
+            Crafting: "Artesanía",
+            Deception: "Engaño",
+            Diplomacy: "Diplomacia",
+            Intimidation: "Intimidación",
+            Medicine: "Medicina",
+            Nature: "Naturaleza",
+            Occultism: "Ocultismo",
+            Performance: "Interpretación",
+            Religion: "Religión",
+            Society: "Sociedad",
+            Stealth: "Sigilo",
+            Survival: "Supervivencia",
+            Thievery: "Latrocinio",
+        };
+
+        if (qualifiers[qualifier]) return qualifiers[qualifier];
+
+        const loreMatch = /^(.*) Lore$/u.exec(qualifier);
+        if (loreMatch) return `Saber de ${loreMatch[1]}`;
+
+        return qualifier;
+    }
+
+    escapeRegExp(value) {
+        return value.replace(/[.*+?^${}()|[\]\\]/gu, "\\$&");
+    }
+
+    applyOriginalNameQualifier(translatedName, originalActorName, sourceName) {
+        if (!translatedName || originalActorName === sourceName) return translatedName;
+
+        const qualifierMatch = new RegExp(`^${this.escapeRegExp(sourceName)} \\((.+)\\)$`, "u").exec(
+            originalActorName
+        );
+        if (!qualifierMatch) return translatedName;
+
+        return `${translatedName} (${this.translateNameQualifier(qualifierMatch[1])})`;
+    }
+
     registerCompendium(module, compendium, language, compendiumDirectory, imageDirectory = undefined) {
         // Register compendium
         if (game.babele) {
@@ -391,6 +434,7 @@ class Translator {
             }
             let itemTranslation = translation ? translation[itemKey] ?? undefined : undefined;
             let itemName = entry.name;
+            const actorItemName = entry.name;
 
             // For compendium items, get the data from the compendium
 
@@ -407,7 +451,8 @@ class Translator {
                 const sourceItem = fromUuidSync(compendiumLink);
                 const originalName = sourceItem?.flags?.babele?.originalName ?? sourceItem?.name ?? entry.name;
                 const compendiumPack = game.babele.packs.get(`${itemCompendium[1]}.${itemCompendium[2]}`);
-                if (originalName && compendiumPack) {
+                const sourceTypeMatches = sourceItem?.type ? sourceItem.type === entry.type : entry.type !== "lore";
+                if (originalName && compendiumPack && sourceTypeMatches) {
                     entry.name = originalName;
                     itemName = originalName;
 
@@ -425,6 +470,7 @@ class Translator {
                     if (arr[index].name.search("/") != -1) {
                         arr[index].name = arr[index].name.substring(0, arr[index].name.search("/"));
                     }
+                    arr[index].name = this.applyOriginalNameQualifier(arr[index].name, actorItemName, originalName);
                 }
             }
 
