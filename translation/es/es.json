@@ -135,7 +135,7 @@
         "ShieldNotRaised": "{actor} no ha levantado su escudo.",
         "TakesNoDamage": "<actor>{actor}</actor> no sufre daño.",
         "TheTarget": "El objetivo",
-        "TroopThresholdReached": "The troop has reached their next threshold ({segments} segments remaining)."
+        "TroopThresholdReached": "La tropa ha alcanzado su siguiente umbral (quedan {segments} segmentos)."
       },
       "AttackEffects": {
         "PlusList": "(más {list})"
@@ -669,7 +669,7 @@
           "Label": "Generar ataque",
           "Notification": {
             "New": "Generated NPC attack: {attack}",
-            "Relinked": "Relinked NPC Attack: {attack}"
+            "Relinked": "Ataque de PNJ revinculado: {attack}"
           }
         },
         "Identification": {
@@ -1666,7 +1666,7 @@
       "NotEnoughCoins": "Monedas insuficientes",
       "MissingStatisticSelected": "Falta estadística {statistic} en los actores seleccionados",
       "RuleElementSyntax": "Error de sintaxis en la definición del elemento de regla: {message}",
-      "ModuleTooOld": "{module} is unmaintained and may introduce stability issues to tu game.",
+      "ModuleTooOld": "{module} no recibe mantenimiento y puede introducir problemas de estabilidad en tu partida.",
       "WeaponNoDamage": "Esta arma no causa daño.",
       "WeaponQuantityZero": "No tienes más de estas armas equipadas."
     },
@@ -2003,7 +2003,7 @@
           "hellknight-breastplate": "Coraza de Caballero Infernal",
           "hellknight-half-plate": "Laminada de Caballero Infernal",
           "hellknight-plate": "Completa de Caballero Infernal",
-          "hidden-soldier-armor": "Escondido Soldier Armor",
+          "hidden-soldier-armor": "Armadura de soldado oculto",
           "hide-armor": "Armadura de pieles",
           "kilted-breastplate": "Coraza hoplita",
           "kyokor-plating": "Kyokor Plating",
@@ -2024,7 +2024,7 @@
           "scale-mail": "Cota de escama",
           "scroll-robes": "Túnicas de pergamino",
           "second-skin": "Segunda Piel",
-          "shotalashu-armor": "Shotalashu Armor",
+          "shotalashu-armor": "Armadura shotalashu",
           "skyfire-armor": "Armadura de fuego celeste",
           "splint-mail": "Laminada",
           "studded-leather-armor": "Armadura de cuero tachonada",
@@ -2634,7 +2634,7 @@
           },
           "SuppressedFeatures": {
             "Label": "Dotes de Clase Suprimidas",
-            "Hint": "To remove a feature from data preparation and the feats tab, drag and drop one onto this sheet."
+            "Hint": "Para eliminar un rasgo de la preparación de datos y de la pestaña de dotes, arrastra y suelta uno en esta hoja."
           },
           "Senses": {
             "Darkvision": {
@@ -2680,7 +2680,7 @@
         "FIELDS": {
           "subjectToMAP": {
             "label": "Subject to MAP?",
-            "hint": "Does this attack increase or become affected by a multiple attack penalización?"
+            "hint": "¿Este ataque aumenta la penalización por ataques múltiples o se ve afectado por ella?"
           },
           "range": {
             "increment": {
@@ -2746,9 +2746,9 @@
         },
         "ChangeEquipmentSystem": {
           "Title": "Change System",
-          "ToPathfinder": "Removing the {removedTrait} rasgo changes this {type} from Starfinder to Pathfinder. Tu grade will be lost. Are tú sure? Alternatively, tú could swap it to {otherTrait}.",
-          "ToPathfinderOrSwap": "Removing the {removedTrait} rasgo changes this {type} from Starfinder to Pathfinder. Tu grade will be lost. Are tú sure? Alternatively, tú could swap it to {otherTrait}.",
-          "ToStarfinder": "Adding the {newTrait} rasgo changes this {type} from Pathfinder to Starfinder. All runes will be lost. Are tú sure?"
+          "ToPathfinder": "Eliminar el rasgo {removedTrait} cambia este {type} de Starfinder a Pathfinder. Tu grado se perderá. ¿Seguro? También puedes cambiarlo por {otherTrait}.",
+          "ToPathfinderOrSwap": "Eliminar el rasgo {removedTrait} cambia este {type} de Starfinder a Pathfinder. Tu grado se perderá. ¿Seguro? También puedes cambiarlo por {otherTrait}.",
+          "ToStarfinder": "Añadir el rasgo {newTrait} cambia este {type} de Pathfinder a Starfinder. Todas las runas se perderán. ¿Seguro?"
         },
         "Destroyed": "Destruido",
         "FromSpell": {
@@ -2895,17 +2895,17 @@
           "compact-shield": "Escudo compacto",
           "dart-shield": "Escudo de dardos",
           "deflecting-field": "Deflecting Field",
-          "fiendsbane-shield": "Fiendsbane Shield",
+          "fiendsbane-shield": "Escudo azote de infernales",
           "fortress-shield": "Escudo de la fortaleza",
           "gauntlet-buckler": "Escudo de guantelete",
           "harnessed-shield": "Escudo aprovechado",
           "heavy-rondache": "Rondache pesado",
           "hide-shield": "Escudo de pieles",
-          "irising-shield": "Irising Shield",
+          "irising-shield": "Escudo iridiscente",
           "klar": "klar",
           "meteor-shield": "Escudo de meteorito",
           "mobile-bulwark": "Mobile Bulwark",
-          "phase-shield": "Phase Shield",
+          "phase-shield": "Escudo de fase",
           "razor-disc": "Disco de cuchilla",
           "riot-shield": "Escudo antidisturbios",
           "salvo-shield": "Escudo de salvación",
@@ -3034,16 +3034,16 @@
           "bow": "Si el objetivo del impacto crítico está adyacente a una superficie, el misil lo pega a esa superficie. El objetivo es @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} y ​​debe gastar una acción de Interactuar para intentar una prueba @Check[type:athletics|dc:10|name:Pull the Missile Free|showDC:all] para liberar el misil; no puede moverse de su espacio hasta que lo logre. La criatura no queda atrapada si es incorpórea, líquida o si podría escapar sin esfuerzo (por ejemplo, si es lo suficientemente grande como para que el misil no sea un impedimento).",
           "brawling": "El objetivo debe tener éxito en una salvación @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Brawling Critical Specialization] contra tu DC de clase o ser @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} hasta el final de tu siguiente turno.",
           "club": "Golpeas al objetivo hasta 10 pies en línea recta lejos de ti, en la dirección que elijas. Este es un movimiento forzado.",
-          "corrosive": "El objetivo takes @Damage[(1d6 + @item.system.runes.potency)[persistent,acid]]. Obtienes an bonificador por objeto to this daño de ácido equal to the arma's bonificador por objeto a las tiradas de ataque.",
+          "corrosive": "El objetivo recibe @Damage[(1d6 + @item.system.runes.potency)[persistent,acid]]. Obtienes un bonificador por objeto a este daño de ácido igual al bonificador por objeto del arma a las tiradas de ataque.",
           "cryo": "Este arma freezes part of el objetivo, making it hard for them to move their body. El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} hasta el comienzo de tu siguiente turno.",
           "firearm": "El objetivo debe tener éxito en una salvación @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Firearm Critical Specialization] contra tu DC de clase o ser @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1} .",
           "flail": "El objetivo es derribado @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} a menos que tenga éxito en una salvación @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|name:Flail Critical Specialization] contra tu clase DC.",
-          "flame": "El objetivo takes @Damage[(1d6 + @item.system.runes.potency)[persistent,fire]]. Obtienes an bonificador por objeto to this daño de fuego equal to the arma's bonificador por objeto a las tiradas de ataque.",
-          "grenade": "Apply the effect listed in the grenade's entry to each criatura that rolls a critical failure against the effects of the grenade.",
+          "flame": "El objetivo recibe @Damage[(1d6 + @item.system.runes.potency)[persistent,fire]]. Obtienes un bonificador por objeto a este daño de fuego igual al bonificador por objeto del arma a las tiradas de ataque.",
+          "grenade": "Aplica el efecto indicado en la entrada de la granada a cada criatura que obtenga un fallo crítico contra los efectos de la granada.",
           "hammer": "El objetivo es derribado @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} a menos que tenga éxito en una salvación @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Hammer Critical Specialization] contra tu clase DC.",
           "laser": "El objetivo debe tener éxito en una salvación @Check[fortitude|against:class] contra la CD de tu clase o queda @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} hasta el comienzo de tu siguiente turno.",
           "mental": "El objetivo debe tener éxito en una salvación @Check[will|against:class] contra la CD de tu clase o queda @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} hasta el comienzo de tu siguiente turno.",
-          "plasma": "El objetivo takes @Damage[(1d6 + @item.system.runes.potency)[persistent,electricity]]. Obtienes an bonificador por objeto to this daño de electricidad equal to the arma's bonificador por objeto a las tiradas de ataque.",
+          "plasma": "El objetivo recibe @Damage[(1d6 + @item.system.runes.potency)[persistent,electricity]]. Obtienes un bonificador por objeto a este daño de electricidad igual al bonificador por objeto del arma a las tiradas de ataque.",
           "poison": "El objetivo debe tener éxito en @Check[fortitude|against:class] o queda @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} hasta el comienzo de tu siguiente turno.",
           "polearm": "El objetivo se mueve 5 pies en la dirección que elijas. Este es un movimiento forzado.",
           "projectile": "El objetivo debe tener éxito en @Check[fortitude|against:class] o queda @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} hasta el comienzo de tu siguiente turno.",
@@ -3322,7 +3322,7 @@
           "Grab": "<p><strong>Requisitos </strong> La última acción del monstruo ha sido dar un Golpe con éxito que indica Agarrón en su entrada de daño, o el monstruo tiene a una criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrada} o @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizada}</p>\n<hr />\n<p><strong>Efecto</strong> Si se usa después de un Golpe, el monstruo trata de [[/act grapple]]{Apresar} utilizando la parte corporal con la que la ha atacado. Esto ni se aplica ni cuenta contra el penalizador por ataque múltiple de la criatura.</p>\n<p>En su lugar, el monstruo puede usar Agarrón y elegir a una criatura a la que está agarrando o neutralizando con un apéndice que dispone de Agarrón para prolongar automáticamente dicho estado hasta el final del siguiente turno del monstruo.</p>",
           "GreaterConstrict": "<p>El monstruo inflige la cantidad indicada de daño a cualquier número de criaturas @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarradas} o @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizadas} por él. Cada una de dichas criaturas puede hacer una salvación básica de Fortaleza con la CD indicada. Una criatura que falla esta salvación queda @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} y la que tiene éxito queda a continuación temporalmente inmune a quedar inconsciente debido a Constreñir mayor durante 1 minuto.</p>",
           "GreaterDarkvision": "<p>Un monstruo con visión en la oscuridad mayor puede ver perfectamente en áreas de oscuridad y de luz tenue, aunque dicha visión es solo en blanco y negro. Un monstruo con Visión en la oscuridad mayor puede ver incluso a través de estas formas de oscuridad mágica.</p>",
-          "Hover": "When a monster's land speed indicates that the criatura hovers, its land Velocidad represents how fast it can move while hovering within 5 pies of a solid surface. Hovering criaturas don't count as flying but might be able to avoid certain types of difficult or hazardous terrain, at the GM's discretion.",
+          "Hover": "Cuando la velocidad terrestre de un monstruo indica que flota, su Velocidad terrestre representa lo rápido que puede moverse mientras flota a 5 pies o menos de una superficie sólida. Las criaturas flotantes no cuentan como voladoras, pero pueden evitar ciertos tipos de terreno difícil o peligroso, a discreción del DJ.",
           "ImprovedGrab": "<p><strong>Requisitos </strong> La última acción del monstruo ha sido dar un Golpe con éxito que indica Agarrón mejorado en su entrada de daño, o el monstruo tiene a una criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrada} o @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizada}</p>\n<hr />\n<p><strong>Efecto</strong> Si se usa después de un Golpe, el monstruo trata de [[/act grapple]]{Apresar} utilizando la parte corporal con la que la ha atacado. Esto ni se aplica ni cuenta contra el penalizador por ataque múltiple de la criatura.</p>\n<p>En su lugar, el monstruo puede usar Agarrón y elegir a una criatura a la que está agarrando o neutralizando con un apéndice que dispone de Agarrón para prolongar automáticamente dicho estado hasta el final del siguiente turno del monstruo.</p>",
           "ImprovedKnockdown": "<p><strong>Requisitos</strong> La última acción del monstruo ha sido dar un Golpe con éxito que indica Derribo mejorado en su entrada de daño</p>\n<hr />\n<p><strong>Efecto</strong> El monstruo trata de [[/act trip]]{derribar} a la criatura como acción gratuita.  Esto ni se aplica ni cuenta contra el penalizador por ataque múltiple de la criatura.</p>",
           "ImprovedPush": "<p> El monstruo puede usar @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Empujar} como acción gratuita provocada por un impacto con su ataque inicial.</p>",
@@ -3331,7 +3331,7 @@
           "LightBlindness": "<p>Cuando se ve expuesto por vez primera a una luz brillante, el monstruo queda @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegado} hasta el final de su siguiente turno. Después de esta exposición, la luz no le ciega de nuevo hasta después de pasar 1 hora en la oscuridad. Sin embargo, mientras el monstruo permanezca en un área de luz brillante, estará @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado}.</p>",
           "LowLightVision": "<p>El monstruo puede ver en luz tenue como si fuera luz brillante, por lo que ignora el estado @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} debido a la luz tenue.</p>",
           "NegativeHealing": "<p>Una criatura con curación del vacío extrae salud de la energía del vacío en lugar de la energía de vitalidad. Resulta dañado por la energía de vitalidad y no es curado por los efectos curativos de vitalidad. No sufre daño por vacío y resulta curada por los efectos de vacío que curan a los muertos viviente.</p>",
-          "NoBreath": "The monster doesn't breathe and is immune to effects that require breathing.",
+          "NoBreath": "El monstruo no respira y es inmune a los efectos que requieren respirar.",
           "Poison": "<p>Cuando una criatura se ve expuesta al veneno de un monstruo, hace una salvación de Fortaleza para no quedar envenenada. El nivel de un veneno es el nivel del monstruo que lo inflige. El veneno sigue las reglas de las aflicciones.</p>",
           "PowerAttack": "<p> <strong> Frecuencia </strong> una vez por asalto </p>\n <hr />\n <p> <strong> Efecto </strong> El monstruo realiza un ataque cuerpo a cuerpo. Esto cuenta como dos ataques al calcular la penalización por ataque múltiple del monstruo. Si este Golpe impacta, el monstruo inflige un dado extra de daño de arma. </p>",
           "Pull": "<p><strong>Requisitos</strong> La última acción del monstruo ha sido dar un Golpe con éxito que indica Tirar en su entrada de daño</p>\n<hr />\n<p><strong>Efecto</strong> El monstruo trata de @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposicionar} a la criatura, acercándola a él. Esto ni se aplica ni cuenta contra el penalizador por ataque múltiple de la criatura. Si Tirar indica una distancia, cambia la distancia que la criatura es arrastrada con un éxito por dicha distancia.</p>",
@@ -3836,7 +3836,7 @@
         "Name": "Icono de muerte"
       },
       "DistanceDisplay": {
-        "Hint": "Display the distance between controlled and mouse-hovered tokens on the canvas.",
+        "Hint": "Muestra la distancia entre los tokens controlados y los tokens bajo el cursor en el lienzo.",
         "Name": "Token Distance Display",
         "always": "Always",
         "encounters": "During Encounters",
@@ -3853,7 +3853,7 @@
           "Name": "Grupos de armadura"
         },
         "BaseArmors": {
-          "Hint": "The bottom level of Pathfinder 2e armor taxonomy (e.g, Full Plate, Chain Mail)",
+          "Hint": "El nivel inferior de la taxonomía de armaduras de Pathfinder 2e (por ejemplo, armadura completa o cota de malla).",
           "Name": "Tipos base de armadura"
         },
         "BaseWeapons": {
@@ -3990,7 +3990,7 @@
         }
       },
       "MinimumRulesUI": {
-        "Hint": "The minimum role required to see and utilize the rule elements panel on item sheets.",
+        "Hint": "El rol mínimo necesario para ver y usar el panel de elementos de regla en las hojas de objeto.",
         "Name": "Minimum Rule Elements Acceso Role"
       },
       "NathMode": {
@@ -4095,28 +4095,28 @@
           "Label": "Reset World Date/Time"
         },
         "TimeConventions": {
-          "12": "12-Hour",
-          "24": "24-Hour"
+          "12": "12 horas",
+          "24": "24 horas"
         },
         "FIELDS": {
           "dateTheme": {
-            "hint": "Set the theme of the World Clock application.",
+            "hint": "Establece el tema de la aplicación Reloj del Mundo.",
             "label": "Date Theme"
           },
           "playersCanView": {
-            "hint": "Set whether players can view the World Clock.",
+            "hint": "Establece si los jugadores pueden ver el Reloj del Mundo.",
             "label": "Player Acceso"
           },
           "showClockButton": {
-            "hint": "Set whether to show the clock button at all (requires refresh).",
+            "hint": "Establece si se muestra el botón del reloj (requiere refrescar).",
             "label": "Show Clock Button"
           },
           "syncDarkness": {
-            "hint": "Set whether any scene's Darkness Level will reflect the time of day.",
+            "hint": "Establece si el nivel de oscuridad de las escenas reflejará la hora del día.",
             "label": "Synchronize Darkness"
           },
           "timeConvention": {
-            "hint": "Display either a 24-hour or 12-hour clock.",
+            "hint": "Muestra un reloj de 24 o 12 horas.",
             "label": "Time Convention"
           }
         }
@@ -4165,8 +4165,8 @@
       },
       "SyncDarkness": {
         "Label": "Synchronize Darkness to Time",
-        "ManagedBy": "Synchronized with <wt>world time</wt>.",
-        "Hint": "When the time of day changes in this scene, automatically adjust the darkness level to match (darker toward evening hours, lighter toward daytime)."
+        "ManagedBy": "Sincronizado con <wt>la hora del mundo</wt>.",
+        "Hint": "Cuando cambie la hora del día en esta escena, ajusta automáticamente el nivel de oscuridad para que coincida."
       }
     },
     "ScoreTitle": "Puntuación",
@@ -4249,7 +4249,7 @@
     "SpellcastingItemCreator": {
       "CantripDeck5": "Cubierta Cantrip (paquete de 5)",
       "ItemType": "Item type",
-      "Label": "Create an item from {name}",
+      "Label": "Crear un objeto a partir de {name}",
       "NoValidRanks": "No Valid Ranks",
       "Title": "Creating Spellcasting Item",
       "ViewItem": "View Item"
@@ -4289,7 +4289,7 @@
       "Ranged": {
         "Description": "Atacas con un arma que empuñas, designando como objetivo a una criatura dentro del rango de distancia. Haz una tirada de ataque utilizando el modificador al ataque para el arma que estás utilizando, y compara el resultado con la CA de la criatura objetivo para determinar el efecto.",
         "NoAmmo": "No se ha asignado munición a {arma}. Consulta la pestaña Acciones de la hoja de personaje de {actor}.",
-        "InsufficientAmmo": "Not enough ammunition is left in {arma}. Check the Actions tab of {actor}'s sheet.",
+        "InsufficientAmmo": "No queda suficiente munición en {arma}. Comprueba la pestaña de Acciones de la hoja de {actor}.",
         "Éxito": "Infliges daño de acuerdo con el arma o el ataque desarmado, incluidos los modificadores, bonificadores y penalizadores que tienes para hacer daño."
       },
       "Unarmed": {
@@ -4341,8 +4341,8 @@
       "Distance": "Distancia: {distance} pies",
       "Flanking": "Flanquear",
       "Mystified": {
-        "TheCreature": "The criatura",
-        "TheObject": "The object"
+        "TheCreature": "La criatura",
+        "TheObject": "El objeto"
       },
       "OutOfReach": "{token} is out of reach.",
       "SecretDisposition": {
@@ -4363,7 +4363,7 @@
     "TotalWealth": "Riqueza total",
     "TotalTreasure": "Tesoro total",
     "TradeDialog": {
-      "Aborted": "{user} has ended the trade: no items were exchanged.",
+      "Aborted": "{user} ha terminado el intercambio: no se intercambiaron objetos.",
       "Acceptance": {
         "Accepted": "{user} has accepted tu offer.",
         "Accept": "Accept Offer",
@@ -4374,9 +4374,9 @@
         "Engaged": "{user} is currently engaged in a trade.",
         "LoggedOut": "Ending trade: {user} is no longer logged in.",
         "NotTrading": "Ending trade: {user} is not longer trading.",
-        "OutOfReach": "{self} and {trader} are not in reach of each other.",
-        "SelectToken": "Select exactly one token associated with a PC or NPC to represent tú in a trade.",
-        "Timeout": "Ending trade: there was no response from {user} after {timeout} seconds",
+        "OutOfReach": "{self} y {trader} no están al alcance el uno del otro.",
+        "SelectToken": "Selecciona exactamente un token asociado a un PJ o PNJ para representarte en un intercambio.",
+        "Timeout": "Terminando intercambio: no hubo respuesta de {user} tras {timeout} segundos.",
         "Unavailable": "Ending trade: {user} has become unavailable."
       },
       "Gift": {
@@ -4386,7 +4386,7 @@
           "Content": "{trader} ({user}) would like to give {quantity}x {item} to {self}.",
           "Title": "Receive Item(s)?"
         },
-        "Received": "{self} has received the item from {trader}."
+        "Received": "{self} ha recibido el objeto de {trader}."
       },
       "ImgAlt": {
         "Actor": "Portrait of {actor}, representing {user}",
@@ -4400,20 +4400,20 @@
       "Receiving": "Receiving: {list}",
       "Request": {
         "Declined": "{trader} ({user}) has declined tu request to trade.",
-        "Requesting": "Requesting to trade with {trader} ...",
+        "Requesting": "Solicitando intercambio con {trader}...",
         "Prompt": {
-          "Content": "{trader} ({user}) would like to trade with {self}.",
-          "Title": "Trade with {trader}?"
+          "Content": "{trader} ({user}) quiere comerciar con {self}.",
+          "Title": "¿Comerciar con {trader}?"
         },
         "MenuLabel": "Request Trade",
-        "Timeout": "There was no response from {user} to tu trade request after 30 seconds."
+        "Timeout": "No hubo respuesta de {user} a tu solicitud de intercambio tras 30 segundos."
       },
       "Sending": "Sending: {list}",
       "Éxito": {
-        "Finished": "{self} has finished trading with {trader}.",
-        "NoItems": "The trade has concluded, but no items were exchanged."
+        "Finished": "{self} ha terminado de comerciar con {trader}.",
+        "NoItems": "El intercambio ha concluido, pero no se intercambiaron objetos."
       },
-      "Title": "Trading With {trader}",
+      "Title": "Comerciando con {trader}",
       "You": "Tú"
     },
     "TrainedSkillsLabel": "Habilidades entrenadas",
@@ -4435,10 +4435,10 @@
     "TraitAffixedToArmor": "Fijado a la armadura",
     "TraitAffixedToArmorOrAWeapon": "Fijado a una armadura o un arma",
     "TraitAffixedToArmorOrTravelersClothing": "Fijado a armaduras o ropa de viajero.",
-    "TraitAffixedToArmorShieldOrWeapon": "Affixed to Armor, Shield, or Weapon",
+    "TraitAffixedToArmorShieldOrWeapon": "Fijado a armadura, escudo o arma",
     "TraitAffixedToAShield": "Fijado a un escudo",
     "TraitAffixedToAShieldOrWeapon": "Fijado a un escudo o arma",
-    "TraitAffixedToASlashingWeapon": "Affixed to a Slashing Weapon",
+    "TraitAffixedToASlashingWeapon": "Fijado a un arma cortante",
     "TraitAffixedToATwoHandedFirearmOrCrossbow": "Fijado a un arma de fuego de dos manos o una ballesta",
     "TraitAffixedToCreature": "Fijado a una criatura",
     "TraitAffixedToCrossbowOrFirearm": "Fijado a ballesta o arma de fuego",
@@ -4457,9 +4457,9 @@
     "TraitAffixedToMediumHeavyArmor": "Fijado a una armadura media o pesada",
     "TraitAffixedToMediumHeavyMetalArmor": "Fijado a una armadura de metal mediana o pesada",
     "TraitAffixedToMeleeWeapon": "Fijado a un arma cuerpo a cuerpo",
-    "TraitAffixedToMetalArmorOrAWeapon": "Affixed to Metal Armor or a Weapon",
+    "TraitAffixedToMetalArmorOrAWeapon": "Fijado a una armadura de metal o un arma",
     "TraitAffixedToMetalWeapon": "Fijado a un arma de metal",
-    "TraitAffixedToNMArmorOrAWeapon": "Affixed to Non-Metal Armor or a Weapon",
+    "TraitAffixedToNMArmorOrAWeapon": "Fijado a una armadura no metálica o un arma",
     "TraitAffixedToObjectOrStructure": "Fijado a un objeto o estructura",
     "TraitAffixedToStructureObjectOrCreature": "Fijado a una estructura, objeto o criatura",
     "TraitAffixedToThrownWeapon": "Fijado a un arma arrojadiza",
@@ -4532,7 +4532,7 @@
     "TraitAttachedToFirearm": "Fijado al arma de fuego",
     "TraitAttachedToFirearmFiringMechanism": "Fijado al arma de fuego (mecanismo de disparo)",
     "TraitAttachedToFirearmScope": "Fijado al arma de fuego (alcance)",
-    "TraitAttachedToMeleeWeapon": "Attached to a Melee Weapon",
+    "TraitAttachedToMeleeWeapon": "Acoplado a un arma cuerpo a cuerpo",
     "TraitAttachedToShield": "Fijado al escudo",
     "TraitAttachedToShipsBow": "Fijado a la proa de un barco",
     "TraitAttack": "Ataque",
@@ -4632,16 +4632,16 @@
     "TraitCorpsefolk": "Corpsefolk",
     "TraitCosmic": "Cosmic",
     "TraitCouatl": "Coatl",
-    "TraitCriticalBrawling": "Critical (Brawling)",
-    "TraitCriticalCorrosive": "Critical (Corrosive)",
-    "TraitCriticalCryo": "Critical (Cryo)",
-    "TraitCriticalFlame": "Critical (Flame)",
+    "TraitCriticalBrawling": "Crítico (pelea)",
+    "TraitCriticalCorrosive": "Crítico (corrosivo)",
+    "TraitCriticalCryo": "Crítico (criogénico)",
+    "TraitCriticalFlame": "Crítico (llama)",
     "TraitCriticalFusion": "Fusión crítica",
-    "TraitCriticalKnife": "Critical (Knife)",
-    "TraitCriticalMental": "Critical (Mental)",
-    "TraitCriticalPlasma": "Critical (Plasma)",
-    "TraitCriticalShock": "Critical (Shock)",
-    "TraitCriticalSonic": "Critical (Sonic)",
+    "TraitCriticalKnife": "Crítico (cuchillo)",
+    "TraitCriticalMental": "Crítico (mental)",
+    "TraitCriticalPlasma": "Crítico (plasma)",
+    "TraitCriticalShock": "Crítico (descarga)",
+    "TraitCriticalSonic": "Crítico (sónico)",
     "TraitCurse": "Maldición",
     "TraitCursebound": "Maldecido",
     "TraitCursed": "Maldito",
