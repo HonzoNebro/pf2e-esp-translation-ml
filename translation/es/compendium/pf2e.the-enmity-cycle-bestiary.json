@@ -8,7 +8,7 @@
           "name": "Conjuros ocultistas espontáneos"
         },
         "spell->False Life": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.8ViwItUgwT4lOvvb]\nVida falsa"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.conjuros-srd.Item.8ViwItUgwT4lOvvb]\nVida falsa"
         },
         "spell->Light": {
           "target": "1 objeto de 1 Volumen o menos, desatendido o poseído por ti o por un aliado voluntario"
@@ -28,7 +28,7 @@
     "Clockwork Dancers": {
       "name": "Bailarines de relojería",
       "description": "<p>Varias figuras humanoides de relojería armadas con cuchillas giratorias se mueven por toda el área.</p>",
-      "disable": "<p>@Check[thievery|dc:25|traits:action:disable-a-device] (experto) para desactivar los mecanismos desde el panel de control. Se necesitan dos éxitos para desactivar la trampa.</p>",
+      "disable": "<p>@Check[thievery|dc:25|rasgos:action:disable-a-device] (experto) para desactivar los mecanismos desde el panel de control. Se necesitan dos éxitos para desactivar la trampa.</p>",
       "reset": "<p>La trampa se desactiva después de 4 asaltos y se reinicia después de 1 minuto.</p>",
       "routine": "<p>(1 acción) Los bailarines de relojería designan como objetivo a cada criatura en el escenario a 10 pies o menos de un pilar con un Golpe de cuchilla giratoria.</p>",
       "stealth": "<p>(experto)</p>",
@@ -47,8 +47,8 @@
       "description": "<p>Música, danza y poesía discordantes se combinan para generar una profunda sospecha y desconfianza hacia los extraños.</p>",
       "disable": "<p>@Check[performance|dc:28] para contrarrestar la Interpretación, o @Check[religion|dc:28] o @Check[occult|dc:28] para interrumpir la energía espiritual. Se necesitan dos éxitos en total para desactivar la trampa. La cabeza mecánica puede desactivar automáticamente la trampa con dos usos de Recitación inspirada.</p>",
       "reset": "<p>El peligro se detiene cuando no hay criaturas conscientes en el área <strong>E3</strong> y se reinicia después de 1 minuto.</p>",
-      "routine": "<p>(1 acción; emoción, miedo, mental, ocultista) Los ecos siguen reverberando, desgarrando a quienes están en el área y llenándolos de desconfianza hacia los demás. Todas las criaturas en el área reciben @Damage[(2d10+11)[mental]] de daño y deben intentar una salvación @Check[will|dc:28|traits:emotion,fear,mental,occult,damaging-effect].</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo no queda afectado y es inmune a los efectos durante 1 minuto.</p>\n<p><strong>Éxito</strong> El objetivo recibe la mitad del daño.</p>\n<p><strong>Fallo</strong> El objetivo recibe todo el daño y queda @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} por sentimientos de desconfianza y ansiedad.</p>\n<p><strong>Fallo crítico</strong> El objetivo recibe daño doble y queda @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 2}.</p>",
-      "stealth": "<p>(experto) o @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detectar magia}</p>",
+      "routine": "<p>(1 acción; emoción, miedo, mental, ocultista) Los ecos siguen reverberando, desgarrando a quienes están en el área y llenándolos de desconfianza hacia los demás. Todas las criaturas en el área reciben @Damage[(2d10+11)[mental]] de daño y deben intentar una salvación @Check[will|dc:28|rasgos:emotion,fear,mental,occult,damaging-effect].</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo no queda afectado y es inmune a los efectos durante 1 minuto.</p>\n<p><strong>Éxito</strong> El objetivo recibe la mitad del daño.</p>\n<p><strong>Fallo</strong> El objetivo recibe todo el daño y queda @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} por sentimientos de desconfianza y ansiedad.</p>\n<p><strong>Fallo crítico</strong> El objetivo recibe daño doble y queda @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 2}.</p>",
+      "stealth": "<p>(experto) o @UUID[Compendium.pf2e.conjuros-srd.Item.gpzpAAAJ1Lza2JVl]{Detectar magia}</p>",
       "items": {
         "action->Sickening Performance": {
           "name": "Interpretación enfermiza",
@@ -59,7 +59,7 @@
     "Deadly Workshop": {
       "name": "Taller letal",
       "description": "<p>Cadenas oscilantes con cuchillas azotan todo el taller.</p>",
-      "disable": "<p>@Check[thievery|dc:20|traits:action:disable-a-device] (experto) en el panel de control de la plataforma elevada desactiva la trampa.</p>",
+      "disable": "<p>@Check[thievery|dc:20|rasgos:action:disable-a-device] (experto) en el panel de control de la plataforma elevada desactiva la trampa.</p>",
       "hpDetails": "para destruir las cadenas y desactivar la trampa",
       "reset": "<p>La trampa se desactiva y se reinicia después de 1 minuto.</p>",
       "routine": "<p>(1 acción) La trampa balancea una cuchilla cortante contra cada criatura del taller como 1 acción. Todo el taller se considera terreno difícil debido a la gran cantidad de cadenas cortantes. Esta trampa no sufre penalizador por ataque múltiple.</p>",
@@ -81,7 +81,7 @@
     "Entangling Shredder Trap": {
       "name": "Trampa trituradora enredadora",
       "description": "<p>Docenas de cuerdas con púas de acero incrustadas saltan de las paredes cuando al menos dos criaturas pisan las alfombras.</p>",
-      "disable": "<p>@Check[thievery|dc:24|traits:action:disable-a-device] (experto) en las placas de presión.</p>",
+      "disable": "<p>@Check[thievery|dc:24|rasgos:action:disable-a-device] (experto) en las placas de presión.</p>",
       "hpDetails": "para cortar las cuerdas con púas y desactivar la trampa",
       "reset": "<p>manual</p>",
       "stealth": "<p>(experto) para percibir las placas de presión bajo las alfombras</p>",
@@ -111,7 +111,7 @@
           "name": "Conjuros divinos preparados"
         },
         "spell->Chill Touch": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.mAMEt4FFbdqoRnkN]\nToque frío",
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.conjuros-srd.Item.mAMEt4FFbdqoRnkN]\nToque frío",
           "target": "1 criatura viva o muerta viviente"
         },
         "equipment->Religious Symbol (Wooden)": {
@@ -133,18 +133,18 @@
           "name": "Conjuros divinos preparados"
         },
         "spell->Vampiric Touch": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]\nToque vampírico"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.conjuros-srd.Item.N1Z1oLPdBxaSgrEE]\nToque vampírico"
         },
         "spell->Light": {
           "target": "1 objeto de 1 Volumen o menos, desatendido o poseído por ti o por un aliado voluntario"
         },
         "spell->Magic Weapon": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.TFitdEOpQC4SzKQQ]\nArma mágica",
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.conjuros-srd.Item.TFitdEOpQC4SzKQQ]\nArma mágica",
           "target": "1 arma desatendida o empuñada por ti o por un aliado voluntario"
         },
         "weapon->Staff of Conjuration": {
           "name": "Bastón de conjuración",
-          "description": "<p>Este bastón de fresno está decorado con animales; al empuñarlo, obtienes un bonificador por circunstancia +2 a las pruebas para identificar magia de conjuración.</p>\n<p><strong>Activar</strong> Lanzar un conjuro</p>\n<hr />\n<p><strong>Efecto</strong> Gastas un número de cargas del bastón para lanzar un conjuro de su lista.</p>\n<ul>\n<li><strong>Truco</strong> @UUID[Compendium.pf2e.spells-srd.Item.uZK2BYzPnxUBnDjr]{Enredadera enmarañadora}</li>\n<li><strong>1.º</strong> @UUID[Compendium.pf2e.spells-srd.Item.lKcsmeOrgHtK4xQa]{Convocar constructo}, @UUID[Compendium.pf2e.spells-srd.Item.xqmHD8JIjak15lRk]{Servidor fantasmal}</li>\n<li><strong>2.º</strong> @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{Niebla}, @UUID[Compendium.pf2e.spells-srd.Item.WPKJOhEihhcIm2uQ]{Montura maravillosa}, @UUID[Compendium.pf2e.spells-srd.Item.lKcsmeOrgHtK4xQa]{Convocar constructo}, @UUID[Compendium.pf2e.spells-srd.Item.lpT6LotUaQPfinjj]{Convocar elemental}</li>\n</ul>\n<p><strong>Requisitos de fabricación</strong> Proporcionar un lanzamiento de todos los rangos indicados de todos los conjuros indicados.</p>",
+          "description": "<p>Este bastón de fresno está decorado con animales; al empuñarlo, obtienes un bonificador por circunstancia +2 a las pruebas para identificar magia de conjuración.</p>\n<p><strong>Activar</strong> Lanzar un conjuro</p>\n<hr />\n<p><strong>Efecto</strong> Gastas un número de cargas del bastón para lanzar un conjuro de su lista.</p>\n<ul>\n<li><strong>Truco</strong> @UUID[Compendium.pf2e.conjuros-srd.Item.uZK2BYzPnxUBnDjr]{Enredadera enmarañadora}</li>\n<li><strong>1.º</strong> @UUID[Compendium.pf2e.conjuros-srd.Item.lKcsmeOrgHtK4xQa]{Convocar constructo}, @UUID[Compendium.pf2e.conjuros-srd.Item.xqmHD8JIjak15lRk]{Servidor fantasmal}</li>\n<li><strong>2.º</strong> @UUID[Compendium.pf2e.conjuros-srd.Item.9XHmC2JgTUIQ1CCm]{Niebla}, @UUID[Compendium.pf2e.conjuros-srd.Item.WPKJOhEihhcIm2uQ]{Montura maravillosa}, @UUID[Compendium.pf2e.conjuros-srd.Item.lKcsmeOrgHtK4xQa]{Convocar constructo}, @UUID[Compendium.pf2e.conjuros-srd.Item.lpT6LotUaQPfinjj]{Convocar elemental}</li>\n</ul>\n<p><strong>Requisitos de fabricación</strong> Proporcionar un lanzamiento de todos los rangos indicados de todos los conjuros indicados.</p>",
           "rules": {
             "0": {
               "label": "Bastón de conjuración (identificar magia de conjuración)"
@@ -215,7 +215,7 @@
         },
         "action->Trap Tinker": {
           "name": "Trastear con trampas",
-          "description": "<p>Noolik puede hacer que una trampa mecánica compleja continúe más allá de su duración normal. Se mueve hasta su Velocidad e Interactúa con una trampa. La trampa puede usar su reacción durante su siguiente asalto además de su rutina, aunque su iniciativa no cambia.</p>"
+          "description": "<p>Noolik puede hacer que una trampa mecánica compleja continúe más allá de su duración normal. Se mueve hasta su Velocidad e Interactuarúa con una trampa. La trampa puede usar su reacción durante su siguiente asalto además de su rutina, aunque su iniciativa no cambia.</p>"
         }
       }
     },
@@ -248,7 +248,7 @@
         },
         "action->Choking Sands": {
           "name": "Arenas asfixiantes",
-          "description": "<p>El lobo de arena se desintegra en una nube de arena arremolinada. Puede Caminar, moviéndose libremente a través de espacios ocupados. Cualquier criatura dentro de esos espacios recibe [[/r 2d10]] de daño y debe intentar una salvación @Check[reflex|dc:19|traits:damaging-effect].</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo no recibe daño.</p>\n<p><strong>Éxito</strong> El objetivo recibe la mitad del daño.</p>\n<p><strong>Fallo</strong> El objetivo recibe todo el daño y queda @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}.</p>\n<p><strong>Fallo crítico</strong> Como fallo, pero el efecto aumenta a @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 3}.</p>"
+          "description": "<p>El lobo de arena se desintegra en una nube de arena arremolinada. Puede Caminar, moviéndose libremente a través de espacios ocupados. Cualquier criatura dentro de esos espacios recibe [[/r 2d10]] de daño y debe intentar una salvación @Check[reflex|dc:19|rasgos:damaging-effect].</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo no recibe daño.</p>\n<p><strong>Éxito</strong> El objetivo recibe la mitad del daño.</p>\n<p><strong>Fallo</strong> El objetivo recibe todo el daño y queda @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}.</p>\n<p><strong>Fallo crítico</strong> Como fallo, pero el efecto aumenta a @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 3}.</p>"
         },
         "action->Susurrating Song": {
           "name": "Canción susurrante",
@@ -310,7 +310,7 @@
           "name": "Conjuros arcanos innatos"
         },
         "spell->Plane Shift (to Astral Plane, Elemental Planes, or Material Plane only)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ]\nCambio de plano (solo al Plano Astral, Planos Elementales o Plano Material)",
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.conjuros-srd.Item.5bTt2CvYHPvaR7QQ]\nCambio de plano (solo al Plano Astral, Planos Elementales o Plano Material)",
           "target": "1 criatura voluntaria, o hasta 8 criaturas voluntarias cogidas de la mano"
         },
         "consumable->Murderer's Knot": {
@@ -331,7 +331,7 @@
         },
         "action->Change Size": {
           "name": "Cambiar tamaño",
-          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> El janni cambia el tamaño de una criatura. Esto funciona como un conjuro de 4.º rango @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{Agrandar} o @UUID[Compendium.pf2e.spells-srd.Item.PjhUmyKnq6K5uDby]{Encoger}, pero puede tener como objetivo a una criatura no voluntaria (una salvación @Check[fortitude|dc:24] lo niega).</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> El janni cambia el tamaño de una criatura. Esto funciona como un conjuro de 4.º rango @UUID[Compendium.pf2e.conjuros-srd.Item.wzctak6BxOW8xvFV]{Agrandar} o @UUID[Compendium.pf2e.conjuros-srd.Item.PjhUmyKnq6K5uDby]{Encoger}, pero puede tener como objetivo a una criatura no voluntaria (una salvación @Check[fortitude|dc:24] lo niega).</p>"
         }
       }
     },
@@ -341,7 +341,7 @@
       "disable": "<p>@Check[performance|dc:26] para contrarrestar la Interpretación, o @Check[religion|dc:27] o @Check[occult|dc:27] para interrumpir la energía espiritual. Se necesitan tres éxitos en total para desactivar la trampa.</p>",
       "reset": "<p>Debe organizarse una nueva producción de <em>El ciclo de la enemistad</em>; este proceso suele llevar al menos 1 semana.</p>",
       "routine": "<p>(1 acción) La Interpretación continúa sembrando enemistad, discordia y desconfianza en quienes están en su área. Todas las criaturas presentes salvo Zridi deben intentar una salvación @Check[will|dc:25].</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo no queda afectado y es inmune a los efectos durante 1 día.</p>\n<p><strong>Éxito</strong> El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} durante 2 asaltos.</p>\n<p><strong>Fallo</strong> El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} durante 1 minuto y está convencido de que la fuente de este miedo son sus conciudadanos, especialmente quienes proceden de lugares distintos a su ciudad natal. Durante 1 semana, el objetivo sufre un penalizador &ndash;2 a todas las pruebas de Diplomacia contra personas de otras ciudades thuvianas y recupera la condición asustado 2 siempre que esté en una de esas ciudades.</p>\n<p><strong>Fallo crítico</strong> Como fallo, pero el objetivo se convierte en portador de <em>El ciclo de la enemistad</em> durante la siguiente semana. El objetivo se ve compelido a viajar a una ciudad distinta de aquella donde fue expuesto y recitar tantas líneas del anbarit como pueda recordar. Quienes oigan o presencien la Interpretación son tratados como si hubieran asistido a una Interpretación de <em>El ciclo de la enemistad</em>, pero con una salvación @Check[will|dc:23].</p>",
-      "stealth": "<p>(experto) o @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detectar magia}</p>",
+      "stealth": "<p>(experto) o @UUID[Compendium.pf2e.conjuros-srd.Item.gpzpAAAJ1Lza2JVl]{Detectar magia}</p>",
       "items": {
         "action->Discordant Performance": {
           "name": "Interpretación discordante",
@@ -380,25 +380,25 @@
           "name": "Conjuros de foco de campeón"
         },
         "spell->Tongues (Constant)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K]\nLenguas (constante)"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.conjuros-srd.Item.SwUiVavHKMWG7t5K]\nLenguas (constante)"
         },
         "spell->Dimension Door": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nPuerta dimensional"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.conjuros-srd.Item.VlNcjmYyu95vOUe8]\nPuerta dimensional"
         },
         "spell->Invisibility (At Will) (Self Only)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibilidad (a voluntad) (solo a sí mismo)"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.conjuros-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibilidad (a voluntad) (solo a sí mismo)"
         },
         "spell->Sound Burst": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.wzLkNU3AAqOSKFPR]\nEstallido sonoro"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.conjuros-srd.Item.wzLkNU3AAqOSKFPR]\nEstallido sonoro"
         },
         "spell->Speak with Animals (Constant)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]\nHablar con los animales (constante)"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.conjuros-srd.Item.BBvV7qoXGdw09q1C]\nHablar con los animales (constante)"
         },
         "spell->Detect Alignment (Good Only) (At Will)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]\nDetectar alineamiento (solo bien) (a voluntad)"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.conjuros-srd.Item.QnTtGCAvdWRU4spv]\nDetectar alineamiento (solo bien) (a voluntad)"
         },
         "spell->Touch of Corruption": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.jFmWSIpJGGebim6y]\nToque de corrupción"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.conjuros-srd.Item.jFmWSIpJGGebim6y]\nToque de corrupción"
         },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -425,13 +425,13 @@
           "name": "Conjuros divinos innatos"
         },
         "spell->Dimension Door (At Will)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nPuerta dimensional (a voluntad)"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.conjuros-srd.Item.VlNcjmYyu95vOUe8]\nPuerta dimensional (a voluntad)"
         },
         "spell->Outcast's Curse (At Will)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.KSAEhNfZyXMO7Z7V]\nMaldición del paria (a voluntad)"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.conjuros-srd.Item.KSAEhNfZyXMO7Z7V]\nMaldición del paria (a voluntad)"
         },
         "spell->Suggestion (At Will)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H]\nSugestión (a voluntad)"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.conjuros-srd.Item.qwlh6aDgi86U3Q7H]\nSugestión (a voluntad)"
         },
         "spell->Misdirection (At Will) (Self Only)": {
           "name": "Desvío (a voluntad) (solo a sí misma)",
@@ -439,11 +439,11 @@
           "target": "2 criaturas u objetos"
         },
         "spell->Charm (At Will)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6]\nEncantar (a voluntad)"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.conjuros-srd.Item.vLA0q0WOK2YPuJs6]\nEncantar (a voluntad)"
         },
         "equipment->Horn of Fog": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.hcGvN03ieNWlSQYa]\nCuerno de niebla",
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.hcGvN03ieNWlSQYa]\n<p>Este gran cuerno de carnero brilla perpetuamente con diminutas gotas de agua, como condensación.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> Interactuar</p>\n<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p><strong>Efecto</strong> Activas el cuerno soplando profundamente en él, haciendo que emita una nota grave y lance un conjuro @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{Niebla} de 2.º rango. Puedes Disipar la niebla en cualquier momento soplando una segunda nota en el cuerno mediante una acción de Interactuar.</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.hcGvN03ieNWlSQYa]\n<p>Este gran cuerno de carnero brilla perpetuamente con diminutas gotas de agua, como condensación.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> Interactuar</p>\n<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p><strong>Efecto</strong> Activas el cuerno soplando profundamente en él, haciendo que emita una nota grave y lance un conjuro @UUID[Compendium.pf2e.conjuros-srd.Item.9XHmC2JgTUIQ1CCm]{Niebla} de 2.º rango. Puedes Disipar la niebla en cualquier momento soplando una segunda nota en el cuerno mediante una acción de Interactuar.</p>"
         },
         "strike-melee->Claw": {
           "name": "Garra"
@@ -465,7 +465,7 @@
         },
         "action->Tormenting Dreams": {
           "name": "Sueños atormentadores",
-          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> Zridi atormenta a una criatura dormida a 100 pies o menos con visiones de traiciones de seres queridos y amistades. El objetivo debe intentar una salvación @Check[will|dc:26], con los efectos del conjuro @UUID[Compendium.pf2e.spells-srd.Item.Uqj344bezBq3ESdq]{Pesadilla}.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> Zridi atormenta a una criatura dormida a 100 pies o menos con visiones de traiciones de seres queridos y amistades. El objetivo debe intentar una salvación @Check[will|dc:26], con los efectos del conjuro @UUID[Compendium.pf2e.conjuros-srd.Item.Uqj344bezBq3ESdq]{Pesadilla}.</p>"
         }
       }
     }

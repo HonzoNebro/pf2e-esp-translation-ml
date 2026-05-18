@@ -217,10 +217,10 @@
     "Befuddling Gas Trap": {
       "name": "Trampa de gas aturdidor",
       "description": "<p>Siete boquillas ocultas dentro de agujeros en el techo de 15 pies (4,5 m) de altura liberan un gas venenoso.</p>",
-      "disable": "<p>@Check[type:thievery|dc:33|name:Desactivar el mecanismo oculto|traits:action:disable-a-device] (maestro) para inutilizar el mecanismo oculto en la pared norte, aspirando inmediatamente el gas de la habitación o @Check[type:thievery|dc:29|name:Tapar una boquilla|traits:action:disable-a-device] (experto) para tapar adecuadamente una de las siete boquillas. Cuando las siete boquillas están taponadas o destruidas, la trampa se desactiva.</p>",
+      "disable": "<p>@Check[type:thievery|dc:33|name:Desactivar el mecanismo oculto|rasgos:action:disable-a-device] (maestro) para inutilizar el mecanismo oculto en la pared norte, aspirando inmediatamente el gas de la habitación o @Check[type:thievery|dc:29|name:Tapar una boquilla|rasgos:action:disable-a-device] (experto) para tapar adecuadamente una de las siete boquillas. Cuando las siete boquillas están taponadas o destruidas, la trampa se desactiva.</p>",
       "reset": "<p>Tras una hora, la trampa se desactiva; el gas se dispersa lentamente y las puertas pueden volver a abrirse. Al cabo de 24 horas, el gas vuelve a acumularse y la trampa puede activarse de nuevo.</p>",
       "routine": "<p>(1 acción) El gas se intensifica. Cada criatura en la sala debe hacer una salvación de @Check[fortitude|dc:30].</p>\n<hr />\n<p><strong>Éxito crítico</strong> La criatura no se ve afectada y se vuelve temporalmente inmune al gas durante 1 hora, aunque si la criatura ya ha sido aturdida por la trampa, el estado negativo dura lo normal.</p>\n<p><strong>Éxito</strong> La criatura no se ve afectada. </p>\n<p><strong>Fallo</strong> La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadada 1} durante 24 horas. Si el objetivo ya está anonadado, el valor del estado negativo aumenta en 1 (hasta un máximo de anonadado 4) y el objetivo sufre @Damage[8d6[mental]]{8d6 de daño mental}.</p>\n<p><strong>Efecto crítico</strong> Como el fallo, excepto que el objetivo sufre el doble de daño mental.</p>",
-      "stealth": "<p>+21 (experto) o @Check[perception|dc:31|traits:action:seek] (experto) para dar con el mecanismo de anulación oculto en la pared norte</p>",
+      "stealth": "<p>+21 (experto) o @Check[perception|dc:31|rasgos:action:seek] (experto) para dar con el mecanismo de anulación oculto en la pared norte</p>",
       "items": {
         "action->Gas Release": {
           "name": "Liberación de gas",
@@ -232,7 +232,7 @@
       "name": "Belcorra Haruvex",
       "blurb": "Hechicera fantasma mujer",
       "hpDetails": "curación del vacío, rejuvenecimiento",
-      "privateNotes": "<p>Durante su travesía por los niveles más bajos de las Bóvedas de la Abominación, es probable que los héroes se enfrenten a Belcorra varias veces antes de conseguir finalmente las <em>lentes de fulcro</em> que necesitan para derrotarla definitivamente. Ella se entera de su existencia gracias a sus aliados espirituales y, a partir de ese momento, podrás utilizarla siempre que su aparición pueda causar mayor tensión. Debe atacar al menos una vez en cada nivel de la mazmorra, con una frecuencia de cada dos días. No deberías hacer que Belcorra luche junto a otras criaturas hasta el final de la aventura: ¡ya es lo suficientemente fuerte por sí sola!</p>\n<p>Cada vez que Belcorra ataca, aprende más sobre cómo luchan los héroes y adapta sus tácticas y preparativos. Puede lanzar @UUID[Compendium.pf2e.spells-srd.Item.tgIhRUFtgDSELpJE]{Inmunidad a los conjuros} para protegerse de los hechizos más efectivos de los héroes, @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]{Visión verdadera} o @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{Ver lo invisible} para mantenerlos a la vista, o @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Disipar magia} para contrarrestar sus defensas mágicas. Se burla de los héroes por sus fracasos y se enfurece por sus éxitos; recuerda que los conoce desde que probó el rayo de la <em>Luz Sombría</em> durante \"La mazmorra olvidada\".</p>\n<p><strong>Primer ataque:</strong> en cuanto Belcorra descubre la presencia de los héroes, los busca, viajando a través de la huella de la <em>Luz sombría</em> (áreas <strong>H37</strong> e <strong>I28</strong>). Lanza @UUID[Compendium.pf2e.spells-srd.Item.0XP2XOxT9VSiXFDr]{Calamidad fantasmal} a distancia y se retira, atravesando muros si es necesario para que los héroes no puedan seguirla.</p>\n<p><strong>Segundo ataque:</strong> Belcorra quiere que los héroes la teman, por lo que se acerca más a ellos la segunda vez y utiliza conjuros de un solo objetivo como @UUID[Compendium.pf2e.spells-srd.Item.tlcrVRqW1MSKJ5IC]{Asesino fantasmal} y @UUID[Compendium.pf2e.spells-srd.Item.5BbU1V6wGSGbrmRD]{Debilidad mental} mientras exige a los héroes que se marchen de sus bóvedas de la Abominación. Una vez entregado su mensaje, se retira tras unos pocos asaltos.</p>\n<p><strong>Ataques posteriores:</strong> una vez que los héroes han recuperado una <em>lente de fulcro</em> o el @UUID[Compendium.pf2e.equipment-srd.Item.JwHNSaiwwqF7VCC5]{Entramado de fulcro}, Belcorra considera a los héroes una amenaza real, pero su ira supera su cautela. Ataca con todas sus fuerzas, utilizando su mano fantasmal y su Mirada corruptora junto con sus conjuros. Si derrota a un héroe, se retira, confiando en que ahora la dejarán en paz.</p>\n<p><strong>Aprovechar a los agentes:</strong> Belcorra tiene varios aliados vivos dentro de las bóvedas de la Abominación, incluyendo la secta urdefhan y los Hijos de Belcorra. Podría enviar a estos grupos tras los héroes, insistiendo en que les hagan saber que están actuando bajo las órdenes de Belcorra. Afortunadamente, ninguno de los dos grupos puede reunir un gran número de efectivos a la vez, por lo que los héroes deberían ser capaces de lidiar con sus ataques.</p>\n<p><strong>Matar a los aliados:</strong> Belcorra se entera si los héroes establecen alianzas, como con los calignis o los drow. Sabe que no debe enfrentarse a líderes poderosos y atrincherados como Galudu o Quara, pero puede asesinar a algunos guardias o dirigir a los monstruos allá donde puedan hacer más daño a los aliados de los héroes. Es importante para Belcorra que dejen alguna prueba (normalmente un único superviviente herido) para que los héroes sepan que fue ella quien orquestó el ataque.</p>\n<p><strong>En la huella:</strong> Belcorra es más efectiva luchando contra los héroes que entran en la huella de la <em>Luz sombría</em> (áreas <strong>H37</strong> e <strong>I28</strong>) debido a su aptitud Faro embrujado.</p>\n<p><strong>El ataque final:</strong> si los héroes derrotan a Belcorra poco antes de llegar a la Bóveda Vacía, ella utiliza el poder de la @UUID[Compendium.pf2e.equipment-srd.Item.CTiLugp5ptSItEqN]{Lente de fulcro ébano} para acelerar su recuperación y poder enfrentarse a ellos en su santuario. Belcorra nunca se rinde ni huye en la Bóveda Vacía. Los héroes podrían enfrentarse a ella allí sin tener todavía la capacidad de derrotarla de forma permanente. En este caso, tendrán que retirarse para recoger las <em>lentes de fulcro</em> y volver a enfrentarse a ella. Una vez que los héroes puedan centrar la mirada de Nhimbaloth en Belcorra, podrán derrotar a la hechicera definitivamente.</p>",
+      "privateNotes": "<p>Durante su travesía por los niveles más bajos de las Bóvedas de la Abominación, es probable que los héroes se enfrenten a Belcorra varias veces antes de conseguir finalmente las <em>lentes de fulcro</em> que necesitan para derrotarla definitivamente. Ella se entera de su existencia gracias a sus aliados espirituales y, a partir de ese momento, podrás utilizarla siempre que su aparición pueda causar mayor tensión. Debe atacar al menos una vez en cada nivel de la mazmorra, con una frecuencia de cada dos días. No deberías hacer que Belcorra luche junto a otras criaturas hasta el final de la aventura: ¡ya es lo suficientemente fuerte por sí sola!</p>\n<p>Cada vez que Belcorra ataca, aprende más sobre cómo luchan los héroes y adapta sus tácticas y preparativos. Puede lanzar @UUID[Compendium.pf2e.conjuros-srd.Item.tgIhRUFtgDSELpJE]{Inmunidad a los conjuros} para protegerse de los hechizos más efectivos de los héroes, @UUID[Compendium.pf2e.conjuros-srd.Item.uqlxMQQeSGWEVjki]{Visión verdadera} o @UUID[Compendium.pf2e.conjuros-srd.Item.jwK43yKsHTkJQvQ9]{Ver lo invisible} para mantenerlos a la vista, o @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Disipar magia} para contrarrestar sus defensas mágicas. Se burla de los héroes por sus fracasos y se enfurece por sus éxitos; recuerda que los conoce desde que probó el rayo de la <em>Luz Sombría</em> durante \"La mazmorra olvidada\".</p>\n<p><strong>Primer ataque:</strong> en cuanto Belcorra descubre la presencia de los héroes, los busca, viajando a través de la huella de la <em>Luz sombría</em> (áreas <strong>H37</strong> e <strong>I28</strong>). Lanza @UUID[Compendium.pf2e.conjuros-srd.Item.0XP2XOxT9VSiXFDr]{Calamidad fantasmal} a distancia y se retira, atravesando muros si es necesario para que los héroes no puedan seguirla.</p>\n<p><strong>Segundo ataque:</strong> Belcorra quiere que los héroes la teman, por lo que se acerca más a ellos la segunda vez y utiliza conjuros de un solo objetivo como @UUID[Compendium.pf2e.conjuros-srd.Item.tlcrVRqW1MSKJ5IC]{Asesino fantasmal} y @UUID[Compendium.pf2e.conjuros-srd.Item.5BbU1V6wGSGbrmRD]{Debilidad mental} mientras exige a los héroes que se marchen de sus bóvedas de la Abominación. Una vez entregado su mensaje, se retira tras unos pocos asaltos.</p>\n<p><strong>Ataques posteriores:</strong> una vez que los héroes han recuperado una <em>lente de fulcro</em> o el @UUID[Compendium.pf2e.equipment-srd.Item.JwHNSaiwwqF7VCC5]{Entramado de fulcro}, Belcorra considera a los héroes una amenaza real, pero su ira supera su cautela. Ataca con todas sus fuerzas, utilizando su mano fantasmal y su Mirada corruptora junto con sus conjuros. Si derrota a un héroe, se retira, confiando en que ahora la dejarán en paz.</p>\n<p><strong>Aprovechar a los agentes:</strong> Belcorra tiene varios aliados vivos dentro de las bóvedas de la Abominación, incluyendo la secta urdefhan y los Hijos de Belcorra. Podría enviar a estos grupos tras los héroes, insistiendo en que les hagan saber que están actuando bajo las órdenes de Belcorra. Afortunadamente, ninguno de los dos grupos puede reunir un gran número de efectivos a la vez, por lo que los héroes deberían ser capaces de lidiar con sus ataques.</p>\n<p><strong>Matar a los aliados:</strong> Belcorra se entera si los héroes establecen alianzas, como con los calignis o los drow. Sabe que no debe enfrentarse a líderes poderosos y atrincherados como Galudu o Quara, pero puede asesinar a algunos guardias o dirigir a los monstruos allá donde puedan hacer más daño a los aliados de los héroes. Es importante para Belcorra que dejen alguna prueba (normalmente un único superviviente herido) para que los héroes sepan que fue ella quien orquestó el ataque.</p>\n<p><strong>En la huella:</strong> Belcorra es más efectiva luchando contra los héroes que entran en la huella de la <em>Luz sombría</em> (áreas <strong>H37</strong> e <strong>I28</strong>) debido a su aptitud Faro embrujado.</p>\n<p><strong>El ataque final:</strong> si los héroes derrotan a Belcorra poco antes de llegar a la Bóveda Vacía, ella utiliza el poder de la @UUID[Compendium.pf2e.equipment-srd.Item.CTiLugp5ptSItEqN]{Lente de fulcro ébano} para acelerar su recuperación y poder enfrentarse a ellos en su santuario. Belcorra nunca se rinde ni huye en la Bóveda Vacía. Los héroes podrían enfrentarse a ella allí sin tener todavía la capacidad de derrotarla de forma permanente. En este caso, tendrán que retirarse para recoger las <em>lentes de fulcro</em> y volver a enfrentarse a ella. Una vez que los héroes puedan centrar la mirada de Nhimbaloth en Belcorra, podrán derrotar a la hechicera definitivamente.</p>",
       "saveDetails": "+1 por estatus a todas las salvaciones contra magia",
       "senses": "sentido mágico",
       "items": {
@@ -292,7 +292,7 @@
         },
         "action->Magic Sense": {
           "name": "Sentido mágico",
-          "description": "<p>Belcorra puede sentir la presencia de auras mágicas como si lanzara constantemente un conjuro @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detectar magia} de 1.º rango. Cuando @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Busca}, obtiene los beneficios de un conjuro <em>detectar magia</em> de 3.º rango sobre las cosas que ve.</p>"
+          "description": "<p>Belcorra puede sentir la presencia de auras mágicas como si lanzara constantemente un conjuro @UUID[Compendium.pf2e.conjuros-srd.Item.gpzpAAAJ1Lza2JVl]{Detectar magia} de 1.º rango. Cuando @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Busca}, obtiene los beneficios de un conjuro <em>detectar magia</em> de 3.º rango sobre las cosas que ve.</p>"
         },
         "action->Site Bound": {
           "name": "Ligado a una ubicación",
@@ -344,11 +344,11 @@
         },
         "action->Spell Deflection": {
           "name": "Desvío de conjuro",
-          "description": "<p>Un lanzador de conjuros que tenga como objetivo a un devorador con un conjuro mental, @UUID[Compendium.pf2e.spells-srd.Item.Ht35SDf9PDStJfoC]{Canción espiritual}, @UUID[Compendium.pf2e.spells-srd.Item.sX2o0HH4RjJDAZ8C]{Decreto divino}, @UUID[Compendium.pf2e.spells-srd.Item.bay4AfSu2iIozNNW]{Destierro}, @UUID[Compendium.pf2e.spells-srd.Item.PHVHBbdHeQRfjLmE]{Explosión espiritual}, @UUID[Compendium.pf2e.spells-srd.Item.hVU9msO9yGkxKZ3J]{Ira divina}, @UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg]{Apoderarse del alma} o @UUID[Compendium.pf2e.spells-srd.Item.wU6hNzK8Yfqdmc8m]{Posesión} puede hacer una prueba de contrarrestar para liberar un alma que el devorador haya atrapado mediante Devorar alma. Si este intento de contrarrestar tiene éxito, el alma atrapada se libera (aunque la criatura permanece muerta) y el devorador no puede utilizar ninguna carga de alma de esa criatura.</p>\n<p>Por lo demás, los devoradores son inmunes a estos conjuros.</p>"
+          "description": "<p>Un lanzador de conjuros que tenga como objetivo a un devorador con un conjuro mental, @UUID[Compendium.pf2e.conjuros-srd.Item.Ht35SDf9PDStJfoC]{Canción espiritual}, @UUID[Compendium.pf2e.conjuros-srd.Item.sX2o0HH4RjJDAZ8C]{Decreto divino}, @UUID[Compendium.pf2e.conjuros-srd.Item.bay4AfSu2iIozNNW]{Destierro}, @UUID[Compendium.pf2e.conjuros-srd.Item.PHVHBbdHeQRfjLmE]{Explosión espiritual}, @UUID[Compendium.pf2e.conjuros-srd.Item.hVU9msO9yGkxKZ3J]{Ira divina}, @UUID[Compendium.pf2e.conjuros-srd.Item.GYmXvS9NJ7QwfWGg]{Apoderarse del alma} o @UUID[Compendium.pf2e.conjuros-srd.Item.wU6hNzK8Yfqdmc8m]{Posesión} puede hacer una prueba de contrarrestar para liberar un alma que el devorador haya atrapado mediante Devorar alma. Si este intento de contrarrestar tiene éxito, el alma atrapada se libera (aunque la criatura permanece muerta) y el devorador no puede utilizar ninguna carga de alma de esa criatura.</p>\n<p>Por lo demás, los devoradores son inmunes a estos conjuros.</p>"
         },
         "action->Devour Soul": {
           "name": "Devorar alma",
-          "description": "<p>El devorador toca a una criatura a su alcance y le inflige @Damage[8d6[void]]{8d6 de daño de vacío} (salvación @Check[fortitude|dc:31|basic]). Si una criatura muere por este ataque, su alma queda atrapada en el interior del devorador. Mientras su alma esté atrapada, la criatura no puede ser resucitada, excepto mediante magia poderosa, como un conjuro @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Deseo}. Destruir al devorador o contrarrestar con éxito la acción de Devorar alma (consulta Desvío de conjuro) libera el alma. El devorador sólo puede contener un alma a la vez.</p>\n<p>Un alma tiene 5 cargas de alma por nivel de la criatura que la produce (consulta Conjuros anímicos más abajo). El devorador puede gastar estas cargas para lanzar conjuros. Si el alma se libera y la criatura vuelve a la vida, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenada 1} por cada 5 cargas de alma gastadas. Si queda reducida a 0 cargas de alma, el alma se consume y sólo se puede devolver a la vida mediante magia poderosa, como <em>deseo</em>.</p>"
+          "description": "<p>El devorador toca a una criatura a su alcance y le inflige @Damage[8d6[void]]{8d6 de daño de vacío} (salvación @Check[fortitude|dc:31|basic]). Si una criatura muere por este ataque, su alma queda atrapada en el interior del devorador. Mientras su alma esté atrapada, la criatura no puede ser resucitada, excepto mediante magia poderosa, como un conjuro @UUID[Compendium.pf2e.conjuros-srd.Item.6dDtGIUerazSHIOu]{Deseo}. Destruir al devorador o contrarrestar con éxito la acción de Devorar alma (consulta Desvío de conjuro) libera el alma. El devorador sólo puede contener un alma a la vez.</p>\n<p>Un alma tiene 5 cargas de alma por nivel de la criatura que la produce (consulta Conjuros anímicos más abajo). El devorador puede gastar estas cargas para lanzar conjuros. Si el alma se libera y la criatura vuelve a la vida, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenada 1} por cada 5 cargas de alma gastadas. Si queda reducida a 0 cargas de alma, el alma se consume y sólo se puede devolver a la vida mediante magia poderosa, como <em>deseo</em>.</p>"
         },
         "action->Drain Life": {
           "name": "Drenar la vida",
@@ -363,9 +363,9 @@
     "Blast Tumbler": {
       "name": "Bombín explosivo",
       "description": "<p>Hay una runa difícil de alcanzar en el bombín de la cerradura. Emite una explosión de fuerza cuando se empuja la puerta.</p>",
-      "disable": "<p>@Check[type:thievery|dc:32|name:Desarmar la runa|traits:action:disable-a-device] (maestro) para desarmar la runa, o @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Disipar magia} (5.º rango; contrarrestar CD 28) para contrarrestar la magia de la runa.</p>",
+      "disable": "<p>@Check[type:thievery|dc:32|name:Desarmar la runa|rasgos:action:disable-a-device] (maestro) para desarmar la runa, o @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Disipar magia} (5.º rango; contrarrestar CD 28) para contrarrestar la magia de la runa.</p>",
       "reset": "<p>La runa se rearma 1 minuto después de activarse</p>",
-      "stealth": "<p>@Check[type:perception|dc:32|traits:action:seek] (maestro)</p>",
+      "stealth": "<p>@Check[type:perception|dc:32|rasgos:action:seek] (maestro)</p>",
       "items": {
         "action->Force Blast": {
           "name": "Estallido de fuerza",
@@ -377,13 +377,13 @@
       "name": "Sangre de Belcorra",
       "description": "<p>Una copia sangrienta de Belcorra surge del charco, emite una luz que drena el alma y luego inhala sangre de las criaturas vivas de la sala.</p>",
       "disable": "<p>@Check[type:thievery|dc:22|name:Limpiar la mancha de sangre] (entrenado) para limpiar parte suficiente de la mancha de sangre para interrumpir las energías nigrománticas de la aparición, o @Check[type:religion|dc:20|name:Exorcizar la aparición] (entrenado) para exorcizar la aparición.</p>",
-      "reset": "<p>Si la aparición queda inutilizada o destruida por el daño, el fantasma sangriento de Belcorra sale pulverizado en espiral hacia arriba, empapando la trampilla que lleva al área <strong>A25</strong> antes de escurrirse por el ojo de la cerradura, lo que reduce la CD de Latrocinio para @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{Forzar la cerradura} a @Check[thievery|dc:20|name:Forzar la trampilla|traits:action:pick-a-lock,skill,manipulate].</p>\n<p>Al siguiente amanecer, la sangre vuelve a derramarse en esta sala y la aparición se rearma. La aparición se destruye permanentemente una vez que Lasda Venkervale es rescatado del área <strong>D9</strong>.</p>",
-      "routine": "<p>(1 acción) La copia sangrienta abre su boca y parece inhalar, extrayendo sangre del cuerpo de una criatura que se encuentre en su línea de visión y a menos de 90 pies (27 m) del centro del área <strong>A11</strong>. La criatura a la que se dirige debe hacer una salvación de @Check[fortitude|dc:20|traits:damaging-effect].</p>\n<hr />\n<p><strong>Éxito crítico</strong> La criatura no se ve afectada.</p>\n<p><strong>Éxito</strong> La criatura sufre @Damage[1d10[bleed]]{1d10 de daño persistente por sangrado}.</p>\n<p><strong>Fallo</strong> La criatura sufre @Damage[(1d10+6)[bleed]]{1d6+6 de daño persistente por sangrado}.</p>\n<p><strong>Fallo crítico</strong> La criatura sufre @Damage[(2d10+6)[bleed]]{2d10+6 de daño persistente por sangrado} y queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitada 2} mientras dure el sangrando.</p>",
+      "reset": "<p>Si la aparición queda inutilizada o destruida por el daño, el fantasma sangriento de Belcorra sale pulverizado en espiral hacia arriba, empapando la trampilla que lleva al área <strong>A25</strong> antes de escurrirse por el ojo de la cerradura, lo que reduce la CD de Latrocinio para @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{Forzar la cerradura} a @Check[thievery|dc:20|name:Forzar la trampilla|rasgos:action:pick-a-lock,skill,manipulate].</p>\n<p>Al siguiente amanecer, la sangre vuelve a derramarse en esta sala y la aparición se rearma. La aparición se destruye permanentemente una vez que Lasda Venkervale es rescatado del área <strong>D9</strong>.</p>",
+      "routine": "<p>(1 acción) La copia sangrienta abre su boca y parece inhalar, extrayendo sangre del cuerpo de una criatura que se encuentre en su línea de visión y a menos de 90 pies (27 m) del centro del área <strong>A11</strong>. La criatura a la que se dirige debe hacer una salvación de @Check[fortitude|dc:20|rasgos:damaging-effect].</p>\n<hr />\n<p><strong>Éxito crítico</strong> La criatura no se ve afectada.</p>\n<p><strong>Éxito</strong> La criatura sufre @Damage[1d10[bleed]]{1d10 de daño persistente por sangrado}.</p>\n<p><strong>Fallo</strong> La criatura sufre @Damage[(1d10+6)[bleed]]{1d6+6 de daño persistente por sangrado}.</p>\n<p><strong>Fallo crítico</strong> La criatura sufre @Damage[(2d10+6)[bleed]]{2d10+6 de daño persistente por sangrado} y queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitada 2} mientras dure el sangrando.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Gauntlight Beam": {
           "name": "Rayo de Luz sombría",
-          "description": "<p><strong>Desencadenante</strong> Una criatura viviente termina su turno en el área <strong>A11</strong> de noche</p>\n<hr />\n<p><strong>Efecto</strong> Una versión espantosa de Belcorra, aparentemente compuesta de sangre fresca, surge de la mancha de sangre en el suelo y gira sobre sí misma como un faro. De los ojos y la boca abierta de Belcorra salen rayos de una fría luz azul que provocan ampollas y putrefacción en la carne. Las criaturas vivas en un @Template[burst|distance:30]{radio de 30 pies (9 m)} desde el centro del área <strong>A11</strong> deben hacer una salvación de @Check[fortitude|dc:20|traits:damaging-effect].</p>\n<p>Entonces, la aparición tira iniciativa</p>\n<hr />\n<p><strong>Éxito crítico </strong> La criatura no se ve afectada. </p>\n<p><strong>Éxito </strong> La criatura sufre @Damage[1d8[void]]{1d8 de daño negativo}.</p>\n<p><strong>Fallo </strong> La criatura sufre @Damage[(1d8+6)[void]]{1d8+6 de daño negativo} y queda @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrada} durante 1 asalto.</p>\n<p><strong>Fallo crítico</strong> La criatura sufre @Damage[(2d8+6)[void]]{2d8+6 de daño negativo} y queda @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegada} durante 1 asalto y deslumbrada durante 1 asalto.</p>"
+          "description": "<p><strong>Desencadenante</strong> Una criatura viviente termina su turno en el área <strong>A11</strong> de noche</p>\n<hr />\n<p><strong>Efecto</strong> Una versión espantosa de Belcorra, aparentemente compuesta de sangre fresca, surge de la mancha de sangre en el suelo y gira sobre sí misma como un faro. De los ojos y la boca abierta de Belcorra salen rayos de una fría luz azul que provocan ampollas y putrefacción en la carne. Las criaturas vivas en un @Template[burst|distance:30]{radio de 30 pies (9 m)} desde el centro del área <strong>A11</strong> deben hacer una salvación de @Check[fortitude|dc:20|rasgos:damaging-effect].</p>\n<p>Entonces, la aparición tira iniciativa</p>\n<hr />\n<p><strong>Éxito crítico </strong> La criatura no se ve afectada. </p>\n<p><strong>Éxito </strong> La criatura sufre @Damage[1d8[void]]{1d8 de daño negativo}.</p>\n<p><strong>Fallo </strong> La criatura sufre @Damage[(1d8+6)[void]]{1d8+6 de daño negativo} y queda @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrada} durante 1 asalto.</p>\n<p><strong>Fallo crítico</strong> La criatura sufre @Damage[(2d8+6)[void]]{2d8+6 de daño negativo} y queda @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegada} durante 1 asalto y deslumbrada durante 1 asalto.</p>"
         }
       }
     },
@@ -541,7 +541,7 @@
         },
         "action->Rejuvenation": {
           "name": "Rejuvenecimiento",
-          "description": "<p>Cuando un caballero sepulcral es destruido, su armadura reconstruye su cuerpo a lo largo de [[/gmr 1d10 #días]]{1d10 días}, o más rápidamente si la armadura la lleva un anfitrión vivo. Si el cuerpo es destruido antes, el proceso vuelve a empezar.</p>\n<p>Un caballero sepulcral solo puede ser destruido permanentemente eliminando su armadura (por ejemplo, con @UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]{Desintegrar}), transportándola a la Forja de la Creación o arrojándola al corazón de un volcán.</p>"
+          "description": "<p>Cuando un caballero sepulcral es destruido, su armadura reconstruye su cuerpo a lo largo de [[/gmr 1d10 #días]]{1d10 días}, o más rápidamente si la armadura la lleva un anfitrión vivo. Si el cuerpo es destruido antes, el proceso vuelve a empezar.</p>\n<p>Un caballero sepulcral solo puede ser destruido permanentemente eliminando su armadura (por ejemplo, con @UUID[Compendium.pf2e.conjuros-srd.Item.r7ihOgKv19eJQnik]{Desintegrar}), transportándola a la Forja de la Creación o arrojándola al corazón de un volcán.</p>"
         },
         "action->Sacrilegious Aura": {
           "name": "Aura sacrílega",
@@ -557,7 +557,7 @@
         },
         "action->Phantom Mount": {
           "name": "Montura fantasmal",
-          "description": "<p>PG 58; CA 27, Fort +17, Ref +15, Vol +14</p>\n<hr>\n<p>El caballero sepulcral convoca a una montura sobrenatural, como @UUID[Compendium.pf2e.spells-srd.Item.WPKJOhEihhcIm2uQ]{Montura maravillosa}, potenciado a un rango igual a la mitad del nivel del caballero sepulcral. A diferencia de <em>montura maravillosa</em>, la CA y los bonificadores a las tiradas de salvación del corcel son todos ellos inferiores en 4 a los del caballero sepulcral, y el corcel tiene una tercera parte de los Puntos de Golpe del caballero sepulcral (redondeados hacia abajo).</p>\n<p>Si el corcel queda destruido, el caballero sepulcral debe esperar 1 hora antes de utilizar esta aptitud de nuevo.</p>"
+          "description": "<p>PG 58; CA 27, Fort +17, Ref +15, Vol +14</p>\n<hr>\n<p>El caballero sepulcral convoca a una montura sobrenatural, como @UUID[Compendium.pf2e.conjuros-srd.Item.WPKJOhEihhcIm2uQ]{Montura maravillosa}, potenciado a un rango igual a la mitad del nivel del caballero sepulcral. A diferencia de <em>montura maravillosa</em>, la CA y los bonificadores a las tiradas de salvación del corcel son todos ellos inferiores en 4 a los del caballero sepulcral, y el corcel tiene una tercera parte de los Puntos de Golpe del caballero sepulcral (redondeados hacia abajo).</p>\n<p>Si el corcel queda destruido, el caballero sepulcral debe esperar 1 hora antes de utilizar esta aptitud de nuevo.</p>"
         },
         "action->Weapon Master": {
           "name": "Maestro de armas"
@@ -734,7 +734,7 @@
         },
         "weapon->Staff of Abjuration": {
           "name": "Bastón de abjuración",
-          "description": "<p>Este bastón de madera intrincadamente tallado es cálido al tacto y vibra con energía interna. Mientras empuñas el bastón, obtienes un bonificador +2 por circunstancia a las pruebas para identificar magia de abjuración.</p>\n<p> <strong> Activar </strong> Lanzar un conjuro </p>\n<hr />\n<p> <strong> Efecto </strong> Gastas cierto número de cargas del bastón para lanzar un conjuro de su lista. </p>\n<ul>\n<li><strong>Truco</strong> @UUID[Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR]{Escudo}</li>\n<li><strong>1.º</strong> @UUID[Compendium.pf2e.spells-srd.Item.4WAib3GichxLjp5p]{Alarma}, @UUID[Compendium.pf2e.spells-srd.Item.aAbfKn8maGjJjk2W]{Armadura mística} </li>\n<li><strong>2.º</strong> @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Disipar magia}, @UUID[Compendium.pf2e.spells-srd.Item.5esP2GVzvxWsMgaX]{Aguante ambiental}, @UUID[Compendium.pf2e.spells-srd.Item.Fr58LDSrbndgld9n]{Resistir energía} </li>\n</ul>\n<p> <strong> Requisitos de creación </strong> Suministrar un lanzamiento de todos los conjuros de todos los rangos enumerados. </p>",
+          "description": "<p>Este bastón de madera intrincadamente tallado es cálido al tacto y vibra con energía interna. Mientras empuñas el bastón, obtienes un bonificador +2 por circunstancia a las pruebas para identificar magia de abjuración.</p>\n<p> <strong> Activar </strong> Lanzar un conjuro </p>\n<hr />\n<p> <strong> Efecto </strong> Gastas cierto número de cargas del bastón para lanzar un conjuro de su lista. </p>\n<ul>\n<li><strong>Truco</strong> @UUID[Compendium.pf2e.conjuros-srd.Item.TVKNbcgTee19PXZR]{Escudo}</li>\n<li><strong>1.º</strong> @UUID[Compendium.pf2e.conjuros-srd.Item.4WAib3GichxLjp5p]{Alarma}, @UUID[Compendium.pf2e.conjuros-srd.Item.aAbfKn8maGjJjk2W]{Armadura mística} </li>\n<li><strong>2.º</strong> @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Disipar magia}, @UUID[Compendium.pf2e.conjuros-srd.Item.5esP2GVzvxWsMgaX]{Aguante ambiental}, @UUID[Compendium.pf2e.conjuros-srd.Item.Fr58LDSrbndgld9n]{Resistir energía} </li>\n</ul>\n<p> <strong> Requisitos de creación </strong> Suministrar un lanzamiento de todos los conjuros de todos los rangos enumerados. </p>",
           "rules": {
             "0": {
               "label": "Bastón de abjuración (identificar magia de abjuración)"
@@ -756,7 +756,7 @@
         },
         "action->Rejuvenation": {
           "name": "Rejuvenecimiento",
-          "description": "<p>Cuando Chafkhem es destruido, las energías nigrománticas reconstruyen su cuerpo en el círculo mágico de su habitación al cabo de [[/gmr 1d10 #Rejuvenecimiento]]{1d10 días}. Si el cuerpo que se está reconstruyendo es destruido durante ese tiempo, el proceso comienza de nuevo. Chafkhem puede ser destruido para siempre con un ritual @UUID[Compendium.pf2e.spells-srd.Item.Dbd5W6G8U2vzWolN]{Consagrar} o si se destruye el círculo mágico.</p>"
+          "description": "<p>Cuando Chafkhem es destruido, las energías nigrománticas reconstruyen su cuerpo en el círculo mágico de su habitación al cabo de [[/gmr 1d10 #Rejuvenecimiento]]{1d10 días}. Si el cuerpo que se está reconstruyendo es destruido durante ese tiempo, el proceso comienza de nuevo. Chafkhem puede ser destruido para siempre con un ritual @UUID[Compendium.pf2e.conjuros-srd.Item.Dbd5W6G8U2vzWolN]{Consagrar} o si se destruye el círculo mágico.</p>"
         },
         "action->Warding Script": {
           "name": "Escritura de custodia",
@@ -764,7 +764,7 @@
         },
         "action->Mummy Rot": {
           "name": "Putridez de momia",
-          "description": "<p>Esta enfermedad y cualquier daño causado por ella no pueden curarse hasta que se elimine esta maldición. Una criatura muerta por la putridez de momia se convierte en polvo y no puede ser resucitada excepto por un ritual @UUID[Compendium.pf2e.spells-srd.Item.kqhPt9344UkcGVYO]{Resucitar} de 7.º rango o una magia similar.</p>\n<p><strong>Tirada de salvación</strong> @Check[type:fortitude|dc:24]</p>\n<hr />\n<p><strong>Etapa 1</strong> el portador no muestra efectos nocivos (1 minuto)</p>\n<p><strong>Etapa 2</strong> @Damage[6d6[void]]{6d6 de daño del vacío daño y @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 1} (1 día)</p>"
+          "description": "<p>Esta enfermedad y cualquier daño causado por ella no pueden curarse hasta que se elimine esta maldición. Una criatura muerta por la putridez de momia se convierte en polvo y no puede ser resucitada excepto por un ritual @UUID[Compendium.pf2e.conjuros-srd.Item.kqhPt9344UkcGVYO]{Resucitar} de 7.º rango o una magia similar.</p>\n<p><strong>Tirada de salvación</strong> @Check[type:fortitude|dc:24]</p>\n<hr />\n<p><strong>Etapa 1</strong> el portador no muestra efectos nocivos (1 minuto)</p>\n<p><strong>Etapa 2</strong> @Damage[6d6[void]]{6d6 de daño del vacío daño y @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 1} (1 día)</p>"
         }
       }
     },
@@ -820,7 +820,7 @@
         },
         "action->Bog Rot": {
           "name": "Podredumbre del pantano",
-          "description": "<p>Esta aflicción no puede reducirse por debajo de la fase 1, ni se puede curar el daño que produce hasta que se trate con éxito con @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Quitar maldición} o un efecto similar; entonces, la aflicción puede eliminarse como cualquier enfermedad. Una criatura que muera a causa de la podredumbre del pantano se funde en un lodo nocivo y no se puede resucitar excepto mediante un ritual @UUID[Compendium.pf2e.spells-srd.Item.kqhPt9344UkcGVYO]{Resucitar} de 7.º nivel o una magia similar</p>\n<hr>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:21]</p>\n<hr>\n<p><strong>Fase 1</strong> el portador no presenta efectos negativos (1 minuto)</p>\n<p><strong>Fase 2</strong> @Damage[3d6[void]]{3d6 de daño del vacío} y @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} (1 día)</p>"
+          "description": "<p>Esta aflicción no puede reducirse por debajo de la fase 1, ni se puede curar el daño que produce hasta que se trate con éxito con @UUID[Compendium.pf2e.conjuros-srd.Item.SUKaxVZW2TlM8lu0]{Quitar maldición} o un efecto similar; entonces, la aflicción puede eliminarse como cualquier enfermedad. Una criatura que muera a causa de la podredumbre del pantano se funde en un lodo nocivo y no se puede resucitar excepto mediante un ritual @UUID[Compendium.pf2e.conjuros-srd.Item.kqhPt9344UkcGVYO]{Resucitar} de 7.º nivel o una magia similar</p>\n<hr>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:21]</p>\n<hr>\n<p><strong>Fase 1</strong> el portador no presenta efectos negativos (1 minuto)</p>\n<p><strong>Fase 2</strong> @Damage[3d6[void]]{3d6 de daño del vacío} y @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} (1 día)</p>"
         }
       }
     },
@@ -854,7 +854,7 @@
         },
         "action->Death Light": {
           "name": "Luz fúnebre",
-          "description": "<p><strong>Prerrequisitos</strong> La luz cadavérica está fusionada con un cadáver</p>\n<hr />\n<p><strong>Efecto</strong> La luz cadavérica emite un pálido haz de luz azul desde la boca y los ojos en un @Template[cone|distance:20]{cono de 20 pies (6 m)}. Todas las criaturas vivas en esta área deben hacer una tirada de salvación de @Check[fortitude|dc:18|traits:damaging-effect]. Si al menos una criatura falla la tirada de salvación, la luz cadavérica recupera @Damage[2d6[healing]]{2d6 Puntos de Golpe} y gana los que excedan su máximo como Puntos de Golpe temporales que duran 1 minuto.</p>\n<p>La luz cadavérica no puede volver a usar Luz fúnebre hasta pasados [[/br 1d4 #Recarga Luz fúnebre]]{1d4 asaltos}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> La criatura no se ve afectada. </p>\n<p><strong>Éxito </strong> La criatura sufre @Damage[1d6[void]]{1d6 daño de vacío}.</p>\n<p><strong>Fallo </strong> La criatura sufre @Damage[2d6[void]]{2d6 daño de vacío} y queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustada 1}.</p>\n<p><strong>Fallo crítico</strong> La criatura sufre @Damage[4d6[void]]{4d6 daño de vacío} y queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustada 3}.</p>"
+          "description": "<p><strong>Prerrequisitos</strong> La luz cadavérica está fusionada con un cadáver</p>\n<hr />\n<p><strong>Efecto</strong> La luz cadavérica emite un pálido haz de luz azul desde la boca y los ojos en un @Template[cone|distance:20]{cono de 20 pies (6 m)}. Todas las criaturas vivas en esta área deben hacer una tirada de salvación de @Check[fortitude|dc:18|rasgos:damaging-effect]. Si al menos una criatura falla la tirada de salvación, la luz cadavérica recupera @Damage[2d6[healing]]{2d6 Puntos de Golpe} y gana los que excedan su máximo como Puntos de Golpe temporales que duran 1 minuto.</p>\n<p>La luz cadavérica no puede volver a usar Luz fúnebre hasta pasados [[/br 1d4 #Recarga Luz fúnebre]]{1d4 asaltos}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> La criatura no se ve afectada. </p>\n<p><strong>Éxito </strong> La criatura sufre @Damage[1d6[void]]{1d6 daño de vacío}.</p>\n<p><strong>Fallo </strong> La criatura sufre @Damage[2d6[void]]{2d6 daño de vacío} y queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustada 1}.</p>\n<p><strong>Fallo crítico</strong> La criatura sufre @Damage[4d6[void]]{4d6 daño de vacío} y queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustada 3}.</p>"
         }
       }
     },
@@ -890,11 +890,11 @@
         },
         "action->Impaling Chain": {
           "name": "Cadena empaladora",
-          "description": "<p> Cuando el evangelista golpea críticamente con un Golpe en cadena, el objetivo queda empalado y anclado en su lugar, convirtiéndose en @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} por la cadena. La criatura no puede recuperarse del daño por sangrado persistente hasta que se libere ( @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} CD 25). </p>\n <p> @UUID[Compendium.pf2e.bestiary-effects.Item.gjo8LR6uOhDM5W7L]{Effect: Impaling Chain} </p>"
+          "description": "<p> Cuando el evangelista golpea críticamente con un Golpe en cadena, el objetivo queda empalado y anclado en su lugar, convirtiéndose en @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} por la cadena. La criatura no puede recuperarse del daño por sangrado persistente hasta que se libere ( @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} CD 25). </p>\n <p> @UUID[Compendium.pf2e.bestiary-effects.Item.gjo8LR6uOhDM5W7L]{Efecto: Impaling Chain} </p>"
         },
         "action->Rusty Chains": {
           "name": "Cadenas oxidadas",
-          "description": "<p> Cuando Cratonys daña a una criatura con sus cadenas, incluido el daño de sangrado persistente al ser empalada por una cadena, la criatura debe tener éxito en una tirada de salvación @Check[type:fortitude|dc:21|traits:disease,virulent] o contraer una forma grave de tétanos llamada tétanos velstrac. </p>\n <hr /> <p> Los Velstracs a veces infectan intencionalmente sus cadenas con enfermedades peligrosas, como esta forma agresiva de tétanos. El tétanos puede producir rigidez, espasmos musculares lo suficientemente fuertes como para romper huesos y, en última instancia,muerte. </p>\n <p> <strong> Tiro de salvación </strong> @Check[type:fortitude|dc:21|traits:disease,virulent] </p>\n <hr />\n <p> <strong> Inicio </strong> [[/br 1d4 #Velstrac Tetanus Onset]]{1d4 days} </p>\n <p> <strong> Etapa 1 </strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} (1 semana) </p>\n <p> <strong> Etapa 2 </strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} y ​​no puedo hablar (1 día) </p>\n <p> <strong> Etapa 3 </strong> @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado} (1día) </p>\n <p> <strong> Etapa 4 </strong> muerte </p>"
+          "description": "<p> Cuando Cratonys daña a una criatura con sus cadenas, incluido el daño de sangrado persistente al ser empalada por una cadena, la criatura debe tener éxito en una tirada de salvación @Check[type:fortitude|dc:21|rasgos:disease,virulent] o contraer una forma grave de tétanos llamada tétanos velstrac. </p>\n <hr /> <p> Los Velstracs a veces infectan intencionalmente sus cadenas con enfermedades peligrosas, como esta forma agresiva de tétanos. El tétanos puede producir rigidez, espasmos musculares lo suficientemente fuertes como para romper huesos y, en última instancia,muerte. </p>\n <p> <strong> Tiro de salvación </strong> @Check[type:fortitude|dc:21|rasgos:disease,virulent] </p>\n <hr />\n <p> <strong> Inicio </strong> [[/br 1d4 #Velstrac Tetanus Onset]]{1d4 days} </p>\n <p> <strong> Etapa 1 </strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} (1 semana) </p>\n <p> <strong> Etapa 2 </strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} y ​​no puedo hablar (1 día) </p>\n <p> <strong> Etapa 3 </strong> @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado} (1día) </p>\n <p> <strong> Etapa 4 </strong> muerte </p>"
         },
         "lore->Torture Lore": {
           "name": "Historia de la tortura"
@@ -904,9 +904,9 @@
     "Daemonic Fog": {
       "name": "Niebla daimónica",
       "description": "<p>La niebla se solidifica en pequeñas criaturas que mastican y devoran a todos los que están dentro antes de volver a desvanecerse en la niebla.</p>",
-      "disable": "<p>@Check[survival|dc:28|name:Interrumpir la niebla] (experto) para interrumpir la niebla antes de que se active el peligro o @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Disipar magia} (5.º rango; contrarrestar CD 26) para contrarrestar la magia.</p>",
+      "disable": "<p>@Check[survival|dc:28|name:Interrumpir la niebla] (experto) para interrumpir la niebla antes de que se active el peligro o @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Disipar magia} (5.º rango; contrarrestar CD 26) para contrarrestar la magia.</p>",
       "reset": "<p>El peligro se rearma en el transcurso de una hora a medida que la energía daimónica vuelve a alimentar la niebla.</p>",
-      "stealth": "<p>@Check[type:perception|dc:30|traits:action:seek] (experto)</p>",
+      "stealth": "<p>@Check[type:perception|dc:30|rasgos:action:seek] (experto)</p>",
       "items": {
         "action->Gnawing Fog": {
           "name": "Niebla de dentelladas",
@@ -936,16 +936,16 @@
           "name": "Hechizos innatos divinos"
         },
         "spell->Dimension Door": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nPuerta de dimensión"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.VlNcjmYyu95vOUe8]\nPuerta de dimensión"
         },
         "spell->Dimension Door (At Will)": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nPuerta dimensional (a voluntad)"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.VlNcjmYyu95vOUe8]\nPuerta dimensional (a voluntad)"
         },
         "spell->Freedom of Movement": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH]\nLibertad de movimiento"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.aqRYNoSvxsVfqglH]\nLibertad de movimiento"
         },
         "spell->See Invisibility (Constant)": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]\nVer Invisibilidad (Constante)"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.jwK43yKsHTkJQvQ9]\nVer Invisibilidad (Constante)"
         },
         "spell->Infernal Pact": {
           "name": "Pacto diabólico"
@@ -1021,13 +1021,13 @@
           "name": "Hechizos innatos ocultos"
         },
         "spell->Crushing Despair": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.GaRQlC9Yw1BGKHfN]\nDesesperación aplastante"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.GaRQlC9Yw1BGKHfN]\nDesesperación aplastante"
         },
         "spell->Hypnotic Pattern": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.K2WpC3FFoHrqX9Q5]\nPatrón hipnótico"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.K2WpC3FFoHrqX9Q5]\nPatrón hipnótico"
         },
         "spell->Mage Hand": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]\nMano de mago"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.pwzdSlJgYqN7bs2w]\nMano de mago"
         },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -1052,7 +1052,7 @@
     "Doom of Tomorrow": {
       "name": "Perdición del mañana",
       "description": "<p> Los sonidos de devastación se elevan desde el diorama, y ​​un rayo de energía brillante sale disparado desde el pequeño modelo de Gauntlight. </p>",
-      "disable": "<p> @Check[type:thievery|dc:20|name:Deactivate Model of Gauntlight|traits:magical,trap] (entrenado) para desactivar rápidamente el modelo de Gauntlight antes de que se active, o @Check[type:stealth|dc:23|name:Creep by Trap|traits:magical,trap] (entrenado) para arrastrarse junto a una trampa sin activarla. </p>",
+      "disable": "<p> @Check[type:thievery|dc:20|name:Deactivate Model of Gauntlight|rasgos:magical,trap] (entrenado) para desactivar rápidamente el modelo de Gauntlight antes de que se active, o @Check[type:stealth|dc:23|name:Creep by Trap|rasgos:magical,trap] (entrenado) para arrastrarse junto a una trampa sin activarla. </p>",
       "reset": "<p> Cada trampa se reinicia automáticamente después de 1 hora. </p>",
       "stealth": "<p> (experto) </p>",
       "items": {
@@ -1149,7 +1149,7 @@
         },
         "action->Magic Immunity": {
           "name": "Inmunidad mágica",
-          "description": "<p> Una llama aterradora es inmune a todos los hechizos excepto @UUID[Compendium.pf2e.spells-srd.Item.HRb2doyaLtaoCfi3]{Faerie Fire}, @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage}, @UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]{Quandary}, @UUID[Compendium.pf2e.spells-srd.Item.DyiD239dNS7RIxZE]{Holy Light} y ​​hechizos con el rasgo de vitalidad. </p>"
+          "description": "<p> Una llama aterradora es inmune a todos los hechizos excepto @UUID[Compendium.pf2e.conjuros-srd.Item.HRb2doyaLtaoCfi3]{Faerie Fire}, @UUID[Compendium.pf2e.conjuros-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage}, @UUID[Compendium.pf2e.conjuros-srd.Item.Oj1PJBMQD9vuwCv7]{Quandary}, @UUID[Compendium.pf2e.conjuros-srd.Item.DyiD239dNS7RIxZE]{Holy Light} y ​​hechizos con el rasgo de vitalidad. </p>"
         },
         "action->Feed on Despair": {
           "name": "Alimentarse de la desesperación",
@@ -1198,7 +1198,7 @@
         },
         "action->Needle Spray": {
           "name": "Pulverizador de aguja",
-          "description": "<p> El dreshkan se apoya en las cuatro extremidades y rocía agujas a tantas criaturas como quiera en un @Template[type:cone|distance:30], causando @Damage[2d4[piercing], 2d8[electricidad]]{2d4 piercing damage plus 2d8 electricity damage}. Cada criatura objetivo en el área debe intentar un @Check[type:reflex|dc:21|basic:true]. </p>"
+          "description": "<p> El dreshkan se apoya en las cuatro extremidades y rocía agujas a tantas criaturas como quiera en un @Template[type:cone|distance:30], causando @Damage[2d4[piercing], 2d8[electricidad]]{2d4 daño perforante plus 2d8 daño de electricidad}. Cada criatura objetivo en el área debe intentar un @Check[type:reflex|dc:21|basic:true]. </p>"
         },
         "action->Swarming Stance": {
           "name": "Postura de enjambre",
@@ -1315,7 +1315,7 @@
         },
         "equipment->Wand of Manifold Missiles (1st-Rank Spell)": {
           "name": "Varita de descarga de fuerza (Conjuro de 1.º rango)",
-          "description": "<p>Esta varita tiene una cabeza de dragón tallada en su extremo superior y una esfera de metal pulido incrustada en su parte central.</p>\n<p><strong>Activar</strong> Lanzar un conjuro</p>\n<p><strong>Frecuencia</strong> Una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> Lanzar @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Descarga de fuerza} de 1.º rango.</p>\n<p>Después de lanzar el conjuro, se lanzan uno o varios proyectiles adicionales desde la varita al comienzo de cada uno de tus turnos, como si lanzaras la versión de 1 acción de <em>Descarga de fuerza</em>. Elige los objetivos cada vez. Esto dura 1 minuto, hasta que dejes de empuñar la varita o hasta que intentes activarla de nuevo.</p>\n<p><strong>Requisitos de fabricación</strong> Proporciona un lanzamiento de <em>descarga de fuerza</em> del rango adecuado.</p>"
+          "description": "<p>Esta varita tiene una cabeza de dragón tallada en su extremo superior y una esfera de metal pulido incrustada en su parte central.</p>\n<p><strong>Activar</strong> Lanzar un conjuro</p>\n<p><strong>Frecuencia</strong> Una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> Lanzar @UUID[Compendium.pf2e.conjuros-srd.Item.gKKqvLohtrSJj3BM]{Descarga de fuerza} de 1.º rango.</p>\n<p>Después de lanzar el conjuro, se lanzan uno o varios proyectiles adicionales desde la varita al comienzo de cada uno de tus turnos, como si lanzaras la versión de 1 acción de <em>Descarga de fuerza</em>. Elige los objetivos cada vez. Esto dura 1 minuto, hasta que dejes de empuñar la varita o hasta que intentes activarla de nuevo.</p>\n<p><strong>Requisitos de fabricación</strong> Proporciona un lanzamiento de <em>descarga de fuerza</em> del rango adecuado.</p>"
         },
         "strike-melee->Staff": {
           "name": "Bastón"
@@ -1430,7 +1430,7 @@
         },
         "action->Reloading Trick": {
           "name": "Truco para recargar",
-          "description": "<p><strong>Requisitos</strong> El tirador sostiene una ballesta de mano de repetición descargada</p>\n<hr />\n<p><strong>Efecto</strong> El tirador Interactúa para recargar la ballesta de mano de repetición y asesta un Golpe con ella.</p>"
+          "description": "<p><strong>Requisitos</strong> El tirador sostiene una ballesta de mano de repetición descargada</p>\n<hr />\n<p><strong>Efecto</strong> El tirador Interactuarúa para recargar la ballesta de mano de repetición y asesta un Golpe con ella.</p>"
         },
         "action->Shootist's Draw": {
           "name": "Desenfundado del tirador",
@@ -1536,7 +1536,7 @@
         },
         "action->Magic Immunity": {
           "name": "Inmunidad mágica",
-          "description": "<p> Un fuego fatuo es inmune a todos los hechizos excepto @UUID[Compendium.pf2e.spells-srd.Item.HRb2doyaLtaoCfi3]{Faerie Fire}, @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]{Revealing Light}, @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage} y ​​@UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]{Quandary}. </p>"
+          "description": "<p> Un fuego fatuo es inmune a todos los hechizos excepto @UUID[Compendium.pf2e.conjuros-srd.Item.HRb2doyaLtaoCfi3]{Faerie Fire}, @UUID[Compendium.pf2e.conjuros-srd.Item.0qaqksrGGDj74HXE]{Revealing Light}, @UUID[Compendium.pf2e.conjuros-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage} y ​​@UUID[Compendium.pf2e.conjuros-srd.Item.Oj1PJBMQD9vuwCv7]{Quandary}. </p>"
         },
         "action->Heat Mirage": {
           "name": "Espejismo de calor",
@@ -1605,7 +1605,7 @@
         },
         "action->Bog Rot": {
           "name": "Podredumbre del pantano",
-          "description": "<p>Esta aflicción no puede reducirse por debajo de la fase 1, ni se puede curar el daño que produce hasta que se trate con éxito con @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Quitar maldición} o un efecto similar; entonces, la aflicción puede eliminarse como cualquier enfermedad. Una criatura que muera a causa de la podredumbre del pantano se funde en un lodo nocivo y no se puede resucitar excepto mediante un ritual @UUID[Compendium.pf2e.spells-srd.Item.kqhPt9344UkcGVYO]{Resucitar} de 7.º nivel o una magia similar</p>\n<hr />\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:21]</p>\n<hr>\n<p><strong>Fase 1</strong> el portador no presenta efectos negativos (1 minuto)</p>\n<p><strong>Fase 2</strong> @Damage[3d6[void]]{3d6 de daño del vacío} y @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} (1 día)</p>"
+          "description": "<p>Esta aflicción no puede reducirse por debajo de la fase 1, ni se puede curar el daño que produce hasta que se trate con éxito con @UUID[Compendium.pf2e.conjuros-srd.Item.SUKaxVZW2TlM8lu0]{Quitar maldición} o un efecto similar; entonces, la aflicción puede eliminarse como cualquier enfermedad. Una criatura que muera a causa de la podredumbre del pantano se funde en un lodo nocivo y no se puede resucitar excepto mediante un ritual @UUID[Compendium.pf2e.conjuros-srd.Item.kqhPt9344UkcGVYO]{Resucitar} de 7.º nivel o una magia similar</p>\n<hr />\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:21]</p>\n<hr>\n<p><strong>Fase 1</strong> el portador no presenta efectos negativos (1 minuto)</p>\n<p><strong>Fase 2</strong> @Damage[3d6[void]]{3d6 de daño del vacío} y @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} (1 día)</p>"
         }
       }
     },
@@ -1626,7 +1626,7 @@
         },
         "action->Magic Immunity": {
           "name": "Inmunidad a la magia",
-          "description": "<p>Una voluta titilante es inmune a todos los conjuros excepto @UUID[Compendium.pf2e.spells-srd.Item.HRb2doyaLtaoCfi3]{Fuego feérico}, @UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]{Dilema}, @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Descarga de fuerza} y @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{Ráfaga de viento}.</p>"
+          "description": "<p>Una voluta titilante es inmune a todos los conjuros excepto @UUID[Compendium.pf2e.conjuros-srd.Item.HRb2doyaLtaoCfi3]{Fuego feérico}, @UUID[Compendium.pf2e.conjuros-srd.Item.Oj1PJBMQD9vuwCv7]{Dilema}, @UUID[Compendium.pf2e.conjuros-srd.Item.gKKqvLohtrSJj3BM]{Descarga de fuerza} y @UUID[Compendium.pf2e.conjuros-srd.Item.g8QqHpv2CWDwmIm1]{Ráfaga de viento}.</p>"
         },
         "action->Consume Confusion": {
           "name": "Consumir confusión",
@@ -1680,7 +1680,7 @@
         "consumable->Wand of Continuation (Mountain Resilience)": {
           "name": "Varita de Continuación (Resiliencia de la montaña)",
           "consumableSpellName": "Resiliencia de la montaña",
-          "consumableSpellDescription": "<p>La piel del objetivo se endurece como la piedra de una pared de montaña. Obtiene resistencia 5 al daño físico, excepto al adamantino. Cada vez que el objetivo sufre el impacto de un ataque contundente, perforante o cortante, la duración de resiliencia de la montaña disminuye en 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.JHpYudY14g0H4VWU]{Efecto de conjuro: Resiliencia de la montaña}</p>\n<hr />\n<p><strong>Potenciado (6.º)</strong> La resistencia se incrementa a 10.</p>\n<p><strong>Potenciado (8.º)</strong> La resistencia se incrementa a 15.</p>\n<p><strong>Potenciado (10.º)</strong> La resistencia se incrementa a 20.</p>",
+          "consumableSpellDescription": "<p>La piel del objetivo se endurece como la piedra de una pared de montaña. Obtiene resistencia 5 al daño físico, excepto al adamantino. Cada vez que el objetivo sufre el impacto de un ataque contundente, perforante o cortante, la duración de resiliencia de la montaña disminuye en 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.conjuro-effects.Item.JHpYudY14g0H4VWU]{Efecto de conjuro: Resiliencia de la montaña}</p>\n<hr />\n<p><strong>Potenciado (6.º)</strong> La resistencia se incrementa a 10.</p>\n<p><strong>Potenciado (8.º)</strong> La resistencia se incrementa a 15.</p>\n<p><strong>Potenciado (10.º)</strong> La resistencia se incrementa a 20.</p>",
           "consumableSpellTarget": "1 criatura",
           "description": "<p>Esta varita aumenta la duración de un conjuro. Unas ascuas amarillas giran sobre su superficie hasta que el conjuro termina.</p>\n<hr>\n<p><strong>Activar </strong>Lanzar un conjuro; La activación requiere <span class=\"action-glyph\">2 </span>si el conjuro normalmente requiere <span class=\"action-glyph\">1 </span>en lanzarse, o <span class=\"action-glyph\">3 </span>si el conjuro normalmente requiere <span class=\"action-glyph\">2</span></p>\n<p><strong>Frecuencia </strong>Una vez al día, más sobrecarga</p>\n<p><strong>Efecto </strong>Lanzas el conjuro y su duración aumenta en media vez más.</p>\n<hr>\n<p><strong>Requisitos de artesanía</strong> Suministrar un lanzamiento del conjuro del rango indicado. El conjuro ha de tener un tiempo de lanzamiento de <span class=\"action-glyph\">1</span> o <span class=\"action-glyph\">2</span> y una duración no inferior a 10 minutos ni superior a 1 hora.</p>"
         },
@@ -1777,7 +1777,7 @@
         },
         "action->Swarming Bites": {
           "name": "Mordeduras de enjambre",
-          "description": "<p> Cada enemigo en el espacio del enjambre recibe @Damage[2d8[piercing], 1d6[acid]]{2d8 piercing damage and 1d6 acid damage} ( @Check[type:reflex|dc:22|basic:true] salvación). Una criatura que falla su salvación contra Swarming Bites también sufre @Damage[1d4[persistent,acid]]. </p>"
+          "description": "<p> Cada enemigo en el espacio del enjambre recibe @Damage[2d8[piercing], 1d6[acid]]{2d8 daño perforante and 1d6 daño de ácido} ( @Check[type:reflex|dc:22|basic:true] salvación). Una criatura que falla su salvación contra Swarming Bites también sufre @Damage[1d4[persistent,acid]]. </p>"
         }
       }
     },
@@ -1794,7 +1794,7 @@
         },
         "action->Magic Immunity": {
           "name": "Inmunidad mágica",
-          "description": "<p> Un fuego fatuo es inmune a todos los hechizos excepto @UUID[Compendium.pf2e.spells-srd.Item.HRb2doyaLtaoCfi3]{Faerie Fire}, @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]{Revealing Light}, @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage} y ​​@UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]{Quandary}. </p>"
+          "description": "<p> Un fuego fatuo es inmune a todos los hechizos excepto @UUID[Compendium.pf2e.conjuros-srd.Item.HRb2doyaLtaoCfi3]{Faerie Fire}, @UUID[Compendium.pf2e.conjuros-srd.Item.0qaqksrGGDj74HXE]{Revealing Light}, @UUID[Compendium.pf2e.conjuros-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage} y ​​@UUID[Compendium.pf2e.conjuros-srd.Item.Oj1PJBMQD9vuwCv7]{Quandary}. </p>"
         },
         "action->Feed on Fear": {
           "name": "Alimentarse del miedo",
@@ -1806,7 +1806,7 @@
         },
         "action->Show the Looming Moon": {
           "name": "Muestra la luna que se avecina",
-          "description": "<p> <strong> Requisitos </strong> La vela de Groetan es @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} </p>\n <hr />\n <p> <strong> Efecto </strong> La vela de Groetan termina su invisibilidad y destella con un brillo frío. Las criaturas a 20 pies de la vela groetana que puedan verla deben realizar una salvación @Check[type:fortitude|dc:24|traits:concentrate] o convertirse en @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado} durante 1 ronda (1 minuto en caso de fallo crítico). </p>"
+          "description": "<p> <strong> Requisitos </strong> La vela de Groetan es @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} </p>\n <hr />\n <p> <strong> Efecto </strong> La vela de Groetan termina su invisibilidad y destella con un brillo frío. Las criaturas a 20 pies de la vela groetana que puedan verla deben realizar una salvación @Check[type:fortitude|dc:24|rasgos:concentrate] o convertirse en @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado} durante 1 ronda (1 minuto en caso de fallo crítico). </p>"
         }
       }
     },
@@ -1834,7 +1834,7 @@
         },
         "action->Stench": {
           "name": "Hedor",
-          "description": "<p> 30 pies. Una criatura que entre en el área debe intentar una salvación @Check[type:fortitude|dc:20]. En caso de fallo, la criatura es @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}, y en caso de fallo crítico, la criatura también sufre una penalización de estado de -5 pies a su Velocidad durante 1 ronda. Mientras está dentro del aura, la criatura sufre una penalización de circunstancia de -2 a las salvaciones para recuperarse de la condición de enfermedad. Una criatura que tiene éxito en su salvación es temporalmente inmune a todos los hedores de xulgath durante 1 minuto. </p>\n <p>@UUID[Compendium.pf2e.bestiary-effects.Item.uB3CVn3momZO9h0L]{Effect: Xulgath Stench} </p>"
+          "description": "<p> 30 pies. Una criatura que entre en el área debe intentar una salvación @Check[type:fortitude|dc:20]. En caso de fallo, la criatura es @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}, y en caso de fallo crítico, la criatura también sufre una penalización de estado de -5 pies a su Velocidad durante 1 ronda. Mientras está dentro del aura, la criatura sufre una penalización de circunstancia de -2 a las salvaciones para recuperarse de la condición de enfermedad. Una criatura que tiene éxito en su salvación es temporalmente inmune a todos los hedores de xulgath durante 1 minuto. </p>\n <p>@UUID[Compendium.pf2e.bestiary-effects.Item.uB3CVn3momZO9h0L]{Efecto: Xulgath Stench} </p>"
         },
         "action->Stench Suppression": {
           "name": "Supresión del hedor",
@@ -1898,10 +1898,10 @@
         }
       }
     },
-    "Images of Failure": {
+    "Images of Fallo": {
       "name": "Imágenes de fracaso",
       "description": "<p>Las ilusiones mejoradas psíquicamente inundan las mentes de las criaturas que se encuentran en el pasillo de 40 pies (12 m) de largo y 15 pies (4,5 m) de ancho (el cuadro blanco punteado en el mapa) con recuerdos de sus fracasos pasados.</p>",
-      "disable": "<p>@Check[occultism|dc:32|name:Debilitar las imágenes] (maestro) o @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Disipar magia} (5.º rango; contrarrestar CD 26) para debilitar las imágenes; se requieren tres éxitos para inutilizar la trampa</p>",
+      "disable": "<p>@Check[occultism|dc:32|name:Debilitar las imágenes] (maestro) o @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Disipar magia} (5.º rango; contrarrestar CD 26) para debilitar las imágenes; se requieren tres éxitos para inutilizar la trampa</p>",
       "reset": "<p>La trampa se rearma de inmediato y puede afectar a la misma criatura varias veces en su turno.</p>",
       "stealth": "<p>(experto) para percatarse de que las imágenes ilusorias ocultan una trampa mágica (descubrir las imágenes tiene una CD de 0)</p>",
       "items": {
@@ -1914,7 +1914,7 @@
     "Images of Powerlessness": {
       "name": "Imágenes de impotencia",
       "description": "<p>Las ilusiones potenciadas psíquicamente inundan las mentes de las criaturas que se encuentran en el pasillo de 95 pies (28,5 m) de largo y 15 pies (4,5 m) de ancho (el recuadro blanco punteado en el mapa) con visiones de sus fracasos venideros.</p>",
-      "disable": "<p>@Check[type:occultism|dc:32|name:Debilitar las imágenes] (maestro) o @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Disipar magia} (5.º rango; contrarrestar CD 26) para debilitar las imágenes; se requieren tres éxitos para inutilizar la trampa</p>",
+      "disable": "<p>@Check[type:occultism|dc:32|name:Debilitar las imágenes] (maestro) o @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Disipar magia} (5.º rango; contrarrestar CD 26) para debilitar las imágenes; se requieren tres éxitos para inutilizar la trampa</p>",
       "reset": "<p>La trampa se rearma de inmediato y puede afectar a la misma criatura varias veces en su turno.</p>",
       "stealth": "<p>(experto) para darse cuenta de que las imágenes ilusorias ocultan una trampa mágica (descubrir las imágenes tiene una CD de 0)</p>",
       "items": {
@@ -1959,7 +1959,7 @@
         "consumable->Wand of Peaceful Rest (Rank 2)": {
           "name": "Varita de Tranquilo descanso (rango 2)",
           "consumableSpellName": "Tranquilo descanso",
-          "consumableSpellDescription": " <p>El cadáver objetivo no se descompone ni se puede transformar en un muerto viviente. Si se ve sujeto a un conjuro que requiere que el cuerpo haya muerto en un cierto periodo de tiempo (por ejemplo @UUID[Compendium.pf2e.spells-srd.Item.IkGYwHRLhkuoGReG]{Revivir a los muertos}) la duración de <em>tranquilo descanso</em> no cuenta para dicho período. Este conjuro también evita que los bichos y las pestes normales (como por ejemplo los gusanos) consuman el cuerpo.</p> \n<hr /> \n<p><strong>Potenciado (5.º)</strong> La duración del conjuro es ilimitada, pero se tarda una acción más en lanzarlo y se incurre en un coste (fluido de embalsamar por valor de 6 po).</p> ",
+          "consumableSpellDescription": " <p>El cadáver objetivo no se descompone ni se puede transformar en un muerto viviente. Si se ve sujeto a un conjuro que requiere que el cuerpo haya muerto en un cierto periodo de tiempo (por ejemplo @UUID[Compendium.pf2e.conjuros-srd.Item.IkGYwHRLhkuoGReG]{Revivir a los muertos}) la duración de <em>tranquilo descanso</em> no cuenta para dicho período. Este conjuro también evita que los bichos y las pestes normales (como por ejemplo los gusanos) consuman el cuerpo.</p> \n<hr /> \n<p><strong>Potenciado (5.º)</strong> La duración del conjuro es ilimitada, pero se tarda una acción más en lanzarlo y se incurre en un coste (fluido de embalsamar por valor de 6 po).</p> ",
           "consumableSpellTarget": "1 cadáver"
         },
         "consumable->Wand of Force Barrage (Rank 1)": {
@@ -2024,7 +2024,7 @@
         },
         "action->Quick Consumption": {
           "name": "Consumo rápido",
-          "description": "<p>Jafaki Interactúa para sacar un elixir o un mutágeno y se lo bebe.</p>"
+          "description": "<p>Jafaki Interactuarúa para sacar un elixir o un mutágeno y se lo bebe.</p>"
         },
         "action->Seugathi Venom": {
           "name": "Veneno de seugathi",
@@ -2050,7 +2050,7 @@
         },
         "action->Malevolent Possession": {
           "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.iwLj14liESK5OBN8]\nPosesión malévola",
-          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.iwLj14liESK5OBN8]\n <p> Jarelle intenta poseer una criatura corpórea adyacente. Esto tiene el mismo efecto que el hechizo @UUID[Compendium.pf2e.spells-srd.Item.wU6hNzK8Yfqdmc8m]{Possession} (con una CD del hechizo de 22), excepto que como Jarelle no tiene un cuerpo físico, no se ve afectada por esa restricción del hechizo. </p>"
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.iwLj14liESK5OBN8]\n <p> Jarelle intenta poseer una criatura corpórea adyacente. Esto tiene el mismo efecto que el hechizo @UUID[Compendium.pf2e.conjuros-srd.Item.wU6hNzK8Yfqdmc8m]{Possession} (con una CD del hechizo de 22), excepto que como Jarelle no tiene un cuerpo físico, no se ve afectada por esa restricción del hechizo. </p>"
         },
         "action->Poisoned Breath": {
           "name": "Aliento envenenado",
@@ -2202,17 +2202,17 @@
           "name": "Hechizos innatos ocultos"
         },
         "spell->Enlarge (Self Only)": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]\nAmpliar (solo uno mismo)"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.wzctak6BxOW8xvFV]\nAmpliar (solo uno mismo)"
         },
         "spell->Invisibility (Self Only)": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibilidad (solo uno mismo)",
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibilidad (solo uno mismo)",
           "target": "ser"
         },
         "spell->Sound Burst": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.wzLkNU3AAqOSKFPR]\nExplosión de sonido"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.wzLkNU3AAqOSKFPR]\nExplosión de sonido"
         },
         "spell->Magic Missile": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]\nMisil mágico"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.gKKqvLohtrSJj3BM]\nMisil mágico"
         },
         "spell->Protection": {
           "target": "1 criatura"
@@ -2235,7 +2235,7 @@
         },
         "action->Guiding Rhythm": {
           "name": "Ritmo guía",
-          "description": "<p> Cuando Kragala lanza @UUID[Compendium.pf2e.spells-srd.Item.izcxFQFwf3woCnFs]{Guidance} mientras usa un instrumento de percusión, sus objetivos no se vuelven temporalmente inmunes a su guía. </p>"
+          "description": "<p> Cuando Kragala lanza @UUID[Compendium.pf2e.conjuros-srd.Item.izcxFQFwf3woCnFs]{Guidance} mientras usa un instrumento de percusión, sus objetivos no se vuelven temporalmente inmunes a su guía. </p>"
         },
         "action->Percussive Reverberation": {
           "name": "Reverberación percusiva",
@@ -2357,7 +2357,7 @@
           "name": "Hechizos innatos ocultos"
         },
         "spell->Ray of Enfeeblement": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRayo de debilitamiento"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.J7Y7tl0bbdz7TcCc]\nRayo de debilitamiento"
         },
         "strike-melee->Club": {
           "name": "Club"
@@ -2596,7 +2596,7 @@
         },
         "weapon->Staff of Necromancy": {
           "name": "Bastón de los muertos",
-          "description": "<p> Este bastón de aspecto retorcido y lúgubre está adornado con horribles motivos de calaveras y huesos. Las criaturas convocadas con este bastón obtienen tantos Puntos de Golpe temporales como el nivel del conjuro utilizado para convocarlas. </p>\n<p> <strong> Activar </strong> Lanzar un conjuro</p>\n<hr />\n<p> <strong> Efecto </strong> Gastas cierto número de cargas del bastón para lanzar un conjuro de su lista. </p>\n<ul>\n<li><strong>Truco</strong> @UUID[Compendium.pf2e.spells-srd.Item.mAMEt4FFbdqoRnkN]{Distorsión del vacío} </li>\n<li><strong>1.º</strong> @UUID[Compendium.pf2e.spells-srd.Item.k34hDOfIIMAxNL4a]{Zarcillos macabros}, @UUID[Compendium.pf2e.spells-srd.Item.9WGeBwIIbbUuWKq0]{Convocar muertos vivientes} </li>\n<li><strong>2.º</strong> @UUID[Compendium.pf2e.spells-srd.Item.xRgU9rrhmGAgG4Rc]{Tranquilo descanso}, @UUID[Compendium.pf2e.spells-srd.Item.9WGeBwIIbbUuWKq0]{Convocar muertos vivientes} </li>\n</ul>\n<p> <strong> Requisitos de creación </strong> Suministrar un lanzamiento de todos los conjuros de todos los rangos enumerados. </p>",
+          "description": "<p> Este bastón de aspecto retorcido y lúgubre está adornado con horribles motivos de calaveras y huesos. Las criaturas convocadas con este bastón obtienen tantos Puntos de Golpe temporales como el nivel del conjuro utilizado para convocarlas. </p>\n<p> <strong> Activar </strong> Lanzar un conjuro</p>\n<hr />\n<p> <strong> Efecto </strong> Gastas cierto número de cargas del bastón para lanzar un conjuro de su lista. </p>\n<ul>\n<li><strong>Truco</strong> @UUID[Compendium.pf2e.conjuros-srd.Item.mAMEt4FFbdqoRnkN]{Distorsión del vacío} </li>\n<li><strong>1.º</strong> @UUID[Compendium.pf2e.conjuros-srd.Item.k34hDOfIIMAxNL4a]{Zarcillos macabros}, @UUID[Compendium.pf2e.conjuros-srd.Item.9WGeBwIIbbUuWKq0]{Convocar muertos vivientes} </li>\n<li><strong>2.º</strong> @UUID[Compendium.pf2e.conjuros-srd.Item.xRgU9rrhmGAgG4Rc]{Tranquilo descanso}, @UUID[Compendium.pf2e.conjuros-srd.Item.9WGeBwIIbbUuWKq0]{Convocar muertos vivientes} </li>\n</ul>\n<p> <strong> Requisitos de creación </strong> Suministrar un lanzamiento de todos los conjuros de todos los rangos enumerados. </p>",
           "rules": {
             "0": {
               "label": "Bastón de los muertos (identificar magia de nigromancia)"
@@ -2652,7 +2652,7 @@
         },
         "action->Vulnerable to Shatter": {
           "name": "Vulnerable a estallar",
-          "description": "<p>Un gólem de vidrio se ve afectado por el conjuro @UUID[Compendium.pf2e.spells-srd.Item.1xbFBQDRs0hT5xZ9]{Estallar} como si el gólem fuera un objeto desatendido.</p>"
+          "description": "<p>Un gólem de vidrio se ve afectado por el conjuro @UUID[Compendium.pf2e.conjuros-srd.Item.1xbFBQDRs0hT5xZ9]{Estallar} como si el gólem fuera un objeto desatendido.</p>"
         },
         "action->Grim Glimmering": {
           "name": "Resplandor sombrío",
@@ -2669,10 +2669,10 @@
           "name": "Hechizos innatos ocultos"
         },
         "spell->Darkness (At Will)": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]\nOscuridad (a voluntad)"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.4GE2ZdODgIQtg51c]\nOscuridad (a voluntad)"
         },
         "spell->Sound Burst (At Will)": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.wzLkNU3AAqOSKFPR]\nExplosión de sonido (a voluntad)"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.wzLkNU3AAqOSKFPR]\nExplosión de sonido (a voluntad)"
         },
         "equipment->Musical Instrument (Virtuoso handheld) (theorbo)": {
           "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.3ld14dsn2RLu9owg]\nInstrumento musical (Virtuoso de mano) (tiorba)"
@@ -2779,7 +2779,7 @@
           "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]\nVarita de criatura ilusoria (nivel 2)",
           "consumableSpellName": "Criatura ilusoria",
           "consumableSpellDescription": "<p>Creas una imagen ilusoria de una criatura Grande o más pequeña. Genera los sonidos y olores apropiados, y es creíble incluso al tacto. Si la imagen y tú os llegáis a separar más de 500 pies (150 m), el conjuro se acaba.</p>\n<p> La imagen no puede hablar, pero puedes utilizar tus acciones para hablar a través de la criatura, y el conjuro disfraza tu voz de la forma más apropiada. Puedes tener que hacer una prueba de Engaño o de Interpretación para imitar a la criatura, a juicio del DJ. Esto es especialmente probable si quieres imitar a una persona específica e interaccionar con alguien a quien dicha persona conoce.</p>\n<p>En combate, la ilusión puede utilizar 2 acciones por turno, que usa cuando Mantienes el conjuro. Utiliza tu modificador al ataque de conjuros para la tirada de ataque y tu CD de conjuros para su CA. Sus modificadores a las tiradas de salvación son iguales a tu CD de conjuros -10. Es lo suficientemente sustancial como para poder flanquear a otras criaturas. Si la imagen sufre un impacto de un ataque o falla una salvación, el conjuro se acaba.</p>\n<p>La ilusión puede causar daño haciendo que el objetivo crea que los ataques de ésta son reales, pero no puede afectar directamente al mundo físico de ninguna otra manera. Si la criatura ilusoria acierta con un Golpe, el objetivo sufre @Damage[3d4[mental]]{3d4 daño mental}. Los Golpes de la ilusión son no letales. Si el daño no se corresponde con la imagen del monstruo (por ejemplo, un dragón ilusorio Grande sólo inflige 5 daño) el DJ podría permitir al objetivo una prueba de Percepción inmediata para descreer el conjuro. Todas las resistencias y debilidades relevantes se aplican, si el objetivo cree que lo hacen, a juicio del DJ. Por ejemplo, si la ilusión empuña un martillo de guerra y ataca a una criatura resistente al daño contundente, dicha criatura sufriría menos daño mental. Sin embargo, el daño ilusorio no desactiva la regeneración ni desencadena otros efectos que requieren cierto tipo de daño. El DJ debería llevar la cuenta del daño ilusorio infligido por la ilusión.</p>\n<p>Cualquier criatura que toque la imagen o utilice la acción de @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Buscar} para examinarla podrá hacer un intento de descreer tu ilusión. Cuando una criatura descree la ilusión, se recupera de la mitad del daño sufrido a causa de ella (si lo hay) y ya no sufre más daño por ese motivo. </p> \n<hr /> \n<p><strong>Potenciado (+1)</strong> El daño de los Golpes de la imagen se incrementa en 1d4, y el tamaño máximo de criatura que puedes crear se incrementa en 1 (hasta un máximo de Gargantuesco). </p> ",
-          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]\n <p> @UUID[Compendium.pf2e.spells-srd.Item.f8SBoXiXQjlCKqly]{Illusory Creature} </p> <hr /> <p> Este bastón mide aproximadamente un pie de largo y contiene un solo hechizo. La apariencia normalmente se relaciona con el hechizo interior. </p>\n <p> <strong> Activar </strong> Lanzar un hechizo </p>\n <p> <strong> Frecuencia </strong> una vez al día, más recargo </p>\n <hr />\n <p> <strong>Efecto </strong> Lanzas el Hechizo al nivel indicado. </p>\n <p> <strong> Requisitos de artesanía </strong> Proporcionar un lanzamiento del hechizo del nivel indicado. </p>\n <hr />\n <p> <em> Nota: Para crear un pergamino o varita de un hechizo específico, arrastre el hechizo desde el compendio o navegador de compendio al inventario de un PC, NPC o actor de botín. </em> </p>"
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]\n <p> @UUID[Compendium.pf2e.conjuros-srd.Item.f8SBoXiXQjlCKqly]{Illusory Creature} </p> <hr /> <p> Este bastón mide aproximadamente un pie de largo y contiene un solo hechizo. La apariencia normalmente se relaciona con el hechizo interior. </p>\n <p> <strong> Activar </strong> Lanzar un hechizo </p>\n <p> <strong> Frecuencia </strong> una vez al día, más recargo </p>\n <hr />\n <p> <strong>Efecto </strong> Lanzas el Hechizo al nivel indicado. </p>\n <p> <strong> Requisitos de artesanía </strong> Proporcionar un lanzamiento del hechizo del nivel indicado. </p>\n <hr />\n <p> <em> Nota: Para crear un pergamino o varita de un hechizo específico, arrastre el hechizo desde el compendio o navegador de compendio al inventario de un PC, NPC o actor de botín. </em> </p>"
         },
         "strike-melee->Bite": {
           "name": "Morder"
@@ -2870,7 +2870,7 @@
           "consumableSpellName": "Descarga de fuerza",
           "consumableSpellDescription": "<p>Disparas una esquirla de magia solidificada contra una criatura a la que puedes ver. Impacta automáticamente e inflige 1d4+1 daño por fuerza. Por cada acción adicional que utilizas cuando Lanzas el conjuro, incrementa en 1 el número de esquirlas que lanzas, hasta un máximo de 3 esquirlas para 3 acciones. Eliges el objetivo de cada esquirla de forma individual. Si disparas más de una esquirla contra el mismo objetivo, combina el daño antes de aplicar bonificadores o penalizadores al daño, resistencias, debilidades, etc.</p>\n<hr />\n<p><strong>Potenciado (+2)</strong> Disparas una esquirla adicional con cada acción que inviertes.</p>",
           "consumableSpellTarget": "1 criatura",
-          "description": "<p>@UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Descarga de fuerza}</p>\n<hr />\n<p>Este bastón mide aproximadamente un pie de largo y contiene un solo conjuro. La apariencia normalmente se relaciona con el conjuro que contiene.</p>\n<p><strong>Activar</strong> Lanzar un conjuro</p>\n<p><strong>Frecuencia </strong> una vez al día</p>\n<hr />\n<p><strong>Efecto </strong> Lanzas el conjuro del rango indicado.</p>\n<p><strong>Requisitos de artesanía </strong> Proporcionar un lanzamiento del conjuro del rango indicado.</p>"
+          "description": "<p>@UUID[Compendium.pf2e.conjuros-srd.Item.gKKqvLohtrSJj3BM]{Descarga de fuerza}</p>\n<hr />\n<p>Este bastón mide aproximadamente un pie de largo y contiene un solo conjuro. La apariencia normalmente se relaciona con el conjuro que contiene.</p>\n<p><strong>Activar</strong> Lanzar un conjuro</p>\n<p><strong>Frecuencia </strong> una vez al día</p>\n<hr />\n<p><strong>Efecto </strong> Lanzas el conjuro del rango indicado.</p>\n<p><strong>Requisitos de artesanía </strong> Proporcionar un lanzamiento del conjuro del rango indicado.</p>"
         },
         "strike-melee->Dagger": {
           "name": "Daga"
@@ -2891,7 +2891,7 @@
     "Painful Suggestion Trap": {
       "name": "Trampa de sugerencia dolorosa",
       "description": "<p> Una runa oculta en el suelo debajo de la suciedad, justo después del umbral, activa un fantasma sucedáneo. </p>",
-      "disable": "<p> @Check[type:thievery|dc:28|name:Remove Rune|traits:magical,trap] (experto) para eliminar la runa sin activarla, o @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4to nivel; contrarrestar CD 26) para disipar la runa </p>",
+      "disable": "<p> @Check[type:thievery|dc:28|name:Remove Rune|rasgos:magical,trap] (experto) para eliminar la runa sin activarla, o @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4to nivel; contrarrestar CD 26) para disipar la runa </p>",
       "reset": "<p> La trampa se reinicia automáticamente después de 1 hora. </p>",
       "stealth": "<p> (experto) </p>",
       "items": {
@@ -2904,9 +2904,9 @@
     "Paralyzing Light Trap": {
       "name": "Trampa de luz paralizante",
       "description": "<p> Cuando cualquier criatura que no sea un demonio entra en la luz, la magia entretejida en la luz mantiene a la criatura en su lugar y hace sonar una alarma. </p>",
-      "disable": "<p> @Check[type:thievery|dc:26|name:Distort or Diffuse the Light|traits:magical,trap] (maestro) para distorsionar o difundir la luz, manteniendo el cono de luz intacto pero evitando que se active la trampa, o @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4to nivel; contrarrestar CD 26) para disipar la luz, dejando la habitación en oscuridad </p>",
+      "disable": "<p> @Check[type:thievery|dc:26|name:Distort or Diffuse the Light|rasgos:magical,trap] (maestro) para distorsionar o difundir la luz, manteniendo el cono de luz intacto pero evitando que se active la trampa, o @UUID[Compendium.pf2e.conjuros-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4to nivel; contrarrestar CD 26) para disipar la luz, dejando la habitación en oscuridad </p>",
       "reset": "<p> La magia de estasis en la luz se acumula en el transcurso de una hora, después de la cual la trampa puede activarse nuevamente. </p>",
-      "routine": "<p> (1 acción) Todas las criaturas @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido} y ​​@UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado} en la habitación reciben @Damage[1d10[mental]] daño (@Check[type:will|dc:26|basic:true|traits:magical,trap] salvación). Las criaturas que fallan también quedan paralizadas durante 1 asalto, pero pueden usar una reacción para luchar mentalmente contra esta estasis; las criaturas que lo hacen reciben @Damage[5d10[mental]] daño mental pero ya no quedan paralizadas. </p>",
+      "routine": "<p> (1 acción) Todas las criaturas @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido} y ​​@UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado} en la habitación reciben @Damage[1d10[mental]] daño (@Check[type:will|dc:26|basic:true|rasgos:magical,trap] salvación). Las criaturas que fallan también quedan paralizadas durante 1 asalto, pero pueden usar una reacción para luchar mentalmente contra esta estasis; las criaturas que lo hacen reciben @Damage[5d10[mental]] daño mental pero ya no quedan paralizadas. </p>",
       "stealth": "<p> (experto) </p>",
       "items": {
         "action->Stasis Field": {
@@ -2963,10 +2963,10 @@
           "name": "Hechizos innatos divinos"
         },
         "spell->Darkness (At Will)": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]\nOscuridad (a voluntad)"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.4GE2ZdODgIQtg51c]\nOscuridad (a voluntad)"
         },
         "spell->Faerie Fire (At Will)": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.HRb2doyaLtaoCfi3]\nFuego de hadas (a voluntad)"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.HRb2doyaLtaoCfi3]\nFuego de hadas (a voluntad)"
         },
         "spell->Dancing Lights": {
           "name": "Luces danzantes",
@@ -3015,11 +3015,11 @@
         },
         "action->Reloading Trick": {
           "name": "Truco de recarga",
-          "description": "<p> <strong> Requisitos </strong> Quara sostiene una ballesta de mano de repetición descargada </p>\n <hr />\n <p> <strong> Efecto </strong> Quara Interactúa para recargar la ballesta de mano repetida y golpea con ella. </p>"
+          "description": "<p> <strong> Requisitos </strong> Quara sostiene una ballesta de mano de repetición descargada </p>\n <hr />\n <p> <strong> Efecto </strong> Quara Interactuarúa para recargar la ballesta de mano repetida y golpea con ella. </p>"
         },
         "action->Shootist's Draw": {
           "name": "Sorteo del tirador",
-          "description": "<p> <strong> Frecuencia </strong> una vez por ronda </p>\n <hr />\n <p> <strong> Efecto </strong> Quara Interactúa para sacar una ballesta de mano de repetición cargada y golpea con ella, o Golpea con una ballesta de mano de repetición cargada que está sosteniendo y luego interactúa para guardarla. </p>"
+          "description": "<p> <strong> Frecuencia </strong> una vez por ronda </p>\n <hr />\n <p> <strong> Efecto </strong> Quara Interactuarúa para sacar una ballesta de mano de repetición cargada y golpea con ella, o Golpea con una ballesta de mano de repetición cargada que está sosteniendo y luego interactúa para guardarla. </p>"
         },
         "action->Skirmishing Dash": {
           "name": "Carrera de escaramuza",
@@ -3059,7 +3059,7 @@
     "Rusty Grate Pit": {
       "name": "Pozo de rejilla oxidada",
       "description": "<p> La rejilla oxidada cubre un hoyo que tiene 10 pies de diámetro y 40 pies de profundidad. </p>",
-      "disable": "<p> @Check[type:thievery|dc:18|name:Harmlessly Trigger Trap] para activar la trampa de manera inofensiva empujando la puerta o el cabrestante colgante, o @Check[type:thievery|dc:24|name:Stabilize Grate] para estabilizar la rejilla para que no colapse. </p>",
+      "disable": "<p> @Check[type:thievery|dc:18|name:Harmlessly Desencadenante Trap] para activar la trampa de manera inofensiva empujando la puerta o el cabrestante colgante, o @Check[type:thievery|dc:24|name:Stabilize Grate] para estabilizar la rejilla para que no colapse. </p>",
       "stealth": "<p> (experto), o 0 si la rejilla está abierta </p>",
       "items": {
         "action->Pitfall": {
@@ -3126,7 +3126,7 @@
         },
         "action->Magic Immunity": {
           "name": "Inmunidad a la magia",
-          "description": "<p>Sacuishu es inmune a todos los conjuros, excepto a @UUID[Compendium.pf2e.spells-srd.Item.HRb2doyaLtaoCfi3]{Fuego feérico}, @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]{Luz reveladora}, @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Descarga de fuerza} y @UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]{Dilema}.</p>"
+          "description": "<p>Sacuishu es inmune a todos los conjuros, excepto a @UUID[Compendium.pf2e.conjuros-srd.Item.HRb2doyaLtaoCfi3]{Fuego feérico}, @UUID[Compendium.pf2e.conjuros-srd.Item.0qaqksrGGDj74HXE]{Luz reveladora}, @UUID[Compendium.pf2e.conjuros-srd.Item.gKKqvLohtrSJj3BM]{Descarga de fuerza} y @UUID[Compendium.pf2e.conjuros-srd.Item.Oj1PJBMQD9vuwCv7]{Dilema}.</p>"
         },
         "action->Feed on Magic": {
           "name": "Alimentarse de la magia",
@@ -3147,10 +3147,10 @@
           "name": "Hechizos innatos divinos"
         },
         "spell->Darkness (At Will)": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]\nOscuridad (a voluntad)"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.4GE2ZdODgIQtg51c]\nOscuridad (a voluntad)"
         },
         "spell->Faerie Fire (At Will)": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.HRb2doyaLtaoCfi3]\nFuego de hadas (a voluntad)"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.HRb2doyaLtaoCfi3]\nFuego de hadas (a voluntad)"
         },
         "spell->Dancing Lights": {
           "name": "Luces danzantes",
@@ -3188,7 +3188,7 @@
         },
         "action->Stupor Poison": {
           "name": "Veneno de estupor",
-          "description": "<p> El veneno de estupor es una destilación más potente de @UUID[Compendium.pf2e.equipment-srd.Item.zo0ophqfKunJFxZN]{Lethargy Poison}. Una mayor exposición al veneno de estupor no requiere que el objetivo intente tiradas de salvación adicionales; Sólo fallar una tirada de salvación contra una exposición en curso puede avanzar en su etapa. </p>\n <hr />\n <p> <strong> Tiro de salvación </strong> @Check[type:fortitude|dc:20|traits:alchemical,incapacitation,injury,poison,sleep] </p>\n <p> <strong> Duración máxima </strong> 6 horas </p>\n <p> <strong> Etapa 1 </strong>@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} y ​​@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} (1 ronda) </p>\n <p> <strong> Etapa 2 </strong> @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 2} y ​​con la guardia baja (1 asalto) </p>\n <p> <strong> Etapa 3 </strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} sin control de Percepción para despertar (1 ronda) </p>\n <p> <strong> Etapa 4 </strong> inconsciente sin control de Percepción para despertar ( [[/r 1d6 #hours]]{1d6 hours} ) </p>"
+          "description": "<p> El veneno de estupor es una destilación más potente de @UUID[Compendium.pf2e.equipment-srd.Item.zo0ophqfKunJFxZN]{Lethargy Poison}. Una mayor exposición al veneno de estupor no requiere que el objetivo intente tiradas de salvación adicionales; Sólo fallar una tirada de salvación contra una exposición en curso puede avanzar en su etapa. </p>\n <hr />\n <p> <strong> Tiro de salvación </strong> @Check[type:fortitude|dc:20|rasgos:alchemical,incapacitation,injury,poison,sleep] </p>\n <p> <strong> Duración máxima </strong> 6 horas </p>\n <p> <strong> Etapa 1 </strong>@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} y ​​@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} (1 ronda) </p>\n <p> <strong> Etapa 2 </strong> @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 2} y ​​con la guardia baja (1 asalto) </p>\n <p> <strong> Etapa 3 </strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} sin control de Percepción para despertar (1 ronda) </p>\n <p> <strong> Etapa 4 </strong> inconsciente sin control de Percepción para despertar ( [[/r 1d6 #hours]]{1d6 hours} ) </p>"
         }
       }
     },
@@ -3212,7 +3212,7 @@
         },
         "action->Spray Toxic Oil": {
           "name": "Rociar aceite tóxico",
-          "description": "<p>El scalathrax expulsa una gota de aceite tóxico por la boca en un @Template[type:cone|distance:15]{cono de 15 pies (4,5 m)}. Las criaturas en el área deben hacer una salvación de @Check[type:reflex|dc:21|traits:damaging-effect].</p>\n<p>El scalathrax no puede volver a Rociar aceite tóxico hasta pasados [[/br 1d4 #Recarga Rociar aceite tóxico]]{1d4 asaltos}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> La criatura no se ve afectada.</p>\n<p><strong>Éxito</strong> La criatura sufre @Damage[1d8[poison]]{1d8 daño por veneno}. </p>\n<p><strong>Fallo</strong> La criatura sufre @Damage[2d8[poison]]{2d8 daño por veneno}. Durante 1 minuto, la criatura obtiene debilidad al fuego 5 y siempre que la criatura falle críticamente una tirada de ataque con un arma que empuñe, se le cae el arma.</p>\n<p><strong>Fallo crítico</strong> Como con el fallo, pero con @Damage[4d8[poison]]{4d8 daño por veneno}.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.75B7z49jfQbWcSy9]{Efecto: Rociar aceite tóxico}</p>"
+          "description": "<p>El scalathrax expulsa una gota de aceite tóxico por la boca en un @Template[type:cone|distance:15]{cono de 15 pies (4,5 m)}. Las criaturas en el área deben hacer una salvación de @Check[type:reflex|dc:21|rasgos:damaging-effect].</p>\n<p>El scalathrax no puede volver a Rociar aceite tóxico hasta pasados [[/br 1d4 #Recarga Rociar aceite tóxico]]{1d4 asaltos}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> La criatura no se ve afectada.</p>\n<p><strong>Éxito</strong> La criatura sufre @Damage[1d8[poison]]{1d8 daño por veneno}. </p>\n<p><strong>Fallo</strong> La criatura sufre @Damage[2d8[poison]]{2d8 daño por veneno}. Durante 1 minuto, la criatura obtiene debilidad al fuego 5 y siempre que la criatura falle críticamente una tirada de ataque con un arma que empuñe, se le cae el arma.</p>\n<p><strong>Fallo crítico</strong> Como con el fallo, pero con @Damage[4d8[poison]]{4d8 daño por veneno}.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.75B7z49jfQbWcSy9]{Efecto: Rociar aceite tóxico}</p>"
         }
       }
     },
@@ -3235,8 +3235,8 @@
         "consumable->Wand of See Invisibility (Level 2)": {
           "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]\nVarita de Ver Invisibilidad (Nivel 2)",
           "consumableSpellName": "Ver Invisibilidad",
-          "consumableSpellDescription": "<p>You can see @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} creatures and objects. They appear to you as translucent shapes, and they are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} to you.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The spell has a duration of 8 hours.</p>",
-          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]\n <p> @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{See the Unseen} </p> <hr /> <p> Este bastón mide aproximadamente un pie de largo y contiene un solo hechizo. La apariencia normalmente se relaciona con el hechizo interior. </p>\n <p> <strong> Activar </strong> Lanzar un hechizo </p>\n <p> <strong> Frecuencia </strong> una vez al día, más recargo </p>\n <hr />\n <p> <strong>Efecto </strong> Lanzas el Hechizo al nivel indicado. </p>\n <p> <strong> Requisitos de artesanía </strong> Proporcionar un lanzamiento del hechizo del nivel indicado. </p>\n <hr />\n <p> <em> Nota: Para crear un pergamino o varita de un hechizo específico, arrastre el hechizo desde el compendio o navegador de compendio al inventario de un PC, NPC o actor de botín. </em> </p>"
+          "consumableSpellDescription": "<p>Puedes see @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} creatures and objects. They appear to you as translucent shapes, and they are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} to you.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The conjuro has a duration of 8 hours.</p>",
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]\n <p> @UUID[Compendium.pf2e.conjuros-srd.Item.jwK43yKsHTkJQvQ9]{See the Unseen} </p> <hr /> <p> Este bastón mide aproximadamente un pie de largo y contiene un solo hechizo. La apariencia normalmente se relaciona con el hechizo interior. </p>\n <p> <strong> Activar </strong> Lanzar un hechizo </p>\n <p> <strong> Frecuencia </strong> una vez al día, más recargo </p>\n <hr />\n <p> <strong>Efecto </strong> Lanzas el Hechizo al nivel indicado. </p>\n <p> <strong> Requisitos de artesanía </strong> Proporcionar un lanzamiento del hechizo del nivel indicado. </p>\n <hr />\n <p> <em> Nota: Para crear un pergamino o varita de un hechizo específico, arrastre el hechizo desde el compendio o navegador de compendio al inventario de un PC, NPC o actor de botín. </em> </p>"
         },
         "strike-melee->Bite": {
           "name": "Morder"
@@ -3338,9 +3338,9 @@
         "consumable->Wand of Status (Level 2)": {
           "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]\nVarita de estatus (nivel 2)",
           "consumableSpellName": "Estado",
-          "consumableSpellDescription": " <p> As long as you and the target are on the same plane of existence and both alive, you remain aware of its present state. You know the target's direction from you, distance from you, and any conditions affecting it. </p> \n <hr /> \n <p>  <strong> Heightened (4th) </strong>  The spell's range increases to 30 feet, and you can target up to 10 creatures. </p> ",
+          "consumableSpellDescription": " <p> As long as you and the target are on the same plane of existence and both alive, you remain aware of its present state. Conoces the target's direction from you, distance from you, and any conditions affecting it. </p> \n <hr /> \n <p>  <strong> Heightened (4th) </strong>  The conjuro's range increases to 30 pies, and puedes target up to 10 creatures. </p> ",
           "consumableSpellTarget": "1 criatura viviente dispuesta",
-          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]\n <p> @UUID[Compendium.pf2e.spells-srd.Item.HTou8cG05yuSkesj]{Status} </p> <hr /> <p> Este bastón mide aproximadamente un pie de largo y contiene un solo hechizo. La apariencia normalmente se relaciona con el hechizo interior. </p>\n <p> <strong> Activar </strong> Lanzar un hechizo </p>\n <p> <strong> Frecuencia </strong> una vez al día, más recargo </p>\n <hr />\n <p> <strong>Efecto </strong> Lanzas el Hechizo al nivel indicado. </p>\n <p> <strong> Requisitos de artesanía </strong> Proporcionar un lanzamiento del hechizo del nivel indicado. </p>\n <hr />\n <p> <em> Nota: Para crear un pergamino o varita de un hechizo específico, arrastre el hechizo desde el compendio o navegador de compendio al inventario de un PC, NPC o actor de botín. </em> </p>"
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]\n <p> @UUID[Compendium.pf2e.conjuros-srd.Item.HTou8cG05yuSkesj]{Status} </p> <hr /> <p> Este bastón mide aproximadamente un pie de largo y contiene un solo hechizo. La apariencia normalmente se relaciona con el hechizo interior. </p>\n <p> <strong> Activar </strong> Lanzar un hechizo </p>\n <p> <strong> Frecuencia </strong> una vez al día, más recargo </p>\n <hr />\n <p> <strong>Efecto </strong> Lanzas el Hechizo al nivel indicado. </p>\n <p> <strong> Requisitos de artesanía </strong> Proporcionar un lanzamiento del hechizo del nivel indicado. </p>\n <hr />\n <p> <em> Nota: Para crear un pergamino o varita de un hechizo específico, arrastre el hechizo desde el compendio o navegador de compendio al inventario de un PC, NPC o actor de botín. </em> </p>"
         },
         "strike-melee->Bite": {
           "name": "Morder"
@@ -3446,7 +3446,7 @@
         },
         "action->Sapping Squeeze": {
           "name": "Apretón",
-          "description": "<p> <strong> Requisitos </strong> El shanrigol tiene una criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} </p>\n <hr />\n <p> <strong> Efecto </strong> El shanrigol exprime la esencia vital de su objetivo, causando @Damage[(1d10+11)[bludgeoning],1d6[sangrado]]{1d10+11 bludgeoning and 1d6 persistent bleed damage} ( @Check[type:fortitude|dc:25|basic:true] salvación). </p>\n <p> El shanrigol recupera puntos de vida temporales equivalentes a la mitad de la cantidad de daño contundente que recibe un solo objetivo; Estos puntos de vida temporales duran 1 minuto.</p>"
+          "description": "<p> <strong> Requisitos </strong> El shanrigol tiene una criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} </p>\n <hr />\n <p> <strong> Efecto </strong> El shanrigol exprime la esencia vital de su objetivo, causando @Damage[(1d10+11)[bludgeoning],1d6[sangrado]]{1d10+11 bludgeoning and 1d6 daño persistente de sangrado} ( @Check[type:fortitude|dc:25|basic:true] salvación). </p>\n <p> El shanrigol recupera puntos de vida temporales equivalentes a la mitad de la cantidad de daño contundente que recibe un solo objetivo; Estos puntos de vida temporales duran 1 minuto.</p>"
         },
         "action->Shred Flesh": {
           "name": "Triturar la carne",
@@ -3479,7 +3479,7 @@
         },
         "action->Sapping Squeeze": {
           "name": "Apretón",
-          "description": "<p> <strong> Requisitos </strong> El shanrigol tiene una criatura agarrada </p>\n <hr />\n <p> <strong> Efecto </strong> El shanrigol exprime la esencia vital de su objetivo, causando @Damage[(1d6+5)[bludgeoning] ,1d4[sangrado]]{1d6+5 bludgeoning and 1d4 persistent bleed damage} ( @Check[type:fortitude|dc:18|basic:true] salvación). </p>\n <p> El shanrigol recupera puntos de vida temporales equivalentes a la mitad de la cantidad de daño contundente que recibe un solo objetivo; Estos puntos de vida temporales duran 1 minuto. </p>"
+          "description": "<p> <strong> Requisitos </strong> El shanrigol tiene una criatura agarrada </p>\n <hr />\n <p> <strong> Efecto </strong> El shanrigol exprime la esencia vital de su objetivo, causando @Damage[(1d6+5)[bludgeoning] ,1d4[sangrado]]{1d6+5 bludgeoning and 1d4 daño persistente de sangrado} ( @Check[type:fortitude|dc:18|basic:true] salvación). </p>\n <p> El shanrigol recupera puntos de vida temporales equivalentes a la mitad de la cantidad de daño contundente que recibe un solo objetivo; Estos puntos de vida temporales duran 1 minuto. </p>"
         },
         "action->Shred Flesh": {
           "name": "Triturar la carne",
@@ -3505,7 +3505,7 @@
         },
         "action->Scythe Shuffle": {
           "name": "Guadaña aleatoria",
-          "description": "<p> Las cuchillas viajan erráticamente por las ramas del pasillo, fuera de la vista debajo de los pisos o detrás de las paredes. Para cada espada, tira [[/br 1d4 #Direction Scythe Blade]]{1d4} para determinar la región en la que realizará los próximos golpes de guadaña. Una criatura puede @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} ( @Check[type:perception|dc:22|traits:action:seek] ) para aprender pistas sobre espadas en la región que ocupa actualmente. Si tiene éxito, la criatura sabe cuántas espadas hay actualmente en su región. </p>\n <p> 1. Intersección principal (laÁrea de 15 pies por 25 pies donde se conectan los pasillos, como está marcado en el área <strong> B20 </strong> ) </p>\n <p> 2. Ramal norte (desde la intersección principal hasta la puerta secreta al área <strong> B14 </strong> ) </p>\n <p> 3. Salón central (desde la intersección principal hasta la puerta secreta al área <strong> B24 </strong> ) </p>\n <p> 4. Ramal sur (desde la intersección principal hasta el muro compartido con el área <strong> B25 </strong> )</p>"
+          "description": "<p> Las cuchillas viajan erráticamente por las ramas del pasillo, fuera de la vista debajo de los pisos o detrás de las paredes. Para cada espada, tira [[/br 1d4 #Direction Scythe Blade]]{1d4} para determinar la región en la que realizará los próximos golpes de guadaña. Una criatura puede @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} ( @Check[type:perception|dc:22|rasgos:action:seek] ) para aprender pistas sobre espadas en la región que ocupa actualmente. Si tiene éxito, la criatura sabe cuántas espadas hay actualmente en su región. </p>\n <p> 1. Intersección principal (laÁrea de 15 pies por 25 pies donde se conectan los pasillos, como está marcado en el área <strong> B20 </strong> ) </p>\n <p> 2. Ramal norte (desde la intersección principal hasta la puerta secreta al área <strong> B14 </strong> ) </p>\n <p> 3. Salón central (desde la intersección principal hasta la puerta secreta al área <strong> B24 </strong> ) </p>\n <p> 4. Ramal sur (desde la intersección principal hasta el muro compartido con el área <strong> B25 </strong> )</p>"
         },
         "strike-melee->Scythe": {
           "name": "Guadaña",
@@ -3522,14 +3522,14 @@
           "name": "Hechizos innatos divinos"
         },
         "spell->Darkness (At Will)": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]\nOscuridad (a voluntad)"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.4GE2ZdODgIQtg51c]\nOscuridad (a voluntad)"
         },
         "strike-melee->Shadow Hand": {
           "name": "Mano de sombra"
         },
         "action->Light Vulnerability": {
           "name": "Vulnerabilidad ligera",
-          "description": "<p> Un objeto que arroja luz mágica (como el del hechizo @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Light}) se trata como mágico cuando se usa para atacar la sombra. </p>"
+          "description": "<p> Un objeto que arroja luz mágica (como el del hechizo @UUID[Compendium.pf2e.conjuros-srd.Item.WBmvzNDfpwka3qT4]{Light}) se trata como mágico cuando se usa para atacar la sombra. </p>"
         },
         "action->Mark for Death": {
           "name": "Marcar por la muerte",
@@ -3562,7 +3562,7 @@
         },
         "action->Magic Immunity": {
           "name": "Inmunidad mágica",
-          "description": "<p> Un fuego fatuo es inmune a todos los hechizos excepto @UUID[Compendium.pf2e.spells-srd.Item.HRb2doyaLtaoCfi3]{Faerie Fire}, @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]{Revealing Light}, @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage} y ​​@UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]{Quandary}. </p>"
+          "description": "<p> Un fuego fatuo es inmune a todos los hechizos excepto @UUID[Compendium.pf2e.conjuros-srd.Item.HRb2doyaLtaoCfi3]{Faerie Fire}, @UUID[Compendium.pf2e.conjuros-srd.Item.0qaqksrGGDj74HXE]{Revealing Light}, @UUID[Compendium.pf2e.conjuros-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage} y ​​@UUID[Compendium.pf2e.conjuros-srd.Item.Oj1PJBMQD9vuwCv7]{Quandary}. </p>"
         },
         "action->Feed on Magic": {
           "name": "Alimentarse de magia",
@@ -3577,7 +3577,7 @@
     "Spike Launcher": {
       "name": "Lanzador de picos",
       "description": "<p> Una púa de metal dentada sale disparada de un lanzador oculto. </p>",
-      "disable": "<p> @Check[type:thievery|dc:16|name:Disable Launcher|traits:mechanical,trap] para desactivar uno de los cuatro lanzadores o @Check[type:acrobatics|dc:12|name:Avoid Trip Line|traits:mechanical,trap] para pasar por encima de una línea de disparo (esto no desarma la trampa, pero evita activarla) </p>",
+      "disable": "<p> @Check[type:thievery|dc:16|name:Disable Launcher|rasgos:mechanical,trap] para desactivar uno de los cuatro lanzadores o @Check[type:acrobatics|dc:12|name:Avoid Trip Line|rasgos:mechanical,trap] para pasar por encima de una línea de disparo (esto no desarma la trampa, pero evita activarla) </p>",
       "items": {
         "strike-ranged->Spike": {
           "name": "Spike"
@@ -3680,10 +3680,10 @@
           "name": "Hechizos innatos divinos"
         },
         "spell->Dimension Door": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nPuerta de dimensión"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.VlNcjmYyu95vOUe8]\nPuerta de dimensión"
         },
         "spell->Dimension Door (At Will)": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nPuerta dimensional (a voluntad)"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.VlNcjmYyu95vOUe8]\nPuerta dimensional (a voluntad)"
         },
         "spell->Infernal Pact": {
           "name": "Pacto diabólico"
@@ -3709,7 +3709,7 @@
         },
         "action->Infernal Wound": {
           "name": "Herida infernal",
-          "description": "<p> El golpe con guja de un diablo barbudo también inflige @Damage[1d6[bleed]] que resiste los intentos de curarlo. </p>\n <p> El cheque plano para detener el sangrado comienza en @Check[type:flat|dc:20] . La CD se reduce a @Check[type:flat|dc:15] sólo si la criatura sangrante o un aliado ayuda con éxito con la recuperación. La CD para @UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{Administer First Aid} a una criatura con una herida infernal se incrementa en 5. </p>\n <p> Un lanzador de hechizos o un objeto que intenta usar magia curativa en una criatura.que sufre una herida infernal debe superar una prueba de contraataque CD 21 o la magia no podrá curar a la criatura. </p>\n <p> @UUID[Compendium.pf2e.bestiary-effects.Item.inLBsuLRE5xmVHdn]{Effect: Infernal Wound} </p>"
+          "description": "<p> El golpe con guja de un diablo barbudo también inflige @Damage[1d6[bleed]] que resiste los intentos de curarlo. </p>\n <p> El cheque plano para detener el sangrado comienza en @Check[type:flat|dc:20] . La CD se reduce a @Check[type:flat|dc:15] sólo si la criatura sangrante o un aliado ayuda con éxito con la recuperación. La CD para @UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{Administer First Aid} a una criatura con una herida infernal se incrementa en 5. </p>\n <p> Un lanzador de hechizos o un objeto que intenta usar magia curativa en una criatura.que sufre una herida infernal debe superar una prueba de contraataque CD 21 o la magia no podrá curar a la criatura. </p>\n <p> @UUID[Compendium.pf2e.bestiary-effects.Item.inLBsuLRE5xmVHdn]{Efecto: Infernal Wound} </p>"
         },
         "action->Reposition": {
           "name": "Reposicionar",
@@ -3769,7 +3769,7 @@
         },
         "action->Wicked Bite": {
           "name": "Mordisco pérfido",
-          "description": "<p><strong>Requisitos</strong> El urdefhan ha dañado a una criatura con un Golpe de mandíbula en su última acción</p>\n<hr />\n<p><strong>Efecto</strong> El urdefhan mantiene el contacto, volviendo la carne de la criatura translúcida alrededor del lugar de la herida. El urdefhan elige una de las siguientes dos opciones, cada una de las cuales requiere una salvación de @Check[fortitude|dc:20]. Si el Golpe de mandíbulas fue un impacto crítico, la criatura sufre ambos efectos, utilizando el mismo resultado de salvación para ambos.</p>\n<ul>\n<li><strong>Drenar sangre</strong> @Check[fortitude|dc:26] El urdefhan bebe parte de la sangre de la criatura. En caso de fallar la salvación, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenada 1} y el urdefhan recupera @Damage[10[healing]]{10 Puntos de Golpe} (o, en caso de fallo crítico, queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenada 2} y el urdefhan recupera @Damage[20[healing]]{20 Puntos de Golpe}).</li>\n<li><strong>Drenar vitalidad</strong> (nigromancia) @Check[fortitude|dc:26|traits:necromancy] El urdefhan extrae parte de la esencia vital de la criatura. La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitada 1} durante 1 hora si falla la salvación (o @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitada 2} durante 1 hora en caso de fallo crítico).</li>\n</ul>"
+          "description": "<p><strong>Requisitos</strong> El urdefhan ha dañado a una criatura con un Golpe de mandíbula en su última acción</p>\n<hr />\n<p><strong>Efecto</strong> El urdefhan mantiene el contacto, volviendo la carne de la criatura translúcida alrededor del lugar de la herida. El urdefhan elige una de las siguientes dos opciones, cada una de las cuales requiere una salvación de @Check[fortitude|dc:20]. Si el Golpe de mandíbulas fue un impacto crítico, la criatura sufre ambos efectos, utilizando el mismo resultado de salvación para ambos.</p>\n<ul>\n<li><strong>Drenar sangre</strong> @Check[fortitude|dc:26] El urdefhan bebe parte de la sangre de la criatura. En caso de fallar la salvación, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenada 1} y el urdefhan recupera @Damage[10[healing]]{10 Puntos de Golpe} (o, en caso de fallo crítico, queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenada 2} y el urdefhan recupera @Damage[20[healing]]{20 Puntos de Golpe}).</li>\n<li><strong>Drenar vitalidad</strong> (nigromancia) @Check[fortitude|dc:26|rasgos:necromancy] El urdefhan extrae parte de la esencia vital de la criatura. La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitada 1} durante 1 hora si falla la salvación (o @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitada 2} durante 1 hora en caso de fallo crítico).</li>\n</ul>"
         }
       }
     },
@@ -3814,7 +3814,7 @@
         },
         "action->Wicked Bite": {
           "name": "Mordisco pérfido",
-          "description": "<p><strong>Requisitos</strong> El urdefhan ha dañado a una criatura con un Golpe de mandíbula en su última acción</p>\n<hr />\n<p><strong>Efecto</strong> El urdefhan mantiene el contacto, volviendo la carne de la criatura translúcida alrededor del lugar de la herida. El urdefhan elige una de las siguientes dos opciones, cada una de las cuales requiere una salvación de @Check[fortitude|dc:20]. Si el Golpe de mandíbulas fue un impacto crítico, la criatura sufre ambos efectos, utilizando el mismo resultado de salvación para ambos.</p>\n<ul>\n<li><strong>Drenar sangre</strong> @Check[fortitude|dc:24] El urdefhan bebe parte de la sangre de la criatura. En caso de fallar la salvación, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenada 1} y el urdefhan recupera @Damage[5[healing]]{5 Puntos de Golpe} (o, en caso de fallo crítico, queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenada 2} y el urdefhan recupera @Damage[10[healing]]{10 Puntos de Golpe}).</li>\n<li><strong>Drenar vitalidad</strong> (nigromancia) @Check[fortitude|dc:24|traits:necromancy] El urdefhan extrae parte de la esencia vital de la criatura. La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitada 1} durante 1 hora si falla la salvación (o @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitada 2} durante 1 hora en caso de fallo crítico).</li>\n</ul>"
+          "description": "<p><strong>Requisitos</strong> El urdefhan ha dañado a una criatura con un Golpe de mandíbula en su última acción</p>\n<hr />\n<p><strong>Efecto</strong> El urdefhan mantiene el contacto, volviendo la carne de la criatura translúcida alrededor del lugar de la herida. El urdefhan elige una de las siguientes dos opciones, cada una de las cuales requiere una salvación de @Check[fortitude|dc:20]. Si el Golpe de mandíbulas fue un impacto crítico, la criatura sufre ambos efectos, utilizando el mismo resultado de salvación para ambos.</p>\n<ul>\n<li><strong>Drenar sangre</strong> @Check[fortitude|dc:24] El urdefhan bebe parte de la sangre de la criatura. En caso de fallar la salvación, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenada 1} y el urdefhan recupera @Damage[5[healing]]{5 Puntos de Golpe} (o, en caso de fallo crítico, queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenada 2} y el urdefhan recupera @Damage[10[healing]]{10 Puntos de Golpe}).</li>\n<li><strong>Drenar vitalidad</strong> (nigromancia) @Check[fortitude|dc:24|rasgos:necromancy] El urdefhan extrae parte de la esencia vital de la criatura. La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitada 1} durante 1 hora si falla la salvación (o @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitada 2} durante 1 hora en caso de fallo crítico).</li>\n</ul>"
         }
       }
     },
@@ -3855,7 +3855,7 @@
         },
         "action->Wicked Bite": {
           "name": "Mordisco pérfido",
-          "description": "<p><strong>Requisitos</strong> El urdefhan ha dañado a una criatura con un Golpe de mandíbula en su última acción</p>\n<hr />\n<p><strong>Efecto</strong> El urdefhan mantiene el contacto, volviendo la carne de la criatura translúcida alrededor del lugar de la herida. El urdefhan elige una de las siguientes dos opciones, cada una de las cuales requiere una salvación de @Check[fortitude|dc:20]. Si el Golpe de mandíbulas fue un impacto crítico, la criatura sufre ambos efectos, utilizando el mismo resultado de salvación para ambos.</p>\n<ul>\n<li><strong>Drenar sangre</strong> @Check[fortitude|dc:25] El urdefhan bebe parte de la sangre de la criatura. En caso de fallar la salvación, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenada 1} y el urdefhan recupera @Damage[5[healing]]{5 Puntos de Golpe} (o, en caso de fallo crítico, queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenada 2} y el urdefhan recupera @Damage[20[healing]]{20 Puntos de Golpe}).</li>\n<li><strong>Drenar vitalidad</strong> (nigromancia) @Check[fortitude|dc:25|traits:necromancy] El urdefhan extrae parte de la esencia vital de la criatura. La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitada 1} durante 1 hora si falla la salvación (o @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitada 2} durante 1 hora en caso de fallo crítico).</li>\n</ul>"
+          "description": "<p><strong>Requisitos</strong> El urdefhan ha dañado a una criatura con un Golpe de mandíbula en su última acción</p>\n<hr />\n<p><strong>Efecto</strong> El urdefhan mantiene el contacto, volviendo la carne de la criatura translúcida alrededor del lugar de la herida. El urdefhan elige una de las siguientes dos opciones, cada una de las cuales requiere una salvación de @Check[fortitude|dc:20]. Si el Golpe de mandíbulas fue un impacto crítico, la criatura sufre ambos efectos, utilizando el mismo resultado de salvación para ambos.</p>\n<ul>\n<li><strong>Drenar sangre</strong> @Check[fortitude|dc:25] El urdefhan bebe parte de la sangre de la criatura. En caso de fallar la salvación, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenada 1} y el urdefhan recupera @Damage[5[healing]]{5 Puntos de Golpe} (o, en caso de fallo crítico, queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenada 2} y el urdefhan recupera @Damage[20[healing]]{20 Puntos de Golpe}).</li>\n<li><strong>Drenar vitalidad</strong> (nigromancia) @Check[fortitude|dc:25|rasgos:necromancy] El urdefhan extrae parte de la esencia vital de la criatura. La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitada 1} durante 1 hora si falla la salvación (o @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitada 2} durante 1 hora en caso de fallo crítico).</li>\n</ul>"
         }
       }
     },
@@ -3914,7 +3914,7 @@
         },
         "action->Draft Contract": {
           "name": "Redactar contrato",
-          "description": "<p>Urevian fabrica un contrato infernal para un único mortal vivo. Este contrato puede conceder una amplia gama de habilidades y efectos, similares al poder de un conjuro @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Deseo}, pero cumplido al pie de la letra por Urevian. Para recibir cualquiera de esos beneficios, el mortal debe firmar voluntariamente el contrato con su verdadero nombre. En ese momento, el alma del mortal queda ligada a Urevian y al Infierno.</p>\n<p>Mientras el contrato esté en vigor, no puede devolver al mortal a la vida, salvo mediante deseo o una magia similar. Si el mortal es devuelto a la vida por esos medios, Urevian sabe qué mortal volvió a la vida y puede localizar a la criatura o criaturas que devolvieron al mortal a la vida durante 1 año, obteniendo los efectos de un conjuro @UUID[Compendium.pf2e.spells-srd.Item.LQzlKbYjZSMFQawP]{Localizar} con alcance ilimitado. Evitar los términos de un contrato infernal es difícil y, a menudo, peligroso.</p>"
+          "description": "<p>Urevian fabrica un contrato infernal para un único mortal vivo. Este contrato puede conceder una amplia gama de habilidades y efectos, similares al poder de un conjuro @UUID[Compendium.pf2e.conjuros-srd.Item.6dDtGIUerazSHIOu]{Deseo}, pero cumplido al pie de la letra por Urevian. Para recibir cualquiera de esos beneficios, el mortal debe firmar voluntariamente el contrato con su verdadero nombre. En ese momento, el alma del mortal queda ligada a Urevian y al Infierno.</p>\n<p>Mientras el contrato esté en vigor, no puede devolver al mortal a la vida, salvo mediante deseo o una magia similar. Si el mortal es devuelto a la vida por esos medios, Urevian sabe qué mortal volvió a la vida y puede localizar a la criatura o criaturas que devolvieron al mortal a la vida durante 1 año, obteniendo los efectos de un conjuro @UUID[Compendium.pf2e.conjuros-srd.Item.LQzlKbYjZSMFQawP]{Localizar} con alcance ilimitado. Evitar los términos de un contrato infernal es difícil y, a menudo, peligroso.</p>"
         },
         "action->Infernal Wound": {
           "name": "Herida infernal",
@@ -3922,7 +3922,7 @@
         },
         "action->Right of Inspection": {
           "name": "Derecho de inspección",
-          "description": "<p>Urevian puede lanzar su conjuro innato @UUID[Compendium.pf2e.spells-srd.Item.r784cIz17eWujtQj]{Escudriñamiento} a voluntad, pero sólo para dirigirse a una criatura con la que tenga un contrato, a una criatura específica nombrada en un contrato que lleve encima o a un descendiente de cualquiera de esas criaturas. El resultado de la tirada de salvación del objetivo es un grado peor que el resultado que obtenga.</p>"
+          "description": "<p>Urevian puede lanzar su conjuro innato @UUID[Compendium.pf2e.conjuros-srd.Item.r784cIz17eWujtQj]{Escudriñamiento} a voluntad, pero sólo para dirigirse a una criatura con la que tenga un contrato, a una criatura específica nombrada en un contrato que lleve encima o a un descendiente de cualquiera de esas criaturas. El resultado de la tirada de salvación del objetivo es un grado peor que el resultado que obtenga.</p>"
         },
         "lore->Legal Lore": {
           "name": "LORE (legal)"
@@ -3993,11 +3993,11 @@
           "name": "Hechizos innatos divinos"
         },
         "spell->Feather Fall (At Will) (Self Only)": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.TTwOKGqmZeKSyNMH]\nCaída de plumas (a voluntad) (solo para uno mismo)",
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.TTwOKGqmZeKSyNMH]\nCaída de plumas (a voluntad) (solo para uno mismo)",
           "target": "ser"
         },
         "spell->Ray of Enfeeblement": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRayo de debilitamiento"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.J7Y7tl0bbdz7TcCc]\nRayo de debilitamiento"
         },
         "strike-melee->Fist": {
           "name": "Puño"
@@ -4045,7 +4045,7 @@
           "description": "<p> Cuando la morcilla es golpeada por un ataque que causaría daño cortante o perforante y tiene 10 o más HP, se divide en dos pudines idénticos, cada uno con la mitad de HP del original. </p>\n <p> Un pudín está en el mismo espacio que el original y el otro aparece en un espacio adyacente desocupado. Si no hay ningún espacio adyacente desocupado, automáticamente empuja a las criaturas y objetos fuera del camino para llenar un espacio (el DJ decide si un objeto o criatura es demasiado grande o resistente).para empujar). </p>"
         },
         "action->Constrict": {
-          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV]\n <p> @Damage[(1d8+7)[bludgeoning] ,1d6[ácido]]{1d8+7 bludgeoning damage plus 1d6 acid damage} , @Check[type:fortitude|dc:26|basic:true] guardar </p>\n <hr />\n <p> @Localize[PF2E.NPC.Abilities.Glossary.Constrict] </p>"
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV]\n <p> @Damage[(1d8+7)[bludgeoning] ,1d6[ácido]]{1d8+7 daño contundente plus 1d6 daño de ácido} , @Check[type:fortitude|dc:26|basic:true] guardar </p>\n <hr />\n <p> @Localize[PF2E.NPC.Abilities.Glossary.Constrict] </p>"
         },
         "action->Corrosive Touch": {
           "name": "Toque corrosivo",
@@ -4097,7 +4097,7 @@
           "name": "Hechizos innatos ocultos"
         },
         "spell->Darkness (At Will)": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]\nOscuridad (a voluntad)"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.4GE2ZdODgIQtg51c]\nOscuridad (a voluntad)"
         },
         "strike-melee->Claw": {
           "name": "Garra"
@@ -4111,7 +4111,7 @@
         },
         "action->Consume Light": {
           "name": "Consumir luz",
-          "description": "<p> <strong> Desencadenante </strong> El voidglutton lanza @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness} </p>\n <hr />\n <p> <strong> Efecto </strong> El glotón del vacío extingue su resplandor como parte del lanzamiento del hechizo. Se convierte en @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} mientras permanezca en el área de oscuridad. Si el glotón del vacío utiliza una acción hostil, su invisibilidad termina tan pronto como se completa la acción hostil. </p>"
+          "description": "<p> <strong> Desencadenante </strong> El voidglutton lanza @UUID[Compendium.pf2e.conjuros-srd.Item.4GE2ZdODgIQtg51c]{Darkness} </p>\n <hr />\n <p> <strong> Efecto </strong> El glotón del vacío extingue su resplandor como parte del lanzamiento del hechizo. Se convierte en @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} mientras permanezca en el área de oscuridad. Si el glotón del vacío utiliza una acción hostil, su invisibilidad termina tan pronto como se completa la acción hostil. </p>"
         },
         "action->Ectoplasmic Web Trap": {
           "name": "Trampa de red ectoplasmática",
@@ -4127,7 +4127,7 @@
         },
         "action->Magic Immunity": {
           "name": "Inmunidad mágica",
-          "description": "<p> Un Voidglotton es inmune a todos los hechizos excepto @UUID[Compendium.pf2e.spells-srd.Item.HRb2doyaLtaoCfi3]{Faerie Fire} , @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]{Revealing Light} , @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage} , @UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]{Quandary} y ​​hechizos con el rasgo de luz. </p>"
+          "description": "<p> Un Voidglotton es inmune a todos los hechizos excepto @UUID[Compendium.pf2e.conjuros-srd.Item.HRb2doyaLtaoCfi3]{Faerie Fire} , @UUID[Compendium.pf2e.conjuros-srd.Item.0qaqksrGGDj74HXE]{Revealing Light} , @UUID[Compendium.pf2e.conjuros-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage} , @UUID[Compendium.pf2e.conjuros-srd.Item.Oj1PJBMQD9vuwCv7]{Quandary} y ​​hechizos con el rasgo de luz. </p>"
         }
       }
     },
@@ -4149,22 +4149,22 @@
           "name": "Hechizos innatos divinos"
         },
         "spell->Dimension Door": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nPuerta de dimensión"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.VlNcjmYyu95vOUe8]\nPuerta de dimensión"
         },
         "spell->Animate Object": {
           "cost": "aceites raros, ver Tabla 7-1"
         },
         "spell->Comprehend Language": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.vTQvfYu2llKQedmY]\nComprender el lenguaje"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.vTQvfYu2llKQedmY]\nComprender el lenguaje"
         },
         "spell->Create Undead": {
           "cost": "ónix negro, ver Tabla 7-1"
         },
         "spell->Darkness (At Will)": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]\nOscuridad (a voluntad)"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.4GE2ZdODgIQtg51c]\nOscuridad (a voluntad)"
         },
         "spell->Faerie Fire (At Will)": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.HRb2doyaLtaoCfi3]\nFuego de hadas (a voluntad)"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.HRb2doyaLtaoCfi3]\nFuego de hadas (a voluntad)"
         },
         "spell->Alarm": {
           "requirements": "Foco campana de plata de 3po"
@@ -4177,10 +4177,10 @@
           "target": "1 objeto de 1 volumen o menos, ya sea desatendido o poseído por ti o por un aliado dispuesto"
         },
         "spell->Mage Hand": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]\nMano de mago"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.pwzdSlJgYqN7bs2w]\nMano de mago"
         },
         "spell->Unseen Servant": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.xqmHD8JIjak15lRk]\nSirviente invisible"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.xqmHD8JIjak15lRk]\nSirviente invisible"
         },
         "strike-melee->Tendril": {
           "name": "Zarcillo"
@@ -4234,7 +4234,7 @@
         },
         "action->Instinctual Tinker": {
           "name": "Tinker instintivo",
-          "description": "<p> El morlock juguetea con una construcción adyacente o un peligro mecánico. Intentan una prueba @Check[type:crafting|defense:fortitude] contra la CD de Fortaleza del constructo o peligro. El morlock no puede tener éxito si el nivel del objetivo es más del doble que el del morlock. </p>\n <hr />\n <p> <strong> Éxito crítico </strong> El objetivo gana [[/r 4d6[healing]]] Puntos de vida y un bono de circunstancia +1 a las tiradas de ataque durante 1 minuto. </p>\n <p> <strong> Éxito </strong> Elel objetivo gana [[/r 2d6[healing]]] Puntos de vida. </p>\n <p> <strong> Fallo crítico </strong> El morlock se lastima a sí mismo, recibiendo [[/r 2d6]]{2d6 damage} (normalmente contundente, perforante o cortante, pero potencialmente de un tipo diferente a discreción del DJ). </p>\n <p> @UUID[Compendium.pf2e.bestiary-effects.Item.TEzLEXBZzNCp6flg]{Effect: Instinctual Tinker (Critical Success)} </p>"
+          "description": "<p> El morlock juguetea con una construcción adyacente o un peligro mecánico. Intentan una prueba @Check[type:crafting|defense:fortitude] contra la CD de Fortaleza del constructo o peligro. El morlock no puede tener éxito si el nivel del objetivo es más del doble que el del morlock. </p>\n <hr />\n <p> <strong> Éxito crítico </strong> El objetivo gana [[/r 4d6[healing]]] Puntos de vida y un bono de circunstancia +1 a las tiradas de ataque durante 1 minuto. </p>\n <p> <strong> Éxito </strong> Elel objetivo gana [[/r 2d6[healing]]] Puntos de vida. </p>\n <p> <strong> Fallo crítico </strong> El morlock se lastima a sí mismo, recibiendo [[/r 2d6]]{2d6 daño} (normalmente contundente, perforante o cortante, pero potencialmente de un tipo diferente a discreción del DJ). </p>\n <p> @UUID[Compendium.pf2e.bestiary-effects.Item.TEzLEXBZzNCp6flg]{Efecto: Instinctual Tinker (Éxito crítico)} </p>"
         },
         "action->Leap Attack": {
           "name": "Ataque de salto",
@@ -4252,9 +4252,9 @@
     "Watching Wall": {
       "name": "Mirando la pared",
       "description": "<p> Una sensación abrumadora de ser observado surge en las mentes de aquellos en la habitación, un instante antes de que un misterioso ojo rojo se abra en la pared occidental. </p>",
-      "disable": "<p> @Check[type:deception|dc:22|name:Appear Uninteresting|traits:haunt] (entrenado) para parecer poco interesante al ojo observador (y por lo tanto ser ignorado por él) o @Check[type:religion|dc:22|name:Ward Against Being Seen|traits:haunt] (entrenado) para evitar ser visto o afectado por el ojo. </p>",
+      "disable": "<p> @Check[type:deception|dc:22|name:Appear Uninteresting|rasgos:haunt] (entrenado) para parecer poco interesante al ojo observador (y por lo tanto ser ignorado por él) o @Check[type:religion|dc:22|name:Ward Against Being Seen|rasgos:haunt] (entrenado) para evitar ser visto o afectado por el ojo. </p>",
       "reset": "<p> La guarida se vuelve inerte al final de cualquier ronda en la que no hay @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado} criaturas que pueda ver. Permanece inactivo durante 1 hora, después de lo cual se reinicia. </p>",
-      "routine": "<p> (1 acción) El ojo mira a su alrededor, y aquellos que puede ver (ya sea en el área <strong> C4 </strong> o fuera de ella) reciben @Damage[4d6[mental]] daño (@Check[type:will|dc:21|basic:true|traits:haunt] salvación) mientras el miedo a ser observado imparte oleadas de dolor. </p>\n <p> Una criatura que recibe daño mental por este efecto no reduce su valor @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado} al final de su siguiente turno. </p>",
+      "routine": "<p> (1 acción) El ojo mira a su alrededor, y aquellos que puede ver (ya sea en el área <strong> C4 </strong> o fuera de ella) reciben @Damage[4d6[mental]] daño (@Check[type:will|dc:21|basic:true|rasgos:haunt] salvación) mientras el miedo a ser observado imparte oleadas de dolor. </p>\n <p> Una criatura que recibe daño mental por este efecto no reduce su valor @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado} al final de su siguiente turno. </p>",
       "stealth": "<p> (experto) </p>",
       "items": {
         "action->Someone is Watching": {
@@ -4276,7 +4276,7 @@
         },
         "action->Magic Immunity": {
           "name": "Inmunidad mágica",
-          "description": "<p> Un fuego fatuo es inmune a todos los hechizos excepto @UUID[Compendium.pf2e.spells-srd.Item.HRb2doyaLtaoCfi3]{Faerie Fire}, @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]{Revealing Light}, @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage} y ​​@UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]{Quandary}. </p>"
+          "description": "<p> Un fuego fatuo es inmune a todos los hechizos excepto @UUID[Compendium.pf2e.conjuros-srd.Item.HRb2doyaLtaoCfi3]{Faerie Fire}, @UUID[Compendium.pf2e.conjuros-srd.Item.0qaqksrGGDj74HXE]{Revealing Light}, @UUID[Compendium.pf2e.conjuros-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage} y ​​@UUID[Compendium.pf2e.conjuros-srd.Item.Oj1PJBMQD9vuwCv7]{Quandary}. </p>"
         },
         "action->Aquatic Ambush": {
           "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.HBrBrUzjfvj2gDXB]\n <p> 60 pies </p>\n <hr />\n <p> @Localize[PF2E.NPC.Abilities.Glossary.AquaticAmbush] </p>"
@@ -4304,23 +4304,23 @@
           "name": "Hechizos del aquelarre"
         },
         "spell->Baleful Polymorph": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]\nPolimorfo siniestro"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.dN8QBNuTiaBHCKUe]\nPolimorfo siniestro"
         },
         "spell->Crushing Despair": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.GaRQlC9Yw1BGKHfN]\nDesesperación aplastante"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.GaRQlC9Yw1BGKHfN]\nDesesperación aplastante"
         },
         "spell->Prying Eye": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.Ek5XI0aEdZhBgm21]\nOjo curioso"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.Ek5XI0aEdZhBgm21]\nOjo curioso"
         },
         "spell->Summon Entity (Will-o'-Wisp Only)": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.i1TvBID5QLyXrUCa]\nInvocar entidad (solo Will-o'-Wisp)"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.i1TvBID5QLyXrUCa]\nInvocar entidad (solo Will-o'-Wisp)"
         },
         "spell->Dancing Lights": {
           "name": "Luces danzantes",
           "description": "<p>Puedes crear hasta cuatro luces flotantes, sin que haya dos a más de 10 pies (3 m) de distancia. Cada una arroja luz como una antorcha. Cuando Sostienes el conjuro, puedes mover cualquier número de luces hasta 60 pies (18 m). Cada luz debe permanecer a 120 pies (36 m) de ti y a 10 pies (3 m) de las demás, o se apagará.</p>"
         },
         "spell->Illusory Disguise (At Will)": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]\nDisfraz ilusorio (a voluntad)"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.i35dpZFI7jZcRoBo]\nDisfraz ilusorio (a voluntad)"
         },
         "strike-melee->Witchflame Caress": {
           "name": "Caricia de llama mágica"
@@ -4329,7 +4329,7 @@
           "name": "Witchflame Bolt"
         },
         "action->Coven": {
-          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.52CdldlWMiVTZk1F]\n <p> El fuego brujo agrega @UUID[Compendium.pf2e.spells-srd.Item.Uqj344bezBq3ESdq]{Nightmare} , @UUID[Compendium.pf2e.spells-srd.Item.tlcrVRqW1MSKJ5IC]{Phantasmal Killer} , @UUID[Compendium.pf2e.spells-srd.Item.0XP2XOxT9VSiXFDr]{Phantasmal Calamity} y ​​@UUID[Compendium.pf2e.spells-srd.Item.i1TvBID5QLyXrUCa]{Summon Entity} a los hechizos de su aquelarre. </p>\n <p> Un aquelarre puede contener uno o más fuegos brujos, pero también debe incluir al menos una criatura viviente capaz de formar un aquelarre; Tres fuegos brujos no pueden formar un aquelarre. </p>\n <hr />\n <p> @Localize[PF2E.NPC.Abilities.Glossary.Coven]</p>"
+          "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.52CdldlWMiVTZk1F]\n <p> El fuego brujo agrega @UUID[Compendium.pf2e.conjuros-srd.Item.Uqj344bezBq3ESdq]{Nightmare} , @UUID[Compendium.pf2e.conjuros-srd.Item.tlcrVRqW1MSKJ5IC]{Phantasmal Killer} , @UUID[Compendium.pf2e.conjuros-srd.Item.0XP2XOxT9VSiXFDr]{Phantasmal Calamity} y ​​@UUID[Compendium.pf2e.conjuros-srd.Item.i1TvBID5QLyXrUCa]{Summon Entity} a los hechizos de su aquelarre. </p>\n <p> Un aquelarre puede contener uno o más fuegos brujos, pero también debe incluir al menos una criatura viviente capaz de formar un aquelarre; Tres fuegos brujos no pueden formar un aquelarre. </p>\n <hr />\n <p> @Localize[PF2E.NPC.Abilities.Glossary.Coven]</p>"
         },
         "action->Opportune Witchflame": {
           "name": "Llama bruja oportuna",
@@ -4341,11 +4341,11 @@
         },
         "action->Witchflame": {
           "name": "llama bruja",
-          "description": "<p> Cualquier criatura que reciba daño de vacío por el Golpe de un fuego brujo debe intentar una salvación @Check[type:will|dc:26]. </p>\n <hr />\n <p> <strong> Éxito crítico </strong> La criatura no se ve afectada y es temporalmente inmune a la llama mágica durante 1 hora. </p>\n <p> <strong> Éxito </strong> La criatura parece incendiarse con enfermizas llamas verdes. Estas llamas no causan daño por sí solas, pero mientras ardan, la criatura no puede ser @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} ( @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} las criaturas son @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} en lugar de ser @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{No detectado} ) y gana debilidad 5 para disparar durante 1 ronda. </p>\n <p> <strong> Fracaso </strong> Como éxito, pero el efecto es permanente hasta que se elimina. </p>\n <p> <strong> Fallo crítico </strong> Como fallo, pero la criatura gana debilidad 10 al fuego. </p>\n <p> @UUID[Compendium.pf2e.bestiary-effects.Item.NHwmrSyF0e8HUE3m]{Effect: Witchflame (Success)} </p>\n <p>@UUID[Compendium.pf2e.bestiary-effects.Item.L7SiTshdimUPWfnB]{Effect: Witchflame (Failure)} </p>\n <p> @UUID[Compendium.pf2e.bestiary-effects.Item.McawF8weCe7O81um]{Effect: Witchflame (Critical Failure)} </p>"
+          "description": "<p> Cualquier criatura que reciba daño de vacío por el Golpe de un fuego brujo debe intentar una salvación @Check[type:will|dc:26]. </p>\n <hr />\n <p> <strong> Éxito crítico </strong> La criatura no se ve afectada y es temporalmente inmune a la llama mágica durante 1 hora. </p>\n <p> <strong> Éxito </strong> La criatura parece incendiarse con enfermizas llamas verdes. Estas llamas no causan daño por sí solas, pero mientras ardan, la criatura no puede ser @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} ( @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} las criaturas son @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} en lugar de ser @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{No detectado} ) y gana debilidad 5 para disparar durante 1 ronda. </p>\n <p> <strong> Fracaso </strong> Como éxito, pero el efecto es permanente hasta que se elimina. </p>\n <p> <strong> Fallo crítico </strong> Como fallo, pero la criatura gana debilidad 10 al fuego. </p>\n <p> @UUID[Compendium.pf2e.bestiary-effects.Item.NHwmrSyF0e8HUE3m]{Efecto: Witchflame (Éxito)} </p>\n <p>@UUID[Compendium.pf2e.bestiary-effects.Item.L7SiTshdimUPWfnB]{Efecto: Witchflame (Fallo)} </p>\n <p> @UUID[Compendium.pf2e.bestiary-effects.Item.McawF8weCe7O81um]{Efecto: Witchflame (Fallo crítico)} </p>"
         },
         "action->Witchflame Kindling": {
           "name": "Encendido de llama mágica",
-          "description": "<p> <strong> Requisitos </strong> Una criatura a 30 pies del fuego brujo arde con llama mágica </p>\n <hr />\n <p> <strong> Efecto </strong> Los ojos y la boca del fuego brujo brillan intensamente, y la llama de la bruja en la criatura objetivo momentáneamente arde mucho más caliente, causando @Damage[5d6[fire] ,5d6[void]]{5d6 fire damage and 5d6 void damage} a esa criatura ( @Check[type:fortitude|dc:28|basic:true] salvación). </p>\n <p> El fuego brujo no puede usar Witchflame Kindling para [[/br 1d4 #Recharge Witchflame Kindling]]{1d4 rounds}.</p>"
+          "description": "<p> <strong> Requisitos </strong> Una criatura a 30 pies del fuego brujo arde con llama mágica </p>\n <hr />\n <p> <strong> Efecto </strong> Los ojos y la boca del fuego brujo brillan intensamente, y la llama de la bruja en la criatura objetivo momentáneamente arde mucho más caliente, causando @Damage[5d6[fire] ,5d6[void]]{5d6 daño de fuego and 5d6 daño de vacío} a esa criatura ( @Check[type:fortitude|dc:28|basic:true] salvación). </p>\n <p> El fuego brujo no puede usar Witchflame Kindling para [[/br 1d4 #Recharge Witchflame Kindling]]{1d4 rounds}.</p>"
         }
       }
     },
@@ -4366,21 +4366,21 @@
           "target": "1 criatura"
         },
         "spell->Glitterdust": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]\npolvo brillante"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.0qaqksrGGDj74HXE]\npolvo brillante"
         },
         "spell->Hideous Laughter": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.tlSE7Ly8vi1Dgddv]\nRisa horrible"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.tlSE7Ly8vi1Dgddv]\nRisa horrible"
         },
         "spell->Dancing Lights": {
           "name": "Luces danzantes",
           "description": "<p>Puedes crear hasta cuatro luces flotantes, sin que haya dos a más de 10 pies (3 m) de distancia. Cada una arroja luz como una antorcha. Cuando Sostienes el conjuro, puedes mover cualquier número de luces hasta 60 pies (18 m). Cada luz debe permanecer a 120 pies (36 m) de ti y a 10 pies (3 m) de las demás, o se apagará.</p>"
         },
         "spell->Disrupt Undead": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.kcelf6IHl3L9VXXg]\nInterrumpir a los muertos vivientes",
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.kcelf6IHl3L9VXXg]\nInterrumpir a los muertos vivientes",
           "target": "1 criatura no muerta"
         },
         "spell->Feather Fall": {
-          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.TTwOKGqmZeKSyNMH]\nCaída de pluma"
+          "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conjuros-srd.Item.TTwOKGqmZeKSyNMH]\nCaída de pluma"
         },
         "equipment->Harrow Fortune-Telling Deck": {
           "name": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.B3aJa0csNZOGXLXT]\nBaraja de adivinación de Harrow"
@@ -4410,11 +4410,11 @@
         },
         "action->Blood Magic": {
           "name": "Magia de sangre",
-          "description": "<p> Cuando Wrin lanza @UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6]{Charm}, @UUID[Compendium.pf2e.spells-srd.Item.IihxWhRfpsBgQ5jS]{Enthrall}, @UUID[Compendium.pf2e.spells-srd.Item.IkS3lDGUpIOMug7v]{Faerie Dust}, @UUID[Compendium.pf2e.spells-srd.Item.atlgGNI1E1Ox3O3a]{Ghost Sound}, o @UUID[Compendium.pf2e.spells-srd.Item.tlSE7Ly8vi1Dgddv]{Laughing Fit}, glamour feérico baila alrededor de Wrin o de un objetivo del hechizo, provocando que ser @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} durante 1 ronda. Un ocultamiento tan obvio no se puede utilizar para @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} . </p>"
+          "description": "<p> Cuando Wrin lanza @UUID[Compendium.pf2e.conjuros-srd.Item.vLA0q0WOK2YPuJs6]{Charm}, @UUID[Compendium.pf2e.conjuros-srd.Item.IihxWhRfpsBgQ5jS]{Enthrall}, @UUID[Compendium.pf2e.conjuros-srd.Item.IkS3lDGUpIOMug7v]{Faerie Dust}, @UUID[Compendium.pf2e.conjuros-srd.Item.atlgGNI1E1Ox3O3a]{Ghost Sound}, o @UUID[Compendium.pf2e.conjuros-srd.Item.tlSE7Ly8vi1Dgddv]{Laughing Fit}, glamour feérico baila alrededor de Wrin o de un objetivo del hechizo, provocando que ser @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} durante 1 ronda. Un ocultamiento tan obvio no se puede utilizar para @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} . </p>"
         },
         "action->Read the Stars": {
           "name": "leer las estrellas",
-          "description": "<p> <strong> Frecuencia </strong> una vez al día </p>\n <hr />\n <p> <strong> Efecto </strong> Wrin intenta leer el futuro en las estrellas pasando una hora estudiando el cielo nocturno; no puede usar esta habilidad durante el día, en una noche nublada o cuando no puede estudiar las estrellas de otro modo. Aunque Wrin suele realizar esta lectura para una persona individual o para responder una pregunta urgente que tenga, para los fines de esta campaña ella lee las estrellas.para el partido en su conjunto. Intenta una prueba @Check[type:astrology-lore], usando la CD apropiada para el nivel actual de los héroes. </p>\n <hr />\n <p> <strong> Éxito crítico </strong> Los resultados de las lecturas astrológicas de Wrin tienen los efectos de @UUID[Compendium.pf2e.spells-srd.Item.pkcOby5prOausy1k]{Read Omens}, y los héroes obtienen un bono de circunstancia +1 a las tiradas de salvación durante 24 horas. </p>\n <p> <strong> Éxito </strong> Los resultados de las lecturas astrológicas de Wrin tienen los efectos de@UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]{Augury} , pero puede predecir resultados hasta 24 horas en el futuro. </p>\n <p> <strong> Fallo </strong> Sin lectura. </p>\n <p> <strong> Fallo crítico </strong> Wrin roza fuerzas espirituales hostiles y no puede hacerlo durante 1 semana. </p>\n <p> @UUID[Compendium.pf2e.bestiary-effects.Item.rbgXQqXbpaQCcNNx]{Effect: Read the Stars (Critical Success)} </p>"
+          "description": "<p> <strong> Frecuencia </strong> una vez al día </p>\n <hr />\n <p> <strong> Efecto </strong> Wrin intenta leer el futuro en las estrellas pasando una hora estudiando el cielo nocturno; no puede usar esta habilidad durante el día, en una noche nublada o cuando no puede estudiar las estrellas de otro modo. Aunque Wrin suele realizar esta lectura para una persona individual o para responder una pregunta urgente que tenga, para los fines de esta campaña ella lee las estrellas.para el partido en su conjunto. Intenta una prueba @Check[type:astrology-lore], usando la CD apropiada para el nivel actual de los héroes. </p>\n <hr />\n <p> <strong> Éxito crítico </strong> Los resultados de las lecturas astrológicas de Wrin tienen los efectos de @UUID[Compendium.pf2e.conjuros-srd.Item.pkcOby5prOausy1k]{Read Omens}, y los héroes obtienen un bono de circunstancia +1 a las tiradas de salvación durante 24 horas. </p>\n <p> <strong> Éxito </strong> Los resultados de las lecturas astrológicas de Wrin tienen los efectos de@UUID[Compendium.pf2e.conjuros-srd.Item.41TZEjhO6D1nWw2X]{Augury} , pero puede predecir resultados hasta 24 horas en el futuro. </p>\n <p> <strong> Fallo </strong> Sin lectura. </p>\n <p> <strong> Fallo crítico </strong> Wrin roza fuerzas espirituales hostiles y no puede hacerlo durante 1 semana. </p>\n <p> @UUID[Compendium.pf2e.bestiary-effects.Item.rbgXQqXbpaQCcNNx]{Efecto: Read the Stars (Éxito crítico)} </p>"
         },
         "lore->Astrology Lore": {
           "name": "Conocimiento de la astrología"
@@ -4473,7 +4473,7 @@
         },
         "action->Leng Ruby": {
           "name": "Rubí de Leng",
-          "description": "<p>Muchos habitantes de Leng llevan extraños rubíes extraídos de las canteras de Leng. Mientras una criatura tenga un rubí de Leng que haya aceptado voluntariamente como regalo o como pago de un habitante de Leng, cualquier habitante de Leng puede apuntar a esa criatura con @UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{Dolor fantasmal}, @UUID[Compendium.pf2e.spells-srd.Item.KHnhPHL4x1AQHfbC]{Leer la mente} o @UUID[Compendium.pf2e.spells-srd.Item.KSAEhNfZyXMO7Z7V]{Maldición del paria}, a un alcance de 1 milla (1.600 m) y el portador obtiene un resultado un grado de éxito peor que el resultado que saque en su tirada de salvación contra <em>maldición del paria</em>.</p>"
+          "description": "<p>Muchos habitantes de Leng llevan extraños rubíes extraídos de las canteras de Leng. Mientras una criatura tenga un rubí de Leng que haya aceptado voluntariamente como regalo o como pago de un habitante de Leng, cualquier habitante de Leng puede apuntar a esa criatura con @UUID[Compendium.pf2e.conjuros-srd.Item.R8bqnYiThB6MYTxD]{Dolor fantasmal}, @UUID[Compendium.pf2e.conjuros-srd.Item.KHnhPHL4x1AQHfbC]{Leer la mente} o @UUID[Compendium.pf2e.conjuros-srd.Item.KSAEhNfZyXMO7Z7V]{Maldición del paria}, a un alcance de 1 milla (1.600 m) y el portador obtiene un resultado un grado de éxito peor que el resultado que saque en su tirada de salvación contra <em>maldición del paria</em>.</p>"
         },
         "lore->Sailing Lore": {
           "name": "Saber (navegación)"

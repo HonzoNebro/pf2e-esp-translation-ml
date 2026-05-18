@@ -27,7 +27,7 @@
     },
     "Augury": {
       "name": "Augurio",
-      "description": "<p> Tu familiar puede vislumbrar los hilos del destino para darte una pista críptica sobre tu futuro. Tu familiar puede lanzar @UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]{Augury} una vez al día usando tu tradición mágica y tu hechizo DC. Debes tener al menos el nivel 8 para seleccionar esta habilidad. </p>"
+      "description": "<p> Tu familiar puede vislumbrar los hilos del destino para darte una pista críptica sobre tu futuro. Tu familiar puede lanzar @UUID[Compendium.pf2e.conjuros-srd.Item.41TZEjhO6D1nWw2X]{Augury} una vez al día usando tu tradición mágica y tu hechizo DC. Debes tener al menos el nivel 8 para seleccionar esta habilidad. </p>"
     },
     "Burrower": {
       "name": "excavador",
@@ -59,7 +59,7 @@
     },
     "Dazzling Show": {
       "name": "Exhibición deslumbrante",
-      "description": "<p><strong>Frecuencia</strong> una vez por minuto</p><hr /><p><strong>Efecto</strong> Tu kinnara destella sus brillantes plumas. Cada criatura dentro de una @Template[type:emanation|distance:30] debe intentar una salvación @Check[will|against:class-spell] contra tu CD de clase o CD de conjuro, la que sea mayor, o queda @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrada} durante 2 asaltos.</p>"
+      "description": "<p><strong>Frecuencia</strong> una vez por minuto</p><hr /><p><strong>Efecto</strong> Tu kinnara destella sus brillantes plumas. Cada criatura dentro de una @Template[type:emanation|distance:30] debe intentar una salvación @Check[will|against:class-conjuro] contra tu CD de clase o CD de conjuro, la que sea mayor, o queda @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrada} durante 2 asaltos.</p>"
     },
     "Dragon": {
       "name": "Dragón",
@@ -219,7 +219,7 @@
     },
     "Item Delivery": {
       "name": "Entrega de objetos",
-      "description": "<p>Si tu familiar está adyacente a ti, puedes Ordenarle que entregue un objeto. En lugar de sus 2 acciones normales, tu familiar Interactúa para tomar un objeto que estés sosteniendo de Impedimenta ligera o menos, realiza una acción de movimiento y finalmente Interactúa para entregar el objeto a otra criatura voluntaria.</p>\n<p>En su lugar, puede administrar el objeto a la criatura si puede hacerlo con 1 acción y tiene un tipo de objeto apropiado, como un elixir alquímico. Si tu familiar no alcanza al objetivo este turno, conserva el objeto hasta que se le ordene otra cosa. Tu familiar debe tener la aptitud destreza manual para seleccionar esto.</p>"
+      "description": "<p>Si tu familiar está adyacente a ti, puedes Ordenarle que entregue un objeto. En lugar de sus 2 acciones normales, tu familiar Interactuarúa para tomar un objeto que estés sosteniendo de Impedimenta ligera o menos, realiza una acción de movimiento y finalmente Interactuarúa para entregar el objeto a otra criatura voluntaria.</p>\n<p>En su lugar, puede administrar el objeto a la criatura si puede hacerlo con 1 acción y tiene un tipo de objeto apropiado, como un elixir alquímico. Si tu familiar no alcanza al objetivo este turno, conserva el objeto hasta que se le ordene otra cosa. Tu familiar debe tener la aptitud destreza manual para seleccionar esto.</p>"
     },
     "Jet": {
       "name": "Chorro",
@@ -255,7 +255,7 @@
     },
     "Lightning Needles": {
       "name": "Agujas relampagueantes",
-      "description": "<p><strong>Requisitos</strong> Has Lanzado un conjuro que tenía los rasgos aire o electricidad este turno.</p><hr /><p><strong>Efecto</strong> Tu familiar absorbe el exceso de carga eléctrica y libera una @Template[type:emanation|distance:5] de electricidad estática que fluye por los meridianos de las criaturas. Las criaturas en la emanación que fallen una salvación @Check[fortitude|against:spell] contra tu CD de conjuro quedan torpes 1 hasta el final de su siguiente turno. Si una criatura está empapada o está sobre agua o dentro de ella en la emanación, también recibe @Damage[1d4[persistent,electricity]] de daño con una salvación fallida.</p>"
+      "description": "<p><strong>Requisitos</strong> Has Lanzado un conjuro que tenía los rasgos aire o electricidad este turno.</p><hr /><p><strong>Efecto</strong> Tu familiar absorbe el exceso de carga eléctrica y libera una @Template[type:emanation|distance:5] de electricidad estática que fluye por los meridianos de las criaturas. Las criaturas en la emanación que fallen una salvación @Check[fortitude|against:conjuro] contra tu CD de conjuro quedan torpes 1 hasta el final de su siguiente turno. Si una criatura está empapada o está sobre agua o dentro de ella en la emanación, también recibe @Damage[1d4[persistent,electricity]] de daño con una salvación fallida.</p>"
     },
     "Luminous": {
       "name": "Luminoso",
@@ -279,11 +279,11 @@
     },
     "Master's Form": {
       "name": "Forma del amo",
-      "description": "<p>Tu familiar puede cambiar de forma como una única acción, transformándose en un humanoide de tu ascendencia con la misma edad, género y complexión de su auténtica forma, aunque siempre mantiene un residuo claramente antinatural de su naturaleza, como ojos de gato o lengua de serpiente. Esta forma es siempre la misma cada vez que utiliza esta aptitud. Por lo demás, esta aptitud utiliza los efectos de @UUID[Compendium.pf2e.spells-srd.Item.2qGqa33E4GPUCbMV]{Forma de humanoide}, excepto que el cambio es puramente cosmético. Tan sólo parece ser humanoide, y no obtiene capacidades nuevas. Tu familiar ha de tener las aptitudes de familiar destreza manual y habla para seleccionar esto.</p>"
+      "description": "<p>Tu familiar puede cambiar de forma como una única acción, transformándose en un humanoide de tu ascendencia con la misma edad, género y complexión de su auténtica forma, aunque siempre mantiene un residuo claramente antinatural de su naturaleza, como ojos de gato o lengua de serpiente. Esta forma es siempre la misma cada vez que utiliza esta aptitud. Por lo demás, esta aptitud utiliza los efectos de @UUID[Compendium.pf2e.conjuros-srd.Item.2qGqa33E4GPUCbMV]{Forma de humanoide}, excepto que el cambio es puramente cosmético. Tan sólo parece ser humanoide, y no obtiene capacidades nuevas. Tu familiar ha de tener las aptitudes de familiar destreza manual y habla para seleccionar esto.</p>"
     },
     "Medic": {
       "name": "Médico",
-      "description": "<p> Tu familiar puede recurrir al poder de tu deidad para @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} una vez al día. El familiar puede lanzar la versión de 1 acción de @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} en un nivel 2 niveles inferior a tu espacio de hechizo de mayor rango, que solo puede lanzar sobre ti. Debes poder lanzar hechizos de tercer rango desde espacios de hechizo para seleccionar esta habilidad. </p>"
+      "description": "<p> Tu familiar puede recurrir al poder de tu deidad para @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Lanzar un conjuro} una vez al día. El familiar puede lanzar la versión de 1 acción de @UUID[Compendium.pf2e.conjuros-srd.Item.rfZpqmj0AIIdkVIs]{Heal} en un nivel 2 niveles inferior a tu espacio de hechizo de mayor rango, que solo puede lanzar sobre ti. Debes poder lanzar hechizos de tercer rango desde espacios de hechizo para seleccionar esta habilidad. </p>"
     },
     "Partner in Crime": {
       "name": "Cómplice",
@@ -299,7 +299,7 @@
     },
     "Plant Form": {
       "name": "Forma de planta",
-      "description": "<p>Tu familiar planta puede cambiar de forma como una sola acción, transformándose en una planta Menuda de un tipo aproximadamente similar a la naturaleza del familiar. Por lo demás esto utiliza los efectos de @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{Uno con las plantas}. Para seleccionar esta aptitud has de tener un familiar con el rasgo planta.</p>"
+      "description": "<p>Tu familiar planta puede cambiar de forma como una sola acción, transformándose en una planta Menuda de un tipo aproximadamente similar a la naturaleza del familiar. Por lo demás esto utiliza los efectos de @UUID[Compendium.pf2e.conjuros-srd.Item.dileJ0Yxqg76LMvu]{Uno con las plantas}. Para seleccionar esta aptitud has de tener un familiar con el rasgo planta.</p>"
     },
     "Play Dead": {
       "name": "Hacerse el muerto",
@@ -395,7 +395,7 @@
     },
     "Stunning Flare": {
       "name": "Destello aturdidor",
-      "description": "<p><strong>Frecuencia</strong> una vez cada 10 minutos</p><hr /><p><strong>Efecto</strong> Tu fulgor de linterna libera una gran llamarada que proyecta una luz antinaturalmente brillante. Cada criatura dentro de una @Template[type:emanation|distance:15] debe intentar una salvación @Check[fortitude|against:class-spell] contra tu CD de clase o CD de conjuro, la que sea mayor, o queda @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegada} durante 1 asalto y después @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrada} durante 2 asaltos.</p>"
+      "description": "<p><strong>Frecuencia</strong> una vez cada 10 minutos</p><hr /><p><strong>Efecto</strong> Tu fulgor de linterna libera una gran llamarada que proyecta una luz antinaturalmente brillante. Cada criatura dentro de una @Template[type:emanation|distance:15] debe intentar una salvación @Check[fortitude|against:class-conjuro] contra tu CD de clase o CD de conjuro, la que sea mayor, o queda @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegada} durante 1 asalto y después @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrada} durante 2 asaltos.</p>"
     },
     "Synchronize Spirit": {
       "name": "Espíritu sincronizado",
@@ -427,11 +427,11 @@
     },
     "Valet": {
       "name": "Ayudante",
-      "description": "<p>Puedes ordenar a tu familiar que te entregue objetos de forma más eficiente. Tu familiar no utiliza sus 2 acciones inmediatamente tras tu orden. En su lugar, hasta 2 veces antes del final de tu turno, puedes hacer que tu familiar Interactúe para recuperar un objeto de Impedimenta ligera o desdeñable que tú llevas encima y colocarlo en una de tus manos libres. El familiar no puede utilizar esta aptitud para recuperar objetos guardados. Si tiene un número diferente de acciones, puedes recuperar un objeto por cada acción de que dispone cuando se le dan órdenes de esta forma.</p>"
+      "description": "<p>Puedes ordenar a tu familiar que te entregue objetos de forma más eficiente. Tu familiar no utiliza sus 2 acciones inmediatamente tras tu orden. En su lugar, hasta 2 veces antes del final de tu turno, puedes hacer que tu familiar Interactuarúe para recuperar un objeto de Impedimenta ligera o desdeñable que tú llevas encima y colocarlo en una de tus manos libres. El familiar no puede utilizar esta aptitud para recuperar objetos guardados. Si tiene un número diferente de acciones, puedes recuperar un objeto por cada acción de que dispone cuando se le dan órdenes de esta forma.</p>"
     },
     "Verdant Burst": {
       "name": "Explosión verde",
-      "description": "<p><strong>Prerrequisitos</strong> @UUID[Compendium.pf2e.feats-srd.Item.baz18CdB13DVMHV9]{Secretos del familiar leshy}</p>\n<p>Cuando tu familiar muere, libera su energía primigenia para lanzar la versión de 3 acciones de @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar}, intensificada a un rango 1 menor que tu espacio de conjuro de mayor rango. El conjuro <em>curar</em> obtiene un bonificador de estado igual al doble del rango del conjuro a los Puntos de Golpe que restaura a plantas. Debes poder lanzar conjuros de 2.º rango usando espacios de conjuro para seleccionar esta aptitud de familiar.</p>"
+      "description": "<p><strong>Prerrequisitos</strong> @UUID[Compendium.pf2e.feats-srd.Item.baz18CdB13DVMHV9]{Secretos del familiar leshy}</p>\n<p>Cuando tu familiar muere, libera su energía primigenia para lanzar la versión de 3 acciones de @UUID[Compendium.pf2e.conjuros-srd.Item.rfZpqmj0AIIdkVIs]{Curar}, intensificada a un rango 1 menor que tu espacio de conjuro de mayor rango. El conjuro <em>curar</em> obtiene un bonificador de estado igual al doble del rango del conjuro a los Puntos de Golpe que restaura a plantas. Debes poder lanzar conjuros de 2.º rango usando espacios de conjuro para seleccionar esta aptitud de familiar.</p>"
     },
     "Versatile Form": {
       "name": "Forma versátil",

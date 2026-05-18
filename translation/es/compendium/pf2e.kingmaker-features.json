@@ -172,7 +172,7 @@
       "name": "Distante",
       "description": "<p> Un ejército que tiene la condición distante ha logrado retirarse a una distancia considerable de los ejércitos enemigos y está potencialmente preparado para escapar del campo de batalla. Los ejércitos pueden intentar ataques a distancia contra ejércitos distantes, pero reciben una penalización de -5 en ese ataque. </p>"
     },
-    "Effect: Guard (Critical Success)": {
+    "Efecto: Guard (Éxito crítico)": {
       "name": "Efecto: Guardia (éxito crítico)",
       "description": "<p> Este ejército obtiene una bonificación de +2 por elemento a su CA hasta el comienzo de su siguiente turno; esta bonificación se aplica a todos los ataques. </p>",
       "rules": {
@@ -181,7 +181,7 @@
         }
       }
     },
-    "Effect: Guard (Success)": {
+    "Efecto: Guard (Éxito)": {
       "name": "Efecto: Guardia (éxito)",
       "description": "<p> Este ejército obtiene una bonificación de elemento +2 a su CA hasta el comienzo de tu siguiente turno contra ataques del ejército objetivo. </p>",
       "rules": {
@@ -269,7 +269,7 @@
     },
     "Flaming Shot": {
       "name": "Disparo llameante",
-      "description": "<p> El ejército ataca con proyectiles tratados con aceites alquímicos o mágicos que se encienden al dispararse. Cuando tu ejército tiene éxito en un ataque a distancia, el ejército objetivo debe intentar una prueba @Check[type:maneuver|dc:resolve(@actor.strikes.ranged.variants.0.mod + 10)] contra la CD de ataque de tu ejército; si falla, el Golpe inflige [[/r 1 #damage]] puntos de daño adicionales. </p>"
+      "description": "<p> El ejército ataca con proyectiles tratados con aceites alquímicos o mágicos que se encienden al dispararse. Cuando tu ejército tiene éxito en un ataque a distancia, el ejército objetivo debe intentar una prueba @Check[type:maneuver|dc:resolve(@actor.strikes.ranged.variants.0.mod + 10)] contra la CD de ataque de tu ejército; si falla, el Golpe inflige [[/r 1 #daño]] puntos de daño adicionales. </p>"
     },
     "Flexible Tactics": {
       "name": "Tácticas flexibles",

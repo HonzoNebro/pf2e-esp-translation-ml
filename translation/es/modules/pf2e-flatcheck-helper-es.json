@@ -15,11 +15,11 @@
       },
       "deafened-spellcasting": {
         "label": "Deafened - Spellcasting",
-        "note": "Non-subtle spells require incantations, and all speech has the auditory trait."
+        "note": "Non-subtle conjuros require incantations, and all speech has the auditory rasgo."
       },
       "target": {
         "label": "Target",
-        "note": "Concealed/Hidden/Dazzled/Blinded/etc. Supports PF2e Visioner"
+        "note": "Oculto/Escondido/Dazzled/Blinded/etc. Supports PF2e Visioner"
       },
       "light-level": {
         "label": "Target - Light Level",
@@ -49,7 +49,7 @@
       },
       "flat-check-hide-roll": {
         "name": "Hide Rolls with Flat Checks",
-        "hint": "If a roll requires a flat check, the result will be hidden until revealed"
+        "hint": "If a roll requires a prueba plana, the result will be hidden until revealed"
       },
       "flat-check-hide-roll-auto-reveal": {
         "name": "Auto-Reveal Results",
@@ -61,7 +61,7 @@
       },
       "flat-check-target-marker": {
         "name": "Show Flat Check on Token",
-        "hint": "User setting: Shows flat check info on a token when targeting.",
+        "hint": "User setting: Shows prueba plana info on a token when targeting.",
         "choices": {
           "enabled": "Enabled",
           "onlyWithOrigin": "Only with origin",
@@ -69,7 +69,7 @@
         }
       },
       "flat-check-target-marker-display": {
-        "name": "Show on token flat check with",
+        "name": "Show on token prueba plana with",
         "hint": "",
         "choices": {
           "all": "Outline and Text",
@@ -114,14 +114,14 @@
       },
       "lifelink-formular": {
         "name": "Life Link Formular",
-        "hint": "Variant of life link damage absorption to use.",
+        "hint": "Variant of life link daño absorption to use.",
         "choices": {
           "apg": "Standard",
           "plus": "Oracles+ (Heightened (+2))"
         }
       },
       "emanation-automation": {
-        "name": "Auto-Apply Emanation Effect Button"
+        "name": "Auto-Apply Emanation Efecto Button"
       },
       "script-alt-roll-breakdown": {
         "name": "Alternative Roll Breakdowns",
@@ -149,7 +149,7 @@
       "delaying": "Delaying",
       "errors": {
         "combat-not-started": "No active combat",
-        "combatant-not-owned": "You do not own the current combatant",
+        "combatant-not-owned": "Tú do not own the current combatant",
         "no-active-gm": "No GM connected"
       },
       "dialog": {
@@ -170,8 +170,8 @@
       "form-duration-title": "Will ask for effect duration when applying to support Lingering Composition",
       "form-duration-prompt": "Prompt for effect duration",
       "form-formatting-error": "Formatting error: Description contains no/multiple effect links.",
-      "form-fieldset-legend": "Automatic Emanation Effect",
-      "dialog-effect-title": "Emanation Effect"
+      "form-fieldset-legend": "Automatic Emanation Efecto",
+      "dialog-effect-title": "Emanation Efecto"
     },
     "flat": {
       "flat-check-label": "Flat Check: {label}",
@@ -180,16 +180,16 @@
       "source": {
         "blinded": "Blinded",
         "darkness": "Darkness",
-        "hidden": "Hidden",
+        "hidden": "Escondido",
         "dim-light": "Dim Light",
         "dazzled": "Dazzled",
-        "concealed": "Concealed",
+        "concealed": "Oculto",
         "magical-darkness": "Magical Darkness"
       },
       "message": {
         "button-close": "Close",
-        "button-require-flat-check": "{count} targets require a flat check",
-        "tooltip-highest-dc": "If more than one flat check would ever cause or prevent the same thing, just roll once and use the highest DC.",
+        "button-require-flat-check": "{count} targets require a prueba plana",
+        "tooltip-highest-dc": "If more than one prueba plana would ever cause or prevent the same thing, just roll once and use the highest DC.",
         "reroll-hero-point": "Reroll using a hero point",
         "reroll-new-result": "Reroll and keep the new result",
         "reroll-lower-result": "Reroll and keep the lower result",
@@ -216,7 +216,7 @@
     "life-link": {
       "error-no-target": "No target actor",
       "error-no-source": "No source actor",
-      "error-source-is-target": "Can't transfer damage to self!",
+      "error-source-is-target": "Can't transfer daño to self!",
       "no-hp-remaining": "No HP remaining to transfer.",
       "life-link-cooldown-effect": "Life Link CD",
       "hp-add": "{actor} +{hp} HP",
@@ -226,19 +226,19 @@
       "spirit-link-message": "<strong>Spirit Link</strong><br>{link}",
       "life-link-error-bad-actor": "Bad origin actor for Life Linked effect on {actor}! See module readme.",
       "share-life-error-bad-actor": "Bad origin actor for Share Life effect on {actor}! See module readme.",
-      "damage-button": "{damage} to {actor}",
-      "share-life-damage-button": "(Share Life) {damage} to {actor}",
-      "life-link-damage-button": "(Life Link) {damage} to {actor}",
-      "damage-transfer-message": "<strong>Damage Transfer</strong><br>{buttons}"
+      "daño-button": "{daño} to {actor}",
+      "share-life-daño-button": "(Share Life) {daño} to {actor}",
+      "life-link-daño-button": "(Life Link) {daño} to {actor}",
+      "daño-transfer-message": "<strong>Damage Transfer</strong><br>{buttons}"
     },
     "template": {
       "buttons": {
-        "grabbed-concealed": "Grabbed<br>Concealed",
-        "hidden-invisible-confused": "Hidden<br>Invisible<br>Confused",
+        "grabbed-concealed": "Grabbed<br>Oculto",
+        "hidden-invisible-confused": "Escondido<br>Invisible<br>Confused",
         "dc": "DC {value}"
       },
       "emanation-request": {
-        "effect": "Effect",
+        "effect": "Efecto",
         "duration": "Duration",
         "rounds": "round(s)",
         "targets": "Targets",

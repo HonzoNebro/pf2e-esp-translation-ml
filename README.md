@@ -24,6 +24,23 @@ Los PDFs oficiales no forman parte del repositorio. Se usan solo como material l
 - Pathfinder 2E System: 8.1.2 dentro de la generacion 8.
 - Requiere Babele y libWrapper.
 
+## Paquete de usuario
+
+El repositorio contiene material de desarrollo, fuentes inglesas extraidas, glosarios, scripts de auditoria y herramientas de apoyo para colaboradores. Ese contenido no debe formar parte del ZIP que descarga Foundry.
+
+El paquete publicado en cada release incluye solo los archivos necesarios en runtime:
+
+- `module.json`
+- `src/babele-register.js`
+- `src/translator/`
+- `styles/`
+- `translation/es/*.json`
+- `translation/es/compendium/`
+- `translation/es/modules/*.json`
+- `translation/es/modules/compendium/`
+
+Esto deja fuera del paquete instalable carpetas como `translation/en/`, `glossary/`, `scripts/`, `pdfs/`, `sources/` y otros artefactos pensados para trabajar en el proyecto. Quien quiera colaborar debe clonar el repositorio completo.
+
 ## Desarrollo
 
 Para instalar dependencias:
