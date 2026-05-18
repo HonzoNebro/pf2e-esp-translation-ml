@@ -404,15 +404,15 @@ class Translator {
                 // Get the actual compendium name
                 const itemCompendium = compendiumLink.split(".");
 
-                const originalName = fromUuidSync(compendiumLink)?.flags?.babele?.originalName;
-                if (originalName) {
+                const sourceItem = fromUuidSync(compendiumLink);
+                const originalName = sourceItem?.flags?.babele?.originalName ?? sourceItem?.name ?? entry.name;
+                const compendiumPack = game.babele.packs.get(`${itemCompendium[1]}.${itemCompendium[2]}`);
+                if (originalName && compendiumPack) {
                     entry.name = originalName;
                     itemName = originalName;
 
                     // Get the item from the compendium
-                    const itemData = game.babele.packs
-                        .get(`${itemCompendium[1]}.${itemCompendium[2]}`)
-                        .translate(entry);
+                    const itemData = compendiumPack.translate(entry);
 
                     if (mergeFromCompendium) {
                         arr[index] = itemData;
