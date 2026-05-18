@@ -1995,7 +1995,7 @@
           "explorers-clothing": "Ropa de explorador",
           "flight-suit": "Flight Suit",
           "fortress-plate": "Placa de fortaleza",
-          "freebooter-armor": "Freebooter Armor",
+          "freebooter-armor": "Armadura de filibustero",
           "full-plate": "Armadura completa",
           "gi": "Soldado americano",
           "half-plate": "Laminada",
@@ -2013,7 +2013,7 @@
           "leather-armor": "Armadura de cuero",
           "leather-lamellar": "Laminar de cuero",
           "mantis-shell": "Concha de mantis",
-          "microcord-armor": "Microcord Armor",
+          "microcord-armor": "Armadura de microcordón",
           "niyahaat": "Niyaháat",
           "o-yoroi": "O-Yoroi",
           "padded-armor": "Armadura acolchada",
@@ -2025,7 +2025,7 @@
           "scroll-robes": "Túnicas de pergamino",
           "second-skin": "Segunda Piel",
           "shotalashu-armor": "Shotalashu Armor",
-          "skyfire-armor": "Skyfire Armor",
+          "skyfire-armor": "Armadura de fuego celeste",
           "splint-mail": "Laminada",
           "studded-leather-armor": "Armadura de cuero tachonada",
           "subterfuge-suit": "Traje de subterfugio",
@@ -2095,20 +2095,20 @@
           },
           "defenses": {
             "light": {
-              "label": "Light Armor"
+              "label": "Armadura ligera"
             },
             "medium": {
-              "label": "Medium Armor"
+              "label": "Armadura media"
             },
             "heavy": {
-              "label": "Heavy Armor"
+              "label": "Armadura pesada"
             },
             "unarmored": {
               "label": "Unarmored Defense"
             }
           },
           "spellcasting": {
-            "label": "Spell Attack Modifiers & DCs"
+            "label": "Modificadores de ataque de conjuro y CD"
           },
           "trainedSkills": {
             "additional": {
@@ -2131,9 +2131,9 @@
           },
           "Dialog": {
             "Add": "Agregar daño persistente",
-            "DamageType": "Damage Type",
+            "DamageType": "Tipo de daño",
             "DC": "DC",
-            "Edit": "Edit Persistent Damage",
+            "Edit": "Editar daño persistente",
             "Formula": "Formula",
             "Invalid": "La fórmula no es válida.",
             "Remove": "Eliminar daño persistente",
@@ -2175,7 +2175,7 @@
         "Plural": "Consumibles",
         "Spell": {
           "Empty": "Empty",
-          "Label": "Embedded Spell"
+          "Label": "Conjuro incorporado"
         },
         "Uses": {
           "AutoDestroy": "Destruir al usar",
@@ -2691,7 +2691,7 @@
             }
           }
         },
-        "LinkedWeapon": "Linked Weapon",
+        "LinkedWeapon": "Arma vinculada",
         "Tags": {
           "MagN": "Mag {n}",
           "RangeN": "Range {n} Feet",
@@ -2754,7 +2754,7 @@
         "FromSpell": {
           "CantripDeck5": "Baraja de trucos de {name} (paquete de 5)",
           "Scroll": "Pergamino de {name} (Rango {level})",
-          "spell-gem": "Spell Gem of {name} (Rank {level})",
+          "spell-gem": "Gema de conjuro de {name} (rango {level})",
           "Wand": "Varita de {name} (Rango {level})"
         },
         "GeneratedName": {
@@ -2890,9 +2890,9 @@
       "Shield": {
         "Base": {
           "buckler": "Escudo",
-          "carbon-shield": "Carbon Shield",
+          "carbon-shield": "Escudo de carbono",
           "casters-targe": "Objetivo del lanzador",
-          "compact-shield": "Compact Shield",
+          "compact-shield": "Escudo compacto",
           "dart-shield": "Escudo de dardos",
           "deflecting-field": "Deflecting Field",
           "fiendsbane-shield": "Fiendsbane Shield",
@@ -2907,7 +2907,7 @@
           "mobile-bulwark": "Mobile Bulwark",
           "phase-shield": "Phase Shield",
           "razor-disc": "Disco de cuchilla",
-          "riot-shield": "Riot Shield",
+          "riot-shield": "Escudo antidisturbios",
           "salvo-shield": "Escudo de salvación",
           "steel-shield": "Escudo de acero",
           "swordstealer-shield": "Escudo de ladrón de espadas",
@@ -3034,24 +3034,24 @@
           "bow": "Si el objetivo del impacto crítico está adyacente a una superficie, el misil lo pega a esa superficie. El objetivo es @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} y ​​debe gastar una acción de Interactuar para intentar una prueba @Check[type:athletics|dc:10|name:Pull the Missile Free|showDC:all] para liberar el misil; no puede moverse de su espacio hasta que lo logre. La criatura no queda atrapada si es incorpórea, líquida o si podría escapar sin esfuerzo (por ejemplo, si es lo suficientemente grande como para que el misil no sea un impedimento).",
           "brawling": "El objetivo debe tener éxito en una salvación @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Brawling Critical Specialization] contra tu DC de clase o ser @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} hasta el final de tu siguiente turno.",
           "club": "Golpeas al objetivo hasta 10 pies en línea recta lejos de ti, en la dirección que elijas. Este es un movimiento forzado.",
-          "corrosive": "El objetivo takes @Damage[(1d6 + @item.system.runes.potency)[persistent,acid]]. Obtienes an bonificador por objeto to this daño de ácido equal to the arma's bonificador por objeto to tiradas de ataque.",
-          "cryo": "Este arma freezes part of el objetivo, making it hard for them to move their body. El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the start of tu next turn.",
+          "corrosive": "El objetivo takes @Damage[(1d6 + @item.system.runes.potency)[persistent,acid]]. Obtienes an bonificador por objeto to this daño de ácido equal to the arma's bonificador por objeto a las tiradas de ataque.",
+          "cryo": "Este arma freezes part of el objetivo, making it hard for them to move their body. El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} hasta el comienzo de tu siguiente turno.",
           "firearm": "El objetivo debe tener éxito en una salvación @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Firearm Critical Specialization] contra tu DC de clase o ser @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1} .",
           "flail": "El objetivo es derribado @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} a menos que tenga éxito en una salvación @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|name:Flail Critical Specialization] contra tu clase DC.",
-          "flame": "El objetivo takes @Damage[(1d6 + @item.system.runes.potency)[persistent,fire]]. Obtienes an bonificador por objeto to this daño de fuego equal to the arma's bonificador por objeto to tiradas de ataque.",
+          "flame": "El objetivo takes @Damage[(1d6 + @item.system.runes.potency)[persistent,fire]]. Obtienes an bonificador por objeto to this daño de fuego equal to the arma's bonificador por objeto a las tiradas de ataque.",
           "grenade": "Apply the effect listed in the grenade's entry to each criatura that rolls a critical failure against the effects of the grenade.",
           "hammer": "El objetivo es derribado @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} a menos que tenga éxito en una salvación @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Hammer Critical Specialization] contra tu clase DC.",
-          "laser": "El objetivo must succeed at a @Check[fortitude|against:class] salvación against tu class DC or be @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the start of tu next turn.",
-          "mental": "El objetivo must succeed at a @Check[will|against:class] salvación against tu class DC or be @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} until the start of tu next turn.",
-          "plasma": "El objetivo takes @Damage[(1d6 + @item.system.runes.potency)[persistent,electricity]]. Obtienes an bonificador por objeto to this daño de electricidad equal to the arma's bonificador por objeto to tiradas de ataque.",
-          "poison": "El objetivo must succeed at a @Check[fortitude|against:class] or be @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} until the start of tu next turn.",
+          "laser": "El objetivo debe tener éxito en una salvación @Check[fortitude|against:class] contra la CD de tu clase o queda @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} hasta el comienzo de tu siguiente turno.",
+          "mental": "El objetivo debe tener éxito en una salvación @Check[will|against:class] contra la CD de tu clase o queda @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} hasta el comienzo de tu siguiente turno.",
+          "plasma": "El objetivo takes @Damage[(1d6 + @item.system.runes.potency)[persistent,electricity]]. Obtienes an bonificador por objeto to this daño de electricidad equal to the arma's bonificador por objeto a las tiradas de ataque.",
+          "poison": "El objetivo debe tener éxito en @Check[fortitude|against:class] o queda @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} hasta el comienzo de tu siguiente turno.",
           "polearm": "El objetivo se mueve 5 pies en la dirección que elijas. Este es un movimiento forzado.",
-          "projectile": "El objetivo must succeed at a @Check[fortitude|against:class] or be @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} until the start of tu next turn.",
+          "projectile": "El objetivo debe tener éxito en @Check[fortitude|against:class] o queda @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} hasta el comienzo de tu siguiente turno.",
           "shield": "Golpeas al objetivo hacia atrás a 5 pies de ti. Este es un movimiento forzado.",
-          "shock": "El objetivo must succeed at a @Check[fortitude|against:class] or be @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} until the start of tu next turn.",
+          "shock": "El objetivo debe tener éxito en @Check[fortitude|against:class] o queda @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} hasta el comienzo de tu siguiente turno.",
           "sling": "El objetivo debe tener éxito en una salvación @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Sling Critical Specialization] contra tu DC de clase o ser @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1} .",
           "sniper": "El objetivo takes 2 daño adicional per dados de daño del arma.",
-          "sonic": "El objetivo must succeed at a @Check[fortitude|against:class] or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minuto.",
+          "sonic": "El objetivo debe tener éxito en @Check[fortitude|against:class] o queda @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minuto.",
           "spear": "Las armas de este tipo perforan al objetivo, debilitando sus ataques. El objetivo es @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} hasta el comienzo de tu siguiente turno.",
           "sword": "El objetivo queda desequilibrado por tu ataque, convirtiéndose en @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} hasta el comienzo de tu siguiente turno."
         },
@@ -4738,11 +4738,11 @@
     "TraitDescriptionBlight": "Blights are corruptions of nature's wrath.",
     "TraitDescriptionBoggard": "Los boggards son humanoides similares a ranas. Suelen tener visión en la oscuridad.",
     "TraitDescriptionBomb": "Una bomba alquímica combina componentes alquímicos volátiles que explotan cuando la bomba golpea una criatura u objeto. La mayoría de las bombas alquímicas causan daño, aunque algunas producen otros efectos.",
-    "TraitDescriptionBoost": "Puedes boost this arma with an Interactuar action to add an additional dado de daño of the listed size to the next damaging attack tú make with the arma until the end of tu next turn. The daño from this rasgo increases to 2 dice for advanced-grade and superior-grade armas, 3 dice for elite-grade and ultimate-grade armas, and 4 dice for paragon-grade armas. On a impacto crítico, roll these after doubling the arma's daño. Multiple boosts have no effect.",
+    "TraitDescriptionBoost": "Puedes boost this arma with an Interactuar action to add an additional dado de daño of the listed size to the next damaging attack tú make with the arma hasta el final de tu siguiente turno. The daño from this rasgo increases to 2 dice for advanced-grade and superior-grade armas, 3 dice for elite-grade and ultimate-grade armas, and 4 dice for paragon-grade armas. On a impacto crítico, roll these after doubling the arma's daño. Multiple boosts have no effect.",
     "TraitDescriptionBottledBreath": "Las botellas de aliento son botellas encantadas de nubes y niebla, desarrolladas por primera vez por los habitantes del Plano del Aire. Puedes activar un objeto con el rasgo de aliento embotellado mientras lo inhalas o hacer que otra criatura lo inhale.",
     "TraitDescriptionBrace": "Un arma de refuerzo es eficaz para dañar a los oponentes en movimiento. Cuando estás listo para atacar a un oponente que se mueve dentro de tu alcance, hasta el comienzo de tu siguiente turno, los golpes con el arma de refuerzo infligen 2 daños de precisión adicionales por cada dado de daño de arma que tenga.",
     "TraitDescriptionBrandish": "The brandish rasgo indicates an ability that involves tú waving or otherwise actively displaying tu banner. To use an ability that has the brandish rasgo, debes be holding tu banner in one hand or wielding a arma it is attached to. Since tienes to be actively signaling with tu banner to direct tu squadmates while using a tactic with the brandish rasgo, tú cannot use free actions or reactions granted as part of a brandish tactic unless specifically noted otherwise.",
-    "TraitDescriptionBravado": "Actions with this rasgo can grant panache, depending on the result of the check involved. If tú succeed at the check on a bravado action, obtienes panache, and if tú fail (but not critically fail) the check, obtienes panache but only until the end of tu next turn. Estos effects can be applied even if the action had no other effect due to a failure or a criatura's immunity.",
+    "TraitDescriptionBravado": "Actions with this rasgo can grant panache, depending on the result of the check involved. If tú succeed at the check on a bravado action, obtienes panache, and if tú fail (but not critically fail) the check, obtienes panache but only hasta el final de tu siguiente turno. Estos effects can be applied even if the action had no other effect due to a failure or a criatura's immunity.",
     "TraitDescriptionBreakdown": "Este arma can be taken apart into multiple small pieces. While broken down, the arma is treated as small object with light bulk. Breaking down or reassembling a breakdown arma is a 3-action activity, which has the manipulate rasgo and requires two hands.",
     "TraitDescriptionBrutal": "Un ataque a distancia con este rasgo utiliza su modificador de Fuerza en lugar de Destreza en la tirada de ataque.",
     "TraitDescriptionBugbear": "Una criatura con este rasgo es un pariente peludo y sigiloso de los goblins. Los bugbears suelen tener visión en la oscuridad.",
@@ -4751,7 +4751,7 @@
     "TraitDescriptionCalling": "The calling rasgo identifies mechanical options a character gains when they first gain mythic power. Every calling option grants a way to use and regain Mythic Points.",
     "TraitDescriptionCantrip": "Un conjuro que puedes lanzar a voluntad y que aumenta automáticamente a la mitad de tu nivel redondeado hacia arriba.",
     "TraitDescriptionCapacity": "Las armas que tienen el rasgo capacidad suelen tener múltiples cañones o recámaras capaces de contener una unidad de munición. La capacidad siempre va acompañada de un número que indica el número de barriles o recámaras. Después de disparar un arma de capacidad, puedes seleccionar el siguiente cañón o recámara cargado como una acción de Interactuar que no requiere tener las manos libres. Cada cañón o recámara se puede recargar después de dispararlo como una acción de Interactuar separada.",
-    "TraitDescriptionCaster": "Este arma can be modified by Lanzando un conjuro (including a cantrip) with 2 or more actions. If tú do, resolve the conjuro normally. Once the conjuro is cast, if it had the acid, cold, fire, electricity, sonic, spirit, vitality, or void rasgo, the arma deals daño of that type instead of its usual daño until the end of tu next turn. If the arma has the aeon rasgo and a conjuro gem installed, this lasts 1 minuto. If the conjuro deals more than one type of daño, elige one when tú fire the arma.",
+    "TraitDescriptionCaster": "Este arma can be modified by Lanzando un conjuro (including a cantrip) with 2 or more actions. If tú do, resolve the conjuro normally. Once the conjuro is cast, if it had the acid, cold, fire, electricity, sonic, spirit, vitality, or void rasgo, the arma deals daño of that type instead of its usual daño hasta el final de tu siguiente turno. If the arma has the aeon rasgo and a conjuro gem installed, this lasts 1 minuto. If the conjuro deals more than one type of daño, elige one when tú fire the arma.",
     "TraitDescriptionCatalyst": "Los elementos con el rasgo de catalizador son componentes de hechizos materiales consumibles que alteran o magnifican hechizos específicos. Activar un catalizador es parte de Lanzar el hechizo. El catalizador podría aumentar el número de acciones necesarias para lanzar el hechizo, como se indica en la entrada Activar del catalizador. Además, el hechizo gana componentes materiales si aún no los tenía o agrega el catalizador a sus componentes existentes. Debido a que el catalizador se convierte en parte de los componentes del material, se puede extraer elcatalizador como parte de Lanzar el hechizo.",
     "TraitDescriptionCatfolk": "Una criatura con este rasgo es miembro de la ascendencia de los felinos.",
     "TraitDescriptionCelestial": "Las criaturas que proceden de los Planos alineados con el bien o que tienen una fuerte conexión con ellos se denominan celestiales. Los celestiales pueden sobrevivir a los efectos ambientales básicos de los Planos de la Esfera Exterior.",
@@ -5024,7 +5024,7 @@
     "TraitDescriptionPress": "Las acciones con este rasgo te permiten continuar ataques anteriores. Una acción con el rasgo aprovechar sólo se puede utilizar si en ese momento te está afectando un penalizador por ataque múltiple. No puedes usar una acción con el rasgo aprovechar si no es tu turno, ni siquiera con la actividad Preparar. Algunas acciones con el rasgo aprovechar también conceden un efecto en caso de fallo. Los efectos que se añaden en caso de fallo no se aplican en caso de fallo crítico. Si tu acción de aprovechar tiene éxito, en su lugar puedes aplicar el efecto de fallo (por ejemplo, podría interesarte hacerlo cuando un ataque no inflige daño debido a alguna resistencia)",
     "TraitDescriptionPrimal": "Esta magia procede de la tradición primigenia, que conecta con el mundo natural y los instintos. Cualquier cosa con este rasgo es mágica. Una criatura con este rasgo esta principalmente constituida de magia primigenia o tiene una fuerte conexión con ella.",
     "TraitDescriptionProcessed": "Se puede crear un consumible alquímico con el rasgo procesado con Quick Alchemy, pero es demasiado complejo para crearlo en una sola acción.",
-    "TraitDescriptionProfessional": "A arma with this rasgo can be used as a tool for the listed skill. Add the arma's bonificador por objeto to tiradas de ataque as an bonificador por objeto to pruebas de habilidad using the listed skill. For purposes of proficiency, puedes elige to treat this martial arma as a simple arma or this advanced arma as a martial arma, up to tu proficiency with the listed skill.",
+    "TraitDescriptionProfessional": "A arma with this rasgo can be used as a tool for the listed skill. Add the arma's bonificador por objeto a las tiradas de ataque as an bonificador por objeto to pruebas de habilidad using the listed skill. For purposes of proficiency, puedes elige to treat this martial arma as a simple arma or this advanced arma as a martial arma, up to tu proficiency with the listed skill.",
     "TraitDescriptionPropulsive": "Sumas la mitad de tu modificador por Fuerza (si es positivo) a las tiradas de daño con una arma a distancia propulsiva. Si tienes un modificador por Fuerza negativo, en su lugar sumas tu modificador por Fuerza completo.",
     "TraitDescriptionProtean": "Una familia de monitores surgida del Maelstrom, estas criaturas son guardianes del desorden. Tienen típicamente visión en la oscuridad, una anatomía amorfa y aptitudes que crean oleadas deformantes mágicas.",
     "TraitDescriptionPsyche": "Tu psique debe estar desatada para usar habilidades que tienen el rasgo de psique, y terminan automáticamente cuando tu psique desatada disminuye.",
@@ -5035,7 +5035,7 @@
     "TraitDescriptionRage": "Debes estar furioso para usar habilidades con el rasgo de ira, y terminan automáticamente cuando dejas de estar furioso.",
     "TraitDescriptionRakshasa": "Los rakshasas son espíritus divinos que ejemplifican lo profano. Pueden típicamente Cambiar de forma y tienen debilidad a sagrado.",
     "TraitDescriptionRange": "Estos ataques enumerarán un rango finito o un incremento de rango, que sigue las reglas normales para incrementos de rango.",
-    "TraitDescriptionRangedShove": "Este arma can be used to @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} with the Athletics skill at a distance up to the arma's first range increment. The prueba de habilidad takes a –2 penalización de circunstancia. Puedes add the arma's bonificador por objeto to tiradas de ataque as a bonus to the check.",
+    "TraitDescriptionRangedShove": "Este arma can be used to @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} with the Athletics skill at a distance up to the arma's first range increment. The prueba de habilidad takes a –2 penalización de circunstancia. Puedes add the arma's bonificador por objeto a las tiradas de ataque as a bonus to the check.",
     "TraitDescriptionRangedTrip": "El arma puede utilizarse para Derribar con la habilidad Atletismo dentro del primer incremento de rango de distancia del arma. La prueba de habilidad sufre un penalizador -2 por circunstancia. Puedes sumar el modificador por objeto del arma a las tiradas de ataque como bonificador a la prueba. Un arma de derribo a distancia no inflige daño alguno cuando se utiliza para Derribar. Estas armas son por lo general arrojadizas.",
     "TraitDescriptionRanger": "Esto indica habilidades de la clase de guardabosques.",
     "TraitDescriptionRare": "Esta rareza indica que un elemento de reglas es muy difícil de encontrar en el mundo del juego. Una dote, hechizo, objeto o similar raro está disponible para los jugadores sólo si el DJ decide incluirlo en el juego, generalmente a través del descubrimiento durante el juego. Las criaturas con este rasgo son raras. Por lo general, no pueden ser convocados. La CD de las pruebas de Recordar conocimiento relacionadas con estas criaturas aumenta en 5.",
