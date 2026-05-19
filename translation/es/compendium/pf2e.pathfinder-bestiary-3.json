@@ -359,32 +359,32 @@
       "publicNotes": "<p>Angazhanis lurk in the depths of the world's jungles, where these sapient, four-armed apes prey on any criaturas they deem lesser than themselves. They're purportedly the divine minions of Angazhan, demon lord of apes. While many angazhanis do worship this foul god, scarce evidence exists to support their claim to fiendish heritage. Jungle-dwelling people know well to steer clear of suspected angazhani territories; angazhanis of such areas don't slaughter outright, often capturing trespassers to serve as slaves or as living sacrifices in heinous rituals.</p>",
       "items": {
         "spellcastingEntry->Divine Innate Spells": {
-          "name": "Divine Innate Spells"
+          "name": "Conjuros divinos innatos"
         },
         "strike-melee->Fist": {
-          "name": "Fist"
+          "name": "Puño"
         },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
         },
         "action->Defensive Disarm": {
-          "name": "Defensive Disarm",
-          "description": "<p><strong>Desencadenante</strong> A criatura makes a melee arma Golpe against the angazhani and misses</p>\n<p><strong>Requisitos</strong> The angazhani is benefiting from their Defensive Slam</p>\n<hr />\n<p><strong>Efecto</strong> The angazhani attempts to @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} the attacker of the triggering arma.</p>"
+          "name": "Desarme defensivo",
+          "description": "<p><strong>Desencadenante</strong> Una criatura realiza un Golpe cuerpo a cuerpo con arma contra el angazhani y falla</p>\n<p><strong>Requisitos</strong> El angazhani se esta beneficiando de su Embate defensivo</p>\n<hr />\n<p><strong>Efecto</strong> El angazhani intenta @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} al atacante del arma desencadenante.</p>"
         },
         "action->Defensive Slam": {
-          "name": "Defensive Slam",
-          "description": "<p>The angazhani uses their arms to defend themself while attacking. The angazhani Golpes once and gains a +2 bonificador por circunstancia to AC until the start of their next turn.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.BsuYuFxE20mnRxbs]{Efecto: Defensive Slam}</p>"
+          "name": "Embate defensivo",
+          "description": "<p>El angazhani usa sus brazos para defenderse mientras ataca. El angazhani Golpea una vez y obtiene un bonificador por circunstancia de +2 a la CA hasta el inicio de su siguiente turno.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.BsuYuFxE20mnRxbs]{Efecto: Embate defensivo}</p>"
         },
         "action->Focused Slam": {
-          "name": "Focused Slam",
-          "description": "<p>The angazhani beats a single opponent with all four of their brawny arms, leaving their foe nowhere to dodge.</p>\n<p>The angazhani makes a fist Golpe. On a successful attack, they deal fist daño to el objetivo plus an additional [[/r 3d8]] daño, and they meet the requirements to Rend el objetivo this turn, even if they didn't hit on two consecutive Golpes. Even on a failed attack, the angazhani deals the daño from one fist Golpe to el objetivo, though they still miss completely on a critical failure.</p>\n<p>Este ability counts as four attacks toward an angazhani's multiple attack penalizador. After using this ability, the angazhani is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} until the beginning of their next turn.</p>"
+          "name": "Embate concentrado",
+          "description": "<p>El angazhani golpea a un solo oponente con sus cuatro brazos musculosos, sin dejar a su enemigo lugar alguno donde esquivar.</p>\n<p>El angazhani realiza un Golpe de puño. Con un ataque con exito, inflige al objetivo el daño de puño mas [[/r 3d8]] de daño adicional, y cumple los requisitos para Desgarrar al objetivo este turno, aunque no haya impactado con dos Golpes consecutivos. Incluso con un ataque fallido, el angazhani inflige al objetivo el daño de un Golpe de puño, aunque sigue fallando por completo con un fallo critico.</p>\n<p>Esta aptitud cuenta como cuatro ataques para la penalizacion por ataque multiple del angazhani. Tras usar esta aptitud, el angazhani queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} hasta el inicio de su siguiente turno.</p>"
         },
         "action->Pummeling Charge": {
-          "name": "Pummeling Charge",
-          "description": "<p>The angazhani rushes up to a foe at extreme speed and slams down with their fists. The angazhani Strides or Climbs up to three times, then makes two fist Golpes against one enemigo within reach.</p>"
+          "name": "Carga aporreadora",
+          "description": "<p>El angazhani se abalanza sobre un enemigo a velocidad extrema y descarga sus puños. El angazhani Zancada o Trepa hasta tres veces, y despues realiza dos Golpes de puño contra un enemigo a su alcance.</p>"
         },
         "action->Rend": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.3JOi2cMcGhT3eze1]\n<p>Fist</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.3JOi2cMcGhT3eze1]\n<p>Puño</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
         }
       }
     },
@@ -403,119 +403,119 @@
           "name": "Arco corto compuesto"
         },
         "action->Carrion Scent (Imprecise) 30 feet": {
-          "name": "Carrion Scent (Imprecise) 30 pies",
-          "description": "<p>An angheuvore can smell criaturas that have the @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed}, @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying}, or @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded} condition as an imprecise sense.</p>"
+          "name": "Olor a carroña (impreciso) 30 pies",
+          "description": "<p>Un angheuvore puede oler como sentido impreciso a criaturas que tengan la condicion @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed}, @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying} o @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded}.</p>"
         },
         "action->Consecration Vulnerability": {
-          "name": "Consecration Vulnerability",
-          "description": "<p>An angheuvore in a place of worship dedicated to a non-evil deity or on sacred ground, such as an area blessed by @UUID[Compendium.pf2e.spells-srd.Item.y3jlOfgsQH1JjkJE]{Anointed Ground}, is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}.</p>"
+          "name": "Vulnerabilidad a la consagracion",
+          "description": "<p>Un angheuvore en un lugar de culto dedicado a una deidad no maligna o en terreno sagrado, como un area bendecida por @UUID[Compendium.pf2e.spells-srd.Item.y3jlOfgsQH1JjkJE]{Anointed Ground}, queda @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}.</p>"
         },
         "action->Death Gasp": {
-          "name": "Death Gasp",
-          "description": "<p>The angheuvore draws in a deep breath and holds it, temporarily suspending their biological processes and becoming undead.</p>\n<p>The angheuvore gains the undead rasgo and becomes immune to bleed, death effects, disease, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, poison, and sleep. Any such effects the angheuvore is currently suffering from are suspended, but take effect again once they take a breath.</p>\n<p>Death Gasp lasts as long as the angheuvore holds their breath (up to 8 asaltos).</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.lyeRL7khixdlJsaf]{Efecto: Death Gasp}</p>"
+          "name": "Jadeo mortal",
+          "description": "<p>El angheuvore inspira profundamente y contiene la respiracion, suspendiendo temporalmente sus procesos biologicos y convirtiendose en muerto viviente.</p>\n<p>El angheuvore obtiene el rasgo muerto viviente y se vuelve inmune al sangrado, efectos de muerte, enfermedad, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, veneno y sueño. Cualquier efecto de este tipo que el angheuvore este sufriendo queda suspendido, pero vuelve a tener efecto cuando respira de nuevo.</p>\n<p>Jadeo mortal dura mientras el angheuvore contenga la respiracion (hasta 8 asaltos).</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.lyeRL7khixdlJsaf]{Efecto: Jadeo mortal}</p>"
         },
         "action->Invigorating Feast": {
-          "name": "Invigorating Feast",
-          "description": "<p><strong>Requisitos</strong> The angheuvore is adjacent to a @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, or @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} criatura, or a deceased criatura that died in the last hour</p>\n<hr />\n<p><strong>Efecto</strong> The angheuvore feasts upon the criatura, dealing their jaws Golpe daño (@Check[fortitude|dc:15|basic] salvación); a corpse automatically critically fails with no save. If el objetivo takes daño, the angheuvore gains [[/r 5 #Temporary Puntos de Golpe]]{5 Puntos de Golpe temporales} and a +10-pies bonificador por circunstancia to their Velocidades for 1 minuto.</p>"
+          "name": "Festin vigorizante",
+          "description": "<p><strong>Requisitos</strong> El angheuvore esta adyacente a una criatura @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} o @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, o a una criatura fallecida que murio en la ultima hora</p>\n<hr />\n<p><strong>Efecto</strong> El angheuvore se da un festin con la criatura, infligiendo el daño de su Golpe de mandibulas (salvacion basica de @Check[fortitude|dc:15|basic]); un cadaver obtiene automaticamente un fallo critico sin salvacion. Si el objetivo sufre daño, el angheuvore obtiene [[/r 5 #Temporary Hit Points]]{5 Puntos de Golpe temporales} y un bonificador por circunstancia de +10 pies a sus Velocidades durante 1 minuto.</p>"
         },
         "action->Paralysis": {
-          "name": "Paralysis",
-          "description": "<p>Any living criatura hit by an angheuvore's jaws Golpe must succeed at a @Check[fortitude|dc:15] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}.</p>\n<p>It can attempt a new save to end the condition at the end of each of its turns, and the DC cumulatively decreases by 1 on each save.</p>"
+          "name": "Paralisis",
+          "description": "<p>Cualquier criatura viva impactada por el Golpe de mandibulas de un angheuvore debe tener exito en una salvacion de @Check[fortitude|dc:15] o quedar @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}.</p>\n<p>Puede intentar una nueva salvacion para terminar la condicion al final de cada uno de sus turnos, y la CD disminuye acumulativamente en 1 con cada salvacion.</p>"
         }
       }
     },
     "Animated Colossus": {
       "name": "Coloso animado",
-      "acDetails": "(35 when broken); armadura de constructo",
+      "acDetails": "(35 cuando esta roto); armadura de constructo",
       "publicNotes": "<p>Animar una estatua de 100 pies de altura merece el coste para lanzadores de conjuros que custodian mazmorras inmensas. Muchos objetos animados cumplen funciones utiles, pero se convierten en peligros cuando quedan fuera de control.</p>",
       "items": {
         "strike-melee->Fist": {
-          "name": "Fist"
+          "name": "Puño"
         },
         "strike-melee->Foot": {
-          "name": "Foot"
+          "name": "Pie"
         },
         "action->Construct Armor (Hardness 15)": {
-          "name": "Construct Armor (Hardness 15)",
-          "description": "<p>Like normal objects, an animated colossus has Hardness. Este Hardness reduces any daño the colossus takes by an amount equal to the Hardness. Once an animated colossus is reduced to fewer than half its Puntos de Golpe, or immediately upon being damaged by a impacto crítico, its armadura de constructo breaks, removing the Hardness and reducing its ARMOR CLASS to 35.</p>"
+          "name": "Armadura de constructo (Dureza 15)",
+          "description": "<p>Como los objetos normales, un coloso animado tiene Dureza. Esta Dureza reduce cualquier daño que sufra el coloso en una cantidad igual a la Dureza. Cuando un coloso animado queda reducido a menos de la mitad de sus Puntos de Golpe, o inmediatamente despues de recibir daño de un impacto critico, su armadura de constructo se rompe, eliminando la Dureza y reduciendo su CLASE DE ARMADURA a 35.</p>"
         },
         "action->Enormous": {
-          "name": "Enormous",
-          "description": "<p>An animated colossus takes up a space of 6 squares by 6 squares (30 pies by 30 pies) and is 100 pies tall.</p>"
+          "name": "Enorme",
+          "description": "<p>Un coloso animado ocupa un espacio de 6 casillas por 6 casillas (30 pies por 30 pies) y mide 100 pies de altura.</p>"
         },
         "action->Colossus's Grasp": {
-          "name": "Colossus's Grasp",
-          "description": "<p>The colossus can @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{GRAB} a criatura using only one hand.</p>\n<p>It can move normally with a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} in its fist, carrying the criatura along. If it has two criaturas grabbed in this way, it can't use its fist Golpe.</p>"
+          "name": "Presa del coloso",
+          "description": "<p>El coloso puede @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{GRAB} a una criatura usando solo una mano.</p>\n<p>Puede moverse con normalidad con una criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} o @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} en el puño, llevandola consigo. Si tiene dos criaturas agarradas de este modo, no puede usar su Golpe de puño.</p>"
         },
         "action->Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV]\n<p>@Damage[(3d12+11)[bludgeoning]], @Check[fortitude|dc:36|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
         },
         "action->Trample": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\n<p>Huge or smaller, pies, @Check[reflex|dc:36|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\n<p>Enorme o menor, pies, @Check[reflex|dc:36|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
         }
       }
     },
     "Animated Furnace": {
       "name": "Horno animado",
-      "acDetails": "(26 when broken); armadura de constructo",
+      "acDetails": "(26 cuando esta roto); armadura de constructo",
       "publicNotes": "<p>Esta enorme fragua u horno ha sido animada para proteger un taller o cocina, viajar junto a su propietario, o ambas cosas. Muchos objetos animados cumplen funciones utiles, pero se convierten en peligros cuando quedan fuera de control.</p>",
       "items": {
         "strike-melee->Door": {
-          "name": "Door"
+          "name": "Puerta"
         },
         "action->Construct Armor (Hardness 10)": {
           "name": "Armadura de constructo (Dureza 10)",
-          "description": "<p>Like normal objects, an animated furnace has Hardness. Este Hardness reduces any daño the furnace takes by an amount equal to the Hardness. Once an animated furnace is reduced to fewer than half its Puntos de Golpe, or immediately upon being damaged by a impacto crítico, its armadura de constructo breaks, removing the Hardness and reducing its ARMOR CLASS to 26.</p>"
+          "description": "<p>Como los objetos normales, un horno animado tiene Dureza. Esta Dureza reduce cualquier daño que sufra el horno en una cantidad igual a la Dureza. Cuando un horno animado queda reducido a menos de la mitad de sus Puntos de Golpe, o inmediatamente despues de recibir daño de un impacto critico, su armadura de constructo se rompe, eliminando la Dureza y reduciendo su CLASE DE ARMADURA a 26.</p>"
         },
         "action->Fan the Flames": {
-          "name": "Fan the Flames",
-          "description": "<p>The animated furnace opens its door and fans its flames in a @Template[cone|distance:30] that deals @Damage[5d6[fire]|options:area-damage] daño (@Check[reflex|dc:28|basic|options:area-effect] salvación).</p>"
+          "name": "Avivar las llamas",
+          "description": "<p>El horno animado abre su puerta y aviva sus llamas en un @Template[cone|distance:30] que inflige @Damage[5d6[fire]|options:area-damage] de daño (salvacion basica de @Check[reflex|dc:28|basic|options:area-effect]).</p>"
         },
         "action->Swallow Whole": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]\n<p>Large, @Damage[(2d8+9)[fire]], Rupture 15</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]\n<p>Grande, @Damage[(2d8+9)[fire]], Ruptura 15</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
         }
       }
     },
     "Animated Silverware Swarm": {
       "name": "Enjambre de cubiertos animados",
-      "acDetails": "(12 when broken); armadura de constructo",
+      "acDetails": "(12 cuando esta roto); armadura de constructo",
       "publicNotes": "<p>Los nobles son conocidos por pagar grandes sumas para animar su cuberteria, tanto para facilitar la limpieza como para ofrecer una novedad durante las cenas. Muchos objetos animados cumplen funciones utiles, pero se convierten en peligros cuando quedan fuera de control.</p>",
       "items": {
         "action->Construct Armor (Hardness 3)": {
-          "name": "Construct Armor (Hardness 3)",
-          "description": "<p>Like normal objects, an animated silverware swarm has Hardness. Este Hardness reduces any daño the swarm takes by an amount equal to the Hardness. Once an animated silverware swarm is reduced to fewer than half its Puntos de Golpe, or immediately upon being damaged by a impacto crítico, its armadura de constructo breaks, removing the Hardness and reducing its ARMOR CLASS to 12.</p>"
+          "name": "Armadura de constructo (Dureza 3)",
+          "description": "<p>Como los objetos normales, un enjambre de cubiertos animados tiene Dureza. Esta Dureza reduce cualquier daño que sufra el enjambre en una cantidad igual a la Dureza. Cuando un enjambre de cubiertos animados queda reducido a menos de la mitad de sus Puntos de Golpe, o inmediatamente despues de recibir daño de un impacto critico, su armadura de constructo se rompe, eliminando la Dureza y reduciendo su CLASE DE ARMADURA a 12.</p>"
         },
         "action->Slice and Dice": {
-          "name": "Slice and Dice",
-          "description": "<p>Each enemigo in the animated silverware swarm's space takes @Damage[1d6[piercing]] daño or @Damage[1d6[slashing]] daño (@Check[reflex|dc:17|basic] salvación)</p>"
+          "name": "Cortar en dados",
+          "description": "<p>Cada enemigo en el espacio del enjambre de cubiertos animados sufre @Damage[1d6[piercing]] de daño o @Damage[1d6[slashing]] de daño (salvacion basica de @Check[reflex|dc:17|basic])</p>"
         },
         "action->Stick a Fork in It": {
-          "name": "Stick a Fork in It",
-          "description": "<p>The animated silverware swarm attempts to pin a single criatura.</p>\n<p>El objetivo must attempt a @Check[reflex|dc:17] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo is unaffected.</p>\n<p><strong>Éxito</strong> Silverware pins portions of el objetivo's clothing and gear. El objetivo takes a –10-pies penalizador por circunstancia to its Velocidades as long as it remains in the swarm's space.</p>\n<p><strong>Fallo</strong> As success, and el objetivo also can't Dar un paso until it leaves the swarm's space.</p>\n<p><strong>Fallo crítico</strong> El objetivo is thoroughly pinned by the silverware, becoming @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} until it [[/act escape dc=17]]{Escapes} or uses 2 INTERACT actions to remove all of the silverware pinning them down.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.K3r1lfbtCTf3dFhV]{Efecto: Stick a Fork in It}</p>"
+          "name": "Clavarle un tenedor",
+          "description": "<p>El enjambre de cubiertos animados intenta inmovilizar a una sola criatura.</p>\n<p>El objetivo debe intentar una salvacion de @Check[reflex|dc:17].</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo no se ve afectado.</p>\n<p><strong>Éxito</strong> Los cubiertos sujetan partes de la ropa y equipo del objetivo. El objetivo sufre una penalizacion por circunstancia de -10 pies a sus Velocidades mientras permanezca en el espacio del enjambre.</p>\n<p><strong>Fallo</strong> Como exito, y el objetivo tampoco puede Dar un paso hasta que abandone el espacio del enjambre.</p>\n<p><strong>Fallo crítico</strong> El objetivo queda completamente clavado por los cubiertos, quedando @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} hasta que [[/act escape dc=17]]{Escapes} o use 2 acciones INTERACT para retirar todos los cubiertos que lo sujetan.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.K3r1lfbtCTf3dFhV]{Efecto: Clavarle un tenedor}</p>"
         }
       }
     },
     "Animated Trebuchet": {
       "name": "Trabuquete animado",
-      "acDetails": "(32 when broken); armadura de constructo",
+      "acDetails": "(32 cuando esta roto); armadura de constructo",
       "publicNotes": "<p>Los grandes ejercitos a veces pagan tarifas exorbitantes para animar sus armas de asedio. Muchos objetos animados cumplen funciones utiles, pero se convierten en peligros cuando quedan fuera de control.</p>",
       "items": {
         "strike-melee->Arm": {
-          "name": "Arm"
+          "name": "Brazo"
         },
         "strike-melee->Rock": {
-          "name": "Rock"
+          "name": "Roca"
         },
         "action->Construct Armor (Hardness 14)": {
-          "name": "Construct Armor (Hardness 14)",
-          "description": "<p>Like normal objects, an animated trebuchet has Hardness. Este Hardness reduces any daño the trebuchet takes by an amount equal to the Hardness. Once an animated trebuchet is reduced to fewer than half its Puntos de Golpe, or immediately upon being damaged by a impacto crítico, its armadura de constructo breaks, removing the Hardness and reducing its ARMOR CLASS to 32.</p>"
+          "name": "Armadura de constructo (Dureza 14)",
+          "description": "<p>Como los objetos normales, un trabuquete animado tiene Dureza. Esta Dureza reduce cualquier daño que sufra el trabuquete en una cantidad igual a la Dureza. Cuando un trabuquete animado queda reducido a menos de la mitad de sus Puntos de Golpe, o inmediatamente despues de recibir daño de un impacto critico, su armadura de constructo se rompe, eliminando la Dureza y reduciendo su CLASE DE ARMADURA a 32.</p>"
         },
         "action->Launch": {
-          "name": "Launch",
-          "description": "<p><strong>Requisitos</strong> The animated trebuchet has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} in its arm.</p>\n<hr />\n<p><strong>Efecto</strong> The animated trebuchet attempts an @Check[athletics|defense:fortitude] check against the grabbed criatura's Fortitude DC.</p>\n<p>On a success, it fires the criatura up to 40 pies in height and up to 120 pies away. The criatura takes @Damage[4d12[bludgeoning]] daño plus the appropriate falling daño. If the flung criatura lands on another criatura, the criatura it lands on takes the same amount of daño contundente (@Check[reflex|dc:33|basic] salvación).</p>\n<p>On a successful Launch, the animated trebuchet must INTERACT to reposition its arm into the proper position before it can Launch again.</p>"
+          "name": "Lanzar",
+          "description": "<p><strong>Requisitos</strong> El trabuquete animado tiene una criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} en su brazo.</p>\n<hr />\n<p><strong>Efecto</strong> El trabuquete animado intenta una prueba de @Check[athletics|defense:fortitude] contra la CD de Fortaleza de la criatura agarrada.</p>\n<p>Con un exito, dispara a la criatura hasta 40 pies de altura y hasta 120 pies de distancia. La criatura sufre @Damage[4d12[bludgeoning]] de daño mas el daño por caida correspondiente. Si la criatura arrojada cae sobre otra criatura, la criatura sobre la que cae sufre la misma cantidad de daño contundente (salvacion basica de @Check[reflex|dc:33|basic]).</p>\n<p>Tras un Lanzar con exito, el trabuquete animado debe INTERACT para recolocar su brazo en la posicion adecuada antes de poder Lanzar de nuevo.</p>"
         },
         "action->Trample": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\n<p>Large or smaller, arm, @Check[reflex|dc:33|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\n<p>Grande o menor, brazo, @Check[reflex|dc:33|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
         }
       }
     },
@@ -524,13 +524,13 @@
       "publicNotes": "<p>Los habitantes de la Ciudad Eterna de Axis forjaron por primera vez a los aforitas para servir como emisarios, agentes y facilitadores, con un pie en el orden sublime y perfecto del Plano de la Ley y otro en el barro confuso y desordenado del Plano Material. Con el tiempo, los aforitas se extendieron por Golarion. Hoy pueden encontrarse en cualquier rincon de cualquier tierra, y solo una fraccion sigue sirviendo directamente a Axis.</p>\n<p>Como todos los vastagos planares, los aforitas destacan entre otros mortales por rasgos llamativos: piel metalica, una tenue capa de polvo cristalino, simbolos matematicos que giran a su alrededor o rasgos perfectamente simetricos. Muchos piensan de forma logica y encuentran satisfaccion en profesiones relacionadas con numeros e informacion.</p>",
       "items": {
         "spellcastingEntry->Divine Innate Spells": {
-          "name": "Divine Innate Spells"
+          "name": "Conjuros divinos innatos"
         },
         "spell->True Strike": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]\nTrue Golpe"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]\nGolpe verdadero"
         },
         "armor->Breastplate": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.r0ifJfoz8aqf0mwk]\n<p>Aunque se la denomina coraza, this type of armor consists of several pieces of plate or half-plate armor that protect the torso, chest, neck, and sometimes the hips and lower legs. It strategically grants some of the protection of plate while allowing greater flexibility and speed.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.r0ifJfoz8aqf0mwk]\n<p>Aunque se la denomina coraza, este tipo de armadura consta de varias piezas de placas o semiplacas que protegen el torso, el pecho, el cuello y a veces las caderas y la parte inferior de las piernas. Concede estrategicamente parte de la proteccion de una armadura de placas, al tiempo que permite mayor flexibilidad y velocidad.</p>"
         },
         "strike-melee->Shortsword": {
           "name": "Espada corta"
@@ -539,19 +539,19 @@
           "name": "Ballesta"
         },
         "action->Crystalline Dust": {
-          "name": "Crystalline Dust",
-          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> The sharpshooter becomes @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} for 4 asaltos, though they can't use the concealment to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} or @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak}, as normal for concealment where their position is obvious.</p>"
+          "name": "Polvo cristalino",
+          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> El tirador selecto queda @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} durante 4 asaltos, aunque no puede usar la ocultacion para @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} o @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak}, como es normal para la ocultacion cuando su posicion es evidente.</p>"
         },
         "action->Calculated Reload": {
-          "name": "Calculated Reload",
-          "description": "<p>When the sharpshooter reloads their crossbow, they also calculate the best angle to their target, increasing the dado de daño from 1d8 to 1d10 and gaining a +2 bonificador por circunstancia to their tirada de daño for their next crossbow Golpe, as long as it occurs before the end of their next turn.</p>"
+          "name": "Recarga calculada",
+          "description": "<p>Cuando el tirador selecto recarga su ballesta, tambien calcula el mejor angulo hacia su objetivo, aumentando el dado de daño de 1d8 a 1d10 y obteniendo un bonificador por circunstancia de +2 a su tirada de daño para su siguiente Golpe con ballesta, siempre que ocurra antes del final de su siguiente turno.</p>"
         },
         "action->Hurtful Critique": {
-          "name": "Hurtful Critique",
-          "description": "<p>The sharpshooter makes witty, but disparaging comments about the fighting style of a target within 30 pies, expressing sympathy over every missed blow and providing sarcastic advice on how to improve.</p>\n<p>El objetivo must succeed at a @Check[will|dc:18] salvación or take a -1 penalizador por circunstancia to tiradas de ataque (-2 on a critical failure) for 1 minuto or until it makes a successful Golpe against the sharpshooter.</p>\n<p>A criatura who critically succeeds or who Golpes the sharpshooter after failing is immune to that sharpshooter's Hurtful Critique for 1 hora.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.HKyMZobjOsd6WFuo]{Efecto: Hurtful Critique}</p>"
+          "name": "Critica hiriente",
+          "description": "<p>El tirador selecto hace comentarios ingeniosos pero despectivos sobre el estilo de combate de un objetivo a 30 pies o menos, expresando compasion por cada golpe fallido y ofreciendo consejos sarcasticos sobre como mejorar.</p>\n<p>El objetivo debe tener exito en una salvacion de @Check[will|dc:18] o sufrir una penalizacion por circunstancia de -1 a las tiradas de ataque (-2 con un fallo critico) durante 1 minuto o hasta que realice un Golpe con exito contra el tirador selecto.</p>\n<p>Una criatura que obtiene un exito critico o que Golpea al tirador selecto despues de fallar es inmune a la Critica hiriente de ese tirador selecto durante 1 hora.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.HKyMZobjOsd6WFuo]{Efecto: Critica hiriente}</p>"
         },
         "lore->Engineering Lore": {
-          "name": "Engineering LORE"
+          "name": "Saber de Ingenieria"
         }
       }
     },
