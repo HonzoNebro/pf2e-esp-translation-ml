@@ -14,7 +14,7 @@
       }
     },
     "Banshee's Symphony": {
-      "name": "Sinfonía De La Banshee",
+      "name": "Sinfonía de la banshee",
       "description": "<p> Un mágicamente contagioso <em> gemido del alma en pena </em> está atrapado en la laringe de un elfo invisible y momificado. </p>",
       "disable": "<p> @Check[type:thievery|dc:42|name:Pierce Larynx|traits:action:disable-a-device] (maestro) para perforar la laringe invisible con tanta precisión que la magia se libere en un hilo antes de que se active la trampa, @Check[type:thievery|dc:44|name:Deconstruct Larynx|traits:action:disable-a-device] (legendario) tres veces para deconstruir la laringe mientras la trampa está activa de tal manera que desgarre el conjuro, o conjuro CD 38 (nivel 9) para contrarrestar el <em> gemido de la banshee </em> antes de que se active la trampa </p>",
       "reset": "<p> La trampa termina cuando no puede hacer gritar a una criatura (generalmente porque ninguna criatura falló su salvación en el turno anterior o porque todas las criaturas tuvieron éxito crítico en el pasado). Luego se reinicia a lo largo de 24 horas, a medida que se acumula un nuevo grito en la laringe momificada. </p>",
@@ -23,7 +23,7 @@
       "items": {
         "action->Scream": {
           "name": "Gritar",
-          "description": "<p> <strong> Activador </strong> Tres o más criaturas vivientes permanecen dentro de 100 pies de la trampa durante 6 segundos o más. </p>\n <hr />\n <p> <strong> Efecto </strong> La trampa libera un arcano <em> gemido de la banshee </em> (CD 40) con una emanación de 100 pies de radio en lugar de 40 pies, apuntando a todas las criaturas vivientes en el área, y tira iniciativa. </p>"
+          "description": "<p><strong>Desencadenante</strong> Una criatura se acerca a menos de 30 pies de la orquesta</p>\n<hr />\n<p><strong>Efecto</strong> La orquesta obliga a todas las criaturas que puedan oírla a empezar a bailar. Cada criatura debe realizar una salvación de @Check[will|dc:41], con los siguientes efectos. A continuación, la orquesta tira iniciativa.</p>\n<hr />\n<p><strong>Éxito crítico</strong> La criatura no se ve afectada.</p>\n<p><strong>Éxito</strong> La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenida} y no puede usar reacciones. Además, debe gastar 1 de sus acciones cada asalto en bailar. Bailar es una acción de movimiento que permite a la criatura dar una Zancada hasta la mitad de su Velocidad.</p>\n<p><strong>Fallo</strong> Igual que el éxito, excepto que la criatura debe gastar 2 de sus acciones cada asalto en bailar.</p>\n<p><strong>Fallo crítico</strong> Como el fallo, excepto que la criatura debe gastar 3 de sus acciones cada asalto en bailar.</p>"
         }
       }
     },
@@ -93,7 +93,7 @@
       "items": {
         "action->Prelude": {
           "name": "Preludio",
-          "description": "<p><strong>Desencadenante</strong> Una criatura se acerca a menos de 30 pies (9 m) de la orquesta</p>\n<hr />\n<p><strong>Efecto</strong> La orquesta obliga a todas las criaturas que puedan oírla a empezar a bailar. Cada criatura tiene que hacer una salvación de @Check[will|dc:41], con los siguientes efectos. A continuación, la orquesta tira iniciativa.</p>\n<hr />\n<p><strong>Éxito crítico</strong> La criatura no se ve afectada. </p>\n<p><strong>Éxito</strong> La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenida} y no puede usar reacciones. Además, tiene que gastar 1 de sus acciones cada asalto en bailar. Bailar es una acción de movimiento que permite a la criatura dar una Zancada hasta la mitad de su Velocidad.</p>\n<p><strong>Fracaso</strong> Igual que el éxito, excepto que la criatura tiene que gastar 2 de sus acciones cada asalto en bailar.</p>\n<p><strong>Fallo crítico</strong> Como el fallo, excepto que la criatura tiene que gastar 3 de sus acciones cada asalto en bailar.</p>"
+          "description": "<p><strong>Desencadenante</strong> Una criatura se acerca a menos de 30 pies (9 m) de la orquesta</p>\n<hr />\n<p><strong>Efecto</strong> La orquesta obliga a todas las criaturas que puedan oírla a empezar a bailar. Cada criatura tiene que hacer una salvación de @Check[will|dc:41], con los siguientes efectos. A continuación, la orquesta tira iniciativa.</p>\n<hr />\n<p><strong>Éxito crítico</strong> La criatura no se ve afectada. </p>\n<p><strong>Éxito</strong> La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenida} y no puede usar reacciones. Además, tiene que gastar 1 de sus acciones cada asalto en bailar. Bailar es una acción de movimiento que permite a la criatura dar una Zancada hasta la mitad de su Velocidad.</p>\n<p><strong>Fallo</strong> Igual que el éxito, excepto que la criatura tiene que gastar 2 de sus acciones cada asalto en bailar.</p>\n<p><strong>Fallo crítico</strong> Como el fallo, excepto que la criatura tiene que gastar 3 de sus acciones cada asalto en bailar.</p>"
         }
       }
     },
@@ -165,14 +165,14 @@
       }
     },
     "Frozen Moment": {
-      "name": "Momento Congelado",
+      "name": "Momento congelado",
       "description": "<p> La magia protectora intenta atrapar a intrusos o posibles ladrones en un flujo de tiempo interrumpido. </p>",
       "disable": "<p> @Check[type:thievery|dc:38|name:Disassemble Spell Components|traits:action:disable-a-device] (legendario) para desmontar rápidamente los innumerables componentes del conjuro en un solo abrir y cerrar de ojos; o @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (nivel 9; contrarrestar CD 36) para contrarrestar la trampa antes de que se active o para contrarrestar el efecto en una criatura después de que se active la trampa </p>",
       "stealth": "<p> (maestro) </p>",
       "items": {
         "action->Adrift in Time": {
           "name": "A la deriva en el tiempo",
-          "description": "<p> <strong> Desencadenante </strong> Una criatura toca el objeto o área protegida. </p>\n <hr />\n <p> <strong> Efecto </strong> La criatura desencadenante y todas las criaturas dentro de 30 pies quedan atrapadas en un flujo de tiempo interrumpido ( @Check[type:fortitude|dc:38] niega). Las mentes de las criaturas se mueven tan rápido que cada ronda parece durar un siglo, pero sus cuerpos y energías mágicas se mueven tan lentamente que no pueden utilizar ninguna acción excepto Recuperar conocimiento. Una criatura afectada debeintenta una tirada de salvación @Check[type:will|dc:36] contra un conjuro <em> mente disforme </em> inmediatamente y nuevamente por cada minuto de tiempo real que pase mientras la criatura está atrapada en el momento congelado. Este efecto tiene una duración ilimitada pero puede contrarrestarse. </p>"
+          "description": "<p> <strong> Desencadenante </strong> Una criatura toca el objeto o área protegida. </p>\n <hr />\n <p> <strong> Efecto </strong> La criatura desencadenante y todas las criaturas dentro de 30 pies quedan atrapadas en un flujo de tiempo interrumpido ( @Check[type:fortitude|dc:38] niega). Las mentes de las criaturas se mueven tan rápido que cada ronda parece durar un siglo, pero sus cuerpos y energías mágicas se mueven tan lentamente que no pueden utilizar ninguna acción excepto Recuperar conocimiento. Una criatura afectada debeintenta una salvación @Check[type:will|dc:36] contra un conjuro <em> mente disforme </em> inmediatamente y nuevamente por cada minuto de tiempo real que pase mientras la criatura está atrapada en el momento congelado. Este efecto tiene una duración ilimitada pero puede contrarrestarse. </p>"
         }
       }
     },
@@ -234,7 +234,7 @@
       "items": {
         "action->Powder Burst": {
           "name": "Explosión de polvo",
-          "description": "<p><strong>Desencadenante</strong> Se abre el pestillo o se rompe el tubo.</p>\n<hr />\n<p><strong>Efecto</strong> El tubo explota, rociando polvo alucinógeno en un @Template[cone|distance:30]{cono de 30 pies (9 m)}. Cualquier criatura en el cono ha de tener éxito en una salvación de @Check[will|dc:24] o queda confusa durante 1 asalto y se le impone un penalizador -2 por estatus a las pruebas de Percepción y a las salvaciones contra efectos mentales durante [[/br 1d4 #horas]]{1d4 horas}. En caso de fallo crítico, el penalizador es -4.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.6OpwHz0f55wPawHI]{Efecto: Explosión de polvo}</p>"
+          "description": "<p><strong>Desencadenante</strong> Se abre el pestillo o se rompe el tubo.</p>\n<hr />\n<p><strong>Efecto</strong> El tubo explota y rocía polvo alucinógeno en un @Template[cone|distance:30]{cono de 30 pies}. Cualquier criatura en el cono debe tener éxito en una salvación de @Check[will|dc:24] o queda confundida durante 1 asalto y sufre un penalizador de estado -2 a las pruebas de Percepción y a las salvaciones contra efectos mentales durante [[/br 1d4 #horas]]{1d4 horas}. Con un fallo crítico, el penalizador es -4.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.6OpwHz0f55wPawHI]{Efecto: Explosión de polvo}</p>"
         }
       }
     },
@@ -264,7 +264,7 @@
       "items": {
         "action->Ensnare": {
           "name": "Enredar",
-          "description": "<p><strong>Desencadenante</strong> Una criatura que no es una araña entra en la telaraña.</p>\n<hr />\n<p><strong>Efecto</strong> La telaraña envuelve el cuerpo de la criatura desencadenante, pegándose a sus extremidades. La criatura desencadenante ha de tener éxito en una salvación de @Check[reflex|dc:20] o se le impone un penalizador por circunstancia de -10 pies (3 m) a todas sus Velocidades hasta que @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Huye} de la telaraña (CD 20). En caso de fallo crítico, la telaraña también se adhiere a la cara de la criatura, dejándola @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesta 1}, y no puede reducir este estado hasta que Huye de la telaraña.</p>"
+          "description": "<p><strong>Desencadenante</strong> Una criatura que no es una araña entra en la telaraña.</p>\n<hr />\n<p><strong>Efecto</strong> La telaraña envuelve el cuerpo de la criatura desencadenante y se pega a sus extremidades. La criatura desencadenante debe tener éxito en una salvación de @Check[reflex|dc:20] o sufre un penalizador de circunstancia -10 pies a todas sus Velocidades hasta que @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} de la telaraña (CD 20). Con un fallo crítico, la telaraña también se adhiere a la cara de la criatura, dejándola @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesta 1}, y no puede reducir esta condición hasta que Escape de la telaraña.</p>"
         }
       }
     },
@@ -308,10 +308,10 @@
       }
     },
     "Lava Flume Tube": {
-      "name": "Tubo De Canal De Lava",
+      "name": "Tubo de canal de lava",
       "description": "<p> Cuatro canales cerrados tallados en piedra permiten que la lava fluya hacia una habitación de 15 pies de altura; el piso puede retirarse para permitir que la lava endurecida caiga a una cámara debajo. </p>",
       "disable": "<p> @Check[type:thievery|dc:29|name:Block a Channel|traits:action:disable-a-device] (experto) para bloquear un canal, o @Check[type:thievery|dc:31|name:Release Floor Latch|traits:action:disable-a-device] (maestro) para liberar el pestillo del piso y escapar a la cámara de abajo </p>",
-      "hpDetails": "destruir una puerta de canal (esto evita que ese canal se desactive y evita que la trampa se reinicie); <strong> Dureza del piso </strong> 18; <strong> HP del piso </strong> 72 (UR 36)",
+      "hpDetails": "destruir una puerta del canal (esto evita que ese canal se desactive y que la trampa se reinicie); <strong>Dureza del suelo</strong> 18; <strong>PG del suelo</strong> 72 (UR 36)",
       "reset": "<p> La trampa se desactiva y se reinicia después de 1 hora retirando el piso, agrietando y arrojando la lava endurecida (y cualquier criatura atrapada dentro) en la cámara. Las criaturas caen 40 pies y sufren daño por caída (normalmente 17 de daño contundente). </p>",
       "routine": "<p> (4 acciones) La trampa pierde 1 acción por canal desactivado en cada turno. En cada acción, un canal diferente arroja lava, causando 4d6 de daño por fuego a cada criatura dentro de 10 pies del canal ( @Check[type:reflex|dc:27|basic:true] ), y aumentando la profundidad de la lava en la habitación en 1 pie (4 pies por ronda si todos los canales están activo). </p>\n <p> Una criatura que comienza su turno en lava sufre 8d6 de daño por fuego y queda inmovilizada hasta que escapa de la lava que se endurece (CD 27). La criatura podríaasfixiarse si está cubierto de lava. </p>\n <p> La lava de la ronda anterior se endurece completamente al comienzo del turno de la trampa, elevando efectivamente el piso de la habitación. Una vez que la habitación está llena de lava, la trampa deja de realizar acciones, pero las criaturas en la habitación permanecen atrapadas hasta que el piso se abre y la trampa se reinicia. </p>",
       "stealth": "<p> (entrenado) </p>",
@@ -327,7 +327,7 @@
       "description": "<p> Una multitud de espíritus violentos poseen tres maniquíes mecánicos, y cada uno arremete contra cualquier criatura que se atreva a caminar cerca. </p>",
       "disable": "<p> @Check[type:thievery|dc:37|name:Jam a mannequin's clockwork mechanisms|traits:clockwork,haunt,mechanical,hazard]{Latrocinio (maestro)} para bloquear los mecanismos de relojería de un maniquí o un @Check[type:religion|dc:35|name:Exorcise a spirit from a mannequin|traits:clockwork,haunt,mechanical,hazard]{Religión (experto)} dos veces para exorcizar un espíritu de un maniquí. </p>",
       "reset": "<p> La guarida se desactiva después de que no tiene criaturas objetivo y se reinicia, generalmente en el transcurso de 1 ronda, a medida que los maniquíes se mueven a sus posiciones originales. Si un maniquí está a más de 150 pies de su posición original, el refugio tardará más en restablecerse, ya que el maniquí retrocede 150 pies en cada ronda. </p>",
-      "routine": "<p> <strong> Rutina </strong> (9 acciones) Cada uno de los maniquíes usa tres de las acciones del fantasma en cada turno, y el fantasma pierde tres acciones en cada turno por cada maniquí inutilizado o destruido. Cada maniquí usa su primera acción para dar zancadas de hasta 50 pies y las dos acciones restantes para realizar golpes con el puño de un reloj. Cada uno tiene su propia penalizador por ataque múltiple separada. </p>",
+      "routine": "<p><strong>Rutina</strong> (9 acciones) Cada uno de los maniquíes usa tres de las acciones del fantasma en cada turno, y el fantasma pierde tres acciones por cada maniquí inutilizado o destruido. Cada maniquí usa su primera acción para Avanzar hasta 50 pies y las dos acciones restantes para realizar Golpes con el puño de mecanismo. Cada uno tiene su propio penalizador por ataques múltiples.</p>",
       "items": {
         "action->Awaken": {
           "name": "Despertar",
@@ -342,7 +342,7 @@
       "name": "Inundación repentina peligrosa",
       "description": "<p> Ya sea compuesta por agua que corre por las calles y arrastra escombros peligrosos a lo largo del camino o por una sustancia menos natural que se libera de su recipiente, esta implacable inundación azota todo a su paso. </p>",
       "disable": "<p> Tres @Check[type:athletics|dc:35|name:Move Barricade] , @Check[type:crafting|dc:35|name:Construct Barricade] o @Check[type:survival|dc:35|name:Construct Barricade] controles para mover o construir barricadas lo suficientemente fuertes como para crear un refugio contra la inundación. Si bien esto crea un lugar seguro para permanecer, las criaturas fuera del área barricada aún pueden estar en peligro dependiendo de la naturaleza y el origen de la inundación. </p>",
-      "routine": "<p> (1 acción) La inundación avanza 60 pies, chocando contra todas las criaturas dentro de su área. Cada criatura debe intentar una salvación @Check[type:fortitude|dc:30] mientras las aguas las golpean y las arrastran río abajo. La cantidad y el tipo de daño causado se basan en la naturaleza de la inundación, y ciertos tipos de inundaciones imponen efectos adicionales. Las aguas turbulentas significan que las criaturas dentro del área de la inundación deben intentar una prueba @Check[type:athletics|dc:20|name:Swim|traits:action:swim] de Nadar para poder moverse, y aquellas que no tienen éxito en unamarque Nadar en cada ronda puede ahogarse. </p>\n <hr>\n <p> <strong> Éxito crítico </strong> La criatura no recibe daño. </p>\n <p> <strong> Éxito </strong> La criatura sufre la mitad del daño. </p>\n <p> <strong> Fallo </strong> La criatura sufre todo el daño y se mueve 10 pies junto con el agua. </p>\n <p> <strong> Fallo crítico </strong> La criatura sufre el doble de daño y se mueve 20pies junto con el agua. </p>\n <hr>\n <ul>\n <li> <strong> Escorrentía ácida </strong> Esta inundación cáustica disuelve la carne a medida que se mueve, causando @Damage[1d12[bludgeoning] ,(1d12+8)[ácido]]{1d12 daño contundente and 1d12+8 daño de ácido} . Además, causa @Damage[2d6[persistent,acid]] daño a las criaturas que fallan críticamente en sus salvaciones de Fortaleza. </li>\n <li> <strong> Olas azotadoras </strong> Esta inundación de agua corriendo causa @Damage[(2d12+10)[bludgeoning]] de daño. </li>\n <li> <strong>Rechazo repulsivo </strong> Esta inundación ha recogido objetos contaminados o plagados de enfermedades, como escorrentías de alcantarillado o comida podrida. Inflige @Damage[(2d12+8)[bludgeoning]] de daño. Cada criatura expuesta a la inundación debe intentar una salvación @Check[type:fortitude|dc:29], convirtiéndose en @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} en caso de fallo o @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 2} en caso de fallo crítico. Además, las criaturas que entran en contacto con las aguas de la inundación están expuestas a la fiebre de la inmundicia ( @Check[type:fortitude|dc:20] ). </li>\n <li> <strong> Escombros afilados</strong> Las aguas han recogido diversos objetos, algunos de ellos especialmente punzantes. La inundación causa @Damage[1d12[bludgeoning]] de daño y @Damage[(1d12+12)[piercing]] de daño. </li>\n <li> <strong> Sticky Goo </strong> La sustancia es particularmente pegajosa. Inflige @Damage[(2d12+6)[bludgeoning]] de daño. Además, cada criatura en la inundación debe intentar una salvación @Check[type:reflex|dc:29] al comienzo de su turno en cada ronda. En un tirada de salvación fallido, reciben una penalizador por circunstancia de -10 pies a todos susVelocidades para 1 ronda. En caso de fallo crítico, son @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} durante 1 ronda. </li>\n </ul>",
+      "routine": "<p>(1 acción) La inundación avanza 60 pies y choca contra todas las criaturas dentro de su área. Cada criatura debe intentar una salvación de @Check[type:fortitude|dc:30] mientras las aguas la golpean y la arrastran río abajo. La cantidad y el tipo de daño causado dependen de la naturaleza de la inundación, y ciertos tipos de inundación imponen efectos adicionales. Las aguas turbulentas hacen que las criaturas dentro del área de la inundación deban intentar una prueba de @Check[type:athletics|dc:20|name:Swim|traits:action:swim]{Nadar} para moverse; las que no tengan éxito en una prueba de Nadar en cada asalto pueden ahogarse.</p>\n<hr>\n<p><strong>Éxito crítico</strong> La criatura no recibe daño.</p>\n<p><strong>Éxito</strong> La criatura recibe la mitad del daño.</p>\n<p><strong>Fallo</strong> La criatura recibe todo el daño y se mueve 10 pies con el agua.</p>\n<p><strong>Fallo crítico</strong> La criatura recibe el doble de daño y se mueve 20 pies con el agua.</p>\n<hr>\n<ul>\n<li><strong>Escorrentía ácida</strong> Esta inundación cáustica disuelve la carne a medida que se mueve, causando @Damage[1d12[bludgeoning],(1d12+8)[acid]]{1d12 de daño contundente y 1d12+8 de daño de ácido}. Además, causa @Damage[2d6[persistent,acid]] de daño persistente de ácido a las criaturas que fallen críticamente sus salvaciones de Fortaleza.</li>\n<li><strong>Olas azotadoras</strong> Esta inundación de agua embravecida causa @Damage[(2d12+10)[bludgeoning]] de daño contundente.</li>\n<li><strong>Desechos repulsivos</strong> Esta inundación ha recogido objetos contaminados o plagados de enfermedades, como escorrentías de alcantarillado o comida podrida. Inflige @Damage[(2d12+8)[bludgeoning]] de daño contundente. Cada criatura expuesta a la inundación debe intentar una salvación de @Check[type:fortitude|dc:29], quedando @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesta 1} con un fallo o @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesta 2} con un fallo crítico. Además, las criaturas que entran en contacto con las aguas de la inundación están expuestas a la fiebre de la inmundicia (@Check[type:fortitude|dc:20]).</li>\n<li><strong>Escombros afilados</strong> Las aguas han recogido diversos objetos, algunos de ellos especialmente punzantes. La inundación causa @Damage[1d12[bludgeoning]] de daño contundente y @Damage[(1d12+12)[piercing]] de daño perforante.</li>\n<li><strong>Pringue pegajoso</strong> La sustancia es particularmente pegajosa. Inflige @Damage[(2d12+6)[bludgeoning]] de daño contundente. Además, cada criatura en la inundación debe intentar una salvación de @Check[type:reflex|dc:29] al comienzo de su turno en cada asalto. Con una salvación fallida, sufre un penalizador de circunstancia -10 pies a todas sus Velocidades durante 1 asalto. Con un fallo crítico, queda @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizada} durante 1 asalto.</li>\n</ul>",
       "stealth": "<p> (experto) </p>",
       "items": {
         "action->Burst Free": {
@@ -351,7 +351,7 @@
         },
         "action->Filth Fever": {
           "name": "Fiebre de la inmundicia",
-          "description": "<p> Los enfermos y @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} condiciones de fiebre inmunda no mejoran por sí solos hasta que la enfermedad se cura. </p>\n <p> <strong> Tirada de salvación </strong> @Check[type:fortitude|dc:20] </p>\n <p> <strong> Etapa 1 </strong> portador sin efectos nocivos (1d4 horas) </p>\n <p> <strong> Etapa 2 </strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} (1 día) </p>\n <p> <strong> Etapa 3 </strong> enfermo 1 y@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} mientras permanezca enfermo (1 día) </p>\n <p> <strong> Etapa 4 </strong> inconsciente (1 día) </p>\n <p> <strong> Etapa 5 </strong> muerto </p>"
+          "description": "<p>Las condiciones de @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto} e @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} causadas por la fiebre de la inmundicia no mejoran por sí solas hasta que la enfermedad se cura.</p>\n<p><strong>Salvación</strong> @Check[type:fortitude|dc:20]</p>\n<p><strong>Etapa 1</strong> portador sin efectos nocivos (1d4 horas)</p>\n<p><strong>Etapa 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} (1 día)</p>\n<p><strong>Etapa 3</strong> indispuesto 1 y @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} mientras permanezca indispuesto (1 día)</p>\n<p><strong>Etapa 4</strong> inconsciente (1 día)</p>\n<p><strong>Etapa 5</strong> muerto</p>"
         }
       }
     },
@@ -408,15 +408,15 @@
         },
         "strike-melee->Poisoned Dart": {
           "name": "Dardo envenenado",
-          "description": "<p>No multiple attack penalizador</p>"
+          "description": "<p>Sin penalizador por ataques múltiples</p>"
         },
         "action->Continuous Barrage": {
           "name": "Descarga continua",
-          "description": "<p><strong>Desencadenante</strong> Una criatura dentro de la galería activa termina una acción</p>\n<hr />\n<p><strong>Efecto</strong> La trampa lanza un dardo envenenado contra la criatura desencadenante.</p>"
+          "description": "<p>Sin penalizador por ataques múltiples</p>"
         },
         "action->Flesset Poison": {
           "name": "Veneno de flesset",
-          "description": "<p><strong>Tirada de salvación</strong> @Check[type:fortitude|dc:22]</p>\n<p><strong>Duración máxima</strong> 6 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[1d6[poison]]{1d6 daño por veneno} y @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[2d6[poison]]{2d6 daño por veneno} y  @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[3d6[poison]]{3d6 daño por veneno} y @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 3} (1 asalto)</p>"
+          "description": "<p><strong>Salvación</strong> @Check[type:fortitude|dc:22]</p>\n<p><strong>Duración máxima</strong> 6 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[1d6[poison]]{1d6 de daño por veneno} y @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[2d6[poison]]{2d6 de daño por veneno} y @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[3d6[poison]]{3d6 de daño por veneno} y @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 3} (1 asalto)</p>"
         }
       }
     },
@@ -435,7 +435,7 @@
         },
         "action->Cladis Poison": {
           "name": "Veneno de cladis",
-          "description": "<p><strong>Tirada de salvación</strong>@Check[type:fortitude|dc:19]</p>\n<p><strong>Duración máxima</strong> 4 horas</p>\n<p><strong>Etapa 1</strong> @Damage[1d6[poison]]{1d6 daño por veneno} y @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} (1 hora)</p>\n<p><strong>Etapa 2</strong> @Damage[2d6[poison]]{2d6 daño por veneno} y @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 2} (1 hora)</p>\n<p><strong>Etapa 3</strong> @Damage[3d6[poison]]{3d6 daño por veneno} y drenado 2 (1 hora)</p>"
+          "description": "<p><strong>Salvación</strong> @Check[type:fortitude|dc:19]</p>\n<p><strong>Duración máxima</strong> 4 horas</p>\n<p><strong>Etapa 1</strong> @Damage[1d6[poison]]{1d6 de daño por veneno} y @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} (1 hora)</p>\n<p><strong>Etapa 2</strong> @Damage[2d6[poison]]{2d6 de daño por veneno} y @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 2} (1 hora)</p>\n<p><strong>Etapa 3</strong> @Damage[3d6[poison]]{3d6 de daño por veneno} y drenado 2 (1 hora)</p>"
         }
       }
     },
@@ -499,12 +499,12 @@
         },
         "strike-melee->Scythe": {
           "name": "Guadaña",
-          "description": "<p>No multiple attack penalizador</p>"
+          "description": "<p>Sin penalizador por ataques múltiples</p>"
         }
       }
     },
     "Second Chance": {
-      "name": "Segunda Oportunidad",
+      "name": "Segunda oportunidad",
       "description": "<p> Una poderosa magia protectora ligada a un objeto o ubicación intenta hacer retroceder las edades de una criatura y sus aliados. </p>",
       "disable": "<p> @Check[type:thievery|dc:46|name:Dismantle Spell|traits:action:disable-a-device] (legendario) para desarmar el conjuro un pedacito a la vez, con los ojos cerrados, mientras recuerda cada recuerdo vívido de la vida en orden, comenzando desde el recuerdo más antiguo </p>",
       "stealth": "<p> (legendario) </p>",
@@ -523,7 +523,7 @@
       "items": {
         "action->Shriek": {
           "name": "Grito",
-          "description": "<p> <strong> Desencadenante </strong> Una criatura o fuente de luz se acerca a 10 pies del shrieker o el shrieker recibe daño. </p>\n <hr />\n <p> <strong> Efecto </strong> El chillón emite un chillido ensordecedor que inflige @Damage[1d6[sonic]] daño a las criaturas dentro de @Template[type:emanation|distance:30]{30 pies} (@Check[type:fortitude|dc:16|basic:true|traits:auditory] salvación; las criaturas que fallan críticamente esta tirada de salvación son @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ensordecido} durante 1 minuto). </p>"
+          "description": "<p> <strong> Desencadenante </strong> Una criatura o fuente de luz se acerca a 10 pies del shrieker o el shrieker recibe daño. </p>\n <hr />\n <p> <strong> Efecto </strong> El chillón emite un chillido ensordecedor que inflige @Damage[1d6[sonic]] daño a las criaturas dentro de @Template[type:emanation|distance:30]{30 pies} (@Check[type:fortitude|dc:16|basic:true|traits:auditory] salvación; las criaturas que fallan críticamente esta salvación son @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ensordecido} durante 1 minuto). </p>"
         }
       }
     },
@@ -582,7 +582,7 @@
         },
         "action->Sap Vitality": {
           "name": "Minar vitalidad",
-          "description": "<p>Una criatura impactada por las púas de sombra del reflejo tiene que hacer una salvación de @Check[fortitude|dc:22] mientras la aparición intenta arrebatarle una porción de su esencia vital desde el espejo. Si la tirada de salvación falla, el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} o @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 2} si el fallo es crítico.</p>"
+          "description": "<p>Una criatura impactada por las púas de sombra del reflejo tiene que hacer una salvación de @Check[fortitude|dc:22] mientras la aparición intenta arrebatarle una porción de su esencia vital desde el espejo. Si la salvación falla, el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} o @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 2} si el fallo es crítico.</p>"
         },
         "action->Special": {
           "name": "Especial",
@@ -623,8 +623,8 @@
           "description": "<p> <strong> Desencadenante </strong> Una criatura come comida en la que se esconde el lóbulo deportivo </p>\n <hr />\n <p> <strong> Efecto </strong> El sportlebore se multiplica rápidamente en el estómago del huésped, exponiéndolo a una infestación por sportlebore </p>"
         },
         "action->Sportlebore Infestation": {
-          "name": "Infestación por deporte",
-          "description": "<p> <strong> Tirada de salvación </strong> @Check[type:fortitude|dc:22|basic:true] </p>\n <p> <strong> Etapa 1 </strong> portador sin efectos nocivos (1 día) </p>\n <p> <strong> Etapa 2 </strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1} (1 hora) </p>\n <p> <strong> Etapa 3 </strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 2} (1 hora) </p>\n <p> <strong> Etapa 4 </strong> @Damage[4d6[bludgeoning]] daño ( @Check[type:fortitude|dc:25|basic:true] salvación) mientras el anfitrión vomita dolorosamente unsportlebore enjambra y regresa a la etapa 1 </p>"
+          "name": "Infestación de sportlebores",
+          "description": "<p><strong>Salvación</strong> @Check[type:fortitude|dc:22|basic:true]</p>\n<p><strong>Etapa 1</strong> portador sin efectos nocivos (1 día)</p>\n<p><strong>Etapa 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1} (1 hora)</p>\n<p><strong>Etapa 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 2} (1 hora)</p>\n<p><strong>Etapa 4</strong> @Damage[4d6[bludgeoning]] de daño (salvación básica de @Check[type:fortitude|dc:25|basic:true]) mientras el anfitrión vomita dolorosamente un enjambre de sportlebores y regresa a la etapa 1.</p>"
         }
       }
     },
@@ -641,7 +641,7 @@
       }
     },
     "Summoning Rune": {
-      "name": "Runa de Convocación",
+      "name": "Runa de convocación",
       "description": "<p>Una nube de sensores mágicos invisibles en un radio de 10 pies (3 m) rodea una runa invisible en la pared o el suelo del tamaño de la criatura a convocar.</p>",
       "disable": "<p>@Check[type:acrobatics|dc:15|name:Acercarse a la runa] para acercarse sin desencadenar la trampa seguido de @Check[thievery|dc:17|name:Borrar la runa|traits:action:disable-a-device] (entrenado) para borrar la runa o @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Disipar magia} (1.º rango; contrarrestar CD 15) para contrarrestar la runa.</p>",
       "reset": "<p>La trampa se rearma cada día al amanecer.</p>",
@@ -654,7 +654,7 @@
       }
     },
     "Telekinetic Swarm Trap": {
-      "name": "Trampa De Plaga Telecinética",
+      "name": "Trampa de enjambre telecinético",
       "description": "<p> Tres decoraciones inofensivas inculcadas con magia telequinética atraen objetos y piezas de la habitación en nubes giratorias de escombros que atacan a todas las criaturas en la habitación. </p>",
       "disable": "<p> @Check[type:thievery|dc:27|name:Take Apart Cloud|traits:action:disable-a-device] (experto) para desarmar una nube telequinética, @Check[type:thievery|dc:32|name:Disable Telekinetic Decoration|traits:action:disable-a-device] (maestro) para desactivar cada decoración telequinética, o @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (6º nivel; contrarrestar CD 30) para contrarrestar cada decoración telequinética </p>",
       "hpDetails": "por nube telequinética",
@@ -691,7 +691,7 @@
         },
         "action->Titanic Flytrap Toxin": {
           "name": "Toxina de atrapamoscas titánico",
-          "description": "<p><strong>Tirada de salvación</strong> @Check[type:fortitude|dc:21]</p>\n<p><strong>Duración máxima</strong> 4 rondas</p>\n<p><strong>Etapa 1</strong> @Damage[2d6[poison]]{2d6 daño por veneno} y @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[3d6[poison]]{3d6 daño por veneno} y @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 2} (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[4d6[poison]]{4d6 daño por veneno} y @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado} (1 asalto)</p>"
+          "description": "<p><strong>Salvación</strong> @Check[type:fortitude|dc:21]</p>\n<p><strong>Duración máxima</strong> 4 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[2d6[poison]]{2d6 de daño por veneno} y @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[3d6[poison]]{3d6 de daño por veneno} y @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 2} (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[4d6[poison]]{4d6 de daño por veneno} y @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado} (1 asalto)</p>"
         }
       }
     },
@@ -721,7 +721,7 @@
         },
         "strike-melee->Saw Blade": {
           "name": "Hoja de sierra",
-          "description": "<p>No multiple attack penalizador</p>"
+          "description": "<p>Sin penalizador por ataques múltiples</p>"
         },
         "action->Decapitation": {
           "name": "Decapitación",
@@ -730,7 +730,7 @@
       }
     },
     "Web Lurker Deadfall": {
-      "name": "Caída del acechador web",
+      "name": "Derrumbe de tejeterror",
       "description": "<p> Una red trampa suelta un haz de rocas que caen sobre todos los objetivos dentro de un cuadrado de 10 pies. </p>",
       "disable": "<p> Supervivencia (entrenado) o Robo (experto) CD 20 para reorganizar las correas. </p>",
       "stealth": "<p> CC 23 </p>",
@@ -782,7 +782,7 @@
         },
         "action->Yellow Mold Spores": {
           "name": "Esporas de moho amarillo",
-          "description": "<p>El estado drenado de las esporas persiste después de que finaliza la duración del veneno.</p>\n<p><strong>Tirada de salvación</strong> @Check[type:fortitude|dc:26]</p>\n<hr />\n<p><strong>Duración máxima</strong> 6 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[1d8[poison]]{1d8 daño de veneno} y @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[2d8[poison]]{2d8 daño de veneno} y @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 2} (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[3d8[poison]]{3d8 daño de veneno} y @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 3} (1 asalto)</p>"
+          "description": "<p>El estado drenado de las esporas persiste después de que finaliza la duración del veneno.</p>\n<p><strong>Salvación</strong> @Check[type:fortitude|dc:26]</p>\n<hr />\n<p><strong>Duración máxima</strong> 6 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[1d8[poison]]{1d8 de daño de veneno} y @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[2d8[poison]]{2d8 de daño de veneno} y @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 2} (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[3d8[poison]]{3d8 de daño de veneno} y @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 3} (1 asalto)</p>"
         }
       }
     }
