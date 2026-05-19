@@ -3,257 +3,258 @@
     "flat-config": {
       "stupefied": {
         "label": "Anonadado",
-        "note": "Spellcasting while Stupefied"
+        "note": "Lanzamiento de conjuros mientras estás anonadado"
       },
       "manipulate": {
-        "label": "Manipulate",
-        "note": "Manipulate Actions while Grabbed"
+        "label": "Manipular",
+        "note": "Acciones de manipular mientras estás agarrado"
       },
       "deafened": {
         "label": "Ensordecido",
-        "note": "Auditory Actions while Deafened"
+        "note": "Acciones auditivas mientras estás ensordecido"
       },
       "deafened-spellcasting": {
-        "label": "Deafened - Spellcasting",
-        "note": "Non-subtle conjuros require incantations, and all speech has the auditory rasgo."
+        "label": "Ensordecido - lanzamiento de conjuros",
+        "note": "Los conjuros no sutiles requieren encantamientos, y todo discurso tiene el rasgo auditivo."
       },
       "target": {
-        "label": "Target",
-        "note": "Oculto/Escondido/Dazzled/Blinded/etc. Supports PF2e Visioner"
+        "label": "Objetivo",
+        "note": "Oculto/Escondido/Deslumbrado/Cegado/etc. Compatible con PF2e Visioner"
       },
       "light-level": {
-        "label": "Target - Light Level",
-        "note": "Dim Light/Darkness if origin lacks low-light/darkvision"
+        "label": "Objetivo - nivel de luz",
+        "note": "Luz tenue/oscuridad si el origen carece de visión en la penumbra/visión en la oscuridad"
       }
     },
     "settings": {
       "flat-check-in-message": {
-        "name": "Flat Check Buttons in Messages",
-        "hint": "Adds flat checks for supported conditions in chat messages."
+        "name": "Botones de prueba plana en mensajes",
+        "hint": "Añade pruebas planas para las condiciones compatibles en los mensajes de chat."
       },
       "flat-check-config": {
-        "name": "Flat Check Config"
+        "name": "Configuración de pruebas planas"
       },
       "flat-check-auto-roll": {
-        "name": "Auto-Roll Flat Checks",
-        "hint": "Rolls any flat checks on a message automatically",
+        "name": "Tirar pruebas planas automáticamente",
+        "hint": "Tira automáticamente cualquier prueba plana en un mensaje.",
         "choices": {
-          "always": "Always",
-          "user": "User Setting",
-          "never": "Never"
+          "always": "Siempre",
+          "user": "Ajuste del usuario",
+          "never": "Nunca"
         }
       },
       "flat-check-auto-roll-user": {
-        "name": "Auto-Roll Flat Checks",
-        "hint": "User setting: Behaviour depends on the world setting"
+        "name": "Tirar pruebas planas automáticamente",
+        "hint": "Ajuste del usuario: el comportamiento depende del ajuste del mundo."
       },
       "flat-check-hide-roll": {
-        "name": "Hide Rolls with Flat Checks",
-        "hint": "If a roll requires a prueba plana, the result will be hidden until revealed"
+        "name": "Ocultar tiradas con pruebas planas",
+        "hint": "Si una tirada requiere una prueba plana, el resultado se ocultará hasta que se revele."
       },
       "flat-check-hide-roll-auto-reveal": {
-        "name": "Auto-Reveal Results",
-        "hint": "If all flat checks succeed, the result will automatically be revealed"
+        "name": "Revelar resultados automáticamente",
+        "hint": "Si todas las pruebas planas tienen éxito, el resultado se revelará automáticamente."
       },
       "flat-check-hide-roll-players-can-reveal": {
-        "name": "Players can reveal Results",
-        "hint": "Allows players to manually reveal hidden rolls even if not all flat checks succeeded"
+        "name": "Los jugadores pueden revelar resultados",
+        "hint": "Permite a los jugadores revelar manualmente tiradas ocultas aunque no todas las pruebas planas hayan tenido éxito."
       },
       "flat-check-target-marker": {
-        "name": "Show Flat Check on Token",
-        "hint": "User setting: Shows prueba plana info on a token when targeting.",
+        "name": "Mostrar prueba plana en el token",
+        "hint": "Ajuste del usuario: muestra información de prueba plana en un token al seleccionarlo como objetivo.",
         "choices": {
-          "enabled": "Enabled",
-          "onlyWithOrigin": "Only with origin",
-          "disabled": "Disabled"
+          "enabled": "Activado",
+          "onlyWithOrigin": "Solo con origen",
+          "disabled": "Desactivado"
         }
       },
       "flat-check-target-marker-display": {
-        "name": "Show on token prueba plana with",
+        "name": "Mostrar prueba plana en token con",
         "hint": "",
         "choices": {
-          "all": "Outline and Text",
-          "textOnly": "Text Only",
-          "outlineOnly": "Outline Only"
+          "all": "Contorno y texto",
+          "textOnly": "Solo texto",
+          "outlineOnly": "Solo contorno"
         }
       },
       "light-level-vis": {
-        "name": "Light Level Visualization",
-        "hint": "User setting: Hold alt to highlight squares with no/dim light."
+        "name": "Visualización del nivel de luz",
+        "hint": "Ajuste del usuario: mantén Alt para resaltar casillas sin luz o con luz tenue."
       },
       "delay-combat-tracker": {
-        "name": "Show Delay Button in Combat Tracker",
-        "hint": "Adds delay/return buttons to the default combat tracker."
+        "name": "Mostrar botón Retrasar en el rastreador de combate",
+        "hint": "Añade botones de retrasar/volver al rastreador de combate predeterminado."
       },
       "delay-token-hud": {
-        "name": "Show Delay Button in Token Hud",
-        "hint": "Adds delay/return buttons to the menu that appears when right-clicking a token."
+        "name": "Mostrar botón Retrasar en el HUD de token",
+        "hint": "Añade botones de retrasar/volver al menú que aparece al hacer clic derecho en un token."
       },
       "delay-return": {
-        "name": "Enable Return Button",
-        "hint": "Allows returning to initiative by pressing the delay button again."
+        "name": "Activar botón Volver",
+        "hint": "Permite volver a la iniciativa pulsando de nuevo el botón de retrasar."
       },
       "delay-prompt": {
-        "name": "Prompt for New Initiative",
-        "hint": "Lets the user select a combatant to delay their turn after. Can still return early anytime they want."
+        "name": "Preguntar nueva iniciativa",
+        "hint": "Permite elegir tras qué combatiente retrasar el turno. Aun así, puedes volver antes en cualquier momento."
       },
       "delay-create-message": {
-        "name": "Delay/Return Creates Chat Message"
+        "name": "Retrasar/volver crea mensaje de chat"
       },
       "token-hud-remove-combat-toggle": {
-        "name": "Remove Combat Toggle from Token Hud",
-        "hint": "Removes the 'Toggle Combat State' button for tokens in combat."
+        "name": "Quitar conmutador de combate del HUD de token",
+        "hint": "Quita el botón \"Alternar estado de combate\" de los tokens en combate."
       },
       "pf2e-hud-enable": {
-        "name": "Modify PF2e HUD",
-        "hint": "Overrides PF2e HUDs delay handling with this modules implementation. Please report issue with this to me and not to PF2e HUD!"
+        "name": "Modificar PF2e HUD",
+        "hint": "Sobrescribe la gestión de retrasar de PF2e HUD con la implementación de este módulo. Informa de cualquier problema al autor de este módulo, no a PF2e HUD."
       },
       "lifelink": {
-        "name": "Enable Life/Spirit Link Automation Buttons",
-        "hint": "Check the module readme for setup steps."
+        "name": "Activar botones de automatización de Vínculo vital/espiritual",
+        "hint": "Consulta el README del módulo para ver los pasos de configuración."
       },
       "lifelink-formular": {
-        "name": "Life Link Formular",
-        "hint": "Variant of life link daño absorption to use.",
+        "name": "Fórmula de Vínculo vital",
+        "hint": "Variante de absorción de daño de vínculo vital que se usará.",
         "choices": {
-          "apg": "Standard",
-          "plus": "Oracles+ (Heightened (+2))"
+          "apg": "Estándar",
+          "plus": "Oracles+ (Intensificado +2)"
         }
       },
       "emanation-automation": {
-        "name": "Auto-Apply Emanation Efecto Button"
+        "name": "Botón para aplicar automáticamente efectos de emanación"
       },
       "script-alt-roll-breakdown": {
-        "name": "Alternative Roll Breakdowns",
-        "hint": "Reveals circumstance/status/untyped roll modifiers (e.g. multi attack penalizador) to players."
+        "name": "Desgloses alternativos de tirada",
+        "hint": "Revela a los jugadores modificadores de tirada por circunstancia, estado y sin tipo, como el penalizador por ataque múltiple."
       },
       "script-toggle-shared-vision": {
-        "name": "Toggle Shared Vision in Combat",
-        "hint": "Automaticlly turns the \"Shared Party Vision\" metagame setting off when combat starts, and enables it again when combat ends. Este will override that setting, so only enable if tú want to use shared vision."
+        "name": "Alternar visión compartida en combate",
+        "hint": "Desactiva automáticamente el ajuste de metajuego \"Visión compartida del grupo\" al iniciar el combate y lo reactiva al terminar. Esto sobrescribirá ese ajuste, así que actívalo solo si quieres usar visión compartida."
       },
       "headings": {
-        "flat": "Flat Check Buttons",
+        "flat": "Botones de prueba plana",
         "delay": "Retrasar",
         "lifelink": "Vínculo vital",
-        "emanation-automation": "Emanation Automation",
-        "misc": "Miscellaneous"
+        "emanation-automation": "Automatización de emanación",
+        "misc": "Varios",
+        "emanation": "Automatización de emanación"
       },
       "docs": {
-        "description": "For a description of each feature and more details on the settings, check the documentation:",
-        "button": "Open Docs"
+        "description": "Para ver una descripción de cada función y más detalles sobre los ajustes, consulta la documentación:",
+        "button": "Abrir documentación"
       }
     },
     "delay": {
-      "return-to-initiative": "Return to initiative",
+      "return-to-initiative": "Volver a la iniciativa",
       "delay": "Retrasar",
-      "delaying": "Delaying",
+      "delaying": "Retrasando",
       "errors": {
-        "combat-not-started": "No active combat",
-        "combatant-not-owned": "Tú do not own the current combatant",
-        "no-active-gm": "No GM connected"
+        "combat-not-started": "No hay combate activo",
+        "combatant-not-owned": "No controlas al combatiente actual",
+        "no-active-gm": "No hay ningún DJ conectado"
       },
       "dialog": {
-        "delay-after": "Delay after:",
+        "delay-after": "Retrasar después de:",
         "confirm": "Retrasar",
-        "cancel": "Cancel"
+        "cancel": "Cancelar"
       },
       "actions": {
         "delay": "Retrasar",
-        "return": "Return"
+        "return": "Volver"
       }
     },
     "emanation": {
-      "message-text": "Apply emanation effect",
-      "form-allies": "Allies",
-      "form-exclude-self": "Exclude Self",
-      "form-enemies": "Enemies",
-      "form-duration-title": "Will ask for effect duration when applying to support Lingering Composition",
-      "form-duration-prompt": "Prompt for effect duration",
-      "form-formatting-error": "Formatting error: Description contains no/multiple effect links.",
-      "form-fieldset-legend": "Automatic Emanation Efecto",
-      "dialog-effect-title": "Emanation Efecto"
+      "message-text": "Aplicar efecto de emanación",
+      "form-allies": "Aliados",
+      "form-exclude-self": "Excluirse a uno mismo",
+      "form-enemies": "Enemigos",
+      "form-duration-title": "Preguntará la duración del efecto al aplicarlo para admitir Composición persistente",
+      "form-duration-prompt": "Preguntar duración del efecto",
+      "form-formatting-error": "Error de formato: la descripción no contiene enlaces de efecto o contiene varios.",
+      "form-fieldset-legend": "Efecto automático de emanación",
+      "dialog-effect-title": "Efecto de emanación"
     },
     "flat": {
-      "flat-check-label": "Flat Check: {label}",
-      "flat-check": "Flat Check",
-      "target-marker-dc": "DC {dc} - {label}",
+      "flat-check-label": "Prueba plana: {label}",
+      "flat-check": "Prueba plana",
+      "target-marker-dc": "CD {dc} - {label}",
       "source": {
         "blinded": "Cegado",
         "darkness": "Oscuridad",
         "hidden": "Escondido",
-        "dim-light": "Dim Light",
+        "dim-light": "Luz tenue",
         "dazzled": "Deslumbrado",
         "concealed": "Oculto",
-        "magical-darkness": "Magical Darkness"
+        "magical-darkness": "Oscuridad mágica"
       },
       "message": {
-        "button-close": "Close",
-        "button-require-flat-check": "{count} targets require a prueba plana",
-        "tooltip-highest-dc": "If more than one prueba plana would ever cause or prevent the same thing, just roll once and use the highest DC.",
-        "reroll-hero-point": "Reroll using a hero point",
-        "reroll-new-result": "Reroll and keep the new result",
-        "reroll-lower-result": "Reroll and keep the lower result",
-        "reroll-higher-result": "Reroll and keep the higher result",
-        "button-reroll": "Reroll",
-        "button-cancel": "Cancel",
+        "button-close": "Cerrar",
+        "button-require-flat-check": "{count} objetivos requieren una prueba plana",
+        "tooltip-highest-dc": "Si más de una prueba plana causaría o impediría lo mismo, tira solo una vez y usa la CD más alta.",
+        "reroll-hero-point": "Repetir usando un punto de héroe",
+        "reroll-new-result": "Repetir y quedarse con el nuevo resultado",
+        "reroll-lower-result": "Repetir y quedarse con el resultado más bajo",
+        "reroll-higher-result": "Repetir y quedarse con el resultado más alto",
+        "button-reroll": "Repetir",
+        "button-cancel": "Cancelar",
         "grabbed": "Agarrado",
         "deafened": "Ensordecido",
-        "stupefied": "Stupefied {value}",
-        "dc": "DC {value}",
+        "stupefied": "Anonadado {value}",
+        "dc": "CD {value}",
         "hide": {
-          "disabled-tooltip": "GM only",
-          "reveal-button": "Reveal Roll"
+          "disabled-tooltip": "Solo DJ",
+          "reveal-button": "Revelar tirada"
         }
       },
       "more-dialog": {
         "stupefied": "Anonadado",
-        "value": "Value",
-        "custom": "Custom",
-        "dc": "DC",
-        "title": "More Flat Checks"
+        "value": "Valor",
+        "custom": "Personalizada",
+        "dc": "CD",
+        "title": "Más pruebas planas"
       }
     },
     "life-link": {
-      "error-no-target": "No target actor",
-      "error-no-source": "No source actor",
-      "error-source-is-target": "Can't transfer daño to self!",
-      "no-hp-remaining": "No HP remaining to transfer.",
-      "life-link-cooldown-effect": "Life Link CD",
+      "error-no-target": "Sin actor objetivo",
+      "error-no-source": "Sin actor de origen",
+      "error-source-is-target": "¡No puedes transferirte daño a ti mismo!",
+      "no-hp-remaining": "No quedan PG para transferir.",
+      "life-link-cooldown-effect": "Recarga de Vínculo vital",
       "hp-add": "{actor} +{hp} HP",
       "hp-sub": "{actor} -{hp} HP",
-      "spirit-link-error-bad-actor": "Bad origin actor for Spirit Linked effect on {actor}! See module readme.",
-      "spirit-link-button": "{hp} HP to {actor}",
-      "spirit-link-message": "<strong>Spirit Link</strong><br>{link}",
-      "life-link-error-bad-actor": "Bad origin actor for Life Linked effect on {actor}! See module readme.",
-      "share-life-error-bad-actor": "Bad origin actor for Share Life effect on {actor}! See module readme.",
-      "daño-button": "{daño} to {actor}",
-      "share-life-daño-button": "(Share Life) {daño} to {actor}",
-      "life-link-daño-button": "(Life Link) {daño} to {actor}",
-      "daño-transfer-message": "<strong>Damage Transfer</strong><br>{buttons}"
+      "spirit-link-error-bad-actor": "¡Actor de origen incorrecto para el efecto Vínculo espiritual en {actor}! Consulta el README del módulo.",
+      "spirit-link-button": "{hp} PG a {actor}",
+      "spirit-link-message": "<strong>Vínculo espiritual</strong><br>{link}",
+      "life-link-error-bad-actor": "¡Actor de origen incorrecto para el efecto Vínculo vital en {actor}! Consulta el README del módulo.",
+      "share-life-error-bad-actor": "¡Actor de origen incorrecto para el efecto Compartir vida en {actor}! Consulta el README del módulo.",
+      "daño-button": "{daño} a {actor}",
+      "share-life-daño-button": "(Compartir vida) {daño} a {actor}",
+      "life-link-daño-button": "(Vínculo vital) {daño} a {actor}",
+      "daño-transfer-message": "<strong>Transferencia de daño</strong><br>{buttons}"
     },
     "template": {
       "buttons": {
-        "grabbed-concealed": "Grabbed<br>Oculto",
-        "hidden-invisible-confused": "Escondido<br>Invisible<br>Confused",
-        "dc": "DC {value}"
+        "grabbed-concealed": "Agarrado<br>Oculto",
+        "hidden-invisible-confused": "Escondido<br>Invisible<br>Confundido",
+        "dc": "CD {value}"
       },
       "emanation-request": {
         "effect": "Efecto",
-        "duration": "Duration",
-        "rounds": "round(s)",
-        "targets": "Targets",
-        "apply": "Apply",
-        "cancel": "Cancel"
+        "duration": "Duración",
+        "rounds": "asalto(s)",
+        "targets": "Objetivos",
+        "apply": "Aplicar",
+        "cancel": "Cancelar"
       },
-      "message-config-check-types": "Check Types",
-      "emanation-area": "{origin}, {area} ft"
+      "message-config-check-types": "Tipos de prueba",
+      "emanation-area": "{origin}, {area} pies"
     }
   },
   "PF2E": {
     "RuleElement": {
-      "fc-ModifyFlatDC": "Modify Flat DC",
-      "fc-AddCheck": "Add Check",
-      "fc-TreatAs": "Treat Condition As"
+      "fc-ModifyFlatDC": "Modificar CD plana",
+      "fc-AddCheck": "Añadir prueba",
+      "fc-TreatAs": "Tratar condición como"
     }
   }
 }

@@ -3,499 +3,499 @@
     "keybindings": {
       "persistent": {
         "setActor": {
-          "name": "Set Persistent Actor",
-          "hint": "Set the selected token's actor as persistent."
+          "name": "Establecer actor persistente",
+          "hint": "Establece el actor del token seleccionado como persistente."
         }
       },
       "sidebar": {
         "filter": {
-          "name": "Use Sidebar Filter",
-          "hint": "Allow filtering the current sidebar content."
+          "name": "Usar filtro de barra lateral",
+          "hint": "Permite filtrar el contenido actual de la barra lateral."
         }
       },
       "tracker": {
         "alternate": {
-          "name": "Alternate Controls",
-          "hint": "Toggle the combat tracker controls to show additional options."
+          "name": "Controles alternativos",
+          "hint": "Alterna los controles del rastreador de combate para mostrar opciones adicionales."
         }
       }
     },
     "settings": {
       "menus": {
         "healthStatusMenu": {
-          "name": "Health Status",
-          "label": "Config Health Status",
-          "hint": "Set up Health Status divisions to display in the HUDs."
+          "name": "Estado de salud",
+          "label": "Configurar estado de salud",
+          "hint": "Configura las divisiones de estado de salud que se muestran en los HUD."
         }
       },
       "enabled": {
-        "name": "Enabled",
-        "hint": "Enables this HUD element on tu client."
+        "name": "Activado",
+        "hint": "Activa este elemento de HUD en tu cliente."
       },
       "dice": {
         "title": "Panel de dados"
       },
       "foundrySidebar": {
-        "title": "Foundry Sidebar",
+        "title": "Barra lateral de Foundry",
         "expand": {
-          "name": "Auto Expand on Load",
-          "hint": "Force the foundry sidebar to expand on page load."
+          "name": "Expandir automáticamente al cargar",
+          "hint": "Fuerza la expansión de la barra lateral de Foundry al cargar la página."
         },
         "noRollMode": {
-          "name": "Hide Roll Modes",
-          "hint": "Roll mode buttons will be removed from the chat."
+          "name": "Ocultar modos de tirada",
+          "hint": "Los botones de modo de tirada se quitarán del chat."
         }
       },
       "global": {
         "alwaysFilter": {
-          "name": "Sidebar Filter Always Visible",
-          "hint": "The sidebars filter input will always be visible instead of requiring the use of a keybind."
+          "name": "Filtro de barra lateral siempre visible",
+          "hint": "El campo de filtro de las barras laterales estará siempre visible sin requerir un atajo de teclado."
         },
         "highestSpeed": {
-          "name": "Show Highest Velocidad",
-          "hint": "If no speed was manually selected, the highest one will always be shown by default even if the land speed isn't 0."
+          "name": "Mostrar la Velocidad más alta",
+          "hint": "Si no se ha seleccionado manualmente ninguna velocidad, se mostrará siempre la más alta por defecto, incluso si la velocidad terrestre no es 0."
         },
         "useModifiers": {
-          "name": "Use Modifiers",
-          "hint": "Display modifiers instead of the difficulty value in the different HUD elements."
+          "name": "Usar modificadores",
+          "hint": "Muestra modificadores en lugar del valor de dificultad en los distintos elementos del HUD."
         }
       },
       "advanced": {
         "alliance": {
-          "name": "Alliance Button",
-          "hint": "Show the alliance/disposition button in the HUD."
+          "name": "Botón de alianza",
+          "hint": "Muestra el botón de alianza/disposición en el HUD."
         }
       },
       "persistent": {
-        "title": "Persistent HUD",
+        "title": "HUD persistente",
         "autoFill": {
-          "name": "Auto-Fill NPCs",
-          "hint": "If tú haven't made any manual changes, the shortcut slots will automatically be filled."
+          "name": "Autorrellenar PNJ",
+          "hint": "Si no has hecho cambios manuales, las ranuras de acceso rápido se rellenarán automáticamente."
         },
         "display": {
-          "name": "Display Position",
-          "hint": "Where should the hud be displayed in the  UI.",
+          "name": "Posición de visualización",
+          "hint": "Dónde debe mostrarse el HUD en la interfaz.",
           "choices": {
-            "disabled": "Disabled",
-            "left": "Left Part",
-            "middle": "Middle Part"
+            "disabled": "Desactivado",
+            "left": "Parte izquierda",
+            "middle": "Parte central"
           }
         },
         "selection": {
-          "name": "Selection Mode",
-          "hint": "Mode of selection for the persistent actor.",
+          "name": "Modo de selección",
+          "hint": "Modo de selección para el actor persistente.",
           "choices": {
-            "manual": "Manual Selection",
-            "select": "On Token Selection",
-            "combat": "Current Combatant"
+            "manual": "Selección manual",
+            "select": "Al seleccionar token",
+            "combat": "Combatiente actual"
           }
         },
         "shiftEffect": {
-          "name": "Hold Shift for Effects",
-          "hint": "When enabled, necesitas to hold the 'shift' key to interact with the hud effect icons."
+          "name": "Mantener Mayús para efectos",
+          "hint": "Cuando está activado, necesitas mantener la tecla Mayús para interactuar con los iconos de efectos del HUD."
         },
         "slots": {
-          "name": "Extra Shortcut Slots",
-          "hint": "Number of extra shortcut slots to add to the HUD."
+          "name": "Ranuras de acceso rápido adicionales",
+          "hint": "Número de ranuras de acceso rápido adicionales que se añaden al HUD."
         }
       },
       "sidebar": {
-        "title": "Sidebar"
+        "title": "Barra lateral"
       },
       "time": {
-        "title": "Time Tracker",
+        "title": "Rastreador de tiempo",
         "enabled": {
-          "hint": "Enables this HUD element on tu client. Este is overridden when the 'Player Acceso' system worldclock setting is disabled."
+          "hint": "Activa este elemento de HUD en tu cliente. Esto se sobrescribe cuando el ajuste del reloj del mundo \"Acceso de jugadores\" está desactivado."
         }
       },
       "token": {
-        "title": "Token HUD",
+        "title": "HUD de token",
         "activation": {
-          "name": "Activation Mode",
-          "hint": "Select the mode to activate the to token HUD.",
+          "name": "Modo de activación",
+          "hint": "Selecciona el modo para activar el HUD de token.",
           "choices": {
-            "disabled": "Disabled",
-            "first": "On First Click",
-            "second": "On Second Click"
+            "disabled": "Desactivado",
+            "first": "Con el primer clic",
+            "second": "Con el segundo clic"
           }
         },
         "mode": {
-          "name": "Display Mode",
-          "hint": "Select the mode of display of the token HUD.",
+          "name": "Modo de visualización",
+          "hint": "Selecciona el modo de visualización del HUD de token.",
           "choices": {
-            "exploded": "Exploded",
-            "left": "Grouped (Left)",
-            "right": "Grouped (Right)"
+            "exploded": "Expandido",
+            "left": "Agrupado (izquierda)",
+            "right": "Agrupado (derecha)"
           }
         }
       },
       "tooltip": {
-        "title": "Token Tooltip",
+        "title": "Información emergente de token",
         "delay": {
-          "name": "Tooltip Delay",
-          "hint": "Delay in milliseconds before the tooltip shows up on screen."
+          "name": "Retraso del tooltip",
+          "hint": "Retraso en milisegundos antes de que el tooltip aparezca en pantalla."
         },
         "distance": {
-          "name": "Display Distance",
-          "hint": "Will display the distance between the hovered token and one that is inferred automatically. Note that the module will instead use the scene units if it is anything other than the default value.",
+          "name": "Mostrar distancia",
+          "hint": "Mostrará la distancia entre el token sobre el que pasas el cursor y uno inferido automáticamente. El módulo usará las unidades de la escena si no son el valor predeterminado.",
           "choices": {
-            "never": "Never",
-            "idiot": "In Feet",
-            "smart": "In Meters",
-            "weird": "In Squares"
+            "never": "Nunca",
+            "idiot": "En pies",
+            "smart": "En metros",
+            "weird": "En casillas"
           }
         },
         "draw": {
-          "name": "Draw Distance",
-          "hint": "Draw a line of this thickness between the hovered token and the 'distance' target."
+          "name": "Dibujar distancia",
+          "hint": "Dibuja una línea de este grosor entre el token sobre el que pasas el cursor y el objetivo de distancia."
         },
         "status": {
-          "name": "Display Health Status",
-          "hint": "Should health state be displayed on the tooltip if enabled in tú world."
+          "name": "Mostrar estado de salud",
+          "hint": "Indica si el estado de salud debe mostrarse en el tooltip si está activado en tu mundo."
         }
       },
       "tracker": {
-        "title": "Combat Tracker",
+        "title": "Rastreador de combate",
         "partyAsObserved": {
-          "name": "Party Alliance as Observed",
-          "hint": "Consider actors in the 'Party' alliance to be observed by players for the sake of showing health details. Not to be confused with the 'Party' actor."
+          "name": "Alianza de grupo como observada",
+          "hint": "Considera a los actores de la alianza \"Grupo\" como observados por los jugadores a efectos de mostrar detalles de salud. No debe confundirse con el actor \"Grupo\"."
         },
         "started": {
-          "name": "Only When Started",
-          "hint": "The tracker will only show up for players if the combat has actually started (on top of needing a combatant participating)."
+          "name": "Solo cuando ha empezado",
+          "hint": "El rastreador solo se mostrará a los jugadores si el combate ha empezado realmente, además de requerir que participe un combatiente."
         },
         "textureScaling": {
-          "name": "Texture Scaling",
-          "hint": "Invert scales the combatant's image based on the token texture scaling."
+          "name": "Escalado de textura",
+          "hint": "Invertir escala la imagen del combatiente según el escalado de textura del token."
         }
       }
     },
     "actions": {
       "drive": {
-        "drive1": "Drive <span class=\"action-glyph\">1</span>",
-        "drive2": "Drive <span class=\"action-glyph\">2</span>",
-        "drive3": "Drive <span class=\"action-glyph\">3</span>"
+        "drive1": "Conducir <span class=\"action-glyph\">1</span>",
+        "drive2": "Conducir <span class=\"action-glyph\">2</span>",
+        "drive3": "Conducir <span class=\"action-glyph\">3</span>"
       }
     },
     "actor-hud": {
-      "alliance": "Alliance: {value}",
-      "temp": "Temporary Puntos de golpe",
-      "resolve": "Use Resolve Point"
+      "alliance": "Alianza: {value}",
+      "temp": "Puntos de golpe temporales",
+      "resolve": "Usar punto de resolución"
     },
     "avatar-editor": {
-      "title": "Edit Avatar - {name}",
-      "cancel": "Cancel",
+      "title": "Editar avatar - {name}",
+      "cancel": "Cancelar",
       "color": {
-        "background": "Background Color",
-        "enabled": "Enable Background Color"
+        "background": "Color de fondo",
+        "enabled": "Activar color de fondo"
       },
-      "contain": "Contain",
-      "reset": "Reset",
-      "save": "Save",
+      "contain": "Contener",
+      "reset": "Restablecer",
+      "save": "Guardar",
       "src": {
-        "actor": "Use Actor Image",
-        "token": "Use Token Image",
-        "none": "Couldn't find a valid image source",
-        "video": "Videos are not supported with this feature"
+        "actor": "Usar imagen del actor",
+        "token": "Usar imagen del token",
+        "none": "No se pudo encontrar una fuente de imagen válida",
+        "video": "Los vídeos no son compatibles con esta función"
       }
     },
     "dialogs": {
       "alternates": {
-        "dc": "Difficulty Class",
-        "drag": "Drag to create a shortcut",
-        "statistic": "Statistic",
-        "title": "Action Variants - {label}",
-        "yes": "Use Variants"
+        "dc": "Clase de Dificultad",
+        "drag": "Arrastra para crear un acceso rápido",
+        "statistic": "Estadística",
+        "title": "Variantes de acción - {label}",
+        "yes": "Usar variantes"
       },
       "resolve": {
-        "title": "Use Resolve Point",
-        "full": "{name} is full of stamina and doesn't need to rest.",
+        "title": "Usar punto de resolución",
+        "full": "{name} tiene todo el aguante y no necesita descansar.",
         "breather": {
           "label": "Tomarse un respiro",
-          "hint": "Rest for 10 minutos, spend a resolve point and regain all tu stamina."
+          "hint": "Descansa durante 10 minutos, gasta un punto de resolución y recupera todo tu aguante."
         },
         "steel": {
-          "hint": "Use an action, spend a resolve point and regain half tu stamina."
+          "hint": "Usa una acción, gasta un punto de resolución y recupera la mitad de tu aguante."
         },
-        "yes": "Use Resolve"
+        "yes": "Usar resolución"
       }
     },
     "edit-shortcut": {
-      "image": "Image Path",
-      "name": "Shortcut Name",
-      "yes": "Save"
+      "image": "Ruta de imagen",
+      "name": "Nombre del acceso rápido",
+      "yes": "Guardar"
     },
     "group-perception": {
-      "title": "Group Perception Checks",
-      "search": "Is Actively Searching"
+      "title": "Pruebas de Percepción de grupo",
+      "search": "Está buscando activamente"
     },
     "health-status": {
-      "title": "Health Status",
-      "enabled": "Enabled",
-      "add": "Add Marker",
-      "delete": "Delete Marker",
-      "save": "Save",
-      "cancel": "Cancel",
+      "title": "Estado de salud",
+      "enabled": "Activado",
+      "add": "Añadir marcador",
+      "delete": "Eliminar marcador",
+      "save": "Guardar",
+      "cancel": "Cancelar",
       "import": {
-        "title": "Import Health Status",
-        "yes": "Import",
-        "no": "Cancel",
-        "error": "The data provided is invalid."
+        "title": "Importar estado de salud",
+        "yes": "Importar",
+        "no": "Cancelar",
+        "error": "Los datos proporcionados no son válidos."
       },
       "export": {
-        "title": "Export Health Status",
-        "confirm": "Health Status has been copied to clipboard."
+        "title": "Exportar estado de salud",
+        "confirm": "El estado de salud se ha copiado al portapapeles."
       },
-      "default": "Dead, At Death's Door, Not Feeling Good, Seen Better Days, Barely Hurt, Perfectly Fine"
+      "default": "Muerto, Al borde de la muerte, No se encuentra bien, Ha visto días mejores, Apenas herido, Perfectamente bien"
     },
-    "leftClick": "[Left-Click]",
-    "no-selection": "Necesitas to select at least one valid criatura.",
+    "leftClick": "[Clic izquierdo]",
+    "no-selection": "Necesitas seleccionar al menos una criatura válida.",
     "persistent": {
       "effects": {
         "shift": "Shift",
-        "toggle": "Toggle Effects"
+        "toggle": "Alternar efectos"
       },
       "error": {
-        "selectOne": "Select a single NPC/Character token to set as tu persistent actor."
+        "selectOne": "Selecciona un único token de PNJ/personaje para establecerlo como tu actor persistente."
       },
       "menu": {
         "clean": {
-          "always": "Always show UI on portrait",
-          "hover": "Only show UI when hovering the portrait"
+          "always": "Mostrar siempre la interfaz en el retrato",
+          "hover": "Mostrar la interfaz solo al pasar el cursor sobre el retrato"
         },
-        "editAvatar": "Edit Avatar",
+        "editAvatar": "Editar avatar",
         "lockOwned": {
-          "lock": "Prevent owned actors selection",
-          "unlock": "Allow owned actors selection"
+          "lock": "Impedir selección de actores poseídos",
+          "unlock": "Permitir selección de actores poseídos"
         },
-        "pin": "Pin Actor",
+        "pin": "Fijar actor",
         "setActor": {
-          "set": "Set selected token as persistent actor",
-          "unset": "Unset persistent actor"
+          "set": "Establecer token seleccionado como actor persistente",
+          "unset": "Quitar actor persistente"
         }
       },
       "ownedActor": {
         "drag": {
-          "exist": "Este scene already contains a token for this actor."
+          "exist": "Esta escena ya contiene un token de este actor."
         },
-        "unpin": "Unpin Actor"
+        "unpin": "Desfijar actor"
       },
       "pan": {
-        "none": "Este actor doesn't have any active token on the current scene."
+        "none": "Este actor no tiene ningún token activo en la escena actual."
       },
       "patch": {
-        "browser": "Open Compendium Browser",
+        "browser": "Abrir buscador de compendios",
         "check-prompt": "Generar mensaje de prueba",
-        "gm-screen": "Open GM-Screen",
-        "group-perception": "Roll Group Perception",
-        "identify-menu": "Open Identify Menu",
-        "player-screen": "Open Player-Screen",
-        "random-pick": "Pick Random Target",
-        "select-all": "Select Player Tokens",
-        "set-journal": "Select Journal Entry",
-        "travel-sheet": "Calculate Travel Duration"
+        "gm-screen": "Abrir pantalla del DJ",
+        "group-perception": "Tirar Percepción de grupo",
+        "identify-menu": "Abrir menú de identificación",
+        "player-screen": "Abrir pantalla de jugador",
+        "random-pick": "Elegir objetivo al azar",
+        "select-all": "Seleccionar tokens de jugadores",
+        "set-journal": "Seleccionar entrada de diario",
+        "travel-sheet": "Calcular duración del viaje"
       },
       "shortcuts": {
         "clear": {
-          "title": "Clear Shortcuts",
-          "all": "All Shortcuts Sets",
-          "hint": "Are tú sure tú want to delete the following shortcuts?",
-          "set": "Current Set Only",
-          "yes": "Delete"
+          "title": "Borrar accesos rápidos",
+          "all": "Todos los conjuntos de accesos rápidos",
+          "hint": "¿Seguro que quieres eliminar los siguientes accesos rápidos?",
+          "set": "Solo el conjunto actual",
+          "yes": "Eliminar"
         },
         "copy": {
-          "title": "Copy User Shortcuts",
-          "hint": "Select a user to copy the shortcuts from.",
-          "label": "User Owner",
-          "none": "Este actor doesn't have any other owner.",
-          "yes": "Copy"
+          "title": "Copiar accesos rápidos de usuario",
+          "hint": "Selecciona un usuario del que copiar los accesos rápidos.",
+          "label": "Usuario propietario",
+          "none": "Este actor no tiene ningún otro propietario.",
+          "yes": "Copiar"
         },
         "fill": {
-          "title": "Auto-Fill Shortcuts",
-          "content": "Are tú sure tú want to auto-fill the shortcuts?",
-          "yes": "Auto-Fill"
+          "title": "Autorrellenar accesos rápidos",
+          "content": "¿Seguro que quieres autorrellenar los accesos rápidos?",
+          "yes": "Autorrellenar"
         },
-        "tab": "Change Shortcuts Set"
+        "tab": "Cambiar conjunto de accesos rápidos"
       }
     },
     "pin-token": {
-      "notify": "Select a token to pin as favorite."
+      "notify": "Selecciona un token para fijarlo como favorito."
     },
     "popup": {
       "shortcut": {
-        "config": "Customize Shortcut"
+        "config": "Personalizar acceso rápido"
       }
     },
     "random-pick": {
-      "title": "Eeny, meeny, miny, moe"
+      "title": "Pito, pito, gorgorito"
     },
     "recall-knowledge": {
-      "result": "Result",
+      "result": "Resultado",
       "modifier": "Mod.",
-      "target": "Target",
-      "first": "1st",
-      "second": "2nd",
-      "third": "3rd",
-      "fourth": "4th",
-      "fifth": "5th",
-      "sixth": "6th",
-      "dc": "DC",
-      "unspecific": "Unspecific",
-      "specific": "Specific",
-      "skill": "Skill",
-      "lore": "Lore Skill",
-      "proficiency": "Proficiency"
+      "target": "Objetivo",
+      "first": "1.º",
+      "second": "2.º",
+      "third": "3.º",
+      "fourth": "4.º",
+      "fifth": "5.º",
+      "sixth": "6.º",
+      "dc": "CD",
+      "unspecific": "No específico",
+      "specific": "Específico",
+      "skill": "Habilidad",
+      "lore": "Habilidad de Saber",
+      "proficiency": "Competencia"
     },
-    "rightClick": "[Right-Click]",
+    "rightClick": "[Clic derecho]",
     "set-journal": {
       "uuid": {
-        "label": "Journal UUID"
+        "label": "UUID del diario"
       },
       "world": {
-        "label": "World Journal"
+        "label": "Diario del mundo"
       },
-      "yes": "Set Journal"
+      "yes": "Establecer diario"
     },
     "shortcuts": {
       "blast": {
         "cost": {
-          "label": "Elemental Blast Cost"
+          "label": "Coste de Explosión elemental"
         }
       },
       "error": {
-        "locked": "The Shortcuts are locked with the Hotbar",
-        "notHUD": "Necesitas to drag elements from the HUD itself to create shortcuts.",
-        "notScript": "Only script macros can be added to shortcuts.",
-        "wrongActor": "Puedes only create shortcuts from the same persistent actor.",
-        "wrongData": "The data provided isn't valid.",
-        "wrongType": "Tú cannot create a shortcut of that type."
+        "locked": "Los accesos rápidos están bloqueados con la barra rápida",
+        "notHUD": "Necesitas arrastrar elementos desde el propio HUD para crear accesos rápidos.",
+        "notScript": "Solo se pueden añadir macros de script a los accesos rápidos.",
+        "wrongActor": "Solo puedes crear accesos rápidos desde el mismo actor persistente.",
+        "wrongData": "Los datos proporcionados no son válidos.",
+        "wrongType": "No puedes crear un acceso rápido de ese tipo."
       },
       "tooltip": {
-        "active": "Active",
+        "active": "Activo",
         "altUse": {
-          "blast": "Blast Window",
-          "skillAction": "Variants Menu",
-          "strike": "Golpe Window",
-          "toggle": "Select SubOption"
+          "blast": "Ventana de explosión",
+          "skillAction": "Menú de variantes",
+          "strike": "Ventana de Golpe",
+          "toggle": "Seleccionar subopción"
         },
         "click": {
           "control": "[Ctrl-Right-Click]",
-          "middle": "[Middle-Click] Remove Shortcut",
-          "popup": "Shortcut Popup"
+          "middle": "[Clic central] Quitar acceso rápido",
+          "popup": "Ventana emergente de acceso rápido"
         },
-        "disabled": "Disabled",
-        "enabled": "Enabled",
-        "inactive": "Inactive",
+        "disabled": "Desactivado",
+        "enabled": "Activado",
+        "inactive": "Inactivo",
         "subtitle": {
-          "blast": "Explosión Elemental",
-          "extraAction": "Extra Action",
-          "macro": "Self-Executed Macro",
+          "blast": "Explosión elemental",
+          "extraAction": "Acción adicional",
+          "macro": "Macro autoejecutada",
           "spell": "Lanzamiento de conjuros",
-          "skillAction": "Skill Action",
-          "strike": "Golpe Attack",
-          "toggle": "Roll Option"
+          "skillAction": "Acción de habilidad",
+          "strike": "Ataque de Golpe",
+          "toggle": "Opción de tirada"
         },
         "reason": {
-          "available": "Not Currently Available",
-          "broken": "Orphan Spell",
-          "charges": "No Charges Left",
-          "combat": "Not In Combat",
-          "dropped": "Item Not Carried",
-          "equip": "Not Equipped",
-          "expended": "Expended Spell",
-          "focus": "Focus Pool Empty",
-          "hands": "No Free Hand",
-          "macro": "No Matching Macro",
-          "match": "No Matching Item",
-          "prepared": "Spell Not Prepared",
-          "quantity": "Quantity Is Zero",
-          "rank": "Cannot Cast That Rank",
-          "tactic": "Not a Prepared Tactic",
-          "uses": "No Remaining Uses",
-          "vessel": "Not Primary Vessel"
+          "available": "No disponible actualmente",
+          "broken": "Conjuro huérfano",
+          "charges": "No quedan cargas",
+          "combat": "No está en combate",
+          "dropped": "Objeto no portado",
+          "equip": "No equipado",
+          "expended": "Conjuro gastado",
+          "focus": "Reserva de Foco vacía",
+          "hands": "No hay mano libre",
+          "macro": "No hay macro coincidente",
+          "match": "No hay objeto coincidente",
+          "prepared": "Conjuro no preparado",
+          "quantity": "La cantidad es cero",
+          "rank": "No se puede lanzar ese rango",
+          "tactic": "No es una táctica preparada",
+          "uses": "No quedan usos",
+          "vessel": "No es el recipiente primario"
         }
       },
       "use": {
-        "toggle": "Este toggle is always enabled"
+        "toggle": "Este conmutador siempre está activado"
       }
     },
     "sidebar": {
-      "filter": "Sidebar Filter",
+      "filter": "Filtro de barra lateral",
       "actions": {
-        "area-fire": "Cone/Line/Burst {range} ft.",
-        "auto-fire": "Cone {range} ft.",
-        "blasts": "Elemental Blasts",
-        "ranged": "Range {max} ft.",
-        "rangedWithIncrement": "Range {increment}/{max} ft.",
-        "reach": "Reach {reach} ft.",
-        "reset": "Reset Uses",
+        "area-fire": "Cono/línea/estallido {range} pies",
+        "auto-fire": "Cono {range} pies",
+        "blasts": "Explosiones elementales",
+        "ranged": "Alcance {max} pies",
+        "rangedWithIncrement": "Alcance {increment}/{max} pies",
+        "reach": "Alcance {reach} pies",
+        "reset": "Restablecer usos",
         "shields": {
-          "shown": "Shields are displayed",
-          "hidden": "Shields are hidden"
+          "shown": "Los escudos se muestran",
+          "hidden": "Los escudos están ocultos"
         },
-        "stances": "Stances",
+        "stances": "Posturas",
         "stowedWeapons": {
-          "shown": "Stowed items are displayed",
-          "hidden": "Stowed items are hidden"
+          "shown": "Los objetos guardados se muestran",
+          "hidden": "Los objetos guardados están ocultos"
         },
-        "thrown": "Thrown {increment}/{max} ft."
+        "thrown": "Arrojadiza {increment}/{max} pies"
       },
       "extras": {
         "delete": {
-          "title": "Delete Macro",
-          "content": "Are tú sure tú want to delete this macro?"
+          "title": "Eliminar macro",
+          "content": "¿Seguro que quieres eliminar esta macro?"
         },
-        "edit": "Edit Macro",
-        "noMacro": "Drop Macros Here",
-        "use": "Run Macro"
+        "edit": "Editar macro",
+        "noMacro": "Suelta macros aquí",
+        "use": "Ejecutar macro"
       },
-      "removeEffect": "Remove Efecto",
+      "removeEffect": "Quitar efecto",
       "skills": {
-        "alternate": "[Right Click] Variants Menu",
-        "hideUntrained": "Hide Untrained",
-        "proficient": "Proficient"
+        "alternate": "[Clic derecho] Menú de variantes",
+        "hideUntrained": "Ocultar no entrenadas",
+        "proficient": "Competente"
       },
       "spells": {
-        "broken": "Broken Spell",
+        "broken": "Conjuro roto",
         "cast": "Lanzar el conjuro"
       }
     },
     "sidebars": {
-      "actions": "Actions",
+      "actions": "Acciones",
       "extras": "Extras",
-      "feats": "Feats",
-      "items": "Inventory",
-      "skills": "Skills",
+      "feats": "Dotes",
+      "items": "Inventario",
+      "skills": "Habilidades",
       "spells": "Lanzamiento de conjuros"
     },
     "spellcasting": {
-      "charges": "Charges",
+      "charges": "Cargas",
       "staff": "Bastón"
     },
     "tooltip": {
       "distance": {
-        "feet": "ft.",
+        "feet": "pies",
         "meter": "m",
-        "square": "sq."
+        "square": "cas."
       }
     },
     "tracker": {
-      "award": "Award: {xp} XP",
-      "collapsed": "Collapsed, click to expand",
-      "delay": "Delay Turn",
-      "expanded": "Expanded, click to collapse",
+      "award": "Conceder: {xp} PX",
+      "collapsed": "Contraído, clic para expandir",
+      "delay": "Retrasar turno",
+      "expanded": "Expandido, clic para contraer",
       "fake": {
-        "nothing": "Encounter Not Started",
-        "secret": "Something Secret is Happening"
+        "nothing": "Encuentro no iniciado",
+        "secret": "Está ocurriendo algo secreto"
       },
-      "force-turn": "Force Combat Turn",
-      "join": "Join Turn",
-      "unknown": "Unknown"
+      "force-turn": "Forzar turno de combate",
+      "join": "Unirse al turno",
+      "unknown": "Desconocido"
     },
     "use-resolve": {
-      "full": "{name} is full of stamina and doesn't need to rest.",
+      "full": "{name} tiene todo el aguante y no necesita descansar.",
       "breather": {
-        "used": "{name} has {ratio} SP and spends a resolve point, taking a 10 minute breather. Stamina Refreshed."
+        "used": "{name} tiene {ratio} PA y gasta un punto de resolución para tomarse un respiro de 10 minutos. Aguante recuperado."
       }
     }
   }
