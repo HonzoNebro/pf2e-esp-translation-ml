@@ -24,7 +24,7 @@
       "menus": {
         "healthStatusMenu": {
           "name": "Estado de salud",
-          "label": "Configurar estado de salud",
+          "label": "Configurar el estado de salud",
           "hint": "Configura las divisiones de estado de salud que se muestran en los HUD."
         }
       },
@@ -53,11 +53,11 @@
       "global": {
         "alwaysFilter": {
           "name": "Filtro de barra lateral siempre visible",
-          "hint": "El campo de filtro de las barras laterales estará siempre visible sin requerir un atajo de teclado."
+          "hint": "El campo de filtro de las barras laterales estará siempre visible sin requerir una tecla rápida."
         },
         "highestSpeed": {
           "name": "Mostrar la Velocidad más alta",
-          "hint": "Si no se ha seleccionado manualmente ninguna velocidad, se mostrará siempre la más alta por defecto, incluso si la velocidad terrestre no es 0."
+          "hint": "Si no se ha seleccionado manualmente ninguna velocidad, se mostrará siempre la más alta por defecto, incluso si la Velocidad terrestre no es 0."
         },
         "useModifiers": {
           "name": "Usar modificadores",
@@ -74,11 +74,11 @@
         "title": "HUD persistente",
         "autoFill": {
           "name": "Autorrellenar PNJ",
-          "hint": "Si no has hecho cambios manuales, las ranuras de acceso rápido se rellenarán automáticamente."
+          "hint": "Si no has hecho cambios manuales, las ranuras de acceso rápido se rellenan automáticamente."
         },
         "display": {
           "name": "Posición de visualización",
-          "hint": "Dónde debe mostrarse el HUD en la interfaz.",
+          "hint": "Indica dónde debe mostrarse el HUD en la interfaz.",
           "choices": {
             "disabled": "Desactivado",
             "left": "Parte izquierda",
@@ -141,7 +141,7 @@
         },
         "distance": {
           "name": "Mostrar distancia",
-          "hint": "Mostrará la distancia entre el token sobre el que pasas el cursor y uno inferido automáticamente. El módulo usará las unidades de la escena si no son el valor predeterminado.",
+          "hint": "Muestra la distancia entre el token sobre el que pasas el cursor y otro inferido automáticamente. El módulo usará las unidades de la escena si no son el valor predeterminado.",
           "choices": {
             "never": "Nunca",
             "idiot": "En pies",
@@ -205,7 +205,7 @@
     },
     "dialogs": {
       "alternates": {
-        "dc": "Clase de dificultad",
+        "dc": "Clase de Dificultad",
         "drag": "Arrastra para crear un acceso rápido",
         "statistic": "Estadística",
         "title": "Variantes de acción - {label}",
@@ -216,12 +216,12 @@
         "full": "{name} tiene todo el aguante y no necesita descansar.",
         "breather": {
           "label": "Tomarse un respiro",
-          "hint": "Descansa durante 10 minutos, gasta un punto de resolución y recupera todo tu aguante."
+          "hint": "Descansa durante 10 minutos, gasta un punto de resolución y recupera todo tu Aguante."
         },
         "steel": {
           "hint": "Usa una acción, gasta un punto de resolución y recupera la mitad de tu aguante."
         },
-        "yes": "Usar resolución"
+        "yes": "Usar punto de resolución"
       }
     },
     "edit-shortcut": {
@@ -231,7 +231,7 @@
     },
     "group-perception": {
       "title": "Pruebas de Percepción de grupo",
-      "search": "Está buscando activamente"
+      "search": "Busca activamente"
     },
     "health-status": {
       "title": "Estado de salud",
@@ -250,7 +250,7 @@
         "title": "Exportar estado de salud",
         "confirm": "El estado de salud se ha copiado al portapapeles."
       },
-      "default": "Muerto, Al borde de la muerte, No se encuentra bien, Ha visto días mejores, Apenas herido, Perfectamente bien"
+      "default": "Muerto, Al borde de la muerte, No se encuentra bien, Ha visto días mejores, Apenas herido, Perfectamente sano"
     },
     "leftClick": "[Clic izquierdo]",
     "no-selection": "Necesitas seleccionar al menos una criatura válida.",
@@ -274,7 +274,7 @@
         },
         "pin": "Fijar actor",
         "setActor": {
-          "set": "Establecer token seleccionado como actor persistente",
+          "set": "Establecer el token seleccionado como actor persistente",
           "unset": "Quitar actor persistente"
         }
       },
@@ -368,7 +368,7 @@
       },
       "error": {
         "locked": "Los accesos rápidos están bloqueados con la barra rápida",
-        "notHUD": "Necesitas arrastrar elementos desde el propio HUD para crear accesos rápidos.",
+        "notHUD": "Debes arrastrar elementos desde el propio HUD para crear accesos rápidos.",
         "notScript": "Solo se pueden añadir macros de script a los accesos rápidos.",
         "wrongActor": "Solo puedes crear accesos rápidos desde el mismo actor persistente.",
         "wrongData": "Los datos proporcionados no son válidos.",
@@ -394,14 +394,14 @@
           "blast": "Explosión elemental",
           "extraAction": "Acción adicional",
           "macro": "Macro autoejecutada",
-          "spell": "Lanzamiento de conjuros",
+          "spell": "Conjuros",
           "skillAction": "Acción de habilidad",
           "strike": "Ataque de Golpe",
           "toggle": "Opción de tirada"
         },
         "reason": {
           "available": "No disponible actualmente",
-          "broken": "Conjuro sin origen",
+          "broken": "Conjuro huérfano",
           "charges": "No quedan cargas",
           "combat": "No está en combate",
           "dropped": "Objeto no portado",
@@ -470,7 +470,7 @@
       "feats": "Dotes",
       "items": "Inventario",
       "skills": "Habilidades",
-      "spells": "Lanzamiento de conjuros"
+      "spells": "Conjuros"
     },
     "spellcasting": {
       "charges": "Cargas",
@@ -480,7 +480,7 @@
       "distance": {
         "feet": "pies",
         "meter": "m",
-        "square": "cas."
+        "square": "casillas"
       }
     },
     "tracker": {
