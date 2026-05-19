@@ -746,56 +746,56 @@
           "name": "Arco largo"
         },
         "action->Banished from the Ground": {
-          "name": "Banished from the Ground",
-          "description": "<p>A baykok can't willingly touch earth or rock surfaces. If forced into contact with such a surface, it becomes @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} for as long as it remains incontact.</p>"
+          "name": "Expulsado del suelo",
+          "description": "<p>Un baykok no puede tocar voluntariamente superficies de tierra o roca. Si se ve obligado a entrar en contacto con una superficie de ese tipo, queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} mientras permanezca en contacto.</p>"
         },
         "action->Frightful Presence": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>120 pies. @Check[will|dc:25]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Arrow of Despair": {
-          "name": "Arrow of Despair",
-          "description": "<p>A baykok creates an invisible arrow of bone as it draws its bow. A @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado} criatura hit by the arrow is stricken with loneliness and despair and must attempt a @Check[will|dc:26] salvación; if the Golpe was a impacto crítico, el objetivo uses the outcome one degree of success worse than the result of its save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 asalto.</p>\n<p><strong>Fallo</strong> The criatura's asustado value increases by 1 (to a maximum of 4), and it is ralentizado 1 until its asustado condition ends.</p>\n<p><strong>Fallo crítico</strong> As failure, but the criatura is @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} until its asustado condition ends. At the start of each of its turns, it can end the paralyzed condition early with a successful @Check[will|dc:26] salvación.</p>"
+          "name": "Flecha de desesperacion",
+          "description": "<p>Un baykok crea una flecha invisible de hueso al tensar su arco. Una criatura @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado} impactada por la flecha queda sobrecogida por la soledad y la desesperacion, y debe intentar una salvacion de @Check[will|dc:26]; si el Golpe fue un impacto critico, el objetivo usa un grado de exito peor que el resultado de su salvacion.</p>\n<hr />\n<p><strong>Éxito crítico</strong> La criatura no se ve afectada.</p>\n<p><strong>Éxito</strong> La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} durante 1 asalto.</p>\n<p><strong>Fallo</strong> El valor de asustado de la criatura aumenta en 1 (hasta un maximo de 4), y queda ralentizada 1 hasta que termine su condicion de asustado.</p>\n<p><strong>Fallo crítico</strong> Como un fallo, pero la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} hasta que termine su condicion de asustado. Al comienzo de cada uno de sus turnos, puede terminar antes la condicion de paralizado con una salvacion de @Check[will|dc:26] con exito.</p>"
         },
         "action->Devour Life": {
           "name": "Devorar la vida",
-          "description": "<p><strong>Requisitos</strong> The baykok is adjacent to a @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, or @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} living humanoid.</p>\n<hr />\n<p><strong>Efecto</strong> The baykok touches el objetivo and devours part of its life force. El objetivo must succeed at a @Check[fortitude|dc:26] salvación or be afflicted with the baykok's wasting curse. If el objetivo fails and wasn't already affected by the wasting curse, the baykok gains [[/r 20 #Temporary Puntos de Golpe]]{20 Puntos de Golpe temporales} that last for 1 hora.</p>"
+          "description": "<p><strong>Requisitos</strong> El baykok esta adyacente a un humanoide vivo @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} o @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}.</p>\n<hr />\n<p><strong>Efecto</strong> El baykok toca al objetivo y devora parte de su fuerza vital. El objetivo debe tener exito en una salvacion de @Check[fortitude|dc:26] o quedar afectado por la maldicion consumidora del baykok. Si el objetivo falla y no estaba ya afectado por la maldicion consumidora, el baykok obtiene [[/r 20 #Temporary Puntos de Golpe]]{20 Puntos de Golpe temporales} que duran 1 hora.</p>"
         },
         "action->Wasting Curse": {
-          "name": "Wasting Curse",
-          "description": "<p>The baykok steals life from its victim and leaves listless dread in its place.</p>\n<p>If a target fails its save against Devour Life, it becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}.</p>\n<p>Each time el objetivo gets a full night's rest, it must succeed at a @Check[fortitude|dc:26] salvación or its drained value increases rather than decreasing. The curse ends if the criatura recovers from the drained condition, but if the criatura would reach drained 5 from this effect, it dies.</p>"
+          "name": "Maldicion consumidora",
+          "description": "<p>El baykok roba vida a su victima y deja en su lugar un pavor apatico.</p>\n<p>Si un objetivo falla su salvacion contra Devorar la vida, queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}.</p>\n<p>Cada vez que el objetivo disfruta de una noche completa de descanso, debe tener exito en una salvacion de @Check[fortitude|dc:26] o su valor de drenado aumenta en lugar de disminuir. La maldicion termina si la criatura se recupera de la condicion de drenado, pero si la criatura llegase a drenado 5 por este efecto, muere.</p>"
         }
       }
     },
     "Betobeto-San": {
       "name": "Betobeto-San",
       "publicNotes": "<p>Un betobeto-san recorre caminos y senderos del Plano Material en busca de companeros de viaje involuntarios que alimenten su apetito por el miedo. Aunque este espiritu sombrio es invisible en la oscuridad o la sombra, bajo la luz aparece como una masa oscura e informe con dos pies calzados con sandalias. Estas sandalias, hechas de madera o hueso, producen el caracteristico sonido \"beto beto\" del que recibe su nombre. Una boca ancha y dentada sonrie en medio de su masa sin rasgos, y puede manifestar largos miembros con garras.</p>\n<p>Los betobeto-san siguen a viajeros nocturnos, compelidos a hacerlo hasta que las criaturas les ofrecen verbalmente pasar. Esta compulsion no suele ser maliciosa; nace mas bien de un deseo equivocado de compania y cortesia.</p>",
-      "senses": "fearsense (precise) 60 pies",
+      "senses": "sentido del miedo (preciso) 60 pies",
       "items": {
         "equipment->Sandals": {
-          "name": "Sandals"
+          "name": "Sandalias"
         },
         "strike-melee->Claw": {
           "name": "Garra"
         },
         "action->Fearsense (Precise) 60 feet": {
-          "name": "Fearsense (Precise) 60 pies",
-          "description": "<p>The betobeto-san is aware of all @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado} criaturas within the listed range.</p>"
+          "name": "Sentido del miedo (preciso) 60 pies",
+          "description": "<p>El betobeto-san percibe a todas las criaturas @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado} dentro del alcance indicado.</p>"
         },
         "action->Ominous Footsteps": {
-          "name": "Ominous Footsteps",
-          "description": "<p>60 pies. The betobeto-san's footsteps seem to draw ever closer, yet the source remains difficult to pinpoint. Each criatura that starts its turn within 60 pies of the betobeto-san must attempt a @Check[will|dc:29] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected and is temporarily immune for 1 minuto.</p>\n<p><strong>Éxito</strong> The criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.</p>\n<p><strong>Fallo</strong> The criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}.</p>\n<p><strong>Fallo crítico</strong> The criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 4}.</p>"
+          "name": "Pasos ominosos",
+          "description": "<p>60 pies. Los pasos del betobeto-san parecen acercarse cada vez mas, aunque su origen sigue siendo dificil de localizar. Cada criatura que empiece su turno a 60 pies o menos del betobeto-san debe intentar una salvacion de @Check[will|dc:29].</p>\n<hr />\n<p><strong>Éxito crítico</strong> La criatura no se ve afectada y es temporalmente inmune durante 1 minuto.</p>\n<p><strong>Éxito</strong> La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.</p>\n<p><strong>Fallo</strong> La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}.</p>\n<p><strong>Fallo crítico</strong> La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 4}.</p>"
         },
         "action->Shadow Invisibility": {
-          "name": "Shadow Invisibility",
-          "description": "<p>The betobeto-san is @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} unless within an area of bright light.</p>"
+          "name": "Invisibilidad en sombras",
+          "description": "<p>El betobeto-san esta @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} salvo que se encuentre en un area de luz brillante.</p>"
         },
         "action->Shadow Step": {
-          "name": "Shadow Dar un paso",
-          "description": "<p><strong>Desencadenante</strong> A bright light source reveals the betobeto-san.</p>\n<p><strong>Requisitos</strong> The betobeto-san isn't already within an area of bright light.</p>\n<hr />\n<p><strong>Efecto</strong> The betobeto-san Steps briefly into the Shadow Plane and then back again, appearing up to 30 pies away from where they began.</p>"
+          "name": "Paso sombrio",
+          "description": "<p><strong>Desencadenante</strong> Una fuente de luz brillante revela al betobeto-san.</p>\n<p><strong>Requisitos</strong> El betobeto-san no esta ya dentro de un area de luz brillante.</p>\n<hr />\n<p><strong>Efecto</strong> El betobeto-san da un paso breve hacia el Plano de la Sombra y luego regresa, apareciendo hasta a 30 pies de donde empezo.</p>"
         },
         "action->Stepping Decoy": {
-          "name": "Stepping Decoy",
-          "description": "<p>The betobeto-san Steps. They then create two illusory decoys of sound within @Template[emanation|distance:15]{15 pies} of them that mimic the sounds of their ominous footsteps.</p>\n<p>Estos decoys act independently on the betobeto-san's initiative with 2 actions apiece. They can only Sneak or Zancada, and they have a Velocidad of 35 pies. Use the betobeto-san's STEALTH DC (typically 37) against attempts to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} or disbelieve a decoy.</p>\n<p>Each decoy lasts for 1 minuto. Any existing decoys vanish if the betobeto-san uses this ability again.</p>"
+          "name": "Señuelo de pasos",
+          "description": "<p>El betobeto-san da un Paso. Luego crea dos señuelos sonoros ilusorios dentro de una @Template[emanation|distance:15]{emanacion de 15 pies} que imitan el sonido de sus pasos ominosos.</p>\n<p>Estos señuelos actuan de forma independiente en la iniciativa del betobeto-san, con 2 acciones cada uno. Solo pueden Escabullirse o dar una Zancada, y tienen una Velocidad de 35 pies. Usa la CD de SIGILO del betobeto-san (normalmente 37) contra los intentos de @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} o de descreer un señuelo.</p>\n<p>Cada señuelo dura 1 minuto. Cualquier señuelo existente desaparece si el betobeto-san vuelve a usar esta aptitud.</p>"
         }
       }
     },
@@ -810,16 +810,16 @@
           "name": "Cuerno"
         },
         "action->Cold Adaptation": {
-          "name": "Cold Adaptation",
-          "description": "<p>The bison reduces the effects it suffers from cold environments by one step.</p>"
+          "name": "Adaptacion al frio",
+          "description": "<p>El bisonte reduce en un paso los efectos que sufre por entornos frios.</p>"
         },
         "action->Pointed Charge": {
-          "name": "Pointed Charge",
-          "description": "<p>The bison surges forward at its foe, horns lowered. It Strides twice. If the bison ends its movement within melee range of an enemigo, it makes a horn Golpe against that enemigo. Este Golpe gains the fatal d12 rasgo.</p>"
+          "name": "Carga con cuernos",
+          "description": "<p>El bisonte se lanza hacia delante contra su enemigo, con los cuernos bajos. Da dos Zancadas. Si el bisonte termina su movimiento dentro del alcance cuerpo a cuerpo de un enemigo, realiza un Golpe de cuerno contra ese enemigo. Este Golpe obtiene el rasgo fatal d12.</p>"
         },
         "action->Rolling Thunder": {
-          "name": "Rolling Thunder",
-          "description": "<p>The bison kicks up dust and shakes the ground as it charges.</p>\n<p>The stampeding bison Strides up to twice its Velocidad in a straight line, dealing @Damage[(4d6+6)[bludgeoning]] daño (@Check[reflex|dc:21|basic] salvación) to any Medium or smaller criatura in its path.</p>\n<p>Multiple bison can participate in Rolling Thunder by spending this ability's actions and waiting to charge until the herd is ready. Before the beginning of their next turn, they can then charge as a reaction triggered by an adjacent bison beginning its Rolling Thunder charge. All bison in the combined charge must charge in parallel lines, so the areas can't overlap. The combined charge deals an additional @Damage[3d6[bludgeoning]] daño to criaturas in the area, and a criatura that fails the Reflex tirada de salvación is also knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+          "name": "Trueno rodante",
+          "description": "<p>El bisonte levanta polvo y hace temblar el suelo mientras carga.</p>\n<p>El bisonte en estampida da una Zancada de hasta el doble de su Velocidad en linea recta, infligiendo @Damage[(4d6+6)[bludgeoning]] de daño (salvacion basica de @Check[reflex|dc:21]) a cualquier criatura Mediana o menor en su camino.</p>\n<p>Varios bisontes pueden participar en Trueno rodante gastando las acciones de esta aptitud y esperando a cargar hasta que la manada este lista. Antes del comienzo de su siguiente turno, pueden cargar como reaccion desencadenada por un bisonte adyacente que empieza su carga de Trueno rodante. Todos los bisontes en la carga combinada deben cargar en lineas paralelas, por lo que las areas no pueden solaparse. La carga combinada inflige @Damage[3d6[bludgeoning]] de daño adicional a las criaturas en el area, y una criatura que falle la salvacion de Reflejos tambien queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
         }
       }
     },
@@ -829,16 +829,16 @@
       "senses": "sentir sangre (impreciso) 90 pies",
       "items": {
         "spellcastingEntry->Occult Innate Spells": {
-          "name": "Occult Innate Spells"
+          "name": "Conjuros ocultistas innatos"
         },
         "spellcastingEntry->Coven Spells": {
-          "name": "Coven Spells"
+          "name": "Conjuros de aquelarre"
         },
         "spell->Baleful Polymorph": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]\nBaleful Polymorph"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]\nMetamorfosis maldita"
         },
         "spell->Prying Eye": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.Ek5XI0aEdZhBgm21]\nPrying Eye"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.Ek5XI0aEdZhBgm21]\nOjo indiscreto"
         },
         "strike-melee->Claw": {
           "name": "Garra"
@@ -847,37 +847,37 @@
           "name": "Mandíbulas"
         },
         "strike-melee->Firebolt": {
-          "name": "Firebolt",
-          "description": "<p><em>Note: Bestiary 3 does not specify a range for this attack. A range of 30 pies has been chosen, in line with the Storm Hag's Wind Blast.</em></p>"
+          "name": "Dardo de fuego",
+          "description": "<p><em>Nota: Bestiary 3 no especifica alcance para este ataque. Se ha elegido un alcance de 30 pies, en consonancia con la Rafaga de viento de la saga de las tormentas.</em></p>"
         },
         "action->Bloodsense (Imprecise) 90 feet": {
-          "name": "Bloodsense (Imprecise) 90 pies",
-          "description": "<p>A blood hag can sense the presence of blood and criaturas with blood. She can tell the difference between spilled blood and the blood within a living criatura.</p>"
+          "name": "Sentido de la sangre (impreciso) 90 pies",
+          "description": "<p>Una saga sanguinea puede percibir la presencia de sangre y de criaturas con sangre. Puede distinguir entre sangre derramada y sangre dentro de una criatura viva.</p>"
         },
         "action->Borrowed Skin": {
-          "name": "Borrowed Skin",
-          "description": "<p>A blood hag wears a covering of skin stolen from a humanoid criatura she has killed, hiding her true form and granting her the effects of a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.PRrZ7anETWPm90YY]{Disguise Magic}, with herself as the primary target and the criatura whose skin she is wearing as the secondary target.</p>\n<p>Spreading coarse salt inside the skin prevents the hag from putting it back on, forcing her to keep her fiery form until she kills another humanoid and spends 1 hora turning it into a new disguise.</p>"
+          "name": "Piel prestada",
+          "description": "<p>Una saga sanguinea lleva una cubierta de piel robada a una criatura humanoide a la que ha matado, ocultando su verdadera forma y obteniendo los efectos de un @UUID[Compendium.pf2e.spells-srd.Item.PRrZ7anETWPm90YY]{Disguise Magic} de rango 4, con ella misma como objetivo principal y la criatura cuya piel lleva como objetivo secundario.</p>\n<p>Esparcir sal gruesa dentro de la piel impide que la saga pueda volver a ponersela, obligandola a conservar su forma ignea hasta que mate a otro humanoide y dedique 1 hora a convertirlo en un nuevo disfraz.</p>"
         },
         "action->Coven": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.52CdldlWMiVTZk1F]\n<p>A blood hag adds @UUID[Compendium.pf2e.spells-srd.Item.YvXKGlHOt7mdW2jZ]{Death Ward}, @UUID[Compendium.pf2e.spells-srd.Item.XS7Wyh5YC0NWeWyB]{Fiery Body}, and @UUID[Compendium.pf2e.spells-srd.Item.Uqj344bezBq3ESdq]{Nightmare} to her coven's conjuros.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Coven]</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.52CdldlWMiVTZk1F]\n<p>Una saga sanguinea añade @UUID[Compendium.pf2e.spells-srd.Item.YvXKGlHOt7mdW2jZ]{Death Ward}, @UUID[Compendium.pf2e.spells-srd.Item.XS7Wyh5YC0NWeWyB]{Fiery Body} y @UUID[Compendium.pf2e.spells-srd.Item.Uqj344bezBq3ESdq]{Nightmare} a los conjuros de su aquelarre.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Coven]</p>"
         },
         "action->Assume Fiery Form": {
-          "name": "Assume Fiery Form",
-          "description": "<p>The blood hag removes her borrowed skin and transforms into a brilliant ball of fire.</p>\n<p>She becomes amorphous, gains the fire rasgo and a fly Velocidad of 60 pies, becomes immune to fire, and emits light as a torch. She loses her melee Golpes and can't Drain Blood, but she deals @Damage[3d10[fire]] daño (@Check[reflex|dc:26|basic] salvación) to each criatura that touches her, as well as to each criatura that succeeds at a melee Golpe against her with an ataque sin armas or from an adjacent space.</p>\n<p>If her skin is intact, she can return to her normal form by spending a single action that has the manipulate rasgo while adjacent to the skin.</p>\n<p>The hag can instead Assume Fiery Form as a single action, bursting through her skin in a blast of flames. Doing so destroys her borrowed skin and deals @Damage[9d6[fire]|options:area-damage] daño (@Check[reflex|dc:26|basic|options:area-effect] salvación) in a @Template[emanation|distance:20].</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.H99PJXU5cvJ4Oycm]{Efecto: Fiery Form}</p>"
+          "name": "Adoptar forma ignea",
+          "description": "<p>La saga sanguinea se quita su piel prestada y se transforma en una brillante bola de fuego.</p>\n<p>Se vuelve amorfa, obtiene el rasgo fuego y una Velocidad de vuelo de 60 pies, se vuelve inmune al fuego y emite luz como una antorcha. Pierde sus Golpes cuerpo a cuerpo y no puede Drenar sangre, pero inflige @Damage[3d10[fire]] de daño (salvacion basica de @Check[reflex|dc:26]) a cada criatura que la toque, asi como a cada criatura que tenga exito en un Golpe cuerpo a cuerpo contra ella con un ataque sin armas o desde un espacio adyacente.</p>\n<p>Si su piel esta intacta, puede volver a su forma normal gastando una unica accion con el rasgo manipular mientras esta adyacente a la piel.</p>\n<p>La saga puede, en su lugar, Adoptar forma ignea como una unica accion, atravesando su piel en un estallido de llamas. Hacerlo destruye su piel prestada e inflige @Damage[9d6[fire]|options:area-damage] de daño (salvacion basica de @Check[reflex|dc:26|basic|options:area-effect]) en una @Template[emanation|distance:20].</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.H99PJXU5cvJ4Oycm]{Efecto: Fiery Form}</p>"
         },
         "action->Drain Blood": {
-          "name": "Drain Blood",
-          "description": "<p><strong>Requisitos</strong> A @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, or willing criatura is within the blood hag's reach</p>\n<hr />\n<p><strong>Efecto</strong> The hag sinks her fangs into the criatura to drink its blood. Este requires a successful @Check[athletics|defense:fortitude] check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions.</p>\n<p>The victim becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}. The hag regains @Damage[15[healing]] Puntos de Golpe, gaining any excess HP as Puntos de Golpe temporales that last for 1 hora. Drinking blood from a criatura that's already drained doesn't restore any Puntos de Golpe to the hag but increases the victim's drained value by 1, killing the victim when it reaches drained 5.</p>\n<p>A victim's drained condition decreases by 1 per week. A blood transfusion, which requires a successful @Check[medicine|dc:20] check and sufficient blood or a blood donor, reduces the drained condition by 1 after 10 minutos.</p>"
+          "name": "Drenar sangre",
+          "description": "<p><strong>Requisitos</strong> Una criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} o voluntaria esta dentro del alcance de la saga sanguinea.</p>\n<hr />\n<p><strong>Efecto</strong> La saga hunde sus colmillos en la criatura para beber su sangre. Esto requiere una prueba de @Check[athletics|defense:fortitude] con exito contra la CD de Fortaleza de la victima si esta esta agarrada, y es automatico para cualquiera de las otras condiciones.</p>\n<p>La victima queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}. La saga recupera @Damage[15[healing]] Puntos de Golpe, obteniendo cualquier exceso como Puntos de Golpe temporales que duran 1 hora. Beber sangre de una criatura que ya esta drenada no restaura Puntos de Golpe a la saga, pero aumenta en 1 el valor de drenado de la victima, matandola cuando alcanza drenado 5.</p>\n<p>La condicion de drenado de una victima disminuye en 1 por semana. Una transfusion de sangre, que requiere una prueba de @Check[medicine|dc:20] con exito y suficiente sangre o un donante de sangre, reduce la condicion de drenado en 1 tras 10 minutos.</p>"
         }
       }
     },
     "Blood Painter": {
       "name": "Pintor de sangre",
       "publicNotes": "<p>Enamorados al mismo tiempo del mundo natural y demasiado alienigenas para sobrevivir en el, los pintores de sangre son artistas de ocho extremidades que acechan, matan y desmiembran en busca tanto de pigmento como de sustento. Su fisiologia no puede digerir comida corriente, de modo que se alimentan recolectando sangre y usandola para pintar y animar algo comestible. Cuando no cazan, buscan paisajes hermosos, que contemplan placidamente mediante los ojos de las manos de sus extremidades superiores y luego reproducen en lienzo.</p>",
-      "senses": "bloodsense (imprecise) 60 pies",
+      "senses": "sentido de la sangre (impreciso) 60 pies",
       "skillSpecialCrafting": {
         "0": {
-          "label": "for paintings"
+          "label": "para pinturas"
         }
       },
       "items": {
@@ -885,23 +885,23 @@
           "name": "Garra"
         },
         "action->Bloodsense (Imprecise) 60 feet": {
-          "name": "Bloodsense (Imprecise) 60 pies",
-          "description": "<p>A blood painter can detect exposed blood as an imprecise sense at the listed range, including from criaturas taking @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{Persistent Bleed Damage}.</p>"
+          "name": "Sentido de la sangre (impreciso) 60 pies",
+          "description": "<p>Un pintor de sangre puede detectar sangre expuesta como un sentido impreciso al alcance indicado, incluida la de criaturas que sufren @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{Persistent Bleed Damage}.</p>"
         },
         "action->Easily Fascinated": {
-          "name": "Easily Fascinated",
-          "description": "<p>When subject to a visual illusion with the incapacitation rasgo, the blood painter doesn't adjust their degree of success due to the incapacitation rasgo.</p>"
+          "name": "Fascinacion facil",
+          "description": "<p>Cuando esta sujeto a una ilusion visual con el rasgo incapacitacion, el pintor de sangre no ajusta su grado de exito debido al rasgo incapacitacion.</p>"
         },
         "action->Dab": {
-          "name": "Dab",
-          "description": "<p><strong>Requisitos</strong> The blood painter is within reach of an enemigo taking @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{Persistent Bleed Damage}.</p>\n<hr />\n<p><strong>Efecto</strong> The blood painter touches the criatura and applies blood to one of their four claws; the blood remains fresh for 1 minuto. El objetivo must succeed at a @Check[will|dc:28] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} with the blood painter.</p>"
+          "name": "Toque de pintura",
+          "description": "<p><strong>Requisitos</strong> El pintor de sangre esta al alcance de un enemigo que sufre @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{Persistent Bleed Damage}.</p>\n<hr />\n<p><strong>Efecto</strong> El pintor de sangre toca a la criatura y aplica sangre a una de sus cuatro garras; la sangre permanece fresca durante 1 minuto. El objetivo debe tener exito en una salvacion de @Check[will|dc:28] o quedar @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} con el pintor de sangre.</p>"
         },
         "action->Paint": {
-          "name": "Paint",
-          "description": "<p><strong>Requisitos</strong> The blood painter has fresh blood applied to a claw using Dab.</p>\n<hr />\n<p><strong>Efecto</strong> The blood painter expends the blood on one claw to paint an illusion with the effects of one of the following conjuros: @UUID[Compendium.pf2e.spells-srd.Item.f8SBoXiXQjlCKqly]{Illusory Creature}, @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{Illusory Disguise}, @UUID[Compendium.pf2e.spells-srd.Item.2oH5IufzdESuYxat]{Illusory Object}, or @UUID[Compendium.pf2e.spells-srd.Item.j8vIoIEWElvpwkcI]{Mirror Image}.</p>\n<p>The Paint action gains the rasgos of the conjuro it's reproducing, and the blood painter can Sustain a Spell on these effects. They use a conjuro attack modifier of [[/r 1d20+20 #Spell Attack]]{+20} and DC 28 for these effects, which are heightened to 5th level.</p>\n<p>If they have fresh blood applied to two or more claws, the blood painter can expend the blood on all of them to instead produce the effects of @UUID[Compendium.pf2e.spells-srd.Item.TCk2MDwf5L5OYjFC]{Cloak of Colors} or @UUID[Compendium.pf2e.spells-srd.Item.RQjSQVZRG497cJhX]{Vibrant Pattern}.</p>\n<p>Any effects produced by this ability have a +2 bonificador de estado to tiradas de ataque, tiradas de daño, tiradas de salvación, pruebas de habilidad, and AC against the criatura whose blood was used to Paint and that criatura takes a -2 penalizador de estado to Perception checks and saves against it.</p>"
+          "name": "Pintar",
+          "description": "<p><strong>Requisitos</strong> El pintor de sangre tiene sangre fresca aplicada a una garra mediante Toque de pintura.</p>\n<hr />\n<p><strong>Efecto</strong> El pintor de sangre consume la sangre de una garra para pintar una ilusion con los efectos de uno de los siguientes conjuros: @UUID[Compendium.pf2e.spells-srd.Item.f8SBoXiXQjlCKqly]{Illusory Creature}, @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{Illusory Disguise}, @UUID[Compendium.pf2e.spells-srd.Item.2oH5IufzdESuYxat]{Illusory Object} o @UUID[Compendium.pf2e.spells-srd.Item.j8vIoIEWElvpwkcI]{Mirror Image}.</p>\n<p>La accion Pintar obtiene los rasgos del conjuro que reproduce, y el pintor de sangre puede Sustentar un conjuro sobre estos efectos. Usa un modificador de ataque de conjuro de [[/r 1d20+20 #Spell Attack]]{+20} y CD 28 para estos efectos, que estan intensificados a nivel 5.</p>\n<p>Si tiene sangre fresca aplicada a dos o mas garras, el pintor de sangre puede consumir la sangre de todas ellas para producir en su lugar los efectos de @UUID[Compendium.pf2e.spells-srd.Item.TCk2MDwf5L5OYjFC]{Cloak of Colors} o @UUID[Compendium.pf2e.spells-srd.Item.RQjSQVZRG497cJhX]{Vibrant Pattern}.</p>\n<p>Cualquier efecto producido por esta aptitud tiene un bonificador de estado de +2 a las tiradas de ataque, tiradas de daño, tiradas de salvacion, pruebas de habilidad y CA contra la criatura cuya sangre se uso para Pintar, y esa criatura sufre un penalizador de estado de -2 a las pruebas de Percepcion y salvaciones contra el efecto.</p>"
         },
         "lore->Art Lore": {
-          "name": "Art LORE"
+          "name": "Saber de Arte"
         }
       }
     },
@@ -912,48 +912,48 @@
       "publicNotes": "<p>Rara vez queda algo vivo tras el paso de un barco de huesos: solo muerte, destrucción y olas rojas como la sangre que chocan y espuman en su estela. Cuando se forma un barco de huesos, la magia nigromántica dragona grandes huesos desde el lecho marino y los dobla lentamente en su sitio con intención maliciosa. Las costillas de ballena suelen formar las cuadernas del casco, y sus grandes columnas vertebrales se retuercen hasta convertirse en mástiles imponentes. Músculos y tendones atan el barco, tensándose y aflojándose para girarlo con precisión mientras navega.</p>\n<p>Cuando un barco de huesos encuentra otra nave o alguna otra oportunidad de sembrar muerte, los cadáveres menores esparcidos por el barco se animan para formar tripulación y grupo de abordaje. Cada tripulante se asemeja a un esqueleto humanoide, aunque puede estar hecho de huesos de múltiples criaturas. Para la batalla, el barco también crea cañones mágicos formados de hueso que propulsan fragmentos óseos y escombros mediante estallidos de magia. Las pequeñas gemas negras que motean la estructura del barco contienen las almas de una tripulación ahogada, pues un barco de huesos es el legado maldito de marineros muertos.</p>\n<p>Cuando se produce una muerte masiva en el mar, a menudo porque todo un barco se hunde lejos de la costa, la angustia de las víctimas moribundas puede engendrar un barco de huesos. Este suceso podría ocurrir cuando un marinero eleva una última súplica a un dios oscuro o cuando una deidad aprovecha la ocasión para unir muchas almas de marineros muertos en una muestra destructiva de poder divino. Cuando no se crea por intervención divina, un barco de huesos puede crecer lenta y orgánicamente a partir de una de las naves pilotadas por los marineros muertos vivientes conocidos como @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.48agy7vl9fQW1LLA]{Draugr}. A medida que los barcos draugr asolan los mares y hunden otras embarcaciones, pueden reunir más almas y huesos hasta acabar convirtiéndose en barcos de huesos. Estas naves tienen un aspecto distinto al de muchos otros barcos de huesos, con formas remendadas o asimétricas.</p>\n<p>Un barco de huesos es casi glotón, poseído por un apetito incesante de muerte, destrucción y nuevas almas que añadir a su número. Estos deseos proceden de una causa subyacente, ya sea implantada en el barco por su creador o acumulada a partir de los últimos deseos dispersos de las almas muertas que lo componen. Por ejemplo, una deidad podría enviar un barco de huesos en una misión especial para llevar un mensaje o deshacerse de un adversario o molestia especialmente persistente. Aunque los barcos de huesos suelen viajar sobre las olas, no necesitan respirar y pueden llevar a cabo misiones submarinas a instancias de su creador.</p>",
       "items": {
         "strike-melee->Hull": {
-          "name": "Hull"
+          "name": "Casco"
         },
         "strike-melee->Skeleton Crew": {
-          "name": "Skeleton Crew"
+          "name": "Tripulacion esqueletica"
         },
         "strike-melee->Bone Cannon": {
-          "name": "Bone Cannon"
+          "name": "Cañon de hueso"
         },
         "action->Skeleton Crew": {
-          "name": "Skeleton Crew",
-          "description": "<p>The bone ship is compelled not by a single mind, but by the collective consciousness of dead sailors' souls.</p>\n<p>The ship is immune to mental effects that target only a specific number of criaturas. It's still subject to mental effects that affect all criaturas in an area.</p>\n<p>Any criatura that tries to communicate with the ship via telepathy or read its thoughts hears the dying screams and gasps of the crew, and is targeted with a 9th-rank @UUID[Compendium.pf2e.spells-srd.Item.8kJbiBEjMWG4VUjs]{Warp Mind} conjuro (@Check[will|dc:41|traits:magical,enchantment,emotion,incapacitation,mental|overrideTraits:true]).</p>\n<p>The ship animates skeletal crew members out of its own bones, arming them with rusty old cutlasses or other armaments so they can attack anyone who comes next to the ship. Estos entities have appearances matching those the bound souls had in life but aren't truly individuals; anything that targets them in fact targets the bone ship they're a part of.</p>\n<p>Hundreds of black soul gems decorate the ship's exterior, each holding one soul. Estos gems can hold souls of criaturas whose level was 16th or lower, and they have no value. If the ship is destroyed, all these gems shatter, freeing the souls within.</p>"
+          "name": "Tripulacion esqueletica",
+          "description": "<p>El barco de huesos no esta impulsado por una sola mente, sino por la conciencia colectiva de las almas de marineros muertos.</p>\n<p>El barco es inmune a los efectos mentales que solo seleccionan como objetivo a un numero concreto de criaturas. Sigue estando sujeto a efectos mentales que afecten a todas las criaturas en un area.</p>\n<p>Cualquier criatura que intente comunicarse con el barco mediante telepatia o leer sus pensamientos oye los gritos y jadeos agonizantes de la tripulacion, y es objetivo de un conjuro @UUID[Compendium.pf2e.spells-srd.Item.8kJbiBEjMWG4VUjs]{Warp Mind} de rango 9 (@Check[will|dc:41|traits:magical,enchantment,emotion,incapacitation,mental|overrideTraits:true]).</p>\n<p>El barco anima tripulantes esqueleticos a partir de sus propios huesos, armados con viejos alfanjes oxidados u otras armas para que puedan atacar a cualquiera que se acerque al barco. Estas entidades tienen apariencias que coinciden con las que las almas ligadas tuvieron en vida, pero no son individuos reales; cualquier cosa que las tenga como objetivo en realidad tiene como objetivo al barco de huesos del que forman parte.</p>\n<p>Cientos de gemas negras de alma decoran el exterior del barco, cada una con un alma en su interior. Estas gemas pueden contener almas de criaturas cuyo nivel fuera 16 o menor, y no tienen valor. Si el barco es destruido, todas estas gemas se rompen, liberando las almas de su interior.</p>"
         },
         "action->Trawl for Bones": {
-          "name": "Trawl for Bones",
-          "description": "<p>The bone ship spends 1 día scavenging bones from the sea and restores itself to full Puntos de Golpe.</p>"
+          "name": "Rastrear huesos",
+          "description": "<p>El barco de huesos pasa 1 dia buscando huesos en el mar y se restaura hasta sus Puntos de Golpe maximos.</p>"
         },
         "action->Blood Wake": {
-          "name": "Blood Wake",
-          "description": "<p>30 pies. The churning water around the bone ship tinges red with seeping blood. A living criatura that enters water in the aura sees visions of itself drowning in the blood and must attempt a @Check[will|dc:37] salvación. After attempting this tirada de salvación, the criatura is temporarily immune for 1 hora.</p>\n<p>On a failure, the criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 4} on a critical failure) and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}, and it takes a -4 penalizador de estado to ATHLETICS checks to Swim.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.oORIapm28xioxPDp]{Efecto: Blood Wake}</p>"
+          "name": "Estela sangrienta",
+          "description": "<p>30 pies. El agua agitada alrededor del barco de huesos se tiñe de rojo por la sangre que se filtra. Una criatura viva que entre en el agua dentro del aura ve visiones de si misma ahogandose en sangre y debe intentar una salvacion de @Check[will|dc:37]. Tras intentar esta tirada de salvacion, la criatura es temporalmente inmune durante 1 hora.</p>\n<p>Con un fallo, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 4} con un fallo critico) y @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}, y sufre un penalizador de estado de -4 a las pruebas de ATLETISMO para Nadar.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.oORIapm28xioxPDp]{Efecto: Blood Wake}</p>"
         },
         "action->Cannonade": {
-          "name": "Cannonade",
-          "description": "<p>The bone ship makes four bone cannon Golpes, each targeting a different criatura.</p>"
+          "name": "Cañoneo",
+          "description": "<p>El barco de huesos realiza cuatro Golpes de cañon de hueso, cada uno contra una criatura distinta.</p>"
         },
         "action->Chain Shot": {
-          "name": "Chain Shot",
-          "description": "<p>The bone ship makes a special bone cannon Golpe, firing a chain made of bones. A criatura hit by this Golpe is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} by the chain ([[/act escape dc=41]]).</p>\n<p>The bone ship can use INTERACT actions to reel in a grabbed criatura 50 pies per action spent, and when the ship moves, it pulls the grabbed criatura along with it.</p>"
+          "name": "Disparo encadenado",
+          "description": "<p>El barco de huesos realiza un Golpe especial de cañon de hueso, disparando una cadena hecha de huesos. Una criatura impactada por este Golpe queda @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} por la cadena ([[/act escape dc=41]]).</p>\n<p>El barco de huesos puede usar acciones de INTERACTUAR para atraer a una criatura agarrada 50 pies por accion gastada, y cuando el barco se mueve, arrastra consigo a la criatura agarrada.</p>"
         },
         "action->Crew's Call": {
-          "name": "Crew's Call",
-          "description": "<p>The crew let out an anguished cry in unison. Este is a @UUID[Compendium.pf2e.spells-srd.Item.FEsuyf203wTNE2et]{Wails of the Damned} conjuro with @Template[emanation|distance:100] (@Check[fortitude|dc:39|traits:magical,necromancy,auditory,death,void]). In addition, any criatura within 5 pies of the ship is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} by the crew.</p>\n<p>The ship can't use Crew's Call again for [[/gmr 1d4+1 #Recharge Crew's Call]]{1d4+1 asaltos}.</p>"
+          "name": "Llamada de la tripulacion",
+          "description": "<p>La tripulacion deja escapar un grito angustiado al unisono. Esto es un conjuro @UUID[Compendium.pf2e.spells-srd.Item.FEsuyf203wTNE2et]{Wails of the Damned} con @Template[emanation|distance:100] (@Check[fortitude|dc:39|traits:magical,necromancy,auditory,death,void]). Ademas, cualquier criatura a 5 pies o menos del barco queda @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} por la tripulacion.</p>\n<p>El barco no puede volver a usar Llamada de la tripulacion durante [[/gmr 1d4+1 #Recharge Crew's Call]]{1d4+1 asaltos}.</p>"
         },
         "action->Keelhaul": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\nKeelhaul",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\n<p>As Trample (Huge or smaller, hull, @Check[reflex|dc:43|basic]), but the bone ship Swims up to double its swim Velocidad instead of Striding, and each criatura that fails its save is also dragged under the ship.</p>\n<p>The GM places each criatura dragged along in an underwater space adjacent to the bone ship at the end of the ship's movement.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\nPasar bajo la quilla",
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\n<p>Como Arrollar (Enorme o menor, casco, @Check[reflex|dc:43|basic]), pero el barco de huesos Nada hasta el doble de su Velocidad de nado en lugar de dar Zancadas, y cada criatura que falle su salvacion tambien es arrastrada bajo el barco.</p>\n<p>El DJ coloca a cada criatura arrastrada en un espacio subacuatico adyacente al barco de huesos al final del movimiento del barco.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
         },
         "action->Pressgang Soul": {
-          "name": "Pressgang Soul",
-          "description": "<p>The bone ship casts @UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg]{Seize Soul}. El objetivo must have died due to the bone ship's assault or from drowning. The criatura's soul becomes part of the ghostly crew.</p>\n<p>A new soul gem grows on the ship, and the bone ship is @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} for 1 minuto. It can use the extra action only to Golpe or Swim.</p>"
+          "name": "Levar alma",
+          "description": "<p>El barco de huesos lanza @UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg]{Seize Soul}. El objetivo debe haber muerto debido al asalto del barco de huesos o por ahogamiento. El alma de la criatura pasa a formar parte de la tripulacion fantasmal.</p>\n<p>Una nueva gema de alma crece en el barco, y el barco de huesos queda @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} durante 1 minuto. Puede usar la accion adicional solo para Golpear o Nadar.</p>"
         },
         "lore->Sailing Lore": {
-          "name": "Sailing LORE"
+          "name": "Saber de Navegacion"
         }
       }
     },
@@ -965,8 +965,8 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]\nTremorsense (Imprecise) 60 pies"
         },
         "action->Swarming Bites": {
-          "name": "Swarming Bites",
-          "description": "<p>Each enemigo in the swarm's space takes @Damage[3d6[acid]] daño (@Check[reflex|dc:22|basic] salvación).</p>\n<p>Las criaturas that fail this save become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} from the swarm's painful bites.</p>"
+          "name": "Mordiscos de enjambre",
+          "description": "<p>Cada enemigo en el espacio del enjambre sufre @Damage[3d6[acid]] de daño (salvacion basica de @Check[reflex|dc:22]).</p>\n<p>Las criaturas que fallen esta salvacion quedan @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} por los dolorosos mordiscos del enjambre.</p>"
         }
       }
     },
@@ -982,15 +982,15 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nPuerta dimensional"
         },
         "spell->Phantasmal Killer (Image Resembles the Brainchild)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.tlcrVRqW1MSKJ5IC]\nPhantasmal Killer (Image Resembles the Brainchild)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.tlcrVRqW1MSKJ5IC]\nAsesino fantasmal (la imagen se parece a la creacion mental)"
         },
         "strike-melee->Illusory Weapon": [
           {
-            "name": "Illusory Weapon",
+            "name": "Arma ilusoria",
             "id": "YKo3Am15Wz2kJyKI"
           },
           {
-            "name": "Illusory Weapon",
+            "name": "Arma ilusoria",
             "id": "JA8W1EoSKmMH74zg"
           }
         ],
@@ -998,16 +998,16 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA]\nTelepathy 100 pies"
         },
         "action->Universal Language": {
-          "name": "Universal Language",
-          "description": "<p>Anything spoken by the brainchild is perceived by the listener in its native language.</p>"
+          "name": "Lenguaje universal",
+          "description": "<p>Cualquier cosa que diga la creacion mental es percibida por quien la escucha en su idioma nativo.</p>"
         },
         "action->Urban Legend": {
-          "name": "Urban Legend",
-          "description": "<p>A brainchild is sustained only by the reputation that precedes them. Mindless criaturas are immune to a brainchild and can't perceive them.</p>\n<p>The brainchild's size, features, and items, as well as the appearance of their attacks, match what the foes perceiving them expect. If foes expect to see different things, the brainchild chooses which to manifest. If any criatura that can perceive the brainchild believes the brainchild has one of the abilities below, the brainchild has that ability.</p>\n<p>A criatura can @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} or @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense Motive} (against the brainchild's DECEPTION DC) to attempt to disbelieve an individual ability. If at any point no criatura perceiving the brainchild believes in the ability, the brainchild loses that ability immediately. If foes expect different particulars, such as one believing the brainchild is immune to fire and another believing they're immune to divinations, the brainchild chooses one to have.</p>\n<ul>\n<li><strong>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]{Tremorsense}</strong> (imprecise) 100 pies</li>\n<li><strong>Immunity</strong> to one tipo de daño, magic school, or condition</li>\n<li><strong>Weakness</strong> 10 to one tipo de daño other than mental</li>\n<li><strong>Resistance</strong> 10 to daño físico, with an exception for either cold iron or silver</li>\n<li><strong>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]{Frightful Presence}</strong> (aura, emotion, fear, mental) 100 pies, DC 28</li>\n<li><strong>[[/r 1d6]]{1d6} Extra Damage</strong> on Golpes, of a type one foe believes in</li>\n<li><strong>Additional Spells</strong> @UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{Phantom Pain} and @UUID[Compendium.pf2e.spells-srd.Item.IqJ9URobmJ9L9UBG]{Shadow Blast} at 6th rank</li>\n</ul>"
+          "name": "Leyenda urbana",
+          "description": "<p>Una creacion mental solo se sostiene por la reputacion que la precede. Las criaturas sin mente son inmunes a una creacion mental y no pueden percibirla.</p>\n<p>El tamaño, rasgos y objetos de la creacion mental, asi como el aspecto de sus ataques, coinciden con lo que esperan los enemigos que la perciben. Si los enemigos esperan ver cosas distintas, la creacion mental elige que manifestar. Si cualquier criatura que pueda percibir a la creacion mental cree que esta posee una de las aptitudes siguientes, la creacion mental posee esa aptitud.</p>\n<p>Una criatura puede @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} o @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense Motive} (contra la CD de ENGAÑO de la creacion mental) para intentar descreer una aptitud individual. Si en algun momento ninguna criatura que perciba a la creacion mental cree en esa aptitud, la creacion mental la pierde de inmediato. Si los enemigos esperan detalles diferentes, como que uno crea que la creacion mental es inmune al fuego y otro que es inmune a las adivinaciones, la creacion mental elige uno de ellos.</p>\n<ul>\n<li><strong>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]{Tremorsense}</strong> (impreciso) 100 pies</li>\n<li><strong>Inmunidad</strong> a un tipo de daño, escuela de magia o condicion</li>\n<li><strong>Debilidad</strong> 10 a un tipo de daño que no sea mental</li>\n<li><strong>Resistencia</strong> 10 al daño fisico, con una excepcion para hierro frio o plata</li>\n<li><strong>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]{Frightful Presence}</strong> (aura, emocion, miedo, mental) 100 pies, CD 28</li>\n<li><strong>[[/r 1d6]]{1d6} de daño adicional</strong> en los Golpes, de un tipo en el que crea un enemigo</li>\n<li><strong>Conjuros adicionales</strong> @UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{Phantom Pain} y @UUID[Compendium.pf2e.spells-srd.Item.IqJ9URobmJ9L9UBG]{Shadow Blast} de rango 6</li>\n</ul>"
         },
         "action->Persistence of Memory": {
-          "name": "Persistence of Memory",
-          "description": "<p>When a brainchild is destroyed, it returns if anyone still fully believes it exists, re-forming within 100 pies of any believer after [[/br 2d4 #Persistance of Memory]]{2d4 days}.</p>"
+          "name": "Persistencia de la memoria",
+          "description": "<p>Cuando una creacion mental es destruida, vuelve si alguien sigue creyendo plenamente que existe, reformandose a 100 pies o menos de cualquier creyente tras [[/br 2d4 #Persistance of Memory]]{2d4 dias}.</p>"
         }
       }
     },
@@ -1022,53 +1022,53 @@
           "name": "Jabalina"
         },
         "action->Resize Plant": {
-          "name": "Resize Plant",
-          "description": "<p><strong>Frecuencia</strong> twice per day.</p>\n<p><strong>Requisitos</strong> The buso touches a Small, Medium, or Large plant.</p>\n<hr />\n<p><strong>Efecto</strong> The plant grows or shrinks by one size, remaining that size for the next 5 minutes. If used on a plant criatura, this effect has the effects of @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{Enlarge} or @UUID[Compendium.pf2e.spells-srd.Item.PjhUmyKnq6K5uDby]{Shrink} (buso's choice). Unwilling plant criaturas can attempt a @Check[fortitude|dc:18] tirada de salvación to resist this effect.</p>"
+          "name": "Redimensionar planta",
+          "description": "<p><strong>Frecuencia</strong> dos veces al dia.</p>\n<p><strong>Requisitos</strong> El buso toca una planta Pequeña, Mediana o Grande.</p>\n<hr />\n<p><strong>Efecto</strong> La planta crece o encoge un tamaño, manteniendo ese tamaño durante los siguientes 5 minutos. Si se usa sobre una criatura planta, este efecto tiene los efectos de @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{Enlarge} o @UUID[Compendium.pf2e.spells-srd.Item.PjhUmyKnq6K5uDby]{Shrink} (a eleccion del buso). Las criaturas planta no voluntarias pueden intentar una tirada de salvacion de @Check[fortitude|dc:18] para resistir este efecto.</p>"
         },
         "lore->Cooking Lore": {
-          "name": "Cooking LORE"
+          "name": "Saber de Cocina"
         },
         "lore->Farming Lore": {
-          "name": "Farming LORE"
+          "name": "Saber de Agricultura"
         }
       }
     },
     "Cactus Leshy": {
       "name": "Leshy cactus",
-      "languages": "speak with plants (succulents only)",
+      "languages": "hablar con las plantas (solo suculentas)",
       "publicNotes": "<p>Estas pequenas plantas son conocidas por su actitud irritante. Sus personalidades reflejan las espinas que brotan por todo su cuerpo, lo que las vuelve grunonas y algo punzantes, aunque son inquebrantablemente leales a quienes se ganan su confianza. En casa en paisajes secos y aridos, los leshys cactus almacenan agua dentro de sus cuerpos para sobrevivir a esas duras condiciones.</p>",
       "items": {
         "spellcastingEntry->Primal Innate Spells": {
-          "name": "Primal Innate Spells"
+          "name": "Conjuros primigenios innatos"
         },
         "strike-melee->Spine": [
           {
-            "name": "Spine",
+            "name": "Espina",
             "id": "rmezKNjwT2IakFHV"
           },
           {
-            "name": "Spine",
+            "name": "Espina",
             "id": "8HtO6GuiGguIFsmV"
           }
         ],
         "action->Little Oasis": {
-          "name": "Little Oasis",
-          "description": "<p>If a cactus leshy is willing, a criatura can harvest enough water from the leshy's inner cavity to fill a single waterskin without harming them. Doing so again before the leshy can replenish the water causes the leshy to immediately suffer from dehydration.</p>"
+          "name": "Pequeño oasis",
+          "description": "<p>Si un leshy cactus esta dispuesto, una criatura puede extraer suficiente agua de la cavidad interna del leshy para llenar un solo odre sin dañarlo. Hacerlo de nuevo antes de que el leshy pueda reponer el agua hace que el leshy sufra deshidratacion de inmediato.</p>"
         },
         "action->Spiny Body": {
-          "name": "Spiny Body",
-          "description": "<p>A cactus leshy is covered in spines. A criatura that @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabs} the cactus leshy takes @Damage[(1d8+3)[piercing]] daño.</p>"
+          "name": "Cuerpo espinoso",
+          "description": "<p>Un leshy cactus esta cubierto de espinas. Una criatura que @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabs} al leshy cactus sufre @Damage[(1d8+3)[piercing]] de daño.</p>"
         },
         "action->Verdant Burst": {
           "name": "Explosión verde",
-          "description": "<p>When a cactus leshy dies, a burst of primal energy explodes from its body, restoring @Damage[2d8[healing]] Puntos de Golpe to each plant criatura in a @Template[emanation|distance:30]. Este area sprouts cacti, becoming difficult terrain. If the terrain is not a viable environment for the cacti, they wither after 24 horas.</p>"
+          "description": "<p>Cuando un leshy cactus muere, una explosion de energia primigenia estalla desde su cuerpo, restaurando @Damage[2d8[healing]] Puntos de Golpe a cada criatura planta en una @Template[emanation|distance:30]. En esta area brotan cactus, convirtiendose en terreno dificil. Si el terreno no es un entorno viable para los cactus, estos se marchitan tras 24 horas.</p>"
         },
         "action->Change Shape": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>The cactus leshy transforms into a Small cactus. Este ability otherwise uses the effects of @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{One with Plants}.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>El leshy cactus se transforma en un cactus Pequeño. Por lo demas, esta aptitud usa los efectos de @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{One with Plants}.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
         "action->Prickly Burst": {
-          "name": "Prickly Burst",
-          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> The cactus leshy shoots their spines in every direction. All criaturas in a @Template[emanation|distance:10] take @Damage[3d6[piercing]|options:area-damage] daño (@Check[reflex|dc:18|basic|options:area-effect] salvación).</p>"
+          "name": "Estallido espinoso",
+          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> El leshy cactus dispara sus espinas en todas direcciones. Todas las criaturas en una @Template[emanation|distance:10] sufren @Damage[3d6[piercing]|options:area-damage] de daño (salvacion basica de @Check[reflex|dc:18|basic|options:area-effect]).</p>"
         }
       }
     },
@@ -1078,25 +1078,25 @@
       "publicNotes": "<p>Aunque los misteriosos semidioses conocidos como los Abandonados desaparecieron hace eones, muchos calignis siguen sus antiguas tradiciones de culto. Los owbs, antiguos sirvientes de los Abandonados, aun responden a sus plegarias. Los invocadores caligni sirven como sacerdotes de sus comunidades, recurriendo a estos patronos sombrios para obtener guia, favores y poder. Su ceremonia mas importante, el blanqueamiento, determina el potencial de la mayoria de recien nacidos caligni y moldea sus formas futuras.</p>",
       "items": {
         "spellcastingEntry->Occult Innate Spells": {
-          "name": "Occult Innate Spells"
+          "name": "Conjuros ocultistas innatos"
         },
         "spell->Shadow Walk": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.rxvS7EMJ7qmexAyA]\nShadow Walk",
-          "target": "tú and up to 9 willing criaturas touched"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.rxvS7EMJ7qmexAyA]\nCaminar por las sombras",
+          "target": "tu y hasta 9 criaturas voluntarias tocadas"
         },
         "spell->Darkness (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]\nOscuridad (a voluntad)"
         },
         "spell->Chill Touch": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.mAMEt4FFbdqoRnkN]\nChill Touch",
-          "target": "1 living or undead criatura"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.mAMEt4FFbdqoRnkN]\nToque helado",
+          "target": "1 criatura viva o no muerta"
         },
         "strike-melee->Dagger": {
           "name": "Daga"
         },
         "action->Death Umbra": {
-          "name": "Death Umbra",
-          "description": "<p>When the caller dies, an explosion of shadow devours their body. Each criatura in a @Template[emanation|distance:10] must attempt a @Check[fortitude|dc:22] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} for 1 minuto.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 minuto.</p>"
+          "name": "Umbra mortal",
+          "description": "<p>Cuando el invocador muere, una explosion de sombra devora su cuerpo. Cada criatura en una @Template[emanation|distance:10] debe intentar una salvacion de @Check[fortitude|dc:22].</p>\n<hr />\n<p><strong>Éxito crítico</strong> La criatura no se ve afectada.</p>\n<p><strong>Éxito</strong> La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} durante 1 minuto.</p>\n<p><strong>Fallo</strong> La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} y @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} durante 1 minuto.</p>"
         },
         "action->Sneak Attack": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>The caller deals an additional 2d6 daño de precisión to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} criaturas.</p>"
@@ -1109,8 +1109,8 @@
       "publicNotes": "<p>Los ninos caligni nacidos sin ojos, un hecho extremadamente raro, son considerados sagrados por sus comunidades. Desde pequenos son apartados y preparados para convertirse en vanguardias caligni, dedicados a una estricta formacion marcial y a rigidas disciplinas mentales. Otros calignis veneran su disciplina y habilidad de combate, aunque ese respeto siempre esta tenido de cautela, pues sus motivos suelen ser inescrutables.</p>",
       "items": {
         "armor->Full Plate (see Death Blaze)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Gq1cZWSKOtJhKd2p]\nFull Plate (see Death Blaze)",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Gq1cZWSKOtJhKd2p]\n<p>Plate mail consists of interlocking plates that encase nearly the entire body in a carapace of steel. It is costly and heavy, and the wearer often requires help to don it correctly, but it provides some of the best defense armor can supply. A suit of this armor comes with an undercoat of padded armor and a pair of gauntlets.</p>"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Gq1cZWSKOtJhKd2p]\nArmadura completa (ver Resplandor mortal)",
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Gq1cZWSKOtJhKd2p]\n<p>La armadura de placas esta formada por placas entrelazadas que cubren casi todo el cuerpo en una coraza de acero. Es cara y pesada, y quien la lleva suele necesitar ayuda para ponersela correctamente, pero proporciona algunas de las mejores defensas que una armadura puede ofrecer. Una armadura de este tipo incluye una capa inferior de armadura acolchada y un par de guanteletes.</p>"
         },
         "strike-melee->Greatsword": {
           "name": "Mandoble"
@@ -1119,20 +1119,20 @@
           "name": "Arco largo compuesto"
         },
         "action->Echolocation 60 feet": {
-          "name": "Echolocation 60 pies",
-          "description": "<p>A caligni vanguard can use their hearing as a precise sense at the listed range.</p>"
+          "name": "Ecolocalizacion 60 pies",
+          "description": "<p>Una vanguardia caligni puede usar su oido como sentido preciso al alcance indicado.</p>"
         },
         "action->Death Blaze": {
-          "name": "Death Blaze",
-          "description": "<p>When the vanguard dies, their body combusts in a blaze of fire and armor shrapnel.</p>\n<p>All criaturas within a @Template[emanation|distance:10] take @Damage[3d6[fire],3d6[piercing]|options:area-damage]{3d6 daño de fuego and 3d6 daño perforante} (@Check[reflex|dc:19|basic|options:area-effect] salvación).</p>\n<p>The vanguard's armor is destroyed in the blaze, but their other gear is unaffected and left in a pile where they died.</p>"
+          "name": "Resplandor mortal",
+          "description": "<p>Cuando la vanguardia muere, su cuerpo arde en un resplandor de fuego y metralla de armadura.</p>\n<p>Todas las criaturas dentro de una @Template[emanation|distance:10] sufren @Damage[3d6[fire],3d6[piercing]|options:area-damage]{3d6 de daño de fuego y 3d6 de daño perforante} (salvacion basica de @Check[reflex|dc:19|basic|options:area-effect]).</p>\n<p>La armadura de la vanguardia queda destruida por el resplandor, pero su otro equipo no se ve afectado y queda en un monton donde murio.</p>"
         },
         "action->Call to Arms": {
           "name": "Llamar a las armas",
-          "description": "<p>Each caligni within @Template[emanation|distance:30]{30 pies} of the vanguard gains the @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O]{Attack of Opportunity} reaction until the end of the vanguard's next turn. Once a caligni has used this Attack of Opportunity, that caligni is temporarily immune to the same vanguard's Call to Arms for 10 minutos.</p>"
+          "description": "<p>Cada caligni a @Template[emanation|distance:30]{30 pies} o menos de la vanguardia obtiene la reaccion @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O]{Attack of Opportunity} hasta el final del siguiente turno de la vanguardia. Una vez que un caligni ha usado este Ataque de oportunidad, ese caligni es temporalmente inmune a Llamar a las armas de la misma vanguardia durante 10 minutos.</p>"
         },
         "action->Shadowed Blade": {
-          "name": "Shadowed Blade",
-          "description": "<p>The vanguard makes a melee Golpe, channeling shadowy essence into their arma or ataque sin armas to envelop el objetivo. If the Golpe hits, el objetivo must succeed at a @Check[fortitude|dc:19] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn.</p>"
+          "name": "Hoja ensombrecida",
+          "description": "<p>La vanguardia realiza un Golpe cuerpo a cuerpo, canalizando esencia sombría en su arma o ataque sin armas para envolver al objetivo. Si el Golpe impacta, el objetivo debe tener exito en una salvacion de @Check[fortitude|dc:19] o quedar @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} hasta el final de su siguiente turno.</p>"
         }
       }
     },
@@ -1142,39 +1142,39 @@
       "saveDetails": "+1 de estado a todas las salvaciones contra magia",
       "items": {
         "spellcastingEntry->Arcane Innate Spells": {
-          "name": "Arcane Innate Spells"
+          "name": "Conjuros arcanos innatos"
         },
         "spell->True Seeing (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]\nTrue Seeing (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]\nVision verdadera (constante)"
         },
         "spell->Magic Weapon (At Will)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.TFitdEOpQC4SzKQQ]\nMagic Weapon (At Will)",
-          "target": "1 arma that is unattended or wielded by tú or a willing ally"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.TFitdEOpQC4SzKQQ]\nArma magica (a voluntad)",
+          "target": "1 arma desatendida o empuñada por ti o por un aliado voluntario"
         },
         "weapon->Longsword": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.LJdbVTOZog39EEbi]\n<p>Longswords can be one-edged or two-edged swords. Their blades are heavy and they're between 3 and 4 pies in length.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.LJdbVTOZog39EEbi]\n<p>Las espadas largas pueden tener uno o dos filos. Sus hojas son pesadas y miden entre 3 y 4 pies de longitud.</p>"
         },
         "strike-melee->Longsword": {
           "name": "Espada larga"
         },
         "strike-melee->Fist": {
-          "name": "Fist"
+          "name": "Puño"
         },
         "action->Suspended Animation": {
-          "name": "Suspended Animation",
-          "description": "<p>By concentrating for 5 minutes, the calikang can enter a state of suspended animation, freezing in place and becoming motionless but remaining aware of their surroundings.</p>\n<p>While in this state, the calikang gains a +4 bonificador de estado to Fortitude saves; doesn't age; and is immune to disease, inhaled toxins, poison, starvation, and thirst.</p>\n<p>The calikang can exit suspended animation as a free action. If they exit this state to attack, the calikang gains a +2 bonificador por circunstancia to their initiative roll.</p>"
+          "name": "Animacion suspendida",
+          "description": "<p>Concentrandose durante 5 minutos, el calikang puede entrar en un estado de animacion suspendida, quedandose congelado en el sitio e inmovil, pero consciente de su entorno.</p>\n<p>Mientras esta en este estado, el calikang obtiene un bonificador de estado de +4 a las salvaciones de Fortaleza; no envejece; y es inmune a enfermedades, toxinas inhaladas, venenos, inanicion y sed.</p>\n<p>El calikang puede salir de la animacion suspendida como accion gratuita. Si sale de este estado para atacar, el calikang obtiene un bonificador por circunstancia de +2 a su tirada de iniciativa.</p>"
         },
         "action->Energy Conversion": {
-          "name": "Energy Conversion",
-          "description": "<p>Siempre que the calikang is hit by an electricity conjuro's tirada de ataque or rolls a successful save against a conjuro that deals daño de electricidad, they absorb the energy.</p>\n<p>Este heals the calikang for an amount of HP equal to quadruple the conjuro's rank and recharges their Arma de aliento. A calikang can't absorb their own conjuros this way.</p>"
+          "name": "Conversion de energia",
+          "description": "<p>Siempre que el calikang sea impactado por la tirada de ataque de un conjuro de electricidad o obtenga una salvacion con exito contra un conjuro que inflija daño de electricidad, absorbe la energia.</p>\n<p>Esto cura al calikang una cantidad de PG igual a cuatro veces el rango del conjuro y recarga su Arma de aliento. Un calikang no puede absorber sus propios conjuros de esta forma.</p>"
         },
         "action->Breath Weapon": {
           "name": "Arma de aliento",
-          "description": "<p><strong>Frecuencia</strong> una vez al día.</p>\n<hr />\n<p><strong>Efecto</strong> The calikang breathes a blast of energy that deals @Damage[13d6[@item.flags.pf2e.rulesSelections.breathWeapon]|options:area-damage] daño to criaturas in a @Template[line|distance:60] (@Check[reflex|dc:28|basic|options:area-effect] salvación). The calikang can elige the tipo de daño each time: acid, cold, electricity, fire, or sonic.</p>\n<p>Increase the die size to d8 if the calikang chooses electricity.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez al día.</p>\n<hr />\n<p><strong>Efecto</strong> El calikang exhala una rafaga de energia que inflige @Damage[13d6[@item.flags.pf2e.rulesSelections.breathWeapon]|options:area-damage] de daño a las criaturas en una @Template[line|distance:60] (salvacion basica de @Check[reflex|dc:28|basic|options:area-effect]). El calikang puede elegir el tipo de daño cada vez: acido, frio, electricidad, fuego o sonico.</p>\n<p>Aumenta el tamaño del dado a d8 si el calikang elige electricidad.</p>"
         },
         "action->Sixfold Flurry": {
-          "name": "Sixfold Flurry",
-          "description": "<p>The calikang makes up to two longsword Golpes and up to four fist Golpes. Each Golpe must be against a different target.</p>\n<p>Estos attacks count toward the calikang's multiple attack penalizador, which doesn't increase until after all the attacks are complete.</p>\n<p>For 1 asalto, the calikang gains a bonificador por circunstancia to their AC equal to the number of Golpes they elige not to take, to a maximum of +4 for taking only two Golpes.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.zXIpCkTtFRkhwI4x]{Efecto: Sixfold Flurry}</p>"
+          "name": "Rafaga sextuple",
+          "description": "<p>El calikang realiza hasta dos Golpes de espada larga y hasta cuatro Golpes de puño. Cada Golpe debe ser contra un objetivo distinto.</p>\n<p>Estos ataques cuentan para el penalizador por ataque multiple del calikang, que no aumenta hasta que todos los ataques se hayan completado.</p>\n<p>Durante 1 asalto, el calikang obtiene un bonificador por circunstancia a su CA igual al numero de Golpes que elija no realizar, hasta un maximo de +4 si realiza solo dos Golpes.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.zXIpCkTtFRkhwI4x]{Efecto: Sixfold Flurry}</p>"
         }
       }
     },
@@ -1186,63 +1186,63 @@
           "name": "Mandíbulas"
         },
         "strike-melee->Spit": {
-          "name": "Spit"
+          "name": "Escupitajo"
         },
         "action->Desert-Adapted": {
-          "name": "Desert-Adapted",
-          "description": "<p>A camel is well-adapted to heat and deserts. If allowed to drink and eat its fill, (roughly 40 gallons), it can @UUID[Compendium.pf2e.actionspf2e.Item.49y9Ec4bDii8pcD3]{Subsist} for 2 weeks without needing to attempt SURVIVAL checks, and it treats environmental heat as if it was one step less severe.</p>"
+          "name": "Adaptado al desierto",
+          "description": "<p>Un camello esta bien adaptado al calor y los desiertos. Si se le permite beber y comer hasta saciarse (aproximadamente 40 galones), puede @UUID[Compendium.pf2e.actionspf2e.Item.49y9Ec4bDii8pcD3]{Subsist} durante 2 semanas sin necesidad de intentar pruebas de SUPERVIVENCIA, y trata el calor ambiental como si fuera un paso menos severo.</p>"
         },
         "action->Camel Spit": {
           "name": "Escupitajo de camello",
-          "description": "<p>To drive away enemies, the camel spits the partially digested contents of its stomach at a criatura within 10 pies.</p>\n<p>On a hit, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 asalto and must succeed at a @Check[fortitude|dc:17] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p>The camel can't use its camel spit Golpe again for [[/gmr 1d4 #Recharge Camel Spit]]{1d4 asaltos}.</p>"
+          "description": "<p>Para ahuyentar a sus enemigos, el camello escupe el contenido parcialmente digerido de su estomago a una criatura a 10 pies o menos.</p>\n<p>Con un impacto, el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} durante 1 asalto y debe tener exito en una salvacion de @Check[fortitude|dc:17] o quedar @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p>El camello no puede volver a usar su Golpe de escupitajo de camello durante [[/gmr 1d4 #Recharge Camel Spit]]{1d4 asaltos}.</p>"
         },
         "action->Sand Stride": {
-          "name": "Sand Zancada",
-          "description": "<p>The camel Strides twice. It has a +5-pies bonificador por circunstancia to its Velocidad during these Strides, ignoring difficult terrain caused by rubble, sand, and uneven ground made of earth and stone.</p>"
+          "name": "Zancada por la arena",
+          "description": "<p>El camello da dos Zancadas. Tiene un bonificador por circunstancia de +5 pies a su Velocidad durante estas Zancadas, e ignora el terreno dificil causado por escombros, arena y suelo irregular hecho de tierra y piedra.</p>"
         }
       }
     },
     "Caulborn": {
       "name": "caulborn",
-      "languages": "telepathy 100 pies",
+      "languages": "telepatia 100 pies",
       "publicNotes": "<p>Profetas e historiadores telepaticos, los caulborn se reunen en pequenas cabalas por proteccion y camaraderia, usando su capacidad cerebral colectiva para desentranar enigmas cosmicos. Cuando han agotado los secretos de una zona, parten en busca de nuevos hogares ocultos en ciudades, aislados en cuevas o escondidos en rincones olvidados de los planos. Desde el momento en que un ioton absorbe pensamientos especialmente profundos y empieza a adoptar la forma permanente de un joven caulborn, el genio y la dureza de estos ennositas crecen con cada nuevo descubrimiento.</p>",
       "items": {
         "spellcastingEntry->Occult Innate Spells": {
-          "name": "Occult Innate Spells"
+          "name": "Conjuros ocultistas innatos"
         },
         "spell->Plane Shift (Self Only)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ]\nPlane Shift (Self Only)",
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ]\nDesplazamiento planar (solo uno mismo)",
           "target": "uno mismo"
         },
         "spell->Hypnotic Pattern": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.K2WpC3FFoHrqX9Q5]\nHypnotic Pattern"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.K2WpC3FFoHrqX9Q5]\nPatron hipnotico"
         },
         "spell->Vampiric Touch": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]\nVampiric Touch"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]\nToque vampirico"
         },
         "strike-melee->Claw": {
           "name": "Garra"
         },
         "strike-melee->Hand": {
-          "name": "Hand"
+          "name": "Mano"
         },
         "action->Telepathy 100 feet": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA]\nTelepathy 100 pies"
         },
         "action->Collective Sense": {
-          "name": "Collective Sense",
-          "description": "<p>Caulborn are aware of all other caulborn within @Template[emanation|distance:300]{300 pies}, with the effects of a @UUID[Compendium.pf2e.spells-srd.Item.HTou8cG05yuSkesj]{Status} conjuro, and they can perceive anything within the other caulborns' thoughtsense. If two or more caulborn are within range of each others' thoughtsense, they can't be flanked.</p>"
+          "name": "Sentido colectivo",
+          "description": "<p>Los caulborn son conscientes de todos los demas caulborn dentro de una @Template[emanation|distance:300]{emanacion de 300 pies}, con los efectos de un conjuro @UUID[Compendium.pf2e.spells-srd.Item.HTou8cG05yuSkesj]{Status}, y pueden percibir cualquier cosa dentro del sentido del pensamiento de los otros caulborn. Si dos o mas caulborn estan dentro del alcance del sentido del pensamiento de los demas, no pueden ser flanqueados.</p>"
         },
         "action->Thoughtsense (Precise) 120 feet": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.JcaIJLGGmst79f1Y]\nThoughtsense (Precise) 120 pies"
         },
         "action->Consume Thoughts": {
-          "name": "Consume Thoughts",
-          "description": "<p><strong>Requisitos</strong> The caulborn's last action was a successful hand Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The caulborn steals some of the psychic energy from the criatura it hit. El objetivo must attempt a @Check[will|dc:25] salvación; regardless of the outcome, the criatura is temporarily immune to Consume Thoughts for 1 minuto.</p>\n<hr />\n<p><strong>Éxito</strong> El objetivo is unaffected.</p>\n<p><strong>Fallo</strong> El objetivo becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 minuto, and the caulborn regains @Damage[1d12[healing]] Puntos de Golpe.</p>\n<p><strong>Fallo crítico</strong> As failure, but el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 3} for 1 minuto and the caulborn regains @Damage[2d12[healing]] Puntos de Golpe. If el objetivo was already stupefied when the caulborn used this ability, el objetivo is also @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 asalto.</p>"
+          "name": "Consumir pensamientos",
+          "description": "<p><strong>Requisitos</strong> La ultima accion del caulborn fue un Golpe de mano con exito.</p>\n<hr />\n<p><strong>Efecto</strong> El caulborn roba parte de la energia psiquica de la criatura a la que impacto. El objetivo debe intentar una salvacion de @Check[will|dc:25]; sea cual sea el resultado, la criatura es temporalmente inmune a Consumir pensamientos durante 1 minuto.</p>\n<hr />\n<p><strong>Éxito</strong> El objetivo no se ve afectado.</p>\n<p><strong>Fallo</strong> El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} durante 1 minuto, y el caulborn recupera @Damage[1d12[healing]] Puntos de Golpe.</p>\n<p><strong>Fallo crítico</strong> Como un fallo, pero el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 3} durante 1 minuto y el caulborn recupera @Damage[2d12[healing]] Puntos de Golpe. Si el objetivo ya estaba estupefacto cuando el caulborn uso esta aptitud, el objetivo tambien queda @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} durante 1 asalto.</p>"
         },
         "action->Cooperative Scrying": {
-          "name": "Cooperative Scrying",
-          "description": "<p>Three or more caulborn adjacent to each other can collectively cast @UUID[Compendium.pf2e.spells-srd.Item.r784cIz17eWujtQj]{Scrying} una vez al día (@Check[will|dc:25]), with no limit to the duration so long as at least three caulborn remain adjacent and use no actions other than to Sustain the Spell.</p>\n<p>The daily limit applies to all caulborn who participated, meaning none of them can participate in another <em>scrying</em> that day.</p>"
+          "name": "Escudriñamiento cooperativo",
+          "description": "<p>Tres o mas caulborn adyacentes entre si pueden lanzar colectivamente @UUID[Compendium.pf2e.spells-srd.Item.r784cIz17eWujtQj]{Scrying} una vez al dia (@Check[will|dc:25]), sin limite de duracion mientras al menos tres caulborn permanezcan adyacentes y no usen acciones salvo para Sustentar el conjuro.</p>\n<p>El limite diario se aplica a todos los caulborn que participaron, lo que significa que ninguno de ellos puede participar en otro <em>scrying</em> ese dia.</p>"
         }
       }
     },
