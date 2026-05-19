@@ -30,7 +30,12 @@
   },
   "DOCUMENT": {
     "Combat": "Encuentro",
-    "Combats": "Encuentros"
+    "Combats": "Encuentros",
+    "FIELDS": {
+      "z": {
+        "label": "Z"
+      }
+    }
   },
   "PF2E": {
     "AbilityBoost": "Aumento de atributos",
@@ -377,7 +382,6 @@
           "goblin": "goblin",
           "goloma": "goloma",
           "grioth": "grioth",
-          "grippli": "gripo",
           "halfling": "mediano",
           "hallit": "hállido",
           "hwan": "hwan",
@@ -495,7 +499,10 @@
           "xanmba": "xanmba",
           "yaksha": "yaksha",
           "yithian": "yithiano",
-          "ysoki": "ysoki"
+          "ysoki": "ysoki",
+          "acsie": "Acsie",
+          "coshyco": "Coshyco",
+          "tripkee": "Tripkee"
         },
         "Sense": {
           "Acuity": {
@@ -630,7 +637,7 @@
         "Title": "{actor}: {category}",
         "Type": "Tipo"
       },
-      "Velocidad": {
+      "Speed": {
         "BaseLabel": "Velocidad base {type}",
         "BaseWithSource": "{value}-Pies {type} Velocidad ({source})",
         "Plural": "Velocidades",
@@ -705,16 +712,18 @@
           "AdjustDifficulty": "Ajustar la dificultad",
           "ChooseLores": "Elige Saberes",
           "ChooseSaves": "Elige salvaciones",
-          "ChooseSkills": "Elige Habilidades/Percepción",
-          "LevelDC": "CD basado en niveles",
-          "Post": "Generar mensaje",
           "PromptTitle": "Título del mensaje",
           "SecretCheck": "Tirada secreta",
-          "SetDC": "Establecer CD",
-          "SimpleDC": "CD Simple",
           "SkillsPerception": "Habilidades/Percepción",
           "Title": "Generar mensaje de tirada",
-          "TitleShort": "Verificar mensaje"
+          "TitleShort": "Verificar mensaje",
+          "DCTabs": {
+            "level": "CD basada en nivel",
+            "simple": "CD simple",
+            "static": "CD fija"
+          },
+          "PreviewPlaceholder": "Salida sin procesar",
+          "Submit": "Generar solicitud"
         },
         "Coin": "Moneda",
         "ClearActivities": {
@@ -1304,7 +1313,7 @@
           "adamantine": "adamantita",
           "aging": "aging",
           "alchemical": "alquímico",
-          "all-daño": "todo el daño",
+          "all-damage": "todo el daño",
           "arcane": "arcano",
           "area-damage": "daño de área",
           "arrow-vulnerability": "vulnerabilidad a las flechas",
@@ -1319,7 +1328,7 @@
           "controlled": "controlado",
           "critical-hits": "golpes críticos",
           "curse": "maldición",
-          "daño-from-spells": "daño por conjuros",
+          "damage-from-spells": "daño por conjuros",
           "dawnsilver": "amanecerplata",
           "dazzled": "deslumbrado",
           "deafened": "ensordecido",
@@ -1389,7 +1398,7 @@
           "slowed": "ralentizado",
           "spell-deflection": "desviación de conjuros",
           "spells": "conjuros",
-          "splash-daño": "daño por salpicadura",
+          "splash-damage": "daño por salpicadura",
           "stunned": "aturdido",
           "stupefied": "anonadado",
           "swarm-attacks": "ataques de plaga",
@@ -1672,7 +1681,7 @@
     },
     "Ethnicity": "Etnia",
     "ExpendSpellTitle": "Gastar conjuro",
-    "Fallo": "<strong>Fallo</strong>",
+    "Failure": "<strong>Fallo</strong>",
     "Familiar": {
       "AbilitiesLabel": "Habilidades",
       "ArmorClass": "Clase de armadura",
@@ -1732,7 +1741,7 @@
       "NamePrefix": "Fórmula de {name}",
       "NameUnknown": "Fórmula desconocida"
     },
-    "Frecuencia": {
+    "Frequency": {
       "AtWill": "A voluntad",
       "Label": "Frecuencia",
       "per": "por"
@@ -1840,7 +1849,7 @@
         "Cast": "Lanzar un conjuro",
         "Command": "comandar",
         "CommandSheetLabel": "Comandar",
-        "Efecto": "Efecto",
+        "Effect": "Efecto",
         "Envision": "visualizar",
         "EnvisionSheetLabel": "Visualizar",
         "Interact": "Interactuar",
@@ -2550,7 +2559,7 @@
         },
         "Spellcasting": "Lanzamiento de conjuros"
       },
-      "Efecto": {
+      "Effect": {
         "Expiry": {
           "EndOfRound": "Fin del asalto",
           "EndOfTurn": "Fin del turno",
@@ -2716,8 +2725,8 @@
           },
           "Label": "Fijar",
           "Outcome": {
-            "Fallo": "No pudiste fijar {attachable} .",
-            "Éxito": "{attachable} ahora está fijado a {target}."
+            "Failure": "No pudiste fijar {attachable} .",
+            "Success": "{attachable} ahora está fijado a {target}."
           },
           "PromptTitle": "Fijar {item}",
           "NoEligibleItem": "No se encontró ningún objeto que pueda aceptar {attachable} como una fijación.",
@@ -2863,7 +2872,7 @@
         "Label": "Actualizar",
         "SourceNotFound": "No se encontró la fuente del compendio para {item} (ID de fuente: {sourceId}).",
         "SubitemFailure": "Uno o más subelementos en {item} ({uuid}) no se pudieron actualizar.",
-        "Éxito": "Se ha actualizado el objeto \"{item}\".",
+        "Success": "Se ha actualizado el objeto \"{item}\".",
         "Tooltip": {
           "Disabled": "El objeto no se puede actualizar: contiene datos almacenados en el momento de agregarlo al actor",
           "Enabled": "Actualice los datos de este objeto con lo último de su compendio de origen."
@@ -4272,34 +4281,34 @@
     "Strike": {
       "Combined": {
         "Description": "Atacas con un arma que empuñas, designando como objetivo a una criatura a tu alcance (para un ataque cuerpo a cuerpo) o dentro del rango de distancia (para un ataque a distancia). Haz una tirada de ataque utilizando el modificador al ataque para el arma o ataque sin armas que estás utilizando, y compara el resultado con la CA de la criatura objetivo para determinar el efecto.",
-        "Éxito": "Infliges daño de acuerdo con el arma, incluidos los modificadores, bonificadores y penalizadores que tienes para hacer daño."
+        "Success": "Infliges daño de acuerdo con el arma, incluidos los modificadores, bonificadores y penalizadores que tienes para hacer daño."
       },
       "Default": {
         "CriticalSuccess": "Como éxito, pero infliges el doble de daño.",
         "Description": "Atacas con un arma que empuñas o con un ataque sin armas, designando como objetivo a una criatura a tu alcance (para un ataque cuerpo a cuerpo) o dentro del rango de distancia (para un ataque a distancia). Haz una tirada de ataque utilizando el modificador al ataque para el arma o ataque sin armas que estás utilizando, y compara el resultado con la CA de la criatura objetivo para determinar el efecto.",
-        "Éxito": "Infliges daño de acuerdo con el arma o el ataque desarmado, incluidos los modificadores, bonificadores y penalizadores que tienes para hacer daño."
+        "Success": "Infliges daño de acuerdo con el arma o el ataque desarmado, incluidos los modificadores, bonificadores y penalizadores que tienes para hacer daño."
       },
       "Fist": {
         "Label": "Puño"
       },
       "Melee": {
         "Description": "Atacas con un arma que empuñas, designando como objetivo a una criatura a tu alcance. Haz una tirada de ataque para el arma que estás utilizando, y compara el resultado con la CA de la criatura objetivo para determinar el efecto.",
-        "Éxito": "Infliges daño de acuerdo con el arma o el ataque desarmado, incluidos los modificadores, bonificadores y penalizadores que tienes para hacer daño."
+        "Success": "Infliges daño de acuerdo con el arma o el ataque desarmado, incluidos los modificadores, bonificadores y penalizadores que tienes para hacer daño."
       },
       "Ranged": {
         "Description": "Atacas con un arma que empuñas, designando como objetivo a una criatura dentro del rango de distancia. Haz una tirada de ataque utilizando el modificador al ataque para el arma que estás utilizando, y compara el resultado con la CA de la criatura objetivo para determinar el efecto.",
         "NoAmmo": "No se ha asignado munición a {arma}. Consulta la pestaña Acciones de la hoja de personaje de {actor}.",
         "InsufficientAmmo": "No queda suficiente munición en {arma}. Comprueba la pestaña de Acciones de la hoja de {actor}.",
-        "Éxito": "Infliges daño de acuerdo con el arma o el ataque desarmado, incluidos los modificadores, bonificadores y penalizadores que tienes para hacer daño."
+        "Success": "Infliges daño de acuerdo con el arma o el ataque desarmado, incluidos los modificadores, bonificadores y penalizadores que tienes para hacer daño."
       },
       "Unarmed": {
         "Description": "Golpeas con una ataque sin armas a una criatura a tu alcance. Haz la tirada de ataque para el golpe sin armas que estás usando y compara el resultado con la CA de la criatura objetivo para determinar el efecto.",
-        "Éxito": "Infliges daño de acuerdo con el arma o el ataque desarmado, incluidos los modificadores, bonificadores y penalizadores que tienes para hacer daño."
+        "Success": "Infliges daño de acuerdo con el arma o el ataque desarmado, incluidos los modificadores, bonificadores y penalizadores que tienes para hacer daño."
       }
     },
     "StrikesLabel": "Ataques",
     "StrikingRuneLabel": "Runa de golpe",
-    "Éxito": "<strong>Éxito</strong>",
+    "Success": "<strong>Éxito</strong>",
     "SystemNameShort": "Pathfinder",
     "TabActionsDowntimeLabel": "Tiempo libre",
     "TabActionsEncounterLabel": "Encuentro",
@@ -4409,7 +4418,7 @@
         "Timeout": "No hubo respuesta de {user} a tu solicitud de intercambio tras 30 segundos."
       },
       "Sending": "Sending: {list}",
-      "Éxito": {
+      "Success": {
         "Finished": "{self} ha terminado de comerciar con {trader}.",
         "NoItems": "El intercambio ha concluido, pero no se intercambiaron objetos."
       },
@@ -4881,7 +4890,6 @@
     "TraitDescriptionGhul": "Los muertos vivientes codiciosos y glotones se formaron originalmente a partir de un genio.",
     "TraitDescriptionGiant": "Los gigantes son criaturas humanoides enormes.",
     "TraitDescriptionGirtablilu": "Girtablilus have humanoid upper bodies and the lower bodies of massive scorpions.",
-    "TraitDescriptionGnoll": "Los kholos son humanoides que se parecen a las hienas",
     "TraitDescriptionGnome": "Una criatura con este rasgo es miembro de la ascendencia de los gnomos. Los gnomos son un pueblo pequeño y hábil en la magia, que siempre busca nuevas experiencias y que suele tener visión en la penumbra. Una habilidad con este rasgo puede ser utilizada o seleccionada sólo por gnomos. Un arma con este rasgo solo puede ser creada o utilizada por gnomos.",
     "TraitDescriptionGoblin": "Una criatura con este rasgo es un miembro pequeño y frenético de las razas goblin. Los goblins tienden a tener visión en la oscuridad. Una habilidad con este rasgo sólo puede ser utilizada o elegida por goblins. Un arma con este rasgo es creada y utilizada por goblins.",
     "TraitDescriptionGoloma": "Humanoides insulares que tienen innumerables ojos.",
@@ -4891,7 +4899,6 @@
     "TraitDescriptionGrenade": "Las granadas son armas arrojadizas que suelen afectar a un área. Se activan al lanzarlas y producen el efecto indicado al impactar o al detonar.",
     "TraitDescriptionGrimoire": "Los libros de conjuros son herramientas útiles para que cualquier usuario de magia escriba encantamientos y runas de poder, pero mientras que la mayoría de los libros de conjuros no son más que tinta sobre pergamino, los grimorios han absorbido la magia de los conjuros que contienen, magia que los lanzadores de conjuros expertos pueden usar para aumentar sus conjuros.",
     "TraitDescriptionGrioth": "A grioth is a batlike alien that wields occult powers and can exist in the dark vacuum of space. They have darkvision and echolocation.",
-    "TraitDescriptionGrippli": "Los Gripplis son una familia de humanoides parecidos a ranas.",
     "TraitDescriptionGunslinger": "Esto indica habilidades de la clase pistolero.",
     "TraitDescriptionHag": " Estas maléficas lanzadoras de conjuros forman aquelarres.",
     "TraitDescriptionHalfling": "Una criatura con este rasgo es un miembro de la ascendencia mediana. Esta gente pequeña son vagabundos amistosos, y se les\nconsidera afortunados. Una habilidad con este rasgo sólo puede ser utilizada o seleccionada por medianos. Un arma con este rasgo es creada y utilizada por medianos.",
@@ -5300,7 +5307,6 @@
     "TraitGiant": "Gigante",
     "TraitGigas": "Gigas",
     "TraitGirtablilu": "Girtablilu",
-    "TraitGnoll": "Kholo",
     "TraitGnome": "Gnomo",
     "TraitGoblin": "Goblin",
     "TraitGolem": "Gólem",
@@ -5313,7 +5319,6 @@
     "TraitGrenade": "Grenade",
     "TraitGrimoire": "Grimorio",
     "TraitGrioth": "Grioth",
-    "TraitGrippli": "Grippli",
     "TraitGuardian": "Guardián",
     "TraitGunslinger": "Pistolero",
     "TraitHag": "Saga",
@@ -7187,7 +7192,12 @@
       "VehicleString": "Vehículo",
       "collisionDCLabel": "CD de colisión",
       "collisionDamageLabel": "Daños por colisión"
-    }
+    },
+    "TraitCoshyco": "Coshyco",
+    "TraitKholo": "Kholo",
+    "TraitTripkee": "Tripkee",
+    "TraitDescriptionRyphorian": "Una criatura con este rasgo pertenece a la ascendencia ryphorian. Son humanoides trimorfos parecidos a los elfos, con un oído excepcional, cuyo aspecto cambia con las estaciones. Una aptitud con este rasgo solo puede ser usada o seleccionada por ryphorianos.",
+    "TraitDescriptionTripkee": "Los tripkees son una familia de humanoides similares a ranas."
   },
   "SIDEBAR": {
     "TabCombat": "Rastreador de encuentros"

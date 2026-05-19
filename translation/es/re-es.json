@@ -186,7 +186,17 @@
         "Wave": "Ola",
         "Web": "Red",
         "Wing": "Ala",
-        "Wrap": "Envolver"
+        "Wrap": "Envolver",
+        "BodySlam": "Golpe corporal",
+        "BurningTendril": "Zarcillo ardiente",
+        "FootOrb": "Orbe del pie",
+        "PhasicBlade": "Hoja fásica",
+        "Proboscis": "Probóscide",
+        "ProjectileVomit": "Vómito proyectado",
+        "SolarFlare": "Llamarada solar",
+        "TailScourgeDischarge": "Descarga del azote caudal",
+        "Thorn": "Espina",
+        "Tusks": "Colmillos"
       },
       "CosmicForm": {
         "Moon": "Luna",
@@ -247,9 +257,20 @@
         "ChoiceSet": {
           "CaveWorm": "Gusano cavernario",
           "Phoenix": "Fénix",
-          "SeaSerpent": "Serpiente marina"
+          "SeaSerpent": "Serpiente marina",
+          "DustManta": "Manta de polvo",
+          "Nyssholora": "Nyssholora",
+          "SpaceWorm": "Gusano espacial"
         },
-        "ShroudOfFlame": "Sudario de llamas"
+        "ShroudOfFlame": "Sudario de llamas",
+        "PhasicStrike": {
+          "Label": "Golpe fásico",
+          "Note": "Tus Golpes con hoja fásica tratan cualquier objeto o constructo al que impacten como si tuviera la mitad de su Dureza habitual."
+        },
+        "TongueGrab": {
+          "Label": "Agarrón con la lengua",
+          "Note": "Una criatura impactada por tu lengua queda @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{agarrada} por ti. La criatura no queda @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{inmovilizada}, pero no puede moverse más allá del alcance de tu lengua. Una criatura puede cortar la lengua con un Golpe contra tu CA que inflija al menos 30 de daño cortante. Esto no te inflige daño, pero impide que uses tu Golpe de lengua hasta que la lengua vuelva a crecer, por ejemplo lanzando de nuevo el conjuro más adelante."
+        }
       },
       "NatureIncarnate": {
         "GreenMan": "Hombre verde",
@@ -756,18 +777,18 @@
       "Wish": "Dragón de deseo"
     },
     "FeatDescription": {
-      "Frecuencia": {
+      "Frequency": {
         "OncePerDay": "una vez al día",
         "OncePerHour": "una vez por hora",
         "OncePerTurn": "una vez por turno"
       },
-      "Requisitos": {
+      "Requirements": {
         "Label": "Requisitos"
       },
       "Special": {
         "Label": "Especial"
       },
-      "Desencadenante": {
+      "Trigger": {
         "Label": "Desencadenante",
         "TargetedByAStrike": "Eres objetivo de un Golpe"
       }
@@ -966,31 +987,49 @@
           "Unusable": "Esta habilidad no se puede usar en tu forma actual."
         },
         "Form": {
-          "Animal": "Animal",
-          "AnimalAerial": "Animal aéreo",
-          "AnimalAquatic": "Animal acuático",
-          "AnimalMedium": "Animal mediano",
-          "AnimalSmall": "Animal pequeño",
-          "AnimalTiny": "Animal menudo",
-          "Ape": "Mono",
-          "Azuretzi": "Azuretzi",
-          "Barghest": "Barghest",
-          "Bat": "Murciélago",
-          "BatGiant": "Murciélago gigante",
-          "Boar": "Jabalí",
-          "Cacodaemon": "Cacodaimonion",
-          "Cassisian": "Cassisiano",
-          "CaveWorm": "Gusano de cueva",
-          "Cobra": "Cobra",
-          "Coyote": "Coyote",
-          "Devil": {
-            "Insidiator": "Insidiator"
+          "Animal": {
+            "Aerial": "Animal aéreo",
+            "Animal": "Animal",
+            "Aquatic": "Animal acuático",
+            "Medium": "Animal mediano",
+            "Small": "Animal pequeño",
+            "Specific": {
+              "Ape": "Simio",
+              "Bat": "Murciélago",
+              "BatGiant": "Murciélago gigante",
+              "Boar": "Jabalí",
+              "Cobra": "Cobra",
+              "Coyote": "Coyote",
+              "Dog": "Perro",
+              "Dove": "Paloma",
+              "Fish": "Pez",
+              "Fox": "Zorro",
+              "Lizard": "Lagarto",
+              "Mantis": "Mantis",
+              "Moose": "Alce",
+              "Octopus": "Pulpo",
+              "PorcupineGiant": "Puercoespín gigante",
+              "RacoonDog": "Tanuki",
+              "Rat": "Rata",
+              "Raven": "Cuervo",
+              "Scorpion": "Escorpión",
+              "Shark": "Tiburón",
+              "Spider": "Araña",
+              "Tiger": "Tigre",
+              "Wolf": "Lobo",
+              "WolfDire": "Lobo terrible",
+              "Wasp": "Avispa",
+              "WormCave": "Gusano de cueva"
+            },
+            "Tiny": "Animal menudo"
           },
-          "Dog": "Perro",
-          "Dove": "Paloma",
-          "Dragon": "Dragón",
+          "Barghest": "Barghest",
+          "Devil": {
+            "Insidiator": "Insidiator",
+            "Gylou": "Gylou",
+            "Imp": "Diablillo"
+          },
           "Drude": "Drude",
-          "DryadQueen": "Reina de las dríadas",
           "Elemental": {
             "Air": {
               "Elemental": "Elemental de aire",
@@ -1026,81 +1065,89 @@
               "Small": "Elemental de madera pequeño"
             }
           },
-          "Faydhaan": "Faydhaan",
-          "Fish": "Pez",
-          "Fox": "Zorro",
-          "Fungus": "Hongo",
-          "Gancanagh": "Gancanagh",
           "Ghost": "Fantasma",
           "Gimmerling": "Turlerín",
           "Gosreg": "Gosreg",
-          "Gourd": "Calabaza",
-          "Gylou": "Gylou",
           "Hag": "Bruja",
-          "Human": "Humano",
-          "Humanoid": "humanoide",
-          "HumanoidLarge": "Humano grande",
-          "HumanoidMedium": "Humano mediano",
-          "HumanoidSmall": "Humano pequeño",
+          "Humanoid": {
+            "Humanoid": "Humanoide",
+            "Large": "Humanoide grande",
+            "Medium": "Humanoide mediano",
+            "Small": "Humanoide pequeño",
+            "Winged": "Humanoide alado"
+          },
           "Hybrid": "Híbrido",
-          "Ifrit": "ifrit",
-          "Imp": "Diablillo",
-          "Jaathoom": "Jaathom",
-          "Jann": "Jann",
-          "Keketar": "kéketar",
           "LamiaMatriarch": "Lamia matriarca",
-          "Leshy": "Leshy",
-          "LeshyMob": "Turba de leshys",
-          "Lizard": "Lagarto",
-          "Mantis": "Mantis",
-          "Miastrilek": "Miastrilek",
-          "Moose": "Alsio",
-          "Morrigna": "morrigna",
-          "Mushroom": "Seta",
-          "NaiadQueen": "Reina de las náyades",
-          "Nymph": "Ninfa",
+          "Nymph": {
+            "DryadQueen": "Reina dríada",
+            "HesperidQueen": "Reina hespéride",
+            "LampadQueen": "Reina lampad",
+            "NaiadQueen": "Reina náyade",
+            "Nymph": "Ninfa",
+            "Queen": "Reina ninfa"
+          },
           "Object": {
-            "Inanimate": "Objeto inanimado",
-            "InanimateTiny": "Objeto inanimado menudo"
+            "Tiny": "Objeto inanimado menudo"
           },
-          "ObjectTiny": "Objeto inanimado menudo",
-          "Octopus": "Pulpo",
           "Oni": "Oní",
-          "Orc": "Orco",
           "Owlbear": "Oso lechuza (Owlbear)",
-          "Plant": "Planta",
-          "PorcupineGiant": "Puercoespín gigante",
-          "Pukwudgie": "pukwudgie",
-          "RacoonDog": "Perro tejón",
-          "RajaKrodha": "Raja-Krodha",
-          "Raktavarna": "Raktavarna",
-          "Rat": "Rata",
-          "Raven": "Cuervo",
-          "Scorpion": "Escorpión",
-          "SeaSerpent": "Serpiente marina",
-          "Shark": "Tiburón",
-          "Skeleton": "Esqueleto",
-          "SnappingFlytrap": "Atrapamoscas mordedor",
-          "Spider": "Araña",
-          "SublimeBreath": "Aliento sublime",
-          "Succubus": "Súcubo",
-          "Swarm": {
-            "Flies": "Enjambre de moscas"
+          "Plant": {
+            "Fungus": "Hongo",
+            "Gourd": "Calabaza",
+            "Leshy": "Leshy",
+            "LeshyMob": "Turba de leshys",
+            "Mushroom": "Seta",
+            "Plant": "Planta",
+            "SnappingFlytrap": "Atrapamoscas mordedora"
           },
+          "Pukwudgie": "pukwudgie",
+          "SeaSerpent": "Serpiente marina",
+          "Skeleton": "Esqueleto",
+          "SublimeBreath": "Aliento sublime",
           "Tailless": "Sin cola",
-          "Tiger": "Tigre",
           "Tree": "Árbol",
           "Unicorn": "Unicornio",
           "Vampire": "Vampiro",
           "Vidileth": "Vidileth",
           "Vilderavn": "vilderavn",
-          "Voidworm": "Gusano del vacío",
-          "Wasp": "Avispa",
-          "WingedHumanoid": "Humanoide alado",
-          "Wolf": "Lobo",
-          "WolfDire": "Lobo terrible",
           "Yaoguai": "Yaoguai",
-          "Zombie": "Zombi"
+          "Zombie": "Zombi",
+          "Protean": {
+            "Azuretzi": "Azuretzi",
+            "Keketar": "kéketar",
+            "Voidworm": "Gusano del vacío"
+          },
+          "Daemon": {
+            "Cacodaemon": "Cacodaimonion"
+          },
+          "Angel": {
+            "Cassisian": "Cassisiano"
+          },
+          "Genie": {
+            "Faydhaan": "Faydhaan",
+            "Ifrit": "ifrit",
+            "Jaathoom": "Jaathom",
+            "Jann": "Jann",
+            "Jabali": "Jabali"
+          },
+          "Azata": {
+            "Gancanagh": "Gancanagh"
+          },
+          "Ancestry": {
+            "Human": "Humano",
+            "Orc": "Orco"
+          },
+          "Demon": {
+            "Miastrilek": "Miastrilek",
+            "Succubus": "Súcubo"
+          },
+          "Psychopomp": {
+            "Morrigna": "morrigna"
+          },
+          "Rakshasa": {
+            "RajaKrodha": "Raja-Krodha",
+            "Raktavarna": "Raktavarna"
+          }
         },
         "Label": "Forma actual"
       },
@@ -1172,7 +1219,7 @@
         "BittersweetDreamsSuccessFailure": "Éxito o fallo"
       },
       "DuskwalkerHuntPrey": {
-        "CA": "La presa designada ataca al Caminante del Ocaso",
+        "AC": "La presa designada ataca al Caminante del Ocaso",
         "Checks": "El Caminante del Ocaso tira pruebas contra su presa designada"
       },
       "Elemental": {
@@ -1422,7 +1469,7 @@
       "PlanarScion": {
         "Duskwalker": {
           "HuntPrey": {
-            "CA": "La presa designada ataca al Caminante del Ocaso",
+            "AC": "La presa designada ataca al Caminante del Ocaso",
             "Checks": "El Caminante del Ocaso tira pruebas contra su presa designada"
           },
           "Immunity": "efectos que transformarían su cuerpo o alma en muerto viviente",
@@ -1464,7 +1511,7 @@
           "Label": "Muerto viviente",
           "Note": {
             "CriticalSuccess": "Con un impacto crítico, el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}.",
-            "Éxito": "Con un impacto, el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}."
+            "Success": "Con un impacto, el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}."
           }
         }
       },
@@ -1699,6 +1746,29 @@
       "Zetogeki": {
         "TiltScalesChannelEnergy": "Energía cinética canalizada",
         "TiltScalesTilted": "Balanzas inclinadas"
+      },
+      "Alendreu": {
+        "ChoppingFrenzy": {
+          "ToggleLabel": "Frenesí cortante — Segundo Golpe"
+        }
+      },
+      "PathRiverPeeler": {
+        "SensitiveEars": {
+          "Note": "Siempre que el despellejador reciba daño sónico, debe tener éxito en una salvación de @Check[will|dc:16|options:inflicts:frightened] o quedar @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{asustado 1} (o @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{asustado 2} con un fallo crítico)."
+        }
+      },
+      "Sangrist": {
+        "BloodVigor": {
+          "FastHealing": {
+            "Details": "Mientras esté adyacente a una criatura que sufra daño persistente de sangrado",
+            "Toggle": "Vigor sangriento — Curación rápida"
+          }
+        }
+      },
+      "Volodmyra": {
+        "OverhandSmash": {
+          "Note": "Si el ataque impacta, el oponente debe tener éxito en una salvación de @Check[fortitude|dc:17|options:inflicts:prone] para evitar caer @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{derribado}."
+        }
       }
     },
     "OracleCurses": {
@@ -2045,7 +2115,7 @@
         "FIELDS": {
           "property": {
             "choices": {
-              "daño-type": "Tipo de daño",
+              "damage-type": "Tipo de daño",
               "dice-faces": "Caras de dado",
               "dice-number": "Número de dados",
               "tags": "Etiquetas"
@@ -2133,7 +2203,7 @@
           "AffectsOptions": {
             "All": "Todo",
             "Allies": "Aliados",
-            "Los enemigos": "Enemigos"
+            "Enemies": "Enemigos"
           },
           "DropText": "Soltar efecto",
           "DropTooltip": "Un efecto para incluir en esta aura",
@@ -2182,7 +2252,7 @@
         "ReplaceSelf": "Reemplazarse a sí mismo"
       },
       "Note": {
-        "Escondido": "Escondido",
+        "Hidden": "Escondido",
         "Outcome": "Resultado",
         "Text": "Contenido del texto",
         "Title": "Título"
@@ -2227,7 +2297,7 @@
       "Sense": "Sentido",
       "SpecialResource": "Recurso especial",
       "SpecialStatistic": "Estadística especial",
-      "Golpe": "Golpe",
+      "Strike": "Golpe",
       "SubstituteRoll": "Sustituir tirada",
       "TempHP": "Puntos de Golpe temporales",
       "TempHPShortLabel": "Temporales",
@@ -2564,7 +2634,7 @@
         "LooseCannon": {
           "Note": {
             "CriticalFailure": "El arma de fuego se encasquilla y además explota. Queda @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Rota}, e inflige su daño normal de arma a todas las criaturas en una @Template[type:burst|distance:20] centrada en el arma de fuego, con una @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|basic:true]. Este daño incluye cualquier daño de las runas fundamentales y de propiedad del arma.",
-            "Fallo": "El arma de fuego se encasquilla, pero no causa los demás efectos del fallo crítico."
+            "Failure": "El arma de fuego se encasquilla, pero no causa los demás efectos del fallo crítico."
           }
         }
       },
@@ -2821,7 +2891,7 @@
         "InuredToAlchemy": {
           "CriticalSuccess": "Cada éxito crítico reduce la etapa en 3 para un veneno alquímico, una droga o una adicción.",
           "CriticalSuccessVirulent": "Cada éxito crítico reduce la etapa en 2 para un veneno alquímico virulento, una droga o una adicción.",
-          "Éxito": "Cada una de tus tiradas de salvación exitosas contra un veneno alquímico, una droga o una adicción reduce el nivel en 2.",
+          "Success": "Cada una de tus tiradas de salvación exitosas contra un veneno alquímico, una droga o una adicción reduce el nivel en 2.",
           "SuccessVirulent": "Cada una de tus tiradas de salvación exitosas contra un veneno alquímico virulento, una droga o una adicción reduce el nivel en 1."
         },
         "Ligneous": {
@@ -2930,7 +3000,7 @@
       "BlinkCharge": {
         "Note": {
           "CriticalFailure": "Con un fallo crítico, el Golpe no inflige daño y recibes @Damage[(ceil((@actor.flags.pf2e.blinkCharge - 4)/2))d8[force]] de daño.",
-          "Fallo": "Con un fallo, el Golpe no inflige daño, pero el objetivo recibe @Damage[(ceil((@actor.flags.pf2e.blinkCharge - 4)/2))d8[force]] de daño."
+          "Failure": "Con un fallo, el Golpe no inflige daño, pero el objetivo recibe @Damage[(ceil((@actor.flags.pf2e.blinkCharge - 4)/2))d8[force]] de daño."
         }
       },
       "BloodlettingKukri": {
@@ -3012,7 +3082,7 @@
           "Fervor": "Fervor emocional",
           "Focus": "Conjuro de foco",
           "Prompt": "Selecciona una emoción de catarsis.",
-          "Desencadenante": "Desencadenante de catarsis"
+          "Trigger": "Desencadenante de catarsis"
         },
         "Anger": {
           "Activation": "Si estás @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} o @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado}, puedes intentar @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar}. Si tienes éxito, la criatura o peligro que te impone el estado, si corresponde, recibe daño de fuerza igual a tu nivel.",
@@ -3021,7 +3091,7 @@
           "Fervor": "Cuando lanzas un conjuro desde tus espacios de conjuro, si el conjuro inflige daño y no tiene duración, obtienes un bonificador de estado al daño de ese conjuro igual al rango del conjuro. Conjuro: @UUID[Compendium.pf2e.spells-srd.Item.jsWthW1Qy6tg3SwD]{Draw Ire}",
           "Focus": "@UUID[Compendium.pf2e.spells-srd.Item.UGJzJRJDoonfWqqI]{Athletic Rush}",
           "Label": "Ira",
-          "Desencadenante": "Un enemigo te inflige daño. No puedes usar esta reacción si estás @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigado}."
+          "Trigger": "Un enemigo te inflige daño. No puedes usar esta reacción si estás @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigado}."
         },
         "Awe": {
           "Activation": "Si estás @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinado} o @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado}, puedes intentar una salvación adicional para terminar el efecto si este permitía una salvación.",
@@ -3030,7 +3100,7 @@
           "Fervor": "Cuando lanzas un conjuro, elige una criatura que haya sido impactada por tu tirada de ataque de conjuro o que haya fallado su tirada de salvación contra él, si la hay. Esa criatura queda fascinada contigo hasta el final de su siguiente turno. Después queda temporalmente inmune a este efecto de fervor durante 1 hora. Conjuro: @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]{Revealing Light}",
           "Focus": "@UUID[Compendium.pf2e.spells-srd.Item.zul5cBTfr7NXHBZf]{Destello deslumbrante} (no requiere símbolo religioso)",
           "Label": "Asombro",
-          "Desencadenante": "Tú o un aliado a 30 pies o menos obtenéis un éxito crítico en una tirada de ataque contra la CA de un enemigo o en una prueba de habilidad contra una de las CD de un enemigo."
+          "Trigger": "Tú o un aliado a 30 pies o menos obtenéis un éxito crítico en una tirada de ataque contra la CA de un enemigo o en una prueba de habilidad contra una de las CD de un enemigo."
         },
         "Dedication": {
           "Activation": "Tu foco emocional obtiene una cantidad de Puntos de Golpe temporales igual a la mitad de tu nivel, redondeada hacia arriba. Estos PG temporales duran 1 minuto.",
@@ -3039,7 +3109,7 @@
           "Fervor": "Tus conjuros que tengan como objetivo a tu foco emocional obtienen los beneficios de Conjuro de alcance. Cuando lanzas un conjuro de curación que afecta a tu foco emocional, tu foco emocional también obtiene PG temporales iguales al rango del conjuro, además de los efectos del conjuro. Estos PG temporales duran 1 minuto. Conjuro: @UUID[Compendium.pf2e.spells-srd.Item.yHujiDQPdtXW797e]{Spirit Link}",
           "Focus": "@UUID[Compendium.pf2e.spells-srd.Item.rQYob0QMJ0I1U2sU]{Sacrificio protector}",
           "Label": "Dedicación",
-          "Desencadenante": "Tu foco emocional recibe daño de un enemigo a 30 pies o menos de ti."
+          "Trigger": "Tu foco emocional recibe daño de un enemigo a 30 pies o menos de ti."
         },
         "Fear": {
           "Activation": "Aumenta tu valor de asustado en 1, hasta un máximo de @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 4}.",
@@ -3048,7 +3118,7 @@
           "Fervor": "No sufres el penalizador de estado del estado asustado a tus CD de conjuro ni a tu bonificador de ataque de conjuro. En su lugar, obtienes un bonificador de estado a tus tiradas de ataque de conjuro igual al penalizador que habrías sufrido, y tus enemigos sufren el mismo penalizador de estado a sus tiradas de salvación contra tus conjuros. Cualquier otra estadística sufre el penalizador de estado con normalidad. Conjuro: @UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{Fear}",
           "Focus": "@UUID[Compendium.pf2e.spells-srd.Item.DU5daB09xwfE1y38]{Pesadilla despierta}",
           "Label": "Miedo",
-          "Desencadenante": "Un enemigo te deja @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado}."
+          "Trigger": "Un enemigo te deja @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado}."
         },
         "Hatred": {
           "Activation": "Puedes Dar un paso o hacer una Zancada. Debes terminar este movimiento más cerca de tu foco emocional.",
@@ -3057,7 +3127,7 @@
           "Fervor": "Tu foco emocional queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} contra ti y sufre un penalizador de estado -2 a las salvaciones contra tus conjuros. Estás desprevenido ante tu foco emocional y sufres un penalizador de estado -2 a las salvaciones contra él. Conjuro: @UUID[Compendium.pf2e.spells-srd.Item.TaaMEYdZXQXF0Sks]{Blood Vendetta}",
           "Focus": "@UUID[Compendium.pf2e.spells-srd.Item.0H1ozccQGGFLUwFI]{Cry of Destruction}",
           "Label": "Odio",
-          "Desencadenante": "Comienzas tu primer turno en un encuentro contra tu foco emocional o uno de sus seguidores. Si el encuentro incluye varios seguidores válidos y no incluye a tu foco emocional actual, elige a uno de los seguidores para que actúe como tu foco emocional durante este encuentro, o hasta que aparezca tu foco emocional actual."
+          "Trigger": "Comienzas tu primer turno en un encuentro contra tu foco emocional o uno de sus seguidores. Si el encuentro incluye varios seguidores válidos y no incluye a tu foco emocional actual, elige a uno de los seguidores para que actúe como tu foco emocional durante este encuentro, o hasta que aparezca tu foco emocional actual."
         },
         "Joy": {
           "Activation": "Reduce en 1 el valor de cualquier estado @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado} o @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado} que tengas, y termina cualquier daño mental persistente que tengas.",
@@ -3066,7 +3136,7 @@
           "Fervor": "Obtienes un bonificador de estado +1 a las pruebas de Interpretación y a las tiradas de ataque de conjuro de conjuros de emoción, y los enemigos sufren un penalizador de estado -1 a las salvaciones contra tus conjuros de emoción. Conjuro: @UUID[Compendium.pf2e.spells-srd.Item.tlSE7Ly8vi1Dgddv]{Ataque de risa}",
           "Focus": "@UUID[Compendium.pf2e.spells-srd.Item.gwOYh5zMVZB0HNcT]{Zancada sin impedimentos}",
           "Label": "Alegría",
-          "Desencadenante": "Obtienes un éxito crítico en una tirada de ataque o salvación, o un enemigo obtiene un fallo crítico en una salvación contra ti."
+          "Trigger": "Obtienes un éxito crítico en una tirada de ataque o salvación, o un enemigo obtiene un fallo crítico en una salvación contra ti."
         },
         "Love": {
           "Activation": "Si tú o tu foco emocional estáis @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confundido} o @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlado}, uno de vosotros puede intentar una nueva tirada de salvación contra un efecto de confusión o control, si permitía salvación, terminando el estado si la nueva salvación es un éxito. Si ambos sois válidos, tu foco emocional obtiene la nueva salvación.",
@@ -3076,7 +3146,7 @@
           "Focus": "@UUID[Compendium.pf2e.spells-srd.Item.YGRpHU5yxw73mls8]{Soothing Words}",
           "Toggle": "Lanzas un conjuro para beneficiar a tu foco emocional.",
           "Label": "Amor",
-          "Desencadenante": "Tu foco emocional recibe daño de un enemigo a 30 pies o menos de ti."
+          "Trigger": "Tu foco emocional recibe daño de un enemigo a 30 pies o menos de ti."
         },
         "Misery": {
           "Activation": "Obtienes una cantidad de Puntos de Golpe temporales igual a tu nivel. Duran 1 minuto.",
@@ -3085,7 +3155,7 @@
           "Fervor": "Puedes elegir no intentar una prueba plana para finalizar el daño persistente que estás sufriendo. Cuando lanzas un conjuro dañino, puedes elegir una criatura que haya fallado su salvación o a la que hayas impactado con tu tirada de ataque de conjuro. Ese objetivo recibe daño persistente del mismo tipo que infligió el conjuro, en una cantidad igual a la mayor cantidad de daño persistente que tengas actualmente. No puedes elegir a una criatura que ya esté sufriendo daño persistente. Conjuro: @UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{Phantom Pain}",
           "Focus": "@UUID[Compendium.pf2e.spells-srd.Item.xn0V2HDrmDWNzPEt]{Savor the Sting}",
           "Label": "Desdicha",
-          "Desencadenante": "Obtienes daño persistente de un enemigo."
+          "Trigger": "Obtienes daño persistente de un enemigo."
         },
         "Pride": {
           "Activation": "El fallo crítico se convierte en fallo.",
@@ -3094,7 +3164,7 @@
           "Fervor": "Cada vez que lanzas un conjuro de ilusión, hasta el comienzo de tu siguiente turno, cualquier fallo crítico que obtengas en una tirada de ataque o tirada de salvación se convierte en fallo. Conjuro: @UUID[Compendium.pf2e.spells-srd.Item.UKsIOWmMx4hSpafl]{Dizzying Colors}",
           "Focus": "@UUID[Compendium.pf2e.spells-srd.Item.Q25JQAgnJSGgFDKZ]{Veil of Confidence}",
           "Label": "Orgullo",
-          "Desencadenante": "Obtienes un fallo crítico en una tirada de ataque o tirada de salvación."
+          "Trigger": "Obtienes un fallo crítico en una tirada de ataque o tirada de salvación."
         },
         "Remorse": {
           "Activation": "Das un paso o haces una Zancada. Debes terminar este movimiento más cerca del aliado desencadenante.",
@@ -3103,7 +3173,7 @@
           "Fervor": "Cualquier conjuro que lances y que restaure Puntos de Golpe al aliado desencadenante obtiene un bonificador de estado a los Puntos de Golpe curados igual al rango del conjuro, o el doble del rango del conjuro si el aliado está a 0 Puntos de Golpe. Conjuro: @UUID[Compendium.pf2e.spells-srd.Item.kIwA7kwp5E0AC3yM]{Warrior's Regret}",
           "Focus": "@UUID[Compendium.pf2e.spells-srd.Item.rhJyqB9g3ziImQgM]{Healer's Blessing}",
           "Label": "Remordimiento",
-          "Desencadenante": "Un aliado a 30 pies o menos cae a 0 Puntos de Golpe."
+          "Trigger": "Un aliado a 30 pies o menos cae a 0 Puntos de Golpe."
         }
       },
       "CelestialResistance": {
@@ -3541,7 +3611,7 @@
         }
       },
       "Conditions": {
-        "Oculto": {
+        "Concealed": {
           "Ignore": "Ignoras el estado oculto del objetivo."
         },
         "Sickened": {
@@ -3578,7 +3648,7 @@
         "Standard": "Estándar"
       },
       "CriticalDeck": {
-        "Efecto": {
+        "Effect": {
           "Label": "Efecto crítico"
         }
       },
@@ -3718,28 +3788,6 @@
         }
       },
       "DragonDisciple": {
-        "DragonChoice": {
-          "Black": "Dragón negro",
-          "Blue": "Dragón azul",
-          "Brass": "Dragón de latón",
-          "Brine": "Dragón de salmuera",
-          "Bronze": "Dragón de bronce",
-          "Cloud": "Dragón de nube",
-          "Copper": "Dragón de cobre",
-          "Crystal": "Dragón de cristal",
-          "Forest": "Dragón del bosque",
-          "Gold": "Dragón dorado",
-          "Green": "Dragón verde",
-          "Magma": "Dragón de magma",
-          "Red": "Dragón rojo",
-          "Sea": "Dragón marino",
-          "Silver": "Dragón plateado",
-          "Sky": "Dragón del cielo",
-          "Sovereign": "Dragón soberano",
-          "Umbral": "Dragón umbrío",
-          "Underworld": "Dragón del inframundo",
-          "White": "Dragón blanco"
-        },
         "Prompt": "Selecciona un dragón.",
         "ScalesOfTheDragon": {
           "BracersOfArmor": "Escamas del dragón con brazales de armadura",
@@ -3889,6 +3937,9 @@
         },
         "VengefulHatred": {
           "Prompt": "Elige un enemigo ancestral."
+        },
+        "SpacewyrmSlayer": {
+          "Label": "Matador de sierpes espaciales (dragón)"
         }
       },
       "EldritchArcher": {
@@ -4177,7 +4228,7 @@
         "RhinoShot": {
           "CriticalSuccess": "El objetivo debe obtener un éxito crítico en una salvación @Check[fortitude|dc:19|name:Rhino Shot|traits:conjuration,consumable,magical|showDC:all] o quedar @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}.",
           "Label": "Disparo de rinoceronte",
-          "Éxito": "El objetivo debe superar una salvación @Check[fortitude|dc:19|name:Rhino Shot|traits:conjuration,consumable,magical|showDC:all] o quedar @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}."
+          "Success": "El objetivo debe superar una salvación @Check[fortitude|dc:19|name:Rhino Shot|traits:conjuration,consumable,magical|showDC:all] o quedar @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}."
         },
         "RobeOfTheArchmagi": {
           "VsArcaneSpells": "{item} (contra conjuros arcanos)"
@@ -4260,6 +4311,12 @@
         },
         "ZuhrasGloves": {
           "WallOfMetalLabel": "La pared de metal está activa"
+        },
+        "GlacierHammer": {
+          "ToggleLabel": "Martillo glaciar — Hacer crecer carámbanos"
+        },
+        "HuntersBow": {
+          "ToggleLabel": "Arco del cazador — El objetivo no puede verte"
         }
       },
       "EternalLegend": {
@@ -4314,52 +4371,52 @@
             "Description": "Cuando usas Chispa trascendente, tu chispa divina libera una canción sublime que armoniza con tus aliados. Hasta el comienzo de tu siguiente turno, cualquiera de tus aliados que empiece su turno a 30 pies o menos de ti puede tararear para Sustentar uno de sus efectos que pueda sustentarse. Esta es una acción gratuita desencadenada por el comienzo del turno del aliado. Tu canción termina entonces, y ese aliado no puede beneficiarse de esta aptitud de nuevo durante 10 minutos. Este es un efecto auditivo y mental."
           },
           "PeerlessUnderHeaven": {
-            "Description": "After tú Spark Transcendence, tu impeccable battle form strikes fear. Un enemigo of tu choice within 30 pies debe superar una @Check[will|against:exemplar|traits:emotion,fear,mental,visual] salvación contra la CD de tu clase o quedar @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}. That criatura is then temporarily immune to this effect for 10 minutos. Esto is an emotion, fear, mental, and visual effect.",
+            "Description": "Después de Despertar trascendencia, tu impecable forma de batalla inspira temor. Un enemigo de tu elección a 30 pies o menos debe superar una salvación de @Check[will|against:exemplar|traits:emotion,fear,mental,visual] contra la CD de tu clase o quedar @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{asustado 1}. Esa criatura queda entonces temporalmente inmune a este efecto durante 10 minutos. Este es un efecto de emoción, miedo, mental y visual.",
             "GrievousToggle": "Peerless Under Heaven — Gain Grievous Rune critical specialization"
           },
           "PlundererOfTheHivesRiches": {
-            "CriticalSpecialization": "Cuando tú critically succeed at a Golpe, the taste of honey fills tu mouth as tú plunder part of tu foe's vitality for yourself, gaining Puntos de golpe temporales equal to half the criatura's level that last durante 1 minuto.",
-            "Description": "Cuando tú Spark Transcendence, a mass of buzzing insects fill the air around tú, granting tú @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealment} until the beginning of tu next turn."
+            "CriticalSpecialization": "Cuando obtienes un éxito crítico en un Golpe, el sabor de la miel llena tu boca mientras saqueas parte de la vitalidad de tu enemigo para ti, ganando Puntos de Golpe temporales iguales a la mitad del nivel de la criatura que duran 1 minuto.",
+            "Description": "Cuando Despiertas trascendencia, una masa de insectos zumbantes llena el aire a tu alrededor, concediéndote @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{ocultación} hasta el comienzo de tu siguiente turno."
           },
           "RestlessAsTheTide": {
-            "CriticalSpecialization": "Cuando tú critically succeed on a Golpe, water blasts el objetivo and those nearby. Esto deals daño de salpicadura de contundente equal to the number of dados de daño del arma to el objetivo and all criaturas a 10 pies o menos of it. Esto effect has the water rasgo.",
-            "Description": "Cuando tú Spark Transcendence, puedes Dar un paso, tu body carried along by a surging tide. Si tu transcendence affected an enemigo, puedes instead move that enemigo 5 pies in a direction of tu choice a menos que supere una @Check[fortitude|against:exemplar] salvación contra la CD de tu clase. Si tú move an enemigo who started out adjacent to tú, puedes Dar un paso into the space it vacated."
+            "CriticalSpecialization": "Cuando obtienes un éxito crítico en un Golpe, el agua golpea al objetivo y a quienes están cerca. Esto inflige daño de salpicadura contundente igual al número de dados de daño del arma al objetivo y a todas las criaturas a 10 pies o menos de él. Este efecto tiene el rasgo agua.",
+            "Description": "Cuando Despiertas trascendencia, puedes Dar un paso, llevado por una marea creciente. Si tu trascendencia afectó a un enemigo, puedes en su lugar mover a ese enemigo 5 pies en una dirección de tu elección a menos que supere una salvación de @Check[fortitude|against:exemplar] contra la CD de tu clase. Si mueves a un enemigo que comenzó adyacente a ti, puedes Dar un paso al espacio que dejó libre."
           },
           "TeacherOfHeroes": {
-            "Description": "After tú Spark Transcendence, puedes attempt to Recall Knowledge about one enemigo puedes see as a free action and instantly transmit any knowledge obtienes as a result to every aliado within 60 pies. El first piece of knowledge obtienes when Recalling Knowledge in this way is always the enemigo's immunities. Si the enemigo has no immunities, tú learn its greatest resistance; if it also possesses no resistances, tú learn its greatest weakness; if it possesses none of the above, tú learn its lowest tirada de salvación."
+            "Description": "Después de Despertar trascendencia, puedes intentar Recordar conocimiento sobre un enemigo que puedas ver como acción gratuita y transmitir al instante cualquier conocimiento que obtengas a cada aliado a 60 pies o menos. El primer dato que obtienes al Recordar conocimiento de este modo siempre son las inmunidades del enemigo. Si el enemigo no tiene inmunidades, conoces su mayor resistencia; si tampoco posee resistencias, conoces su mayor debilidad; si no posee nada de lo anterior, conoces su tirada de salvación más baja."
           },
           "TheBrave": {
-            "Description": "Tu cuerpo carries tú forward, allowing tú to Zancada up to half tu Velocidad in a straight line toward one enemigo of tu choice as a free action. Once tienes used this ability on a given enemigo, puedes't use it against that enemigo again for 10 minutos."
+            "Description": "Tu cuerpo te impulsa hacia delante, permitiéndote Zancada hasta la mitad de tu Velocidad en línea recta hacia un enemigo de tu elección como acción gratuita. Una vez que hayas usado esta aptitud contra un enemigo concreto, no puedes volver a usarla contra ese enemigo durante 10 minutos."
           },
           "TheCunning": {
-            "Description": "After tú Spark Transcendence, puedes @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Create a Diversion} or @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint} as a free action."
+            "Description": "Después de Despertar trascendencia, puedes @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Crear una distracción} o @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Fintar} como acción gratuita."
           },
           "TheDeft": {
-            "Description": "Cuando tú Spark Transcendence, puedes Interactuar as a free action to reload or draw a arma ikon, either directly before or directly after tu transcendence action. El arma ikon must be a ranged arma with the reload rasgo or a one-handed melee arma with the thrown rasgo."
+            "Description": "Cuando Despiertas trascendencia, puedes Interactuar como acción gratuita para recargar o desenvainar un arma ikon, ya sea justo antes o justo después de tu acción de trascendencia. El arma ikon debe ser un arma a distancia con el rasgo recarga o un arma cuerpo a cuerpo a una mano con el rasgo arrojadiza."
           },
           "TheLastRuler": {
-            "Description": "After tú Spark Transcendence, puedes exude an air of authority hasta el comienzo de tu siguiente turno. Si any enemigo fails at an tirada de ataque contra ti during this time, puedes attempt an Intimidation check to [[/act demoralize]] that enemigo as a free action as tú rebuke it for its foolish attempt to stand against tu authority."
+            "Description": "Después de Despertar trascendencia, puedes irradiar un aura de autoridad hasta el comienzo de tu siguiente turno. Si cualquier enemigo falla una tirada de ataque contra ti durante este tiempo, puedes intentar una prueba de Intimidación para [[/act demoralize]] a ese enemigo como acción gratuita mientras lo reprendes por su necio intento de desafiar tu autoridad."
           },
           "TheMournful": {
-            "Description": "After tú Spark Transcendence, tu act resonates with bittersweet poignancy, making one enemigo of tu choice within 30 pies who witnessed the act @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado} as tears or memories dance in their eyes. Esto is an emotion and mental effect. El enemigo remains dazzled hasta el comienzo de tu siguiente turno, and then they are temporarily immune for 10 minutos."
+            "Description": "Después de Despertar trascendencia, tu acto resuena con una tristeza agridulce, haciendo que un enemigo de tu elección a 30 pies o menos que haya presenciado el acto quede @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{deslumbrado} mientras lágrimas o recuerdos danzan en sus ojos. Este es un efecto de emoción y mental. El enemigo permanece deslumbrado hasta el comienzo de tu siguiente turno y luego queda temporalmente inmune durante 10 minutos."
           },
           "TheProud": {
-            "Description": "After tú Spark Transcendence, puedes boast to one enemigo within 30 pies to draw its attention; this effect has the auditory, emotion, mental, and linguistic rasgos. Until the start of tu next turn, el objetivo takes a –1 penalizador de estado a las tiradas de ataque, tiradas de daño, and pruebas de habilidad against criaturas other than tú, and it gains a +1 bonificador de estado to these rolls when targeting tú."
+            "Description": "Después de Despertar trascendencia, puedes alardear ante un enemigo a 30 pies o menos para atraer su atención; este efecto tiene los rasgos auditivo, emoción, mental y lingüístico. Hasta el comienzo de tu siguiente turno, el objetivo sufre un penalizador de estado -1 a tiradas de ataque, tiradas de daño y pruebas de habilidad contra criaturas distintas de ti, y obtiene un bonificador de estado +1 a esas tiradas cuando te toma a ti como objetivo."
           },
           "TheRadiant": {
-            "Description": "After tú Spark Transcendence, tú inspire an aliado within 30 pies to push on, restoring Puntos de golpe equal to @Damage[(2*(1+@actor.level))[healing]]{2 + double tu level}; this is a mental and emotion effect. El aliado is then temporarily immune for 10 minutos."
+            "Description": "Después de Despertar trascendencia, inspiras a un aliado a 30 pies o menos para que siga adelante, restaurándole Puntos de Golpe iguales a @Damage[(2*(1+@actor.level))[healing]]{2 + el doble de tu nivel}; este es un efecto mental y de emoción. Después, el aliado queda temporalmente inmune durante 10 minutos."
           },
           "ThiefOfMoonlight": {
-            "Description": "After tú Spark Transcendence, as a free action puedes attempt a check to [[/act palm-an-object]] or to [[/act steal]] an item from an enemigo within 30 pies. El relocated objects simply disappear and reappear in tu hand."
+            "Description": "Después de Despertar trascendencia, como acción gratuita puedes intentar una prueba para [[/act palm-an-object]] o [[/act steal]] un objeto de un enemigo a 30 pies o menos. Los objetos trasladados simplemente desaparecen y reaparecen en tu mano."
           },
           "TrespasserInDeathsRealm": {
-            "CriticalSpecialization": "<p>Cuando tú critically succeed at a Golpe, tú pull tu target closer to death from tu stolen connection. El objetivo must attempt a @Check[will|against:exemplar|traits:curse] saving contra la CD de tu clase. On a failure, they become @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} durante 1 minuto. Esto has the curse rasgo.</p>",
-            "Description": "<p>Cuando tú Spark Transcendence, tu divine spark draws part of death closer to tú. Until the start of tu next turn, any living enemigo that starts it turns adjacent to tú or enters a space adjacent to tú takes @Damage[1d6[void]] daño.</p>"
+            "CriticalSpecialization": "<p>Cuando obtienes un éxito crítico en un Golpe, arrastras a tu objetivo más cerca de la muerte mediante tu conexión robada. El objetivo debe intentar una salvación de @Check[will|against:exemplar|traits:curse] contra la CD de tu clase. Con un fallo, queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{debilitado 1} durante 1 minuto. Esto tiene el rasgo maldición.</p>",
+            "Description": "<p>Cuando Despiertas trascendencia, tu chispa divina atrae parte de la muerte hacia ti. Hasta el comienzo de tu siguiente turno, cualquier enemigo vivo que comience su turno adyacente a ti o entre en un espacio adyacente a ti recibe @Damage[1d6[void]] de daño.</p>"
           },
           "WhoseCryIsThunder": {
-            "CriticalSpecialization": "Cuando tú critically succeed on a Golpe, el objetivo must make a @Check[fortitude|against:exemplar|traits:sonic] tirada de salvación contra la CD de tu clase. On a failure, they are knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} and @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ensordecido} durante 1 minuto. Esto is a sonic effect.",
+            "CriticalSpecialization": "Cuando obtienes un éxito crítico en un Golpe, el objetivo debe realizar una salvación de @Check[fortitude|against:exemplar|traits:sonic] contra la CD de tu clase. Con un fallo, queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{derribado} y @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{ensordecido} durante 1 minuto. Este es un efecto sónico.",
             "DamageNote": "El attacker takes @Damage[1d6[electricity]] daño",
-            "Description": "Cuando tú Spark Transcendence, puedes elige to become electrically charged hasta el comienzo de tu siguiente turno. Any criatura that touches tú or damages tú with an ataque sin armas or non-reach melee arma while estás charged takes @Damage[1d6[electricity]] daño as lightning courses back to them."
+            "Description": "Cuando Despiertas trascendencia, puedes elegir cargarte de electricidad hasta el comienzo de tu siguiente turno. Cualquier criatura que te toque o te dañe con un ataque sin armas o un arma cuerpo a cuerpo sin alcance mientras estás cargado recibe @Damage[1d6[electricity]] de daño cuando el relámpago vuelve hacia ella. @UUID[Compendium.pf2e.feat-effects.Item.nP3k4N52NzrR3KKf]{Efecto: Cuyo grito es trueno}"
           }
         },
         "EternityIncineratingBlaze": {
@@ -4512,7 +4569,7 @@
       "Feat": {
         "BespellStrikes": {
           "Oracle": "Canalizas energía de conjuro en un arma que empuñas o en uno de tus ataques sin armas, como un puño. Hasta el final de tu turno, el arma o ataque sin armas inflige 1d6 de daño de fuerza adicional y obtiene el rasgo divino si aún no lo tenía. Si el conjuro infligió un tipo de daño distinto, el Golpe inflige ese tipo de daño en su lugar, o un tipo de tu elección si el conjuro podía infligir varios tipos de daño.",
-          "Requisitos": "Tu acción más reciente fue lanzar un conjuro que no era truco",
+          "Requirements": "Tu acción más reciente fue lanzar un conjuro que no era truco",
           "Sorcerer": "Canalizas energía de conjuro en un arma que empuñas o en uno de tus ataques sin armas, como un puño. Hasta el final de tu turno, el arma o ataque sin armas inflige 1d6 de daño de fuerza adicional y obtiene el rasgo de la tradición mágica de tu línea de sangre si aún no lo tenía. Si el conjuro infligió un tipo de daño distinto, el Golpe inflige ese tipo de daño en su lugar, o un tipo de tu elección si el conjuro podía infligir varios tipos de daño.",
           "Wizard": "Canalizas energía de conjuro en un arma que empuñas o en uno de tus ataques sin armas, como un puño. Hasta el final de tu turno, el arma o ataque sin armas inflige 1d6 de daño de fuerza adicional y obtiene el rasgo arcano si aún no lo tenía. Si el conjuro infligió un tipo de daño distinto, el Golpe inflige ese tipo de daño en su lugar, o un tipo de tu elección si el conjuro podía infligir varios tipos de daño."
         },
@@ -4532,8 +4589,8 @@
         "DisturbingKnowledge": {
           "CriticalFailure": "Te dejas atrapar demasiado por tus propias palabras y quedas @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.",
           "CriticalSuccess": "El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confundido} durante 1 asalto y @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.",
-          "Fallo": "El objetivo no se ve afectado.",
-          "Éxito": "El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}."
+          "Failure": "El objetivo no se ve afectado.",
+          "Success": "El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}."
         },
         "DuosAim": {
           "Note": "Ignora el estado Oculto del objetivo."
@@ -4608,7 +4665,20 @@
         "YoureNext": {
           "Rogue": "Tras abatir a un enemigo, amenazas a otro. Intenta [[/act demoralize options=youre-next]] a una criatura a 60 pies o menos, con un bonificador de circunstancia +2. Si tienes competencia legendaria en Intimidación, puedes usar esto como acción gratuita con el mismo desencadenante.",
           "Swashbuckler": "Tras abatir a un enemigo, prometes a otro que será el siguiente. Intenta una prueba de Intimidación con un bonificador de circunstancia +2 para @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Desmoralizar} a una única criatura que puedas ver y que pueda verte. Si eres legendario en Intimidación, puedes usar esto como acción gratuita con el mismo desencadenante.",
-          "Desencadenante": "Reduces a un enemigo a 0 Puntos de Golpe."
+          "Trigger": "Reduces a un enemigo a 0 Puntos de Golpe."
+        },
+        "Evangelize": {
+          "CriticalSuccess": "El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{estupefacto 2} durante 1 asalto.",
+          "Failure": "El objetivo no se ve afectado.",
+          "Success": "El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{estupefacto 1} durante 1 asalto."
+        },
+        "SkillMastery": {
+          "Investigator": "Aumenta tu rango de competencia en una de tus habilidades de experto a maestro y en otra de tus habilidades de entrenado a experto. Ganas una dote de habilidad asociada a una de las habilidades que elegiste.",
+          "Rogue": "Aumenta tu rango de competencia en una de tus habilidades de experto a maestro y en otra de tus habilidades de entrenado a experto. Ganas una dote de habilidad asociada a una de las habilidades que elegiste; debes cumplir todos sus prerrequisitos.",
+          "Special": {
+            "Text": "Puedes seleccionar esta dote hasta cinco veces.",
+            "Title": "Especial"
+          }
         }
       },
       "Fetchling": {
@@ -4709,7 +4779,7 @@
       },
       "FulcrumLens": {
         "Crimson": {
-          "Golpe": "Golpe de lente fulcro carmesí"
+          "Strike": "Golpe de lente fulcro carmesí"
         },
         "StatisticLabel": "Tirada de ataque de conjuro de lente fulcro"
       },
@@ -4795,6 +4865,46 @@
         "Twitchy": {
           "InitiativeToggle": "Nervioso: el oponente usa Engaño o Diplomacia para iniciativa",
           "TOTMToggle": "Nervioso: defendiendo contra peligros"
+        },
+        "MutantGoblin": {
+          "Prompt": "Selecciona una mutación.",
+          "Bioelectricity": {
+            "Label": "Bioelectricidad",
+            "Description": "Ganas un ataque sin armas de descarga biológica que inflige 1d4 de daño de electricidad. Tu ataque de descarga biológica pertenece al grupo de conmoción y tiene los rasgos ágil, no letal y sin armas.",
+            "Bioshock": "Descarga biológica"
+          },
+          "Chromatophores": {
+            "Label": "Cromatóforos",
+            "Description": "Te entrenas en Sigilo. Si fueras a entrenarte automáticamente en Sigilo (por tu trasfondo o clase, por ejemplo), en su lugar te entrenas en una habilidad de tu elección. Ganas la dote de habilidad @UUID[Compendium.pf2e.feats-srd.Item.beyw5bdA5hkQbmaG]{Acechador de terreno}, salvo que, en lugar de un terreno difícil seleccionado, puedes usar esta dote mientras estés adyacente a zonas de luz artificial brillante o dentro de ellas, como un gran letrero de neón o un club nocturno."
+          },
+          "ExtraLimbs": {
+            "Label": "Extremidades adicionales",
+            "Description": "Te crece un segundo par de brazos. Puedes seleccionar las dotes de ascendencia estandarizadas @UUID[Compendium.sf2e.feats.Item.EPeo604ByeeAx3AL]{Todas las manos a cubierta} y @UUID[Compendium.sf2e.feats.Item.61txGmMLr22B93cU]{Doble desenfunde}."
+          },
+          "Flight": {
+            "Label": "Vuelo",
+            "Description": "Ganas una Velocidad de vuelo de 20 pies."
+          },
+          "Gills": {
+            "Label": "Branquias",
+            "Description": "Ganas una Velocidad de nado de 25 pies y puedes respirar bajo el agua durante 1 minuto cada vez."
+          },
+          "LimitedTelepathy": {
+            "Label": "Telepatía limitada",
+            "Description": "Puedes comunicarte mentalmente con criaturas a 15 pies o menos. Solo puedes comunicarte con criaturas que compartan un idioma contigo. Esto no te da acceso alguno a sus pensamientos y no transmite más información que el habla normal."
+          },
+          "MutantMagic": {
+            "Label": "Magia mutante",
+            "Description": "Ganas la dote de ascendencia estandarizada @UUID[Compendium.sf2e.feats.Item.IEQmMRA1uMPb0rJo]{Truco ancestral} (primordial; @UUID[Compendium.pf2e.spells-srd.Item.thAHF1zxNplLCJPO]{Explosión cáustica}), salvo que el conjuro no tiene el rasgo manipular porque escupes el globo de ácido desde la boca."
+          },
+          "Suckers": {
+            "Label": "Ventosas",
+            "Description": "Ganas una Velocidad de trepar de 20 pies."
+          }
+        },
+        "TankmeatGoblin": {
+          "Doomed": "Goblin carne de tanque (condenado)",
+          "Wounded": "Goblin carne de tanque (herido)"
         }
       },
       "Godling": {
@@ -4964,9 +5074,6 @@
         "UntwistingIron": "Hierro sin torcer"
       },
       "Human": {
-        "SaocAstrology": {
-          "Prompt": "Selecciona el penalizador o bonificador por circunstancia que obtuviste al usar la acción Astrología saoc."
-        },
         "VikingShieldbearer": {
           "Prompt": "Selecciona un arma para entrenarte."
         },
@@ -5059,9 +5166,9 @@
         "Overdrive": {
           "CriticalFailure": "¡Ups! Algo explota. Sufres @Damage[(ceil(@actor.level / 2))[@actor.flags.pf2e.inventor.explode]|immutable|name:PF2E.SpecificRule.Inventor.Innovation.MalfunctionDamage] de daño, y no puedes usar Sobremarcha de nuevo durante [[/r 1d4 #Recarga de Sobremarcha]]{1d4 asaltos} mientras tus artilugios se reinician.",
           "CriticalSuccess": "Tus artilugios entran en un estado de eficiencia increíble llamado @UUID[Compendium.pf2e.feat-effects.Item.1XlJ9xLzL19GHoOL]{Sobremarcha crítica}, añadiendo un gran poder a tus ataques.",
-          "Fallo": "Tus artilugios zumban de forma preocupante y empiezan a humear. Tus Golpes infligen 1 de daño de fuego adicional. @UUID[Compendium.pf2e.feat-effects.Item.1XlJ9xLzL19GHoOL]{Sobremarcha}",
+          "Failure": "Tus artilugios zumban de forma preocupante y empiezan a humear. Tus Golpes infligen 1 de daño de fuego adicional. @UUID[Compendium.pf2e.feat-effects.Item.1XlJ9xLzL19GHoOL]{Sobremarcha}",
           "FireDamage": "Sobremarcha: daño de fuego",
-          "Éxito": "Tus artilugios entran en @UUID[Compendium.pf2e.feat-effects.Item.1XlJ9xLzL19GHoOL]{Sobremarcha}, añadiendo poder a tus ataques."
+          "Success": "Tus artilugios entran en @UUID[Compendium.pf2e.feat-effects.Item.1XlJ9xLzL19GHoOL]{Sobremarcha}, añadiendo poder a tus ataques."
         },
         "PersistentBoost": {
           "Label": "Impulso persistente"
@@ -5070,7 +5177,7 @@
           "FailureNote": "No puedes usar más acciones inestables. Como creador de la innovación, puedes gastar 10 minutos reajustando tu innovación y haciendo ajustes para devolverla a la funcionalidad, momento en el cual puedes volver a usar acciones inestables con esa innovación.",
           "FlatCheck": {
             "CriticalFailure": "La innovación se vuelve incapaz de usarse para más acciones inestables, y tú también recibes @Damage[(floor(@actor.level / 2))[@actor.flags.pf2e.inventor.explode]|immutable|name:PF2E.SpecificRule.Inventor.Innovation.MalfunctionDamage] de daño. @UUID[Compendium.pf2e.feat-effects.Item.olpkQDGDzmYZCvQH]{Efecto: prueba inestable fallida}",
-            "Fallo": "La innovación se vuelve incapaz de ser utilizada para futuras acciones inestables.",
+            "Failure": "La innovación se vuelve incapaz de ser utilizada para futuras acciones inestables.",
             "Label": "Prueba inestable"
           },
           "Note": "Cuando sufres una acción inestable, intenta inmediatamente una @Check[flat|dc:resolve(ternary(lt(@actor.skills.crafting.rank,4),15,13))|options:unstable-check|name:PF2E.SpecificRule.Inventor.Unstable.FlatCheck.Label|showDC:all] después de aplicar sus efectos.",
@@ -5117,7 +5224,7 @@
       "KeepPace": {
         "BountyHunter": "Cuando tu presa cazada intenta salir huyendo, la sigues. Haces una Zancada de hasta tu Velocidad, siguiendo a tu presa cazada y manteniéndola a tu alcance durante todo su movimiento hasta que deje de moverse o haya movido tu Velocidad completa. Puedes usar Mantener el paso para @UUID[Compendium.pf2e.actionspf2e.Item.H6v1VgowHaKHnVlG]{Excavar}, @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Trepar}, @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Volar} o @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Nadar} en lugar de una Zancada si tienes el tipo de movimiento apropiado.",
         "GameHunter": "Una vez estás sobre tu presa, no puede escapar. @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Zancada} de hasta tu Velocidad, siguiendo al enemigo y manteniéndolo a tu alcance durante todo su movimiento hasta que deje de moverse o haya movido tu Velocidad completa. Puedes usar Mantener el paso para @UUID[Compendium.pf2e.actionspf2e.Item.H6v1VgowHaKHnVlG]{Excavar}, @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Trepar}, @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Volar} o @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Nadar} en lugar de una Zancada si tienes el tipo de movimiento correspondiente.",
-        "Desencadenante": "Tu presa está a tu alcance e intenta alejarse de ti."
+        "Trigger": "Tu presa está a tu alcance e intenta alejarse de ti."
       },
       "Kineticist": {
         "ConsumePower": {
@@ -5261,6 +5368,12 @@
         },
         "ThornedSeedpod": {
           "Note": "Cuando obtienes un éxito crítico en un Golpe de vaina, las enredaderas se retuercen y apuñalan a tu enemigo, infligiendo [[/r 1d4[persistent,piercing]]] de daño perforante persistente."
+        },
+        "Inexorable": {
+          "RollOptionLabel": "Inexorable — En mundo natal"
+        },
+        "MoonflowerLeshy": {
+          "ToggleLabel": "Emites luz"
         }
       },
       "Lich": {
@@ -5359,10 +5472,8 @@
         "AdvancedFirearmsCrossbows": "Armas de fuego y ballestas avanzadas",
         "AdvancedGeniekinWeapons": "Armas geniekin avanzadas",
         "AdvancedGhoranWeapons": "Armas avanzadas de Ghoran",
-        "AdvancedGnollWeapons": "Armas gnoll avanzadas",
         "AdvancedGnomeWeapons": "Armas avanzadas de gnomos",
         "AdvancedGoblinWeapons": "Armas goblin avanzadas",
-        "AdvancedGrippliWeapons": "Armas Grippli avanzadas",
         "AdvancedGroup": {
           "axe": "Hachas avanzadas",
           "bomb": "Bombas avanzadas",
@@ -5415,10 +5526,8 @@
         "MartialFirearmsCrossbows": "Armas de fuego y ballestas marciales",
         "MartialGeniekinWeapons": "Armas geniekin marciales",
         "MartialGhoranWeapons": "Armas marciales de Ghoran",
-        "MartialGnollWeapons": "Armas marciales gnoll",
         "MartialGnomeWeapons": "Armas de gnomos marciales",
         "MartialGoblinWeapons": "Armas goblin marciales",
-        "MartialGrippliWeapons": "Armas marciales Grippli",
         "MartialGroup": {
           "axe": "Hachas marciales",
           "bomb": "Bombas marciales",
@@ -5464,7 +5573,17 @@
         "SimpleFirearmsCrossbows": "Armas de fuego y ballestas simples",
         "SimpleMartialBows": "Arcos simples y marciales",
         "SimpleMartialTwoHandedMeleeWeapons": "Armas cuerpo a cuerpo simples y marciales a dos manos",
-        "VikingWeapons": "Armas vikingas"
+        "VikingWeapons": "Armas vikingas",
+        "AdvancedLashuntaWeapons": "Armas lashunta avanzadas",
+        "AdvancedPahtraWeapons": "Armas pahtra avanzadas",
+        "AdvancedRyphorianWeapons": "Armas ryphorian avanzadas",
+        "AdvancedTalphiWeapons": "Armas talphi avanzadas",
+        "HellknightBreastplate": "Coraza de caballero infernal",
+        "HellknightPlates": "Semiplacas de caballero infernal y placas de caballero infernal",
+        "MartialLashuntaWeapons": "Armas marciales lashunta",
+        "MartialPahtraWeapons": "Armas marciales pahtra",
+        "MartialRyphorianWeapons": "Armas marciales ryphorian",
+        "MartialTalphiWeapons": "Armas marciales talphi"
       },
       "MechanicalSymbiosis": {
         "CriticalFailureNote": "Quedas @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 2}",
@@ -5702,7 +5821,7 @@
       "Organsight": {
         "Organs": "Vista de órganos (órganos)",
         "Skin": "Vista de órganos (piel)",
-        "Éxito": "Vista de órganos: prueba de Medicina con éxito"
+        "Success": "Vista de órganos: prueba de Medicina con éxito"
       },
       "OstilliHostDedication": {
         "VersatileMutation": {
@@ -5748,7 +5867,7 @@
         "AdvancedMulticlassFeat": "Selecciona una dote de clase hasta la mitad del nivel de tu personaje.",
         "Alignment": "Selecciona un alineamiento.",
         "Attribute": "Selecciona un atributo.",
-        "Beneficio": "Selecciona un beneficio.",
+        "Benefit": "Selecciona un beneficio.",
         "Bonus": "Selecciona un bonificador.",
         "Cantrip": "Selecciona un truco.",
         "CantripOrNonCantrip": "Selecciona un conjuro con truco o sin truco.",
@@ -5764,7 +5883,7 @@
         "DeitysDomain": "Selecciona el dominio de un dios.",
         "DieSize": "Selecciona un tamaño de dado.",
         "DragonBreathWeapon": "Selecciona un arma de aliento de dragón.",
-        "Efecto": "Selecciona un efecto.",
+        "Effect": "Selecciona un efecto.",
         "Element": "Selecciona un elemento.",
         "EnergyType": "Selecciona un tipo de energía.",
         "EquipmentVariety": "Selecciona una variedad de objeto.",
@@ -5814,7 +5933,8 @@
         "Weapon": "Selecciona un arma.",
         "WeaponDamageDice": "Selecciona un número de dados de daño de arma.",
         "WeaponGroup": "Selecciona un grupo de armas.",
-        "WeaponOrUnarmed": "Selecciona un arma o ataque desarmado."
+        "WeaponOrUnarmed": "Selecciona un arma o ataque desarmado.",
+        "Heritage": "Selecciona un linaje."
       },
       "Psychic": {
         "Amp": {
@@ -6036,7 +6156,7 @@
         },
         "TheHarderTheyFall": {
           "CriticalSuccess": "Con un éxito crítico, tu objetivo recibe @Damage[(ternary(gte(@actor.system.skills.athletics.rank,3),4,2))d8[bludgeoning]] de daño.",
-          "Éxito": "Con un éxito, tu objetivo recibe @Damage[(ternary(gte(@actor.system.skills.athletics.rank,3),2,1))d8[bludgeoning]] de daño."
+          "Success": "Con un éxito, tu objetivo recibe @Damage[(ternary(gte(@actor.system.skills.athletics.rank,3),2,1))d8[bludgeoning]] de daño."
         },
         "TripleThreat": {
           "HuntPreyAddendum": "Cuando usas Cazar presa, puedes designar tres criaturas como presa, designar dos criaturas como presa y compartir el efecto con un aliado (como Presa compartida), o designar una criatura como presa y compartir el efecto con dos aliados."
@@ -6062,7 +6182,7 @@
       "RelicGift": {
         "DivineRetribution": {
           "CriticalSuccess": "Si el objetivo es malvado, también queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 2} hasta el inicio de tu siguiente turno con un golpe crítico.",
-          "Éxito": "Si el objetivo es malvado, también queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1} hasta el comienzo de tu siguiente turno con un impacto."
+          "Success": "Si el objetivo es malvado, también queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1} hasta el comienzo de tu siguiente turno con un impacto."
         }
       },
       "RemainingAir": {
@@ -6154,12 +6274,12 @@
             "Label": "Penalizador por velocidad",
             "Note": "El objetivo sufre un penalizador de estado de -10 pies a sus Velocidades. @UUID[Compendium.pf2e.feat-effects.Item.yBTASi3FvnReAwHy]{Efecto: Golpe debilitante}"
           },
-          "Estupefacto": {
+          "Stupefied": {
             "Label": "Anonadado",
             "Note": "El objetivo es @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 1}"
           },
           "Title": "Debilitación <span class=\"action-glyph\"> f </span>",
-          "Desencadenante": "<strong>Desencadenante</strong> Tu Golpe impacta a una criatura desprevenida y le causa daño.",
+          "Trigger": "<strong>Desencadenante</strong> Tu Golpe impacta a una criatura desprevenida y le causa daño.",
           "Weakness": {
             "Label": "Debilidad",
             "Note": "El objetivo gana debilidad 5 a tu elección de daño contundente, perforante o cortante. @UUID[Compendium.pf2e.feat-effects.Item.Rgt9hH3W1oh9dvku]{Efecto: Vicious Debilitations}"
@@ -6179,7 +6299,7 @@
         },
         "TheHarderTheyFall": {
           "CriticalSuccess": "Con un éxito crítico, tu objetivo recibe @Damage[1d6[bludgeoning],(((@actor.flags.pf2e.sneakAttackDamage.number)d(@actor.flags.pf2e.sneakAttackDamage.faces))[precision])[bludgeoning]] de daño.",
-          "Éxito": "Con un éxito, tu objetivo recibe @Damage[1d6[bludgeoning]] de daño."
+          "Success": "Con un éxito, tu objetivo recibe @Damage[1d6[bludgeoning]] de daño."
         },
         "TrainSkill": {
           "Prompt": "Selecciona una habilidad para entrenarte."
@@ -6285,8 +6405,8 @@
         "ScareToDeath": {
           "CriticalFailure": "El objetivo no se ve afectado.",
           "CriticalSuccess": "El objetivo debe intentar una salvación @Check[fortitude|against:intimidation] contra tu CD de Intimidación. Con un fallo crítico, muere. Con cualquier otro resultado, queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} y @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Huyendo} durante 1 asalto. El efecto de fallo crítico tiene el rasgo muerte.",
-          "Fallo": "El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.",
-          "Éxito": "El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}."
+          "Failure": "El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.",
+          "Success": "El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}."
         }
       },
       "SkillMastery": {
@@ -6378,7 +6498,7 @@
           "Divine": "Cualquier providencia divina que haya en tu linaje te guía para apartarte a ti o a otros instintivamente del peligro. Das un paso, o [[/act reposition skill=religion]]{Reposicionas} a un objetivo a tu alcance usando Religión para la prueba.",
           "Occult": "Extrañas nieblas o colores arremolinados ocultan tu movimiento. Das un paso hasta 10 pies.",
           "Primal": "El inmenso poder de la naturaleza resuena en tu voz. Puedes intentar una prueba de Naturaleza para [[/act demoralize skill=nature]]{Desmoralizar} a un objetivo.",
-          "Requisitos": "Te estás beneficiando de un efecto de magia de sangre"
+          "Requirements": "Te estás beneficiando de un efecto de magia de sangre"
         }
       },
       "SoulWarden": {
@@ -6446,7 +6566,7 @@
         "Fly": "Velocidad de vuelo",
         "Prompt": "Selecciona una evolución.",
         "Sight": "Visión en la penumbra y visión en la oscuridad",
-        "Velocidad": "Bonificador de estado de +20 pies a la velocidad"
+        "Speed": "Bonificador de estado de +20 pies a la velocidad"
       },
       "SpellEffectFieryBody": {
         "Note": "El atacante recibe @Damage[(ternary(gte(@item.level,9),4,3))d6[fire]] de daño."
@@ -6606,81 +6726,81 @@
           "Description": "Cuando lanzas _escudo_, puedes modificar el conjuro para crear una barrera sólida que puedas usar para @UUID[Compendium.pf2e.other-effects.Item.I9lfZUiCwMiGogVi]{Cobertura}, pero no para bloquear. No puedes usar la reacción @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Bloqueo con escudo} cuando el conjuro se modifica de esta manera, pero tú (y solo tú) puedes gastar una acción para @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Ponerte a cubierto} y obtener cobertura estándar de ella."
         },
         "BeaconMark": {
-          "Description": "Cuando lanzas _sigilo_, puedes modificar el conjuro para añadir la siguiente entrada intensificada.",
-          "DescriptionHeightened": "Te armonizas to the marked target. While el conjuro lasts, puedes spend a single action, which has the concentrate, detection, and divination rasgos, to attempt to locate el objetivo, learning the direction to el objetivo as long as estás within 1 mile of it. Si el objetivo queda a criatura or a criatura is in possession of el objetivo object, the criatura can attempt a @Check[type:will] tirada de salvación against tu conjuro DC. Si it succeeds, tu attempt to locate el objetivo fails and puedes't attempt this again for 1 día. Puedes only have a single target marked with a _sigil_ modified in this way. Si tú Cast this Spell again on a second target, the _sigil_ conjuro on the first target ends, and tu mark fades."
+          "Description": "Cuando lanzas _sigilo_, puedes modificar el conjuro para añadir la siguiente entrada de intensificación.",
+          "DescriptionHeightened": "Te armonizas con el objetivo marcado. Mientras dura el conjuro, puedes gastar una acción simple, que tiene los rasgos concentración, detección y adivinación, para intentar localizar al objetivo y saber en qué dirección está mientras te encuentres a 1 milla o menos. Si el objetivo es una criatura o una criatura está en posesión del objeto objetivo, la criatura puede intentar una salvación de @Check[will] contra tu CD de conjuro. Si tiene éxito, tu intento de localizar el objetivo falla y no puedes volver a intentarlo durante 1 día. Solo puedes tener un único objetivo marcado de este modo con un _sigilo_ modificado. Si Lanzas este conjuro de nuevo sobre un segundo objetivo, el conjuro _sigilo_ sobre el primer objetivo termina y tu marca se desvanece."
         },
         "ChokingSmoke": {
           "Description": "Cuando lanzas _bola de fuego_ intensificada al menos a rango 6, puedes modificar los efectos estándar del conjuro de la siguiente forma: reduce el daño del conjuro en 6d6. Tu _bola de fuego_ deja tras de sí una nube persistente de humo tóxico en su área. Aunque es humo en lugar de niebla, esta nube tiene por lo demás los efectos de @UUID[Compendium.pf2e.spells-srd.Item.GKpEcy9WId6NJvtx]{Nube apestosa}."
         },
         "ConfoundingImage": {
-          "Description": "Cuando tú cast _mirror image_, puedes modify its duration to be sustained up to 1 minuto and modify its range to 30 pies. Si tú do, replace el conjuro's standard effects with the following: Creas an illusory duplicate of yourself that appears in an unoccupied square within range. El image takes up space and has a reach of 5 pies, and tu aliados can flank with the image. It doesn't have any other attributes a criatura would normally have other than an CA equal to tu conjuro DC and tirada de salvación modifiers equal to tu conjuro DC – 10. Si the image is hit by an attack or fails a save, or if tú ever move more than 30 pies from it, el conjuro ends. Las criaturas can move through its space without hindrance. Cuando tú Sustain the Spell, puedes move the image to an unoccupied square within range."
+          "Description": "Cuando lanzas _imagen múltiple_, puedes modificar su duración para que sea sostenida hasta 1 minuto y modificar su alcance a 30 pies. Si lo haces, reemplaza los efectos normales del conjuro por lo siguiente: creas un duplicado ilusorio de ti mismo que aparece en una casilla desocupada dentro del alcance. La imagen ocupa espacio, tiene alcance de 5 pies y tus aliados pueden flanquear con ella. No tiene otros atributos que tendría normalmente una criatura, salvo una CA igual a tu CD de conjuro y modificadores de tiradas de salvación iguales a tu CD de conjuro - 10. Si la imagen recibe un impacto de un ataque o falla una salvación, o si alguna vez te mueves a más de 30 pies de ella, el conjuro termina. Las criaturas pueden moverse a través de su espacio sin impedimento. Cuando Sustentas el conjuro, puedes mover la imagen a una casilla desocupada dentro del alcance."
         },
         "DirectedPoison": {
           "Description": "Cuando lanzas _nube tóxica_, modifica su duración para que sea sostenida hasta 1 minuto, y modifica su efecto estándar para incluir lo siguiente: la nube no se aleja de ti cada asalto. Una vez por asalto, cuando Sustentas el conjuro, puedes mover la nube 10 pies en la dirección que elijas."
         },
         "DiskRider": {
-          "Description": "Cuando tú cast _floating disk_, puedes modify its duration to be sustained, up to 10 minutos. Si tú do, add the following heightened entry to its effects.",
-          "DescriptionHeightened": "El disk can hold up to 10 Bulk. El conjuro no longer ends if tú ride atop the disk (though it does if any other criatura rides atop it, including if the criatura is riding on tú). Si estás riding the disk, it changes its capacity to hold tú, plus additional Bulk equal to the maximum tú could carry without being encumbered. Si tú ride atop the disk, puedes direct it to move along the ground up to 30 pies or tu Velocidad, whichever is slower, each time tú Sustain the Spell. While tú ride atop it, the disk can move over liquids as long as it ends its movement on solid ground. Si it ends its movement on a surface that can't support it, el conjuro ends."
+          "Description": "Cuando lanzas _disco flotante_, puedes modificar su duración para que sea sostenida hasta 10 minutos. Si lo haces, añade la siguiente entrada de intensificación a sus efectos.",
+          "DescriptionHeightened": "El disco puede sostener hasta 10 de Volumen. El conjuro ya no termina si cabalgas sobre el disco, aunque sí termina si cualquier otra criatura cabalga sobre él, incluso si esa criatura cabalga sobre ti. Si cabalgas el disco, este cambia su capacidad para sostenerte a ti más un Volumen adicional igual al máximo que podrías llevar sin quedar sobrecargado. Si cabalgas sobre el disco, puedes dirigirlo para que se mueva por el suelo hasta 30 pies o tu Velocidad, lo que sea menor, cada vez que Sustentas el conjuro. Mientras cabalgas sobre él, el disco puede moverse sobre líquidos siempre que termine su movimiento sobre suelo sólido. Si termina su movimiento sobre una superficie que no puede sostenerlo, el conjuro termina."
         },
         "DrenchingMist": {
-          "Description": "Cuando tú cast _mist_, puedes modify it to add the following heightened entry to its effects.",
-          "DescriptionHeightened": "Tu _mist_ is particularly laden with moisture. Non-magical fires within the area are automatically extinguished. Elige one magical fire or fire conjuro in the area and attempt to counteract it."
+          "Description": "Cuando lanzas _niebla_, puedes modificarla para añadir la siguiente entrada de intensificación a sus efectos.",
+          "DescriptionHeightened": "Tu _niebla_ está especialmente cargada de humedad. Los fuegos no mágicos dentro del área se extinguen automáticamente. Elige un fuego mágico o conjuro de fuego en el área e intenta contrarrestarlo."
         },
         "ForcefulPush": {
           "Description": "Cuando lanzas _mano telequinética_, puedes modificar su objetivo para que sea 1 criatura. Si lo haces, reemplaza sus efectos estándar por los siguientes: empujas telequinéticamente a tu enemigo. Haz una tirada de ataque de conjuro contra la CD de Fortaleza del objetivo. Con un éxito, empujas al objetivo 5 pies alejándolo de ti. Con un éxito crítico, empujas al objetivo 10 pies alejándolo de ti."
         },
         "Label": "Embaucador de conjuros",
         "LarcenousHand": {
-          "Description": "Cuando tú cast _telekinetic hand_, puedes remove its duration, modify its range to 20 pies, and modify its target to be an attended object within el conjuro's Bulk limit that wouldn't be time-consuming to remove. Add the following to el conjuro's standard effects: Si the criatura attending the object is willing to have sufres the item, Telekinetic Hand carries the item to tú. Si the criatura is unwilling, debes attempt to [[/act steal]] el objetivo object with a Thievery check. El usual restrictions on attempts to Steal an object apply, including the restrictions that puedes't steal objects that would be extremely noticeable or time-consuming to remove (like worn shoes or armor or actively wielded objects) and puedes't Steal from a criatura in combat or otherwise on guard. On a successful Steal check, the Telekinetic Hand carries the item to tú, and on a fallo crítico, puedes't use this modification again for 1 hora. Si estás a maestro in Thievery, puedes attempt to Steal from a criatura in combat or otherwise on guard, though if tú do so, el conjuro's casting time increases by 1 action."
+          "Description": "Cuando lanzas _mano telequinética_, puedes eliminar su duración, modificar su alcance a 20 pies y cambiar su objetivo a un objeto atendido dentro del límite de Volumen del conjuro que no requiera mucho tiempo retirar. Añade lo siguiente a los efectos normales del conjuro: si la criatura que atiende el objeto está dispuesta a que tomes el objeto, Mano telequinética lleva el objeto hasta ti. Si la criatura no está dispuesta, debes intentar [[/act steal]] el objeto objetivo con una prueba de Latrocinio. Se aplican las restricciones habituales para Robar un objeto, incluidas las restricciones de que no puedes robar objetos que serían extremadamente evidentes o llevarían mucho tiempo retirar, como zapatos o armadura puestos u objetos empuñados activamente, y no puedes Robar a una criatura en combate o en guardia. Con una prueba de Robar exitosa, Mano telequinética lleva el objeto hasta ti; con un fallo crítico, no puedes volver a usar esta modificación durante 1 hora. Si eres maestro en Latrocinio, puedes intentar Robar a una criatura en combate o en guardia, aunque si lo haces el tiempo de lanzamiento del conjuro aumenta en 1 acción."
         },
         "LingeringFlames": {
-          "Description": "Cuando tú cast _fireball_, puedes modify its effects, decreasing the base daño a 5d6 and causing it to deal @Damage[(2*(@item.level - 2))[fire,persistent]] daño a criaturas that fail their save, doubled as normal on a fallo crítico. Si tú do, replace its heightened entry with the following.",
-          "DescriptionHeightened": "El daño is increased by 1d6 and the daño persistente de fuego is increased by 2."
+          "Description": "Cuando lanzas _bola de fuego_, puedes modificar sus efectos, reduciendo el daño base a 5d6 y haciendo que inflija @Damage[(2*(@item.level - 2))[fire,persistent]] de daño a las criaturas que fallen su salvación, duplicado como es normal con un fallo crítico. Si lo haces, reemplaza su entrada de intensificación por la siguiente.",
+          "DescriptionHeightened": "El daño aumenta en 1d6 y el daño persistente de fuego aumenta en 2."
         },
         "ObscuredTerrain": {
-          "Description": "Cuando tú cast _mist_, puedes modify el conjuro to replace its standard effects with the following: Provocas a cloud of thick fog to blanket the area, making it difficult to see the ground. El area within the fog is difficult terrain for criaturas that can't see through fog or mist. Puedes Dismiss the cloud."
+          "Description": "Cuando lanzas _niebla_, puedes modificar el conjuro para reemplazar sus efectos normales por lo siguiente: haces que una nube de niebla espesa cubra el área, dificultando ver el suelo. El área dentro de la niebla es terreno difícil para criaturas que no puedan ver a través de niebla o bruma. Puedes Descartar la nube."
         },
         "ScatteredFire": {
-          "Description": "Cuando tú cast _fireball_, puedes modify its area to be two non-overlapping @Template[type:burst|distance:10]{10-pies bursts}."
+          "Description": "Cuando lanzas _bola de fuego_, puedes modificar su área para que sean dos @Template[type:burst|distance:10]{explosiones de 10 pies} que no se superpongan."
         },
         "ShiningArms": {
-          "Description": "Cuando tú cast _light_, puedes modify its target to be 1 melee arma, either unattended or possessed by tú or a willing aliado, and modify its duration to be 1 minuto. Si tú do, add the following to its effects: Cuando a criatura wielding the arma critically hits a foe, puedes Dismiss the Spell as a reaction, causing the foe to be @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado} durante 1 asalto. After tú use this reaction, puedes't use this modification again for 10 minutos.",
-          "Label": "armas brillantes",
-          "Note": "Cuando una criatura que empuña el arma impacta críticamente a un enemigo, puedes Descartar el conjuro como reacción, haciendo que el enemigo quede @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado} durante 1 asalto."
+          "Description": "Cuando lanzas _luz_, puedes modificar su objetivo para que sea 1 arma cuerpo a cuerpo, ya sea desatendida o en posesión tuya o de un aliado voluntario, y modificar su duración a 1 minuto. Si lo haces, añade lo siguiente a sus efectos: cuando una criatura que empuña el arma obtiene un impacto crítico contra un enemigo, puedes Descartar el conjuro como reacción, haciendo que el enemigo quede @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{deslumbrado} durante 1 asalto. Después de usar esta reacción, no puedes volver a usar esta modificación durante 10 minutos.",
+          "Label": "Armas resplandecientes",
+          "Note": "Cuando una criatura que empuña el arma obtiene un impacto crítico contra un enemigo, puedes Descartar el conjuro como reacción, haciendo que el enemigo quede @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{deslumbrado} durante 1 asalto."
         },
         "SiphoningTouch": {
-          "Description": "Cuando tú cast _vampiric feast_, puedes modify its standard effects as follows: Instead of gaining the Puntos de golpe temporales yourself, puedes grant the Puntos de golpe temporales to an aliado within 30 pies. After 1 minuto, the aliado loses any of these Puntos de golpe temporales that remain."
+          "Description": "Cuando lanzas _festín vampírico_, puedes modificar sus efectos normales de la siguiente forma: en lugar de ganar tú los Puntos de Golpe temporales, puedes concederlos a un aliado a 30 pies o menos. Después de 1 minuto, el aliado pierde cualquier Punto de Golpe temporal restante de estos."
         },
         "SmolderingExplosion": {
-          "Description": "Cuando tú cast _fireball_ heightened to at least 4th rank, puedes modify el conjuro to add the following to its standard effects: Tu _fireball_ leaves behind a brief cloud of smoke in its area. While it's smoke instead of mist, this cloud otherwise has the effects of @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{Mist}, except that it lasts only 1 asalto."
+          "Description": "Cuando lanzas _bola de fuego_ intensificada al menos a rango 4, puedes modificar el conjuro para añadir lo siguiente a sus efectos normales: tu _bola de fuego_ deja tras de sí una breve nube de humo en su área. Aunque es humo en lugar de niebla, esta nube tiene por lo demás los efectos de @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{Niebla}, salvo que solo dura 1 asalto."
         },
         "StealVitality": {
-          "Description": "Cuando tú cast _vampiric feast_, puedes modify its standard effects as follows: Instead of gaining Puntos de golpe temporales, if tu target fails or critically fails its tirada de salvación, puedes attempt a counteract check to remove the torpe or debilitado estados on yourself, using the source of that estado to determine the counteract rank and DC. Si the estado was caused by an ongoing effect and tú don't remove that effect, the estado returns at the end of tu next turn."
+          "Description": "Cuando lanzas _festín vampírico_, puedes modificar sus efectos normales de la siguiente forma: en lugar de ganar Puntos de Golpe temporales, si tu objetivo falla o falla críticamente su tirada de salvación, puedes intentar una prueba de contrarrestar para eliminar las condiciones torpe o debilitado de ti mismo, usando la fuente de esa condición para determinar el rango y la CD de contrarrestar. Si la condición fue causada por un efecto continuo y no eliminas ese efecto, la condición vuelve al final de tu siguiente turno."
         },
         "SummonEnsemble": {
-          "Description": "Cuando tú cast _summon instrument_, puedes modify its duration to be sustained, up to 1 minuto. Cuando tú do, tú summon a number of instruments equal to tu spellcasting ability modifier that hover around tú and play of their own accord. Once per turn when tú Sustain the Spell, elige an opponent within 30 pies who can hear tu performance. El objetivo must attempt a @Check[type:will] salvación against el conjuro's DC; on a failure, it becomes distracted by tu performance and becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} durante 1 asalto. El objetivo is then temporarily immune for 24 horas."
+          "Description": "Cuando lanzas _convocar instrumento_, puedes modificar su duración para que sea sostenida hasta 1 minuto. Cuando lo haces, convocas una cantidad de instrumentos igual a tu modificador de característica de lanzamiento de conjuros, que flotan a tu alrededor y tocan por sí mismos. Una vez por turno cuando Sustentas el conjuro, elige un oponente a 30 pies o menos que pueda oír tu interpretación. El objetivo debe intentar una salvación de @Check[will] contra la CD del conjuro; con un fallo, se distrae con tu interpretación y queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{desprevenido} durante 1 asalto. Después, el objetivo queda temporalmente inmune durante 24 horas."
         },
         "SurroundingFlames": {
-          "Description": "Cuando tú cast _wall of fire_, puedes modify its standard effects as follows: Instead of a 5-pies-thick, 10-pies-radius ring of flame, puedes form the wall into a @Template[type:burst|distance:10]{10-pies-radius} hemisphere of fire."
+          "Description": "Cuando lanzas _muro de fuego_, puedes modificar sus efectos normales de la siguiente forma: en lugar de un anillo de llamas de 5 pies de grosor y 10 pies de radio, puedes formar el muro como una @Template[type:burst|distance:10]{semiesfera de fuego de 10 pies de radio}."
         },
         "TopplingTentacles": {
-          "Description": "Cuando tú cast _black tentacles_, replace el conjuro's standard effects with the following: Tentacles slither along the ground in the area, attempting to hinder anyone within. Sticky black tentacles attempt to @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} each criatura in the area. Attempt conjuro tiradas de ataque against the Reflex DCs of each affected criatura. Any criatura tú succeed against is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} and takes @Damage[3d6[bludgeoning]] daño. Siempre que a criatura ends its turn in the area, the tentacles attempt to Trip that criatura if it isn't already prone, and they deal @Damage[1d6[bludgeoning]] daño a any criatura already prone. Las criaturas treat el conjuro's area as difficult terrain."
+          "Description": "Cuando lanzas _tentáculos negros_, reemplaza los efectos normales del conjuro por lo siguiente: unos tentáculos reptan por el suelo del área, intentando obstaculizar a cualquiera dentro. Los tentáculos negros pegajosos intentan @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Derribar} a cada criatura en el área. Intenta tiradas de ataque de conjuro contra las CD de Reflejos de cada criatura afectada. Cualquier criatura contra la que tengas éxito queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{derribada} y recibe @Damage[3d6[bludgeoning]] de daño. Siempre que una criatura termina su turno en el área, los tentáculos intentan Derribar a esa criatura si aún no está derribada, e infligen @Damage[1d6[bludgeoning]] de daño a cualquier criatura ya derribada. Las criaturas tratan el área del conjuro como terreno difícil."
         },
         "TracingSigil": {
-          "Description": "Cuando tú cast _sigil_, puedes modify el conjuro to add the following to its standard effects: El objetivo leaves a magical trail that tú and others can try to follow. Tú y other criaturas can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Track} el objetivo, substituting an Arcana, Nature, Occultism, or Religion check (whichever matches the magical tradition of tu _sigil_ conjuro) for the Survival check. Much like Tracking with Survival, this must take place somewhere el objetivo has been and follow the trail; it doesn't allow anyone to find el objetivo from a distance. Puedes only have a single target marked with a modified _sigil_ in this way. Si tú use this ability again on a second target, the _sigil_ conjuro on the first target ends, and tu mark fades."
+          "Description": "Cuando lanzas _sigilo_, puedes modificar el conjuro para añadir lo siguiente a sus efectos normales: el objetivo deja un rastro mágico que tú y otros podéis intentar seguir. Tú y otras criaturas podéis intentar @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Rastrear} al objetivo, sustituyendo la prueba de Supervivencia por una prueba de Arcanismo, Naturaleza, Ocultismo o Religión, la que coincida con la tradición mágica de tu conjuro _sigilo_. Igual que al Rastrear con Supervivencia, esto debe hacerse en un lugar por el que haya pasado el objetivo y siguiendo el rastro; no permite encontrar al objetivo a distancia. Solo puedes tener un único objetivo marcado con un _sigilo_ modificado de este modo. Si usas esta aptitud de nuevo sobre un segundo objetivo, el conjuro _sigilo_ sobre el primer objetivo termina y tu marca se desvanece."
         },
         "UneasyRest": {
-          "Description": " Cuando lanzas dormir, puedes modificar el conjuro para agregar lo siguiente a sus efectos estándar: Los sujetos de tu conjuro experimentan sueños perturbados. Cuando un objetivo que falló o falló críticamente su tirada de salvación se despierta, es @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} . "
+          "Description": "Cuando lanzas _dormir_, puedes modificar el conjuro para añadir lo siguiente a sus efectos normales: los sujetos de tu conjuro experimentan sueños inquietantes. Cuando un objetivo que falló o falló críticamente su tirada de salvación despierta, queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{asustado 1}."
         },
         "VolatileGrease": {
           "CriticalSuccess": "El objetivo no se ve afectado",
           "Description": "Cuando lanzas _grasa_, puedes modificar su objetivo para que sea 1 criatura. Si lo haces, reemplaza los efectos estándar del conjuro por los siguientes: salpicas al objetivo con grasa combustible. El objetivo debe intentar una salvación @Check[type:reflex].",
           "DescriptionHeightened": "La debilidad aumenta en 1.",
-          "Fallo": "Como éxito, excepto que la debilidad al fuego dura 1 minuto.",
-          "Éxito": "El objetivo queda salpicado de grasa y obtiene debilidad 2 al fuego hasta el final de tu siguiente turno. El objetivo o una criatura adyacente puede frotar la grasa combustible con una acción de Interactuar, terminando el efecto."
+          "Failure": "Como éxito, excepto que la debilidad al fuego dura 1 minuto.",
+          "Success": "El objetivo queda salpicado de grasa y obtiene debilidad 2 al fuego hasta el final de tu siguiente turno. El objetivo o una criatura adyacente puede frotar la grasa combustible con una acción de Interactuar, terminando el efecto."
         },
         "WildLights": {
-          "Description": "Cuando tú cast _light_, puedes modify its duration to be 1 minuto and modify its standard effects to create a single floating light in the shape of a Tiny criatura, instead of up to four floating lights. El criatura hovers over tu head unless tú spend a single action that has the concentrate rasgo to direct the light to move up to 30 pies, in which case it remains there until tú direct it again. Si tú direct it back to tu head, it hovers there and follows tú again until tú direct it elsewhere. Si the light ever moves beyond 120 pies of tú, it winks out immediately."
+          "Description": "Cuando lanzas _luz_, puedes modificar su duración a 1 minuto y modificar sus efectos normales para crear una única luz flotante con forma de criatura Menuda, en lugar de hasta cuatro luces flotantes. La criatura flota sobre tu cabeza a menos que gastes una acción simple con el rasgo concentrar para dirigir la luz y moverla hasta 30 pies; en ese caso permanece allí hasta que vuelvas a dirigirla. Si la diriges de vuelta a tu cabeza, flota allí y vuelve a seguirte hasta que la dirijas a otro lugar. Si la luz alguna vez se mueve a más de 120 pies de ti, se apaga inmediatamente."
         }
       },
       "Spellheart": {
@@ -6698,112 +6818,112 @@
         "Prompt": "Selecciona una tradición mágica para ganar resistencia."
       },
       "Spellshape": {
-        "BizzareTransformation": "Si tu next action is to cast @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{Untamed Form}, puedes change the tipo de daño of a single ataque sin armas granted by the <em>untamed form</em> form to one of the following: acid, bludgeoning, cold, electricity, fire, poison, piercing, or slashing. El chosen attack gains the appropriate rasgo.",
-        "BloodlineConduit": "No gastas el conjuro's slot when tú cast it.",
-        "BondConservation": "Obtienes an extra use of Drain Bonded Item. Puedes use it to cast a conjuro 2 or more ranks lower than the previous conjuro, and must use it before the end of tu next turn or tú lose it.",
-        "BurningSpell": "El conjuro deals @Damage[(@item.rank)[persistent,fire]] in addition to its other effects. Esto has no effect if el conjuro already deals daño persistente de fuego. El conjuro gains the fire rasgo",
-        "CallAndResponse": "While el conjuro is active, one aliado of tu choice affected by el conjuro can respond to tu call as a single action that has the auditory and concentrate rasgos to extend el conjuro's duration by 1 asalto. Only one aliado can respond to a given call, and responding to the aliado's response has no additional effect.",
-        "CastDown": "El objetivo is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} if it takes any daño de el conjuro. Si el objetivo critically fails its save against el conjuro, it also takes a –10-pies penalizador de estado to its Velocidad durante 1 minuto. @UUID[Compendium.pf2e.feat-effects.Item.Ve1CRFI8ikL6dqcL]{Efecto: Cast Down}",
+        "BizzareTransformation": "Si tu siguiente acción es lanzar @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{Forma indómita}, puedes cambiar el tipo de daño de un único ataque sin armas concedido por la forma de <em>forma indómita</em> a uno de los siguientes: ácido, contundente, frío, electricidad, fuego, veneno, perforante o cortante. El ataque elegido obtiene el rasgo apropiado.",
+        "BloodlineConduit": "No gastas el espacio de conjuro al lanzarlo.",
+        "BondConservation": "Ganas un uso adicional de Drenar objeto vinculado. Puedes usarlo para lanzar un conjuro de 2 o más rangos inferior al conjuro anterior, y debes usarlo antes del final de tu siguiente turno o lo pierdes.",
+        "BurningSpell": "El conjuro inflige @Damage[(@item.rank)[persistent,fire]] además de sus demás efectos. Esto no tiene efecto si el conjuro ya inflige daño persistente de fuego. El conjuro obtiene el rasgo fuego.",
+        "CallAndResponse": "Mientras el conjuro está activo, un aliado afectado por el conjuro a tu elección puede responder a tu llamada como una acción simple con los rasgos auditivo y concentrar para extender la duración del conjuro 1 asalto. Solo un aliado puede responder a una llamada concreta, y responder a la respuesta del aliado no tiene efecto adicional.",
+        "CastDown": "El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{derribado} si recibe daño del conjuro. Si el objetivo falla críticamente su salvación contra el conjuro, también sufre un penalizador de estado -10 pies a su Velocidad durante 1 minuto. @UUID[Compendium.pf2e.feat-effects.Item.Ve1CRFI8ikL6dqcL]{Efecto: Derribo}",
         "ChaoticSpell": {
-          "acid": "Each criatura damaged by el conjuro becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}.",
-          "cold": "Each criatura damaged by el conjuro takes a –10-pies penalizador to all Velocidades hasta el final de tu siguiente turno.",
-          "electricity": "Each criatura damaged by el conjuro is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} hasta el final de tu siguiente turno",
-          "fire": "Each criatura damaged by el conjuro takes @Damage[(@item.rank)[persistent,fire]] daño.",
-          "sonic": "Eah criatura damaged by el conjuro is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ensordecido} durante 2 asaltos."
+          "acid": "Cada criatura dañada por el conjuro queda @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{indispuesta 1}.",
+          "cold": "Cada criatura dañada por el conjuro sufre un penalizador de -10 pies a todas sus Velocidades hasta el final de tu siguiente turno.",
+          "electricity": "Cada criatura dañada por el conjuro queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{desprevenida} hasta el final de tu siguiente turno.",
+          "fire": "Cada criatura dañada por el conjuro recibe @Damage[(@item.rank)[persistent,fire]] de daño.",
+          "sonic": "Cada criatura dañada por el conjuro queda @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{ensordecida} durante 2 asaltos."
         },
         "CodexofDestructionAndRenewal": {
           "RollOptionLabel": {
-            "Damage": "Damage",
-            "Healing": "Healing"
+            "Damage": "Daño",
+            "Healing": "Curación"
           },
           "Note": {
-            "destruction": "El conjuro ignores 10 resistance and tú reroll any dados de daño that roll a 1. Si el conjuro reduces a criatura to 0 Puntos de golpe, they're torn apart at an infinitesimal level, not even leaving a fine ash; this is a death effect.",
-            "renewal": "El conjuro grants el objetivo regeneration 20, restoring 20 Puntos de golpe at the start of its turn. @UUID[Compendium.pf2e.equipment-effects.Item.yZW8I6G2Di6gdd16]{Efecto: Codex of Destruction and Renewal}"
+            "destruction": "El conjuro ignora 10 de resistencia y vuelves a tirar cualquier dado de daño que obtenga un 1. Si el conjuro reduce a una criatura a 0 Puntos de Golpe, queda desgarrada a escala infinitesimal, sin dejar siquiera ceniza fina; este es un efecto de muerte.",
+            "renewal": "El conjuro concede al objetivo regeneración 20, restaurando 20 Puntos de Golpe al comienzo de su turno. @UUID[Compendium.pf2e.equipment-effects.Item.yZW8I6G2Di6gdd16]{Efecto: Códice de destrucción y renovación}"
           },
-          "Prompt": "Spell prepared"
+          "Prompt": "Conjuro preparado"
         },
-        "ConcealSpell": "El conjuro gains the subtle rasgo, hiding the shining runes, sparks of magic, and other manifestations that would usually give away tu spellcasting. El rasgo hides only el conjuro's spellcasting actions and manifestations, not its effects, so an observer might still see a ray streak out from tú or see tú vanish into thin air.",
-        "CourageousAdvance": "One aliado of tu choice who gains a bonificador de estado from el conjuro can immediately use their reaction to Zancada.",
-        "CourageousAssault": "One aliado of tu choice who gains a bonificador de estado from el conjuro can immediately use their reaction to make a melee Golpe.",
-        "CourageousOnslaught": "One aliado of tu choice who gains a bonificador de estado from el conjuro can immediately use their reaction to Zancada and then make a melee Golpe.",
-        "CrypticSpell": "Si the next action sufres is to Lanzar un conjuro, attempt a Nature check against all observers' Perception DCs. Si tú succeed at tu check against an observer's Perception DC, that observer doesn't notice that estás Lanzando un conjuro, even though verbal, somatic, and material components are usually noticeable, and conjuros normally have sensory manifestations that would make spellcasting obvious to those nearby. All of these are instead hidden in the natural sights and sounds of the environment. Esto ability hides only el conjuro's spellcasting actions and manifestations, not its effects, so an observer might still see tú transform into a giant bear.",
-        "CurrentSpell": "Until the start of tu next turn, obtienes a +1 bonificador de circunstancia to CA or a +2 bonificador de circunstancia against ranged attacks. Esto effect has the air or water rasgo, or both, depending on the rasgos of el conjuro tú cast. También obtienes a +1 bonificador de circunstancia to all salvaciones contra effects with the selected rasgo, depending on el conjuro's rasgos. @UUID[Compendium.pf2e.feat-effects.Item.8HGz3rQCHNgdAqFC]{Efecto: Current Spell}",
-        "DefensiveCoordination": "Puedes Alzar un escudo, and one aliado of tu choice who gains a bonificador de estado from el conjuro can immediately use their reaction to Alzar un escudo.",
-        "DefensiveRecovery": "Si el objetivo regains Puntos de golpe from el conjuro, it also gains a +2 bonificador de estado to CA and tiradas de salvación durante 1 asalto. @UUID[Compendium.pf2e.feat-effects.Item.jwxurN6JPQm9wXug]{Efecto: Defensive Recovery}",
-        "DivineInfusion": "El objetivo deals daño adicional with its melee armas and ataques sin armas hasta el final de su siguiente turno. El tipo de daño es void if tú cast <em>harm</em> and vitality if tú cast <em>heal</em>. @UUID[Compendium.pf2e.feat-effects.Item.eecIuD6sGPX0FJcT]{Efecto: Divine Infusion}.",
-        "DousingSpell": "Empapas el objetivo of el conjuro with water. Si el objetivo has persistent acid or daño de fuego, the DC to end those estados is reduced to 10, and the criatura can attempt a prueba plana to end those types of daño persistente immediately. El conjuro gains the water rasgo (causing it to deal daño adicional a criaturas with weakness to water).",
-        "EbbAndFlow": "Elige one criatura in range that would be harmed by el conjuro, and elige another criatura within range that would be healed by el conjuro. Tu heal or harm targets both criaturas.",
-        "EchoingSpell": "Puedes Lanzar el conjuro a second time before the end of tu next turn without expending a conjuro slot.",
-        "EchoingChannel": "Elige una criatura adicional dentro del alcance. Target that criatura with a 1-action version of the same conjuro. Esto conjuro is the same rank as the 2-action harm or heal tú cast and doesn't cost another conjuro slot",
-        "EnergyAblation": "Si tu next action is to Lanzar un conjuro that deals at least one type of daño de energía (acid, cold, electricity, fire, force, sonic, vitality, or void), obtienes resistance to an energy tipo de daño of tu choice equal to el conjuro's rank. El resistance lasts hasta el final de tu siguiente turno. Obtienes the resistance regardless of whether or not tu conjuro dealt daño.",
-        "EnergyFusion": "Select a non-cantrip conjuro in tu conjuro repertoire that deals a different type of daño de energía, and expend an additional conjuro slot of the same rank as this secondary conjuro. El conjuro tú cast deals daño adicional equal to the rank of the secondary conjuro slot expended. El conjuro's total daño is divided evenly between the energy type of el conjuro tú cast and the energy type of the secondary conjuro.",
-        "ExplosiveArrival": "All criaturas in a @Template[emanation|distance:10] around the criatura tú summoned take @Damage[(@item.level)d4[@actor.flags.pf2e.spellshape.explosiveArrivalDamage]|options:area-damage] daño. Si the criatura summoned has the acid, cold, electricity, sonic, or spirit rasgo, puedes deal daño of that type instead.",
-        "FamiliarsResolve": "Si the next action tú use is to Lanzar un conjuro, tú or an aliado within 30 pies gain a +2 bonificador de estado to tiradas de salvación against effects that would cause tú to be doomed or asustado durante 1 asalto. At 14th level, tú or an aliado gain a +3 bonificador de estado to tiradas de salvación against these effects instead. @UUID[Compendium.pf2e.feat-effects.Item.6I4qWkHzxj4MAt6g]{Efecto: Familiar's Resolve}",
-        "ForcibleEnergy": "Si tu next action is to Lanzar un conjuro that deals acid, cold, electricity, fire, or daño sónico, puedes select one target that was damaged to gain weakness 5 to that tipo de daño hasta el final de tu siguiente turno. Si a conjuro deals multiple types of daño de energía, elige one that el objetivo gains weakness to. Esto has no effect on criaturas with resistance or immunity to the energy type tú elige. @UUID[Compendium.pf2e.feat-effects.Item.0Ai0u9kNJrEudPnN]{Efecto: Forcible Energy}",
-        "FormControl": "El conjuro's rank is 2 lower than normal (minimum 1st rank), but puedes remain transformed for up to 1 hora or the listed duration (whichever is longer). Puedes still Dismiss untamed form as normal.",
-        "GarlandSpell": "A garland of plants grows in a @Template[type:burst|distance:10] in el conjuro's range. El plants are difficult terrain and hazardous terrain, covered in tu choice of thorns or poisonous vines. Any criatura that moves into one of these squares or ends its turn in one takes @Damage[2d6[piercing]]daño for thorns or @Damage[2d6[poison]] for vines. A criatura can take this daño only once per turn. Tú y tu familiar are immune to this daño. El plants last durante 1 minuto or until tú cast another Garland Spell, whichever comes first. El daño increases to 3d6 at 16th level and 4d6 at 20th level.",
-        "GoldenDragonsBounty": "Si the next action tú use is to Lanzar un conjuro that deals bludgeoning, piercing, or daño cortante, that daño is tu choice of cold iron, silver, or steel for the purposes of weaknesses, resistances, vulnerabilities, and the like. At 14th level, adamantine is added to the list of metal choices. El conjuro gains the metal rasgo.",
-        "GrowthSpell": "Expand the area of el conjuro. For bursts, expand the radius by 5 pies; for cones, expand the cone by 10 pies; and for lines, expand the length by 15 pies. El conjuro gains the wood rasgo.",
-        "GustingSpell": "Si the next action tú use is to Lanzar un conjuro with the air or electricity rasgo, puedes Fly up to 10 pies before or after el conjuro is cast.",
-        "Harmonize": "Si tu next action is to cast a composition, it becomes a harmonized composition. Unlike a normal composition, a harmonized composition doesn't end if tú cast another composition, and puedes cast another composition on the same turn as a harmonized one. Casting another harmonized composition ends any harmonized composition tú already have in effect.",
-        "HealingTransformation": "Tu conjuro de polimorfia also restores @Damage[(@item.rank)d6[healing]] to that criatura. Esto is a healing effect.",
-        "HeraldicProclamation": "All aliados within 30 pies gain @Damage[(2 * @item.rank)[healing,vitality]|shortLabel] Puntos de golpe, and all enemies within 30 pies take @Damage[(2 * @item.rank)[spirit]|traits:sanctified] daño with a @Check[will|basic] salvación against tu conjuro DC.",
-        "HeroicRecovery": "El objetivo gains three bonuses hasta el final de su siguiente turno: a +5-pies bonificador de estado to its Velocidad, a +1 bonificador de estado a las tiradas de ataque, and a +1 bonificador de estado to tiradas de daño. In addition, if el objetivo queda Tumbado, it can immediately Stand as a free action that no desencadena reacciones.",
-        "InTune": "Si tu next action is casting a composition conjuro with an emanation area, its area spreads from a willing aliado of tu choice within 60 pies instead of tú. Si tienes Directed Audience, puedes have that cone originate from the aliado instead.",
-        "InterweaveDispel": "Si tu next action is to cast a single-target conjuro against an enemigo, and tú either hit the enemigo with el conjuro tirada de ataque or the enemigo fails its tirada de salvación, puedes cast @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} on the enemigo as a free action, expending a conjuro slot as normal and targeting one conjuro effect affecting the enemigo.",
-        "IntoTheFuture": "Si tu next action is to Lanzar un conjuro that takes 1 or 2 actions to cast, el conjuro's effects occur 1 asalto later, at the beginning of tu next turn, rather than immediately. Targets and choices about el conjuro must be determined when el conjuro is cast, and requirements, such as line of sight and line of effect, must be valid both when el conjuro is cast and when its effects occur. Consequences for the action of Casting the Spell itself, such as an Attack of Opportunity reaction or ending a foe's @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinado} estado by taking a hostile action, aren't delayed.",
+        "ConcealSpell": "El conjuro obtiene el rasgo sutil, ocultando las runas brillantes, chispas de magia y otras manifestaciones que normalmente revelarían tu lanzamiento. El rasgo solo oculta las acciones y manifestaciones de lanzamiento del conjuro, no sus efectos, por lo que un observador aún podría ver un rayo salir de ti o verte desaparecer en el aire.",
+        "CourageousAdvance": "Un aliado a tu elección que obtenga un bonificador de estado del conjuro puede usar inmediatamente su reacción para Zancada.",
+        "CourageousAssault": "Un aliado a tu elección que obtenga un bonificador de estado del conjuro puede usar inmediatamente su reacción para realizar un Golpe cuerpo a cuerpo.",
+        "CourageousOnslaught": "Un aliado a tu elección que obtenga un bonificador de estado del conjuro puede usar inmediatamente su reacción para Zancada y luego realizar un Golpe cuerpo a cuerpo.",
+        "CrypticSpell": "Si la siguiente acción que realizas es Lanzar un conjuro, intenta una prueba de Naturaleza contra las CD de Percepción de todos los observadores. Si tienes éxito en tu prueba contra la CD de Percepción de un observador, ese observador no nota que estás Lanzando un conjuro, aunque los componentes verbales, somáticos y materiales suelen ser perceptibles, y los conjuros normalmente tienen manifestaciones sensoriales que harían evidente el lanzamiento a quienes están cerca. Todo eso queda oculto entre las vistas y sonidos naturales del entorno. Esta aptitud solo oculta las acciones y manifestaciones de lanzamiento del conjuro, no sus efectos, por lo que un observador aún podría verte transformarte en un oso gigante.",
+        "CurrentSpell": "Hasta el comienzo de tu siguiente turno, obtienes un bonificador de circunstancia +1 a la CA o un bonificador de circunstancia +2 contra ataques a distancia. Este efecto tiene el rasgo aire o agua, o ambos, dependiendo de los rasgos del conjuro que lanzaste. También obtienes un bonificador de circunstancia +1 a todas las salvaciones contra efectos con el rasgo seleccionado, según los rasgos del conjuro. @UUID[Compendium.pf2e.feat-effects.Item.8HGz3rQCHNgdAqFC]{Efecto: Conjuro de corriente}",
+        "DefensiveCoordination": "Puedes Alzar un escudo, y un aliado a tu elección que obtenga un bonificador de estado del conjuro puede usar inmediatamente su reacción para Alzar un escudo.",
+        "DefensiveRecovery": "Si el objetivo recupera Puntos de Golpe gracias al conjuro, también obtiene un bonificador de estado +2 a la CA y a las tiradas de salvación durante 1 asalto. @UUID[Compendium.pf2e.feat-effects.Item.jwxurN6JPQm9wXug]{Efecto: Recuperación defensiva}",
+        "DivineInfusion": "El objetivo inflige daño adicional con sus armas cuerpo a cuerpo y ataques sin armas hasta el final de su siguiente turno. El tipo de daño es vacío si lanzaste <em>dañar</em> y vitalidad si lanzaste <em>curar</em>. @UUID[Compendium.pf2e.feat-effects.Item.eecIuD6sGPX0FJcT]{Efecto: Infusión divina}.",
+        "DousingSpell": "Empapas con agua al objetivo del conjuro. Si el objetivo tiene daño persistente de ácido o fuego, la CD para terminar esas condiciones se reduce a 10, y la criatura puede intentar inmediatamente una prueba plana para terminar esos tipos de daño persistente. El conjuro obtiene el rasgo agua, lo que hace que inflija daño adicional a criaturas con debilidad al agua.",
+        "EbbAndFlow": "Elige una criatura dentro del alcance que sería dañada por el conjuro y otra criatura dentro del alcance que sería curada por el conjuro. Tu curar o dañar toma como objetivo a ambas criaturas.",
+        "EchoingSpell": "Puedes Lanzar el conjuro una segunda vez antes del final de tu siguiente turno sin gastar un espacio de conjuro.",
+        "EchoingChannel": "Elige una criatura adicional dentro del alcance. Toma a esa criatura como objetivo con una versión de 1 acción del mismo conjuro. Este conjuro tiene el mismo rango que el dañar o curar de 2 acciones que lanzaste y no cuesta otro espacio de conjuro.",
+        "EnergyAblation": "Si tu siguiente acción es Lanzar un conjuro que inflige al menos un tipo de daño de energía (ácido, frío, electricidad, fuego, fuerza, sónico, vitalidad o vacío), obtienes resistencia a un tipo de daño de energía de tu elección igual al rango del conjuro. La resistencia dura hasta el final de tu siguiente turno. Obtienes la resistencia independientemente de si tu conjuro infligió daño o no.",
+        "EnergyFusion": "Selecciona un conjuro que no sea truco de tu repertorio de conjuros que inflija un tipo distinto de daño de energía y gasta un espacio de conjuro adicional del mismo rango que ese conjuro secundario. El conjuro que lanzas inflige daño adicional igual al rango del espacio de conjuro secundario gastado. El daño total del conjuro se divide por igual entre el tipo de energía del conjuro que lanzaste y el tipo de energía del conjuro secundario.",
+        "ExplosiveArrival": "Todas las criaturas en una @Template[emanation|distance:10] alrededor de la criatura que invocaste reciben @Damage[(@item.level)d4[@actor.flags.system.spellshape.explosiveArrivalDamage]|options:area-damage] de daño. Si la criatura invocada tiene el rasgo ácido, frío, electricidad, sónico o espíritu, puedes infligir daño de ese tipo en su lugar.",
+        "FamiliarsResolve": "Si la siguiente acción que usas es Lanzar un conjuro, tú o un aliado a 30 pies o menos obtenéis un bonificador de estado +2 a las tiradas de salvación contra efectos que os dejarían condenados o asustados durante 1 asalto. A nivel 14, tú o un aliado obtenéis en su lugar un bonificador de estado +3 a las tiradas de salvación contra estos efectos. @UUID[Compendium.pf2e.feat-effects.Item.6I4qWkHzxj4MAt6g]{Efecto: Resolución del familiar}",
+        "ForcibleEnergy": "Si tu siguiente acción es Lanzar un conjuro que inflige daño de ácido, frío, electricidad, fuego o sónico, puedes seleccionar un objetivo que haya recibido daño para que gane debilidad 5 a ese tipo de daño hasta el final de tu siguiente turno. Si un conjuro inflige varios tipos de daño de energía, elige uno al que el objetivo gane debilidad. Esto no tiene efecto en criaturas con resistencia o inmunidad al tipo de energía que elijas. @UUID[Compendium.pf2e.feat-effects.Item.0Ai0u9kNJrEudPnN]{Efecto: Energía forzosa}",
+        "FormControl": "El rango del conjuro es 2 inferior al normal (mínimo rango 1), pero puedes permanecer transformado hasta 1 hora o la duración indicada, lo que sea mayor. Aún puedes Descarta forma indómita con normalidad.",
+        "GarlandSpell": "Una guirnalda de plantas crece en una @Template[burst|distance:10] dentro del alcance del conjuro. Las plantas son terreno difícil y terreno peligroso, cubiertas por espinas o enredaderas venenosas a tu elección. Cualquier criatura que se mueva a una de estas casillas o termine su turno en una recibe @Damage[2d6[piercing]] de daño por las espinas o @Damage[2d6[poison]] por las enredaderas. Una criatura solo puede recibir este daño una vez por turno. Tú y tu familiar sois inmunes a este daño. Las plantas duran 1 minuto o hasta que lances otro Conjuro de guirnalda, lo que ocurra primero. El daño aumenta a 3d6 a nivel 16 y a 4d6 a nivel 20.",
+        "GoldenDragonsBounty": "Si la siguiente acción que usas es Lanzar un conjuro que inflige daño contundente, perforante o cortante, ese daño cuenta como hierro frío, plata o acero, a tu elección, a efectos de debilidades, resistencias, vulnerabilidades y similares. A nivel 14, adamantina se añade a la lista de metales disponibles. El conjuro obtiene el rasgo metal.",
+        "GrowthSpell": "Expande el área del conjuro. En las explosiones, aumenta el radio en 5 pies; en los conos, aumenta el cono en 10 pies; y en las líneas, aumenta la longitud en 15 pies. El conjuro obtiene el rasgo madera.",
+        "GustingSpell": "Si la siguiente acción que usas es Lanzar un conjuro con el rasgo aire o electricidad, puedes Volar hasta 10 pies antes o después de lanzar el conjuro.",
+        "Harmonize": "Si tu siguiente acción es lanzar una composición, se convierte en una composición armonizada. A diferencia de una composición normal, una composición armonizada no termina si lanzas otra composición, y puedes lanzar otra composición en el mismo turno que una armonizada. Lanzar otra composición armonizada termina cualquier composición armonizada que ya tengas en efecto.",
+        "HealingTransformation": "Tu conjuro de polimorfia también restaura @Damage[(@item.rank)d6[healing]] a esa criatura. Este es un efecto de curación.",
+        "HeraldicProclamation": "Todos los aliados a 30 pies o menos ganan @Damage[(2 * @item.rank)[healing,vitality]|shortLabel] Puntos de Golpe, y todos los enemigos a 30 pies o menos reciben @Damage[(2 * @item.rank)[spirit]|traits:sanctified] de daño con una salvación de @Check[will|basic] contra tu CD de conjuro.",
+        "HeroicRecovery": "El objetivo obtiene tres bonificadores hasta el final de su siguiente turno: un bonificador de estado +5 pies a su Velocidad, un bonificador de estado +1 a las tiradas de ataque y un bonificador de estado +1 a las tiradas de daño. Además, si el objetivo está Derribado, puede Levantarse inmediatamente como acción gratuita que no desencadena reacciones.",
+        "InTune": "Si tu siguiente acción es lanzar un conjuro de composición con un área de emanación, su área se extiende desde un aliado voluntario de tu elección a 60 pies o menos en lugar de desde ti. Si tienes Audiencia dirigida, puedes hacer que ese cono se origine en el aliado en su lugar.",
+        "InterweaveDispel": "Si tu siguiente acción es lanzar un conjuro de un solo objetivo contra un enemigo, y aciertas al enemigo con la tirada de ataque de conjuro o el enemigo falla su tirada de salvación, puedes lanzar @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Disipar magia} sobre el enemigo como acción gratuita, gastando un espacio de conjuro con normalidad y tomando como objetivo un efecto de conjuro que afecte al enemigo.",
+        "IntoTheFuture": "Si tu siguiente acción es Lanzar un conjuro que requiere 1 o 2 acciones para lanzarse, los efectos del conjuro ocurren 1 asalto más tarde, al comienzo de tu siguiente turno, en lugar de inmediatamente. Los objetivos y elecciones del conjuro deben determinarse cuando se lanza, y los requisitos, como la línea de visión y la línea de efecto, deben ser válidos tanto cuando se lanza el conjuro como cuando ocurren sus efectos. Las consecuencias de la propia actividad de Lanzar un conjuro, como una reacción de Ataque de oportunidad o terminar el estado @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{fascinado} de un enemigo por realizar una acción hostil, no se retrasan.",
         "KaleidoscopicEntreaty": {
-          "Description": "Si tu next action is to cast @UUID[Compendium.pf2e.spells-srd.Item.Yph1UqZU8vMc9bJG]{Entreat Spirit}, puedes cause that spirit to unleash a brilliant display of color, light, and sound in a @Template[type:emanation|distance:10] centered on tú. Each criatura in the area must attempt a @Check[fortitude|against:class-spell] salvación contra la CD de tu clase or conjuro DC with the following results.",
-          "CriticalFailure": "El criatura is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegado} durante 1 asalto and dazzled durante 1 minuto.",
-          "CriticalSuccess": "El criatura is unaffected.",
-          "Fallo": "El criatura is dazzled durante 1 minuto.",
-          "Éxito": "La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrada} durante 1 asalto."
+          "Description": "Si tu siguiente acción es lanzar @UUID[Compendium.pf2e.spells-srd.Item.Yph1UqZU8vMc9bJG]{Suplicar al espíritu}, puedes hacer que ese espíritu libere un despliegue brillante de color, luz y sonido en una @Template[type:emanation|distance:10] centrada en ti. Cada criatura en el área debe intentar una salvación de @Check[fortitude|against:class-spell] contra tu CD de clase o CD de conjuro con los siguientes resultados.",
+          "CriticalFailure": "La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{cegada} durante 1 asalto y deslumbrada durante 1 minuto.",
+          "CriticalSuccess": "La criatura no se ve afectada.",
+          "Failure": "La criatura queda deslumbrada durante 1 minuto.",
+          "Success": "La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{deslumbrada} durante 1 asalto."
         },
         "KnowledgeOfShapes": "Usas @UUID[Compendium.pf2e.feats-srd.Item.BWomK7EVY0WXxWgh]{Conjuro de alcance} o @UUID[Compendium.pf2e.feats-srd.Item.FoWO4RnHRwfEIC7Q]{Ampliar conjuro} como acción gratuita.",
         "LeyLineConduit": "No gastas el conjuro preparado al lanzarlo.",
         "Martyr": "Pierdes @Damage[(@item.rank)d8] Puntos de Golpe, que no pueden reducirse ni mitigarse de ninguna forma, y tu aliado recupera la misma cantidad de Puntos de Golpe.",
         "MelodiousSpell": "El conjuro obtiene el rasgo sutil. El rasgo solo oculta las acciones y manifestaciones de lanzamiento del conjuro, no sus efectos. Como parte de usar Conjuro melodioso, puedes elegir @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Crear una distracción}, @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Desmoralizar}, @UUID[Compendium.pf2e.actionspf2e.Item.EEDElIyin4z60PXx]{Interpretar} o Solicitar. Si lo haces, el conjuro que lances debe tener el rasgo auditivo, emoción, sónico o visual para obtener el rasgo sutil.",
         "NonLethal": "Si tu siguiente acción es Lanzar un conjuro que inflige daño y no tiene el rasgo muerte o vacío, ese conjuro obtiene el rasgo no letal.",
-        "OstentatiousArrivalManifestEidolon": "All criaturas except tú in a @Template[type:emanation|distance:10] around the criatura tú summoned or manifested take @Damage[(@actor.level)d4[@actor.flags.pf2e.spellshape.arrivalDamage]|options:area-damage]. Si the criatura tú summoned or manifested has the acid, cold, electricity, fire, sonic, or water rasgo, the daño is that type instead (or daño de frío for the water rasgo). Si the criatura has more than one of these rasgos, tú elige which tipo de daño a deal.",
-        "OstentatiousArrivalSummonSpell": "All criaturas in a @Template[type:emanation|distance:10] around the criatura tú summoned or manifested take @Damage[(@item.level)d4[@actor.flags.pf2e.spellshape.arrivalDamage]|options:area-damage] daño. Si the criatura tú summoned or manifested has the acid, cold, electricity, fire, sonic, or water rasgo, the daño is that type instead (or daño de frío for the water rasgo). Si the criatura has more than one of these rasgos, tú elige which tipo de daño a deal.",
+        "OstentatiousArrivalManifestEidolon": "Todas las criaturas excepto tú en una @Template[type:emanation|distance:10] alrededor de la criatura que invocaste o manifestaste reciben @Damage[(@actor.level)d4[@actor.flags.system.spellshape.arrivalDamage]|options:area-damage]. Si la criatura que invocaste o manifestaste tiene el rasgo ácido, frío, electricidad, fuego, sónico o agua, el daño es de ese tipo en su lugar (o daño de frío para el rasgo agua). Si la criatura tiene más de uno de estos rasgos, eliges qué tipo de daño infligir.",
+        "OstentatiousArrivalSummonSpell": "Todas las criaturas en una @Template[type:emanation|distance:10] alrededor de la criatura que invocaste o manifestaste reciben @Damage[(@item.level)d4[@actor.flags.system.spellshape.arrivalDamage]|options:area-damage] de daño. Si la criatura que invocaste o manifestaste tiene el rasgo ácido, frío, electricidad, fuego, sónico o agua, el daño es de ese tipo en su lugar (o daño de frío para el rasgo agua). Si la criatura tiene más de uno de estos rasgos, eliges qué tipo de daño infligir.",
         "OverwhelmingBreath": "Si usas tu siguiente acción para Lanzar un conjuro que tiene el rasgo monje y no tiene duración, el conjuro y cualquier Golpe que hagas como resultado de lanzarlo ignoran una cantidad de resistencia del objetivo al daño físico igual a tu nivel.",
         "OverwhelmingEnergy": "Si la siguiente acción que usas es Lanzar un conjuro, el conjuro ignora una cantidad de la resistencia del objetivo al ácido, frío, electricidad, fuego o daño sónico igual a tu nivel. Esto se aplica a todo el daño que inflige el conjuro, incluido el daño persistente y el daño causado por un efecto continuo del conjuro, como el muro creado por muro de fuego. Las inmunidades de una criatura no se ven afectadas.",
         "PitchPerfectProjection": "Si tu siguiente acción de este asalto es Lanzar un conjuro o usar una acción que crea un efecto auditivo con alcance, aumenta ese alcance en 30 pies.",
-        "PortentousSpell": "Si la siguiente acción que usas es Lanzar un conjuro, cualquier criatura que intente usar una reacción desencadenada por tu actividad de Lanzar un conjuro sufre un penalizador por circunstancia -2 a las tiradas de ataque y pruebas de habilidad realizadas como parte de la reacción. Además, si el conjuro incluye un ataque de conjuro o requiere una tirada de salvación, las criaturas a las que impactes o que fallen sus salvaciones quedan @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinadas} contigo hasta el comienzo de tu siguiente turno. @UUID[Compendium.pf2e.feat-effects.Item.klZVVIetJlR99cT6]{Efecto: Conjuro portentoso}",
+        "PortentousSpell": "Si la siguiente acción que usas es Lanzar un conjuro, cualquier criatura que intente usar una reacción desencadenada por tu actividad de Lanzar un conjuro sufre un penalizador de circunstancia -2 a las tiradas de ataque y pruebas de habilidad realizadas como parte de la reacción. Además, si el conjuro incluye un ataque de conjuro o requiere una tirada de salvación, las criaturas a las que impactes o que fallen sus salvaciones quedan @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{fascinadas} contigo hasta el comienzo de tu siguiente turno. @UUID[Compendium.pf2e.feat-effects.Item.klZVVIetJlR99cT6]{Efecto: Conjuro portentoso}",
         "PurifyingSpell": "Si la siguiente acción que usas es lanzar _curar_ con una sola criatura viva como objetivo, puedes intentar contrarrestar una enfermedad o veneno que afecte al objetivo, además de los demás beneficios de _curar_. Si lo haces, _curar_ obtiene el rasgo agua.",
         "QuickenedCasting": "Si tu siguiente acción es lanzar un truco o un conjuro al menos 2 rangos inferior al espacio de conjuro de mayor rango que tienes, reduce en 1 el número de acciones para lanzarlo (mínimo 1 acción).",
-        "ReachSpell": "Si la siguiente acción que utilizas es Lanzar un conjuro que tiene alcance, incrementa dicho alcance en 30 pies (9 m). Como es habitual cuando se incrementan los alcances de conjuro, si éste tiene normalmente un alcance de toque, lo alargas a 30 pies (9 m).",
-        "Remediate": "Si tu siguiente acción es usar tu fuente divina para lanzar un conjuro de curar o dañar que requiera 3 acciones, puedes aprovechar la energía residual para contrarrestar fuerzas opuestas. Además de sus efectos normales, usas tu conjuro de curar o dañar para intentar contrarrestar un efecto divino en el área del conjuro.",
-        "ReverberatingSpell": "El conjuro inflige @Damage[1d8[sonic]] de daño adicional y todas las criaturas que fallen su salvación contra el conjuro quedan @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ensordecidas} durante 1 asalto. Los objetivos que fallen críticamente sus salvaciones contra este conjuro quedan ensordecidos durante 1 minuto. El conjuro obtiene el rasgo sónico.",
+        "ReachSpell": "Si la siguiente acción que utilizas es Lanzar un conjuro que tiene alcance, incrementa dicho alcance en 30 pies. Como es habitual al incrementar alcances de conjuro, si el conjuro normalmente tiene alcance de toque, lo alargas a 30 pies.",
+        "Remediate": "Si tu siguiente acción es usar tu fuente divina para lanzar un conjuro de curar o dañar de 3 acciones, puedes aprovechar la energía residual para contrarrestar fuerzas opuestas. Además de sus efectos normales, usas tu conjuro de curar o dañar para intentar contrarrestar un efecto divino en el área del conjuro.",
+        "ReverberatingSpell": "El conjuro inflige @Damage[1d8[sonic]] de daño adicional y todas las criaturas que fallen su salvación contra el conjuro quedan @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{ensordecidas} durante 1 asalto. Los objetivos que fallen críticamente sus salvaciones contra este conjuro quedan ensordecidos durante 1 minuto. El conjuro obtiene el rasgo sónico.",
         "RockslideSpell": "Una cantidad de casillas de 5 pies en el área igual al rango del conjuro se convierten en terreno difícil durante 1 asalto. Estas casillas deben estar en el suelo, y toda el área de terreno difícil debe ser contigua. El conjuro obtiene el rasgo tierra.",
         "SafeguardSpell": "Si la siguiente acción que realizas es Lanzar un conjuro con área, no te ves afectado por el conjuro aunque estés dentro del área.",
-        "ScintillatingSpell": "Si tu siguiente acción es Lanzar un conjuro que no tiene el rasgo oscuridad, no tiene duración y requiere que las criaturas intenten una salvación de Reflejos, el conjuro explota en una lluvia de luces centelleantes además de sus demás efectos. Cada criatura que falle su salvación de Reflejos contra el conjuro queda @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrada} durante 1 asalto, y quienes fallen críticamente quedan @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegados} durante 1 asalto.",
-        "SecondaryDetonationArray": "Si tu next action is to Lanzar un conjuro that deals daño, has no duration, and affects an area, a glowing magic circle appears in a @Template[type:burst|distance:5] within that area. At the beginning of tu next turn, the circle detonates, dealing @Damage[(@item.level)d6[force]] daño a all criaturas within the circle, with a @Check[type:reflex|dc:resolve(@actor.system.attributes.spellDC.value)]. Si el conjuro dealt a different type of daño, the circle deals @Damage[(@item.level)d6[@actor.flags.pf2e.spellshape.arrayDamage]]{this type of daño instead} (or one type of tu choice if el conjuro could deal multiple types of daño)",
-        "SeneschalSpell": "Si tu next action is to Lanzar un conjuro and tu charge is within 30 pies, puedes have el conjuro originate from tu charge instead. That criatura can use their reaction to roughly complete el conjuro's incantation, which gives el conjuro the subtle rasgo for tú (but not for them) as the manifestation appears solely around tu charge.",
-        "SinbladedSpell": "Si tú either succeed on tu tirada de ataque or el objetivo fails its tirada de salvación against el conjuro, tú deal @Damage[(@item.rank)[bleed]] daño a el objetivo.",
+        "ScintillatingSpell": "Si tu siguiente acción es Lanzar un conjuro que no tiene el rasgo oscuridad, no tiene duración y requiere que las criaturas intenten una salvación de Reflejos, el conjuro explota en una lluvia de luces centelleantes además de sus demás efectos. Cada criatura que falle su salvación de Reflejos contra el conjuro queda @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{deslumbrada} durante 1 asalto, y quienes fallen críticamente quedan @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{cegados} durante 1 asalto.",
+        "SecondaryDetonationArray": "Si tu siguiente acción es Lanzar un conjuro que inflige daño, no tiene duración y afecta a un área, aparece un círculo mágico brillante en una @Template[burst|distance:5] dentro de esa área. Al comienzo de tu siguiente turno, el círculo detona e inflige @Damage[(@item.level)d6[force]|options:area-damage] de daño a todas las criaturas dentro del círculo, con una @Check[reflex|against:spell|options:area-effect,damaging-effect]. Si el conjuro infligió otro tipo de daño, el círculo inflige @Damage[(@item.level)d6[@actor.flags.system.spellshape.arrayDamage]|options:area-damage]{ese tipo de daño en su lugar} (o un tipo de tu elección si el conjuro podía infligir varios tipos de daño).",
+        "SeneschalSpell": "Si tu siguiente acción es Lanzar un conjuro y tu protegido está a 30 pies o menos, puedes hacer que el conjuro se origine desde tu protegido en lugar de desde ti. Esa criatura puede usar su reacción para completar de forma aproximada la salmodia del conjuro, lo que da al conjuro el rasgo sutil para ti (pero no para ella), ya que la manifestación aparece solo alrededor de tu protegido.",
+        "SinbladedSpell": "Si tienes éxito en tu tirada de ataque o el objetivo falla su tirada de salvación contra el conjuro, infliges @Damage[(@item.rank)[bleed]] de daño al objetivo.",
         "SnowdriftSpell": "Selecciona una criatura afectada por el conjuro que esté en el suelo. Cada casilla del suelo bajo la criatura o adyacente a ella se llena de nieve hasta el tobillo. Esas casillas son terreno difícil hasta el comienzo de tu siguiente turno. Una criatura puede Interactuar para limpiar una casilla de nieve, y la nieve de una casilla se derrite si esa casilla queda expuesta a un efecto de fuego.",
-        "SowSpell": "Si tu next action is to Lanzar un conjuro using 1 action or 2 actions, el conjuro instead plants itself in an adjacent square. Debes make all decisions regarding el conjuro at the time tú cast it. Within the next 10 minutos, puedes direct tu sown conjuro to sprout and produce el conjuro's effects as a reaction, which is triggered when a criatura enters the sown conjuro's space or a square adjacent to it. Puedes have only one sown conjuro at a time, and if tú don't trigger el conjuro within 10 minutos, it dissipates and el conjuro is lost. A criatura can notice the sown conjuro with a successful Perception check against tu conjuro DC.",
-        "SpellShroud": "Si tu siguiente acción es Lanzar un conjuro que te tiene como objetivo, te rodeas de una @Template[emanation|distance:15] de densa niebla mágica que dura hasta el comienzo de tu siguiente turno. Todas las criaturas dentro de la nube quedan @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Ocultas}, y todas las criaturas fuera de la nube están ocultas para las criaturas dentro de ella.",
-        "SplitHex": "Si la siguiente acción que usas es Lanzar un conjuro para lanzar un embrujo dañino con un único objetivo, reduce su rango en 2. Si lo haces, puedes seleccionar un segundo objetivo para que ese embrujo lo afecte.",
-        "SplitShot": "Si tu next action is to Lanzar un conjuro without a duration that requires an tirada de ataque against a single target, puedes elige a second target within range. Tiras a single tirada de ataque and compare the result to the CA of both targets. Esto counts as one attack for tu multiple attack penalizador. To the second target, el conjuro deals half the amount of daño it would normally deal and has no effects beyond el conjuro's initial daño (such as imposing estados or penalties).",
-        "SurgingMight": "Si the next action tú use is to Lanzar un conjuro, el conjuro ignores an amount of el objetivo's resistance equal to tu level against the following types of daño: spirit, vitality, and void. Esto applies to all daño el conjuro deals, including daño persistente and daño caused by an ongoing effect of el conjuro. Esto doesn't cause el conjuro to ignore immunities, only resistances.",
+        "SowSpell": "Si tu siguiente acción es Lanzar un conjuro usando 1 acción o 2 acciones, el conjuro se planta en una casilla adyacente. Debes tomar todas las decisiones relativas al conjuro en el momento de lanzarlo. Durante los siguientes 10 minutos, puedes dirigir tu conjuro sembrado para que brote y produzca sus efectos como reacción, desencadenada cuando una criatura entra en el espacio del conjuro sembrado o en una casilla adyacente. Solo puedes tener un conjuro sembrado a la vez, y si no desencadenas el conjuro en 10 minutos, se disipa y el conjuro se pierde. Una criatura puede advertir el conjuro sembrado con una prueba de Percepción exitosa contra tu CD de conjuro.",
+        "SpellShroud": "Si tu siguiente acción es Lanzar un conjuro que te tiene como objetivo, te rodeas de una @Template[emanation|distance:15] de densa niebla mágica que dura hasta el comienzo de tu siguiente turno. Todas las criaturas dentro de la nube quedan @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{ocultas}, y todas las criaturas fuera de la nube están ocultas para las criaturas dentro de ella.",
+        "SplitHex": "Si la siguiente acción que usas es Lanzar un conjuro para lanzar un embrujo dañino con un único objetivo, reduce su rango en 2, dejándolo 2 rangos por debajo del rango máximo de conjuro que puedes lanzar. Si lo haces, puedes seleccionar un segundo objetivo para que ese embrujo lo afecte.",
+        "SplitShot": "Si tu siguiente acción es Lanzar un conjuro sin duración que requiere una tirada de ataque contra un único objetivo, puedes elegir un segundo objetivo dentro del alcance. Realizas una única tirada de ataque y comparas el resultado con la CA de ambos objetivos. Esto cuenta como un ataque para tu penalizador por ataques múltiples. Para el segundo objetivo, el conjuro inflige la mitad del daño que normalmente infligiría y no tiene efectos más allá del daño inicial del conjuro, como imponer condiciones o penalizadores.",
+        "SurgingMight": "Si la siguiente acción que usas es Lanzar un conjuro, el conjuro ignora una cantidad de la resistencia del objetivo igual a tu nivel contra los siguientes tipos de daño: espíritu, vitalidad y vacío. Esto se aplica a todo el daño que inflige el conjuro, incluido el daño persistente y el daño causado por un efecto continuo del conjuro. Esto no hace que el conjuro ignore inmunidades, solo resistencias.",
         "SynergisticSpell": "Puedes Lanzar otro conjuro como acción gratuita. Este conjuro debe lanzarse desde uno de tus espacios de conjuro halcyon.",
-        "ThunderclapSpell": "Si tu next action is to Lanzar un conjuro that has the electricity rasgo or deals daño de electricidad, has no duration, and requires criaturas to attempt a tirada de salvación, the force of el conjuro's lightning creates a thunderclap, in addition to its other effects. Each criatura that failed its Reflex save against el conjuro is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ensordecido} durante 1 asalto, and those who critically failed are also knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}.",
-        "TimelineSplittingSpell": "Lanzas dos conjuros that each take 1 or 2 actions to cast. Estos can't be the same conjuro heightened to two different levels. Gastas the resources for both conjuros, such as conjuro slots, Focus Points, and material components. Determine the immediate results for both conjuros, including tiradas de ataque, tiradas de salvación, daño, and any other dice rolls. Then, elige which of the two conjuros takes effect, using the previously made rolls. El other conjuro's resources are still expended, but el conjuro has no effect as the magic disappears the other timeline.",
-        "UnlimitedPotential": "Si tu next action is to Lanzar un conjuro of 5th level or lower that has no duration, tú don't expend the prepared conjuro as tú cast it.",
-        "UnusualComposition": "Si tu next action is to cast a composition conjuro that is auditory or visual, puedes have it affect criaturas who can witness it with any sense, not just those the rasgos indicate, even including special senses like tremorsense. Puedes elegir to exclude any senses tú elige.",
+        "ThunderclapSpell": "Si tu siguiente acción es Lanzar un conjuro que tiene el rasgo electricidad o inflige daño de electricidad, no tiene duración y requiere que las criaturas intenten una tirada de salvación, la fuerza del relámpago del conjuro crea un trueno, además de sus demás efectos. Cada criatura que falle su salvación de Reflejos contra el conjuro queda @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{ensordecida} durante 1 asalto, y quienes fallen críticamente también quedan @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{derribados}.",
+        "TimelineSplittingSpell": "Lanzas dos conjuros que requieren 1 o 2 acciones para lanzarse. No pueden ser el mismo conjuro intensificado a dos niveles distintos. Gastas los recursos de ambos conjuros, como espacios de conjuro, Puntos de Foco y componentes materiales. Determina los resultados inmediatos de ambos conjuros, incluidas tiradas de ataque, tiradas de salvación, daño y cualquier otra tirada de dados. Luego eliges cuál de los dos conjuros surte efecto, usando las tiradas ya realizadas. Los recursos del otro conjuro siguen gastándose, pero el conjuro no tiene efecto cuando la magia desaparece en la otra línea temporal.",
+        "UnlimitedPotential": "Si tu siguiente acción es Lanzar un conjuro de nivel 5 o inferior que no tiene duración, no gastas el conjuro preparado al lanzarlo.",
+        "UnusualComposition": "Si tu siguiente acción es lanzar un conjuro de composición auditivo o visual, puedes hacer que afecte a criaturas que puedan percibirlo con cualquier sentido, no solo con los sentidos indicados por los rasgos, incluso sentidos especiales como sentido de la vibración. Puedes elegir excluir cualquier sentido que elijas.",
         "VigorousAnthem": "Tú y todos los aliados afectados obtenéis PG temporales iguales a 3 + tu modificador de Carisma, que duran 1 minuto. @UUID[Compendium.pf2e.feat-effects.Item.7AzGhIOx4Df5Cicr]{Efecto: Himno vigoroso}",
-        "WhatCouldHaveBeen": "Si tu next action is to Lanzar un conjuro that summons a criatura, that criatura is another version of tú. Esto criatura remains the type of criatura tú summoned and has largely the same abilities (plus the following adjustments), but it clearly resembles tú, likely sharing some distinguishing features, such as mannerisms, speech patterns, tattoos, or clothing. El summoned criatura gains a +1 bonificador de estado to any prueba de habilidad in which estás entrenado, a +2 bonificador de estado if estás an experto, a +3 bonificador de estado if estás a maestro, or a +4 bonificador de estado if estás legendario. El criatura also takes a –2 penalizador to all skills in which estás untrained.",
-        "WidenSpell": "Si the next action tú use is to Lanzar un conjuro that has an area of a burst, cone, or line and does not have a duration, increase the area of that conjuro. Add 5 pies to the radius of a burst that normally has a radius of at least 10 pies (a burst with a smaller radius is not affected). Add 5 pies to the length of a cone or line that is normally 15 pies long or smaller, and add 10 pies to the length of a larger cone or line.",
-        "WindTossedSpell": "Ignoras el estado @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} del objetivo y cualquier cobertura que tenga frente a ti. El conjuro obtiene el rasgo aire.",
+        "WhatCouldHaveBeen": "Si tu siguiente acción es Lanzar un conjuro que invoca una criatura, esa criatura es otra versión de ti. Esta criatura sigue siendo el tipo de criatura que invocaste y tiene en gran medida las mismas aptitudes, con los siguientes ajustes, pero se parece claramente a ti y probablemente comparte rasgos distintivos, como gestos, patrones de habla, tatuajes o ropa. La criatura invocada obtiene un bonificador de estado +1 a cualquier prueba de habilidad en la que estés entrenado, +2 si eres experto, +3 si eres maestro o +4 si eres legendario. La criatura también sufre un penalizador -2 a todas las habilidades en las que no estés entrenado.",
+        "WidenSpell": "Si la siguiente acción que usas es Lanzar un conjuro que tiene un área de explosión, cono o línea y no tiene duración, aumenta el área de ese conjuro. Añade 5 pies al radio de una explosión que normalmente tenga un radio de al menos 10 pies; una explosión con un radio menor no se ve afectada. Añade 5 pies a la longitud de un cono o línea que normalmente mida 15 pies o menos, y añade 10 pies a la longitud de un cono o línea mayor.",
+        "WindTossedSpell": "Ignoras el estado @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{oculto} del objetivo y cualquier cobertura que tenga frente a ti. El conjuro obtiene el rasgo aire.",
         "WorldsphereGravity": {
           "GravitationalMorass": {
-            "Note": "Las criaturas voladoras que atraviesen el área (@Template[burst|distance:20] centrada dentro del área del conjuro) deben superar una salvación de Reflejos contra tu CD de conjuro o caer al suelo, recibiendo daño contundente igual a la mitad de la distancia caída.",
+            "Note": "Las criaturas voladoras que pasen por el área (@Template[burst|distance:20] centrada dentro del área del conjuro) deben tener éxito en una salvación de Reflejos contra tu CD de conjuro o caer al suelo, recibiendo daño contundente igual a la mitad de la distancia caída.",
             "RollOptionLabel": "Ciénaga gravitatoria"
           },
           "FlowingTime": {
-            "Note": "Una criatura que comienza su turno en la explosión (@Template[burst|distance:20] centrada dentro del área del conjuro) queda afectada por @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{Prisa} en ese turno.",
-            "RollOptionLabel": "Tiempo fluyente"
+            "Note": "Una criatura que comienza su turno en la explosión (@Template[burst|distance:20] centrada dentro del área del conjuro) queda afectada por @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{Acelerar} durante ese turno.",
+            "RollOptionLabel": "Tiempo fluido"
           }
         }
       },
@@ -6878,8 +6998,8 @@
           "CraneStance": "Reduce en 5 la CD para Salto de altura y Salto de longitud, y cuando Saltas puedes moverte 5 pies horizontales adicionales o 2 pies verticales adicionales.",
           "GorillaStance": "Si obtienes un éxito en una prueba de Atletismo para Trepar, obtienes un éxito crítico en su lugar.",
           "ShatteringEarthStance": "Todas las criaturas distintas de ti que estén en una @Template[type:emanation|distance:10]{emanación de 10 pies} del objetivo, incluido el propio objetivo, reciben @Damage[(@item.system.damage.dice[splash])[bludgeoning]] de daño.",
-          "StokedFlameStance": "Si tienes access to the flashing sparks' critical specialization effect, puedes take an alternate effect instead: if tu critical Golpe dealt daño, el objetivo takes @Damage[1d6[persistent,fire]] daño.",
-          "WaterfowlStance": "Puedes deal that criatura @Damage[1d6[slashing]] daño. Esto daño is increased to @Damage[2d6[slashing]] if the arma has a greater striking rune and @Damage[3d6[slashing]] if it has a major striking rune.",
+          "StokedFlameStance": "Si tienes acceso al efecto de especialización crítica de chispas centelleantes, puedes usar un efecto alternativo en su lugar: si tu Golpe crítico infligió daño, el objetivo recibe @Damage[1d6[persistent,fire]] de daño.",
+          "WaterfowlStance": "Puedes infligir a esa criatura @Damage[1d6[slashing]] de daño. Este daño aumenta a @Damage[2d6[slashing]] si el arma tiene una runa de golpe mayor, y a @Damage[3d6[slashing]] si tiene una runa de golpe superior.",
           "WildWindStance": "Los golpes de choque de viento ignoran ocultación y toda cobertura."
         }
       },
@@ -6998,7 +7118,7 @@
         },
         "TheBiggerTheyAre": {
           "CriticalSuccess": "Con un éxito crítico, si atraviesas con éxito la casilla del objetivo, este obtiene debilidad a tu daño de precisión hasta el final de tu turno. @UUID[Compendium.pf2e.feat-effects.Item.SLXhPgaeKB0W3k1D]{Efecto: Cuanto más grandes son}",
-          "Éxito": "Con un éxito, si atraviesas con éxito la casilla del objetivo, este obtiene debilidad a tu daño de precisión para tu siguiente ataque. @UUID[Compendium.pf2e.feat-effects.Item.SLXhPgaeKB0W3k1D]{Efecto: Cuanto más grandes son}"
+          "Success": "Con un éxito, si atraviesas con éxito la casilla del objetivo, este obtiene debilidad a tu daño de precisión para tu siguiente ataque. @UUID[Compendium.pf2e.feat-effects.Item.SLXhPgaeKB0W3k1D]{Efecto: Cuanto más grandes son}"
         }
       },
       "SwearOath": {
@@ -7006,7 +7126,7 @@
       },
       "TOTMToggle": {
         "FirstRangeIncrement": "Habilita habilidades que requieren un objetivo dentro del primer incremento de alcance.",
-        "Asustado": "Activar aptitudes que requieren un objetivo asustado",
+        "Frightened": "Activar aptitudes que requieren un objetivo asustado",
         "Incorporeal": "Habilitar habilidades que requieren un objetivo incorporal.",
         "OffGuard": "Habilitar habilidades que requieren un objetivo desprevenido",
         "Prone": "Activar aptitudes que requieren un objetivo tumbado",
@@ -7204,8 +7324,8 @@
       "UrsineAvenger": {
         "GreatBear": {
           "Description": "Cuando te transformas, puedes asumir el volumen y tamaño de un gran oso. Puedes gastar una acción adicional al usar Forma de vengador ursino para obtener los efectos de un conjuro *agrandar* de rango 1, que dura la duración normal del conjuro o hasta que abandones tu Forma de vengador ursino, lo que ocurra primero.",
-          "Frecuencia": "**Frecuencia** una vez por hora",
-          "Efecto": "@UUID[Compendium.pf2e.feat-effects.Item.PZuICqcgpErGQcqG]{Efecto: Gran oso}",
+          "Frequency": "**Frecuencia** una vez por hora",
+          "Effect": "@UUID[Compendium.pf2e.feat-effects.Item.PZuICqcgpErGQcqG]{Efecto: Gran oso}",
           "MightyBear": "El poder del oso en tu interior puede expandir aún más tu presencia física. El conjuro *agrandar* que lanzas con tu dote Gran oso se intensifica a rango 4."
         }
       },
@@ -7287,9 +7407,9 @@
       },
       "WellspringMage": {
         "CriticalSuccess": "Recuperas temporalmente un espacio de conjuro gastado de cualquier rango de tu elección. El espacio de conjuro temporal dura 1 minuto y, si no lo usas para entonces, experimentas un @UUID[Compendium.pf2e.rollable-tables.RollTable.N0pDFNCffTe2Du39]{Oleada de manantial} inmediato.",
-        "Fallo": "Generas una @UUID[Compendium.pf2e.rollable-tables.RollTable.N0pDFNCffTe2Du39]{Oleada de manantial}, con un rango de conjuro elegido aleatoriamente entre tus tres rangos principales de espacios de conjuro (o todos tus rangos si tienes menos de tres).",
+        "Failure": "Generas una @UUID[Compendium.pf2e.rollable-tables.RollTable.N0pDFNCffTe2Du39]{Oleada de manantial}, con un rango de conjuro elegido aleatoriamente entre tus tres rangos principales de espacios de conjuro (o todos tus rangos si tienes menos de tres).",
         "Initiative": "Cuando tiras iniciativa para un encuentro de combate no trivial, así como en otras situaciones de alto estrés elegidas por el DJ, la magia brota dentro de ti. Intenta una @Check[type:flat|dc:6|traits:wellspring-magic].",
-        "Éxito": "Recuperas temporalmente un espacio de conjuro gastado de un rango de conjuro elegido al azar entre tus tres rangos superiores de espacios de conjuro (o todos tus rangos de espacios de conjuro si tienes menos de tres). El espacio dura 3 asaltos en lugar de 1 minuto; de lo contrario, experimentarás un @UUID[Compendium.pf2e.rollable-tables.RollTable.N0pDFNCffTe2Du39]{Oleada de manantial}."
+        "Success": "Recuperas temporalmente un espacio de conjuro gastado de un rango de conjuro elegido al azar entre tus tres rangos superiores de espacios de conjuro (o todos tus rangos de espacios de conjuro si tienes menos de tres). El espacio dura 3 asaltos en lugar de 1 minuto; de lo contrario, experimentarás un @UUID[Compendium.pf2e.rollable-tables.RollTable.N0pDFNCffTe2Du39]{Oleada de manantial}."
       },
       "Werecreature": {
         "ChangeShape": {
@@ -7469,11 +7589,11 @@
         "ImprovedFamiliarAttunement": {
           "Description": "Gastas el poder mágico almacenado en tu familiar. Durante el turno actual, puedes lanzar un conjuro que preparaste hoy y ya lanzaste, sin gastar un espacio de conjuro. Aun así debes Lanzar el conjuro y cumplir sus demás requisitos.",
           "Name": "Drenar familiar",
-          "Requisitos": "Tu familiar está contigo."
+          "Requirements": "Tu familiar está contigo."
         },
         "Runelord": {
           "ArcaneBond": {
-            "DescriptionAddendum": "Runelords hail from an era where even a scholar was expected to be able to defend themself with arms if necessary, leading to the practice of attaching a blade to the typical wizard's staff. Debes elige a polearm or spear as tu arcane bond. In place of an arcane thesis, tienes a personal rune, which appears on tu bonded arma. El arma functions as a staff with charges equal to the highest rank of conjuros puedes cast and contains the sin conjuros from tu sin up to that rank (including tu cantrips). Tu personal rune isn't a property rune and doesn't count against the arma's limit of such runes. Si tú prepare a magical staff, it merges with tu bonded item until tu next daily preparations, adding its charges and conjuro list. While merged, the armas haft takes on aesthetic aspects of the staff.",
+            "DescriptionAddendum": "Los señores de las runas proceden de una era en la que incluso se esperaba que un erudito pudiera defenderse con armas si era necesario, lo que dio lugar a la práctica de acoplar una hoja al bastón típico de mago. Debes elegir un arma de asta o lanza como vínculo arcano. En lugar de una tesis arcana, tienes una runa personal, que aparece en tu arma vinculada. El arma funciona como un bastón con cargas iguales al rango más alto de conjuros que puedes lanzar y contiene los conjuros de pecado de tu pecado hasta ese rango, incluidos tus trucos. Tu runa personal no es una runa de propiedad y no cuenta contra el límite de runas de ese tipo del arma. Si preparas un bastón mágico, se fusiona con tu objeto vinculado hasta tus siguientes preparativos diarios, añadiendo sus cargas y lista de conjuros. Mientras está fusionado, el asta del arma adopta aspectos estéticos del bastón.",
             "Label": "Vínculo arcano y runa personal"
           },
           "Sin": {
@@ -7499,7 +7619,7 @@
         "Spinebreaker": {
           "Note": {
             "CriticalSuccess": "El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} hasta el final de su siguiente turno y luego @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} durante 1 minuto.",
-            "Éxito": "El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} hasta el final de su siguiente turno."
+            "Success": "El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} hasta el final de su siguiente turno."
           }
         },
         "Strangle": {
@@ -7509,7 +7629,7 @@
         "SubmissionHold": {
           "Note": {
             "CriticalSuccess": "El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 2} hasta el final de su siguiente turno y luego @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1} durante 1 minuto.",
-            "Éxito": "El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1} hasta el final de su siguiente turno."
+            "Success": "El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1} hasta el final de su siguiente turno."
           }
         },
         "Suplex": {
@@ -7526,20 +7646,20 @@
           "Prompt": "Selecciona una herencia yaoguai."
         },
         "LegendaryMonster": {
-          "Efecto": "@UUID[Compendium.pf2e.feat-effects.Item.ELCODoiGDBEqRAtT]{Efecto: Legendary Monster}",
+          "Effect": "@UUID[Compendium.pf2e.feat-effects.Item.ELCODoiGDBEqRAtT]{Efecto: Monstruo legendario}",
           "Options": {
-            "Damage": "Additional daño de espíritu",
-            "Enlarge": "4th rank Enlarge",
-            "Fly": "Fly Velocidad"
+            "Damage": "Daño de espíritu adicional",
+            "Enlarge": "Agrandar de rango 4",
+            "Fly": "Velocidad de vuelo"
           },
-          "Prompt": "Elige an additional benefit",
-          "RollOptionLabel": "Use Legendary Monster",
+          "Prompt": "Elige un beneficio adicional",
+          "RollOptionLabel": "Usar Monstruo legendario",
           "Text": {
-            "Damage": "Tu poder espiritual erupts to punish tu enemies. Causas an additional 1d4 daño de espíritu with all Golpes and attack conjuros, and tu Golpes and attack conjuros gain the spirit rasgo.",
-            "Description": "Una vez al día when tú Unleash Yaoguai Might, puedes gain one of the following additional benefits, which persists durante 1 minuto or until tú Change Shape again.",
+            "Damage": "Tu poder espiritual estalla para castigar a tus enemigos. Infliges 1d4 de daño de espíritu adicional con todos tus Golpes y conjuros de ataque, y tus Golpes y conjuros de ataque obtienen el rasgo espíritu.",
+            "Description": "Una vez al día, cuando Desatas el poder yaoguai, puedes obtener uno de los siguientes beneficios adicionales, que persiste durante 1 minuto o hasta que vuelvas a Cambiar de forma.",
             "Enlarge": "Tu cuerpo crece hasta alturas imposibles. Tu efecto de Agrandar se intensifica a rango 4.",
             "Fly": "Puedes saltar sobre el propio aire. Obtienes los efectos del conjuro *volar*.",
-            "Frecuencia": "Puedes Desatar el poder yaoguai cualquier número de veces al día.",
+            "Frequency": "Puedes Desatar el poder yaoguai cualquier número de veces al día.",
             "Title": "**Monstruo legendario**"
           }
         },
@@ -7550,13 +7670,151 @@
           "BornOfItem": "**Objeto** Tu piel se transmuta parcialmente en una sustancia inorgánica, concediéndote resistencia 5 a tu elección de contundente, perforante o cortante.",
           "BornOfVegetation": "**Vegetación** Desencadenas un crecimiento acelerado, obteniendo curación rápida 5.",
           "Description": "Al entrar en tu forma yaoguai, recurres a tu magia interna para asumir una forma aún mayor. Cuando usas Cambiar forma para entrar en tu forma yaoguai, puedes gastar una acción adicional para obtener los efectos de Agrandar y un efecto adicional basado en tu herencia. Este efecto persiste durante 1 minuto o hasta que vuelvas a Cambiar forma.",
-          "Efecto": "@UUID[Compendium.pf2e.feat-effects.Item.OBsItGQScxHyUcmR]{Efecto: Unleash Yaoguai Might}",
-          "Frecuencia": "**Frecuencia** una vez al día",
+          "Effect": "@UUID[Compendium.pf2e.feat-effects.Item.OBsItGQScxHyUcmR]{Efecto: Unleash Yaoguai Might}",
+          "Frequency": "**Frecuencia** una vez al día",
           "UsedMoveAction": "Usaste una acción con el rasgo movimiento."
         }
       },
       "Zombie": {
         "Deteriorated": "Deteriorado"
+      },
+      "Copaxi": {
+        "AggressiveAntlersStrike": "Cornamenta",
+        "RepurposeMysticPower": {
+          "Note": "Siempre que tengas éxito en una tirada de salvación contra un conjuro o efecto mágico, ganas Puntos de Golpe temporales iguales al doble del rango del conjuro, o iguales al nivel del efecto mágico si no es un conjuro. Estos Puntos de Golpe temporales duran hasta el final de tu siguiente turno."
+        }
+      },
+      "EntuColony": {
+        "EntuSporeCaps": {
+          "Note": "Infliges @Damage[(ternary(gte(@actor.level,17),5,ternary(gte(@actor.level,13),4,ternary(gte(@actor.level,9),3,2))))[poison]] a cualquier criatura que te tenga agarrado o a una criatura adyacente que te impacte con un ataque."
+        },
+        "MyceliumArmor": {
+          "RollOptionLabel": "Armadura de micelio — Daño de veneno adicional"
+        }
+      },
+      "Formian": {
+        "Mageslayer": {
+          "MageslayerClaw": "Garra matamagos",
+          "Note": {
+            "Title": "Matamagos",
+            "Text": "Una criatura a la que impactes con tu garra matamagos debe intentar una salvación de @Check[will|against:class-spell] contra la mayor entre tu CD de clase o tu CD de conjuro. Con un fallo, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{estupefacta 1} durante 1 minuto (o @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{estupefacta 2} con un fallo crítico)."
+          }
+        }
+      },
+      "GapTouched": {
+        "GlitchShot": {
+          "Addendum": "Puedes usar Recuerdo defectuoso a un alcance de 60 pies."
+        }
+      },
+      "Gfolian": {
+        "FlameBelch": "Eructo de llamas"
+      },
+      "Hellknight": {
+        "RevealBeasts": {
+          "Note": "Siempre que obtengas un éxito crítico en una prueba para Recordar conocimiento contra un animal, bestia, hongo o planta, esa criatura queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{asustada 1}."
+        }
+      },
+      "Ijtikri": {
+        "AllGrabberStance": {
+          "LashingLimb": "Extremidad flagelante"
+        },
+        "SacrificialShell": {
+          "RollOptionLabel": "Caparazón sacrificial — Bloquear daño"
+        }
+      },
+      "Izalgun": {
+        "IntimidatingAthlete": {
+          "Note": "Puedes intentar una prueba de [[/act demoralize skill=athletics]]{Atletismo} o Intimidación para [[/act demoralize]] a una criatura a 30 pies o menos."
+        }
+      },
+      "Lashunta": {
+        "AscendantPsychic": {
+          "TelepathyRange": "Aumenta el alcance de tu telepatía limitada a 120 pies."
+        },
+        "Glowsilk": {
+          "LabelFungus": "Lashunta de seda luminosa (hongo)"
+        }
+      },
+      "Madrosarai": {
+        "ScorchingLifeblood": {
+          "Note": "Cualquier criatura adyacente que te toque, te inflija daño perforante o cortante, o te impacte con un ataque cuerpo a cuerpo sin armas recibe @Damage[3d6[fire]] de daño."
+        }
+      },
+      "Maraquoi": {
+        "DiveBomb": {
+          "Note": "Tu objetivo está @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{desprevenido} contra este ataque."
+        }
+      },
+      "Moyishuu": {
+        "Soulfeel": {
+          "Fury": "Furia",
+          "Joy": "Alegría",
+          "Sorrow": "Pena",
+          "Wonder": "Asombro"
+        }
+      },
+      "Orocoran": {
+        "PlentifulBile": {
+          "CoatInBile": "Cubrir de bilis",
+          "Slitherskin": "Piel deslizante",
+          "SpewAcidicBile": "Escupir bilis ácida"
+        }
+      },
+      "Pahtra": {
+        "Oozebonded": {
+          "LabelEscape": "Pahtra vinculado al cieno (Escapar)"
+        }
+      },
+      "Raxilite": {
+        "FloralShifter": {
+          "Flowering": "Floración",
+          "Seeding": "Siembra"
+        },
+        "Inheritor": {
+          "Prompt": "Elige un campo.",
+          "Bioengineer": "Bioingeniero",
+          "Daredevil": "Temerario",
+          "Emissary": "Emisario",
+          "Interstellar Pilot": "Piloto interestelar",
+          "Physician": "Médico",
+          "Software Architect": "Arquitecto de software"
+        }
+      },
+      "Ryphorian": {
+        "BondedTandemFeint": {
+          "Note": "El objetivo también está @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{desprevenido} contra los ataques cuerpo a cuerpo y a distancia que tú o tu compañero vinculado intentéis contra él hasta el final de tu siguiente turno."
+        }
+      },
+      "Skittermander": {
+        "Fluffy": {
+          "SummerCoat": "Pelaje de verano",
+          "WinterCoat": "Pelaje de invierno"
+        }
+      },
+      "Trox": {
+        "FortifiedTrox": {
+          "ChitinousPlates": "Placas quitinosas"
+        }
+      },
+      "Urog": {
+        "CrystalCarapace": {
+          "Shell": "Caparazón"
+        }
+      },
+      "Vesk": {
+        "ForkTongued": {
+          "CriticalNote": "Con un impacto crítico, el objetivo recibe daño persistente de veneno igual al número de dados de daño del arma.",
+          "VenomousJaws": "Mandíbulas venenosas"
+        }
+      },
+      "Ysoki": {
+        "TestSubject": {
+          "Prompt": "Selecciona sujeto de pruebas.",
+          "ExtraLimbs": "Extremidades adicionales",
+          "PsychicAugmentation": "Aumento psíquico",
+          "CyberneticAugmentation": "Aumento cibernético",
+          "Radioactive": "Radiactivo"
+        }
       }
     },
     "Terrain": {
@@ -7569,7 +7827,13 @@
       "Sky": "Cielo",
       "Space": "Espacio",
       "Swamp": "Pantano",
-      "Underground": "Subterráneo"
+      "Underground": "Subterráneo",
+      "Muddy": "Fangoso",
+      "Rocky": "Rocoso",
+      "Sandy": "Arenoso",
+      "Sloped": "Inclinado",
+      "Undergrowth": "Maleza",
+      "ZeroGravity": "Gravedad cero"
     },
     "UI": {
       "RuleElements": {
@@ -7703,6 +7967,9 @@
       "Android": {
         "MachineSaboteur": {
           "Note": "El objetivo queda @UUID[Compendium.sf2e.estados.Item.6A2QDy8wRGCVQsSd]{Glitcheando 1}."
+        },
+        "Hellforged": {
+          "HellforgedPlates": "Placas forjadas en el infierno"
         }
       },
       "Astrazoan": {
@@ -7721,6 +7988,9 @@
         },
         "ManifoldEvolution": {
           "Prompt": "Selecciona una dote de ascendencia de nivel 17 o inferior."
+        },
+        "RuggedExplorer": {
+          "Shell": "Caparazón"
         }
       },
       "CairnForm": {
@@ -7796,7 +8066,7 @@
         "HangInThere": {
           "CriticalSuccess": "El objetivo obtiene Puntos de Golpe temporales iguales al doble de su nivel más tu modificador de Carisma. @UUID[Compendium.sf2e.feat-effects.Item.B4JhFkbk5WHmWcOZ]{Efecto: Hang In There!}",
           "Prompt": "¿Qué CD de competencia se usó?",
-          "Éxito": "El objetivo obtiene Puntos de Golpe temporales iguales a su nivel más tu modificador de Carisma. @UUID[Compendium.sf2e.feat-effects.Item.B4JhFkbk5WHmWcOZ]{Efecto: Hang In There!}"
+          "Success": "El objetivo obtiene Puntos de Golpe temporales iguales a su nivel más tu modificador de Carisma. @UUID[Compendium.sf2e.feat-effects.Item.B4JhFkbk5WHmWcOZ]{Efecto: Hang In There!}"
         },
         "HiddenAgenda": {
           "ToggleLabel": "Salvación contra efecto que revela pensamientos o emociones"
@@ -7811,8 +8081,8 @@
           "Note": "<p>La primera vez al día que obtienes un 1 natural en una prueba de Engaño, Diplomacia o Intimidación, no reduces automáticamente tu grado de éxito (solo obtienes un fallo crítico si tu resultado es 10 inferior a la CD).</p>"
         },
         "SmoothDiversions": {
-          "Fallo": "Las criaturas solo se dan cuenta de que intentabas engañarlas si fallas críticamente al Crear una distracción. De lo contrario, la criatura asume que tu distracción formaba parte de tu actitud habitual.",
-          "Éxito": "Cuando tienes éxito en un intento de @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Crear una distracción}, puedes inmediatamente @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Escabullirte} o Dar un paso como acción gratuita."
+          "Failure": "Las criaturas solo se dan cuenta de que intentabas engañarlas si fallas críticamente al Crear una distracción. De lo contrario, la criatura asume que tu distracción formaba parte de tu actitud habitual.",
+          "Success": "Cuando tienes éxito en un intento de @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Crear una distracción}, puedes inmediatamente @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Escabullirte} o Dar un paso como acción gratuita."
         },
         "TakeEmAlive": {
           "ToggleLabel": "Cogedlos vivos: añade Carisma al daño del Golpe"
@@ -7956,6 +8226,10 @@
         "WeaponFamiliarity": {
           "AdvancedWeapons": "Armas kasatha avanzadas",
           "MartialWeapons": "Armas kasatha marciales"
+        },
+        "IgnoreRadiation": {
+          "Poison": "Ignorar radiación (veneno)",
+          "Radiation": "Ignorar radiación (radiación)"
         }
       },
       "Khizar": {
@@ -7971,77 +8245,77 @@
       "Mystic": {
         "Connection": {
           "Akashic": {
-            "AdvancedEpiphany": "Aprendes the @UUID[Compendium.sf2e.conjuros.Item.z0Spgrf92nmaqjCW]{Akashic Assistant} focus conjuro.",
-            "GreaterEpiphany": "Aprendes the @UUID[Compendium.sf2e.conjuros.Item.CjVOXjuvvTJqC7AD]{Data Drain} focus conjuro.",
-            "Harmony": "Cuando tú Transfer Vitality, el objetivo receives a psychic download from the Akashic Record and can immediately attempt to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} as a reaction. Esto doesn't trigger any special abilities, reactions, or free actions that trigger when a criatura uses Recall Knowledge.",
-            "InitialEpiphany": "Aprendes the @UUID[Compendium.sf2e.conjuros.Item.mAu69GVbFKYzQM5a]{Akashic Fount} focus conjuro.",
-            "PerfectHarmony": "Creas an extradimensional memory palace that functions as @UUID[Compendium.pf2e.spells-srd.Item.vPWMEyVTreMOoFnm]. Creating a door to the demiplane takes 1 minuto. El memory palace keeps the same layout each time tú access it, adjustable during daily preparations. Each phantasmal minion in tu memory palace functions as an akashic assistant (like those created by the *akashic assistant* conjuro)."
+            "AdvancedEpiphany": "Aprendes el conjuro de foco @UUID[Compendium.sf2e.spells.Item.z0Spgrf92nmaqjCW]{Asistente akáshico}.",
+            "GreaterEpiphany": "Aprendes el conjuro de foco @UUID[Compendium.sf2e.spells.Item.CjVOXjuvvTJqC7AD]{Drenaje de datos}.",
+            "Harmony": "Cuando Transfieres vitalidad, el objetivo recibe una descarga psíquica del Registro Akáshico y puede intentar inmediatamente @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recordar conocimiento} como reacción. Esto no desencadena aptitudes especiales, reacciones ni acciones gratuitas que se activen cuando una criatura usa Recordar conocimiento.",
+            "InitialEpiphany": "Aprendes el conjuro de foco @UUID[Compendium.sf2e.spells.Item.mAu69GVbFKYzQM5a]{Fuente akáshica}.",
+            "PerfectHarmony": "Creas un palacio de memoria extradimensional que funciona como @UUID[Compendium.pf2e.spells-srd.Item.vPWMEyVTreMOoFnm]. Crear una puerta al demiplano lleva 1 minuto. El palacio de memoria conserva la misma disposición cada vez que accedes a él, ajustable durante tus preparativos diarios. Cada esbirro fantasmal de tu palacio de memoria funciona como un asistente akáshico, como los creados por el conjuro *asistente akáshico*."
           },
           "Elemental": {
-            "AdvancedEpiphany": "Aprendes the @UUID[Compendium.sf2e.conjuros.Item.5apI8Yamauo02VYR]{Elemental Barrier} epiphany conjuro.",
+            "AdvancedEpiphany": "Aprendes el conjuro de epifanía @UUID[Compendium.sf2e.spells.Item.5apI8Yamauo02VYR]{Barrera elemental}.",
             "ElementalBarrier": {
-              "Air": "Defending against electricity or daño sónico",
-              "Earth": "Defending against bludgeoning or daño perforante",
-              "Fire": "Defending against daño de fuego",
-              "Metal": "Defending against acid or daño cortante",
-              "Water": "Defending against daño de frío",
-              "Wood": "Defending against daño de veneno"
+              "Air": "Defensa contra daño de electricidad o sónico",
+              "Earth": "Defensa contra daño contundente o perforante",
+              "Fire": "Defensa contra daño de fuego",
+              "Metal": "Defensa contra daño de ácido o cortante",
+              "Water": "Defensa contra daño de frío",
+              "Wood": "Defensa contra daño de veneno"
             },
-            "GreaterEpiphany": "Aprendes the @UUID[Compendium.sf2e.conjuros.Item.DZOjyZBZUrzkw5q2]{Elemental Nova} epiphany conjuro.",
+            "GreaterEpiphany": "Aprendes el conjuro de epifanía @UUID[Compendium.sf2e.spells.Item.DZOjyZBZUrzkw5q2]{Nova elemental}.",
             "Harmony": {
-              "Addendum": "Cuando tú Transfer Vitality, elige an elemental rasgo: air, earth, fire, metal, water, or wood. Si one or more of tu elemental epiphanies are active, debes select the elemental rasgo tú chose as part of casting those conjuros. Until the end of their next turn, el objetivo's next Golpe deals daño based on the chosen rasgo (tu choice), rather than its typical tipo de daño: electricity or sonic for air, bludgeoning or piercing for earth, acid or slashing for metal, fire for fire, bludgeoning or cold for water, or piercing or poison for wood."
+              "Addendum": "Cuando Transfieres vitalidad, elige un rasgo elemental: aire, tierra, fuego, metal, agua o madera. Si una o más de tus epifanías elementales están activas, debes seleccionar el rasgo elemental que elegiste como parte de lanzar esos conjuros. Hasta el final del siguiente turno del objetivo, su próximo Golpe inflige daño según el rasgo elegido, a tu elección, en lugar de su tipo de daño habitual: electricidad o sónico para aire, contundente o perforante para tierra, ácido o cortante para metal, fuego para fuego, contundente o frío para agua, o perforante o veneno para madera."
             },
-            "InitialEpiphany": "Aprendes the @UUID[Compendium.sf2e.conjuros.Item.d5dmu4HZ3YyrwcaF]{Elemental Weapon} epiphany conjuro.",
+            "InitialEpiphany": "Aprendes el conjuro de epifanía @UUID[Compendium.sf2e.spells.Item.d5dmu4HZ3YyrwcaF]{Arma elemental}.",
             "PerfectHarmony": {
-              "Addendum": "Cuando tú heal a bonded aliado with Transfer Vitality, tu aliado gains resistance equal to half tu mystic level to the two daño types chosen during tu daily preparations until the beginning of tu next turn.",
-              "LabelOne": "Perfect Harmony Resistance",
-              "PerfectHarmonyLabelTwo": "Second Perfect Harmony Resistance"
+              "Addendum": "Cuando curas a un aliado vinculado con Transferir vitalidad, tu aliado obtiene resistencia igual a la mitad de tu nivel de místico contra los dos tipos de daño elegidos durante tus preparativos diarios hasta el comienzo de tu siguiente turno.",
+              "LabelOne": "Resistencia de armonía perfecta",
+              "PerfectHarmonyLabelTwo": "Segunda resistencia de armonía perfecta"
             }
           },
           "Healing": {
-            "AdvancedEpiphany": "Aprendes the @UUID[Compendium.sf2e.conjuros.Item.zzi7LUKxKNWr5GsG]{Vitality Nova} focus conjuro.",
-            "GreaterEpiphany": "Aprendes the @UUID[Compendium.sf2e.conjuros.Item.MTulATAiOZfZNQ9d]{Vital Rebirth} focus conjuro.",
+            "AdvancedEpiphany": "Aprendes el conjuro de foco @UUID[Compendium.sf2e.spells.Item.zzi7LUKxKNWr5GsG]{Nova de vitalidad}.",
+            "GreaterEpiphany": "Aprendes el conjuro de foco @UUID[Compendium.sf2e.spells.Item.MTulATAiOZfZNQ9d]{Renacimiento vital}.",
             "Harmony": {
-              "Addendum": "Cuando tú Transfer Vitality, attempt to counteract one affliction affecting el objetivo, or attempt to counteract one effect of tu choice imposing one of the following estados on el objetivo: @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegado}, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe}, @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado}, @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ensordecido}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto}."
+              "Addendum": "Cuando Transfieres vitalidad, intenta contrarrestar una aflicción que afecte al objetivo, o intenta contrarrestar un efecto de tu elección que imponga una de las siguientes condiciones al objetivo: @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegado}, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe}, @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado}, @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ensordecido}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto}."
             },
-            "InitialEpiphany": "Aprendes the @UUID[Compendium.sf2e.conjuros.Item.d7Mj4nUQe8wg1mV7]{Infusion} focus conjuro.",
+            "InitialEpiphany": "Aprendes el conjuro de foco @UUID[Compendium.sf2e.spells.Item.d7Mj4nUQe8wg1mV7]{Infusión}.",
             "PerfectHarmony": {
-              "AddendumCounteract": "In addition, if tú didn't counteract the effect, but tú would've if its counteract rank were 2 lower, instead suppress the effect until the beginning of tu next turn. El effect's duration doesn't elapse while it's suppressed.",
-              "AddendumExpanded": "Cuando tú Transfer Vitality, attempt to counteract one affliction affecting el objetivo, or attempt to counteract one effect of tu choice imposing one of the following estados on el objetivo: @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegado}, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe}, @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado}, @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ensordecido}, @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed}, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto}, and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido}."
+              "AddendumCounteract": "Además, si no contrarrestaste el efecto, pero lo habrías hecho si su rango de contrarrestar fuera 2 inferior, en su lugar suprimes el efecto hasta el comienzo de tu siguiente turno. La duración del efecto no transcurre mientras está suprimido.",
+              "AddendumExpanded": "Cuando Transfieres vitalidad, intenta contrarrestar una aflicción que afecte al objetivo, o intenta contrarrestar un efecto de tu elección que imponga una de las siguientes condiciones al objetivo: @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegado}, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe}, @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado}, @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ensordecido}, @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condenado}, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto} y @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido}."
             }
           },
-          "Prompt": "Select a connection.",
+          "Prompt": "Selecciona una conexión.",
           "Rhythm": {
-            "AdvancedEpiphany": "Aprendes the @UUID[Compendium.sf2e.conjuros.Item.AlYzxLKWZujnzsjJ]{Shuffle Repeat} focus conjuro.",
-            "GreaterEpiphany": "Aprendes the @UUID[Compendium.sf2e.conjuros.Item.Ii8adgcCejAovsNv]{Remix} focus conjuro.",
+            "AdvancedEpiphany": "Aprendes el conjuro de foco @UUID[Compendium.sf2e.spells.Item.AlYzxLKWZujnzsjJ]{Repetición barajada}.",
+            "GreaterEpiphany": "Aprendes el conjuro de foco @UUID[Compendium.sf2e.spells.Item.Ii8adgcCejAovsNv]{Remezcla}.",
             "Harmony": {
-              "Addendum": "Cuando tú Transfer Vitality, puedes extend the duration of any active epiphany from the rhythm connection by 1 asalto."
+              "Addendum": "Cuando Transfieres vitalidad, puedes extender 1 asalto la duración de cualquier epifanía activa de la conexión del ritmo."
             },
-            "InitialEpiphany": "Aprendes the @UUID[Compendium.sf2e.conjuros.Item.smCC1LNhMb7Z1lrU]{Anthem} focus conjuro.",
+            "InitialEpiphany": "Aprendes el conjuro de foco @UUID[Compendium.sf2e.spells.Item.smCC1LNhMb7Z1lrU]{Himno}.",
             "PerfectHarmony": {
-              "Addendum": "El first time each round tú Transfer Vitality, el objetivo who regained Puntos de golpe can Zancada as a free action. Esto has the traversal rasgo."
+              "Addendum": "La primera vez de cada asalto que Transfieres vitalidad, el objetivo que recuperó Puntos de Golpe puede Zancada como acción gratuita. Esto tiene el rasgo travesía."
             }
           },
           "Shadow": {
-            "AdvancedEpiphany": "Aprendes the @UUID[Compendium.sf2e.conjuros.Item.rluzzX2ml4yFWnYw]{Cloying Shadows} focus conjuro.",
-            "GreaterEpiphany": "Aprendes the @UUID[Compendium.sf2e.conjuros.Item.pgjlPNfXCpEYyLVu]{Shadow Prison} focus conjuro.",
+            "AdvancedEpiphany": "Aprendes el conjuro de foco @UUID[Compendium.sf2e.spells.Item.rluzzX2ml4yFWnYw]{Sombras empalagosas}.",
+            "GreaterEpiphany": "Aprendes el conjuro de foco @UUID[Compendium.sf2e.spells.Item.pgjlPNfXCpEYyLVu]{Prisión sombría}.",
             "Harmony": {
-              "Addendum": "Cuando tú Transfer Vitality, el objetivo's shadow darkens and swells, reducing bright light within a @Template[type:emanation|distance:10] of el objetivo to dim light. Esto is a form of magical darkness and can overcome non-magical light sources or attempt to counteract magical light. El objetivo becomes @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} while in this dim light and can use the concealed estado to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}. Esto lasts hasta el final de tu siguiente turno."
+              "Addendum": "Cuando Transfieres vitalidad, la sombra del objetivo se oscurece y se expande, reduciendo la luz brillante en una @Template[type:emanation|distance:10] del objetivo a luz tenue. Esto es una forma de oscuridad mágica y puede superar fuentes de luz no mágicas o intentar contrarrestar luz mágica. El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} mientras está en esta luz tenue y puede usar la condición oculto para @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Esconderse}. Esto dura hasta el final de tu siguiente turno."
             },
-            "InitialEpiphany": "Aprendes the @UUID[Compendium.sf2e.conjuros.Item.uh9Br4yrKvJA6zq0]{Shadow Snap} focus conjuro.",
+            "InitialEpiphany": "Aprendes el conjuro de foco @UUID[Compendium.sf2e.spells.Item.uh9Br4yrKvJA6zq0]{Chasquido sombrío}.",
             "PerfectHarmony": {
-              "Addendum": "Cuando tú Transfer Vitality, el objetivo can use @UUID[Compendium.sf2e.actions.Item.u9NU2bULHg3S5FaP]{Umbral Zancada} once before the end of their next turn."
+              "Addendum": "Cuando Transfieres vitalidad, el objetivo puede usar @UUID[Compendium.sf2e.actions.Item.u9NU2bULHg3S5FaP]{Zancada umbral} una vez antes del final de su siguiente turno."
             }
           }
         },
         "Harmony": {
-          "Label": "Harmony",
-          "PerfectLabel": "Perfect Harmony"
+          "Label": "Armonía",
+          "PerfectLabel": "Armonía perfecta"
         },
-        "HarmonyLabel": "Harmony",
-        "PerfectHarmonyLabel": "Perfect Harmony",
+        "HarmonyLabel": "Armonía",
+        "PerfectHarmonyLabel": "Armonía perfecta",
         "WasteNot": {
-          "Addendum": "Tu red de vitalidad gains @Damage[(2*@item.rank)[healing]] Puntos de golpe."
+          "Addendum": "Tu red de vitalidad gana @Damage[(2*@item.rank)[healing]] Puntos de Golpe."
         },
         "WildBond": {
           "Burrow": "Burrow Velocidad of 15 pies",
@@ -8260,8 +8534,8 @@
           "DegreeOfSuccess": {
             "CriticalFailure": "**Fallo crítico** Como fallo, pero la duración es 1 hora.",
             "CriticalSuccess": "**Éxito crítico** El objetivo no se ve afectado y queda temporalmente inmune durante 24 horas.",
-            "Fallo": "**Fallo** El constructo o criatura tecnológica se convierte en esbirro bajo tu control. El conjuro obtiene duración de 1 minuto, pero se descarta si tú o un aliado atacáis al constructo o esbirro tecnológico.",
-            "Éxito": "**Éxito** El objetivo no se ve afectado."
+            "Failure": "**Fallo** El constructo o criatura tecnológica se convierte en esbirro bajo tu control. El conjuro obtiene duración de 1 minuto, pero se descarta si tú o un aliado atacáis al constructo o esbirro tecnológico.",
+            "Success": "**Éxito** El objetivo no se ve afectado."
           }
         },
         "GrenadeSpell": {
@@ -8319,7 +8593,7 @@
         },
         "AnchoringStrike": {
           "CriticalSuccess": "El Golpe obtiene el rasgo anclaje. Puedes repetir la tirada de los dados de daño de este Golpe, pero debes usar el segundo resultado, aunque sea peor.",
-          "Éxito": "El Golpe obtiene el rasgo anclaje."
+          "Success": "El Golpe obtiene el rasgo anclaje."
         },
         "Paradox": {
           "Analyst": {
@@ -8348,6 +8622,28 @@
           "DebrisZone": "Zona de escombros se convierte en terreno difícil mayor.",
           "RadiantZone": "La superposición de zonas obliga a las criaturas a intentar otra tirada de salvación.",
           "TwistedDarkZone": "Zona oscura retorcida ignora la inmunidad temporal de las criaturas que previamente tuvieron éxito crítico en la salvación durante 1 asalto."
+        }
+      },
+      "Bantrid": {
+        "BouncyBall": {
+          "SecondJump": "Segundo salto"
+        },
+        "HollowOrb": {
+          "RollOptionLabel": "Orbe hueco — Movimiento sobre superficie líquida"
+        },
+        "MagneticOrb": {
+          "RollOptionLabel": "Orbe magnético — Sobre superficie metálica"
+        },
+        "OnARoll": {
+          "RollOptionLabel": "En racha — Se movió el turno pasado"
+        }
+      },
+      "XenometricAndroid": {
+        "HomebrewedCore": {
+          "Prompt": "Elige una de las siguientes opciones",
+          "Larger": "Un tamaño mayor",
+          "Smaller": "Un tamaño menor",
+          "AdditionalLimbs": "Par adicional de extremidades"
         }
       }
     }
