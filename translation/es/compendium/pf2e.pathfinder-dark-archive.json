@@ -4,10 +4,10 @@
     "Amalgamite": {
       "name": "amalgamita",
       "hpDetails": "Regeneración 10 (desactivada por piercing)",
-      "publicNotes": "<p>Teleportation magic can prove a difficult undertaking, even for experienced spellcasters. It requires precise calculation and timing, knowledge of the intended destination, and meticulous control over surging conjuration magics. A mistake in even the most minute element of such a conjuro can lead to disastrous results for those involved. When a particularly powerful spellcaster makes an error of this kind, either through arrogance or simple misjudgment, they might transform into an amalgamite.</p>\n<p>A mass of flesh and misaligned limbs, an amalgamite is the warped body of a former spellcaster, sometimes joined with another version of itself to incorporate additional limbs or other irregularities. They're still alive, but they have become aberrants mentally and physically, with only the vaguest memories of their previous existence, which makes them a dangerous and bewildering foe. Their weird, warped anatomy constantly shifts and regrows, allowing the criaturas to shrug off physical blows save those that pierce through its flesh and into its core being.</p>\n<p>The magical residue of an amalgamite's creation radiates from it, seeping into and destabilizing any living beings that get too close. Infected criaturas then further spread the amalgamite's aura among larger groups of allies and foes alike. The amalgamite uses this power to manipulate and confuse their enemies, whom they can teleport into traps, force into confrontations with other enemies, or draw close into striking range with their own odd appendages.</p>",
+      "publicNotes": "<p>Teleportation magic can prove a difficult undertaking, even for experienced spellcasters. It requires precise calculation and timing, knowledge of the intended destination, and meticulous control over surging conjuration magics. A mistake in even the most minute element of such a conjuro can lead to disastrous results for those involved. When a particularly powerful spellcaster makes an error of this kind, either through arrogance or simple misjudgment, they might transform into an amalgamite.</p>\n<p>A mass of flesh and misaligned limbs, an amalgamite is the warped body of a former spellcaster, sometimes joined with another version of itself to incorporate additional limbs or other irregularities. They're still alive, but they have become aberrants mentally and physically, with only the vaguest memories of their previous existence, which makes them a dangerous and bewildering foe. Their weird, warped anatomy constantly shifts and regrows, allowing the criaturas to shrug off physical blows save those that pierce through its flesh and into its core being.</p>\n<p>The magical residue of an amalgamite's creation radiates from it, seeping into and destabilizing any living beings that get too close. Infected criaturas then further spread the amalgamite's aura among larger groups of aliados and foes alike. The amalgamite uses this power to manipulate and confuse their enemigos, whom they can teleport into traps, force into confrontations with other enemigos, or draw close into striking range with their own odd appendages.</p>",
       "items": {
-        "spellcastingEntry->Occult Innate Spells": {
-          "name": "Occult Innate Spells"
+        "spellcastingEntry->Occult Innate Conjuros": {
+          "name": "Occult Innate Conjuros"
         },
         "strike-melee->Limb": {
           "name": "Limb"
@@ -20,7 +20,7 @@
         },
         "action->Destabilizing Field": {
           "name": "Destabilizing Field",
-          "description": "<p>40 pies. A criatura that begins its turn within the area feels its body begin to stretch and must succeed at a @Check[fortitude|dc:33] salvación or become destabilized. A destabilized criatura emits a 10-pies destabilizing field aura and becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}. The destabilization ends when the criatura is no longer sickened. A criatura that succeeds at its tirada de salvación against the aura is temporarily immune to all destabilizing fields for 1 minuto.</p>"
+          "description": "<p>40 pies. A criatura that begins its turn within the area feels its body begin to stretch and must succeed at a @Check[fortitude|dc:33] salvación or become destabilized. A destabilized criatura emits a 10-pies destabilizing field aura and becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}. The destabilization ends when the criatura is no longer indispuesto. A criatura that succeeds at its tirada de salvación against the aura is temporarily immune to all destabilizing fields for 1 minuto.</p>"
         },
         "action->Displace": {
           "name": "Displace",
@@ -32,7 +32,7 @@
         },
         "action->Transpose": {
           "name": "Transponer",
-          "description": "<p>The amalgamite teleports up to two destabilized criaturas within 50 pies that they can see. They can either move a single criatura to an unoccupied space or swap the positions of two criaturas of the same size. If the amalgamite swaps two criaturas, they can elige their self as one target. An unwilling criatura can attempt a @Check[will|dc:33] salvación. If either target succeeds at this tirada de salvación, both are unaffected.</p>"
+          "description": "<p>The amalgamite teleports up to two destabilized criaturas within 50 pies that they can see. They can either move a single criatura to an unoccupied space or swap the positions of two criaturas of the same size. If the amalgamite swaps two criaturas, they can elige their self as one objetivo. An unwilling criatura can attempt a @Check[will|dc:33] salvación. If either objetivo succeeds at this tirada de salvación, both are unaffected.</p>"
         },
         "lore->Lore (Any One Subcategory)": {
           "name": "Lore (Any One Subcategory)"
@@ -49,7 +49,7 @@
       "items": {
         "action->Bay": {
           "name": "Bay",
-          "description": "<p><strong>Desencadenante</strong> A criatura enters the area</p>\n<hr />\n<p><strong>Efecto</strong> The hounds manifest and bay loudly, dealing @Damage[(3d10 + 16)[sonic]] daño to all criaturas within 30 pies of the hounds (@Check[fortitude|dc:33|basic]). On a failed check, a criatura is additionally @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}. La trampa then rolls initiative.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura enters the area</p>\n<hr />\n<p><strong>Efecto</strong> The hounds manifest and bay loudly, dealing @Damage[(3d10 + 16)[sonic]] daño to all criaturas within 30 pies of the hounds (@Check[fortitude|dc:33|basic]). On a failed prueba, a criatura is additionally @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}. La trampa then rolls initiative.</p>"
         }
       }
     },
@@ -58,12 +58,12 @@
       "description": "<p>Una compulsion sobrenatural a saltar hacia lo desconocido se impone sobre cualquiera que se acerque al saliente.</p>",
       "disable": "<p>@Check[occultism|dc:34|name:Expel Magical Compulsion] o @Check[arcana|dc:36|name:Expel Magical Compulsion] a expel el magico compulsion de el current island y de cualquier de el red ropes directly attached a ello, darkening el rope en color. El Echo also automatically disables el peligro de cualquier island el's standing en, y cualquier de el red ropes directly attached a ello, cuando el Reconstitutes de Thought en que island.</p>",
       "reset": "<p>La llamada del vacio persiste mientras exista el Eco, aunque no se activa hasta que el Eco haya tirado iniciativa. El peligro se reinicia cada dia.</p>",
-      "routine": "<p>(1 action) The call targets all criaturas adjacent to a ledge or on one of the red ropes and tugs at their minds. A criatura who has already fallen this round is immune.</p>",
+      "routine": "<p>(1 action) The call objetivos all criaturas adjacent to a ledge or on one of the red ropes and tugs at their minds. A criatura who has already fallen this round is immune.</p>",
       "stealth": "<p>(experto) to notice a slight tugging feeling</p>",
       "items": {
         "action->Leap into the Unknown": {
           "name": "Leap into the Unknown",
-          "description": "<p><strong>Desencadenante</strong> A criatura enters a square adjacent to the ledge of an island or steps onto one of the red ropes</p>\n<hr />\n<p><strong>Efecto</strong> The call of the void tugs at the mind of intruders, compelling them to leap off the ledge. The criatura must succeed at a @Check[will|dc:34] salvación or @Check[acrobatics|dc:32|traits:action:balance] check to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} or else drop off the ledge. If the criatura falls off, it drops 100 pies, loops through the closed space of the mindscape, and lands in the square it fell from, taking falling daño as normal (usually @Damage[50[bludgeoning]|options:fall-daño] daño). The call of the void then rolls initiative.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura enters a square adjacent to the ledge of an island or steps onto one of the red ropes</p>\n<hr />\n<p><strong>Efecto</strong> The call of the void tugs at the mind of intruders, compelling them to leap off the ledge. The criatura must succeed at a @Check[will|dc:34] salvación or @Check[acrobatics|dc:32|traits:action:balance] prueba to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} or else drop off the ledge. If the criatura falls off, it drops 100 pies, loops through the closed space of the mindscape, and lands in the square it fell from, taking falling daño as normal (usually @Damage[50[bludgeoning]|options:fall-daño] daño). The call of the void then rolls initiative.</p>"
         }
       }
     },
@@ -85,8 +85,8 @@
       "name": "Cocoon of Lucid Potential",
       "languages": "(no puede hablar ningún idioma)",
       "items": {
-        "spellcastingEntry->Occult Spontaneous Spells": {
-          "name": "Occult Spontaneous Spells"
+        "spellcastingEntry->Occult Spontaneous Conjuros": {
+          "name": "Occult Spontaneous Conjuros"
         },
         "strike-ranged->Psychic Scream": {
           "name": "Psychic Scream"
@@ -97,11 +97,11 @@
         },
         "action->Give of Oneself": {
           "name": "Give of Oneself",
-          "description": "<p><strong>Desencadenante</strong> The Weaver would be reduced to 0 Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The cocoon's vitality is linked to the Weaver's. It loses @Damage[30[untyped]] Puntos de Golpe, restoring @Damage[15[healing]] Puntos de Golpe to the Weaver. It can use this ability even if it would otherwise be unable to act.</p>"
+          "description": "<p><strong>Desencadenante</strong> The Weaver would be reduced to 0 Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> The cocoon's vitality is linked to the Weaver's. It loses @Damage[30[untyped]] Puntos de golpe, restoring @Damage[15[healing]] Puntos de golpe to the Weaver. It can use this ability even if it would otherwise be unable to act.</p>"
         },
         "action->In There Somewhere": {
           "name": "In There Somewhere",
-          "description": "<p>Killia's individuality still rests within the cocoon, yet trying to resist assimilation. If a PC succeeds at a @Check[diplomacy|dc:32] check on the cocoon, the cocoon takes @Damage[5d6[mental]] daño and is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1} as Killia's consciousness fights the Weaver. The cocoon can't be affected in this way more than once per turn.</p>"
+          "description": "<p>Killia's individuality still rests within the cocoon, yet trying to resist assimilation. If a PC succeeds at a @Check[diplomacy|dc:32] prueba on the cocoon, the cocoon takes @Damage[5d6[mental]] daño and is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1} as Killia's consciousness fights the Weaver. The cocoon can't be affected in this way more than once per turn.</p>"
         },
         "action->Of Same Essence": {
           "name": "Of Same Essence",
@@ -126,7 +126,7 @@
       "description": "<p>A hall's four walls become fluid and elastic when a criatura reaches the hall's midpoint.</p>",
       "disable": "<p>@Check[thievery|dc:28|name:Stabilize Wall|traits:action:disable-a-device] (entrenado) to stabilize each wall, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank; counteract DC 26) to counteract each wall</p>",
       "reset": "<p>1 hora</p>",
-      "routine": "<p>(4 actions) Este trap loses 1 action each round for each wall that has been disabled. Each wall uses 1 action to slam back and forth rapidly, pummeling one criatura in the hall with a wall Golpe. On a hit, el objetivo is additionally knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}. The walls distribute the attacks as evenly as possible among criaturas in the hall, and the Golpes don't apply the trap's multiple attack penalización.</p>",
+      "routine": "<p>(4 actions) Este trap loses 1 action each round for each wall that has been disabled. Each wall uses 1 action to slam back and forth rapidly, pummeling one criatura in the hall with a wall Golpe. On a hit, el objetivo is additionally knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}. The walls distribute the attacks as evenly as possible among criaturas in the hall, and the Golpes don't apply the trap's multiple attack penalizador.</p>",
       "items": {
         "action->Lose Form": {
           "name": "Lose Form",
@@ -142,7 +142,7 @@
       "description": "<p>Un magia mirror replaces characters con malicious mirror duplicates de another dimension.</p>",
       "disable": "<p>@Check[thievery|dc:34] (legendario) to retrieve a criatura from the other dimension within 10 minutos of the switch (possible only if their mirror duplicate is dead), @Check[thievery|dc:39] (maestro) to permanently disable the mirror once all mirror duplicates are dead, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (7th rank; counteract DC 32) to counteract the mirror for 1 minuto and prevent additional replacements during that time.</p>",
       "hpDetails": "El mirror puede't be damaged mientras cualquier mirror duplicate es alive",
-      "reset": "<p>The mirror is always ready to absorb criaturas into the other dimension. Ten minutes after a criatura is sucked into the mirror, if an ally doesn't rescue the criatura, it reaches the other dimension. In the mirror dimension, it counts as a mirror duplicate. Estos dimensions are alternate realities, not planes, so even conjuros like @UUID[Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ]{Interplanar Teleport}<em> </em>can't reach them.</p>",
+      "reset": "<p>The mirror is always ready to absorb criaturas into the other dimension. Ten minutes after a criatura is sucked into the mirror, if an aliado doesn't rescue the criatura, it reaches the other dimension. In the mirror dimension, it counts as a mirror duplicate. Estos dimensions are alternate realities, not planes, so even conjuros like @UUID[Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ]{Interplanar Teleport}<em> </em>can't reach them.</p>",
       "routine": "<p>(1 action) The mirror absorbs another reflected criatura and replaces it with a mirror duplicate. A mirror duplicate attacks on their own initiative, using the same statistics as the original criatura, but they hate all other non-duplicate criaturas. A mirror duplicate can spend 3 actions in contact with the mirror to return to their original dimension and release the duplicated criatura.</p>",
       "stealth": "<p>(maestro) to notice it isn't a regular mirror</p>",
       "items": {
@@ -160,7 +160,7 @@
       "items": {
         "action->Disorient": {
           "name": "Disorient",
-          "description": "<p><strong>Desencadenante</strong> A criatura enters the room</p>\n<hr />\n<p><strong>Efecto</strong> Illusions cause the appearance of the room and the objects inside it to constantly warp, shift, bend, and distort for 1 minuto. Each criatura in the room while it's distorting must attempt a @Check[perception|dc:17] check.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura disbelieves the illusions and is unaffected.</p>\n<p><strong>Éxito</strong> The criatura disbelieves the illusions but still sees them. It treats the room as difficult terrain.</p>\n<p><strong>Fallo</strong> The criatura is fooled by the illusions. It treats the room as difficult terrain and becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}. As long as it remains in the room, it can't reduce its sickened value below 1.</p>\n<p><strong>Fallo crítico</strong> As failure, but each time the criatura Archive attempts a move action, it must succeed at a @Check[flat|dc:5] or they lose the action, and on a critical failure, it also falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura enters the room</p>\n<hr />\n<p><strong>Efecto</strong> Illusions cause the appearance of the room and the objects inside it to constantly warp, shift, bend, and distort for 1 minuto. Each criatura in the room while it's distorting must attempt a @Check[perception|dc:17] prueba.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura disbelieves the illusions and is unaffected.</p>\n<p><strong>Éxito</strong> The criatura disbelieves the illusions but still sees them. It treats the room as difficult terrain.</p>\n<p><strong>Fallo</strong> The criatura is fooled by the illusions. It treats the room as difficult terrain and becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}. As long as it remains in the room, it can't reduce its indispuesto value below 1.</p>\n<p><strong>Fallo crítico</strong> As failure, but each time the criatura Archive attempts a move action, it must succeed at a @Check[flat|dc:5] or they lose the action, and on a critical failure, it also falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}.</p>"
         }
       }
     },
@@ -173,13 +173,13 @@
       "items": {
         "action->Painful Transformation": {
           "name": "Painful Transformation",
-          "description": "<p><strong>Desencadenante</strong> A criatura is reflected in the mirror</p>\n<hr />\n<p><strong>Efecto</strong> The triggering criatura's body is painfully squished, stretched, and distorted to match their reflection. The criatura takes @Damage[(6d10 + 30)[force]] daño and must attempt a @Check[fortitude|dc:39|traits:damaging-effect] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo is unaffected.</p>\n<p><strong>Éxito</strong> El objetivo takes half daño and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1} for 1 asalto.</p>\n<p><strong>Fallo</strong> El objetivo takes full daño and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 2} for 4 asaltos.</p>\n<p><strong>Fallo crítico</strong> El objetivo takes double daño and is torpe 2 and debilitado 2 for 1 minuto. As long as the criatura is torpe or debilitado, it additionally takes a -10-pies penalización de estado to its Velocidades.</p>\n<p>When the effects of this trap end, the triggering criatura's transformation ends, and its body reverts to its natural form.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura is reflected in the mirror</p>\n<hr />\n<p><strong>Efecto</strong> The triggering criatura's body is painfully squished, stretched, and distorted to match their reflection. The criatura takes @Damage[(6d10 + 30)[force]] daño and must attempt a @Check[fortitude|dc:39|traits:damaging-effect] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo is unaffected.</p>\n<p><strong>Éxito</strong> El objetivo takes half daño and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1} for 1 asalto.</p>\n<p><strong>Fallo</strong> El objetivo takes full daño and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 2} for 4 asaltos.</p>\n<p><strong>Fallo crítico</strong> El objetivo takes double daño and is torpe 2 and debilitado 2 for 1 minuto. As long as the criatura is torpe or debilitado, it additionally takes a -10-pies penalizador de estado to its Velocidades.</p>\n<p>When the effects of this trap end, the triggering criatura's transformation ends, and its body reverts to its natural form.</p>"
         }
       }
     },
     "Entrapping Chair": {
       "name": "Entrapping Chair",
-      "description": "<p>A chair on concealed tracks surges forward, knocking a criatura into the chair's seat and trapping them in place with clamping armrests.</p>",
+      "description": "<p>A chair on oculto tracks surges forward, knocking a criatura into the chair's seat and trapping them in place with clamping armrests.</p>",
       "disable": "<p>@Check[thievery|dc:23|name:Disrupt the Tracks|traits:action:disable-a-device] (experto) to disrupt the tracks</p>",
       "reset": "<p>La trampa resets automatically over 2 asaltos if the chair is unoccupied.</p>",
       "stealth": "<p>(0 a notice el chair)</p>",
@@ -199,14 +199,14 @@
       "items": {
         "action->Gust": {
           "name": "Gust",
-          "description": "<p><strong>Desencadenante</strong> A criatura opens the door</p>\n<hr />\n<p><strong>Efecto</strong> The hall is buffeted by powerful winds for as long as the door remains open. A criatura must succeed at a @Check[athletics|dc:32] check to move toward the door. A criatura who fails at this check is pushed back 5 pies and falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}.</p>\n<p>Additionally, the triggering criatura is blasted by a powerful gust of wind and must attempt a @Check[fortitude|dc:32] salvación. La trampa then rolls initiative.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is pushed back 5 pies.</p>\n<p><strong>Fallo</strong> The criatura is pushed back 10 pies.</p>\n<p><strong>Fallo crítico</strong> The criatura is pushed back 10 pies and knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura opens the door</p>\n<hr />\n<p><strong>Efecto</strong> The hall is buffeted by powerful winds for as long as the door remains open. A criatura must succeed at a @Check[athletics|dc:32] prueba to move toward the door. A criatura who fails at this prueba is pushed back 5 pies and falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}.</p>\n<p>Additionally, the triggering criatura is blasted by a powerful gust of wind and must attempt a @Check[fortitude|dc:32] salvación. La trampa then rolls initiative.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is pushed back 5 pies.</p>\n<p><strong>Fallo</strong> The criatura is pushed back 10 pies.</p>\n<p><strong>Fallo crítico</strong> The criatura is pushed back 10 pies and knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}.</p>"
         }
       }
     },
     "False Floor": {
       "name": "False Floor",
       "description": "<p>The floor in this chamber is an illusion, which conceals a 40-pies drop to the true floor below. Additionally, the area beneath the floor is magically silenced-no sound is audible within nor does sound leave this space.</p>",
-      "disable": "<p>Succeeding on a Perception check against the STEALTH DC of 21 (including the check to find the trap) disbelieves the illusory floor, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (2nd rank; counteract DC 18) to dispel the illusory floor; <em>dispel magic</em> (2nd level; counteract DC 20) to dispel the magical silence</p>",
+      "disable": "<p>Succeeding on a Perception prueba against the STEALTH DC of 21 (including the prueba to find the trap) disbelieves the illusory floor, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (2nd rank; counteract DC 18) to dispel the illusory floor; <em>dispel magic</em> (2nd nivel; counteract DC 20) to dispel the magical silence</p>",
       "reset": "<p>Automatico</p>",
       "stealth": "<p>(entrenado; or 0 if the illusory floor is dispelled)</p>",
       "items": {
@@ -240,7 +240,7 @@
         },
         "action->Destabilized Form": {
           "name": "Destabilized Form",
-          "description": "<p>When the Echo has fewer than 140 Puntos de Golpe, his form destabilizes, large chunks disintegrating from his face, limbs, and torso. White moths constantly stream from the missing spaces, creating a @Template[emanation|distance:10] that deals @Damage[6d6[mental]|options:area-damage] daño with a @Check[will|dc:34|basic|options:area-effect].</p>\n<p>As long as the aura persists, he can dissolve into moths and re-form at another location within 15 pies as a free action at the beginning of each of his turns; this has the occult, conjuration, and teleportation rasgos.</p>"
+          "description": "<p>When the Echo has fewer than 140 Puntos de golpe, his form destabilizes, large chunks disintegrating from his face, limbs, and torso. White moths constantly stream from the missing spaces, creating a @Template[emanation|distance:10] that deals @Damage[6d6[mental]|options:area-damage] daño with a @Check[will|dc:34|basic|options:area-effect].</p>\n<p>As long as the aura persists, he can dissolve into moths and re-form at another location within 15 pies as a free action at the beginning of each of his turns; this has the occult, conjuration, and teleportation rasgos.</p>"
         },
         "action->Reactive Strike (Special)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc]\nReactive Golpe (Special)",
@@ -257,7 +257,7 @@
         },
         "action->Astral Thread Control": {
           "name": "Astral Thread Control",
-          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<p><strong>Requisitos</strong> The Echo's previous action was a successful thrown rope dart Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The Echo flicks his wrist and makes a follow-up thrown rope dart Golpe at a different target within 30 pies of the first target, using the same multiple attack penalización as his previous Golpe. Regardless of whether his attack hits, he then retrieves the arma.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<p><strong>Requisitos</strong> The Echo's previous action was a successful thrown rope dart Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The Echo flicks his wrist and makes a follow-up thrown rope dart Golpe at a different objetivo within 30 pies of the first objetivo, using the same multiple attack penalizador as his previous Golpe. Regardless of whether his attack hits, he then retrieves the arma.</p>"
         },
         "action->Contingency Oathday-Nine-Rova": {
           "name": "Contingency Oathday-Nine-Rova",
@@ -265,7 +265,7 @@
         },
         "action->Reconstitute from Thought": {
           "name": "Reconstitute from Thought",
-          "description": "<p><strong>Requisitos</strong> The Echo is standing on one of the eight large islands of the map, and the island hasn't darkened</p>\n<hr />\n<p><strong>Efecto</strong> The Echo throws his rope dart into the island and uses it to absorb mental essence from the mindscape, repairing himself. He regains @Damage[45[healing]] Puntos de Golpe and the island turns a desaturated gray for 1 día, preventing future absorption and disabling the @UUID[Compendium.pf2e.pathfinder-dark-archive.Actor.0AdtolhMWrPlzVZY]{Call of the Void} hazard on that island.</p>"
+          "description": "<p><strong>Requisitos</strong> The Echo is standing on one of the eight large islands of the map, and the island hasn't darkened</p>\n<hr />\n<p><strong>Efecto</strong> The Echo throws his rope dart into the island and uses it to absorb mental essence from the mindscape, repairing himself. He regains @Damage[45[healing]] Puntos de golpe and the island turns a desaturated gray for 1 día, preventing future absorption and disabling the @UUID[Compendium.pf2e.pathfinder-dark-archive.Actor.0AdtolhMWrPlzVZY]{Call of the Void} hazard on that island.</p>"
         },
         "action->Spindle's Web": {
           "name": "Spindle's Web",
@@ -292,7 +292,7 @@
         },
         "action->Am I Pretty?": {
           "name": "Am I Pretty?",
-          "description": "<p>The kuchisake-onna asks a single adjacent target, \"Am I pretty?\" El objetivo must attempt a @Check[will|dc:35|traits:mental] salvación. If it fails, it is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 asalto, and if it critically fails, it is @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 1 asalto, though still able to respond to the question; this is a mental effect.</p>\n<p>If el objetivo responds \"No\", the kuchisake-onna makes two silver scissors Golpes against el objetivo. If el objetivo responds \"Yes\", the kuchisake-onna makes no Golpes this turn and must use Even Now? as their next action (waiting until the first action of their next turn, if necessary). If el objetivo otherwise responds in a confusing or noncommittal manner, the kuchisake-onna becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all criaturas for 1 asalto but can otherwise act normally.</p>"
+          "description": "<p>The kuchisake-onna asks a single adjacent objetivo, \"Am I pretty?\" El objetivo must attempt a @Check[will|dc:35|traits:mental] salvación. If it fails, it is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 asalto, and if it critically fails, it is @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 1 asalto, though still able to respond to the question; this is a mental effect.</p>\n<p>If el objetivo responds \"No\", the kuchisake-onna makes two silver scissors Golpes against el objetivo. If el objetivo responds \"Yes\", the kuchisake-onna makes no Golpes this turn and must use Even Now? as their next action (waiting until the first action of their next turn, if necessary). If el objetivo otherwise responds in a confusing or noncommittal manner, the kuchisake-onna becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to all criaturas for 1 asalto but can otherwise act normally.</p>"
         },
         "action->Even Now?": {
           "name": "Even Now?",
@@ -300,7 +300,7 @@
         },
         "action->Lingering Enmity": {
           "name": "Lingering Enmity",
-          "description": "<p>The kuchisake-onna's silver scissors Golpes are manifestations of the toxic malice that created them and vanish when the kuchisake-onna is destroyed.</p>\n<p>When the kuchisake-onna has less than half their maximum Puntos de Golpe remaining, this concentrated enmity begins to leak out and make their attacks more vicious. Their silver scissors Golpes deal 6d6 daño persistente de sangrado.</p>\n<hr />\n<p><em>Note: Due to a later published errata this daño persistente is doubled on a impacto crítico. Due to the high daño potential for this criatura's level that interaction may not be intended.</em></p>"
+          "description": "<p>The kuchisake-onna's silver scissors Golpes are manifestations of the toxic malice that created them and vanish when the kuchisake-onna is destroyed.</p>\n<p>When the kuchisake-onna has less than half their maximum Puntos de golpe remaining, this concentrated enmity begins to leak out and make their attacks more vicious. Their silver scissors Golpes deal 6d6 daño persistente de sangrado.</p>\n<hr />\n<p><em>Note: Due to a later published errata this daño persistente is doubled on a impacto crítico. Due to the high daño potential for this criatura's nivel that interaction may not be intended.</em></p>"
         },
         "action->Rend": {
           "name": "Rasgadura",
@@ -316,7 +316,7 @@
       "items": {
         "action->Appear": {
           "name": "Appear",
-          "description": "<p><strong>Desencadenante</strong> A criatura views the wall through a mirror's reflection</p>\n<hr />\n<p><strong>Efecto</strong> A door appears in the mirror's reflection of the wall. The triggering criatura can open and manipulate this door only as long as they view it through the mirror and only by succeeding at a @Check[thievery|dc:18|name:Disable the Trap|traits:action:disable-a-device] check to disable the trap.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura views the wall through a mirror's reflection</p>\n<hr />\n<p><strong>Efecto</strong> A door appears in the mirror's reflection of the wall. The triggering criatura can open and manipulate this door only as long as they view it through the mirror and only by succeeding at a @Check[thievery|dc:18|name:Disable the Trap|traits:action:disable-a-device] prueba to disable the trap.</p>"
         }
       }
     },
@@ -324,8 +324,8 @@
       "name": "Mother Mitera",
       "hpDetails": "vinculo de vitalidad cristalina",
       "items": {
-        "spellcastingEntry->Primal Prepared Spells": {
-          "name": "Primal Prepared Spells"
+        "spellcastingEntry->Primal Prepared Conjuros": {
+          "name": "Primal Prepared Conjuros"
         },
         "equipment->Ceremonial Robes": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.jJZbdMHMdh8UL2j8]\nCeremonial Robes"
@@ -341,11 +341,11 @@
         },
         "action->Crystal Vitality Link": {
           "name": "Crystal Vitality Link",
-          "description": "<p>The power of the island links Mitera's vitality to her followers. As long as any of the three quartz formations are intact, siempre que Mitera takes daño, any of her followers within 10 miles lose the same amount of Puntos de Golpe.</p>"
+          "description": "<p>The power of the island links Mitera's vitality to her followers. As long as any of the three quartz formations are intact, siempre que Mitera takes daño, any of her followers within 10 miles lose the same amount of Puntos de golpe.</p>"
         },
         "action->Ascension is Near": {
           "name": "Ascension is Near",
-          "description": "<p><strong>Frecuencia</strong> once per ascension ritual</p>\n<hr />\n<p><strong>Efecto</strong> Mitera activates the moonflower link with her followers. Any followers within @Template[emanation|distance:30]{30 pies} who failed their tirada de salvación against the moonflower tea become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}. Anyone who critically failed and did not receive an antidote explodes (this is about half of Mitera's congregation if the PCs didn't successfully administer the antidote). If anyone's body explodes, Mitera gains 30 Puntos de Golpe temporales and is @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Acelerado} for 3 asaltos; she can use this additional action each round only for Golpe and Zancada actions.</p>"
+          "description": "<p><strong>Frecuencia</strong> once per ascension ritual</p>\n<hr />\n<p><strong>Efecto</strong> Mitera activates the moonflower link with her followers. Any followers within @Template[emanation|distance:30]{30 pies} who failed their tirada de salvación against the moonflower tea become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}. Anyone who critically failed and did not receive an antidote explodes (this is about half of Mitera's congregation if the PCs didn't successfully administer the antidote). If anyone's body explodes, Mitera gains 30 Puntos de golpe temporales and is @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Acelerado} for 3 asaltos; she can use this additional action each round only for Golpe and Zancada actions.</p>"
         },
         "lore->Ludovica Lore": {
           "name": "Ludovica Lore"
@@ -389,8 +389,8 @@
     "Reflection": {
       "name": "Reflejo",
       "items": {
-        "strike-melee->Reflected Weapon": {
-          "name": "Reflected Weapon"
+        "strike-melee->Reflected Arma": {
+          "name": "Reflected Arma"
         },
         "action->Reflection Routine": {
           "name": "Reflection Routine",
@@ -416,7 +416,7 @@
       "disable": "<p>@Check[thievery|dc:43|name:Steal the Cloth|traits:action:disable-a-device] (maestro) to steal the cloth before the spirit manifests, or @Check[athletics|dc:47|name:Pull the Cloth Off] to pull the cloth off the spirit after it manifests</p>",
       "hpDetails": "espiritual",
       "reset": "<p>The haunt can be reset if the mirror is covered in a cloth or shroud.</p>",
-      "routine": "<p>(3 actions) The spirit uses 3 actions to Dar un paso, fly 60 pies, or Golpe, in any order. On a successful Golpe the spirit's target is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}, and on a critical success, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}.</p>",
+      "routine": "<p>(3 actions) The spirit uses 3 actions to Dar un paso, fly 60 pies, or Golpe, in any order. On a successful Golpe the spirit's objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}, and on a critical success, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}.</p>",
       "items": {
         "action->Don Shroud": {
           "name": "Don Shroud",
@@ -465,7 +465,7 @@
         },
         "action->Fossilization": {
           "name": "Fossilization",
-          "description": "<p>The first time each round a criatura takes daño from the paleohemoth's jaws, el objetivo must attempt a @Check[fortitude|dc:32] salvación. If it fails and has not already been ralentizado by this ability, it becomes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 minuto.</p>\n<p>If the criatura was already ralentizado by this ability, a failed save causes it to be @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{Petrified} permanently.</p>"
+          "description": "<p>The first time each round a criatura takes daño from the paleohemoth's jaws, el objetivo must attempt a @Check[fortitude|dc:32] salvación. If it fails and has not already been ralentizado by this ability, it becomes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for 1 minuto.</p>\n<p>If the criatura was already ralentizado by this ability, a failed save causes it to be @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{Petrified} permanently.</p>"
         },
         "action->Incomplete": {
           "name": "Incomplete",
@@ -495,12 +495,12 @@
       "description": "<p>The pool sucks in criaturas that fall into it, making them sink into its endless depths.</p>",
       "disable": "<p>@Check[diplomacy|dc:32|name:Calm the Pool] (maestro) to quell the fear and calm the pool or @Check[intimidation|dc:35|name:Scare the Pool] to give the pool something worse to fear; three successes required.</p>",
       "reset": "<p>La trampa resets once there are no moving criaturas in it.</p>",
-      "routine": "<p>(3 actions) Water from the chalice increases the depth of the water by 10 pies for each action. Each time this happens, criaturas in the pool are pushed 10 pies down and take @Damage[1d6[bludgeoning]] daño. As the pool has no bottom, criaturas in it can fall down indefinitely; they must @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Swim} up to avoid drowning, but the water is especially choppy, so the ATHLETICS DC is @Check[athletics|dc:25|traits:action:swim]. The pool never overflows. Each successful check to Disable reduces the pool's actions by 1, and once the pool is completely Disabled, the water becomes still and the ATHLETICS DC to Swim becomes @Check[athletics|dc:10|traits:action:swim].</p>",
+      "routine": "<p>(3 actions) Water from the chalice increases the depth of the water by 10 pies for each action. Each time this happens, criaturas in the pool are pushed 10 pies down and take @Damage[1d6[bludgeoning]] daño. As the pool has no bottom, criaturas in it can fall down indefinitely; they must @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Swim} up to avoid drowning, but the water is especially choppy, so the ATHLETICS DC is @Check[athletics|dc:25|traits:action:swim]. The pool never overflows. Each successful prueba to Disable reduces the pool's actions by 1, and once the pool is completely Disabled, the water becomes still and the ATHLETICS DC to Swim becomes @Check[athletics|dc:10|traits:action:swim].</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
         "action->Downpour": {
           "name": "Aguacero",
-          "description": "<p><strong>Desencadenante</strong> A criatura falls into the pool</p>\n<hr />\n<p><strong>Efecto</strong> More water pours forth from the chalice. Las criaturas in the pool become @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}, and they can't decrease their torpe condition so long as they remain in the pool. La trampa then rolls initiative.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura falls into the pool</p>\n<hr />\n<p><strong>Efecto</strong> More water pours forth from the chalice. Las criaturas in the pool become @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1}, and they can't decrease their torpe condition so long as they remain in the pool. La trampa then rolls initiative.</p>"
         }
       }
     },
@@ -512,23 +512,23 @@
         },
         "action->Disgusted by Food": {
           "name": "Disgusted by Food",
-          "description": "<p>The morrowkin eats dreams and potential, not food. A criatura that spends an action to brandish food at the morrowkin automatically makes the criatura @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} (or increases its sickened value by 1, to a maximum of sickened 6), decreasing the morrowkin's AC, tiradas de ataque, saves, skills, and ability DCs accordingly, as normal for the sickened condition. The morrowkin can't retch to reduce its sickened condition.</p>"
+          "description": "<p>The morrowkin eats dreams and potential, not food. A criatura that spends an action to brandish food at the morrowkin automatically makes the criatura @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} (or increases its indispuesto value by 1, to a maximum of indispuesto 6), decreasing the morrowkin's AC, tiradas de ataque, saves, skills, and ability DCs accordingly, as normal for the indispuesto condition. The morrowkin can't retch to reduce its indispuesto condition.</p>"
         },
         "action->Endless": {
           "name": "Endless",
-          "description": "<p>If reduced to 0 Puntos de Golpe or incapacitated for more than a few rounds, the morrowkin vanishes. In 1 minuto, it reappears refreshed completely as if the previous battle never happened, with full HP, with all effects on it cleared, and with its Swallow Future ability ready to use again.</p>"
+          "description": "<p>If reduced to 0 Puntos de golpe or incapacitated for more than a few rounds, the morrowkin vanishes. In 1 minuto, it reappears refreshed completely as if the previous battle never happened, with full HP, with all effects on it cleared, and with its Swallow Future ability ready to use again.</p>"
         },
         "action->Drain Potential": {
           "name": "Drain Potential",
-          "description": "<p>The morrowkin tries to drain the motivation from its target, who must attempt a @Check[fortitude|dc:31] salvación. If el objetivo fails, it is @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condenado 1} (@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condenado 2} on a critical failure) and must roll twice and use the worse result on all checks for 1 minuto. Las criaturas wearing a hope talisman are unaffected.</p>"
+          "description": "<p>The morrowkin tries to drain the motivation from its objetivo, who must attempt a @Check[fortitude|dc:31] salvación. If el objetivo fails, it is @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condenado 1} (@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condenado 2} on a critical failure) and must roll twice and use the worse result on all checks for 1 minuto. Las criaturas wearing a hope talisman are unaffected.</p>"
         },
         "action->Swallow Future": {
           "name": "Swallow Future",
-          "description": "<p>The morrowkin inhales and draws forth the future deeds of all criaturas around it. All criaturas within a @Template[emanation|distance:30] of the morrowkin take [[/r (6d8 + 18)[mental]]] daño and must attempt a @Check[will|dc:39] salvación.</p>\n<p>The morrowkin can't Swallow Future again for 1 minuto.</p>\n<p>Las criaturas wearing hope talismans can elige to let their hope talisman break in order to ignore the effect after seeing the result of their Will save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura takes no daño.</p>\n<p><strong>Éxito</strong> The criatura takes half daño and is @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condenado 1}.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and is @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condenado 2}.</p>\n<p><strong>Fallo crítico</strong> The criatura takes double daño and becomes @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condenado 4} (likely causing it to die immediately).</p>"
+          "description": "<p>The morrowkin inhales and draws forth the future deeds of all criaturas around it. All criaturas within a @Template[emanation|distance:30] of the morrowkin take [[/r (6d8 + 18)[mental]]] daño and must attempt a @Check[will|dc:39] salvación.</p>\n<p>The morrowkin can't Swallow Future again for 1 minuto.</p>\n<p>Las criaturas wearing hope talismans can elige to let their hope talisman break in order to ignore the effect after seeing the result of their salvación de Voluntad.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura takes no daño.</p>\n<p><strong>Éxito</strong> The criatura takes half daño and is @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condenado 1}.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and is @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condenado 2}.</p>\n<p><strong>Fallo crítico</strong> The criatura takes double daño and becomes @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condenado 4} (likely causing it to die immediately).</p>"
         },
         "action->Tomorrow's Fury": {
           "name": "Tomorrow's Fury",
-          "description": "<p>The morrowkin makes claw attacks against any number of targets within reach. The claw attacks count against the morrowkin's multiple attack penalización, but don't apply the penalización until after all attacks have been made.</p>"
+          "description": "<p>The morrowkin makes claw attacks against any number of objetivos within reach. The claw attacks count against the morrowkin's multiple attack penalizador, but don't apply the penalizador until after all attacks have been made.</p>"
         }
       }
     },
@@ -544,7 +544,7 @@
         },
         "action->Dreams Unraveling": {
           "name": "Dreams Unraveling",
-          "description": "<p>When the Weaver has fewer than 155 Puntos de Golpe, his form partially unravels, revealing patches of pure horror acute enough to leave physical wounds. Este creates a 10-pies emanation that deals @Damage[3d6[mental],3d6[slashing]|options:area-damage]{3d6 daño mental and 3d6 daño cortante}, with a @Check[will|dc:36|basic|options:area-effect]. A criatura @UUID[Compendium.pf2e.actionspf2e.Item.UWdRX1VelipCzrCg]{Averting its Gaze} is immune to the aura.</p>"
+          "description": "<p>When the Weaver has fewer than 155 Puntos de golpe, his form partially unravels, revealing patches of pure horror acute enough to leave physical wounds. Este creates a 10-pies emanation that deals @Damage[3d6[mental],3d6[slashing]|options:area-damage]{3d6 daño mental and 3d6 daño cortante}, with a @Check[will|dc:36|basic|options:area-effect]. A criatura @UUID[Compendium.pf2e.actionspf2e.Item.UWdRX1VelipCzrCg]{Averting its Gaze} is immune to the aura.</p>"
         },
         "action->Nameless Nightmare": {
           "name": "Nameless Nightmare",
@@ -556,15 +556,15 @@
         },
         "action->Separate Astral Body": {
           "name": "Separate Astral Body",
-          "description": "<p>The Weaver buries a silk thread in el objetivo's psyche and tugs, wrenching el objetivo's astral form out of their body. Unless el objetivo succeeds at a @Check[will|dc:36] salvación, their astral form is pulled out, causing a ghostly image of them to appear in an adjacent space of the Weaver's choosing. An astral body is immune to daño físico but affected normally by mental effects, force effects, and effects that directly target the spirit. El objetivo remains connected to their physical body by a silver cord, which is always visible and possibly foils attempts to Hide. Separation from one's astral body takes a toll on the psyche, imposing a -1 penalización de estado to Will saves and dealing @Damage[1d6[persistent,mental]] daño for as long as the body is separated; this increases to 3d6 if el objetivo is ever more than 30 pies from its astral body. El objetivo can use a single action, which has the concentrate rasgo, to move their astral body an amount equal to their Velocidad. When el objetivo stops taking daño persistente mental from this ability, the astral body snaps back to the physical body, ending the effect. If a target is carrying silver, then the first time this ability is used on them, the ability fails and any silver they're carrying larger than a coin tarnishes-while this doesn't outright destroy items like armas or thaumaturge implements, it does prevent them from protecting against this ability more than once.</p>"
+          "description": "<p>The Weaver buries a silk thread in el objetivo's psyche and tugs, wrenching el objetivo's astral form out of their body. Unless el objetivo succeeds at a @Check[will|dc:36] salvación, their astral form is pulled out, causing a ghostly image of them to appear in an adjacent space of the Weaver's choosing. An astral body is immune to daño físico but affected normally by mental effects, force effects, and effects that directly objetivo the spirit. El objetivo remains connected to their physical body by a silver cord, which is always visible and possibly foils attempts to Hide. Separation from one's astral body takes a toll on the psyche, imposing a -1 penalizador de estado to Will saves and dealing @Damage[1d6[persistent,mental]] daño for as long as the body is separated; this increases to 3d6 if el objetivo is ever more than 30 pies from its astral body. El objetivo can use a single action, which has the concentrate rasgo, to move their astral body an amount equal to their Velocidad. When el objetivo stops taking daño persistente mental from this ability, the astral body snaps back to the physical body, ending the effect. If a objetivo is carrying silver, then the first time this ability is used on them, the ability fails and any silver they're carrying larger than a coin tarnishes-while this doesn't outright destroy items like armas or thaumaturge implements, it does prevent them from protecting against this ability more than once.</p>"
         },
         "action->Sever Astral Threads": {
           "name": "Sever Astral Threads",
-          "description": "<p>The Weaver uses a claw to cut the silver cord connecting a criatura's astral and physical bodies. Este deals @Damage[16d6[mental]] daño to any target affected by Separate Astral Body whose physical or astral body is within 10 pies of the Weaver (@Check[will|dc:37|basic]). After being targeted by this ability, the astral body slams violently back into el objetivo's physical body, causing el objetivo's vision to swim and blinding them until the start of their next turn unless they critically succeeded at their tirada de salvación.</p>"
+          "description": "<p>The Weaver uses a claw to cut the silver cord connecting a criatura's astral and physical bodies. Este deals @Damage[16d6[mental]] daño to any objetivo affected by Separate Astral Body whose physical or astral body is within 10 pies of the Weaver (@Check[will|dc:37|basic]). After being targeted by this ability, the astral body slams violently back into el objetivo's physical body, causing el objetivo's vision to swim and blinding them until the start of their next turn unless they critically succeeded at their tirada de salvación.</p>"
         },
         "action->Stalker in Dreams": {
           "name": "Stalker in Dreams",
-          "description": "<p><strong>Desencadenante</strong> The Weaver becomes @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} to all criaturas within 60 pies or is not observed by any criaturas within 60 pies</p>\n<hr />\n<p><strong>Efecto</strong> The Weaver's presence on the Material Plane is connected to others' perception of him, and when that perception falters, he can skitter to a new location. The Weaver teleports to an unoccupied space within 60 pies not within line of sight of any criaturas within 60 pies. If the Weaver became concealed or unobserved as part of a movement action he was taking, he can resume its movement after teleporting. A criatura who Averts its Gaze from the Weaver is not observing him.</p>"
+          "description": "<p><strong>Desencadenante</strong> The Weaver becomes @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} to all criaturas within 60 pies or is not observado by any criaturas within 60 pies</p>\n<hr />\n<p><strong>Efecto</strong> The Weaver's presence on the Material Plane is connected to others' perception of him, and when that perception falters, he can skitter to a new location. The Weaver teleports to an unoccupied space within 60 pies not within line of sight of any criaturas within 60 pies. If the Weaver became oculto or unobserved as part of a movement action he was taking, he can resume its movement after teleporting. A criatura who Averts its Gaze from the Weaver is not observing him.</p>"
         },
         "action->String Astral Body": {
           "name": "String Astral Body",
@@ -599,7 +599,7 @@
         },
         "action->Pod Spawn": {
           "name": "Pod Spawn",
-          "description": "<p>Should a Small or larger criatura die within a pod prison, the pod transforms into an adult moonflower with full Puntos de Golpe after [[/gmr 1d4 #Moonflower Transformation]]{1d4 hours} of growth.</p>\n<p>The newly formed moonflower has its own consciousness, but some aspect of its trunk or blossoms resembles the criatura that died within. The dead criatura's equipment remains inside the new moonflower and can be retrieved if the moonflower is slain.</p>"
+          "description": "<p>Should a Small or larger criatura die within a pod prison, the pod transforms into an adult moonflower with full Puntos de golpe after [[/gmr 1d4 #Moonflower Transformation]]{1d4 hours} of growth.</p>\n<p>The newly formed moonflower has its own consciousness, but some aspect of its trunk or blossoms resembles the criatura that died within. The dead criatura's equipment remains inside the new moonflower and can be retrieved if the moonflower is slain.</p>"
         },
         "action->Spray Blossoms": {
           "name": "Spray Blossoms",

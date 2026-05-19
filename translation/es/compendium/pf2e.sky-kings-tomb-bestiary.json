@@ -2,9 +2,9 @@
   "label": "Bestiario de La tumba de los Reyes del Cielo",
   "entries": {
     "Alchemist Ivy": {
-      "name": "Alchemist Ivy",
+      "name": "Hiedra alquimista",
       "blurb": "Variante de vid asesina",
-      "publicNotes": "<p>The assassin vine is a carnivorous plant with a voracious appetite. Rather than consuming criaturas directly, it creates its own fertilizer by entangling prey and squeezing the life from it. Once the plant has killed a criatura, it pulls the carcass over to its roots to feed from the decaying flesh. Although an assassin vine lacks eyes, it can detect and track prey through a combination of using its root systems to detect vibrations through topsoil and its leaves to detect heat changes in the vicinity. Although the assassin vine has no real INTELLIGENCE, its learned behaviors mimic those of cunning ambush hunters.</p>\n<p>As it is slow moving, the assassin vine typically remains rooted in a single area for as long as it has sufficient prey. Though most often found along woodland trails or swamps, these plants can also be encountered in more rural settlements, poorly tended fields, and vineyards. While assassin vines can't be entrenado in the classical sense, they can be used as defenses, and woodland-dwelling criaturas like goblins and fey have been known to cultivate assassin vines as guardians for less-used routes into their lairs. In such cases, the tenders often seek to make the path more obvious than its disuse would otherwise suggest, while simultaneously working to ensure the bones of the vines' victims are removed to keep their presence a secret, resulting in what appears to be an easy approach to the den but is actually an organic ambush.</p>\n<p>Mature assassin vines grow to 20 pies long and have smaller vines extending off the main trunk that reach from to 5 to 10 pies in length. The smallest of these vines sprout every 6 inches or so; they tend to grow clusters of full leaves and occasionally bear small berries. A recently fed assassin vine can have bunches of plump, blood-red berries that are juicy and tart but leave a slightly unpleasant iron aftertaste, as if from the faint taste of blood from a bitten lip.</p>",
+      "publicNotes": "<p>La enredadera asesina es una planta carnivora de apetito voraz. En vez de consumir criaturas directamente, crea su propio fertilizante enredando a sus presas y exprimiendoles la vida. Cuando ha matado a una criatura, arrastra el cadaver hasta sus raices para alimentarse de la carne en descomposicion. Aunque carece de ojos, puede detectar y rastrear presas mediante una combinacion de sistemas radicales sensibles y reaccion a las vibraciones.</p>",
       "skillSpecialStealth": {
         "0": {
           "label": "en bosques o praderas"
@@ -30,11 +30,11 @@
         },
         "action->Chemical Fertilizer": {
           "name": "Chemical Fertilizer",
-          "description": "<p><strong>Desencadenante</strong> A criatura within 10 pies of the alchemist ivy Activates or is hit by an item with the alchemical rasgo</p>\n<hr />\n<p><strong>Efecto</strong> The alchemist ivy briefly extends tendrils toward the criatura and absorbs some of the alchemical residue, regaining @Damage[2d8[healing]] Puntos de Golpe and gaining a +15-pies bonificador de estado to its Velocidad until the end of its next turn.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.s4XFUgK8UgKnpKrX]{Efecto: Chemical Fertilizer}</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura within 10 pies of the alchemist ivy Activates or is hit by an item with the alchemical rasgo</p>\n<hr />\n<p><strong>Efecto</strong> The alchemist ivy briefly extends tendrils toward the criatura and absorbs some of the alchemical residue, regaining @Damage[2d8[healing]] Puntos de golpe and gaining a +15-pies bonificador de estado to its Velocidad until the end of its next turn.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.s4XFUgK8UgKnpKrX]{Efecto: Chemical Fertilizer}</p>"
         },
         "action->Grasping Foliage": {
           "name": "Grasping Foliage",
-          "description": "<p><strong>Desencadenante</strong> The assassin vine detects a criatura within 20 pies via @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]{Tremorsense}</p>\n<hr />\n<p><strong>Efecto</strong> The assassin vine causes vegetation within a @Template[emanation|distance:20] to writhe for 1 asalto, turning this area into difficult terrain. When a criatura starts its turn in this area, it must attempt a @Check[reflex|dc:20] salvación. On a failure, it takes a -10-pies penalización de circunstancia to its Velocidades until it leaves the area, and on a critical failure it is also @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} for 1 asalto. A criatura can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} to remove these effects.</p>\n<p>Assassin vines are immune to Grasping Foliage.</p>"
+          "description": "<p><strong>Desencadenante</strong> The assassin vine detects a criatura within 20 pies via @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]{Tremorsense}</p>\n<hr />\n<p><strong>Efecto</strong> The assassin vine causes vegetation within a @Template[emanation|distance:20] to writhe for 1 asalto, turning this area into difficult terrain. When a criatura starts its turn in this area, it must attempt a @Check[reflex|dc:20] salvación. On a failure, it takes a -10-pies penalizador por circunstancia to its Velocidades until it leaves the area, and on a critical failure it is also @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} for 1 asalto. A criatura can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} to remove these effects.</p>\n<p>Assassin vines are immune to Grasping Foliage.</p>"
         },
         "action->Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV]\n<p>@Damage[(1d8+4)[bludgeoning]], @Check[fortitude|dc:20|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
@@ -44,7 +44,7 @@
     "Algerschmick": {
       "name": "Algerschmick",
       "blurb": "Dvorovoi domestico",
-      "publicNotes": "<p>Traditionally, the dvorovoi is seen as the domovoi's younger sibling and has charge of a peasant's yard and all the animals and tools within. Animals favored by the dvorovoi become healthy, strong, and obedient, while less-loved livestock are exhausted and miserable. Peasants with a resident dvorovoi make sure to formally introduce new livestock to the house spirit and placate the spirit by leaving meals in the shed. Dvorovoi loathe white-furred animals and chase away any all-white cows or horses, though they have no similar grudge against chickens.</p>\n<hr />\n<p>House spirits are shy, often helpful, sometimes wrathful fey that dwell alongside peasants and farmers. They reside in the house, in the yard, in the granary, in the bathhouse-wherever people build and live. Due to this proximity, house spirits often take on the mannerisms or appearance of nearby mortals. Their reclusive NATURE and tendency to go unseen earned them the moniker of \"spirits,\" though in truth they are fully embodied fey.</p>\n<p>House spirits take an almost parental interest in \"their\" mortals. Given proper respect, these fey work tirelessly for their charges-they chop wood, care for livestock, mend clothes, sweep the floor, and tend to the stove. If offended, though, the house spirit becomes a menace, frightening animals or children and ruining belongings.</p>",
+      "publicNotes": "<p>Tradicionalmente, el dvorovoi es visto como el hermano menor del domovoi y se encarga del patio de un campesino, asi como de los animales y herramientas que contiene. Los animales favorecidos por el dvorovoi se vuelven sanos, fuertes y obedientes, mientras que el ganado menos querido acaba agotado y miserable. Los campesinos con un dvorovoi residente se aseguran de presentarle formalmente el nuevo ganado y de aplacarlo dejando comidas en el cobertizo.</p>",
       "senses": "sentido sismico (impreciso) en todo su patio vinculado",
       "items": {
         "spellcastingEntry->Primal Innate Spells": {
@@ -144,17 +144,17 @@
       }
     },
     "Ancestor Statue": {
-      "name": "Ancestor Statue",
+      "name": "Estatua ancestral",
       "acDetails": "(17 when broken); armadura de constructo",
       "blurb": "Estatua animada de elite",
-      "publicNotes": "<p>Animated statues are often used to guard crypts, small shrines, or areas in government buildings where they can be positioned amid normal statues to hide their true NATURE until an intruder arouses their ire. Adventurers' suspicions regarding statues suddenly animating and attacking has led many less scrupulous adventurers to automatically attack any statues they encounter, ruining harmless, ancient relics.</p>\n<hr />\n<p>Granted a semblance of life through the use of rituals or other strange magic, animated objects take many forms and serve a variety of uses. A few examples of typical animated objects are listed below. Many of these criaturas serve as guardians, surprising unsuspecting adventurers when they suddenly attack. Others serve as idle distractions for the exceptionally rich, simple servants created to handle odd jobs, and the like.</p>",
+      "publicNotes": "<p>Las estatuas animadas se usan a menudo para proteger criptas, pequenos santuarios o zonas de edificios gubernamentales, donde pueden colocarse entre estatuas normales para ocultar su verdadera naturaleza hasta que un intruso despierte su ira. La sospecha de los aventureros hacia estatuas que de pronto cobran vida y atacan ha llevado a muchos menos escrupulosos a atacar automaticamente cualquier estatua que encuentren, arruinando reliquias antiguas e inofensivas.</p>",
       "items": {
         "strike-melee->Fist": {
           "name": "Fist"
         },
         "action->Construct Armor (Hardness 6)": {
           "name": "Construct Armor (Hardness 6)",
-          "description": "<p>Like normal objects, an animated statue has Hardness. Este Hardness reduces any daño it takes by an amount equal to the Hardness.</p>\n<p>Once an elite animated statue is reduced to less than half its Puntos de Golpe, or immediately upon being damaged by a impacto crítico, its armadura de constructo breaks and its ARMOR CLASS is reduced to 17.</p>"
+          "description": "<p>Like normal objects, an animated statue has Hardness. Este Hardness reduces any daño it takes by an amount equal to the Hardness.</p>\n<p>Once an elite animated statue is reduced to less than half its Puntos de golpe, or immediately upon being damaged by a impacto crítico, its armadura de constructo breaks and its ARMOR CLASS is reduced to 17.</p>"
         }
       }
     },
@@ -203,7 +203,7 @@
         },
         "weapon->Sulfur Bomb (Moderate) (Infused)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.2pfEtA97lpG93kG2]\nSulfur Bomb (Moderate) (Infused)",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.2pfEtA97lpG93kG2]\n<p><strong>Activar</strong> <span class=\"action-glyph\">1</span> Golpe</p>\n<hr />\n<p>A thick, sulfurous, irritating gas fills this golden-yellow flask. Obtienes a +1 bonificador por objeto to tiradas de ataque. La bomba causa @Damage[2d4[acid]] daño and [[/r (2[splash])[acid]]]{2 daño de salpicadura de ácido}. On a hit, el objetivo takes a -1 penalización de estado to Perception checks and tiradas de ataque until the end of its next turn, or becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} on a impacto crítico. Las criaturas hit with this bomb are temporarily immune to the effects of the bomb for 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.fuQVJiPPUsvL6fi5]{Efecto: Sulfur Bomb}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.2pfEtA97lpG93kG2]\n<p><strong>Activar</strong> <span class=\"action-glyph\">1</span> Golpe</p>\n<hr />\n<p>A thick, sulfurous, irritating gas fills this golden-yellow flask. Obtienes a +1 bonificador por objeto to tiradas de ataque. La bomba causa @Damage[2d4[acid]] daño and [[/r (2[splash])[acid]]]{2 daño de salpicadura de ácido}. On a hit, el objetivo takes a -1 penalizador de estado to Perception checks and tiradas de ataque until the end of its next turn, or becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} on a impacto crítico. Las criaturas hit with this bomb are temporarily immune to the effects of the bomb for 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.fuQVJiPPUsvL6fi5]{Efecto: Sulfur Bomb}</p>"
         },
         "equipment->Alchemist's Lab (Expanded)": {
           "rules": {
@@ -221,7 +221,7 @@
         },
         "consumable->Elixir of Life (Moderate) (Infused)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.c21stU5rhN4F2fZl]\nElixir of Life (Moderate) (infused)",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.c21stU5rhN4F2fZl]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>Elixirs of life accelerate a living criatura's natural healing processes and immune system. Upon drinking this elixir, tú regain @Damage[(5d6+12)[healing]] Puntos de Golpe and gain +2 bonificador por objeto to tiradas de salvación against diseases and poisons for 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efecto: Elixir of Life}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.c21stU5rhN4F2fZl]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>Elixirs of life accelerate a living criatura's natural healing processes and immune system. Upon drinking this elixir, tú regain @Damage[(5d6+12)[healing]] Puntos de golpe and gain +2 bonificador por objeto to tiradas de salvación against diseases and poisons for 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efecto: Elixir of Life}</p>"
         },
         "strike-melee->Dagger": {
           "name": "Daga"
@@ -278,7 +278,7 @@
       }
     },
     "Bestial Transformation": {
-      "name": "Bestial Transformation",
+      "name": "Transformacion bestial",
       "description": "<p>Enchanted carvings of animals transform any criaturas who daño the door into the animal they harmed.</p>",
       "disable": "<p>@Check[nature|dc:26] (experto) to handle the animal carvings or @Check[thievery|dc:33] (maestro) to scratch out the animal carvings or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (5th rank; counteract DC 28) to counteract the conjuro</p>",
       "reset": "<p>automatico</p>",
@@ -288,7 +288,8 @@
           "name": "Forma animal",
           "description": "<p><strong>Desencadenante</strong> A criatura damages the door</p>\n<hr />\n<p><strong>Efecto</strong> La trampa casts @UUID[Compendium.pf2e.spells-srd.Item.VuPDHoVEPLbMfCJC]{Bestial Curse} on the triggering criatura (@Check[fortitude|dc:32|traits:arcane,curse,polymorph,transmutation] salvación); on a critical failure, the duration is 2 hours.</p>"
         }
-      }
+      },
+      "publicNotes": "<p>Las tallas encantadas de animales transforman en esos animales a cualquier criatura que dane la puerta.</p>"
     },
     "Blacknoon Apprentice": {
       "name": "Blacknoon Apprentice",
@@ -316,8 +317,8 @@
       }
     },
     "Bloodseeker Swarm": {
-      "name": "Bloodseeker Swarm",
-      "publicNotes": "<h4>Bloodseeker</h4>\n<p>Decades ago, the Court of Ether bred bloodseekers as show animals, thinking them adorably ugly. Generations later, the insects have become giantic. Visitors to the Court are impressed by how the bloodseekers to hover in place, fly through hoops, and only drink the blood of specific criaturas.</p>\n<h4>Bloodseeker Swarm</h4>\n<p>The Court of Ether release the less useful, smaller breed of bloodseekers into the Endless Gulf, where they form into dangerous swarms of the insatiable devourers. Este has lead to a dangerous new game, Seek-a-Bang, where fey mounted on giant bloodseekers throw thunderstones at swarms of their mounts' smaller cousins and see how many they can kill with a single throw. So far, the fatalities are few enough to be acceptable.</p>\n<h4>Bloodseeker Breeds</h4>\n<p>While the giant bloodseeker has the most notoriety for its size and use as a cavalry mount, other breeds have been created by determined ranchers. Estos including the longhaired bloodseeker, bloodseeker retriever, and the difficult-tocontain burrowing bloodseeker. Each of these recognized breeds can be submitted to the annual Court of Ether Bloodseeker Show, where breeders enter their prized, expensive, and well-entrenado bloodseekers in hopes of gaining the elusive \"Best in Show\" award.</p>",
+      "name": "Enjambre de buscadores de sangre",
+      "publicNotes": "<p>Hace decadas, la Corte del Eter crio buscadores de sangre como animales de exhibicion, considerandolos adorables a su manera grotesca. Generaciones despues, los insectos se han vuelto gigantescos. Los visitantes de la Corte quedan impresionados al verlos flotar en el sitio, atravesar aros y beber solo la sangre de criaturas concretas. La Corte libera en el Golfo Infinito la raza mas pequena y menos util de buscadores de sangre.</p>",
       "items": {
         "action->Blood Draining Bites": {
           "name": "Blood Draining Bites",
@@ -385,8 +386,8 @@
       }
     },
     "Caligni Assassin": {
-      "name": "Caligni Assassin",
-      "publicNotes": "<p>Lauded and shunned, caligni assassins often become unwitting pawns in clashes between caligni settlements or between rival factions of caligni SOCIETY.</p>\n<hr />\n<p>Calignis often get stereotyped as murderers, but the title of assassin is one of the rarest in their SOCIETY. Caligni settlements go decades without having offspring born with enough potential. However, once a child shows they have \"the gift\"; the settlements leaders might give the babe to the owb, who mold and shape the child into an instrument of shadows and death.</p>\n<h2>Shadowfade</h2>\n<p>Caligni assassins gain their power from an infusion of planar essence directly from the Netherworld, which the owb help them develop into powerful abilities. Este comes at a cost: all caligni assassins eventually succumb to an affliction known as shadowfade. Este magical malady causes the caligni's body to painfully warp when concealed in shadows, as the plane's ability to create twisted reflections of reality changes their physical form directly.</p>\n<p>Sometimes a caligni assassin will flee home and strike out on their own to avoid becoming a twisted tool for their greedy leaders. Such freelancers are in high demand for those seeking a fatal solution to their own political problems.</p>",
+      "name": "Asesino caligni",
+      "publicNotes": "<p>Alabados y rechazados a la vez, los asesinos caligni a menudo se convierten sin saberlo en peones de los conflictos entre asentamientos caligni o facciones rivales. Los calignis suelen ser estereotipados como asesinos, pero el titulo de asesino es uno de los mas raros de su sociedad. Los asentamientos caligni pueden pasar decadas sin que nazca un descendiente con suficiente potencial. Cuando un nino muestra \"el don\", los lideres del asentamiento lo preparan para una vida de sigilo, violencia y sacrificio.</p>",
       "items": {
         "weapon->Spiked Gauntlet": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.YFfG2fMyaIAXkmtr]\n<p>Providing the same defensive function as a standard gauntlet, this version has a group of spikes protruding from the knuckles to deliver daño perforante with a punch.</p>"
@@ -435,7 +436,7 @@
       }
     },
     "Caustic Gas Trap": {
-      "name": "Caustic Gas Trap",
+      "name": "Trampa de gas caustico",
       "description": "<p>Pressure plates en el hall trigger el release de caustic gas.</p>",
       "disable": "<p>@Check[crafting|dc:28] (maestro) to neutralize the acid or @Check[thievery|dc:30] (maestro) to disable the pressure plates</p>",
       "reset": "<p>A 10-minute INTERACT activity and a new supply of caustic gas.</p>",
@@ -445,10 +446,11 @@
           "name": "Desplome",
           "description": "<p><strong>Desencadenante</strong> A criatura in contact with the ground travels down this hall</p>\n<hr />\n<p><strong>Efecto</strong> Caustic gas fills the hall, dealing @Damage[(4d10+26)[acid]] daño to all criaturas in area <strong>D5</strong> (@Check[reflex|dc:32|basic] salvación).</p>"
         }
-      }
+      },
+      "publicNotes": "<p>Las placas de presion del pasillo desencadenan la liberacion de gas caustico.</p>"
     },
     "Cave-In": {
-      "name": "Cave-In",
+      "name": "Derrumbe",
       "description": "<p>El rubble shifts y el cavern techo collapses.</p>",
       "disable": "<p>@Check[crafting|dc:28] (experto) or @Check[survival|dc:31] (entrenado) to prop up the cavern ceiling without triggering a collapse.</p>",
       "stealth": "<p>(entrenado)</p>",
@@ -457,7 +459,8 @@
           "name": "Desplome",
           "description": "<p><strong>Desencadenante</strong> A criatura moves the rubble</p>\n<hr />\n<p><strong>Efecto</strong> The cavern collapses in a cave-in that deals @Damage[(4d8+22)[bludgeoning]] daño to the triggering criatura and all criaturas in the cavern (@Check[reflex|dc:30|basic] salvación).</p>"
         }
-      }
+      },
+      "publicNotes": "<p>Los escombros se desplazan y el techo de la caverna se derrumba.</p>"
     },
     "Coal Residue": {
       "name": "Coal Residue",
@@ -471,10 +474,10 @@
       }
     },
     "Corrupted Blade Spirit": {
-      "name": "Corrupted Blade Spirit",
+      "name": "Espiritu de hoja corrupta",
       "blurb": "Variante de Corrupted Relic",
       "hpDetails": "curación de vacío",
-      "publicNotes": "<p>Las criaturas that once held particular items dear can be bound to them after death, their souls inhabiting the item from within. Estos might be the faithful haunting symbols of their faith, warriors clinging to their old armas, or the greedy inhabiting their precious wealth. Estos spirits' physical bodies have long since degraded, but they keep their corrupted relics pristine. The spirits manifest on the unsuspecting or curious, determined to destroy anyone who would dare show any interest in their one precious possession.</p>\n<p>Though rare, there are several kinds of corrupted relics. The bound spirit can manifest in different ways, from animating an ancient arma to possessing anyone who dons the item. Destroying the relic often ends up being the simplest, most direct way to banish the haunt itself. Destroying or dispelling the spirit without destroying the relic, however, can sometimes leave priceless treasure behind.</p>\n<p>The amulet shown here has the air and death aspects. Its minor gifts, deadly spark and death gaze, power some of the spirit's abilities. Someone who claims the relic might gain different gifts from those aspects.</p>",
+      "publicNotes": "<p>Las criaturas que en vida apreciaron objetos concretos pueden quedar ligadas a ellos tras la muerte, con sus almas habitando el objeto desde dentro. Pueden ser fieles que rondan simbolos de su fe, guerreros aferrados a sus viejas armas o avaros que habitan sus riquezas. Sus cuerpos fisicos hace mucho que se degradaron, pero mantienen sus reliquias corruptas en perfecto estado. Estos espiritus se manifiestan ante los incautos para proteger o reclamar los objetos que los atan.</p>",
       "items": {
         "equipment->Amulet": {
           "name": "Amuleto",
@@ -506,7 +509,7 @@
         },
         "action->Death Gaze": {
           "name": "Death Gaze",
-          "description": "<p>The spirit targets a criatura it can see within 30 pies, dealing to it @Damage[4d6[void]] daño (@Check[fortitude|dc:20|basic] salvación).</p>\n<p>A criatura with @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x]{Void Healing} instead regains @Damage[4d6[healing]] Puntos de Golpe and is then temporarily immune for 10 minutos.</p>"
+          "description": "<p>The spirit targets a criatura it can see within 30 pies, dealing to it @Damage[4d6[void]] daño (@Check[fortitude|dc:20|basic] salvación).</p>\n<p>A criatura with @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x]{Void Healing} instead regains @Damage[4d6[healing]] Puntos de golpe and is then temporarily immune for 10 minutos.</p>"
         },
         "action->Manifest": {
           "name": "Manifest",
@@ -526,11 +529,11 @@
         },
         "action->Construct Armor": {
           "name": "Construct Armor",
-          "description": "<p>Like normal objects, a crimson worm statue has Hardness. Este Hardness reduces any daño it takes by an amount equal to the Hardness. Once a crimson worm statue is reduced to less than half its Puntos de Golpe, or immediately upon being damaged by a impacto crítico, its armadura de constructo breaks and its ARMOR CLASS is reduced to 22.</p>"
+          "description": "<p>Like normal objects, a crimson worm statue has Hardness. Este Hardness reduces any daño it takes by an amount equal to the Hardness. Once a crimson worm statue is reduced to less than half its Puntos de golpe, or immediately upon being damaged by a impacto crítico, its armadura de constructo breaks and its ARMOR CLASS is reduced to 22.</p>"
         },
         "action->Thrash": {
           "name": "Apalizar",
-          "description": "<p>The crimson worm statue makes a Golpe against each criatura in its reach. It can strike up to once with its jaws and any number of times with its tail. Each attack counts toward the worm's multiple attack penalización, but the multiple attack penalización doesn't increase until after it makes all its attacks.</p>"
+          "description": "<p>The crimson worm statue makes a Golpe against each criatura in its reach. It can strike up to once with its jaws and any number of times with its tail. Each attack counts toward the worm's multiple attack penalizador, but the multiple attack penalizador doesn't increase until after it makes all its attacks.</p>"
         },
         "action->Vomit Worms": {
           "name": "Vomit Worms",
@@ -573,9 +576,9 @@
       }
     },
     "Dwarven Monster Hunter": {
-      "name": "Dwarven Monster Hunter",
+      "name": "Cazador de monstruos enano",
       "blurb": "Variante de Monster Hunter",
-      "publicNotes": "<p>Some mercenaries eschew the complications of politics, oaths of service, and fealty and just get paid to hunt monsters. It's a straightforward form of mercenary service, often dangerous in the extreme, but one that can yield glory and fame.</p>\n<hr />\n<p>A broad category that includes those wielding arms, conjuros, or even guile and cunning, mercenaries hire themselves and their expertise to those with the gold to pay for it.</p>",
+      "publicNotes": "<p>Algunos mercenarios evitan las complicaciones de la politica, los juramentos de servicio y el vasallaje, y simplemente cobran por cazar monstruos. Es una forma directa de trabajo mercenario, a menudo extremadamente peligrosa, pero capaz de proporcionar gloria y fama. Esta categoria amplia incluye a quienes empunan armas, lanzan conjuros o recurren al ingenio y la astucia, todos alquilando su experiencia a quienes tienen oro suficiente para pagarla.</p>",
       "items": {
         "weapon->Greataxe": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.8COlYvHe6hKCXY8x]\n<p>Esta gran hacha de batalla es demasiado pesada para empuñarla con una sola mano. Many greataxes incorporate two blades, and they are often \"bearded\", having a hook at the bottom to increase the strength of their chopping power.</p>"
@@ -588,7 +591,7 @@
         },
         "action->Rage": {
           "name": "Furia",
-          "description": "<p><strong>Requisitos</strong> The monster hunter isn't @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigado} or raging</p>\n<hr />\n<p><strong>Efecto</strong> The monster hunter gains 9 Puntos de Golpe temporales that last until the rage ends. While raging, they deal 8 daño adicional with melee attacks, gain a +10-pies bonificador de estado to their Velocidad, and take a -1 penalización to AC. The monster hunter can't use concentrate actions except @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} and rage actions.</p>\n<p>The rage lasts for 1 minuto, until there are no enemies the monster hunter can perceive, or until the monster hunter falls unconscious.</p>\n<p>Once the rage ends, the monster hunter can't again for 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.z3uyCMBddrPK5umr]{Efecto: Rage}</p>"
+          "description": "<p><strong>Requisitos</strong> The monster hunter isn't @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigado} or raging</p>\n<hr />\n<p><strong>Efecto</strong> The monster hunter gains 9 Puntos de golpe temporales that last until the rage ends. While raging, they deal 8 daño adicional with melee attacks, gain a +10-pies bonificador de estado to their Velocidad, and take a -1 penalizador to AC. The monster hunter can't use concentrate actions except @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} and rage actions.</p>\n<p>The rage lasts for 1 minuto, until there are no enemies the monster hunter can perceive, or until the monster hunter falls unconscious.</p>\n<p>Once the rage ends, the monster hunter can't again for 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.z3uyCMBddrPK5umr]{Efecto: Rage}</p>"
         },
         "action->Sudden Charge": {
           "name": "Carga repentina",
@@ -846,7 +849,7 @@
         },
         "action->Slashing Snare": {
           "name": "Slashing Snare",
-          "description": "<p>Four-Tooth can Dar un paso and then make a spiked chain Golpe. If it hits and deals daño, he can attempt an ATHLETICS check to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} el objetivo. Both attacks count toward his multiple attack penalización, but the penalización doesn't increase until after he's made both attacks.</p>"
+          "description": "<p>Four-Tooth can Dar un paso and then make a spiked chain Golpe. If it hits and deals daño, he can attempt an ATHLETICS check to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} el objetivo. Both attacks count toward his multiple attack penalizador, but the penalizador doesn't increase until after he's made both attacks.</p>"
         },
         "action->Snagging Chain": {
           "name": "Snagging Chain",
@@ -873,7 +876,7 @@
         },
         "action->Blood Drain": {
           "name": "Blood Drain",
-          "description": "<p><strong>Requisitos</strong> The bloodseeker's last action was a successful Golpe with its proboscis against a target with blood</p>\n<hr />\n<p><strong>Efecto</strong> The bloodseeker sucks blood from that target, dealing @Damage[2d4] daño, and the bloodseeker gains Puntos de Golpe temporales equal to the daño dealt. El objetivo becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1}.</p>"
+          "description": "<p><strong>Requisitos</strong> The bloodseeker's last action was a successful Golpe with its proboscis against a target with blood</p>\n<hr />\n<p><strong>Efecto</strong> The bloodseeker sucks blood from that target, dealing @Damage[2d4] daño, and the bloodseeker gains Puntos de golpe temporales equal to the daño dealt. El objetivo becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1}.</p>"
         }
       }
     },
@@ -918,7 +921,7 @@
         },
         "action->Cold Healing": {
           "name": "Cold Healing",
-          "description": "<p>When a glacial worm is in extreme cold or surrounded by ice, it gains curacion rapida 10. When struck by a magical cold effect, a glacial worm regains Puntos de Golpe equal to half the daño de frío the effect would otherwise deal.</p>"
+          "description": "<p>When a glacial worm is in extreme cold or surrounded by ice, it gains curacion rapida 10. When struck by a magical cold effect, a glacial worm regains Puntos de golpe equal to half the daño de frío the effect would otherwise deal.</p>"
         },
         "action->Inexorable": {
           "name": "Inexorable",
@@ -941,7 +944,7 @@
         },
         "action->Thrash": {
           "name": "Apalizar",
-          "description": "<p>The worm makes a Golpe once against each criatura in its reach. It can Golpe up to once with its jaws and any number of times with its body. Each attack counts toward the worm's multiple attack penalización, but the multiple attack penalización doesn't increase until after it makes all the attacks.</p>"
+          "description": "<p>The worm makes a Golpe once against each criatura in its reach. It can Golpe up to once with its jaws and any number of times with its body. Each attack counts toward the worm's multiple attack penalizador, but the multiple attack penalizador doesn't increase until after it makes all the attacks.</p>"
         }
       }
     },
@@ -981,7 +984,7 @@
         },
         "action->Thrash": {
           "name": "Apalizar",
-          "description": "<p>The worm makes a Golpe once against each criatura in its reach. It can Golpe up to once with its jaws and any number of times with its body. Each attack counts toward the worm's multiple attack penalización, but the multiple attack penalización doesn't increase until after it makes all the attacks.</p>"
+          "description": "<p>The worm makes a Golpe once against each criatura in its reach. It can Golpe up to once with its jaws and any number of times with its body. Each attack counts toward the worm's multiple attack penalizador, but the multiple attack penalizador doesn't increase until after it makes all the attacks.</p>"
         }
       }
     },
@@ -1107,14 +1110,14 @@
         },
         "action->Stench": {
           "name": "Hedor",
-          "description": "<p>30 pies. A criatura that enters the area must attempt a @Check[fortitude|dc:21] salvación. On a failure, the criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}, and on a critical failure, the criatura also takes a –5 penalización de estado to its Velocidades for 1 asalto. While within the aura, the criatura takes a –2 penalización de circunstancia to saves to recover from the sickened condition. A criatura that succeeds at its save is temporarily immune to all xulgaths stenches for 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uB3CVn3momZO9h0L]{Efecto: Xulgath Stench}</p>"
+          "description": "<p>30 pies. A criatura that enters the area must attempt a @Check[fortitude|dc:21] salvación. On a failure, the criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}, and on a critical failure, the criatura also takes a –5 penalizador de estado to its Velocidades for 1 asalto. While within the aura, the criatura takes a –2 penalizador por circunstancia to saves to recover from the sickened condition. A criatura that succeeds at its save is temporarily immune to all xulgaths stenches for 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uB3CVn3momZO9h0L]{Efecto: Xulgath Stench}</p>"
         },
         "action->+2 Status To Saves Vs. Petrifying Gaze": {
           "name": "+2 Status To Saves Vs. Petrifying Gaze"
         },
         "action->Far-Reaching Fear": {
           "name": "Far-Reaching Fear",
-          "description": "<p>The range at which Hhrulkaz can @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{DEMORALIZE} criaturas increases to 60 pies, and she doesn't take a penalización if the criatura doesn't understand her language.</p>"
+          "description": "<p>The range at which Hhrulkaz can @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{DEMORALIZE} criaturas increases to 60 pies, and she doesn't take a penalizador if the criatura doesn't understand her language.</p>"
         },
         "action->Predator's Decree": {
           "name": "Predator's Decree",
@@ -1122,7 +1125,7 @@
         },
         "action->Sacrificial Takedown": {
           "name": "Sacrificial Takedown",
-          "description": "<p>Hhrulkaz attempts an ATHLETICS check to @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} a criatura. If she succeeds, she then makes a melee Golpe against el objetivo, granting her arma the fatal d10 rasgo until the end of her turn. Both attacks count toward her multiple attack penalización, but the penalización doesn't increase until after she makes both attacks.</p>"
+          "description": "<p>Hhrulkaz attempts an ATHLETICS check to @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} a criatura. If she succeeds, she then makes a melee Golpe against el objetivo, granting her arma the fatal d10 rasgo until the end of her turn. Both attacks count toward her multiple attack penalizador, but the penalizador doesn't increase until after she makes both attacks.</p>"
         }
       }
     },
@@ -1147,7 +1150,7 @@
         },
         "action->Double Slice": {
           "name": "Doble tajo",
-          "description": "<p>Hrungul makes a longsword Golpe, followed by a shield boss Golpe against the same target at a –2 penalización, each using his current multiple attack penalización. If both attacks hit, he combines their daño and applies resistances and weaknesses only once. Este counts as two attacks when calculating his multiple attack penalización.</p>"
+          "description": "<p>Hrungul makes a longsword Golpe, followed by a shield boss Golpe against the same target at a –2 penalizador, each using his current multiple attack penalizador. If both attacks hit, he combines their daño and applies resistances and weaknesses only once. Este counts as two attacks when calculating his multiple attack penalizador.</p>"
         },
         "action->Grim Efficiency": {
           "name": "Grim Efficiency",
@@ -1414,7 +1417,7 @@
         },
         "action->Shielded Advance": {
           "name": "Shielded Advance",
-          "description": "<p><strong>Requisitos</strong> The captain of the guard has their shield raised</p>\n<hr />\n<p><strong>Efecto</strong> The captain of the guard presses forward, using their shield to push back foes.</p>\n<p>The captain Strides and @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shoves}, in either order. The multiple attack penalización doesn't apply to this Shove, though the Shove does count toward the captain's multiple attack penalización.</p>"
+          "description": "<p><strong>Requisitos</strong> The captain of the guard has their shield raised</p>\n<hr />\n<p><strong>Efecto</strong> The captain of the guard presses forward, using their shield to push back foes.</p>\n<p>The captain Strides and @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shoves}, in either order. The multiple attack penalizador doesn't apply to this Shove, though the Shove does count toward the captain's multiple attack penalizador.</p>"
         },
         "lore->Legal Lore": {
           "name": "Saber de Leyes"
@@ -1446,7 +1449,7 @@
         },
         "action->Rage": {
           "name": "Furia",
-          "description": "<p><strong>Requisitos</strong> The monster hunter isn't @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigado} or raging</p>\n<hr />\n<p><strong>Efecto</strong> The monster hunter gains 9 Puntos de Golpe temporales that last until the rage ends. While raging, they deal 8 daño adicional with melee attacks, gain a +10-pies bonificador de estado to their Velocidad, and take a -1 penalización to AC. The monster hunter can't use concentrate actions except @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} and rage actions.</p>\n<p>The rage lasts for 1 minuto, until there are no enemies the monster hunter can perceive, or until the monster hunter falls unconscious.</p>\n<p>Once the rage ends, the monster hunter can't again for 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.z3uyCMBddrPK5umr]{Efecto: Rage}</p>"
+          "description": "<p><strong>Requisitos</strong> The monster hunter isn't @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigado} or raging</p>\n<hr />\n<p><strong>Efecto</strong> The monster hunter gains 9 Puntos de golpe temporales that last until the rage ends. While raging, they deal 8 daño adicional with melee attacks, gain a +10-pies bonificador de estado to their Velocidad, and take a -1 penalizador to AC. The monster hunter can't use concentrate actions except @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} and rage actions.</p>\n<p>The rage lasts for 1 minuto, until there are no enemies the monster hunter can perceive, or until the monster hunter falls unconscious.</p>\n<p>Once the rage ends, the monster hunter can't again for 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.z3uyCMBddrPK5umr]{Efecto: Rage}</p>"
         },
         "action->Sudden Charge": {
           "name": "Carga repentina",
@@ -1504,10 +1507,10 @@
         },
         "weapon->Tanglefoot Bag (Moderate)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.evBPzM1VsuYcoenn]\nTanglefoot Bag (Moderate)",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.evBPzM1VsuYcoenn]\n<p><strong>Activar</strong> <span class=\"action-glyph\">1</span> Golpe</p>\n<hr />\n<p>A tanglefoot bag is filled with sticky substances. When tú hit a criatura with a tanglefoot bag, that criatura takes a -15-pies penalización de estado to its Velocidades for 1 minuto. Obtienes a +1 bonificador por objeto to tiradas de ataque, and the Escape DC is 19.</p>\n<p>On a impacto crítico, a criatura in contact with a solid surface becomes stuck to the surface and @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} for 1 asalto, and a criatura flying via wings has its wings tangled, causing it to fall safely to the ground and become unable to Fly again for 1 asalto. Tanglefoot bags are not effective when used on a criatura that is in water.</p>\n<p>El objetivo can end any effects by Escaping or spending a total of 3 actions to carefully remove the sticky substances. Estos INTERACT actions don't have to be consecutive, and other criaturas can provide the actions as well.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.evBPzM1VsuYcoenn]\n<p><strong>Activar</strong> <span class=\"action-glyph\">1</span> Golpe</p>\n<hr />\n<p>A tanglefoot bag is filled with sticky substances. When tú hit a criatura with a tanglefoot bag, that criatura takes a -15-pies penalizador de estado to its Velocidades for 1 minuto. Obtienes a +1 bonificador por objeto to tiradas de ataque, and the Escape DC is 19.</p>\n<p>On a impacto crítico, a criatura in contact with a solid surface becomes stuck to the surface and @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} for 1 asalto, and a criatura flying via wings has its wings tangled, causing it to fall safely to the ground and become unable to Fly again for 1 asalto. Tanglefoot bags are not effective when used on a criatura that is in water.</p>\n<p>El objetivo can end any effects by Escaping or spending a total of 3 actions to carefully remove the sticky substances. Estos INTERACT actions don't have to be consecutive, and other criaturas can provide the actions as well.</p>"
         },
         "consumable->Healing Potion (Minor)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.2RuepCemJhrpKKao]\n<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a healing potion, tú regain @Damage[1d8[healing]] Puntos de Golpe.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.2RuepCemJhrpKKao]\n<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a healing potion, tú regain @Damage[1d8[healing]] Puntos de golpe.</p>"
         },
         "strike-melee->Shortsword": {
           "name": "Espada corta"
@@ -1670,7 +1673,7 @@
         },
         "action->Clumsy Leap": {
           "name": "Clumsy Leap",
-          "description": "<p>The cave worm flings its body, Leaping 30 pies. If it lands next to a criatura, it can Golpe that criatura with its jaws. If the jaws Golpe fails, it can Golpe with its body using the same multiple attack penalización as the failed jaws Golpe, but it becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} until the start of its next turn.</p>"
+          "description": "<p>The cave worm flings its body, Leaping 30 pies. If it lands next to a criatura, it can Golpe that criatura with its jaws. If the jaws Golpe fails, it can Golpe with its body using the same multiple attack penalizador as the failed jaws Golpe, but it becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} until the start of its next turn.</p>"
         },
         "action->Killing Shake": {
           "name": "Killing Shake",
@@ -1708,7 +1711,7 @@
         },
         "action->Clumsy Leap": {
           "name": "Clumsy Leap",
-          "description": "<p>The cave worm flings its body, Leaping 30 pies. If it lands next to a criatura, it can Golpe that criatura with its jaws. If the jaws Golpe fails, it can Golpe with its body using the same multiple attack penalización as the failed jaws Golpe, but it becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} until the start of its next turn.</p>"
+          "description": "<p>The cave worm flings its body, Leaping 30 pies. If it lands next to a criatura, it can Golpe that criatura with its jaws. If the jaws Golpe fails, it can Golpe with its body using the same multiple attack penalizador as the failed jaws Golpe, but it becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} until the start of its next turn.</p>"
         },
         "action->Killing Shake": {
           "name": "Killing Shake",
@@ -1746,7 +1749,7 @@
         },
         "action->Clumsy Leap": {
           "name": "Clumsy Leap",
-          "description": "<p>The cave worm flings its body, Leaping 30 pies. If it lands next to a criatura, it can Golpe that criatura with its jaws. If the jaws Golpe fails, it can Golpe with its body using the same multiple attack penalización as the failed jaws Golpe, but it becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} until the start of its next turn.</p>"
+          "description": "<p>The cave worm flings its body, Leaping 30 pies. If it lands next to a criatura, it can Golpe that criatura with its jaws. If the jaws Golpe fails, it can Golpe with its body using the same multiple attack penalizador as the failed jaws Golpe, but it becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} until the start of its next turn.</p>"
         },
         "action->Killing Shake": {
           "name": "Killing Shake",
@@ -1785,7 +1788,7 @@
         },
         "action->Clumsy Leap": {
           "name": "Clumsy Leap",
-          "description": "<p>The cave worm flings its body, Leaping 30 pies. If it lands next to a criatura, it can Golpe that criatura with its jaws. If the jaws Golpe fails, it can Golpe with its body using the same multiple attack penalización as the failed jaws Golpe, but it becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} until the start of its next turn.</p>"
+          "description": "<p>The cave worm flings its body, Leaping 30 pies. If it lands next to a criatura, it can Golpe that criatura with its jaws. If the jaws Golpe fails, it can Golpe with its body using the same multiple attack penalizador as the failed jaws Golpe, but it becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} until the start of its next turn.</p>"
         },
         "action->Killing Shake": {
           "name": "Killing Shake",
@@ -1823,7 +1826,7 @@
         },
         "action->Clumsy Leap": {
           "name": "Clumsy Leap",
-          "description": "<p>The cave worm flings its body, Leaping 30 pies. If it lands next to a criatura, it can Golpe that criatura with its jaws. If the jaws Golpe fails, it can Golpe with its body using the same multiple attack penalización as the failed jaws Golpe, but it becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} until the start of its next turn.</p>"
+          "description": "<p>The cave worm flings its body, Leaping 30 pies. If it lands next to a criatura, it can Golpe that criatura with its jaws. If the jaws Golpe fails, it can Golpe with its body using the same multiple attack penalizador as the failed jaws Golpe, but it becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} until the start of its next turn.</p>"
         },
         "action->Killing Shake": {
           "name": "Killing Shake",
@@ -1862,7 +1865,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.1k3AsSW7lpU0kEpY]\n<p>Este very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to tu forearm. Puedes Alzar un escudo with tu buckler as long as tienes that hand free or are holding a light object that's not a arma in that hand.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>6</td>\n<td>3</td>\n</tr>\n</tbody>\n</table>"
         },
         "consumable->Healing Potion (Lesser)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.e0vSAQfxhHauiAoD]\n<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a healing potion, tú regain @Damage[(2d8+5)[healing]] Puntos de Golpe.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.e0vSAQfxhHauiAoD]\n<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a healing potion, tú regain @Damage[(2d8+5)[healing]] Puntos de golpe.</p>"
         },
         "consumable->Antidote (Lesser)": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.ktjFOp3U0wQD9t0Z]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>An antidote protects tú against toxins. Upon drinking an antidote, obtienes a +2 bonificador por objeto to Fortitude tiradas de salvación against poisons for 6 hours.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.TjBxxlTvb6tJP1jS]{Efecto: Antidote}</p>"
@@ -1879,7 +1882,7 @@
         },
         "action->Occult Catharsis": {
           "name": "Occult Catharsis",
-          "description": "<p>Krohan's magic converts his pain into spellpower. After he casts an innate occult conjuro, he attempts a @Check[flat|dc:5], increasing the DC by twice the conjuro's rank if it was not a cantrip. On a success, Krohan's Spirits Drawn to Suffering effect ends; he can reduce the value of one condition affecting him by 1, and he regains @Damage[2d6[healing]] Puntos de Golpe.</p>"
+          "description": "<p>Krohan's magic converts his pain into spellpower. After he casts an innate occult conjuro, he attempts a @Check[flat|dc:5], increasing the DC by twice the conjuro's rank if it was not a cantrip. On a success, Krohan's Spirits Drawn to Suffering effect ends; he can reduce the value of one condition affecting him by 1, and he regains @Damage[2d6[healing]] Puntos de golpe.</p>"
         },
         "action->Spirits Drawn to Suffering": {
           "name": "Spirits Drawn to Suffering",
@@ -1917,7 +1920,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.1k3AsSW7lpU0kEpY]\n<p>Este very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to tu forearm. Puedes Alzar un escudo with tu buckler as long as tienes that hand free or are holding a light object that's not a arma in that hand.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>6</td>\n<td>3</td>\n</tr>\n</tbody>\n</table>"
         },
         "consumable->Healing Potion (Lesser)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.e0vSAQfxhHauiAoD]\n<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a healing potion, tú regain @Damage[(2d8+5)[healing]] Puntos de Golpe.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.e0vSAQfxhHauiAoD]\n<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a healing potion, tú regain @Damage[(2d8+5)[healing]] Puntos de golpe.</p>"
         },
         "consumable->Antidote (Lesser)": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.ktjFOp3U0wQD9t0Z]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>An antidote protects tú against toxins. Upon drinking an antidote, obtienes a +2 bonificador por objeto to Fortitude tiradas de salvación against poisons for 6 hours.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.TjBxxlTvb6tJP1jS]{Efecto: Antidote}</p>"
@@ -1930,7 +1933,7 @@
         },
         "action->Occult Catharsis": {
           "name": "Occult Catharsis",
-          "description": "<p>Krohan's magic converts his pain into spellpower. After he casts an innate occult conjuro, he attempts a @Check[flat|dc:5], increasing the DC by twice the conjuro's rank if it was not a cantrip. On a success, Krohan's Spirits Drawn to Suffering effect ends; he can reduce the value of one condition affecting him by 1, and he regains @Damage[2d6[healing]] Puntos de Golpe.</p>"
+          "description": "<p>Krohan's magic converts his pain into spellpower. After he casts an innate occult conjuro, he attempts a @Check[flat|dc:5], increasing the DC by twice the conjuro's rank if it was not a cantrip. On a success, Krohan's Spirits Drawn to Suffering effect ends; he can reduce the value of one condition affecting him by 1, and he regains @Damage[2d6[healing]] Puntos de golpe.</p>"
         },
         "action->Spirits Drawn to Suffering": {
           "name": "Spirits Drawn to Suffering",
@@ -1955,7 +1958,7 @@
       "publicNotes": "<p>Crabs are scavenging crustaceans known for their hard shells and iconic sideways gait. They use their claws to defend themselves, hunt, and fight other crabs for territory. When confronted with threats from outside their species, most crabs prefer to flee, but when retreat isn't possible, they clamp on to their foes as tightly as they can.</p>\n<p>The statistics presented here represent giant crabs that live close to the water's surface. Crabs that live deeper underwater often exhibit more extreme adaptations to their environment. Crabs who live in the depths where little light reaches gain darkvision and cold resistance, and those adapted to the most hostile reaches of the deep sea can detect nearby criaturas through subtle shifts in ocean currents.</p>\n<p>Estos skittering criaturas are prized for their delicious meat, but their size makes them dangerous targets for harvesting.</p>",
       "items": {
         "condition->Clumsy": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]\n<p>Tu movements become torpe and inexact. Clumsy always includes a value. Sufres a penalización de estado equal to the condition value to Dexterity-based checks and DCs, including AC, Reflex saves, ranged tiradas de ataque, and pruebas de habilidad using Acrobatics, STEALTH, and THIEVERY.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]\n<p>Tu movements become torpe and inexact. Clumsy always includes a value. Sufres a penalizador de estado equal to the condition value to Dexterity-based checks and DCs, including AC, Reflex saves, ranged tiradas de ataque, and pruebas de habilidad using Acrobatics, STEALTH, and THIEVERY.</p>"
         },
         "strike-melee->Claw": {
           "name": "Garra"
@@ -1970,7 +1973,7 @@
         },
         "action->Vulnerable to Prone": {
           "name": "Vulnerable to Prone",
-          "description": "<p>If a criatura critically succeeds on a check to @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} the giant crab, the crab is flipped over onto its back in addition to the usual effects. A giant crab that is flipped onto its back has a particularly hard time defending itself; instead of taking the normal -2 penalización de circunstancia to AC for being @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido}, it takes a -4 penalización de circunstancia to AC.</p>"
+          "description": "<p>If a criatura critically succeeds on a check to @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} the giant crab, the crab is flipped over onto its back in addition to the usual effects. A giant crab that is flipped onto its back has a particularly hard time defending itself; instead of taking the normal -2 penalizador por circunstancia to AC for being @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido}, it takes a -4 penalizador por circunstancia to AC.</p>"
         },
         "action->Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV]\n<p>@Damage[(1d6+4)[bludgeoning]] daño, @Check[fortitude|dc:18|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
@@ -2264,7 +2267,7 @@
     "Ornery Augdunars": {
       "name": "Ornery Augdunars",
       "description": "<p>Spooked augdunars gallop wildly about el paddock, biting y kicking as ellos run.</p>",
-      "disable": "<p>Succeed at four of the following checks in any combination: @Check[nature|dc:14] (entrenado) to calm the animals, @Check[intimidation|dc:16] (untrained) to scare the augdunars away, @Check[will|dc:18] (entrenado) to avoid flinching and project confidence, causing the augdunars to veer away. For each success, the hazard takes a cumulative -1 penalización to tiradas de ataque.</p>",
+      "disable": "<p>Succeed at four of the following checks in any combination: @Check[nature|dc:14] (entrenado) to calm the animals, @Check[intimidation|dc:16] (untrained) to scare the augdunars away, @Check[will|dc:18] (entrenado) to avoid flinching and project confidence, causing the augdunars to veer away. For each success, the hazard takes a cumulative -1 penalizador to tiradas de ataque.</p>",
       "routine": "<p>(2 actions) The augdunars use an action to Golpe one target with their jaws, and they use another action to @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} a different target (ATHLETICS [[/r 1d20+9 #Athletics]]{+9}). If the augdunars have taken daño since their last turn, they instead use Lashing Hooves with their first action and then make either a jaws Golpe or Trip attempt with their second action.</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
@@ -2333,7 +2336,7 @@
         },
         "action->Red Cap": {
           "name": "Red Cap",
-          "description": "<p>A redcap's woolen hat is dyed with the blood of its victims. If the redcap loses its cap, it no longer benefits from fast healing and takes a –4 penalización de estado to its tiradas de daño. It can create a new cap in 10 minutos, but that cap doesn't grant its powers until the redcap has turned it red with Blood Soak. A cap has no benefit for criaturas other than the redcap who made it.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.s5mS7CyE0oOYlecv]{Efecto: Lost Red Cap}</p>"
+          "description": "<p>A redcap's woolen hat is dyed with the blood of its victims. If the redcap loses its cap, it no longer benefits from fast healing and takes a –4 penalizador de estado to its tiradas de daño. It can create a new cap in 10 minutos, but that cap doesn't grant its powers until the redcap has turned it red with Blood Soak. A cap has no benefit for criaturas other than the redcap who made it.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.s5mS7CyE0oOYlecv]{Efecto: Lost Red Cap}</p>"
         },
         "action->Fast Healing 10": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.fJSNOw4zHGbIm4bZ]\nFast Healing 10"
@@ -2818,7 +2821,7 @@
         },
         "action->Wasting Wheeze": {
           "name": "Wasting Wheeze",
-          "description": "<p><strong>Frecuencia</strong> once per [[/br 1d4 #Recharge Wasting Wheeze]] rounds</p>\n<p><strong>Desencadenante</strong> The headless spore sheep takes a impacto crítico or is reduced to 0 Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The headless spore sheep exhales a cloud of spores through its neck. Adjacent living criaturas take @Damage[1d6[poison]] daño and are @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} unless they succeed at a @Check[fortitude|dc:18] salvación.</p>"
+          "description": "<p><strong>Frecuencia</strong> once per [[/br 1d4 #Recharge Wasting Wheeze]] rounds</p>\n<p><strong>Desencadenante</strong> The headless spore sheep takes a impacto crítico or is reduced to 0 Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> The headless spore sheep exhales a cloud of spores through its neck. Adjacent living criaturas take @Damage[1d6[poison]] daño and are @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} unless they succeed at a @Check[fortitude|dc:18] salvación.</p>"
         },
         "action->Zombie Rot": {
           "name": "Zombie Rot",
@@ -3063,7 +3066,7 @@
         },
         "action->Kirtanang": {
           "name": "Kirtanang",
-          "description": "<p>The initiate's Golpes take no penalización from passing through water.</p>"
+          "description": "<p>The initiate's Golpes take no penalizador from passing through water.</p>"
         }
       }
     },
@@ -3157,7 +3160,7 @@
         },
         "action->Drink Emotions": {
           "name": "Drink Emotions",
-          "description": "<p><strong>Requisitos</strong> Un enemigo is under an emotion effect within 20 pies of the unfeeling empath</p>\n<hr />\n<p><strong>Efecto</strong> The unfeeling empath regains @Damage[1d4[healing]] Puntos de Golpe and becomes emotionally excited for 3 asaltos. While excited, the unfeeling empath takes a –1 penalización to AC, gains a +1 bonificador de estado to tiradas de ataque, and deals an additional @Damage[1d4[mental]] daño with its melee Golpes.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.wL4QI1h4YvdHoOuG]{Efecto: Drink Emotions}</p>"
+          "description": "<p><strong>Requisitos</strong> Un enemigo is under an emotion effect within 20 pies of the unfeeling empath</p>\n<hr />\n<p><strong>Efecto</strong> The unfeeling empath regains @Damage[1d4[healing]] Puntos de golpe and becomes emotionally excited for 3 asaltos. While excited, the unfeeling empath takes a –1 penalizador to AC, gains a +1 bonificador de estado to tiradas de ataque, and deals an additional @Damage[1d4[mental]] daño with its melee Golpes.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.wL4QI1h4YvdHoOuG]{Efecto: Drink Emotions}</p>"
         },
         "action->Goad": {
           "name": "Goad",
@@ -3238,7 +3241,7 @@
       "items": {
         "action->Stench": {
           "name": "Hedor",
-          "description": "<p>30 pies. A criatura that enters the area must attempt a @Check[fortitude|dc:21] salvación. On a failure, the criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}, and on a critical failure, the criatura also takes a –5 penalización de estado to its Velocidades for 1 asalto. While within the aura, the criatura takes a –2 penalización de circunstancia to saves to recover from the sickened condition. A criatura that succeeds at its save is temporarily immune to all xulgaths stenches for 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uB3CVn3momZO9h0L]{Efecto: Xulgath Stench}</p>"
+          "description": "<p>30 pies. A criatura that enters the area must attempt a @Check[fortitude|dc:21] salvación. On a failure, the criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}, and on a critical failure, the criatura also takes a –5 penalizador de estado to its Velocidades for 1 asalto. While within the aura, the criatura takes a –2 penalizador por circunstancia to saves to recover from the sickened condition. A criatura that succeeds at its save is temporarily immune to all xulgaths stenches for 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uB3CVn3momZO9h0L]{Efecto: Xulgath Stench}</p>"
         },
         "action->Troop Defenses": {
           "name": "Defensas de tropas",
@@ -3307,7 +3310,7 @@
         },
         "action->Thrash": {
           "name": "Apalizar",
-          "description": "<p>Zogototaru lashes her body, rattling the ground and splashing magma in a @Template[cone|distance:30]. Las criaturas in the area must attempt a @Check[reflex|dc:29] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> No effect.</p>\n<p><strong>Éxito</strong> The criatura takes @Damage[4d6[fire]] daño.</p>\n<p><strong>Fallo</strong> The criatura takes @Damage[4d6[fire]] daño and @Damage[4d6[bludgeoning]] daño, and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} for 1 asalto.</p>\n<p><strong>Fallo crítico</strong> The criatura takes @Damage[6d6[fire]] daño and @Damage[6d6[bludgeoning]] daño, and is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}.</p>\n<hr />\n<p><strong>Special</strong> The first time she Thrashes, Zogototaru destroys the pillars in area <strong>F2a</strong>. Anyone there can leap free as part of their Reflex tirada de salvación, landing on the closest surface. For the remainder of combat, the rear half of the crimson worm's body floats in the magma there, creating an improvised bridge 10 pies wide and 30 pies long. Las criaturas on Zogototaru take a –2 penalización de circunstancia to their Reflex saves against her Thrashing.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.QzJv3TybABeCjwQc]{Efecto: Riding Zogototaru}</p>"
+          "description": "<p>Zogototaru lashes her body, rattling the ground and splashing magma in a @Template[cone|distance:30]. Las criaturas in the area must attempt a @Check[reflex|dc:29] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> No effect.</p>\n<p><strong>Éxito</strong> The criatura takes @Damage[4d6[fire]] daño.</p>\n<p><strong>Fallo</strong> The criatura takes @Damage[4d6[fire]] daño and @Damage[4d6[bludgeoning]] daño, and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} for 1 asalto.</p>\n<p><strong>Fallo crítico</strong> The criatura takes @Damage[6d6[fire]] daño and @Damage[6d6[bludgeoning]] daño, and is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}.</p>\n<hr />\n<p><strong>Special</strong> The first time she Thrashes, Zogototaru destroys the pillars in area <strong>F2a</strong>. Anyone there can leap free as part of their Reflex tirada de salvación, landing on the closest surface. For the remainder of combat, the rear half of the crimson worm's body floats in the magma there, creating an improvised bridge 10 pies wide and 30 pies long. Las criaturas on Zogototaru take a –2 penalizador por circunstancia to their Reflex saves against her Thrashing.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.QzJv3TybABeCjwQc]{Efecto: Riding Zogototaru}</p>"
         }
       }
     }

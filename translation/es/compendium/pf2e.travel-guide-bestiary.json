@@ -1,5 +1,5 @@
 {
-  "label": "Bestiario de Guia de viaje",
+  "label": "Bestiario de Guía de viaje",
   "entries": {
     "Baccali Alpaca": {
       "name": "Baccali Alpaca",
@@ -13,18 +13,18 @@
           "name": "Escupitajo"
         },
         "action->Buck": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.nZMQh4AaBr291TUf]\n<p>@Check[reflex|dc:15] @Localize[PF2E.NPC.Abilities.Glossary.Buck]</p>"
+          "description": "<p>@Check[reflex|dc:15]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Buck]</p>"
         },
         "action->Gallop": {
           "name": "Galopar",
-          "description": "<p>La alpaca baccali Zancajea dos veces. Tiene un bonificador por circunstancia +10 pies a su Velocidad durante estos Zancajeos.</p>"
+          "description": "<p>La alpaca baccali Zancajea dos veces. Obtiene un bonificador por circunstancia +10 pies a su Velocidad durante estos Zancajeos.</p>"
         }
       }
     },
     "Irriseni Owlbear": {
       "name": "Osobúho irrisenio",
       "blurb": "Variante de osobúho de élite",
-      "publicNotes": "<p>Símbolo cultural de Irrisen, el osobúho irrisenio está especialmente bien adaptado a las condiciones heladas. Estos osobúhos son más grandes que sus equivalentes de zonas templadas.</p>\n<hr />\n<p>Con el cuerpo de un poderoso oso pardo y los sentidos agudos de un búho, el osobúho es un peligroso depredador territorial que ataca sin miedo a cualquier criatura que se adentre en sus dominios. Quienes provocan a un osobúho oyen su aterrador chillido solo unos segundos antes de que la enorme criatura se abalance sobre ellos, desgarrándolos con garras mortales y un poderoso pico.</p>\n<p>Aunque su origen se ha perdido en el tiempo, se supone que los osobúhos son el resultado de un experimento mágico para crear un depredador más astuto. Según la leyenda, el mago tuvo demasiado éxito y acabó siendo la primera víctima de la bestia. Hoy en día, pueden encontrarse osobúhos por todo el mundo, con rasgos variados. Mientras que la subespecie más común parece un oso pardo con rasgos de búho real, los osobúhos del norte helado pueden parecer osos polares mezclados con búhos nivales, y en las selvas templadas lluviosas pueden parecer osos negros con cabezas de lechuza común.</p>\n<p>La mayoría de los osobúhos viven vidas solitarias y solo se reúnen para aparearse y criar cachorros, que nacen de huevos. El territorio de un osobúho suele extenderse unas 5 millas desde su guarida, con señales claras de su hábitat a 1 milla o menos (árboles arañados, plumas gigantescas y cadáveres destrozados). La guarida de un osobúho rara vez contiene algo de valor, pero algunos aventureros han encontrado baratijas, monedas e incluso joyas en las enormes egagrópilas de huesos sin digerir que dejan estos monstruos.</p>",
+      "publicNotes": "<p>Símbolo cultural de Irrisen, el osobúho irrisenio está especialmente bien adaptado a las estados heladas. Estos osobúhos son más grandes que sus equivalentes de zonas templadas.</p>\n<hr />\n<p>Con el cuerpo de un poderoso oso pardo y los sentidos agudos de un búho, el osobúho es un peligroso depredador territorial que ataca sin miedo a cualquier criatura que se adentre en sus dominios. Quienes provocan a un osobúho oyen su aterrador chillido solo unos segundos antes de que la enorme criatura se abalance sobre ellos, desgarrándolos con garras mortales y un poderoso pico.</p>\n<p>Aunque su origen se ha perdido en el tiempo, se supone que los osobúhos son el resultado de un experimento mágico para crear un depredador más astuto. Según la leyenda, el mago tuvo demasiado éxito y acabó siendo la primera víctima de la bestia. Hoy en día, pueden encontrarse osobúhos por todo el mundo, con rasgos variados. Mientras que la subespecie más común parece un oso pardo con rasgos de búho real, los osobúhos del norte helado pueden parecer osos polares mezclados con búhos nivales, y en las selvas templadas lluviosas pueden parecer osos negros con cabezas de lechuza común.</p>\n<p>La mayoría de los osobúhos viven vidas solitarias y solo se reúnen para aparearse y criar cachorros, que nacen de huevos. El territorio de un osobúho suele extenderse unas 5 millas desde su guarida, con señales claras de su hábitat a 1 milla o menos (árboles arañados, plumas gigantescas y cadáveres destrozados). La guarida de un osobúho rara vez contiene algo de valor, pero algunos aventureros han encontrado baratijas, monedas e incluso joyas en las enormes egagrópilas de huesos sin digerir que dejan estos monstruos.</p>",
       "items": {
         "strike-melee->Talon": {
           "name": "Garra"
@@ -34,7 +34,7 @@
         },
         "action->Bloodcurdling Screech": {
           "name": "Chillido espeluznante",
-          "description": "<p>El osobúho emite un fuerte chillido que aterroriza a su presa. Cada criatura en una @Template[emanation|distance:80] debe intentar una salvación de @Check[will|dc:22]. Independientemente del resultado, las criaturas son temporalmente inmunes durante 1 minuto.</p>\n<hr />\n<p><strong>Éxito crítico</strong> La criatura no se ve afectada.</p>\n<p><strong>Éxito</strong> La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustada 1}.</p>\n<p><strong>Fallo</strong> La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustada 2}.</p>\n<p><strong>Fallo crítico</strong> La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Huyendo} durante 1 asalto y @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustada 3}.</p>"
+          "description": "<p>El osobúho emite un fuerte chillido que aterroriza a su presa. Cada criatura en una @Template[emanation|distance:80] debe intentar una salvación de @Check[will|dc:22]. Independientemente del resultado, las criaturas quedan temporalmente inmunes durante 1 minuto.</p>\n<hr />\n<p><strong>Éxito crítico</strong> La criatura no se ve afectada.</p>\n<p><strong>Éxito</strong> La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustada 1}.</p>\n<p><strong>Fallo</strong> La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustada 2}.</p>\n<p><strong>Fallo crítico</strong> La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Huyendo} durante 1 asalto y @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustada 3}.</p>"
         },
         "action->Gnaw": {
           "name": "Roer",
@@ -75,7 +75,7 @@
         },
         "action->Filth Fever": {
           "name": "Fiebre de la inmundicia",
-          "description": "<p>Las condiciones @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto} e @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} de la fiebre de la inmundicia no mejoran por sí solas hasta que la enfermedad se cura.</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:14]</p>\n<hr />\n<p><strong>Etapa 1</strong> portador sin efectos nocivos ([[/gmr 1d4 #horas]]{1d4 horas})</p>\n<p><strong>Etapa 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} (1 día)</p>\n<p><strong>Etapa 3</strong> Indispuesto 1 y @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} (1 día)</p>\n<p><strong>Etapa 4</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} (1 día)</p>\n<p><strong>Etapa 5</strong> muerto</p>"
+          "description": "<p>Las estados @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto} e @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} de la fiebre de la inmundicia no mejoran por sí solas hasta que la enfermedad se cura.</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:14]</p>\n<hr />\n<p><strong>Etapa 1</strong> portador sin efectos nocivos ([[/gmr 1d4 #horas]]{1d4 horas})</p>\n<p><strong>Etapa 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} (1 día)</p>\n<p><strong>Etapa 3</strong> Indispuesto 1 y @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} (1 día)</p>\n<p><strong>Etapa 4</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} (1 día)</p>\n<p><strong>Etapa 5</strong> muerto</p>"
         }
       }
     },
@@ -99,7 +99,7 @@
           "description": "<p>Un ballencel puede contener la respiración durante 2 horas.</p>"
         },
         "action->Ramming Velocidad": {
-          "name": "Velocidad de embestida",
+          "name": "Embestida veloz",
           "description": "<p>El ballencel @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Nada} dos veces y luego hace un Golpe de hocico. Mientras se haya movido al menos 20 pies, obtiene un bonificador por circunstancia +1 a su tirada de ataque. Una criatura Grande o más pequeña impactada por este ataque debe tener éxito en una salvación de @Check[fortitude|dc:16] o quedar @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificada 1} durante 1 asalto.</p>"
         }
       }

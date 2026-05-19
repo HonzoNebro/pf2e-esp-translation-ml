@@ -11,13 +11,13 @@
         }
       },
       "items": {
-        "spellcastingEntry->Innate Primal Spells": {
-          "name": "Innate Primal Spells"
+        "spellcastingEntry->Innate Primal Conjuros": {
+          "name": "Innate Primal Conjuros"
         },
-        "spell->Summon Animal (Cave Bear or Woolly Rhinoceros Only)": {
+        "conjuro->Summon Animal (Cave Bear or Woolly Rhinoceros Only)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.4YnON9JHYqtLzccu]\nSummon Animal (Cave Bear or Woolly Rhinoceros Only)"
         },
-        "weapon->Greataxe": {
+        "arma->Greataxe": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.8COlYvHe6hKCXY8x]\n<p>Esta gran hacha de batalla es demasiado pesada para empuñarla con una sola mano. Many greataxes incorporate two blades, and they are often \"bearded\", having a hook at the bottom to increase the strength of their chopping power.</p>"
         },
         "strike-melee->Greataxe": {
@@ -28,7 +28,7 @@
         },
         "action->Blizzard Evasion": {
           "name": "Evasion de ventisca",
-          "description": "<p><strong>Desencadenante</strong> Ainamuuren takes at least 40 points of daño físico from a single attack, and he isn't currently discorporated</p>\n<hr />\n<p><strong>Efecto</strong> Ainamuuren discorporates into a whirling blizzard for 3 asaltos. During this time, he gains resistance 10 to daño físico and weakness 10 to daño de fuerza. He gains a fly speed of 40 pies, but the only action he can take is to Fly. While discorporated, the first time each round that Ainamuuren enters another criatura's space or a criatura enters Ainamuuren's space, that criatura takes @Damage[4d8[cold]] daño and must succeed at a @Check[fortitude|dc:34] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}. At the start of his turn, Ainamuuren can end this effect as a free action.</p>"
+          "description": "<p><strong>Desencadenante</strong> Ainamuuren takes at least 40 points of daño físico from a single attack, and he isn't currently discorporated</p>\n<hr />\n<p><strong>Efecto</strong> Ainamuuren discorporates into a whirling blizzard for 3 asaltos. During this time, he gains resistance 10 to daño físico and weakness 10 to daño de fuerza. He gains a fly speed of 40 pies, but the only action he can take is to Fly. While discorporated, the first time each round that Ainamuuren enters another criatura's space or a criatura enters Ainamuuren's space, that criatura takes @Damage[4d8[cold]] daño and must succeed at a @Check[fortitude|dc:34] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1}. At the start of his turn, Ainamuuren can end this effect as a free action.</p>"
         },
         "action->Frostbite Runes": {
           "name": "Runas de congelación",
@@ -40,7 +40,7 @@
         },
         "action->Curse of the Saumen Kar": {
           "name": "Maldición del Saumen Kar",
-          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> Ainamuuren activates the runes covering his body to create an icy prison around a Huge or smaller criatura he can see within 60 pies. The prison is a sphere made of unmelting ice, just large enough to fit his target. El objetivo, and any criaturas sharing its space, must attempt a @Check[reflex|dc:34] salvación. A criatura that fails becomes trapped inside the prison. If it succeeds, the criatura is pushed outside the prison into a space of its choice. If el objetivo shares its space with a gargantuan criatura, the effect fails.</p>\n<p>The dome has AC 10, Hardness 20, and 40 Puntos de Golpe; and is immune to cold, critical hits, and daño de precisión. The prison lasts until destroyed, until Ainamuuren uses this ability to create a new prison, or until he dies.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> Ainamuuren activates the runes covering his body to create an icy prison around a Huge or smaller criatura he can see within 60 pies. The prison is a sphere made of unmelting ice, just large enough to fit his objetivo. El objetivo, and any criaturas sharing its space, must attempt a @Check[reflex|dc:34] salvación. A criatura that fails becomes trapped inside the prison. If it succeeds, the criatura is pushed outside the prison into a space of its choice. If el objetivo shares its space with a gargantuan criatura, the effect fails.</p>\n<p>The dome has AC 10, Hardness 20, and 40 Puntos de golpe; and is immune to cold, critical hits, and daño de precisión. The prison lasts until destroyed, until Ainamuuren uses this ability to create a new prison, or until he dies.</p>"
         }
       }
     },
@@ -49,12 +49,12 @@
       "description": "<p>Ebeshra roza una estructura, lo que puede hacer que se derrumbe.</p>",
       "disable": "<p>@Check[athletics|dc:43|name:Brace Building (Athletics)|traits:complex,environmental,kaiju,hazard] (maestro), @Check[crafting|dc:43|name:Brace Building (Crafting)|traits:complex,environmental,kaiju,hazard] (maestro), or @Check[engineering|dc:43|name:Brace Building (Engineering)|traits:complex,environmental,kaiju,hazard]{Engineering LORE} (maestro) to brace the structure to reduce the risk of collapse until the end of the criatura's next turn. The DC of the prueba plana for this round (see Routine) is increased by 4 on a success, or by 8 on a critical success. Increasing the prueba plana DC to 21 or higher stabilizes the structure, ending this hazard.</p>",
       "reset": "<p>El edificio vuelve a ser susceptible a Sacudir hasta romper 1d6 asaltos despues de ser estabilizado.</p>",
-      "routine": "<p>The GM rolls a @Check[flat|dc:9|showDC:owner] to determine if the building partially collapses, increasing the DC as listed above. On a successful check, dust and debris fall within the building and 30 pies around it, providing concealment and dealing @Damage[6d6[bludgeoning]] daño to [[/r 1d4 #Targets]] randomly chosen targets (@Check[reflex|dc:35|basic|name:Falling Debris|traits:hazard,complex,environmental,kaiju] salvación; on a critical failure, the criatura is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}). On a critical success, the effect is the same, but the debris deals @Damage[12d6[bludgeoning]] daño to [[/r 2d4 #Targets]] randomly chosen targets instead (@Check[reflex|dc:35|basic|name:Falling Debris|traits:hazard,complex,environmental,kaiju] salvación; on a critical failure, the criatura is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by rubble until freed [@UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{FORCE OPEN} DC 38, @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC 35]).</p>",
+      "routine": "<p>The GM rolls a @Check[flat|dc:9|showDC:owner] to determine if the building partially collapses, increasing the DC as listed above. On a successful prueba, dust and debris fall within the building and 30 pies around it, providing concealment and dealing @Damage[6d6[bludgeoning]] daño to [[/r 1d4 #Objetivos]] randomly chosen objetivos (@Check[reflex|dc:35|basic|name:Falling Debris|traits:hazard,complex,environmental,kaiju] salvación; on a critical failure, the criatura is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}). On a critical success, the effect is the same, but the debris deals @Damage[12d6[bludgeoning]] daño to [[/r 2d4 #Objetivos]] randomly chosen objetivos instead (@Check[reflex|dc:35|basic|name:Falling Debris|traits:hazard,complex,environmental,kaiju] salvación; on a critical failure, the criatura is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by rubble until freed [@UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{FORCE OPEN} DC 38, @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC 35]).</p>",
       "stealth": "<p>(maestro) to notice cracks forming in the walls of the structure as Ebeshra approaches</p>",
       "items": {
         "action->Shake Apart": {
           "name": "Shake Apart",
-          "description": "<p><strong>Desencadenante</strong> Ebeshra applies any amount of force to the structure</p>\n<hr />\n<p><strong>Efecto</strong> The building trembles. The floors of the building and the streets within 30 pies of the building become difficult terrain; criaturas on this difficult terrain take a -2 penalización de circunstancia to tiradas de ataque, AC, and pruebas de habilidad. The hazard rolls initiative.</p>"
+          "description": "<p><strong>Desencadenante</strong> Ebeshra applies any amount of force to the structure</p>\n<hr />\n<p><strong>Efecto</strong> The building trembles. The floors of the building and the streets within 30 pies of the building become difficult terrain; criaturas on this difficult terrain take a -2 penalizador por circunstancia to tiradas de ataque, AC, and pruebas de habilidad. The hazard rolls initiative.</p>"
         }
       }
     },
@@ -66,14 +66,14 @@
       "items": {
         "action->Fire Pin": {
           "name": "Fire Pin",
-          "description": "<p><strong>Desencadenante</strong> A criatura Ebeshra can see begins to use a teleportation effect or an effect that would move any number of targets to a different plane</p>\n<hr />\n<p><strong>Efecto</strong> Ebeshra hurls a crystal at the triggering criatura. The triggering criatura and all criaturas within 50 pies of the criatura take @Damage[16d8[piercing]] daño (@Check[reflex|dc:45|basic|traits:abjuration,divine,environmental,kaiju,hazard] salvación) and additional effects based on the result of their save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The effect is counteracted, and the criatura can't use teleportation effects or planar travel effects for 1 minuto.</p>\n<p><strong>Fallo</strong> As success, but for 1 día instead of 1 minuto.</p>\n<p><strong>Fallo crítico</strong> As success, but for 1 week instead of 1 minuto. Additionally, the criatura becomes pinned under the crystal and must succeed at 3 total DC 45 checks to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} from under the crystal.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura Ebeshra can see begins to use a teleportation effect or an effect that would move any number of objetivos to a different plane</p>\n<hr />\n<p><strong>Efecto</strong> Ebeshra hurls a crystal at the triggering criatura. The triggering criatura and all criaturas within 50 pies of the criatura take @Damage[16d8[piercing]] daño (@Check[reflex|dc:45|basic|traits:abjuration,divine,environmental,kaiju,hazard] salvación) and additional effects based on the result of their save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The effect is counteracted, and the criatura can't use teleportation effects or planar travel effects for 1 minuto.</p>\n<p><strong>Fallo</strong> As success, but for 1 día instead of 1 minuto.</p>\n<p><strong>Fallo crítico</strong> As success, but for 1 week instead of 1 minuto. Additionally, the criatura becomes pinned under the crystal and must succeed at 3 total DC 45 checks to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} from under the crystal.</p>"
         }
       }
     },
     "Cuetzmonquali": {
       "name": "Cuetzmonquali",
       "languages": "(no puede hablar ningún idioma)",
-      "publicNotes": "<p>Though stories call it the Burning Dragon, Cuetzmonquali is a unique criatura with no draconic heritage. Cuetzmonquali resembles an enormous reptile with large frills, two tails ending in massive stingers, and scales that appear to be made of burning flame. Cuetzmonquali is capable of growing any number of horns from its head, on which it can impale and trap its enemies. Each horn grows in a burst of searing flame that burns flesh and scales and results in a blackened obsidian spike jutting from its forehead. Estos horns molt off occasionally, leaving behind warnings of the beast's presence.</p>\n<p>In combat, Cuetzmonquali is a terrifying foe who uses its horns to skewer foes, unleashes white-hot blasts of flame to devastate those who don't approach, and injects a potent burning venom that ignites a foe from within their own body, sapping their strength. Against groups of weaker foes, it simply tramples them to death underfoot. Anyone courageous enough to face Cuetzmonquali and powerful or cunning enough to slay the criatura can lay claim to the treasure that lies in its belly: the legendario artifact known as the <em>Spear of the Destroyer's Flame</em>.</p>",
+      "publicNotes": "<p>Though stories call it the Burning Dragon, Cuetzmonquali is a unique criatura with no draconic heritage. Cuetzmonquali resembles an enormous reptile with large frills, two tails ending in massive stingers, and scales that appear to be made of burning flame. Cuetzmonquali is capable of growing any number of horns from its head, on which it can impale and trap its enemigos. Each horn grows in a burst of searing flame that burns flesh and scales and results in a blackened obsidian spike jutting from its forehead. Estos horns molt off occasionally, leaving behind warnings of the beast's presence.</p>\n<p>In combat, Cuetzmonquali is a terrifying foe who uses its horns to skewer foes, unleashes white-hot blasts of flame to devastate those who don't approach, and injects a potent burning venom that ignites a foe from within their own body, sapping their strength. Against groups of weaker foes, it simply tramples them to death underfoot. Anyone courageous enough to face Cuetzmonquali and powerful or cunning enough to slay the criatura can lay claim to the treasure that lies in its belly: the legendario artifact known as the <em>Spear of the Destroyer's Flame</em>.</p>",
       "senses": "vision de humo",
       "items": {
         "strike-melee->Jaws": {
@@ -100,9 +100,9 @@
           "name": "Smoke Vision",
           "description": "<p>El humo no perjudica la vision de Cuetzmonquali; ignora la ocultacion por humo.</p>"
         },
-        "action->Breath Weapon": {
+        "action->Breath Arma": {
           "name": "Arma de aliento",
-          "description": "<p>Cuetzmonquali unleashes a blast of fire that deals @Damage[12d10[fire]|options:area-damage] daño in a @Template[cone|distance:50] (@Check[reflex|dc:38|basic|options:area-effect] salvación). Las criaturas that fail their saves catch on fire and take @Damage[1d12[persistent,fire]] daño. Cuetzmonquali can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
+          "description": "<p>Cuetzmonquali unleashes a blast of fire that deals @Damage[12d10[fire]|options:area-damage] daño in a @Template[cone|distance:50] (@Check[reflex|dc:38|basic|options:area-effect] salvación). Las criaturas that fail their saves catch on fire and take @Damage[1d12[persistent,fire]] daño. Cuetzmonquali can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Arma]]{1d4 asaltos}.</p>"
         },
         "action->Burning Venom": {
           "name": "Burning Venom",
@@ -113,7 +113,7 @@
         },
         "action->Double Sting": {
           "name": "Double Sting",
-          "description": "<p>Cuetzmonquali makes two tail Golpes, each targeting a different criatura. Estos attacks count toward Cuetzmonquali's multiple attack penalización, but the penalización doesn't increase until after both attacks.</p>"
+          "description": "<p>Cuetzmonquali makes two tail Golpes, each targeting a different criatura. Estos attacks count toward Cuetzmonquali's multiple attack penalizador, but the penalizador doesn't increase until after both attacks.</p>"
         },
         "action->Impaling Charge": {
           "name": "Impaling Charge",
@@ -129,19 +129,19 @@
       "hpDetails": "regeneration 30 (desactivada por cold)",
       "publicNotes": "<p>Desert's Howl is a towering, gray abomination with a shape vaguely similar to that of a bearded man with glowing yellow eyes, long ibex horns, deadly black claws, and cloven hooves. Estos features have sometimes caused those who encounter it to mistake it for some kind of fiend, a fatal mistake likely to lead to their demise, as Desert's Howl is in truth a twisted aberration composed of a disgusting mix of nightmares, smoke, and ash. As such, holy water and other measures that might be effective against fiends have no effect on Desert's Howl.</p>\n<p>According to the oral histories of the people who have survived in the Thuvian desert the longest, when Desert's Howl first appeared, it was in much the same shape but no larger than a human. Over time, its proportions lengthened and grew, as did its frightening abilities and appetite for suffering.</p>\n<p>Given the incredible range on Desert's Howl's namesake desolate exclamation, criaturas are much more likely to hear Desert's Howl than see it. Though such forewarning potentially gives distant criaturas additional time to prepare to face or escape the criatura, Desert's Howl enjoys the steady build-up of fear that this approach allows, potentially breaking its victims' resolve long before it even appears. Besides, a criatura of its power has little to fear from travelers, or even most adventurers, regardless of how much time they have to prepare. In the end, a greater struggle just makes destroying them all the sweeter.</p>",
       "items": {
-        "spellcastingEntry->Innate Divine Spells": {
-          "name": "Innate Divine Spells"
+        "spellcastingEntry->Innate Divine Conjuros": {
+          "name": "Innate Divine Conjuros"
         },
-        "spell->Hallucination (At Will)": {
+        "conjuro->Hallucination (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.U58aQWJ47VrI36yP]\nAlucinación (a voluntad)"
         },
-        "spell->Dimension Door": {
+        "conjuro->Dimension Door": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nPuerta dimensional"
         },
-        "spell->Hallucinatory Terrain (At Will)": {
+        "conjuro->Hallucinatory Terrain (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.HBJPsonQnWcC3qdX]\nHallucinatory Terrain (At Will)"
         },
-        "spell->Invisibility (At Will, Self Only)": {
+        "conjuro->Invisibility (At Will, Self Only)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibilidad (a voluntad, solo personal)"
         },
         "strike-melee->Claw": {
@@ -157,7 +157,7 @@
           "name": "Aura of Agony",
           "description": "<p>10 miles. Desert's Howl exudes a massive psychic disturbance many miles away from its location, assaulting the minds and spirits of those who dare to sleep within the unsettling bounds of its aura of agony. Las criaturas that attempt to rest while they're within this emanation are beset by disturbing nightmares and hallucinations, regardless of whether they're aware of Desert's Howl's presence. Este restlessness causes criaturas to wake up @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}, and they don't recover from fatigue by resting. Las criaturas affected by aura of agony don't reduce their @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado} condition by resting as long as they remain within the area of the aura.</p>"
         },
-        "action->Fear Scent (Precise) 120 feet": {
+        "action->Fear Scent (Precise) 120 pies": {
           "name": "Fear Scent (Precise) 120 pies",
           "description": "<p>Desert's Howl can observe any asustado criaturas within 120 pies using an incredibly accurate sense of psychic smell as a precise sense. However, its fear scent extends further if the criatura was asustado by Desert's Howl. The taste of such a bouquet of fear in the air becomes irresistible and easy for Desert's Howl to detect, like a shark smelling blood in water. Desert's Howl can sense a criatura asustado by its own fear effects as an imprecise sense at a distance of up to 1 mile away.</p>"
         },
@@ -174,7 +174,7 @@
         },
         "action->Illusory Ambush": {
           "name": "Illusory Ambush",
-          "description": "<p>Desert's Howl shimmers with illusions and devastates a foe who lost track of its position. Desert's Howl Strides up to twice its Velocidad. If it ends its movement within its melee reach of at least one enemigo to which it's undetected, it can attempt two claw Golpes against that enemigo. Estos attacks count toward Desert's Howl's multiple attack penalización, but the multiple attack penalización doesn't increase until after Desert's Howl makes both of these attacks. Desert's Howl remains undetected to the criatura it's attacking until after resolving both of the claw attacks.</p>"
+          "description": "<p>Desert's Howl shimmers with illusions and devastates a foe who lost track of its position. Desert's Howl Strides up to twice its Velocidad. If it ends its movement within its melee reach of at least one enemigo to which it's sin detectar, it can attempt two claw Golpes against that enemigo. Estos attacks count toward Desert's Howl's multiple attack penalizador, but the multiple attack penalizador doesn't increase until after Desert's Howl makes both of these attacks. Desert's Howl remains sin detectar to the criatura it's attacking until after resolving both of the claw attacks.</p>"
         },
         "action->Nightmare Fuel": {
           "name": "Nightmare Fuel",
@@ -182,7 +182,7 @@
         },
         "action->Paralytic Secretion": {
           "name": "Paralytic Secretion",
-          "description": "<p>Desert's Howl's saliva is a potent paralytic substance that drains the energy from prey. A criatura hit by its spit Golpe must succeed at a @Check[fortitude|dc:41] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} as well as @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 1 asalto. If el objetivo was already drained, it instead increases the condition's value by 1, to a maximum of drained 4.</p>"
+          "description": "<p>Desert's Howl's saliva is a potent paralytic substance that drains the energy from prey. A criatura hit by its spit Golpe must succeed at a @Check[fortitude|dc:41] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 2} as well as @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 1 asalto. If el objetivo was already drenado, it instead increases the condition's value by 1, to a maximum of drenado 4.</p>"
         },
         "action->Profane Feast": {
           "name": "Profane Feast",
@@ -200,20 +200,20 @@
       "saveDetails": "+1 de estado a todas las salvaciones contra magia",
       "speed": "freedom of movement",
       "items": {
-        "spellcastingEntry->Innate Primal Spells": {
-          "name": "Innate Primal Spells"
+        "spellcastingEntry->Innate Primal Conjuros": {
+          "name": "Innate Primal Conjuros"
         },
-        "spell->Plane Shift (At Will, Only to the First World or the Material Plane)": {
+        "conjuro->Plane Shift (At Will, Only to the First World or the Material Plane)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ]\nPlane Shift (At Will, Only to the First World or the Material Plane)",
-          "target": "1 willing criatura, or up to 8 willing criaturas joining hands"
+          "objetivo": "1 willing criatura, or up to 8 willing criaturas joining hands"
         },
-        "spell->Spell Turning (At Will)": {
+        "conjuro->Conjuro Turning (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.OOELvfkTedBMlWtq]\nRetorno De Conjuros (a voluntad)"
         },
-        "spell->True Seeing (Constant)": {
+        "conjuro->True Seeing (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]\nTrue Seeing (Constant)"
         },
-        "spell->Freedom of Movement (Constant)": {
+        "conjuro->Freedom of Movement (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH]\nFreedom of Movement (Constant)"
         },
         "strike-melee->Jaws": {
@@ -240,7 +240,7 @@
         },
         "action->Curse of the Woeful Wyrd": {
           "name": "Curse of the Woeful Wyrd",
-          "description": "<p>When a criatura slays Fafnheir, it becomes home to his soul, which slowly emerges from his killer's body. The criatura must attempt a @Check[will|dc:52] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2} (@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} on a success, unaffected on a critical success). Unless the criatura critically succeeded at the tirada de salvación, each day the doomed value increases by 1. If the criatura dies while suffering the curse of the woeful wyrd, its corpse explodes in a @Template[burst|distance:60] with the effect of Blasting Breath. Fafnheir is immediately returned to life in the nearest available space to the corpse with full Puntos de Golpe and no conditions. Even an indirect slaying usually still allows Fafnheir to curse the soul of his slayer through the metaphysical link between them.</p>"
+          "description": "<p>When a criatura slays Fafnheir, it becomes home to his soul, which slowly emerges from his killer's body. The criatura must attempt a @Check[will|dc:52] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2} (@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} on a success, unaffected on a critical success). Unless the criatura critically succeeded at the tirada de salvación, each day the doomed value increases by 1. If the criatura dies while suffering the curse of the woeful wyrd, its corpse explodes in a @Template[burst|distance:60] with the effect of Blasting Breath. Fafnheir is immediately returned to life in the nearest available space to the corpse with full Puntos de golpe and no conditions. Even an indirect slaying usually still allows Fafnheir to curse the soul of his slayer through the metaphysical link between them.</p>"
         },
         "action->Enormous": {
           "name": "Enormous",
@@ -255,15 +255,15 @@
         },
         "action->Spit Boiling Blood": {
           "name": "Spit Boiling Blood",
-          "description": "<p><strong>Desencadenante</strong> A criatura within 60 pies damages Fafnheir</p>\n<hr />\n<p><strong>Efecto</strong> Fafnheir spits blood at the criatura. It must immediately attempt a Fortitude save against boiling blood.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura within 60 pies damages Fafnheir</p>\n<hr />\n<p><strong>Efecto</strong> Fafnheir spits blood at the criatura. It must immediately attempt a salvación de Fortaleza against boiling blood.</p>"
         },
         "action->Blasting Breath": {
           "name": "Blasting Breath",
-          "description": "<p>Fafnheir exhales a cataclysmic firestorm laced with lightning and hurricane-strength winds, dealing @Damage[20d6[fire]] daño in a @Template[cone|distance:90] (@Check[reflex|dc:48|basic] salvación). Additionally, Fafnheir deals @Damage[10d6[electricity]]{10d6} daño adicional de electricidad to one criatura within the area of Blasting Breath of Fafnheir's choice, determined by the same basic Reflex save. Las criaturas in the area must also attempt a @Check[fortitude|dc:48|name:Resist Winds|traits:damaging-effect] salvación to resist the powerful winds and deafening thunderclaps of the breath. Las criaturas that fail experience the effects of @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{Gust of Wind}, affecting Large or smaller criaturas as normal. Finally, criaturas that fail their Fortitude save become @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minuto (permanently deafened on a critical failure).</p>"
+          "description": "<p>Fafnheir exhales a cataclysmic firestorm laced with lightning and hurricane-strength winds, dealing @Damage[20d6[fire]] daño in a @Template[cone|distance:90] (@Check[reflex|dc:48|basic] salvación). Additionally, Fafnheir deals @Damage[10d6[electricity]]{10d6} daño adicional de electricidad to one criatura within the area of Blasting Breath of Fafnheir's choice, determined by the same basic salvación de Reflejos. Las criaturas in the area must also attempt a @Check[fortitude|dc:48|name:Resist Winds|traits:damaging-effect] salvación to resist the powerful winds and deafening thunderclaps of the breath. Las criaturas that fail experience the effects of @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{Gust of Wind}, affecting Large or smaller criaturas as normal. Finally, criaturas that fail their salvación de Fortaleza become @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minuto (permanently deafened on a critical failure).</p>"
         },
         "action->Boiling Blood": {
           "name": "Boiling Blood",
-          "description": "<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:48]</p>\n<p><strong>Duración máxima</strong> 10 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[6d8[fire]] daño and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[6d10[fire]] daño and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[6d12[fire]] daño and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 3} (1 asalto)</p>"
+          "description": "<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:48]</p>\n<p><strong>Duración máxima</strong> 10 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[6d8[fire]] daño and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[6d10[fire]] daño and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 2} (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[6d12[fire]] daño and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 3} (1 asalto)</p>"
         },
         "action->Furious Frenzy": {
           "name": "Furious Frenzy",
@@ -289,14 +289,14 @@
         },
         "action->Dual Pounce": {
           "name": "Dual Pounce",
-          "description": "<p>The grisantian lion Strides and makes two claw Golpes against the same criatura at the end of that movement. Each attack counts against the grisantian lion's multiple attack penalización, but the penalización doesn't increase until after the grisantian lion makes both attacks. If both attacks hit, combine their daño for the purpose of resistances and weaknesses.</p>"
+          "description": "<p>The grisantian lion Strides and makes two claw Golpes against the same criatura at the end of that movement. Each attack counts against the grisantian lion's multiple attack penalizador, but the penalizador doesn't increase until after the grisantian lion makes both attacks. If both attacks hit, combine their daño for the purpose of resistances and weaknesses.</p>"
         },
         "action->Rend": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.3JOi2cMcGhT3eze1]\n<p>claw.</p>\n<p>If the grisantian lion Rends after a successful Dual Pounce, combine the Rend's daño with that from the Dual Pounce for the purpose of resistances and weaknesses.</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
         },
         "action->Vicious Rend": {
           "name": "Desgarro cruel",
-          "description": "<p><strong>Desencadenante</strong> The grisantian lion uses Rend</p>\n<hr />\n<p><strong>Efecto</strong> El objetivo's armor takes daño equal to the daño from Rend. El objetivo can attempt a @Check[reflex|dc:29|basic] salvación to reduce this daño.</p>"
+          "description": "<p><strong>Desencadenante</strong> The grisantian lion uses Rend</p>\n<hr />\n<p><strong>Efecto</strong> El objetivo's armadura takes daño equal to the daño from Rend. El objetivo can attempt a @Check[reflex|dc:29|basic] salvación to reduce this daño.</p>"
         }
       }
     },
@@ -305,20 +305,20 @@
       "languages": "(no puede hablar ningún idioma)",
       "publicNotes": "<p>Grogrisant is an enormous lion with multiple eyes and a golden, glowing mane. As it was originally slain by Taldor's founding emperor, the legendario hero Taldaris, Grogrisant's appearance marks both danger for the people of Taldor and the potential for Taldans to prove their might against a criatura from their fabled past. How it continues to appear time and time again remains a mystery, one that Taldan scholars continuously attempt to decipher.</p>",
       "items": {
-        "spellcastingEntry->Primal Innate Spells": {
-          "name": "Primal Innate Spells"
+        "spellcastingEntry->Primal Innate Conjuros": {
+          "name": "Primal Innate Conjuros"
         },
-        "spell->Nondetection (Constant)": {
+        "conjuro->Nondetection (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.EoKBlgf6Smt8opaU]\nNondetection (Constant)"
         },
-        "spell->Searing Light": {
+        "conjuro->Searing Light": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.DyiD239dNS7RIxZE]\nSearing Light"
         },
-        "spell->Dancing Lights": {
+        "conjuro->Dancing Lights": {
           "name": "Dancing Lights",
-          "description": "<p>Creas up to four floating lights, no two of which are more than 10 pies apart. Each sheds light like a torch. When tú Sustain the Spell, puedes move any number of lights up to 60 pies. Each light must remain within 120 pies of tú and within 10 pies of all others, or it winks out.</p>"
+          "description": "<p>Creas up to four floating lights, no two of which are more than 10 pies apart. Each sheds light like a torch. When tú Sustain the Conjuro, puedes move any number of lights up to 60 pies. Each light must remain within 120 pies of tú and within 10 pies of all others, or it winks out.</p>"
         },
-        "spell->Pass Without Trace (Constant)": {
+        "conjuro->Pass Without Trace (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.zlnXpME1T2uvn8Lr]\nPass Without Trace (Constant)"
         },
         "strike-melee->Jaws": {
@@ -333,14 +333,14 @@
         },
         "action->Dual Pounce": {
           "name": "Dual Pounce",
-          "description": "<p>Grogrisant Strides and makes two claw Golpes against the same criatura at the end of that movement. Each attack counts against Grogrisant's multiple attack penalización, but the penalización doesn't increase until after Grogrisant makes both attacks. If both attacks hit, combine their daño for the purpose of resistances and weaknesses.</p>"
+          "description": "<p>Grogrisant Strides and makes two claw Golpes against the same criatura at the end of that movement. Each attack counts against Grogrisant's multiple attack penalizador, but the penalizador doesn't increase until after Grogrisant makes both attacks. If both attacks hit, combine their daño for the purpose of resistances and weaknesses.</p>"
         },
         "action->Rend": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.3JOi2cMcGhT3eze1]\n<p>claw.</p>\n<p>If Grogrisant Rends after a successful Dual Pounce, combine the Rend's daño with that from the Dual Pounce for the purpose of resistances and weaknesses.</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
         },
         "action->Vicious Rend": {
           "name": "Desgarro cruel",
-          "description": "<p><strong>Desencadenante</strong> Grogrisant uses Rend</p>\n<hr />\n<p><strong>Efecto</strong> El objetivo's armor takes daño equal to the daño from Rend. El objetivo can attempt a @Check[reflex|dc:37|basic] salvación, negating the armor daño on a successful save.</p>"
+          "description": "<p><strong>Desencadenante</strong> Grogrisant uses Rend</p>\n<hr />\n<p><strong>Efecto</strong> El objetivo's armadura takes daño equal to the daño from Rend. El objetivo can attempt a @Check[reflex|dc:37|basic] salvación, negating the armadura daño on a successful save.</p>"
         }
       }
     },
@@ -349,16 +349,16 @@
       "hpDetails": "regeneration 20 (desactivada por cold)",
       "publicNotes": "<p>While Desert's Howl is presumed to be unique, given its inexplicable origin, there have been reports of criaturas resembling Desert's Howl that stalk the sands of Thuvia. Though quite similar to the descriptions of Desert's Howl, they seem to be individuals who haven't yet fully completed their transformation into the terrifying beast. Whether these unfortunate people met a cruel fate similar to that which spawned Desert's Howl or are spawn of the nightmarish criatura itself is unclear. Some reports of encounters with these criaturas note that it's possible to revert the criatura back to its humanoid form by cleansing its mind of nightmarish visions, though there's no solid evidence of such an event ever occurring.</p>",
       "items": {
-        "spellcastingEntry->Innate Occult Spells": {
-          "name": "Innate Occult Spells"
+        "spellcastingEntry->Innate Occult Conjuros": {
+          "name": "Innate Occult Conjuros"
         },
-        "spell->Dimension Door": {
+        "conjuro->Dimension Door": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nPuerta dimensional"
         },
-        "spell->Hallucinatory Terrain": {
+        "conjuro->Hallucinatory Terrain": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.HBJPsonQnWcC3qdX]\nHallucinatory Terrain"
         },
-        "spell->Invisibility (Self Only)": {
+        "conjuro->Invisibility (Self Only)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibility (Self Only)"
         },
         "strike-melee->Claw": {
@@ -370,7 +370,7 @@
         "action->Regeneration 20 (Deactivated by Cold)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.lR9R5Vld8Eu2Dha5]\nRegeneración 20 (Deactivated by Cold)"
         },
-        "action->Fear Scent (Precise) 60 feet": {
+        "action->Fear Scent (Precise) 60 pies": {
           "name": "Fear Scent (Precise) 60 pies",
           "description": "<p>Howling spawn can sense asustado criaturas within 60 pies, using an incredibly accurate sense of psychic smell as a precise sense.</p>"
         },
@@ -383,11 +383,11 @@
         },
         "action->Illusory Ambush": {
           "name": "Illusory Ambush",
-          "description": "<p>The howling spawn shimmers with illusions and devastates a foe who lost track of its position. It Strides up to twice its Velocidad. If it ends its movement within its melee reach of at least one enemigo to which it is undetected, it can attempt two claw Golpes against that enemigo. The howling spawn remains undetected to the criatura it's attacking until after resolving both of the claw attacks.</p>"
+          "description": "<p>The howling spawn shimmers with illusions and devastates a foe who lost track of its position. It Strides up to twice its Velocidad. If it ends its movement within its melee reach of at least one enemigo to which it is sin detectar, it can attempt two claw Golpes against that enemigo. The howling spawn remains sin detectar to the criatura it's attacking until after resolving both of the claw attacks.</p>"
         },
         "action->Paralytic Secretion": {
           "name": "Paralytic Secretion",
-          "description": "<p>The howling spawn's saliva is a potent paralytic substance that drains the energy from its prey. A criatura hit by its spit Golpe must succeed at a @Check[fortitude|dc:30] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} as well as @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 1 asalto. If el objetivo was already drained, it instead increases the condition's value by 1, to a maximum of drained 4.</p>"
+          "description": "<p>The howling spawn's saliva is a potent paralytic substance that drains the energy from its prey. A criatura hit by its spit Golpe must succeed at a @Check[fortitude|dc:30] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} as well as @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 1 asalto. If el objetivo was already drenado, it instead increases the condition's value by 1, to a maximum of drenado 4.</p>"
         },
         "action->Profane Feast": {
           "name": "Profane Feast",
@@ -405,7 +405,7 @@
         "strike-ranged->Energy Beam": {
           "name": "Haz de energía"
         },
-        "action->Telepathy 30 feet": {
+        "action->Telepathy 30 pies": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA]\nTelepathy 30 pies"
         },
         "action->Unsubstantiated Consciousness": {
@@ -414,7 +414,7 @@
         },
         "action->Empty Wail": {
           "name": "Empty Wail",
-          "description": "<p>The imperfect automaton utters a mournful cry in a @Template[cone|distance:30]. The cry deals @Damage[4d6[mental]] daño to all criaturas in the area (@Check[will|dc:22] salvación). The imperfect automaton can't use its Empty Wail again for [[/gmr 1d4 #Recharge Empty Wail]]{1d4 asaltos}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura takes half daño.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for [[/gmr 1d4+1 #rounds]]{1d4+1 asaltos}.</p>\n<p><strong>Fallo crítico</strong> The criatura takes double daño and is stupefied 1 for 1d4+1 asaltos and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>"
+          "description": "<p>The imperfect automaton utters a mournful cry in a @Template[cone|distance:30]. The cry deals @Damage[4d6[mental]] daño to all criaturas in the area (@Check[will|dc:22] salvación). The imperfect automaton can't use its Empty Wail again for [[/gmr 1d4 #Recharge Empty Wail]]{1d4 asaltos}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura takes half daño.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 1} for [[/gmr 1d4+1 #rounds]]{1d4+1 asaltos}.</p>\n<p><strong>Fallo crítico</strong> The criatura takes double daño and is anonadado 1 for 1d4+1 asaltos and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1}.</p>"
         },
         "action->Impassioned Strikes": {
           "name": "Impassioned Golpes",
@@ -433,28 +433,28 @@
     },
     "Kallas Devil": {
       "name": "Kallas Devil",
-      "publicNotes": "<p>Bearing a resemblance to the flayed nuckelavee that lurks in stagnant swamps, the Kallas Devil distinguishes herself by being able to separate herself from her mount without issue, as well as with her powers of disguise and subtlety. Though her wicked trident and violent fury are enough to sear her image into the minds of the local people, it's the Kallas Devil's ability to slip unseen among her would-be victims that elevates the criatura beyond the ranks of a common horror. No matter how careful the residents of Riverton are with their youth and the vulnerable, the Kallas Devil claims her chosen target more often than not, luring the hapless victim toward doom while wearing a smiling child's face.</p>",
+      "publicNotes": "<p>Bearing a resemblance to the flayed nuckelavee that lurks in stagnant swamps, the Kallas Devil distinguishes herself by being able to separate herself from her mount without issue, as well as with her powers of disguise and subtlety. Though her wicked trident and violent fury are enough to sear her image into the minds of the local people, it's the Kallas Devil's ability to slip unseen among her would-be victims that elevates the criatura beyond the ranks of a common horror. No matter how careful the residents of Riverton are with their youth and the vulnerable, the Kallas Devil claims her chosen objetivo more often than not, luring the hapless victim toward doom while wearing a smiling child's face.</p>",
       "items": {
-        "spellcastingEntry->Innate Occult Spells": {
-          "name": "Innate Occult Spells"
+        "spellcastingEntry->Innate Occult Conjuros": {
+          "name": "Innate Occult Conjuros"
         },
-        "spell->Mind Reading (At Will)": {
+        "conjuro->Mind Reading (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.KHnhPHL4x1AQHfbC]\nLectura de la mente (a voluntad)"
         },
-        "spell->Invisibility (At Will)": {
+        "conjuro->Invisibility (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]\nInvisibilidad (a voluntad)"
         },
-        "spell->See Invisibility (Constant)": {
+        "conjuro->See Invisibility (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]\nSee Invisibility (Constant)"
         },
-        "spell->Illusory Disguise (At Will)": {
+        "conjuro->Illusory Disguise (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]\nDisfraz ilusorio (a voluntad)"
         },
-        "spell->Sleep (At Will)": {
+        "conjuro->Sleep (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.o4lRVTwSxnOOn5vl]\nSueño (a voluntad)"
         },
-        "weapon->Devil's Trident": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.TO8UvbBy1NfVbrdB]\n<p>Este <em>+1 striking returning trident</em> is made of an ancient black metal that glistens unnaturally and is cold to the touch. The prongs of this trident drip with metallic lake water. Golpes with the <em>Devil's Trident</em> trigger the weaknesses of any criatura with a weakness to water.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">r</span> comando</p>\n<p><strong>Desencadenante</strong> Tú critically hit a criatura</p>\n<hr />\n<p><strong>Efecto</strong> El objetivo must succeed at a @Check[fortitude|dc:25|traits:disease,virulent] salvación or become infected with sewer haze.</p>\n<hr />\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> envision, INTERACT</p>\n<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p><strong>Efecto</strong> The trident casts 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.02J0rDTk37KN2sjt]{Quench} with a DC of 25 and a counteract modifier of [[/r 1d20+15 #Quench Counteract Modifier]]{+15}. Puedes Sustain the Spell as normal.</p>\n<hr />\n<p><strong>Activar</strong> <span class=\"action-glyph\">3</span> envision, INTERACT</p>\n<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> Tú call upon the corrupted power of the trident to stay a foe. Attempt a Golpe. On a hit, the trident casts 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.DCQHaLrYXMI37dvW]{Paralyze} on el objetivo (DC 25). If the Golpe was a impacto crítico, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} even if it critically succeeds at the save.</p>"
+        "arma->Devil's Trident": {
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.TO8UvbBy1NfVbrdB]\n<p>Este <em>+1 striking returning trident</em> is made of an ancient black metal that glistens unnaturally and is cold to the touch. The prongs of this trident drip with metallic lake water. Golpes with the <em>Devil's Trident</em> trigger the weaknesses of any criatura with a weakness to water.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">r</span> comando</p>\n<p><strong>Desencadenante</strong> Tú critically hit a criatura</p>\n<hr />\n<p><strong>Efecto</strong> El objetivo must succeed at a @Check[fortitude|dc:25|traits:disease,virulent] salvación or become infected with sewer haze.</p>\n<hr />\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> envision, INTERACT</p>\n<p><strong>Frecuencia</strong> una vez por hora</p>\n<hr />\n<p><strong>Efecto</strong> The trident casts 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.02J0rDTk37KN2sjt]{Quench} with a DC of 25 and a counteract modifier of [[/r 1d20+15 #Quench Counteract Modifier]]{+15}. Puedes Sustain the Conjuro as normal.</p>\n<hr />\n<p><strong>Activar</strong> <span class=\"action-glyph\">3</span> envision, INTERACT</p>\n<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> Tú call upon the corrupted power of the trident to stay a foe. Attempt a Golpe. On a hit, the trident casts 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.DCQHaLrYXMI37dvW]{Paralyze} on el objetivo (DC 25). If the Golpe was a impacto crítico, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1} even if it critically succeeds at the save.</p>"
         },
         "equipment->Skinned Cloak": {
           "name": "Skinned Cloak"
@@ -471,10 +471,10 @@
         "strike-ranged->Devil's Trident": {
           "name": "Tridente del diablo"
         },
-        "action->Lifesense (Imprecise) 30 feet": {
+        "action->Lifesense (Imprecise) 30 pies": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg]\nLifesense (Imprecise) 30 pies"
         },
-        "action->Wavesense (Imprecise) 30 feet": {
+        "action->Wavesense (Imprecise) 30 pies": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.VdSMQ6yRZ3YXNXHL]\nWavesense (Imprecise) 30 pies"
         },
         "action->Coven": {
@@ -490,7 +490,7 @@
         },
         "action->Loathsome Stench": {
           "name": "Loathsome Stench",
-          "description": "<p>20 pies. A criatura entering the aura or starting its turn in the aura must succeed at a @Check[fortitude|dc:20] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure). A criatura that succeeds at its saves is temporarily immune for 1 minuto.</p>"
+          "description": "<p>20 pies. A criatura entering the aura or starting its turn in the aura must succeed at a @Check[fortitude|dc:20] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 2} on a critical failure). A criatura that succeeds at its saves is temporarily immune for 1 minuto.</p>"
         },
         "action->Mount Steed": {
           "name": "Mount Steed",
@@ -513,11 +513,11 @@
         },
         "action->Flay Alive": {
           "name": "Flay Alive",
-          "description": "<p><strong>Requisitos</strong> The Kallas Devil has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, and it has been grabbed since her last turn.</p>\n<hr />\n<p><strong>Efecto</strong> The Kallas Devil flays her prey, dealing @Damage[(2d12+17)[slashing]] daño, and el objetivo must attempt a @Check[fortitude|dc:25] salvación. On a failure, it becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} (@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} on a critical failure). On a critical success, the criatura escapes from being grabbed; otherwise, the Kallas Devil extends the grabbed condition until the end of her next turn.</p>"
+          "description": "<p><strong>Requisitos</strong> The Kallas Devil has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, and it has been grabbed since her last turn.</p>\n<hr />\n<p><strong>Efecto</strong> The Kallas Devil flays her prey, dealing @Damage[(2d12+17)[slashing]] daño, and el objetivo must attempt a @Check[fortitude|dc:25] salvación. On a failure, it becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} (@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 2} on a critical failure). On a critical success, the criatura escapes from being grabbed; otherwise, the Kallas Devil extends the grabbed condition until the end of her next turn.</p>"
         },
         "action->Sewer Haze": {
           "name": "Sewer Haze",
-          "description": "<p>Many healers and alchemists suspect that sewer haze has a supernatural origin, given its association with particularly strong otyughs.</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:23|name:Sewer Hsaze]</p>\n<p><strong>Onset</strong> 2 days</p>\n<p><strong>Etapa 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} (1 día)</p>\n<p><strong>Etapa 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} and stupefied 2 (1 día)</p>\n<p><strong>Etapa 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 3} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 3} (1 día)</p>"
+          "description": "<p>Many healers and alchemists suspect that sewer haze has a supernatural origin, given its association with particularly strong otyughs.</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:23|name:Sewer Hsaze]</p>\n<p><strong>Onset</strong> 2 days</p>\n<p><strong>Etapa 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 2} (1 día)</p>\n<p><strong>Etapa 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 2} and anonadado 2 (1 día)</p>\n<p><strong>Etapa 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 3} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 3} (1 día)</p>"
         }
       }
     },
@@ -548,7 +548,7 @@
         },
         "action->Noxious Aura": {
           "name": "Noxious Aura",
-          "description": "<p>120 pies. A criatura that enters or begins its turn in the emanation must succeed at a @Check[fortitude|dc:41] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} (sickened 3 on a critical failure).</p>"
+          "description": "<p>120 pies. A criatura that enters or begins its turn in the emanation must succeed at a @Check[fortitude|dc:41] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 2} (indispuesto 3 on a critical failure).</p>"
         },
         "action->Reactive": {
           "name": "Reactive",
@@ -564,7 +564,7 @@
         },
         "action->Many-Eyed Blight": {
           "name": "Many-Eyed Blight",
-          "description": "<p>@Check[fortitude|dc:44]</p>\n<p><strong>Etapa 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2}</p>\n<p><strong>Etapa 2</strong> stupefied 2 and @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}</p>\n<p><strong>Etapa 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 3}, @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}, and @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded}</p>\n<p><strong>Etapa 4</strong> if tú die, at the next new moon, tu body splits, and tu viscera become an undead under Kothogaz's control.</p>"
+          "description": "<p>@Check[fortitude|dc:44]</p>\n<p><strong>Etapa 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 2}</p>\n<p><strong>Etapa 2</strong> anonadado 2 and @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}</p>\n<p><strong>Etapa 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 3}, @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}, and @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded}</p>\n<p><strong>Etapa 4</strong> if tú die, at the next new moon, tu body splits, and tu viscera become an undead under Kothogaz's control.</p>"
         },
         "action->Pox the Land": {
           "name": "Pox the Land",
@@ -575,7 +575,7 @@
           "description": "<p>The earth festers in Kothogaz's wake. Kothogaz Strides up to its Velocidad. Squares through which Kothogaz passes are greater difficult terrain until the start of its next turn, and any criatura that enters or begins its turn in those squares must succeed at a @Check[reflex|dc:44] salvación or take @Damage[4d10[poison],4d10[acid]]{4d10 daño de veneno and 4d10 daño de ácido} (on a critical failure, double daño and exposed to many-eyed blight).</p>"
         },
         "action->Swallow Whole": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]\n<p>Huge, @Damage[(4d10+18)[bludgeoning],2d12[sonic]]{4d10+18 bludgeoning plus 2d12 sonic} and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} while swallowed, Rupture 40</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]\n<p>Huge, @Damage[(4d10+18)[bludgeoning],2d12[sonic]]{4d10+18 bludgeoning plus 2d12 sonic} and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} while swallowed, Rupture 40</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
         }
       }
     },
@@ -588,29 +588,29 @@
       "speed": "air walk, snowstep",
       "tokenName": "Krampus",
       "items": {
-        "spellcastingEntry->Primal Innate Spells": {
-          "name": "Primal Innate Spells"
+        "spellcastingEntry->Primal Innate Conjuros": {
+          "name": "Primal Innate Conjuros"
         },
-        "spell->Baleful Polymorph": {
+        "conjuro->Baleful Polymorph": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]\nBaleful Polymorph"
         },
-        "spell->Tongues (Constant)": {
+        "conjuro->Tongues (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K]\nTongues (Constant)"
         },
-        "spell->Air Walk (Constant)": {
+        "conjuro->Air Walk (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.b5sGjGlBf58f8jn0]\nCaminar Por El Aire (constante)"
         },
-        "spell->See Invisibility (Constant)": {
+        "conjuro->See Invisibility (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]\nSee Invisibility (Constant)"
         },
-        "spell->Dancing Lights": {
+        "conjuro->Dancing Lights": {
           "name": "Dancing Lights",
-          "description": "<p>Creas up to four floating lights, no two of which are more than 10 pies apart. Each sheds light like a torch. When tú Sustain the Spell, puedes move any number of lights up to 60 pies. Each light must remain within 120 pies of tú and within 10 pies of all others, or it winks out.</p>"
+          "description": "<p>Creas up to four floating lights, no two of which are more than 10 pies apart. Each sheds light like a torch. When tú Sustain the Conjuro, puedes move any number of lights up to 60 pies. Each light must remain within 120 pies of tú and within 10 pies of all others, or it winks out.</p>"
         },
-        "spell->Tanglefoot": {
+        "conjuro->Tanglefoot": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.uZK2BYzPnxUBnDjr]\nTanglefoot"
         },
-        "weapon->+3 Greater Striking Cold Iron Spiked Chain": {
+        "arma->+3 Greater Striking Cold Iron Spiked Chain": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.zi9ovfoRp2fMhfpO]\n+3 Greater Striking Cold Iron Spiked Chain"
         },
         "strike-melee->Spiked Chain": {
@@ -632,7 +632,7 @@
         },
         "action->Bountiful Bag": {
           "name": "Bountiful Bag",
-          "description": "<p>Krampus carries a large bag brimming with barely contained gifts and trinkets, including one of every common item with the consumable rasgo of levels 1 to 20, at least 20 <em>golden rod mementos</em>, and an assortment of food and valuables. Once every 24 horas, the bag's contents magically regenerate, replacing any of these items that have been removed. Krampus can INTERACT with the bag to stow or withdraw items, always finding the desired stored item at the top of the bag. The bag is an extradimensional space, so the weight of its contents doesn't count against Krampus's Bulk limit. The bag functions as a normal sack if used by anyone other than Krampus, and if the bag is stolen or Krampus is slain, the bag retains only [[/r 2d4]] random common consumable items of 16th level or higher.</p>\n<p>A criatura can use @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} or @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Steal} to extract a consumable item from Krampus's bag. As part of the action, the criatura can envision a specific item it wants to extract. On a success, the criatura Disarms or Steals the object and rolls a @Check[flat|dc:13|name:Stealing from Krampus' Bag|showDC:owner] check.</p>\n<hr />\n<p><strong>Éxito</strong> The criatura Disarms or Steals the envisioned object. If the criatura didn't envision an object, it Disarms or Steals a random common consumable item of a level at least half the criatura's level.</p>\n<p><strong>Fallo</strong> The criatura Disarms or Steals a random common consumable item of a level at least half the criatura's level.</p>\n<p><strong>Fallo crítico</strong> The criatura Disarms or Steals a <em>golden rod memento</em> instead of a consumable item.</p>"
+          "description": "<p>Krampus carries a large bag brimming with barely contained gifts and trinkets, including one of every common item with the consumable rasgo of levels 1 to 20, at least 20 <em>golden rod mementos</em>, and an assortment of food and valuables. Once every 24 horas, the bag's contents magically regenerate, replacing any of these items that have been removed. Krampus can INTERACT with the bag to stow or withdraw items, always finding the desired stored item at the top of the bag. The bag is an extradimensional space, so the weight of its contents doesn't count against Krampus's Bulk limit. The bag functions as a normal sack if used by anyone other than Krampus, and if the bag is stolen or Krampus is slain, the bag retains only [[/r 2d4]] random common consumable items of 16th nivel or higher.</p>\n<p>A criatura can use @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} or @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Steal} to extract a consumable item from Krampus's bag. As part of the action, the criatura can envision a specific item it wants to extract. On a success, the criatura Disarms or Steals the object and rolls a @Check[flat|dc:13|name:Stealing from Krampus' Bag|showDC:owner] prueba.</p>\n<hr />\n<p><strong>Éxito</strong> The criatura Disarms or Steals the envisioned object. If the criatura didn't envision an object, it Disarms or Steals a random common consumable item of a nivel at least half the criatura's nivel.</p>\n<p><strong>Fallo</strong> The criatura Disarms or Steals a random common consumable item of a nivel at least half the criatura's nivel.</p>\n<p><strong>Fallo crítico</strong> The criatura Disarms or Steals a <em>golden rod memento</em> instead of a consumable item.</p>"
         },
         "action->Frightful Presence": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>120 pies. @Check[will|dc:42]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
@@ -643,15 +643,15 @@
         },
         "action->Capture": {
           "name": "Capture",
-          "description": "<p><strong>Requisitos</strong> Krampus has a Medium or smaller criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}</p>\n<hr />\n<p><strong>Efecto</strong> Krampus attempts to stuff the grabbed criatura into his basket, attempting an @Check[athletics|defense:reflex] check against el objetivo's Reflex DC. If he succeeds, the criatura is shoved into Krampus's basket and Krampus's spiked chain or claw is freed for future Golpes.</p>\n<p>The captured criatura is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}, and subjected to Krampus's regression ability (see below) at the start of each round it is captured.</p>\n<p>If the victim @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} (DC 48), it climbs out of the basket. A captured criatura can attack the interior of the basket, but only with ataques sin armas or armas of light Bulk or less, against an AC of 40. If the captured criatura deals 40 slashing or daño perforante, the basket is broken and all the criaturas inside spill out. A criatura that gets free by either Escaping or by someone breaking the basket is deposited in a square of their choosing adjacent to Krampus.</p>\n<p>The basket is an extradimensional space, so the weight of the criaturas within doesn't count against Krampus's Bulk limit. Up to four Small criaturas or two Medium criaturas can fit in the basket at one time.</p>\n<p>Krampus can @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{REPAIR} the basket as a 2-action activity that doesn't require tools. If the basket is lost or destroyed, Krampus can create a new one with 1 hora of work. The basket functions as a normal sack if used by anyone other than Krampus.</p>"
+          "description": "<p><strong>Requisitos</strong> Krampus has a Medium or smaller criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}</p>\n<hr />\n<p><strong>Efecto</strong> Krampus attempts to stuff the grabbed criatura into his basket, attempting an @Check[athletics|defense:reflex] prueba against el objetivo's CD de Reflejos. If he succeeds, the criatura is shoved into Krampus's basket and Krampus's spiked chain or claw is freed for future Golpes.</p>\n<p>The captured criatura is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1}, and subjected to Krampus's regression ability (see below) at the start of each round it is captured.</p>\n<p>If the victim @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} (DC 48), it climbs out of the basket. A captured criatura can attack the interior of the basket, but only with ataques sin armas or armas of light Bulk or less, against an AC of 40. If the captured criatura deals 40 slashing or daño perforante, the basket is broken and all the criaturas inside spill out. A criatura that gets free by either Escaping or by someone breaking the basket is deposited in a square of their choosing adjacent to Krampus.</p>\n<p>The basket is an extradimensional space, so the weight of the criaturas within doesn't count against Krampus's Bulk limit. Up to four Small criaturas or two Medium criaturas can fit in the basket at one time.</p>\n<p>Krampus can @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{REPAIR} the basket as a 2-action activity that doesn't require tools. If the basket is lost or destroyed, Krampus can create a new one with 1 hora of work. The basket functions as a normal sack if used by anyone other than Krampus.</p>"
         },
         "action->Crushing Avarice": {
           "name": "Crushing Avarice",
-          "description": "<p>Krampus's greed is so great that expending any of his wealth causes him to become physically ill and potentially nauseous. Siempre que Krampus uses a consumable item from his bountiful bag, or when he witnesses one of his possessions stolen, he must attempt a @Check[will|dc:44] salvación.</p>\n<p><strong>Éxito</strong> Krampus is unaffected.</p>\n<p><strong>Fallo</strong> Krampus becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Fallo crítico</strong> Krampus becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>"
+          "description": "<p>Krampus's greed is so great that expending any of his wealth causes him to become physically ill and potentially nauseous. Siempre que Krampus uses a consumable item from his bountiful bag, or when he witnesses one of his possessions stolen, he must attempt a @Check[will|dc:44] salvación.</p>\n<p><strong>Éxito</strong> Krampus is unaffected.</p>\n<p><strong>Fallo</strong> Krampus becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}.</p>\n<p><strong>Fallo crítico</strong> Krampus becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 2}.</p>"
         },
         "action->Punish the Naughty": {
           "name": "Castigar a los traviesos",
-          "description": "<p><strong>Requisitos</strong> Krampus can sense el objetivo with his thief scent.</p>\n<hr />\n<p>Krampus designates a single target he can see as \"naughty\" He gains a +2 bonificador de circunstancia to Perception checks when he Seeks the naughty target and a +2 bonificador de circunstancia to SURVIVAL checks to Track the naughty target.</p>\n<p>On melee attacks against the naughty target, Krampus's spiked chain gains the agile rasgo. In addition, when Krampus Grabs the naughty target, he can attempt to Capture them as a free action. Krampus can have only one naughty target at a time.</p>"
+          "description": "<p><strong>Requisitos</strong> Krampus can sense el objetivo with his thief scent.</p>\n<hr />\n<p>Krampus designates a single objetivo he can see as \"naughty\" He gains a +2 bonificador de circunstancia to Perception checks when he Seeks the naughty objetivo and a +2 bonificador de circunstancia to SURVIVAL checks to Track the naughty objetivo.</p>\n<p>On melee attacks against the naughty objetivo, Krampus's spiked chain gains the agile rasgo. In addition, when Krampus Grabs the naughty objetivo, he can attempt to Capture them as a free action. Krampus can have only one naughty objetivo at a time.</p>"
         },
         "action->Snowstep": {
           "name": "Snowstep",
@@ -666,13 +666,13 @@
       "name": "Krampus Celebrant",
       "speed": "snowstride",
       "items": {
-        "spellcastingEntry->Innate Primal Spells": {
-          "name": "Innate Primal Spells"
+        "spellcastingEntry->Innate Primal Conjuros": {
+          "name": "Innate Primal Conjuros"
         },
-        "spell->Obscuring Mist": {
+        "conjuro->Obscuring Mist": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]\nNiebla de oscurecimiento"
         },
-        "spell->Tanglefoot": {
+        "conjuro->Tanglefoot": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.uZK2BYzPnxUBnDjr]\nTanglefoot"
         },
         "strike-melee->Claw": {
@@ -707,14 +707,14 @@
     },
     "Kuworsys": {
       "name": "Kuworsys",
-      "publicNotes": "<p>At a distance, the criatura known as Kuworsys might be mistaken for a crawling undead hand, possessed of two thumbs instead of one. Estos \"thumbs\" are actually the being's hind limbs, which it can clumsily stand upon should it elige. Each of its fingerlike limbs bears a smaller hand on the end, giving Kuworsys an eerie gait possessed of too many moving joints. Wedged within the wrist-shaped tissue that makes up the criatura's head are three bloodshot eyes, glaring balefully from lids twisted into shape from ropes of flesh.</p>\n<p>Whether part of its base NATURE or due to its long imprisonment, Kuworsys appears to be skinned and rotting, its body riddled with ragged holes held together by raw sinew. Despite its glistening and putrid appearance, it isn't undead, nor does it leave any trace of blood or gristle in its wake. Those who believe its condition might slow it down are often shocked by the criatura's jittering speed, and those who believe they might be able to track it by the scent of rotting flesh find themselves inhaling the beast's deadly, exhausting spores instead.</p>\n<p>When encountering another criatura, Kuworsys doesn't approach initially, instead observing the stranger while hidden or at a distance. While it might grow bolder and approach to examine or provoke another being, it prefers to avoid direct confrontation and is intelligent and stealthy enough to deftly avoid discovery. Its presence proves deadly enough, even without any further aggression, as those who Kuworsys stalks eventually succumb to a lethal lethargy.</p>",
+      "publicNotes": "<p>At a distance, the criatura known as Kuworsys might be mistaken for a crawling undead hand, possessed of two thumbs instead of one. Estos \"thumbs\" are actually the being's hind limbs, which it can clumsily stand upon should it elige. Each of its fingerlike limbs bears a smaller hand on the end, giving Kuworsys an eerie gait possessed of too many moving joints. Wedged within the wrist-shaped tissue that makes up the criatura's head are three bloodshot eyes, glaring balefully from lids twisted into shape from ropes of flesh.</p>\n<p>Whether part of its base NATURE or due to its long imprisonment, Kuworsys appears to be skinned and rotting, its body riddled with ragged holes held together by raw sinew. Despite its glistening and putrid appearance, it isn't undead, nor does it leave any trace of blood or gristle in its wake. Those who believe its condition might slow it down are often shocked by the criatura's jittering speed, and those who believe they might be able to track it by the scent of rotting flesh find themselves inhaling the beast's deadly, exhausting spores instead.</p>\n<p>When encountering another criatura, Kuworsys doesn't approach initially, instead observing the stranger while escondido or at a distance. While it might grow bolder and approach to examine or provoke another being, it prefers to avoid direct confrontation and is intelligent and stealthy enough to deftly avoid discovery. Its presence proves deadly enough, even without any further aggression, as those who Kuworsys stalks eventually succumb to a lethal lethargy.</p>",
       "senses": "+26 contra trampas",
       "items": {
         "consumable->Explosive Ammunition": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.rKknk8odXDBpON5l]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>Este piece of ammunition is coated in gritty black soot. When activated <em>explosive ammunition</em> hits a target, the missile explodes in a @Template[burst|distance:10], dealing @Damage[6d6[fire]] daño to each criatura in the area (including el objetivo). Each criatura must attempt a @Check[reflex|dc:25|basic] salvación.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.rKknk8odXDBpON5l]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>Este piece of ammunition is coated in gritty black soot. When activated <em>explosive ammunition</em> hits a objetivo, the missile explodes in a @Template[burst|distance:10], dealing @Damage[6d6[fire]] daño to each criatura in the area (including el objetivo). Each criatura must attempt a @Check[reflex|dc:25|basic] salvación.</p>"
         },
         "consumable->Freezing Ammunition": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Xnmx6SJ6OkJOfYxF]\n<p><strong>Activar</strong> <span class=\"action-glyph\">1</span> INTERACT</p>\n<p>Este chilly ammunition is dark blue and cold to the touch. When activated freezing ammunition hits a target, el objetivo must succeed at a @Check[fortitude|dc:19] salvación or be ralentizado 1 for 1 asalto by the intense cold (ralentizado 1 for 1 minuto on a critical failure).</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Xnmx6SJ6OkJOfYxF]\n<p><strong>Activar</strong> <span class=\"action-glyph\">1</span> INTERACT</p>\n<p>Este chilly ammunition is dark blue and cold to the touch. When activated freezing ammunition hits a objetivo, el objetivo must succeed at a @Check[fortitude|dc:19] salvación or be ralentizado 1 for 1 asalto by the intense cold (ralentizado 1 for 1 minuto on a critical failure).</p>"
         },
         "strike-melee->Limb": {
           "name": "Limb"
@@ -731,14 +731,14 @@
         },
         "action->Addictive Exhaustion": {
           "name": "Addictive Exhaustion",
-          "description": "<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:32]</p>\n<p>Las criaturas with addictive exhaustion can't reduce their sickened condition from addictive exhaustion while they have the disease</p>\n<p><strong>Etapa 1</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}. One skill of the criatura's choice doesn't suffer the penalización de estado from this sickened condition to its pruebas de habilidad (1 día)</p>\n<p><strong>Etapa 2</strong> As Stage 1, but the criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} and is @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} (5 days)</p>\n<p><strong>Etapa 3</strong> As Stage 2, but the criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3} and has incurable hunger and thirst, in addition to being fatigued (1 día)</p>"
+          "description": "<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:32]</p>\n<p>Las criaturas with addictive exhaustion can't reduce their indispuesto condition from addictive exhaustion while they have the disease</p>\n<p><strong>Etapa 1</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}. One skill of the criatura's choice doesn't suffer the penalizador de estado from this indispuesto condition to its pruebas de habilidad (1 día)</p>\n<p><strong>Etapa 2</strong> As Stage 1, but the criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 2} and is @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} (5 days)</p>\n<p><strong>Etapa 3</strong> As Stage 2, but the criatura is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 3} and has incurable hunger and thirst, in addition to being fatigued (1 día)</p>"
         },
         "action->Gauge Potential": {
           "name": "Gauge Potential",
           "description": "<p>Kuworsys studies a criatura it can see, attempting to predict its actions. The criatura attempts a @Check[will|dc:32] salvación. On a failed save, Kuworsys predicts the criatura's moves, gaining a +2 bonificador de circunstancia to tiradas de ataque and AC against el objetivo criatura for 1 minuto.</p>",
           "rules": {
             "0": {
-              "label": "Attacking or Being Attacked by Target of Gauge Potential"
+              "label": "Attacking or Being Attacked by Objetivo of Gauge Potential"
             }
           }
         },
@@ -748,11 +748,11 @@
         },
         "action->Rear Back": {
           "name": "Rear Back",
-          "description": "<p>Kuworsys stands en su two hind limbs, bringing su otro four limbs a bear en su foes. Kuworsys stays Reared Back until ello usa un single action a return a su normal stance. Mientras Kuworsys es Reared Back, ello es @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} but puede usar su Pinion y Yank abilities.</p>"
+          "description": "<p>Kuworsys stands en su two hind limbs, bringing su otro four limbs a bear en su foes. Kuworsys stays Reared Back until ello usa un single action a return a su normal stance. Mientras Kuworsys es Reared Back, ello es @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} but puede usar su Pinion y Yank abilities.</p>"
         },
         "action->Yank": {
           "name": "Yank",
-          "description": "<p><strong>Requisitos</strong> Kuworsys is Reared Back</p>\n<hr />\n<p><strong>Efecto</strong> Kuworsys makes a melee limb Golpe against a criatura and, on a success, attempts to steal the criatura's arma from its hands. Kuworsys attempts a @Check[thievery|defense:reflex] check against el objetivo's Reflex DC.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura's arma falls to the floor in the criatura's space.</p>\n<p><strong>Éxito</strong> Until the start of that criatura's turn, attempts to @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} the criatura of its arma gain a +2 bonificador de circunstancia, and el objetivo takes a -2 penalización de circunstancia to attacks with the arma or other checks requiring a firm grasp on the arma.</p>\n<p><strong>Fallo</strong> The criatura is unaffected.</p>\n<p><strong>Fallo crítico</strong> The criatura can use a reaction to attempt a melee Golpe against Kuworsys with the arma Kuworsys attempted to GRAB.</p>"
+          "description": "<p><strong>Requisitos</strong> Kuworsys is Reared Back</p>\n<hr />\n<p><strong>Efecto</strong> Kuworsys makes a melee limb Golpe against a criatura and, on a success, attempts to steal the criatura's arma from its hands. Kuworsys attempts a @Check[thievery|defense:reflex] prueba against el objetivo's CD de Reflejos.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura's arma falls to the floor in the criatura's space.</p>\n<p><strong>Éxito</strong> Until the start of that criatura's turn, attempts to @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} the criatura of its arma gain a +2 bonificador de circunstancia, and el objetivo takes a -2 penalizador por circunstancia to attacks with the arma or other checks requiring a firm grasp on the arma.</p>\n<p><strong>Fallo</strong> The criatura is unaffected.</p>\n<p><strong>Fallo crítico</strong> The criatura can use a reaction to attempt a melee Golpe against Kuworsys with the arma Kuworsys attempted to GRAB.</p>"
         }
       }
     },
@@ -785,15 +785,15 @@
         },
         "action->Envelop": {
           "name": "Envelop",
-          "description": "<p>The Melfesh Monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} a criatura within reach. On a success, the criatura is pulled into the Monster's body. The Melfesh Monster is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} while it envelops a criatura, and this otherwise has the effects of @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]{Swallow Whole} (the Melfesh Monster's size or smaller, @Damage[1d10[bludgeoning],1d12[poison]]{1d10 bludgeoning and 1d12 poison}, Rupture 15).</p>"
+          "description": "<p>The Melfesh Monster attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} a criatura within reach. On a success, the criatura is pulled into the Monster's body. The Melfesh Monster is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} while it envelops a criatura, and this otherwise has the effects of @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]{Swallow Whole} (the Melfesh Monster's size or smaller, @Damage[1d10[bludgeoning],1d12[poison]]{1d10 bludgeoning and 1d12 poison}, Rupture 15).</p>"
         },
         "action->Fulminate": {
           "name": "Fulminate",
-          "description": "<p><strong>Requisitos</strong> The Melfesh Monster has created a spore cloud, and the cloud is within range of one of the Melfesh Monster's fire abilities</p>\n<hr />\n<p><strong>Efecto</strong> The Melfesh Monster targets the cloud with one of its abilities with the fire rasgo. The spore cloud explodes, dealing @Damage[4d10[fire]] daño and @Damage[4[persistent,fire]] daño in a @Template[burst|distance:40] originating from a single square within the cloud (@Check[reflex|dc:24|basic] salvación).</p>"
+          "description": "<p><strong>Requisitos</strong> The Melfesh Monster has created a spore cloud, and the cloud is within range of one of the Melfesh Monster's fire abilities</p>\n<hr />\n<p><strong>Efecto</strong> The Melfesh Monster objetivos the cloud with one of its abilities with the fire rasgo. The spore cloud explodes, dealing @Damage[4d10[fire]] daño and @Damage[4[persistent,fire]] daño in a @Template[burst|distance:40] originating from a single square within the cloud (@Check[reflex|dc:24|basic] salvación).</p>"
         },
         "action->Spore Cloud": {
           "name": "Nube De Esporas",
-          "description": "<p><strong>Frecuencia</strong> una vez por minuto</p>\n<hr />\n<p><strong>Efecto</strong> The Melfesh Monster conjures a cloud of spores within 60 pies in a @Template[burst|distance:20]. The cloud lasts 1 minuto. Las criaturas that enter or begin their turn within the cloud must succeed at a @Check[fortitude|dc:21] salvación or take @Damage[3d8[poison]] daño, be @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}, and inhale spores that remain in their bodies for 1 minuto (on a critical failure, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3} and an additional @Damage[4[persistent,poison]] daño).</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez por minuto</p>\n<hr />\n<p><strong>Efecto</strong> The Melfesh Monster conjures a cloud of spores within 60 pies in a @Template[burst|distance:20]. The cloud lasts 1 minuto. Las criaturas that enter or begin their turn within the cloud must succeed at a @Check[fortitude|dc:21] salvación or take @Damage[3d8[poison]] daño, be @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 2}, and inhale spores that remain in their bodies for 1 minuto (on a critical failure, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 3} and an additional @Damage[4[persistent,poison]] daño).</p>"
         }
       }
     },
@@ -803,20 +803,20 @@
       "publicNotes": "<p>El Mosquito Witch es un humanoide figure con unpleasant, waxy piel. She always seems a tienen su cabeza bowed y su shoulders hunched, un mane de unkempt black hair hiding todos de su face salvacion for un pair de unblinking red eyes y un long, sharp tongue que's as stiff y pointed as un proboscis. Fleshy, ribbed mosquito alas protrude de su back. She tiene six handless arms que taper into malformed points, que ella keeps clutched a su chest like el legs de un insect's pupae. Her spindly legs also taper into points; cuando bloated de feeding, ella debe run en todos eight limbs, que leave pequeno holes en el suelo as rastros.</p>",
       "senses": "swarmsense (imprecise) 30 pies",
       "items": {
-        "spellcastingEntry->Innate Primal Spells": {
-          "name": "Innate Primal Spells"
+        "spellcastingEntry->Innate Primal Conjuros": {
+          "name": "Innate Primal Conjuros"
         },
-        "spell->Tree Stride": {
+        "conjuro->Tree Stride": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.F1qxaqsEItmBura2]\nTree Zancada"
         },
-        "spell->Speak with Animals (Constant)": {
+        "conjuro->Speak with Animals (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]\nHablar con los animales (constante)"
         },
-        "spell->Dancing Lights": {
+        "conjuro->Dancing Lights": {
           "name": "Dancing Lights",
-          "description": "<p>Creas up to four floating lights, no two of which are more than 10 pies apart. Each sheds light like a torch. When tú Sustain the Spell, puedes move any number of lights up to 60 pies. Each light must remain within 120 pies of tú and within 10 pies of all others, or it winks out.</p>"
+          "description": "<p>Creas up to four floating lights, no two of which are more than 10 pies apart. Each sheds light like a torch. When tú Sustain the Conjuro, puedes move any number of lights up to 60 pies. Each light must remain within 120 pies of tú and within 10 pies of all others, or it winks out.</p>"
         },
-        "spell->Pest Form (At Will)": {
+        "conjuro->Pest Form (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]\nForma de plaga (a voluntad)"
         },
         "strike-melee->Bite": {
@@ -825,7 +825,7 @@
         "strike-ranged->Swarm Strike": {
           "name": "Swarm Golpe"
         },
-        "action->Swarmsense (Imprecise) 30 feet": {
+        "action->Swarmsense (Imprecise) 30 pies": {
           "name": "Swarmsense (Imprecise) 30 pies",
           "description": "<p>El Mosquito Witch receives constant updates de nearby insects y puede usar su touch as un impreciso sentido at el listed alcance as long as there son insects around a guide su.</p>"
         },
@@ -854,10 +854,10 @@
       "senses": "swarmsense (imprecise) 30 pies",
       "tokenName": "Bruja mosquito",
       "items": {
-        "spellcastingEntry->Innate Occult Spells": {
-          "name": "Innate Occult Spells"
+        "spellcastingEntry->Innate Occult Conjuros": {
+          "name": "Innate Occult Conjuros"
         },
-        "spell->Prying Eye": {
+        "conjuro->Prying Eye": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.Ek5XI0aEdZhBgm21]\nPrying Eye"
         },
         "strike-melee->Bite": {
@@ -866,7 +866,7 @@
         "strike-ranged->Swarm Strike": {
           "name": "Swarm Golpe"
         },
-        "action->Swarmsense (Imprecise) 30 feet": {
+        "action->Swarmsense (Imprecise) 30 pies": {
           "name": "Swarmsense (Imprecise) 30 pies",
           "description": "<p>El Mosquito Witch receives constant updates de nearby insects y puede usar su touch as un impreciso sentido at el listed alcance as long as there son insects around a guide su.</p>"
         },
@@ -876,7 +876,7 @@
         },
         "action->Bloodbelly": {
           "name": "Bloodbelly",
-          "description": "<p>The Mosquito Witch steals and stores stolen blood to power her divinations. Siempre que she deals daño perforante, the Mosquito Witch can gain an equal number of Blood Points, to a maximum of 100 Blood Points. She becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} so long as she has at least 40 Blood Points stored, or @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} if she has at least 80 Blood Points stored.</p>"
+          "description": "<p>The Mosquito Witch steals and stores stolen blood to power her divinations. Siempre que she deals daño perforante, the Mosquito Witch can gain an equal number of Blood Points, to a maximum of 100 Blood Points. She becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} so long as she has at least 40 Blood Points stored, or @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} if she has at least 80 Blood Points stored.</p>"
         },
         "action->Haunting Gaze": {
           "name": "Haunting Gaze",
@@ -888,7 +888,7 @@
         },
         "action->Prophecy in Red": {
           "name": "Prophecy in Red",
-          "description": "<p>The Mosquito Witch can't Cast an occult Spell without simultaneously expending a number of Blood Points equal to 10 × the conjuro's rank.</p>"
+          "description": "<p>The Mosquito Witch can't Cast an occult Conjuro without simultaneously expending a number of Blood Points equal to 10 × the conjuro's rank.</p>"
         },
         "action->Slurp": {
           "name": "Slurp",
@@ -907,20 +907,20 @@
       "senses": "swarmsense (imprecise) 30 pies",
       "tokenName": "Bruja mosquito",
       "items": {
-        "spellcastingEntry->Innate Primal Spells": {
-          "name": "Innate Primal Spells"
+        "spellcastingEntry->Innate Primal Conjuros": {
+          "name": "Innate Primal Conjuros"
         },
-        "spell->Tree Stride": {
+        "conjuro->Tree Stride": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.F1qxaqsEItmBura2]\nTree Zancada"
         },
-        "spell->Speak with Animals (Constant)": {
+        "conjuro->Speak with Animals (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]\nHablar con los animales (constante)"
         },
-        "spell->Dancing Lights": {
+        "conjuro->Dancing Lights": {
           "name": "Dancing Lights",
-          "description": "<p>Creas up to four floating lights, no two of which are more than 10 pies apart. Each sheds light like a torch. When tú Sustain the Spell, puedes move any number of lights up to 60 pies. Each light must remain within 120 pies of tú and within 10 pies of all others, or it winks out.</p>"
+          "description": "<p>Creas up to four floating lights, no two of which are more than 10 pies apart. Each sheds light like a torch. When tú Sustain the Conjuro, puedes move any number of lights up to 60 pies. Each light must remain within 120 pies of tú and within 10 pies of all others, or it winks out.</p>"
         },
-        "spell->Pest Form (At Will)": {
+        "conjuro->Pest Form (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]\nForma de plaga (a voluntad)"
         },
         "strike-melee->Bite": {
@@ -929,7 +929,7 @@
         "strike-ranged->Swarm Strike": {
           "name": "Swarm Golpe"
         },
-        "action->Swarmsense (Imprecise) 30 feet": {
+        "action->Swarmsense (Imprecise) 30 pies": {
           "name": "Swarmsense (Imprecise) 30 pies",
           "description": "<p>El Mosquito Witch receives constant updates de nearby insects y puede usar su touch as un impreciso sentido at el listed alcance as long as there son insects around a guide su.</p>"
         },
@@ -954,25 +954,25 @@
     "Mosquito Witch (The Swarm Seer)": {
       "name": "Mosquito Witch (The Swarm Seer)",
       "languages": "hablar con animales",
-      "publicNotes": "<p>The Mosquito Witch is a humanoid figure with unpleasant, waxy skin. She always seems to have her head bowed and her shoulders hunched, a mane of unkempt black hair hiding all of her face save for a pair of unblinking red eyes and a long, sharp tongue that's as stiff and pointed as a proboscis. Fleshy, ribbed mosquito wings protrude from her back. She has six handless arms that taper into malformed points, which she keeps clutched to her chest like the legs of an insect's pupae. Her spindly legs also taper into points; when bloated from feeding, she must run on all eight limbs, which leave small holes in the ground as tracks.</p>\n<h2>The Swarm Seer</h2>\n<p>Few have seen the Mosquito Witch, yet almost everyone has suffered her namesake vermin at some point in time. Shimmerford summer skies shimmer with flies hatching from the river and myriad creeks, and \"wherever pests fly, the Witch can spy.\" In her Swarm Seer aspect, the Mosquito Witch is a haunting predator and verminous voyeur whose sanguineous appetites are equal to her fascination with societies. She keeps tabs on every inhabitant with parasocial glee, obsessing over their superstitions and abandoned trinkets-especially any representations of herself.</p>\n<p>Este Mosquito Witch rarely acts with outright malice or to bring direct harm to those around her. However, her haunting appearance, alien values, and tendency to express emotions with sky-blotting swarms inspires terror in her neighbors. Depending on the circumstances she might represent a fearsome and ineffable ally, a demigod of fecundity, or a terrible foe who long ago lost patience with humanity.</p>",
+      "publicNotes": "<p>The Mosquito Witch is a humanoid figure with unpleasant, waxy skin. She always seems to have her head bowed and her shoulders hunched, a mane of unkempt black hair hiding all of her face save for a pair of unblinking red eyes and a long, sharp tongue that's as stiff and pointed as a proboscis. Fleshy, ribbed mosquito wings protrude from her back. She has six handless arms that taper into malformed points, which she keeps clutched to her chest like the legs of an insect's pupae. Her spindly legs also taper into points; when bloated from feeding, she must run on all eight limbs, which leave small holes in the ground as tracks.</p>\n<h2>The Swarm Seer</h2>\n<p>Few have seen the Mosquito Witch, yet almost everyone has suffered her namesake vermin at some point in time. Shimmerford summer skies shimmer with flies hatching from the river and myriad creeks, and \"wherever pests fly, the Witch can spy.\" In her Swarm Seer aspect, the Mosquito Witch is a haunting predator and verminous voyeur whose sanguineous appetites are equal to her fascination with societies. She keeps tabs on every inhabitant with parasocial glee, obsessing over their superstitions and abandoned trinkets-especially any representations of herself.</p>\n<p>Este Mosquito Witch rarely acts with outright malice or to bring direct harm to those around her. However, her haunting appearance, alien values, and tendency to express emotions with sky-blotting swarms inspires terror in her neighbors. Depending on the circumstances she might represent a fearsome and ineffable aliado, a demigod of fecundity, or a terrible foe who long ago lost patience with humanity.</p>",
       "senses": "swarmsense (imprecise) 100 pies, swarmsight (precise) 20 pies",
       "tokenName": "Bruja mosquito",
       "items": {
-        "spellcastingEntry->Innate Primal Spells": {
-          "name": "Innate Primal Spells"
+        "spellcastingEntry->Innate Primal Conjuros": {
+          "name": "Innate Primal Conjuros"
         },
-        "spell->Animal Vision (At Will)": {
+        "conjuro->Animal Vision (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.1HfusQ8NDWutGvMx]\nVisión Animal (a voluntad)"
         },
-        "spell->Animal Messenger (At Will)": {
+        "conjuro->Animal Messenger (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.yhz9fF69uwRhnHix]\nMensajero animal (a voluntad)"
         },
-        "spell->Speak with Animals (Constant)": {
+        "conjuro->Speak with Animals (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]\nHablar con los animales (constante)"
         },
-        "spell->Dancing Lights": {
+        "conjuro->Dancing Lights": {
           "name": "Dancing Lights",
-          "description": "<p>Creas up to four floating lights, no two of which are more than 10 pies apart. Each sheds light like a torch. When tú Sustain the Spell, puedes move any number of lights up to 60 pies. Each light must remain within 120 pies of tú and within 10 pies of all others, or it winks out.</p>"
+          "description": "<p>Creas up to four floating lights, no two of which are more than 10 pies apart. Each sheds light like a torch. When tú Sustain the Conjuro, puedes move any number of lights up to 60 pies. Each light must remain within 120 pies of tú and within 10 pies of all others, or it winks out.</p>"
         },
         "strike-melee->Bite": {
           "name": "Morder"
@@ -980,11 +980,11 @@
         "strike-ranged->Swarm Strike": {
           "name": "Swarm Golpe"
         },
-        "action->Swarmsense (Imprecise) 100 feet": {
+        "action->Swarmsense (Imprecise) 100 pies": {
           "name": "Swarmsense (Imprecise) 100 pies",
           "description": "<p>El Mosquito Witch receives constant updates de nearby insects y puede usar su touch as un impreciso sentido at el listed alcance as long as there son insects around a guide su.</p>"
         },
-        "action->Swarmsight (precise) 20 feet": {
+        "action->Swarmsight (precise) 20 pies": {
           "name": "Swarmsight (precise) 20 pies",
           "description": "<p>El Mosquito Witch puede feel anything en contact con su obscuring host y puede usar su touch as un preciso sentido at el listed alcance.</p>"
         },
@@ -994,7 +994,7 @@
         },
         "action->Fecund Wounds": {
           "name": "Fecund Wounds",
-          "description": "<p>Insect larvae clog and wriggle out of open wounds within 100 pies of the Mosquito Witch. A criatura that takes daño de sangrado in the area also becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 asalto.</p>"
+          "description": "<p>Insect larvae clog and wriggle out of open wounds within 100 pies of the Mosquito Witch. A criatura that takes daño de sangrado in the area also becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} for 1 asalto.</p>"
         },
         "action->Haunting Gaze": {
           "name": "Haunting Gaze",
@@ -1002,7 +1002,7 @@
         },
         "action->Obscuring Host": {
           "name": "Obscuring Host",
-          "description": "<p>20 pies. A thick swarm of mosquitoes surrounds the Mosquito Witch, creating concealment in the aura. A criatura that begins its turn in the emanation becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} unless it succeeds at a @Check[fortitude|dc:26] salvación. The Mosquito Witch and arthropods can see through this aura and are immune to its sickened effect.</p>"
+          "description": "<p>20 pies. A thick swarm of mosquitoes surrounds the Mosquito Witch, creating concealment in the aura. A criatura that begins its turn in the emanation becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} unless it succeeds at a @Check[fortitude|dc:26] salvación. The Mosquito Witch and arthropods can see through this aura and are immune to its indispuesto effect.</p>"
         },
         "action->Dipteric Dread": {
           "name": "Dipteric Dread",
@@ -1031,12 +1031,12 @@
     "Quaking Slither": {
       "name": "Quaking Slither",
       "description": "<p>Ebeshra repta por el suelo, haciendo que la tierra tiemble como por un poderoso terremoto.</p>",
-      "disable": "<p>three @Check[athletics|dc:38|name:Brace for Earthquake (Athletics)|traits:environmental,kaiju,hazard] (entrenado), @Check[crafting|dc:38|name:Brace for Earthquake (Crafting)|traits:environmental,kaiju,hazard] (entrenado), or @Check[engineering|dc:38|name:Brace for Earthquake (Engineering)|traits:environmental,kaiju,hazard]{Engineering LORE} (entrenado) checks to brace a small structure or surface to cancel the effects of the quake in that area, or a single @Check[diplomacy|dc:41|name:Entreat With Ebeshra|traits:environmental,kaiju,hazard] (maestro) check to entreat Ebeshra to stand down</p>",
+      "disable": "<p>three @Check[athletics|dc:38|name:Brace for Earthquake (Athletics)|traits:environmental,kaiju,hazard] (entrenado), @Check[crafting|dc:38|name:Brace for Earthquake (Crafting)|traits:environmental,kaiju,hazard] (entrenado), or @Check[engineering|dc:38|name:Brace for Earthquake (Engineering)|traits:environmental,kaiju,hazard]{Engineering LORE} (entrenado) checks to brace a small structure or surface to cancel the effects of the quake in that area, or a single @Check[diplomacy|dc:41|name:Entreat With Ebeshra|traits:environmental,kaiju,hazard] (maestro) prueba to entreat Ebeshra to stand down</p>",
       "reset": "<p>Ebeshra no vuelve a cargar de este modo durante [[/gmr 1d4 #Asaltos]] asaltos.</p>",
       "items": {
         "action->Quake": {
           "name": "Quake",
-          "description": "<p><strong>Desencadenante</strong> Ebeshra moves at least 60 pies on land</p>\n<hr />\n<p><strong>Efecto</strong> The ground shakes in a @Template[emanation|distance:120] from Ebeshra's space. Este creates a variety of effects depending on the surrounding environment.</p>\n<p>In an area without significant underground space, the ground becomes greater difficult terrain, and criaturas on it are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} for 1 asalto.</p>\n<p>In areas with existing underground spaces (like sewers, sinkholes, or catacombs), fissures open up in the ground. Las criaturas in the area tumble into the resulting 80-pies-deep hole unless they succeed at a @Check[reflex|dc:40|name:Avoid Fissure|traits:environmental,kaiju,hazard] salvación.</p>\n<p>In bays, on beaches, and in other relatively substantial but shallow bodies of water, the tremors create dangerous waves. Las criaturas in the water or within 60 pies of the waterline are struck by waves that deal @Damage[10d8[bludgeoning]] daño (@Check[reflex|dc:35|basic|name:Crashing Waves|traits:environmental,kaiju,hazard] salvación). On a critical failure, a criatura is instantly swept 60 pies out to sea and 60 pies under the water's surface.</p>"
+          "description": "<p><strong>Desencadenante</strong> Ebeshra moves at least 60 pies on land</p>\n<hr />\n<p><strong>Efecto</strong> The ground shakes in a @Template[emanation|distance:120] from Ebeshra's space. Este creates a variety of effects depending on the surrounding environment.</p>\n<p>In an area without significant underground space, the ground becomes greater difficult terrain, and criaturas on it are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} for 1 asalto.</p>\n<p>In areas with existing underground spaces (like sewers, sinkholes, or catacombs), fissures open up in the ground. Las criaturas in the area tumble into the resulting 80-pies-deep hole unless they succeed at a @Check[reflex|dc:40|name:Avoid Fissure|traits:environmental,kaiju,hazard] salvación.</p>\n<p>In bays, on beaches, and in other relatively substantial but shallow bodies of water, the tremors create dangerous waves. Las criaturas in the water or within 60 pies of the waterline are struck by waves that deal @Damage[10d8[bludgeoning]] daño (@Check[reflex|dc:35|basic|name:Crashing Waves|traits:environmental,kaiju,hazard] salvación). On a critical failure, a criatura is instantly swept 60 pies out to sea and 60 pies under the water's surface.</p>"
         }
       }
     },
@@ -1045,16 +1045,16 @@
       "languages": "no puede hablar ningún idioma; telepathy 60 pies",
       "publicNotes": "<p>With its lithe, sinuous body and a flexible, twisting spine, Somnalu bears a resemblance to a giant lizard, save for its striking visage. Spiny frills run down the criatura's mottled black back, interlaced with dull red stripes that streak from head to tail. Its two sets of forelimbs are bound to each other by small webs of skin. Its distinctive face lacks any visible mouth, nose, or ears, instead possessing only a huge red eye surrounded by six smaller, secondary eyes.</p>",
       "items": {
-        "spellcastingEntry->Occult Innate Spells": {
-          "name": "Occult Innate Spells"
+        "spellcastingEntry->Occult Innate Conjuros": {
+          "name": "Occult Innate Conjuros"
         },
-        "spell->Darkness (At Will)": {
+        "conjuro->Darkness (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]\nOscuridad (a voluntad)"
         },
-        "spell->Silence (At Will)": {
+        "conjuro->Silence (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.gIdDLrbswTV3OBJy]\nSilencio (a voluntad)"
         },
-        "spell->Sleep (At Will)": {
+        "conjuro->Sleep (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.o4lRVTwSxnOOn5vl]\nSueño (a voluntad)"
         },
         "strike-melee->Claw": {
@@ -1075,7 +1075,7 @@
           "name": "Presencia temible",
           "description": "<p>30 pies. @Check[will|dc:33]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
-        "action->Sleep Scent (Imprecise) 60 feet": {
+        "action->Sleep Scent (Imprecise) 60 pies": {
           "name": "Sleep Scent (Imprecise) 60 pies",
           "description": "<p>Somnalu can smell criaturas that are asleep, as the scent ability.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
@@ -1093,11 +1093,11 @@
         },
         "action->Drain Nutrients": {
           "name": "Drain Nutrients",
-          "description": "<p>Somnalu targets a criatura with a claw Golpe. On a success, Somnalu drains the criatura's life through its skin. The criatura must succeed at a @Check[fortitude|dc:36] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} (@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} on a success, no effect on a critical success). Somnalu gains Puntos de Golpe temporales equal to the amount of Puntos de Golpe the criatura loses from this Golpe.</p>"
+          "description": "<p>Somnalu objetivos a criatura with a claw Golpe. On a success, Somnalu drains the criatura's life through its skin. The criatura must succeed at a @Check[fortitude|dc:36] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 2} (@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} on a success, no effect on a critical success). Somnalu gains Puntos de golpe temporales equal to the amount of Puntos de golpe the criatura loses from this Golpe.</p>"
         },
         "action->Vent Fumes": {
           "name": "Vent Fumes",
-          "description": "<p>Somnalu blasts poison gas in a @Template[burst|distance:30]{30-pies radius}. The gas lingers for 1 asalto, and all criaturas that begin their turn in the gas or enter the gas take @Damage[4d8[poison]] daño (@Check[fortitude|dc:36|basic] salvación). Any criatura in the gas is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto}, and other criaturas are concealed to all criaturas in the gas. However, Somnalu can see through this concealment.</p>"
+          "description": "<p>Somnalu blasts poison gas in a @Template[burst|distance:30]{30-pies radius}. The gas lingers for 1 asalto, and all criaturas that begin their turn in the gas or enter the gas take @Damage[4d8[poison]] daño (@Check[fortitude|dc:36|basic] salvación). Any criatura in the gas is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto}, and other criaturas are oculto to all criaturas in the gas. However, Somnalu can see through this concealment.</p>"
         },
         "lore->Dreamlands Lore": {
           "name": "Saber de Tierras de los Suenos"
@@ -1110,16 +1110,16 @@
       "languages": "no puede hablar ningún idioma; telepathy 60 pies",
       "publicNotes": "<p>Cuando Somnalu es defeated, su central eye abandons su dying cuerpo a create un ethereal cuerpo de el wisps de dreams. Over centuries-o sooner, si ello puede find un powerful source de nightmares-ello puede re-form un full cuerpo y return a su corporeal self.</p>",
       "items": {
-        "spellcastingEntry->Occult Prepared Spells": {
-          "name": "Occult Prepared Spells"
+        "spellcastingEntry->Occult Prepared Conjuros": {
+          "name": "Occult Prepared Conjuros"
         },
-        "spell->Dimension Door": {
+        "conjuro->Dimension Door": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nPuerta dimensional"
         },
-        "spell->Rebounding Barrier": {
+        "conjuro->Rebounding Barrier": {
           "requirements": "Estás hit by a physical Golpe."
         },
-        "spell->Mage Hand": {
+        "conjuro->Mage Hand": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]\nMage Hand"
         },
         "strike-melee->Dream Tendril": {
@@ -1137,7 +1137,7 @@
         },
         "action->Scrutinizing Presence": {
           "name": "Scrutinizing Presence",
-          "description": "<p>60 pies. The Somnalu Oculus scrutinizes criaturas around it, causing them to falter with nervousness and self-doubt. Upon entering the emanation, a criatura must attempt a @Check[will|dc:34] salvación. On a failed save, the criatura is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 asalto. Regardless of the result of the tirada de salvación, the criatura is temporarily immune to scrutinizing presence for 1 minuto.</p>"
+          "description": "<p>60 pies. The Somnalu Oculus scrutinizes criaturas around it, causing them to falter with nervousness and self-doubt. Upon entering the emanation, a criatura must attempt a @Check[will|dc:34] salvación. On a failed save, the criatura is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 2} for 1 asalto. Regardless of the result of the tirada de salvación, the criatura is temporarily immune to scrutinizing presence for 1 minuto.</p>"
         }
       }
     },
@@ -1160,11 +1160,11 @@
         },
         "action->Disharmonious Decay": {
           "name": "Disharmonious Decay",
-          "description": "<p>When a spawn dies, its foulness seeps into the land in a @Template[burst|distance:100]{100-pies radius}. Non-magical plant life in the area decays within 1 hora, and new non-magical growth can't sprout for 1 month. A criatura can act on the spawn's corpse within 1 minuto of its death to limit this decay to a 10-pies square by succeeding at a @Check[medicine|dc:22|name:Prevent Spread of Decay (Medicine)], @Check[nature|dc:22|name:Prevent Spread of Decay (Nature)], or @Check[occultism|dc:22|name:Prevent Spread of Decay (Occultism)] check.</p>"
+          "description": "<p>When a spawn dies, its foulness seeps into the land in a @Template[burst|distance:100]{100-pies radius}. Non-magical plant life in the area decays within 1 hora, and new non-magical growth can't sprout for 1 month. A criatura can act on the spawn's corpse within 1 minuto of its death to limit this decay to a 10-pies square by succeeding at a @Check[medicine|dc:22|name:Prevent Spread of Decay (Medicine)], @Check[nature|dc:22|name:Prevent Spread of Decay (Nature)], or @Check[occultism|dc:22|name:Prevent Spread of Decay (Occultism)] prueba.</p>"
         },
         "action->Fusing Spit": {
           "name": "Fusing Spit",
-          "description": "<p>The spawn retches up thick, caustic sludge and spits it at a criatura within 60 pies, causing equipment and flesh to melt and partially fuse together. The criatura must succeed at a @Check[reflex|dc:23] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} for 1 minuto.</p>"
+          "description": "<p>The spawn retches up thick, caustic sludge and spits it at a criatura within 60 pies, causing equipment and flesh to melt and partially fuse together. The criatura must succeed at a @Check[reflex|dc:23] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} for 1 minuto.</p>"
         }
       }
     },
@@ -1173,16 +1173,16 @@
       "hpDetails": "curación de vacío",
       "saveDetails": "+1 de estado a todas las salvaciones contra magia",
       "items": {
-        "spellcastingEntry->Occult Innate Spells": {
-          "name": "Occult Innate Spells"
+        "spellcastingEntry->Occult Innate Conjuros": {
+          "name": "Occult Innate Conjuros"
         },
-        "spell->Dimension Door": {
+        "conjuro->Dimension Door": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nPuerta dimensional"
         },
-        "spell->Obscuring Mist": {
+        "conjuro->Obscuring Mist": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]\nNiebla de oscurecimiento"
         },
-        "spell->Gust of Wind (At Will)": {
+        "conjuro->Gust of Wind (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]\nRáfaga de viento (a voluntad)"
         },
         "strike-melee->Ghostly Jaws": {
@@ -1196,11 +1196,11 @@
         },
         "action->Rejuvenation": {
           "name": "Rejuvenecimiento",
-          "description": "<p>Destroying el Spectral Devil releases su pure, evil essence into el world, where ello puede find un nuevo cuerpo y re-form. Cuando el Spectral Devil es destruido, su essence finds el remains de un muerto horse y rebuilds su physical cuerpo over el course de [[/gmr 1d10 #days]]{1d10 days}. Only completing un @UUID[Compendium.pf2e.spells-srd.Item.Dbd5W6G8U2vzWolN]{Consecrate} ritual heightened a at least 6th level, que consecrates el site de el Spectral Devil's destruction a un good deity, puede prevent el Spectral Devil de returning y haunting el world once more.</p>"
+          "description": "<p>Destroying el Spectral Devil releases su pure, evil essence into el world, where ello puede find un nuevo cuerpo y re-form. Cuando el Spectral Devil es destruido, su essence finds el remains de un muerto horse y rebuilds su physical cuerpo over el course de [[/gmr 1d10 #days]]{1d10 days}. Only completing un @UUID[Compendium.pf2e.spells-srd.Item.Dbd5W6G8U2vzWolN]{Consecrate} ritual heightened a at least 6th nivel, que consecrates el site de el Spectral Devil's destruction a un good deity, puede prevent el Spectral Devil de returning y haunting el world once more.</p>"
         },
         "action->Accursed Shriek": {
           "name": "Accursed Shriek",
-          "description": "<p>The Spectral Devil unleashes a terrifying whinny in a @Template[cone|distance:30] that deals @Damage[5d10[sonic]] daño. Each criatura in the area must attempt a @Check[reflex|dc:29] salvación.</p>\n<p>The Spectral Devil can't use Accursed Shriek for [[/gmr 1d4 #Recharge Accursed Shriek]]{1d4 asaltos}.</p>\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura takes half daño.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} by the eerie noise.</p>\n<p><strong>Fallo crítico</strong> The criatura takes full daño, is asustado 2, and becomes cursed. The victim's mind echoes with the sound of the whinny, impairing concentration. The cursed criatura is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} until the curse is removed.</p>"
+          "description": "<p>The Spectral Devil unleashes a terrifying whinny in a @Template[cone|distance:30] that deals @Damage[5d10[sonic]] daño. Each criatura in the area must attempt a @Check[reflex|dc:29] salvación.</p>\n<p>The Spectral Devil can't use Accursed Shriek for [[/gmr 1d4 #Recharge Accursed Shriek]]{1d4 asaltos}.</p>\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura takes half daño.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} by the eerie noise.</p>\n<p><strong>Fallo crítico</strong> The criatura takes full daño, is asustado 2, and becomes cursed. The victim's mind echoes with the sound of the whinny, impairing concentration. The cursed criatura is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 2} until the curse is removed.</p>"
         },
         "action->Trample": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\n<p>Medium or smaller, Ghostly Hoof, @Check[reflex|dc:26|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
@@ -1209,26 +1209,26 @@
     },
     "Spring-Heeled Jack": {
       "name": "Spring-Heeled Jack",
-      "publicNotes": "<p>The greatest secret of the murderous trickster known as Spring-Heeled Jack is that he isn't a unique criatura. Instead, he's one of a rare type of fey native to the First World who enjoy causing bloody mayhem in the Material Plane. Estos fey are so rare and so distrustful of one another's company that two have never been seen together; the mistaken assumption that only a single Spring-Heeled Jack exists is therefore entirely understandable. The fact that sightings occur across Ustalav (and beyond) and across centuries of time is ascribed to the trickster's long lifespan and mysterious ability to travel quickly, or to the belief that there's no such criatura, merely an urban legend that twisted minds attempt to bring to life through costumes, magic, and a series of murders and mayhem. Even in fear-drenched Ustalav, no one has yet guessed that multiple Spring-Heeled Jacks exist or postulated that some future event might drive them to overcome their mutual disdain and gather into a murderous cabal, far more powerful than the sum of its parts.</p>\n<p>Spring-Heeled Jacks are cruel-eyed, hairy fey with vaguely humanoid shapes and extra features that cause them to be easily mistaken for demons or devils. Glowing eyes, cloven hooves, menacing horns, and a pointed tail combine to create the mien of a wicked imp; his love of sudden and sadistic violence completes the impression. Almost all have jet-black skin and fur, though a few exceptions might exist.</p>\n<p>Spring-Heeled Jacks typically hide their features in tattered cloaks, appearing as a hunched elder or a youth in the nighttime conditions they enjoy. Such a disguise rarely holds up to any scrutiny, but that doesn't matter much to the Spring-Heeled Jack, who only needs something that offers just enough doubt for their target to move within striking distance, which can be from much farther away than most other criaturas even realize. Once close enough, the Spring-Heeled Jack leaps startling distances in the blink of an eye to easily slash at a victim who had, until that moment, considered themself safe.</p>",
+      "publicNotes": "<p>The greatest secret of the murderous trickster known as Spring-Heeled Jack is that he isn't a unique criatura. Instead, he's one of a rare type of fey native to the First World who enjoy causing bloody mayhem in the Material Plane. Estos fey are so rare and so distrustful of one another's company that two have never been seen together; the mistaken assumption that only a single Spring-Heeled Jack exists is therefore entirely understandable. The fact that sightings occur across Ustalav (and beyond) and across centuries of time is ascribed to the trickster's long lifespan and mysterious ability to travel quickly, or to the belief that there's no such criatura, merely an urban legend that twisted minds attempt to bring to life through costumes, magic, and a series of murders and mayhem. Even in fear-drenched Ustalav, no one has yet guessed that multiple Spring-Heeled Jacks exist or postulated that some future event might drive them to overcome their mutual disdain and gather into a murderous cabal, far more powerful than the sum of its parts.</p>\n<p>Spring-Heeled Jacks are cruel-eyed, hairy fey with vaguely humanoid shapes and extra features that cause them to be easily mistaken for demons or devils. Glowing eyes, cloven hooves, menacing horns, and a pointed tail combine to create the mien of a wicked imp; his love of sudden and sadistic violence completes the impression. Almost all have jet-black skin and fur, though a few exceptions might exist.</p>\n<p>Spring-Heeled Jacks typically hide their features in tattered cloaks, appearing as a hunched elder or a youth in the nighttime conditions they enjoy. Such a disguise rarely holds up to any scrutiny, but that doesn't matter much to the Spring-Heeled Jack, who only needs something that offers just enough doubt for their objetivo to move within striking distance, which can be from much farther away than most other criaturas even realize. Once close enough, the Spring-Heeled Jack leaps startling distances in the blink of an eye to easily slash at a victim who had, until that moment, considered themself safe.</p>",
       "skillSpecialAthletics": {
         "0": {
           "label": "para Salto de altura o Salto de longitud"
         }
       },
       "items": {
-        "spellcastingEntry->Innate Primal Spells": {
-          "name": "Innate Primal Spells"
+        "spellcastingEntry->Innate Primal Conjuros": {
+          "name": "Innate Primal Conjuros"
         },
-        "spell->Passwall": {
+        "conjuro->Passwall": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.115Xp9E38CJENhNS]\nPasswall"
         },
-        "spell->Feather Fall (At Will)": {
+        "conjuro->Feather Fall (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.TTwOKGqmZeKSyNMH]\nFeather Fall (At Will)"
         },
-        "spell->Pass Without Trace (Constant)": {
+        "conjuro->Pass Without Trace (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.zlnXpME1T2uvn8Lr]\nPass Without Trace (Constant)"
         },
-        "weapon->Little Love": {
+        "arma->Little Love": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.RgVOC3rpptrwENbu]\n<p>Este steel <em>+1 dagger</em> is chipped and worn but no less deadly for its much-used appearance. When tú critically succeed at an tirada de ataque with <em>Little Love</em>, puedes activate the dagger to spring away from tu foes.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">f</span> INTERACT</p>\n<p><strong>Frecuencia</strong> once per 10 minutos</p>\n<p><strong>Desencadenante</strong> Tú critically hit a criatura with <em>Little Love</em></p>\n<hr />\n<p><strong>Efecto</strong> Tú @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap} (or Vault, if estás Spring-Heeled Jack).</p>",
           "rules": {
             "0": {
@@ -1248,9 +1248,9 @@
         "action->Frightful Presence": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>15 pies. @Check[will|dc:17]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
-        "action->Breath Weapon": {
+        "action->Breath Arma": {
           "name": "Arma de aliento",
-          "description": "<p>Spring-Heeled Jack exhales a gout of bright blue fire that deals @Damage[4d6[fire]|options:area-damage] daño in a @Template[cone|distance:15] (@Check[reflex|dc:20|basic|options:area-effect] salvación).</p>\n<p>He can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
+          "description": "<p>Spring-Heeled Jack exhales a gout of bright blue fire that deals @Damage[4d6[fire]|options:area-damage] daño in a @Template[cone|distance:15] (@Check[reflex|dc:20|basic|options:area-effect] salvación).</p>\n<p>He can't use Arma de aliento again for [[/gmr 1d4 #Recharge Breath Arma]]{1d4 asaltos}.</p>"
         },
         "action->Malicious Stab": {
           "name": "Malicious Stab",
@@ -1296,7 +1296,7 @@
         },
         "action->Exit Stage": {
           "name": "Salir del escenario",
-          "description": "<p><strong>Desencadenante</strong> Taljjae is reduced to 0 Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae retains 1 Hit Point and teleports to an empty space within 30 pies. One of its masks remains behind and is broken.</p>"
+          "description": "<p><strong>Desencadenante</strong> Taljjae is reduced to 0 Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae retains 1 Hit Point and teleports to an empty space within 30 pies. One of its masks remains behind and is broken.</p>"
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
@@ -1308,7 +1308,7 @@
         },
         "action->Change Characters": {
           "name": "Change Characters",
-          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae removes its current mask and dons a new one. The change refreshes Taljjae, restoring 25 Puntos de Golpe. Once Taljjae has removed a mask, it can't Change Characters back to that mask until it has worn all of its unbroken masks at least once, after which the cycle starts again. Taljjae can't don a broken mask.</p>\n<p>When Taljjae Changes Characters, it gains access to the listed abilities. Any items (such as armas) associated with its previous mask immediately disappear and are replaced by fresh ones for its new mask, but the effects of any mask abilities it has active persist. Removing a mask and later reapplying it doesn't restore any limited-use abilities.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae removes its current mask and dons a new one. The change refreshes Taljjae, restoring 25 Puntos de golpe. Once Taljjae has removed a mask, it can't Change Characters back to that mask until it has worn all of its unbroken masks at least once, after which the cycle starts again. Taljjae can't don a broken mask.</p>\n<p>When Taljjae Changes Characters, it gains access to the listed abilities. Any items (such as armas) associated with its previous mask immediately disappear and are replaced by fresh ones for its new mask, but the effects of any mask abilities it has active persist. Removing a mask and later reapplying it doesn't restore any limited-use abilities.</p>"
         },
         "action->Prop Master": {
           "name": "Prop Master",
@@ -1316,7 +1316,7 @@
         },
         "action->Second Act": {
           "name": "Second Act",
-          "description": "<p><strong>Desencadenante</strong> Taljjae's turn begins <strong>Requisitos</strong> Taljjae has 200 or fewer Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae's dance reaches a frantic climax, allowing it to change personas rapidly. Taljjae Changes Characters.</p>"
+          "description": "<p><strong>Desencadenante</strong> Taljjae's turn begins <strong>Requisitos</strong> Taljjae has 200 or fewer Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae's dance reaches a frantic climax, allowing it to change personas rapidly. Taljjae Changes Characters.</p>"
         }
       }
     },
@@ -1341,7 +1341,7 @@
         },
         "action->Exit Stage": {
           "name": "Salir del escenario",
-          "description": "<p><strong>Desencadenante</strong> Taljjae is reduced to 0 Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae retains 1 Hit Point and teleports to an empty space within 30 pies. One of its masks remains behind and is broken.</p>"
+          "description": "<p><strong>Desencadenante</strong> Taljjae is reduced to 0 Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae retains 1 Hit Point and teleports to an empty space within 30 pies. One of its masks remains behind and is broken.</p>"
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
@@ -1353,7 +1353,7 @@
         },
         "action->Change Characters": {
           "name": "Change Characters",
-          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae removes its current mask and dons a new one. The change refreshes Taljjae, restoring 25 Puntos de Golpe. Once Taljjae has removed a mask, it can't Change Characters back to that mask until it has worn all of its unbroken masks at least once, after which the cycle starts again. Taljjae can't don a broken mask.</p>\n<p>When Taljjae Changes Characters, it gains access to the listed abilities. Any items (such as armas) associated with its previous mask immediately disappear and are replaced by fresh ones for its new mask, but the effects of any mask abilities it has active persist. Removing a mask and later reapplying it doesn't restore any limited-use abilities.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae removes its current mask and dons a new one. The change refreshes Taljjae, restoring 25 Puntos de golpe. Once Taljjae has removed a mask, it can't Change Characters back to that mask until it has worn all of its unbroken masks at least once, after which the cycle starts again. Taljjae can't don a broken mask.</p>\n<p>When Taljjae Changes Characters, it gains access to the listed abilities. Any items (such as armas) associated with its previous mask immediately disappear and are replaced by fresh ones for its new mask, but the effects of any mask abilities it has active persist. Removing a mask and later reapplying it doesn't restore any limited-use abilities.</p>"
         },
         "action->Prop Master": {
           "name": "Prop Master",
@@ -1364,7 +1364,7 @@
         },
         "action->Second Act": {
           "name": "Second Act",
-          "description": "<p><strong>Desencadenante</strong> Taljjae's turn begins <strong>Requisitos</strong> Taljjae has 200 or fewer Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae's dance reaches a frantic climax, allowing it to change personas rapidly. Taljjae Changes Characters.</p>"
+          "description": "<p><strong>Desencadenante</strong> Taljjae's turn begins <strong>Requisitos</strong> Taljjae has 200 or fewer Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae's dance reaches a frantic climax, allowing it to change personas rapidly. Taljjae Changes Characters.</p>"
         }
       }
     },
@@ -1390,7 +1390,7 @@
         },
         "action->Exit Stage": {
           "name": "Salir del escenario",
-          "description": "<p><strong>Desencadenante</strong> Taljjae is reduced to 0 Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae retains 1 Hit Point and teleports to an empty space within 30 pies. One of its masks remains behind and is broken.</p>"
+          "description": "<p><strong>Desencadenante</strong> Taljjae is reduced to 0 Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae retains 1 Hit Point and teleports to an empty space within 30 pies. One of its masks remains behind and is broken.</p>"
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
@@ -1402,7 +1402,7 @@
         },
         "action->Change Characters": {
           "name": "Change Characters",
-          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae removes its current mask and dons a new one. The change refreshes Taljjae, restoring 25 Puntos de Golpe. Once Taljjae has removed a mask, it can't Change Characters back to that mask until it has worn all of its unbroken masks at least once, after which the cycle starts again. Taljjae can't don a broken mask.</p>\n<p>When Taljjae Changes Characters, it gains access to the listed abilities. Any items (such as armas) associated with its previous mask immediately disappear and are replaced by fresh ones for its new mask, but the effects of any mask abilities it has active persist. Removing a mask and later reapplying it doesn't restore any limited-use abilities.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae removes its current mask and dons a new one. The change refreshes Taljjae, restoring 25 Puntos de golpe. Once Taljjae has removed a mask, it can't Change Characters back to that mask until it has worn all of its unbroken masks at least once, after which the cycle starts again. Taljjae can't don a broken mask.</p>\n<p>When Taljjae Changes Characters, it gains access to the listed abilities. Any items (such as armas) associated with its previous mask immediately disappear and are replaced by fresh ones for its new mask, but the effects of any mask abilities it has active persist. Removing a mask and later reapplying it doesn't restore any limited-use abilities.</p>"
         },
         "action->Masterful Engagement": {
           "name": "Masterful Engagement",
@@ -1414,7 +1414,7 @@
         },
         "action->Second Act": {
           "name": "Second Act",
-          "description": "<p><strong>Desencadenante</strong> Taljjae's turn begins <strong>Requisitos</strong> Taljjae has 200 or fewer Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae's dance reaches a frantic climax, allowing it to change personas rapidly. Taljjae Changes Characters.</p>"
+          "description": "<p><strong>Desencadenante</strong> Taljjae's turn begins <strong>Requisitos</strong> Taljjae has 200 or fewer Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae's dance reaches a frantic climax, allowing it to change personas rapidly. Taljjae Changes Characters.</p>"
         }
       }
     },
@@ -1425,13 +1425,13 @@
       "senses": "jelly sense 120 pies",
       "tokenName": "Taljjae",
       "items": {
-        "spellcastingEntry->Spontaneous Divine Spells": {
-          "name": "Spontaneous Divine Spells"
+        "spellcastingEntry->Spontaneous Divine Conjuros": {
+          "name": "Spontaneous Divine Conjuros"
         },
-        "spell->True Seeing": {
+        "conjuro->True Seeing": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]\nTrue Seeing"
         },
-        "spell->Searing Light": {
+        "conjuro->Searing Light": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.DyiD239dNS7RIxZE]\nSearing Light"
         },
         "strike-melee->Whirling Sash": {
@@ -1442,7 +1442,7 @@
         },
         "action->Exit Stage": {
           "name": "Salir del escenario",
-          "description": "<p><strong>Desencadenante</strong> Taljjae is reduced to 0 Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae retains 1 Hit Point and teleports to an empty space within 30 pies. One of its masks remains behind and is broken.</p>"
+          "description": "<p><strong>Desencadenante</strong> Taljjae is reduced to 0 Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae retains 1 Hit Point and teleports to an empty space within 30 pies. One of its masks remains behind and is broken.</p>"
         },
         "action->Gentle Facade": {
           "name": "Gentle Facade",
@@ -1458,7 +1458,7 @@
         },
         "action->Change Characters": {
           "name": "Change Characters",
-          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae removes its current mask and dons a new one. The change refreshes Taljjae, restoring 25 Puntos de Golpe. Once Taljjae has removed a mask, it can't Change Characters back to that mask until it has worn all of its unbroken masks at least once, after which the cycle starts again. Taljjae can't don a broken mask.</p>\n<p>When Taljjae Changes Characters, it gains access to the listed abilities. Any items (such as armas) associated with its previous mask immediately disappear and are replaced by fresh ones for its new mask, but the effects of any mask abilities it has active persist. Removing a mask and later reapplying it doesn't restore any limited-use abilities.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae removes its current mask and dons a new one. The change refreshes Taljjae, restoring 25 Puntos de golpe. Once Taljjae has removed a mask, it can't Change Characters back to that mask until it has worn all of its unbroken masks at least once, after which the cycle starts again. Taljjae can't don a broken mask.</p>\n<p>When Taljjae Changes Characters, it gains access to the listed abilities. Any items (such as armas) associated with its previous mask immediately disappear and are replaced by fresh ones for its new mask, but the effects of any mask abilities it has active persist. Removing a mask and later reapplying it doesn't restore any limited-use abilities.</p>"
         },
         "action->Prop Master": {
           "name": "Prop Master",
@@ -1466,7 +1466,7 @@
         },
         "action->Second Act": {
           "name": "Second Act",
-          "description": "<p><strong>Desencadenante</strong> Taljjae's turn begins <strong>Requisitos</strong> Taljjae has 200 or fewer Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae's dance reaches a frantic climax, allowing it to change personas rapidly. Taljjae Changes Characters.</p>"
+          "description": "<p><strong>Desencadenante</strong> Taljjae's turn begins <strong>Requisitos</strong> Taljjae has 200 or fewer Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae's dance reaches a frantic climax, allowing it to change personas rapidly. Taljjae Changes Characters.</p>"
         }
       }
     },
@@ -1477,16 +1477,16 @@
       "senses": "jelly sense 120 pies",
       "tokenName": "Taljjae",
       "items": {
-        "spellcastingEntry->Prepared Divine Spells": {
-          "name": "Prepared Divine Spells"
+        "spellcastingEntry->Prepared Divine Conjuros": {
+          "name": "Prepared Divine Conjuros"
         },
-        "spell->Weapon of Judgment (War Only)": {
+        "conjuro->Arma of Judgment (War Only)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.ZqmP9gijBmK7y8Xy]\nWeapon of Judgment (War Only)",
           "requirements": "Tienes a deity."
         },
-        "spell->Finger of Death": {
+        "conjuro->Finger of Death": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.Z9OrRXKgAPv6Hn5l]\nFinger of Death",
-          "target": "1 living criatura"
+          "objetivo": "1 living criatura"
         },
         "strike-melee->Whirling Sash": {
           "name": "Whirling Sash"
@@ -1496,11 +1496,11 @@
         },
         "action->Exit Stage": {
           "name": "Salir del escenario",
-          "description": "<p><strong>Desencadenante</strong> Taljjae is reduced to 0 Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae retains 1 Hit Point and teleports to an empty space within 30 pies. One of its masks remains behind and is broken.</p>"
+          "description": "<p><strong>Desencadenante</strong> Taljjae is reduced to 0 Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae retains 1 Hit Point and teleports to an empty space within 30 pies. One of its masks remains behind and is broken.</p>"
         },
         "action->Flexible Counterspell": {
           "name": "Flexible Counterspell",
-          "description": "<p><strong>Desencadenante</strong> A criatura Casts a Spell of the same or lower level as one of Taljjae's unexpended conjuro slots</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae expends any prepared conjuro of the same or higher level, losing a conjuro slot as if it had Cast the triggering Spell. Taljjae then attempts to counteract the conjuro with a counteract modifier of [[/r 1d20+27 #Counteract]]{+27}.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura Casts a Conjuro of the same or lower nivel as one of Taljjae's unexpended conjuro slots</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae expends any prepared conjuro of the same or higher nivel, losing a conjuro slot as if it had Cast the triggering Conjuro. Taljjae then attempts to counteract the conjuro with a counteract modifier of [[/r 1d20+27 #Counteract]]{+27}.</p>"
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
@@ -1512,7 +1512,7 @@
         },
         "action->Change Characters": {
           "name": "Change Characters",
-          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae removes its current mask and dons a new one. The change refreshes Taljjae, restoring 25 Puntos de Golpe. Once Taljjae has removed a mask, it can't Change Characters back to that mask until it has worn all of its unbroken masks at least once, after which the cycle starts again. Taljjae can't don a broken mask.</p>\n<p>When Taljjae Changes Characters, it gains access to the listed abilities. Any items (such as armas) associated with its previous mask immediately disappear and are replaced by fresh ones for its new mask, but the effects of any mask abilities it has active persist. Removing a mask and later reapplying it doesn't restore any limited-use abilities.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae removes its current mask and dons a new one. The change refreshes Taljjae, restoring 25 Puntos de golpe. Once Taljjae has removed a mask, it can't Change Characters back to that mask until it has worn all of its unbroken masks at least once, after which the cycle starts again. Taljjae can't don a broken mask.</p>\n<p>When Taljjae Changes Characters, it gains access to the listed abilities. Any items (such as armas) associated with its previous mask immediately disappear and are replaced by fresh ones for its new mask, but the effects of any mask abilities it has active persist. Removing a mask and later reapplying it doesn't restore any limited-use abilities.</p>"
         },
         "action->Prop Master": {
           "name": "Prop Master",
@@ -1520,7 +1520,7 @@
         },
         "action->Second Act": {
           "name": "Second Act",
-          "description": "<p><strong>Desencadenante</strong> Taljjae's turn begins <strong>Requisitos</strong> Taljjae has 200 or fewer Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae's dance reaches a frantic climax, allowing it to change personas rapidly. Taljjae Changes Characters.</p>"
+          "description": "<p><strong>Desencadenante</strong> Taljjae's turn begins <strong>Requisitos</strong> Taljjae has 200 or fewer Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae's dance reaches a frantic climax, allowing it to change personas rapidly. Taljjae Changes Characters.</p>"
         }
       }
     },
@@ -1542,7 +1542,7 @@
         },
         "action->Exit Stage": {
           "name": "Salir del escenario",
-          "description": "<p><strong>Desencadenante</strong> Taljjae is reduced to 0 Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae retains 1 Hit Point and teleports to an empty space within 30 pies. One of its masks remains behind and is broken.</p>"
+          "description": "<p><strong>Desencadenante</strong> Taljjae is reduced to 0 Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae retains 1 Hit Point and teleports to an empty space within 30 pies. One of its masks remains behind and is broken.</p>"
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
@@ -1554,7 +1554,7 @@
         },
         "action->Change Characters": {
           "name": "Change Characters",
-          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae removes its current mask and dons a new one. The change refreshes Taljjae, restoring 25 Puntos de Golpe. Once Taljjae has removed a mask, it can't Change Characters back to that mask until it has worn all of its unbroken masks at least once, after which the cycle starts again. Taljjae can't don a broken mask.</p>\n<p>When Taljjae Changes Characters, it gains access to the listed abilities. Any items (such as armas) associated with its previous mask immediately disappear and are replaced by fresh ones for its new mask, but the effects of any mask abilities it has active persist. Removing a mask and later reapplying it doesn't restore any limited-use abilities.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae removes its current mask and dons a new one. The change refreshes Taljjae, restoring 25 Puntos de golpe. Once Taljjae has removed a mask, it can't Change Characters back to that mask until it has worn all of its unbroken masks at least once, after which the cycle starts again. Taljjae can't don a broken mask.</p>\n<p>When Taljjae Changes Characters, it gains access to the listed abilities. Any items (such as armas) associated with its previous mask immediately disappear and are replaced by fresh ones for its new mask, but the effects of any mask abilities it has active persist. Removing a mask and later reapplying it doesn't restore any limited-use abilities.</p>"
         },
         "action->Cometfall Arrow": {
           "name": "Cometfall Arrow",
@@ -1562,7 +1562,7 @@
         },
         "action->Double Shot": {
           "name": "Disparo doble",
-          "description": "<p>Taljjae fires two shots, making two Golpes, each against a separate target and with a -2 penalización. Both attacks count toward its multiple attack penalización, but the penalización doesn't increase until after it makes both attacks.</p>"
+          "description": "<p>Taljjae fires two shots, making two Golpes, each against a separate objetivo and with a -2 penalizador. Both attacks count toward its multiple attack penalizador, but the penalizador doesn't increase until after it makes both attacks.</p>"
         },
         "action->Prop Master": {
           "name": "Prop Master",
@@ -1570,7 +1570,7 @@
         },
         "action->Second Act": {
           "name": "Second Act",
-          "description": "<p><strong>Desencadenante</strong> Taljjae's turn begins <strong>Requisitos</strong> Taljjae has 200 or fewer Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae's dance reaches a frantic climax, allowing it to change personas rapidly. Taljjae Changes Characters.</p>"
+          "description": "<p><strong>Desencadenante</strong> Taljjae's turn begins <strong>Requisitos</strong> Taljjae has 200 or fewer Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae's dance reaches a frantic climax, allowing it to change personas rapidly. Taljjae Changes Characters.</p>"
         }
       }
     },
@@ -1589,7 +1589,7 @@
         },
         "action->Exit Stage": {
           "name": "Salir del escenario",
-          "description": "<p><strong>Desencadenante</strong> Taljjae is reduced to 0 Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae retains 1 Hit Point and teleports to an empty space within 30 pies. One of its masks remains behind and is broken.</p>"
+          "description": "<p><strong>Desencadenante</strong> Taljjae is reduced to 0 Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae retains 1 Hit Point and teleports to an empty space within 30 pies. One of its masks remains behind and is broken.</p>"
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
@@ -1601,7 +1601,7 @@
         },
         "action->Change Characters": {
           "name": "Change Characters",
-          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae removes its current mask and dons a new one. The change refreshes Taljjae, restoring 25 Puntos de Golpe. Once Taljjae has removed a mask, it can't Change Characters back to that mask until it has worn all of its unbroken masks at least once, after which the cycle starts again. Taljjae can't don a broken mask.</p>\n<p>When Taljjae Changes Characters, it gains access to the listed abilities. Any items (such as armas) associated with its previous mask immediately disappear and are replaced by fresh ones for its new mask, but the effects of any mask abilities it has active persist. Removing a mask and later reapplying it doesn't restore any limited-use abilities.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae removes its current mask and dons a new one. The change refreshes Taljjae, restoring 25 Puntos de golpe. Once Taljjae has removed a mask, it can't Change Characters back to that mask until it has worn all of its unbroken masks at least once, after which the cycle starts again. Taljjae can't don a broken mask.</p>\n<p>When Taljjae Changes Characters, it gains access to the listed abilities. Any items (such as armas) associated with its previous mask immediately disappear and are replaced by fresh ones for its new mask, but the effects of any mask abilities it has active persist. Removing a mask and later reapplying it doesn't restore any limited-use abilities.</p>"
         },
         "action->Covetous Confiscation": {
           "name": "Covetous Confiscation",
@@ -1609,7 +1609,7 @@
         },
         "action->Parasitic Healing": {
           "name": "Parasitic Healing",
-          "description": "<p><strong>Desencadenante</strong> A criatura within 60 pies regains Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae takes what should belong to another. The triggering criatura regains only half the number of Puntos de Golpe, and Taljjae regains the full amount.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura within 60 pies regains Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae takes what should belong to another. The triggering criatura regains only half the number of Puntos de golpe, and Taljjae regains the full amount.</p>"
         },
         "action->Prop Master": {
           "name": "Prop Master",
@@ -1617,7 +1617,7 @@
         },
         "action->Second Act": {
           "name": "Second Act",
-          "description": "<p><strong>Desencadenante</strong> Taljjae's turn begins <strong>Requisitos</strong> Taljjae has 200 or fewer Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae's dance reaches a frantic climax, allowing it to change personas rapidly. Taljjae Changes Characters.</p>"
+          "description": "<p><strong>Desencadenante</strong> Taljjae's turn begins <strong>Requisitos</strong> Taljjae has 200 or fewer Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae's dance reaches a frantic climax, allowing it to change personas rapidly. Taljjae Changes Characters.</p>"
         }
       }
     },
@@ -1629,16 +1629,16 @@
       "speed": "air walk, freedom of movement,",
       "tokenName": "Taljjae",
       "items": {
-        "spellcastingEntry->Innate Divine Spells": {
-          "name": "Innate Divine Spells"
+        "spellcastingEntry->Innate Divine Conjuros": {
+          "name": "Innate Divine Conjuros"
         },
-        "spell->Air Walk (Constant)": {
+        "conjuro->Air Walk (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.b5sGjGlBf58f8jn0]\nCaminar Por El Aire (constante)"
         },
-        "spell->Freedom of Movement (Constant)": {
+        "conjuro->Freedom of Movement (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH]\nFreedom of Movement (Constant)"
         },
-        "spell->Haste (Constant)": {
+        "conjuro->Haste (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]\nAcelerar (constante)"
         },
         "strike-melee->Whirling Sash": {
@@ -1652,7 +1652,7 @@
         },
         "action->Exit Stage": {
           "name": "Salir del escenario",
-          "description": "<p><strong>Desencadenante</strong> Taljjae is reduced to 0 Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae retains 1 Hit Point and teleports to an empty space within 30 pies. One of its masks remains behind and is broken.</p>"
+          "description": "<p><strong>Desencadenante</strong> Taljjae is reduced to 0 Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae retains 1 Hit Point and teleports to an empty space within 30 pies. One of its masks remains behind and is broken.</p>"
         },
         "action->Jelly Gluttony": {
           "name": "Jelly Gluttony",
@@ -1664,7 +1664,7 @@
         },
         "action->Change Characters": {
           "name": "Change Characters",
-          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae removes its current mask and dons a new one. The change refreshes Taljjae, restoring 25 Puntos de Golpe. Once Taljjae has removed a mask, it can't Change Characters back to that mask until it has worn all of its unbroken masks at least once, after which the cycle starts again. Taljjae can't don a broken mask.</p>\n<p>When Taljjae Changes Characters, it gains access to the listed abilities. Any items (such as armas) associated with its previous mask immediately disappear and are replaced by fresh ones for its new mask, but the effects of any mask abilities it has active persist. Removing a mask and later reapplying it doesn't restore any limited-use abilities.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae removes its current mask and dons a new one. The change refreshes Taljjae, restoring 25 Puntos de golpe. Once Taljjae has removed a mask, it can't Change Characters back to that mask until it has worn all of its unbroken masks at least once, after which the cycle starts again. Taljjae can't don a broken mask.</p>\n<p>When Taljjae Changes Characters, it gains access to the listed abilities. Any items (such as armas) associated with its previous mask immediately disappear and are replaced by fresh ones for its new mask, but the effects of any mask abilities it has active persist. Removing a mask and later reapplying it doesn't restore any limited-use abilities.</p>"
         },
         "action->Circling the Kingdom": {
           "name": "Circling the Kingdom",
@@ -1676,14 +1676,14 @@
         },
         "action->Second Act": {
           "name": "Second Act",
-          "description": "<p><strong>Desencadenante</strong> Taljjae's turn begins <strong>Requisitos</strong> Taljjae has 200 or fewer Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae's dance reaches a frantic climax, allowing it to change personas rapidly. Taljjae Changes Characters.</p>"
+          "description": "<p><strong>Desencadenante</strong> Taljjae's turn begins <strong>Requisitos</strong> Taljjae has 200 or fewer Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> Taljjae's dance reaches a frantic climax, allowing it to change personas rapidly. Taljjae Changes Characters.</p>"
         },
         "action->Sneak Attack": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>Taljjae deals an additional 2d6 daño de precisión to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} foes.</p>"
         },
         "action->Waypoints": {
           "name": "Waypoints",
-          "description": "<p>Taljjae leaves behind images of itself as it travels. Siempre que it makes a Golpe, it leaves behind a ghostly image of itself that lasts until the beginning of its next turn. Estos images block movement for Taljjae's enemies, and they provide flanking to Taljjae and its allies.</p>"
+          "description": "<p>Taljjae leaves behind images of itself as it travels. Siempre que it makes a Golpe, it leaves behind a ghostly image of itself that lasts until the beginning of its next turn. Estos images block movement for Taljjae's enemigos, and they provide flanking to Taljjae and its aliados.</p>"
         }
       }
     },
@@ -1724,7 +1724,7 @@
           "name": "Salt Darts",
           "description": "<p>Un grupo de cristales de sal dentados se desprende y vuelve a crecer constantemente mientras extrae salinidad del mar.</p>"
         },
-        "action->Wavesense 60 feet": {
+        "action->Wavesense 60 pies": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.VdSMQ6yRZ3YXNXHL]\nWavesense 60 pies"
         },
         "action->+2 Status to All Saves vs. Water": {
@@ -1734,21 +1734,21 @@
           "name": "Exoskeletal Armory",
           "description": "<p>At the beginning of each day, Tehialai can molt to change the morph of her two massive striking claws. She chooses two morphs and adds their Golpes and Release Claw effects to the stat block presented here. Tehialai can molt two different claws or two copies of the same claw.</p>"
         },
-        "action->Ship Armor": {
-          "name": "Ship Armor",
-          "description": "<p>Tehialai hides within a shell made of all the ships she has stolen. Este ship armor reduces any daño Tehialai takes by an amount equal to its Hardness. Once Tehialai is reduced to fewer than half her Puntos de Golpe, or immediately upon being damaged by a impacto crítico, her ship armor breaks, removing her Hardness and reducing her ARMOR CLASS to 32.</p>"
+        "action->Ship Armadura": {
+          "name": "Ship Armadura",
+          "description": "<p>Tehialai hides within a shell made of all the ships she has stolen. Este ship armadura reduces any daño Tehialai takes by an amount equal to its Hardness. Once Tehialai is reduced to fewer than half her Puntos de golpe, or immediately upon being damaged by a impacto crítico, her ship armadura breaks, removing her Hardness and reducing her ARMOR CLASS to 32.</p>"
         },
         "action->Capsize": {
           "name": "Capsize",
-          "description": "<p>Tehialai attempts to capsize an aquatic vessel of her size or smaller that she's adjacent to. She must succeed at a @Check[athletics|dc:33] check (reduced by 5 for each size smaller the vessel is) or the pilot's Sailing LORE DC, whichever is higher.</p>"
+          "description": "<p>Tehialai attempts to capsize an aquatic vessel of her size or smaller that she's adjacent to. She must succeed at a @Check[athletics|dc:33] prueba (reduced by 5 for each size smaller the vessel is) or the pilot's Sailing LORE DC, whichever is higher.</p>"
         },
         "action->Move Home": {
           "name": "Move Home",
-          "description": "<p><strong>Requisitos</strong> Tehialai is adjacent to a broken ship, and her ship armor is broken</p>\n<hr />\n<p><strong>Efecto</strong> Tehialai claims nearby ship pieces to rebuild her home. She destroys the adjacent ship and rebuilds her ship armor, restoring her Hardness and increasing her AC back to 36.</p>"
+          "description": "<p><strong>Requisitos</strong> Tehialai is adjacent to a broken ship, and her ship armadura is broken</p>\n<hr />\n<p><strong>Efecto</strong> Tehialai claims nearby ship pieces to rebuild her home. She destroys the adjacent ship and rebuilds her ship armadura, restoring her Hardness and increasing her AC back to 36.</p>"
         },
         "action->Pressurize Claw": {
           "name": "Pressurize Claw",
-          "description": "<p><strong>Requisitos</strong> Tehialai's claw isn't currently Pressurized</p>\n<hr />\n<p><strong>Efecto</strong> Tehialai draws water into the base of one of her claws, building immense hydraulic pressure as she prepares to attack. The claw remains loaded until she Releases that Claw or 1 minuto has passed, whichever comes first. While the claw is Pressurized, Tehialai can't use that claw to Golpe. If Tehialai isn't at least partially within a body of water when she Pressurizes her Claw, she takes a -2 penalización to any tiradas de ataque and DCs when she Releases that Claw.</p>"
+          "description": "<p><strong>Requisitos</strong> Tehialai's claw isn't currently Pressurized</p>\n<hr />\n<p><strong>Efecto</strong> Tehialai draws water into the base of one of her claws, building immense hydraulic pressure as she prepares to attack. The claw remains loaded until she Releases that Claw or 1 minuto has passed, whichever comes first. While the claw is Pressurized, Tehialai can't use that claw to Golpe. If Tehialai isn't at least partially within a body of water when she Pressurizes her Claw, she takes a -2 penalizador to any tiradas de ataque and DCs when she Releases that Claw.</p>"
         },
         "action->Release Claw": {
           "name": "Release Claw",
@@ -1760,19 +1760,19 @@
         },
         "action->Release Claw (Boiling Club)": {
           "name": "Release Claw (Boiling Club)",
-          "description": "<p><strong>Requisitos</strong> Tehialai has Pressurized a Claw</p>\n<hr />\n<p>The impact of Tehialai's claw begets a burning vacuum. Tehialai makes a boiling club Golpe against one target within 15 pies. If she hits, a shock wave booms out, dealing @Damage[3d6[fire]] daño and @Damage[3d6[sonic]] daño to all criaturas except her within @Template[burst|distance:15]{15 pies of el objetivo}, including el objetivo itself (@Check[fortitude|dc:33|basic] salvación). If the Golpe was a impacto crítico, el objetivo uses the degree of success one lower than it rolled on its save. Unlike most fire abilities, this ability can be used underwater, and the typical 5 fire resistance for being underwater doesn't apply.</p>\n<hr />\n<p>After Releasing a Claw, the claw depressurizes.</p>"
+          "description": "<p><strong>Requisitos</strong> Tehialai has Pressurized a Claw</p>\n<hr />\n<p>The impact of Tehialai's claw begets a burning vacuum. Tehialai makes a boiling club Golpe against one objetivo within 15 pies. If she hits, a shock wave booms out, dealing @Damage[3d6[fire]] daño and @Damage[3d6[sonic]] daño to all criaturas except her within @Template[burst|distance:15]{15 pies of el objetivo}, including el objetivo itself (@Check[fortitude|dc:33|basic] salvación). If the Golpe was a impacto crítico, el objetivo uses the degree of success one lower than it rolled on its save. Unlike most fire abilities, this ability can be used underwater, and the typical 5 fire resistance for being underwater doesn't apply.</p>\n<hr />\n<p>After Releasing a Claw, the claw depressurizes.</p>"
         },
         "action->Release Claw (Salt Darts)": {
           "name": "Release Claw (Salt Darts)",
-          "description": "<p>Tehialai launches a flurry of darts. She makes two salt dart Golpes against two different criaturas. Both attacks count towards her multiple attack penalización, but she doesn't increase her penalización until after she has made both attacks.</p>"
+          "description": "<p>Tehialai launches a flurry of darts. She makes two salt dart Golpes against two different criaturas. Both attacks count towards her multiple attack penalizador, but she doesn't increase her penalizador until after she has made both attacks.</p>"
         },
         "action->Release Claw (Tidal Gourd)": {
           "name": "Release Claw (Tidal Gourd)",
-          "description": "<p>Tehialai atomizes the water in her claw to create a mist that fills a @Template[emanation|distance:40] centered on her and that lasts until the end of her next turn or until dispersed by a strong wind. All criaturas within the mist become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto}, and all criaturas outside the mist become concealed to criaturas within it. Wavesense functions through the mist and ignores the concealment.</p>"
+          "description": "<p>Tehialai atomizes the water in her claw to create a mist that fills a @Template[emanation|distance:40] centered on her and that lasts until the end of her next turn or until dispersed by a strong wind. All criaturas within the mist become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto}, and all criaturas outside the mist become oculto to criaturas within it. Wavesense functions through the mist and ignores the concealment.</p>"
         },
         "action->Release Claw (Toothed Shredder)": {
           "name": "Release Claw (Toothed Shredder)",
-          "description": "<p>Tehialai's claw whirs and spins to cut through armor and ship hulls. Tehialai makes a toothed shredder Golpe. On a hit, el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} until the end of Tehialai's next turn and takes @Damage[2d12[bleed]].</p>"
+          "description": "<p>Tehialai's claw whirs and spins to cut through armadura and ship hulls. Tehialai makes a toothed shredder Golpe. On a hit, el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} until the end of Tehialai's next turn and takes @Damage[2d12[bleed]].</p>"
         },
         "lore->Ocean Lore": {
           "name": "Saber de Oceanos"
@@ -1790,21 +1790,21 @@
       },
       "speed": "earth glide",
       "items": {
-        "spellcastingEntry->Primal Innate Spells": {
-          "name": "Primal Innate Spells"
+        "spellcastingEntry->Primal Innate Conjuros": {
+          "name": "Primal Innate Conjuros"
         },
-        "spell->Tanglefoot": {
+        "conjuro->Tanglefoot": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.uZK2BYzPnxUBnDjr]\nTanglefoot"
         },
         "strike-melee->Spike": {
           "name": "Spike"
         },
-        "action->Tremorsense (Imprecise) 60 feet": {
+        "action->Tremorsense (Imprecise) 60 pies": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]\nTremorsense (Imprecise) 60 pies"
         },
         "action->Imposing Mien": {
           "name": "Imposing Mien",
-          "description": "<p>Temteki can use INTIMIDATION to COERCE or DEMORALIZE up to four targets instead of one, rolling separate INTIMIDATION checks against the Will DCs of each target. In addition, since Temteki Demoralizes using its appearance alone, it doesn't take a penalización to INTIMIDATION checks to DEMORALIZE for not speaking a language.</p>"
+          "description": "<p>Temteki can use INTIMIDATION to COERCE or DEMORALIZE up to four objetivos instead of one, rolling separate INTIMIDATION checks against the Will DCs of each objetivo. In addition, since Temteki Demoralizes using its appearance alone, it doesn't take a penalizador to INTIMIDATION checks to DEMORALIZE for not speaking a language.</p>"
         },
         "action->Interposing Earth": {
           "name": "Tierra interpuesta",
@@ -1845,7 +1845,7 @@
           "name": "Frozen Contemplation",
           "description": "<p>Being frozen stops the constant pain Ulgrem-Axaan has experienced since its death. Ulgrem-Axaan has curacion rapida 5 while in severe cold or colder environments, or for 1 asalto after taking daño de frío.</p>"
         },
-        "action->Wavesense (Imprecise) 60 feet": {
+        "action->Wavesense (Imprecise) 60 pies": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.VdSMQ6yRZ3YXNXHL]\nWavesense (Imprecise) 60 pies"
         },
         "action->+2 Status to All Saves vs. Non-primal Emotion Effects": {
@@ -1887,7 +1887,7 @@
         },
         "action->Bump in the River": {
           "name": "Bump in the River",
-          "description": "<p>An Ulgrem-Lurann can pretend to be a floating log while in water by attempting a STEALTH check. It has a +2 bonificador de circunstancia to its checks and DCs to do so. While using STEALTH this way, criaturas see the log but don't realize it's an Ulgrem-Lurann.</p>",
+          "description": "<p>An Ulgrem-Lurann can pretend to be a floating log while in water by attempting a STEALTH prueba. It has a +2 bonificador de circunstancia to its checks and DCs to do so. While using STEALTH this way, criaturas see the log but don't realize it's an Ulgrem-Lurann.</p>",
           "rules": {
             "0": {
               "label": "Ulgrem-Lurann is pretending to be a log in the water"
@@ -1900,7 +1900,7 @@
         },
         "action->Sparking Bite": {
           "name": "Sparking Bite",
-          "description": "<p><strong>Requisitos</strong> The Ulgrem-Lurann has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} with its jaws</p>\n<hr />\n<p><strong>Efecto</strong> Electricity courses through its body and mouth, dealing an additional @Damage[(1d4+6)[electricity]] daño to the grabbed target with a @Check[fortitude|dc:20|basic] salvación.</p>"
+          "description": "<p><strong>Requisitos</strong> The Ulgrem-Lurann has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} with its jaws</p>\n<hr />\n<p><strong>Efecto</strong> Electricity courses through its body and mouth, dealing an additional @Damage[(1d4+6)[electricity]] daño to the grabbed objetivo with a @Check[fortitude|dc:20|basic] salvación.</p>"
         },
         "action->Swallow Whole": {
           "name": "Engullir",
@@ -1918,17 +1918,17 @@
       "saveDetails": "+2 de estado a todas las salvaciones contra efectos creados por constructos",
       "senses": "statuesense (imprecise) 60 pies",
       "items": {
-        "spellcastingEntry->Arcane Innate Spells": {
-          "name": "Arcane Innate Spells"
+        "spellcastingEntry->Arcane Innate Conjuros": {
+          "name": "Arcane Innate Conjuros"
         },
-        "spell->Cloudkill": {
+        "conjuro->Cloudkill": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.MlpbeZ61Euhl0d60]\nCloudkill"
         },
-        "spell->Resilient Sphere": {
+        "conjuro->Resilient Sphere": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.qJQADktwD0x8kLAy]\nResilient Sphere",
-          "target": "1 Large or smaller criatura"
+          "objetivo": "1 Large or smaller criatura"
         },
-        "spell->Detect Magic (Constant)": {
+        "conjuro->Detect Magic (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]\nDetectar magia (constante)"
         },
         "strike-melee->Claw": {
@@ -1940,7 +1940,7 @@
         "strike-ranged->Energy Beam": {
           "name": "Haz de energía"
         },
-        "action->Telepathy 100 feet": {
+        "action->Telepathy 100 pies": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA]\nTelepathy 100 pies"
         },
         "action->Statuesense": {
@@ -1952,11 +1952,11 @@
         },
         "action->Artificer's Command": {
           "name": "Artificer's comando",
-          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> Ulistul directs one construct within 60 pies that can perceive her and has a level lower than hers, delivering helpful commands that improve its capabilities. The construct gains a +1 bonificador de estado to tiradas de ataque, tiradas de daño, and tiradas de salvación.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.FjcvJWPFwkyy5vEk]{Efecto: Artificer's comando}</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez por asalto</p>\n<hr />\n<p><strong>Efecto</strong> Ulistul directs one construct within 60 pies that can perceive her and has a nivel lower than hers, delivering helpful commands that improve its capabilities. The construct gains a +1 bonificador de estado to tiradas de ataque, tiradas de daño, and tiradas de salvación.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.FjcvJWPFwkyy5vEk]{Efecto: Artificer's comando}</p>"
         },
         "action->Artificer's Eye": {
           "name": "Artificer's Eye",
-          "description": "<p>Ulistul chooses one construct or statue she can currently perceive with a precise sense or with statuesense; usually, her only precise sense is vision. After choosing her target, she begins to perceive el objetivo's surroundings as though she occupied its space. If el objetivo is either an inanimate statue or a mindless criatura, she can also verbally INTERACT with nearby criaturas (including issuing Artificer's Commands) or cause el objetivo to move subtly, such as moving its mouth. Este ability can be sustained indefinitely as long as Ulistul can perceive el objetivo, though her visual stimuli from her own body are harder to process; she's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} when using her own senses for the effect's duration.</p>"
+          "description": "<p>Ulistul chooses one construct or statue she can currently perceive with a precise sense or with statuesense; usually, her only precise sense is vision. After choosing her objetivo, she begins to perceive el objetivo's surroundings as though she occupied its space. If el objetivo is either an inanimate statue or a mindless criatura, she can also verbally INTERACT with nearby criaturas (including issuing Artificer's Commands) or cause el objetivo to move subtly, such as moving its mouth. Este ability can be sustained indefinitely as long as Ulistul can perceive el objetivo, though her visual stimuli from her own body are harder to process; she's @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} when using her own senses for the effect's duration.</p>"
         },
         "action->Dismantler": {
           "name": "Dismantler",
@@ -1975,7 +1975,7 @@
       "name": "Young Linnorm",
       "hpDetails": "regeneration 5 (desactivada por cold iron)",
       "languages": "(no puede hablar ningún idioma)",
-      "publicNotes": "<p>Female linnorms lay eggs in the wilderness, where linnorms are known to hunt. A linnorm egg remains viable for many years, protected by a tough, leathery skin easily mistaken for stone. When a male linnorm eventually stumbles across the egg, he fertilizes it and takes it to a secure and remote location, leaving it alone to eventually hatch. Newborn linnorms remain hidden in their nests for several months as they mature, growing large enough to hunt on their own and setting out into the world. Estos linnorms are roughly the equivalent of older teenagers when compared to other species. Younger linnorms, while still primal criaturas with a strong tie to the First World, haven't yet manifested most of their magical powers. They still can't breathe deadly fire or lightning or see invisible criaturas, and, most importantly, they can be slain without prompting the linnorm's legendario death curse. They do, however, have voracious appetites, consuming any living thing to fuel their rapid growth. A linnorm is most vulnerable during this time; scouts who find tracks of a young linnorm quickly muster a hunting party of stalwart and experienced warriors to track the criatura down and kill it quickly-before they draw the attention of the linnorm's father.</p>",
+      "publicNotes": "<p>Female linnorms lay eggs in the wilderness, where linnorms are known to hunt. A linnorm egg remains viable for many years, protected by a tough, leathery skin easily mistaken for stone. When a male linnorm eventually stumbles across the egg, he fertilizes it and takes it to a secure and remote location, leaving it alone to eventually hatch. Newborn linnorms remain escondido in their nests for several months as they mature, growing large enough to hunt on their own and setting out into the world. Estos linnorms are roughly the equivalent of older teenagers when compared to other species. Younger linnorms, while still primal criaturas with a strong tie to the First World, haven't yet manifested most of their magical powers. They still can't breathe deadly fire or lightning or see invisible criaturas, and, most importantly, they can be slain without prompting the linnorm's legendario death curse. They do, however, have voracious appetites, consuming any living thing to fuel their rapid growth. A linnorm is most vulnerable during this time; scouts who find tracks of a young linnorm quickly muster a hunting party of stalwart and experienced warriors to track the criatura down and kill it quickly-before they draw the attention of the linnorm's father.</p>",
       "saveDetails": "+1 de estado a todas las salvaciones contra magia",
       "items": {
         "strike-melee->Jaws": {
@@ -1998,7 +1998,7 @@
         },
         "action->Young Linnorm Venom": {
           "name": "Young Linnorm Venom",
-          "description": "<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:25]</p>\n<p><strong>Duración máxima</strong> 10 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[4d6[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}</p>"
+          "description": "<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:25]</p>\n<p><strong>Duración máxima</strong> 10 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[4d6[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1}</p>"
         }
       }
     }

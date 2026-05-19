@@ -62,9 +62,9 @@
       }
     },
     "Angazhan's Rake Trap": {
-      "name": "Angazhan's Rake Trap",
-      "description": "<p>Six metal talons concealed en el muros swing out y rake across el sala.</p>",
-      "disable": "<p>@Check[thievery|dc:25|name:Disable a Talon|traits:action:disable-a-device] (experto) to disable each talon</p>",
+      "name": "Trampa de garras de Angazhan",
+      "description": "<p>Seis garras metálicas ocultas en las paredes se despliegan y rastrillan la sala.</p>",
+      "disable": "<p>@Check[thievery|dc:25|name:Inutilizar una garra|traits:action:disable-a-device] (experto) para inutilizar cada garra</p>",
       "reset": "<p>La trampa se reinicia después de 1 minuto.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
@@ -74,12 +74,12 @@
         },
         "strike-melee->Talon": {
           "name": "Talon",
-          "description": "<p>No multiple attack penalización.</p>"
+          "description": "<p>No multiple attack penalizador.</p>"
         }
       }
     },
     "Angazhani Cultist": {
-      "name": "Angazhani Cultist",
+      "name": "Cultista angazhani",
       "skillSpecialDiplomacy": {
         "0": {
           "label": "contra demonios"
@@ -125,7 +125,7 @@
       }
     },
     "Aspis Guard": {
-      "name": "Aspis Guard",
+      "name": "Guardia Áspid",
       "speed": "unburdened iron",
       "items": {
         "shield->Tower Shield": {
@@ -156,7 +156,7 @@
         },
         "action->Unburdened Iron": {
           "name": "No impedido por el hierro",
-          "description": "<p>The guard ignores Velocidad reduction from armor. In addition, any time the guard takes a penalización to their Velocidad, deduct 5 pies from the penalización.</p>"
+          "description": "<p>The guard ignores Velocidad reduction from armor. In addition, any time the guard takes a penalizador to their Velocidad, deduct 5 pies from the penalizador.</p>"
         },
         "lore->Aspis Consortium Lore": {
           "name": "Saber de Consorcio Aspis"
@@ -164,7 +164,7 @@
       }
     },
     "Aspis Technician": {
-      "name": "Aspis Technician",
+      "name": "Técnico Áspid",
       "items": {
         "weapon->Acid Flask (Moderate)": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.SgtqZxt26BdjUmEB]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Golpe</p>\n<p>Este flask filled with corrosive acid deals 1 daño de ácido, 2d6 daño persistente de ácido, and 2 daño de salpicadura de ácido. Obtienes a +1 bonificador por objeto to tiradas de ataque.</p>"
@@ -193,7 +193,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.ktjFOp3U0wQD9t0Z]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>An antidote protects tú against toxins. Upon drinking an antidote, obtienes a +2 bonificador por objeto to Fortitude tiradas de salvación against poisons for 6 hours.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.TjBxxlTvb6tJP1jS]{Efecto: Antidote}</p>"
         },
         "consumable->Elixir of Life (Lesser)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.TZUskLT7yvP7N2co]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>Elixirs of life accelerate a living criaturas natural healing processes and immune system. Upon drinking this elixir, tú regain @Damage[(3d6+6)[healing]] Puntos de Golpe and gain +1 bonificador por objeto to tiradas de salvación against diseases and poisons for 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efecto: Elixir of Life}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.TZUskLT7yvP7N2co]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>Elixirs of life accelerate a living criaturas natural healing processes and immune system. Upon drinking this elixir, tú regain @Damage[(3d6+6)[healing]] Puntos de golpe and gain +1 bonificador por objeto to tiradas de salvación against diseases and poisons for 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efecto: Elixir of Life}</p>"
         },
         "strike-melee->Rapier": {
           "name": "Espada ropera"
@@ -229,7 +229,7 @@
       }
     },
     "Croakchief Globblit Skink-eater": {
-      "name": "Croakchief Globblit Skink-eater",
+      "name": "Jefe croante Globblit Comeeslizones",
       "speed": "swamp stride",
       "items": {
         "armor->Breastplate": {
@@ -254,7 +254,7 @@
         },
         "action->Smash and Slurp": {
           "name": "Smash and Slurp",
-          "description": "<p><strong>Frecuencia</strong> once per turn</p>\n<hr />\n<p><strong>Efecto</strong> Globblit makes a greatclub Golpe and a tongue Golpe against the same target. If the greatclub Golpe hits, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} against his tongue Golpe.</p>\n<p>Este counts as two attacks for Globblit's multiple attack penalización, but the penalización doesn't increase until after his Smash and Slurp.</p>"
+          "description": "<p><strong>Frecuencia</strong> once per turn</p>\n<hr />\n<p><strong>Efecto</strong> Globblit makes a greatclub Golpe and a tongue Golpe against the same target. If the greatclub Golpe hits, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} against his tongue Golpe.</p>\n<p>Este counts as two attacks for Globblit's multiple attack penalizador, but the penalizador doesn't increase until after his Smash and Slurp.</p>"
         },
         "action->Swamp Stride": {
           "name": "Swamp Zancada",
@@ -286,7 +286,7 @@
         },
         "action->Golem Antimagic": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.r34QDwKiWZoVymJa]\nGolem Antimagic",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.r34QDwKiWZoVymJa]\n<p>harmed by cold and water (@Damage[5d8] daño, @Damage[2d6] daño from areas or daño persistente); healed by acid (area @Damage[2d6[healing]] Puntos de Golpe); ralentizado by earth</p>\n<hr />\n<p>A golem is immune to conjuros and magical abilities other than its own, but each type of golem is affected by a few types of magic in special ways. Estos exceptions are listed in shortened form in the golem's stat block, with the full rules appearing here. If an entry lists multiple types (such as \"cold and water\"), either type of conjuro can affect the golem.</p>\n<ul>\n<li><strong>Harmed By</strong> Any magic of this type that targets the golem causes it to take the listed amount of daño (this daño has no type) instead of the usual effect. If the golem starts its turn in an area of magic of this type or is affected by a persistent effect of the appropriate type, it takes the daño listed in the parenthetical.</li>\n<li><strong>Healed By</strong> Any magic of this type that targets the golem makes the golem lose the ralentizado condition and gain HP equal to half the daño the conjuro would have dealt. If the golem starts its turn in an area of this type of magic, it gains the HP listed in the parenthetical.</li>\n<li><strong>Slowed By</strong> Any magic of this type that targets the golem causes it to be @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for [[/br 2d6 #rounds]]{2d6 rounds} instead of the usual effect. If the golem starts its turn in an area of this type of magic, it's ralentizado 1 for that round.</li>\n<li><strong>Vulnerable To</strong> Each golem is vulnerable to one or more specific conjuros, with the effects described in its stat block.</li>\n</ul>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.r34QDwKiWZoVymJa]\n<p>harmed by cold and water (@Damage[5d8] daño, @Damage[2d6] daño from areas or daño persistente); healed by acid (area @Damage[2d6[healing]] Puntos de golpe); ralentizado by earth</p>\n<hr />\n<p>A golem is immune to conjuros and magical abilities other than its own, but each type of golem is affected by a few types of magic in special ways. Estos exceptions are listed in shortened form in the golem's stat block, with the full rules appearing here. If an entry lists multiple types (such as \"cold and water\"), either type of conjuro can affect the golem.</p>\n<ul>\n<li><strong>Harmed By</strong> Any magic of this type that targets the golem causes it to take the listed amount of daño (this daño has no type) instead of the usual effect. If the golem starts its turn in an area of magic of this type or is affected by a persistent effect of the appropriate type, it takes the daño listed in the parenthetical.</li>\n<li><strong>Healed By</strong> Any magic of this type that targets the golem makes the golem lose the ralentizado condition and gain HP equal to half the daño the conjuro would have dealt. If the golem starts its turn in an area of this type of magic, it gains the HP listed in the parenthetical.</li>\n<li><strong>Slowed By</strong> Any magic of this type that targets the golem causes it to be @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for [[/br 2d6 #rounds]]{2d6 rounds} instead of the usual effect. If the golem starts its turn in an area of this type of magic, it's ralentizado 1 for that round.</li>\n<li><strong>Vulnerable To</strong> Each golem is vulnerable to one or more specific conjuros, with the effects described in its stat block.</li>\n</ul>"
         },
         "action->Vulnerable to Stone to Flesh": {
           "name": "Vulnerable to Stone to Flesh",
@@ -314,9 +314,9 @@
       }
     },
     "Fiendripping Blast Trap": {
-      "name": "Fiendripping Blast Trap",
-      "description": "<p>A blast of energy damages all criaturas within 20 pies, with particularly severe daño to fiends.</p>",
-      "disable": "<p>@Check[thievery|dc:27|name:Identify Button Sequence|traits:action:disable-a-device] (experto) to identify the proper sequence of buttons in the divots, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank; counteract DC 25) to suppress the magical effect for 1 hora</p>",
+      "name": "Trampa de estallido goteante de fiendo",
+      "description": "<p>Un estallido de energía daña a todas las criaturas en un radio de 20 pies, con daño especialmente grave contra fiendos.</p>",
+      "disable": "<p>@Check[thievery|dc:27|name:Identificar la secuencia de botones|traits:action:disable-a-device] (experto) para identificar la secuencia correcta de botones en los huecos, o @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Disipar magia} (4.º rango; contrarrestar CD 25) para suprimir el efecto mágico durante 1 hora</p>",
       "reset": "<p>La trampa se reinicia después de 1 hora.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
@@ -327,8 +327,8 @@
       }
     },
     "Fuming Sludge": {
-      "name": "Fuming Sludge",
-      "publicNotes": "<p>The slurry from alchemical experiments is often as flammable as it is toxic. In especially volatile cases, a fuming sludge can form from ignited pools of unstable alchemical runoff. It resembles a charcoal-colored slurry studded with tiny embers, and it continually emits a thin haze of accelerant that amplifies the fires it starts.</p>\n<p>A fuming sludge must consume the base chemicals of living criaturas to survive and can instinctively identify the complex molecules found in most animate criaturas. The first meal of many a fuming sludge is its accidental creator, but it soon moves on to hunt in lush forests or densely populated settlements. A fuming sludge can extrude a powerful pseudopod to strike its victims, but it can also eject portions of its body with peristaltic contractions. Estos rapidly-cooling globs of goo slow down fleeing prey, but the cold, crusty residue can also alert canny explorers to their presence.</p>",
+      "name": "Lodo humeante",
+      "publicNotes": "<p>La mezcla residual de los experimentos alquímicos suele ser tan inflamable como tóxica. En casos especialmente volátiles, un lodo humeante puede formarse a partir de charcos encendidos de escorrentía alquímica inestable. Se asemeja a una papilla de color carbón salpicada de pequeñas brasas y emite continuamente una fina bruma de acelerante que amplifica los fuegos que provoca.</p>\n<p>Un lodo humeante debe consumir las sustancias químicas básicas de criaturas vivas para sobrevivir y puede identificar instintivamente las moléculas complejas presentes en la mayoría de criaturas animadas. La primera comida de muchos lodos humeantes es su creador accidental, pero pronto pasan a cazar en bosques frondosos o asentamientos densamente poblados. Un lodo humeante puede extrudir un poderoso seudópodo para golpear a sus víctimas, pero también puede expulsar porciones de su cuerpo mediante contracciones peristálticas. Estos pegotes de viscosidad que se enfrían con rapidez ralentizan a las presas que huyen, aunque el residuo frío y costroso también puede alertar de su presencia a exploradores atentos.</p>",
       "senses": "chemical sense 60 pies",
       "items": {
         "strike-melee->Pseudopod": {
@@ -495,9 +495,9 @@
       }
     },
     "Scroll Shock Trap": {
-      "name": "Scroll Shock Trap",
-      "description": "<p>Five scroll symbols shoot electricidad bolts around el sala.</p>",
-      "disable": "<p>@Check[thievery|dc:25|name:Counteract Magic|traits:action:disable-a-device] (experto) or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (3rd rank; counteract DC 24)</p>\n<p>@Check[thievery|dc:29|name:Disable Trap (Control Panel)|traits:action:disable-a-device] (maestro) to disable the entire trap from the hidden control panel beneath the central slab.</p>",
+      "name": "Trampa de descarga de pergamino",
+      "description": "<p>Cinco símbolos de pergamino disparan rayos eléctricos por la sala.</p>",
+      "disable": "<p>@Check[thievery|dc:25|name:Contrarrestar magia|traits:action:disable-a-device] (experto) o @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Disipar magia} (3.er rango; contrarrestar CD 24)</p>\n<p>@Check[thievery|dc:29|name:Inutilizar la trampa (panel de control)|traits:action:disable-a-device] (maestro) para inutilizar toda la trampa desde el panel de control oculto bajo la losa central.</p>",
       "hpDetails": "See Symbol y Panel Stats",
       "reset": "<p>La trampa deactivates 1 asalto after it has no target criaturas and resets after 1 minuto.</p>",
       "routine": "<p>(5 actions) Each disabled symbol reduces the trap's number of actions by 1.</p>\n<p>For each of its actions, a different symbol shoots an electricity bolt at a random criatura in the room. La trampa doesn't take multiple attack penalties.</p>",
@@ -524,10 +524,10 @@
       }
     },
     "Stalker Summoning Rune": {
-      "name": "Stalker Summoning Rune",
-      "description": "<p>El sand conceals un runa que summons un invisible stalker into este yard.</p>",
-      "disable": "<p>@Check[acrobatics|dc:25|name:Approach Rune] to approach without triggering the trap followed by @Check[arcana|dc:25|name:Erase Rune] (experto) or @Check[thievery|dc:27|name:Erase Rune|traits:action:disable-a-device] (experto) to erase the rune, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank; counteract DC 25) to counteract the rune</p>",
-      "reset": "<p>La trampa resets after 24 horas.</p>",
+      "name": "Runa de convocación de acechador",
+      "description": "<p>La arena oculta una runa que convoca a un acechador invisible en este patio.</p>",
+      "disable": "<p>@Check[acrobatics|dc:25|name:Acercarse a la runa] para acercarse sin activar la trampa, seguido de @Check[arcana|dc:25|name:Borrar la runa] (experto) o @Check[thievery|dc:27|name:Borrar la runa|traits:action:disable-a-device] (experto) para borrar la runa, o @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Disipar magia} (4.º rango; contrarrestar CD 25) para contrarrestar la runa</p>",
+      "reset": "<p>La trampa se reinicia después de 24 horas.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Summon Monster": {

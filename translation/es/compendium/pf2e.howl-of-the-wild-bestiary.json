@@ -5,10 +5,10 @@
       "name": "Alicorn",
       "publicNotes": "<p>Alicorns son un creation de arcano intervention, un rare transformation que occurs cuando un unicorn es exposed a grande sources de magia. Massive en size, su strong bodies son matched con two grande alas en su back, un long spiraling horn, y un mane que continually ripples en un unseen wind.</p>",
       "items": {
-        "spellcastingEntry->Arcane Innate Spells": {
-          "name": "Arcane Innate Spells"
+        "spellcastingEntry->Arcane Innate Conjuros": {
+          "name": "Arcane Innate Conjuros"
         },
-        "spell->Gentle Landing (At-Will)": {
+        "conjuro->Gentle Landing (At-Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.TTwOKGqmZeKSyNMH]\nGentle Landing (At-Will)"
         },
         "strike-melee->Horn": {
@@ -26,15 +26,15 @@
         },
         "action->Draw in Magic": {
           "name": "Draw in Magic",
-          "description": "<p><strong>Desencadenante</strong> A criatura within 30 pies of the alicorn Casts a Spell</p>\n<hr />\n<p><strong>Efecto</strong> The alicorn attempts to counteract the triggering conjuro (counteract modifier +28, counteract rank 8th). If successful, the alicorn can elige to gain the effects of the triggering conjuro as its sole target.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura within 30 pies of the alicorn Casts a Conjuro</p>\n<hr />\n<p><strong>Efecto</strong> The alicorn attempts to counteract the triggering conjuro (counteract modifier +28, counteract rank 8th). If successful, the alicorn can elige to gain the effects of the triggering conjuro as its sole objetivo.</p>"
         },
         "action->Aerial Attack": {
           "name": "Aerial Attack",
-          "description": "<p>The alicorn Flies and Golpes twice with their wings at any points during their movement. Each attack counts toward the alicorn's multiple attack penalización, but the penalización doesn't increase until after they make all the attacks.</p>"
+          "description": "<p>The alicorn Flies and Golpes twice with their wings at any points during their movement. Each attack counts toward the alicorn's multiple attack penalizador, but the penalizador doesn't increase until after they make all the attacks.</p>"
         },
         "action->Beam of Light": {
           "name": "Beam of Light",
-          "description": "<p>The alicorn harnesses a powerful burning ray of light from their horn. Las criaturas in a @Template[line|distance:120] take @Damage[16d6[fire]|options:area-damage] daño (@Check[fortitude|dc:36|basic|options:area-effect] salvación). An unholy criatura in the area takes an additional @Damage[8d6[spirit]|options:area-damage] daño. If the light passes through an area of magical darkness or targets a criatura affected by magical darkness, the beam attempts to counteract the darkness (counteract modifier +28, counteract rank 8th). The alicorn can't use its Beam of Light again for [[/gmr 1d4 #Recharge Beam of Light]]{1d4 asaltos}.</p>"
+          "description": "<p>The alicorn harnesses a powerful burning ray of light from their horn. Las criaturas in a @Template[line|distance:120] take @Damage[16d6[fire]|options:area-damage] daño (@Check[fortitude|dc:36|basic|options:area-effect] salvación). An unholy criatura in the area takes an additional @Damage[8d6[spirit]|options:area-damage] daño. If the light passes through an area of magical darkness or objetivos a criatura affected by magical darkness, the beam attempts to counteract the darkness (counteract modifier +28, counteract rank 8th). The alicorn can't use its Beam of Light again for [[/gmr 1d4 #Recharge Beam of Light]]{1d4 asaltos}.</p>"
         },
         "action->Ghost Touch": {
           "name": "Toque fantasmal",
@@ -44,7 +44,7 @@
     },
     "Almiraj": {
       "name": "Almiraj",
-      "publicNotes": "<p>An almiraj closely resembles a yellow hare in almost all ways... except for the 2-pies-long black horn jutting from its forehead. Though it shares this rasgo with the docile unicorn, that's where their similarities end. Almirajes are vicious criaturas, known to slaughter much larger cattle and, in times of desperation, people. Its stare is said to send even the bravest warrior running for their life.</p>\n<p>Unlike common hares, almirajes are solitary and intensely territorial. They're adaptable ambush hunters with the stamina and speed to chase down any prey. They attack with their jaws and claws but are primarily known for trying to gut their prey with a vicious stab from their horn. Many scholars believe that the terrifying magical aura the criaturas exude originates from their horns. Este line of thinking has led to an increase in almiraj attacks as local citizens try to capture the criatura alive and remove the horn, hoping this will turn it into a more docile hare. Estos hopes have not proven fruitful, as an almiraj is just as aggressive, if not more so, after their horn has been removed.</p>\n<p>Adventurers often think themselves lucky if they manage to avoid the terrifying horn of this ferocious predator, but it's a much better alternative than being caught in its jaws. Almirajes have a nasty habit of grabbing their prey and vigorously shaking them until they go limp. If this fails, they'll drag their prey underground until they suffocate deep in the earth. Few have ever escaped the burrow of an almiraj.</p>",
+      "publicNotes": "<p>Un almiraj se parece casi por completo a una liebre amarilla, salvo por el cuerno negro de 2 pies que le sobresale de la frente. Aunque comparte este rasgo con el docil unicornio, ahi terminan sus similitudes. Los almirajes son criaturas feroces, conocidas por matar reses mucho mayores y, en tiempos desesperados, tambien personas. Se dice que su mirada hace huir incluso al guerrero mas valiente.</p>\n<p>A diferencia de las liebres comunes, los almirajes son solitarios e intensamente territoriales. Son cazadores de emboscada adaptables, con la resistencia y velocidad necesarias para perseguir a cualquier presa. Atacan con mandibulas y garras, pero son conocidos sobre todo por intentar destripar a sus victimas con una estocada brutal de su cuerno.</p>\n<p>Los aventureros suelen considerarse afortunados si evitan el cuerno aterrador de este feroz depredador, pero es mucho mejor eso que acabar atrapado entre sus mandibulas. Los almirajes tienen la desagradable costumbre de sujetar a sus presas y sacudirlas violentamente hasta que quedan flacidas; si eso falla, las arrastran bajo tierra hasta que se asfixian en las profundidades.</p>",
       "items": {
         "strike-melee->Horn": {
           "name": "Cuerno"
@@ -64,7 +64,7 @@
         },
         "action->Final Shake": {
           "name": "Final Shake",
-          "description": "<p><strong>Requisitos</strong> The almiraj has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}</p>\n<hr />\n<p><strong>Efecto</strong> The almiraj clamps its jaws down on the criatura and shakes it vigorously, attempting to finish it off. The criatura takes @Damage[2d6[bludgeoning]] daño and must succeed at a @Check[fortitude|dc:20] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1}. Small or smaller criaturas take a –2 penalización de circunstancia to their save.</p>"
+          "description": "<p><strong>Requisitos</strong> The almiraj has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}</p>\n<hr />\n<p><strong>Efecto</strong> The almiraj clamps its jaws down on the criatura and shakes it vigorously, attempting to finish it off. The criatura takes @Damage[2d6[bludgeoning]] daño and must succeed at a @Check[fortitude|dc:20] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1}. Small or smaller criaturas take a –2 penalizador por circunstancia to their save.</p>"
         },
         "action->Goring Charge": {
           "name": "Carga empaladora",
@@ -77,12 +77,12 @@
       }
     },
     "Apothecary Bee": {
-      "name": "Apothecary Bee",
-      "publicNotes": "<p>Estos giant bees feed on the nectar of medicinal herbs and magical flowers, naturally processing the liquid into syrupy-sweet potions. Depending on the precise diet of the apothecary bees, they can produce a wide variety of potions, storing any excess in the waxy cells lining their nest. Apothecary bee workers are about a pies long, with yellow and black stripes. While carrying a potion, the bee's abdomen visibly swells and often changes color to match the potion within.</p>\n<p>The value of the apothecary bees' potions has led to numerous attempts at domestication, a dangerous, expensive dream with both high risks and high rewards. Once a magical garden has been established, apothecary beehives tend to become self-sustaining. Beekeepers can potentially guide their cultivation, but they're no longer necessary for the hive's SURVIVAL. Some ancient, long-abandoned gardens still grow along the Sphinx River in Osirion, where many apothecary bees prowl for flowers that meet their standards. Upon their most recent dig to the surface, surki communities quickly began the process of \"trading\" with the bees, establishing habitats and using their natural magic sense to better tend the massive fields a large hive needs. Miflits, on the other hand, often end up absorbed into the bees' social structure.</p>\n<p>The potions a hive produces vary from season to season, depending on what flowers are available. Beekeepers have made strides in creating gardens that yield specific potions and have even developed harvesting techniques that increase potion effectiveness. Estos techniques are valuable, closely guarded secrets, but even defective potions with cursed results have found use among the followers of Calistria and Norgorber.</p>",
+      "name": "Abeja boticaria",
+      "publicNotes": "<p>Estas abejas gigantes se alimentan del nectar de hierbas medicinales y flores magicas, procesando el liquido de forma natural hasta convertirlo en pociones dulces y viscosas. Segun la dieta exacta de las abejas boticarias, pueden producir una amplia variedad de pociones y almacenar el excedente en las celdas cerosas de su nido. Las obreras miden alrededor de un pie de largo, con franjas amarillas y negras. Cuando transportan una pocion, el abdomen de la abeja se hincha visiblemente y a menudo cambia de color para coincidir con la pocion que contiene.</p>\n<p>El valor de sus pociones ha motivado numerosos intentos de domesticacion, un sueno peligroso y caro, con grandes riesgos y grandes recompensas. Una vez establecido un jardin magico, las colmenas de abejas boticarias suelen volverse autosuficientes.</p>\n<p>Las pociones que produce una colmena varian de una estacion a otra, dependiendo de las flores disponibles. Algunos apicultores han logrado crear jardines que generan pociones concretas e incluso tecnicas de recoleccion que aumentan su eficacia.</p>",
       "senses": "potionsight (precise) 60 pies",
       "items": {
         "consumable->Healing Potion (Moderate)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.G7haQ5gDt30ftJLC]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>A <em>healing potion</em> is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a <em>healing potion</em>, tú regain @Damage[(3d8+10)[healing]] Puntos de Golpe.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.G7haQ5gDt30ftJLC]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>A <em>healing potion</em> is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a <em>healing potion</em>, tú regain @Damage[(3d8+10)[healing]] Puntos de golpe.</p>"
         },
         "strike-melee->Stinger": {
           "name": "Stinger"
@@ -101,11 +101,11 @@
         },
         "action->Internal Cauldron": {
           "name": "Internal Cauldron",
-          "description": "<p>With un appropriate diet, un apothecary bee va a create un potion de 6th level o lower every two semanas. Most often, este es un @UUID[Compendium.pf2e.equipment-srd.Item.G7haQ5gDt30ftJLC]{Healing Potion (moderado)}. Each apothecary bee puede store solo one completed potion at un time. Unused potions puede generally be harvested de un apothecary bee con un successful @Check[nature|dc:23] o @Check[survival|dc:23] prueba.</p>"
+          "description": "<p>With un appropriate diet, un apothecary bee va a create un potion de 6th nivel o lower every two semanas. Most often, este es un @UUID[Compendium.pf2e.equipment-srd.Item.G7haQ5gDt30ftJLC]{Healing Potion (moderado)}. Each apothecary bee puede store solo one completed potion at un time. Unused potions puede generally be harvested de un apothecary bee con un successful @Check[nature|dc:23] o @Check[survival|dc:23] prueba.</p>"
         },
         "action->Potionsight": {
           "name": "Potionsight",
-          "description": "<p>Apothecary bees' complex eyes let them see the auras of magical potions and instinctively identify potions of their level or lower. Estos auras are visible through mundane containers, though their eyes have no special ability to perceive or identify non-magical solutions, such as alchemical elixirs.</p>"
+          "description": "<p>Apothecary bees' complex eyes let them see the auras of magical potions and instinctively identify potions of their nivel or lower. Estos auras are visible through mundane containers, though their eyes have no special ability to perceive or identify non-magical solutions, such as alchemical elixirs.</p>"
         },
         "action->Smoke Susceptibility": {
           "name": "Smoke Susceptibility",
@@ -114,8 +114,8 @@
       }
     },
     "Ascendant Griffon": {
-      "name": "Ascendant Griffon",
-      "publicNotes": "<p>Este griffon is aptly named for both its majestic appearance in flight and its increased ferocity over the common griffon. Despite its size, the sheer muscle mass present in this criatura makes flight seem effortless, if preposterous. It makes its home among the canopies of the most ancient forests and atop the peaks of the greatest mountains, hunting its prey from above with silent and deadly accuracy. The ascendant griffon prefers to hunt other large criaturas within its territory, such as bears, but they will not hesitate to attack smaller prey they perceive as a threat to their territory. Whether an ascendant griffon is a new evolutionary development or a throwback to a more primeval version of the criatura is difficult to determine. Further research into these exceptional criaturas may provide insight into their origins and perhaps the origins of all griffons.</p>",
+      "name": "Grifo ascendente",
+      "publicNotes": "<p>Este grifo recibe su nombre tanto por su majestuosa apariencia en vuelo como por su ferocidad superior a la del grifo comun. Pese a su tamano, la enorme masa muscular de esta criatura hace que volar parezca facil, aunque resulte casi inverosimil. Habita entre las copas de los bosques mas antiguos y en las cumbres de las montanas mas altas, cazando desde las alturas con precision silenciosa y letal. El grifo ascendente prefiere cazar otras criaturas grandes dentro de su territorio, como osos, pero no duda en atacar presas menores si las percibe como una amenaza. Determinar si se trata de una nueva evolucion o de una version mas primigenia de la criatura es dificil; nuevas investigaciones podrian arrojar luz sobre sus origenes y, quiza, sobre los de todos los grifos.</p>",
       "items": {
         "strike-melee->Beak": {
           "name": "Beak"
@@ -131,7 +131,7 @@
         },
         "action->Dread Gaze": {
           "name": "Dread Gaze",
-          "description": "<p><strong>Desencadenante</strong> A criatura ends a move action within 30 pies of the ascendant griffon</p>\n<hr />\n<p><strong>Efecto</strong> The ascendant griffon turns its head to stare down the triggering criatura, and attempts to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{DEMORALIZE} it. Este use of DEMORALIZE has the visual rasgo rather than the auditory rasgo, and the griffon does not take a penalización on its check for not sharing a language.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura ends a move action within 30 pies of the ascendant griffon</p>\n<hr />\n<p><strong>Efecto</strong> The ascendant griffon turns its head to stare down the triggering criatura, and attempts to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{DEMORALIZE} it. Este use of DEMORALIZE has the visual rasgo rather than the auditory rasgo, and the griffon does not take a penalizador on its prueba for not sharing a language.</p>"
         },
         "action->Carry Off": {
           "name": "Carry Off",
@@ -139,11 +139,11 @@
         },
         "action->Disembowel": {
           "name": "Disembowel",
-          "description": "<p><strong>Requisitos</strong> The ascendant griffon has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} in its talons</p>\n<hr />\n<p><strong>Efecto</strong> The griffon makes a beak Golpe to rip at the flesh of its prey. If the Golpe hits, that criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} (or increases its drained value by 1, to a maximum of 4).</p>"
+          "description": "<p><strong>Requisitos</strong> The ascendant griffon has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} in its talons</p>\n<hr />\n<p><strong>Efecto</strong> The griffon makes a beak Golpe to rip at the flesh of its prey. If the Golpe hits, that criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} (or increases its drenado value by 1, to a maximum of 4).</p>"
         },
         "action->Razor-Edged Flight": {
           "name": "Razor-Edged Flight",
-          "description": "<p>The ascendant griffon glides violently forward, Flying twice. It makes a wing Golpe at any point during the movement against up to two different targets; if either of these attacks is a impacto crítico, el objetivo also takes 2d6 daño persistente de sangrado.</p>"
+          "description": "<p>The ascendant griffon glides violently forward, Flying twice. It makes a wing Golpe at any point during the movement against up to two different objetivos; if either of these attacks is a impacto crítico, el objetivo also takes 2d6 daño persistente de sangrado.</p>"
         },
         "action->Terrifying Screech": {
           "name": "Terrifying Screech",
@@ -152,19 +152,19 @@
       }
     },
     "Barded Manticore": {
-      "name": "Barded Manticore",
-      "publicNotes": "<p>Barded manticores are treacherous and dangerous beasts, and the only known member of the manticore species with the innate ability to cast conjuros. Luckily, these criaturas are incredibly rare, mostly found near battlefields and other sources of worked metal, though stories tell of a particularly clever barded manticore attempting to make herself a home deep under the Magaambya.</p>\n<p>Unlike the other members of the species, a barded manticore has a face that resembles a human's and a torso coated in scales of varying metals, the exact composition depending on their diet. Thanks to these materials, most barded manticores are able to fend off just about any being attempting to encroach upon their territories, especially fiends and other criaturas with weaknesses to specific metals. Barded manticores sift through metals obtained from their victims, whether that be local villagers coerced into giving them tribute or unlucky travelers, and seek the rarest, most valuable types to make part of their next meals.</p>\n<p>Este also includes armor and armas inscribed with runes that grant a barded manticore the ability to cast conjuros, though these conjuros vary depending on the region the beast inhabits and what type of runes they consume. In rare areas where magic is suppressed, a barded manticore will be unable to grow their runed scales, rendering them less powerful than others of their kind. Pointing this out to such a barded manticore often ends in one's untimely demise at the manticore's claws and spines, no less sharp for the lack of enchantments.</p>",
+      "name": "Manticora bardada",
+      "publicNotes": "<p>Las mantícoras bardadas son bestias traicioneras y peligrosas, y el unico miembro conocido de la especie de las mantícoras con la capacidad innata de lanzar conjuros. Por fortuna, son criaturas increiblemente raras, que suelen encontrarse cerca de campos de batalla y otras fuentes de metal trabajado, aunque algunas historias hablan de una manticora bardada particularmente astuta que intento instalarse en las profundidades de la Magaambya.</p>\n<p>A diferencia de otros miembros de su especie, una manticora bardada tiene un rostro semejante al humano y un torso cubierto de escamas de metales variados, cuya composicion exacta depende de su dieta. Gracias a esos materiales, la mayoria puede rechazar a casi cualquier ser que intente invadir su territorio, en especial infernales y otras criaturas con debilidades a metales concretos.</p>\n<p>Esto incluye tambien armaduras y armas inscritas con runas que conceden a la manticora bardada la capacidad de lanzar conjuros, aunque dichos conjuros varian segun la region que habite y el tipo de runas que consuma.</p>",
       "items": {
-        "spellcastingEntry->Primal Innate Spells": {
-          "name": "Primal Innate Spells"
+        "spellcastingEntry->Primal Innate Conjuros": {
+          "name": "Primal Innate Conjuros"
         },
-        "spell->Impaling Spike (At-Will)": {
+        "conjuro->Impaling Spike (At-Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.oXeEbcUdgJGWHGEJ]\nImpaling Spike (At-Will)"
         },
-        "spell->Lightning Bolt (At-Will)": {
+        "conjuro->Lightning Bolt (At-Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.9AAkVUCwF6WVNNY2]\nLightning Bolt (At-Will)"
         },
-        "spell->One with Stone (At Will)": {
+        "conjuro->One with Stone (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.vh1RpbWfqdNC4L3P]\nUno con la piedra (a voluntad)"
         },
         "strike-melee->Tail": {
@@ -176,9 +176,9 @@
         "strike-ranged->Spike": {
           "name": "Spike"
         },
-        "action->Spell Reflection": {
-          "name": "Spell Reflection",
-          "description": "<p><strong>Desencadenante</strong> An opponent casts a conjuro that targets the manticore and requires a tirada de salvación</p>\n<hr />\n<p><strong>Efecto</strong> The manticore gains a +4 bonificador de circunstancia to the tirada de salvación. If they critically succeed at the save, they can elige a criatura within 30 pies that was not originally targeted by the conjuro. That criatura becomes a new target of the conjuro, who must attempt its own save against the same DC.</p>"
+        "action->Conjuro Reflection": {
+          "name": "Conjuro Reflection",
+          "description": "<p><strong>Desencadenante</strong> An opponent casts a conjuro that objetivos the manticore and requires a tirada de salvación</p>\n<hr />\n<p><strong>Efecto</strong> The manticore gains a +4 bonificador de circunstancia to the tirada de salvación. If they critically succeed at the save, they can elige a criatura within 30 pies that was not originally targeted by the conjuro. That criatura becomes a new objetivo of the conjuro, who must attempt its own save against the same DC.</p>"
         },
         "action->Arrange Scales": {
           "name": "Arrange Scales",
@@ -190,22 +190,22 @@
         },
         "action->Paired Spikes": {
           "name": "Paired Spikes",
-          "description": "<p>The barded manticore flings two spikes from their tail, targeting up to two criaturas within 20 pies of each other. They make a separate ranged Golpe against each criatura, which counts as a single Golpe for the barded manticore's multiple attack penalización, and the penalización doesn't increase until they've made both Golpes. If the manticore targeted only one criatura and hits, that criatura takes normal daño for a single spike, but also gains weakness 15 to daño de electricidad until the spikes are removed with an INTERACT action.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.nW9GbEP1NqFodqE0]{Efecto: Paired Spikes}</p>"
+          "description": "<p>The barded manticore flings two spikes from their tail, targeting up to two criaturas within 20 pies of each other. They make a separate ranged Golpe against each criatura, which counts as a single Golpe for the barded manticore's multiple attack penalizador, and the penalizador doesn't increase until they've made both Golpes. If the manticore targeted only one criatura and hits, that criatura takes normal daño for a single spike, but also gains weakness 15 to daño de electricidad until the spikes are removed with an INTERACT action.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.nW9GbEP1NqFodqE0]{Efecto: Paired Spikes}</p>"
         }
       }
     },
     "Blooming Guardian": {
-      "name": "Blooming Guardian",
+      "name": "Guardian floreciente",
       "languages": "hablar con animales, hablar con plantas",
-      "publicNotes": "<p>El pestilent blossoms adorning el antlers de un blooming guardian son most beautiful en moonlight, cuando ellos achieve full bloom y reveal su celestial glow. Cuando blooming guardians near el end de su life cycle, ellos walk one final patrol de su bosque as su antiguo cuerpo decomposes into el understory.</p>",
+      "publicNotes": "<p>Las flores pestilentes que adornan la cornamenta de un guardian floreciente resultan mas hermosas bajo la luz de la luna, cuando alcanzan su plena floracion y revelan su resplandor celestial. Cuando estos guardianes se acercan al final de su ciclo vital, realizan una ultima patrulla por su bosque mientras su antiguo cuerpo se descompone en el sotobosque.</p>",
       "items": {
-        "spellcastingEntry->Primal Innate Spells": {
-          "name": "Primal Innate Spells"
+        "spellcastingEntry->Primal Innate Conjuros": {
+          "name": "Primal Innate Conjuros"
         },
-        "spell->Speak with Plants (Constant)": {
+        "conjuro->Speak with Plants (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]\nHablar con las plantas (constante)"
         },
-        "spell->Speak with Animals (Constant)": {
+        "conjuro->Speak with Animals (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]\nHablar con los animales (constante)"
         },
         "strike-melee->Antlers": {
@@ -223,25 +223,25 @@
         },
         "action->Budding Siphon": {
           "name": "Budding Siphon",
-          "description": "<p>20 pies. A blooming guardian is in a constant state of decomposition; to keep this entropy at bay, the flowers that cover their antlers continually siphon life from the surrounding area. All living criaturas that enter or start their turn in the emanation take @Damage[6d4[void]|options:area-damage] daño (@Check[fortitude|dc:36|basic|options:area-effect] salvación). At the start of their turn in any round that the blooming guardian deals daño with siphoning buds, they gain 10 Puntos de Golpe temporales, plus 2 Puntos de Golpe temporales for each criatura damaged beyond the first since the blooming guardian's last turn, to a maximum of 20 Puntos de Golpe temporales.</p>"
+          "description": "<p>20 pies. A blooming guardian is in a constant state of decomposition; to keep this entropy at bay, the flowers that cover their antlers continually siphon life from the surrounding area. All living criaturas that enter or start their turn in the emanation take @Damage[6d4[void]|options:area-damage] daño (@Check[fortitude|dc:36|basic|options:area-effect] salvación). At the start of their turn in any round that the blooming guardian deals daño with siphoning buds, they gain 10 Puntos de golpe temporales, plus 2 Puntos de golpe temporales for each criatura damaged beyond the first since the blooming guardian's last turn, to a maximum of 20 Puntos de golpe temporales.</p>"
         },
         "action->Full Bloom": {
           "name": "Full Bloom",
-          "description": "<p>The flowers on the blooming guardian's antlers bloom, unveiling their brilliance as they eat away at their host. While in this stance, the blooming guardian's Golpes deal an additional 2d4 daño de veneno plus 5 daño persistente de veneno; on a hit, a target must succeed at a @Check[fortitude|dc:36] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 2}. The blooming guardian takes @Damage[5[persistent,poison]] daño as long as it's in Full Bloom.</p>"
+          "description": "<p>The flowers on the blooming guardian's antlers bloom, unveiling their brilliance as they eat away at their host. While in this stance, the blooming guardian's Golpes deal an additional 2d4 daño de veneno plus 5 daño persistente de veneno; on a hit, a objetivo must succeed at a @Check[fortitude|dc:36] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 2}. The blooming guardian takes @Damage[5[persistent,poison]] daño as long as it's in Full Bloom.</p>"
         },
         "action->Goring Charge": {
           "name": "Carga empaladora",
-          "description": "<p>The blooming guardian Strides twice and makes an antlers Golpe after either Zancada. If the Golpe hits, the blooming guardian deals an extra 2d12 daño contundente, and el objetivo takes a –2 penalización de circunstancia to its next Fortitude save against blossom siphon.</p>"
+          "description": "<p>The blooming guardian Strides twice and makes an antlers Golpe after either Zancada. If the Golpe hits, the blooming guardian deals an extra 2d12 daño contundente, and el objetivo takes a –2 penalizador por circunstancia to its next salvación de Fortaleza against blossom siphon.</p>"
         },
         "action->Wail of the Forest": {
           "name": "Wail of the Forest",
-          "description": "<p><strong>Requisitos</strong> The blooming guardian is in Full Bloom</p>\n<hr />\n<p><strong>Efecto</strong> The blooming guardian confronts their mortality, causing their flowers to burst and spray their pollen. All criaturas in a @Template[cone|distance:40] take @Damage[10d10[void]] daño with a @Check[fortitude|dc:36] salvación. The blooming guardian then exits Full Bloom and can't enter it again for [[/br 1d4 #Recharge Full Bloom]]{1d4 asaltos}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> No effect.</p>\n<p><strong>Éxito</strong> The criatura takes half daño.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1}. Las criaturas that are @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado} lose that condition and increase the drained condition by the same value.</p>\n<p><strong>Fallo crítico</strong> As failure, but double daño.</p>"
+          "description": "<p><strong>Requisitos</strong> The blooming guardian is in Full Bloom</p>\n<hr />\n<p><strong>Efecto</strong> The blooming guardian confronts their mortality, causing their flowers to burst and spray their pollen. All criaturas in a @Template[cone|distance:40] take @Damage[10d10[void]] daño with a @Check[fortitude|dc:36] salvación. The blooming guardian then exits Full Bloom and can't enter it again for [[/br 1d4 #Recharge Full Bloom]]{1d4 asaltos}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> No effect.</p>\n<p><strong>Éxito</strong> The criatura takes half daño.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1}. Las criaturas that are @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado} lose that condition and increase the drenado condition by the same value.</p>\n<p><strong>Fallo crítico</strong> As failure, but double daño.</p>"
         }
       }
     },
     "Carnotaurus": {
-      "name": "Carnotaurus",
-      "publicNotes": "<p>Este 2,000-pound predator lives up to its name by ramming its prey with its distinctive horns lowered, knocking them @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}, and viciously tearing into fallen victims before they can regain their footing. Do not let its size fool tú; this massive dinosaur is deceptively quick when charging a potential meal. Aggressive and highly territorial, a carnotaurus will not hesitate to hunt down and slay any criatura unlucky enough to cross its path.</p>",
+      "name": "Carnotauro",
+      "publicNotes": "<p>Este depredador de 2.000 libras hace honor a su nombre embistiendo a sus presas con sus distintivos cuernos bajos, derribandolas @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} y desgarrando con saña a las victimas caidas antes de que puedan recuperar el equilibrio. Que su tamano no te engane: este dinosaurio enorme es sorprendentemente rapido cuando carga contra una posible comida. Agresivo y muy territorial, un carnotauro no duda en perseguir y matar a cualquier criatura lo bastante desafortunada como para cruzarse en su camino.</p>",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -259,7 +259,7 @@
         },
         "action->Vicious Mauling": {
           "name": "Vicious Mauling",
-          "description": "<p>The carnotaurus's jaws Golpe deals an additional 1d8 daño persistente de sangrado to @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} targets.</p>"
+          "description": "<p>The carnotaurus's jaws Golpe deals an additional 1d8 daño persistente de sangrado to @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} objetivos.</p>"
         }
       }
     },
@@ -300,9 +300,9 @@
       }
     },
     "Concert Frog": {
-      "name": "Concert Frog",
+      "name": "Rana de concierto",
       "hpDetails": "25 (froglets, immune to area daño))",
-      "publicNotes": "<p>Estos massive frogs store their eggs inside their stomach. When an egg hatches, the froglet crawls its way up into its parent's mouth to add its celebratory chirps and croaks to the family's song.</p>",
+      "publicNotes": "<p>Estas ranas enormes almacenan los huevos dentro del estomago. Cuando uno eclosiona, el renacuajo trepa hasta la boca de su progenitor para anadir sus gorjeos y croares celebratorios a la cancion familiar.</p>",
       "skillSpecialAthletics": {
         "0": {
           "label": "para Salto de altura o Salto de longitud"
@@ -317,17 +317,17 @@
         },
         "action->Conduct": {
           "name": "Conduct",
-          "description": "<p>One of the froglets begins to sing, granting one of three effects to the concert frog and all allies within 60 pies until the beginning of the concert frog's next turn.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.I4C55X7AzchlF9FM]{Efecto: Conduct}</p>\n<ul>\n<li><strong>Red</strong> Grants a +10-pies bonificador de estado to their Velocidades.</li>\n<li><strong>Blue</strong> Grants a +1 bonificador de estado to AC and Fortitude tiradas de salvación.</li>\n<li><strong>Yellow</strong> Allies gain a +1 bonificador de estado to tiradas de ataque and deal an additional @Damage[1d4[sonic]] daño on successful melee Golpes as their attacks resonate.\n\n</li>\n</ul>"
+          "description": "<p>One of the froglets begins to sing, granting one of three effects to the concert frog and all aliados within 60 pies until the beginning of the concert frog's next turn.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.I4C55X7AzchlF9FM]{Efecto: Conduct}</p>\n<ul>\n<li><strong>Red</strong> Grants a +10-pies bonificador de estado to their Velocidades.</li>\n<li><strong>Blue</strong> Grants a +1 bonificador de estado to AC and Fortitude tiradas de salvación.</li>\n<li><strong>Yellow</strong> Aliados gain a +1 bonificador de estado to tiradas de ataque and deal an additional @Damage[1d4[sonic]] daño on successful melee Golpes as their attacks resonate.\n\n</li>\n</ul>"
         },
         "action->Three-Frog Orchestra": {
           "name": "Three-Frog Orchestra",
-          "description": "<p>The concert frog has three froglets perched behind its lips, each of a different color. A criatura can specifically target a froglet. If any froglets have died, the concert frog attempts a @Check[flat|dc:11] at the end of its turn; on a success, new froglets hatch in its stomach and emerge at the concert frog's lips.</p>"
+          "description": "<p>The concert frog has three froglets perched behind its lips, each of a different color. A criatura can specifically objetivo a froglet. If any froglets have died, the concert frog attempts a @Check[flat|dc:11] at the end of its turn; on a success, new froglets hatch in its stomach and emerge at the concert frog's lips.</p>"
         }
       }
     },
     "Crying Cicada": {
-      "name": "Crying Cicada",
-      "publicNotes": "<p>Estos small insects are a nuisance and danger to small villages within Brevoy, taking over entire forests and blending in with the foliage. Also known as calling beetles, due to their ability to mimic and repeat the voices of their previous victims, crying cicadas wait for passersby to lure into the trees, fascinating their victims with their cries before fluttering their wings to release toxic dust. Once a target is near death, crying cicadas will take flight from the trees and land on the body to feed.</p>\n<p>The scale dust of crying cicadas can be turned into an effective ingested poison, but obtaining a cicada and harvesting these scales is so dangerous that most would-be poisoners simply die in the process. Even finding the insects is dangerous enough; crying cicadas' natural STEALTH and dark coloration make them difficult to locate among the trees of a forest, and following their cries often leads one to fall victim to the very criaturas they're hunting.</p>\n<p>The longer a colony of crying cicadas stays in a forest, the wider their collection of cries grows. Often, a young colony will be able to replicate only the sounds of small, dying criaturas, but larger, more established colonies will have the ability to mimic the sounds of children and dragons.</p>",
+      "name": "Cigarra llorona",
+      "publicNotes": "<p>Estos pequenos insectos son una molestia y un peligro para las aldeas de Brevoy, capaces de aduenarse de bosques enteros y camuflarse entre el follaje. Tambien se los llama escarabajos llamadores por su capacidad de imitar y repetir las voces de sus victimas anteriores. Las cigarras lloronas esperan a los transeuntes para atraerlos hacia los arboles, fascinarlos con sus gritos y despues batir las alas para liberar polvo toxico. Cuando el objetivo esta cerca de la muerte, levantan el vuelo desde los arboles y se posan sobre el cuerpo para alimentarse.</p>\n<p>El polvo de sus escamas puede convertirse en un veneno ingerido eficaz, pero capturar una cigarra y recolectar esas escamas es tan peligroso que la mayoria de aspirantes a envenenadores muere en el intento.</p>",
       "items": {
         "strike-melee->Proboscis": {
           "name": "Proboscis"
@@ -391,8 +391,8 @@
       }
     },
     "Desert Manticore": {
-      "name": "Desert Manticore",
-      "publicNotes": "<p>desierto manticores son far more dangerous than su common cousins y solo marginally cleverer. Instead de el usually spiked cola reminiscent de un porcupine, desierto manticores tienen grande scorpion tails, requiring them a adopt closer approaches y cunning ambushes. desierto manticores son known for su egos y constant attempts a outmatch sphinxes dentro de su chosen territories. No accounts de such attempts tienen ever proved fruitful for el desierto manticore.</p>",
+      "name": "Manticora del desierto",
+      "publicNotes": "<p>Las mantícoras del desierto son mucho mas peligrosas que sus primas comunes y solo un poco mas listas. En lugar de la cola espinosa habitual, parecida a la de un puercoespin, poseen grandes colas de escorpion, lo que las obliga a acercarse mas a sus presas y recurrir a emboscadas astutas. Son conocidas por su ego y por sus constantes intentos de superar a las esfinges dentro de los territorios que han elegido. Ningun relato de tales intentos ha resultado nunca favorable para la manticora del desierto.</p>",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -413,7 +413,7 @@
         },
         "action->Scorpion Sting": {
           "name": "Scorpion Sting",
-          "description": "<p>The desert manticore Golpes an @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} criatura with its stinger. The attack injects venom deeply, dealing an additional 4d8 daño de veneno and giving el objetivo a –2 penalización de circunstancia to their initial save against the poison.</p>"
+          "description": "<p>The desert manticore Golpes an @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} criatura with its stinger. The attack injects venom deeply, dealing an additional 4d8 daño de veneno and giving el objetivo a –2 penalizador por circunstancia to their initial save against the poison.</p>"
         },
         "action->Venomous Flight": {
           "name": "Venomous Flight",
@@ -423,7 +423,7 @@
     },
     "Drthak": {
       "name": "Drthak",
-      "publicNotes": "<p>Dischorans son un group de predators who hunt via focused sound. Though ellos possess protuberances que resemble eyes, these son actually auditory sensory organs que puede pick up even el slightest sound y son used a locate prey con pinpoint accuracy.</p> <p>Only un few types de dischorans tienen been identified, but ellos todos share unifying features: front-facing pseudo-eyes, deceptive speed, y ravenous hunger. Their sensitivity a noise combined con su ability a weaponize sound son likely el primary reasons dischorans spend most de su time alone.</p> <hr /> <p>Drthaks son aquatic predators con long trailing fins que son rarely seen, clinging a coasts y estuaries where el high silt content makes them practically invisible a predators y prey alike. Some tienen been known a come inland, tracking su prey miles upriver before striking. El underwater environment alters el typical dischoran hunting behavior, con drthaks creating bubbles que implode a stun prey.</p>",
+      "publicNotes": "<p>Los dischorans son un grupo de depredadores que cazan mediante sonido enfocado. Aunque poseen protuberancias que parecen ojos, en realidad son organos sensoriales auditivos capaces de captar hasta el sonido mas leve y usados para localizar presas con precision absoluta.</p> <p>Solo se han identificado unos pocos tipos de dischorans, pero todos comparten rasgos comunes: pseudoojos frontales, velocidad enganosa y hambre voraz. Su sensibilidad al ruido, combinada con su capacidad de convertir el sonido en arma, es probablemente la razon principal por la que pasan la mayor parte del tiempo solos.</p> <hr /> <p>Los drthaks son depredadores acuaticos de largas aletas colgantes que rara vez se ven, pues se aferran a costas y estuarios donde el alto contenido de limo los vuelve practicamente invisibles tanto para depredadores como para presas. Algunos han llegado tierra adentro, siguiendo a sus presas millas rio arriba antes de atacar. El entorno submarino altera el comportamiento de caza habitual de los dischorans: los drthaks crean burbujas que implosionan para aturdir a sus presas.</p>",
       "senses": "sensitive echolocation (precise) 120 pies",
       "items": {
         "strike-melee->Jaws": {
@@ -485,7 +485,7 @@
         },
         "action->Kettle Up": {
           "name": "Kettle Up",
-          "description": "<p>The flynkett uses its skin flaps to form a crude kettle. While Kettled Up, the flynkett can't use its claw Golpe or take move actions. If the flynkett has been Kettled Up for 1 minuto or longer, and its kettle is full of water (usually due to the flynkett being in the rain), the flynkett's kettle begins to boil, emitting a piercing whistle that causes all criaturas within 30 pies to take a –2 penalización to Perception checks to hear sources other than the flynkett; this is an auditory effect. The flynkett can stop Kettling Up as a free action.</p>",
+          "description": "<p>The flynkett uses its skin flaps to form a crude kettle. While Kettled Up, the flynkett can't use its claw Golpe or take move actions. If the flynkett has been Kettled Up for 1 minuto or longer, and its kettle is full of water (usually due to the flynkett being in the rain), the flynkett's kettle begins to boil, emitting a piercing whistle that causes all criaturas within 30 pies to take a –2 penalizador to Perception checks to hear sources other than the flynkett; this is an auditory effect. The flynkett can stop Kettling Up as a free action.</p>",
           "rules": {
             "1": {
               "label": "Kettle Up - Boiling"
@@ -500,7 +500,7 @@
     },
     "Ghost Ape": {
       "name": "Ghost Ape",
-      "publicNotes": "<p>Ghost apes are reclusive and territorial criaturas that usually reveal themselves only when their homes are threatened. Most ghost apes will first attempt to use their imposing presence and natural teleportation to frighten and confuse their foes into fleeing. Ghost apes can speak but aren't particularly talkative, though they will, on rare occasions,&amp;nbsp;treat with those who approach them with respect. Ghost apes can&amp;nbsp;be powerful allies when motivated by a common cause, although they tend to be suspicious of outsiders, and their trust isn't easily earned.</p>",
+      "publicNotes": "<p>Ghost apes are reclusive and territorial criaturas that usually reveal themselves only when their homes are threatened. Most ghost apes will first attempt to use their imposing presence and natural teleportation to frighten and confuse their foes into fleeing. Ghost apes can speak but aren't particularly talkative, though they will, on rare occasions,&amp;nbsp;treat with those who approach them with respect. Ghost apes can&amp;nbsp;be powerful aliados when motivated by a common cause, although they tend to be suspicious of outsiders, and their trust isn't easily earned.</p>",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -544,7 +544,7 @@
         },
         "action->Quickening Jolt": {
           "name": "Quickening Jolt",
-          "description": "<p>The coppermouth manipulates its own nervous system by increasing its reaction time, Striding and making two Golpes against different targets during the movement. Both attacks count toward its multiple attack penalización, but the penalización doesn't increase until after it has made both attacks.</p>"
+          "description": "<p>The coppermouth manipulates its own nervous system by increasing its reaction time, Striding and making two Golpes against different objetivos during the movement. Both attacks count toward its multiple attack penalizador, but the penalizador doesn't increase until after it has made both attacks.</p>"
         },
         "action->Venomous Spit": {
           "name": "Venomous Spit",
@@ -588,11 +588,11 @@
         },
         "action->Tun State": {
           "name": "Tun State",
-          "description": "<p><strong>Desencadenante</strong> The tardigrade would be reduced to 0 Puntos de Golpe or would die due to starvation, suffocation, or similar environmental causes</p>\n<p><strong>Frecuencia</strong> once per week</p>\n<p><strong>Requisitos</strong> The tardigrade isn't already in tun state</p>\n<hr />\n<p><strong>Efecto</strong> The giant tardigrade doesn't die but instead remains at 1 Hit Point and curls into a dry ball, called a tun. While in this tun state, the giant tardigrade is @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente}, doesn't need to eat, drink, or breathe, and doubles its resistance to 20. It remains in tun state indefinitely until covered in significant amounts of water, at which point it begins to rehydrate, gaining regeneration 5. The regeneration persists until it reaches maximum Puntos de Golpe. The giant tardigrade then exits its tun state.</p>"
+          "description": "<p><strong>Desencadenante</strong> The tardigrade would be reduced to 0 Puntos de golpe or would die due to starvation, suffocation, or similar environmental causes</p>\n<p><strong>Frecuencia</strong> once per week</p>\n<p><strong>Requisitos</strong> The tardigrade isn't already in tun state</p>\n<hr />\n<p><strong>Efecto</strong> The giant tardigrade doesn't die but instead remains at 1 Hit Point and curls into a dry ball, called a tun. While in this tun state, the giant tardigrade is @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente}, doesn't need to eat, drink, or breathe, and doubles its resistance to 20. It remains in tun state indefinitely until covered in significant amounts of water, at which point it begins to rehydrate, gaining regeneration 5. The regeneration persists until it reaches maximum Puntos de golpe. The giant tardigrade then exits its tun state.</p>"
         },
         "action->Vacuum Mouth": {
           "name": "Vacuum Mouth",
-          "description": "<p><strong>Requisitos</strong> The giant tardigrade doesn't have a target @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}</p>\n<hr />\n<p><strong>Efecto</strong> The giant tardigrade draws in air with its mouth. All criaturas in a @Template[cone|distance:20] must succeed at a @Check[reflex|dc:25] salvación or be pulled adjacent to the giant tardigrade. The tardigrade chooses one criatura that failed its save, Grabbing el objetivo in its claws and making a stylet Golpe.</p>"
+          "description": "<p><strong>Requisitos</strong> The giant tardigrade doesn't have a objetivo @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}</p>\n<hr />\n<p><strong>Efecto</strong> The giant tardigrade draws in air with its mouth. All criaturas in a @Template[cone|distance:20] must succeed at a @Check[reflex|dc:25] salvación or be pulled adjacent to the giant tardigrade. The tardigrade chooses one criatura that failed its save, Grabbing el objetivo in its claws and making a stylet Golpe.</p>"
         }
       }
     },
@@ -610,7 +610,7 @@
         },
         "action->Camouflage": {
           "name": "Camuflaje",
-          "description": "<p>The goblin shark's coloration blends in with the water. It doesn't need cover to attempt to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} with a STEALTH check while underwater.</p>"
+          "description": "<p>The goblin shark's coloration blends in with the water. It doesn't need cover to attempt to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} with a STEALTH prueba while underwater.</p>"
         },
         "action->Electrolocation": {
           "name": "Electrolocation",
@@ -642,7 +642,7 @@
         },
         "action->Three-Headed Strike": {
           "name": "Three-Headed Golpe",
-          "description": "<p>The greater chimera makes a Golpe with each of its heads, each at a –2 penalización and targeting a different criatura. Estos Golpes count as only one attack for the greater chimera's multiple attack penalización, and the penalización doesn't increase until after it has made all three attacks.</p>"
+          "description": "<p>The greater chimera makes a Golpe with each of its heads, each at a –2 penalizador and targeting a different criatura. Estos Golpes count as only one attack for the greater chimera's multiple attack penalizador, and the penalizador doesn't increase until after it has made all three attacks.</p>"
         }
       }
     },
@@ -735,7 +735,7 @@
         },
         "action->Arcane Consumption": {
           "name": "Arcane Consumption",
-          "description": "<p>The hexmoth attempts to consume the magic of an adjacent magical effect or unattended magic item. It attempts a counteract check against el objetivo with a +16 modifier. On a success, the magical effect ends. A magic item instead becomes a mundane item for 1 asalto. The hexmoth gains @Damage[2d8[healing]] Puntos de Golpe.</p>"
+          "description": "<p>The hexmoth attempts to consume the magic of an adjacent magical effect or unattended magic item. It attempts a counteract prueba against el objetivo with a +16 modifier. On a success, the magical effect ends. A magic item instead becomes a mundane item for 1 asalto. The hexmoth gains @Damage[2d8[healing]] Puntos de golpe.</p>"
         },
         "action->Arcanotaxis": {
           "name": "Arcanotaxis",
@@ -765,7 +765,7 @@
         },
         "action->Arcane Consumption": {
           "name": "Arcane Consumption",
-          "description": "<p>The hexworm attempts to consume the magic of an adjacent magical effect or unattended magic item. It attempts a counteract check against el objetivo with a +11 modifier. On a success, the magical effect ends. A magic item instead becomes a mundane item for 1 asalto. The hexworm gains @Damage[2d8[healing]] Puntos de Golpe.</p>"
+          "description": "<p>The hexworm attempts to consume the magic of an adjacent magical effect or unattended magic item. It attempts a counteract prueba against el objetivo with a +11 modifier. On a success, the magical effect ends. A magic item instead becomes a mundane item for 1 asalto. The hexworm gains @Damage[2d8[healing]] Puntos de golpe.</p>"
         },
         "action->Arcanotaxis": {
           "name": "Arcanotaxis",
@@ -775,7 +775,7 @@
     },
     "Holdfast": {
       "name": "Holdfast",
-      "publicNotes": "<p>A sleek body, large talons, and keen senses make the holdfast an experto hunter, far deadlier than its small size might indicate. It typically approaches prey from below, then pounces in a flurry of teeth and talons, trying to crush el objetivo's windpipe with its powerful jaws. Este ambush strategy is further aided by its dappled gray fur, camouflaging it against the rocky terrain of its native habitat. Today, holdfasts have spread far, often because of orc holds adopting them as hunting companions. Este has led to tension with other peoples, who often find holdfasts too difficult to work with and consider them an invasive species—even gnomes and druids who can speak with holdfasts find them distractable and murderously energetic.</p>\n<p>Although holdfasts watch over their litters very carefully, adults avoid each other outside of their short mating season. Despite this antipathy for others of their kind, holdfasts often trail other species of predators, acting as opportunistic scavengers. Este typically ends with the holdfast bullying the other criatura and stealing the greater share of any kill, but it can develop into a mutualistic arrangement. Many holdfasts have been observed hunting alongside eagles and other birds of prey, driving underground criaturas to the surface for the birds to pick off.</p>\n<p>Holdfasts are difficult to contain, sliding through tiny openings and digging under fences, meaning proper enclosures must be made of stone or metal on all sides. Some orc communities instead lay out humane traps when their hunting parties are needed, using favorite treats as bait. In the orc-run nation of Belkzen, overlord Ardax the White-Hair's chief animal handler claims to have a unique and confidential training process that curbs the holdfasts' impulse to escape, but other handlers have yet to uncover or replicate it. In the Gravelands, the major orc communities face the unwelcome intrusion of undead headed by the Whispering Tyrant. While they maintain the original bond with holdfasts as hunting partners, the goal has changed from providing subsistence to eradicating undead.</p>",
+      "publicNotes": "<p>A sleek body, large talons, and keen senses make the holdfast an experto hunter, far deadlier than its small size might indicate. It typically approaches prey from below, then pounces in a flurry of teeth and talons, trying to crush el objetivo's windpipe with its powerful jaws. Este ambush strategy is further aided by its dappled gray fur, camouflaging it against the rocky terrain of its native habitat. Today, holdfasts have spread far, often because of orc holds adopting them as hunting companions. Este has led to tension with other peoples, who often find holdfasts too difficult to work with and consider them an invasive species—even gnomes and druids who can speak with holdfasts find them distractable and murderously energetic.</p>\n<p>Although holdfasts watch over their litters very carefully, adults avoid each other outside of their short mating season. Despite this antipathy for others of their kind, holdfasts often trail other species of predators, acting as opportunistic scavengers. Este typically ends with the holdfast bullying the other criatura and stealing the greater share of any kill, but it can develop into a mutualistic arrangement. Many holdfasts have been observado hunting alongside eagles and other birds of prey, driving underground criaturas to the surface for the birds to pick off.</p>\n<p>Holdfasts are difficult to contain, sliding through tiny openings and digging under fences, meaning proper enclosures must be made of stone or metal on all sides. Some orc communities instead lay out humane traps when their hunting parties are needed, using favorite treats as bait. In the orc-run nation of Belkzen, overlord Ardax the White-Hair's chief animal handler claims to have a unique and confidential training process that curbs the holdfasts' impulse to escape, but other handlers have yet to uncover or replicate it. In the Gravelands, the major orc communities face the unwelcome intrusion of undead headed by the Whispering Tyrant. While they maintain the original bond with holdfasts as hunting partners, the goal has changed from providing subsistence to eradicating undead.</p>",
       "skillSpecialStealth": {
         "0": {
           "label": "en rocky o barren terrain"
@@ -798,7 +798,7 @@
         },
         "action->Burst from Below": {
           "name": "Burst from Below",
-          "description": "<p>The holdfast Burrows and then Golpes. If the holdfast began this movement @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido}, it remains hidden until after this ability's Golpe.</p>"
+          "description": "<p>The holdfast Burrows and then Golpes. If the holdfast began this movement @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido}, it remains escondido until after this ability's Golpe.</p>"
         },
         "action->Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV]\n<p>@Damage[(2d6+2)[piercing]] plus crush throat, @Check[fortitude|dc:21|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
@@ -826,7 +826,7 @@
         },
         "action->Rollout Trample": {
           "name": "Rollout Trample",
-          "description": "<p><strong>Requisitos</strong> The hooplamander is Wheels Up</p>\n<hr />\n<p><strong>Efecto</strong> As @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]{Trample} (Large or smaller, ridged tail, @Check[reflex|dc:22|basic]), except targets that critically fail their Reflex save are @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1}, and the hooplamander Unfurls at the end of its movement.</p>"
+          "description": "<p><strong>Requisitos</strong> The hooplamander is Wheels Up</p>\n<hr />\n<p><strong>Efecto</strong> As @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]{Trample} (Large or smaller, ridged tail, @Check[reflex|dc:22|basic]), except objetivos that critically fail their salvación de Reflejos are @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1}, and the hooplamander Unfurls at the end of its movement.</p>"
         },
         "action->Unfurl": {
           "name": "Unfurl",
@@ -842,8 +842,8 @@
       "name": "Karkadann",
       "publicNotes": "<p>Karkadanns are a distant relation to unicorns, favoring more open terrain than their woodland kin. With the build of a buffalo, karkadanns have gray, scaly bodies, thicker hooves, and no mane. Despite their territoriality and harsh temperament, many karkadanns can be befriended by those who truly hold respect for NATURE in their hearts.</p>",
       "items": {
-        "spellcastingEntry->Primal Innate Spells": {
-          "name": "Primal Innate Spells"
+        "spellcastingEntry->Primal Innate Conjuros": {
+          "name": "Primal Innate Conjuros"
         },
         "strike-melee->Horn": {
           "name": "Cuerno"
@@ -896,7 +896,7 @@
         },
         "action->Predatory Slam": {
           "name": "Predatory Slam",
-          "description": "<p><strong>Requisitos</strong> The leopard seal is in water</p>\n<hr />\n<p><strong>Efecto</strong> The leopard seal travels up to 40 pies, ending its movement on land. Enemies adjacent to the leopard seal when it ends its movement take @Damage[2d10[bludgeoning]] daño (@Check[reflex|dc:21|basic] salvación) and are knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} on a failure.</p>"
+          "description": "<p><strong>Requisitos</strong> The leopard seal is in water</p>\n<hr />\n<p><strong>Efecto</strong> The leopard seal travels up to 40 pies, ending its movement on land. Enemigos adjacent to the leopard seal when it ends its movement take @Damage[2d10[bludgeoning]] daño (@Check[reflex|dc:21|basic] salvación) and are knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} on a failure.</p>"
         }
       }
     },
@@ -925,7 +925,7 @@
         },
         "action->Healing Pulse": {
           "name": "Healing Pulse",
-          "description": "<p>The lightning turtle releases a pulse of low-intensity electricity from its body to promote healing. Este restores @Damage[5d8[healing]] Puntos de Golpe to the turtle and each living ally within 10 pies, including criaturas normally immune to electricity. The turtle can't use Healing Pulse again for 1 minuto and is temporarily immune to the Healing Pulse of any lightning turtle for 1 minuto.</p>"
+          "description": "<p>The lightning turtle releases a pulse of low-intensity electricity from its body to promote healing. Este restores @Damage[5d8[healing]] Puntos de golpe to the turtle and each living aliado within 10 pies, including criaturas normally immune to electricity. The turtle can't use Healing Pulse again for 1 minuto and is temporarily immune to the Healing Pulse of any lightning turtle for 1 minuto.</p>"
         },
         "action->Sparking Shell": {
           "name": "Sparking Shell",
@@ -942,11 +942,11 @@
         },
         "action->Metal Allergy": {
           "name": "Metal Allergy",
-          "description": "<p>When a magnegor takes daño from a metal arma or an effect with the metal rasgo, it takes @Damage[5[untyped]] daño adicional and must succeed at a @Check[flat|dc:5] or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}. The value of the sickened condition increases each time the magnegor fails such a check, to a maximum of 3.</p>"
+          "description": "<p>When a magnegor takes daño from a metal arma or an effect with the metal rasgo, it takes @Damage[5[untyped]] daño adicional and must succeed at a @Check[flat|dc:5] or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}. The value of the indispuesto condition increases each time the magnegor fails such a prueba, to a maximum of 3.</p>"
         },
         "action->Excavating Spines": {
           "name": "Excavating Spines",
-          "description": "<p>The magnegor inadvertently digs a 10-pies-deep continuous trench in any square it Wallows through, as long as the ground in that space isn't made of stone, rock, or some other surface too hard to excavate. The trench is greater difficult terrain. At the GM's discretion, any excavated square can reveal a deposit of sedimentary rock filled with metal ore that has Hardness 7 and 28 Puntos de Golpe.</p>"
+          "description": "<p>The magnegor inadvertently digs a 10-pies-deep continuous trench in any square it Wallows through, as long as the ground in that space isn't made of stone, rock, or some other surface too hard to excavate. The trench is greater difficult terrain. At the GM's discretion, any excavated square can reveal a deposit of sedimentary rock filled with metal ore that has Hardness 7 and 28 Puntos de golpe.</p>"
         },
         "action->Magnetized Coat": {
           "name": "Magnetized Coat",
@@ -954,7 +954,7 @@
         },
         "action->Wallow": {
           "name": "Wallow",
-          "description": "<p><strong>Requisitos</strong> The magnegor is @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}</p>\n<hr />\n<p><strong>Efecto</strong> The magnegor rolls on its spine-covered back, up to its Velocidad, furrowing the earth and crushing any Large or smaller criaturas in its path. Este deals @Damage[4d10[piercing]] daño with a @Check[reflex|dc:24|basic] salvación; on a failed save, a criatura wearing metal armor or made of metal is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado} by the magnegor's magnetized coat (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC 24). For each metal object or piece of equipment a restrained criatura chooses to leave stuck to the magnegor, it gains a +1 bonificador de circunstancia to its attempts to Escape. A criatura that relinquishes all its metal Escapes automatically. The magnegor can move at its full Velocidad while it has a criatura restrained in this way, bringing the criatura along.</p>"
+          "description": "<p><strong>Requisitos</strong> The magnegor is @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}</p>\n<hr />\n<p><strong>Efecto</strong> The magnegor rolls on its spine-covered back, up to its Velocidad, furrowing the earth and crushing any Large or smaller criaturas in its path. Este deals @Damage[4d10[piercing]] daño with a @Check[reflex|dc:24|basic] salvación; on a failed save, a criatura wearing metal armadura or made of metal is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado} by the magnegor's magnetized coat (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC 24). For each metal object or piece of equipment a restrained criatura chooses to leave stuck to the magnegor, it gains a +1 bonificador de circunstancia to its attempts to Escape. A criatura that relinquishes all its metal Escapes automatically. The magnegor can move at its full Velocidad while it has a criatura restrained in this way, bringing the criatura along.</p>"
         }
       }
     },
@@ -979,7 +979,7 @@
         },
         "action->Uncanny Climber": {
           "name": "Uncanny Climber",
-          "description": "<p>A magnetic gecko's pies allow it to CLIMB virtually any surface, no matter how slick or sheer. If a gecko attempts an ATHLETICS check to CLIMB and critically fails, it gets a failure instead.</p>"
+          "description": "<p>A magnetic gecko's pies allow it to CLIMB virtually any surface, no matter how slick or sheer. If a gecko attempts an ATHLETICS prueba to CLIMB and critically fails, it gets a failure instead.</p>"
         },
         "action->Launch Metal": {
           "name": "Launch Metal",
@@ -991,7 +991,7 @@
         },
         "action->Static Cling": {
           "name": "Static Cling",
-          "description": "<p>If the gecko hits Small or smaller criatura with its tongue, and el objetivo is made of metal or is wearing metallic armor, the gecko's tongue latches on to the criatura. The criatura must attempt a @Check[reflex|dc:17] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}. While the gecko is Grabbing a criatura in this way, it can attempt an @Check[athletics|defense:fortitude] check against el objetivo's Fortitude DC to pull the criatura to a space adjacent to the gecko. A criatura grabbed in this way can @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} normally.</p>"
+          "description": "<p>If the gecko hits Small or smaller criatura with its tongue, and el objetivo is made of metal or is wearing metallic armadura, the gecko's tongue latches on to the criatura. The criatura must attempt a @Check[reflex|dc:17] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}. While the gecko is Grabbing a criatura in this way, it can attempt an @Check[athletics|defense:fortitude] prueba against el objetivo's CD de Fortaleza to pull the criatura to a space adjacent to the gecko. A criatura grabbed in this way can @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} normally.</p>"
         }
       }
     },
@@ -1005,7 +1005,7 @@
         "strike-melee->Foot": {
           "name": "Foot"
         },
-        "action->Frightened Prey": {
+        "action->Asustado Prey": {
           "name": "Asustado Prey",
           "description": "<p>@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado} criaturas are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to a majungasaurus.</p>"
         },
@@ -1015,7 +1015,7 @@
         },
         "action->Crack Bones": {
           "name": "Crack Bones",
-          "description": "<p><strong>Requisitos</strong> The majungasaurus has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} in its jaws</p>\n<hr />\n<p><strong>Efecto</strong> The majungasaurus deals that criatura @Damage[3d8[bludgeoning]] daño (@Check[fortitude|dc:24|basic] salvación). A criatura that fails this save is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} until it recovers to full Puntos de Golpe.</p>"
+          "description": "<p><strong>Requisitos</strong> The majungasaurus has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} in its jaws</p>\n<hr />\n<p><strong>Efecto</strong> The majungasaurus deals that criatura @Damage[3d8[bludgeoning]] daño (@Check[fortitude|dc:24|basic] salvación). A criatura that fails this save is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} until it recovers to full Puntos de golpe.</p>"
         }
       }
     },
@@ -1040,7 +1040,7 @@
         },
         "action->Limb Regrowth": {
           "name": "Limb Regrowth",
-          "description": "<p>A healthy mammoth land star typically has five limbs. A criatura can sever a limb by targeting it and dealing daño equal to the limb's Puntos de Golpe. The mammoth land star can regrow a missing limb over the course of 24 horas.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Dby3ecpqPheBrgnT]{Efecto: Mammoth Land Star Limbs}</p>"
+          "description": "<p>A healthy mammoth land star typically has five limbs. A criatura can sever a limb by targeting it and dealing daño equal to the limb's Puntos de golpe. The mammoth land star can regrow a missing limb over the course of 24 horas.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Dby3ecpqPheBrgnT]{Efecto: Mammoth Land Star Limbs}</p>"
         },
         "action->Limbs": {
           "name": "Limbs",
@@ -1052,11 +1052,11 @@
         },
         "action->Detach": {
           "name": "Detach",
-          "description": "<p><strong>Requisitos</strong> The mammoth land star falls below half its total Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The mammoth land star severs one of its own limbs as a distraction, then Strides three times. Este movement no desencadena reacciones.</p>"
+          "description": "<p><strong>Requisitos</strong> The mammoth land star falls below half its total Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> The mammoth land star severs one of its own limbs as a distraction, then Strides three times. Este movement no desencadena reacciones.</p>"
         },
         "action->Digest": {
           "name": "Digest",
-          "description": "<p><strong>Requisitos</strong> The mammoth land star has a target @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}</p>\n<hr />\n<p><strong>Efecto</strong> The mammoth land star extrudes its stomach onto its prey and digests it alive. El objetivo takes @Damage[(2d12+6)[acid]] daño and is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1}.</p>"
+          "description": "<p><strong>Requisitos</strong> The mammoth land star has a objetivo @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}</p>\n<hr />\n<p><strong>Efecto</strong> The mammoth land star extrudes its stomach onto its prey and digests it alive. El objetivo takes @Damage[(2d12+6)[acid]] daño and is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1}.</p>"
         },
         "action->Glide": {
           "name": "Glide",
@@ -1064,7 +1064,7 @@
         },
         "action->Pry": {
           "name": "Pry",
-          "description": "<p><strong>Requisitos</strong> The mammoth land star has a target @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} that is wearing armor</p>\n<hr />\n<p><strong>Efecto</strong> The mammoth land star makes a pies Golpe against a criatura it has grabbed. If that Golpe hits and the criatura is wearing armor with Hardness 12 or lower, the armor is broken. Este Golpe doesn't further daño armor that's already broken.</p>"
+          "description": "<p><strong>Requisitos</strong> The mammoth land star has a objetivo @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} that is wearing armadura</p>\n<hr />\n<p><strong>Efecto</strong> The mammoth land star makes a pies Golpe against a criatura it has grabbed. If that Golpe hits and the criatura is wearing armadura with Hardness 12 or lower, the armadura is broken. Este Golpe doesn't further daño armadura that's already broken.</p>"
         },
         "action->Spiny Venom": {
           "name": "Spiny Venom",
@@ -1090,7 +1090,7 @@
         },
         "action->Gold?": {
           "name": "Gold?",
-          "description": "<p>The marp asks for gold from all criaturas in a @Template[emanation|distance:30]. Each target must attempt a @Check[will|dc:22] salvación or retrieve and drop gold valuables as a free action.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo can refuse the request, though they can also elige to willingly hand over any amount of gold. If they do so, they gain a +1 bonificador de estado to the next tirada de salvación they attempt within 1 minuto, and they're temporarily immune to Scampering Theft for 1 minuto.</p>\n<p><strong>Éxito</strong> El objetivo can refuse the request.</p>\n<p><strong>Fallo</strong> El objetivo must drop coins, gold jewelry, or other objects worth 20 gp.</p>\n<p><strong>Fallo crítico</strong> As failure, but 40 gp.</p>"
+          "description": "<p>The marp asks for gold from all criaturas in a @Template[emanation|distance:30]. Each objetivo must attempt a @Check[will|dc:22] salvación or retrieve and drop gold valuables as a free action.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo can refuse the request, though they can also elige to willingly hand over any amount of gold. If they do so, they gain a +1 bonificador de estado to the next tirada de salvación they attempt within 1 minuto, and they're temporarily immune to Scampering Theft for 1 minuto.</p>\n<p><strong>Éxito</strong> El objetivo can refuse the request.</p>\n<p><strong>Fallo</strong> El objetivo must drop coins, gold jewelry, or other objects worth 20 gp.</p>\n<p><strong>Fallo crítico</strong> As failure, but 40 gp.</p>"
         },
         "action->Scampering Theft": {
           "name": "Scampering Theft",
@@ -1102,10 +1102,10 @@
       "name": "Mirror Wolf",
       "languages": "habla verdadera",
       "items": {
-        "spellcastingEntry->Primal Innate Spells": {
-          "name": "Primal Innate Spells"
+        "spellcastingEntry->Primal Innate Conjuros": {
+          "name": "Primal Innate Conjuros"
         },
-        "spell->Truespeech (Constant)": {
+        "conjuro->Truespeech (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K]\nHabla verdadera (constante)"
         },
         "strike-melee->Jaws": {
@@ -1113,23 +1113,23 @@
         },
         "action->Visage Strike": {
           "name": "Visage Golpe",
-          "description": "<p><strong>Desencadenante</strong> A criatura adjacent to the mirror wolf's visages damages mirror wolf's ally</p>\n<hr />\n<p><strong>Efecto</strong> The mirror wolf teleports to the visage's spot, destroying the visage, and makes a jaws Golpe.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura adjacent to the mirror wolf's visages damages mirror wolf's aliado</p>\n<hr />\n<p><strong>Efecto</strong> The mirror wolf teleports to the visage's spot, destroying the visage, and makes a jaws Golpe.</p>"
         },
         "action->Bond with Mortal": {
           "name": "Vínculo con mortal",
-          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> The spirit guide spends 10 minutos to form a bond with a mortal criatura. While the bond exists, the spirit guide increases their current and maximum Puntos de Golpe by 14, gains a +2 bonificador de estado to their attack and tiradas de daño, and can communicate telepathically with the bonded mortal as long as the two beings are on the same plane. The spirit guide can only be bonded with one mortal at a time, and they can take this action again to end the bond or to form a new bond (which also ends the old bond). The bond also ends if the spirit guide or the mortal dies.</p>\n<p>Este bond strengthens the spirit guide's connection to the Universe. While bonded, the spirit guide loses the incorporeal and spirit rasgos, loses their immunity to disease, paralysis, and poison, along with their resistance to all daño, and changes their Golpes to deal the appropriate amount of daño físico (typically piercing or slashing) instead of daño de fuerza.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> The spirit guide spends 10 minutos to form a bond with a mortal criatura. While the bond exists, the spirit guide increases their current and maximum Puntos de golpe by 14, gains a +2 bonificador de estado to their attack and tiradas de daño, and can communicate telepathically with the bonded mortal as long as the two beings are on the same plane. The spirit guide can only be bonded with one mortal at a time, and they can take this action again to end the bond or to form a new bond (which also ends the old bond). The bond also ends if the spirit guide or the mortal dies.</p>\n<p>Este bond strengthens the spirit guide's connection to the Universe. While bonded, the spirit guide loses the incorporeal and spirit rasgos, loses their immunity to disease, paralysis, and poison, along with their resistance to all daño, and changes their Golpes to deal the appropriate amount of daño físico (typically piercing or slashing) instead of daño de fuerza.</p>"
         },
         "action->Bonded Strike": {
           "name": "Bonded Golpe",
-          "description": "<p><strong>Requisitos</strong> The mirror wolf is currently Bonded with a Mortal</p>\n<hr />\n<p><strong>Efecto</strong> The mirror wolf makes a jaws Golpe. If this attack hits, the bonded mortal can spend their reaction to Golpe the same target.</p>"
+          "description": "<p><strong>Requisitos</strong> The mirror wolf is currently Bonded with a Mortal</p>\n<hr />\n<p><strong>Efecto</strong> The mirror wolf makes a jaws Golpe. If this attack hits, the bonded mortal can spend their reaction to Golpe the same objetivo.</p>"
         },
         "action->Lingering Assailant": {
           "name": "Lingering Assailant",
-          "description": "<p>The mirror wolf attacks with such speed it leaves a visage of itself behind. When the mirror wolf Golpes, they leave behind a visage in an adjacent square. The visage is treated as an ally for effects such as flanking and pack attack. A visage has AC 10 and 1 HP and lasts for 1 asalto.</p>"
+          "description": "<p>The mirror wolf attacks with such speed it leaves a visage of itself behind. When the mirror wolf Golpes, they leave behind a visage in an adjacent square. The visage is treated as an aliado for effects such as flanking and pack attack. A visage has AC 10 and 1 HP and lasts for 1 asalto.</p>"
         },
         "action->Pack Attack": {
           "name": "Ataque en manada",
-          "description": "<p>The mirror wolf's Golpes deal 1d8 daño adicional to criaturas within reach of at least two of the mirror wolf's allies.</p>"
+          "description": "<p>The mirror wolf's Golpes deal 1d8 daño adicional to criaturas within reach of at least two of the mirror wolf's aliados.</p>"
         },
         "action->Strafing Strike": {
           "name": "Strafing Golpe",
@@ -1178,11 +1178,11 @@
         },
         "action->Head On": {
           "name": "Head On",
-          "description": "<p><strong>Desencadenante</strong> A criatura the mjolgat can see targets the mjolgat with an attack</p>\n<hr />\n<p><strong>Efecto</strong> The mjolgat swings its crest in the direction of the danger, gaining a +2 bonificador de circunstancia to AC against el ataque desencadenante.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura the mjolgat can see objetivos the mjolgat with an attack</p>\n<hr />\n<p><strong>Efecto</strong> The mjolgat swings its crest in the direction of the danger, gaining a +2 bonificador de circunstancia to AC against el ataque desencadenante.</p>"
         },
         "action->Hammerhead": {
           "name": "Hammerhead",
-          "description": "<p>The mjolgat rears upon its hind leg to crush an enemigo with its jagged crest of bone. The mjolgat makes a bone crest Golpe; on a hit, the mjolgat deals an extra die of daño. Este counts as two attacks when calculating the mjolgat's multiple attack penalización</p>"
+          "description": "<p>The mjolgat rears upon its hind leg to crush an enemigo with its jagged crest of bone. The mjolgat makes a bone crest Golpe; on a hit, the mjolgat deals an extra die of daño. Este counts as two attacks when calculating the mjolgat's multiple attack penalizador</p>"
         },
         "action->Punch-Drunk": {
           "name": "Punch-Drunk",
@@ -1203,7 +1203,7 @@
       "acDetails": "vision en todas direcciones",
       "hpDetails": "regeneracion de hidra",
       "languages": "todos (see uncanny mimicry)",
-      "publicNotes": "<p>Among the many unique criaturas of the Inner Sea, the hydras known as mocking choruses that stalk the River Kingdoms may be one of the most reviled. While as ferocious in direct combat as others of their kind, chorusus are a singular type of challenge for warriors that hunt them due not to their sharp teeth, but instead a sharp and subtle tongue. Their strangely cunning tactics and power to turn longtime friends into bitter enemies brings doubt to even the closest of allies.</p>\n<p>Mocking choruses exhibit behavior that seem to indicate a more elevated INTELLIGENCE than other hydras. They do not appear to eat in large quantities, leaving little sign they have passed by and spurring rumors that they prey on settlements more for sport than sustenance. Every few years sees a new story of a whole village turning on itself. Neighbor against neighbor, the village tears itself apart; some go missing, and only the sounds of hissing laughter precede the event.</p>",
+      "publicNotes": "<p>Among the many unique criaturas of the Inner Sea, the hydras known as mocking choruses that stalk the River Kingdoms may be one of the most reviled. While as ferocious in direct combat as others of their kind, chorusus are a singular type of challenge for warriors that hunt them due not to their sharp teeth, but instead a sharp and subtle tongue. Their strangely cunning tactics and power to turn longtime friends into bitter enemigos brings doubt to even the closest of aliados.</p>\n<p>Mocking choruses exhibit behavior that seem to indicate a more elevated INTELLIGENCE than other hydras. They do not appear to eat in large quantities, leaving little sign they have passed by and spurring rumors that they prey on settlements more for sport than sustenance. Every few years sees a new story of a whole village turning on itself. Neighbor against neighbor, the village tears itself apart; some go missing, and only the sounds of hissing laughter precede the event.</p>",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -1217,11 +1217,11 @@
         },
         "action->Hydra Regeneration": {
           "name": "Hydra Regeneración",
-          "description": "<p>The hydra has regeneration equal to 3 × the number of heads it has. If a hydra's body is missing any heads and the remaining stumps have not been cauterized, the hydra attempts a @Check[fortitude|immutable:true|dc:43] salvación after it regains Puntos de Golpe from regeneration. On a success, one uncauterized stump regrows two heads; on a critical success, two uncauterized stumps regrow into two heads each. The hydra can never grow more than double the number of heads it ordinarily has. The hydra's regeneration only fully deactivates if all its heads are severed and all stumps are cauterized, at which point it dies.</p>"
+          "description": "<p>The hydra has regeneration equal to 3 × the number of heads it has. If a hydra's body is missing any heads and the remaining stumps have not been cauterized, the hydra attempts a @Check[fortitude|immutable:true|dc:43] salvación after it regains Puntos de golpe from regeneration. On a success, one uncauterized stump regrows two heads; on a critical success, two uncauterized stumps regrow into two heads each. The hydra can never grow more than double the number of heads it ordinarily has. The hydra's regeneration only fully deactivates if all its heads are severed and all stumps are cauterized, at which point it dies.</p>"
         },
         "action->Head Regrowth": {
           "name": "Head Regrowth",
-          "description": "<p>A mocking chorus ordinarily has ten heads. A criatura can attempt to sever one of the hydra's heads by specifically targeting it and dealing daño equal to the head's Puntos de Golpe. A head that is not completely severed returns to full Puntos de Golpe at the end of any criatura's turn. A hydra can regrow a severed head using hydra regeneration. A criatura can prevent this regrowth by dealing acid or daño de fuego to the stump, cauterizing it. Single-target acid or fire effects need to be targeted at a specific stump, but effects that deal daño de salpicadura or affect areas covering the hydra's whole space cauterize all stumps if they deal acid or daño de fuego. If the attack that severs a head deals any acid or daño de fuego, the stump is cauterized instantly. If all ten heads are cauterized, the hydra dies.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uZJOdounIHaFDC1t]{Efecto: Hydra Heads}</p>"
+          "description": "<p>A mocking chorus ordinarily has ten heads. A criatura can attempt to sever one of the hydra's heads by specifically targeting it and dealing daño equal to the head's Puntos de golpe. A head that is not completely severed returns to full Puntos de golpe at the end of any criatura's turn. A hydra can regrow a severed head using hydra regeneration. A criatura can prevent this regrowth by dealing acid or daño de fuego to the stump, cauterizing it. Single-objetivo acid or fire effects need to be targeted at a specific stump, but effects that deal daño de salpicadura or affect areas covering the hydra's whole space cauterize all stumps if they deal acid or daño de fuego. If the attack that severs a head deals any acid or daño de fuego, the stump is cauterized instantly. If all ten heads are cauterized, the hydra dies.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uZJOdounIHaFDC1t]{Efecto: Hydra Heads}</p>"
         },
         "action->Mocking Chorus Head": {
           "name": "Mocking Chorus Head",
@@ -1233,7 +1233,7 @@
         },
         "action->Petty Whispers": {
           "name": "Petty Whispers",
-          "description": "<p>The mocking chorus adopts the voices of its enemies, spreading lies and jeers among would-be allies and tearing apart trusted friends. Las criaturas in a @Template[emanation|distance:60] of the mocking chorus must attempt a @Check[will|dc:37] salvación. The mocking chorus can't use petty whispers again for 1 minuto.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected and is temporarily immune for 1 día.</p>\n<p><strong>Éxito</strong> As failure, but the criatura takes half daño and is not @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confundido}.</p>\n<p><strong>Fallo</strong> The criatura takes @Damage[12d10[mental]] daño and is confused for 1 minuto. It can attempt a new save at the end of each of its turns to end the confusion.</p>\n<p><strong>Fallo crítico</strong> The criatura takes @Damage[15d10[mental]] daño and is confused for 1 minuto, with no save to end early.</p>"
+          "description": "<p>The mocking chorus adopts the voices of its enemigos, spreading lies and jeers among would-be aliados and tearing apart trusted friends. Las criaturas in a @Template[emanation|distance:60] of the mocking chorus must attempt a @Check[will|dc:37] salvación. The mocking chorus can't use petty whispers again for 1 minuto.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected and is temporarily immune for 1 día.</p>\n<p><strong>Éxito</strong> As failure, but the criatura takes half daño and is not @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confundido}.</p>\n<p><strong>Fallo</strong> The criatura takes @Damage[12d10[mental]] daño and is confused for 1 minuto. It can attempt a new save at the end of each of its turns to end the confusion.</p>\n<p><strong>Fallo crítico</strong> The criatura takes @Damage[15d10[mental]] daño and is confused for 1 minuto, with no save to end early.</p>"
         }
       }
     },
@@ -1261,7 +1261,7 @@
         },
         "action->Shattering Scrape": {
           "name": "Shattering Scrape",
-          "description": "<p>The morthak makes a claw Golpe against a criatura wearing stone or metal armor. If the Golpe hits and the armor's Hardness is 12 or lower, that armor is broken.</p>"
+          "description": "<p>The morthak makes a claw Golpe against a criatura wearing stone or metal armadura. If the Golpe hits and the armadura's Hardness is 12 or lower, that armadura is broken.</p>"
         }
       }
     },
@@ -1271,10 +1271,10 @@
       "languages": "no puede hablar ningún idioma",
       "publicNotes": "<p>El death de un unicorn en un particularly cruel manner leads a el creation de un pale horse—un symbol de hope y purity transformed into one de hopelessness y despair.</p>",
       "items": {
-        "spellcastingEntry->Occult Innate Spells": {
-          "name": "Occult Innate Spells"
+        "spellcastingEntry->Occult Innate Conjuros": {
+          "name": "Occult Innate Conjuros"
         },
-        "spell->Darkness (At-Will)": {
+        "conjuro->Darkness (At-Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]\nDarkness (At-Will)"
         },
         "strike-melee->Spectral Horn": {
@@ -1328,7 +1328,7 @@
         },
         "action->Towering Bite": {
           "name": "Towering Bite",
-          "description": "<p>The plated python lunges to its full length, making a jaws Golpe with a reach of 60 pies. If the Golpe hits, its target is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} and pulled to an empty space adjacent to the plated python. The python can attack through any material it can burrow through, leaving a stone tunnel as normal.</p>"
+          "description": "<p>The plated python lunges to its full length, making a jaws Golpe with a reach of 60 pies. If the Golpe hits, its objetivo is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} and pulled to an empty space adjacent to the plated python. The python can attack through any material it can burrow through, leaving a stone tunnel as normal.</p>"
         }
       }
     },
@@ -1346,7 +1346,7 @@
         },
         "action->Hydra Regeneration": {
           "name": "Hydra Regeneración",
-          "description": "<p>The hydra has regeneration equal to 3 × the number of heads it has. If a hydra's body is missing any heads and the remaining stumps have not been cauterized, the hydra attempts a @Check[fortitude|immutable:true|dc:39] salvación after it regains Puntos de Golpe from regeneration. On a success, one uncauterized stump regrows two heads; on a critical success, two uncauterized stumps regrow into two heads each. The hydra can never grow more than double the number of heads it ordinarily has. The hydra's regeneration only fully deactivates if all its heads are severed and all stumps are cauterized, at which point it dies.</p>"
+          "description": "<p>The hydra has regeneration equal to 3 × the number of heads it has. If a hydra's body is missing any heads and the remaining stumps have not been cauterized, the hydra attempts a @Check[fortitude|immutable:true|dc:39] salvación after it regains Puntos de golpe from regeneration. On a success, one uncauterized stump regrows two heads; on a critical success, two uncauterized stumps regrow into two heads each. The hydra can never grow more than double the number of heads it ordinarily has. The hydra's regeneration only fully deactivates if all its heads are severed and all stumps are cauterized, at which point it dies.</p>"
         },
         "action->Prismatic Backlash": {
           "name": "Prismatic Backlash",
@@ -1354,7 +1354,7 @@
         },
         "action->Prismatic Head Regrowth": {
           "name": "Prismatic Head Regrowth",
-          "description": "<p>A prismhydra ordinarily has eight heads. A criatura can attempt to sever one of the hydra's heads by specifically targeting it and dealing daño equal to the head's Puntos de Golpe. A head that is not completely severed returns to full Puntos de Golpe at the end of any criatura's turn. A hydra can regrow a severed head using hydra regeneration.</p>\n<p>Each head requires a different type of daño to cauterize; typically, two heads each are vulnerable to acid, cold, electricity, and daño de fuego, but other combinations or more exotic vulnerabilities are possible. When a prismhydra successfully regrows heads, all the heads regrown have the same vulnerability, which must be the same as the vulnerability of one of the prismhydra's unsevered heads.</p>\n<p>If all eight heads are cauterized, the hydra dies.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uZJOdounIHaFDC1t]{Efecto: Hydra Heads}</p>"
+          "description": "<p>A prismhydra ordinarily has eight heads. A criatura can attempt to sever one of the hydra's heads by specifically targeting it and dealing daño equal to the head's Puntos de golpe. A head that is not completely severed returns to full Puntos de golpe at the end of any criatura's turn. A hydra can regrow a severed head using hydra regeneration.</p>\n<p>Each head requires a different type of daño to cauterize; typically, two heads each are vulnerable to acid, cold, electricity, and daño de fuego, but other combinations or more exotic vulnerabilities are possible. When a prismhydra successfully regrows heads, all the heads regrown have the same vulnerability, which must be the same as the vulnerability of one of the prismhydra's unsevered heads.</p>\n<p>If all eight heads are cauterized, the hydra dies.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uZJOdounIHaFDC1t]{Efecto: Hydra Heads}</p>"
         },
         "action->Prismhydra Heads": {
           "name": "Prismhydra Heads",
@@ -1382,11 +1382,11 @@
         },
         "action->Defensive Posture": {
           "name": "Defensive Posture",
-          "description": "<p>The protoceratops tucks in its head and presents its sturdy frill, granting a +1 bonificador de circunstancia to AC adjacent allies. The protoceratops remains in its Defensive Posture until the start of its next turn, but only grants the bonus while allies remain adjacent</p>"
+          "description": "<p>The protoceratops tucks in its head and presents its sturdy frill, granting a +1 bonificador de circunstancia to AC adjacent aliados. The protoceratops remains in its Defensive Posture until the start of its next turn, but only grants the bonus while aliados remain adjacent</p>"
         },
         "action->Frill Block": {
           "name": "Frill Block",
-          "description": "<p><strong>Requisitos</strong> The protoceratops is in its Defensive Posture</p>\n<p><strong>Desencadenante</strong> An adjacent ally would take daño from a physical attack</p>\n<hr />\n<p><strong>Efecto</strong> The protoceratops partially blocks the blow with its frill, reducing the daño by 5.</p>"
+          "description": "<p><strong>Requisitos</strong> The protoceratops is in its Defensive Posture</p>\n<p><strong>Desencadenante</strong> An adjacent aliado would take daño from a physical attack</p>\n<hr />\n<p><strong>Efecto</strong> The protoceratops partially blocks the blow with its frill, reducing the daño by 5.</p>"
         }
       }
     },
@@ -1477,7 +1477,7 @@
     },
     "Rumindrol": {
       "name": "Rumindrol",
-      "publicNotes": "<p>The elusive rumindrol, an apex predator of the Darklands, lives deep below the surface of Golarion. Capable of emitting siren-like calls that reverberate far and wide through the tunnel systems surrounding its lair, a rumindrol feasts on the giant subterranean worms drawn to its call—as well as shulns and other criaturas that feed in the worms' wake—by building up sickening subsonic vibrations within its targets until they are unable to move.</p>",
+      "publicNotes": "<p>The elusive rumindrol, an apex predator of the Darklands, lives deep below the surface of Golarion. Capable of emitting siren-like calls that reverberate far and wide through the tunnel systems surrounding its lair, a rumindrol feasts on the giant subterranean worms drawn to its call—as well as shulns and other criaturas that feed in the worms' wake—by building up sickening subsonic vibrations within its objetivos until they are unable to move.</p>",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -1502,7 +1502,7 @@
         },
         "action->Entropic Cry": {
           "name": "Entropic Cry",
-          "description": "<p>The rumindrol focuses its sonic emanations on a criatura it's aware of within the area of its enthralling call aura. El objetivo must attempt a @Check[fortitude|dc:31] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura becomes temporarily immune to Entropic Cry for 1 hora.</p>\n<p><strong>Éxito</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}.</p>\n<p><strong>Fallo</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 2}.</p>\n<p><strong>Fallo crítico</strong> El objetivo is sickened 2, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1}, and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 1}.</p>"
+          "description": "<p>The rumindrol focuses its sonic emanations on a criatura it's aware of within the area of its enthralling call aura. El objetivo must attempt a @Check[fortitude|dc:31] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura becomes temporarily immune to Entropic Cry for 1 hora.</p>\n<p><strong>Éxito</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}.</p>\n<p><strong>Fallo</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 2}.</p>\n<p><strong>Fallo crítico</strong> El objetivo is indispuesto 2, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1}, and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 1}.</p>"
         },
         "action->Fast Swallow": {
           "name": "Tragar rápido",
@@ -1517,7 +1517,7 @@
         },
         "action->Thrash": {
           "name": "Apalizar",
-          "description": "<p>The rumindrol attempts individual Golpes against each criatura in its reach. It can attempt up to one jaws Golpe and any number of leg Golpes. Each attack counts toward the rumindrol's multiple attack penalización, but the penalización doesn't increase until after it makes all the attacks.</p>"
+          "description": "<p>The rumindrol attempts individual Golpes against each criatura in its reach. It can attempt up to one jaws Golpe and any number of leg Golpes. Each attack counts toward the rumindrol's multiple attack penalizador, but the penalizador doesn't increase until after it makes all the attacks.</p>"
         },
         "action->Trample": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\n<p>Huge or smaller, leg, @Check[reflex|dc:36|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
@@ -1526,7 +1526,7 @@
     },
     "Scroungefeather": {
       "name": "Scroungefeather",
-      "publicNotes": "<p>The large scavenger birds known as scroungefeathers make their homes near the sites of large battles. Estos birds feast on blood and carrion and have quickly learned that battlefields provide both in abundance. In spite of this grisly diet, they're best known for another strange adaptation: they build their nests from pieces of armor, armas, and magic items scavenged on the battlefields. Este leaves young scroungefeathers remarkably well protected, allowing both parents to leave the nest to search for food.</p>\n<p>Alarmingly, scroungefeathers have learned how to use the items they scavenge for their nests to fend off attackers, flinging arrowheads, thrashing about with knives, and even activating the occasional wand. A scroungefeather nest makes a tempting target for adventurers and thieves, as the treasures tucked within can be quite valuable, but the birds defend their nests fiercely, particularly when there are eggs or chicks inside.</p>\n<p>While the feathers of scroungefeathers don't have any magical properties, they're popular among thieves. Insignia for thieves' guilds often include the image of a black feather with two crimson stripes, and such organizations often send new recruits to raid a scroungefeather nest as part of their training.</p>",
+      "publicNotes": "<p>The large scavenger birds known as scroungefeathers make their homes near the sites of large battles. Estos birds feast on blood and carrion and have quickly learned that battlefields provide both in abundance. In spite of this grisly diet, they're best known for another strange adaptation: they build their nests from pieces of armadura, armas, and magic items scavenged on the battlefields. Este leaves young scroungefeathers remarkably well protected, allowing both parents to leave the nest to search for food.</p>\n<p>Alarmingly, scroungefeathers have learned how to use the items they scavenge for their nests to fend off attackers, flinging arrowheads, thrashing about with knives, and even activating the occasional wand. A scroungefeather nest makes a tempting objetivo for adventurers and thieves, as the treasures tucked within can be quite valuable, but the birds defend their nests fiercely, particularly when there are eggs or chicks inside.</p>\n<p>While the feathers of scroungefeathers don't have any magical properties, they're popular among thieves. Insignia for thieves' guilds often include the image of a black feather with two crimson stripes, and such organizations often send new recruits to raid a scroungefeather nest as part of their training.</p>",
       "items": {
         "strike-melee->Beak": {
           "name": "Beak"
@@ -1540,11 +1540,11 @@
         },
         "action->Tossed Scraps": {
           "name": "Tossed Scraps",
-          "description": "<p><strong>Requisitos</strong> The scroungefeather has Grabbed Debris</p>\n<hr />\n<p><strong>Efecto</strong> The scroungefeather flings the debris at a target within 20 pies, making an tirada de ataque with a +12 modifier. On a success, el objetivo takes @Damage[(2d10+5)[bludgeoning]] daño.</p>"
+          "description": "<p><strong>Requisitos</strong> The scroungefeather has Grabbed Debris</p>\n<hr />\n<p><strong>Efecto</strong> The scroungefeather flings the debris at a objetivo within 20 pies, making an tirada de ataque with a +12 modifier. On a success, el objetivo takes @Damage[(2d10+5)[bludgeoning]] daño.</p>"
         },
         "action->Grab Debris": {
           "name": "Grab Debris",
-          "description": "<p><strong>Requisitos</strong> The scroungefeather is in its nest or another environment rich with debris</p>\n<hr />\n<p><strong>Efecto</strong> The scroungefeather uses an INTERACT action to GRAB an item with its beak, selected randomly; roll 1d4 to determine the type of debris. The scroungefeather gains access to the listed abilities until it uses Tossed Scraps to discard the debris or until it Releases the debris. The scroungefeather can't use its beak attack while it is using its beak to GRAB Debris.</p>\n<table class=\"pf2e remaster\">\n<thead>\n<tr>\n<th>d4</th>\n<th>Item</th>\n<th>Efecto</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Armor scrap</td>\n<td>The scroungefeather gains a +2 bonificador de circunstancia to its AC.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Shattered blade</td>\n<td>The scroungefeather gains a broken blade melee Golpe with a +12 attack modifier that deals 2d10+6 daño cortante.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Unexploded bomb</td>\n<td>When the scroungefeather throws this with Tossed Scraps, all the daño is daño de fuego, and the bomb also deals 3 daño de salpicadura de fuego.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Faulty wand</td>\n<td>The scroungefeather gains a magic bolt ranged Golpe witha +14 attack modifier that deals 2d6+6 daño de fuerza.</td>\n</tr>\n</tbody>\n</table>",
+          "description": "<p><strong>Requisitos</strong> The scroungefeather is in its nest or another environment rich with debris</p>\n<hr />\n<p><strong>Efecto</strong> The scroungefeather uses an INTERACT action to GRAB an item with its beak, selected randomly; roll 1d4 to determine the type of debris. The scroungefeather gains access to the listed abilities until it uses Tossed Scraps to discard the debris or until it Releases the debris. The scroungefeather can't use its beak attack while it is using its beak to GRAB Debris.</p>\n<table class=\"pf2e remaster\">\n<thead>\n<tr>\n<th>d4</th>\n<th>Item</th>\n<th>Efecto</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Armadura scrap</td>\n<td>The scroungefeather gains a +2 bonificador de circunstancia to its AC.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Shattered blade</td>\n<td>The scroungefeather gains a broken blade melee Golpe with a +12 attack modifier that deals 2d10+6 daño cortante.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Unexploded bomb</td>\n<td>When the scroungefeather throws this with Tossed Scraps, all the daño is daño de fuego, and the bomb also deals 3 daño de salpicadura de fuego.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Faulty wand</td>\n<td>The scroungefeather gains a magic bolt ranged Golpe witha +14 attack modifier that deals 2d6+6 daño de fuerza.</td>\n</tr>\n</tbody>\n</table>",
           "selfEffect": "Efecto: GRAB Debris"
         }
       }
@@ -1564,7 +1564,7 @@
         },
         "action->Telepathic Link": {
           "name": "Telepathic Link",
-          "description": "<p>A rider who would tame a shotalashu for a mount must first form a telepathic link with it. Establishing this link require spending a week with the desired mount and succeeding at a @Check[occultism|dc:21] check. Any criatura with telepathic capabilities, such as telepathy, touch telepathy, empathic sense, or the ability to cast conjuros such as @UUID[Compendium.pf2e.spells-srd.Item.HqTI6wRrck1YXp3F]{Telepathy}, gains a +4 bonificador de circunstancia to this check. Este link remains and neither can form a new link until one member dies. The shock of a partner dying leaves the survivor @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 2} for 24 horas and prevents forming a new link for at least a month.</p>"
+          "description": "<p>A rider who would tame a shotalashu for a mount must first form a telepathic link with it. Establishing this link require spending a week with the desired mount and succeeding at a @Check[occultism|dc:21] prueba. Any criatura with telepathic capabilities, such as telepathy, touch telepathy, empathic sense, or the ability to cast conjuros such as @UUID[Compendium.pf2e.spells-srd.Item.HqTI6wRrck1YXp3F]{Telepathy}, gains a +4 bonificador de circunstancia to this prueba. Este link remains and neither can form a new link until one member dies. The shock of a partner dying leaves the survivor @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 2} for 24 horas and prevents forming a new link for at least a month.</p>"
         },
         "action->Jungle Stride": {
           "name": "Jungle Zancada",
@@ -1572,7 +1572,7 @@
         },
         "action->Telepathic Pounce": {
           "name": "Telepathic Pounce",
-          "description": "<p>The shotalashu hunts by pinning its foes with its mind. One criatura within 30 pies must attempt a @Check[will|dc:18] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura takes a –5 pies penalización de estado to its Velocidades for one round.</p>\n<p><strong>Fallo</strong> The criatura takes a –10 pies penalización de estado to its Velocidades for one round. The shotalashu can then @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}.</p>\n<p><strong>Fallo crítico</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} and @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} for one round. The shotalashu can Leap.</p>"
+          "description": "<p>The shotalashu hunts by pinning its foes with its mind. One criatura within 30 pies must attempt a @Check[will|dc:18] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura takes a –5 pies penalizador de estado to its Velocidades for one round.</p>\n<p><strong>Fallo</strong> The criatura takes a –10 pies penalizador de estado to its Velocidades for one round. The shotalashu can then @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}.</p>\n<p><strong>Fallo crítico</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} and @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} for one round. The shotalashu can Leap.</p>"
         }
       }
     },
@@ -1585,11 +1585,11 @@
         },
         "action->Transparency": {
           "name": "Transparency",
-          "description": "<p>Unless it has fed recently, the sky fisher is naturally @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}. Using non-hostile actions does not cause the sky fisher to become @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido}. When it takes a hostile action of any kind, the sky fisher is hidden instead of @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{No detectado} until the start of its next turn, as the vague outline of its many tendrils temporarily becomes faintly visible.</p>"
+          "description": "<p>Unless it has fed recently, the sky fisher is naturally @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}. Using non-hostile actions does not cause the sky fisher to become @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido}. When it takes a hostile action of any kind, the sky fisher is escondido instead of @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{No detectado} until the start of its next turn, as the vague outline of its many tendrils temporarily becomes faintly visible.</p>"
         },
         "action->Abduct": {
           "name": "Abduct",
-          "description": "<p>The sky fisher reels in a target @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} by its tentacles, pulling them into an adjacent space, and then attempts to @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]{Swallow them Whole} (Large, @Damage[(3d8+12)[acid]], Rupture 25). The sky fisher can only use Swallow Whole when using Abduct.</p>"
+          "description": "<p>The sky fisher reels in a objetivo @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} by its tentacles, pulling them into an adjacent space, and then attempts to @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]{Swallow them Whole} (Large, @Damage[(3d8+12)[acid]], Rupture 25). The sky fisher can only use Swallow Whole when using Abduct.</p>"
         },
         "action->Enzymic Vent": {
           "name": "Enzymic Vent",
@@ -1677,15 +1677,15 @@
         },
         "action->Skymetal Metamorphosis": {
           "name": "Skymetal Metamorphosis",
-          "description": "<p>Each stargut hydra has at least one metamorphosis resulting from consuming a specific skymetal and internalizing its properties. If tú give a stargut hydra more than one metamorphosis, tú should consider increasing its level and changing its statistics.</p>\n<p><strong>@UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.Bds5RP9grJxhZALW]{Adamantine}</strong> The stargut hydra's Golpes bypass Hardness and are treated as adamantine. The stargut hydra gains resistance 10 to daño físico (except adamantine).</p>\n<p><strong>@UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.lFRU108HnGlnMwqS]{Abysium}</strong> (aura, poison) The stargut hydra emits an aura of nauseating radiation from the abysium in its body. Any criatura that begins its turn within 30 pies of the stargut hydra is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}.</p>\n<p><strong>@UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.N4l6y6v9pKy8Nj5i]{Djezet}</strong> (magical) The stargut hydra gains a +2 bonificador de estado to saves against magic.</p>\n<p><strong>@UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.5bRdhgghjtWF1Vuu]{Inubrix}</strong> The stargut hydra's Golpes ignore resistance to daño from metal armor's armor specialization effects and do not trigger the Shield Block reaction or reactions from armor property runes.</p>\n<p><strong>@UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.sTlptNnUX2eA0DIH]{Noqual}</strong> The stargut hydra's Golpes and abilities gain a +2 bonificador de estado to daño against criaturas with the ability to Lanzar un conjuro.</p>\n<p><strong>@UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.6Z0v9Tsthm9hyzb3]{orichalcum}</strong> When the stargut hydra has only two heads remaining, it is @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Acelerado}. It can use the extra action only to Zancada or Golpe.</p>\n<p><strong>@UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.SXJRjw4R8m7NPDGc]{Siccatite}</strong> After the stargut hydra takes daño de fuego, it becomes superheated, gaining immunity to fire and weakness 10 to cold. While superheated, daño de frío can be used to cauterize a stump. After the stargut hydra takes daño de frío, it becomes chilled, gaining immunity to cold and weakness 10 to fire.</p>"
+          "description": "<p>Each stargut hydra has at least one metamorphosis resulting from consuming a specific skymetal and internalizing its properties. If tú give a stargut hydra more than one metamorphosis, tú should consider increasing its nivel and changing its statistics.</p>\n<p><strong>@UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.Bds5RP9grJxhZALW]{Adamantine}</strong> The stargut hydra's Golpes bypass Hardness and are treated as adamantine. The stargut hydra gains resistance 10 to daño físico (except adamantine).</p>\n<p><strong>@UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.lFRU108HnGlnMwqS]{Abysium}</strong> (aura, poison) The stargut hydra emits an aura of nauseating radiation from the abysium in its body. Any criatura that begins its turn within 30 pies of the stargut hydra is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}.</p>\n<p><strong>@UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.N4l6y6v9pKy8Nj5i]{Djezet}</strong> (magical) The stargut hydra gains a +2 bonificador de estado to saves against magic.</p>\n<p><strong>@UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.5bRdhgghjtWF1Vuu]{Inubrix}</strong> The stargut hydra's Golpes ignore resistance to daño from metal armadura's armadura specialization effects and do not trigger the Shield Block reaction or reactions from armadura property runes.</p>\n<p><strong>@UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.sTlptNnUX2eA0DIH]{Noqual}</strong> The stargut hydra's Golpes and abilities gain a +2 bonificador de estado to daño against criaturas with the ability to Lanzar un conjuro.</p>\n<p><strong>@UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.6Z0v9Tsthm9hyzb3]{orichalcum}</strong> When the stargut hydra has only two heads remaining, it is @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Acelerado}. It can use the extra action only to Zancada or Golpe.</p>\n<p><strong>@UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.SXJRjw4R8m7NPDGc]{Siccatite}</strong> After the stargut hydra takes daño de fuego, it becomes superheated, gaining immunity to fire and weakness 10 to cold. While superheated, daño de frío can be used to cauterize a stump. After the stargut hydra takes daño de frío, it becomes chilled, gaining immunity to cold and weakness 10 to fire.</p>"
         },
         "action->Hydra Regeneration": {
           "name": "Hydra Regeneración",
-          "description": "<p>The stargut hydra has regeneration equal to 3 × the number of heads it has. If a hydra's body is missing any heads and the remaining stumps have not been cauterized, the hydra attempts a @Check[fortitude|immutable:true|dc:29] salvación after it regains Puntos de Golpe from regeneration. On a success, one uncauterized stump regrows two heads; on a critical success, two uncauterized stumps regrow into two heads each. The hydra can never grow more than double the number of heads it ordinarily has. The hydra's regeneration only fully deactivates if all its heads are severed and all stumps are cauterized, at which point it dies.</p>"
+          "description": "<p>The stargut hydra has regeneration equal to 3 × the number of heads it has. If a hydra's body is missing any heads and the remaining stumps have not been cauterized, the hydra attempts a @Check[fortitude|immutable:true|dc:29] salvación after it regains Puntos de golpe from regeneration. On a success, one uncauterized stump regrows two heads; on a critical success, two uncauterized stumps regrow into two heads each. The hydra can never grow more than double the number of heads it ordinarily has. The hydra's regeneration only fully deactivates if all its heads are severed and all stumps are cauterized, at which point it dies.</p>"
         },
         "action->Head Regrowth": {
           "name": "Head Regrowth",
-          "description": "<p>A stargut hydra ordinarily has five heads. A criatura can attempt to sever one of the hydra's heads by specifically targeting it and dealing daño equal to the head's Puntos de Golpe. A head that is not completely severed returns to full Puntos de Golpe at the end of any criatura's turn. A hydra can regrow a severed head using hydra regeneration. A criatura can prevent this regrowth by dealing acid or daño de fuego to the stump, cauterizing it. Single-target acid or fire effects need to be targeted at a specific stump, but effects that deal daño de salpicadura or affect areas covering the hydra's whole space cauterize all stumps if they deal acid or daño de fuego. If the attack that severs a head deals any acid or daño de fuego, the stump is cauterized instantly. If all five heads are cauterized, the hydra dies.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uZJOdounIHaFDC1t]{Efecto: Hydra Heads}</p>"
+          "description": "<p>A stargut hydra ordinarily has five heads. A criatura can attempt to sever one of the hydra's heads by specifically targeting it and dealing daño equal to the head's Puntos de golpe. A head that is not completely severed returns to full Puntos de golpe at the end of any criatura's turn. A hydra can regrow a severed head using hydra regeneration. A criatura can prevent this regrowth by dealing acid or daño de fuego to the stump, cauterizing it. Single-objetivo acid or fire effects need to be targeted at a specific stump, but effects that deal daño de salpicadura or affect areas covering the hydra's whole space cauterize all stumps if they deal acid or daño de fuego. If the attack that severs a head deals any acid or daño de fuego, the stump is cauterized instantly. If all five heads are cauterized, the hydra dies.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uZJOdounIHaFDC1t]{Efecto: Hydra Heads}</p>"
         },
         "action->Reactive Heads": {
           "name": "Reactive Heads",
@@ -1760,7 +1760,7 @@
         },
         "action->Petrify Body Part": {
           "name": "Petrify Body Part",
-          "description": "<p>The stony bat breathes a puff of petrifying gas onto an adjacent criatura, targeting a specific body part. El objetivo must succeed at a @Check[fortitude|dc:20] salvación or be partially petrified for 1 minuto, with an effect varying with the body part targeted.</p>\n<ul>\n<li><strong>Face</strong> The criatura's face stiffens and a film of stone partially blocks its vision. It is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado}.</li>\n<li><strong>Hand</strong> One of the criatura's hands is petrified. It cannot Release items from that hand or use the hand for fine manipulation. Attack rolls with armas held in that hand take a –2 penalización de estado.</li>\n<li><strong>Leg</strong> A patch of the criatura's leg becomes inflexible and heavy. It takes a –10 penalización de estado to its Velocidad. If all of the criatura's legs become petrified in this way, the criatura's Velocidad is reduced down to 5 pies. At the GM's discretion, a criatura with movement that doesn't rely on legs, such as criaturas that Fly with wings, don't take a penalización to these other Velocidades.\n\n</li>\n</ul>"
+          "description": "<p>The stony bat breathes a puff of petrifying gas onto an adjacent criatura, targeting a specific body part. El objetivo must succeed at a @Check[fortitude|dc:20] salvación or be partially petrified for 1 minuto, with an effect varying with the body part targeted.</p>\n<ul>\n<li><strong>Face</strong> The criatura's face stiffens and a film of stone partially blocks its vision. It is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado}.</li>\n<li><strong>Hand</strong> One of the criatura's hands is petrified. It cannot Release items from that hand or use the hand for fine manipulation. Attack rolls with armas held in that hand take a –2 penalizador de estado.</li>\n<li><strong>Leg</strong> A patch of the criatura's leg becomes inflexible and heavy. It takes a –10 penalizador de estado to its Velocidad. If all of the criatura's legs become petrified in this way, the criatura's Velocidad is reduced down to 5 pies. At the GM's discretion, a criatura with movement that doesn't rely on legs, such as criaturas that Fly with wings, don't take a penalizador to these other Velocidades.\n\n</li>\n</ul>"
         },
         "action->Petrify Vapor": {
           "name": "Petrify Vapor",
@@ -1768,7 +1768,7 @@
         },
         "action->Stone Feast": {
           "name": "Stone Feast",
-          "description": "<p>The stony bat specifically targets petrified body parts, which it can consume, unlike flesh. The stony bat's jaws deal an extra 1d6 daño against a criatura that has been petrified, either partially or completely, and ignore the Hardness of petrified criaturas.</p>"
+          "description": "<p>The stony bat specifically objetivos petrified body parts, which it can consume, unlike flesh. The stony bat's jaws deal an extra 1d6 daño against a criatura that has been petrified, either partially or completely, and ignore the Hardness of petrified criaturas.</p>"
         }
       }
     },
@@ -1799,7 +1799,7 @@
         },
         "action->Self-Petrify": {
           "name": "Self-Petrify",
-          "description": "<p><strong>Desencadenante</strong> The stony goat gains the @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado} condition or takes more than 8 daño in a single hit</p>\n<hr />\n<p><strong>Efecto</strong> The stony goat turns to stone in self-defense. It gains the @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{Petrificado} condition for [[/br 1d4 #rounds]]{1d4 asaltos}. If the goat is damaged while it's petrified, it immediately heals by that amount by absorbing minerals from its cud, causing its cud to lose value equal to the amount of Puntos de Golpe restored (for instance, losing 5 gp worth of value to restore 5 Puntos de Golpe); if the goat's cud is reduced to 0 gp, it has the minerals fully drained from it, and the goat won't form more cud until it has eaten a sufficient quantity of rock and slept.</p>"
+          "description": "<p><strong>Desencadenante</strong> The stony goat gains the @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado} condition or takes more than 8 daño in a single hit</p>\n<hr />\n<p><strong>Efecto</strong> The stony goat turns to stone in self-defense. It gains the @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{Petrificado} condition for [[/br 1d4 #rounds]]{1d4 asaltos}. If the goat is damaged while it's petrified, it immediately heals by that amount by absorbing minerals from its cud, causing its cud to lose value equal to the amount of Puntos de golpe restored (for instance, losing 5 gp worth of value to restore 5 Puntos de golpe); if the goat's cud is reduced to 0 gp, it has the minerals fully drenado from it, and the goat won't form more cud until it has eaten a sufficient quantity of rock and slept.</p>"
         },
         "action->Overhead Leap": {
           "name": "Overhead Leap",
@@ -1817,7 +1817,7 @@
     },
     "Storm Snake": {
       "name": "Storm Snake",
-      "publicNotes": "<p>Storm snakes are reclusive criaturas only seen in the wild during intense storms. The metallic scales that cover their bodies attract and absorb nearby lightning strikes, suffusing the criaturas with a halo of blue or white light. Because storm snakes are most often sighted in solitude and disappear without a trace as soon as a storm recedes, a lot of folklore across Golarion considers them to be the emissaries of storm deities and harbingers of disaster.</p>\n<p>Before live clutches of storm snake young were first discovered, it was hypothesized that the criaturas were made of mist and vapor; many assumed them to be illusory shapes within the clouds themselves or fleeting dragon sightings. New zoological research has found, however, that storm snakes are actually a distant cousin of dragons. Raised on mountaintops in small broods, storm snakes have underdeveloped limbs and lack any form of wing. Instead, they expand and contract their metallic scales to capture the static electricity in wind currents, which keeps them aloft during high winds and storms.</p>\n<p>Research has also shed light on the diet of these naturally shy criaturas. Rather than consuming electricity, as many who'd observed them in storms believed, storm snakes are herbivorous, enjoying most varieties of grasses, plants, or tree leaves. Este diet, considered alongside their flight patterns during thunderstorms, has been theorized to be a form of symbiosis; after all, any lightning strikes absorbed by a storm snake during a storm can't daño the plant growth below. Additionally, safely discharged electricity from a storm snake has been observed to stimulate growth in a wide variety of flora, all while having no adverse affects on the plants' palatability or nutritional benefits. Many farmers have tried in vain to capture, tame, or otherwise attract storm snakes to their fields to invigorate their crops during tough times, though few have succeeded.</p>",
+      "publicNotes": "<p>Storm snakes are reclusive criaturas only seen in the wild during intense storms. The metallic scales that cover their bodies attract and absorb nearby lightning strikes, suffusing the criaturas with a halo of blue or white light. Because storm snakes are most often sighted in solitude and disappear without a trace as soon as a storm recedes, a lot of folklore across Golarion considers them to be the emissaries of storm deities and harbingers of disaster.</p>\n<p>Before live clutches of storm snake young were first discovered, it was hypothesized that the criaturas were made of mist and vapor; many assumed them to be illusory shapes within the clouds themselves or fleeting dragon sightings. New zoological research has found, however, that storm snakes are actually a distant cousin of dragons. Raised on mountaintops in small broods, storm snakes have underdeveloped limbs and lack any form of wing. Instead, they expand and contract their metallic scales to capture the static electricity in wind currents, which keeps them aloft during high winds and storms.</p>\n<p>Research has also shed light on the diet of these naturally shy criaturas. Rather than consuming electricity, as many who'd observado them in storms believed, storm snakes are herbivorous, enjoying most varieties of grasses, plants, or tree leaves. Este diet, considered alongside their flight patterns during thunderstorms, has been theorized to be a form of symbiosis; after all, any lightning strikes absorbed by a storm snake during a storm can't daño the plant growth below. Additionally, safely discharged electricity from a storm snake has been observado to stimulate growth in a wide variety of flora, all while having no adverse affects on the plants' palatability or nutritional benefits. Many farmers have tried in vain to capture, tame, or otherwise attract storm snakes to their fields to invigorate their crops during tough times, though few have succeeded.</p>",
       "skillSpecialAcrobatics": {
         "0": {
           "label": "to Fly"
@@ -1833,11 +1833,11 @@
         },
         "action->Lightning Strike": {
           "name": "Lightning Golpe",
-          "description": "<p>The storm snake redirects the lightning it has absorbed from storms, dealing @Damage[2d10[electricity]] daño to a single target within 20 pies (@Check[reflex|dc:19|basic] salvación). On a failure, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado} until the end of its next turn.</p>"
+          "description": "<p>The storm snake redirects the lightning it has absorbed from storms, dealing @Damage[2d10[electricity]] daño to a single objetivo within 20 pies (@Check[reflex|dc:19|basic] salvación). On a failure, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado} until the end of its next turn.</p>"
         },
         "action->Static Field": {
           "name": "Static Field",
-          "description": "<p>The storm snake gathers all static electricity in the area before releasing it in a @Template[emanation|distance:30] that deals @Damage[3d12[electricity]|options:area-damage] daño to all non-plant criaturas (@Check[reflex|dc:19|options:area-effect,damaging-effect] salvación) and grants plant criaturas 5 Puntos de Golpe temporales that last for 1 minuto. Plant life in the area begins to grow significantly faster than the average for plants of their genus; in forests, fields, or otherwise floral locations, this immediately transforms the area into non-magical difficult terrain. The storm snake can't use Static field again for [[/gmr 1d4 #Recharge Static Field]]{1d4 asaltos}.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.MGlENdqYCAwBkyXt]{Efecto: Static Field}</p>"
+          "description": "<p>The storm snake gathers all static electricity in the area before releasing it in a @Template[emanation|distance:30] that deals @Damage[3d12[electricity]|options:area-damage] daño to all non-plant criaturas (@Check[reflex|dc:19|options:area-effect,damaging-effect] salvación) and grants plant criaturas 5 Puntos de golpe temporales that last for 1 minuto. Plant life in the area begins to grow significantly faster than the average for plants of their genus; in forests, fields, or otherwise floral locations, this immediately transforms the area into non-magical difficult terrain. The storm snake can't use Static field again for [[/gmr 1d4 #Recharge Static Field]]{1d4 asaltos}.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.MGlENdqYCAwBkyXt]{Efecto: Static Field}</p>"
         }
       }
     },
@@ -1845,10 +1845,10 @@
       "name": "Sunscale Serpent",
       "languages": "habla verdadera",
       "items": {
-        "spellcastingEntry->Primal Innate Spells": {
-          "name": "Primal Innate Spells"
+        "spellcastingEntry->Primal Innate Conjuros": {
+          "name": "Primal Innate Conjuros"
         },
-        "spell->Truespeech (Constant)": {
+        "conjuro->Truespeech (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K]\nHabla verdadera (constante)"
         },
         "strike-melee->Jaws": {
@@ -1862,11 +1862,11 @@
         },
         "action->Bond with Mortal": {
           "name": "Vínculo con mortal",
-          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> The spirit guide spends 10 minutos to form a bond with a mortal criatura. While the bond exists, the spirit guide increases their current and maximum Puntos de Golpe by 28, gains a +2 bonificador de estado to their attack and tiradas de daño, and can communicate telepathically with the bonded mortal as long as the two beings are on the same plane. The spirit guide can only be bonded with one mortal at a time, and they can take this action again to end the bond or to form a new bond (which also ends the old bond). The bond also ends if the spirit guide or the mortal dies.</p>\n<p>Este bond strengthens the spirit guide's connection to the Universe. While bonded, the spirit guide loses the incorporeal and spirit rasgos, loses their immunity to disease, paralysis, and poison, along with their resistance to all daño, and changes their Golpes to deal the appropriate amount of daño físico (typically piercing or slashing) instead of daño de fuerza.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> The spirit guide spends 10 minutos to form a bond with a mortal criatura. While the bond exists, the spirit guide increases their current and maximum Puntos de golpe by 28, gains a +2 bonificador de estado to their attack and tiradas de daño, and can communicate telepathically with the bonded mortal as long as the two beings are on the same plane. The spirit guide can only be bonded with one mortal at a time, and they can take this action again to end the bond or to form a new bond (which also ends the old bond). The bond also ends if the spirit guide or the mortal dies.</p>\n<p>Este bond strengthens the spirit guide's connection to the Universe. While bonded, the spirit guide loses the incorporeal and spirit rasgos, loses their immunity to disease, paralysis, and poison, along with their resistance to all daño, and changes their Golpes to deal the appropriate amount of daño físico (typically piercing or slashing) instead of daño de fuerza.</p>"
         },
         "action->Bonded Strike": {
           "name": "Bonded Golpe",
-          "description": "<p><strong>Requisitos</strong> The sunscale serpent is currently Bonded with a Mortal</p>\n<hr />\n<p><strong>Efecto</strong> The sunscale serpent makes a jaws Golpe. If this attack hits, the bonded mortal can spend their reaction to Golpe the same target.</p>"
+          "description": "<p><strong>Requisitos</strong> The sunscale serpent is currently Bonded with a Mortal</p>\n<hr />\n<p><strong>Efecto</strong> The sunscale serpent makes a jaws Golpe. If this attack hits, the bonded mortal can spend their reaction to Golpe the same objetivo.</p>"
         },
         "action->Sun's Heat": {
           "name": "Sun's Heat",
@@ -1898,7 +1898,7 @@
         },
         "action->Fast Sweep": {
           "name": "Fast Sweep",
-          "description": "<p><strong>Frecuencia</strong> once per turn</p>\n<hr />\n<p><strong>Efecto</strong> The swordfish makes two bill Golpes against two adjacent targets, with a +1 bonificador de circunstancia to its tiradas de ataque.</p>"
+          "description": "<p><strong>Frecuencia</strong> once per turn</p>\n<hr />\n<p><strong>Efecto</strong> The swordfish makes two bill Golpes against two adjacent objetivos, with a +1 bonificador de circunstancia to its tiradas de ataque.</p>"
         }
       }
     },
@@ -1951,11 +1951,11 @@
         },
         "action->Tun Marbles": {
           "name": "Tun Marbles",
-          "description": "<p>As the tardigrade swarm is damaged, the bodies of those that enter a tun state make the ground treacherous. When the tardigrade swarm drops below 70 Puntos de Golpe, the space they occupy is considered difficult terrain.</p>"
+          "description": "<p>As the tardigrade swarm is damaged, the bodies of those that enter a tun state make the ground treacherous. When the tardigrade swarm drops below 70 Puntos de golpe, the space they occupy is considered difficult terrain.</p>"
         },
         "action->Stylets": {
           "name": "Stylets",
-          "description": "<p>Each enemigo in the swarm's space takes @Damage[4d8[piercing]] daño (@Check[reflex|dc:32|basic] salvación). Las criaturas that fail their save become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} or increase their drained condition by one, to a maximum of @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 4}.</p>"
+          "description": "<p>Each enemigo in the swarm's space takes @Damage[4d8[piercing]] daño (@Check[reflex|dc:32|basic] salvación). Las criaturas that fail their save become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} or increase their drenado condition by one, to a maximum of @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 4}.</p>"
         }
       }
     },
@@ -1972,7 +1972,7 @@
         },
         "action->Swiping Claws": {
           "name": "Swiping Claws",
-          "description": "<p>The therizinosaurus makes two claw Golpes against different targets. Both attacks count toward its multiple attack penalización, but do not increase the penalización until it has made both attacks.</p>"
+          "description": "<p>The therizinosaurus makes two claw Golpes against different objetivos. Both attacks count toward its multiple attack penalizador, but do not increase the penalizador until it has made both attacks.</p>"
         },
         "action->Winnowing Claws": {
           "name": "Winnowing Claws",
@@ -2049,7 +2049,7 @@
         },
         "action->Mimicry": {
           "name": "Mimicry",
-          "description": "<p>The troodon repeats up to twelve words it heard in the last week. If it succeeds at a @Check[deception|defense:perception] check against the listeners' Perception DC, the sound is indistinguishable from the original. The troodon can't duplicate voice-based abilities or conjuros, although it can mimic the verbal sounds of spellcasting.</p>"
+          "description": "<p>The troodon repeats up to twelve words it heard in the last week. If it succeeds at a @Check[deception|defense:perception] prueba against the listeners' Perception DC, the sound is indistinguishable from the original. The troodon can't duplicate voice-based abilities or conjuros, although it can mimic the verbal sounds of lanzamiento de conjuros.</p>"
         },
         "action->Running Attack": {
           "name": "Running Attack",
@@ -2061,22 +2061,22 @@
       "name": "Tyrafdir",
       "acDetails": "vision en todas direcciones",
       "hpDetails": "regeneracion de hidra",
-      "publicNotes": "<p>The most commonly seen hydra famously has five heads that it uses in unison to attack prey or assailants. Scattered across the Inner Sea region are more fantastical breeds of the beast, each with their own curious evolution and hunting behavior.</p>\n<hr />\n<p>The process of sapient species finding kinship with those who are less self-aware can be observed easily throughout the natural world. Humanoids keep dogs, kobolds care for reptiles, and so on. More terrifying, as it is on a grander scale, linnorms with a strong attachment to the First World sometimes keep mutated hydras as pets and guards. Known to Ulfens as tyrafdirs, these beasts have the unique ability to create illusory doubles from the ruined stumps of their necks. Estos serpentine guardians serve as strong protectors in the Land of the Linnorm Kings, where their fey-warped physiology deters many a would-be monarch from claiming their maestro's head. The domestication of tyrafdirs by especially powerful spellcasters to serve as guardians has been known to take place, often combined with magical traps that attack the intruder's mind.</p>",
+      "publicNotes": "<p>The most commonly seen hydra famously has five heads that it uses in unison to attack prey or assailants. Scattered across the Inner Sea region are more fantastical breeds of the beast, each with their own curious evolution and hunting behavior.</p>\n<hr />\n<p>The process of sapient species finding kinship with those who are less self-aware can be observado easily throughout the natural world. Humanoids keep dogs, kobolds care for reptiles, and so on. More terrifying, as it is on a grander scale, linnorms with a strong attachment to the First World sometimes keep mutated hydras as pets and guards. Known to Ulfens as tyrafdirs, these beasts have the unique ability to create illusory doubles from the ruined stumps of their necks. Estos serpentine guardians serve as strong protectors in the Land of the Linnorm Kings, where their fey-warped physiology deters many a would-be monarch from claiming their maestro's head. The domestication of tyrafdirs by especially powerful spellcasters to serve as guardians has been known to take place, often combined with magical traps that attack the intruder's mind.</p>",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
         },
         "action->Hydra Regeneration": {
           "name": "Hydra Regeneración",
-          "description": "<p>On a failure the tyrafdir grows two illusory heads.</p>\n<p>The hydra has regeneration equal to 3 × the number of heads it has. If a hydra's body is missing any heads and the remaining stumps have not been cauterized, the hydra attempts a @Check[fortitude|immutable:true|dc:31] salvación after it regains Puntos de Golpe from regeneration. On a success, one uncauterized stump regrows two heads; on a critical success, two uncauterized stumps regrow into two heads each. The hydra can never grow more than double the number of heads it ordinarily has. The hydra's regeneration only fully deactivates if all its heads are severed and all stumps are cauterized, at which point it dies.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneración]</p>"
+          "description": "<p>On a failure the tyrafdir grows two illusory heads.</p>\n<p>The hydra has regeneration equal to 3 × the number of heads it has. If a hydra's body is missing any heads and the remaining stumps have not been cauterized, the hydra attempts a @Check[fortitude|immutable:true|dc:31] salvación after it regains Puntos de golpe from regeneration. On a success, one uncauterized stump regrows two heads; on a critical success, two uncauterized stumps regrow into two heads each. The hydra can never grow more than double the number of heads it ordinarily has. The hydra's regeneration only fully deactivates if all its heads are severed and all stumps are cauterized, at which point it dies.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneración]</p>"
         },
         "action->Deceptive Heads": {
           "name": "Deceptive Heads",
-          "description": "<p>A tyrafdir is cunning, if unintelligent, using illusions of regrown heads to confuse and harry opponents. When a tyrafdir fails, but does not critically fail, its Fortitude save to regrow a head, a phantasm materializes to mimic the regrowth. Este creates two deceptive heads that function differently than real heads. The tyrafdir gains a deceptive jaws Golpe as long as it has at least one deceptive head. Any criatura that attacks a deceptive head or uses the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to examine it can attempt to disbelieve the illusion (@Check[will|dc:27] salvación).</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.NZ3MrmXkmfQuJp7S]{Efecto: Deceptive Heads}</p>"
+          "description": "<p>A tyrafdir is cunning, if unintelligent, using illusions of regrown heads to confuse and harry opponents. When a tyrafdir fails, but does not critically fail, its salvación de Fortaleza to regrow a head, a phantasm materializes to mimic the regrowth. Este creates two deceptive heads that function differently than real heads. The tyrafdir gains a deceptive jaws Golpe as long as it has at least one deceptive head. Any criatura that attacks a deceptive head or uses the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to examine it can attempt to disbelieve the illusion (@Check[will|dc:27] salvación).</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.NZ3MrmXkmfQuJp7S]{Efecto: Deceptive Heads}</p>"
         },
         "action->Deceptive Regrowth": {
           "name": "Deceptive Regrowth",
-          "description": "<p>A tyrafdir ordinarily has six heads. A criatura can attempt to sever one of the tyrafdir's heads by specifically targeting it and dealing daño equal to the head's Puntos de Golpe. A head that is not completely severed returns to full Puntos de Golpe at the end of any criatura's turn. A tyrafdir can regrow a severed head using Hydra Regeneración. A criatura can prevent this regrowth by dealing daño de fuego to the stump, cauterizing it. Single-target fire effects need to be targeted at a specific stump, but effects that deal daño de salpicadura or affect areas covering the hydra's whole space cauterize all stumps if they deal daño de fuego. If the attack that severs a head deals any daño de fuego or is dealt by a cold-iron arma, the stump is cauterized instantly. If all six heads are cauterized, the hydra dies.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uZJOdounIHaFDC1t]{Efecto: Hydra Heads}</p>"
+          "description": "<p>A tyrafdir ordinarily has six heads. A criatura can attempt to sever one of the tyrafdir's heads by specifically targeting it and dealing daño equal to the head's Puntos de golpe. A head that is not completely severed returns to full Puntos de golpe at the end of any criatura's turn. A tyrafdir can regrow a severed head using Hydra Regeneración. A criatura can prevent this regrowth by dealing daño de fuego to the stump, cauterizing it. Single-objetivo fire effects need to be targeted at a specific stump, but effects that deal daño de salpicadura or affect areas covering the hydra's whole space cauterize all stumps if they deal daño de fuego. If the attack that severs a head deals any daño de fuego or is dealt by a cold-iron arma, the stump is cauterized instantly. If all six heads are cauterized, the hydra dies.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uZJOdounIHaFDC1t]{Efecto: Hydra Heads}</p>"
         },
         "action->Reactive Heads": {
           "name": "Reactive Heads",
@@ -2088,7 +2088,7 @@
         },
         "action->Noxious Exhalation": {
           "name": "Noxious Exhalation",
-          "description": "<p>The tyrafdir breathes out a noxious mist from all of its mouths, spreading in a @Template[emanation|distance:20] that deals @Damage[4d10[poison]|options:area-damage] daño to criaturas within the area (@Check[reflex|dc:24|basic|options:area-effect] salvación). Any criatura that fails its save must attempt a @Check[will|dc:24] salvación or gain weakness to mental 10 and a –1 penalización de estado to Will saves for 24 horas. The tyrafdir can't use Noxious Exhalation again for [[/gmr 1d4 #Recharge Noxious Exhalation]]{1d4 asaltos}.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.G1pvduwOVRz4YFUF]{Efecto: Noxious Exhalation}</p>"
+          "description": "<p>The tyrafdir breathes out a noxious mist from all of its mouths, spreading in a @Template[emanation|distance:20] that deals @Damage[4d10[poison]|options:area-damage] daño to criaturas within the area (@Check[reflex|dc:24|basic|options:area-effect] salvación). Any criatura that fails its save must attempt a @Check[will|dc:24] salvación or gain weakness to mental 10 and a –1 penalizador de estado to Will saves for 24 horas. The tyrafdir can't use Noxious Exhalation again for [[/gmr 1d4 #Recharge Noxious Exhalation]]{1d4 asaltos}.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.G1pvduwOVRz4YFUF]{Efecto: Noxious Exhalation}</p>"
         }
       }
     },
@@ -2098,7 +2098,7 @@
       "items": {
         "action->Feel No Pain": {
           "name": "Feel No Pain",
-          "description": "<p><strong>Desencadenante</strong> The vibrant pup swarm is critically hit by a Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The worker pups become insensitive to pain and leap to the front. The swarm gains 10 Puntos de Golpe temporales that last for 1 asalto.</p>",
+          "description": "<p><strong>Desencadenante</strong> The vibrant pup swarm is critically hit by a Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The worker pups become insensitive to pain and leap to the front. The swarm gains 10 Puntos de golpe temporales that last for 1 asalto.</p>",
           "selfEffect": "Efecto: Feel No Pain"
         },
         "action->Reflective Skin": {
@@ -2117,10 +2117,10 @@
     },
     "Virtuosic Lyrebird": {
       "name": "Virtuosic Lyrebird",
-      "publicNotes": "<p>Virtuosic lyrebirds present an excellent case study in how specialty-bred animals can escape captivity and become pests. A small team of apprentice mages established the original virtuosic lyrebirds as part of their graduation thesis, in an attempt to create a familiar that could better aid in spellcasting. The vocal mimicry of these birds did indeed allow them to harmonize with their bonded spellcaster; however, initial progress was slow, and the impatient students chose to hastily elevate the birds' abilities before their thesis deadline using experimental magic. Unfortunately, the specimens' newfound vocal mimicry was so supreme that they could mimic conjuro incantations as easily as any other sound they heard. The virtuosic lyrebirds soon vaporized, teleported out of, or befuddled their keepers into opening their cages, escaping into the wild and flourishing.</p>\n<p>Virtuosic lyrebirds use their spellcasting abilities mostly to play pranks and alleviate boredom. They tend to travel in pairs, but when these pairs congregate into larger flocks, their mischief and fun can quickly turn dangerous.</p>",
+      "publicNotes": "<p>Virtuosic lyrebirds present an excellent case study in how specialty-bred animals can escape captivity and become pests. A small team of apprentice mages established the original virtuosic lyrebirds as part of their graduation thesis, in an attempt to create a familiar that could better aid in lanzamiento de conjuros. The vocal mimicry of these birds did indeed allow them to harmonize with their bonded spellcaster; however, initial progress was slow, and the impatient students chose to hastily elevate the birds' abilities before their thesis deadline using experimental magic. Unfortunately, the specimens' newfound vocal mimicry was so supreme that they could mimic conjuro incantations as easily as any other sound they heard. The virtuosic lyrebirds soon vaporized, teleported out of, or befuddled their keepers into opening their cages, escaping into the wild and flourishing.</p>\n<p>Virtuosic lyrebirds use their lanzamiento de conjuros abilities mostly to play pranks and alleviate boredom. They tend to travel in pairs, but when these pairs congregate into larger flocks, their mischief and fun can quickly turn dangerous.</p>",
       "items": {
-        "spellcastingEntry->Arcane Spontaneous Spells": {
-          "name": "Arcane Spontaneous Spells"
+        "spellcastingEntry->Arcane Spontaneous Conjuros": {
+          "name": "Arcane Spontaneous Conjuros"
         },
         "strike-melee->Beak": {
           "name": "Beak"
@@ -2130,19 +2130,19 @@
         },
         "action->Counter-Melody": {
           "name": "Counter-Melody",
-          "description": "<p><strong>Desencadenante</strong> An opponent within 60 pies Casts a Spell</p>\n<hr />\n<p><strong>Efecto</strong> The virtuosic lyrebird makes a counteract check against the triggering conjuro ([[/r 1d20+14 #Counteract]]{+14} counteract modifier).</p>"
+          "description": "<p><strong>Desencadenante</strong> An opponent within 60 pies Casts a Conjuro</p>\n<hr />\n<p><strong>Efecto</strong> The virtuosic lyrebird makes a counteract prueba against the triggering conjuro ([[/r 1d20+14 #Counteract]]{+14} counteract modifier).</p>"
         },
         "action->Arcane Harmony": {
           "name": "Arcane Harmony",
-          "description": "<p><strong>Efecto</strong> The virtuosic lyrebird sings a subtle trill that others can use to embellish their magic. The next virtuosic lyrebird to Lanzar un conjuro within 60 pies of the first lyrebird that used Arcane Harmony chooses one of the following two benefits, after which the Arcane Harmony ends.</p>\n<ul>\n<li>The conjuro gains a +2 bonificador de estado to daño per conjuro rank.</li>\n<li>One target of the conjuro takes a –2 penalización de estado to saves against the conjuro.\n\n</li>\n</ul>"
+          "description": "<p><strong>Efecto</strong> The virtuosic lyrebird sings a subtle trill that others can use to embellish their magic. The next virtuosic lyrebird to Lanzar un conjuro within 60 pies of the first lyrebird that used Arcane Harmony chooses one of the following two benefits, after which the Arcane Harmony ends.</p>\n<ul>\n<li>The conjuro gains a +2 bonificador de estado to daño per conjuro rank.</li>\n<li>One objetivo of the conjuro takes a –2 penalizador de estado to saves against the conjuro.\n\n</li>\n</ul>"
         },
-        "action->Spell Mimicry": {
-          "name": "Spell Mimicry",
-          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Requisitos</strong> A criatura Casts a Spell of 3rd rank or lower since the end of the virtuosic lyrebird' s last turn, and the virtuosic lyrebird heard the incantation for the conjuro</p>\n<hr />\n<p><strong>Efecto</strong> The virtuosic lyrebird learns the conjuro enough to mimic and cast it this turn, using as many actions as the original conjuro took.</p>"
+        "action->Conjuro Mimicry": {
+          "name": "Conjuro Mimicry",
+          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Requisitos</strong> A criatura Casts a Conjuro of 3rd rank or lower since the end of the virtuosic lyrebird' s last turn, and the virtuosic lyrebird heard the incantation for the conjuro</p>\n<hr />\n<p><strong>Efecto</strong> The virtuosic lyrebird learns the conjuro enough to mimic and cast it this turn, using as many actions as the original conjuro took.</p>"
         },
         "action->Spellsong Casting": {
           "name": "Spellsong Casting",
-          "description": "<p>The virtuosic lyrebird's exquisite vocal control lets it cast conjuros purely through its song. While it must be able to vocalize to Lanzar un conjuro, it doesn't need to gesture, removing the manipulate rasgo from any conjuro that it casts. If it Casts a Spell with the linguistic rasgo (usually with its Spell Mimicry), it can Cast that Spell in Common, even though the bird doesn't truly understand the language.</p>"
+          "description": "<p>The virtuosic lyrebird's exquisite vocal control lets it cast conjuros purely through its song. While it must be able to vocalize to Lanzar un conjuro, it doesn't need to gesture, removing the manipulate rasgo from any conjuro that it casts. If it Casts a Conjuro with the linguistic rasgo (usually with its Conjuro Mimicry), it can Cast that Conjuro in Common, even though the bird doesn't truly understand the language.</p>"
         }
       }
     },
@@ -2169,7 +2169,7 @@
         "strike-ranged->Magma Jet": {
           "name": "Magma Jet"
         },
-        "action->Tremorsense (Imprecise) 60 feet": {
+        "action->Tremorsense (Imprecise) 60 pies": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]\nTremorsense (Imprecise) 60 pies"
         },
         "action->Voice of Nature": {
@@ -2187,7 +2187,7 @@
         },
         "action->Bury Beneath Stone": {
           "name": "Bury Beneath Stone",
-          "description": "<p><strong>Requisitos</strong> The warden has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}</p>\n<hr />\n<p><strong>Efecto</strong> The warden attempts to wedge a criatura they have grabbed in their mandibles within a crack in the earth that opens beneath them. The warden attempts an @Check[athletics|defense:reflex] check against the grabbed criatura's Reflex DC. If they succeed, they bury the criatura in the ground. The criatura takes @Damage[10d10[bludgeoning]] daño. It is also @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1}, and has to hold its breath or start suffocating until it @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} (DC 42). If the criatura is still buried at the end of its turn, it takes @Damage[5d10[bludgeoning]] daño.</p>"
+          "description": "<p><strong>Requisitos</strong> The warden has a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}</p>\n<hr />\n<p><strong>Efecto</strong> The warden attempts to wedge a criatura they have grabbed in their mandibles within a crack in the earth that opens beneath them. The warden attempts an @Check[athletics|defense:reflex] prueba against the grabbed criatura's CD de Reflejos. If they succeed, they bury the criatura in the ground. The criatura takes @Damage[10d10[bludgeoning]] daño. It is also @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1}, and has to hold its breath or start suffocating until it @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} (DC 42). If the criatura is still buried at the end of its turn, it takes @Damage[5d10[bludgeoning]] daño.</p>"
         },
         "action->Called to Depths": {
           "name": "Called to Depths",
@@ -2226,16 +2226,16 @@
       },
       "speed": "forest passage",
       "items": {
-        "spellcastingEntry->Primal Innate Spells": {
-          "name": "Primal Innate Spells"
+        "spellcastingEntry->Primal Innate Conjuros": {
+          "name": "Primal Innate Conjuros"
         },
-        "spell->Truespeech (Constant)": {
+        "conjuro->Truespeech (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K]\nHabla verdadera (constante)"
         },
-        "spell->Translocate (At Will)": {
+        "conjuro->Translocate (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nCambiar de sitio (a voluntad)"
         },
-        "spell->Veil of Privacy (Constant)": {
+        "conjuro->Veil of Privacy (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.EoKBlgf6Smt8opaU]\nVelo de privacidad (constante)"
         },
         "strike-melee->Jaws": {
@@ -2264,7 +2264,7 @@
         },
         "action->Wild Trickery": {
           "name": "Wild Trickery",
-          "description": "<p><strong>Desencadenante</strong> Un enemigo within 60 pies targets the warden with an attack, conjuro, or other ability</p>\n<hr />\n<p><strong>Efecto</strong> The triggering criatura must attempt a @Check[will|dc:45] salvación. If it fails, the warden redirects the ability to target a different criatura in range with a burst of mental laughter; this has no effect if there are no other eligible targets. The triggering criatura is then temporarily immune for 24 horas unless it critically failed.</p>"
+          "description": "<p><strong>Desencadenante</strong> Un enemigo within 60 pies objetivos the warden with an attack, conjuro, or other ability</p>\n<hr />\n<p><strong>Efecto</strong> The triggering criatura must attempt a @Check[will|dc:45] salvación. If it fails, the warden redirects the ability to objetivo a different criatura in range with a burst of mental laughter; this has no effect if there are no other eligible objetivos. The triggering criatura is then temporarily immune for 24 horas unless it critically failed.</p>"
         },
         "action->Change Shape": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>\n<hr />\n<p>The warden transforms his size to Tiny, Small, Medium, or Huge (changing his reach to 0 pies for Tiny, 5 pies for Medium or Large, and 10 pies for Huge). The warden retains his shape but can change his color to any seasonal array.</p>"
@@ -2283,7 +2283,7 @@
         },
         "action->Magical Pounce": {
           "name": "Magical Pounce",
-          "description": "<p>The warden Strides up to his Velocidad, Leaps up to his Velocidad, or casts @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Translocate}; at the end of that movement, the warden Golpes. If the warden began this action @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido}, he remains hidden until after this ability's Golpe.</p>"
+          "description": "<p>The warden Strides up to his Velocidad, Leaps up to his Velocidad, or casts @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Translocate}; at the end of that movement, the warden Golpes. If the warden began this action @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido}, he remains escondido until after this ability's Golpe.</p>"
         },
         "action->Sneak Attack": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>The warden deals an additional 3d6 daño de precisión to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} criaturas.</p>"
@@ -2302,7 +2302,7 @@
         "strike-melee->Tentacle": {
           "name": "Tentáculo"
         },
-        "action->Scent (Imprecise) 200 feet": {
+        "action->Scent (Imprecise) 200 pies": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.rqfnQ5VHT5hxm25r]\nScent (Imprecise) 200 pies"
         },
         "action->Voice of Nature": {
@@ -2316,7 +2316,7 @@
         },
         "action->Bioluminescent Maelstrom": {
           "name": "Bioluminescent Maelstrom",
-          "description": "<p>30 pies @Check[will|dc:45]</p>\n<hr />\n<p>The warden's wrath conjures a dazzling storm around them that makes the area difficult terrain. Las criaturas that enter the storm must attempt a Will save. A criatura that succeeds at this save is temporarily immune to the luring visuals for 24 horas.</p>\n<hr />\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado} for 1 asalto, and for the first action on its next turn, the criatura must use a single action to move as close to the warden as possible.</p>\n<p><strong>Fallo crítico</strong> The criatura is dazzled for as long as it remains in the aura. Siempre que the criatura begins its turn within the aura, the criatura must use the first action of its turn to move as close to the warden as possible. It can attempt a new save at the end of its turn, ending this effect on a success.</p>"
+          "description": "<p>30 pies @Check[will|dc:45]</p>\n<hr />\n<p>The warden's wrath conjures a dazzling storm around them that makes the area difficult terrain. Las criaturas that enter the storm must attempt a salvación de Voluntad. A criatura that succeeds at this save is temporarily immune to the luring visuals for 24 horas.</p>\n<hr />\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado} for 1 asalto, and for the first action on its next turn, the criatura must use a single action to move as close to the warden as possible.</p>\n<p><strong>Fallo crítico</strong> The criatura is dazzled for as long as it remains in the aura. Siempre que the criatura begins its turn within the aura, the criatura must use the first action of its turn to move as close to the warden as possible. It can attempt a new save at the end of its turn, ending this effect on a success.</p>"
         },
         "action->All Are One": {
           "name": "All Are One",
@@ -2329,7 +2329,7 @@
         },
         "action->Grasp of the Deep": {
           "name": "Presa de las profundidades",
-          "description": "<p>Las criaturas struck by one of the warden's tentacles gain cold weakness 10 and take a –2 penalización de estado to Fortitude saves for 1 asalto.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.HzPg4iUmO3F6tbK6]{Efecto: Grasp of the Deep}</p>"
+          "description": "<p>Las criaturas struck by one of the warden's tentacles gain cold weakness 10 and take a –2 penalizador de estado to Fortitude saves for 1 asalto.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.HzPg4iUmO3F6tbK6]{Efecto: Grasp of the Deep}</p>"
         },
         "action->I Am The Tide": {
           "name": "I Am The Tide",
@@ -2349,10 +2349,10 @@
       "senses": "vista de tormenta",
       "speed": "unfettered movement",
       "items": {
-        "spellcastingEntry->Primal Innate Spells": {
-          "name": "Primal Innate Spells"
+        "spellcastingEntry->Primal Innate Conjuros": {
+          "name": "Primal Innate Conjuros"
         },
-        "spell->Unfettered Movement (Constant)": {
+        "conjuro->Unfettered Movement (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH]\nMovimiento sin restricciones (constante)"
         },
         "strike-melee->Beak": {
@@ -2364,7 +2364,7 @@
         "strike-ranged->Gale Blast": {
           "name": "Explosión de vendaval"
         },
-        "action->Scent (Imprecise) 60 feet": {
+        "action->Scent (Imprecise) 60 pies": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.rqfnQ5VHT5hxm25r]\nScent (Imprecise) 60 pies"
         },
         "action->Stormsight": {
@@ -2390,7 +2390,7 @@
         },
         "action->Song of the Skies": {
           "name": "Song of the Skies",
-          "description": "<p>The warden trills a cheerful birdsong, granting a boon to all allies within @Template[emanation|distance:60]{60 pies} and evoking the freedom of flight. For the next minute, affected allies gain @UUID[Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH]{Unfettered Movement}, a fly speed of 60 pies, and treat criaturas on the ground as @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} when they are airborne.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.dZDpfgU63rXbBHpe]{Efecto: Song of the Skies}</p>"
+          "description": "<p>The warden trills a cheerful birdsong, granting a boon to all aliados within @Template[emanation|distance:60]{60 pies} and evoking the freedom of flight. For the next minute, affected aliados gain @UUID[Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH]{Unfettered Movement}, a fly speed of 60 pies, and treat criaturas on the ground as @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} when they are airborne.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.dZDpfgU63rXbBHpe]{Efecto: Song of the Skies}</p>"
         },
         "action->Tempest Downdrafts": {
           "name": "Tempest Downdrafts",
@@ -2436,7 +2436,7 @@
         },
         "action->Curse of the Weremoose": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ICnpftxZEilrYjn0]\nCurse of the Weremoose",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ICnpftxZEilrYjn0]\n<p>Este curse affects only humanoids.</p>\n<hr />\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:17]</p>\n<p>On each full moon, the cursed criatura must succeed at another Fortitude save or turn into the same kind of werecreature until dawn.</p>\n<p>The criatura is under the GM's control and goes on a rampage for half the night before falling unconscious until dawn.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ICnpftxZEilrYjn0]\n<p>Este curse affects only humanoids.</p>\n<hr />\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:17]</p>\n<p>On each full moon, the cursed criatura must succeed at another salvación de Fortaleza or turn into the same kind of werecreature until dawn.</p>\n<p>The criatura is under the GM's control and goes on a rampage for half the night before falling unconscious until dawn.</p>"
         },
         "action->Moon Frenzy": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.FA0ri2fAcMa1HgZe]\nFrenesí lunar",
@@ -2478,11 +2478,11 @@
         },
         "action->Curse of the Wereshark": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ICnpftxZEilrYjn0]\nCurse of the Wereshark",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ICnpftxZEilrYjn0]\n<p>Este curse affects only humanoids.</p>\n<hr />\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:18]</p>\n<p>On each full moon, the cursed criatura must succeed at another Fortitude save or turn into the same kind of werecreature until dawn.</p>\n<p>The criatura is under the GM's control and goes on a rampage for half the night before falling unconscious until dawn.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ICnpftxZEilrYjn0]\n<p>Este curse affects only humanoids.</p>\n<hr />\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:18]</p>\n<p>On each full moon, the cursed criatura must succeed at another salvación de Fortaleza or turn into the same kind of werecreature until dawn.</p>\n<p>The criatura is under the GM's control and goes on a rampage for half the night before falling unconscious until dawn.</p>"
         },
         "action->Fish Fork": {
           "name": "Fish Fork",
-          "description": "<p><strong>Requisitos</strong> The wereshark critically hit with a trident Golpe on their most recent action this turn</p>\n<hr />\n<p><strong>Efecto</strong> The wereshark digs their trident deep within their target, skewering it before taking a massive bite. El objetivo of the Golpe becomes @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC 18) and takes @Damage[1d4[bleed]] daño, and the wereshark attempts a jaws Golpe against it. The wereshark can't use their trident while they have a criatura grabbed with it, but they can pull the trident free with a single action that has the manipulate rasgo.</p>"
+          "description": "<p><strong>Requisitos</strong> The wereshark critically hit with a trident Golpe on their most recent action this turn</p>\n<hr />\n<p><strong>Efecto</strong> The wereshark digs their trident deep within their objetivo, skewering it before taking a massive bite. El objetivo of the Golpe becomes @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC 18) and takes @Damage[1d4[bleed]] daño, and the wereshark attempts a jaws Golpe against it. The wereshark can't use their trident while they have a criatura grabbed with it, but they can pull the trident free with a single action that has the manipulate rasgo.</p>"
         },
         "action->Moon Frenzy": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.FA0ri2fAcMa1HgZe]\nFrenesí lunar"

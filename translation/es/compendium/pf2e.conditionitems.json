@@ -7,7 +7,7 @@
     },
     "Broken": {
       "name": "Roto",
-      "description": "<p>Roto es un estado que sólo afecta a los objetos. Un objeto se rompe cuando el daño reduce sus Puntos de Golpe a una cifra igual o menor que su Umbral de rotura. Un objeto roto no se puede utilizar para su función normal, ni concede bonificadores, a excepción de la armadura. Una armadura rota sigue concediendo su bonificador por objeto a la CA, pero también impone un penalizador por estatus a la CA dependiendo de su categoría: -1 para una armadura ligera rota, -2 para una armadura intermedia rota o -3 para una armadura pesada rota.</p>\n <p>Un objeto roto sigue imponiendo los penalizadores y limitaciones en los que normalmente se incurre por transportarlo, sostenerlo o llevarlo puesto. Por ejemplo, una armadura rota seguiría imponiendo su límite al modificador por Destreza, su penalizador a las pruebas y así sucesivamente.</p>\n<p>Si un efecto hace que un objeto quede automáticamente roto y éste tiene más PG que su Umbral de rotura, dicho efecto también reduce los PG actuales del objeto al Umbral de rotura.</p>"
+      "description": "<p>Roto es un estado que solo afecta a los objetos. Un objeto se rompe cuando el daño reduce sus Puntos de Golpe a una cifra igual o menor que su Umbral de rotura. Un objeto roto no se puede utilizar para su función normal, ni concede bonificadores, a excepción de la armadura. Una armadura rota sigue concediendo su bonificador por objeto a la CA, pero también impone un penalizador por estatus a la CA dependiendo de su categoría: -1 para una armadura ligera rota, -2 para una armadura intermedia rota o -3 para una armadura pesada rota.</p>\n <p>Un objeto roto sigue imponiendo los penalizadores y limitaciones en los que normalmente se incurre por transportarlo, sostenerlo o llevarlo puesto. Por ejemplo, una armadura rota seguiría imponiendo su límite al modificador por Destreza, su penalizador a las pruebas y así sucesivamente.</p>\n<p>Si un efecto hace que un objeto quede automáticamente roto y este tiene más PG que su Umbral de rotura, dicho efecto también reduce los PG actuales del objeto al Umbral de rotura.</p>"
     },
     "Clumsy": {
       "name": "Torpe",
@@ -51,7 +51,7 @@
     },
     "Encumbered": {
       "name": "Impedido",
-      "description": "<p>Llevas más peso del que puedes acarrear. Mientras estás impedido, estás @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} y sufres un penalizador -10 pies (3 m) a todas tus Velocidades. Como con todos los penalizadores a la Velocidad, éste no puede reducirla por debajo de 5 pies (1,5 m).</p>"
+      "description": "<p>Llevas más peso del que puedes acarrear. Mientras estás impedido, estás @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} y sufres un penalizador -10 pies (3 m) a todas tus Velocidades. Como con todos los penalizadores a la Velocidad, este no puede reducirla por debajo de 5 pies (1,5 m).</p>"
     },
     "Enfeebled": {
       "name": "Debilitado",
@@ -71,7 +71,7 @@
     },
     "Friendly": {
       "name": "Amistoso",
-      "description": "<p>Este estado refleja la disposición de un criatura hacia un PJ en particular, y tan solo efectos sobrenaturales (como un conjuro), pueden imponérselo a un PJ. A una criatura amistosa hacia un PJ le cae bien dicha persona. Es probable que acepte una @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{petición} de él si es sencilla, segura y no cuesta demasiado de conceder. Si el PJ (o uno de sus aliados) lleva a cabo acciones hostiles contra la criatura, ésta pasa a una actitud peor dependiendo de la gravedad de la acción hostil, a determinar por el DJ.</p>"
+      "description": "<p>Este estado refleja la disposición de una criatura hacia un PJ en particular, y tan solo efectos sobrenaturales (como un conjuro), pueden imponérselo a un PJ. A una criatura amistosa hacia un PJ le cae bien dicha persona. Es probable que acepte una @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{petición} de él si es sencilla, segura y no cuesta demasiado de conceder. Si el PJ (o uno de sus aliados) lleva a cabo acciones hostiles contra la criatura, ésta pasa a una actitud peor dependiendo de la gravedad de la acción hostil, a determinar por el DJ.</p>"
     },
     "Frightened": {
       "name": "Asustado",
@@ -79,11 +79,11 @@
     },
     "Grabbed": {
       "name": "Agarrado",
-      "description": "<p>Otra criatura te mantiene fijo en tu lugar, lo que te impone los estados @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} e ​​@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado}. Si emprendes una acción de manipular mientras estás agarrado, has de tener éxito en una @Check[type:flat|showDC:all|dc:5] o la pierdes; haz la tirada después de gastar la acción, pero antes de aplicar ningún efecto.</p>"
+      "description": "<p>Otra criatura te mantiene fijo en tu lugar, lo que te impone los estados @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} e @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado}. Si emprendes una acción de manipular mientras estás agarrado, has de tener éxito en una @Check[type:flat|showDC:all|dc:5] o la pierdes; haz la tirada después de gastar la acción, pero antes de aplicar ningún efecto.</p>"
     },
     "Helpful": {
       "name": "Solícito",
-      "description": "<p>Este estado refleja la disposición de un criatura hacia un PJ en particular, y tan solo efectos sobrenaturales (como un conjuro), pueden imponérselo a un PJ. Una criatura amistosa hacia un PJ quiere ayudarle activamente. Aceptará @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{Peticiones} razonables del mismo, si no son a expensas de los objetivos o de la calidad de vida de dicha criatura. Si el PJ (o uno de sus aliados) lleva a cabo acciones hostiles contra la criatura, ésta pasa a una actitud peor dependiendo de la gravedad de la acción hostil, a determinar por el DJ.</p>"
+      "description": "<p>Este estado refleja la disposición de una criatura hacia un PJ en particular, y tan solo efectos sobrenaturales (como un conjuro), pueden imponérselo a un PJ. Una criatura amistosa hacia un PJ quiere ayudarle activamente. Aceptará @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{Peticiones} razonables del mismo, si no son a expensas de los objetivos o de la calidad de vida de dicha criatura. Si el PJ (o uno de sus aliados) lleva a cabo acciones hostiles contra la criatura, ésta pasa a una actitud peor dependiendo de la gravedad de la acción hostil, a determinar por el DJ.</p>"
     },
     "Hidden": {
       "name": "Escondido",
@@ -91,7 +91,7 @@
     },
     "Hostile": {
       "name": "Hostil",
-      "description": "<p>Este estado refleja la disposición de un criatura hacia un PJ en particular, y tan solo efectos sobrenaturales (como un conjuro), pueden imponérselo a un PJ. Una criatura hostil hacia un PJ pretende activamente dañarlo. No necesariamente le atacará, pero no aceptará @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{Petición} alguna de él.</p>"
+      "description": "<p>Este estado refleja la disposición de una criatura hacia un PJ en particular, y tan solo efectos sobrenaturales (como un conjuro), pueden imponérselo a un PJ. Una criatura hostil hacia un PJ pretende activamente dañarlo. No necesariamente le atacará, pero no aceptará @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{Petición} alguna de él.</p>"
     },
     "Immobilized": {
       "name": "Inmovilizado",
@@ -99,7 +99,7 @@
     },
     "Indifferent": {
       "name": "Indiferente",
-      "description": "<p>Este estado refleja la disposición de un criatura hacia un PJ en particular, y tan solo efectos sobrenaturales (como un conjuro), pueden imponérselo a un PJ. A una criatura indiferente hacia un PJ no le preocupa éste en modo alguno. Supón que la actitud de una criatura hacia un PJ determinado es indiferente si no se especifica lo contrario.</p>"
+      "description": "<p>Este estado refleja la disposición de una criatura hacia un PJ en particular, y tan solo efectos sobrenaturales (como un conjuro), pueden imponérselo a un PJ. A una criatura indiferente hacia un PJ no le preocupa este en modo alguno. Supón que la actitud de una criatura hacia un PJ determinado es indiferente si no se especifica lo contrario.</p>"
     },
     "Invisible": {
       "name": "Invisible",
@@ -111,11 +111,11 @@
     },
     "Off-Guard": {
       "name": "Desprevenido",
-      "description": "<p>Estas distraído o de alguna otra forma eres incapaz de centrar tu atención completa en la defensa. Sufres un penalizador -2 por estatus a la CA. Algunos efectos te imponen el estado desprevenido tan sólo frente a determinadas criaturas o contra determinados ataques. Otros, en especial los estados, te pueden dejar desprevenido contra todo. Si una regla no especifica que el estado sólo se aplica a determinadas circunstancias, se aplica a todas ellas, como por ejemplo 'El objetivo queda desprevenido'.</p>"
+      "description": "<p>Estás distraído o de alguna otra forma eres incapaz de centrar tu atención completa en la defensa. Sufres un penalizador -2 por estatus a la CA. Algunos efectos te imponen el estado desprevenido tan solo frente a determinadas criaturas o contra determinados ataques. Otros, en especial los estados, te pueden dejar desprevenido contra todo. Si una regla no especifica que el estado solo se aplica a determinadas circunstancias, se aplica a todas ellas, como por ejemplo 'El objetivo queda desprevenido'.</p>"
     },
     "Paralyzed": {
       "name": "Paralizado",
-      "description": "<p>Tu cuerpo está congelado en un lugar. Sufres el estado @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} y no puedes actuar excepto para @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recordar conocimiento} y utilizar acciones que sólo requieren el uso de la mente (a determinar por el DJ). Tus sentidos siguen funcionando, pero sólo en las áreas que puedes percibir sin moverte, por lo que no puedes @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Buscar}.</p>"
+      "description": "<p>Tu cuerpo está congelado en un lugar. Sufres el estado @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} y no puedes actuar excepto para @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recordar conocimiento} y utilizar acciones que solo requieren el uso de la mente (a determinar por el DJ). Tus sentidos siguen funcionando, pero solo en las áreas que puedes percibir sin moverte, por lo que no puedes @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Buscar}.</p>"
     },
     "Persistent Damage": {
       "name": "Daño persistente",
@@ -131,11 +131,11 @@
     },
     "Quickened": {
       "name": "Acelerado",
-      "description": "<p>Eres capaz de moverte con más rapidez. Obtienes 1 acción adicional al inicio de tu turno en cada asalto. Muchos efectos que te aceleran requieren que uses la acción adicional sólo de ciertas formas. Si te aceleras debido a múltiples orígenes, puedes utilizar la acción adicional concedida para cualquier acción individual concedida por cualquiera de los efectos que te han acelerado. Como quiera que acelerado tiene efecto al inicio de tu turno, no obtienes acciones de inmediato si te aceleran durante tu turno.</p>"
+      "description": "<p>Eres capaz de moverte con más rapidez. Obtienes 1 acción adicional al inicio de tu turno en cada asalto. Muchos efectos que te aceleran requieren que uses la acción adicional solo de ciertas formas. Si te aceleras debido a múltiples orígenes, puedes utilizar la acción adicional concedida para cualquier acción individual concedida por cualquiera de los efectos que te han acelerado. Como quiera que acelerado tiene efecto al inicio de tu turno, no obtienes acciones de inmediato si te aceleran durante tu turno.</p>"
     },
     "Restrained": {
       "name": "Neutralizado",
-      "description": "<p>Estás atado y apenas puedes moverte, o una criatura te tiene sujeto. Sufres los estados @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} e ​​@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado}, y no puedes utilizar ningún ataque o acción de manipular excepto tratar de @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Huir} o @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Abrir por la fuerza} tus ligaduras. Neutralizado prevalece sobre @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}.</p>"
+      "description": "<p>Estás atado y apenas puedes moverte, o una criatura te tiene sujeto. Sufres los estados @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} e @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado}, y no puedes utilizar ningún ataque o acción de manipular excepto tratar de @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Huir} o @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Abrir por la fuerza} tus ligaduras. Neutralizado prevalece sobre @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}.</p>"
     },
     "Sickened": {
       "name": "Indispuesto"
@@ -150,7 +150,7 @@
     },
     "Stupefied": {
       "name": "Anonadado",
-      "description": "<p>Tus pensamientos y tus instintos están nublados. Anonadado siempre incluye un valor. Sufres un penalizador por estatus igual a dicho valor a las pruebas y a las CD basadas en la Inteligencia, la Sabiduría y el Carisma, incluyendo las salvaciones de Voluntad, los modificadores al ataque de conjuros, las CD de conjuros y las pruebas de habilidad que utilizan dichos modificadores por atributo. Si @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Lanzas un conjuro} estando anonadado, quedará perturbado a menos que tengas éxito en una @Check[type:flat|showDC:all|dc:resolve(5+@item.badge.value)] con una CD igual a 5 + tu valor de anonadado .</p>"
+      "description": "<p>Tus pensamientos y tus instintos están nublados. Anonadado siempre incluye un valor. Sufres un penalizador por estatus igual a dicho valor a las pruebas y a las CD basadas en la Inteligencia, la Sabiduría y el Carisma, incluyendo las salvaciones de Voluntad, los modificadores al ataque de conjuros, las CD de conjuros y las pruebas de habilidad que utilizan dichos modificadores por atributo. Si @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Lanzas un conjuro} estando anonadado, quedará perturbado a menos que tengas éxito en una @Check[type:flat|showDC:all|dc:resolve(5+@item.badge.value)] con una CD igual a 5 + tu valor de anonadado.</p>"
     },
     "Unconscious": {
       "name": "Inconsciente",
@@ -158,15 +158,15 @@
     },
     "Undetected": {
       "name": "No detectado",
-      "description": "<p>Cuando no has sido detectado por una criatura, dicha criatura no puede verte, no tiene idea alguna del espacio que ocupas, y no puede designarte como objetivo, aunque sigues pudiendo verte afectado por aptitudes con área de efecto. Cuando no has sido detectado por una criatura, dicha criatura está @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenida} ante ti.</p>\n <p>Una criatura que no te ha detectado puede adivinar en qué casilla estás para designarte como objetivo. Tiene que elegir una casilla y llevar a cabo un ataque. Esto funciona igual que designar como objetivo a una criatura @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondida} (requiriendo una @Check[type:flat|showDC:all|dc:11|traits:secret]), pero la prueba plana y la tirada de ataque las tira en secreto el DJ , que no revela si el ataque falla debido a fallar la prueba plana, a fallar la tirada de ataque o a elegir la casilla equivocada. Puede @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Buscar} para ver si te encuentra.</p>"
+      "description": "<p>Cuando no has sido detectado por una criatura, dicha criatura no puede verte, no tiene idea alguna del espacio que ocupas, y no puede designarte como objetivo, aunque sigues pudiendo verte afectado por aptitudes con área de efecto. Cuando no has sido detectado por una criatura, dicha criatura está @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenida} ante ti.</p>\n <p>Una criatura que no te ha detectado puede adivinar en qué casilla estás para designarte como objetivo. Tiene que elegir una casilla y llevar a cabo un ataque. Esto funciona igual que designar como objetivo a una criatura @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondida} (requiriendo una @Check[type:flat|showDC:all|dc:11|traits:secret]), pero la prueba plana y la tirada de ataque las tira en secreto el DJ, que no revela si el ataque falla debido a fallar la prueba plana, a fallar la tirada de ataque o a elegir la casilla equivocada. Puede @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Buscar} para ver si te encuentra.</p>"
     },
     "Unfriendly": {
       "name": "Malintencionado",
-      "description": "<p>Este estado refleja la disposición de una criatura hacia un personaje en particular, y sólo efectos sobrenaturales (como un\nconjuro) pueden imponérselo a un PJ. A una criatura malintencionada hacia un PJ no le gusta dicho PJ. La criatura malintencionada no acepta @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{Peticiones} de él.</p>"
+      "description": "<p>Este estado refleja la disposición de una criatura hacia un personaje en particular, y solo efectos sobrenaturales (como un\nconjuro) pueden imponérselo a un PJ. A una criatura malintencionada hacia un PJ no le gusta dicho PJ. La criatura malintencionada no acepta @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{Peticiones} de él.</p>"
     },
     "Unnoticed": {
       "name": "Inadvertido",
-      "description": "<p>Si estás inadvertido para una criatura, dicha criatura no tiene ni idea de que estás presente. Cuando estás inadvertido, también estás @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{No detectado}. Esto sólo importa para las aptitudes que se pueden utilizar sólo contra objetivos totalmente ignorantes de tu presencia.</p>"
+      "description": "<p>Si estás inadvertido para una criatura, dicha criatura no tiene ni idea de que estás presente. Cuando estás inadvertido, también estás @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{No detectado}. Esto solo importa para las aptitudes que se pueden utilizar solo contra objetivos totalmente ignorantes de tu presencia.</p>"
     },
     "Wounded": {
       "name": "Herido",

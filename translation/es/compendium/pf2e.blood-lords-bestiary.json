@@ -26,13 +26,13 @@
         },
         "action->Putrid Sap": {
           "name": "Putrid Sap",
-          "description": "<p>If the arboreal snag takes daño from a piercing attack, nauseating green pus spurts from the wound. Las criaturas within 10 pies of the snag must succeed at a @Check[fortitude|dc:20] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure). Las criaturas that attempt this save are then temporarily immune for 1 hora.</p>"
+          "description": "<p>If the arboreal snag takes daño from a piercing attack, nauseating green pus spurts from the wound. Las criaturas within 10 pies of the snag must succeed at a @Check[fortitude|dc:20] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 2} on a critical failure). Las criaturas that attempt this save are then temporarily immune for 1 hora.</p>"
         }
       }
     },
     "Azmakian Effigy": {
       "name": "Azmakian Effigy",
-      "publicNotes": "<p>Xar-Azmak, the demonic Lord of Rust, was destroyed long ago by Dispater. Some armas of his infernal legions remain and among the most infamous are Azmakian effigies: fearsome infernal constructs shaped in his image.</p>\n<p>Although made of iron, an Azmakian effigy's exterior is thick with rust that flakes off as the construct moves and fights. Effigies charge into battle on massive hooves, impaling enemies on long, curving horns. The effigy's most well-known attack-and the ability that makes even the bravest warrior tremble-is their terrible rusting breath, which can reduce even legendario magical armas to useless scrap. Wise adventurers attempt to fight an effigy at a distance, but these constructs are surprisingly swift and able to outrun many foes.</p>\n<p>The secret to creating Azmakian effigies is thought to be lost, but infernal libraries might still contain the necessary rituals and list of ingredients. Xar-Azmak once commanded ranks of effigies that numbered in the thousands, but most of those who survived his destruction were trapped in Hell, where they were pursued by Dispater's forces and eventually destroyed. Those few who offered their services to Xar-Azmak's devoted worshippers on Golarion survived this purge. With the death of Xar-Azmak, much of the LORE to REPAIR the effigies was lost. When one of these constructs is found, they're often suffering some form of long-term daño.</p>",
+      "publicNotes": "<p>Xar-Azmak, the demonic Lord of Rust, was destroyed long ago by Dispater. Some armas of his infernal legions remain and among the most infamous are Azmakian effigies: fearsome infernal constructs shaped in his image.</p>\n<p>Although made of iron, an Azmakian effigy's exterior is thick with rust that flakes off as the construct moves and fights. Effigies charge into battle on massive hooves, impaling enemigos on long, curving horns. The effigy's most well-known attack-and the ability that makes even the bravest warrior tremble-is their terrible rusting breath, which can reduce even legendario magical armas to useless scrap. Wise adventurers attempt to fight an effigy at a distance, but these constructs are surprisingly swift and able to outrun many foes.</p>\n<p>The secret to creating Azmakian effigies is thought to be lost, but infernal libraries might still contain the necessary rituals and list of ingredients. Xar-Azmak once commanded ranks of effigies that numbered in the thousands, but most of those who survived his destruction were trapped in Hell, where they were pursued by Dispater's forces and eventually destroyed. Those few who offered their services to Xar-Azmak's devoted worshippers on Golarion survived this purge. With the death of Xar-Azmak, much of the LORE to REPAIR the effigies was lost. When one of these constructs is found, they're often suffering some form of long-term daño.</p>",
       "items": {
         "strike-melee->Horn": {
           "name": "Cuerno"
@@ -40,9 +40,9 @@
         "strike-melee->Hoof": {
           "name": "Pezuña"
         },
-        "action->Breath Weapon": {
+        "action->Breath Arma": {
           "name": "Arma de aliento",
-          "description": "<p>The Azmakian effigy exhales rusting gas in a @Template[cone|distance:15]. The gas deals @Damage[2d6[untyped]|options:area-damage] daño to the highest-level metal item carried by every criatura in the area, ignoring these items' Hardness (@Check[fortitude|dc:22|basic|options:area-effect]); unattended metal items in the area take this daño automatically. The Azmakian effigy can't use its Arma de aliento again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 asaltos}.</p>"
+          "description": "<p>The Azmakian effigy exhales rusting gas in a @Template[cone|distance:15]. The gas deals @Damage[2d6[untyped]|options:area-damage] daño to the highest-nivel metal item carried by every criatura in the area, ignoring these items' Hardness (@Check[fortitude|dc:22|basic|options:area-effect]); unattended metal items in the area take this daño automatically. The Azmakian effigy can't use its Arma de aliento again for [[/gmr 1d4 #Recharge Breath Arma]]{1d4 asaltos}.</p>"
         },
         "action->Powerful Charge": {
           "name": "Powerful Charge",
@@ -55,13 +55,13 @@
       "hpDetails": "curación de vacío",
       "publicNotes": "<p>During el war between Geb y Nex, necromancers conducted dangerous magico experiments a obtienen every possible advantage over su enemigos. One such endeavor attempted a distill el essence de vampiric mists a create un protective shroud for un army de muertos vivientes maguses.</p>",
       "items": {
-        "spellcastingEntry->Arcane Innate Spells": {
-          "name": "Arcane Innate Spells"
+        "spellcastingEntry->Arcane Innate Conjuros": {
+          "name": "Arcane Innate Conjuros"
         },
-        "spell->Disintegrate": {
-          "target": "1 criatura or unattended object"
+        "conjuro->Disintegrate": {
+          "objetivo": "1 criatura or unattended object"
         },
-        "spell->Scorching Ray": {
+        "conjuro->Scorching Ray": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.ZxHC7V7HtjUsB8zH]\nScorching Ray"
         },
         "strike-melee->Greatsword": {
@@ -70,7 +70,7 @@
         "strike-melee->Claw": {
           "name": "Garra"
         },
-        "action->Lifesense 60 feet": {
+        "action->Lifesense 60 pies": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg]\nLifesense 60 pies"
         },
         "action->Bloodshift": {
@@ -79,11 +79,11 @@
         },
         "action->Sanguine Shroud": {
           "name": "Sanguine Shroud",
-          "description": "<p>The bloodshroud is enveloped by a shroud of flowing blood. If a criatura deals daño to a bloodshroud with a melee Golpe or touches the bloodshroud, the criatura must attempt a @Check[fortitude|dc:30] salvación. Any Puntos de Golpe temporales the bloodshroud gains from Sanguine Shroud fade after 1 hora.</p>\n<hr />\n<p><strong>Éxito crítico</strong> As success, but the criatura becomes temporarily immune to Sanguine Shroud for 24 horas.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} and takes @Damage[2d6[bleed]] daño. The bloodshroud gains 15 Puntos de Golpe temporales.</p>\n<p><strong>Fallo crítico</strong> As failure, but the criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2}, and the bloodshroud gains 25 Puntos de Golpe temporales.</p>"
+          "description": "<p>The bloodshroud is enveloped by a shroud of flowing blood. If a criatura deals daño to a bloodshroud with a melee Golpe or touches the bloodshroud, the criatura must attempt a @Check[fortitude|dc:30] salvación. Any Puntos de golpe temporales the bloodshroud gains from Sanguine Shroud fade after 1 hora.</p>\n<hr />\n<p><strong>Éxito crítico</strong> As success, but the criatura becomes temporarily immune to Sanguine Shroud for 24 horas.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> The criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} and takes @Damage[2d6[bleed]] daño. The bloodshroud gains 15 Puntos de golpe temporales.</p>\n<p><strong>Fallo crítico</strong> As failure, but the criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 2}, and the bloodshroud gains 25 Puntos de golpe temporales.</p>"
         },
         "action->Spellstrike": {
-          "name": "Golpe de hechizo",
-          "description": "<p><strong>Frecuencia</strong> until recharged</p>\n<hr />\n<p><strong>Efecto</strong> The bloodshroud channels a conjuro that takes 1 or 2 actions to cast and requires a conjuro tirada de ataque into a claw or greatsword Golpe. The effects of the conjuro don't occur immediately but are imbued into the bloodshroud's attack instead. The bloodshroud makes a melee Golpe with a arma or claw. The conjuro is coupled with the bloodshroud's attack, using the tirada de ataque result to determine the effects of both the Golpe and the conjuro. Este counts as two attacks for the purposes of determining the bloodshroud's multiple attack penalización, but the penalización is not applied until after the Spellstrike. Using Bloodshift automatically recharges the bloodshroud's Spellstrike.</p>"
+          "name": "Golpe de conjuro",
+          "description": "<p><strong>Frecuencia</strong> until recharged</p>\n<hr />\n<p><strong>Efecto</strong> The bloodshroud channels a conjuro that takes 1 or 2 actions to cast and requires a conjuro tirada de ataque into a claw or greatsword Golpe. The effects of the conjuro don't occur immediately but are imbued into the bloodshroud's attack instead. The bloodshroud makes a melee Golpe with a arma or claw. The conjuro is coupled with the bloodshroud's attack, using the tirada de ataque result to determine the effects of both the Golpe and the conjuro. Este counts as two attacks for the purposes of determining the bloodshroud's multiple attack penalizador, but the penalizador is not applied until after the Spellstrike. Using Bloodshift automatically recharges the bloodshroud's Spellstrike.</p>"
         }
       }
     },
@@ -100,7 +100,7 @@
         },
         "action->Malevolent Mishaps": {
           "name": "Malevolent Mishaps",
-          "description": "<p>10 pies. The charghar causes clumsiness and uncertainty in those nearby. Each criatura that starts its turn in the aura must attempt a @Check[will|dc:21] salvación.</p>\n<hr />\n<p><strong>Éxito</strong> The criatura is temporarily immune to Malevolent Mishaps for 1 minuto.</p>\n<p><strong>Fallo</strong> The criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} until the start of its next turn. If the criatura is living, the charghar Imparts Fears.</p>\n<p><strong>Fallo crítico</strong> As failure, but @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2}.</p>"
+          "description": "<p>10 pies. The charghar causes clumsiness and uncertainty in those nearby. Each criatura that starts its turn in the aura must attempt a @Check[will|dc:21] salvación.</p>\n<hr />\n<p><strong>Éxito</strong> The criatura is temporarily immune to Malevolent Mishaps for 1 minuto.</p>\n<p><strong>Fallo</strong> The criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 1} until the start of its next turn. If the criatura is living, the charghar Imparts Fears.</p>\n<p><strong>Fallo crítico</strong> As failure, but @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 2}.</p>"
         },
         "action->Create Spawn": {
           "name": "Create Spawn",
@@ -137,12 +137,12 @@
       "hpDetails": "curación de vacío",
       "publicNotes": "<p>Graydirge's necromancer-architects used a horrifying rending process to strip the flesh and souls off most bones involved in Graydirge's construction, but modern builders lack the benefit of such gruesomely efficient magic. When haunted bones are embedded in buildings alongside mundane materials, nearby bricks and cobblestones can be infused with necromantic energy. If no one exorcises the spirits haunting the bones, they become trapped and confused, their identities and memories intermingling. After several years, they can form cobblebone swarms, malevolent haunted amalgamations of brick and bone. Estos vengeful criaturas conjure ghostly noises to lure victims down narrow alleys or into dark stone basements, where they pummel them to death and cover their remains beneath piles of bones and brick.</p>\n<p>Some have mistaken cobblebone swarms for cobbleswarms, but citizens of Graydirge know to look for nearby apparitions, or studded bones that move when tú look away. Estos are sure signs of a cobblebone swarm, and an indication that one should take a different route to their destination.</p>\n<p>Cobblebone swarms look like piles of simple bricks or cobblestones with crooked bones embedded in them, often in the shape of crude faces. As they roll along or float slowly through the air, they leave a ghostly afterimage in their wake.</p>",
       "items": {
-        "spellcastingEntry->Occult Innate Spells": {
-          "name": "Occult Innate Spells"
+        "spellcastingEntry->Occult Innate Conjuros": {
+          "name": "Occult Innate Conjuros"
         },
         "action->Hatred for Secret Doors": {
           "name": "Hatred for Secret Doors",
-          "description": "<p>Cobblebone swarms have a hatred for secret doors, trick drawers, or anything else that conceals hidden spaces, as such things remind them of years or decades spent trapped within stone. They gain a +5 bonificador de circunstancia to ATHLETICS checks to @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{FORCE OPEN} secret doors.</p>"
+          "description": "<p>Cobblebone swarms have a hatred for secret doors, trick drawers, or anything else that conceals escondido spaces, as such things remind them of years or decades spent trapped within stone. They gain a +5 bonificador de circunstancia to ATHLETICS checks to @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{FORCE OPEN} secret doors.</p>"
         },
         "action->Jutting Bones": {
           "name": "Jutting Bones",
@@ -166,35 +166,35 @@
       "hpDetails": "curación de vacío",
       "publicNotes": "<p>Hags are neither immortal nor unageing; if not slain by an enemigo, a hag eventually succumbs to old age. A hag who dies in agony or rage can rise again as a witchfire, while those who die of old age might rise again as an undead criatura known as a creeping crone. A creeping crone has lost far more than her life; they can't form or join covens, denying them one of a living hag's most distinguishing abilities. Este inability, more than their rotting bodies or hunger for flesh, makes creeping crones exiled among their former kin.</p>",
       "items": {
-        "spellcastingEntry->Occult Prepared Spells": {
-          "name": "Occult Prepared Spells"
+        "spellcastingEntry->Occult Prepared Conjuros": {
+          "name": "Occult Prepared Conjuros"
         },
-        "spell->Tongues": {
+        "conjuro->Tongues": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K]\nTongues"
         },
-        "spell->See Invisibility": {
+        "conjuro->See Invisibility": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]\nSee Invisibility"
         },
-        "spell->Tree Shape": {
+        "conjuro->Tree Shape": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]\nTree Shape"
         },
-        "spell->Dancing Lights": {
+        "conjuro->Dancing Lights": {
           "name": "Dancing Lights",
-          "description": "<p>Creas up to four floating lights, no two of which are more than 10 pies apart. Each sheds light like a torch. When tú Sustain the Spell, puedes move any number of lights up to 60 pies. Each light must remain within 120 pies of tú and within 10 pies of all others, or it winks out.</p>"
+          "description": "<p>Creas up to four floating lights, no two of which are more than 10 pies apart. Each sheds light like a torch. When tú Sustain the Conjuro, puedes move any number of lights up to 60 pies. Each light must remain within 120 pies of tú and within 10 pies of all others, or it winks out.</p>"
         },
-        "spell->Magic Missile": {
+        "conjuro->Magic Missile": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]\nMagic Missile"
         },
-        "spell->Pass Without Trace": {
+        "conjuro->Pass Without Trace": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.zlnXpME1T2uvn8Lr]\nPass Without Trace"
         },
-        "spell->Ray of Enfeeblement": {
+        "conjuro->Ray of Enfeeblement": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRay of Enfeeblement"
         },
-        "spell->Unseen Servant": {
+        "conjuro->Unseen Servant": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.xqmHD8JIjak15lRk]\nUnseen Servant"
         },
-        "weapon->Walking Stick": {
+        "arma->Walking Stick": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Ab5EjJyoRSec5YrW]\nWalking Stick",
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Ab5EjJyoRSec5YrW]\n<p>Este twisted and grim-looking staff is adorned with hideous skull and bone motifs. While wielding the staff, obtienes a +2 bonificador de circunstancia to checks to identify necromancy magic.</p>\n<p><strong>Activar</strong> Lanzar un conjuro</p>\n<hr />\n<p><strong>Efecto</strong> Gastas a number of charges from the staff to cast a conjuro from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.mAMEt4FFbdqoRnkN]{Void Warp}</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.k34hDOfIIMAxNL4a]{Grim Tendrils}, @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]{Enfeeble}</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.fZPCv2VHuM2yPbC8]{Deafness}, @UUID[Compendium.pf2e.spells-srd.Item.xRgU9rrhmGAgG4Rc]{Peaceful Rest}</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.VosLNn2M8S7JH67D]{Blindness}, @UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]{Vampiric Feast}</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.k34hDOfIIMAxNL4a]{Grim Tendrils}, @UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]{Vampiric Feast}</li>\n</ul>\n<p><strong>Requisitos de fabricación</strong> Supply one casting of all listed levels of all listed conjuros.</p>",
           "rules": {
@@ -245,17 +245,17 @@
       "hpDetails": "curación de vacío",
       "publicNotes": "<p>El church de Kabriri selects solo el most devoted y deadly ghouls a protect su libraries de secret-filled tomes.</p>",
       "items": {
-        "spellcastingEntry->Divine Focus Spells": {
-          "name": "Divine Focus Spells"
+        "spellcastingEntry->Divine Focus Conjuros": {
+          "name": "Divine Focus Conjuros"
         },
-        "spell->Touch of Corruption": {
+        "conjuro->Touch of Corruption": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.jFmWSIpJGGebim6y]\nTouch of Corruption"
         },
         "shield->Steel Shield": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Yr9yCuJiAlFh3QEB]\n<p>Like wooden shields, steel shields come in a variety of shapes and sizes. Though more expensive than wooden shields, they are much more durable.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>5</td>\n<td>20</td>\n<td>10</td>\n</tr>\n</tbody>\n</table>"
         },
-        "armor->Full Plate": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Gq1cZWSKOtJhKd2p]\n<p>Plate mail consists of interlocking plates that encase nearly the entire body in a carapace of steel. It is costly and heavy, and the wearer often requires help to don it correctly, but it provides some of the best defense armor can supply. A suit of this armor comes with an undercoat of padded armor and a pair of gauntlets.</p>"
+        "armadura->Full Plate": {
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.Gq1cZWSKOtJhKd2p]\n<p>Plate mail consists of interlocking plates that encase nearly the entire body in a carapace of steel. It is costly and heavy, and the wearer often requires help to don it correctly, but it provides some of the best defense armadura can supply. A suit of this armadura comes with an undercoat of padded armadura and a pair of gauntlets.</p>"
         },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -275,11 +275,11 @@
         },
         "action->Consume Flesh": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23]\nConsumir carne",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23]\n<p><strong>Requisitos</strong> The ghoul antipaladin is adjacent to the corpse of a criatura that died within the last hour</p>\n<hr />\n<p><strong>Efecto</strong> The ghoul antipaladin devours a chunk of the corpse and regains @Damage[4d6[healing]] Puntos de Golpe. It can regain Puntos de Golpe from any given corpse only once.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23]\n<p><strong>Requisitos</strong> The ghoul antipaladin is adjacent to the corpse of a criatura that died within the last hour</p>\n<hr />\n<p><strong>Efecto</strong> The ghoul antipaladin devours a chunk of the corpse and regains @Damage[4d6[healing]] Puntos de golpe. It can regain Puntos de golpe from any given corpse only once.</p>"
         },
         "action->Ghoul Fever": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.N7UV5CZXtcoxDxCF]\nGhoul Fever",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.N7UV5CZXtcoxDxCF]\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:27]</p>\n<hr />\n<p><strong>Etapa 1</strong> carrier with no ill effect (1 día)</p>\n<p><strong>Etapa 2</strong> @Damage[2d6[void]] daño and regains half as many Puntos de Golpe from all healing (1 día)</p>\n<p><strong>Etapa 3</strong> as stage 2 (1 día)</p>\n<p><strong>Etapa 4</strong> @Damage[2d6[void]] daño and gains no benefit from healing (1 día)</p>\n<p><strong>Etapa 5</strong> as stage 4 (1 día)</p>\n<p><strong>Etapa 6</strong> dead, and rises as a @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.LHHgGSs0ELCR4CYK]{Ghoul} the next midnight.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.N7UV5CZXtcoxDxCF]\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:27]</p>\n<hr />\n<p><strong>Etapa 1</strong> carrier with no ill effect (1 día)</p>\n<p><strong>Etapa 2</strong> @Damage[2d6[void]] daño and regains half as many Puntos de golpe from all healing (1 día)</p>\n<p><strong>Etapa 3</strong> as stage 2 (1 día)</p>\n<p><strong>Etapa 4</strong> @Damage[2d6[void]] daño and gains no benefit from healing (1 día)</p>\n<p><strong>Etapa 5</strong> as stage 4 (1 día)</p>\n<p><strong>Etapa 6</strong> dead, and rises as a @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.LHHgGSs0ELCR4CYK]{Ghoul} the next midnight.</p>"
         },
         "action->Paralysis": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.FW4KAUHb7r8WkxUc]\nParalysis",
@@ -318,7 +318,7 @@
         },
         "action->Deny Advantage": {
           "name": "Negar ventaja",
-          "description": "<p>The razorclaw isn't @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to criaturas of 13th level or lower that are @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido}, @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected}, flanking, or using @UUID[Compendium.pf2e.classfeatures.Item.w6rMqmGzhUahdnA7]{Surprise Attack}.</p>"
+          "description": "<p>The razorclaw isn't @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} to criaturas of 13th nivel or lower that are @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido}, @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Sin detectar}, flanking, or using @UUID[Compendium.pf2e.classfeatures.Item.w6rMqmGzhUahdnA7]{Surprise Attack}.</p>"
         },
         "action->Adamantine Edges": {
           "name": "Adamantine Edges",
@@ -326,11 +326,11 @@
         },
         "action->Consume Flesh": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23]\nConsumir carne",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23]\n<p><strong>Requisitos</strong> The ghoul is adjacent to the corpse of a criatura that died within the last hour.</p>\n<hr />\n<p><strong>Efecto</strong> The ghoul devours a chunk of the corpse and regains @Damage[7d6[healing]] Puntos de Golpe.</p>\n<p>It can regain Puntos de Golpe from any given corpse only once.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23]\n<p><strong>Requisitos</strong> The ghoul is adjacent to the corpse of a criatura that died within the last hour.</p>\n<hr />\n<p><strong>Efecto</strong> The ghoul devours a chunk of the corpse and regains @Damage[7d6[healing]] Puntos de golpe.</p>\n<p>It can regain Puntos de golpe from any given corpse only once.</p>"
         },
         "action->Ghoul Fever": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.N7UV5CZXtcoxDxCF]\nGhoul Fever",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.N7UV5CZXtcoxDxCF]\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:31]</p>\n<hr />\n<p><strong>Etapa 1</strong> carrier with no ill effect (1 día)</p>\n<p><strong>Etapa 2</strong> @Damage[4d6[void]] daño and regains half as many Puntos de Golpe from all healing (1 día)</p>\n<p><strong>Etapa 3</strong> as stage 2 (1 día)</p>\n<p><strong>Etapa 4</strong> @Damage[4d6[void]] daño and gains no benefit from healing (1 día)</p>\n<p><strong>Etapa 5</strong> as stage 4 (1 día)</p>\n<p><strong>Etapa 6</strong> dead, and rises as a @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.LHHgGSs0ELCR4CYK]{Ghoul} the next midnight.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.N7UV5CZXtcoxDxCF]\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:31]</p>\n<hr />\n<p><strong>Etapa 1</strong> carrier with no ill effect (1 día)</p>\n<p><strong>Etapa 2</strong> @Damage[4d6[void]] daño and regains half as many Puntos de golpe from all healing (1 día)</p>\n<p><strong>Etapa 3</strong> as stage 2 (1 día)</p>\n<p><strong>Etapa 4</strong> @Damage[4d6[void]] daño and gains no benefit from healing (1 día)</p>\n<p><strong>Etapa 5</strong> as stage 4 (1 día)</p>\n<p><strong>Etapa 6</strong> dead, and rises as a @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.LHHgGSs0ELCR4CYK]{Ghoul} the next midnight.</p>"
         },
         "action->Paralysis": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.FW4KAUHb7r8WkxUc]\nParalysis",
@@ -357,19 +357,19 @@
       "publicNotes": "<p>Rot-skinned grave hags usually lair in cemeteries, mausoleums, and other burial sites; unlike most hags, they can't alter their appearance into a comely shape, so they hide from most observers. Grave hags consider such a predatory life hiding out in graveyards to be pitiful and squalid-they prefer to dwell in lands where necromancy is common and undeath isn't unusual. Estos grave hags become adept at necromantic magic and love posing as scholars. Schemers and plotters, they surround themselves with minions whom they send on missions to collect corpses for ghastly rituals.</p>\n<hr />\n<p>Hags are surprisingly diverse, both in abilities and in their terrain.</p>",
       "saveDetails": "+1 de estado a todas las salvaciones contra magia",
       "items": {
-        "spellcastingEntry->Occult Innate Spells": {
-          "name": "Occult Innate Spells"
+        "spellcastingEntry->Occult Innate Conjuros": {
+          "name": "Occult Innate Conjuros"
         },
-        "spell->Cloudkill": {
+        "conjuro->Cloudkill": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.MlpbeZ61Euhl0d60]\nCloudkill"
         },
-        "spell->Vampiric Touch": {
+        "conjuro->Vampiric Touch": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]\nVampiric Touch"
         },
-        "spell->Death Knell (At Will)": {
+        "conjuro->Death Knell (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.dLdRqT6UxTKlsPgp]\nDoblar a muerto (a voluntad)"
         },
-        "spell->Animate Dead": {
+        "conjuro->Animate Dead": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.9WGeBwIIbbUuWKq0]\nAnimate Dead"
         },
         "strike-melee->Claw": {
@@ -382,21 +382,21 @@
           "name": "Aquelarre",
           "description": "<p>A grave hag adds @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm}, @UUID[Compendium.pf2e.spells-srd.Item.xlRv8vCTHh1NeMpw]{Mimic Undead}, and the @UUID[Compendium.pf2e.spells-srd.Item.gsYEuWv04XTDxe91]{Call Spirit} ritual to her coven's conjuros.</p>"
         },
-        "action->Sacrifice Ally": {
-          "name": "Sacrifice Ally",
-          "description": "<p><strong>Desencadenante</strong> The grave hag is adjacent to an ally when the hag is targeted by an attack or an effect that requires a Reflex tirada de salvación</p>\n<hr />\n<p><strong>Efecto</strong> The triggering effect is redirected to target the ally.</p>"
+        "action->Sacrifice Aliado": {
+          "name": "Sacrifice Aliado",
+          "description": "<p><strong>Desencadenante</strong> The grave hag is adjacent to an aliado when the hag is targeted by an attack or an effect that requires a Reflex tirada de salvación</p>\n<hr />\n<p><strong>Efecto</strong> The triggering effect is redirected to objetivo the aliado.</p>"
         },
         "action->Curse of the Grave": {
           "name": "Curse of the Grave",
-          "description": "<p>The grave hag names a single criatura within 30 pies; that criatura must succeed at a @Check[will|dc:28] salvación or be afflicted with a grave curse equal to the hag's level. The curse lasts until the hag chooses to end it or is slain, rather than by returning items. Regardless of the save result, el objetivo is then temporarily immune to the hag's grave curse for 24 horas.</p>\n<hr />\n<p><strong>Efecto</strong> Estás hounded by undead criaturas of the same level as the curse. Every night, debes attempt a @Check[flat|dc:15] check. On a failure, an incorporeal undead manifests to hassle and harry tú throughout the night, retreating before it can take much daño and often preventing tú from gaining a full night's rest. Siempre que tú enter a graveyard or other area where bodies are buried, debes succeed at the same prueba plana or a body animates as a corporeal undead (typically a skeleton or zombie) to attack tú.</p>\n<p>Estos undead are temporary and exist only to harry tú; if sufres control of the undead, move on, or otherwise avoid their attacks, incorporeal undead discorporate and corporeal undead collapse into ordinary corpses. The curse can be removed by returning the stolen items to their resting place.</p>"
+          "description": "<p>The grave hag names a single criatura within 30 pies; that criatura must succeed at a @Check[will|dc:28] salvación or be afflicted with a grave curse equal to the hag's nivel. The curse lasts until the hag chooses to end it or is slain, rather than by returning items. Regardless of the save result, el objetivo is then temporarily immune to the hag's grave curse for 24 horas.</p>\n<hr />\n<p><strong>Efecto</strong> Estás hounded by undead criaturas of the same nivel as the curse. Every night, debes attempt a @Check[flat|dc:15] prueba. On a failure, an incorporeal undead manifests to hassle and harry tú throughout the night, retreating before it can take much daño and often preventing tú from gaining a full night's rest. Siempre que tú enter a graveyard or other area where bodies are buried, debes succeed at the same prueba plana or a body animates as a corporeal undead (typically a skeleton or zombie) to attack tú.</p>\n<p>Estos undead are temporary and exist only to harry tú; if sufres control of the undead, move on, or otherwise avoid their attacks, incorporeal undead discorporate and corporeal undead collapse into ordinary corpses. The curse can be removed by returning the stolen items to their resting place.</p>"
         },
         "action->Grave Impressions": {
           "name": "Impresiones sepulcrales",
-          "description": "<p>The hag targets a living criatura within 30 pies and overwhelms it with feelings of entombment. El objetivo attempts a @Check[fortitude|dc:28] salvación and is then temporarily immune to the hag's Grave Impressions for 24 horas.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo is unaffected.</p>\n<p><strong>Éxito</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 1 asalto.</p>\n<p><strong>Fallo</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}.</p>\n<p><strong>Fallo crítico</strong> El objetivo is unconscious and can't awaken for 1 hora.</p>"
+          "description": "<p>The hag objetivos a living criatura within 30 pies and overwhelms it with feelings of entombment. El objetivo attempts a @Check[fortitude|dc:28] salvación and is then temporarily immune to the hag's Grave Impressions for 24 horas.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo is unaffected.</p>\n<p><strong>Éxito</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 1 asalto.</p>\n<p><strong>Fallo</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}.</p>\n<p><strong>Fallo crítico</strong> El objetivo is unconscious and can't awaken for 1 hora.</p>"
         },
         "action->Grave's Grip": {
           "name": "Grave's Grip",
-          "description": "<p>Las criaturas @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by the grave hag take a -1 penalización de circunstancia to tiradas de salvación against the grave hag's conjuros and abilities.</p>"
+          "description": "<p>Las criaturas @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by the grave hag take a -1 penalizador por circunstancia to tiradas de salvación against the grave hag's conjuros and abilities.</p>"
         },
         "action->Undead Mien": {
           "name": "Undead Mien",
@@ -431,14 +431,14 @@
         },
         "action->Tentacle Storm": {
           "name": "Tentacle Storm",
-          "description": "<p>The necrohulk flailer makes up to four tentacle Golpes, each against a different target. Estos attacks count toward its multiple attack penalización, but the penalización doesn't increase until after the necrohulk makes all of these attacks.</p>"
+          "description": "<p>The necrohulk flailer makes up to four tentacle Golpes, each against a different objetivo. Estos attacks count toward its multiple attack penalizador, but the penalizador doesn't increase until after the necrohulk makes all of these attacks.</p>"
         }
       }
     },
     "Necrohulk Smasher": {
       "name": "Necrohulk Smasher",
       "hpDetails": "curación de vacío, regeneration 15 (desactivada por acid)",
-      "publicNotes": "<p>Mutants with incredible strength make the most powerful necrohulks. Estos necrohulk smashers are so swollen with biological and alchemical muscle enhancements that they can simply pound their way through enemies.</p>\n<hr />\n<p>The strange, terrible energies swirling about on the winds and embedded in the earth of the Mana Wastes have led to unexpected changes and mutations in the bodies of those who dwell there. Estos mutants usually have little chance to escape their hardscrabble existence, as they're ostracized by other societies. People in the kingdom of Nex to the north look on such folk with suspicion, as do the dwarves of Alkenstar to the west. Surprisingly, the undead nation of Geb to the south is often the best hope for a future among people with unusual appearances.</p>\n<p>Those who flee to Geb or are convinced to make it their home frequently find their welcome to be a false promise, however. Necromancers who long ago tired of animating the same humanoids find new potential in mutated flesh, and mutants who aren't careful might find themselves led into laboratories or crypts for experimentation.</p>\n<p>Enterprising twilight sages of Yled's Mortuarium have innovated bizarre combinations of alchemy and necromancy that boost their victims' mutations to persist even after reanimation. Although these necrohulks are virtually mindless and require a constant influx of chemicals to retain their might, they're more than powerful enough to make the extremely difficult process worth the effort. The cartridge containing the alchemical formulation that sustains them is perhaps the trickiest part of necrohulk animation, and it's easiest to simply stitch the cartridge right into the necrohulk's flesh.</p>\n<p>Yled's armies contain a growing number of necrohulks. Este isn't solely because these juggernauts are frightening effective combatants on the field of battle; leveraging the instinctive revulsion that mutants create carries some strategic advantage. Although the occasional necrohulks do run amok in Yled, addled on the chemical cocktails that sustain them, military necromancers generally keep them under control.</p>",
+      "publicNotes": "<p>Mutants with incredible strength make the most powerful necrohulks. Estos necrohulk smashers are so swollen with biological and alchemical muscle enhancements that they can simply pound their way through enemigos.</p>\n<hr />\n<p>The strange, terrible energies swirling about on the winds and embedded in the earth of the Mana Wastes have led to unexpected changes and mutations in the bodies of those who dwell there. Estos mutants usually have little chance to escape their hardscrabble existence, as they're ostracized by other societies. People in the kingdom of Nex to the north look on such folk with suspicion, as do the dwarves of Alkenstar to the west. Surprisingly, the undead nation of Geb to the south is often the best hope for a future among people with unusual appearances.</p>\n<p>Those who flee to Geb or are convinced to make it their home frequently find their welcome to be a false promise, however. Necromancers who long ago tired of animating the same humanoids find new potential in mutated flesh, and mutants who aren't careful might find themselves led into laboratories or crypts for experimentation.</p>\n<p>Enterprising twilight sages of Yled's Mortuarium have innovated bizarre combinations of alchemy and necromancy that boost their victims' mutations to persist even after reanimation. Although these necrohulks are virtually mindless and require a constant influx of chemicals to retain their might, they're more than powerful enough to make the extremely difficult process worth the effort. The cartridge containing the alchemical formulation that sustains them is perhaps the trickiest part of necrohulk animation, and it's easiest to simply stitch the cartridge right into the necrohulk's flesh.</p>\n<p>Yled's armies contain a growing number of necrohulks. Este isn't solely because these juggernauts are frightening effective combatants on the field of battle; leveraging the instinctive revulsion that mutants create carries some strategic advantage. Although the occasional necrohulks do run amok in Yled, addled on the chemical cocktails that sustain them, military necromancers generally keep them under control.</p>",
       "items": {
         "strike-melee->Fist": {
           "name": "Fist"
@@ -462,7 +462,7 @@
         },
         "action->Smashing Blow": {
           "name": "Smashing Blow",
-          "description": "<p>The necrohulk smasher makes a fist Golpe. If it hits, the necrohulk smashes el objetivo into the floor or nearby wall. El objetivo takes an additional @Damage[6d10[bludgeoning]] daño, depending on its @Check[fortitude|dc:33] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo takes half of the daño adicional.</p>\n<p><strong>Éxito</strong> El objetivo takes half the daño adicional and is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p><strong>Fallo</strong> El objetivo takes full daño adicional, is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3}, and knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>\n<p><strong>Fallo crítico</strong> El objetivo takes double the daño adicional, is aturdido 3, and knocked prone.</p>"
+          "description": "<p>The necrohulk smasher makes a fist Golpe. If it hits, the necrohulk smashes el objetivo into the floor or nearby wall. El objetivo takes an additional @Damage[6d10[bludgeoning]] daño, depending on its @Check[fortitude|dc:33] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo takes half of the daño adicional.</p>\n<p><strong>Éxito</strong> El objetivo takes half the daño adicional and is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1}.</p>\n<p><strong>Fallo</strong> El objetivo takes full daño adicional, is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 3}, and knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>\n<p><strong>Fallo crítico</strong> El objetivo takes double the daño adicional, is aturdido 3, and knocked prone.</p>"
         }
       }
     },
@@ -480,7 +480,7 @@
         },
         "action->Stupefying Touch": {
           "name": "Stupefying Touch",
-          "description": "<p>A criatura damaged by a necromunculus's claw Golpe must succeed at a @Check[will|dc:15] tirada de salvación or become @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 asalto.</p>"
+          "description": "<p>A criatura damaged by a necromunculus's claw Golpe must succeed at a @Check[will|dc:15] tirada de salvación or become @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 1} for 1 asalto.</p>"
         }
       }
     },
@@ -503,19 +503,19 @@
       "hpDetails": "curación de vacío",
       "publicNotes": "<p>Born from the deaths of arsonists who died in the fires they started, pyrogeists are roiling infernos whose spectral fire emits no actual heat and harms only living criaturas. Obsessed with sharing their torment with the living, pyrogeists haunt the area of their demise until whatever wrong they refuse to forgive has been righted, and they are finally put to rest. While pyrogeists can't set their own fires, they often use their terrifying illusory capabilities and telekinetic powers to lure their victims into setting themselves ablaze.</p>",
       "items": {
-        "spellcastingEntry->Divine Innate Spells": {
-          "name": "Divine Innate Spells"
+        "spellcastingEntry->Divine Innate Conjuros": {
+          "name": "Divine Innate Conjuros"
         },
-        "spell->Illusory Scene (At Will)": {
+        "conjuro->Illusory Scene (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.Ucf8eynbZMfUucjE]\nEscena ilusoria (a voluntad)"
         },
-        "spell->Telekinetic Haul (At Will)": {
+        "conjuro->Telekinetic Haul (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.tpLTLbJUrYcMWGld]\nCarga telecinética (a voluntad)"
         },
-        "spell->Telekinetic Maneuver (At Will)": {
+        "conjuro->Telekinetic Maneuver (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.mrDi3v933gsmnw25]\nManiobra telecinética (a voluntad)"
         },
-        "spell->Mage Hand": {
+        "conjuro->Mage Hand": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]\nMage Hand"
         },
         "strike-melee->Ghastly Flames": {
@@ -528,7 +528,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.unR8VVR4yyRnsmnB]\nRejuvenecimiento",
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.unR8VVR4yyRnsmnB]\n<p>When a pyrogeist is destroyed, it reforms where it was destroyed after [[/br 2d4 #Days]]{2d4 days}, fully healed. The pyrogeist can be permanently destroyed only if someone determines the reason for its existence and sets right whatever prevents the spirit from resting.</p>"
         },
-        "action->Breath Weapon": {
+        "action->Breath Arma": {
           "name": "Arma de aliento",
           "description": "<p>A pyrogeist can spit a cone of spectral fire in a @Template[cone|distance:30], dealing @Damage[10d6[void]|options:area-damage] daño (@Check[fortitude|dc:29|basic|options:area-effect]). A criatura that fails the save also takes @Damage[1d6[persistent,void]] daño and is subject to the effects of @UUID[Compendium.pf2e.spells-srd.Item.HRb2doyaLtaoCfi3]{Faerie Fire} until the daño persistente ends.</p>"
         },
@@ -547,7 +547,7 @@
       "publicNotes": "<p>Rust hags tienen un knack for technology. They make su homes en hollowed-out factories, abandoned tenements, y otro sites de urban decay.</p> <hr /> <p>Hags son surprisingly diverse, both en abilities y en su terrain.</p>",
       "saveDetails": "+1 de estado a todas las salvaciones contra magia",
       "items": {
-        "weapon->Arquebus": {
+        "arma->Arquebus": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.ChTaE7jhvCjcS6jI]\n<p>Este is a long rifle that offers more range than the average firearm, though the long barrel and ferocious kickback make the arma particularly unsteady unless a tripod or other stand is used to stabilize it. The arquebus is one of the most commonly used long guns among the soldiers of Dongun Hold and Alkenstar.</p>"
         },
         "strike-melee->Claw": {
@@ -568,7 +568,7 @@
         },
         "action->Hagshot": {
           "name": "Hagshot",
-          "description": "<p>Any firearm wielded by a rust hag gains the benefits of <em>+1 striking</em> and <em>@UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{Ghost Touch}</em> runes, and it functions properly no matter how rusty it gets. In addition, when a rust hag critically hits a target with a firearm, el objetivo must succeed at a @Check[fortitude|dc:26] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>"
+          "description": "<p>Any firearm wielded by a rust hag gains the benefits of <em>+1 striking</em> and <em>@UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{Ghost Touch}</em> runes, and it functions properly no matter how rusty it gets. In addition, when a rust hag critically hits a objetivo with a firearm, el objetivo must succeed at a @Check[fortitude|dc:26] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1}.</p>"
         },
         "action->Rusting Touch": {
           "name": "Rusting Touch",
@@ -610,15 +610,15 @@
         },
         "action->Induction Word": {
           "name": "Induction Word",
-          "description": "<p>Each shadowforged guardian is activated during creation by a special word or short phrase spoken by its creator, and hearing this induction word resets its functions. If the guardian hears a criatura within 30 pies utter its induction word, the guardian must succeed at a @Check[will|dc:26] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} (@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3} on a critical failure). Regardless of the result of this save, it's immune to utterances of its induction word until the end of its next turn.</p>"
+          "description": "<p>Each shadowforged guardian is activated during creation by a special word or short phrase spoken by its creator, and hearing this induction word resets its functions. If the guardian hears a criatura within 30 pies utter its induction word, the guardian must succeed at a @Check[will|dc:26] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1} (@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 3} on a critical failure). Regardless of the result of this save, it's immune to utterances of its induction word until the end of its next turn.</p>"
         },
         "action->Twilight Aura": {
           "name": "Twilight Aura",
-          "description": "<p>30 pies. The shadowforged guardian's presence dims light and brightens shadows to a strange, twilit half-light. Light can't emanate brighter than dim light in this area while darkness is simultaneously illuminated to dim light. The shadowy aura automatically attempts to counteract any 5th-rank or lower magical light or darkness effect brought into this aura or created in this area (counteract check [[/r 1d20+21 #Counteract]]{+21}, 5th level). As long as the guardian is in dim light, it gains a fly Velocidad of 30 pies.</p>"
+          "description": "<p>30 pies. The shadowforged guardian's presence dims light and brightens shadows to a strange, twilit half-light. Light can't emanate brighter than dim light in this area while darkness is simultaneously illuminated to dim light. The shadowy aura automatically attempts to counteract any 5th-rank or lower magical light or darkness effect brought into this aura or created in this area (counteract prueba [[/r 1d20+21 #Counteract]]{+21}, 5th nivel). As long as the guardian is in dim light, it gains a fly Velocidad of 30 pies.</p>"
         },
         "action->Shadow Breath": {
           "name": "Shadow Breath",
-          "description": "<p>The shadowforged guardian expels a @Template[cone|distance:30] of twisting shadows from its mouth. All criaturas in the area must attempt a @Check[fortitude|dc:29|options:area-effect,inflicts:debilitado,inflicts:ralentizado] salvación. The guardian can't use Shadow Breath for [[/gmr 1d4 #Recharge Shadow Breath]]{1d4 asaltos}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} until the end of its next turn.</p>\n<p><strong>Fallo</strong> The criatura is debilitado 1 for 1 hora and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 minuto.</p>\n<p><strong>Fallo crítico</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} for 24 horas and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} for 1 minuto.</p>"
+          "description": "<p>The shadowforged guardian expels a @Template[cone|distance:30] of twisting shadows from its mouth. All criaturas in the area must attempt a @Check[fortitude|dc:29|options:area-effect,inflicts:debilitado,inflicts:ralentizado] salvación. The guardian can't use Shadow Breath for [[/gmr 1d4 #Recharge Shadow Breath]]{1d4 asaltos}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} until the end of its next turn.</p>\n<p><strong>Fallo</strong> The criatura is debilitado 1 for 1 hora and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for 1 minuto.</p>\n<p><strong>Fallo crítico</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} for 24 horas and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 2} for 1 minuto.</p>"
         }
       }
     },
@@ -626,10 +626,10 @@
       "name": "Skull Fairy",
       "publicNotes": "<p>Skull fairies are malicious beings spawned from the heads of those who die after exposure to the malignant energies of the Shadow Plane. They aren't fey, but their petite, winged forms and tendency for malevolent mischief has caused the appellation \"skull fairy\" to stick.</p>\n<p>After bursting from the skull of the deceased, a skull fairy seeks out victims to behead. Skull fairies enjoy nothing more than the horrific sound of wrenching a head free from a body. They often wear the skulls of their most recent victim like caps atop their bulbous, oversized heads. Skull fairies take heads they've acquired to isolated caves, where they carefully strip off the flesh and put the skulls on display. If the skull fairy feels the need for new headgear, they hollow out a fresh skull to wear and retire the old one to a place of prominence.</p>\n<p>A group of exactly three skull fairies who have each been alive for at least 13 years become much more powerful than their solitary or younger kin. Members of such a coven become stronger and more intelligent, and they set their minds to evil and chaos on a much wider scale-although anything more complicated than wandering about to twist off heads might seem aspirational to a skull fairy. Skull fairies that join a coven gain the elite adjustments and often acquire more powerful innate conjuros. Nondetection and stinking cloud are the most common conjuros a skull fairy coven can access, but others exist. A skull fairy can only join a coven consisting exclusively of other skull fairies.</p>",
       "items": {
-        "spellcastingEntry->Primal Innate Spells": {
-          "name": "Primal Innate Spells"
+        "spellcastingEntry->Primal Innate Conjuros": {
+          "name": "Primal Innate Conjuros"
         },
-        "spell->Mage Hand": {
+        "conjuro->Mage Hand": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]\nMage Hand"
         },
         "strike-melee->Fist": {
@@ -641,15 +641,15 @@
         },
         "action->Shadowy Pop": {
           "name": "Shadowy Pop",
-          "description": "<p>When killed, a skull fairy explodes into shadowy, noxious tissue like a burst bubble. Each criatura within 5 pies must succeed at a @Check[fortitude|dc:18] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3} on a critical failure).</p>"
+          "description": "<p>When killed, a skull fairy explodes into shadowy, noxious tissue like a burst bubble. Each criatura within 5 pies must succeed at a @Check[fortitude|dc:18] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 2} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 3} on a critical failure).</p>"
         },
         "action->Skull Twist": {
           "name": "Skull Twist",
-          "description": "<p><strong>Requisitos</strong> The skull fairy's last action was a successful fist Golpe against a criatura with a skull</p>\n<hr />\n<p><strong>Efecto</strong> The skull fairy wrenches the criatura's neck, disorienting it. The criatura must succeed at a @Check[fortitude|dc:20] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} (@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3} on a critical failure).</p>"
+          "description": "<p><strong>Requisitos</strong> The skull fairy's last action was a successful fist Golpe against a criatura with a skull</p>\n<hr />\n<p><strong>Efecto</strong> The skull fairy wrenches the criatura's neck, disorienting it. The criatura must succeed at a @Check[fortitude|dc:20] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1} (@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 3} on a critical failure).</p>"
         },
         "action->Terminal Tug": {
           "name": "Terminal Tug",
-          "description": "<p>The skull fairy attempts to rip the head off an adjacent @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying} criatura. El objetivo must attempt a @Check[fortitude|dc:20] salvación. If it fails, it dies, and the skull fairy gains 10 Puntos de Golpe temporales for 1 hora.</p>"
+          "description": "<p>The skull fairy attempts to rip the head off an adjacent @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying} criatura. El objetivo must attempt a @Check[fortitude|dc:20] salvación. If it fails, it dies, and the skull fairy gains 10 Puntos de golpe temporales for 1 hora.</p>"
         }
       }
     },
@@ -673,7 +673,7 @@
         },
         "action->Grave Breath": {
           "name": "Grave Breath",
-          "description": "<p><strong>Requisitos</strong> The troll is bloated with void energy from a Death Feast</p>\n<hr />\n<p><strong>Efecto</strong> The troll breathes a @Template[cone|distance:15] of putrid, soul-chilling gas. Each living criatura in the area takes @Damage[2d6[void]|options:area-damage] daño (@Check[fortitude|dc:14|basic|options:area-effect]). On a failure, the criatura also becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}. The troll can't use Grave Breath until it uses Death Feast again.</p>"
+          "description": "<p><strong>Requisitos</strong> The troll is bloated with void energy from a Death Feast</p>\n<hr />\n<p><strong>Efecto</strong> The troll breathes a @Template[cone|distance:15] of putrid, soul-chilling gas. Each living criatura in the area takes @Damage[2d6[void]|options:area-damage] daño (@Check[fortitude|dc:14|basic|options:area-effect]). On a failure, the criatura also becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1}. The troll can't use Grave Breath until it uses Death Feast again.</p>"
         },
         "action->Rend": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.3JOi2cMcGhT3eze1]\n<p>Claw</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
@@ -685,32 +685,32 @@
       "hpDetails": "curación de vacío",
       "publicNotes": "<p>Virulak necromancers are often intrigued by the interplay between poison and undeath, testing toxins on their dead flesh or, more commonly, on hapless living victims. Este virulak necromancer was once a sorcerer but now considers their bloodline irrelevant.</p>\n<hr />\n<p>When a criatura dies from poison, it sometimes rises as a virulak: an undead being infused with lethal venom. Most virulaks are solitary criaturas with memories of an excruciating death. Occasionally, a mass poisoning produces numerous simultaneous fatalities, increasing the chance of many virulaks arising at once and working together in a dangerous mob. Entire villages might rise as virulaks when forced to subsist on food so spoiled it has become toxic or from an intentional scheme to poison the settlement.</p>\n<p>Virulaks retain the INTELLIGENCE and memory they had in life, but their agonizing death by poison transforms them into bitter mockeries of their former selves. Poison seeps from their fingertips and solidifies into hard claws. Virulaks are known for a cynical and ironic sense of humor. They delight in poisoning the good spirits and reputations of those around them, dealing psychological blows that mirror the venom in their bodies.</p>",
       "items": {
-        "spellcastingEntry->Arcane Spontaneous Spells": {
-          "name": "Arcane Spontaneous Spells"
+        "spellcastingEntry->Arcane Spontaneous Conjuros": {
+          "name": "Arcane Spontaneous Conjuros"
         },
-        "spell->Vampiric Touch": {
+        "conjuro->Vampiric Touch": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]\nVampiric Touch"
         },
-        "spell->False Life": {
+        "conjuro->False Life": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.8ViwItUgwT4lOvvb]\nFalse Life"
         },
-        "spell->Gentle Repose": {
+        "conjuro->Gentle Repose": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.xRgU9rrhmGAgG4Rc]\nGentle Repose"
         },
-        "spell->Spectral Hand": {
+        "conjuro->Spectral Hand": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.rthC6dGm3nNrt1xN]\nSpectral Hand"
         },
-        "spell->Chill Touch": {
+        "conjuro->Chill Touch": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.mAMEt4FFbdqoRnkN]\nChill Touch",
-          "target": "1 living or undead criatura"
+          "objetivo": "1 living or undead criatura"
         },
-        "spell->Mage Hand": {
+        "conjuro->Mage Hand": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]\nMage Hand"
         },
-        "spell->Ray of Enfeeblement": {
+        "conjuro->Ray of Enfeeblement": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRay of Enfeeblement"
         },
-        "spell->True Strike": {
+        "conjuro->True Strike": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]\nTrue Golpe"
         },
         "strike-melee->Claw": {
@@ -718,7 +718,7 @@
         },
         "action->Uncanny Necromancy": {
           "name": "Uncanny Necromancy",
-          "description": "<p>El virulak necromancer puede freely heighten @UUID[Compendium.pf2e.spells-srd.Item.8ViwItUgwT4lOvvb]{False Vitality}, @UUID[Compendium.pf2e.spells-srd.Item.k34hDOfIIMAxNL4a]{Grim Tendrils}, y @UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]{Vampiric Feast} a cualquier level ellos puede cast sin knowing them at higher levels.</p>"
+          "description": "<p>El virulak necromancer puede freely heighten @UUID[Compendium.pf2e.spells-srd.Item.8ViwItUgwT4lOvvb]{False Vitality}, @UUID[Compendium.pf2e.spells-srd.Item.k34hDOfIIMAxNL4a]{Grim Tendrils}, y @UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]{Vampiric Feast} a cualquier nivel ellos puede cast sin knowing them at higher levels.</p>"
         },
         "action->Undead Virulence": {
           "name": "Undead Virulence",
@@ -744,7 +744,7 @@
         },
         "action->Lingering Ichor": {
           "name": "Lingering Ichor",
-          "description": "<p><strong>Desencadenante</strong> The virulak takes piercing or daño cortante from a melee Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The virulak squirts a jet of poisonous ichor from the wound. The criatura making the triggering Golpe takes @Damage[(@actor.level)[persistent,poison]] daño.</p>"
+          "description": "<p><strong>Desencadenante</strong> The virulak takes piercing or daño cortante from a melee Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The virulak squirts a jet of poisonous ichor from the wound. The criatura making the triggering Golpe takes @Damage[(@actor.nivel)[persistent,poison]] daño.</p>"
         },
         "action->Undead Virulence": {
           "name": "Undead Virulence",
