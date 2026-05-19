@@ -2,7 +2,7 @@
   "label": "Bestiario de La corona del rey kobold",
   "entries": {
     "Albino Giant Bat": {
-      "name": "Albino Giant Bat",
+      "name": "Murcielago gigante albino",
       "blurb": "Variante de murcielago gigante",
       "items": {
         "strike-melee->Fangs": {
@@ -12,92 +12,92 @@
           "name": "Alas"
         },
         "action->Echolocation (Precise) 40 pies": {
-          "name": "Echolocation (Precise) 40 pies",
+          "name": "Ecolocalizacion (precisa) 40 pies",
           "description": "<p>Un murciélago puede usar su oído como sentido preciso al alcance indicado.</p>"
         },
         "action->Wing Thrash": {
-          "name": "Wing Thrash",
-          "description": "<p><strong>Desencadenante</strong> An adjacent enemigo damages the giant bat.</p>\n<hr />\n<p><strong>Efecto</strong> The bat makes one or two wing Golpes-one against the triggering criatura and one against another adjacent criatura.</p>"
+          "name": "Aleteo violento",
+          "description": "<p><strong>Desencadenante</strong> Un enemigo adyacente dana al murcielago gigante.</p>\n<hr />\n<p><strong>Efecto</strong> El murcielago realiza uno o dos Golpes de ala: uno contra la criatura desencadenante y otro contra otra criatura adyacente.</p>"
         }
       }
     },
     "Ashen Guardian": {
-      "name": "Ashen Guardian",
+      "name": "Guardian ceniciento",
       "blurb": "Variante de sombra",
-      "publicNotes": "<p>The mysterious undead known as shadows lurk in dark places and feed on those who stray too far from the light. Those who parley with shadows, typically by keeping them at bay with a glowing arma, may learn great secrets, for they are ideal spies.</p>",
+      "publicNotes": "<p>Los misteriosos muertos vivientes conocidos como sombras acechan en lugares oscuros y se alimentan de quienes se alejan demasiado de la luz. Quienes parlamentan con ellas, normalmente manteniendolas a raya con un arma luminosa, pueden descubrir grandes secretos, pues son espias ideales.</p>",
       "items": {
         "strike-melee->Shadow Hand": {
-          "name": "Shadow Hand"
+          "name": "Mano sombria"
         },
-        "action->Light Vulnerability": {
-          "name": "Light Vulnerability",
-          "description": "<p>An object shedding magical light (such as from the @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Light} conjuro) is treated as magical when used to attack the shadow.</p>"
+        "action->Vulnerabilidad a la luz": {
+          "name": "Vulnerabilidad a la luz",
+          "description": "<p>Un objeto que emite luz magica, como por ejemplo un conjuro @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Luz}, se considera magico cuando se usa para atacar a la sombra.</p>"
         },
         "action->Shadow Spawn": {
           "name": "Engendro sombrío",
-          "description": "<p>When a criatura's shadow is pulled free by Steal Shadow, it becomes a @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.XrmHgbKgcHDi4OnK]{Shadow Spawn} under the command of the shadow that created it. Este shadow spawn doesn't have Steal Shadow and is perpetually and incurably @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2}. If the criatura the shadow spawn was pulled from dies, the shadow spawn becomes a full-fledged, autonomous shadow. If the criatura recovers from its @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeeblement}, its shadow returns to it and the shadow spawn is extinguished.</p>"
+          "description": "<p>Cuando la sombra de una criatura es arrancada mediante Robar sombra, se convierte en un @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.XrmHgbKgcHDi4OnK]{engendro sombrio} bajo el mando de la sombra que lo creo. Este engendro sombrio no tiene Robar sombra y esta perpetua e incurablemente @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2}. Si la criatura de la que se arranco el engendro muere, el engendro se convierte en una sombra autonoma de pleno derecho. Si la criatura se recupera de su @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{debilitamiento}, su sombra vuelve a ella y el engendro se extingue.</p>"
         },
         "action->Slink in Shadows": {
-          "name": "Slink in Shadows",
-          "description": "<p>The shadow can @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} or end its @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak} in a criatura's or object's shadow.</p>"
+          "name": "Deslizarse en las sombras",
+          "description": "<p>La sombra puede @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Esconderse} o terminar su @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Escabullirse} en la sombra de una criatura u objeto.</p>"
         },
         "action->Steal Shadow": {
           "name": "Robar sombra",
-          "description": "<p><strong>Requisito</strong> The shadow hit a living criatura with a shadow hand Golpe on its previous action.</p>\n<hr />\n<p><strong>Efecto</strong> The shadow pulls at el objetivo's shadow, making the criatura @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1}. Este is cumulative with other debilitado conditions from shadows, to a maximum of debilitado 4. If this increases a criatura's debilitado value to 3 or more, el objetivo's shadow is separated from its body. Enfeebled from Steal Shadow decreases by 1 every hour.</p>"
+          "description": "<p><strong>Requisito</strong> La sombra impacto a una criatura viva con un Golpe de mano sombria en su accion anterior.</p>\n<hr />\n<p><strong>Efecto</strong> La sombra tira de la sombra del objetivo, haciendo que la criatura quede @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitada 1}. Esto es acumulativo con otras condiciones de debilitado causadas por sombras, hasta un maximo de debilitado 4. Si esto aumenta el valor de debilitado de una criatura a 3 o mas, la sombra del objetivo se separa de su cuerpo. El debilitamiento de Robar sombra se reduce en 1 cada hora.</p>"
         }
       }
     },
     "Avalanche Doors": {
-      "name": "Avalanche Doors",
+      "name": "Puertas avalancha",
       "description": "<p>La puerta doble es una puerta falsa; cuando se activa, cae hacia abajo como un puente levadizo para aplastar a cualquiera que este ante ella.</p>",
-      "disable": "<p>@Check[thievery|dc:22] (entrenado) to detach the trigger from the doors and lock them in place</p>",
+      "disable": "<p>@Check[thievery|dc:22] (entrenado) para separar el disparador de las puertas y bloquearlas en su sitio</p>",
       "hpDetails": "UR 25",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Topple Forward": {
-          "name": "Topple Forward",
-          "description": "<p><strong>Desencadenante</strong> Someone attempts to open the doors, or the doors take enough daño to become broken;</p>\n<p><strong>Efecto</strong> The heavy metal doors are spring-loaded to slam downward, dropping like a drawbridge to smash all criaturas in a 10-pies-square before the doors. All criaturas in this area must attempt a @Check[reflex|dc:21] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura lurches to the side and takes no daño-move the criatura to a square of the criatura's choice adjacent to the trap's area of effect.</p>\n<p><strong>Éxito</strong> The criatura takes @Damage[3d8[bludgeoning]] daño and is pushed into an adjacent square just outside the trap's area.</p>\n<p><strong>Fallo</strong> The criatura takes @Damage[6d8[bludgeoning]] daño, is pushed into an adjacent square just outside the trap's area, and falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} in that square.</p>\n<p><strong>Fallo crítico</strong> The criatura takes @Damage[12d8[bludgeoning]] daño and is knocked prone. The heavy doors pin the criatura to the ground, Immobilizing it (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC 22). A non-@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} character can lift the doors by Forcing them open with a successful @Check[athletics|dc:22] prueba so that an immobilized character can crawl to safety.</p>"
+          "name": "Caer hacia delante",
+          "description": "<p><strong>Desencadenante</strong> Alguien intenta abrir las puertas, o las puertas reciben suficiente dano como para quedar rotas.</p>\n<p><strong>Efecto</strong> Las pesadas puertas metalicas, cargadas por resorte, se cierran hacia abajo y caen como un puente levadizo para aplastar a todas las criaturas en un cuadrado de 10 pies frente a ellas. Todas las criaturas en el area deben intentar una salvacion de @Check[reflex|dc:21].</p>\n<hr />\n<p><strong>Exito critico</strong> La criatura se aparta de un salto y no recibe dano; mueve a la criatura a una casilla de su eleccion adyacente al area de efecto de la trampa.</p>\n<p><strong>Exito</strong> La criatura recibe @Damage[3d8[bludgeoning]] de dano y es empujada a una casilla adyacente justo fuera del area de la trampa.</p>\n<p><strong>Fallo</strong> La criatura recibe @Damage[6d8[bludgeoning]] de dano, es empujada a una casilla adyacente justo fuera del area de la trampa y cae @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbada} en esa casilla.</p>\n<p><strong>Fallo critico</strong> La criatura recibe @Damage[12d8[bludgeoning]] de dano y cae tumbada. Las pesadas puertas la clavan al suelo, inmovilizandola (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar} CD 22). Un personaje no @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizado} puede levantar las puertas Forzandolas con una prueba con exito de @Check[athletics|dc:22] para que un personaje inmovilizado pueda arrastrarse hasta un lugar seguro.</p>"
         }
       }
     },
     "Charge of the Spear Legion": {
-      "name": "Charge of the Spear Legion",
-      "description": "<p>Cuando triggered, el sala lurches suddenly en su side, causing those en el sala a slide down toward el double line de spears en el west muro mientras el statues en el east slide down en un pulley-y-roller system a smash into el victims.</p>",
+      "name": "Carga de la legion de lanzas",
+      "description": "<p>Cuando se activa, la sala se inclina bruscamente de lado, haciendo que quienes estan dentro se deslicen hacia la doble hilera de lanzas del muro oeste mientras las estatuas del este descienden por un sistema de poleas y rodillos para estrellarse contra las victimas.</p>",
       "disable": "<p>@Check[thievery|dc:20] para desactivar la placa de presion desencadenante cerca de la puerta norte</p>",
       "reset": "<p>Tras 1 minuto, la camara se endereza y reinicia la trampa.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Shift Sideways": {
-          "name": "Shift Sideways",
-          "description": "<p><strong>Desencadenante</strong> A Small or larger criatura approaches within 15 pies of the double door to area <strong>D9</strong>.</p>\n<p><strong>Efecto</strong> The entire room rotates, its west half descending as its right half rises, forming a 45º slope down to the west. All criaturas in the room fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} and slide toward the west wall (a criatura adjacent to the north or south wall can attempt to arrest this fall with a DC 20 prueba to @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{GRAB an Edge}) and take [[/r (2d6 + 5)[piercing]]] daño (@Check[reflex|dc:20|basic]) as they land among the spears. At the same time, the warhammer-wielding statues to the east slide downward on chains to smash into the lower wall; each person in the trap is subjected to a sliding statue Golpe.</p>"
+          "name": "Inclinarse de lado",
+          "description": "<p><strong>Desencadenante</strong> Una criatura Pequena o mayor se aproxima a 15 pies o menos de la puerta doble hacia el area <strong>D9</strong>.</p>\n<p><strong>Efecto</strong> Toda la sala rota: su mitad oeste desciende mientras su mitad derecha se eleva, formando una pendiente de 45 grados hacia el oeste. Todas las criaturas de la sala caen @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbadas} y se deslizan hacia el muro oeste; una criatura adyacente al muro norte o sur puede intentar detener la caida con una prueba CD 20 para @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Agarrarse a un borde}. Al caer entre las lanzas reciben [[/r (2d6 + 5)[piercing]]] de dano (@Check[reflex|dc:20|basic]). Al mismo tiempo, las estatuas con martillos de guerra del este se deslizan hacia abajo por cadenas para estrellarse contra el muro inferior; cada persona en la trampa es objetivo de un Golpe de estatua deslizante.</p>"
         },
         "strike-melee->Sliding Statue": {
-          "name": "Sliding Statue"
+          "name": "Estatua deslizante"
         }
       }
     },
     "Cilios": {
       "name": "Cilios",
-      "blurb": "Variante de male mummy guardian",
-      "hpDetails": "curación de vacío",
+      "blurb": "Variante de guardian momia masculino",
+      "hpDetails": "curacion de vacio",
       "languages": "cualquier idioma antiguo",
-      "publicNotes": "<p>The majority of mummies were created by cruel and selfish masters to serve as guardians to protect their tombs from intruders. The traditional method of creating a mummy guardian is a laborious and sadistic process that begins well before the poor soul to be transformed is dead, during which the victim is ritualistically starved of nourishing food and instead fed strange spices, preservative agents, and toxins intended to quicken the desiccation of the flesh. The victim remains immobile but painfully aware during the final stages, where its now-useless entrails are extracted before it's shrouded in funerary wrappings and entombed within a necromantically ensorcelled sarcophagus to await intrusions in the potentially distant future. While it's certainly possible to use other methods to create a mummy guardian from an already-deceased body, those who seek to create these foul undead as their guardians in the afterlife often feel that such methods result in inferior undead-the pain and agony of death by mummification being an essential step in the process.</p>\n<p>Regardless of the method of their creation, mummy guardians are more than just physical shells of flesh and bone-they retain fragmented, distorted versions of their minds, with only enough memories of their living personality remaining to fuel their undead anger and jealousy of those who yet live. Este burning rage only intensifies over the centuries of waiting within a crypt for the chance to actually act, and thus when most mummy guardians are awoken by tomb robbers or adventurers, they stop at nothing in pursuit of glorious slaughter.</p>\n<hr />\n<p>While many cultures practice mummification of the dead for benign reasons, undead mummies are created through foul rituals, typically to provide eternally vigilant guardians.</p>",
+      "publicNotes": "<p>La mayoria de las momias fueron creadas por amos crueles y egoistas para servir como guardianas y proteger sus tumbas de intrusos. El metodo tradicional para crear un guardian momia es un proceso laborioso y sadico que comienza mucho antes de que muera la pobre alma que va a ser transformada: la victima es privada ritualmente de comida nutritiva y alimentada con especias extranas, agentes conservantes y toxinas destinadas a acelerar la desecacion de la carne. La victima permanece inmovil pero dolorosamente consciente durante las etapas finales, cuando sus entranas ya inutiles son extraidas antes de ser envuelta en vendas funerarias y sepultada en un sarcofago encantado necromanticamente para aguardar intrusiones en un futuro potencialmente lejano. Aunque es posible usar otros metodos para crear un guardian momia a partir de un cadaver, quienes buscan crear estos repugnantes muertos vivientes como guardianes para el mas alla suelen considerar que esos metodos producen muertos vivientes inferiores; el dolor y la agonia de morir momificado son una parte esencial del proceso.</p>\n<p>Sea cual sea el metodo de creacion, los guardianes momia son mas que simples cascarones fisicos de carne y hueso: conservan versiones fragmentadas y distorsionadas de sus mentes, con los recuerdos suficientes de su personalidad viva para alimentar su ira de muerto viviente y sus celos hacia quienes aun viven. Esta furia ardiente solo se intensifica con los siglos de espera dentro de una cripta hasta tener ocasion de actuar, por lo que, cuando la mayoria de guardianes momia despiertan ante saqueadores o aventureros, no se detienen ante nada en su busqueda de una matanza gloriosa.</p>\n<hr />\n<p>Aunque muchas culturas practican la momificacion de sus muertos por razones benignas, las momias muertas vivientes se crean mediante rituales infames, normalmente para proporcionar guardianes eternamente vigilantes.</p>",
       "items": {
-        "strike-melee->Fist": {
-          "name": "Fist"
+        "strike-melee->Puno": {
+          "name": "Puno"
         },
         "action->Despair": {
-          "name": "Despair",
-          "description": "<p>30 pies. Living criaturas are @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} while in a mummy guardian's despair aura. They can't naturally recover from this fear while in the area but recover instantly once they leave the area. When a criatura first enters the area, it must succeed at a @Check[will|dc:22] salvación (after taking the penalizador from being asustado) or be @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado} for 1 asalto. The criatura is then temporarily immune for 24 horas.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.1bOSJ2LbEC28aI9f]{Efecto: Despair}</p>"
+          "name": "Desesperacion",
+          "description": "<p>30 pies. Las criaturas vivas estan @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustadas 1} mientras esten en el aura de desesperacion del guardian momia. No pueden recuperarse de forma natural de este miedo mientras permanezcan en el area, pero se recuperan al instante al salir de ella. Cuando una criatura entra por primera vez en el area, debe tener exito en una salvacion de @Check[will|dc:22] (despues de aplicar el penalizador por estar asustada) o quedar @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizada} durante 1 asalto. Despues, la criatura es inmune temporalmente durante 24 horas.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.1bOSJ2LbEC28aI9f]{Efecto: Desesperacion}</p>"
         },
         "action->Blinding Rot": {
-          "name": "Blinding Rot",
-          "description": "<p>Cilios's fist Golpes expose those they daño to blinding rot. Este disease and any daño from it can't be healed until this curse is removed. A criatura killed by blinding rot turns to dust and can't be resurrected except by a 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.kqhPt9344UkcGVYO]{Resurrect} ritual or similar magic.</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:22]</p>\n<hr />\n<p><strong>Etapa 1</strong> carrier with no ill effect (1 minuto)</p>\n<p><strong>Etapa 2</strong> @Damage[4d6[void]] daño and @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado} (1 día)</p>\n<p><strong>Etapa 3</strong> @Damage[4d6[void]] daño and @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegado} (1 día)</p>"
+          "name": "Putrefaccion cegadora",
+          "description": "<p>Los Golpes de puno de Cilios exponen a quienes dana a la putrefaccion cegadora. Esta enfermedad y cualquier dano que cause no pueden curarse hasta que se elimine esta maldicion. Una criatura muerta por la putrefaccion cegadora se convierte en polvo y no puede ser resucitada salvo mediante un ritual @UUID[Compendium.pf2e.spells-srd.Item.kqhPt9344UkcGVYO]{Resucitar} de rango 7 o magia similar.</p>\n<p><strong>Tirada de salvacion</strong> @Check[fortitude|dc:22]</p>\n<hr />\n<p><strong>Etapa 1</strong> portador sin efecto perjudicial (1 minuto)</p>\n<p><strong>Etapa 2</strong> @Damage[4d6[void]] de dano y @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado} (1 dia)</p>\n<p><strong>Etapa 3</strong> @Damage[4d6[void]] de dano y @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegado} (1 dia)</p>"
         }
       }
     },
     "Dark Talon Kobold": {
-      "name": "Dark Talon Kobold",
+      "name": "Kobold Garra Oscura",
       "blurb": "Picaro kobold",
       "skillSpecialCrafting": {
         "0": {
@@ -106,7 +106,7 @@
       },
       "items": {
         "arma->Flying Talon": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.ucz1WdBA0Ma34OsS]\n<p>Este arma consists of a three-pronged barbed hook attached to a length of chain. It can be used as a melee arma to stab at foes or hurled as a ranged arma. Some kobolds are particularly fond of using flying talons, especially as a sort of badge of office above those who serve them.</p>"
+          "description": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.ucz1WdBA0Ma34OsS]\n<p>Esta arma consiste en un gancho barbado de tres puntas unido a una cadena. Puede usarse como arma cuerpo a cuerpo para apunalar a los enemigos o arrojarse como arma a distancia. A algunos kobolds les gusta especialmente usar garras voladoras, sobre todo como insignia de autoridad entre quienes les sirven.</p>"
         },
         "strike-melee->Flying Talon": {
           "name": "Garra voladora"
@@ -115,106 +115,106 @@
           "name": "Garra voladora"
         },
         "action->No Retreat": {
-          "name": "No Retreat",
-          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Requisito</strong> The Dark Talon kobold is adjacent to at least one enemigo, and the Dark Talon has fewer than 12 Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> The Dark Talon shrieks in fury and regains @Damage[2d6[healing]] Puntos de golpe.</p>"
+          "name": "Sin retirada",
+          "description": "<p><strong>Frecuencia</strong> una vez al dia</p>\n<p><strong>Requisito</strong> El kobold Garra Oscura esta adyacente al menos a un enemigo y tiene menos de 12 Puntos de Golpe.</p>\n<hr />\n<p><strong>Efecto</strong> El Garra Oscura chilla furioso y recupera @Damage[2d6[healing]] Puntos de Golpe.</p>"
         },
         "action->Sneak Attack": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>A Dark Talon kobold deals an additional 1d6 daño de precisión to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} criaturas.</p>"
+          "description": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>Un kobold Garra Oscura inflige 1d6 de dano de precision adicional a criaturas @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenidas}.</p>"
         }
       }
     },
     "Darkmantle": {
-      "name": "Darkmantle",
-      "publicNotes": "<p>Estos dark blue or black mollusk-like criaturas have a similar appearance to an octopus, save that they have only six tentacles, all of which are connected by a thick leathery shroud. While darkmantle aren't a particularly good climber, they excel at clinging and can clutch onto a cave roof for days, patiently waiting to ambush any prey that walks below them with a disorienting blob of darkness. When clinging to a cave roof, and with their bulbous red eyes closed down to squints, darkmantles in ambush look similar to stalactites. Their preferred hunting method works best on criaturas without darkvision, so they frequent ruins aboveground or shallow caves not far from the outside world. When darkmantles sense prey, they shed darkness down onto their prey before dropping away from the ceiling to flap quickly down to their victim, whereupon these beasts clutch and squeeze with their thick, muscular tentacles. Despite the shape of darkmantles, their bodies's texture is more like thick leather or even rubber-they can't cause daño with their spike-shaped bodies by dropping down onto other criaturas.</p>\n<p>Darkmantles have a swift life cycle-their young grow to maturity in a matter of months, and most of these criaturas die of old age after living for only a few years. As a result, generations of darkmantles quickly accrue, and over the years, they've developed a similarly rapid propensity to adapt to new locations. Aquatic caverns, for example, might be infested with darkmantles that can swim instead of fly; on the other hand, icy caverns would've led to darkmantles that developed white or pale blue colorations, and these specimens might produce blasts of obscuring fog instead of darkness. The deepest, darkest reaches of the Darklands are rumored to host darkmantles of incredible size, capable of smothering multiple human-sized victims simultaneously. Estos deep-dwelling darkmantles have the capacity to shed more powerful darkness that can plunge even criaturas with darkvision into inky blackness- darkness in which these deep-dwelling criaturas can, of course, still see well within.</p>",
+      "name": "Manto oscuro",
+      "publicNotes": "<p>Estas criaturas parecidas a moluscos de color azul oscuro o negro tienen un aspecto similar al de un pulpo, salvo que solo poseen seis tentaculos, todos unidos por una gruesa membrana coriacea. Aunque los mantos oscuros no son escaladores especialmente buenos, destacan aferrandose a las superficies y pueden permanecer dias sujetos al techo de una caverna, esperando pacientemente para emboscar a cualquier presa que pase bajo ellos con una masa desorientadora de oscuridad. Cuando se aferran al techo de una cueva, con sus bulbosos ojos rojos entrecerrados, los mantos oscuros emboscados parecen estalactitas. Su metodo de caza preferido funciona mejor contra criaturas sin vision en la oscuridad, por lo que frecuentan ruinas de la superficie o cuevas poco profundas no muy alejadas del exterior. Cuando detectan una presa, vierten oscuridad sobre ella antes de desprenderse del techo y aletear rapidamente hacia su victima, donde se agarran y estrujan con sus gruesos y musculosos tentaculos. A pesar de su forma, la textura de sus cuerpos se parece mas al cuero grueso o incluso al caucho; no pueden causar dano con sus cuerpos puntiagudos al dejarse caer sobre otras criaturas.</p>\n<p>Los mantos oscuros tienen un ciclo vital rapido: sus crias maduran en cuestion de meses y la mayoria muere de vejez tras vivir solo unos pocos anos. Como resultado, sus generaciones se acumulan con rapidez y, con los anos, han desarrollado una capacidad igualmente rapida para adaptarse a nuevos entornos. Las cavernas acuaticas, por ejemplo, podrian estar infestadas de mantos oscuros capaces de nadar en vez de volar; en cambio, en cuevas heladas podrian haber desarrollado coloraciones blancas o azul palido y producir rafagas de niebla oscurecedora en lugar de oscuridad. Se rumorea que las profundidades mas hondas y oscuras de las Tierras Oscuras albergan mantos oscuros de tamano increible, capaces de asfixiar simultaneamente a varias victimas del tamano de un humano. Estos mantos oscuros de las profundidades pueden desprender una oscuridad mas poderosa, capaz de sumir en negrura incluso a criaturas con vision en la oscuridad, una oscuridad en la que estas criaturas, por supuesto, siguen viendo perfectamente.</p>",
       "items": {
-        "strike-melee->Tentacles": {
-          "name": "Tentacles"
+        "strike-melee->Tentaculos": {
+          "name": "Tentaculos"
         },
         "action->Tremorsense (Precise) 60 pies": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]\nTremorsense (Precise) 60 pies"
+          "name": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]\nSentido sismico (preciso) 60 pies"
         },
         "action->Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV]\n<p>@Damage[1d8[bludgeoning]], @Check[fortitude|dc:17|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
         },
         "action->Shed Darkness": {
-          "name": "Shed Darkness",
-          "description": "<p>The darkmantle sheds an inky blob of black fluid from the folds of its body. It can shed this blob horizontally to a distance of up to 30 pies, or simply let it fall up to 120 pies below itself (shed darkness that falls more than 120 pies before striking a surface evaporates without effect). When the blob of darkness lands, it explodes into a @Template[burst|distance:10] of darkness that prevents light from penetrating or emanating within the area. Light doesn't enter this area, and any non-magical light sources, such as a torch or lantern, don't emanate any light while inside the area, even if their light radius would extend beyond the darkness. Este also suppresses magical light of 1st nivel or lower but has no effect on magical light from 2nd-rank or higher conjuros. From the outside, it appears as a globe of pure darkness. The darkmantle can't shed darkness again for 24 horas.</p>"
+          "name": "Derramar oscuridad",
+          "description": "<p>El manto oscuro expulsa una masa tintada de fluido negro de los pliegues de su cuerpo. Puede lanzarla horizontalmente hasta 30 pies, o simplemente dejarla caer hasta 120 pies por debajo de si mismo; una oscuridad derramada que caiga mas de 120 pies antes de golpear una superficie se evapora sin efecto. Cuando la masa de oscuridad aterriza, explota en una @Template[burst|distance:10] de oscuridad que impide que la luz penetre o emane dentro del area. La luz no entra en esta area, y cualquier fuente de luz no magica, como una antorcha o una linterna, no emite luz mientras este dentro, aunque su radio de luz se extenderia mas alla de la oscuridad. Esto tambien suprime la luz magica de nivel 1 o inferior, pero no afecta a la luz magica de conjuros de rango 2 o superior. Desde fuera, parece una esfera de oscuridad pura. El manto oscuro no puede volver a derramar oscuridad durante 24 horas.</p>"
         }
       }
     },
     "Dismemberment Table": {
-      "name": "Dismemberment Table",
+      "name": "Mesa de desmembramiento",
       "acDetails": "18 cuando esta rota",
-      "blurb": "Variante de animated object",
+      "blurb": "Variante de objeto animado",
       "items": {
         "strike-melee->Blade": {
-          "name": "Blade"
+          "name": "Hoja"
         },
         "strike-melee->Strap": {
-          "name": "Strap"
+          "name": "Correa"
         },
-        "action->Construct Armadura (Hardness 8)": {
+        "action->Armadura de constructo (Dureza 8)": {
           "name": "Armadura de constructo (Dureza 8)",
-          "description": "<p>Like normal objects, an animated armadura has Hardness. Este Hardness reduces any daño it takes by an amount equal to the Hardness. Once an animated armadura is reduced to less than half its Puntos de golpe, or immediately upon being damaged by a impacto crítico, its armadura de constructo breaks and its ARMOR CLASS is reduced to 18.</p>"
+          "description": "<p>Como los objetos normales, una armadura animada tiene Dureza. Esta Dureza reduce cualquier dano que reciba en una cantidad igual a su Dureza. Cuando una armadura animada queda por debajo de la mitad de sus Puntos de Golpe, o inmediatamente al ser danada por un impacto critico, su armadura de constructo se rompe y su CA se reduce a 18.</p>"
         },
         "action->Haunted": {
           "name": "Obsesionado",
-          "description": "<p>The dismemberment table is powered by unquiet spirits, and it takes daño from vitality energy as if it were undead. Vitality energy bypasses the table's hardness.</p>"
+          "description": "<p>La mesa de desmembramiento esta impulsada por espiritus inquietos y recibe dano de la energia vital como si fuera un muerto viviente. La energia vital ignora la dureza de la mesa.</p>"
         },
         "action->Disabling Strike": {
-          "name": "Disabling Golpe",
-          "description": "<p>The dismemberment table attempts a blade Golpe on a single objetivo that it has @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado}. If this Golpe hits, the blade cuts deep into one of el objetivo's limbs. El objetivo must attempt a @Check[fortitude|dc:22] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura suffers no additional effect.</p>\n<p><strong>Éxito</strong> The criatura takes @Damage[1d6[bleed]] daño.</p>\n<p><strong>Fallo</strong> The criatura takes @Damage[2d6[bleed]] daño and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1}. Este torpe condition ends once the criatura is restored to full Puntos de golpe.</p>\n<p><strong>Fallo crítico</strong> As failure, but @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2}.</p>"
+          "name": "Golpe incapacitante",
+          "description": "<p>La mesa de desmembramiento intenta un Golpe de hoja contra un unico objetivo que tenga @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} o @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado}. Si este Golpe impacta, la hoja corta profundamente una de las extremidades del objetivo. El objetivo debe intentar una salvacion de @Check[fortitude|dc:22].</p>\n<hr />\n<p><strong>Exito critico</strong> La criatura no sufre ningun efecto adicional.</p>\n<p><strong>Exito</strong> La criatura recibe @Damage[1d6[bleed]] de dano.</p>\n<p><strong>Fallo</strong> La criatura recibe @Damage[2d6[bleed]] de dano y queda @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1}. Esta condicion de torpe termina cuando la criatura recupera todos sus Puntos de Golpe.</p>\n<p><strong>Fallo critico</strong> Como fallo, pero @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2}.</p>"
         }
       }
     },
     "Drazmorg The Damned": {
-      "name": "Drazmorg The Damned",
-      "blurb": "variante de wight necromancer varon",
-      "hpDetails": "curación de vacío",
+      "name": "Drazmorg el Condenado",
+      "blurb": "variante de wight necromancer masculino",
+      "hpDetails": "curacion de vacio",
       "items": {
-        "spellcastingEntry->Arcane Prepared Conjuros": {
-          "name": "Arcane Prepared Conjuros"
+        "spellcastingEntry->Conjuros arcanos preparados": {
+          "name": "Conjuros arcanos preparados"
         },
-        "conjuro->Vampiric Touch": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]\nVampiric Touch"
+        "conjuro->Toque vampirico": {
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]\nToque vampirico"
         },
-        "conjuro->False Life": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.8ViwItUgwT4lOvvb]\nFalse Life"
+        "conjuro->Vida falsa": {
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.8ViwItUgwT4lOvvb]\nVida falsa"
         },
-        "conjuro->Spectral Hand": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.rthC6dGm3nNrt1xN]\nSpectral Hand"
+        "conjuro->Mano espectral": {
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.rthC6dGm3nNrt1xN]\nMano espectral"
         },
-        "conjuro->Chill Touch": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.mAMEt4FFbdqoRnkN]\nChill Touch",
-          "objetivo": "1 living or undead criatura"
+        "conjuro->Toque helado": {
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.mAMEt4FFbdqoRnkN]\nToque helado",
+          "objetivo": "1 criatura viva o muerta viviente"
         },
         "conjuro->Light": {
-          "objetivo": "1 object of 1 Bulk or less, either unattended or possessed by tú or a willing aliado"
+          "objetivo": "1 objeto de Volumen 1 o menos, sin portar o en posesion tuya o de un aliado voluntario"
         },
-        "conjuro->Mage Hand": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]\nMage Hand"
+        "conjuro->Mano del mago": {
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]\nMano del mago"
         },
-        "conjuro->Ray of Enfeeblement": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRay of Enfeeblement"
+        "conjuro->Rayo debilitador": {
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRayo debilitador"
         },
         "strike-melee->Claw": {
           "name": "Garra"
         },
         "action->Final Spite": {
           "name": "Rencor final",
-          "description": "<p><strong>Desencadenante</strong> The wight is reduced to 0 Puntos de golpe.</p>\n<hr />\n<p><strong>Efecto</strong> The wight makes a Golpe before being destroyed. It doesn't gain any temporary HP from drain life on this Golpe.</p>"
+          "description": "<p><strong>Desencadenante</strong> El tumulario queda reducido a 0 Puntos de Golpe.</p>\n<hr />\n<p><strong>Efecto</strong> El tumulario realiza un Golpe antes de ser destruido. No obtiene PG temporales de drenar vida con este Golpe.</p>"
         },
         "action->Drain Life": {
-          "name": "Drenar La Vida",
-          "description": "<p>When the wight damages a living criatura with its claw Golpe, the wight gains [[/r 3 #Temporary Hit Points]]{3 Puntos de golpe temporales} and the criatura must succeed at a @Check[fortitude|dc:25] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1}. Further daño dealt by the wraith increases the amount of drain by 1 on a failed save to a maximum of drenado 4.</p>"
+          "name": "Drenar vida",
+          "description": "<p>Cuando el tumulario dana a una criatura viva con su Golpe de garra, obtiene [[/r 3 #Puntos de Golpe temporales]]{3 Puntos de Golpe temporales} y la criatura debe tener exito en una salvacion de @Check[fortitude|dc:25] o quedar @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenada 1}. El dano adicional infligido por el tumulario aumenta la cantidad de drenado en 1 con una salvacion fallida, hasta un maximo de drenado 4.</p>"
         },
         "action->Raise Bone Wall": {
-          "name": "Raise Bone Wall",
-          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Requisitos</strong> Drazmorg is in the Lower Vault of Droskar's Crucible</p>\n<hr />\n<p><strong>Efecto</strong> Drazmorg draws upon the necromantic energy that infuses the area and causes a tangled wall of bones to rise from the ground. The wall is 5 pies thick, 10 pies wide, and 10 pies tall; once created, it's permanent until Drazmorg uses this ability again, whereupon a previously created bone wall (such as the one at area <strong>G2</strong>) crumbles. The bone wall has AC 10, Hardness 10, and 25 Puntos de golpe. It's immune to critical hits and daño de precisión, and it heals daño to itself at a rate of [[/r 2d6[healing]]]{2d6 Puntos de golpe} at the end of a round. Everything on each side of the wall has greater cover from criaturas on the opposite side, and the wall can't be moved through. A destroyed section of the wall of bones can be moved through freely and no longer heals daño. A criatura caught in a space when a bone wall is created must attempt a @Check[reflex|dc:25|traits:damaging-effect] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected, and the bone wall fails to form in any square occupied by that criatura.</p>\n<p><strong>Éxito</strong> The criatura is forced into an adjacent square of its choice as the bone wall forms in its previous space.</p>\n<p><strong>Fallo</strong> As success, but the criatura is also knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}.</p>\n<p><strong>Fallo crítico</strong> As failure, but the criatura also takes @Damage[4d6[piercing],4d6[bludgeoning]]{4d6 piercing and 4d6 daño contundente} from the force of being struck by the bone wall.</p>"
+          "name": "Alzar muro de huesos",
+          "description": "<p><strong>Frecuencia</strong> una vez al dia</p>\n<p><strong>Requisitos</strong> Drazmorg esta en la Camara Inferior del Crisol de Droskar.</p>\n<hr />\n<p><strong>Efecto</strong> Drazmorg recurre a la energia necromantica que impregna el area y hace que un muro enmaranado de huesos surja del suelo. El muro mide 5 pies de grosor, 10 pies de ancho y 10 pies de alto; una vez creado, es permanente hasta que Drazmorg use de nuevo esta aptitud, momento en que un muro de huesos creado anteriormente, como el del area <strong>G2</strong>, se desmorona. El muro de huesos tiene CA 10, Dureza 10 y 25 Puntos de Golpe. Es inmune a impactos criticos y dano de precision, y se cura a si mismo a razon de [[/r 2d6[healing]]]{2d6 Puntos de Golpe} al final de cada asalto. Todo lo que este a un lado del muro tiene cobertura mayor frente a las criaturas del lado opuesto, y no puede atravesarse. Una seccion destruida del muro de huesos puede atravesarse libremente y deja de curarse. Una criatura atrapada en un espacio cuando se crea un muro de huesos debe intentar una salvacion de @Check[reflex|dc:25|traits:damaging-effect].</p>\n<hr />\n<p><strong>Exito critico</strong> La criatura no se ve afectada y el muro de huesos no se forma en ninguna casilla ocupada por ella.</p>\n<p><strong>Exito</strong> La criatura es empujada a una casilla adyacente de su eleccion mientras el muro se forma en su espacio anterior.</p>\n<p><strong>Fallo</strong> Como exito, pero la criatura tambien cae @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbada}.</p>\n<p><strong>Fallo critico</strong> Como fallo, pero la criatura tambien recibe @Damage[4d6[piercing],4d6[bludgeoning]]{4d6 de dano perforante y 4d6 de dano contundente} por la fuerza del impacto del muro de huesos.</p>"
         },
         "action->Wight Spawn": {
-          "name": "Wight Spawn",
-          "description": "<p>A living humanoid slain by a wight's claw Golpe rises as a @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.ZPjQkKVMi3xoPcU0]{Wight Spawn} after [[/br 1d4 #Wight Spawn Transformation]]{1d4 asaltos}. Este wight spawn is under the command of the wight that killed it. It doesn't have Drain Life or Wight Spawn and becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} for as long as it is a wight spawn. If the creator of the wight spawn dies, the wight spawn becomes a full-fledged, autonomous wight; it regains its free will, gains Drain Life and Wight Spawn, and is no longer torpe.</p>"
+          "name": "Engendro de tumulario",
+          "description": "<p>Un humanoide vivo muerto por el Golpe de garra de un tumulario se alza como @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.ZPjQkKVMi3xoPcU0]{engendro de tumulario} tras [[/br 1d4 #Transformacion en engendro de tumulario]]{1d4 asaltos}. Este engendro esta bajo el mando del tumulario que lo mato. No tiene Drenar vida ni Engendro de tumulario y queda @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} mientras sea un engendro de tumulario. Si el creador del engendro muere, el engendro se convierte en un tumulario autonomo de pleno derecho; recupera su libre albedrio, obtiene Drenar vida y Engendro de tumulario, y deja de estar torpe.</p>"
         },
         "lore->Academia Lore": {
           "name": "Saber de Academia"
@@ -223,38 +223,38 @@
     },
     "Edgrin Galesong": {
       "name": "Edgrin Galesong",
-      "blurb": "halfling bard varon",
+      "blurb": "halfling bard masculino",
       "items": {
-        "spellcastingEntry->Occult Spontaneous Conjuros": {
-          "name": "Occult Spontaneous Conjuros"
+        "spellcastingEntry->Conjuros ocultistas espontaneos": {
+          "name": "Conjuros ocultistas espontaneos"
         },
-        "spellcastingEntry->Bard Composition Conjuros": {
-          "name": "Bard Composition Conjuros"
+        "spellcastingEntry->Conjuros de composicion bardica": {
+          "name": "Conjuros de composicion bardica"
         },
         "conjuro->Alarm": {
           "requirements": "foco de campana de plata de 3 po"
         },
-        "conjuro->Dancing Lights": {
-          "name": "Dancing Lights",
-          "description": "<p>Creas up to four floating lights, no two of which are more than 10 pies apart. Each sheds light like a torch. When tú Sustain the Conjuro, puedes move any number of lights up to 60 pies. Each light must remain within 120 pies of tú and within 10 pies of all others, or it winks out.</p>"
+        "conjuro->Luces danzantes": {
+          "name": "Luces danzantes",
+          "description": "<p>Creas hasta cuatro luces flotantes, ninguna de las cuales puede estar a mas de 10 pies de otra. Cada una emite luz como una antorcha. Cuando Sustentas el conjuro, puedes mover cualquier numero de luces hasta 60 pies. Cada luz debe permanecer a 120 pies o menos de ti y a 10 pies o menos de todas las demas, o se apaga.</p>"
         },
-        "conjuro->Inspire Courage": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]\nInspire Courage"
+        "conjuro->Inspirar valor": {
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]\nInspirar valor"
         },
-        "conjuro->Mage Hand": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]\nMage Hand"
+        "conjuro->Mano del mago": {
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]\nMano del mago"
         },
         "conjuro->Soothe": {
           "objetivo": "1 willing living criatura"
         },
-        "equipment->Broken Lute": {
-          "name": "Broken Lute"
+        "equipment->Laud roto": {
+          "name": "Laud roto"
         },
-        "equipment->Dirty Clothes": {
-          "name": "Dirty Clothes"
+        "equipment->Ropa sucia": {
+          "name": "Ropa sucia"
         },
-        "strike-melee->Fist": {
-          "name": "Fist"
+        "strike-melee->Puno": {
+          "name": "Puno"
         },
         "action->Bardic Lore": {
           "name": "Saber bárdico",
@@ -266,35 +266,35 @@
       }
     },
     "Explosive Crystal Spheres": {
-      "name": "Explosive Crystal Spheres",
-      "description": "<p>Shimmering, glyph-graven, two-pies-diameter crystalline spheres shimmer and condense in the air, launching with explosive force at intruders.</p>",
-      "disable": "<p>@Check[thievery|dc:25] (experto) to locate and deface tiny activation runes located at one of the six locations that spawn crystal spheres, or @Check[arcana|dc:28] (experto) or @Check[occultism|dc:28] (experto) to manipulate the magical energy at one of those locations to render the spheres inert, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (3rd rank; counteract DC 22) to counteract one of the crystal sphere spawn points</p>",
+      "name": "Esferas de cristal explosivas",
+      "description": "<p>Esferas cristalinas resplandecientes, grabadas con glifos y de dos pies de diametro, se condensan en el aire y salen disparadas con fuerza explosiva contra los intrusos.</p>",
+      "disable": "<p>@Check[thievery|dc:25] (experto) para localizar y desfigurar pequenas runas de activacion en una de las seis ubicaciones que generan esferas de cristal, @Check[arcana|dc:28] (experto) o @Check[occultism|dc:28] (experto) para manipular la energia magica en una de esas ubicaciones y dejar las esferas inertes, o @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Disipar magia} (rango 3; CD de contrarrestar 22) para contrarrestar uno de los puntos de generacion de esferas de cristal</p>",
       "hpDetails": "UR 27",
-      "routine": "<p>(6 actions) On each of the trap's actions, a crystal sphere that hasn't yet taken an action during the turn either flies 25 pies toward the closest criatura in the Outer Ring (if no criatura is within 25 pies), or it attacks a visible criatura within 25 pies (the crystal spheres can sense objetivos via darkvision). If a crystal sphere attacks a objetivo, that objetivo takes @Damage[1d6[force]] daño (@Check[reflex|dc:24|basic]) as the sphere hits them and bursts. A criatura can be attacked by multiple spheres in a turn, but a sphere always objetivos the closest objetivo. Once a sphere attacks and bursts, it vanishes but respawns at its spawn point at the start of the next turn and continues its routine. A sphere that has been destroyed or had its spawn point disabled vanishes and doesn't continue to respawn and attack, and the trap loses 1 action for each sphere destroyed or disabled in this way.</p>",
+      "routine": "<p>(6 acciones) En cada accion de la trampa, una esfera de cristal que aun no haya actuado este turno vuela 25 pies hacia la criatura mas cercana del Anillo Exterior si no hay ninguna criatura a 25 pies, o ataca a una criatura visible a 25 pies o menos; las esferas pueden percibir objetivos mediante vision en la oscuridad. Si una esfera ataca a un objetivo, este recibe @Damage[1d6[force]] de dano (@Check[reflex|dc:24|basic]) cuando la esfera lo golpea y estalla. Una criatura puede ser atacada por varias esferas en un mismo turno, pero una esfera siempre apunta al objetivo mas cercano. Cuando una esfera ataca y estalla, desaparece pero reaparece en su punto de generacion al comienzo del siguiente turno y continua su rutina. Una esfera destruida o cuyo punto de generacion haya sido inutilizado desaparece y no vuelve a regenerarse ni a atacar, y la trampa pierde 1 accion por cada esfera destruida o inutilizada de este modo.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Manifest Crystal Sphere": {
-          "name": "Manifest Crystal Sphere",
-          "description": "<p><strong>Desencadenante</strong> Three or more criaturas remain in the Outer Ring for 6 seconds or longer;</p>\n<p><strong>Efecto</strong> Six spheres of crystal, each measuring 2 pies in diameter, manifest from thin air and begin quickly floating toward intruders. A sphere manifests at each of the points on the map indicated with a small numeral (labeled 1 through 6); the trap then rolls initiative.</p>"
+          "name": "Manifestar esfera de cristal",
+          "description": "<p><strong>Desencadenante</strong> Tres o mas criaturas permanecen en el Anillo Exterior durante 6 segundos o mas.</p>\n<p><strong>Efecto</strong> Seis esferas de cristal, cada una de 2 pies de diametro, se manifiestan de la nada y empiezan a flotar rapidamente hacia los intrusos. Una esfera aparece en cada punto del mapa indicado con un pequeno numeral (etiquetados del 1 al 6); despues, la trampa tira iniciativa.</p>"
         }
       }
     },
     "Falling Debris": {
       "name": "Escombros que caen",
       "description": "<p>Una red llena de piedras y un pequeno yunque cae sobre alguien que entra en la sala.</p>",
-      "disable": "<p>@Check[thievery|dc:17] to disarm the trap through a cracked-open door, or <span class=\"action-glyph\">3</span> INTERACT to open the door slowly without triggering the trap</p>",
+      "disable": "<p>@Check[thievery|dc:17] para desarmar la trampa a traves de una puerta entreabierta, o <span class=\"action-glyph\">3</span> acciones de Interactuar para abrir la puerta lentamente sin activar la trampa</p>",
       "items": {
         "action->Drop Debris": {
-          "name": "Drop Debris",
-          "description": "<p><strong>Desencadenante</strong> A criatura opens the door without taking care to avoid triggering the trap;</p>\n<p><strong>Efecto</strong> The net drops a dozen hefty stones and a small but quite hard anvil onto the criatura, inflicting @Damage[3d6[bludgeoning]] daño (@Check[reflex|dc:17|basic]). The sound of this trap going off alerts Gurtlekep in area <strong>C8</strong>.</p>"
+          "name": "Soltar escombros",
+          "description": "<p><strong>Desencadenante</strong> Una criatura abre la puerta sin tener cuidado de evitar activar la trampa.</p>\n<p><strong>Efecto</strong> La red deja caer una docena de piedras pesadas y un pequeno yunque muy duro sobre la criatura, infligiendo @Damage[3d6[bludgeoning]] de dano (@Check[reflex|dc:17|basic]). El sonido de la trampa al activarse alerta a Gurtlekep en el area <strong>C8</strong>.</p>"
         }
       }
     },
     "Foolish Hunter": {
-      "name": "Foolish Hunter",
+      "name": "Cazador insensato",
       "items": {
         "backpack->Hip flasks": {
-          "name": "Hip flasks",
+          "name": "Petacas",
           "description": "<p>Llenas de cerveza barata y vino</p>"
         },
         "strike-melee->Dagger": {
@@ -304,8 +304,8 @@
           "name": "Arco corto"
         },
         "action->Slightly Drunk": {
-          "name": "Slightly Drunk",
-          "description": "<p>When first encountered, the hunters are slightly drunk and take a -1 penalizador to all checks until they sober up.</p>"
+          "name": "Ligeramente borracho",
+          "description": "<p>Cuando se los encuentra por primera vez, los cazadores estan ligeramente borrachos y sufren un penalizador -1 a todas las pruebas hasta que se les pase.</p>"
         },
         "lore->Hunting Lore": {
           "name": "Saber de Caza"
@@ -315,7 +315,7 @@
     "Grick": {
       "name": "Grick",
       "languages": "no puede hablar ningún idioma",
-      "publicNotes": "<p>The wormlike gricks terrorize the caverns and tunnels in which it dwells, lying in wait near heavily traveled underground passages or subterranean cities for the chance to reach forth from the darkness and take its prey. Those laid low by a grick are rarely consumed on the spot. Instead, gricks haul back fresh food back to their lair in a tight burrow or high on a cavern ledge, where they consume their spoils in small bites at the gricks' leisure.</p>\n<p>The origin of gricks is unknown. Even though these criaturas have a rudimentary INTELLIGENCE, they don't have any social structure to speak of. Most gricks are encountered alone. Even on those occasions when unfortunate travelers meet multiple gricks in small groups, those gricks don't appear to communicate or work together; each instead attacks an individual objetivo and retreats with its prize as soon as it manages to bring down an opponent. Capable predators, gricks also have a strangely arma-resistant hide that makes them especially dangerous to the unprepared. Many novice adventurers have fallen to grick attacks merely because they couldn't daño these criaturas with their non-magical armas. Those familiar with gricks (especially dwarves, morlocks, and xulgaths) know the best strategy for dealing with them when one lacks access to magic armas is to fall back and wait for more powerful or magical reinforcements.</p>\n<p>Gricks rely on their dark coloration and ability to CLIMB walls to keep them out of sight until they're ready to spring an ambush. On occasions, when food becomes scarce in a particular area, gricks have been known to travel to the surface and roam the wilderness in search of prey, but they make these sojourns almost always out of necessity, lasting only as long as it takes them to find entrances to new subterranean lairs. Estos criaturas prefer darkness and the comfort of a ceiling overhead; they avoid the open sky and go to great lengths to keep the cover of trees, low clouds, or buildings between them and the empty gulf overhead.</p>\n<p>Some Darklands societies have tried to recruit gricks as guardians or even beasts of burden, but their INTELLIGENCE-while middling at best-is more than enough for them to stubbornly resist and even resent attempts at \"training.\" The best most societies can manage is to keep a grick guardian happy by making sure it remains well-fed and comfortable.</p>",
+      "publicNotes": "<p>Los gricks, parecidos a gusanos, aterrorizan las cavernas y tuneles donde habitan, acechando cerca de pasos subterraneos muy transitados o ciudades bajo tierra para abalanzarse desde la oscuridad sobre sus presas. Quienes caen ante un grick rara vez son devorados en el acto. En su lugar, los gricks arrastran la comida fresca hasta su guarida, un estrecho agujero o un saliente elevado de caverna, donde consumen su botin a pequenos bocados y sin prisa.</p>\n<p>El origen de los gricks es desconocido. Aunque estas criaturas tienen una inteligencia rudimentaria, no poseen estructura social digna de mencion. La mayoria se encuentran solos. Incluso cuando viajeros desafortunados topan con varios gricks en pequenos grupos, estos no parecen comunicarse ni colaborar; cada uno ataca a un objetivo individual y se retira con su presa en cuanto logra derribar a un oponente. Son depredadores capaces y tienen una piel extranamente resistente a las armas, lo que los vuelve especialmente peligrosos para los desprevenidos. Muchos aventureros novatos han caido ante ataques de grick simplemente porque no podian danar a estas criaturas con armas no magicas. Quienes conocen a los gricks, especialmente enanos, morlocks y xulgaths, saben que la mejor estrategia cuando no se dispone de armas magicas es retirarse y esperar refuerzos mas poderosos o magicos.</p>\n<p>Los gricks dependen de su coloracion oscura y de su capacidad para trepar muros para permanecer fuera de la vista hasta que estan listos para tender una emboscada. En ocasiones, cuando escasea la comida en una zona, se sabe que los gricks viajan a la superficie y recorren tierras salvajes en busca de presas, pero casi siempre hacen estas incursiones por necesidad y solo durante el tiempo necesario para encontrar entradas a nuevas guaridas subterraneas. Estas criaturas prefieren la oscuridad y la comodidad de tener un techo sobre la cabeza; evitan el cielo abierto y se esfuerzan por mantener arboles, nubes bajas o edificios entre ellas y el vacio que se extiende sobre ellas.</p>\n<p>Algunas sociedades de las Tierras Oscuras han intentado reclutar gricks como guardianes o incluso bestias de carga, pero su inteligencia, aunque mediocre, basta para que se resistan obstinadamente e incluso resentidamente a los intentos de adiestramiento. Lo maximo que suelen conseguir estas sociedades es mantener contento a un guardian grick asegurandose de que este bien alimentado y comodo.</p>",
       "skillSpecialStealth": {
         "0": {
           "label": "en terreno rocoso"
@@ -329,15 +329,15 @@
           "name": "Tentáculo"
         },
         "action->Gripping Tentacle": {
-          "name": "Gripping Tentacle",
-          "description": "<p><strong>Desencadenante</strong> A criatura in the grick's reach uses a move action or leaves a square during a move action it's using</p>\n<p><strong>Efecto</strong> The grick makes a tentacle Golpe against el objetivo. If the attack is a impacto crítico and the trigger was a move action, the grick disrupts that action.</p>"
+          "name": "Tentaculo prensil",
+          "description": "<p><strong>Desencadenante</strong> Una criatura al alcance del grick usa una accion de movimiento o abandona una casilla durante una accion de movimiento que esta usando.</p>\n<p><strong>Efecto</strong> El grick realiza un Golpe de tentaculo contra el objetivo. Si el ataque es un impacto critico y el desencadenante era una accion de movimiento, el grick interrumpe esa accion.</p>"
         }
       }
     },
     "Grimbal": {
       "name": "Grimbal",
-      "blurb": "dwarf ghost varon",
-      "hpDetails": "curación de vacío, rejuvenation",
+      "blurb": "fantasma enano masculino",
+      "hpDetails": "curacion de vacio, rejuvenation",
       "items": {
         "strike-melee->Ghostly Hand": {
           "name": "Ghostly Hand"
@@ -347,29 +347,29 @@
         },
         "action->Rejuvenation": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.unR8VVR4yyRnsmnB]\nRejuvenecimiento",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.unR8VVR4yyRnsmnB]\n<p>Restoring Grimbal's head from area <strong>F4</strong> to his remains in this room allows him to move on to the afterlife.</p>"
+          "description": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.unR8VVR4yyRnsmnB]\n<p>Restaurar la cabeza de Grimbal desde el area <strong>F4</strong> a sus restos en esta sala le permite seguir adelante hacia el mas alla.</p>"
         },
         "action->Drain Mind": {
-          "name": "Drain Mind",
-          "description": "<p>When Grimbal damages a living criatura with his ghostly hand Golpe, the ghost gains 5 Puntos de golpe temporales, and the criatura must succeed at a @Check[will|dc:24] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 1}. Further daño dealt by the ghost increases this anonadado value by 1 on a failed save to a maximum of @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 4}. Each time a criatura affected by drain mind gets a full night's rest, decrease its anonadado value caused by drain mind by 1.</p>"
+          "name": "Drenar mente",
+          "description": "<p>Cuando Grimbal dana a una criatura viva con su Golpe de mano fantasmal, el fantasma obtiene 5 Puntos de Golpe temporales y la criatura debe tener exito en una salvacion de @Check[will|dc:24] o quedar @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadada 1}. El dano adicional infligido por el fantasma aumenta este valor de anonadado en 1 con una salvacion fallida, hasta un maximo de @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 4}. Cada vez que una criatura afectada por drenar mente descansa una noche completa, reduce en 1 su valor de anonadado causado por drenar mente.</p>"
         }
       }
     },
     "Gurtlekep": {
       "name": "Gurtlekep",
-      "blurb": "kobold lookout varon",
+      "blurb": "vigia kobold masculino",
       "skillSpecialCrafting": {
         "0": {
           "label": "trampas"
         }
       },
       "items": {
-        "equipment->Thieves' Tools": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.zvLyCVD8g2PdHJAc]\nThieves' Tools",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.zvLyCVD8g2PdHJAc]\n<p>Necesitas thieves' tools to Pick Locks or Disable Devices (of some types) using the THIEVERY skill.</p>\n<p>If tu thieves' tools are broken, puedes REPAIR them by replacing the lock picks with @UUID[Compendium.pf2e.equipment-srd.Item.Sw7MBLASN3xK4Y44]{Replacement Picks} appropriate to tu tools; this doesn't require using the REPAIR action.</p>"
+        "equipment->Herramientas de ladron": {
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.zvLyCVD8g2PdHJAc]\nHerramientas de ladron",
+          "description": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.zvLyCVD8g2PdHJAc]\n<p>Necesitas herramientas de ladron para Abrir cerraduras o Inutilizar mecanismos de algunos tipos usando la habilidad de Latrocinio.</p>\n<p>Si tus herramientas de ladron estan rotas, puedes Repararlas sustituyendo las ganzuas por @UUID[Compendium.pf2e.equipment-srd.Item.Sw7MBLASN3xK4Y44]{ganzuas de repuesto} apropiadas para tus herramientas; esto no requiere usar la accion Reparar.</p>"
         },
         "consumable->Healing Potion (Minor)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.2RuepCemJhrpKKao]\n<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a healing potion, tú regain @Damage[1d8[healing]] Puntos de golpe.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.2RuepCemJhrpKKao]\n<p>Una pocion de curacion es un vial de liquido rojo rubi que produce una sensacion de hormigueo mientras las heridas de quien la bebe sanan rapidamente. Cuando bebes una pocion de curacion, recuperas @Damage[1d8[healing]] Puntos de Golpe.</p>"
         },
         "strike-melee->Shortsword": {
           "name": "Espada corta"
@@ -377,19 +377,19 @@
         "strike-ranged->Dagger": {
           "name": "Daga"
         },
-        "action->Knife 'n Run": {
-          "name": "Knife 'n Run",
-          "description": "<p><strong>Requisitos</strong> Gurtlekep is adjacent to at least one enemigo and holds a dagger in a hand</p>\n<hr />\n<p><strong>Efecto</strong> Gurtlekep Strides up to his Velocidad plus 5 pies and then attempts a ranged Golpe with his held dagger. He must end this movement in a space that isn't adjacent to any enemigo.</p>"
+        "action->Cuchillada y huida": {
+          "name": "Cuchillada y huida",
+          "description": "<p><strong>Requisitos</strong> Gurtlekep esta adyacente al menos a un enemigo y sostiene una daga en una mano.</p>\n<hr />\n<p><strong>Efecto</strong> Gurtlekep Zancadea hasta su Velocidad + 5 pies y luego intenta un Golpe a distancia con la daga que sostiene. Debe terminar este movimiento en un espacio que no este adyacente a ningun enemigo.</p>"
         },
         "action->Sneak Attack": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>Gurtlekep deals an additional 1d6 daño de precisión to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} criaturas.</p>"
+          "description": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>Gurtlekep inflige 1d6 de dano de precision adicional a criaturas @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenidas}.</p>"
         }
       }
     },
     "Hymmir Urath": {
       "name": "Hymmir Urath",
-      "blurb": "Humano barbarian ghoul",
-      "hpDetails": "curación de vacío",
+      "blurb": "Humano barbaro ghoul",
+      "hpDetails": "curacion de vacio",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -399,23 +399,23 @@
         },
         "action->Consume Flesh": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23]\nConsumir carne",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23]\n<p><strong>Requisitos</strong> The ghoul is adjacent to the corpse of a criatura that died within the last hour.</p>\n<hr />\n<p><strong>Efecto</strong> The ghoul devours a chunk of the corpse and regains @Damage[3d6[healing]] Puntos de golpe.</p>\n<p>It can regain Puntos de golpe from any given corpse only once.</p>"
+          "description": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23]\n<p><strong>Requisitos</strong> El ghoul esta adyacente al cadaver de una criatura que murio durante la ultima hora.</p>\n<hr />\n<p><strong>Efecto</strong> El ghoul devora un trozo del cadaver y recupera @Damage[3d6[healing]] Puntos de Golpe.</p>\n<p>Solo puede recuperar Puntos de Golpe de un mismo cadaver una vez.</p>"
         },
         "action->Ghoul Fever": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.N7UV5CZXtcoxDxCF]\nGhoul Fever",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.N7UV5CZXtcoxDxCF]\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:22]</p>\n<hr />\n<p><strong>Etapa 1</strong> carrier with no ill effect (1 día)</p>\n<p><strong>Etapa 2</strong> @Damage[2d6[void]] daño and regains half as many Puntos de golpe from all healing (1 día)</p>\n<p><strong>Etapa 3</strong> as stage 2 (1 día)</p>\n<p><strong>Etapa 4</strong> @Damage[2d6[void]] daño and gains no benefit from healing (1 día)</p>\n<p><strong>Etapa 5</strong> as stage 4 (1 día)</p>\n<p><strong>Etapa 6</strong> dead, and rises as a @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.LHHgGSs0ELCR4CYK]{Ghoul} the next midnight.</p>"
+          "description": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.N7UV5CZXtcoxDxCF]\n<p><strong>Tirada de salvacion</strong> @Check[fortitude|dc:22]</p>\n<hr />\n<p><strong>Etapa 1</strong> portador sin efecto perjudicial (1 dia)</p>\n<p><strong>Etapa 2</strong> @Damage[2d6[void]] de dano y recupera la mitad de Puntos de Golpe de toda curacion (1 dia)</p>\n<p><strong>Etapa 3</strong> como etapa 2 (1 dia)</p>\n<p><strong>Etapa 4</strong> @Damage[2d6[void]] de dano y no obtiene beneficio de la curacion (1 dia)</p>\n<p><strong>Etapa 5</strong> como etapa 4 (1 dia)</p>\n<p><strong>Etapa 6</strong> muerte, y se alza como @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.LHHgGSs0ELCR4CYK]{Ghoul} a la medianoche siguiente.</p>"
         },
-        "action->Gnaw and Chew": {
-          "name": "Gnaw and Chew",
-          "description": "<p><strong>Requisitos</strong> Hymmir is in a hungry rage</p>\n<hr />\n<p><strong>Efecto</strong> Hymmir attempts a jaws Golpe. If he hits, he chews at his objetivo and inflicts an additional 1d6 daño cortante. Hymmir regains @Damage[3d6[healing]] Puntos de golpe.</p>"
+        "action->Roer y masticar": {
+          "name": "Roer y masticar",
+          "description": "<p><strong>Requisitos</strong> Hymmir esta en rabia hambrienta.</p>\n<hr />\n<p><strong>Efecto</strong> Hymmir intenta un Golpe de mandibulas. Si impacta, muerde a su objetivo e inflige 1d6 de dano cortante adicional. Hymmir recupera @Damage[3d6[healing]] Puntos de Golpe.</p>"
         },
-        "action->Hungry Rage": {
-          "name": "Hungry Rage",
-          "description": "<p><strong>Desencadenante</strong> Hymmir damages a living criatura with his jaws Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The taste of flesh and blood throws Hymmir into a violent rage. He gains 9 Puntos de golpe temporales, deals an additional 2 daño with melee Golpes, and takes a -1 penalizador to AC for 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.z3uyCMBddrPK5umr]{Efecto: Rage}</p>"
+        "action->Rabia hambrienta": {
+          "name": "Rabia hambrienta",
+          "description": "<p><strong>Desencadenante</strong> Hymmir dana a una criatura viva con su Golpe de mandibulas.</p>\n<hr />\n<p><strong>Efecto</strong> El sabor de la carne y la sangre sume a Hymmir en una rabia violenta. Obtiene 9 Puntos de Golpe temporales, inflige 2 de dano adicional con sus Golpes cuerpo a cuerpo y sufre un penalizador -1 a la CA durante 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.z3uyCMBddrPK5umr]{Efecto: Rabia}</p>"
         },
-        "action->Paralysis": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.FW4KAUHb7r8WkxUc]\nParalysis",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.FW4KAUHb7r8WkxUc]\n<p>Any living, non-elf criatura hit by a ghoul's attack must succeed at a @Check[fortitude|dc:22] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado}. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
+        "action->Paralisis": {
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.FW4KAUHb7r8WkxUc]\nParalisis",
+          "description": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.FW4KAUHb7r8WkxUc]\n<p>Cualquier criatura viva que no sea elfa e impactada por el ataque de un ghoul debe tener exito en una salvacion de @Check[fortitude|dc:22] o quedar @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizada}. Puede intentar una nueva salvacion al final de cada uno de sus turnos, y la CD disminuye acumulativamente en 1 con cada una de esas salvaciones.</p>"
         },
         "action->Swift Leap": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UU1Fp3PRuTFONjC9]\nSalto veloz"
@@ -423,23 +423,23 @@
       }
     },
     "Id Ooze": {
-      "name": "Id Ooze",
-      "languages": "(no puede hablar ningún idioma); telepathy 60 ft",
-      "publicNotes": "<p>Not all oozes are mindless predators capable of little more than ambushing and consuming prey. The id ooze is a thinking, calculating criatura with the capacity to carry out complex plots and plans-not always to secure a meal. Left to its own devices, an id ooze is just as content to spend decades or even centuries in introspective philosophical pursuits as it is to crawl through the underground rivers and moist caverns it prefers to call home.</p>\n<p>An id ooze can derive sustenance from the consumption of organic material, but without easy access to plants or animals to eat, they can subsist in a state of semi-hibernation for centuries while slowly absorbing residual psychic energies in locations that have been host to powerful emotions, such as long-standing temples that once hosted generations of worshippers, settlements that endured horrific wars or devastating disasters, or even just the home of a powerful occult spellcaster whose thoughts left marks upon the walls long after they moved on.</p>\n<p>An id ooze prefers water but is equally at home on land. The slimy criatura appears as a patch of water until it attacks, when its gelatinous body piles up on itself to form a single pseudopod that strikes like an angry snake.</p>",
+      "name": "Cieno id",
+      "languages": "(no puede hablar ningún idioma); telepatia 60 pies",
+      "publicNotes": "<p>No todos los cienos son depredadores descerebrados capaces de poco mas que emboscar y consumir presas. El cieno id es una criatura pensante y calculadora, capaz de llevar a cabo tramas y planes complejos, y no siempre para conseguir alimento. Si se lo deja a su aire, un cieno id puede pasar decadas o incluso siglos en reflexiones filosoficas introspectivas con la misma satisfaccion con la que recorre los rios subterraneos y cavernas humedas que prefiere llamar hogar.</p>\n<p>Un cieno id puede alimentarse de materia organica, pero si no tiene facil acceso a plantas o animales puede subsistir durante siglos en un estado de semihibernacion, absorbiendo lentamente energias psiquicas residuales en lugares que han albergado emociones intensas, como templos antiguos que acogieron generaciones de fieles, asentamientos que soportaron guerras terribles o desastres devastadores, o incluso el hogar de un poderoso lanzador de conjuros ocultistas cuyos pensamientos dejaron huellas en las paredes mucho despues de partir.</p>\n<p>Un cieno id prefiere el agua, pero se desenvuelve igual de bien en tierra firme. La criatura viscosa parece una mancha de agua hasta que ataca, momento en que su cuerpo gelatinoso se apila sobre si mismo para formar un unico seudopodo que golpea como una serpiente furiosa.</p>",
       "skillSpecialStealth": {
         "0": {
           "label": "en zonas humedas"
         }
       },
       "items": {
-        "spellcastingEntry->Occult Innate Conjuros": {
-          "name": "Occult Innate Conjuros"
+        "spellcastingEntry->Conjuros ocultistas innatos": {
+          "name": "Conjuros ocultistas innatos"
         },
         "conjuro->Hypnotic Pattern": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.K2WpC3FFoHrqX9Q5]\nHypnotic Pattern"
         },
-        "strike-melee->Pseudopod": {
-          "name": "Pseudopod"
+        "strike-melee->Seudopodo": {
+          "name": "Seudopodo"
         },
         "action->Telepathy 60 pies": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA]\nTelepathy 60 pies"
@@ -450,15 +450,15 @@
         },
         "action->Manipulate Ooze": {
           "name": "Manipulate Ooze",
-          "description": "<p><strong>Frecuencia</strong> once per turn</p>\n<p><strong>Efecto</strong> The id ooze manipulates the senses and impulses within a mindless ooze of the id ooze's nivel or lower within 30 pies, issuing it telepathic orders to undertake a specific action. The orders must be simple, such as a directive to attack a specific objetivo in preference to another, or to hold ground in a spot to protect a location, or even to adjust its positioning and body to form crude shapes or symbols. A manipulated ooze performs the direction to the best of its ability on its next turn, after which it returns to its normal behavior.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez por turno</p>\n<p><strong>Efecto</strong> El cieno id manipula los sentidos e impulsos de un cieno sin mente de su nivel o inferior a 30 pies o menos, dandole ordenes telepaticas para realizar una accion concreta. Las ordenes deben ser simples, como atacar a un objetivo concreto antes que a otro, mantener una posicion para proteger un lugar, o incluso ajustar su postura y cuerpo para formar formas o simbolos rudimentarios. Un cieno manipulado cumple la orden lo mejor que puede en su siguiente turno, tras lo cual vuelve a su comportamiento normal.</p>"
         },
         "action->Motion Sense 60 pies": {
           "name": "Motion Sense 60 pies",
-          "description": "<p>An id ooze can sense nearby criaturas through vibration and air or water movement.</p>"
+          "description": "<p>Un cieno id puede percibir criaturas cercanas mediante vibraciones y movimiento del aire o del agua.</p>"
         },
         "action->Puddled Ambush": {
           "name": "Puddled Ambush",
-          "description": "<p><strong>Desencadenante</strong> A criatura enters or interacts with a space occupied by an id ooze</p>\n<p><strong>Requisitos</strong> Initiative hasn't yet been rolled</p>\n<p><strong>Efecto</strong> The id ooze automatically notices the criatura, then makes a pseudopod Golpe against one criatura adjacent to itself before rolling initiative.</p>"
+          "description": "<p><strong>Desencadenante</strong> Una criatura entra en un espacio ocupado por un cieno id o interactua con el.</p>\n<p><strong>Requisitos</strong> Aun no se ha tirado iniciativa.</p>\n<p><strong>Efecto</strong> El cieno id advierte automaticamente a la criatura y luego realiza un Golpe de seudopodo contra una criatura adyacente a si mismo antes de tirar iniciativa.</p>"
         },
         "action->Constrict": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV]\n<p>@Damage[(1d4+8)[bludgeoning],1d6[acid]]{1d4+8 bludgeoning plus 1d6 acid}, @Check[fortitude|dc:25|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
@@ -467,39 +467,39 @@
     },
     "Jekkajak": {
       "name": "Jekkajak",
-      "blurb": "kobold sorcerer mujer",
+      "blurb": "hechicera kobold",
       "items": {
-        "spellcastingEntry->Divine Spontaneous Conjuros": {
-          "name": "Divine Spontaneous Conjuros"
+        "spellcastingEntry->Conjuros divinos espontaneos": {
+          "name": "Conjuros divinos espontaneos"
         },
-        "spellcastingEntry->Sorcerer Bloodline Conjuros": {
-          "name": "Sorcerer Bloodline Conjuros"
+        "spellcastingEntry->Conjuros de linaje de hechicero": {
+          "name": "Conjuros de linaje de hechicero"
         },
-        "conjuro->Sound Burst": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.wzLkNU3AAqOSKFPR]\nSound Burst"
+        "conjuro->Estallido sonico": {
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.wzLkNU3AAqOSKFPR]\nEstallido sonico"
         },
-        "conjuro->Ray of Enfeeblement": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRay of Enfeeblement"
+        "conjuro->Rayo debilitador": {
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRayo debilitador"
         },
-        "equipment->Hat of Disguise (Greater)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.WPSp5MLb0VOfmUqH]\nHat of Disguise (Greater)",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.WPSp5MLb0VOfmUqH]\n<p>Este ordinary-looking hat allows tú to cloak yourself in illusions.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> INTERACT</p>\n<p><strong>Frecuencia</strong> any number of times per day</p>\n<hr />\n<p><strong>Efecto</strong> The hat casts a 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{Illusory Disguise} conjuro on tú. While setting up the disguise, puedes magically alter the hat to appear as a comb, ribbon, helm, or other piece of headwear.</p>"
+        "equipment->Sombrero de disfraz mayor": {
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.WPSp5MLb0VOfmUqH]\nSombrero de disfraz mayor",
+          "description": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.WPSp5MLb0VOfmUqH]\n<p>Este sombrero de aspecto ordinario te permite envolverte en ilusiones.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> Interactuar</p>\n<p><strong>Frecuencia</strong> cualquier numero de veces al dia</p>\n<hr />\n<p><strong>Efecto</strong> El sombrero lanza sobre ti un conjuro @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{Disfraz ilusorio} de rango 2. Mientras preparas el disfraz, puedes alterar magicamente el sombrero para que parezca un peine, una cinta, un yelmo u otra prenda de cabeza.</p>"
         },
         "strike-melee->Heartripper Blade": {
           "name": "Hoja desgarracorazones"
         },
         "action->Smoky Retreat": {
           "name": "Smoky Retreat",
-          "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<p><strong>Requisitos</strong> Jekkajak is adjacent to at least one enemigo</p>\n<hr />\n<p><strong>Efecto</strong> Jekkajak squeals in fright as she exhales a noxious cloud of stinking smoke. Este smoke fills a @Template[emanation|distance:10] around her and grants concealment to all criaturas within the smoke. In addition, any non-kobold starting their turn in the smoke must succeed at a @Check[fortitude|dc:21] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} by the foul smoke (or @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 2} on a critical failure). Once created, the cloud of smoke is immobile and persists for 3 asaltos. Jekkajak can move up to her Velocidad, but she must end her movement in a space that isn't adjacent to any enemigos. Este is a 2nd-rank conjuro that requires a somatic component.</p>"
+          "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<p><strong>Requisitos</strong> Jekkajak esta adyacente al menos a un enemigo.</p>\n<hr />\n<p><strong>Efecto</strong> Jekkajak chilla aterrada mientras exhala una nube nociva de humo apestoso. Este humo llena una @Template[emanation|distance:10] a su alrededor y concede ocultacion a todas las criaturas dentro del humo. Ademas, cualquier no kobold que empiece su turno en el humo debe tener exito en una salvacion de @Check[fortitude|dc:21] o quedar @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} por el humo nauseabundo, o @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 2} con un fallo critico. Una vez creada, la nube de humo queda inmovil y persiste durante 3 asaltos. Jekkajak puede moverse hasta su Velocidad, pero debe terminar su movimiento en un espacio que no este adyacente a ningun enemigo. Este es un conjuro de rango 2 que requiere componente somatico.</p>"
         }
       }
     },
     "Kapmek": {
       "name": "Kapmek",
-      "blurb": "kobold slurk-trainer varon",
+      "blurb": "adiestrador de slurks kobold masculino",
       "items": {
         "consumable->Black Adder Venom": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.ScclzFrjyB0YJlrb]\n<p>Adder venom is a simple but effective way to enhance a arma.</p>\n<hr />\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> INTERACT (Injury)</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:18]</p>\n<p><strong>Duración máxima</strong> 3 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[1d8[poison]] daño (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[1d10[poison]] daño (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[2d6[poison]] daño (1 asalto)</p>"
+          "description": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.ScclzFrjyB0YJlrb]\n<p>El veneno de vibora es una forma simple pero efectiva de mejorar un arma.</p>\n<hr />\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> Interactuar (herida)</p>\n<p><strong>Tirada de salvacion</strong> @Check[fortitude|dc:18]</p>\n<p><strong>Duracion maxima</strong> 3 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[1d8[poison]] de dano (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[1d10[poison]] de dano (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[2d6[poison]] de dano (1 asalto)</p>"
         },
         "strike-melee->Hatchet": {
           "name": "Hacha de mano"
@@ -510,58 +510,58 @@
         "strike-ranged->Crossbow": {
           "name": "Ballesta"
         },
-        "action->Hurried Retreat": {
-          "name": "Hurried Retreat",
-          "description": "<p><strong>Requisitos</strong> Kapmek is adjacent to at least one enemigo.</p>\n<hr />\n<p><strong>Efecto</strong> Kapmek Strides up to his Velocidad plus 5 pies and gains a +2 bonificador de circunstancia to AC against reactions triggered by this movement. He must end this movement in a space that's not adjacent to any enemigo.</p>"
+        "action->Retirada apresurada": {
+          "name": "Retirada apresurada",
+          "description": "<p><strong>Requisitos</strong> Kapmek esta adyacente al menos a un enemigo.</p>\n<hr />\n<p><strong>Efecto</strong> Kapmek Zancadea hasta su Velocidad + 5 pies y obtiene un bonificador de circunstancia +2 a la CA contra reacciones desencadenadas por este movimiento. Debe terminar este movimiento en un espacio que no este adyacente a ningun enemigo.</p>"
         },
-        "action->Quick Poison Dip": {
-          "name": "Quick Poison Dip",
-          "description": "<p><strong>Desencadenante</strong> Kapmek loads his crossbow while he carries a dose of poison</p>\n<hr />\n<p><strong>Efecto</strong> As he loads his crossbow, Kapmek can dip the crossbow bolt into a dose of carried poison as part of the action taken to load his crossbow.</p>"
+        "action->Impregnacion rapida de veneno": {
+          "name": "Impregnacion rapida de veneno",
+          "description": "<p><strong>Desencadenante</strong> Kapmek carga su ballesta mientras lleva una dosis de veneno.</p>\n<hr />\n<p><strong>Efecto</strong> Mientras carga la ballesta, Kapmek puede sumergir el virote en una dosis de veneno que lleve encima como parte de la accion usada para cargar la ballesta.</p>"
         },
         "action->Sneak Attack": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>Kapmek deals an additional 1d6 daño de precisión to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} criaturas.</p>"
+          "description": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>Kapmek inflige 1d6 de dano de precision adicional a criaturas @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenidas}.</p>"
         }
       }
     },
     "Kerrdremak": {
       "name": "Kerrdremak",
-      "blurb": "kobold witch varon",
+      "blurb": "brujo kobold masculino",
       "items": {
-        "spellcastingEntry->Divine Prepared Conjuros": {
-          "name": "Divine Prepared Conjuros"
+        "spellcastingEntry->Conjuros divinos preparados": {
+          "name": "Conjuros divinos preparados"
         },
-        "spellcastingEntry->Hex Cantrips": {
-          "name": "Hex Cantrips"
+        "spellcastingEntry->Trucos de embrujo": {
+          "name": "Trucos de embrujo"
         },
-        "conjuro->Ray of Enfeeblement": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRay of Enfeeblement"
+        "conjuro->Rayo debilitador": {
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRayo debilitador"
         },
         "strike-melee->Dagger": {
           "name": "Daga"
         },
-        "action->Whispering Retreat": {
-          "name": "Whispering Retreat",
-          "description": "<p><strong>Requisitos</strong> Kerrdremak is adjacent to at least one enemigo;</p>\n<p><strong>Efecto</strong> Kerrdremak whispers under his breath, and one adjacent enemigo must attempt a @Check[will|dc:17] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} as they hear a whispering voice just behind them that claims to know when el objetivo will die; el objetivo is then temporarily immune to Whispering Retreat for 1 hora. Kerrdremak then Strides, and this movement no desencadena reacciones from asustado criaturas. He must end this movement in a space that isn't adjacent to any enemigo.</p>"
+        "action->Retirada susurrante": {
+          "name": "Retirada susurrante",
+          "description": "<p><strong>Requisitos</strong> Kerrdremak esta adyacente al menos a un enemigo.</p>\n<p><strong>Efecto</strong> Kerrdremak susurra entre dientes, y un enemigo adyacente debe intentar una salvacion de @Check[will|dc:17] o quedar @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} al oir una voz susurrante justo detras que afirma saber cuando morira el objetivo. Despues, el objetivo es inmune temporalmente a Retirada susurrante durante 1 hora. Kerrdremak Zancadea, y este movimiento no desencadena reacciones de criaturas asustadas. Debe terminar este movimiento en un espacio que no este adyacente a ningun enemigo.</p>"
         }
       }
     },
     "Kieragan Skross": {
       "name": "Kieragan Skross",
       "blurb": "Herexen mayor",
-      "hpDetails": "curación de vacío",
+      "hpDetails": "curacion de vacio",
       "items": {
-        "spellcastingEntry->Divine Prepared Conjuros": {
-          "name": "Divine Prepared Conjuros"
+        "spellcastingEntry->Conjuros divinos preparados": {
+          "name": "Conjuros divinos preparados"
         },
-        "spellcastingEntry->Cleric Domain Conjuros": {
-          "name": "Cleric Domain Conjuros"
+        "spellcastingEntry->Conjuros de dominio clerical": {
+          "name": "Conjuros de dominio clerical"
         },
         "conjuro->Commanding Lash": {
-          "requirements": "Tu most recent action dealt daño to a objetivo."
+          "requirements": "Tu accion mas reciente infligio dano a un objetivo."
         },
         "equipment->Defiled Religious Symbol of Droskar": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.plplsXJsqrdqNQVI]\nDefiled Religious Symbol of Droskar",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.plplsXJsqrdqNQVI]\n<p>Este piece of wood or silver is emblazoned with an image representing a deity. Some divine spellcasters, such as clerics, can use a religious symbol of their deity as a divine focus to use certain abilities and cast some conjuros. A religious symbol must be held in one hand to use it.</p>"
+          "name": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.plplsXJsqrdqNQVI]\nSimbolo religioso profanado de Droskar",
+          "description": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.plplsXJsqrdqNQVI]\n<p>Esta pieza de madera o plata esta marcada con una imagen que representa a una deidad. Algunos lanzadores de conjuros divinos, como los clerigos, pueden usar el simbolo religioso de su deidad como foco divino para ciertas aptitudes y conjuros. Un simbolo religioso debe sujetarse en una mano para usarlo.</p>"
         },
         "strike-melee->Light Hammer": {
           "name": "Martillo ligero"
@@ -569,40 +569,40 @@
         "strike-ranged->Light Hammer": {
           "name": "Martillo ligero"
         },
-        "action->Final Blasphemy": {
-          "name": "Final Blasphemy",
-          "description": "<p>When the herexen is destroyed, it explodes in a wave of void energy with the effects of a 3-action 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm} conjuro (@Check[fortitude|dc:26|basic]).</p>\n<p>The herexen is destroyed, so it doesn't gain any Puntos de golpe from this use of <em>harm</em>, and it doesn't need to have any <em>harm</em> conjuros remaining to use this ability.</p>"
+        "action->Blasfemia final": {
+          "name": "Blasfemia final",
+          "description": "<p>Cuando el hereje es destruido, explota en una oleada de energia de vacio con los efectos de un conjuro @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Dañar} de 4.º rango de 3 acciones (@Check[fortitude|dc:26|basic]).</p>\n<p>El hereje queda destruido, por lo que no obtiene Puntos de Golpe por este uso de <em>dañar</em>, y no necesita tener conjuros de <em>dañar</em> restantes para usar esta aptitud.</p>"
         },
-        "action->Heretic's Smite": {
-          "name": "Heretic's Smite",
-          "description": "<p>While wielding the favored arma of its former deity (such as a dagger for an ex-Pharasmin herexen), the herexen's Golpes deal an additional @Damage[2d6[spirit]] daño against criaturas that can cast divine conjuros.</p>"
+        "action->Castigo del hereje": {
+          "name": "Castigo del hereje",
+          "description": "<p>Mientras empuña el arma predilecta de su antigua deidad (como una daga para un antiguo pharasmita), los Golpes del hereje infligen @Damage[2d6[spirit]] de dano adicional contra criaturas que puedan lanzar conjuros divinos.</p>"
         }
       }
     },
     "King Merlokrep": {
-      "name": "King Merlokrep",
-      "blurb": "kobold king varon",
+      "name": "Rey Merlokrep",
+      "blurb": "rey kobold masculino",
       "skillSpecialCrafting": {
         "0": {
           "label": "trampas"
         }
       },
       "items": {
-        "spellcastingEntry->Arcane Spontaneous Conjuros": {
-          "name": "Arcane Spontaneous Conjuros"
+        "spellcastingEntry->Conjuros arcanos espontaneos": {
+          "name": "Conjuros arcanos espontaneos"
         },
-        "conjuro->Hideous Laughter": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.tlSE7Ly8vi1Dgddv]\nHideous Laughter"
+        "conjuro->Risa espantosa": {
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.tlSE7Ly8vi1Dgddv]\nRisa espantosa"
         },
-        "conjuro->Dancing Lights": {
-          "name": "Dancing Lights",
-          "description": "<p>Creas up to four floating lights, no two of which are more than 10 pies apart. Each sheds light like a torch. When tú Sustain the Conjuro, puedes move any number of lights up to 60 pies. Each light must remain within 120 pies of tú and within 10 pies of all others, or it winks out.</p>"
+        "conjuro->Luces danzantes": {
+          "name": "Luces danzantes",
+          "description": "<p>Creas hasta cuatro luces flotantes, ninguna de las cuales puede estar a mas de 10 pies de otra. Cada una emite luz como una antorcha. Cuando Sustentas el conjuro, puedes mover cualquier numero de luces hasta 60 pies. Cada luz debe permanecer a 120 pies o menos de ti y a 10 pies o menos de todas las demas, o se apaga.</p>"
         },
-        "conjuro->Feather Fall": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.TTwOKGqmZeKSyNMH]\nFeather Fall"
+        "conjuro->Caida de pluma": {
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.TTwOKGqmZeKSyNMH]\nCaida de pluma"
         },
-        "conjuro->Magic Missile": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]\nMagic Missile"
+        "conjuro->Proyectil magico": {
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]\nProyectil magico"
         },
         "treasure->Gold Horn Bangles": {
           "name": "Gold Horn Bangles"
@@ -611,26 +611,26 @@
           "name": "Gold Lip Ring"
         },
         "treasure->Red and Gold Satin Cloak": {
-          "name": "Red and Gold Satin Cloak",
-          "description": "<p>Este oversized red and gold satin cloak has a crude painting of a gold dragon on the back.</p>"
+          "name": "Capa de saten roja y dorada",
+          "description": "<p>Esta capa de saten roja y dorada sobredimensionada tiene una pintura rudimentaria de un dragon dorado en la espalda.</p>"
         },
         "strike-melee->Battle Axe": {
           "name": "Hacha de batalla"
         },
-        "action->Imperious Retreat": {
-          "name": "Imperious Retreat",
-          "description": "<p><strong>Requisitos</strong> King Merlokrep is adjacent to at least one enemigo</p>\n<hr />\n<p><strong>Efecto</strong> King Merlokrep whips his fabulous satin cloak into the face of an adjacent criatura and attempts an @Check[intimidation|defense:will] prueba against that criatura's CD de Voluntad. On a success, the criatura is humiliated and distracted by the act and is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} until the end of King Merlokrep's next turn. King Merlokrep then Strides up to his Velocidad and gains a +2 bonificador de circunstancia to AC against reactions triggered by this movement. He must end this movement in a space that isn't adjacent to any enemigo.</p>"
+        "action->Retirada imperiosa": {
+          "name": "Retirada imperiosa",
+          "description": "<p><strong>Requisitos</strong> El rey Merlokrep esta adyacente al menos a un enemigo</p>\n<hr />\n<p><strong>Efecto</strong> El rey Merlokrep agita su fabulosa capa de saten ante el rostro de una criatura adyacente e intenta una prueba de @Check[intimidation|defense:will] contra la CD de Voluntad de esa criatura. Con un exito, la criatura queda humillada y distraida por el gesto y esta @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} hasta el final del siguiente turno del rey Merlokrep. Despues, el rey Merlokrep Zancadea hasta su Velocidad y obtiene un bonificador de circunstancia +2 a la CA contra reacciones desencadenadas por este movimiento. Debe terminar este movimiento en un espacio que no este adyacente a ningun enemigo.</p>"
         },
         "action->Signature Conjuros": {
           "name": "Conjuros de signatura",
-          "description": "<p>King Merlokrep can cast any of his signature conjuros (Fireball, Dispel Magic, and Magic Missile) as heightened versions freely.</p>"
+          "description": "<p>El rey Merlokrep puede lanzar cualquiera de sus conjuros de signatura (Bola de fuego, Disipar magia y Proyectil magico) libremente como versiones intensificadas.</p>"
         },
-        "action->Rise From Death": {
-          "name": "Rise From Death",
-          "description": "<p>If King Merlokrep is slain, the Crown of the Kobold King glows brighter with an awful yellow radiance; this light slithers down inside the dead kobold's flesh, emanating from within as his body begins to twitch and writhe. If the Crown is allowed to remain on his head for 3 asaltos, King Merlokrep rises from death as an undead Kobold King-this restores him to full Puntos de golpe and grants him the Undead rasgo (along with curación de vacío and susceptibility to vitality energy). Once the undead king is defeated, he remains destroyed-the absorbed energy of the Third Seal allows him to Rise from Death only once. If the Crown is removed before 3 asaltos pass, the light winks out, and the energy absorbed by the Third Seal dissipates harmlessly.</p>"
+        "action->Alzarse de la muerte": {
+          "name": "Alzarse de la muerte",
+          "description": "<p>Si el rey Merlokrep muere, la Corona del Rey Kobold brilla con mas intensidad y una horrible radiancia amarilla; esta luz se desliza al interior de la carne del kobold muerto, emanando desde dentro mientras su cuerpo empieza a retorcerse y convulsionarse. Si se permite que la Corona permanezca sobre su cabeza durante 3 asaltos, el rey Merlokrep se alza de la muerte como un Rey Kobold muerto viviente; esto lo restaura a sus Puntos de Golpe completos y le concede el rasgo muerto viviente (junto con curacion de vacio y susceptibilidad a la energia vital). Una vez derrotado el rey muerto viviente, queda destruido definitivamente; la energia absorbida del Tercer Sello le permite Alzarse de la muerte solo una vez. Si la Corona se retira antes de que pasen 3 asaltos, la luz se apaga y la energia absorbida por el Tercer Sello se disipa sin causar dano.</p>"
         },
         "action->Sneak Attack": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>King Merlokrep deals an additional 1d6 daño de precisión to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} criaturas.</p>"
+          "description": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>El rey Merlokrep inflige 1d6 de dano de precision adicional a criaturas @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenidas}.</p>"
         },
         "lore->Mining Lore": {
           "name": "Saber de Mineria"
@@ -639,7 +639,7 @@
     },
     "Lekmek": {
       "name": "Lekmek",
-      "blurb": "kobold bully varon",
+      "blurb": "maton kobold masculino",
       "skillSpecialCrafting": {
         "0": {
           "label": "Trampas"
@@ -649,13 +649,13 @@
         "strike-melee->Greatpick": {
           "name": "Gran pico"
         },
-        "action->Bark Command": {
-          "name": "Bark comando",
-          "description": "<p><strong>Requisitos</strong> Lekmek hasn't attempted a Golpe on this turn yet</p>\n<hr />\n<p><strong>Efecto</strong> Lekmek barks a command to a lower-nivel kobold within 30 pies. That kobold can immediately take a Zancada or Golpe action.</p>"
+        "action->Orden ladrada": {
+          "name": "Orden ladrada",
+          "description": "<p><strong>Requisitos</strong> Lekmek no ha intentado ningun Golpe este turno</p>\n<hr />\n<p><strong>Efecto</strong> Lekmek ladra una orden a un kobold de nivel inferior a 30 pies o menos. Ese kobold puede realizar inmediatamente una accion de Zancada o Golpe.</p>"
         },
-        "action->False Retreat": {
+        "action->Falsa retirada": {
           "name": "Falsa retirada",
-          "description": "<p><strong>Requisitos</strong> Lekmek is adjacent to at least one enemigo</p>\n<hr />\n<p><strong>Efecto</strong> Lekmek Strides, as if he were attempting to run away but is actually attempting to open a foe up for an attack. If Lekmek's Zancada triggers a reaction, he can attempt a greatpick Golpe (using his highest attack modifier) on the criatura that takes this reaction. If he does so, Lekmek gains a +1 bonificador de circunstancia on his tirada de ataque.</p>"
+          "description": "<p><strong>Requisitos</strong> Lekmek esta adyacente al menos a un enemigo</p>\n<hr />\n<p><strong>Efecto</strong> Lekmek Zancadea como si intentara huir, aunque en realidad trata de dejar expuesto a un enemigo para atacarlo. Si la Zancada de Lekmek desencadena una reaccion, puede intentar un Golpe con pico de guerra (usando su modificador de ataque mas alto) contra la criatura que realiza esa reaccion. Si lo hace, Lekmek obtiene un bonificador de circunstancia +1 a su tirada de ataque.</p>"
         },
         "lore->Mining Lore": {
           "name": "Saber de Mineria"
@@ -663,127 +663,127 @@
       }
     },
     "Lodestone Trap": {
-      "name": "Lodestone Trap",
+      "name": "Trampa de magnetita",
       "description": "<p>El magico lodestone discharges bolts de electricidad que also magnetize metal en el sala.</p>",
-      "disable": "<p>@Check[thievery|dc:18] a unhook el pressure plates de el trampa, o @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel magia} (2nd rank, counteract DC 18) a counteract el trampa</p>",
+      "disable": "<p>@Check[thievery|dc:18] para desacoplar las placas de presion de la trampa, o @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Disipar magia} (2.º rango, CD de contrarresto 18) para contrarrestar la trampa</p>",
       "hpDetails": "UR 15",
-      "reset": "<p>At the end of a round in which there are no criaturas standing on the floor or stuck to the lodestone, the trap deactivates. The vargouilles return to their alcoves, and the doors close. La trampa resets automatically after 1 minuto.</p>",
-      "routine": "<p>(1 action) On its initiative, the trap exerts a strong magnetic pull on the doors, causing the north and west doors to open if they're closed, or causing the south and east doors to close if they're open. A character can open or close a door against this pull with a successful @Check[athletics|dc:18] prueba to @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{FORCE OPEN} the door. At the same time, any character in the room who wears primarily metal armadura must attempt a @Check[reflex|dc:18] salvación (characters in medium metal armadura suffer a -1 penalizador por circunstancia to this save, and characters in heavy metal armadura suffer a -2 penalizador por circunstancia).</p>\n<hr />\n<p><strong>Éxito crítico</strong> The PC is unaffected.</p>\n<p><strong>Éxito</strong> The PC resists the pull but treats the room as difficult terrain.</p>\n<p><strong>Fallo</strong> The PC treats the room as difficult terrain and is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}. A PC who's already prone suffers a critical failure instead.</p>\n<p><strong>Fallo crítico</strong> As failure, but the PC is also pulled 5 pies toward the lodestone. A PC who is adjacent to the lodestone instead becomes stuck to it and is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado} as long as the trap continues its routine (escape DC 18).</p>",
+      "reset": "<p>Al final de un asalto en el que no haya criaturas de pie sobre el suelo ni pegadas a la magnetita, la trampa se desactiva. Las vargouilles regresan a sus nichos y las puertas se cierran. La trampa se rearma automaticamente tras 1 minuto.</p>",
+      "routine": "<p>(1 accion) En su iniciativa, la trampa ejerce una fuerte atraccion magnetica sobre las puertas, haciendo que las puertas norte y oeste se abran si estan cerradas, o que las puertas sur y este se cierren si estan abiertas. Un personaje puede abrir o cerrar una puerta contra esta atraccion con una prueba con exito de @Check[athletics|dc:18] para @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Forzar apertura} la puerta. Al mismo tiempo, cualquier personaje de la sala que lleve principalmente armadura metalica debe intentar una salvacion de @Check[reflex|dc:18] (los personajes con armadura metalica intermedia sufren un penalizador de circunstancia -1 a esta salvacion, y los personajes con armadura metalica pesada sufren un penalizador de circunstancia -2).</p>\n<hr />\n<p><strong>Exito critico</strong> El PJ no se ve afectado.</p>\n<p><strong>Exito</strong> El PJ resiste la atraccion, pero trata la sala como terreno dificil.</p>\n<p><strong>Fallo</strong> El PJ trata la sala como terreno dificil y cae @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}. Un PJ que ya este tumbado sufre en su lugar un fallo critico.</p>\n<p><strong>Fallo critico</strong> Como fallo, pero el PJ tambien es arrastrado 5 pies hacia la magnetita. Un PJ que este adyacente a la magnetita queda en cambio pegado a ella y esta @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Neutralizado} mientras la trampa continue su rutina (CD de Escapar 18).</p>",
       "items": {
-        "action->Magneto-Electric Pulse": {
-          "name": "Magneto-Electric Pulse",
-          "description": "<p><strong>Desencadenante</strong> A single Medium or two or more Small criaturas end their turn inside the room.</p>\n<p><strong>Efecto</strong> A pulse of electricity discharges from the lodestone to strike all four doors, with smaller arcs of electricity lancing out to strike all criaturas in the room. The south and east doors slam shut, while the north and west doors fly open, releasing two vargouilles into the room. All criaturas in the room take @Damage[2d6[electricity]] daño (@Check[reflex|dc:18|basic]). La trampa then rolls initiative.</p>"
+        "action->Pulso magnetoelectrico": {
+          "name": "Pulso magnetoelectrico",
+          "description": "<p><strong>Desencadenante</strong> Una unica criatura Mediana o dos o mas criaturas Pequenas terminan su turno dentro de la sala.</p>\n<p><strong>Efecto</strong> Un pulso de electricidad se descarga desde la magnetita para golpear las cuatro puertas, mientras arcos electricos menores saltan para alcanzar a todas las criaturas de la sala. Las puertas sur y este se cierran de golpe, mientras que las puertas norte y oeste se abren violentamente y liberan dos vargouilles en la sala. Todas las criaturas de la sala reciben @Damage[2d6[electricity]] de dano (@Check[reflex|dc:18|basic]). La trampa tira entonces iniciativa.</p>"
         }
       }
     },
     "Loose Slab": {
-      "name": "Loose Slab",
+      "name": "Losa suelta",
       "description": "<p>El piedra slab tears free de su rastrear con el ear-piercing sound de failing metal.</p>",
       "disable": "<p>@Check[crafting|dc:20] (experto) to shore up the track so that it functions as intended, or @Check[thievery|dc:18] (entrenado) to wedge the slab in place to immobilize it</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
-        "action->Falling Slab": {
-          "name": "Falling Slab",
-          "description": "<p><strong>Desencadenante</strong> A criatura attempts to move the slab;</p>\n<p><strong>Efecto</strong> The slab rips free from its track and falls, slamming down in one direction while it kicks up twisted metal debris in the other. All criaturas adjacent to the slab take 3d6 bludgeoning and @Damage[3d6[piercing]] daño (@Check[reflex|dc:20|basic]).</p>"
+        "action->Losa que cae": {
+          "name": "Losa que cae",
+          "description": "<p><strong>Desencadenante</strong> Una criatura intenta mover la losa;</p>\n<p><strong>Efecto</strong> La losa se desprende de su carril y cae, golpeando con fuerza en una direccion mientras proyecta escombros metalicos retorcidos en la otra. Todas las criaturas adyacentes a la losa reciben 3d6 de dano contundente y @Damage[3d6[piercing]] de dano perforante (@Check[reflex|dc:20|basic]).</p>"
         }
       }
     },
     "Narlynark": {
       "name": "Narlynark",
-      "blurb": "kobold druid varon",
+      "blurb": "druida kobold masculino",
       "items": {
-        "spellcastingEntry->Primal Prepared Conjuros": {
-          "name": "Primal Prepared Conjuros"
+        "spellcastingEntry->Conjuros primordiales preparados": {
+          "name": "Conjuros primordiales preparados"
         },
         "conjuro->Burning Hands": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.y6rAdMK6EFlV6U0t]\nManos ardientes"
         },
-        "conjuro->Produce Flame": {
-          "name": "Produce Flame",
-          "description": "<p>A small ball of flame appears in the palm of tu hand, and tú lash out with it either in melee or at range. Make a conjuro tirada de ataque against tu objetivo's AC. Este is normally a ranged attack, but puedes also make a melee attack against a criatura in tu unarmed reach.</p>\n<p>On a success, tú deal 2d4 daño de fuego. On a critical success, el objetivo takes double daño and @Damage[(@item.nivel)d4[persistent,fire]] daño.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the daño by 1d4 and the daño persistente on a impacto crítico by 1d4.</p>",
+        "conjuro->Producir llama": {
+          "name": "Producir llama",
+          "description": "<p>Una pequena bola de fuego aparece en la palma de tu mano, y atacas con ella cuerpo a cuerpo o a distancia. Haz una tirada de ataque de conjuro contra la CA de tu objetivo. Normalmente es un ataque a distancia, pero tambien puedes realizar un ataque cuerpo a cuerpo contra una criatura a tu alcance sin armas.</p>\n<p>Con un exito, infliges 2d4 de dano de fuego. Con un exito critico, el objetivo recibe el doble de dano y @Damage[(@item.level)d4[persistent,fire]] de dano persistente.</p>\n<hr />\n<p><strong>Intensificado (+1)</strong> Aumenta el dano en 1d4 y el dano persistente en un impacto critico en 1d4.</p>",
           "objetivo": "1 criatura"
         },
         "consumable->Wand of Spider Climb (Nivel 2)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]\nWand of Spider CLIMB (Nivel 2)",
-          "consumableSpellName": "Spider CLIMB",
-          "consumableSpellDescription": "<p>Tiny clinging hairs sprout across the criatura's hands and pies, offering purchase on nearly any surface. El objetivo gains a CLIMB Velocidad equal to its Velocidad.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The duration increases to 1 hora.</p>",
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]\nWand of Trepar cual arana (Nivel 2)",
+          "consumableSpellName": "Trepar cual arana",
+          "consumableSpellDescription": "<p>Diminutos pelos adherentes brotan por las manos y los pies de la criatura, dandole agarre sobre casi cualquier superficie. El objetivo obtiene una Velocidad de Trepar igual a su Velocidad.</p>\n<hr />\n<p><strong>Intensificado (5.º)</strong> La duracion aumenta a 1 hora.</p>",
           "consumableSpellTarget": "1 criatura",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]\n<p>@UUID[Compendium.pf2e.spells-srd.Item.5KobTMrZeZxuXMgl]{Gecko Grip}</p>\n<hr />\n<p>Este baton is about a pies long and contains a single conjuro. The appearance typically relates to the conjuro within.</p>\n<p><strong>Activar</strong> Lanzar un conjuro</p>\n<p><strong>Frecuencia</strong> una vez al día, más sobrecarga</p>\n<hr />\n<p><strong>Efecto</strong> Lanzas the Conjuro at the indicated nivel.</p>\n<p><strong>Requisitos de fabricación</strong> Proporciona un casting of the conjuro.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
+          "description": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]\n<p>@UUID[Compendium.pf2e.spells-srd.Item.5KobTMrZeZxuXMgl]{Agarre de geco}</p>\n<hr />\n<p>Esta varita mide aproximadamente un pie de largo y contiene un unico conjuro. Su apariencia suele estar relacionada con el conjuro que contiene.</p>\n<p><strong>Activar</strong> Lanzar un conjuro</p>\n<p><strong>Frecuencia</strong> una vez al dia, mas sobrecarga</p>\n<hr />\n<p><strong>Efecto</strong> Lanzas el conjuro al rango indicado.</p>\n<p><strong>Requisitos de fabricacion</strong> Proporcionar un lanzamiento del conjuro.</p>\n<hr />\n<p><em>Nota: para crear un pergamino o una varita de un conjuro concreto, arrastra el conjuro desde el compendio o el explorador de compendios al inventario de un PJ, PNJ o actor de botin.</em></p>"
         },
         "strike-melee->Sickle": {
           "name": "Hoz"
         },
-        "action->Wild Retreat": {
-          "name": "Wild Retreat",
-          "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<p><strong>Requisitos</strong> Narlynark is adjacent to at least one enemigo;</p>\n<hr />\n<p><strong>Efecto</strong> Narlynark shrieks in terror, a sound that quickly transitions from a kobold cry to the shrill cry of a bird. A pair of feathery wings grows from his back and his pies turn into bird talons. As he leaps into the air to flee, his talons lash out-one adjacent enemigo of Narlynark's choice takes @Damage[(3d6 + 6)[slashing]] daño (@Check[reflex|dc:22|basic]). Narlynark can then fly up to 35 pies away. He must end his movement in a space that isn't adjacent to any enemigos, and if he doesn't end the movement on the ground, he falls to the ground as his wings vanish and his pies return to normal.</p>"
+        "action->Retirada salvaje": {
+          "name": "Retirada salvaje",
+          "description": "<p><strong>Frecuencia</strong> una vez por hora</p>\n<p><strong>Requisitos</strong> Narlynark esta adyacente al menos a un enemigo;</p>\n<hr />\n<p><strong>Efecto</strong> Narlynark chilla de terror, un sonido que rapidamente pasa de un grito kobold al chillido agudo de un ave. Un par de alas emplumadas brotan de su espalda y sus pies se transforman en garras de ave. Mientras salta al aire para huir, sus garras arremeten; un enemigo adyacente a eleccion de Narlynark recibe @Damage[(3d6 + 6)[slashing]] de dano (@Check[reflex|dc:22|basic]). Despues, Narlynark puede volar hasta 35 pies. Debe terminar su movimiento en un espacio que no este adyacente a ningun enemigo, y si no termina el movimiento en el suelo, cae al suelo cuando sus alas desaparecen y sus pies vuelven a la normalidad.</p>"
         }
       }
     },
     "Obscured Pitfalls": {
-      "name": "Obscured Pitfalls",
-      "description": "<p>Un layer de disembodied eyes obscures un pitfall en el suelo que's either deep enough for un human a caer into, o narrow enough a cause un painful caer.</p>",
-      "disable": "<p>Este hazard can't be disabled, merely avoided.</p>",
-      "stealth": "<p>Either DC 18 o 0 si el eyes covering un area que obscures un pitfall son destruido.</p>",
+      "name": "Fosos ocultos",
+      "description": "<p>Una capa de ojos pegajosos y viscosos cubre las aberturas de varios fosos.</p>",
+      "disable": "<p>Este peligro no puede desactivarse; solo puede evitarse.</p>",
+      "stealth": "<p>CD 18, o 0 si los ojos que cubren una zona y ocultan un foso son destruidos.</p>",
       "items": {
         "action->Pitfall": {
           "name": "Pitfall",
-          "description": "<p><strong>Desencadenante</strong> A criatura walks into a large pit's square;</p>\n<p><strong>Efecto</strong> The triggering criatura falls into the pit but can attempt a @Check[reflex|dc:18] salvación to @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{GRAB an Edge} to avoid falling. On a failure, a criatura falls 20 pies into an eye-filled pit. The eyes cushion the fall so the 20-pies fall inflicts only @Damage[5[bludgeoning]|options:fall-daño] daño, but they also completely obscure vision; a character is effectively blind as long as they remain in the pit. The walls of the pit are slick, though a character can @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{CLIMB} them with a successful @Check[athletics|dc:25] prueba.</p>"
+          "description": "<p><strong>Desencadenante</strong> Una criatura entra en la casilla de un foso grande;</p>\n<p><strong>Efecto</strong> La criatura desencadenante cae al foso, pero puede intentar una salvacion de @Check[reflex|dc:18] para @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Agarrarse a un borde} y evitar la caida. Con un fallo, la criatura cae 20 pies dentro de un foso lleno de ojos. Los ojos amortiguan la caida, por lo que la caida de 20 pies solo inflige @Damage[5[bludgeoning]|options:fall-damage] de dano, pero tambien oscurecen por completo la vision; un personaje queda efectivamente ciego mientras permanezca en el foso. Las paredes del foso son resbaladizas, aunque un personaje puede @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Trepar} por ellas con una prueba con exito de @Check[athletics|dc:25].</p>"
         },
         "action->Trip": {
           "name": "Derribar",
-          "description": "<p><strong>Desencadenante</strong> A criatura walks into a small pit's square;</p>\n<p><strong>Efecto</strong> The triggering criatura must succeed at a @Check[reflex|dc:18] salvación or fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} (on a critical failure, the criatura also twists its ankle and becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} until it receives any amount of healing).</p>"
+          "description": "<p><strong>Desencadenante</strong> Una criatura entra en la casilla de un foso pequeno;</p>\n<p><strong>Efecto</strong> La criatura desencadenante debe tener exito en una salvacion de @Check[reflex|dc:18] o cae @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} (con un fallo critico, la criatura tambien se tuerce el tobillo y queda @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} hasta que reciba cualquier cantidad de curacion).</p>"
         }
       }
     },
     "Pendulum Blades": {
-      "name": "Pendulum Blades",
+      "name": "Hojas pendulares",
       "description": "<p>Several swinging pendulums mounted con razor-sharp blades extend de el techo y slice into el sala below.</p>",
       "disable": "<p>@Check[thievery|dc:20] a jam el gears y prevent el trampa de being activated</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
-        "action->Swinging Blades": {
-          "name": "Swinging Blades",
-          "description": "<p><strong>Desencadenante</strong> Este trap must be manually activated by a criatura adjacent to the southwest gear stack;</p>\n<p><strong>Efecto</strong> Blades swing down to strike at all criaturas in area <strong>F2</strong> before wrenching to a frozen halt against the opposite walls. All criaturas in the central part of this room take @Damage[(6d6 + 3)[slashing]] daño (@Check[reflex|dc:20|basic]).</p>"
+        "action->Hojas oscilantes": {
+          "name": "Hojas oscilantes",
+          "description": "<p><strong>Desencadenante</strong> Esta trampa debe ser activada manualmente por una criatura adyacente al conjunto de engranajes suroeste;</p>\n<p><strong>Efecto</strong> Las hojas se balancean hacia abajo para golpear a todas las criaturas del area <strong>F2</strong> antes de trabarse bruscamente contra las paredes opuestas. Todas las criaturas de la parte central de esta sala reciben @Damage[(6d6 + 3)[slashing]] de dano (@Check[reflex|dc:20|basic]).</p>"
         }
       }
     },
     "Phantom Mold": {
-      "name": "Phantom Mold",
+      "name": "Moho fantasmal",
       "description": "<p>Un burst de pale gray spores sprays into el air.</p>",
       "disable": "<p>@Check[survival|dc:18] a remove el mold sin triggering el spores</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
-        "action->Spore Burst": {
-          "name": "Spore Burst",
-          "description": "<p><strong>Desencadenante</strong> The moldy books are moved or the mold takes any daño;</p>\n<p><strong>Efecto</strong> All criaturas within 10 pies of the mold patch are exposed to phantom mold spores.</p>"
+        "action->Estallido de esporas": {
+          "name": "Estallido de esporas",
+          "description": "<p>Cualquier penalizador a Percepcion causado por este veneno persiste durante 1 hora despues de que termine la duracion del veneno (este efecto puede eliminarse antes mediante cualquier efecto que neutralice veneno);</p>\n<p><strong>Tirada de salvacion</strong> @Check[fortitude|dc:18];</p>\n<p><strong>Duracion maxima</strong> 4 asaltos;</p>\n<p><strong>Etapa 1</strong> @Damage[1d6[poison]] de dano;</p>\n<p><strong>Etapa 2</strong> @Damage[1d6[poison]] de dano, y la victima sufre un penalizador de estado -1 a las pruebas de Percepcion visual mientras sombras extranas y movimientos fugaces aparecen en su vision periferica;</p>\n<p><strong>Etapa 3</strong> como la etapa 2, pero con un penalizador de estado -2.</p>"
         },
-        "action->Phantom Mold Spores": {
-          "name": "Phantom Mold Spores",
-          "description": "<p>Any penalties to Perception from this poison persist for 1 hora after the poison's duration ends (this effect can be removed before then by any effect that neutralizes poison);</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:18];</p>\n<p><strong>Duración máxima</strong> 4 asaltos;</p>\n<p><strong>Etapa 1</strong> @Damage[1d6[poison]] daño;</p>\n<p><strong>Etapa 2</strong> @Damage[1d6[poison]] daño, and the victim takes a -1 penalizador de estado on visual Perception checks as strange shadows and flittering movement appear in their peripheral vision;</p>\n<p><strong>Etapa 3</strong> as stage 2, but a -2 penalizador de estado.</p>"
+        "action->Esporas de moho fantasmal": {
+          "name": "Esporas de moho fantasmal",
+          "description": "<p>Cualquier penalizador a Percepcion causado por este veneno persiste durante 1 hora despues de que termine la duracion del veneno (este efecto puede eliminarse antes mediante cualquier efecto que neutralice veneno);</p>\n<p><strong>Tirada de salvacion</strong> @Check[fortitude|dc:18];</p>\n<p><strong>Duracion maxima</strong> 4 asaltos;</p>\n<p><strong>Etapa 1</strong> @Damage[1d6[poison]] de dano;</p>\n<p><strong>Etapa 2</strong> @Damage[1d6[poison]] de dano, y la victima sufre un penalizador de estado -1 a las pruebas de Percepcion visual mientras sombras extranas y movimientos fugaces aparecen en su vision periferica;</p>\n<p><strong>Etapa 3</strong> como la etapa 2, pero con un penalizador de estado -2.</p>"
         }
       }
     },
     "Pit of Toil": {
-      "name": "Pit of Toil",
-      "description": "<p>As ghostly, ectoplasm-dripping figures of dwarves work all around, the body of a living criatura within the pit begins to ache with the pains of countless hours of back-breaking toil.</p>",
+      "name": "Foso del esfuerzo",
+      "description": "<p>Mientras figuras fantasmales de enanos, cubiertas de ectoplasma goteante, trabajan por todas partes, el cuerpo de una criatura viva dentro del foso empieza a doler con los tormentos de incontables horas de trabajo agotador.</p>",
       "disable": "<p>@Check[crafting|dc:21] (experto) to shame the pit by miming skilled artistry, or @Check[religion|dc:18] (entrenado) to exorcise the haunt.</p>",
-      "routine": "<p>(1 action; divine, necromancy) As the dwarves continue to chant and grasp at the living, the pit infuses all living criaturas inside it with the ache and pain a body endures after hours of constant toil. Each living criatura in the pit must attempt a @Check[fortitude|dc:18|traits:divine,necromancy,damaging-effect] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura suffers no ill effect and is thereafter immune to the pit of toil's routine.</p>\n<p><strong>Éxito</strong> The criatura suffers no ill effect.</p>\n<p><strong>Fallo</strong> The criatura takes @Damage[2d6[void]] daño and becomes @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1} for 1 asalto.</p>\n<p><strong>Fallo crítico</strong> The criatura takes @Damage[4d6[void]] daño and becomes @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigado}.</p>",
+      "routine": "<p>(1 accion; divino, nigromancia) Mientras los enanos siguen cantando y aferrandose a los vivos, el foso impregna a todas las criaturas vivas de su interior con el dolor y el agotamiento que un cuerpo soporta tras horas de esfuerzo constante. Cada criatura viva dentro del foso debe intentar una salvacion de @Check[fortitude|dc:18|traits:divine,necromancy,damaging-effect].</p>\n<hr />\n<p><strong>Exito critico</strong> La criatura no sufre ningun efecto perjudicial y queda inmune a la rutina del foso del esfuerzo.</p>\n<p><strong>Exito</strong> La criatura no sufre ningun efecto perjudicial.</p>\n<p><strong>Fallo</strong> La criatura recibe @Damage[2d6[void]] de dano y queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1} durante 1 asalto.</p>\n<p><strong>Fallo critico</strong> La criatura recibe @Damage[4d6[void]] de dano y queda @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigado}.</p>",
       "items": {
-        "action->Invite Toil": {
-          "name": "Invite Toil",
-          "description": "<p><strong>Desencadenante</strong> A living criatura enters the pit</p>\n<hr />\n<p><strong>Efecto</strong> The surrounding dwarven shapes begin to chant in Dwarven, encouraging newcomers to join them as they grasp for them with their cold, incorporeal hands. The pit of toil rolls initiative.</p>"
+        "action->Invitar al esfuerzo": {
+          "name": "Invitar al esfuerzo",
+          "description": "<p><strong>Desencadenante</strong> Una criatura viva entra en el foso</p>\n<hr />\n<p><strong>Efecto</strong> Las formas enanas que la rodean empiezan a entonar cantos en enano, animando a los recien llegados a unirse a ellas mientras intentan aferrarlos con sus frias manos incorporeas. El foso del esfuerzo tira iniciativa.</p>"
         }
       }
     },
     "Spike Thrower": {
-      "name": "Spike Thrower",
+      "name": "Lanzador de pinchos",
       "description": "<p>Slats en el techo open y pepper el camara below con long, metal spikes fired de el spring-loaded tubes.</p>",
       "disable": "<p>@Check[thievery|dc:18] a jam el gears y prevent el trampa de being activated</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
-        "action->Throw Spikes": {
-          "name": "Throw Spikes",
-          "description": "<p><strong>Desencadenante</strong> Este trap must be manually activated by a criatura adjacent to the southwest gear stack;</p>\n<p><strong>Efecto</strong> The spike thrower makes a ranged attack against each criatura in the central part of area <strong>F2</strong>.</p>"
+        "action->Lanzar pinchos": {
+          "name": "Lanzar pinchos",
+          "description": "<p><strong>Desencadenante</strong> Esta trampa debe ser activada manualmente por una criatura adyacente al conjunto de engranajes suroeste;</p>\n<p><strong>Efecto</strong> El lanzador de pinchos realiza un ataque a distancia contra cada criatura en la parte central del area <strong>F2</strong>.</p>"
         },
         "strike-melee->Spike": {
           "name": "Spike"
@@ -791,36 +791,36 @@
       }
     },
     "Tallow Guardian": {
-      "name": "Tallow Guardian",
-      "publicNotes": "<p>Un tallow guardian typically appears as un vaguely humanoide-shaped mass de tallow o wax, su surface constantly melting, running down su cuerpo, y then hardening solo a be reabsorbed into el central mass. El tallow guardian's face seems constantly en el verge de melting into un shapeless blob, yet el unsettling construct puede still sentido el world around ello con ease.</p>",
+      "name": "Guardian de sebo",
+      "publicNotes": "<p>Un guardian de sebo suele aparecer como una masa de sebo o cera de forma vagamente humanoide, con su superficie derritiendose constantemente, deslizandose por su cuerpo y endureciendose solo para ser reabsorbida por la masa central. El rostro del guardian de sebo parece estar siempre a punto de fundirse en una masa informe, aunque este inquietante constructo aun puede percibir el mundo que lo rodea con facilidad.</p>",
       "items": {
-        "strike-melee->Fist": {
-          "name": "Fist"
+        "strike-melee->Puno": {
+          "name": "Puno"
         },
         "action->Molten Wax": {
           "name": "Molten Wax",
-          "description": "<p>All daño persistente de fuego caused by a tallow guardian comes from globs of molten hot tallow that cling to its foes. Este tallow cools automatically after 4 asaltos, or immediately if the criatura takes any daño de frío; once the tallow cools, the daño persistente de fuego ends.</p>"
+          "description": "<p>Todo el dano persistente de fuego causado por un guardian de sebo procede de pegotes de sebo ardiente y fundido que se adhieren a sus enemigos. Este sebo se enfria automaticamente tras 4 asaltos, o inmediatamente si la criatura recibe cualquier dano de frio; una vez que el sebo se enfria, termina el dano persistente de fuego.</p>"
         },
         "action->Melt": {
           "name": "Melt",
-          "description": "<p>If a tallow guardian takes any daño de fuego, its body melts somewhat and becomes even more difficult to daño. Until the end of its next turn, its resistance to slashing and daño perforante increases to 10, and its resistance to daño contundente increases to 5.</p>"
+          "description": "<p>Si un guardian de sebo recibe cualquier dano de fuego, su cuerpo se derrite parcialmente y se vuelve aun mas dificil de danar. Hasta el final de su siguiente turno, su resistencia al dano cortante y perforante aumenta a 10, y su resistencia al dano contundente aumenta a 5.</p>"
         },
         "action->Lentificado by Cold": {
           "name": "Lentificado by Cold",
-          "description": "<p>If a tallow guardian takes any daño de frío, it loses the benefits granted by melt and becomes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1}.</p>"
+          "description": "<p>Si un guardian de sebo recibe cualquier dano de frio, pierde los beneficios concedidos por Derretirse y queda @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1}.</p>"
         },
         "action->Encase": {
           "name": "Encase",
-          "description": "<p>The tallow guardian attempts to pull a Medium or smaller criatura it has @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} into its body. The tallow guardian attempts an @Check[athletics|defense:reflex] prueba opposed by the grabbed criatura's CD de Reflejos. If it succeeds, it encases the criatura with its body. An encased criatura is grabbed, is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1}, and must hold its breath or start suffocating. It takes @Damage[2d6[fire]] daño from the tallow guardian's molten hot wax when it's first encased, and at the end of each of its turns while it's encased.</p>\n<p>A tallow guardian can only have one encased criatura at a time; if a tallow guardian encases a new criatura, a previously encased criatura is forced out of its body into an adjacent square of the criatura's choice.</p>\n<p>An encased criatura can break free with a successful DC 22 prueba to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}. An encased criatura can attack the tallow guardian, but only with ataques sin armas or with armas of light Bulk or less. The tallow guardian is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} against the attack. If the tallow guardian takes 7 or more bludgeoning or daño cortante from an encased criatura, the criatura wrenches itself free. A criatura that gets free by either method can immediately breathe and exits the tallow guardian's space, but it continues to take @Damage[1d6[persistent,fire]] daño from the molten wax that clings to its body.</p>\n<p>If a tallow guardian is destroyed, any criatura it has encased is automatically released as the guardian's body collapses into a shapeless mound of tallow.</p>"
+          "description": "<p>El guardian de sebo intenta atraer a su cuerpo a una criatura Mediana o menor que tenga @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}. El guardian de sebo intenta una prueba de @Check[athletics|defense:reflex] enfrentada a la CD de Reflejos de la criatura agarrada. Si tiene exito, encierra a la criatura con su cuerpo. Una criatura encerrada esta agarrada, esta @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} y debe contener la respiracion o empezar a asfixiarse. Recibe @Damage[2d6[fire]] de dano por la cera ardiente y fundida del guardian de sebo cuando queda encerrada por primera vez y al final de cada uno de sus turnos mientras permanezca encerrada.</p>\n<p>Un guardian de sebo solo puede tener una criatura encerrada a la vez; si encierra a una nueva criatura, una criatura previamente encerrada es expulsada de su cuerpo a una casilla adyacente a eleccion de esa criatura.</p>\n<p>Una criatura encerrada puede liberarse con una prueba con exito CD 22 para @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar}. Una criatura encerrada puede atacar al guardian de sebo, pero solo con ataques sin armas o con armas de Volumen ligero o menor. El guardian de sebo esta @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} contra el ataque. Si el guardian de sebo recibe 7 o mas de dano contundente o cortante de una criatura encerrada, la criatura se arranca y queda libre. Una criatura que se libere por cualquiera de estos metodos puede respirar inmediatamente y sale del espacio del guardian de sebo, pero continua recibiendo @Damage[1d6[persistent,fire]] de dano por la cera fundida que se adhiere a su cuerpo.</p>\n<p>Si un guardian de sebo es destruido, cualquier criatura que tenga encerrada queda automaticamente liberada cuando el cuerpo del guardian se desploma en una masa informe de sebo.</p>"
         }
       }
     },
     "The Disciples": {
-      "name": "The Disciples",
-      "blurb": "Variante de unrisen",
-      "hpDetails": "curación de vacío",
+      "name": "Los Discipulos",
+      "blurb": "Variante de no alzado",
+      "hpDetails": "curacion de vacio",
       "languages": "(no puede hablar ningún idioma)",
-      "publicNotes": "<p>Un unrisen es un mangled conglomeration de splintered huesos, decaying organs, y rotting flesh, created cuando un ritual such as resurrect goes catastrophically wrong. Immense care debe be taken, for si el ritual es un critical failure, un unrisen puede be el result—as many un ritualist tiene learned a su horror.</p> <p>Unrisen son barely intelligent, aware solo de el agony constantly inflicted by su flawed creation y su resentment for el vivo. They tend a ataque el casters involved en el botched ritual first before lashing out at everyone else around them. Though un unrisen's twisted form es unrecognizable as el intended objetivo de el resurrection, su wordless howls son often disturbingly similar a el deceased's voice. Si un unrisen es destruido before ello puede rise de nuevo, ello's reduced a un handful de metallic blue-green salts referred a as essential salts.</p>",
+      "publicNotes": "<p>Un no alzado es un conglomerado mutilado de huesos astillados, organos en descomposicion y carne podrida, creado cuando un ritual como resucitar sale catastroficamente mal. Debe tenerse un cuidado inmenso, pues si el ritual es un fallo critico, un no alzado puede ser el resultado, como muchos ritualistas han aprendido para su horror.</p> <p>Los no alzados son apenas inteligentes, conscientes solo de la agonia que les inflige constantemente su creacion defectuosa y de su resentimiento hacia los vivos. Tienden a atacar primero a los lanzadores implicados en el ritual fallido antes de arremeter contra todos los demas a su alrededor. Aunque la forma retorcida de un no alzado es irreconocible como el objetivo previsto de la resurreccion, sus aullidos sin palabras suelen parecerse de forma perturbadora a la voz del difunto. Si un no alzado es destruido antes de que pueda levantarse de nuevo, queda reducido a un punado de sales azul verdosas metalicas llamadas sales esenciales.</p>",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -833,44 +833,44 @@
         },
         "action->Rise Again": {
           "name": "Rise Again",
-          "description": "<p>If the Disciples is reduced to 0 Puntos de golpe by means other than daño de fuego, disintegration, or its resurrection vulnerability, it returns to unlife at the start of its next turn. It has 45 Puntos de golpe and is @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} in the space in which it was destroyed. The Disciples can't be returned by this ability again for 1 hora.</p>"
+          "description": "<p>Si los Discipulos quedan reducidos a 0 Puntos de Golpe por medios distintos del dano de fuego, la desintegracion o su vulnerabilidad a la resurreccion, regresan a la no vida al comienzo de su siguiente turno. Tienen 45 Puntos de Golpe y estan @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbados} en el espacio en el que fueron destruidos. Los Discipulos no pueden regresar mediante esta aptitud de nuevo durante 1 hora.</p>"
         },
         "action->Agonized Howl": {
           "name": "Agonized Howl",
-          "description": "<p>The unrisen howls in pain at its cursed existence. Las criaturas within a @Template[emanation|distance:30] take @Damage[6d8[mental]|options:area-damage] daño (@Check[will|dc:25|basic|options:area-effect]). The unrisen can't use Agonized Howl again for [[/gmr 1d4 #Recharge Agonized Howl]]{1d4 asaltos}.</p>"
+          "description": "<p>El no alzado aulla de dolor por su existencia maldita. Las criaturas dentro de una @Template[emanation|distance:30] reciben @Damage[6d8[mental]|options:area-damage] de dano (@Check[will|dc:25|basic|options:area-effect]). El no alzado no puede volver a usar Aullido agonico durante [[/gmr 1d4 #Recarga Aullido agonico]]{1d4 asaltos}.</p>"
         },
         "action->Awful Approach": {
           "name": "Awful Approach",
-          "description": "<p>The unrisen reshapes its grotesque form to move swiftly. It Strides twice. Any living criatura that can see the unrisen during this movement must succeed at a @Check[fortitude|dc:22] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 2} on a critical failure). Este is a mental and visual effect. The unrisen can't use Awful Approach again for [[/br 1d4 #Recharge Awful Approach]]{1d4 asaltos}.</p>"
+          "description": "<p>El no alzado remodela su forma grotesca para moverse con rapidez. Zancadea dos veces. Cualquier criatura viva que pueda ver al no alzado durante este movimiento debe tener exito en una salvacion de @Check[fortitude|dc:22] o queda @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 2} con un fallo critico). Este es un efecto mental y visual. El no alzado no puede volver a usar Aproximacion horrenda durante [[/br 1d4 #Recarga Aproximacion horrenda]]{1d4 asaltos}.</p>"
         }
       }
     },
     "The Last Crucible": {
-      "name": "The Last Crucible",
+      "name": "El ultimo crisol",
       "description": "<p>Magically hardened sheets de obsidian drop down over el sala's exits mientras el machinery dentro de taps into wells de magma a begin spewing lava-y monsters-into el maze.</p>",
-      "disable": "<p>@Check[thievery|dc:28] (experto) to disable the main pressure plate at area <strong>H4a</strong> and deactivate the trap entirely (this causes the obsidian walls to retract up into the ceiling as well), @Check[thievery|dc:25] (entrenado) to disable one of the three lava spouts, or @Check[athletics|dc:28] (entrenado) to @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{FORCE OPEN} a fallen obsidian wall</p>",
+      "disable": "<p>@Check[thievery|dc:28] (experto) to disable the main pressure plate at area <strong>H4a</strong> and deactivate the trap entirely (this causes the obsidian walls to retract up into the ceiling as well), @Check[thievery|dc:25] (entrenado) to disable one of the three lava spouts, or @Check[athletics|dc:28] (entrenado) to @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Forzar apertura} a fallen obsidian wall</p>",
       "hpDetails": "UR 29 to smash a 5-ft-sq hole in the wall; Spout H 13; Spout HP 20 (UR 10)",
-      "reset": "<p>The Last Crucible deactivates and resets 10 minutos after it has no objetivo criaturas (because the criaturas either left area <strong>H4</strong> or died). Any thoqquas that still live sense the magma river at area <strong>H6</strong> and eventually make their way north to that area to swim away.</p>",
-      "routine": "<p>(3 actions) La trampa loses 1 action per disabled spout each turn. On each action, a different spout located at one of the three areas marked <strong>H4c</strong> spews a gout of lava at the closest non-thoqqua objetivo in its line of sight; these spouts use magical sensors that have darkvision and a Perception DC of 25. Originally, agents of the abbot would come through here after the trap was triggered, deactivate it, and clean out the hardened blobs of lava and dead bodies that remained, but the amount of time it would take for this trap to clog tunnels with cooled lava makes tracking that slow accretion over the course of this adventure unnecessary.</p>",
+      "reset": "<p>El ultimo crisol se desactiva y se rearma 10 minutos despues de quedarse sin criaturas objetivo (porque las criaturas han abandonado el area <strong>H4</strong> o han muerto). Cualquier thoqqua que siga vivo percibe el rio de magma del area <strong>H6</strong> y acaba dirigiendose al norte, hacia esa area, para alejarse nadando.</p>",
+      "routine": "<p>(3 acciones) La trampa pierde 1 accion por cada surtidor desactivado en cada turno. Con cada accion, un surtidor distinto situado en una de las tres zonas marcadas como <strong>H4c</strong> escupe un chorro de lava contra el objetivo que no sea thoqqua mas cercano en su linea de vision; estos surtidores usan sensores magicos con vision en la oscuridad y una CD de Percepcion de 25. Originalmente, los agentes del abad pasaban por aqui despues de que se activara la trampa, la desactivaban y limpiaban los pegotes de lava endurecida y los cadaveres que quedaban, pero la cantidad de tiempo que tardaria esta trampa en obstruir tuneles con lava enfriada hace innecesario controlar esa lenta acumulacion durante la aventura.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
         "action->Drop the Wall": {
           "name": "Drop the Wall",
-          "description": "<p><strong>Desencadenante</strong> Four or more Small or larger criaturas walk onto the pressure plate at area <strong>H4a</strong>;</p>\n<hr />\n<p><strong>Efecto</strong> A magically hardened sheet of obsidian drops down like a portcullis in the western and northern entrances to this room that lead to areas <strong>H3</strong> and <strong>H5</strong>, respectively. Any criaturas standing in one of these squares takes @Damage[(4d6 + 4)[bludgeoning]] daño from the falling wall (@Check[reflex|dc:24|basic]) and then decides what side of the wall they want to be on. At the same moment, four thoqquas that have spent centuries in hibernation awaken and emerge from vents into area <strong>H4b</strong>. La trampa then rolls initiative, as do the thoqquas.</p>"
+          "description": "<p><strong>Desencadenante</strong> Cuatro o mas criaturas Pequenas o mayores pisan la placa de presion del area <strong>H4a</strong>;</p>\n<hr />\n<p><strong>Efecto</strong> Una lamina de obsidiana endurecida magicamente cae como un rastrillo en las entradas oeste y norte de esta sala, que conducen a las areas <strong>H3</strong> y <strong>H5</strong>, respectivamente. Cualquier criatura que este en una de esas casillas recibe @Damage[(4d6 + 4)[bludgeoning]] de dano por el muro al caer (@Check[reflex|dc:24|basic]) y despues decide en que lado del muro quiere quedar. Al mismo tiempo, cuatro thoqquas que han pasado siglos en hibernacion despiertan y emergen de respiraderos hacia el area <strong>H4b</strong>. La trampa tira entonces iniciativa, al igual que los thoqquas.</p>"
         },
         "strike-melee->Lava Gout": {
           "name": "Lava Gout",
-          "description": "<p>Este attack has no multiple attack penalizador.</p>"
+          "description": "<p>Este ataque no tiene penalizador por ataque multiple.</p>"
         }
       }
     },
     "Thoqqua": {
       "name": "Thoqqua",
       "languages": "(no puede hablar ningún idioma)",
-      "publicNotes": "<p>Thoqquas are cantankerous criaturas of fire and slag. Their bodies generate incredible heat that allows them to burrow or melt through most surfaces, even solid rock. Thoqquas are native to the vast ash deserts and lava fields of the Plane of Fire. There, they consume ore and minerals, which their furnace-like bodies then smelt into armadura plates that grant the criaturas their armored forms.</p>\n<p>Estos criaturas' foremost body segment tapers into a straight, hornlike beak that glows with a blistering heat. Steam and smoke constantly hiss from their joints, and from a distance, thoqquas can be mistaken for strange metallic constructs. Adult thoqquas are 5 pies long and weigh 200 pounds.</p>\n<p>Thoqquas are dangerous to approach-they attack without thinking when startled or frustrated. If they don't immediately chase away intruders within their territory, then they might gradually come to view that area as property and even guard it. Mephits seem to understand this curious thoqqua thought process, occasionally brokering deals with the magma worms. The mephits claim that the mountain- sized ancestors of modern thoqquas were servants of the elemental lords and dug the first volcanoes in the young worlds of the Material Plane. Estos \"progenitor worms\" then retired to the worlds' cores, where their heat warms the planets even today. Thoqquas on the Material Plane do congregate around volcanoes-though whether this tendency is to protect a mineral-rich food site or sacred place, or simply out of comfort, depends on the thoqqua in question.</p>",
+      "publicNotes": "<p>Los thoqquas son criaturas irascibles de fuego y escoria. Sus cuerpos generan un calor increible que les permite excavar o fundir la mayoria de superficies, incluso la roca solida. Los thoqquas son nativos de los vastos desiertos de ceniza y campos de lava del Plano del Fuego. Alli consumen mena y minerales, que sus cuerpos semejantes a hornos funden en placas de armadura que les conceden sus formas acorazadas.</p>\n<p>El segmento corporal frontal de estas criaturas se estrecha en un pico recto, similar a un cuerno, que brilla con un calor abrasador. Vapor y humo silban constantemente desde sus articulaciones y, a distancia, los thoqquas pueden confundirse con extranos constructos metalicos. Los thoqquas adultos miden 5 pies de largo y pesan 200 libras.</p>\n<p>Acercarse a los thoqquas es peligroso: atacan sin pensar cuando se sobresaltan o frustran. Si no ahuyentan de inmediato a los intrusos de su territorio, pueden llegar gradualmente a considerar esa zona como propiedad y hasta custodiarla. Los mefits parecen comprender este curioso proceso mental thoqqua y a veces negocian tratos con estos gusanos de magma. Los mefits afirman que los ancestros, del tamano de montanas, de los thoqquas modernos fueron sirvientes de los senores elementales y excavaron los primeros volcanes en los mundos jovenes del Plano Material. Estos \"gusanos progenitores\" se retiraron despues a los nucleos de los mundos, donde su calor aun calienta los planetas. Los thoqquas del Plano Material se congregan alrededor de volcanes, aunque si esta tendencia sirve para proteger un lugar rico en minerales, un lugar sagrado o simplemente por comodidad depende del thoqqua en cuestion.</p>",
       "skillSpecialStealth": {
         "0": {
-          "label": "en Lava"
+          "label": "en lava"
         }
       },
       "items": {
@@ -879,64 +879,64 @@
         },
         "action->Molten Body": {
           "name": "Molten Body",
-          "description": "<p>A thoqqua's body is hot enough to melt stone. A criatura who grabs a thoqqua, is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} by a thoqqua, or critically fails a melee Golpe with an ataque sin armas or agile arma takes @Damage[1d4[fire]] daño (@Check[reflex|dc:15|basic]).</p>"
+          "description": "<p>El cuerpo de un thoqqua esta lo bastante caliente como para fundir piedra. Una criatura que agarre a un thoqqua, que este @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrada} por un thoqqua o que falle criticamente un Golpe cuerpo a cuerpo con un ataque sin armas o un arma agil recibe @Damage[1d4[fire]] de dano (@Check[reflex|dc:15|basic]).</p>"
         },
         "action->Reactive Thrash": {
           "name": "Reactive Thrash",
-          "description": "<p><strong>Desencadenante</strong> A criatura within the thoqqua's reach hits the thoqqua with a melee Golpe</p>\n<p><strong>Efecto</strong> The thoqqua instinctively thrashes into the attack, pressing its molten hot scales forward. The attacker must attempt a @Check[reflex|dc:15] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The attacker is unaffected.</p>\n<p><strong>Éxito</strong> The attacker takes @Damage[1d4[fire]] daño.</p>\n<p><strong>Fallo</strong> The attacker takes @Damage[2d4[fire]] daño.</p>\n<p><strong>Fallo crítico</strong> As failure, but the arma used to Golpe the thoqqua becomes broken unless the arma is made of metal, has more than 10 Hardness, or is resistant to or immune to fire.</p>"
+          "description": "<p><strong>Desencadenante</strong> Una criatura al alcance del thoqqua golpea al thoqqua con un Golpe cuerpo a cuerpo</p>\n<p><strong>Efecto</strong> El thoqqua se sacude instintivamente contra el ataque y empuja hacia delante sus escamas ardientes. El atacante debe intentar una salvacion de @Check[reflex|dc:15].</p>\n<hr />\n<p><strong>Exito critico</strong> El atacante no se ve afectado.</p>\n<p><strong>Exito</strong> El atacante recibe @Damage[1d4[fire]] de dano.</p>\n<p><strong>Fallo</strong> El atacante recibe @Damage[2d4[fire]] de dano.</p>\n<p><strong>Fallo critico</strong> Como fallo, pero el arma usada para Golpear al thoqqua queda rota, a menos que este hecha de metal, tenga mas de 10 de Dureza o sea resistente o inmune al fuego.</p>"
         },
         "action->Critical Ignition": {
-          "name": "Critical Ignition",
-          "description": "<p>On a impacto crítico with a body Golpe, a thoqqua inflicts an additional @Damage[1d6[persistent,fire]] daño.</p>"
+          "name": "Ignicion critica",
+          "description": "<p>Con un impacto critico con un Golpe corporal, un thoqqua inflige @Damage[1d6[persistent,fire]] de dano persistente de fuego adicional.</p>"
         },
         "action->Starving": {
           "name": "Starving",
-          "description": "<p>A thoqqua feeds on a combination of raw stone, ore, and heat. When denied these nourishments, a thoqqua won't perish from starvation, but it does grow less armored as it's forced to absorb and weaken its armored body plates. A starved thoqqua's ARMOR CLASS is reduced by 2, but it gains a +1 bonificador de circunstancia on all tiradas de ataque.</p>"
+          "description": "<p>Un thoqqua se alimenta de una combinacion de roca en bruto, mena y calor. Cuando se le priva de estos sustentos, un thoqqua no muere de inanicion, pero se vuelve menos acorazado al verse obligado a absorber y debilitar las placas que forman su cuerpo. La CA de un thoqqua hambriento se reduce en 2, pero obtiene un bonificador de circunstancia +1 a todas las tiradas de ataque.</p>"
         }
       }
     },
     "Toxic Furnace": {
-      "name": "Toxic Furnace",
+      "name": "Horno toxico",
       "description": "<p>El smoking furnace begins a hiss y click, y su vents swivel y adjust a spew toxic fumes en el direction de intruders.</p>",
-      "disable": "<p>@Check[thievery|dc:25] (entrenado) to render one of the vents useless, or @Check[athletics|dc:25] to wrench and bend a vent until it no longer functions</p>",
-      "hpDetails": "Furnace UR 28, Vent Hardness 10, Vent HP 18 (UR 9)",
+      "disable": "<p>@Check[thievery|dc:25] (entrenado) para inutilizar uno de los respiraderos, o @Check[athletics|dc:25] para retorcer y doblar un respiradero hasta que deje de funcionar</p>",
+      "hpDetails": "Furnace UR 28, Vent Dureza 10, Vent HP 18 (UR 9)",
       "reset": "<p>La trampa se reinicia después de 1 minuto, during which it sees no criaturas to objetivo.</p>",
-      "routine": "<p>(3 actions) La trampa loses 1 action for each disabled vent. On each of the trap's actions, a vent spews a gout of boiling toxin at a living criatura in sight of it. It can't objetivo a single criatura more than una vez por asalto, so if there aren't enough viable objetivos for all 3 actions, the trap loses those unspent actions.</p>",
+      "routine": "<p>(3 acciones) La trampa pierde 1 accion por cada respiradero desactivado. En cada una de las acciones de la trampa, un respiradero escupe un chorro de toxina hirviente contra una criatura viva a la vista. No puede elegir como objetivo a una misma criatura mas de una vez por asalto, por lo que si no hay suficientes objetivos viables para las 3 acciones, la trampa pierde esas acciones no usadas.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
-        "action->Spew Toxins": {
-          "name": "Spew Toxins",
-          "description": "<p><strong>Desencadenante</strong> A visible living criatura enters the room, or a Stealthy criatura fails to remain @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido} from the toxic furnace with a @Check[stealth|dc:25] prueba (the trap's sensors have darkvision and lifesense);</p>\n<p><strong>Efecto</strong> One of the toxic furnace's vents swivels to aim at the triggering criatura and then spews a gout of boiling toxin at el objetivo. The toxic furnace then rolls initiative.</p>"
+        "action->Expulsar toxinas": {
+          "name": "Expulsar toxinas",
+          "description": "<p><strong>Desencadenante</strong> Una criatura viva visible entra en la sala, o una criatura sigilosa no consigue permanecer @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondida} del horno toxico con una prueba de @Check[stealth|dc:25] (los sensores de la trampa tienen vision en la oscuridad y sentido vital);</p>\n<p><strong>Efecto</strong> Uno de los respiraderos del horno toxico gira para apuntar a la criatura desencadenante y despues escupe un chorro de toxina hirviente contra el objetivo. El horno toxico tira entonces iniciativa.</p>"
         },
-        "strike-ranged->Boiling Toxin": {
-          "name": "Boiling Toxin"
+        "strike-ranged->Toxina hirviente": {
+          "name": "Toxina hirviente"
         }
       }
     },
     "Trapped Elevator": {
-      "name": "Trapped Elevator",
-      "description": "<p>An oversized cauldron rigged as an elevator suddenly drops 30 pies if it's overloaded.</p>",
+      "name": "Elevador con trampa",
+      "description": "<p>Un caldero sobredimensionado preparado como elevador cae de pronto 30 pies si se sobrecarga.</p>",
       "disable": "<p>@Check[thievery|dc:18] (entrenado) to lock the releasing mechanisms in place, or @Check[crafting|dc:20] to rig additional supports for the cauldron (this activity requires 10 minutos of work)</p>",
-      "reset": "<p>Las criaturas can still fall down the shaft even after the cauldron is released, but the cauldron must be reset manually.</p>",
+      "reset": "<p>Las criaturas aun pueden caer por el hueco despues de que el caldero se suelte, pero el caldero debe rearmarse manualmente.</p>",
       "stealth": "<p>(experto)</p>",
       "items": {
-        "action->Release the Cauldron": {
-          "name": "Release the Cauldron",
-          "description": "<p><strong>Desencadenante</strong> More than one Medium or more than two Small criaturas are inside the cauldron when it is activated to lower;</p>\n<p><strong>Efecto</strong> The cauldron releases from its anchor points on the chains and drops 30 pies to area <strong>E1</strong>; any criaturas within take 15 points of daño contundente in the fall. A criatura can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{GRAB an Edge} to avoid falling by clinging to a chain.</p>"
+        "action->Soltar el caldero": {
+          "name": "Soltar el caldero",
+          "description": "<p><strong>Desencadenante</strong> Mas de una criatura Mediana o mas de dos criaturas Pequenas estan dentro del caldero cuando se activa para descender;</p>\n<p><strong>Efecto</strong> El caldero se suelta de sus puntos de anclaje en las cadenas y cae 30 pies hasta el area <strong>E1</strong>; cualquier criatura dentro recibe 15 puntos de dano contundente por la caida. Una criatura puede intentar @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Agarrarse a un borde} para evitar caer aferrandose a una cadena.</p>"
         }
       }
     },
     "Ulizmila's Cauldron": {
-      "name": "Ulizmila's Cauldron",
+      "name": "Caldero de Ulizmila",
       "acDetails": "(13 when broken); armadura de constructo",
-      "publicNotes": "<p>While Ulizmila is long gone, her animated cauldron remains a dangerous guardian of the hut. The mindless construct lurches to life and attacks anyone who dares to enter, pursuing intruders all the way to the clearing's edge before returning to its place inside the hut. When the cauldron attacks, it \"bites\" at enemigos by snapping at them with its hinged lid while its inner surfaces swiftly heat up to cook anything Small it can \"gulp\" down.</p>\n<hr />\n<p>Granted a semblance of life through the use of rituals or other strange magic, animated objects take many forms and serve a variety of uses. A few examples of typical animated objects are listed below. Many of these criaturas serve as guardians, surprising unsuspecting adventurers when they suddenly attack. Others serve as idle distractions for the exceptionally rich, simple servants created to handle odd jobs, and the like.</p>",
+      "publicNotes": "<p>Aunque Ulizmila desaparecio hace mucho, su caldero animado sigue siendo un peligroso guardian de la cabana. El constructo descerebrado cobra vida de golpe y ataca a cualquiera que se atreva a entrar, persiguiendo a los intrusos hasta el borde del claro antes de volver a su lugar dentro de la cabana. Cuando el caldero ataca, \"muerde\" a sus enemigos cerrando su tapa articulada, mientras sus superficies internas se calientan rapidamente para cocinar cualquier cosa Pequena que pueda \"engullir\".</p>\n<hr />\n<p>Dotados de una apariencia de vida mediante rituales u otras magias extranas, los objetos animados adoptan muchas formas y sirven para diversos fines. A continuacion se enumeran algunos ejemplos de objetos animados tipicos. Muchas de estas criaturas sirven como guardianes y sorprenden a aventureros desprevenidos cuando atacan de pronto. Otros sirven como distracciones ociosas para los extraordinariamente ricos, como sirvientes sencillos creados para encargarse de pequenas tareas y cosas similares.</p>",
       "items": {
-        "strike-melee->Lid": {
-          "name": "Lid"
+        "strike-melee->Tapa": {
+          "name": "Tapa"
         },
-        "action->Construct Armadura (Hardness 9)": {
-          "name": "Construct Armadura (Hardness 9)",
-          "description": "<p>Like normal objects, an animated object has Hardness. Este Hardness reduces any daño it takes by an amount equal to the Hardness. Once an animated object is reduced to less than half its Puntos de golpe, or immediately upon being damaged by a impacto crítico, its armadura de constructo breaks and its ARMOR CLASS is reduced to the listed value.</p>"
+        "action->Armadura de constructo (Dureza 9)": {
+          "name": "Armadura de constructo (Dureza 9)",
+          "description": "<p>Como los objetos normales, un objeto animado tiene Dureza. Esta Dureza reduce cualquier dano que reciba en una cantidad igual a la Dureza. Una vez que un objeto animado queda reducido a menos de la mitad de sus Puntos de Golpe, o inmediatamente al ser danado por un impacto critico, su armadura de constructo se rompe y su CA se reduce al valor indicado.</p>"
         },
         "action->Swallow Whole": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]\n<p>Small, @Damage[2d6[fire]], Rupture 3</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
@@ -944,40 +944,40 @@
       }
     },
     "Unsafe Stairs": {
-      "name": "Unsafe Stairs",
-      "description": "<p>The rickety stairs groan and strain alarmingly if a Small or larger criatura ascends them.</p>",
+      "name": "Escaleras inseguras",
+      "description": "<p>Las escaleras destartaladas crujen y se tensan de forma alarmante si una criatura Pequena o mayor asciende por ellas.</p>",
       "disable": "<p>@Check[crafting|dc:16] a quickly jury-rig some supports a prevent el stairs de collapsing</p>",
       "items": {
         "action->Collapse": {
           "name": "Desplome",
-          "description": "<p><strong>Desencadenante</strong> A Small or larger criatura attempts to CLIMB the stairs;</p>\n<p><strong>Efecto</strong> The stairs attempt a @Check[flat|dc:8] (if a Small criatura triggered the hazard) or a @Check[flat|dc:16] (if a Medium or multiple Small criaturas triggered it). On a failure, the stairs collapse. All criaturas on the stairs fall and take @Damage[(2d6 + 3)[bludgeoning]] daño from the collapsing rubble (@Check[reflex|dc:16|basic]).</p>"
+          "description": "<p><strong>Desencadenante</strong> Una criatura Pequena o mayor intenta Trepar por las escaleras;</p>\n<p><strong>Efecto</strong> Las escaleras intentan una @Check[flat|dc:8] (si una criatura Pequena desencadeno el peligro) o una @Check[flat|dc:16] (si lo desencadeno una criatura Mediana o varias criaturas Pequenas). Con un fallo, las escaleras se derrumban. Todas las criaturas sobre las escaleras caen y reciben @Damage[(2d6 + 3)[bludgeoning]] de dano por los escombros que se desploman (@Check[reflex|dc:16|basic]).</p>"
         }
       }
     },
     "Vargouille": {
       "name": "Vargouille",
-      "publicNotes": "<p>Vargouilles son scavengers de el swamps de Abaddon, where ellos flop y flap through strange y haunted skies en constant search de fresh souls a torment. In este daemonic nightmare realm, vargouilles play un role similar a que de un raven o vulture, although ellos augment these roles con un malevolent delight en causing pain y anguish que no scavenger bird could ever hope a match. Un vargouille es larger than un human cabeza, typically between 12 y 20 inches high con un 15- a 35-inch wingspan. Mientras vargouilles aren't natives de el Material Plane, ellos puede be found there nevertheless, occupying graveyards, antiguo battlefields, o anywhere one puede find remnants de death y decay.</p>",
+      "publicNotes": "<p>Las vargouilles son carroneras de los pantanos de Abaddon, donde revolotean y aletean por cielos extranos y embrujados en busca constante de almas frescas que atormentar. En este reino de pesadilla daemoniaco, las vargouilles desempenan un papel similar al de un cuervo o un buitre, aunque aumentan estas funciones con un deleite malevolo por causar dolor y angustia que ningun ave carronera podria aspirar a igualar. Una vargouille es mas grande que una cabeza humana, normalmente entre 12 y 20 pulgadas de alto, con una envergadura de 15 a 35 pulgadas. Aunque las vargouilles no son nativas del Plano Material, pueden encontrarse alli igualmente, ocupando cementerios, antiguos campos de batalla o cualquier lugar donde puedan hallarse restos de muerte y decadencia.</p>",
       "items": {
         "strike-melee->Bite": {
           "name": "Morder"
         },
         "action->Tenacious Wounds": {
           "name": "Tenacious Wounds",
-          "description": "<p>A criatura who takes daño de veneno from a vargouille must succeed at a @Check[fortitude|dc:18] salvación or be cursed. The cursed criatura can't regain HP except via magic, and anyone Lanzando un conjuro to heal the criatura must succeed at a DC 18 counteract prueba or the healing has no effect. The vargouille's counteract rank is equal to its criatura nivel. A criatura can attempt a new @Check[fortitude|dc:18] salvación una vez al día (typically when it makes its daily preparations) to end this curse. The curse ends automatically if the criatura is healed to maximum HP.</p>"
+          "description": "<p>Una criatura que reciba dano de veneno de una vargouille debe tener exito en una salvacion de @Check[fortitude|dc:18] o queda maldita. La criatura maldita no puede recuperar PG salvo mediante magia, y cualquiera que lance un conjuro para curar a la criatura debe tener exito en una prueba de contrarresto CD 18 o la curacion no tiene efecto. El rango de contrarresto de la vargouille es igual al nivel de la criatura. Una criatura puede intentar una nueva salvacion de @Check[fortitude|dc:18] una vez al dia (normalmente cuando realiza sus preparativos diarios) para poner fin a esta maldicion. La maldicion termina automaticamente si la criatura es curada hasta sus PG maximos.</p>"
         },
         "action->Vargouille's Kiss": {
           "name": "Vargouille's Kiss",
-          "description": "<p><strong>Requisitos</strong> The vargouille is adjacent to a @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente}, or willing humanoid criatura</p>\n<p><strong>Efecto</strong> The vargouille nuzzles up against a helpless or willing humanoid criatura in a parody of a lover's kiss-the criatura must then attempt a tirada de salvación or begin an unsettling transformation into a vargouille. The indispuesto, anonadado, and unconscious conditions from Vargouille's Kiss don't improve on their own until the disease is cured. Este disease can't progress in stage as long as the victim is in sunlight or in the area of a 3rd-rank or higher light effect.</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:18]</p>\n<p><strong>Etapa 1</strong> no ill effect (2 hours)</p>\n<p><strong>Etapa 2</strong> victim's hair falls out, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} (2 hours)</p>\n<p><strong>Etapa 3</strong> victim's ears elongate into winglike shapes and their teeth grow tangled and sharp, @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 1} (2 hours)</p>\n<p><strong>Etapa 4</strong> as Stage 3, but the victim falls unconscious (2 hours)</p>\n<p><strong>Etapa 5</strong> death, and the victim's head transforms into a new vargouille that detaches from the body and flies off to spread evil on its own.</p>"
+          "description": "<p><strong>Requisitos</strong> La vargouille esta adyacente a una criatura humanoide @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizada}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} o dispuesta</p>\n<p><strong>Efecto</strong> La vargouille se restriega contra una criatura humanoide indefensa o dispuesta en una parodia de beso amoroso; la criatura debe intentar entonces una tirada de salvacion o empezar una inquietante transformacion en vargouille. Las condiciones de indispuesto, anonadado e inconsciente del Beso de vargouille no mejoran por si solas hasta que la enfermedad se cure. Esta enfermedad no puede avanzar de etapa mientras la victima este bajo la luz del sol o en el area de un efecto de luz de 3.er rango o superior.</p>\n<p><strong>Tirada de salvacion</strong> @Check[fortitude|dc:18]</p>\n<p><strong>Etapa 1</strong> ningun efecto perjudicial (2 horas)</p>\n<p><strong>Etapa 2</strong> el pelo de la victima se cae, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} (2 horas)</p>\n<p><strong>Etapa 3</strong> las orejas de la victima se alargan con forma de alas y sus dientes crecen enredados y afilados, @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 1} (2 horas)</p>\n<p><strong>Etapa 4</strong> como la etapa 3, pero la victima cae inconsciente (2 horas)</p>\n<p><strong>Etapa 5</strong> muerte, y la cabeza de la victima se transforma en una nueva vargouille que se separa del cuerpo y sale volando para propagar el mal por su cuenta.</p>"
         },
         "action->Vargouille's Shriek": {
           "name": "Vargouille's Shriek",
-          "description": "<p>The vargouille distends its jaw awfully and emits an unnerving shriek. All criaturas within 60 pies who can see and hear the vargouille must attempt a @Check[fortitude|dc:15] salvación.</p>\n<p><strong>Éxito</strong> The criatura is unaffected and is temporarily immune to Vargouille's Shriek for 24 horas.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado} until the end of its next turn.</p>\n<p><strong>Fallo crítico</strong> The criatura is paralyzed. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
+          "description": "<p>La vargouille desencaja horriblemente la mandibula y emite un chillido inquietante. Todas las criaturas a 60 pies o menos que puedan ver y oir a la vargouille deben intentar una salvacion de @Check[fortitude|dc:15].</p>\n<p><strong>Exito</strong> La criatura no se ve afectada y queda temporalmente inmune al Chillido de vargouille durante 24 horas.</p>\n<p><strong>Fallo</strong> La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizada} hasta el final de su siguiente turno.</p>\n<p><strong>Fallo critico</strong> La criatura queda paralizada. Puede intentar una nueva salvacion al final de cada uno de sus turnos, y la CD disminuye acumulativamente en 1 con cada nueva salvacion.</p>"
         }
       }
     },
     "Ygrik": {
       "name": "Ygrik",
-      "blurb": "kobold jailer varon",
+      "blurb": "carcelero kobold masculino",
       "skillSpecialCrafting": {
         "0": {
           "label": "trampas"
@@ -985,7 +985,7 @@
       },
       "items": {
         "arma->Flying Talon": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.ucz1WdBA0Ma34OsS]\n<p>Este arma consists of a three-pronged barbed hook attached to a length of chain. It can be used as a melee arma to stab at foes or hurled as a ranged arma. Some kobolds are particularly fond of using flying talons, especially as a sort of badge of office above those who serve them.</p>"
+          "description": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.ucz1WdBA0Ma34OsS]\n<p>Esta arma consiste en un gancho barbado de tres puntas unido a una cadena. Puede usarse como arma cuerpo a cuerpo para apunalar a los enemigos o arrojarse como arma a distancia. A algunos kobolds les gusta especialmente usar garras voladoras, sobre todo como insignia de autoridad entre quienes les sirven.</p>"
         },
         "equipment->Keys": {
           "name": "Keys",
@@ -999,10 +999,10 @@
         },
         "action->Intimidating Retreat": {
           "name": "Intimidating Retreat",
-          "description": "<p><strong>Requisitos</strong> Ygrik is adjacent to at least one enemigo and at least one aliado;</p>\n<p><strong>Efecto</strong> Ygrik commands an adjacent aliado to fight harder and threatens dire punishment if the aliado fails to obey; that aliado gains a +1 bonificador de circunstancia to its next melee Golpe tirada de ataque, as long as that attack is made before the start of Ygrik's next turn. Ygrik then Strides up to his Velocidad and gains a +2 bonificador de circunstancia to AC against reactions triggered by this movement. He must end this movement in a space that isn't adjacent to any enemigo.</p>"
+          "description": "<p><strong>Requisitos</strong> Ygrik esta adyacente al menos a un enemigo y al menos a un aliado;</p>\n<p><strong>Efecto</strong> Ygrik ordena a un aliado adyacente que luche con mas fiereza y lo amenaza con un castigo terrible si no obedece; ese aliado obtiene un bonificador de circunstancia +1 a su proxima tirada de ataque de Golpe cuerpo a cuerpo, siempre que ese ataque se haga antes del comienzo del siguiente turno de Ygrik. Despues, Ygrik Zancadea hasta su Velocidad y obtiene un bonificador de circunstancia +2 a la CA contra reacciones desencadenadas por este movimiento. Debe terminar este movimiento en un espacio que no este adyacente a ningun enemigo.</p>"
         },
         "action->Sneak Attack": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>Ygrik deals an additional 1d6 daño de precisión to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} criaturas.</p>"
+          "description": "<p>Ygrik inflige @Damage[1d6[precision]] de dano de precision adicional a criaturas @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenidas}.</p>"
         }
       }
     }
