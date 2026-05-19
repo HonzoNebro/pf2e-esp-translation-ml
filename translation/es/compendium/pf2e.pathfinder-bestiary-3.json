@@ -356,7 +356,7 @@
     },
     "Angazhani": {
       "name": "angazhani",
-      "publicNotes": "<p>Angazhanis lurk in the depths of the world's jungles, where these sapient, four-armed apes prey on any criaturas they deem lesser than themselves. They're purportedly the divine minions of Angazhan, demon lord of apes. While many angazhanis do worship this foul god, scarce evidence exists to support their claim to fiendish heritage. Jungle-dwelling people know well to steer clear of suspected angazhani territories; angazhanis of such areas don't slaughter outright, often capturing trespassers to serve as slaves or as living sacrifices in heinous rituals.</p>",
+      "publicNotes": "<p>Los angazhanis acechan en las profundidades de las junglas del mundo, donde estos simios sapientes de cuatro brazos cazan a cualquier criatura que consideren inferior. Supuestamente son esbirros divinos de Angazhan, señor demonio de los simios. Aunque muchos angazhanis adoran a este dios repugnante, existen pocas pruebas que respalden su supuesto linaje infernal. Los pueblos que habitan la jungla saben bien que deben evitar los territorios sospechosos de pertenecer a angazhanis; los angazhanis de esas zonas no suelen matar de inmediato, sino que a menudo capturan a los intrusos para usarlos como esclavos o sacrificios vivientes en rituales atroces.</p>",
       "items": {
         "spellcastingEntry->Divine Innate Spells": {
           "name": "Conjuros divinos innatos"
@@ -566,7 +566,7 @@
       },
       "items": {
         "spellcastingEntry->Primal Innate Spells": {
-          "name": "Primal Innate Spells"
+          "name": "Conjuros primigenios innatos"
         },
         "spell->Earthbind (At Will)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.gPvtmKMRpg9I9D7H]\nAtadura terrestre (a voluntad)"
@@ -575,28 +575,28 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]\nHablar con las plantas (constante)"
         },
         "spell->Entangle": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.J6vNvrUT3b1hx2iA]\nEntangle"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.J6vNvrUT3b1hx2iA]\nEnredar"
         },
         "strike-melee->Branch": {
-          "name": "Branch"
+          "name": "Rama"
         },
         "action->Tremorsense (Imprecise) 60 feet": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]\nTremorsense (Imprecise) 60 pies"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]\nSentido de la vibracion (impreciso) 60 pies"
         },
         "action->Abeyance Rift": {
-          "name": "Abeyance Rift",
-          "description": "<p>If an arboreal archive dies unexpectedly before passing on their knowledge in a succession ritual, the amassed LORE within their roots and boughs explodes out in a shock wave that deals @Damage[8d10[mental]|options:area-damage] daño to criaturas within @Template[emanation|distance:30]{30 pies} (@Check[will|dc:32|basic|options:area-effect] salvación) before dissipating; those who fail also fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+          "name": "Fisura de latencia",
+          "description": "<p>Si un archivo arboreo muere inesperadamente antes de transmitir su conocimiento en un ritual de sucesion, el SABER acumulado en sus raices y ramas estalla en una onda de choque que inflige @Damage[8d10[mental]|options:area-damage] de daño a las criaturas dentro de una @Template[emanation|distance:30]{emanacion de 30 pies} (salvacion basica de @Check[will|dc:32|basic|options:area-effect]) antes de disiparse; quienes fallen tambien caen @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
         },
         "action->Axe Vulnerability": {
-          "name": "Axe Vulnerability",
-          "description": "<p>An arboreal archive takes 10 daño adicional from axes.</p>"
+          "name": "Vulnerabilidad a las hachas",
+          "description": "<p>Un archivo arboreo sufre 10 de daño adicional de las hachas.</p>"
         },
         "action->Memory Maelstrom": {
-          "name": "Memory Maelstrom",
-          "description": "<p>The arboreal archive tries to overwhelm foes with a surge of information it has absorbed over its long life. Este surge deals @Damage[5d6[mental]|options:area-damage] daño to each enemigo within @Template[emanation|distance:40]{40 pies}, who must attempt a @Check[will|dc:32|options:area-effect,damaging-effect] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura maintains its composure, takes no daño, and is temporarily immune to Memory Maelstrom for 1 minuto.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} and takes half daño.</p>\n<p><strong>Fallo</strong> The criatura takes full daño and is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3}.</p>\n<p><strong>Fallo crítico</strong> The criatura takes double daño, is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for [[/gmr 2d4 #Confusion Duration]]{2d4 rounds}, and is aturdido 3.</p>"
+          "name": "Voragine de recuerdos",
+          "description": "<p>El archivo arboreo intenta abrumar a sus enemigos con una oleada de informacion que ha absorbido durante su larga vida. Esta oleada inflige @Damage[5d6[mental]|options:area-damage] de daño a cada enemigo dentro de una @Template[emanation|distance:40]{emanacion de 40 pies}, que debe intentar una salvacion de @Check[will|dc:32|options:area-effect,damaging-effect].</p>\n<hr />\n<p><strong>Éxito crítico</strong> La criatura mantiene la compostura, no sufre daño y es temporalmente inmune a Voragine de recuerdos durante 1 minuto.</p>\n<p><strong>Éxito</strong> La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} y sufre la mitad de daño.</p>\n<p><strong>Fallo</strong> La criatura sufre todo el daño y queda @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3}.</p>\n<p><strong>Fallo crítico</strong> La criatura sufre el doble de daño, queda @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} durante [[/gmr 2d4 #Confusion Duration]]{2d4 asaltos} y queda aturdida 3.</p>"
         },
         "lore->Forest Lore (applies to the arboreal archive's territory)": {
-          "name": "Forest LORE (applies to the arboreal archive's territory)"
+          "name": "Saber del Bosque (se aplica al territorio del archivo arboreo)"
         }
       }
     },
@@ -610,30 +610,30 @@
       },
       "items": {
         "spellcastingEntry->Primal Innate Spells": {
-          "name": "Primal Innate Spells"
+          "name": "Conjuros primigenios innatos"
         },
         "spell->Speak with Plants (Constant)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]\nHablar con las plantas (constante)"
         },
         "spell->Vampiric Touch": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]\nVampiric Touch"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]\nToque vampirico"
         },
         "strike-melee->Branch": {
-          "name": "Branch"
+          "name": "Rama"
         },
         "strike-melee->Root": {
-          "name": "Root"
+          "name": "Raiz"
         },
         "strike-melee->Thorns": {
-          "name": "Thorns"
+          "name": "Espinas"
         },
         "action->Axe Vulnerability": {
-          "name": "Axe Vulnerability",
-          "description": "<p>An arboreal reaper takes 5 daño adicional from axes.</p>"
+          "name": "Vulnerabilidad a las hachas",
+          "description": "<p>Un segador arboreo sufre 5 de daño adicional de las hachas.</p>"
         },
         "action->Leech Moisture": {
-          "name": "Leech Moisture",
-          "description": "<p>The arboreal reaper grows still and focuses intently on a single foe within 50 pies, draining moisture from el objetivo's body. Este deals @Damage[10d6[void]] daño (@Check[fortitude|dc:25|basic] salvación).</p>\n<p>The arboreal reaper can't Leech Moisture again for [[/gmr 1d4 #Recharge Leech Moisture]]{1d4 asaltos}.</p>"
+          "name": "Absorber humedad",
+          "description": "<p>El segador arboreo se queda inmovil y se concentra intensamente en un unico enemigo a 50 pies o menos, drenando la humedad del cuerpo del objetivo. Esto inflige @Damage[10d6[void]] de daño (salvacion basica de @Check[fortitude|dc:25|basic]).</p>\n<p>El segador arboreo no puede volver a usar Absorber humedad durante [[/gmr 1d4 #Recharge Leech Moisture]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -657,15 +657,15 @@
         },
         "action->Hydration": {
           "name": "Hidratación",
-          "description": "<p>An azarketi must regularly submerge themself in water to rehydrate their water-acclimated skin. After the first 24 horas outside of water, they take a -1 penalizador de estado to Fortitude saves as their skin cracks and their gills become painful. After 48 hours, they struggle to breathe air and begin to suffocate until returned to water.</p>"
+          "description": "<p>Un azarketi debe sumergirse regularmente en agua para rehidratar su piel adaptada al medio acuatico. Tras las primeras 24 horas fuera del agua, sufre una penalizacion de estado de -1 a las salvaciones de Fortaleza, ya que su piel se agrieta y sus branquias se vuelven dolorosas. Tras 48 horas, le cuesta respirar aire y empieza a asfixiarse hasta que vuelve al agua.</p>"
         },
         "action->Hydraulic Deflection": {
           "name": "Desvío hidráulico",
-          "description": "<p>Drawing moisture from the surrounding atmosphere, the azarketi explorer creates a disc of hovering water that deflects incoming attacks. They gain a +1 bonificador por circunstancia to AC until the start of their next turn.</p>"
+          "description": "<p>Extrayendo humedad de la atmosfera circundante, el explorador azarketi crea un disco de agua flotante que desvía los ataques entrantes. Obtiene un bonificador por circunstancia de +1 a la CA hasta el inicio de su siguiente turno.</p>"
         },
         "action->Surface Skimmer": {
-          "name": "Skimmer de superficie",
-          "description": "<p>While the azarketi explorer is submerged just below the water's surface, they have @UUID[Compendium.pf2e.other-effects.Item.I9lfZUiCwMiGogVi]{Cover} from attacks made by criaturas out of the water.</p>"
+          "name": "Deslizador de superficie",
+          "description": "<p>Mientras el explorador azarketi esta sumergido justo bajo la superficie del agua, tiene @UUID[Compendium.pf2e.other-effects.Item.I9lfZUiCwMiGogVi]{Cover} contra ataques realizados por criaturas fuera del agua.</p>"
         }
       }
     },
@@ -683,19 +683,19 @@
           "name": "Martillo ligero"
         },
         "action->Heat of the Forge": {
-          "name": "Heat of the Forge",
-          "description": "<p>10 pies. An azer's skin radiates heat like forge fire. A criatura that starts their turn in the area must succeed at a @Check[fortitude|dc:16] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} while they remain in the area. Las criaturas immune to environmental heat effects or with any fire resistance are immune.</p>"
+          "name": "Calor de la forja",
+          "description": "<p>10 pies. La piel de un azer irradia calor como el fuego de una forja. Una criatura que comienza su turno en el area debe tener exito en una salvacion de @Check[fortitude|dc:16] o quedar @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} mientras permanezca en el area. Las criaturas inmunes a los efectos de calor ambiental o con cualquier resistencia al fuego son inmunes.</p>"
         },
         "action->Burning Touch": {
-          "name": "Burning Touch",
-          "description": "<p>The azer's Golpes deal an extra 1d6 daño de fuego (included in strikes).</p>\n<p>When the azer successfully performs a @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} or @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} action, they also deal @Damage[1d6[fire]] daño to their target.</p>"
+          "name": "Toque ardiente",
+          "description": "<p>Los Golpes del azer infligen 1d6 de daño de fuego adicional (incluido en los golpes).</p>\n<p>Cuando el azer realiza con exito una accion de @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} o @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}, tambien inflige @Damage[1d6[fire]] de daño a su objetivo.</p>"
         },
         "action->Scorch": {
-          "name": "Scorch",
-          "description": "<p>The azer shrouds their light hammer in flames and hurls it forward, dealing @Damage[2d6[fire]|options:area-damage] daño to each criatura in a @Template[line|distance:20] (@Check[reflex|dc:16|basic|options:area-effect] salvación).</p>"
+          "name": "Chamuscadura",
+          "description": "<p>El azer envuelve su martillo ligero en llamas y lo arroja hacia delante, infligiendo @Damage[2d6[fire]|options:area-damage] de daño a cada criatura en una @Template[line|distance:20] (salvacion basica de @Check[reflex|dc:16|basic|options:area-effect]).</p>"
         },
         "lore->Plane of Fire Lore": {
-          "name": "Plane of Fire LORE"
+          "name": "Saber del Plano del Fuego"
         }
       }
     },
@@ -704,33 +704,33 @@
       "publicNotes": "<p>Las criaturas reclusivas y enganadoras llamadas bestias de abalorios crean joyeria falsa como subproducto de sus sistemas digestivos magicos, extremadamente extranos. Dos condiciones naturales de la piel proporcionan los materiales: parches escamosos de finas capas de metal y verrugas que parecen gemas. Al masticar esos parches sueltos y tragarlos, la bestia construye magicamente joyas en sus entranas. Tras expulsar la falsificacion, la pule y remodela para hacerla mas convincente. Luego se cuela en un asentamiento y coloca la joya donde alguien pueda encontrarla.</p>",
       "skillSpecialCrafting": {
         "0": {
-          "label": "to Craft jewelry"
+          "label": "para Fabricar joyeria"
         }
       },
       "items": {
         "equipment->Artisan's Tools": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.y34yjumCFakrbtdw]\nArtisan's Tools",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.y34yjumCFakrbtdw]\n<p>Necesitas these tools to create items from raw materials with the Craft skill. Different sets are needed for different work, as determined by the GM; for example, blacksmith's tools differ from woodworker's tools.</p>"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.y34yjumCFakrbtdw]\nHerramientas de artesano",
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.y34yjumCFakrbtdw]\n<p>Necesitas estas herramientas para crear objetos a partir de materias primas con la habilidad Fabricacion. Se necesitan conjuntos distintos para trabajos distintos, segun determine el DJ; por ejemplo, las herramientas de herrero difieren de las herramientas de carpintero.</p>"
         },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
         },
         "strike-melee->Leg": {
-          "name": "Leg"
+          "name": "Pata"
         },
         "strike-melee->Bile": {
-          "name": "Bile"
+          "name": "Bilis"
         },
         "action->Forge Jewelry": {
-          "name": "Forge Jewelry",
-          "description": "<p>The jeweler beast creates imitation jewelry within its own digestive system. Este takes about 4 hours.</p>\n<p>Determining the jewelry is fake works like detecting a forgery, using either @Check[perception|dc:25] or @Check[crafting|dc:25] instead of Perception or SOCIETY, with a DC of 25.</p>\n<p>The process of creating fake jewelry also places an enchantment inside the item. Anyone who dons the imitation jewelry is targeted with a @Check[will|dc:24|traits:incapacitation,linguistic,mental] @UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H]{Suggestion} conjuro with a duration of 1 hora on a failure or 24 horas on a critical failure. A criatura that fails learns the location where the fake jewelry was created and is compelled to collect their valuable belongings and bring them to that location. Removing the imitation jewelry ends the conjuro immediately, but the wearer can't take it off voluntarily.</p>"
+          "name": "Forjar joyeria",
+          "description": "<p>La bestia joyera crea joyeria de imitacion dentro de su propio sistema digestivo. Esto tarda unas 4 horas.</p>\n<p>Determinar que la joyeria es falsa funciona como detectar una falsificacion, usando @Check[perception|dc:25] o @Check[crafting|dc:25] en lugar de Percepcion o SOCIEDAD, con una CD de 25.</p>\n<p>El proceso de crear joyeria falsa tambien coloca un encantamiento dentro del objeto. Cualquiera que se ponga la joyeria de imitacion es objetivo de un conjuro @Check[will|dc:24|traits:incapacitation,linguistic,mental] @UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H]{Suggestion} con una duracion de 1 hora con un fallo o 24 horas con un fallo critico. Una criatura que falle conoce el lugar donde se creo la joyeria falsa y se ve compelida a reunir sus pertenencias valiosas y llevarlas a ese lugar. Quitarse la joyeria de imitacion termina el conjuro inmediatamente, pero quien la lleva no puede quitarsela voluntariamente.</p>"
         },
         "action->Philanthropic Bile": {
-          "name": "Philanthropic Bile",
-          "description": "<p>Exposure to the bauble beast's magical stomach fluids enchants the mind.</p>\n<p>A criatura critically hit by the beast's jaws or bile Golpe is subject to a @UUID[Compendium.pf2e.spells-srd.Item.UirEIHILQgip87qv]{Charitable Urge} conjuro (@Check[will|dc:23|traits:magical,enchantment,incapacitation,mental|overrideTraits:true]).</p>"
+          "name": "Bilis filantropica",
+          "description": "<p>La exposicion a los fluidos estomacales magicos de la bestia de abalorios encanta la mente.</p>\n<p>Una criatura que reciba un impacto critico del Golpe de mandibulas o bilis de la bestia queda sujeta a un conjuro @UUID[Compendium.pf2e.spells-srd.Item.UirEIHILQgip87qv]{Charitable Urge} (@Check[will|dc:23|traits:magical,enchantment,incapacitation,mental|overrideTraits:true]).</p>"
         },
         "lore->Jewelry Lore": {
-          "name": "Jewelry Saber"
+          "name": "Saber de Joyeria"
         }
       }
     },
