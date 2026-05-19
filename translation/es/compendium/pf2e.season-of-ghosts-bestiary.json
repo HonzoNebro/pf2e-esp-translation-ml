@@ -3,7 +3,7 @@
   "entries": {
     "Akashti": {
       "name": "Akashti",
-      "publicNotes": "<p>Akashtis are manipulative fiends who prey on those in mourning; they assume the form of a recently deceased loved one so they can infiltrate homes, then murder and consume the souls of grieving families. Sometimes called a \"copycorpse,\" an akashti in its true form appears as a skin-covered skeleton with sharp talons on its fingers and tears of blood dripping from its lidless eyes. Its skull appears open like a bowl, and inside nest handfuls of crimson butterflies. When an akashti hides within its manifested body, close investigation can sometimes reveal the truth when the scalp of the supposed beloved one returned to life seems to subtly ripple and bulge as the butterflies within writhe. Akashtis embody the complex cycle of grief.</p>\n<h2>Deathly Invaders</h2>\n<p>Sometimes, akashtis ambush and murder objetivos not to bask in the grief of their loved ones, but instead to assume their form and infiltrate an organization from within to corrupt established bonds of camaraderie. Inevitably, though, these akashtis grow bored with DECEPTION and lead their new aliados into a trap for slaughter.</p>",
+      "publicNotes": "<p>Los akashtis son infernales manipuladores que se aprovechan de quienes están de duelo; adoptan la forma de un ser querido fallecido recientemente para infiltrarse en los hogares, y luego asesinan y consumen las almas de las familias afligidas. A veces llamado \"cadáver copia\", un akashti en su verdadera forma parece un esqueleto cubierto de piel, con afiladas garras en los dedos y lágrimas de sangre goteando de sus ojos sin párpados. Su cráneo parece abierto como un cuenco, y en su interior anidan puñados de mariposas carmesí. Cuando un akashti se oculta dentro de su cuerpo manifestado, una inspección minuciosa puede revelar la verdad si el cuero cabelludo del supuesto ser querido vuelto a la vida parece ondularse y abultarse sutilmente por las mariposas que se retuercen en su interior. Los akashtis encarnan el complejo ciclo del duelo.</p>",
       "items": {
         "spellcastingEntry->Occult Innate Conjuros": {
           "name": "Occult Innate Conjuros"
@@ -12,16 +12,16 @@
           "name": "Garra"
         },
         "action->Soul Shred": {
-          "name": "Soul Shred",
-          "description": "<p>Las criaturas killed by an akashti are difficult to bring back to life or animate as undead. The akashti automatically attempts to counteract any attempt to resurrect or animate as undead any criatura that it has killed (counteract modifier [[/r 1d20+19 #Counteract]]{+19}, counteract rank 5). If the akashti who slew the criatura is slain, the criatura can be brought back from death or become undead normally.</p>"
+          "name": "Desgarrar alma",
+          "description": "<p>Las criaturas asesinadas por un akashti son difíciles de devolver a la vida o animar como muertos vivientes. El akashti intenta contrarrestar automáticamente cualquier intento de resucitar o animar como muerto viviente a una criatura que haya matado (modificador de contrarrestar [[/r 1d20+19 #Contrarrestar]]{+19}, rango de contrarrestar 5). Si el akashti que mató a la criatura es destruido, la criatura puede volver de la muerte o convertirse en muerto viviente con normalidad.</p>"
         },
         "action->Manifest Body": {
           "name": "Manifest Body",
           "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> The akashti manifests a hollow humanoid body around its slender skeletal frame over the course of 10 minutos of concentration. If this time is spent within 10 pies of a humanoid body that has been dead for less than a week, the akashti's manifested body looks identical to that of the dead humanoid when they lived and functions as a disguise of that criatura. If the akashti can consume a portion of the body it's duplicating, it gains a +4 bonificador por circunstancia to DECEPTION checks to Impersonate the criatura. While wearing a manifested body, the akashti loses its claw Golpe, and its voice sounds like that of the dead criatura; it doesn't possess any of the dead criatura's memories or skills and must rely on DECEPTION to continue the charade in the face of scrutiny. An akashti's manifested body decays swiftly if it doesn't take 10 minutos una vez al día to maintain the manifestation of the false flesh. The body has 10 Puntos de Golpe and the same defenses as the akashti. When the body is destroyed, the akashti emerges unharmed and the fleshy shell left behind scatters into a cloud of red butterflies that swiftly fade into red mist.</p>"
         },
         "action->Stunning Despair": {
-          "name": "Stunning Despair",
-          "description": "<p>The akashti unleashes overwhelming sobs of despair. Las criaturas within 30 pies must attempt a @Check[will|dc:29] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1} (@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 3} on a critical failure). The akashti can't use Stunning Despair again for [[/gmr 1d4 #Recharge Stunning Despair]]{1d4 asaltos}.</p>"
+          "name": "Desesperación aturdidora",
+          "description": "<p>El akashti desata sollozos abrumadores de desesperación. Las criaturas a 30 pies o menos deben intentar una salvación de @Check[will|dc:29] o quedan @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{aturdidas 1} (@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{aturdidas 3} con un fallo crítico). El akashti no puede volver a usar Desesperación aturdidora durante [[/gmr 1d4 #Recarga de Desesperación aturdidora]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -43,8 +43,8 @@
           "description": "<p><strong>Requisitos</strong> The algriever is bonded with a shrine</p>\n<p><strong>Desencadenante</strong> A criatura within sight of the algriever damages, desecrates, or defiles their bonded shrine</p>\n<hr />\n<p><strong>Efecto</strong> The algriever Strides toward the criatura; this movement no desencadena reacciones. The algriever marks the criatura as its enemigo and gains a +2 bonificador de estado to tiradas de ataque against that enemigo until they select a new enemigo with Acolyte's Defense.</p>"
         },
         "action->Shrine Bond": {
-          "name": "Shrine Bond",
-          "description": "<p>The algriever bonds with a shrine after they spend 24 horas at the site. While bonded, the algriever gains a +2 bonificador por circunstancia to Perception checks and pruebas de habilidad.</p>"
+          "name": "Vínculo con santuario",
+          "description": "<p>El algriever se vincula con un santuario después de pasar 24 horas en el lugar. Mientras está vinculado, obtiene un bonificador por circunstancia +2 a las pruebas de Percepción y de habilidad.</p>"
         },
         "action->Algriever Venom": {
           "name": "Algriever Venom",
@@ -55,8 +55,8 @@
           "description": "<p><strong>Frecuencia</strong> once per month</p>\n<hr />\n<p><strong>Efecto</strong> The algriever touches a willing criatura and fills it with reverence for their bonded shrine. As long as el objetivo criatura obeys the edicts and anathemas of the algriever's bonded shrine, or until that algriever grants Pilgrim's Ward to a different criatura, that criatura gains a +1 bonificador de estado to all RELIGION checks and Will saves.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.zy4PDhXnaZh6e6iT]{Efecto: Pilgrim's Ward}</p>"
         },
         "action->Web Trap": {
-          "name": "Web Trap",
-          "description": "<p>A criatura hit by an algriever's web Golpe is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} and stuck to the nearest surface until it [[/act escape dc=28]]{Escapes}.</p>"
+          "name": "Trampa de telaraña",
+          "description": "<p>Una criatura impactada por el Golpe de telaraña de un algriever queda @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{inmovilizada} y pegada a la superficie más cercana hasta que [[/act escape dc=28]]{Escape}.</p>"
         }
       }
     },

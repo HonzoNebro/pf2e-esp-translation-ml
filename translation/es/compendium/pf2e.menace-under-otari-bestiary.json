@@ -2,9 +2,9 @@
   "label": "Bestiario - Amenaza bajo Otari",
   "entries": {
     "Animated Armor (BB)": {
-      "name": "Animated Armor (BB)",
-      "acDetails": "(13 after armadura de constructo breaks), armadura de constructo",
-      "publicNotes": "<p>Los objetos pueden recibir una apariencia de vida mediante rituales u otra magia extraña, turning them into animated objects. Estos objects move, work, and fight based on the commands given to them by their creators, who usually set them on guard duty or have them perform menial labor.</p>\n<p>Suits of animated armor might serve as guardians, but sometimes high-end martial academies use them as training partners. They're most often found in wizards' laboratories and ancient dungeons.</p>",
+      "name": "Armadura animada (Caja de iniciación)",
+      "acDetails": "(13 después de que se rompa la armadura de constructo), armadura de constructo",
+      "publicNotes": "<p>Los objetos pueden recibir una apariencia de vida mediante rituales u otra magia extraña, convirtiéndose en objetos animados. Estos objetos se mueven, trabajan y luchan según las órdenes que les dan sus creadores, que suelen ponerlos de guardia o hacer que realicen tareas serviles.</p>\n<p>Las armaduras animadas pueden servir como guardianes, aunque algunas academias marciales de alto nivel las usan como compañeros de entrenamiento. Se encuentran con mayor frecuencia en laboratorios de magos y mazmorras antiguas.</p>",
       "tokenName": "Armadura animada",
       "items": {
         "strike-melee->Longsword": {
@@ -14,8 +14,8 @@
           "name": "Armored Fist"
         },
         "action->Construct Armor": {
-          "name": "Construct Armor",
-          "description": "<p>The animated armor reduces all daño it takes by 9. However, after a impacto crítico that deals daño, or after its HP drops below 10, its armadura de constructo breaks. Its AC drops to 13 and it no longer reduces daño by 9.</p>"
+          "name": "Armadura de constructo",
+          "description": "<p>La armadura animada reduce todo el daño que recibe en 9. Sin embargo, después de un impacto crítico que inflija daño, o cuando sus PG bajan de 10, su armadura de constructo se rompe. Su CA baja a 13 y ya no reduce el daño en 9.</p>"
         }
       }
     },
@@ -38,9 +38,9 @@
       }
     },
     "Boar (BB)": {
-      "name": "Boar (BB)",
-      "publicNotes": "<p>Foul-tempered and tough, boars are far more dangerous than domesticated pigs. Estos omnivorous mammals are hunted heavily because their meat is considered a delicacy. Boars are most likely to attack humanoids in self-defense or during their mating season in the winter months, when the males grow an extra inch of tissue to protect their organs as they fight off rivals. In some cultures, boars are entrenado to become much more aggressive for use as war beasts and guardians. When such boars escape back into the wild, they can become true terrors of the region.</p>",
-      "tokenName": "Jabali",
+      "name": "Jabalí (Caja de iniciación)",
+      "publicNotes": "<p>De mal carácter y resistentes, los jabalíes son mucho más peligrosos que los cerdos domésticos. Estos mamíferos omnívoros son cazados con frecuencia porque su carne se considera un manjar. Es más probable que los jabalíes ataquen a humanoides en defensa propia o durante la época de apareamiento en los meses de invierno, cuando los machos desarrollan una pulgada adicional de tejido para proteger sus órganos mientras luchan contra rivales. En algunas culturas se entrena a los jabalíes para que sean mucho más agresivos y sirvan como bestias de guerra y guardianes. Cuando esos jabalíes escapan de nuevo a la naturaleza, pueden convertirse en auténticos terrores de la región.</p>",
+      "tokenName": "Jabalí",
       "items": {
         "strike-melee->Tusk": {
           "name": "Tusk"
@@ -49,8 +49,8 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.N1kstYbHScxgUQtN]\n<p>When the boar is reduced to 0 Puntos de Golpe, it can use its reaction to remain conscious with 1 Hit Point, but it gains the @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded 1} condition (or increases its wounded value by 1 if it already has that condition). It can't use this ability at wounded 3.</p>"
         },
         "action->Boar Charge": {
-          "name": "Boar Charge",
-          "description": "<p>The boar Strides twice and then makes a tusk Golpe. As long as it moved at least 20 pies, it gains a +2 bonificador por circunstancia to its tirada de ataque.</p>"
+          "name": "Carga de jabalí",
+          "description": "<p>El jabalí Camina dos veces y luego realiza un Golpe de colmillo. Siempre que se haya movido al menos 20 pies, obtiene un bonificador por circunstancia +2 a su tirada de ataque.</p>"
         }
       }
     },
@@ -72,9 +72,9 @@
       }
     },
     "Bugbear Prowler (BB)": {
-      "name": "Bugbear Prowler (BB)",
+      "name": "Merodeador osgo (Caja de iniciación)",
       "publicNotes": "<p> Estas criaturas sigilosas y crueles se deleitan en sembrar miedo y atormentar a sus víctimas. Los osgos son los monstruos que acechan en el armario y se esconden debajo de la cama. Los osos insecto, que se alimentan de granjas remotas, revelan su presencia con golpes en la noche o crujidos de tablas, inspirando temor, sospecha y miedo en aquellos a quienes atormentan. </p>",
-      "tokenName": "Bugbear merodeador",
+      "tokenName": "Merodeador osgo",
       "items": {
         "weapon->Longsword": {
           "description": "La etiqueta <Compendium> se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.LJdbVTOZog39EEbi]\n <p> Las espadas largas pueden ser espadas de uno o dos filos. Sus hojas son pesadas y miden entre 3 y 4 pies de largo. </p>"
@@ -89,12 +89,12 @@
           "name": "Jabalina"
         },
         "action->Bushwhack": {
-          "name": "Bushwhack",
-          "description": "<p>The bugbear prowler Strides up to 10 pies and attempts to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} a criatura that can't see them and doesn't know where they are. If the bugbear succeeds, they also deal daño from their fist Golpe to that criatura.</p>"
+          "name": "Emboscada",
+          "description": "<p>El merodeador osgo Camina hasta 10 pies e intenta @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Agarrar} a una criatura que no pueda verlo y no sepa dónde está. Si el osgo tiene éxito, también inflige a esa criatura el daño de su Golpe de puño.</p>"
         },
         "action->Mauler": {
           "name": "Torturador",
-          "description": "<p>The bugbear prowler gains a +3 bonificador por circunstancia to tiradas de daño against criaturas they have @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}.</p>"
+          "description": "<p>El merodeador osgo obtiene un bonificador por circunstancia +3 a las tiradas de daño contra criaturas que tenga @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{agarradas}.</p>"
         }
       }
     },

@@ -3,8 +3,8 @@
   "entries": {
     "Algea": {
       "name": "Algea",
-      "publicNotes": "<p>Algeas protect (y sometimes retrieve) souls at risk de being claimed by otro entities, particularly spellcasters who dabbled con otherworldly forces but never officially pledged su souls.</p>",
-      "saveDetails": "+1 bonificador de estado to all saves vs. magic",
+      "publicNotes": "<p>Las algeas protegen, y a veces recuperan, almas en peligro de ser reclamadas por otras entidades, en especial las de lanzadores de conjuros que trataron con fuerzas de otros mundos sin llegar a prometer oficialmente sus almas.</p>",
+      "saveDetails": "+1 de bonificador de estado a todas las salvaciones contra magia",
       "senses": "ver magia",
       "items": {
         "spellcastingEntry->Innate Divine Conjuros": {
@@ -18,20 +18,20 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg]\nLifesense 60 pies"
         },
         "action->See Magic": {
-          "name": "See Magic",
-          "description": "<p>An algea can see magic auras on criaturas or objects that it can observe; it can't see magic auras on criaturas or objects that are escondido from its view. It learns the schools of magic for all conjuros affecting criaturas.</p>"
+          "name": "Ver magia",
+          "description": "<p>Una algea puede ver auras mágicas en criaturas u objetos que pueda observar; no puede ver auras mágicas en criaturas u objetos ocultos a su vista. Aprende las escuelas de magia de todos los conjuros que afectan a criaturas.</p>"
         },
         "action->Grieving Aura": {
-          "name": "Grieving Aura",
-          "description": "<p>30 pies. A criatura that begins its turn in the aura must attempt a @Check[will|dc:27] salvación. Undead take a -2 penalizador por circunstancia to this salvación. The criatura is then temporarily immune to the grieving aura for 1 hora.</p>\n<p><strong>Éxito</strong> The criatura is unaffected.</p>\n<p><strong>Fallo</strong> For 1 asalto, the criatura can't use reactions and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for that turn as it sobs uncontrollably.</p>\n<p><strong>Fallo crítico</strong> As failure, but the effects lasts while the criatura remains in the aura plus 1 minuto.</p>"
+          "name": "Aura de duelo",
+          "description": "<p>30 pies. Una criatura que comienza su turno en el aura debe intentar una salvación de @Check[will|dc:27]. Los muertos vivientes sufren un penalizador por circunstancia -2 a esta salvación. Después, la criatura queda temporalmente inmune al aura de duelo durante 1 hora.</p>\n<p><strong>Éxito</strong> La criatura no se ve afectada.</p>\n<p><strong>Fallo</strong> Durante 1 asalto, la criatura no puede usar reacciones y queda @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{ralentizada 1} durante ese turno mientras solloza de forma incontrolable.</p>\n<p><strong>Fallo crítico</strong> Como fallo, pero los efectos duran mientras la criatura permanezca en el aura, más 1 minuto.</p>"
         },
         "action->Drain Magic": {
-          "name": "Drain Magic",
-          "description": "<p>Siempre que a criatura fails its save against Frenzied Beaks, the algea attempts to counter a conjuro effect active on that criatura (6th nivel, counteract prueba +22). The algea can elige which effect to attempt to counteract for each criatura.</p>"
+          "name": "Drenar magia",
+          "description": "<p>Siempre que una criatura falle su salvación contra Picos frenéticos, la algea intenta contrarrestar un efecto de conjuro activo sobre esa criatura (6.º nivel, prueba de contrarrestar +22). La algea puede elegir qué efecto intenta contrarrestar en cada criatura.</p>"
         },
         "action->Frenzied Beaks": {
-          "name": "Frenzied Beaks",
-          "description": "<p>Each foe in the swarm's space takes @Damage[5d6[piercing]|traits:item:rune:property:ghost-touch] daño (@Check[reflex|dc:30|basic]) and is exposed to drain magic. Este daño affects incorporeal criaturas as if it had the effects of a ghost touch property rune.</p>"
+          "name": "Picos frenéticos",
+          "description": "<p>Cada enemigo en el espacio del enjambre recibe @Damage[5d6[piercing]|traits:item:rune:property:ghost-touch] de daño (@Check[reflex|dc:30|basic]) y queda expuesto a drenar magia. Este daño afecta a las criaturas incorpóreas como si tuviera los efectos de una runa de propiedad de toque fantasmal.</p>"
         },
         "action->Soul Cage": {
           "name": "Jaula del alma",
