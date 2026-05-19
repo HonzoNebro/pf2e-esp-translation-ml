@@ -68,19 +68,19 @@
         },
         "action->Soul Siphon": {
           "name": "Sifón de almas",
-          "description": "<p>30 pies. An astradaemon draws power from the souls of the recently slain. If a Small or larger living criatura dies within its aura, the astradaemon gains 5 Puntos de golpe temporales and a +1 bonificador de estado to attack and tiradas de daño for 1 asalto, unless the criatura was slain by an astradaemon's Devour Soul ability.</p>\n<p>Incorporeal undead and living spirits traveling outside the body take @Damage[1d8[force]] daño each round within the daemon's aura from the spiritual pressure as the astradaemon pulls in fragments of their soul.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.SjrM6XVTLySToS12]{Efecto: Soul Siphon}</p>"
+          "description": "<p>30 pies. An astradaemon draws power from the souls of the recently slain. If a Small or larger living criatura dies within its aura, the astradaemon gains 5 Puntos de Golpe temporales and a +1 bonificador de estado to attack and tiradas de daño for 1 asalto, unless the criatura was slain by an astradaemon's Devour Soul ability.</p>\n<p>Incorporeal undead and living spirits traveling outside the body take @Damage[1d8[force]] daño each round within the daemon's aura from the spiritual pressure as the astradaemon pulls in fragments of their soul.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.SjrM6XVTLySToS12]{Efecto: Soul Siphon}</p>"
         },
         "action->Essence Drain": {
           "name": "Essence Drain",
-          "description": "<p>When an astradaemon hits with its claw, jaws, or tail, it drains el objetivo's spiritual and vital essences.</p>\n<p>El objetivo takes @Damage[2d10[void]] daño and the astradaemon regains an equal number of Puntos de golpe. El objetivo must succeed at a @Check[fortitude|dc:37|traits:damaging-effect] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condenado 1} and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1}.</p>\n<p>If el objetivo was already drained or doomed, it instead increases both conditions' value by 1, to a maximum of 4.</p>"
+          "description": "<p>When an astradaemon hits with its claw, jaws, or tail, it drains el objetivo's spiritual and vital essences.</p>\n<p>El objetivo takes @Damage[2d10[void]] daño and the astradaemon regains an equal number of Puntos de Golpe. El objetivo must succeed at a @Check[fortitude|dc:37|traits:damaging-effect] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condenado 1} and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1}.</p>\n<p>If el objetivo was already drained or doomed, it instead increases both conditions' value by 1, to a maximum of 4.</p>"
         },
         "action->Mortal Shell": {
           "name": "Mortal Shell",
-          "description": "<p><strong>Requisitos</strong> The astradaemon has killed a Large or smaller criatura with Overtake Soul within the past 24 horas and that criatura is within the daemon's reach</p>\n<hr />\n<p><strong>Efecto</strong> The astradaemon takes over and wears the body of their victim. Este automatically creates a disguise to allow the astradaemon to Impersonate el objetivo criatura. The body has a number of Puntos de golpe equal to 3 times the level of the criatura. Any daño targeting the astradaemon damages the body first. Once the body is reduced to 0 Puntos de golpe, it's destroyed and forces the astradaemon out, back to the daemon's normal form. If the astradaemon takes any daño de espíritu while wearing the body, the daño is dealt to the astradaemon directly and it must succeed at a @Check[flat|dc:5] check or be forced out of the body. Additionally, @UUID[Compendium.pf2e.spells-srd.Item.ihbRf964JDXztcy3]{Disjunction} and @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} can force the astradaemon out of the body with a successful counteract check against DC 41.</p>\n<p>While wearing the disguise, the astradaemon's attacks use the reach of the body it inhabits, and its size changes to match that of the criatura whose soul it consumed. Additionally, the astradaemon is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 4} while wearing the disguise. (Estos penalties haven't been incorporated into this stat block.)</p>"
+          "description": "<p><strong>Requisitos</strong> The astradaemon has killed a Large or smaller criatura with Overtake Soul within the past 24 horas and that criatura is within the daemon's reach</p>\n<hr />\n<p><strong>Efecto</strong> The astradaemon takes over and wears the body of their victim. Este automatically creates a disguise to allow the astradaemon to Impersonate el objetivo criatura. The body has a number of Puntos de Golpe equal to 3 times the level of the criatura. Any daño targeting the astradaemon damages the body first. Once the body is reduced to 0 Puntos de Golpe, it's destroyed and forces the astradaemon out, back to the daemon's normal form. If the astradaemon takes any daño de espíritu while wearing the body, the daño is dealt to the astradaemon directly and it must succeed at a @Check[flat|dc:5] check or be forced out of the body. Additionally, @UUID[Compendium.pf2e.spells-srd.Item.ihbRf964JDXztcy3]{Disjunction} and @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} can force the astradaemon out of the body with a successful counteract check against DC 41.</p>\n<p>While wearing the disguise, the astradaemon's attacks use the reach of the body it inhabits, and its size changes to match that of the criatura whose soul it consumed. Additionally, the astradaemon is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 4} while wearing the disguise. (Estos penalties haven't been incorporated into this stat block.)</p>"
         },
         "action->Overtake Soul": {
           "name": "Overtake Soul",
-          "description": "<p><strong>Requisitos</strong> The astradaemon hasn't used an action with the attack rasgo yet this turn.</p>\n<hr />\n<p><strong>Efecto</strong> The astradaemon draws out and consumes the soul of a living criatura it has @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}. The criatura must succeed at a @Check[fortitude|dc:39|traits:damaging-effect] salvación or instantly die. If it dies, the astradaemon gains 10 Puntos de golpe temporales.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.xiOi7btey4AS6jhe]{Efecto: Overtake Soul}</p>"
+          "description": "<p><strong>Requisitos</strong> The astradaemon hasn't used an action with the attack rasgo yet this turn.</p>\n<hr />\n<p><strong>Efecto</strong> The astradaemon draws out and consumes the soul of a living criatura it has @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado}. The criatura must succeed at a @Check[fortitude|dc:39|traits:damaging-effect] salvación or instantly die. If it dies, the astradaemon gains 10 Puntos de Golpe temporales.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.xiOi7btey4AS6jhe]{Efecto: Overtake Soul}</p>"
         }
       },
       "publicNotes": "<p>Un astradaemon curva la luz, pareciendo desplazado de su verdadera posicion aunque siga ocupando el mismo espacio. Las criaturas que apuntan al astradaemon deben intentar una prueba como si estuviera escondido, aunque permanece observado. Los efectos que no dependen de apuntar con precision no se ven afectados por esta distorsion.</p>"
@@ -122,7 +122,7 @@
         },
         "action->Proven Devotion": {
           "name": "Proven Devotion",
-          "description": "<p>The agradaemon regains @Damage[15[untyped]] Puntos de golpe, and a pledged fanatic of the agradaemon's choice that it can see loses 15 Puntos de golpe (no effects apply that would decrease this Hit Point loss).</p>\n<p>A pledged criatura that dies in this way explodes and deals @Damage[9d10[fire]|options:area-damage] daño in a @Template[emanation|distance:20] (@Check[reflex|dc:41|basic|options:area-effect] salvación).</p>"
+          "description": "<p>The agradaemon regains @Damage[15[untyped]] Puntos de Golpe, and a pledged fanatic of the agradaemon's choice that it can see loses 15 Puntos de Golpe (no effects apply that would decrease this Hit Point loss).</p>\n<p>A pledged criatura that dies in this way explodes and deals @Damage[9d10[fire]|options:area-damage] daño in a @Template[emanation|distance:20] (@Check[reflex|dc:41|basic|options:area-effect] salvación).</p>"
         },
         "action->Rend": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.3JOi2cMcGhT3eze1]\n<p>Claw</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
@@ -194,7 +194,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.WL4O32qFifxnMj0H]\n<p>Properly harvested and preserved, the poison from a wyvern's sting is effective and direct.</p>\n<hr />\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> INTERACT (Injury)</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:26]</p>\n<p><strong>Duración máxima</strong> 6 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[5d6[poison]] daño (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[6d6[poison]] daño (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[8d6[poison]] daño (1 asalto)</p>"
         },
         "consumable->Elixir of Life (Moderate)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.c21stU5rhN4F2fZl]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>Elixirs of life accelerate a living criatura's natural healing processes and immune system. Upon drinking this elixir, tú regain @Damage[(5d6+12)[healing]] Puntos de golpe and gain +2 bonificador por objeto to tiradas de salvación against diseases and poisons for 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efecto: Elixir of Life}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.c21stU5rhN4F2fZl]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>Elixirs of life accelerate a living criatura's natural healing processes and immune system. Upon drinking this elixir, tú regain @Damage[(5d6+12)[healing]] Puntos de Golpe and gain +2 bonificador por objeto to tiradas de salvación against diseases and poisons for 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efecto: Elixir of Life}</p>"
         },
         "strike-melee->Rapier": {
           "name": "Espada ropera"
@@ -332,7 +332,7 @@
       "items": {
         "action->Stone Spike": {
           "name": "Stone Spike",
-          "description": "<p><strong>Desencadenante</strong> A criatura in area <strong>E1</strong> casts an arcane conjuro or uses an arcane ability</p>\n<hr />\n<p><strong>Efecto</strong> La trampa makes a stone spike attack against the triggering criatura. For the next 1 minuto thereafter, the ripples are stronger, giving the trap a +2 bonificador de circunstancia on stone spike Golpes during this time.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura in area <strong>E1</strong> casts an arcane conjuro or uses an arcane ability</p>\n<hr />\n<p><strong>Efecto</strong> La trampa makes a stone spike attack against the triggering criatura. For the next 1 minuto thereafter, the ripples are stronger, giving the trap a +2 bonificador por circunstancia on stone spike Golpes during this time.</p>"
         },
         "strike-melee->Stone Spike": {
           "name": "Stone Spike"
@@ -383,7 +383,7 @@
         },
         "action->Prickly Defense": {
           "name": "Prickly Defense",
-          "description": "<p>The avarek withdraws beneath its spines, presenting a defensive, spiky exterior. It gains a +2 bonificador de circunstancia to spine Golpes and AC. Any adjacent criatura that attempts a melee attack against the avarek takes 1d6 daño perforante per attack, regardless of whether the attack hits.</p>\n<p>Prickly Defense lasts until the avarek uses a move action or makes a Golpe with any arma other than its spines.</p>"
+          "description": "<p>The avarek withdraws beneath its spines, presenting a defensive, spiky exterior. It gains a +2 bonificador por circunstancia to spine Golpes and AC. Any adjacent criatura that attempts a melee attack against the avarek takes 1d6 daño perforante per attack, regardless of whether the attack hits.</p>\n<p>Prickly Defense lasts until the avarek uses a move action or makes a Golpe with any arma other than its spines.</p>"
         },
         "action->Rolling Assault": {
           "name": "Rolling Assault",
@@ -531,7 +531,7 @@
         },
         "action->Consume Flesh": {
           "name": "Consumir carne",
-          "description": "<p><strong>Requisitos</strong> The barnacle ghoul is adjacent to the corpse of a criatura that died within the last hour.</p>\n<hr />\n<p><strong>Efecto</strong> The barnacle ghoul devours a chunk of the corpse and regains @Damage[5d6[healing]] Puntos de golpe.</p>\n<p>It can regain Puntos de golpe from any given corpse only once.</p>"
+          "description": "<p><strong>Requisitos</strong> The barnacle ghoul is adjacent to the corpse of a criatura that died within the last hour.</p>\n<hr />\n<p><strong>Efecto</strong> The barnacle ghoul devours a chunk of the corpse and regains @Damage[5d6[healing]] Puntos de Golpe.</p>\n<p>It can regain Puntos de Golpe from any given corpse only once.</p>"
         },
         "action->Fill Lungs": {
           "name": "Fill Lungs",
@@ -579,7 +579,7 @@
         },
         "action->Rapid Repair": {
           "name": "Rapid Repair",
-          "description": "<p>The clockwork assassin spends 1 hora of its operational time to REPAIR itself, regaining 25 Puntos de golpe and refilling its integrated projectile launcher with 4 spinning blades (to a maximum of 10) and 2 smoke bombs (to a maximum of 5).</p>"
+          "description": "<p>The clockwork assassin spends 1 hora of its operational time to REPAIR itself, regaining 25 Puntos de Golpe and refilling its integrated projectile launcher with 4 spinning blades (to a maximum of 10) and 2 smoke bombs (to a maximum of 5).</p>"
         },
         "action->Smoke Bomb Launcher": {
           "name": "Smoke Bomb Launcher",
@@ -601,7 +601,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.3Zv5hSXXtlaDatUv]\n+1 Greatpick"
         },
         "consumable->Healing Potion (Lesser)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.e0vSAQfxhHauiAoD]\n<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a healing potion, tú regain @Damage[(2d8+5)[healing]] Puntos de golpe.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.e0vSAQfxhHauiAoD]\n<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a healing potion, tú regain @Damage[(2d8+5)[healing]] Puntos de Golpe.</p>"
         },
         "strike-melee->Greatpick": {
           "name": "Gran pico"
@@ -843,10 +843,10 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.OTeONq4r10Xm6gSy]\n<p>Este plain silver ring has an almost oily sheen. While wearing the ring, obtienes a +2 bonificador por objeto to DECEPTION checks.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> INTERACT</p>\n<hr />\n<p><strong>Efecto</strong> Snapping tu fingers on the hand that wears the ring causes the ring to cast @UUID[Compendium.pf2e.spells-srd.Item.JyxTmqjYYn63V5LY]{Honeyed Words} on tú with no visual manifestations of a conjuro being cast.</p>"
         },
         "consumable->Elixir of Life (Moderate)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.c21stU5rhN4F2fZl]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>Elixirs of life accelerate a living criatura's natural healing processes and immune system. Upon drinking this elixir, tú regain @Damage[(5d6+12)[healing]] Puntos de golpe and gain +2 bonificador por objeto to tiradas de salvación against diseases and poisons for 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efecto: Elixir of Life}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.c21stU5rhN4F2fZl]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>Elixirs of life accelerate a living criatura's natural healing processes and immune system. Upon drinking this elixir, tú regain @Damage[(5d6+12)[healing]] Puntos de Golpe and gain +2 bonificador por objeto to tiradas de salvación against diseases and poisons for 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efecto: Elixir of Life}</p>"
         },
         "consumable->Juggernaut Mutagen (Greater)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.TMtQnY6yvIRCpK9v]\n<p><strong>Activar</strong> <span class=\"action-glyph\">1</span> INTERACT</p>\n<hr />\n<p>After tú drink this mutagen, tu body becomes thick and sturdy. Tú exhibit a healthy glow, though tú tend to be ponderous and unobservant.</p>\n<p><strong>Beneficio</strong> Obtienes a +3 bonificador por objeto to Fortitude saves and 30 Puntos de golpe temporales. Siempre que estás at maximum Puntos de golpe for at least 1 full minute, tú regain the Puntos de golpe temporales. When tú roll a success on a Fortitude save, tú get a critical success instead.</p>\n<p><strong>Drawback</strong> Sufres a -2 penalizador to Will saves, Perception checks and initiative rolls.</p>\n<p><strong>Duration</strong> 1 hora.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.xLilBqqf34ZJYO9i]{Efecto: Juggernaut Mutagen (Greater)}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.TMtQnY6yvIRCpK9v]\n<p><strong>Activar</strong> <span class=\"action-glyph\">1</span> INTERACT</p>\n<hr />\n<p>After tú drink this mutagen, tu body becomes thick and sturdy. Tú exhibit a healthy glow, though tú tend to be ponderous and unobservant.</p>\n<p><strong>Beneficio</strong> Obtienes a +3 bonificador por objeto to Fortitude saves and 30 Puntos de Golpe temporales. Siempre que estás at maximum Puntos de Golpe for at least 1 full minute, tú regain the Puntos de Golpe temporales. When tú roll a success on a Fortitude save, tú get a critical success instead.</p>\n<p><strong>Drawback</strong> Sufres a -2 penalizador to Will saves, Perception checks and initiative rolls.</p>\n<p><strong>Duration</strong> 1 hora.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.xLilBqqf34ZJYO9i]{Efecto: Juggernaut Mutagen (Greater)}</p>"
         },
         "consumable->Smokestick (Greater)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.ehss8yPTXxiUdVlJ]\nSmokestick (Greater)",
@@ -938,7 +938,7 @@
         "consumable->Scroll of Monstrosity Form (Rank 8)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.iPki3yuoucnj7bIt]\nScroll of Monstrosity Form (Rank 8)",
           "consumableSpellName": "Forma de monstruosidad",
-          "consumableSpellDescription": "<p>Te transformas into the shape of a legendario monster, assuming a Huge battle form. Debes have enough space to expand into or the conjuro is lost. When tú cast this conjuro, elige phoenix, cave worm, or sea serpent. While in this form, obtienes the beast rasgo (for phoenix) or the animal rasgo (for cave worm or sea serpent). Puedes Dismiss the conjuro.</p>\n<p>Obtienes the following statistics and abilities regardless of which battle form tú elige:</p>\n<ul>\n<li>AC = 20 + tu level. Ignore tu armor's check penalizador and Velocidad reduction.</li>\n<li>20 Puntos de golpe temporales.</li>\n<li>Darkvision.</li>\n<li>One or more unarmed melee attacks specific to the battle form tú elige, which are the only attacks puedes Golpe with. Estás entrenado with them. Tu attack modifier is +28, and tú use the listed daño. Estos attacks are Strength based (for the purpose of the @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled} condition, for example). If tu ataque sin armas modifier is higher, puedes use it instead.</li>\n<li>ATHLETICS modifier of +30, unless tu own modifier is higher.</li>\n</ul>\n<p>Tú also gain specific abilities based on the type of monster tú elige:</p>\n<ul>\n<li>\n<p><strong>Cave Worm</strong></p>\n<ul>\n<li>Velocidad 40 pies, burrow 30 pies, swim 20 pies;</li>\n<li><strong>Melee</strong> <span class=\"action-glyph\">1</span> jaws (reach 10 pies), <strong>Damage</strong> 2d12+20 piercing;</li>\n<li><strong>Melee</strong> <span class=\"action-glyph\">1</span> stinger (agile, reach 10 pies), <strong>Damage</strong> 2d8+15 piercing plus 2d6 persistent poison;</li>\n<li><strong>Melee</strong> <span class=\"action-glyph\">1</span> body (reach 10 pies) <strong>Damage</strong> 2d8+20 bludgeoning;</li>\n<li><strong>Inexorable</strong> Tú automatically recover from the @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed}, and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned} conditions at the end of each of tu turns. Estás also immune to being @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} and ignore difficult terrain and greater difficult terrain.</li>\n</ul>\n</li>\n</ul>\n<ul>\n<li>\n<p><strong>Phoenix</strong></p>\n<ul>\n<li>Velocidad 30 pies, fly 90 pies;</li>\n<li><strong>Melee</strong> <span class=\"action-glyph\">1</span> beak (reach 15 pies), <strong>Damage</strong> 2d6+12 piercing plus 2d4 fire and 2d4 persistent fire;</li>\n<li><strong>Melee</strong> <span class=\"action-glyph\">1</span> talon (agile, reach 15 pies), <strong>Damage</strong> 2d8+12 slashing;</li>\n<li><strong>Shroud of Flame</strong> (aura, fire, primal) 20 pies. Obtienes an aura of fire that extends out from tú. A criatura that enters or ends its turn within the aura takes 2d6 daño de fuego. A criatura can take this daño only once per turn. Puedes activate or deactivate this aura with a Sustain action.</li>\n</ul>\n</li>\n<li>\n<p><strong>Sea Serpent</strong></p>\n<ul>\n<li>Velocidad 20 pies, swim 90 pies;</li>\n<li><strong>Melee</strong> <span class=\"action-glyph\">1</span> jaws (reach 15 pies), <strong>Damage</strong> 2d12+20 piercing;</li>\n<li><strong>Melee</strong> <span class=\"action-glyph\">1</span> tail (reach 25 pies), <strong>Damage</strong> 2d8+20 bludgeoning;</li>\n<li><strong>Spine Rake</strong> <span class=\"action-glyph\">2</span> (move) Tú extend tu spines and Swim or Zancada. Each criatura estás adjacent to at any point during tu movement takes 4d8+10 daño cortante (basic Reflex against tu conjuro DC).</li>\n</ul>\n</li>\n</ul>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.oMtbVNQ5YFmmQUlU]{Spell Efecto: Monstrosity Form}</p>\n<hr />\n<p><strong>Heightened (9th)</strong> Tú instead gain AC = 22 + tu level, 25 temporary HP, attack modifier +31, increase daño by one dado de daño, and ATHLETICS +33.</p>",
+          "consumableSpellDescription": "<p>Te transformas into the shape of a legendario monster, assuming a Huge battle form. Debes have enough space to expand into or the conjuro is lost. When tú cast this conjuro, elige phoenix, cave worm, or sea serpent. While in this form, obtienes the beast rasgo (for phoenix) or the animal rasgo (for cave worm or sea serpent). Puedes Dismiss the conjuro.</p>\n<p>Obtienes the following statistics and abilities regardless of which battle form tú elige:</p>\n<ul>\n<li>AC = 20 + tu level. Ignore tu armor's check penalizador and Velocidad reduction.</li>\n<li>20 Puntos de Golpe temporales.</li>\n<li>Darkvision.</li>\n<li>One or more unarmed melee attacks specific to the battle form tú elige, which are the only attacks puedes Golpe with. Estás entrenado with them. Tu attack modifier is +28, and tú use the listed daño. Estos attacks are Strength based (for the purpose of the @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled} condition, for example). If tu ataque sin armas modifier is higher, puedes use it instead.</li>\n<li>ATHLETICS modifier of +30, unless tu own modifier is higher.</li>\n</ul>\n<p>Tú also gain specific abilities based on the type of monster tú elige:</p>\n<ul>\n<li>\n<p><strong>Cave Worm</strong></p>\n<ul>\n<li>Velocidad 40 pies, burrow 30 pies, swim 20 pies;</li>\n<li><strong>Melee</strong> <span class=\"action-glyph\">1</span> jaws (reach 10 pies), <strong>Damage</strong> 2d12+20 piercing;</li>\n<li><strong>Melee</strong> <span class=\"action-glyph\">1</span> stinger (agile, reach 10 pies), <strong>Damage</strong> 2d8+15 piercing plus 2d6 persistent poison;</li>\n<li><strong>Melee</strong> <span class=\"action-glyph\">1</span> body (reach 10 pies) <strong>Damage</strong> 2d8+20 bludgeoning;</li>\n<li><strong>Inexorable</strong> Tú automatically recover from the @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed}, and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned} conditions at the end of each of tu turns. Estás also immune to being @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} and ignore difficult terrain and greater difficult terrain.</li>\n</ul>\n</li>\n</ul>\n<ul>\n<li>\n<p><strong>Phoenix</strong></p>\n<ul>\n<li>Velocidad 30 pies, fly 90 pies;</li>\n<li><strong>Melee</strong> <span class=\"action-glyph\">1</span> beak (reach 15 pies), <strong>Damage</strong> 2d6+12 piercing plus 2d4 fire and 2d4 persistent fire;</li>\n<li><strong>Melee</strong> <span class=\"action-glyph\">1</span> talon (agile, reach 15 pies), <strong>Damage</strong> 2d8+12 slashing;</li>\n<li><strong>Shroud of Flame</strong> (aura, fire, primal) 20 pies. Obtienes an aura of fire that extends out from tú. A criatura that enters or ends its turn within the aura takes 2d6 daño de fuego. A criatura can take this daño only once per turn. Puedes activate or deactivate this aura with a Sustain action.</li>\n</ul>\n</li>\n<li>\n<p><strong>Sea Serpent</strong></p>\n<ul>\n<li>Velocidad 20 pies, swim 90 pies;</li>\n<li><strong>Melee</strong> <span class=\"action-glyph\">1</span> jaws (reach 15 pies), <strong>Damage</strong> 2d12+20 piercing;</li>\n<li><strong>Melee</strong> <span class=\"action-glyph\">1</span> tail (reach 25 pies), <strong>Damage</strong> 2d8+20 bludgeoning;</li>\n<li><strong>Spine Rake</strong> <span class=\"action-glyph\">2</span> (move) Tú extend tu spines and Swim or Zancada. Each criatura estás adjacent to at any point during tu movement takes 4d8+10 daño cortante (basic Reflex against tu conjuro DC).</li>\n</ul>\n</li>\n</ul>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.oMtbVNQ5YFmmQUlU]{Spell Efecto: Monstrosity Form}</p>\n<hr />\n<p><strong>Heightened (9th)</strong> Tú instead gain AC = 22 + tu level, 25 temporary HP, attack modifier +31, increase daño by one dado de daño, and ATHLETICS +33.</p>",
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.iPki3yuoucnj7bIt]\n<p>@UUID[Compendium.pf2e.spells-srd.Item.8AMvNVOUEtxBCDvJ]{Monstrosity Form}</p>\n<hr />\n<p>Lanzando un conjuro from a scroll requires holding the scroll in one hand and activating it with a Lanzar un conjuro activity using the normal number of actions for that conjuro.</p>\n<p>The conjuro must appear on tu conjuro list. Because estás the one Casting the Spell, use tu conjuro attack modifier and conjuro DC. The conjuro also gains the appropriate rasgo for tu tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so tú don't need to provide them when casting from a scroll. If the conjuro requires a locus, debes have that locus to Lanzar el conjuro from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific conjuro, drag the conjuro from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
         },
         "strike-melee->Rapier": {
@@ -1016,7 +1016,7 @@
         },
         "action->Rage": {
           "name": "Furia",
-          "description": "<p><strong>Requisitos</strong> Bolar isn't fatigued or raging</p>\n<hr />\n<p><strong>Efecto</strong> Bolar gains 3 Puntos de golpe temporales that last until the rage ends. While raging, he deals 2 daño adicional with melee attacks and takes a -1 penalizador to AC. The rage lasts for 1 minuto, until there are no enemies Bolar can perceive, or until Bolar falls unconscious.</p>\n<p>Once the rage ends, Bolar can't Rage again for 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.z3uyCMBddrPK5umr]{Efecto: Rage}</p>"
+          "description": "<p><strong>Requisitos</strong> Bolar isn't fatigued or raging</p>\n<hr />\n<p><strong>Efecto</strong> Bolar gains 3 Puntos de Golpe temporales that last until the rage ends. While raging, he deals 2 daño adicional with melee attacks and takes a -1 penalizador to AC. The rage lasts for 1 minuto, until there are no enemies Bolar can perceive, or until Bolar falls unconscious.</p>\n<p>Once the rage ends, Bolar can't Rage again for 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.z3uyCMBddrPK5umr]{Efecto: Rage}</p>"
         }
       }
     },
@@ -1042,7 +1042,7 @@
       "name": "Bregdi",
       "skillSpecialSurvival": {
         "0": {
-          "label": "to Track a criatura at half its Puntos de golpe or fewer"
+          "label": "to Track a criatura at half its Puntos de Golpe or fewer"
         }
       },
       "items": {
@@ -1136,7 +1136,7 @@
         },
         "action->Terrible Justice": {
           "name": "Terrible Justice",
-          "description": "<p><strong>Desencadenante</strong> A living criatura within 30 pies is reduced to 0 Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> Calennia targets the criatura with a <em>death knell</em> conjuro (DC 34). If el objetivo dies, all of Calennia's enemies within 60 pies are targeted by a <em>fear</em> conjuro (DC 34). A criatura that succeeds at either save is temporarily immune to this ability for 24 horas.</p>"
+          "description": "<p><strong>Desencadenante</strong> A living criatura within 30 pies is reduced to 0 Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> Calennia targets the criatura with a <em>death knell</em> conjuro (DC 34). If el objetivo dies, all of Calennia's enemies within 60 pies are targeted by a <em>fear</em> conjuro (DC 34). A criatura that succeeds at either save is temporarily immune to this ability for 24 horas.</p>"
         },
         "lore->Hell Lore": {
           "name": "Hell Lore"
@@ -1222,7 +1222,7 @@
         },
         "action->Golem Antimagic": {
           "name": "Golem Antimagic",
-          "description": "<p>harmed by fire ([[/r 5d8]], [[/r 3d4]] from areas or daño persistente); healed by electricity (area [[/r 2d4[healing]]] Puntos de golpe); ralentizado by cold</p>\n<hr />\n<p>A golem is immune to conjuros and magical abilities other than its own, but each type of golem is affected by a few types of magic in special ways. If an entry lists multiple types (such as \"cold and water\"), either type of conjuro can affect the golem.</p>\n<p><strong>Harmed By</strong> Any magic of this type that targets the golem causes it to take the listed amount of daño (this daño has no type) instead of the usual effect. If the golem starts its turn in an area of magic of this type or is affected by a persistent effect of the appropriate type, it takes the daño listed in the parenthetical.</p>\n<p><strong>Healed By</strong> Any magic of this type that targets the golem makes the golem lose the ralentizado condition and gain HP equal to half the daño the conjuro would have dealt. If the golem starts its turn in an area of this type of magic, it gains the HP listed in the parenthetical.</p>\n<p><strong>Slowed By</strong> Any magic of this type that targets the golem causes it to be @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for [[/br 2d6 #rounds]]{2d6 rounds} instead of the usual effect. If the golem starts its turn in an area of this type of magic, it's @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for that round.</p>\n<p><strong>Vulnerable To</strong> Each golem is vulnerable to one or more specific conjuros, with the effects described in its stat block.</p>"
+          "description": "<p>harmed by fire ([[/r 5d8]], [[/r 3d4]] from areas or daño persistente); healed by electricity (area [[/r 2d4[healing]]] Puntos de Golpe); ralentizado by cold</p>\n<hr />\n<p>A golem is immune to conjuros and magical abilities other than its own, but each type of golem is affected by a few types of magic in special ways. If an entry lists multiple types (such as \"cold and water\"), either type of conjuro can affect the golem.</p>\n<p><strong>Harmed By</strong> Any magic of this type that targets the golem causes it to take the listed amount of daño (this daño has no type) instead of the usual effect. If the golem starts its turn in an area of magic of this type or is affected by a persistent effect of the appropriate type, it takes the daño listed in the parenthetical.</p>\n<p><strong>Healed By</strong> Any magic of this type that targets the golem makes the golem lose the ralentizado condition and gain HP equal to half the daño the conjuro would have dealt. If the golem starts its turn in an area of this type of magic, it gains the HP listed in the parenthetical.</p>\n<p><strong>Slowed By</strong> Any magic of this type that targets the golem causes it to be @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for [[/br 2d6 #rounds]]{2d6 rounds} instead of the usual effect. If the golem starts its turn in an area of this type of magic, it's @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for that round.</p>\n<p><strong>Vulnerable To</strong> Each golem is vulnerable to one or more specific conjuros, with the effects described in its stat block.</p>"
         },
         "action->Vulnerable to Flesh to Stone": {
           "name": "Vulnerable to Flesh to Stone",
@@ -1276,7 +1276,7 @@
         },
         "action->Golem Antimagic": {
           "name": "Golem Antimagic",
-          "description": "<p>harmed by sonic ([[/r 5d8]], [[/r 2d6]] from areas or daño persistente); healed by acid (area [[/r 2d4[healing]]] Puntos de golpe); ralentizado by cold</p>\n<hr />\n<p>A golem is immune to conjuros and magical abilities other than its own, but each type of golem is affected by a few types of magic in special ways. If an entry lists multiple types (such as \"cold and water\"), either type of conjuro can affect the golem.</p>\n<p><strong>Harmed By</strong> Any magic of this type that targets the golem causes it to take the listed amount of daño (this daño has no type) instead of the usual effect. If the golem starts its turn in an area of magic of this type or is affected by a persistent effect of the appropriate type, it takes the daño listed in the parenthetical.</p>\n<p><strong>Healed By</strong> Any magic of this type that targets the golem makes the golem lose the ralentizado condition and gain HP equal to half the daño the conjuro would have dealt. If the golem starts its turn in an area of this type of magic, it gains the HP listed in the parenthetical.</p>\n<p><strong>Slowed By</strong> Any magic of this type that targets the golem causes it to be @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for [[/br 2d6 #rounds]]{2d6 rounds} instead of the usual effect. If the golem starts its turn in an area of this type of magic, it's @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for that round.</p>\n<p><strong>Vulnerable To</strong> Each golem is vulnerable to one or more specific conjuros, with the effects described in its stat block.</p>"
+          "description": "<p>harmed by sonic ([[/r 5d8]], [[/r 2d6]] from areas or daño persistente); healed by acid (area [[/r 2d4[healing]]] Puntos de Golpe); ralentizado by cold</p>\n<hr />\n<p>A golem is immune to conjuros and magical abilities other than its own, but each type of golem is affected by a few types of magic in special ways. If an entry lists multiple types (such as \"cold and water\"), either type of conjuro can affect the golem.</p>\n<p><strong>Harmed By</strong> Any magic of this type that targets the golem causes it to take the listed amount of daño (this daño has no type) instead of the usual effect. If the golem starts its turn in an area of magic of this type or is affected by a persistent effect of the appropriate type, it takes the daño listed in the parenthetical.</p>\n<p><strong>Healed By</strong> Any magic of this type that targets the golem makes the golem lose the ralentizado condition and gain HP equal to half the daño the conjuro would have dealt. If the golem starts its turn in an area of this type of magic, it gains the HP listed in the parenthetical.</p>\n<p><strong>Slowed By</strong> Any magic of this type that targets the golem causes it to be @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for [[/br 2d6 #rounds]]{2d6 rounds} instead of the usual effect. If the golem starts its turn in an area of this type of magic, it's @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for that round.</p>\n<p><strong>Vulnerable To</strong> Each golem is vulnerable to one or more specific conjuros, with the effects described in its stat block.</p>"
         },
         "action->Vulnerable to Shatter": {
           "name": "Vulnerable to Shatter",
@@ -1435,7 +1435,7 @@
         },
         "action->Rapid Repair": {
           "name": "Rapid Repair",
-          "description": "<p>The clockwork assassin spends 1 hora of its operational time to REPAIR itself, regaining 25 Puntos de golpe and refilling its integrated projectile launcher with 4 spinning blades (to a maximum of 10) and 2 smoke bombs (to a maximum of 5).</p>"
+          "description": "<p>The clockwork assassin spends 1 hora of its operational time to REPAIR itself, regaining 25 Puntos de Golpe and refilling its integrated projectile launcher with 4 spinning blades (to a maximum of 10) and 2 smoke bombs (to a maximum of 5).</p>"
         },
         "action->Smoke Bomb Launcher": {
           "name": "Smoke Bomb Launcher",
@@ -1482,7 +1482,7 @@
         },
         "action->Rapid Repair": {
           "name": "Rapid Repair",
-          "description": "<p>The clockwork assassin spends 1 hora of its operational time to REPAIR itself, regaining 25 Puntos de golpe and refilling its integrated projectile launcher with 4 spinning blades (to a maximum of 10) and 2 smoke bombs (to a maximum of 5).</p>"
+          "description": "<p>The clockwork assassin spends 1 hora of its operational time to REPAIR itself, regaining 25 Puntos de Golpe and refilling its integrated projectile launcher with 4 spinning blades (to a maximum of 10) and 2 smoke bombs (to a maximum of 5).</p>"
         },
         "action->Smoke Bomb Launcher": {
           "name": "Smoke Bomb Launcher",
@@ -1532,7 +1532,7 @@
         },
         "action->Rapid Repair": {
           "name": "Rapid Repair",
-          "description": "<p>The clockwork assassin spends 1 hora of its operational time to REPAIR itself, regaining 25 Puntos de golpe and refilling its integrated projectile launcher with 4 spinning blades (to a maximum of 10) and 2 smoke bombs (to a maximum of 5).</p>"
+          "description": "<p>The clockwork assassin spends 1 hora of its operational time to REPAIR itself, regaining 25 Puntos de Golpe and refilling its integrated projectile launcher with 4 spinning blades (to a maximum of 10) and 2 smoke bombs (to a maximum of 5).</p>"
         },
         "action->Smoke Bomb Launcher": {
           "name": "Smoke Bomb Launcher",
@@ -1606,7 +1606,7 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.FOWF5f0tCaApv9RE]\nSpellbook"
         },
         "consumable->Healing Potion (Moderate)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.G7haQ5gDt30ftJLC]\n<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a healing potion, tú regain @Damage[(3d8+10)[healing]] Puntos de golpe.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.G7haQ5gDt30ftJLC]\n<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a healing potion, tú regain @Damage[(3d8+10)[healing]] Puntos de Golpe.</p>"
         },
         "strike-ranged->Dagger": {
           "name": "Daga"
@@ -1630,7 +1630,7 @@
         },
         "action->Nimble Dodge": {
           "name": "Esquiva ágil",
-          "description": "<p><strong>Desencadenante</strong> A criatura targets the Copper Hand rogue with an attack, and the rogue can see the attacker</p>\n<hr />\n<p><strong>Efecto</strong> The rogue dodges out of the way, gaining a +2 bonificador de circunstancia to AC against el ataque desencadenante.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura targets the Copper Hand rogue with an attack, and the rogue can see the attacker</p>\n<hr />\n<p><strong>Efecto</strong> The rogue dodges out of the way, gaining a +2 bonificador por circunstancia to AC against el ataque desencadenante.</p>"
         },
         "action->Poison Weapon": {
           "name": "Envenenar arma",
@@ -1696,7 +1696,7 @@
         },
         "action->Steady Spellcasting": {
           "name": "Lanzamiento de conjuros firme",
-          "description": "<p>Si un reaction would disrupt el Daemonic Infector's spellcasting action, el attempts un @Check[flat|dc:15] prueba. con un exito, el action isn't disrupted.</p>"
+          "description": "<p>Si un reaction would disrupt el Daemonic Infector's spellcasting action, el attempts un @Check[flat|dc:15] prueba. con un éxito, el action isn't disrupted.</p>"
         },
         "lore->Norgorber Lore": {
           "name": "Norgorber Lore"
@@ -1782,7 +1782,7 @@
         },
         "action->Transfusion Aura": {
           "name": "Transfusion Aura",
-          "description": "<p>30 pies. Any time a criatura in the aura takes @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{Persistente Bleed Damage}, the Daemonic Skinner regains the same number of Puntos de golpe as the daño dealt.</p>\n<p>The Skinner can have only one aura active at a time.</p>\n<p>She can switch her active aura as an INTERACT action.</p>"
+          "description": "<p>30 pies. Any time a criatura in the aura takes @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{Persistente Bleed Damage}, the Daemonic Skinner regains the same number of Puntos de Golpe as the daño dealt.</p>\n<p>The Skinner can have only one aura active at a time.</p>\n<p>She can switch her active aura as an INTERACT action.</p>"
         },
         "action->Bloody Sneak Attack": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\nBloody Sneak Attack",
@@ -1793,7 +1793,7 @@
           "description": "<p><strong>Requisitos</strong> The Daemonic Skinner has a criatura grabbed with her blood chain or a criatura is affected by her bloody chain aura</p>\n<hr />\n<p><strong>Efecto</strong> The Skinner pulls the criatura into the nearest open adjacent square and makes a cleaver Golpe against the criatura.</p>"
         }
       },
-      "publicNotes": "<p>Cadenas de sangre atan a una criatura sangrante a la Desolladora daimónica. Las criaturas dentro del alcance que estén sufriendo daño de sangrado no pueden salir del aura. La Desolladora sólo puede tener un aura activa a la vez, pero puede cambiar el aura activa para adaptarse al sufrimiento que desea explotar.</p>"
+      "publicNotes": "<p>Cadenas de sangre atan a una criatura sangrante a la Desolladora daimónica. Las criaturas dentro del alcance que estén sufriendo daño de sangrado no pueden salir del aura. La Desolladora solo puede tener un aura activa a la vez, pero puede cambiar el aura activa para adaptarse al sufrimiento que desea explotar.</p>"
     },
     "Dart Barrage": {
       "name": "Dart Barrage",
@@ -2018,7 +2018,7 @@
         },
         "action->Vital Transfusion": {
           "name": "Vital Transfusion",
-          "description": "<p><strong>Requisitos</strong> The excorion has at least 70 Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> The excorion sacrifices itself and transfers its bloody, vital energy to a willing living criatura within 30 pies. The excorion is immediately destroyed, and the targeted living criatura heals a number of HP equal to half the excorion's remaining HP at the time that it used this ability.</p>\n<p>The living criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} during its next turn as its body adjusts to the newly transfused blood and vital energy; the living criatura also counts as an excorion for 1 minuto for the purpose of seeing other excorions' Bloody Handprint marks.</p>"
+          "description": "<p><strong>Requisitos</strong> The excorion has at least 70 Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The excorion sacrifices itself and transfers its bloody, vital energy to a willing living criatura within 30 pies. The excorion is immediately destroyed, and the targeted living criatura heals a number of HP equal to half the excorion's remaining HP at the time that it used this ability.</p>\n<p>The living criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} during its next turn as its body adjusts to the newly transfused blood and vital energy; the living criatura also counts as an excorion for 1 minuto for the purpose of seeing other excorions' Bloody Handprint marks.</p>"
         },
         "action->Vomit Blood": {
           "name": "Vomit Blood",
@@ -2058,7 +2058,7 @@
         },
         "action->Vital Transfusion": {
           "name": "Vital Transfusion",
-          "description": "<p><strong>Requisitos</strong> The excorion has at least 200 Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> The excorion sacrifices itself and transfers its bloody, vital energy to a willing living criatura within 30 pies. The excorion is immediately destroyed, and the targeted living criatura heals a number of HP equal to half the excorion's remaining HP at the time that it used this ability.</p>\n<p>The living criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} during its next turn as its body adjusts to the newly transfused blood and vital energy.</p>"
+          "description": "<p><strong>Requisitos</strong> The excorion has at least 200 Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The excorion sacrifices itself and transfers its bloody, vital energy to a willing living criatura within 30 pies. The excorion is immediately destroyed, and the targeted living criatura heals a number of HP equal to half the excorion's remaining HP at the time that it used this ability.</p>\n<p>The living criatura is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} during its next turn as its body adjusts to the newly transfused blood and vital energy.</p>"
         },
         "action->Vomit Blood": {
           "name": "Vomit Blood",
@@ -2172,7 +2172,7 @@
         ],
         "action->Nimble Dodge": {
           "name": "Esquiva ágil",
-          "description": "<p><strong>Desencadenante</strong> A criatura targets Fayati with an attack and she can see the attacker</p>\n<hr />\n<p><strong>Efecto</strong> Fayati dodges out of the way, gaining a +2 bonificador de circunstancia to AC against el ataque desencadenante.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura targets Fayati with an attack and she can see the attacker</p>\n<hr />\n<p><strong>Efecto</strong> Fayati dodges out of the way, gaining a +2 bonificador por circunstancia to AC against el ataque desencadenante.</p>"
         },
         "action->Opportune Backstab": {
           "name": "Puñalada trapera oportuna",
@@ -2229,7 +2229,7 @@
     },
     "Franca Laurentz": {
       "name": "Franca Laurentz",
-      "saveDetails": "+2 bonificador de circunstancia to saves vs. poison",
+      "saveDetails": "+2 bonificador por circunstancia to saves vs. poison",
       "items": {
         "weapon->+1 Striking Crossbow": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.62nnVQvGhoVLLl2K]\n+1 Striking Crossbow"
@@ -2255,7 +2255,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.bz8Y8bVUe7QfBk9g]\n<p><strong>Activar</strong> <span class=\"action-glyph\">1</span> INTERACT</p>\n<p>After tú drink this elixir, tu sight becomes sharper in darkness. Obtienes darkvision for 24 horas.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.7vCenP9j6FuHRv5C]{Efecto: Darkvision Elixir (Greater)}</p>"
         },
         "consumable->Elixir of Life (Moderate)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.c21stU5rhN4F2fZl]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>Elixirs of life accelerate a living criatura's natural healing processes and immune system. Upon drinking this elixir, tú regain @Damage[(5d6+12)[healing]] Puntos de golpe and gain +2 bonificador por objeto to tiradas de salvación against diseases and poisons for 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efecto: Elixir of Life}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.c21stU5rhN4F2fZl]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>Elixirs of life accelerate a living criatura's natural healing processes and immune system. Upon drinking this elixir, tú regain @Damage[(5d6+12)[healing]] Puntos de Golpe and gain +2 bonificador por objeto to tiradas de salvación against diseases and poisons for 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efecto: Elixir of Life}</p>"
         },
         "consumable->Blackfinger Blight": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.WvDbdESFJY6Be2u1]\n<p><strong>Activar</strong> <span class=\"action-glyph\">2</span> INTERACT</p>\n<hr />\n<p>Este oily, dark purple powder gives off the distinct odor of boiled leather. When delivered, the poison acts quickly to constrict the victim's blood flow to their extremities and turn their lungs into a soft jelly. A victim of blackfinger blight is recognizable by the pores of their fingertips weeping an inky oil that coats their hands and makes it difficult to hold things. Each round, at the beginning of their turn, a criatura affected by blackfinger blight must succeed at a flat DC 5 check or drop one random item they're holding.</p>\n<p><strong>Tirada de salvación</strong> DC 32 Fortitude</p>\n<p><strong>Onset</strong> 1 asalto</p>\n<p><strong>Duración máxima</strong> 6 asaltos</p>\n<p><strong>Etapa 1</strong> @Damage[6d6[poison]] daño (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[8d6[poison]] daño (1 asalto)</p>\n<p><strong>Etapa 3</strong> @Damage[10d6[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confundido}(1 asalto)</p>"
@@ -2572,7 +2572,7 @@
         },
         "action->Leaping Charge": {
           "name": "Leaping Charge",
-          "description": "<p>The giant bone skipper @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leaps} up to 20 pies. It then makes a mandibles Golpe, gaining a +1 bonificador de circunstancia to its tirada de ataque.</p>"
+          "description": "<p>The giant bone skipper @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leaps} up to 20 pies. It then makes a mandibles Golpe, gaining a +1 bonificador por circunstancia to its tirada de ataque.</p>"
         },
         "action->Marrow Rot": {
           "name": "Marrow Rot",
@@ -2615,7 +2615,7 @@
         },
         "action->Feed on Fear": {
           "name": "Feed on Fear",
-          "description": "<p><strong>Requisito</strong> Un enemigo is under a fear effect or dying within 15 pies of the will-o'-wisp</p>\n<hr />\n<p><strong>Efecto</strong> The will-o'-wisp feeds on the criatura's terror. They regains 4d8 Puntos de golpe, and if they've Gone Dark, their glow reignites. A will-o'-wisp can take this action only una vez por asalto.</p>"
+          "description": "<p><strong>Requisito</strong> Un enemigo is under a fear effect or dying within 15 pies of the will-o'-wisp</p>\n<hr />\n<p><strong>Efecto</strong> The will-o'-wisp feeds on the criatura's terror. They regains 4d8 Puntos de Golpe, and if they've Gone Dark, their glow reignites. A will-o'-wisp can take this action only una vez por asalto.</p>"
         },
         "action->Go Dark": {
           "name": "Go Dark",
@@ -2862,7 +2862,7 @@
         },
         "action->Dueling Parry": {
           "name": "Parada de duelo",
-          "description": "<p>As long as he has one free hand, Grimwold can parry attacks against him with his longsword. He gains a +2 bonificador de circunstancia to AC until the start of his next turn as long as his other hand remains free.</p>"
+          "description": "<p>As long as he has one free hand, Grimwold can parry attacks against him with his longsword. He gains a +2 bonificador por circunstancia to AC until the start of his next turn as long as his other hand remains free.</p>"
         },
         "action->Studied Strike": {
           "name": "Studied Golpe",
@@ -2923,7 +2923,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.r0ifJfoz8aqf0mwk]\n<p>Aunque se la denomina coraza, this type of armor consists of several pieces of plate or half-plate armor that protect the torso, chest, neck, and sometimes the hips and lower legs. It strategically grants some of the protection of plate while allowing greater flexibility and speed.</p>"
         },
         "consumable->Healing Potion (Lesser)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.e0vSAQfxhHauiAoD]\n<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a healing potion, tú regain @Damage[(2d8+5)[healing]] Puntos de golpe.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.e0vSAQfxhHauiAoD]\n<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a healing potion, tú regain @Damage[(2d8+5)[healing]] Puntos de Golpe.</p>"
         },
         "strike-ranged->Lawkeeper": {
           "name": "Lawkeeper"
@@ -3108,7 +3108,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.8YnlhfZSQ89FjDZ2]\n<p>Este small pendant is usually shaped like a humanoid skull or small animal skull.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">3</span> INTERACT</p>\n<p><strong>Frecuencia</strong> tres veces al día</p>\n<hr />\n<p><strong>Efecto</strong> Quedas undetectable to undead criaturas for 10 minutos. Undead can't see, hear, or smell tú, nor detect tú with sensory capabilities such as scent or tremorsense. A criatura can attempt a single DC 18 Will tirada de salvación to ignore this effect. If an undead has reason to believe that undetected opponents are present, it can still attempt to Seek or Golpe tú. If tú attempt to use a vitality conjuro to daño undead, use <em>comando Undead</em>, touch or daño an undead criatura, or attack any criatura while warded in this manner, the pendant's effects immediately end. An undead criatura who observes tú in this manner or one who succeeds at the Will save is immune to the corpseward pendant for 24 horas.</p>"
         },
         "consumable->Healing Potion (Lesser)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.e0vSAQfxhHauiAoD]\n<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a healing potion, tú regain @Damage[(2d8+5)[healing]] Puntos de golpe.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.e0vSAQfxhHauiAoD]\n<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a healing potion, tú regain @Damage[(2d8+5)[healing]] Puntos de Golpe.</p>"
         },
         "consumable->Hunting Spider Venom (in Reaper's Lancet)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.5RGNjhDxZ0yMhTds]\nHunting Spider Venom (in Reaper's Lancet)",
@@ -3579,7 +3579,7 @@
         },
         "action->Steady Spellcasting": {
           "name": "Lanzamiento de conjuros firme",
-          "description": "<p>Si un reaction would disrupt Flakfatter's spellcasting action, el attempts un @Check[flat|dc:15] prueba. con un exito, el action isn't disrupted.</p>"
+          "description": "<p>Si un reaction would disrupt Flakfatter's spellcasting action, el attempts un @Check[flat|dc:15] prueba. con un éxito, el action isn't disrupted.</p>"
         },
         "lore->Norgorber Lore": {
           "name": "Norgorber Lore"
@@ -3631,7 +3631,7 @@
           "name": "Tinted Goggles"
         },
         "consumable->Healing Potion (Moderate)": {
-          "description": "<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a healing potion, tú regain @Damage[(3d8+10)[healing]] Puntos de golpe.</p>"
+          "description": "<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a healing potion, tú regain @Damage[(3d8+10)[healing]] Puntos de Golpe.</p>"
         },
         "strike-melee->Staff": {
           "name": "Bastón"
@@ -3736,7 +3736,7 @@
       "items": {
         "action->Dominate": {
           "name": "Dominar",
-          "description": "<p><strong>Desencadenante</strong> A criatura who doesn't bear the sigil of Kharnas attempts to open the door</p>\n<hr />\n<p><strong>Efecto</strong> A surge of the Radiant Spark's latent power courses through the glyph and washes over the triggering criatura. If the criatura is undead, it takes @Damage[10d10[vitality]] daño. If it's living, it instead regains @Damage[10d10[healing]] Puntos de golpe. It then must succeed at a @Check[will|dc:40|traits:incapacitation,mental] salvación or be affected by a 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P]{Dominate} conjuro.</p>\n<p>The conjuro commands the affected criatura to attack the nearest criatura who doesn't bear the sigil of Kharnas.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura who doesn't bear the sigil of Kharnas attempts to open the door</p>\n<hr />\n<p><strong>Efecto</strong> A surge of the Radiant Spark's latent power courses through the glyph and washes over the triggering criatura. If the criatura is undead, it takes @Damage[10d10[vitality]] daño. If it's living, it instead regains @Damage[10d10[healing]] Puntos de Golpe. It then must succeed at a @Check[will|dc:40|traits:incapacitation,mental] salvación or be affected by a 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P]{Dominate} conjuro.</p>\n<p>The conjuro commands the affected criatura to attack the nearest criatura who doesn't bear the sigil of Kharnas.</p>"
         }
       }
     },
@@ -3819,7 +3819,7 @@
         },
         "action->Sudden Betrayal": {
           "name": "Sudden Betrayal",
-          "description": "<p>A glabrezu can always use DECEPTION when rolling initiative as long as they're aware of at least one opponent before initiative is rolled. When using DECEPTION for initiative, the demon gains a +2 bonificador de circunstancia to DECEPTION.</p>"
+          "description": "<p>A glabrezu can always use DECEPTION when rolling initiative as long as they're aware of at least one opponent before initiative is rolled. When using DECEPTION for initiative, the demon gains a +2 bonificador por circunstancia to DECEPTION.</p>"
         },
         "action->Tentacle Trip": {
           "name": "Tentacle Trip",
@@ -4050,7 +4050,7 @@
         },
         "action->Watery Simulacra": {
           "name": "Watery Simulacra",
-          "description": "<p>The minchgorm raises up to eight figures from nearby water, each appearing in an empty space within 60 pies of the minchgorm. A simulacrum can take any shape of size Medium or smaller that the minchgorm desires, including that of a specific individual or object, but is always plainly made of water. The minchgorm can speak, cast conjuros, and use its senses through its simulacra, spending actions for a simulacrum on a one-for-one basis. By using a single action with the concentrate rasgo, the minchgorm can cause any number of simulacra to Fly, Dar un paso, Zancada, or Swim up to 60 pies. A simulacrum uses the minchgorm's AC and tiradas de salvación and has 30 Puntos de golpe. A minchgorm can have up to eight simulacra in existence at once. Simulacra dissolve immediately when more than 60 pies from the minchgorm, or if the minchgorm dies or falls unconscious. The minchgorm can dismiss any number of its simulacra as a free action.</p>"
+          "description": "<p>The minchgorm raises up to eight figures from nearby water, each appearing in an empty space within 60 pies of the minchgorm. A simulacrum can take any shape of size Medium or smaller that the minchgorm desires, including that of a specific individual or object, but is always plainly made of water. The minchgorm can speak, cast conjuros, and use its senses through its simulacra, spending actions for a simulacrum on a one-for-one basis. By using a single action with the concentrate rasgo, the minchgorm can cause any number of simulacra to Fly, Dar un paso, Zancada, or Swim up to 60 pies. A simulacrum uses the minchgorm's AC and tiradas de salvación and has 30 Puntos de Golpe. A minchgorm can have up to eight simulacra in existence at once. Simulacra dissolve immediately when more than 60 pies from the minchgorm, or if the minchgorm dies or falls unconscious. The minchgorm can dismiss any number of its simulacra as a free action.</p>"
         },
         "action->Improved Grab": {
           "name": "Agarrón mejorado"
@@ -4106,7 +4106,7 @@
         },
         "action->Zealous Restoration": {
           "name": "Zealous Restoration",
-          "description": "<p>Miogimo can't regain Puntos de golpe through resting or curación de vacío; he feeds only on the idealism of his supporters, regaining 10 Puntos de golpe per day for each criatura under the effects of a @UUID[Compendium.pf2e.spells-srd.Item.Q690d3mw3TUrKX7E]{Geas} cast by Miogimo. Las criaturas under Miogimo's <em>geas</em> have their maximum HP reduced by 10 each day until they are burned away to a husk and perish. After 24 horas, such criaturas rise as zeal-damned ghouls under Miogimo's control. Zeal-damned ghouls eat only the flesh of evil or chaotic criaturas and deal an additional 1d6 spirit and 1d6 daño de vacío with their attacks.</p>"
+          "description": "<p>Miogimo can't regain Puntos de Golpe through resting or curación de vacío; he feeds only on the idealism of his supporters, regaining 10 Puntos de Golpe per day for each criatura under the effects of a @UUID[Compendium.pf2e.spells-srd.Item.Q690d3mw3TUrKX7E]{Geas} cast by Miogimo. Las criaturas under Miogimo's <em>geas</em> have their maximum HP reduced by 10 each day until they are burned away to a husk and perish. After 24 horas, such criaturas rise as zeal-damned ghouls under Miogimo's control. Zeal-damned ghouls eat only the flesh of evil or chaotic criaturas and deal an additional 1d6 spirit and 1d6 daño de vacío with their attacks.</p>"
         },
         "lore->Underworld Lore": {
           "name": "Saber de Bajos fondos"
@@ -4169,7 +4169,7 @@
         },
         "action->Supersonic Hearing": {
           "name": "Supersonic Hearing",
-          "description": "<p>Mobana has spent years in close proximity to the @UUID[Compendium.pf2e.equipment-srd.Item.k9BYXA4b7Z4Hy6lZ]{Deafening Music Box} in her possession and is immune to its effects. She also gains a +2 bonificador de circunstancia against sonic effects and effects that impose the deafened condition</p>"
+          "description": "<p>Mobana has spent years in close proximity to the @UUID[Compendium.pf2e.equipment-srd.Item.k9BYXA4b7Z4Hy6lZ]{Deafening Music Box} in her possession and is immune to its effects. She also gains a +2 bonificador por circunstancia against sonic effects and effects that impose the deafened condition</p>"
         },
         "action->Swift Sneak": {
           "name": "Movimiento furtivo rápido",
@@ -4181,7 +4181,7 @@
         },
         "action->Nimble Dodge": {
           "name": "Esquiva ágil",
-          "description": "<p><strong>Desencadenante</strong> Mobana is targeted with a melee or ranged attack by an attacker they can see.</p>\n<hr />\n<p><strong>Efecto</strong> Mobana gains a +2 bonificador de circunstancia to AC against el ataque desencadenante.</p>"
+          "description": "<p><strong>Desencadenante</strong> Mobana is targeted with a melee or ranged attack by an attacker they can see.</p>\n<hr />\n<p><strong>Efecto</strong> Mobana gains a +2 bonificador por circunstancia to AC against el ataque desencadenante.</p>"
         },
         "action->Poison Weapon": {
           "name": "Envenenar arma",
@@ -4439,7 +4439,7 @@
         },
         "action->Painful Light": {
           "name": "Painful Light",
-          "description": "<p>Cuando attempting un salvacion against un light effect, un myrucarx gets un result one degree de success lower than ello rolled. Un myrucarx caught en sunlight es @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} y @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2}.</p>"
+          "description": "<p>Cuando attempting un salvación against un light effect, un myrucarx gets un result one degree de success lower than ello rolled. Un myrucarx caught en sunlight es @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} y @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2}.</p>"
         },
         "action->Illusory Persona": {
           "name": "Illusory Persona",
@@ -4600,7 +4600,7 @@
         },
         "action->Nimble Dodge": {
           "name": "Esquiva ágil",
-          "description": "<p><strong>Desencadenante</strong> The poisoner is targeted with a melee or ranged attack by an attacker it can see</p>\n<hr />\n<p><strong>Efecto</strong> The poisoner gains a +2 bonificador de circunstancia to AC against el ataque desencadenante.</p>"
+          "description": "<p><strong>Desencadenante</strong> The poisoner is targeted with a melee or ranged attack by an attacker it can see</p>\n<hr />\n<p><strong>Efecto</strong> The poisoner gains a +2 bonificador por circunstancia to AC against el ataque desencadenante.</p>"
         },
         "action->Impromptu Toxin": {
           "name": "Impromptu Toxin",
@@ -4664,7 +4664,7 @@
         },
         "action->Rotting Aura": {
           "name": "Rotting Aura",
-          "description": "<p>10 pies. The zombie emits an aura of rot and disease that causes wounds to fester and turn sour. Any living criatura that starts its turn within 10 pies of the Ofalth Zombie and is not at full Puntos de golpe takes @Damage[2d6[untyped]] daño as its wounds fester.</p>\n<p>Las criaturas that take a impacto crítico from the Ofalth Zombie also take this daño immediately.</p>\n<hr />\n<p><em>Note: Este ability lists a DC 24 in the source, but the glossary ability lacks a save to make.</em></p>"
+          "description": "<p>10 pies. The zombie emits an aura of rot and disease that causes wounds to fester and turn sour. Any living criatura that starts its turn within 10 pies of the Ofalth Zombie and is not at full Puntos de Golpe takes @Damage[2d6[untyped]] daño as its wounds fester.</p>\n<p>Las criaturas that take a impacto crítico from the Ofalth Zombie also take this daño immediately.</p>\n<hr />\n<p><em>Note: Este ability lists a DC 24 in the source, but the glossary ability lacks a save to make.</em></p>"
         },
         "action->Slow": {
           "name": "Lentificar",
@@ -4716,7 +4716,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.sKyJDfHdKacfbNOG]\n<p>Este delicate necklace contains bottled whispers distilled from a source on the Astral Plane rumored to be connected to the first lie ever told.</p>\n<p>While wearing the necklace, obtienes a +3 bonificador por objeto to DECEPTION checks, and puedes attempt to counteract effects that would force tú to tell the truth or determine whether estás lying.</p>\n<p>Éxito on this counteract attempt lets tú ignore the effect, rather than removing the effect entirely. The counteract rank is 9, with a counteract modifier of [[/r 1d20+35]].</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">3</span> INTERACT, envision, command</p>\n<hr />\n<p><strong>Efecto</strong> Tú unstopper the vial and release the lie, creating the effect of a @UUID[Compendium.pf2e.spells-srd.Item.6s0UW4bujggma9TC]{Fabricated Truth} (DC 47). The vial is emptied and can never be activated again.</p>\n<hr />\n<p><strong>Requisitos de fabricación</strong> Supply a casting of <em>fabricated truth</em>.</p>"
         },
         "consumable->Elixir of Rejuvenation": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.UHrLqWCnFEUspSQj]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>The elixir of rejuvenation restores a criatura to full health and eradicates toxins affecting it. When tú drink this elixir, estás restored to tu maximum Puntos de golpe, and all afflictions of 20th level or lower affecting estás removed.</p>\n<p>Puedes instead administer this elixir to a criatura that has been dead for a week or less. When tú do, that criatura is instantly brought back to life with 1 Hit Point and no conjuro slots, Focus Points, or other daily resources.</p>\n<hr />\n<p><strong>Requisitos de fabricación</strong> philosopher's stone, true elixir of life</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.UHrLqWCnFEUspSQj]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT</p>\n<p>The elixir of rejuvenation restores a criatura to full health and eradicates toxins affecting it. When tú drink this elixir, estás restored to tu maximum Puntos de Golpe, and all afflictions of 20th level or lower affecting estás removed.</p>\n<p>Puedes instead administer this elixir to a criatura that has been dead for a week or less. When tú do, that criatura is instantly brought back to life with 1 Hit Point and no conjuro slots, Focus Points, or other daily resources.</p>\n<hr />\n<p><strong>Requisitos de fabricación</strong> philosopher's stone, true elixir of life</p>"
         },
         "consumable->Tears of Death": {
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.gDGPvobJV1QGYBPy]\n<p>Tears of death are among the most powerful of alchemical poisons, distilled from extracts of five other deadly poisons in just the right ratios.</p>\n<hr />\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACT (Contact)</p>\n<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:46]</p>\n<p><strong>Onset</strong> 1 minuto</p>\n<p><strong>Duración máxima</strong> 10 minutos</p>\n<p><strong>Etapa 1</strong> @Damage[18d6[poison]] daño and @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado} (1 asalto)</p>\n<p><strong>Etapa 2</strong> @Damage[25d6[poison]] daño and paralyzed (1 minuto)</p>\n<p><strong>Etapa 3</strong> @Damage[30d6[poison]] daño and paralyzed (1 minuto)</p>"
@@ -4899,7 +4899,7 @@
         },
         "action->Attach": {
           "name": "Attach",
-          "description": "<p>When a pickled punk hits a target larger than itself, it uses bizarre excretions to adhere to that criatura. Este is similar to Grabbing the criatura, but the pickled punk is not @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido}, and it moves with that criatura rather than holding it in place.</p>\n<p>Each turn while attached, the pickled punk automatically deals the daño from its jaws Golpe to the criatura to which it's attached. It also wriggles about, gaining a +2 bonificador de circunstancia to AC as long as it's not also @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}.</p>"
+          "description": "<p>When a pickled punk hits a target larger than itself, it uses bizarre excretions to adhere to that criatura. Este is similar to Grabbing the criatura, but the pickled punk is not @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido}, and it moves with that criatura rather than holding it in place.</p>\n<p>Each turn while attached, the pickled punk automatically deals the daño from its jaws Golpe to the criatura to which it's attached. It also wriggles about, gaining a +2 bonificador por circunstancia to AC as long as it's not also @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}.</p>"
         }
       }
     },
@@ -4946,7 +4946,7 @@
         },
         "action->Poison Frenzy": {
           "name": "Poison Frenzy",
-          "description": "<p><strong>Requisitos</strong> The poison eater isn't @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigado} or already in a frenzy</p>\n<p><strong>Desencadenante</strong> the poison eater damages a criatura while Consume Poison is in effect</p>\n<hr />\n<p><strong>Efecto</strong> The poison eater flies into a frenzy that lasts for 1 minuto. While in a frenzy, the poison eater gains a +1 bonificador de estado to tiradas de ataque with melee Golpes, gains a +4 bonificador de estado to tiradas de daño with melee Golpes, gains 20 Puntos de golpe temporales until the end of the frenzy, and takes a -2 penalizador de estado to AC. The poison eater can't voluntarily end their frenzy. After their frenzy, the poison eater is fatigued.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.u2z1BgpZsxl7Zc2z]{Efecto: Poison Frenzy}</p>"
+          "description": "<p><strong>Requisitos</strong> The poison eater isn't @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigado} or already in a frenzy</p>\n<p><strong>Desencadenante</strong> the poison eater damages a criatura while Consume Poison is in effect</p>\n<hr />\n<p><strong>Efecto</strong> The poison eater flies into a frenzy that lasts for 1 minuto. While in a frenzy, the poison eater gains a +1 bonificador de estado to tiradas de ataque with melee Golpes, gains a +4 bonificador de estado to tiradas de daño with melee Golpes, gains 20 Puntos de Golpe temporales until the end of the frenzy, and takes a -2 penalizador de estado to AC. The poison eater can't voluntarily end their frenzy. After their frenzy, the poison eater is fatigued.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.u2z1BgpZsxl7Zc2z]{Efecto: Poison Frenzy}</p>"
         }
       }
     },
@@ -5046,7 +5046,7 @@
         },
         "action->Construct Armor (Hardness 10)": {
           "name": "Armadura de constructo (Dureza 10)",
-          "description": "<p>Like normal objects, a giant animated statue has Hardness. Este Hardness reduces any daño it takes by an amount equal to the Hardness. Once a giant animated statue is reduced to less than half its Puntos de golpe, or immediately upon being damaged by a impacto crítico, its armadura de constructo breaks and its ARMOR CLASS is reduced to 22.</p>"
+          "description": "<p>Like normal objects, a giant animated statue has Hardness. Este Hardness reduces any daño it takes by an amount equal to the Hardness. Once a giant animated statue is reduced to less than half its Puntos de Golpe, or immediately upon being damaged by a impacto crítico, its armadura de constructo breaks and its ARMOR CLASS is reduced to 22.</p>"
         },
         "action->Stone Robes": {
           "name": "Stone Robes",
@@ -5099,7 +5099,7 @@
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.FABVnBeYtGXshlwm]\n<p>Este ring magically conceals any armor and sheathed armas estás wearing by either turning them invisible or creating the illusion of ordinary clothes. The ring doesn't change tu appearance beyond concealing armas and armor. As soon as tú wield a arma, the arma becomes obvious to onlookers and is no longer affected by the ring until tú sheathe the arma for at least 1 minuto. A criatura can disbelieve this illusion by Seeking or any time it hits tú with an attack.</p>"
         },
         "consumable->Healing Potion (Lesser)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.e0vSAQfxhHauiAoD]\n<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a healing potion, tú regain @Damage[(2d8+5)[healing]] Puntos de golpe.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.e0vSAQfxhHauiAoD]\n<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When tú drink a healing potion, tú regain @Damage[(2d8+5)[healing]] Puntos de Golpe.</p>"
         },
         "strike-melee->Shortsword": {
           "name": "Espada corta"
@@ -5173,7 +5173,7 @@
         },
         "action->Overdrive Engine": {
           "name": "Overdrive Engine",
-          "description": "<p>Reginald is equipped with clockwork organs to power his body</p>\n<hr />\n<p><strong>Requisitos</strong> Reginald has 175 Puntos de golpe or fewer</p>\n<p><strong>Efecto</strong> Reginald gains 200 Puntos de golpe temporales, a +15-pies bonificador de estado to Velocidad, and a +2 bonificador de estado to melee tiradas de ataque. His body begins to overheat, spewing steam that deals @Damage[9d6[fire]|options:area-damage] daño at the beginning of his turn to all criaturas within @Template[emanation|distance:30]{30 pies} (@Check[reflex|dc:40|basic|options:area-effect] salvación). After 2 asaltos, Reginald explodes, dealing @Damage[19d6[fire]] daño to all criaturas within @Template[emanation|distance:60]{60 pies} (@Check[reflex|dc:40|basic] salvación). Reginald dies. For the purposes of his Secret of Rebirth ability, the last criatura to daño Reginald counts as killing him.</p>",
+          "description": "<p>Reginald is equipped with clockwork organs to power his body</p>\n<hr />\n<p><strong>Requisitos</strong> Reginald has 175 Puntos de Golpe or fewer</p>\n<p><strong>Efecto</strong> Reginald gains 200 Puntos de Golpe temporales, a +15-pies bonificador de estado to Velocidad, and a +2 bonificador de estado to melee tiradas de ataque. His body begins to overheat, spewing steam that deals @Damage[9d6[fire]|options:area-damage] daño at the beginning of his turn to all criaturas within @Template[emanation|distance:30]{30 pies} (@Check[reflex|dc:40|basic|options:area-effect] salvación). After 2 asaltos, Reginald explodes, dealing @Damage[19d6[fire]] daño to all criaturas within @Template[emanation|distance:60]{60 pies} (@Check[reflex|dc:40|basic] salvación). Reginald dies. For the purposes of his Secret of Rebirth ability, the last criatura to daño Reginald counts as killing him.</p>",
           "selfEffect": "Efecto: Motor sobremarcha"
         },
         "action->Poison Ink": {
@@ -5246,7 +5246,7 @@
         },
         "action->Plunder Life": {
           "name": "Plunder Life",
-          "description": "<p>60 pies. When a healing effect restores Puntos de golpe to a non-fiend criatura in the aura, the amount of Puntos de golpe restored is halved. The rhevanna gains Puntos de golpe temporales equal to the amount of Puntos de golpe restored.</p>\n<p>The rhevanna loses any remaining Puntos de golpe temporales after 1 minuto.</p>"
+          "description": "<p>60 pies. When a healing effect restores Puntos de Golpe to a non-fiend criatura in the aura, the amount of Puntos de Golpe restored is halved. The rhevanna gains Puntos de Golpe temporales equal to the amount of Puntos de Golpe restored.</p>\n<p>The rhevanna loses any remaining Puntos de Golpe temporales after 1 minuto.</p>"
         },
         "action->Detaining Strike": {
           "name": "Detaining Golpe",
@@ -5254,7 +5254,7 @@
         },
         "action->Lifedrinker": {
           "name": "Lifedrinker",
-          "description": "<p><strong>Desencadenante</strong> The rhevanna kills a living criatura of at least 16th level</p>\n<hr />\n<p><strong>Efecto</strong> The rhevanna drinks the triggering criatura's life force and regains @Damage[40[healing]] Puntos de golpe. If the triggering criatura is a celestial, the rhevanna instead regains @Damage[80[healing]] Puntos de golpe.</p>"
+          "description": "<p><strong>Desencadenante</strong> The rhevanna kills a living criatura of at least 16th level</p>\n<hr />\n<p><strong>Efecto</strong> The rhevanna drinks the triggering criatura's life force and regains @Damage[40[healing]] Puntos de Golpe. If the triggering criatura is a celestial, the rhevanna instead regains @Damage[80[healing]] Puntos de Golpe.</p>"
         },
         "action->Malefic Binding": {
           "name": "Malefic Binding",
@@ -5463,7 +5463,7 @@
         },
         "action->Blood-Fueled Titter": {
           "name": "Blood-Fueled Titter",
-          "description": "<p>If the shatterling attempts an INTIMIDATION check to [[/act demoralize]] a target within 30 pies of a criatura with daño persistente de sangrado, the shatterling has +4 bonificador de circunstancia to the INTIMIDATION check. In addition, the shatterling takes no penalizador to the check for not speaking a language el objetivo can hear, and el objetivo isn't temporarily immune to the shatterling's attempts to DEMORALIZE it unless the shatterling critically fails its INTIMIDATION check.</p>"
+          "description": "<p>If the shatterling attempts an INTIMIDATION check to [[/act demoralize]] a target within 30 pies of a criatura with daño persistente de sangrado, the shatterling has +4 bonificador por circunstancia to the INTIMIDATION check. In addition, the shatterling takes no penalizador to the check for not speaking a language el objetivo can hear, and el objetivo isn't temporarily immune to the shatterling's attempts to DEMORALIZE it unless the shatterling critically fails its INTIMIDATION check.</p>"
         },
         "action->Mirror Jump": {
           "name": "Mirror Jump",
@@ -5545,7 +5545,7 @@
         },
         "action->Control Body": {
           "name": "Control Body",
-          "description": "<p><strong>Requisitos</strong> The shredskin is adjacent to a Medium or Small humanoid-shaped corpse</p>\n<hr />\n<p><strong>Efecto</strong> The shredskin wraps itself around the corpse and takes control of the host body. While controlling a host, the shredskin uses the host's Velocidad but its own attacks, and it loses its GRAB and Enshroud abilities.</p>\n<p>Attacks that target the shredskin while it controls a body deal half of the daño to the shredskin and half of the daño to the host body. Attacks that target an area deal daño to both the shredskin and host body normally.</p>\n<p>The shredskin can release the host body as a free action at the start of its turn. If the host is destroyed, the shredskin automatically releases the body and is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} for 1 asalto. A Medium corpse typically has 15 hit points, while a Small corpse typically has 10 Puntos de golpe.</p>\n<p>Las criaturas can notice that a corpse is controlled by a shredskin by succeeding a Perception check against the shredskin's DECEPTION DC.</p>"
+          "description": "<p><strong>Requisitos</strong> The shredskin is adjacent to a Medium or Small humanoid-shaped corpse</p>\n<hr />\n<p><strong>Efecto</strong> The shredskin wraps itself around the corpse and takes control of the host body. While controlling a host, the shredskin uses the host's Velocidad but its own attacks, and it loses its GRAB and Enshroud abilities.</p>\n<p>Attacks that target the shredskin while it controls a body deal half of the daño to the shredskin and half of the daño to the host body. Attacks that target an area deal daño to both the shredskin and host body normally.</p>\n<p>The shredskin can release the host body as a free action at the start of its turn. If the host is destroyed, the shredskin automatically releases the body and is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} for 1 asalto. A Medium corpse typically has 15 hit points, while a Small corpse typically has 10 Puntos de Golpe.</p>\n<p>Las criaturas can notice that a corpse is controlled by a shredskin by succeeding a Perception check against the shredskin's DECEPTION DC.</p>"
         },
         "action->Enshroud": {
           "name": "Enshroud",
@@ -5765,7 +5765,7 @@
         },
         "action->Stitch Skin": {
           "name": "Stitch Skin",
-          "description": "<p><strong>Requisitos</strong> The skitterstitch hasn't used this ability since the last time it successfully used its Flay ability</p>\n<hr />\n<p><strong>Efecto</strong> The skitterstitch sews flayed flesh to its body to seal tears and rents. The skitterstitch regains @Damage[8[healing]] Puntos de golpe.</p>"
+          "description": "<p><strong>Requisitos</strong> The skitterstitch hasn't used this ability since the last time it successfully used its Flay ability</p>\n<hr />\n<p><strong>Efecto</strong> The skitterstitch sews flayed flesh to its body to seal tears and rents. The skitterstitch regains @Damage[8[healing]] Puntos de Golpe.</p>"
         }
       }
     },
@@ -5802,7 +5802,7 @@
         },
         "action->Wary": {
           "name": "Wary",
-          "description": "<p>The veteran isn't desprevenido to hidden criaturas and always gains a +4 bonificador de circunstancia to their Perception DC against criaturas attempting to Create a Diversion or Lie to the veteran.</p>"
+          "description": "<p>The veteran isn't desprevenido to hidden criaturas and always gains a +4 bonificador por circunstancia to their Perception DC against criaturas attempting to Create a Diversion or Lie to the veteran.</p>"
         },
         "action->Power Attack": {
           "name": "Ataque Poderoso",
@@ -5897,7 +5897,7 @@
         },
         "action->Target Culprit": {
           "name": "Target Culprit",
-          "description": "<p>The commando designates a single criatura as their culprit. The commando gains a +2 bonificador de circunstancia to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} their culprit and a +2 bonificador de circunstancia to SURVIVAL checks to @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Track} their culprit. The commando's attacks deal an additional 2d8 daño de precisión to the culprit. Este designation lasts for 24 horas or until the commando targets another criatura with this ability.</p>"
+          "description": "<p>The commando designates a single criatura as their culprit. The commando gains a +2 bonificador por circunstancia to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} their culprit and a +2 bonificador por circunstancia to SURVIVAL checks to @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Track} their culprit. The commando's attacks deal an additional 2d8 daño de precisión to the culprit. Este designation lasts for 24 horas or until the commando targets another criatura with this ability.</p>"
         },
         "lore->Legal Lore": {
           "name": "Saber de Leyes"
@@ -6013,7 +6013,7 @@
         },
         "action->Bone Drink": {
           "name": "Bone Drink",
-          "description": "<p><strong>Requisito</strong> The tenome has a criatura grabbed or restrained</p>\n<hr />\n<p><strong>Efecto</strong> The tenome makes a jaws Golpe against the grabbed or restrained criatura. If the Golpe hits, the criatura must succeed at a @Check[fortitude|dc:18] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} (or the value of the criatura's drained condition increases by 1 if it already has a drained value, to a maximum of drained 4).</p>\n<p>The tenome regains [[/r 1d8[healing]]] Puntos de golpe each time it uses Bone Drink.</p>"
+          "description": "<p><strong>Requisito</strong> The tenome has a criatura grabbed or restrained</p>\n<hr />\n<p><strong>Efecto</strong> The tenome makes a jaws Golpe against the grabbed or restrained criatura. If the Golpe hits, the criatura must succeed at a @Check[fortitude|dc:18] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} (or the value of the criatura's drained condition increases by 1 if it already has a drained value, to a maximum of drained 4).</p>\n<p>The tenome regains [[/r 1d8[healing]]] Puntos de Golpe each time it uses Bone Drink.</p>"
         },
         "action->Burst of Velocidad": {
           "name": "Burst of Velocidad",
@@ -6107,7 +6107,7 @@
         },
         "action->Clockwork Brain": {
           "name": "Clockwork Brain",
-          "description": "<p>Un second brain, made de clockwork, es implanted en el Inkmaster's skull. Any time el makes un salvacion de Voluntad, el rolls twice y recibe el higher result.</p>"
+          "description": "<p>Un second brain, made de clockwork, es implanted en el Inkmaster's skull. Any time el makes un salvación de Voluntad, el rolls twice y recibe el higher result.</p>"
         },
         "action->Paralyzing Gaze": {
           "name": "Paralyzing Gaze",
@@ -6190,7 +6190,7 @@
         },
         "action->Perfect Will": {
           "name": "Voluntad perfecta",
-          "description": "<p>Si el Rabbit Prince rolls un success en un salvacion de Voluntad, el gets un exito critico en su lugar, y si el rolls un critical failure, el gets un failure instead.</p>"
+          "description": "<p>Si el Rabbit Prince rolls un success en un salvación de Voluntad, el gets un éxito crítico en su lugar, y si el rolls un critical failure, el gets un failure instead.</p>"
         },
         "action->Superior Senses": {
           "name": "Superior Senses",
@@ -6610,7 +6610,7 @@
         },
         "action->Venom Explosion": {
           "name": "Venom Explosion",
-          "description": "<p><strong>Desencadenante</strong> The venom mage is reduced to 0 Puntos de golpe</p>\n<hr />\n<p><strong>Efecto</strong> The venom mage explodes into a cloud of poison within a @Template[burst|distance:20]. The venom mage then reforms at a point they elige within the burst, avoids being knocked out, and remains at 1 Hit Point. The venom mage's wounded value increases by 1 when they use this ability, and they can't use this ability when they're wounded 3 or more. Las criaturas other than the venom mage within the burst must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> No effect.</p>\n<p><strong>Éxito</strong> The criatura is sickened 1.</p>\n<p><strong>Fallo</strong> The criatura is sickened 2 and cannot recover from the sickened condition while within 20 pies of the venom mage.</p>\n<p><strong>Fallo crítico</strong> As failure, but sickened 4.</p>"
+          "description": "<p><strong>Desencadenante</strong> The venom mage is reduced to 0 Puntos de Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The venom mage explodes into a cloud of poison within a @Template[burst|distance:20]. The venom mage then reforms at a point they elige within the burst, avoids being knocked out, and remains at 1 Hit Point. The venom mage's wounded value increases by 1 when they use this ability, and they can't use this ability when they're wounded 3 or more. Las criaturas other than the venom mage within the burst must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Éxito crítico</strong> No effect.</p>\n<p><strong>Éxito</strong> The criatura is sickened 1.</p>\n<p><strong>Fallo</strong> The criatura is sickened 2 and cannot recover from the sickened condition while within 20 pies of the venom mage.</p>\n<p><strong>Fallo crítico</strong> As failure, but sickened 4.</p>"
         },
         "action->Steady Spellcasting": {
           "name": "Lanzamiento de conjuros firme",
@@ -6649,7 +6649,7 @@
         },
         "action->Scraping Clamor": {
           "name": "Scraping Clamor",
-          "description": "<p>The Washboard Dog scrapes their arma up and down their washboard shield, making such a clatter that it's hard to hear anything over the din. Until the beginning of the Washboard Dog tough's next turn, all criaturas within 30 pies gain a +1 bonificador de circunstancia to any saves to resist auditory conjuros or abilities.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.wcNGbhwn3AuamtsX]{Efecto: Scraping Clamor}</p>"
+          "description": "<p>The Washboard Dog scrapes their arma up and down their washboard shield, making such a clatter that it's hard to hear anything over the din. Until the beginning of the Washboard Dog tough's next turn, all criaturas within 30 pies gain a +1 bonificador por circunstancia to any saves to resist auditory conjuros or abilities.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.wcNGbhwn3AuamtsX]{Efecto: Scraping Clamor}</p>"
         },
         "lore->Gang Lore": {
           "name": "Gang Lore"
@@ -6870,11 +6870,11 @@
         },
         "action->Consume Flesh": {
           "name": "Consumir carne",
-          "description": "<p><strong>Requisitos</strong> The ghoul is adjacent to the corpse of an evil or chaotic criatura that died within the last hour.</p>\n<hr />\n<p><strong>Efecto</strong> The ghoul devours a chunk of the corpse and regains @Damage[6d6[healing]] Puntos de golpe. It can regain Puntos de golpe from any given corpse only once.</p>"
+          "description": "<p><strong>Requisitos</strong> The ghoul is adjacent to the corpse of an evil or chaotic criatura that died within the last hour.</p>\n<hr />\n<p><strong>Efecto</strong> The ghoul devours a chunk of the corpse and regains @Damage[6d6[healing]] Puntos de Golpe. It can regain Puntos de Golpe from any given corpse only once.</p>"
         },
         "action->Ghoul Fever": {
           "name": "Ghoul Fever",
-          "description": "<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:27]</p>\n<p><strong>Etapa 1</strong> carrier with no ill effect (1 día)</p>\n<p><strong>Etapa 2</strong> @Damage[2d6[void]] daño and regains half as many Puntos de golpe from all healing (1 día)</p>\n<p><strong>Etapa 3</strong> as stage 2 (1 día)</p>\n<p><strong>Etapa 4</strong> @Damage[2d6[void]] daño and gains no benefit from healing (1 día)</p>\n<p><strong>Etapa 5</strong> as stage 4 (1 día)</p>\n<p><strong>Etapa 6</strong> dead, and rises as a zeal-damned ghoul the next midnight.</p>"
+          "description": "<p><strong>Tirada de salvación</strong> @Check[fortitude|dc:27]</p>\n<p><strong>Etapa 1</strong> carrier with no ill effect (1 día)</p>\n<p><strong>Etapa 2</strong> @Damage[2d6[void]] daño and regains half as many Puntos de Golpe from all healing (1 día)</p>\n<p><strong>Etapa 3</strong> as stage 2 (1 día)</p>\n<p><strong>Etapa 4</strong> @Damage[2d6[void]] daño and gains no benefit from healing (1 día)</p>\n<p><strong>Etapa 5</strong> as stage 4 (1 día)</p>\n<p><strong>Etapa 6</strong> dead, and rises as a zeal-damned ghoul the next midnight.</p>"
         },
         "action->Paralysis": {
           "name": "Paralysis",
@@ -6927,7 +6927,7 @@
         },
         "action->Zealous Restoration": {
           "name": "Zealous Restoration",
-          "description": "<p>A zealborn can't regain Puntos de golpe through resting or curación de vacío; they feed only on the idealism of their supporters, regaining 10 Puntos de golpe per day for each criatura under the effects of a <em>geas</em> cast by the zealborn. Las criaturas under a zealborn's <em>geas</em> have their maximum HP reduced by 10 each day until they are burned away to a husk and perish. After 24 horas, such criaturas rise as zeal-damned ghouls under the zealborn's control. Zeal-damned ghouls eat only the flesh of evil or chaotic criaturas and deal an additional 1d6 spirit and 1d6 daño de vacío with their attacks.</p>"
+          "description": "<p>A zealborn can't regain Puntos de Golpe through resting or curación de vacío; they feed only on the idealism of their supporters, regaining 10 Puntos de Golpe per day for each criatura under the effects of a <em>geas</em> cast by the zealborn. Las criaturas under a zealborn's <em>geas</em> have their maximum HP reduced by 10 each day until they are burned away to a husk and perish. After 24 horas, such criaturas rise as zeal-damned ghouls under the zealborn's control. Zeal-damned ghouls eat only the flesh of evil or chaotic criaturas and deal an additional 1d6 spirit and 1d6 daño de vacío with their attacks.</p>"
         }
       }
     },
