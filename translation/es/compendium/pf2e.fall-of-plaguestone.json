@@ -10,15 +10,15 @@
         },
         "action->Empathy Link": {
           "name": "Vínculo empático",
-          "description": "<p>Un siervo alquímico no puede hablar, pero su mente está vinculada a su creador. Puede compartir información emocional básica con su creador, como miedo, felicidad o ira. Si el siervo es destruido, su amo lo sabe automáticamente. El alcance de este vínculo es de 1500 pies.</p>"
+          "description": "<p>Un siervo alquímico no puede hablar, pero su mente está vinculada a la de su creador. Puede compartir información emocional básica con su creador, como miedo, felicidad o ira. Si el siervo es destruido, su maestro lo sabe automáticamente. El alcance de este vínculo es de 1.500 pies.</p>"
         },
         "action->Alchemical Strike": {
           "name": "Golpe alquímico",
-          "description": "<p>Un siervo alquímico contiene un depósito especial que puede cargarse con el contenido de una bomba alquímica que inflija daño de ácido, frío, electricidad o fuego, lo que permite al siervo imbuir sus ataques de puño con ese daño. Cada impacto inflige 1d6 puntos de daño del mismo tipo que el de la bomba cargada en él. Cada bomba contiene suficiente fluido para 10 golpes con éxito.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.yrenENpzVgBKsnNi]{Efecto: Golpe alquímico}</p>"
+          "description": "<p>Un siervo alquímico contiene un depósito especial que puede cargarse con el contenido de una bomba alquímica que cause daño de ácido, frío, electricidad o fuego, lo que permite al siervo imbuir sus ataques de puño con ese daño. Cada impacto causa 1d6 puntos de daño del mismo tipo que la bomba cargada. Cada bomba contiene fluido suficiente para 10 golpes con éxito.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.yrenENpzVgBKsnNi]{Efecto: Golpe alquímico}</p>"
         },
         "action->Vomit Alchemy": {
           "name": "Vomitar alquimia",
-          "description": "<p>Un siervo alquímico puede vomitar un charco de reactivos alquímicos cáusticos, llenando el suelo de una casilla adyacente al siervo. Las criaturas en esa casilla cuando se crea el charco reciben @Damage[2d6[acid]] de daño (@Check[reflex|dc:17|basic]). Cualquier criatura que termine su turno en una casilla que contenga un charco recibe @Damage[2d6[acid]] de daño. El charco permanece durante 1 minuto antes de volverse inerte.</p>"
+          "description": "<p>Un siervo alquímico puede vomitar un charco de reactivos alquímicos cáusticos, cubriendo el suelo de una casilla adyacente al siervo. Las criaturas que estén en esa casilla cuando se crea el charco reciben @Damage[2d6[acid]] de daño (@Check[reflex|dc:17|basic]). Cualquier criatura que termine su turno en una casilla que contenga un charco recibe @Damage[2d6[acid]] de daño. El charco permanece durante 1 minuto antes de volverse inerte.</p>"
         }
       }
     },
@@ -27,17 +27,17 @@
       "items": {
         "action->Beestings": {
           "name": "Picaduras de abeja",
-          "description": "<p>La criatura debe intentar una salvación de @Check[fortitude|dc:16|traits:damaging-effect]. Quienes fallen reciben @Damage[1d4[poison]] de daño y quedan @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpes 1} durante 1 minuto.</p>"
+          "description": "<p>La criatura debe intentar una salvación de @Check[fortitude|dc:16|traits:damaging-effect]. Quienes fallen reciben @Damage[1d4[poison]] de daño y quedan @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} durante 1 minuto.</p>"
         },
         "action->Swarming Stings": {
-          "name": "Picaduras en enjambre",
-          "description": "<p>Cada enemigo en el espacio del enjambre recibe @Damage[1d4[piercing]] de daño (salvación básica de @Check[reflex|dc:16|basic]). La primera vez cada asalto que una criatura falla la salvación y recibe daño perforante, también sufre el efecto de Picaduras de abeja.</p>\n<p>Siempre que el enjambre de abejas usa esta aptitud, el enjambre recibe 1 de daño.</p>"
+          "name": "Picaduras de enjambre",
+          "description": "<p>Cada enemigo en el espacio del enjambre recibe @Damage[1d4[piercing]] de daño (salvación básica de @Check[reflex|dc:16]). La primera vez en cada asalto que una criatura falla la salvación y recibe daño perforante, también sufre el efecto de Picaduras de abeja.</p>\n<p>Cada vez que el enjambre de abejas usa esta aptitud, el enjambre recibe 1 de daño.</p>"
         }
       }
     },
     "Blood Ooze": {
       "name": "Cieno de sangre",
-      "publicNotes": "<p>Hinchada como una burbuja a punto de estallar, esta cosa rezumante parece estar hecha por completo de sangre. Su piel lisa y carmesí solo está mancillada por manchas que parecen coágulos formados en la superficie.</p>\n<p>Creado mediante los rituales alquímicos más viles, el cieno de sangre solo busca una cosa: aumentar su masa consumiendo la sangre de los vivos. El cieno de sangre se oculta dentro del cuerpo de sus víctimas y solo irrumpe para atacar cuando otra comida se acerca, dejando el cuerpo convertido en una cáscara de lo que fue.</p>\n<p>El proceso por el que se crea un cieno así implica drenar la sangre de al menos cuatro criaturas Medianas y alimentar con toda la sangre recogida a una quinta criatura, junto con reactivos mortales diseñados para impedir que la sangre coagule. Durante este tiempo, el huésped muere lentamente mientras el cieno de sangre toma forma y emerge entre 2 y 6 horas después. Los cienos de sangre no sienten lealtad hacia quienes los crearon, pero algunos creadores han observado que los cienos de sangre recién formados parecen evitar dañar a otros miembros de la familia de la criatura huésped.</p>\n<p>No es muy conocido que un cieno de sangre existente puede reproducirse dividiéndose por la mitad. Solo experimenta esta división si ha crecido tanto que partirse en dos crearía un par de cienos de sangre de tamaño normal, como el que se presenta a continuación.</p>",
+      "publicNotes": "<p>Hinchándose como una burbuja a punto de estallar, esta cosa rezumante parece estar hecha por completo de sangre. Su piel resbaladiza y carmesí solo está marcada por manchas que parecen coágulos formados en la superficie.</p>\n<p>Creado mediante los rituales alquímicos más repugnantes, el cieno de sangre solo busca una cosa: aumentar su masa consumiendo la sangre de los vivos. El cieno de sangre se oculta dentro del cuerpo de sus víctimas y solo estalla para atacar cuando otra comida se acerca, dejando el cuerpo convertido en una cáscara de lo que fue.</p>\n<p>El proceso por el que se crea un cieno de este tipo implica drenar la sangre de al menos cuatro criaturas Medianas y alimentar con toda la sangre reunida a una quinta criatura, junto con reactivos mortales diseñados para impedir que la sangre coagule. Durante este tiempo, el huésped muere lentamente mientras el cieno de sangre toma forma, emergiendo entre 2 y 6 horas más tarde. Los cienos de sangre no sienten lealtad hacia quienes los crearon, aunque algunos creadores han observado que los cienos de sangre recién formados parecen evitar dañar a otros miembros de la familia de la criatura huésped.</p>\n<p>No es muy conocido que un cieno de sangre existente pueda reproducirse dividiéndose por la mitad. Solo se somete a esta división si ha crecido tanto que partirse en dos crearía un par de cienos de sangre de tamaño normal, como el que se muestra a continuación.</p>",
       "skillSpecialStealth": {
         "0": {
           "label": "si se oculta dentro de un cuerpo"
@@ -45,51 +45,51 @@
       },
       "items": {
         "strike-melee->Pseudopod": {
-          "name": "Seudópodo"
+          "name": "Pseudópodo"
         },
         "action->Infuse Corpse": {
           "name": "Infundir cadáver",
-          "description": "<p>Un cieno de sangre puede filtrarse en las heridas de un cadáver, desplazando su sangre natural. Puede irrumpir fuera del cadáver como acción gratuita.</p>"
+          "description": "<p>Un cieno de sangre puede filtrarse por las heridas de un cadáver y desplazar su sangre natural. Puede estallar fuera del cadáver como acción gratuita.</p>"
         },
         "action->Motion Sense 60 feet": {
           "name": "Sentido del movimiento 60 pies",
-          "description": "<p>Un cieno de sangre puede sentir el movimiento cercano mediante vibraciones y desplazamientos de aire.</p>"
+          "description": "<p>Un cieno de sangre puede detectar el movimiento cercano mediante vibraciones y desplazamientos del aire.</p>"
         },
         "action->Blood Pool": {
           "name": "Charco de sangre",
-          "description": "<p>Siempre que una criatura adyacente a un cieno de sangre recibe daño por sangrado, el cieno de sangre recupera una cantidad de Puntos de golpe igual al daño infligido.</p>"
+          "description": "<p>Cada vez que una criatura adyacente a un cieno de sangre recibe daño de sangrado, el cieno de sangre recupera una cantidad de Puntos de golpe igual al daño causado.</p>"
         },
         "action->Clot": {
-          "name": "Coágulo",
+          "name": "Coagular",
           "description": "<p><strong>Desencadenante</strong> El cieno de sangre recibe daño de un ataque perforante o cortante.</p>\n<hr />\n<p><strong>Efecto</strong> El cieno de sangre forma un coágulo alrededor de la herida, reduciendo el daño recibido en 5 (hasta un mínimo de 0).</p>"
         },
         "action->Siphon Vitality": {
           "name": "Sifonar vitalidad",
-          "description": "<p>El cieno de sangre extrae sangre de las criaturas cercanas, haciendo que su carne se abra y que la sangre brote para reabastecer al cieno. Cada criatura viva @Template[emanation|distance:15]{a 15 pies o menos} recibe @Damage[3d6[slashing]] de daño (salvación básica de @Check[fortitude|dc:21|basic]).</p>\n<p>El cieno de sangre recupera una cantidad de Puntos de golpe igual a la mitad del daño que Sifonar vitalidad infligió a la criatura individual que recibió más daño.</p>"
+          "description": "<p>El cieno de sangre extrae sangre de las criaturas cercanas, haciendo que su carne se abra y la sangre se derrame para reponer al cieno. Cada criatura viva en una @Template[emanation|distance:15]{emanación de 15 pies} recibe @Damage[3d6[slashing]|options:area-damage] de daño (salvación básica de @Check[fortitude|dc:21|options:area-effect]).</p>\n<p>El cieno de sangre recupera una cantidad de Puntos de golpe igual a la mitad del daño que Sifonar vitalidad haya causado a la única criatura que recibió más daño.</p>"
         }
       }
     },
     "Bloodlash Bush": {
       "name": "Arbusto azotesangre",
-      "publicNotes": "<p>El arbusto azotesangre intenta lacerar a sus enemigos, usando sus heridas supurantes para irrigar el terreno a su alrededor. Las semillas de un arbusto azotesangre solo pueden arraigar en suelo empapado de sangre.</p>\n<hr />\n<p>A menudo ignoradas frente a amenazas más evidentes, algunas plantas pueden ser tan letales y peligrosas como las bestias salvajes.</p>\n<p>Lo que al principio parece un simple arbusto se agita súbitamente y cobra vida.</p>",
+      "publicNotes": "<p>El arbusto azotesangre intenta lacerar a sus enemigos, usando sus heridas supurantes para irrigar el suelo a su alrededor. Las semillas de un arbusto azotesangre solo pueden echar raíces en tierra empapada de sangre.</p>\n<hr />\n<p>Aunque a menudo se pasan por alto frente a amenazas más evidentes, algunas plantas pueden ser tan letales y peligrosas como las bestias salvajes.</p>\n<p>Lo que al principio parece ser un simple arbusto de pronto cobra vida.</p>",
       "items": {
         "strike-melee->Vine": {
           "name": "Enredadera"
         },
         "action->Tremorsense (Imprecise) 30 feet": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]\nTremorsense (Imprecise) 30 pies"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]\nSentido de las vibraciones (impreciso) 30 pies"
         },
         "action->Blood Siphon": {
           "name": "Sifón de sangre",
-          "description": "<p>Los zarcillos del arbusto se extienden para sifonar la sangre de una víctima a 20 pies o menos que tenga daño persistente por sangrado, haciendo que la víctima reciba inmediatamente esa cantidad de daño por sangrado (@Check[reflex|dc:17|basic]).</p>\n<p>El arbusto recupera una cantidad de Puntos de golpe igual al doble del daño infligido.</p>"
+          "description": "<p>Los zarcillos del arbusto se extienden para sifonar la sangre de una víctima a un máximo de 20 pies que tenga daño persistente de sangrado, haciendo que la víctima reciba de inmediato esa cantidad de daño de sangrado (@Check[reflex|dc:17|basic]).</p>\n<p>El arbusto recupera una cantidad de Puntos de golpe igual al doble del daño causado.</p>"
         },
         "action->Spinning Strike": {
           "name": "Golpe giratorio",
-          "description": "<p>El arbusto gira en círculo, azotando en todas las direcciones a la vez. Hace una tirada de ataque y compara el resultado con la CA de cada criatura dentro de su alcance cuerpo a cuerpo, tirando el daño una sola vez y aplicándolo a cada criatura impactada.</p>"
+          "description": "<p>El arbusto gira en círculo, azotando en todas direcciones a la vez. Realiza una tirada de ataque y compara el resultado con la CA de cada criatura dentro de su alcance cuerpo a cuerpo, tirando el daño solo una vez y aplicándolo a cada criatura impactada.</p>"
         },
         "action->Weeping Wounds": {
           "name": "Heridas supurantes",
-          "description": "<p>Las enredaderas de un arbusto azotesangre causan laceraciones terribles que siguen sangrando. Una criatura impactada por un ataque de enredadera recibe @Damage[1[bleed]] de daño (@Damage[2[bleed]] de daño con un impacto crítico).</p>\n<p>A diferencia de otras formas de daño persistente, este daño es acumulativo, hasta un máximo de 5 de daño persistente por sangrado, pero puede detenerse como cualquier otro daño persistente por sangrado.</p>"
+          "description": "<p>Las enredaderas de un arbusto azotesangre causan laceraciones terribles que siguen sangrando. Una criatura impactada por un ataque de enredadera recibe @Damage[1[bleed]] de daño (@Damage[2[bleed]] de daño con un impacto crítico).</p>\n<p>A diferencia de otras formas de daño persistente, este daño es acumulativo, hasta un máximo de 5 de daño persistente de sangrado, aunque puede detenerse como cualquier otro daño persistente de sangrado.</p>"
         }
       }
     },
@@ -101,11 +101,11 @@
         },
         "action->Acid Breath": {
           "name": "Aliento ácido",
-          "description": "<p>El lobo libera de su boca un chorro de ácido verde brillante que cubre a todas las criaturas en una @Template[line|distance:30]. Todas las criaturas en la línea reciben @Damage[3d6[acid]] de daño (salvación básica de @Check[reflex|dc:16|basic]).</p>\n<p>El lobo cáustico no puede volver a usar esta aptitud durante 1 minuto.</p>"
+          "description": "<p>El lobo desata desde su boca un chorro de ácido verde brillante que cubre a todas las criaturas en una @Template[line|distance:30]. Todas las criaturas en la línea reciben @Damage[3d6[acid]|options:area-damage] de daño (salvación básica de @Check[reflex|dc:16|options:area-effect]).</p>\n<p>El lobo cáustico no puede volver a usar esta aptitud durante 1 minuto.</p>"
         },
         "action->Howl": {
           "name": "Aullido",
-          "description": "<p>El lobo libera un aullido aterrador que le permite @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Desmoralizar} a todos los enemigos en una @Template[emanation|distance:30]{emanación de 30 pies}. Los lobos en una @Template[emanation|distance:100]{emanación de 100 pies} pueden gastar una reacción para unirse al aullido, haciendo que el efecto emane también de ellos. Esto afecta a enemigos adicionales a 30 pies o menos de ellos y usa la prueba de Intimidación del lobo cáustico con una penalizador -4 por circunstancia.</p>\n<p>Los enemigos no pueden verse afectados por el aullido más de una vez, aunque estén cerca de más de un lobo aullando. Todas las criaturas objetivo de este efecto quedan temporalmente inmunes durante 24 horas.</p>"
+          "description": "<p>El lobo lanza un aullido aterrador, lo que le permite @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{DESMORALIZAR} a todos los enemigos en una @Template[emanation|distance:30]{emanación de 30 pies}. Los lobos en una @Template[emanation|distance:100]{emanación de 100 pies} pueden gastar una reacción para unirse al aullido, haciendo que el efecto emane también de ellos. Esto afecta a enemigos adicionales a 30 pies de ellos y usa la prueba de INTIMIDACIÓN del lobo cáustico con un penalizador por circunstancia de -4.</p>\n<p>Los enemigos no pueden verse afectados por el aullido más de una vez, aunque estén cerca de más de un lobo aullante. Todas las criaturas objetivo de este efecto son temporalmente inmunes durante 24 horas.</p>"
         }
       }
     },
@@ -113,8 +113,8 @@
       "name": "Granjero borracho",
       "items": {
         "armor->Durable Farm Clothes": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.zBYEU9E7034ENCmh]\nDurable Farm Clothes",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.zBYEU9E7034ENCmh]\n<p>Esta armadura es simplemente una capa de tela gruesa acolchada, pero a veces se usa porque es muy barata. La armadura acolchada es más fácil de dañar y destruir que otros tipos de armadura. La armadura pesada incluye en su Precio una prenda acolchada interior, aunque esta pierde el rasgo cómoda cuando se lleva bajo una armadura pesada. Puedes llevar solo esa armadura acolchada o prenda interior para dormir, si tu armadura pesada ha sido destruida, o cuando no lleves puesta la armadura pesada completa. Esto te permite mantener la armadura investida y beneficiarte del poder de cualquier runa de la armadura pesada asociada, pero nadie más puede llevar tu armadura pesada sin la prenda acolchada interior.</p>"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.zBYEU9E7034ENCmh]\nRopas de granja duraderas",
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.zBYEU9E7034ENCmh]\n<p>Esta armadura es simplemente una capa de tela pesada y acolchada, pero a veces se usa porque es muy barata. La armadura acolchada es más fácil de dañar y destruir que otros tipos de armadura. La armadura pesada incluye una capa inferior de armadura acolchada en su Precio, aunque pierde el rasgo cómoda cuando se lleva bajo armadura pesada. Puedes llevar solo esa armadura acolchada o capa inferior para dormir, si tu armadura pesada queda destruida, o cuando por cualquier otro motivo no lleves la armadura pesada completa. Esto te permite mantener la armadura invertida y beneficiarte del poder de las runas de la armadura pesada asociada, pero nadie más puede llevar tu armadura pesada sin la capa inferior acolchada.</p>"
         },
         "strike-melee->Fist": {
           "name": "Puño"
@@ -126,19 +126,19 @@
           "name": "Jarra"
         },
         "lore->Farming Lore": {
-          "name": "Saber sobre agricultura"
+          "name": "Saber agrícola"
         }
       }
     },
     "Falling Debris": {
       "name": "Escombros que caen",
-      "description": "<p>Una tabla del suelo sensible a la presión está conectada a una viga que sostiene escombros en el techo del pasadizo estrecho.</p>",
-      "disable": "<p>@Check[thievery|dc:15|name:Desactivar trampa|traits:mechanical,trap,hazard] (entrenado) en la tabla del suelo antes de que caigan los escombros</p>",
+      "description": "<p>Una tabla del suelo sensible a la presión está conectada a una viga que sostiene escombros en el techo del pasadizo.</p>",
+      "disable": "<p>@Check[thievery|dc:15|name:Disable Trap|traits:mechanical,trap,hazard] (entrenado) en la tabla del suelo antes de que caigan los escombros</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
         "action->Falling Debris": {
           "name": "Escombros que caen",
-          "description": "<p><strong>Desencadenante</strong> Se ejerce presión sobre la tabla del suelo.</p>\n<hr />\n<p><strong>Efecto</strong> El techo del pasadizo estrecho se derrumba en la casilla donde el pasaje gira, y también en las dos casillas adyacentes. Cualquiera que esté en estas tres casillas recibe @Damage[3d6[bludgeoning]] de daño y puede intentar una salvación de @Check[reflex|dc:14|traits:damaging-effect] para reducir el daño. Para la criatura de la casilla central, donde se activa la trampa, esta es una salvación básica. Las criaturas en las dos casillas adyacentes no reciben daño con un éxito o éxito crítico, ya que evitan por completo los escombros que caen, pero reciben daño completo con una salvación fallida y daño doble con un fallo crítico. Las criaturas que reciben daño de los escombros quedan @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizadas}, atrapadas bajo el peso aplastante.</p>\n<p>Despejar una casilla de escombros requiere una prueba de habilidad con éxito de @Check[athletics|dc:17|name:Despejar escombros], con los siguientes efectos.</p>\n<hr />\n<p><strong>Éxito crítico</strong> La casilla queda despejada en 1 minuto.</p>\n<p><strong>Éxito</strong> La casilla queda despejada en 5 minutos.</p>\n<p><strong>Fallo</strong> La casilla queda despejada en 10 minutos.</p>\n<p><strong>Fallo crítico</strong> El techo sobre la casilla se derrumba aún más, infligiendo @Damage[2d6[bludgeoning]] de daño adicional al personaje que excava la casilla y a cualquier personaje atrapado en esa casilla. Esto tarda 1 minuto y no se progresa.</p>"
+          "description": "<p><strong>Desencadenante</strong> Se ejerce presión sobre la tabla del suelo.</p>\n<hr />\n<p><strong>Efecto</strong> El techo del pasadizo se derrumba en la casilla donde el pasaje gira, y también en las dos casillas adyacentes. Cualquiera que esté en estas tres casillas recibe @Damage[3d6[bludgeoning]] de daño y puede intentar una salvación de @Check[reflex|dc:14|traits:damaging-effect] para reducir el daño. Para la criatura en la casilla central, donde se activa la trampa, esta es una salvación básica. Las criaturas en las dos casillas adyacentes no reciben daño con un éxito o éxito crítico, ya que evitan por completo los escombros que caen, pero reciben el daño completo con un fallo y el doble de daño con un fallo crítico. Las criaturas que reciben daño de los escombros quedan @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizadas}, atrapadas bajo el peso aplastante.</p>\n<p>Retirar los escombros de una casilla requiere una prueba de habilidad de @Check[athletics|dc:17|name:Clear Debris] con éxito, con los siguientes efectos.</p>\n<hr />\n<p><strong>Éxito crítico</strong> La casilla queda despejada en 1 minuto.</p>\n<p><strong>Éxito</strong> La casilla queda despejada en 5 minutos.</p>\n<p><strong>Fallo</strong> La casilla queda despejada en 10 minutos.</p>\n<p><strong>Fallo crítico</strong> El techo sobre la casilla se derrumba aún más, causando @Damage[2d6[bludgeoning]] de daño adicional al personaje que excava y a cualquier personaje atrapado en esa casilla. Esto tarda 1 minuto y no se progresa.</p>"
         }
       }
     },
@@ -153,7 +153,7 @@
         },
         "action->Fiery Pelt": {
           "name": "Pelaje ígneo",
-          "description": "<p>Las criaturas que comiencen su turno apresadas por un leopardo ígneo reciben @Damage[1d4[fire]] de daño. Cualquiera que intente apresar a un leopardo ígneo recibe @Damage[1d4[fire]] de daño por cada intento.</p>"
+          "description": "<p>Las criaturas que comienzan su turno apresadas por un leopardo ígneo reciben @Damage[1d4[fire]] de daño. Cualquiera que intente apresar a un leopardo ígneo recibe @Damage[1d4[fire]] de daño por cada intento.</p>"
         }
       }
     },
@@ -169,11 +169,11 @@
         },
         "action->Coil": {
           "name": "Enroscarse",
-          "description": "<p>La serpiente usa una acción para enroscarse, aumentando su alcance con sus colmillos de 5 pies a 10 pies. Después de que la serpiente Golpea con sus colmillos, deja de estar enroscada.</p>"
+          "description": "<p>La serpiente usa una acción para enroscarse, aumentando el alcance de sus colmillos de 5 pies a 10 pies. Después de que la serpiente golpee con sus colmillos, deja de estar enroscada.</p>"
         },
         "action->Lightning Rattle": {
-          "name": "Cascabel relámpago",
-          "description": "<p>La serpiente agita su extraña cola metálica y desata un rayo en una @Template[line|distance:60]. El rayo inflige @Damage[2d10[electricity]] de daño (salvación básica de @Check[reflex|dc:17|basic]).</p>\n<p>Una vez que la serpiente relámpago gigante usa esta aptitud, debe esperar [[/br 1d4 #Recargar cascabel relámpago]]{1d4 asaltos} antes de volver a hacerlo.</p>"
+          "name": "Cascabeleo relampagueante",
+          "description": "<p>La serpiente sacude su extraña cola metálica y desata un relámpago en una @Template[line|distance:60]. El relámpago causa @Damage[2d10[electricity]|options:area-damage] de daño (salvación básica de @Check[reflex|dc:17|options:area-effect]).</p>\n<p>Una vez que la serpiente relámpago gigante usa esta aptitud, debe esperar [[/gmr 1d4 #Recharge Lightning Rattle]]{1d4 asaltos} antes de poder hacerlo de nuevo.</p>"
         }
       }
     },
@@ -191,7 +191,7 @@
         },
         "action->Double Shot": {
           "name": "Disparo doble",
-          "description": "<p>Colmillo Gris puede hacer dos Golpes a distancia contra dos objetivos distintos, cada uno con una penalizador -2. La penalizador por ataques múltiples de Colmillo Gris solo aumenta después de realizar ambos ataques.</p>"
+          "description": "<p>Colmillo Gris puede realizar dos Golpes a distancia contra dos objetivos distintos, cada uno con un penalizador de -2. El penalizador por ataque múltiple de Colmillo Gris solo aumenta después de realizar ambos ataques.</p>"
         }
       }
     },
@@ -203,10 +203,10 @@
           "gmNote": "<p>Llave de la caja fuerte</p>"
         },
         "consumable->Healing Potion (Lesser)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.e0vSAQfxhHauiAoD]\n<p>Una poción de curación es un vial de líquido rojo rubí que produce una sensación de cosquilleo mientras las heridas de quien la bebe sanan rápidamente. Cuando bebes una poción de curación, recuperas [[/r (2d8+5)[healing]]]{2d8+5 Puntos de golpe}.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.e0vSAQfxhHauiAoD]\n<p>Una poción de curación es un vial de líquido rojo rubí que produce una sensación de cosquilleo mientras las heridas del bebedor sanan rápidamente. Cuando bebes una poción de curación, recuperas @Damage[(2d8+5)[healing]] Puntos de golpe.</p>"
         },
         "consumable->Juggernaut Mutagen (Lesser)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.xE0EdDrf734l2fQH]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Interactuar</p>\n<hr />\n<p>Tras beber este mutágeno, tu cuerpo se vuelve grueso y robusto. Presentas un brillo saludable, aunque tiendes a estar lento y poco atento.</p>\n<p><strong>Beneficio</strong> Obtienes un bonificador de objeto +1 a las salvaciones de Fortaleza y 5 Puntos de golpe temporales. Siempre que estés en tus Puntos de golpe máximos durante al menos 1 minuto completo, recuperas los Puntos de golpe temporales.</p>\n<p><strong>Inconveniente</strong> Sufres una penalizador -2 a las salvaciones de Voluntad, pruebas de Percepción y tiradas de iniciativa.</p>\n<p><strong>Duración</strong> 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.1l139A2Qik4lBHKO]{Efecto: Mutágeno del coloso (menor)}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.xE0EdDrf734l2fQH]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACTUAR</p>\n<hr />\n<p>Después de beber este mutágeno, tu cuerpo se vuelve grueso y robusto. Muestras un brillo saludable, aunque tiendes a moverte con pesadez y a estar poco atento.</p>\n<p><strong>Beneficio</strong> Obtienes un bonificador por objeto +1 a las salvaciones de Fortaleza y 5 Puntos de golpe temporales. Siempre que estés al máximo de Puntos de golpe durante al menos 1 minuto completo, recuperas los Puntos de golpe temporales.</p>\n<p><strong>Inconveniente</strong> Sufres un penalizador -2 a las salvaciones de Voluntad, las pruebas de Percepción y las tiradas de iniciativa.</p>\n<p><strong>Duración</strong> 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.1l139A2Qik4lBHKO]{Efecto: Mutágeno de juggernaut (menor)}</p>"
         },
         "strike-melee->Kukri": {
           "name": "Kukri"
@@ -218,32 +218,32 @@
           "name": "Ballesta pesada"
         },
         "action->Dirty Trick": {
-          "name": "Juego sucio",
-          "description": "<p><strong>Desencadenante</strong> Hallod consigue un impacto crítico con un ataque cuerpo a cuerpo.</p>\n<hr />\n<p><strong>Efecto</strong> Hallod puede intentar una prueba de Atletismo para @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Empujar} o @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Derribar} al objetivo de su ataque. Esto usa la misma penalizador por ataques múltiples que el ataque, pero no cuenta como ataque adicional para esa penalizador.</p>",
+          "name": "Jugada sucia",
+          "description": "<p><strong>Desencadenante</strong> Hallod obtiene un impacto crítico con un ataque cuerpo a cuerpo.</p>\n<hr />\n<p><strong>Efecto</strong> Hallod puede intentar una prueba de ATLETISMO para @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Empujar} o @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Derribar} al objetivo de su ataque. Esto usa el mismo penalizador por ataque múltiple que el ataque, pero no cuenta como un ataque adicional para ese penalizador.</p>",
           "rules": {
             "0": {
-              "text": "<div class='compact-text' data-visibility='gm'>\n<p><strong>{item|name}</strong> <span class=\"action-glyph\">F</span></p>\n<p><strong>Desencadenante</strong> Hallod consigue un impacto crítico con un ataque cuerpo a cuerpo.</p>\n<p><strong>Efecto</strong> Hallod puede intentar una prueba de Atletismo para @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Empujar} o @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Derribar} al objetivo de su ataque. Esto usa la misma penalizador por ataques múltiples que el ataque, pero no cuenta como ataque adicional para esa penalizador.</p>\n</div>"
+              "text": "<div class='compact-text' data-visibility='gm'>\n<p><strong>{item|name}</strong> <span class=\"action-glyph\">F</span></p>\n<p><strong>Desencadenante</strong> Hallod obtiene un impacto crítico con un ataque cuerpo a cuerpo.</p>\n<p><strong>Efecto</strong> Hallod puede intentar una prueba de ATLETISMO para @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Empujar} o @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Derribar} al objetivo de su ataque. Esto usa el mismo penalizador por ataque múltiple que el ataque, pero no cuenta como un ataque adicional para ese penalizador.</p>\n</div>"
             }
           }
         },
         "action->One-Two Move": {
           "name": "Movimiento uno-dos",
-          "description": "<p>Hallod realiza dos Golpes, uno con cada mano; normalmente ataca primero con su kukri. Si este primer ataque impacta, el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} contra el segundo ataque (que para Hallod suele ser un Golpe de puño). La penalizador por ataques múltiples se aplica a estos ataques con normalidad.</p>"
+          "description": "<p>Hallod realiza dos Golpes, uno con cada mano; normalmente ataca primero con su kukri. Si este primer ataque impacta, el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} frente al segundo ataque (que para Hallod suele ser un Golpe de puño). El penalizador por ataque múltiple se aplica a estos ataques con normalidad.</p>"
         },
         "action->Sneak Attack": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>Hallod inflige 1d6 de daño de precisión adicional a las criaturas @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenidas}.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>Hallod causa 1d6 de daño de precisión adicional a las criaturas @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenidas}.</p>"
         }
       }
     },
     "Ice Fall Trap": {
       "name": "Trampa de caída de hielo",
-      "description": "<p>Compartimentos en el techo están preparados para verter un líquido alquímico congelante por toda la habitación si la puerta se abre sin usar la llave.</p>",
-      "disable": "<p>@Check[thievery|dc:20|name:Desactivar caída de hielo|traits:mechanical,trap] (entrenado) en la puerta permite abrirla sin activar la trampa.</p>",
+      "description": "<p>Unos compartimentos en el techo están preparados para dejar caer un líquido alquímico congelante sobre toda la sala si la puerta se abre sin usar la llave.</p>",
+      "disable": "<p>@Check[thievery|dc:20|name:Disable Ice Fall|traits:mechanical,trap] (entrenado) en la puerta permite abrirla sin activar la trampa.</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
         "action->Ice Fall": {
           "name": "Caída de hielo",
-          "description": "<p><strong>Desencadenante</strong> La puerta es atacada o abierta sin usar la llave.</p>\n<hr />\n<p><strong>Efecto</strong> Una suspensión alquímica congelante cae en la habitación, infligiendo @Damage[4d6[cold]] de daño a todos en el área (salvación básica de @Check[reflex|dc:20|basic]).</p>"
+          "description": "<p><strong>Desencadenante</strong> La puerta es atacada o se abre sin usar la llave.</p>\n<hr />\n<p><strong>Efecto</strong> Una lechada alquímica congelante se vierte en la sala, causando @Damage[4d6[cold]] de daño a todos los que estén en el área (salvación básica de @Check[reflex|dc:20]).</p>"
         }
       }
     },
@@ -260,7 +260,7 @@
         },
         "action->Icy Death": {
           "name": "Muerte gélida",
-          "description": "<p>Cuando una rata gélida muere, su cuerpo explota en una ráfaga de pelaje y huesos congelados, infligiendo @Damage[2d4[cold]] de daño a todas las criaturas adyacentes (salvación básica de @Check[reflex|dc:14|basic]).</p>"
+          "description": "<p>Cuando se mata a una rata gélida, su cuerpo explota en una ráfaga de pelaje y huesos congelados, causando @Damage[2d4[cold]] de daño a todas las criaturas adyacentes (salvación básica de @Check[reflex|dc:14]).</p>"
         }
       }
     },
@@ -277,15 +277,15 @@
           "name": "Puño"
         },
         "strike-ranged->Hatchet": {
-          "name": "Hachuela"
+          "name": "Hacha de mano"
         },
         "action->No Escape": {
-          "name": "Sin escapatoria",
-          "description": "<p><strong>Desencadenante</strong> Un enemigo adyacente se aleja.</p>\n<hr />\n<p><strong>Efecto</strong> Lord Nar puede moverse hasta su Velocidad, pero debe terminar su movimiento tan cerca de la criatura desencadenante como sea posible sin entrar en su casilla.</p>"
+          "name": "Sin Huida Posible",
+          "description": "<p><strong>Desencadenante</strong> Un enemigo adyacente se aleja.</p>\n<hr />\n<p><strong>Efecto</strong> Lord Nar puede moverse hasta su Velocidad, pero debe terminar su movimiento tan cerca como sea posible de la criatura desencadenante sin entrar en su casilla.</p>"
         },
         "action->Rage": {
           "name": "Furia",
-          "description": "<p>Lord Nar entra en una furia que dura 1 minuto y le concede 8 Puntos de golpe temporales, 4 de daño adicional con sus ataques indicados y una penalizador -1 a la CA.</p>\n<p>No puede usar acciones que tengan el rasgo concentración mientras está furioso, a menos que también tengan el rasgo furia.</p>\n<p>Cuando su furia termina, Nar no puede volver a entrar en Furia durante 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.z3uyCMBddrPK5umr]{Efecto: Furia}</p>"
+          "description": "<p>Lord Nar entra en una furia que dura 1 minuto y le concede 8 Puntos de golpe temporales, 4 de daño adicional con sus ataques indicados y un penalizador -1 a la CA.</p>\n<p>No puede usar acciones que tengan el rasgo concentrar mientras está en furia, salvo que también tengan el rasgo furia.</p>\n<p>Cuando su furia termina, Nar no puede volver a entrar en Furia durante 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.z3uyCMBddrPK5umr]{Efecto: Furia}</p>"
         }
       }
     },
@@ -297,7 +297,7 @@
         },
         "action->Fleas": {
           "name": "Pulgas",
-          "description": "<p>Cualquiera que sea mordido por un lobo sarnoso queda @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} durante 1 minuto, a menos que tenga éxito en una salvación de @Check[fortitude|dc:14]. Puede gastar una acción de Interactuar para rascarse y quitarse las pulgas, eliminando la condición.</p>"
+          "description": "<p>Cualquiera mordido por un lobo sarnoso queda @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} durante 1 minuto salvo que tenga éxito en una salvación de @Check[fortitude|dc:14], aunque puede gastar una acción de INTERACTUAR para rascarse y quitarse las pulgas, eliminando la condición.</p>"
         }
       }
     },
@@ -309,35 +309,35 @@
         },
         "action->Motion Sense (Precise) 30 feet": {
           "name": "Sentido del movimiento (preciso) 30 pies",
-          "description": "<p>Un lobo mutante puede sentir el movimiento cercano mediante vibraciones y desplazamientos de aire.</p>"
+          "description": "<p>Un lobo mutante puede detectar el movimiento cercano mediante vibraciones y desplazamientos del aire.</p>"
         },
         "action->Gore Spray": {
           "name": "Rociada de sangre",
-          "description": "<p><strong>Desencadenante</strong> Una criatura impacta críticamente a un lobo mutante mientras está adyacente a él.</p>\n<hr />\n<p><strong>Efecto</strong> La herida hace que sangre y vísceras salgan despedidas de una pústula reventada. La criatura desencadenante recibe @Damage[3d6[acid]] de daño (salvación básica de @Check[reflex|dc:19|basic]). Esto ocurre incluso si el ataque mata al lobo.</p>"
+          "description": "<p><strong>Desencadenante</strong> Una criatura obtiene un impacto crítico contra un lobo mutante mientras está adyacente a él.</p>\n<hr />\n<p><strong>Efecto</strong> La herida hace que sangre y vísceras salgan disparadas de una pústula reventada. La criatura desencadenante recibe @Damage[3d6[acid]] de daño (salvación básica de @Check[reflex|dc:19]). Esto ocurre incluso si el ataque mata al lobo.</p>"
         },
         "action->Tear": {
           "name": "Desgarrar",
-          "description": "<p><strong>Desencadenante</strong> El lobo infligió daño a una criatura con sus mandíbulas durante la acción anterior.</p>\n<hr />\n<p><strong>Efecto</strong> El lobo desgarra la carne de la criatura e inflige @Damage[(1d6+2)[slashing],1[persistent,acid]]{1d6+2 de daño cortante y 1 de daño persistente por ácido}.</p>"
+          "description": "<p><strong>Desencadenante</strong> El lobo causó daño a una criatura con sus mandíbulas durante la acción anterior.</p>\n<hr />\n<p><strong>Efecto</strong> El lobo desgarra la carne de la criatura y causa @Damage[(1d6+2)[slashing],1[persistent,acid]]{1d6+2 de daño cortante y 1 de daño persistente de ácido}.</p>"
         }
       }
     },
     "Orc Alchemist": {
-      "name": "Alquimista orco",
+      "name": "Orc alquimista",
       "items": {
         "weapon->Acid Flask (Lesser)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.M1k5QQc1qQLxzyCK]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Golpe</p>\n<p>Este frasco lleno de ácido corrosivo inflige 1 de daño por ácido, 1d6 de daño persistente por ácido y 1 de daño de salpicadura por ácido.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.M1k5QQc1qQLxzyCK]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Golpe</p>\n<p>Este frasco lleno de ácido corrosivo causa 1 de daño de ácido, 1d6 de daño persistente de ácido y 1 de daño de salpicadura de ácido.</p>"
         },
         "weapon->Alchemist's Fire (Lesser)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.yd3kEK21YknZLlcT]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Golpe</p>\n<p>El fuego de alquimista es una combinación de líquidos volátiles que se inflaman al exponerse al aire. El fuego de alquimista inflige 1d8 de daño por fuego, 1 de daño persistente por fuego y 1 de daño de salpicadura por fuego.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.yd3kEK21YknZLlcT]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Golpe</p>\n<p>El fuego de alquimista es una combinación de líquidos volátiles que se inflaman al exponerse al aire. El fuego de alquimista causa 1d8 de daño de fuego, 1 de daño persistente de fuego y 1 de daño de salpicadura de fuego.</p>"
         },
         "weapon->Bottled Lightning (Lesser)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.AFR01HVd7DcZvkpP]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Golpe</p>\n<p>El relámpago embotellado está cargado de reactivos volátiles que crean una descarga eléctrica al exponerse al aire. El relámpago embotellado inflige 1d6 de daño por electricidad y 1 de daño de salpicadura por electricidad. Con un impacto, el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} hasta el comienzo de tu siguiente turno.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.AFR01HVd7DcZvkpP]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Golpe</p>\n<p>El relámpago embotellado está cargado de reactivos volátiles que crean una descarga de electricidad cuando se exponen al aire. El relámpago embotellado causa 1d6 de daño de electricidad y 1 de daño de salpicadura de electricidad. Con un impacto, el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} hasta el comienzo de tu siguiente turno.</p>"
         },
         "consumable->Elixir of Life (Minor)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.hDLbR56Id2OtU318]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Interactuar</p>\n<p>Los elixires de vida aceleran los procesos naturales de curación y el sistema inmunitario de una criatura viva. Al beber este elixir, recuperas [[/r 1d6[healing]]] Puntos de golpe y obtienes un bonificador de objeto +1 a las tiradas de salvación contra enfermedades y venenos durante 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efecto: Elixir de vida (menor)}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.hDLbR56Id2OtU318]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACTUAR</p>\n<p>Los elixires de vida aceleran los procesos naturales de curación y el sistema inmunitario de una criatura viva. Al beber este elixir, recuperas @Damage[1d6[healing]] Puntos de golpe y obtienes un bonificador por objeto +1 a las tiradas de salvación contra enfermedades y venenos durante 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efecto: Elixir de vida}</p>"
         },
         "strike-melee->Orc Knuckle Dagger": {
-          "name": "Daga de nudillos orca"
+          "name": "Daga orca de nudillos"
         },
         "strike-melee->Fist": {
           "name": "Puño"
@@ -354,14 +354,14 @@
       }
     },
     "Spear Launcher": {
-      "name": "Lanzador de lanzas",
-      "description": "<p>Una vieja ballesta pesada está oculta en un montón de basura, cargada con una lanza de madera y conectada a la cuerda que sujeta la puerta.</p>",
-      "disable": "<p>@Check[thievery|dc:18|traits:action:disable-a-device]{Latrocinio (entrenado)} en la cuerda permite a un PJ atarla y abrir la puerta sin activar la trampa.</p>",
+      "name": "Arrojador de lanzas",
+      "description": "<p>Una vieja ballesta pesada está oculta en un montón de basura, cargada con una lanza de madera y conectada a la cuerda que sostiene la puerta.</p>",
+      "disable": "<p>@Check[thievery|dc:18|traits:action:disable-a-device]{LATROCINIO (entrenado)} en la cuerda permite a un PJ atarla y abrir la puerta sin activar la trampa.</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
         "action->Spear": {
           "name": "Lanza",
-          "description": "<p><strong>Desencadenante</strong> La cuerda se corta o se desata de la puerta de algún otro modo.</p>\n<hr />\n<p><strong>Efecto</strong> La trampa realiza un ataque contra la criatura que manipuló la cuerda.</p>"
+          "description": "<p><strong>Desencadenante</strong> La cuerda se corta o se desata de algún otro modo de la puerta.</p>\n<hr />\n<p><strong>Efecto</strong> La trampa realiza un ataque contra la criatura que manipuló la cuerda.</p>"
         },
         "strike-melee->Spear": {
           "name": "Lanza"
@@ -375,11 +375,11 @@
           "name": "Pezuña"
         },
         "action->Shattering Hooves": {
-          "name": "Pezuñas quebrantadoras",
-          "description": "<p>Las pezuñas del caballo de piedra son duras como el hierro; si el caballo hace un Golpe con pezuña y consigue un impacto crítico, la armadura del objetivo también queda dañada, y el ataque inflige a la armadura tanto daño como infligió al objetivo (la Dureza se aplica con normalidad). Si el objetivo usa Bloqueo con escudo contra el impacto crítico de un caballo de piedra con un ataque de pezuña, considera que la Dureza del escudo es 5 puntos menor (mínimo 0).</p>",
+          "name": "Pezuñas quebradoras",
+          "description": "<p>Las pezuñas del caballo de piedra son duras como el hierro; si el caballo realiza un Golpe de pezuña y obtiene un impacto crítico, la armadura del objetivo también resulta dañada, y el ataque causa a la armadura tanto daño como causó al objetivo (la Dureza se aplica con normalidad). Si el objetivo usa Bloqueo con escudo contra el impacto crítico de un caballo de piedra con un ataque de pezuña, trata la Dureza del escudo como 5 puntos menor (mínimo 0).</p>",
           "rules": {
             "0": {
-              "text": "Si el caballo hace un Golpe con pezuña y consigue un impacto crítico, la armadura del objetivo también queda dañada, y el ataque inflige a la armadura tanto daño como infligió al objetivo (la Dureza se aplica con normalidad). Si el objetivo usa Bloqueo con escudo contra el impacto crítico de un caballo de piedra con un ataque de pezuña, considera que la Dureza del escudo es 5 puntos menor (mínimo 0)."
+              "text": "Si el caballo realiza un Golpe de pezuña y obtiene un impacto crítico, la armadura del objetivo también resulta dañada, y el ataque causa a la armadura tanto daño como causó al objetivo (la Dureza se aplica con normalidad). Si el objetivo usa Bloqueo con escudo contra el impacto crítico de un caballo de piedra con un ataque de pezuña, trata la Dureza del escudo como 5 puntos menor (mínimo 0)."
             }
           }
         }
@@ -403,14 +403,14 @@
         },
         "action->Many Minds": {
           "name": "Muchas mentes",
-          "description": "<p>La amalgama tiene muchas consciencias flotando dentro de su mente, y no todas se ven igualmente afectadas por la magia mental. La amalgama siempre trata sus tiradas de salvación contra efectos mentales como si su grado de éxito fuera un paso mejor.</p>"
+          "description": "<p>La amalgama tiene muchas consciencias flotando en su mente, y no todas se ven afectadas por igual por la magia mental. La amalgama siempre trata sus tiradas de salvación contra efectos mentales como un grado de éxito mejor.</p>"
         },
         "action->Too Many Limbs": {
           "name": "Demasiadas extremidades",
-          "description": "<p>La amalgama puede hacer hasta cuatro Golpes, uno con cada uno de sus ataques cuerpo a cuerpo indicados, pero no más de dos contra un mismo objetivo. Sufre una penalizador -2 a cada ataque, pero la penalizador por ataques múltiples no aumenta hasta que se hayan realizado todos los ataques.</p>"
+          "description": "<p>La amalgama puede realizar hasta cuatro Golpes, uno con cada uno de sus ataques cuerpo a cuerpo indicados, pero no más de dos contra un mismo objetivo. Sufre un penalizador -2 a cada ataque, pero el penalizador por ataque múltiple no aumenta hasta que se han realizado todos los ataques.</p>"
         },
         "action->Trip": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]\n<p><strong>Requisitos</strong> Tienes al menos una mano libre. Tu objetivo no puede ser más de una categoría de tamaño mayor que tú.</p>\n<hr />\n<p>Intentas derribar a una criatura. Intenta una prueba de <span data-pf2-action=\"trip\" data-pf2-glyph=\"A\">Atletismo</span> contra la CD de Reflejos del objetivo.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo cae y queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}, y recibe @Damage[1d6[bludgeoning]] de daño.</p>\n<p><strong>Éxito</strong> El objetivo cae y queda tumbado.</p>\n<p><strong>Fallo crítico</strong> Pierdes el equilibrio, caes y quedas tumbado.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]\n<p><strong>Requisitos</strong> Tienes al menos una mano libre. Tu objetivo no puede ser más de un tamaño mayor que tú.</p>\n<hr />\n<p>Intentas derribar a una criatura. Intenta una prueba de [[/act trip]]{ATLETISMO} contra la CD de Reflejos del objetivo.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo cae y queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}, y recibe @Damage[1d6[bludgeoning]] de daño.</p>\n<p><strong>Éxito</strong> El objetivo cae y queda tumbado.</p>\n<p><strong>Fallo crítico</strong> Pierdes el equilibrio, caes y quedas tumbado.</p>"
         }
       }
     },
@@ -423,15 +423,15 @@
         },
         "action->Empathy Link": {
           "name": "Vínculo empático",
-          "description": "<p>El behemot no puede hablar, pero su mente está vinculada a la de su creador. Puede compartir información emocional básica con su creador, como miedo, felicidad o ira. Si el behemot es destruido, su amo lo sabe automáticamente. El alcance de este vínculo es de 1500 pies.</p>"
+          "description": "<p>El behemot no puede hablar, pero su mente está vinculada a la de su creador. Puede compartir información emocional básica con su creador, como miedo, felicidad o ira. Si el behemot es destruido, su maestro lo sabe automáticamente. El alcance de este vínculo es de 1.500 pies.</p>"
         },
         "action->Massive Strike": {
           "name": "Golpe masivo",
-          "description": "<p>El behemot hace un Golpe cuerpo a cuerpo y, si el ataque impacta, puede empujar a la criatura 10 pies hacia atrás (20 pies con un impacto crítico). El objetivo debe tener éxito en una salvación de @Check[fortitude|dc:19] o quedar @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} por este ataque.</p>"
+          "description": "<p>El behemot realiza un Golpe cuerpo a cuerpo y, si el ataque impacta, puede empujar a la criatura 10 pies hacia atrás (20 pies con un impacto crítico). El objetivo debe tener éxito en una salvación de @Check[fortitude|dc:19] o quedar @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} por este ataque.</p>"
         },
         "action->Stomp": {
           "name": "Pisotón",
-          "description": "<p>El behemot puede pisar con fuerza el suelo, haciendo que todas las criaturas a 10 pies o menos caigan @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbadas} (una salvación de @Check[reflex|dc:19] lo niega).</p>"
+          "description": "<p>El behemot puede pisotear el suelo, haciendo que todas las criaturas a 10 pies o menos caigan @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbadas} (una salvación de @Check[reflex|dc:19] lo evita).</p>"
         }
       }
     },
@@ -440,24 +440,24 @@
       "items": {
         "weapon->Alchemist's Fire (Moderate, Infused)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.gWr4q4HiyGhETA8H]\nFuego de alquimista (moderado, infundido)",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.gWr4q4HiyGhETA8H]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Golpe</p>\n<p>El fuego de alquimista es una combinación de líquidos volátiles que se inflaman al exponerse al aire. El fuego de alquimista inflige 2d8 de daño por fuego, 2 de daño persistente por fuego y 2 de daño de salpicadura por fuego. Obtienes un bonificador de objeto +1 a las tiradas de ataque.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.gWr4q4HiyGhETA8H]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Golpe</p>\n<p>El fuego de alquimista es una combinación de líquidos volátiles que se inflaman al exponerse al aire. El fuego de alquimista causa 2d8 de daño de fuego, 2 de daño persistente de fuego y 2 de daño de salpicadura de fuego. Obtienes un bonificador por objeto +1 a las tiradas de ataque.</p>"
         },
         "weapon->Frost Vial (Moderate, Infused)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.nVvH1ZcM7OwIVIs8]\nVial de escarcha (moderado, infundido)",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.nVvH1ZcM7OwIVIs8]\n<p><strong>Activar</strong> <span class=\"action-glyph\">1</span> Golpe</p>\n<hr />\n<p>Los reactivos líquidos de este vial absorben calor rápidamente al exponerse al aire. Un vial de escarcha inflige el daño por frío indicado y daño de salpicadura por frío. Con un impacto, el objetivo sufre una penalizador de estado a sus Velocidades hasta el final de su siguiente turno. Muchos tipos de vial de escarcha también conceden un bonificador de objeto a las tiradas de ataque.</p>\n<p>Obtienes un bonificador de objeto +1 a las tiradas de ataque, la bomba inflige 2d6 de daño por frío y 2 de daño de salpicadura por frío, y el objetivo sufre una penalizador de -10 pies.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.dv0IKm5syOdP759w]{Efecto: Vial de escarcha (moderado)}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.nVvH1ZcM7OwIVIs8]\n<p><strong>Activar</strong> <span class=\"action-glyph\">1</span> Golpe</p>\n<hr />\n<p>Los reactivos líquidos de este vial absorben calor rápidamente al exponerse al aire. Un vial de escarcha causa el daño de frío y el daño de salpicadura de frío indicados. Con un impacto, el objetivo sufre un penalizador de estado a sus Velocidades hasta el final de su siguiente turno. Muchos tipos de vial de escarcha también conceden un bonificador por objeto a las tiradas de ataque.</p>\n<p>Obtienes un bonificador por objeto +1 a las tiradas de ataque, la bomba causa 2d6 de daño de frío y 2 de daño de salpicadura de frío, y el objetivo sufre un penalizador de -10 pies.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.LdmzgBOTjCete4F7]{Efecto: Vial de escarcha}</p>"
         },
         "equipment->Crafter's Eyepiece": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.RgNBGpBc9G2yw1C2]\n<p>Este resistente monóculo metálico, grabado con patrones cuadrados, está diseñado para llevarse sobre un solo ojo. Al girar la lente, revela un tenue esquema tridimensional de un objeto que planeas fabricar o Reparar, con etiquetas útiles en las partes componentes.</p>\n<p>Mientras lo llevas puesto, este monóculo te concede un bonificador de objeto +1 a las pruebas de Artesanía. Cuando Reparas un objeto, aumenta los Puntos de golpe restaurados en 15 por rango de competencia en lugar de 10.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.RgNBGpBc9G2yw1C2]\n<p>Este resistente ocular metálico, grabado con patrones cuadrados, está diseñado para llevarse sobre un solo ojo. Al girar la lente aparece un tenue contorno tridimensional de un objeto que planeas construir o REPARAR, con útiles etiquetas en las piezas que lo componen.</p>\n<p>Mientras lo llevas puesto, este ocular te da un bonificador por objeto +1 a las pruebas de ARTESANÍA. Cuando REPARAS un objeto, aumenta los Puntos de golpe restaurados en 15 por rango de competencia en lugar de 10.</p>"
         },
         "consumable->Bomber's Eye Elixir (Lesser)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.T4ouD4mVFHA3EHs6]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Interactuar</p>\n<p>Esta tintura te permite localizar con precisión a tus enemigos. Durante los siguientes 5 minutos, tus Golpes con bombas alquímicas reducen en 1 el bonificador por circunstancia a la CA que tus objetivos obtienen por cobertura.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.T4ouD4mVFHA3EHs6]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACTUAR</p>\n<p>Esta tintura te permite localizar con precisión a tus enemigos. Durante los siguientes 5 minutos, tus Golpes con bombas alquímicas reducen en 1 el bonificador de circunstancia a la CA que tus objetivos obtienen por cobertura.</p>"
         },
         "consumable->Elixir of Life (Lesser, Infused)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.TZUskLT7yvP7N2co]\nElixir de vida (menor, infundido)",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.TZUskLT7yvP7N2co]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Interactuar</p>\n<p>Los elixires de vida aceleran los procesos naturales de curación y el sistema inmunitario de una criatura viva. Al beber este elixir, recuperas [[/r (3d6+6)[healing]]]{3d6+6 Puntos de golpe} y obtienes un bonificador de objeto +1 a las tiradas de salvación contra enfermedades y venenos durante 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.EpB7yJPEuG6ez4z3]{Efecto: Elixir de vida (menor)}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.TZUskLT7yvP7N2co]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACTUAR</p>\n<p>Los elixires de vida aceleran los procesos naturales de curación y el sistema inmunitario de una criatura viva. Al beber este elixir, recuperas @Damage[(3d6+6)[healing]] Puntos de golpe y obtienes un bonificador por objeto +1 a las tiradas de salvación contra enfermedades y venenos durante 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efecto: Elixir de vida}</p>"
         },
         "strike-melee->Orc Knuckle Dagger": {
-          "name": "Daga de nudillos orca"
+          "name": "Daga orca de nudillos"
         },
         "strike-melee->Fist": {
           "name": "Puño"
@@ -476,11 +476,11 @@
         },
         "action->Alchemy": {
           "name": "Alquimia",
-          "description": "<p>El Escultor ha usado su aptitud de alquimia para crear 4 @UUID[Compendium.pf2e.equipment-srd.Item.gWr4q4HiyGhETA8H]{fuegos de alquimista (moderados)}, 2 @UUID[Compendium.pf2e.equipment-srd.Item.TZUskLT7yvP7N2co]{elixires de vida (menores)} y 4 @UUID[Compendium.pf2e.equipment-srd.Item.nVvH1ZcM7OwIVIs8]{viales de escarcha (moderados)}. Estos son infusiones. Puede gastar una acción para crear un vial adicional de cualquiera de ellos, un @UUID[Compendium.pf2e.equipment-srd.Item.AFR01HVd7DcZvkpP]{relámpago embotellado (menor)} o un @UUID[Compendium.pf2e.equipment-srd.Item.M1k5QQc1qQLxzyCK]{frasco de ácido (menor)}.</p>"
+          "description": "<p>El Escultor ha usado su aptitud de alquimia para crear 4 @UUID[Compendium.pf2e.equipment-srd.Item.gWr4q4HiyGhETA8H]{fuegos de alquimista (moderados)}, 2 @UUID[Compendium.pf2e.equipment-srd.Item.TZUskLT7yvP7N2co]{elixires de vida (menores)} y 4 @UUID[Compendium.pf2e.equipment-srd.Item.nVvH1ZcM7OwIVIs8]{viales de escarcha (moderados)}. Estos son infusiones. Puede gastar una acción para crear un vial adicional de cualquiera de esos objetos, @UUID[Compendium.pf2e.equipment-srd.Item.AFR01HVd7DcZvkpP]{relámpago embotellado (menor)} o un @UUID[Compendium.pf2e.equipment-srd.Item.M1k5QQc1qQLxzyCK]{frasco de ácido (menor)}.</p>"
         },
         "action->Quick Bomber": {
           "name": "Bombardero rápido",
-          "description": "<p>El Escultor puede usar Interactuar para sacar una bomba y luego hacer un Golpe con ella.</p>"
+          "description": "<p>El Escultor puede usar INTERACTUAR para sacar una bomba y luego realizar un Golpe con ella.</p>"
         }
       }
     },
@@ -489,39 +489,42 @@
       "items": {
         "weapon->Acid Flask (Moderate, Infused)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.SgtqZxt26BdjUmEB]\nFrasco de ácido (moderado, infundido)",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.SgtqZxt26BdjUmEB]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Golpe</p>\n<p>Este frasco lleno de ácido corrosivo inflige 1 de daño por ácido, 2d6 de daño persistente por ácido y 2 de daño de salpicadura por ácido. Obtienes un bonificador de objeto +1 a las tiradas de ataque.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.SgtqZxt26BdjUmEB]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Golpe</p>\n<p>Este frasco lleno de ácido corrosivo causa 1 de daño de ácido, 2d6 de daño persistente de ácido y 2 de daño de salpicadura de ácido. Obtienes un bonificador por objeto +1 a las tiradas de ataque.</p>"
         },
         "weapon->Alchemist's Fire (Moderate, Infused)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.gWr4q4HiyGhETA8H]\nFuego de alquimista (moderado, infundido)",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.gWr4q4HiyGhETA8H]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Golpe</p>\n<p>El fuego de alquimista es una combinación de líquidos volátiles que se inflaman al exponerse al aire. El fuego de alquimista inflige 2d8 de daño por fuego, 2 de daño persistente por fuego y 2 de daño de salpicadura por fuego. Obtienes un bonificador de objeto +1 a las tiradas de ataque.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.gWr4q4HiyGhETA8H]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Golpe</p>\n<p>El fuego de alquimista es una combinación de líquidos volátiles que se inflaman al exponerse al aire. El fuego de alquimista causa 2d8 de daño de fuego, 2 de daño persistente de fuego y 2 de daño de salpicadura de fuego. Obtienes un bonificador por objeto +1 a las tiradas de ataque.</p>"
         },
         "weapon->Bottled Lightning (Moderate, Infused)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.97QyNEOAyYLdGaYc]\nRelámpago embotellado (moderado, infundido)",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.97QyNEOAyYLdGaYc]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Golpe</p>\n<p>El relámpago embotellado está cargado de reactivos volátiles que crean una descarga eléctrica al exponerse al aire. El relámpago embotellado inflige 2d6 de daño por electricidad y 2 de daño de salpicadura por electricidad. Con un impacto, el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} hasta el comienzo de tu siguiente turno. Obtienes un bonificador de objeto +1 a las tiradas de ataque.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.97QyNEOAyYLdGaYc]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Golpe</p>\n<p>El relámpago embotellado está cargado de reactivos volátiles que crean una descarga de electricidad cuando se exponen al aire. El relámpago embotellado causa 2d6 de daño de electricidad y 2 de daño de salpicadura de electricidad. Con un impacto, el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} hasta el comienzo de tu siguiente turno. Obtienes un bonificador por objeto +1 a las tiradas de ataque.</p>"
         },
         "weapon->Tanglefoot Bag (Lesser, Infused)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.T6Appwwl6nUl56Xj]\nBolsa enredadora (menor, infundida)",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.T6Appwwl6nUl56Xj]\n<p><strong>Activar</strong> <span class=\"action-glyph\">1</span> Golpe</p>\n<hr />\n<p>Una bolsa enredadora está llena de sustancias pegajosas. Cuando impactas a una criatura con una bolsa enredadora, esa criatura sufre una penalizador de estado de -10 pies a sus Velocidades durante 1 minuto. La CD para Escapar es 17.</p>\n<p>Con un impacto crítico, una criatura en contacto con una superficie sólida queda pegada a la superficie y @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizada} durante 1 asalto, y una criatura que vuele mediante alas ve sus alas enredadas, lo que hace que caiga al suelo de forma segura y no pueda volver a Volar durante 1 asalto. Las bolsas enredadoras no son efectivas cuando se usan contra una criatura que está en el agua.</p>\n<p>El objetivo puede terminar cualquier efecto Escapando o gastando un total de 3 acciones para retirar cuidadosamente las sustancias pegajosas. Estas acciones de Interactuar no tienen por qué ser consecutivas, y otras criaturas también pueden proporcionar las acciones.</p>"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.T6Appwwl6nUl56Xj]\nBolsa de maraña (menor, infundida)",
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.T6Appwwl6nUl56Xj]\n<p><strong>Activar</strong> <span class=\"action-glyph\">1</span> Golpe</p>\n<hr />\n<p>Una bolsa de maraña está llena de sustancias pegajosas. Cuando impactas a una criatura con una bolsa de maraña, esa criatura sufre un penalizador de estado de -10 pies a sus Velocidades durante 1 minuto. La CD para Escapar es 17 ([[/act escape dc=17]]).</p>\n<p>Con un impacto crítico, una criatura en contacto con una superficie sólida queda pegada a la superficie y @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Inmovilizada} durante 1 asalto; una criatura que vuele con alas queda con las alas enredadas, lo que hace que caiga de forma segura al suelo y no pueda Volar de nuevo durante 1 asalto. Las bolsas de maraña no son eficaces cuando se usan contra una criatura que está en el agua.</p>\n<p>El objetivo puede poner fin a cualquier efecto Escapando o gastando un total de 3 acciones para retirar cuidadosamente las sustancias pegajosas. Estas acciones de INTERACTUAR no tienen que ser consecutivas, y otras criaturas también pueden aportar acciones.</p>"
         },
         "equipment->Bracers of Missile Deflection": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.eurAnvH8bK0ZctOR]\n<p>Estos brazales están hechos de placas de albaargentita resistente y relucen como el sol de verano.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">R</span> Interactuar</p>\n<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Desencadenante</strong> Un ataque con arma a distancia te impacta, pero no consigue un impacto crítico.</p>\n<p><strong>Requisitos</strong> Eres consciente del ataque y no estás desprevenido.</p>\n<hr />\n<p><strong>Efecto</strong> Los brazales desvían el proyectil. Obtienes un bonificador por circunstancia +2 a la CA contra el ataque desencadenante. Si esto hiciera que el ataque fuese un fallo, el ataque falla contra ti.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.PeiuJ951kkBPTCSM]{Efecto: Brazales de desvío de proyectiles}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.eurAnvH8bK0ZctOR]\n<p>Estos brazales están hechos de placas de plateadaurora resistente y brillan como el sol de verano.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">R</span> INTERACTUAR</p>\n<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Desencadenante</strong> Un ataque con arma a distancia te impacta, pero no obtiene un impacto crítico.</p>\n<p><strong>Requisitos</strong> Eres consciente del ataque y no estás desprevenido.</p>\n<hr />\n<p><strong>Efecto</strong> Los brazales desvían el proyectil. Obtienes un bonificador de circunstancia +2 a la CA contra el ataque desencadenante. Si esto hace que el ataque sea un fallo, el ataque no te impacta.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.PeiuJ951kkBPTCSM]{Efecto: Brazales de desvío de proyectiles}</p>"
         },
         "equipment->Key": {
           "name": "Llave"
         },
         "consumable->Potion of Fire Resistance (Lesser)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.bDnk4TSzvD5BQmE5]\n<p>Beber esta poción espesa y fortificante concede resistencia 5 contra el daño por fuego durante 1 hora.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Interactuar</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.bDnk4TSzvD5BQmE5]\n<p>Beber esta poción espesa y fortificante concede resistencia 5 contra el daño de fuego durante 1 hora.</p>\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACTUAR</p>"
         },
         "consumable->Juggernaut Mutagen (Lesser)": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.xE0EdDrf734l2fQH]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Interactuar</p>\n<hr />\n<p>Tras beber este mutágeno, tu cuerpo se vuelve grueso y robusto. Presentas un brillo saludable, aunque tiendes a estar lento y poco atento.</p>\n<p><strong>Beneficio</strong> Obtienes un bonificador de objeto +1 a las salvaciones de Fortaleza y 5 Puntos de golpe temporales. Siempre que estés en tus Puntos de golpe máximos durante al menos 1 minuto completo, recuperas los Puntos de golpe temporales.</p>\n<p><strong>Inconveniente</strong> Sufres una penalizador -2 a las salvaciones de Voluntad, pruebas de Percepción y tiradas de iniciativa.</p>\n<p><strong>Duración</strong> 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.1l139A2Qik4lBHKO]{Efecto: Mutágeno del coloso (menor)}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.xE0EdDrf734l2fQH]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACTUAR</p>\n<hr />\n<p>Después de beber este mutágeno, tu cuerpo se vuelve grueso y robusto. Muestras un brillo saludable, aunque tiendes a moverte con pesadez y a estar poco atento.</p>\n<p><strong>Beneficio</strong> Obtienes un bonificador por objeto +1 a las salvaciones de Fortaleza y 5 Puntos de golpe temporales. Siempre que estés al máximo de Puntos de golpe durante al menos 1 minuto completo, recuperas los Puntos de golpe temporales.</p>\n<p><strong>Inconveniente</strong> Sufres un penalizador -2 a las salvaciones de Voluntad, las pruebas de Percepción y las tiradas de iniciativa.</p>\n<p><strong>Duración</strong> 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.1l139A2Qik4lBHKO]{Efecto: Mutágeno de juggernaut (menor)}</p>"
+        },
+        "consumable->Stone Body Mutagen (Lesser)": {
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.5ftFTiKY0BMvhzL9]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACTUAR</p>\n<hr />\n<p>Este mutágeno calcifica tu cuerpo, volviéndolo duro como la piedra.</p>\n<p><strong>Beneficio</strong> Obtienes resistencia 5 al daño físico (excepto contundente).</p>\n<p><strong>Inconveniente</strong> Tus Velocidades se reducen en 10 pies (mínimo 5 pies) y sufres un penalizador -2 a las salvaciones de Reflejos.</p>\n<p><strong>Duración</strong> 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.PEPOd38VfVzQMKG5]{Efecto: Mutágeno de cuerpo pétreo (menor)}</p>"
         },
         "consumable->Acid Energy Mutagen (Lesser)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.mbrwudO35tItsldq]\nMutágeno de energía ácida (menor)",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.mbrwudO35tItsldq]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Interactuar</p>\n<hr />\n<p>Al crearse, este mutágeno se sintoniza con uno de cuatro tipos de energía: ácido, frío, electricidad o fuego. Al consumirlo, el mutágeno impregna tu cuerpo de energía que se derrama cada vez que atacas. A niveles superiores, incluso puede concederte la aptitud de desatar la energía en estallidos controlados.</p>\n<p><strong>Beneficio</strong> Obtienes resistencia 5 al tipo de energía sintonizado. Siempre que consigas un impacto con un arma cuerpo a cuerpo, añade 1 de daño del tipo de energía sintonizado.</p>\n<p><strong>Inconveniente</strong> Obtienes debilidad 5 a los otros tres tipos de energía.</p>\n<p><strong>Duración</strong> 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.C9Tnl6Q7Z5Sbw5EY]{Efecto: Mutágeno de energía (menor)}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.mbrwudO35tItsldq]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACTUAR</p>\n<hr />\n<p>Al crearse, este mutágeno se sintoniza con uno de cuatro tipos de energía: ácido, frío, electricidad o fuego. Al consumirse, el mutágeno impregna tu cuerpo con energía que se derrama cada vez que atacas. A niveles superiores, incluso puede concederte la capacidad de liberar la energía en estallidos controlados.</p>\n<p><strong>Beneficio</strong> Obtienes resistencia 5 al tipo de energía sintonizado. Cada vez que obtienes un impacto con un arma cuerpo a cuerpo, añade 1 de daño del tipo de energía sintonizado.</p>\n<p><strong>Inconveniente</strong> Obtienes debilidad 5 a los otros tres tipos de energía.</p>\n<p><strong>Duración</strong> 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.C9Tnl6Q7Z5Sbw5EY]{Efecto: Mutágeno de energía (menor)}</p>"
         },
         "consumable->Elixir of Life (Lesser, Infused)": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.TZUskLT7yvP7N2co]\nElixir de vida (menor, infundido)",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.TZUskLT7yvP7N2co]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> Interactuar</p>\n<p>Los elixires de vida aceleran los procesos naturales de curación y el sistema inmunitario de una criatura viva. Al beber este elixir, recuperas [[/r (3d6+6)[healing]]]{3d6+6 Puntos de golpe} y obtienes un bonificador de objeto +1 a las tiradas de salvación contra enfermedades y venenos durante 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.EpB7yJPEuG6ez4z3]{Efecto: Elixir de vida (menor)}</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.TZUskLT7yvP7N2co]\n<p><strong>Activar</strong> <span class=\"action-glyph\">A</span> INTERACTUAR</p>\n<p>Los elixires de vida aceleran los procesos naturales de curación y el sistema inmunitario de una criatura viva. Al beber este elixir, recuperas @Damage[(3d6+6)[healing]] Puntos de golpe y obtienes un bonificador por objeto +1 a las tiradas de salvación contra enfermedades y venenos durante 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efecto: Elixir de vida}</p>"
         },
         "backpack->Belt Pouch": {
           "name": "Faltriquera"
@@ -542,14 +545,14 @@
           "name": "Relámpago embotellado"
         },
         "strike-ranged->Tanglefoot Bag": {
-          "name": "Bolsa enredadora"
+          "name": "Bolsa de maraña"
         },
         "strike-ranged->Alchemical Crossbow": {
           "name": "Ballesta alquímica"
         },
         "action->Alchemy": {
           "name": "Alquimia",
-          "description": "<p>Vilree ha usado su aptitud de alquimia para crear 4 @UUID[Compendium.pf2e.equipment-srd.Item.SgtqZxt26BdjUmEB]{frascos de ácido (moderados)}, 6 @UUID[Compendium.pf2e.equipment-srd.Item.gWr4q4HiyGhETA8H]{fuegos de alquimista (moderados)}, 2 @UUID[Compendium.pf2e.equipment-srd.Item.97QyNEOAyYLdGaYc]{relámpagos embotellados (moderados)}, 3 @UUID[Compendium.pf2e.equipment-srd.Item.TZUskLT7yvP7N2co]{elixires de vida (menores)} y 2 @UUID[Compendium.pf2e.equipment-srd.Item.T6Appwwl6nUl56Xj]{bolsas enredadoras (menores)}. Estos son infusiones. Puede gastar una acción para crear un vial adicional de cualquiera de estos objetos, o cualquiera de los objetos indicados como fórmulas en su libro.</p>"
+          "description": "<p>Vilree ha usado su aptitud de alquimia para crear 4 @UUID[Compendium.pf2e.equipment-srd.Item.SgtqZxt26BdjUmEB]{frascos de ácido (moderados)}, 6 @UUID[Compendium.pf2e.equipment-srd.Item.gWr4q4HiyGhETA8H]{fuegos de alquimista (moderados)}, 2 @UUID[Compendium.pf2e.equipment-srd.Item.97QyNEOAyYLdGaYc]{relámpagos embotellados (moderados)}, 3 elixires de vida menores @UUID[Compendium.pf2e.equipment-srd.Item.TZUskLT7yvP7N2co]{Elixir de vida (menor)} y 2 bolsas de maraña menores @UUID[Compendium.pf2e.equipment-srd.Item.T6Appwwl6nUl56Xj]{Bolsa de maraña (menor)}. Estos son infusiones. Puede gastar una acción para crear un vial adicional de cualquiera de estos objetos, o de cualquiera de los objetos indicados como fórmulas en su libro.</p>"
         },
         "action->Far Lob": {
           "name": "Lanzamiento lejano",
@@ -557,27 +560,27 @@
         },
         "action->Alchemical Crossbow": {
           "name": "Ballesta alquímica",
-          "description": "<p>La ballesta de Vilree puede disparar virotes infundidos alquímicamente. Como acción, puede encajar una bomba alquímica en la ballesta, y los siguientes 3 ataques que haga con ella infligen 1d6 de daño del tipo infligido por la bomba. Estos ataques nunca infligen daño de salpicadura.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.ucAwSIZsGrpBLg6G]{Efecto: Ballesta alquímica}</p>"
+          "description": "<p>La ballesta de Vilree puede disparar virotes infundidos alquímicamente. Como acción, puede insertar una bomba alquímica en la ballesta, y los siguientes 3 ataques que realice con ella causan 1d6 de daño del tipo causado por la bomba. Estos ataques nunca causan daño de salpicadura.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.ucAwSIZsGrpBLg6G]{Efecto: Ballesta alquímica}</p>"
         },
         "action->Quick Bomber": {
-          "name": "Bombardera rápida",
-          "description": "<p>Vilree puede Interactuar para sacar una bomba y luego hacer un Golpe con ella.</p>"
+          "name": "Bombardero rápido",
+          "description": "<p>Vilree puede INTERACTUAR para sacar una bomba y luego realizar un Golpe con ella.</p>"
         }
       }
     },
     "Vine Lasher": {
       "name": "Azotador de enredaderas",
-      "publicNotes": "<p>El azotador de enredaderas ataca en grupo, intentando inmovilizar a su presa y despedazar lentamente a una criatura.</p>\n<hr />\n<p>Lo que al principio parece un simple arbusto de pronto cobra vida.</p>",
+      "publicNotes": "<p>El azotador de enredaderas ataca en grupos, intentando inmovilizar a sus presas y despedazar lentamente a una criatura.</p>\n<hr />\n<p>Lo que al principio parece ser un simple arbusto de pronto cobra vida.</p>",
       "items": {
         "strike-melee->Vine": {
           "name": "Enredadera"
         },
         "action->Tremorsense (Imprecise) 30 feet": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]\nSentido de la vibración (impreciso) 30 pies"
+          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]\nSentido de las vibraciones (impreciso) 30 pies"
         },
         "action->Light Hold": {
           "name": "Sujeción ligera",
-          "description": "<p>Una criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrada} por un azotador de enredaderas no queda inmovilizada, pero el espacio de la criatura agarrada y todas las casillas adyacentes usan las reglas de terreno difícil. Si la criatura se mueve, el azotador de enredaderas se mueve con ella, manteniendo siempre a la criatura agarrada a 10 pies o menos de sí mismo.</p>\n<p>Si dos o más azotadores de enredaderas tienen a una criatura agarrada de esta forma, el espacio del objetivo y las casillas adyacentes usan en su lugar las reglas de terreno difícil mayor.</p>"
+          "description": "<p>Una criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrada} por un azotador de enredaderas no queda inmovilizada, pero el espacio de la criatura agarrada y cada casilla adyacente usan las reglas de terreno difícil. Si la criatura se mueve, el azotador de enredaderas se mueve con ella, manteniendo siempre a la criatura agarrada a 10 pies o menos de sí mismo.</p>\n<p>Si dos o más azotadores de enredaderas tienen a una criatura agarrada de esta forma, entonces el espacio del objetivo y las casillas adyacentes usan en su lugar las reglas de terreno difícil mayor.</p>"
         }
       }
     }
