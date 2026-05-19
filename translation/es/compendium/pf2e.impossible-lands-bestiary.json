@@ -2,277 +2,277 @@
   "label": "Bestiario de Tierras Imposibles",
   "entries": {
     "Benthic Reaver": {
-      "name": "Benthic Reaver",
+      "name": "Devastador bentonico",
       "acDetails": "vision en todas direcciones",
       "hpDetails": "curación de vacío",
-      "publicNotes": "<p>The benthic reaver is a 50-pies-tall undead monstrosity, its ribs rising like giant archways and its spine splitting into three tails.</p>",
+      "publicNotes": "<p>El devastador bentonico es una monstruosidad no muerta de 50 pies de altura, con costillas que se alzan como arcos gigantescos y una columna vertebral que se divide en tres colas.</p>",
       "items": {
         "spellcastingEntry->Arcane Innate Conjuros": {
-          "name": "Arcane Innate Conjuros"
+          "name": "Conjuros arcanos innatos"
         },
         "conjuro->True Seeing (Constant)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]\nTrue Seeing (Constant)"
+          "name": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]\nVision verdadera (constante)"
         },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
         },
         "strike-melee->Fin": {
-          "name": "Fin"
+          "name": "Aleta"
         },
         "strike-melee->Tail": {
           "name": "Cola"
         },
         "strike-ranged->Eye Beam": {
-          "name": "Eye Beam"
+          "name": "Rayo ocular"
         },
         "action->Intense Chill": {
-          "name": "Intense Chill",
-          "description": "<p>30 pies. @Damage[5d6[cold]] daño (@Check[reflex|dc:41|basic]). On a failure, the criatura takes a –15-pies penalizador de estado to its Velocidades for 1 asalto.</p>"
+          "name": "Frio intenso",
+          "description": "<p>30 pies. @Damage[5d6[cold]] de dano (@Check[reflex|dc:41|basic]). Si falla, la criatura recibe un penalizador de estado de -15 pies a sus Velocidades durante 1 asalto.</p>"
         },
         "action->Tail Sweep": [
           {
             "name": "Barrido de cola",
-            "description": "<p><strong>Desencadenante</strong> A criatura moves from beyond the reach of the benthic reaver's tail to within the reach of the benthic reaver's tail</p>\n<hr />\n<p><strong>Efecto</strong> The benthic reaver makes a tail Golpe against the triggering criatura and can use Improved Knockdown if the attack hits, even if it isn't the benthic reaver's turn. If the benthic reaver knocks el objetivo @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}, it disrupts the triggering move action.</p>",
+            "description": "<p><strong>Desencadenante</strong> Una criatura se mueve desde mas alla del alcance de la cola del devastador bentonico hasta quedar dentro de ese alcance.</p>\n<hr />\n<p><strong>Efecto</strong> El devastador bentonico realiza un Golpe de cola contra la criatura desencadenante y puede usar Derribo mejorado si el ataque impacta, aunque no sea el turno del devastador bentonico. Si el devastador bentonico deja @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado} al objetivo, interrumpe la accion de movimiento desencadenante.</p>",
             "id": "Xe2GOMh7IIFQD8Uu"
           },
           {
             "name": "Barrido de cola",
-            "description": "<p>The benthic reaver makes a tail Golpe against each enemigo within its reach. Estos attacks count toward the benthic reaver's multiple attack penalizador, but the multiple attack penalizador doesn't increase until after the benthic reaver makes all its attacks.</p>",
+            "description": "<p>El devastador bentonico realiza un Golpe de cola contra cada enemigo dentro de su alcance. Estos ataques cuentan para el penalizador por ataques multiples del devastador bentonico, pero dicho penalizador no aumenta hasta despues de que haya realizado todos sus ataques.</p>",
             "id": "DVThmJrdhHWi62Yw"
           }
         ],
         "action->Numbing Ice": {
-          "name": "Numbing Ice",
-          "description": "<p>A criatura who takes daño from the benthic reaver's eye beam Golpe must succeed at a @Check[fortitude|dc:41] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 2} as cold stiffens its limbs. A flying criatura who fails its save also descends safely to the ground below. Este is forced movement.</p>"
+          "name": "Hielo entumecedor",
+          "description": "<p>Una criatura que recibe dano del Golpe de rayo ocular del devastador bentonico debe tener exito en una salvacion de @Check[fortitude|dc:41] o queda @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 2} cuando el frio agarrota sus miembros. Una criatura voladora que falle la salvacion tambien desciende de forma segura hasta el suelo. Esto es movimiento forzado.</p>"
         },
         "action->Song of the Lost": {
-          "name": "Song of the Lost",
-          "description": "<p>The benthic reaver unleashes a cry of mourning. All criaturas within 60 pies must attempt a @Check[will|dc:41] salvación to resist. The benthic reaver can't use Song of the Lost for [[/gmr 1d4 #Recharge Song of the Lost]]{1d4 asaltos}.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected.</p>\n<p><strong>Éxito</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.</p>\n<p><strong>Fallo</strong> The criatura is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}.</p>\n<p><strong>Fallo crítico</strong> As failure, but the criatura is also @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1} with sympathy.</p>"
+          "name": "Cancion de los perdidos",
+          "description": "<p>El devastador bentonico desata un lamento de duelo. Todas las criaturas a 60 pies deben intentar una salvacion de @Check[will|dc:41]. El devastador bentonico no puede usar Cancion de los perdidos de nuevo durante [[/gmr 1d4 #Recarga de Cancion de los perdidos]]{1d4 asaltos}.</p>\n<hr />\n<p><strong>Exito critico</strong> La criatura no queda afectada.</p>\n<p><strong>Exito</strong> La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.</p>\n<p><strong>Fallo</strong> La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}.</p>\n<p><strong>Fallo critico</strong> Como fallo, pero la criatura tambien queda @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1} por empatia.</p>"
         }
       }
     },
     "Clockwork Cannoneer": {
-      "name": "Clockwork Cannoneer",
-      "publicNotes": "<p>Clockwork cannoneers are cannon-armed constructs created to defend the Grand Duchy of Alkenstar. The people of Alkenstar typically find conventional arms sufficient for battling criaturas who wander out of the Mana Wastes, but recent increases in activity from the fleshforges of Nex and the necromantic chambers of Geb have spurred the people of the city into a flurry of defensive innovations. Created by an experimental collaboration between the city's gunsmiths and clockwork inventors, the clockwork cannoneer provides exceptional mobile firepower. Two cannon-arms swing at the sides of the 15-pies-tall automaton, and its body contains a hopper of cannonballs that are replenished by engineers when the criatura is wound up for duty. Triple-walled reinforcement on the cannoneer's black-powder reservoirs provides ample protection from the accidental explosions and backfires that often troubled early prototypes of the finely engineered machine. The current design combines the long-range capabilities of field artillery with the stopping power of a firedrake against engaged enemigos, and its heat-tempered gear assembly minimizes warping that might cause slipping, grinding, or shaking.</p>\n<p>While reports from living artillery members serving alongside clockwork cannoneers complain of blisters, smoke inhalation, and singed eyebrows, the Grand Duchy's chief clockwork machinists have assured the city's leadership that the constructs function well within safety parameters. The clockwork cannoneer's self-sufficient construction frees crews to see to those battlefield tasks that can, for the moment, only be conducted by sentient beings.</p>\n<p>INTELLIGENCE reports from Quantium and Absalom indicate that attempts to replicate the clockwork cannoneer's design have been spectacularly unsuccessful.</p>",
+      "name": "Artillero de relojeria",
+      "publicNotes": "<p>Los artilleros de relojeria son constructos armados con canones creados para defender el Gran Ducado de Alkenstar. La gente de Alkenstar suele considerar que las armas convencionales bastan para combatir a las criaturas que salen de los Yermos de Mana, pero el reciente aumento de actividad en las forjas de carne de Nex y en las camaras necromanticas de Geb ha empujado a la ciudad a una oleada de innovaciones defensivas. Creado mediante una colaboracion experimental entre armeros e inventores de relojeria de la ciudad, el artillero de relojeria proporciona una potencia de fuego movil excepcional. Dos brazos-canon oscilan a los lados del automata de 15 pies de altura, y su cuerpo contiene una tolva de balas de canon que los ingenieros reponen cuando se le da cuerda para el servicio. El triple refuerzo de sus depositos de polvora negra ofrece una amplia proteccion contra explosiones accidentales y retrocesos que afectaban a los primeros prototipos. El diseno actual combina el largo alcance de la artilleria de campana con la potencia de parada de un firedrake contra enemigos trabados, y su ensamblaje de engranajes templados por calor minimiza las deformaciones que podrian causar deslizamientos, fricciones o sacudidas.</p>\n<p>Aunque los informes de artilleros vivos que sirven junto a estos constructos se quejan de ampollas, inhalacion de humo y cejas chamuscadas, los principales maquinistas de relojeria del Gran Ducado han asegurado a sus dirigentes que los constructos funcionan dentro de parametros seguros. La construccion autosuficiente del artillero de relojeria libera a las dotaciones para atender las tareas del campo de batalla que, por ahora, solo pueden llevar a cabo seres sintientes.</p>\n<p>Los informes de inteligencia de Quantium y Absalom indican que los intentos de replicar el diseno del artillero de relojeria han fracasado de forma espectacular.</p>",
       "items": {
         "strike-melee->Bore": {
-          "name": "Bore"
+          "name": "Taladro"
         },
         "strike-ranged->Cannonball": {
-          "name": "Cannonball"
+          "name": "Bala de canon"
         },
         "action->Wind-Up": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.xS8ybzuqPSi3Jb8k]\nWind-Up",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.xS8ybzuqPSi3Jb8k]\n<p>24 horas, @Check[thievery|dc:33|traits:action:disable-a-device] prueba, standby</p>\n<p>For a clockwork to act, it must be wound with a unique key by another criatura. Este takes 1 minuto. Once wound, it remains operational for the listed amount of time, usually 24 horas, after which time it becomes unaware of its surroundings and can't act until it's wound again. Some clockworks' abilities require them to spend some of their remaining operational time. They can't spend more than they have and shut down immediately once they have 0 time remaining. If it's unclear when a clockwork was last wound, most clockwork keepers wind all their clockworks at a set time, typically 8 a.m.</p>\n<p>A clockwork that lists standby in its wind-up entry can enter standby mode as a 3-action activity. Its operational time doesn't decrease in standby, but it can sense its surroundings (with a -2 penalizador to Perception). It can't act, with one exception: when it perceives a criatura, it can exit standby as a reaction (rolling initiative if appropriate).</p>\n<p>A criatura can attempt to Disable a Device to wind a clockwork down (with a DC listed in the wind-up entry). For each success, the clockwork loses 1 hora of operational time. Este can be done even if the clockwork is in standby mode.</p>"
+          "name": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.xS8ybzuqPSi3Jb8k]\nDar cuerda",
+          "description": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.xS8ybzuqPSi3Jb8k]\n<p>24 horas, prueba de @Check[thievery|dc:33|traits:action:disable-a-device], espera</p>\n<p>Para que un mecanismo de relojeria actue, otra criatura debe darle cuerda con una llave unica. Esto tarda 1 minuto. Una vez cargado, permanece operativo durante el tiempo indicado, normalmente 24 horas; despues queda inconsciente de su entorno y no puede actuar hasta que se le vuelva a dar cuerda. Algunas aptitudes de relojeria requieren gastar parte del tiempo operativo restante. No pueden gastar mas tiempo del que tienen y se apagan inmediatamente cuando les queda 0 tiempo. Si no esta claro cuando se dio cuerda por ultima vez a un mecanismo, la mayoria de sus cuidadores dan cuerda a todos a una hora fija, normalmente a las 8 a. m.</p>\n<p>Un mecanismo que indique espera en su entrada de dar cuerda puede entrar en modo de espera como una actividad de 3 acciones. Su tiempo operativo no disminuye mientras esta en espera, pero puede percibir su entorno (con un penalizador de -2 a Percepcion). No puede actuar, con una excepcion: cuando percibe una criatura, puede salir del modo de espera como reaccion (tirando iniciativa si procede).</p>\n<p>Una criatura puede intentar Desactivar un dispositivo para quitar cuerda a un mecanismo de relojeria (con la CD indicada en la entrada). Por cada exito, el mecanismo pierde 1 hora de tiempo operativo. Esto puede hacerse incluso si el mecanismo esta en modo de espera.</p>"
         },
         "action->Bombard": {
-          "name": "Bombard",
-          "description": "<p>The clockwork cannoneer launches an explosive shot up to a range of 200 pies that explodes in a @Template[burst|distance:20]. Las criaturas within the burst take @Damage[5d10[bludgeoning]] daño (@Check[reflex|dc:36|basic]).</p>"
+          "name": "Bombardear",
+          "description": "<p>El artillero de relojeria lanza un disparo explosivo hasta un alcance de 200 pies que estalla en una @Template[burst|distance:20]. Las criaturas dentro de la explosion reciben @Damage[5d10[bludgeoning]] de dano (@Check[reflex|dc:36|basic]).</p>"
         },
         "action->Muzzleburn": {
-          "name": "Muzzleburn",
-          "description": "<p>The heat from a discharged cannon sears those who touch its metal shell. The clockwork cannoneer's bore Golpe deal an additional 2d6 daño de fuego until the end of its next turn after it makes a cannonball Golpe or uses its Bombard or Powder Blast abilities.</p>"
+          "name": "Quemadura de boca",
+          "description": "<p>El calor de un canon disparado abrasa a quienes tocan su armazon metalico. Los Golpes de taladro del artillero de relojeria infligen 2d6 de dano de fuego adicional hasta el final de su siguiente turno despues de que realice un Golpe de bala de canon o use sus aptitudes Bombardear o Explosion de polvora.</p>"
         },
         "action->Powder Blast": {
-          "name": "Powder Blast",
-          "description": "<p>The clockwork cannoneer spews flames from one of its cannons, dealing @Damage[8d6[fire]] daño in a @Template[cone|distance:30] (@Check[reflex|dc:36|basic]). Those that fail the save also take @Damage[2d6[persistent,fire]] daño.</p>"
+          "name": "Explosion de polvora",
+          "description": "<p>El artillero de relojeria escupe llamas desde uno de sus canones, infligiendo @Damage[8d6[fire]] de dano en un @Template[cone|distance:30] (@Check[reflex|dc:36|basic]). Quienes fallen la salvacion tambien reciben @Damage[2d6[persistent,fire]] de dano.</p>"
         }
       }
     },
     "Cracked Earth": {
-      "name": "Cracked Earth",
-      "description": "<p>Este 20-pies-by-20-pies patch of ground is cobwebbed with cracks and fissures that crumble when a criatura steps on it.</p>",
-      "disable": "<p>@Check[survival|dc:16] (untrained) to collapse safely; @Check[crafting|dc:20] (entrenado) to shore it up enough to pass over without collapsing it</p>",
+      "name": "Tierra agrietada",
+      "description": "<p>Este parche de terreno de 20 pies por 20 pies esta cubierto de grietas y fisuras que se desmoronan cuando una criatura lo pisa.</p>",
+      "disable": "<p>@Check[survival|dc:16] (no entrenado) para hundirlo de forma segura; @Check[crafting|dc:20] (entrenado) para apuntalarlo lo bastante como para pasar por encima sin que se derrumbe.</p>",
       "stealth": "<p>(entrenado)</p>",
       "items": {
         "action->Long Fall": {
-          "name": "Long Fall",
-          "description": "<p><strong>Desencadenante</strong> A criatura steps onto the cracked earth</p>\n<hr />\n<p><strong>Efecto</strong> The criatura fractures the thin crust of earth and falls through. That criatura can use the @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{GRAB an Edge} reaction to avoid falling, as long as it is adjacent to an edge. Otherwise it takes falling daño (typically @Damage[25[bludgeoning]|options:fall-daño] daño for a 50-pies drop). Some of these rifts eventually lead to the Darklands.</p>"
+          "name": "Caida larga",
+          "description": "<p><strong>Desencadenante</strong> Una criatura pisa la tierra agrietada.</p>\n<hr />\n<p><strong>Efecto</strong> La criatura fractura la fina corteza de tierra y cae a traves de ella. Esa criatura puede usar la reaccion @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Agarrarse a un borde} para evitar caer, siempre que este adyacente a un borde. De lo contrario recibe dano por caida (normalmente @Damage[25[bludgeoning]|options:fall-damage] de dano por una caida de 50 pies). Algunas de estas grietas terminan conduciendo a las Tierras Oscuras.</p>"
         }
       }
     },
     "Cursed King": {
-      "name": "Cursed King",
+      "name": "Rey maldito",
       "hpDetails": "curación de vacío",
       "languages": "más dos idiomas antiguos cualesquiera (no puede hablar)",
-      "publicNotes": "<p>A cursed king is a grotesque mockery of ambition. When treasonous advisors, false prophets, and rebel leaders are captured by evil rulers, they're subjected to all manner of torture and humiliation before their eventual executions. But the cursed king isn't even granted dignity in death, as after their beheading, a desiccated animal head is sewn onto their neck. Estos horrific mummies are then dressed in fine linens and jewelry befitting royalty—a permanent warning of what happens to those who seek to rise above their station.</p>\n<p>A cursed king is bound in servitude to the ruler against whom they once fought, forced to act as a bodyguard. Even the death of their maker gives no reprieve, as they guard the true monarch's tomb forever.</p>",
+      "publicNotes": "<p>Un rey maldito es una grotesca burla de la ambicion. Cuando consejeros traidores, falsos profetas y lideres rebeldes son capturados por gobernantes malvados, sufren toda clase de torturas y humillaciones antes de su ejecucion. Pero al rey maldito ni siquiera se le concede dignidad en la muerte: tras ser decapitado, se cose una cabeza animal desecada sobre su cuello. Estas horribles momias son vestidas despues con finos linos y joyas dignas de la realeza, una advertencia permanente de lo que ocurre a quienes intentan elevarse por encima de su posicion.</p>\n<p>Un rey maldito esta ligado al servicio del gobernante contra el que lucho, obligado a actuar como guardaespaldas. Ni siquiera la muerte de su creador le concede descanso, pues guarda para siempre la tumba del verdadero monarca.</p>",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
         },
         "strike-melee->Fist": {
-          "name": "Fist"
+          "name": "Puno"
         },
         "action->Deadly Pursuit": {
-          "name": "Deadly Pursuit",
-          "description": "<p><strong>Desencadenante</strong> A criatura within the cursed king's reach attempts to move away</p>\n<hr />\n<p><strong>Efecto</strong> The cursed king Strides up to its Velocidad, keeping the criatura within reach until the criatura stops or the cursed king has moved its full Velocidad. If the criatura is still within reach, the cursed king makes a jaws Golpe against it.</p>"
+          "name": "Persecucion mortal",
+          "description": "<p><strong>Desencadenante</strong> Una criatura dentro del alcance del rey maldito intenta alejarse.</p>\n<hr />\n<p><strong>Efecto</strong> El rey maldito Zancadea hasta su Velocidad, manteniendo a la criatura dentro de su alcance hasta que esta se detenga o hasta que el rey maldito haya movido toda su Velocidad. Si la criatura sigue dentro de su alcance, el rey maldito realiza un Golpe de mandibulas contra ella.</p>"
         },
         "action->False Authority": {
-          "name": "False Authority",
-          "description": "<p>30 pies. When a criatura enters or ends its turn within the cursed king's aura, it must attempt a @Check[will|dc:26] salvación. If it fails, it becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}. If it critically fails, it's cowed into submission; in addition to becoming asustado 2, it must use its first action on its turn to kneel or flee from the cursed king. A criatura who succeeds at its tirada de salvación becomes immune to the king's false authority for 24 horas.</p>"
+          "name": "Autoridad falsa",
+          "description": "<p>30 pies. Cuando una criatura entra o termina su turno dentro del aura del rey maldito, debe intentar una salvacion de @Check[will|dc:26]. Si falla, queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2}. Si obtiene un fallo critico, queda sometida por el miedo; ademas de quedar asustada 2, debe usar su primera accion en su turno para arrodillarse o huir del rey maldito. Una criatura que tenga exito en su salvacion se vuelve inmune a la autoridad falsa del rey durante 24 horas.</p>"
         },
         "action->Usurper's Curse": [
           {
-            "name": "Usurper's Curse",
-            "description": "<p>When a criatura slays a cursed king, it must attempt a @Check[will|dc:29] salvación. On a failure, it suffers the effects of the usurper's curse.</p>",
+            "name": "Maldicion del usurpador",
+            "description": "<p>Cuando una criatura mata a un rey maldito, debe intentar una salvacion de @Check[will|dc:29]. Si falla, sufre los efectos de la maldicion del usurpador.</p>",
             "id": "QNFAJ7JlgnNbGGWf"
           },
           {
-            "name": "Usurper's Curse",
-            "description": "<p>@Check[will|dc:30] tirada de salvación. On a failure, the criatura who killed the cursed king becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 1}. On a critical failure, it becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 2}. As long as that criatura remains cursed, it can't remove or decrease the value of the anonadado condition in any way. Afflicted criaturas must attempt the tirada de salvación again every 24 horas, increasing the anonadado condition by 1 on a failure or 2 on a critical failure. If the condition ever increases past @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 4}, they transform, body and mind, into the same animal as the cursed king's head, similar to the critical failure effect of @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{Cursed Metamorphosis}.</p>",
+            "name": "Maldicion del usurpador",
+            "description": "<p>Salvacion de @Check[will|dc:30]. Si falla, la criatura que mato al rey maldito queda @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 1}. Con un fallo critico, queda @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 2}. Mientras la criatura permanezca maldita, no puede eliminar ni reducir de ningun modo el valor de su condicion de anonadado. Las criaturas afectadas deben repetir la salvacion cada 24 horas, aumentando la condicion de anonadado en 1 con un fallo o en 2 con un fallo critico. Si la condicion supera alguna vez @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 4}, se transforma en cuerpo y mente en el mismo animal que la cabeza del rey maldito, de forma similar al efecto de fallo critico de @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{Metamorfosis maldita}.</p>",
             "id": "T67rfyPzxmU6ckF4"
           }
         ],
         "action->Berserk": {
-          "name": "Berserk",
-          "description": "<p>At the beginning of each of its turns in combat, a cursed king must attempt a @Check[flat|dc:2]. If it succeeds, the DC increases by 1. If it fails, it immediately goes berserk, becoming mindless for the rest of its turn, immune to all mental effects, and attacking the nearest criatura it can reach. While it's berserk, each of its ataques sin armas gain the deadly d8 rasgo. At the end of a turn it failed this prueba plana or siempre que the combat encounter ends, the DC resets to 2.</p>"
+          "name": "Frenesi",
+          "description": "<p>Al comienzo de cada uno de sus turnos en combate, un rey maldito debe intentar una @Check[flat|dc:2]. Si tiene exito, la CD aumenta en 1. Si falla, entra inmediatamente en frenesi, queda descerebrado durante el resto de su turno, es inmune a todos los efectos mentales y ataca a la criatura mas cercana que pueda alcanzar. Mientras esta en frenesi, cada uno de sus ataques sin armas obtiene el rasgo mortal d8. Al final de un turno en el que haya fallado esta prueba plana, o siempre que termine el encuentro de combate, la CD vuelve a 2.</p>"
         }
       }
     },
     "Fleshforged Conformer": {
-      "name": "Fleshforged Conformer",
-      "hpDetails": "regeneration 10 (desactivada por cold iron)",
+      "name": "Conformador forjado en carne",
+      "hpDetails": "regeneracion 10 (desactivada por hierro frio)",
       "languages": "otros dos idiomas",
-      "publicNotes": "<p>Shapeshifting fleshforged conformers have adapted to survive Ecanus's high-magic, population-dense sprawl. Resembling blocky humanoid skeletons splotched in uneven layers with cartilage and muscle, conformers are capable of attaching and detaching flesh from their bodies, often sending autonomous gobbets of fat and ligament to observe living criaturas and harvest biological material.</p>\n<p>Fleshforged conformers use their resources to augment and change their bodies, which helps them infiltrate Nexian SOCIETY to better understand the arcane principles and occult secrets behind their creation. Some assume the guises of humans and animals to lead quiet, settled lives in Nex, but most are discovered and summarily exterminated as defects and threats to public safety.</p>",
+      "publicNotes": "<p>Los conformadores forjados en carne, capaces de cambiar de forma, se han adaptado para sobrevivir en la expansion densamente poblada y saturada de magia de Ecanus. Parecidos a esqueletos humanoides de formas angulosas cubiertos por capas irregulares de cartilago y musculo, los conformadores pueden adherir y desprender carne de sus cuerpos, enviando a menudo trozos autonomos de grasa y ligamentos para observar criaturas vivas y recolectar material biologico.</p>\n<p>Los conformadores forjados en carne usan sus recursos para aumentar y alterar sus cuerpos, lo que les ayuda a infiltrarse en la sociedad nexiana para comprender mejor los principios arcanos y secretos ocultistas tras su creacion. Algunos adoptan la apariencia de humanos y animales para llevar vidas tranquilas y asentadas en Nex, pero la mayoria son descubiertos y exterminados sumariamente como defectos y amenazas para la seguridad publica.</p>",
       "items": {
         "spellcastingEntry->Occult Innate Conjuros": {
-          "name": "Occult Innate Conjuros"
+          "name": "Conjuros ocultos innatos"
         },
         "conjuro->Blood Vendetta": {
-          "requirements": "Puedes bleed"
+          "requirements": "Puedes sangrar"
         },
         "strike-melee->Fanged-Maw Finger": {
-          "name": "Fanged-Maw Finger"
+          "name": "Dedo de fauces dentadas"
         },
         "action->Regeneration 10 (Deactivated by Cold Iron)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.lR9R5Vld8Eu2Dha5]\nRegeneración 10 (Deactivated by Cold Iron)"
+          "name": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.lR9R5Vld8Eu2Dha5]\nRegeneracion 10 (desactivada por hierro frio)"
         },
         "action->Conformance": {
-          "name": "Conformance",
-          "description": "<p>The conformer contorts and reshapes their body into a desired form. The conformer takes on the specific appearance of any Small, Medium, or Large humanoid or animal that they've observado and whose appearance they remember. Este doesn't change the conformer's Velocidad or their attack and daño bonus with their Golpes, but might change the tipo de daño their Golpes deal.</p>"
+          "name": "Conformacion",
+          "description": "<p>El conformador retuerce y remodela su cuerpo hasta adoptar la forma deseada. Adopta la apariencia concreta de cualquier humanoide o animal Pequeno, Mediano o Grande que haya observado y cuyo aspecto recuerde. Esto no cambia la Velocidad del conformador ni sus bonificadores de ataque y dano con sus Golpes, pero podria cambiar el tipo de dano que infligen sus Golpes.</p>"
         },
         "action->Surgical Detachment": {
-          "name": "Surgical Detachment",
-          "description": "<p>El conformer detaches part de su cuerpo a serve them as un autonomous organism. For el next 24 horas, el conformer obtiene el loyal service de un fleshforged @UUID[Compendium.pf2e.lost-omens-impossible-lands-bestiary.Actor.LVY9JAhTnBC2SeqZ]{Skinskitter}. As long as ellos remain dentro de 1 mile de cada otro, el conformer puede usar el Surgical Detachment action de nuevo a empathically direct el actions de su skinskitter servant as well as perceive through su sentidos. Due a how taxing este process es, el conformer puede tienen solo one skinskitter servant at un time.</p>"
+          "name": "Desprendimiento quirurgico",
+          "description": "<p>El conformador separa una parte de su cuerpo para que le sirva como organismo autonomo. Durante las siguientes 24 horas, el conformador obtiene el servicio leal de un @UUID[Compendium.pf2e.lost-omens-impossible-lands-bestiary.Actor.LVY9JAhTnBC2SeqZ]{Correpiél} forjado en carne. Mientras ambos permanezcan a 1 milla entre si, el conformador puede usar de nuevo la accion Desprendimiento quirurgico para dirigir empaticamente las acciones de su servidor correpiel y percibir a traves de sus sentidos. Debido a lo exigente que es este proceso, el conformador solo puede tener un servidor correpiel a la vez.</p>"
         },
         "action->Tissue Siphon": {
-          "name": "Tissue Siphon",
-          "description": "<p><strong>Requisitos</strong> The conformer is within reach of an @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} or willing criatura, or a criatura taking daño persistente de sangrado</p>\n<hr />\n<p><strong>Efecto</strong> The conformer touches and absorbs some of the criatura's flesh. El objetivo must attempt a @Check[fortitude|dc:26] salvación; on a failure, they become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} and take daño from their daño persistente de sangrado, even though it isn't the end of their turn.</p>"
+          "name": "Sifon de tejido",
+          "description": "<p><strong>Requisitos</strong> El conformador esta dentro del alcance de una criatura @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} o voluntaria, o de una criatura que este recibiendo dano persistente de sangrado.</p>\n<hr />\n<p><strong>Efecto</strong> El conformador toca y absorbe parte de la carne de la criatura. El objetivo debe intentar una salvacion de @Check[fortitude|dc:26]; si falla, queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} y recibe dano de su dano persistente de sangrado, aunque no sea el final de su turno.</p>"
         },
         "action->Wear Flesh": {
-          "name": "Wear Flesh",
-          "description": "<p><strong>Requisitos</strong> The conformer has used Tissue Siphon to absorb flesh within the last hour</p>\n<hr />\n<p><strong>Efecto</strong> The conformer expends the flesh they've absorbed to transform their body, reproducing the effects of one of the following conjuros: @UUID[Compendium.pf2e.spells-srd.Item.GUnw9YXaW3YyaCAU]{Adapt Self}, @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{Enlarge}, @UUID[Compendium.pf2e.spells-srd.Item.SDkIFrrO1PsE02Kd]{Shifting Form}, @UUID[Compendium.pf2e.spells-srd.Item.i8PBZsnoCrK7IWph]{Tentacular Limbs}, or @UUID[Compendium.pf2e.spells-srd.Item.ddKBoCjmSyPSHcws]{Unusual Anatomy}. The Wear Flesh action gains the rasgos of the conjuro it's reproducing, and the conformer can Sustain a Conjuro on these effects.</p>"
+          "name": "Vestir carne",
+          "description": "<p><strong>Requisitos</strong> El conformador ha usado Sifon de tejido para absorber carne durante la ultima hora.</p>\n<hr />\n<p><strong>Efecto</strong> El conformador gasta la carne absorbida para transformar su cuerpo, reproduciendo los efectos de uno de los siguientes conjuros: @UUID[Compendium.pf2e.spells-srd.Item.GUnw9YXaW3YyaCAU]{Adaptarse}, @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{Agrandar}, @UUID[Compendium.pf2e.spells-srd.Item.SDkIFrrO1PsE02Kd]{Forma cambiante}, @UUID[Compendium.pf2e.spells-srd.Item.i8PBZsnoCrK7IWph]{Miembros tentaculares} o @UUID[Compendium.pf2e.spells-srd.Item.ddKBoCjmSyPSHcws]{Anatomia inusual}. La accion Vestir carne obtiene los rasgos del conjuro que reproduce, y el conformador puede Sostener un conjuro sobre estos efectos.</p>"
         },
         "lore->Fleshwarp Lore": {
-          "name": "Fleshwarp Lore"
+          "name": "Saber de fleshwarp"
         }
       }
     },
     "Fleshforged Dreadnought": {
-      "name": "Fleshforged Dreadnought",
-      "hpDetails": "regeneration 20 (desactivada por cold iron)",
-      "publicNotes": "<p>Created in the arcane fleshforges of Nex, this criatura was spawned as the ultimate brute-force tool for urban assaults against the cities of Geb. At 30 pies tall, the dreadnought easily tops most city walls, and Nexian infantry forces would scramble up the spikes on the criatura's back to penetrate defensive fortifications. Every detail of the criatura's physiology was fashioned for the battlefield, from the ballista of bone and sinew integrated into its torso to the bulky ram on the crest of its head. The fleshforged's acidic blood not only serves an important hydraulic function but also deters city defenders who might attempt to strike down the criatura.</p>\n<p>During the war between Nex and Geb, fleshforged dreadnoughts most often appeared as part of a coordinated assault and typically replaced or augmented an army's compliment of siege weaponry. Common tactics employed by Nex's generals would direct the dreadnought to crush all opposition standing in front of a city's gate and then smash through it. Should the city's defenses prove resilient, invading troops would scale the criatura to get over the city walls, relying on the dreadnought's regenerative properties to ensure it wouldn't be destroyed while helping them bypass the defensive barriers.</p>\n<p>Fleshforged dreadnoughts all but vanished after the disappearance of the archmage Nex, but tales of their destructive power have been preserved.</p>",
+      "name": "Acorazado forjado en carne",
+      "hpDetails": "regeneracion 20 (desactivada por hierro frio)",
+      "publicNotes": "<p>Creada en las forjas de carne arcanas de Nex, esta criatura fue engendrada como la herramienta definitiva de fuerza bruta para asaltos urbanos contra las ciudades de Geb. Con 30 pies de altura, el acorazado supera facilmente la mayoria de murallas, y la infanteria nexiana trepaba por las puas de su espalda para penetrar las fortificaciones defensivas. Cada detalle de la fisiologia de la criatura fue disenado para el campo de batalla, desde la ballesta de hueso y tendones integrada en su torso hasta el voluminoso ariete de la cresta de su cabeza. La sangre acida del forjado en carne no solo cumple una importante funcion hidraulica, sino que tambien disuade a los defensores de la ciudad que intenten derribar a la criatura.</p>\n<p>Durante la guerra entre Nex y Geb, los acorazados forjados en carne aparecian a menudo como parte de un asalto coordinado y solian reemplazar o reforzar el tren de armas de asedio de un ejercito. Las tacticas habituales de los generales de Nex ordenaban al acorazado aplastar toda oposicion frente a una puerta de la ciudad y luego abrirse paso a traves de ella. Si las defensas de la ciudad resultaban resistentes, las tropas invasoras escalaban a la criatura para superar las murallas, confiando en las propiedades regenerativas del acorazado para que no fuera destruido mientras les ayudaba a sortear las barreras defensivas.</p>\n<p>Los acorazados forjados en carne casi desaparecieron tras la desaparicion del archimago Nex, pero los relatos sobre su poder destructivo se han conservado.</p>",
       "items": {
         "strike-melee->Battering Ram": {
-          "name": "Battering Ram"
+          "name": "Ariete"
         },
         "strike-melee->Claw": {
           "name": "Garra"
         },
         "strike-ranged->Ballista": {
-          "name": "Ballista"
+          "name": "Ballesta"
         },
         "action->Scaling Spikes": {
-          "name": "Scaling Spikes",
-          "description": "<p>A fleshforged dreadnought is covered in handholds and footholds that make it easy to CLIMB. Las criaturas of Medium or smaller size can CLIMB the dreadnought, sharing one of its spaces as they do so. The DC to CLIMB a fleshforged dreadnought is 15, and criaturas move 5 more pies on a success and 10 more pies on a critical success, to a maximum of their Velocidad when Climbing the construct.</p>"
+          "name": "Puas escalables",
+          "description": "<p>Un acorazado forjado en carne esta cubierto de asideros y apoyos que facilitan Trepar por el. Las criaturas de tamano Mediano o menor pueden Trepar por el acorazado, compartiendo uno de sus espacios mientras lo hacen. La CD para Trepar por un acorazado forjado en carne es 15, y las criaturas se mueven 5 pies mas con un exito y 10 pies mas con un exito critico, hasta un maximo de su Velocidad al Trepar por el constructo.</p>"
         },
         "action->Regeneration 20 (Deactivated by Cold Iron)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.lR9R5Vld8Eu2Dha5]\nRegeneración 20 (Deactivated by Cold Iron)"
+          "name": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.lR9R5Vld8Eu2Dha5]\nRegeneracion 20 (desactivada por hierro frio)"
         },
         "action->Caustic Leak": {
-          "name": "Caustic Leak",
-          "description": "<p><strong>Frecuencia</strong> once per turn</p>\n<p><strong>Desencadenante</strong> The fleshforged dreadnought is damaged by a non-reach piercing or slashing melee Golpe</p>\n<hr />\n<p><strong>Efecto</strong> Corrosive fluid sprays the attacker, dealing @Damage[8d6[acid]] daño (@Check[reflex|dc:40|basic]).</p>"
+          "name": "Fuga caustica",
+          "description": "<p><strong>Frecuencia</strong> una vez por turno</p>\n<p><strong>Desencadenante</strong> El acorazado forjado en carne recibe dano de un Golpe cuerpo a cuerpo cortante o perforante sin alcance.</p>\n<hr />\n<p><strong>Efecto</strong> Un fluido corrosivo salpica al atacante, infligiendo @Damage[8d6[acid]] de dano (@Check[reflex|dc:40|basic]).</p>"
         },
         "action->Destructive Charge": {
-          "name": "Destructive Charge",
-          "description": "<p>The fleshforged dreadnought Strides up to twice its speed and makes a battering ram Golpe against a structure or unattended object. The Golpe ignores 20 points of el objetivo's Hardness.</p>"
+          "name": "Carga destructiva",
+          "description": "<p>El acorazado forjado en carne Zancadea hasta el doble de su velocidad y realiza un Golpe de ariete contra una estructura u objeto desatendido. El Golpe ignora 20 puntos de Dureza del objetivo.</p>"
         },
         "action->Drown in Ichor": {
-          "name": "Drown in Ichor",
-          "description": "<p>The fleshforged dreadnought releases a wave of caustic fluid from vents in its sides. Las criaturas within a @Template[emanation|distance:20] take @Damage[8d6[acid]] daño (@Check[reflex|dc:40|basic]). Las criaturas who fail their saves also take @Damage[3d6[persistent,acid]] daño.</p>"
+          "name": "Ahogar en icor",
+          "description": "<p>El acorazado forjado en carne libera una oleada de fluido caustico desde respiraderos de sus costados. Las criaturas dentro de una @Template[emanation|distance:20] reciben @Damage[8d6[acid]] de dano (@Check[reflex|dc:40|basic]). Las criaturas que fallen sus salvaciones tambien reciben @Damage[3d6[persistent,acid]] de dano.</p>"
         },
         "action->Trample": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\n<p>Huge or smaller, battering ram, @Check[reflex|dc:44|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+          "description": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\n<p>Enorme o menor, ariete, @Check[reflex|dc:44|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
         },
         "action->Improved Push 15 pies": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.6l7e7CHQLESlI57U]\nImproved Push 15 pies"
+          "name": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.6l7e7CHQLESlI57U]\nEmpujon mejorado 15 pies"
         }
       }
     },
     "Gunpowder Ooze": {
-      "name": "Gunpowder Ooze",
-      "publicNotes": "<p>Gunpowder oozes are explosive gunpowder given life. By necessity, crafters of explosives and firearms are a careful lot, but even the best safety habits can be thwarted by greed, distraction, or carelessness. The release of toxic byproducts from gunsmithing would be an environmental problem anywhere, but when volatile runoff seeps into the Mana Wastes, it can INTERACT with wild magic, causing a living, explosive nightmare.</p>\n<p>A gunpowder ooze is a pockmarked, charcoal gray mass that slithers across the blighted verge between Alkenstar and the Mana Wastes with the sound of sizzles and sudden pops. It pursues and consumes any sort of organic matter, firing bullet-like projectiles to bring down prey. The ooze instinctively avoids fire, so travelers forced to camp in known gunpowder ooze territory often light bonfires despite the danger of advertising their presence to the Mana Wastes' other residents. Suggestions that local populations of oozes be weaponized, periodically put forward by unwise Alkenstari and Mana Waste tacticians, are uniformly shot down by cooler heads; those who attempt to proceed anyway usually meet explosive ends.</p>",
+      "name": "Cieno de polvora",
+      "publicNotes": "<p>Los cienos de polvora son polvora explosiva que ha cobrado vida. Por necesidad, los artesanos de explosivos y armas de fuego suelen ser cuidadosos, pero incluso los mejores habitos de seguridad pueden verse frustrados por la codicia, la distraccion o la negligencia. La liberacion de subproductos toxicos de la armeria seria un problema ambiental en cualquier lugar, pero cuando la escorrentia volatil se filtra en los Yermos de Mana, puede interactuar con la magia salvaje y causar una pesadilla viva y explosiva.</p>\n<p>Un cieno de polvora es una masa gris carbon, picada de marcas, que se desliza por el limite arruinado entre Alkenstar y los Yermos de Mana con sonidos de chisporroteos y estallidos repentinos. Persigue y consume cualquier tipo de materia organica, disparando proyectiles similares a balas para abatir a sus presas. El cieno evita instintivamente el fuego, de modo que los viajeros obligados a acampar en territorios conocidos de cienos de polvora suelen encender hogueras pese al peligro de anunciar su presencia a otros habitantes de los Yermos de Mana. Las propuestas de convertir poblaciones locales de cienos en armas, planteadas periodicamente por alkenstaris y tacticos imprudentes de los Yermos de Mana, son rechazadas de forma unanime por mentes mas frias; quienes intentan seguir adelante de todos modos suelen encontrar un final explosivo.</p>",
       "items": {
         "strike-melee->Pseudopod": {
-          "name": "Pseudopod"
+          "name": "Seudopodo"
         },
         "strike-ranged->Blast": {
-          "name": "Blast"
+          "name": "Estallido"
         },
         "action->Motion Sense": {
-          "name": "Motion Sense",
-          "description": "<p>A gunpowder ooze can sense nearby criaturas through vibration and air or water movement.</p>"
+          "name": "Sentido del movimiento",
+          "description": "<p>Un cieno de polvora puede percibir criaturas cercanas mediante vibraciones y el movimiento del aire o del agua.</p>"
         },
         "action->Combust": {
-          "name": "Combust",
-          "description": "<p>Due to the volatile NATURE of its composition, the gunpowder ooze reacts explosively when exposed to open flame. Any time the gunpowder ooze takes daño de fuego from a source other than a gunpowder ooze's combust or gunpowder residue, it explodes, dealing @Damage[15d6[fire]] daño to criaturas in a @Template[emanation|distance:15] including itself (@Check[reflex|dc:34|basic]). When the gunpowder ooze combusts, it automatically splits as long as it has 10 or more HP.</p>"
+          "name": "Combustion",
+          "description": "<p>Debido a la naturaleza volatil de su composicion, el cieno de polvora reacciona de forma explosiva cuando se expone a llama abierta. Cada vez que el cieno de polvora recibe dano de fuego de una fuente distinta de la combustion o el residuo de polvora de un cieno de polvora, explota e inflige @Damage[15d6[fire]] de dano a las criaturas en una @Template[emanation|distance:15], incluido el propio cieno (@Check[reflex|dc:34|basic]). Cuando el cieno de polvora entra en combustion, se divide automaticamente siempre que tenga 10 PG o mas.</p>"
         },
         "action->Split": {
-          "name": "Split",
-          "description": "<p>When a gunpowder ooze that has 10 or more HP is hit by an attack that would deal slashing or daño perforante, it splits into two identical oozes, each with half the original's HP. One ooze is in the same space as the original, and the other is in an adjacent, unoccupied space. If no adjacent space is unoccupied, it automatically pushes criaturas and objects out of the way to fill a space (the GM decides if an object or criatura is too big or heavy to push).</p>"
+          "name": "Dividirse",
+          "description": "<p>Cuando un cieno de polvora que tiene 10 PG o mas es impactado por un ataque que infligiria dano cortante o perforante, se divide en dos cienos identicos, cada uno con la mitad de los PG originales. Un cieno queda en el mismo espacio que el original y el otro en un espacio adyacente desocupado. Si no hay ningun espacio adyacente desocupado, empuja automaticamente criaturas y objetos para llenar un espacio (el DJ decide si un objeto o criatura es demasiado grande o pesado para empujarlo).</p>"
         },
         "action->Gunpowder Residue": {
-          "name": "Gunpowder Residue",
-          "description": "<p>A criatura hit by the gunpowder ooze's pseudopod or blast is coated in explosive material unless it succeeds at a @Check[reflex|dc:34] salvación. If a criatura makes an attack with a firearm, takes daño de fuego, or uses an action, activity, or item with the fire rasgo while coated with the residue, the residue explodes, dealing @Damage[7d6[fire]] daño to the criatura and all adjacent criaturas (@Check[reflex|dc:34|basic]). The residue remains active for 24 horas, until it's ignited, or until it's scrubbed off (an activity that takes at least 10 minutos and requires soap and water). A criatura can only be coated with one layer of gunpowder residue at a time.</p>"
+          "name": "Residuo de polvora",
+          "description": "<p>Una criatura impactada por el seudopodo o el estallido del cieno de polvora queda cubierta de material explosivo a menos que tenga exito en una salvacion de @Check[reflex|dc:34]. Si una criatura realiza un ataque con un arma de fuego, recibe dano de fuego o usa una accion, actividad u objeto con el rasgo fuego mientras esta cubierta por el residuo, este explota e inflige @Damage[7d6[fire]] de dano a la criatura y a todas las criaturas adyacentes (@Check[reflex|dc:34|basic]). El residuo permanece activo durante 24 horas, hasta que se prende o hasta que se frota para retirarlo (una actividad que requiere al menos 10 minutos y agua y jabon). Una criatura solo puede estar cubierta por una capa de residuo de polvora a la vez.</p>"
         }
       }
     },
     "Kasesh (Stone)": {
-      "name": "Kasesh (Stone)",
-      "publicNotes": "<p>In the ancient days, before humanity dwelled on Golarion, the Vault Builders had need of something smaller in scale than the great vault seeds so they could finish their worlds as they liked. They took a small gem and wrote a word of power upon it. They gave it eyes so it could see and legs so it could walk, and made it wise. Estos criaturas are known as kaseshi by scholars who have encountered them, though their true name—the one that brought them into being—is likely considerably more powerful.</p>\n<p>Each kasesh bears a single word of power on their emerald body, from which they draw their mind and their magic. A kasesh with the word \"Steel\" or \"Flame\" is a single-minded criatura, though it encompasses all possible permutations of meaning that the word possesses. A kasesh named \"Home\" or \"Sorrow\" has a far more complex psyche, and rumor claims that Elder Architect Oblosk of Nex bears the word \"Memory.\" Unsurprisingly, many scholars are highly interested in the words on the kaseshi; unlike Thassilonian rune magic, no one has managed to decode or make use of the language of the Vault Builders yet.</p>\n<p>The kasesh in the stat block bears the word \"Stone,\" but other kaseshi will have their own magics. Some alternative examples, \"Darkness\" and \"Intricacy,\" follow below.</p>\n<p><strong>Darkness:</strong> Este kasesh built the escondido places of the Vault Builders' worlds. The kasesh is 7th nivel, grants @UUID[Compendium.pf2e.spells-srd.Item.IqJ9URobmJ9L9UBG]{Shadow Blast} and @UUID[Compendium.pf2e.spells-srd.Item.rxvS7EMJ7qmexAyA]{Umbral Journey} to any gestalt they join, and has the following innate conjuros.</p>\n<p><strong>Primal Innate Conjuros</strong> <strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness} (×2), @UUID[Compendium.pf2e.spells-srd.Item.eexkxcqnkXazsGfK]{Enervation}; <strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.VosLNn2M8S7JH67D]{Blindness} (×2), @UUID[Compendium.pf2e.spells-srd.Item.nXmC2Xx9WmS5NsAo]{Share LORE}; <strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.D442XMADp01qJ7Cs]{Mindlink}; <strong>Cantrips (4th)</strong> @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}, @UUID[Compendium.pf2e.spells-srd.Item.60sgbuMWN0268dB7]{Telekinetic Projectile}</p>\n<p><strong>Intricacy:</strong> Este kasesh was a decorator and designer. They're 11th nivel, grant @UUID[Compendium.pf2e.spells-srd.Item.HBJPsonQnWcC3qdX]{Mirage} and @UUID[Compendium.pf2e.spells-srd.Item.Ucf8eynbZMfUucjE]{Illusory Scene} to any gestalt they join, and have the following innate conjuros.</p>\n<p><strong>Primal Innate Conjuros</strong> <strong>6th</strong> @UUID[Compendium.pf2e.spells-srd.Item.0XP2XOxT9VSiXFDr]{Phantasmal Calamity}, @UUID[Compendium.pf2e.spells-srd.Item.tlcrVRqW1MSKJ5IC]{Phantasmal Killer} (×2); <strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.TCk2MDwf5L5OYjFC]{Cloak of Colors}, @UUID[Compendium.pf2e.spells-srd.Item.U58aQWJ47VrI36yP]{Hallucination}, @UUID[Compendium.pf2e.spells-srd.Item.nXmC2Xx9WmS5NsAo]{Share LORE}; <strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.D442XMADp01qJ7Cs]{Mindlink}; <strong>Cantrips (6th)</strong> @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}, @UUID[Compendium.pf2e.spells-srd.Item.60sgbuMWN0268dB7]{Telekinetic Projectile}</p>",
-      "speed": "earth glide",
+      "name": "Kasesh (piedra)",
+      "publicNotes": "<p>En los dias antiguos, antes de que la humanidad habitara Golarion, los Constructores de Bovedas necesitaban algo de menor escala que las grandes semillas de boveda para poder terminar sus mundos a su gusto. Tomaron una pequena gema y escribieron sobre ella una palabra de poder. Le dieron ojos para ver, piernas para caminar y sabiduria. Los estudiosos que se han encontrado con estas criaturas las conocen como kaseshi, aunque su verdadero nombre, el que les dio existencia, probablemente sea mucho mas poderoso.</p>\n<p>Cada kasesh lleva una unica palabra de poder inscrita en su cuerpo esmeralda, de la que extrae su mente y su magia. Un kasesh con la palabra \"Acero\" o \"Llama\" es una criatura de voluntad unica, aunque abarca todas las posibles permutaciones de significado que posee esa palabra. Un kasesh llamado \"Hogar\" o \"Pena\" tiene una psique mucho mas compleja, y los rumores afirman que el Arquitecto Anciano Oblosk de Nex lleva la palabra \"Memoria\". No sorprende que muchos estudiosos esten muy interesados en las palabras de los kaseshi; a diferencia de la magia runica thassiloniana, nadie ha conseguido descifrar ni aprovechar todavia la lengua de los Constructores de Bovedas.</p>\n<p>El kasesh del bloque de estadisticas lleva la palabra \"Piedra\", pero otros kaseshi tienen sus propias magias. A continuacion aparecen algunos ejemplos alternativos, \"Oscuridad\" e \"Intrincacion\".</p>\n<p><strong>Oscuridad:</strong> Este kasesh construyo los lugares ocultos de los mundos de los Constructores de Bovedas. El kasesh es de nivel 7, concede @UUID[Compendium.pf2e.spells-srd.Item.IqJ9URobmJ9L9UBG]{Estallido sombrio} y @UUID[Compendium.pf2e.spells-srd.Item.rxvS7EMJ7qmexAyA]{Viaje umbral} a cualquier gestalt a la que se una, y tiene los siguientes conjuros innatos.</p>\n<p><strong>Conjuros primordiales innatos</strong> <strong>4.º</strong> @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Oscuridad} (x2), @UUID[Compendium.pf2e.spells-srd.Item.eexkxcqnkXazsGfK]{Enervacion}; <strong>3.º</strong> @UUID[Compendium.pf2e.spells-srd.Item.VosLNn2M8S7JH67D]{Ceguera} (x2), @UUID[Compendium.pf2e.spells-srd.Item.nXmC2Xx9WmS5NsAo]{Compartir saber}; <strong>1.º</strong> @UUID[Compendium.pf2e.spells-srd.Item.D442XMADp01qJ7Cs]{Vinculo mental}; <strong>Trucos (4.º)</strong> @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detectar magia}, @UUID[Compendium.pf2e.spells-srd.Item.60sgbuMWN0268dB7]{Proyectil telequinetico}</p>\n<p><strong>Intrincacion:</strong> Este kasesh fue decorador y disenador. Es de nivel 11, concede @UUID[Compendium.pf2e.spells-srd.Item.HBJPsonQnWcC3qdX]{Espejismo} y @UUID[Compendium.pf2e.spells-srd.Item.Ucf8eynbZMfUucjE]{Escena ilusoria} a cualquier gestalt a la que se una, y tiene los siguientes conjuros innatos.</p>\n<p><strong>Conjuros primordiales innatos</strong> <strong>6.º</strong> @UUID[Compendium.pf2e.spells-srd.Item.0XP2XOxT9VSiXFDr]{Calamidad fantasmal}, @UUID[Compendium.pf2e.spells-srd.Item.tlcrVRqW1MSKJ5IC]{Asesino fantasmal} (x2); <strong>5.º</strong> @UUID[Compendium.pf2e.spells-srd.Item.TCk2MDwf5L5OYjFC]{Manto de colores}, @UUID[Compendium.pf2e.spells-srd.Item.U58aQWJ47VrI36yP]{Alucinacion}, @UUID[Compendium.pf2e.spells-srd.Item.nXmC2Xx9WmS5NsAo]{Compartir saber}; <strong>1.º</strong> @UUID[Compendium.pf2e.spells-srd.Item.D442XMADp01qJ7Cs]{Vinculo mental}; <strong>Trucos (6.º)</strong> @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detectar magia}, @UUID[Compendium.pf2e.spells-srd.Item.60sgbuMWN0268dB7]{Proyectil telequinetico}</p>",
+      "speed": "deslizamiento por tierra",
       "items": {
         "strike-ranged->Earthen Shard": {
-          "name": "Earthen Shard"
+          "name": "Esquirla de tierra"
         },
         "action->Tremorsense (Imprecise) 60 pies": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]\nTremorsense (Imprecise) 60 pies"
+          "name": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]\nSentido de las vibraciones (impreciso) 60 pies"
         },
         "action->Earth Block": {
-          "name": "Earth Block",
-          "description": "<p><strong>Desencadenante</strong> The kasesh takes daño físico while adjacent to stone or earth</p>\n<hr />\n<p><strong>Efecto</strong> A rampart of stone or crystal emerges from a nearby surface, blocking the attack. The kasesh gains resistance physical 5 against the attack.</p>"
+          "name": "Bloque de tierra",
+          "description": "<p><strong>Desencadenante</strong> El kasesh recibe dano fisico mientras esta adyacente a piedra o tierra.</p>\n<hr />\n<p><strong>Efecto</strong> Un parapeto de piedra o cristal emerge de una superficie cercana y bloquea el ataque. El kasesh obtiene resistencia 5 al dano fisico contra el ataque.</p>"
         },
         "action->Gestalt": {
           "name": "Gestalt",
-          "description": "<p>Two or more kaseshi can combine their scribed words to create something greater than either one alone. Este has the effects of the Coven ability but no ritual is necessary, simply close proximity for 8 hours. All gestalts grant the following conjuros, which the gestalt can cast at any nivel up to 5th: @UUID[Compendium.pf2e.spells-srd.Item.TUj8eugNqAvB1vVR]{Creation}, @UUID[Compendium.pf2e.spells-srd.Item.m4Mc5XbdML92BKOE]{Strange Geometry}, and @UUID[Compendium.pf2e.spells-srd.Item.tpLTLbJUrYcMWGld]{Telekinetic Haul}. Individual kaseshi also grant additional conjuros to any gestalt they join—this one grants @UUID[Compendium.pf2e.spells-srd.Item.vh1RpbWfqdNC4L3P]{One with Stone} and @UUID[Compendium.pf2e.spells-srd.Item.McnPlLFvKtQVXNcG]{Shape Stone}.</p>"
+          "description": "<p>Dos o mas kaseshi pueden combinar sus palabras inscritas para crear algo mayor que cualquiera de ellos por separado. Esto tiene los efectos de la aptitud Aquelarre, pero no es necesario ningun ritual, solo proximidad durante 8 horas. Todas las gestalts conceden los siguientes conjuros, que la gestalt puede lanzar a cualquier rango hasta 5: @UUID[Compendium.pf2e.spells-srd.Item.TUj8eugNqAvB1vVR]{Creacion}, @UUID[Compendium.pf2e.spells-srd.Item.m4Mc5XbdML92BKOE]{Geometria extrana} y @UUID[Compendium.pf2e.spells-srd.Item.tpLTLbJUrYcMWGld]{Arrastre telequinetico}. Cada kasesh tambien concede conjuros adicionales a cualquier gestalt a la que se una; este concede @UUID[Compendium.pf2e.spells-srd.Item.vh1RpbWfqdNC4L3P]{Uno con la piedra} y @UUID[Compendium.pf2e.spells-srd.Item.McnPlLFvKtQVXNcG]{Dar forma a la piedra}.</p>"
         },
         "lore->Architectural Lore": {
-          "name": "Architectural Lore"
+          "name": "Saber de arquitectura"
         }
       }
     },
     "Kashrishi Evaluator": {
-      "name": "Kashrishi Evaluator",
-      "publicNotes": "<p>To some, kashrishi seem to be a quiet, passive people. Those with a deeper understanding know that there's plenty more nuance to interacting with kashrishi, who possess innate psychic abilities that greatly alter the way they communicate with the rest of the world. Unable to turn off their powers, these abilities add a complex dynamic to interpreting their surroundings. Without deeper understanding of a person, kashrishi are only able to get the most vague, general feelings from people around them. Este becomes more refined as their relationships evolve; family and friends are often the easiest to engage in psychic communication, while strangers simply add to the amount of mental noise a kashrishi must process.</p>\n<p>Kashrishi resemble rhinoceroses, with soft, textured skin that can range from light sandy hues to darker obsidian, or rarer jewel tones of deep sapphire or ruby. The size and number of their horns vary. Kashrishi communities are generally quite welcoming to others, enjoying the conversation and unique auras of every new stranger. However, chaotic environments can overwhelm and overstimulate kashrishi not yet adept at filtering psychic energies, leaving some with limited tolerance for extensive social interaction with strangers and requiring they take periods of time to refocus after socializing. In spite of this possible drawback, kashrishi are typically strong communicators, excelling at roles that require attention to detail.</p>",
+      "name": "Evaluador kashrishi",
+      "publicNotes": "<p>Para algunos, los kashrishi parecen un pueblo tranquilo y pasivo. Quienes los comprenden mejor saben que interactuar con ellos tiene muchos mas matices, pues poseen aptitudes psiquicas innatas que alteran enormemente la forma en que se comunican con el resto del mundo. Incapaces de apagar sus poderes, estas aptitudes anaden una dinamica compleja a la interpretacion de su entorno. Sin una comprension mas profunda de una persona, los kashrishi solo pueden captar de quienes los rodean sentimientos muy vagos y generales. Esto se refina a medida que evolucionan sus relaciones; familiares y amigos suelen ser los mas faciles de abordar mediante comunicacion psiquica, mientras que los extranos simplemente aumentan la cantidad de ruido mental que un kashrishi debe procesar.</p>\n<p>Los kashrishi recuerdan a rinocerontes, con piel suave y texturada que puede ir de tonos arenosos claros a obsidiana oscura, o a raros tonos de gema como zafiro profundo o rubi. El tamano y numero de sus cuernos varia. Las comunidades kashrishi suelen ser muy acogedoras con los demas, disfrutando de la conversacion y las auras unicas de cada nuevo extrano. Sin embargo, los entornos caoticos pueden abrumar y sobreestimular a los kashrishi que aun no dominan el filtrado de energias psiquicas, lo que deja a algunos con una tolerancia limitada a la interaccion social extensa con desconocidos y les exige tomarse periodos para volver a centrarse despues de socializar. A pesar de este posible inconveniente, los kashrishi suelen ser comunicadores solidos y destacan en funciones que requieren atencion al detalle.</p>",
       "items": {
         "spellcastingEntry->Occult Spontaneous Conjuros": {
-          "name": "Occult Spontaneous Conjuros"
+          "name": "Conjuros ocultos espontaneos"
         },
         "conjuro->Calm Emotions": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.b515AZlB0sridKSq]\nCalm Emotions"
+          "name": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.spells-srd.Item.b515AZlB0sridKSq]\nCalmar emociones"
         },
         "conjuro->Soothe": {
-          "objetivo": "1 willing living criatura"
+          "objetivo": "1 criatura viva voluntaria"
         },
         "strike-melee->Dagger": {
           "name": "Daga"
@@ -282,145 +282,145 @@
         },
         "action->Empathic Sense": {
           "name": "Sentido empático",
-          "description": "<p>Kashrishi evaluators can get a vague sense of the current emotional state of all other criaturas within 15 pies of them, as long as the kashrishi evaluator is aware of those criaturas. Este manifests as a general feeling of happiness, anger, or fear, without any specific details. Additionally, any criatura who succeeds at masking or faking their emotions using DECEPTION projects the deceptive emotions instead of their true feelings. For those that kashrishi have an emotional connection with, physical touch can heighten this sense to greater degrees of detail and understanding, increasing with the strength of their bond.</p>"
+          "description": "<p>Los evaluadores kashrishi pueden captar una impresion vaga del estado emocional actual de todas las demas criaturas a 15 pies de ellos, siempre que sean conscientes de esas criaturas. Esto se manifiesta como una sensacion general de felicidad, ira o miedo, sin detalles concretos. Ademas, cualquier criatura que tenga exito al ocultar o fingir sus emociones usando Engano proyecta esas emociones falsas en lugar de sus verdaderos sentimientos. En el caso de quienes tienen un vinculo emocional con los kashrishi, el contacto fisico puede intensificar este sentido hasta grados mayores de detalle y comprension, aumentando con la fuerza del vinculo.</p>"
         },
         "action->Evaluate Discordance": {
-          "name": "Evaluate Discordance",
-          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<hr />\n<p><strong>Efecto</strong> The kashrishi evaluator assesses the disharmony between themself and a criatura within 30 pies and then sparks the discordance, sending psychic energy to overwhelm el objetivo's feelings. Este deals @Damage[6d6[mental]] daño (@Check[will|dc:21|basic]). On a critical failure, el objetivo also becomes @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1}.</p>"
+          "name": "Evaluar discordancia",
+          "description": "<p><strong>Frecuencia</strong> una vez al dia</p>\n<hr />\n<p><strong>Efecto</strong> El evaluador kashrishi evalua la desarmonia entre si mismo y una criatura a 30 pies, y luego enciende esa discordancia enviando energia psiquica para abrumar los sentimientos del objetivo. Esto inflige @Damage[6d6[mental]] de dano (@Check[will|dc:21|basic]). Con un fallo critico, el objetivo tambien queda @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1}.</p>"
         }
       }
     },
     "Mana Whorl": {
-      "name": "Mana Whorl",
-      "description": "<p>Este 15-pies-wide patch of destabilized sand attempts to submerge criaturas who wield magic. A desert tree with dense bright green foliage, pale pink blooms, and at least one carnivorous red-chested magpie is always nearby.</p>",
-      "disable": "<p>@Check[arcana|dc:26] (experto) to feed magic into the whorl and temporarily stabilize it for a few minutes; feed the whorl a number of spellcasters and magic items with a combined 10 levels (for instance, a 4th-nivel cleric with two 3rd-nivel magic items) to stabilize it for 1 week; or feed the whorl a number of spellcasters and magic items with a combined 20 levels to stabilize it permanently. Spellcasters and magic items fed to the whorl are devoured whole.</p>",
-      "reset": "<p>El peligro continues a suck en anyone con magia until ello es satiated (see Disable above). Magpies leave cualquier satiated whorls.</p>",
-      "routine": "<p>(1 action) On its initiative, the whorl pulls down any criatura within it that can cast conjuros or that is wielding a magic item. A criatura submerged to the waist becomes submerged to the neck, and a criatura submerged to the neck is pulled under and must hold its breath to avoid suffocation. If a criatura has no conjuros or magic items, the mana whorl is merely difficult terrain. A criatura caught in a mana whorl can attempt a @Check[athletics|dc:23] prueba to Swim to either raise itself by one step if submerged to the neck or worse, or to move 5 pies if submerged only to the waist. On a critical failure, the criatura is pulled down by one step. A criatura that Swims out of the whorl escapes the hazard and is @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} in a space adjacent to the whorl. Other criaturas can Aid the criatura, typically by using a rope or similar aid, or attempt to pull the criatura out with their own @Check[athletics|dc:23] prueba, with the same results as if the criatura attempted the prueba. If a criatura has only magic items and no ability to cast conjuros, dropping all the items releases that criatura, and it can move through the mana whorl as normal difficult terrain.</p>",
+      "name": "Remolino de mana",
+      "description": "<p>Este parche de arena desestabilizada de 15 pies de ancho intenta hundir a las criaturas que empunan magia. Siempre hay cerca un arbol del desierto con follaje denso de color verde brillante, flores rosa palido y al menos una urraca carnivora de pecho rojo.</p>",
+      "disable": "<p>@Check[arcana|dc:26] (experto) para alimentar el remolino con magia y estabilizarlo temporalmente durante unos minutos; alimentar el remolino con una cantidad de lanzadores de conjuros y objetos magicos que sumen 10 niveles (por ejemplo, un clerigo de nivel 4 con dos objetos magicos de nivel 3) para estabilizarlo durante 1 semana; o alimentarlo con una cantidad de lanzadores de conjuros y objetos magicos que sumen 20 niveles para estabilizarlo permanentemente. Los lanzadores de conjuros y objetos magicos alimentados al remolino son devorados enteros.</p>",
+      "reset": "<p>El peligro sigue absorbiendo a cualquiera con magia hasta que queda saciado (consulta Desactivar mas arriba). Las urracas abandonan cualquier remolino saciado.</p>",
+      "routine": "<p>(1 accion) En su iniciativa, el remolino arrastra hacia abajo a cualquier criatura dentro de el que pueda lanzar conjuros o que este empunando un objeto magico. Una criatura hundida hasta la cintura queda hundida hasta el cuello, y una criatura hundida hasta el cuello es arrastrada bajo la superficie y debe contener la respiracion para evitar asfixiarse. Si una criatura no tiene conjuros ni objetos magicos, el remolino de mana es simplemente terreno dificil. Una criatura atrapada en un remolino de mana puede intentar una prueba de @Check[athletics|dc:23] para Nadar y elevarse un paso si esta hundida hasta el cuello o peor, o para moverse 5 pies si solo esta hundida hasta la cintura. Con un fallo critico, la criatura es arrastrada un paso hacia abajo. Una criatura que Nada fuera del remolino escapa del peligro y queda @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbada} en un espacio adyacente al remolino. Otras criaturas pueden Ayudar a la criatura, normalmente usando una cuerda o ayuda similar, o intentar sacarla con su propia prueba de @Check[athletics|dc:23], con los mismos resultados que si la criatura hubiera intentado la prueba. Si una criatura solo tiene objetos magicos y ninguna capacidad de lanzar conjuros, soltar todos los objetos libera a esa criatura y puede moverse por el remolino de mana como por terreno dificil normal.</p>",
       "stealth": "<p>(entrenado) to identify as dangerous quicksand; +20 (experto) to recognize its magical properties</p>",
       "items": {
         "action->Submerge": {
-          "name": "Submerge",
-          "description": "<p><strong>Desencadenante</strong> A criatura who can cast conjuros, or who is wielding a magic item, walks into the mana whorl</p>\n<hr />\n<p><strong>Efecto</strong> The triggering criatura sinks into the whorl to its waist. The whorl rolls initiative if it hasn't already.</p>"
+          "name": "Sumergir",
+          "description": "<p><strong>Desencadenante</strong> Una criatura que puede lanzar conjuros, o que empuna un objeto magico, entra caminando en el remolino de mana.</p>\n<hr />\n<p><strong>Efecto</strong> La criatura desencadenante se hunde en el remolino hasta la cintura. El remolino tira iniciativa si aun no lo ha hecho.</p>"
         }
       }
     },
     "Mutant Gnoll Hulk": {
-      "name": "Mutant Gnoll Hulk",
-      "publicNotes": "<p>Separated from their pack during a prolonged storm of wild magic, the Mana Wastes mutant gnoll hulk transformed into a gigantic, ravenous criatura.</p>\n<hr />\n<p>The erratic magical energies of the Mana Wastes can warp and twist criaturas foolish or unlucky enough to be trapped in them. The physiological effects of this exposure vary in scope from grotesque full-body transformations to more subtle changes to the skin or senses, and they're frequently accompanied by changes in disposition, motivation, or temperament.</p>",
-      "senses": "magic hunger (imprecise) 30 pies",
+      "name": "Mole gnoll mutante",
+      "publicNotes": "<p>Separada de su manada durante una tormenta prolongada de magia salvaje, la mole gnoll mutante de los Yermos de Mana se transformo en una criatura gigantesca y voraz.</p>\n<hr />\n<p>Las energias magicas erraticas de los Yermos de Mana pueden deformar y retorcer a las criaturas lo bastante imprudentes o desafortunadas como para quedar atrapadas en ellas. Los efectos fisiologicos de esta exposicion varian desde transformaciones grotescas de cuerpo entero hasta cambios mas sutiles en la piel o los sentidos, y con frecuencia van acompanados de alteraciones en la disposicion, la motivacion o el temperamento.</p>",
+      "senses": "hambre de magia (impreciso) 30 pies",
       "items": {
         "strike-melee->Battle Axe": {
           "name": "Hacha de batalla"
         },
         "strike-melee->Maw": {
-          "name": "Maw"
+          "name": "Fauces"
         },
         "strike-ranged->Composite Longbow": {
           "name": "Arco largo compuesto"
         },
         "action->Pack Attack": {
           "name": "Ataque en manada",
-          "description": "<p>A Mana Wastes mutant gnoll hulk deals 1d4 daño adicional to any criatura who's within reach of at least two of the Mana Wastes mutant gnoll hulk's aliados.</p>"
+          "description": "<p>Una mole gnoll mutante de los Yermos de Mana inflige 1d4 de dano adicional a cualquier criatura que este dentro del alcance de al menos dos aliados de la mole gnoll mutante de los Yermos de Mana.</p>"
         },
         "action->Rugged Travel": {
-          "name": "Rugged Travel",
-          "description": "<p>Un gnoll ignora la primera casilla de terreno dificil en la que entra cada vez que Da un paso o Zancada.</p>"
+          "name": "Viaje agreste",
+          "description": "<p>Un gnoll ignora la primera casilla de terreno dificil en la que entra cada vez que Da un paso o Zancadea.</p>"
         },
         "action->Vengeful Bite": {
-          "name": "Vengeful Bite",
-          "description": "<p><strong>Desencadenante</strong> A criatura critically hits the mutant with a melee unarmed Golpe or a non-reach melee Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The mutant makes a maw Golpe against the triggering criatura.</p>"
+          "name": "Mordisco vengativo",
+          "description": "<p><strong>Desencadenante</strong> Una criatura logra un impacto critico contra el mutante con un Golpe cuerpo a cuerpo sin armas o con un Golpe cuerpo a cuerpo sin alcance.</p>\n<hr />\n<p><strong>Efecto</strong> El mutante realiza un Golpe de fauces contra la criatura desencadenante.</p>"
         }
       }
     },
     "Quantium Golem (Acid)": {
-      "name": "Quantium Golem (Acid)",
-      "publicNotes": "<p>The long war between Nex and Geb spawned many animate armas, but while a citizen of Quantium might run screaming from any product of the fleshforges, they barely bat an eyelash at the ground-shaking stomp of the two titanic, deadly constructs that stride outside their city walls. Crafted by the wizard-king Nex ages ago after a devastating attack by Geb's undead forces, including the harrowing benthic reaver, the Quantium golems are meant to protect the capital in case of Nex's absence. Estos twin golems ceaselessly keep vigil over the city, ready to cut down any invaders that menace Quantium.</p>\n<p>Twenty pies tall and crafted from a supernaturally smooth material, the two guardians are a matched set, one of crimson and one of emerald. Wielding swords the size of giants, the guardians relentlessly destroy anything that threatens the city, particularly any undead that might invade the country from Geb. With the mythic Crux of Nex as a power supply, the golems are inexhaustible and nearly indestructible.</p>",
-      "senses": "vinculo del defensor",
+      "name": "Golem de Quantium (acido)",
+      "publicNotes": "<p>La larga guerra entre Nex y Geb dio origen a muchas armas animadas, pero aunque un ciudadano de Quantium podria huir gritando de cualquier producto de las forjas de carne, apenas parpadea ante el paso retumbante de los dos constructos titanicos y mortales que patrullan fuera de las murallas de la ciudad. Creados por el rey mago Nex hace eras, tras un devastador ataque de las fuerzas no muertas de Geb que incluyo al terrible devastador bentonico, los golems de Quantium estan destinados a proteger la capital en ausencia de Nex. Estos golems gemelos vigilan la ciudad sin descanso, listos para abatir a cualquier invasor que amenace Quantium.</p>\n<p>Con 20 pies de altura y fabricados con un material sobrenaturalmente liso, los dos guardianes forman una pareja: uno carmesi y otro esmeralda. Blandiendo espadas del tamano de gigantes, los guardianes destruyen sin tregua cualquier cosa que amenace la ciudad, en especial cualquier no muerto que pudiera invadir el pais desde Geb. Con el mitico Crux de Nex como fuente de poder, los golems son inagotables y casi indestructibles.</p>",
+      "senses": "vinculo de defensor",
       "items": {
         "arma->Bastard Sword": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.6KWYmeRMxsQfWhhJ]\n<p>Este broad-bladed sword, sometimes called the hand-and-a-half sword, has a longer grip so it can be held in one hand or used with two hands to provide extra piercing or slashing power.</p>"
+          "description": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.6KWYmeRMxsQfWhhJ]\n<p>Esta espada de hoja ancha, a veces llamada espada de mano y media, tiene una empunadura mas larga para poder blandirse con una mano o usarse a dos manos y aportar mayor potencia perforante o cortante.</p>"
         },
         "strike-melee->Bastard Sword": {
           "name": "Espada bastarda"
         },
         "strike-ranged->Eye Beam": {
-          "name": "Eye Beam"
+          "name": "Rayo ocular"
         },
         "action->Defender's Link": {
-          "name": "Defender's Link",
-          "description": "<p>Each Quantium golem automatically knows the Puntos de golpe, conditions, afflictions, and location of the other.</p>"
+          "name": "Vinculo de defensor",
+          "description": "<p>Cada golem de Quantium conoce automaticamente los PG, condiciones, aflicciones y ubicacion del otro.</p>"
         },
         "action->Lifesense 120 pies": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg]\nLifesense 120 pies"
+          "name": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg]\nSentido vital 120 pies"
         },
         "action->Golem Antimagic": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.r34QDwKiWZoVymJa]\nGolem Antimagic",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.r34QDwKiWZoVymJa]\n<p>Harmed by sonic (@Damage[9d10[untyped]], @Damage[3d10[untyped]] from areas or daño persistente); healed by fire (area @Damage[3d10[healing]] HP); ralentizado by cold</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GolemAntimagic]</p>"
+          "name": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.r34QDwKiWZoVymJa]\nAntimagia de golem",
+          "description": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.r34QDwKiWZoVymJa]\n<p>Danado por sonido (@Damage[9d10[untyped]], @Damage[3d10[untyped]] por areas o dano persistente); curado por fuego (area @Damage[3d10[healing]] PG); ralentizado por frio</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GolemAntimagic]</p>"
         },
         "action->Paired Reconstruction": {
-          "name": "Paired Reconstruction",
-          "description": "<p>Cuando reduced a 0 PG, el Quantium golem es destruido; however, ello magically reforms 24 horas later at full PG y free de todos conditions y afflictions unless su twin golem es also destruido.</p>"
+          "name": "Reconstruccion emparejada",
+          "description": "<p>Cuando se reduce a 0 PG, el golem de Quantium es destruido; sin embargo, se reforma magicamente 24 horas despues con todos sus PG y libre de todas las condiciones y aflicciones, a menos que su golem gemelo tambien haya sido destruido.</p>"
         },
         "action->Vulnerable to Banishment": {
-          "name": "Vulnerable to Banishment",
-          "description": "<p>Casting a @UUID[Compendium.pf2e.spells-srd.Item.bay4AfSu2iIozNNW]{Banishment} conjuro on a Quantium golem disrupts its connection to the Crux of Nex. If targeted by such a conjuro, the golem is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for [[/gmr 1d4 #rounds]]{1d4 asaltos}.</p>"
+          "name": "Vulnerable al destierro",
+          "description": "<p>Lanzar un conjuro de @UUID[Compendium.pf2e.spells-srd.Item.bay4AfSu2iIozNNW]{Destierro} sobre un golem de Quantium interrumpe su conexion con el Crux de Nex. Si es objetivo de tal conjuro, el golem queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1} y @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} durante [[/gmr 1d4 #asaltos]]{1d4 asaltos}.</p>"
         },
         "action->Lambent Beam": {
-          "name": "Lambent Beam",
-          "description": "<p>The Quantium golem's eyes take on a brilliant glow and it unleashes an arc of destruction dealing @Damage[10d6[fire],10d6[acid]]{10d6 daño de fuego and 10d6 daño de ácido} to criaturas in a @Template[line|distance:120] (@Check[reflex|dc:42|basic]). The Quantium golem can't use Lambent Beam for [[/gmr 1d4 #Recharge Lambent Beam]]{1d4 asaltos}.</p>"
+          "name": "Rayo brillante",
+          "description": "<p>Los ojos del golem de Quantium adquieren un brillo intenso y desata un arco de destruccion que inflige @Damage[10d6[fire],10d6[acid]]{10d6 de dano de fuego y 10d6 de dano de acido} a las criaturas en una @Template[line|distance:120] (@Check[reflex|dc:42|basic]). El golem de Quantium no puede usar Rayo brillante de nuevo durante [[/gmr 1d4 #Recarga de Rayo brillante]]{1d4 asaltos}.</p>"
         },
         "action->Twin Defenders": {
-          "name": "Twin Defenders",
-          "description": "<p>The Quantium golems were created by Nex as a matched set: one of crimson and one of emerald, each a unique entity. The crimson golem is imbued with blazing fire and crackling lightning; its eye beam and Lambent Beam abilities deal fire and daño de electricidad. The emerald golem is charged with caustic power and flame; its eye beam and Lambent Beam abilities deal acid and daño de fuego.</p>"
+          "name": "Defensores gemelos",
+          "description": "<p>Los golems de Quantium fueron creados por Nex como una pareja: uno carmesi y otro esmeralda, cada uno una entidad unica. El golem carmesi esta imbuido de fuego abrasador y relampagos crepitantes; su rayo ocular y su Rayo brillante infligen dano de fuego y dano de electricidad. El golem esmeralda esta cargado de poder caustico y llama; su rayo ocular y su Rayo brillante infligen dano de acido y dano de fuego.</p>"
         }
       }
     },
     "Quantium Golem (Electricity)": {
-      "name": "Quantium Golem (Electricity)",
-      "publicNotes": "<p>The long war between Nex and Geb spawned many animate armas, but while a citizen of Quantium might run screaming from any product of the fleshforges, they barely bat an eyelash at the ground-shaking stomp of the two titanic, deadly constructs that stride outside their city walls. Crafted by the wizard-king Nex ages ago after a devastating attack by Geb's undead forces, including the harrowing benthic reaver, the Quantium golems are meant to protect the capital in case of Nex's absence. Estos twin golems ceaselessly keep vigil over the city, ready to cut down any invaders that menace Quantium.</p>\n<p>Twenty pies tall and crafted from a supernaturally smooth material, the two guardians are a matched set, one of crimson and one of emerald. Wielding swords the size of giants, the guardians relentlessly destroy anything that threatens the city, particularly any undead that might invade the country from Geb. With the mythic Crux of Nex as a power supply, the golems are inexhaustible and nearly indestructible.</p>",
-      "senses": "vinculo del defensor",
+      "name": "Golem de Quantium (electricidad)",
+      "publicNotes": "<p>La larga guerra entre Nex y Geb dio origen a muchas armas animadas, pero aunque un ciudadano de Quantium podria huir gritando de cualquier producto de las forjas de carne, apenas parpadea ante el paso retumbante de los dos constructos titanicos y mortales que patrullan fuera de las murallas de la ciudad. Creados por el rey mago Nex hace eras, tras un devastador ataque de las fuerzas no muertas de Geb que incluyo al terrible devastador bentonico, los golems de Quantium estan destinados a proteger la capital en ausencia de Nex. Estos golems gemelos vigilan la ciudad sin descanso, listos para abatir a cualquier invasor que amenace Quantium.</p>\n<p>Con 20 pies de altura y fabricados con un material sobrenaturalmente liso, los dos guardianes forman una pareja: uno carmesi y otro esmeralda. Blandiendo espadas del tamano de gigantes, los guardianes destruyen sin tregua cualquier cosa que amenace la ciudad, en especial cualquier no muerto que pudiera invadir el pais desde Geb. Con el mitico Crux de Nex como fuente de poder, los golems son inagotables y casi indestructibles.</p>",
+      "senses": "vinculo de defensor",
       "items": {
         "arma->Bastard Sword": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.6KWYmeRMxsQfWhhJ]\n<p>Este broad-bladed sword, sometimes called the hand-and-a-half sword, has a longer grip so it can be held in one hand or used with two hands to provide extra piercing or slashing power.</p>"
+          "description": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.equipment-srd.Item.6KWYmeRMxsQfWhhJ]\n<p>Esta espada de hoja ancha, a veces llamada espada de mano y media, tiene una empunadura mas larga para poder blandirse con una mano o usarse a dos manos y aportar mayor potencia perforante o cortante.</p>"
         },
         "strike-melee->Bastard Sword": {
           "name": "Espada bastarda"
         },
         "strike-ranged->Eye Beam": {
-          "name": "Eye Beam"
+          "name": "Rayo ocular"
         },
         "action->Defender's Link": {
-          "name": "Defender's Link",
-          "description": "<p>Each Quantium golem automatically knows the Puntos de golpe, conditions, afflictions, and location of the other.</p>"
+          "name": "Vinculo de defensor",
+          "description": "<p>Cada golem de Quantium conoce automaticamente los PG, condiciones, aflicciones y ubicacion del otro.</p>"
         },
         "action->Lifesense 120 pies": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg]\nLifesense 120 pies"
+          "name": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg]\nSentido vital 120 pies"
         },
         "action->Golem Antimagic": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.r34QDwKiWZoVymJa]\nGolem Antimagic",
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.r34QDwKiWZoVymJa]\n<p>Harmed by sonic (@Damage[9d10[untyped]], @Damage[3d10[untyped]] from areas or daño persistente); healed by fire (area @Damage[3d10[healing]] HP); ralentizado by cold</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GolemAntimagic]</p>"
+          "name": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.r34QDwKiWZoVymJa]\nAntimagia de golem",
+          "description": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.r34QDwKiWZoVymJa]\n<p>Danado por sonido (@Damage[9d10[untyped]], @Damage[3d10[untyped]] por areas o dano persistente); curado por fuego (area @Damage[3d10[healing]] PG); ralentizado por frio</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GolemAntimagic]</p>"
         },
         "action->Paired Reconstruction": {
-          "name": "Paired Reconstruction",
-          "description": "<p>Cuando reduced a 0 PG, el Quantium golem es destruido; however, ello magically reforms 24 horas later at full PG y free de todos conditions y afflictions unless su twin golem es also destruido.</p>"
+          "name": "Reconstruccion emparejada",
+          "description": "<p>Cuando se reduce a 0 PG, el golem de Quantium es destruido; sin embargo, se reforma magicamente 24 horas despues con todos sus PG y libre de todas las condiciones y aflicciones, a menos que su golem gemelo tambien haya sido destruido.</p>"
         },
         "action->Vulnerable to Banishment": {
-          "name": "Vulnerable to Banishment",
-          "description": "<p>Casting a @UUID[Compendium.pf2e.spells-srd.Item.bay4AfSu2iIozNNW]{Banishment} conjuro on a Quantium golem disrupts its connection to the Crux of Nex. If targeted by such a conjuro, the golem is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} for [[/gmr 1d4 #rounds]]{1d4 asaltos}.</p>"
+          "name": "Vulnerable al destierro",
+          "description": "<p>Lanzar un conjuro de @UUID[Compendium.pf2e.spells-srd.Item.bay4AfSu2iIozNNW]{Destierro} sobre un golem de Quantium interrumpe su conexion con el Crux de Nex. Si es objetivo de tal conjuro, el golem queda @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Debilitado 1} y @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} durante [[/gmr 1d4 #asaltos]]{1d4 asaltos}.</p>"
         },
         "action->Lambent Beam": {
-          "name": "Lambent Beam",
-          "description": "<p>The Quantium golem's eyes take on a brilliant glow and it unleashes an arc of destruction dealing @Damage[10d6[fire],10d6[electricity]]{10d6 daño de fuego and 10d6 daño de electricidad} to criaturas in a @Template[line|distance:120] (@Check[reflex|dc:42|basic]). The Quantium golem can't use Lambent Beam for [[/gmr 1d4 #Recharge Lambent Beam]]{1d4 asaltos}.</p>"
+          "name": "Rayo brillante",
+          "description": "<p>Los ojos del golem de Quantium adquieren un brillo intenso y desata un arco de destruccion que inflige @Damage[10d6[fire],10d6[electricity]]{10d6 de dano de fuego y 10d6 de dano de electricidad} a las criaturas en una @Template[line|distance:120] (@Check[reflex|dc:42|basic]). El golem de Quantium no puede usar Rayo brillante de nuevo durante [[/gmr 1d4 #Recarga de Rayo brillante]]{1d4 asaltos}.</p>"
         },
         "action->Twin Defenders": {
-          "name": "Twin Defenders",
-          "description": "<p>The Quantium golems were created by Nex as a matched set: one of crimson and one of emerald, each a unique entity. The crimson golem is imbued with blazing fire and crackling lightning; its eye beam and Lambent Beam abilities deal fire and daño de electricidad. The emerald golem is charged with caustic power and flame; its eye beam and Lambent Beam abilities deal acid and daño de fuego.</p>"
+          "name": "Defensores gemelos",
+          "description": "<p>Los golems de Quantium fueron creados por Nex como una pareja: uno carmesi y otro esmeralda, cada uno una entidad unica. El golem carmesi esta imbuido de fuego abrasador y relampagos crepitantes; su rayo ocular y su Rayo brillante infligen dano de fuego y dano de electricidad. El golem esmeralda esta cargado de poder caustico y llama; su rayo ocular y su Rayo brillante infligen dano de acido y dano de fuego.</p>"
         }
       }
     },
     "Ratajin Mastermind": {
-      "name": "Ratajin Mastermind",
-      "publicNotes": "<p>Most commonly found in Vudra and Jalmeray, ratajin aren't so much twisted by curses as they are molded by the lingering effects of curses inflicted on generations millennia past. The difference lies in understanding the original ratajin characteristics. No curse gave ratajin four eyes on a slender face, nor triple-jointed, hypermobile legs and multiple arms. Nor did curses provide ratajin with skin tones of all hues within the color spectrum. Instead, these residual curses have given each ratajin distinctive geometric markings all across their body. Every ratajin also experiences a cursed twist on their senses, altering how they view and INTERACT with the world around them. Some ratajin visualize the world in shifted, indescribable color spectra. For others, sounds physically manifest as feelings on their skin. Haunting melodies of past actions might whisper in the wind behind one ratajin, while another can be awake only during hours devoid of sunlight.</p>\n<p>While particular curse manifestations are passed along family lines, each ratajin's worldview can offer a unique perspective. Ratajin tend to be receptive to new ideas, making them well-suited to tackle complex situations. They often prefer to focus on difficult problems, working without rest until they reach a solution. What satisfies the definition of a worthy pursuit varies with individual ratajin, from tinkering with new applications of technology to uncovering secrets of centuries-old magical tomes. Their intellectual approach to problems can make ratajin especially useful in situations requiring delicate words, and their quick thinking serves them well as adventurers when the time comes for action. Estos same characteristics also make them capable merchants and scholars.</p>\n<p>Earning a ratajin's trust can prove difficult. Their large-scale communities often collaborate to devise clever solutions that ensure equitable treatment among people, but each community varies greatly due to the different needs of the inhabitants. Outsiders who require too much help too quickly might cause a ratajin to withdraw, believing their guest incapable of adjusting to life's many hurdles. Poorly chosen words of pity or meaningless sympathy toward the NATURE of a ratajin's unique sensory experience can also cause lingering resentment.</p>",
+      "name": "Mente maestra ratajin",
+      "publicNotes": "<p>Mas comunes en Vudra y Jalmeray, los ratajin no estan tanto retorcidos por maldiciones como moldeados por los efectos persistentes de maldiciones infligidas a generaciones de un pasado milenario. La diferencia esta en comprender las caracteristicas originales de los ratajin. Ninguna maldicion dio a los ratajin cuatro ojos en un rostro esbelto, ni piernas hipermoviles de triple articulacion, ni multiples brazos. Tampoco las maldiciones les proporcionaron tonos de piel de todos los matices del espectro cromatico. En cambio, estas maldiciones residuales han dado a cada ratajin marcas geometricas distintivas por todo el cuerpo. Cada ratajin tambien experimenta una torsion maldita de sus sentidos, que altera como ve e interactua con el mundo que lo rodea. Algunos ratajin visualizan el mundo en espectros de color desplazados e indescriptibles. Para otros, los sonidos se manifiestan fisicamente como sensaciones en la piel. Melodias inquietantes de acciones pasadas pueden susurrar en el viento detras de un ratajin, mientras otro solo puede estar despierto durante horas sin luz solar.</p>\n<p>Aunque las manifestaciones concretas de una maldicion se transmiten por linajes familiares, la vision del mundo de cada ratajin puede ofrecer una perspectiva unica. Los ratajin tienden a ser receptivos a nuevas ideas, lo que los hace muy aptos para abordar situaciones complejas. A menudo prefieren centrarse en problemas dificiles, trabajando sin descanso hasta llegar a una solucion. Lo que satisface la definicion de una busqueda digna varia con cada ratajin, desde experimentar con nuevas aplicaciones de tecnologia hasta descubrir secretos en tomos magicos de siglos de antiguedad. Su aproximacion intelectual a los problemas puede hacer que los ratajin sean especialmente utiles en situaciones que requieren palabras delicadas, y su rapidez mental les sirve bien como aventureros cuando llega el momento de actuar. Estas mismas caracteristicas tambien los convierten en comerciantes y eruditos capaces.</p>\n<p>Ganarse la confianza de un ratajin puede resultar dificil. Sus comunidades a gran escala suelen colaborar para idear soluciones ingeniosas que aseguren un trato equitativo entre las personas, pero cada comunidad varia mucho segun las distintas necesidades de sus habitantes. Los forasteros que necesitan demasiada ayuda demasiado deprisa pueden hacer que un ratajin se retraiga, creyendo que su invitado es incapaz de adaptarse a los muchos obstaculos de la vida. Las palabras de compasion mal escogidas o la simpatia vacia hacia la naturaleza de la experiencia sensorial unica de un ratajin tambien pueden causar resentimiento duradero.</p>",
       "items": {
         "strike-melee->Rapier": {
           "name": "Espada ropera"
@@ -429,15 +429,15 @@
           "name": "Arco corto"
         },
         "action->Outsmart": {
-          "name": "Outsmart",
-          "description": "<p><strong>Desencadenante</strong> A criatura attacks while the ratajin mastermind is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido}</p>\n<hr />\n<p><strong>Efecto</strong> Due to planning, the ratajin mastermind can react quickly to poor situations. The ratajin mastermind isn't treated as desprevenido to the attack, and the triggering criatura is desprevenido to the next attack made before the end of the ratajin mastermind's next turn.</p>"
+          "name": "Superar con astucia",
+          "description": "<p><strong>Desencadenante</strong> Una criatura ataca mientras la mente maestra ratajin esta @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenida}.</p>\n<hr />\n<p><strong>Efecto</strong> Gracias a su planificacion, la mente maestra ratajin puede reaccionar con rapidez ante situaciones desfavorables. La mente maestra ratajin no se considera desprevenida contra el ataque, y la criatura desencadenante queda desprevenida contra el siguiente ataque realizado antes del final del siguiente turno de la mente maestra ratajin.</p>"
         }
       }
     },
     "Skinskitter": {
-      "name": "Skinskitter",
-      "publicNotes": "<p>Estos elusive oddments resemble discarded hides of butchered animals and fleshwarping experiments, floating like so much meaty detritus in the bloody filth of Ecanus's charnel-clogged sewers. Skinskitters, named for their fluid, erratic movements, scavenge the city for leavings of fleshy waste. They prefer discreet, non-violent ways of procuring these biological materials and shy from combat, seemingly possessed of a nervous temperament. Nexian fleshforgers quip this is entirely reasonable, as skinskitters are little more than nervous systems wrapped in dying skin. Nexian guards who actually have to hunt these fleshforged pests aren't quite as jocular; confronted by the oddly childlike pleas of these cornered puddles of flesh, hair, and eyes, many recruits simply elige to leave the city watch.</p>\n<p>On occasion, curious scholars or soldiers have questioned why skinskitters pursue organic tissue, and whether this is a simple instinct or in pursuit of a grander purpose. Most fleshforgers assume that skinskitters consume organic matter to REPAIR themselves in a process similar to eating, and give the matter no further thought, showing no more interest in the criaturas than a smith might show in a bead of melted slag. The most paranoid Nexians claim that skinskitters are attempting to build something out of their collections of cast-off skin, perhaps even reconstructing themselves into fleshforged conformers. There is no recorded evidence of this ever occurring, however—if the criaturas have any awareness at all, it's more likely that skinskitters are driven by the basest of instincts to better themselves through the same methods used in their creation but lack the understanding and self-direction to ever succeed.</p>",
-      "senses": "a taste for skin (imprecise) 60 pies",
+      "name": "Correpiél",
+      "publicNotes": "<p>Estos escurridizos retazos parecen pieles desechadas de animales descuartizados y experimentos de fleshwarping, flotando como detritos carnosos en la suciedad sangrienta de las cloacas de Ecanus. Los correpieles, llamados asi por sus movimientos fluidos y erraticos, carroñean por la ciudad en busca de restos de desecho carnoso. Prefieren formas discretas y no violentas de obtener estos materiales biologicos y evitan el combate, aparentemente poseidos por un temperamento nervioso. Los forjadores de carne nexianos bromean diciendo que esto es del todo razonable, pues los correpieles son poco mas que sistemas nerviosos envueltos en piel moribunda. Los guardias nexianos que realmente tienen que cazar estas plagas forjadas en carne no son tan bromistas; enfrentados a las suplicas extranamente infantiles de estos charcos de carne, pelo y ojos acorralados, muchos reclutas simplemente optan por abandonar la guardia de la ciudad.</p>\n<p>En ocasiones, eruditos o soldados curiosos han cuestionado por que los correpieles persiguen tejido organico, y si se trata de un simple instinto o de la busqueda de un proposito mayor. La mayoria de los forjadores de carne supone que los correpieles consumen materia organica para repararse en un proceso similar a comer, y no le dan mas importancia, mostrando por estas criaturas poco mas interes que un herrero por una gota de escoria fundida. Los nexianos mas paranoicos afirman que los correpieles intentan construir algo con sus colecciones de piel desechada, quiza incluso reconstruirse como conformadores forjados en carne. Sin embargo, no existe registro de que esto haya ocurrido nunca; si estas criaturas poseen algun tipo de conciencia, es mas probable que los correpieles esten impulsados por los instintos mas basicos a mejorarse mediante los mismos metodos usados en su creacion, pero carezcan de la comprension y autodireccion necesarias para tener exito.</p>",
+      "senses": "gusto por la piel (impreciso) 60 pies",
       "skillSpecialStealth": {
         "0": {
           "label": "en sangre o agua"
@@ -445,107 +445,107 @@
       },
       "items": {
         "strike-melee->Nail": {
-          "name": "Nail"
+          "name": "Una"
         },
         "action->A Taste for Skin": {
-          "name": "A Taste for Skin",
-          "description": "<p>A skinskitter tastes skin (including leather), hair, claws, and nails within 60 pies.</p>"
+          "name": "Gusto por la piel",
+          "description": "<p>Un correpiel puede saborear piel (incluido cuero), pelo, garras y unas a 60 pies.</p>"
         },
         "action->Shuddering Skitter": {
-          "name": "Shuddering Skitter",
-          "description": "<p><strong>Frecuencia</strong> una vez al día</p>\n<p><strong>Desencadenante</strong> The skinskitter is reduced to 0 HP</p>\n<hr />\n<p><strong>Efecto</strong> The fear of death agitates the skinskitter, precipitating a sudden existential awakening of consciousness. The skinskitter is reduced to 1 HP, loses the mindless rasgo and immunity to mental effects for the next 24 horas, gains the ability to speak one language (typically Osiriani or Vudrani), and takes two of the following actions in any order: Hide, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak}, Dar un paso, Zancada, or @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover}. In addition, the square occupied by the skinskitter before using Shuddering Skitter becomes difficult terrain, as they disgorge a shower of half-digested calluses, chewed nails, and entangled hair in their skittering wake.</p>"
+          "name": "Corretear tembloroso",
+          "description": "<p><strong>Frecuencia</strong> una vez al dia</p>\n<p><strong>Desencadenante</strong> El correpiel queda reducido a 0 PG.</p>\n<hr />\n<p><strong>Efecto</strong> El miedo a la muerte agita al correpiel y precipita un repentino despertar existencial de su conciencia. El correpiel queda reducido a 1 PG, pierde el rasgo descerebrado y la inmunidad a efectos mentales durante las siguientes 24 horas, obtiene la capacidad de hablar un idioma (normalmente osiriano o vudrani) y realiza dos de las siguientes acciones en cualquier orden: Esconderse, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Escabullirse}, Dar un paso, Zancada o @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Cubrirse}. Ademas, la casilla que ocupaba el correpiel antes de usar Corretear tembloroso se convierte en terreno dificil, ya que vomita una lluvia de callos a medio digerir, unas mordisqueadas y pelo enredado a su paso.</p>"
         },
         "action->Share the Skin": {
-          "name": "Share the Skin",
-          "description": "<p><strong>Requisitos</strong> A @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, or willing criatura is within the skinskitter's reach</p>\n<hr />\n<p><strong>Efecto</strong> The skinskitter scrapes and shears away large sheets of the victim's skin. Este requires an @Check[athletics|defense:fortitude] prueba against the victim's CD de Fortaleza if the victim is grabbed and is automatic for any of the other conditions. The massive pain causes the victim to become @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} for 1 minuto, and the skinskitter drapes itself in the flapping skin, granting it 10 Puntos de golpe temporales for 1 minuto.</p>"
+          "name": "Compartir la piel",
+          "description": "<p><strong>Requisitos</strong> Una criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrada}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizada}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restringida}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} o voluntaria esta dentro del alcance del correpiel.</p>\n<hr />\n<p><strong>Efecto</strong> El correpiel raspa y corta grandes laminas de piel de la victima. Esto requiere una prueba de @Check[athletics|defense:fortitude] contra la CD de Fortaleza de la victima si esta agarrada, y es automatico para cualquiera de las otras condiciones. El dolor intenso hace que la victima quede @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} durante 1 minuto, y el correpiel se cubre con la piel colgante, obteniendo 10 Puntos de Golpe temporales durante 1 minuto.</p>"
         }
       }
     },
     "Conjuro Pitchers": {
-      "name": "Conjuro Pitchers",
-      "description": "<p>A large pitcher plant occupying a 5-pies space sits seemingly dormant with its dull petals open.</p>",
+      "name": "Plantas jarro de conjuros",
+      "description": "<p>Una gran planta jarro que ocupa un espacio de 5 pies permanece aparentemente inactiva con sus petalos apagados abiertos.</p>",
       "disable": "<p>@Check[arcana|dc:15] (entrenado) to safely trigger the plant's reflexes, causing it to close and become dormant for one day, or @Check[nature|dc:17] (entrenado) to carefully coax the pitcher into quiescence</p>",
-      "reset": "<p>Once the pitcher has eaten a conjuro, its petals turn dark pink and green before it closes. It goes dormant for one day per conjuro rank of the conjuro consumed. Once the pitcher finishes digesting, it opens again and slowly wilts. A second pitcher branches into an adjacent square when the first pitcher opens again.</p>",
+      "reset": "<p>Una vez que la planta jarro ha devorado un conjuro, sus petalos se vuelven de color rosa oscuro y verde antes de cerrarse. Permanece inactiva durante un dia por cada rango del conjuro consumido. Cuando termina de digerir, se abre de nuevo y se marchita lentamente. Una segunda planta jarro brota en una casilla adyacente cuando la primera vuelve a abrirse.</p>",
       "stealth": "<p>(entrenado) to recognize the plant among others</p>",
       "items": {
         "action->Devour Magic": {
-          "name": "Devour Magic",
-          "description": "<p><strong>Desencadenante</strong> A conjuro's direct line of effect passes within a 5-pies-radius of the plant</p>\n<hr />\n<p><strong>Efecto</strong> The pitcher attempts to counteract the conjuro (counteract rank 1, counteract modifier [[/r 1d20+10 #Counteract]]{+10}). On a success, the pitcher immediately consumes the conjuro as it passes over the plant.</p>"
+          "name": "Devorar magia",
+          "description": "<p><strong>Desencadenante</strong> La linea de efecto directa de un conjuro pasa a menos de un radio de 5 pies de la planta.</p>\n<hr />\n<p><strong>Efecto</strong> La planta jarro intenta contrarrestar el conjuro (rango de contrarrestar 1, modificador de contrarrestar [[/r 1d20+10 #Contrarrestar]]{+10}). Con un exito, la planta jarro consume inmediatamente el conjuro cuando pasa sobre ella.</p>"
         }
       }
     },
     "Spellscar Fext": {
-      "name": "Spellscar Fext",
-      "hpDetails": "regeneration 10 (desactivada por glass)",
-      "publicNotes": "<p>Spellscar fexts are spellcasters who were destroyed by wild magic or wellspring surges they tried—and failed—to control. The magical feedback that snuffed out their life warped and animated their flesh, twisting them into shambling undead. Spellscar fexts stand 6 pies tall with disproportionately long arms that end in clusters of waving magical tendrils.</p>\n<p>Almost all who became spellscar fexts entered the Mana Wastes to harness the power of the area's wild magic. Once transformed, the desire for magical power becomes a spellscar fext's singular motivation. The criaturas focus their attacks on magic users they encounter, attempting to kill them and strip their magic. Unfortunately for a spellscar fext, their transformation makes their entire being inimical to magic. They're unable to cast even the simplest of conjuros. They grasp destructively at magic they can never hold.</p>\n<p>Difficult for the unprepared to destroy permanently, spellscar fexts harry trade routes known for shipping magical goods and repeatedly attack arcane workshops on the borders of the Mana Wastes. They're particularly dangerous to spellcasters traveling alone, as battling the criaturas might trigger a wellspring surge that could destroy the lone magic user.</p>\n<p>As the fext's vulnerability to glass armas has become more well known, enterprising gunsmiths in Alkenstar have begun CRAFTING glass ammunition, an uncommon item that costs the same as cold iron ammunition.</p>",
+      "name": "Fext marcado por conjuros",
+      "hpDetails": "regeneracion 10 (desactivada por cristal)",
+      "publicNotes": "<p>Los fexts marcados por conjuros son lanzadores de conjuros destruidos por magia salvaje o oleadas de manantial que intentaron controlar y fracasaron. La retroalimentacion magica que extinguio sus vidas deformo y animo su carne, retorciendolos en no muertos tambaleantes. Los fexts marcados por conjuros miden 6 pies de altura, con brazos desproporcionadamente largos que terminan en racimos de zarcillos magicos ondulantes.</p>\n<p>Casi todos los que se convirtieron en fexts marcados por conjuros entraron en los Yermos de Mana para aprovechar el poder de la magia salvaje de la zona. Una vez transformados, el deseo de poder magico se convierte en la unica motivacion de un fext marcado por conjuros. Estas criaturas centran sus ataques en los usuarios de magia que encuentran, intentando matarlos y arrancarles su magia. Por desgracia para un fext marcado por conjuros, su transformacion hace que todo su ser sea hostil a la magia. No pueden lanzar ni los conjuros mas simples. Aferran de forma destructiva una magia que nunca podran retener.</p>\n<p>Dificiles de destruir permanentemente para quienes no estan preparados, los fexts marcados por conjuros hostigan rutas comerciales conocidas por transportar bienes magicos y atacan repetidamente talleres arcanos en las fronteras de los Yermos de Mana. Son especialmente peligrosos para lanzadores de conjuros que viajan solos, ya que luchar contra estas criaturas podria desencadenar una oleada de manantial capaz de destruir al usuario de magia solitario.</p>\n<p>A medida que la vulnerabilidad del fext a las armas de cristal se ha vuelto mas conocida, armeros emprendedores de Alkenstar han empezado a fabricar municion de cristal, un objeto poco comun que cuesta lo mismo que la municion de hierro frio.</p>",
       "saveDetails": "+1 de estado contra magia",
-      "senses": "magic sense (imprecise) 30 pies",
+      "senses": "sentido magico (impreciso) 30 pies",
       "items": {
         "strike-melee->Fist": {
-          "name": "Fist"
+          "name": "Puno"
         },
         "action->Magic Sense (Imprecise) 30 pies": {
-          "name": "Magic Sense (Imprecise) 30 pies"
+          "name": "Sentido magico (impreciso) 30 pies"
         },
         "action->Regeneration 10 (Deactivated by Glass)": {
-          "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.lR9R5Vld8Eu2Dha5]\nRegeneración 10 (Deactivated by Glass)"
+          "name": "<Compendium> la etiqueta se reemplazara con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.lR9R5Vld8Eu2Dha5]\nRegeneracion 10 (desactivada por cristal)"
         },
         "action->Unstable Feedback": {
-          "name": "Unstable Feedback",
-          "description": "<p><strong>Desencadenante</strong> A criatura Casts a Conjuro on the spellscar fext, and the spellscar fext either succeeds at its tirada de salvación versus the conjuro or the caster fails the conjuro tirada de ataque against the spellscar fext</p>\n<hr />\n<p><strong>Efecto</strong> The caster of the triggering conjuro undergoes a @UUID[Compendium.pf2e.rollable-tables.RollTable.N0pDFNCffTe2Du39]{Wellspring Surge}. Even if several spellscar fexts use this reaction after succeeding at a save against the same conjuro, the spellcaster undergoes only one wellspring surge.</p>"
+          "name": "Retroalimentacion inestable",
+          "description": "<p><strong>Desencadenante</strong> Una criatura Lanza un conjuro sobre el fext marcado por conjuros, y el fext tiene exito en su salvacion contra el conjuro o el lanzador falla la tirada de ataque de conjuro contra el fext.</p>\n<hr />\n<p><strong>Efecto</strong> El lanzador del conjuro desencadenante sufre una @UUID[Compendium.pf2e.rollable-tables.RollTable.N0pDFNCffTe2Du39]{Oleada de manantial}. Aunque varios fexts marcados por conjuros usen esta reaccion tras tener exito en una salvacion contra el mismo conjuro, el lanzador solo sufre una oleada de manantial.</p>"
         },
         "action->Grasp Power": {
-          "name": "Grasp Power",
-          "description": "<p><strong>Requisitos</strong> The spellscar fext's last action was a successful fist Golpe</p>\n<hr />\n<p><strong>Efecto</strong> The spellscar fext attempts a counteract prueba against a single conjuro affecting the criatura (counteract rank 4, counteract modifier [[/r 1d20+17 #Counter]]{+17}). If the prueba is successful, the criatura also takes @Damage[6d6[mental]] daño (@Check[will|dc:25|basic]).</p>"
+          "name": "Aferrar poder",
+          "description": "<p><strong>Requisitos</strong> La ultima accion del fext marcado por conjuros fue un Golpe de puno con exito.</p>\n<hr />\n<p><strong>Efecto</strong> El fext marcado por conjuros intenta una prueba de contrarrestar contra un unico conjuro que afecte a la criatura (rango de contrarrestar 4, modificador de contrarrestar [[/r 1d20+17 #Contrarrestar]]{+17}). Si la prueba tiene exito, la criatura tambien recibe @Damage[6d6[mental]] de dano (@Check[will|dc:25|basic]).</p>"
         }
       }
     },
     "Stone Sister": {
-      "name": "Stone Sister",
-      "hpDetails": "curación de vacío, reconstitution, stone flesh",
+      "name": "Hermana de piedra",
+      "hpDetails": "curacion de vacio, reconstitucion, carne petrea",
       "languages": "(no puede hablar)",
       "items": {
         "strike-melee->Scimitar": {
           "name": "Cimitarra"
         },
         "strike-melee->Fist": {
-          "name": "Fist"
+          "name": "Puno"
         },
         "action->Reconstitution": {
-          "name": "Reconstitution",
-          "description": "<p>Until Geb's curse is broken, any stone sister who's destroyed gradually reforms in her original shape. A stone sister who's reduced to 0 Puntos de golpe will reform after 24 horas, while one reduced to rubble or dust might take a year or more to reform. Stone sisters who are removed from the Field of Maidens always attempt to return to it when they reconstitute.</p>"
+          "name": "Reconstitucion",
+          "description": "<p>Hasta que se rompa la maldicion de Geb, cualquier hermana de piedra destruida se reforma gradualmente con su forma original. Una hermana de piedra reducida a 0 Puntos de Golpe se reformara despues de 24 horas, mientras que una reducida a escombros o polvo podria tardar un ano o mas en reformarse. Las hermanas de piedra retiradas del Campo de las Doncellas siempre intentan regresar a el cuando se reconstituyen.</p>"
         },
         "action->Stone Flesh": {
-          "name": "Stone Flesh",
-          "description": "<p>A stone sister is made of a bizarre stone that never stops bleeding from numerous cracks along her skin. She reacts to certain conjuros in unique ways, as listed below.</p>\n<ul>\n<li>Conjuros that alter earth, such as shape stone, either deal @Damage[3d10] points of daño or heal @Damage[3d10[healing]] Puntos de golpe, as decided by the caster. If the conjuro is specifically harmful or beneficial to earth and stone, the GM might decide it can only harm the stone sister, or only heal her.</li>\n<li>Stone to flesh doesn't revert a stone sister to flesh and blood but instead weakens her. She loses her resistance to daño físico for 1 minuto. If she's reduced to 0 Puntos de golpe during this time, she's permanently destroyed and can't reform.</li>\n</ul>"
+          "name": "Carne petrea",
+          "description": "<p>Una hermana de piedra esta hecha de una piedra extrana que nunca deja de sangrar por numerosas grietas de su piel. Reacciona de formas unicas a ciertos conjuros, como se indica a continuacion.</p>\n<ul>\n<li>Los conjuros que alteran la tierra, como dar forma a la piedra, infligen @Damage[3d10] puntos de dano o curan @Damage[3d10[healing]] Puntos de Golpe, a decision del lanzador. Si el conjuro es especificamente danino o beneficioso para la tierra y la piedra, el DJ podria decidir que solo puede danar a la hermana de piedra o solo curarla.</li>\n<li>Piedra a carne no devuelve a una hermana de piedra a carne y hueso, sino que la debilita. Pierde su resistencia al dano fisico durante 1 minuto. Si queda reducida a 0 Puntos de Golpe durante este tiempo, queda destruida permanentemente y no puede reformarse.</li>\n</ul>"
         },
         "action->Curse of Stone": {
-          "name": "Curse of Stone",
-          "description": "<p>The criatura must succeed at a @Check[fortitude|dc:21] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} (@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 3} on a critical failure) and gain a +1 bonificador de estado to AC as their skin hardens to stone. The torpe condition can be temporarily relieved for 24 horas by casting stone to flesh on the cursed criatura but can't be removed or reduced by any other means short of removing the curse; during this time, the cursed criatura also no longer receives the bonificador de estado to AC.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.UgoM6FBiZfc7KqCV]{Efecto: Curse of Stone}</p>"
+          "name": "Maldicion de piedra",
+          "description": "<p>La criatura debe tener exito en una salvacion de @Check[fortitude|dc:21] o queda @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2} (@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 3} con un fallo critico) y obtiene un bonificador de estado +1 a la CA cuando su piel se endurece como piedra. La condicion de torpe puede aliviarse temporalmente durante 24 horas lanzando piedra a carne sobre la criatura maldita, pero no puede eliminarse ni reducirse por ningun otro medio salvo eliminar la maldicion; durante este tiempo, la criatura maldita tampoco recibe el bonificador de estado a la CA.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.UgoM6FBiZfc7KqCV]{Efecto: Maldicion de piedra}</p>"
         },
         "action->Statue": {
           "name": "Estatua",
-          "description": "<p>Until the next time she acts, the stone sister appears to be a statue. She has an automatic result of 34 on DECEPTION checks and DCs to pass as a statue. Since the Field of Maidens is filled with thousands of statues just like her, most of which aren't stone sisters, it's incredibly difficult to recognize her true NATURE.</p>"
+          "description": "<p>Hasta la proxima vez que actue, la hermana de piedra parece una estatua. Tiene un resultado automatico de 34 en pruebas y CD de Engano para pasar por estatua. Como el Campo de las Doncellas esta lleno de miles de estatuas iguales a ella, la mayoria de las cuales no son hermanas de piedra, es increiblemente dificil reconocer su verdadera naturaleza.</p>"
         }
       }
     },
     "Ugvashi": {
       "name": "Ugvashi",
-      "publicNotes": "<p>Estos razor-plated pangolins—about the size of small ponies—are the traditional pack animals of halflings from Casmaron, though the ugvashi's serrated plates and tendency to curl up make them ill-suited as mounts. Ugvashi first arrived in the Impossible Lands onboard the Thousand and One ships of Maharajah Khiben-Sald, alongside peafowl, giant squirrels, and other fauna from Vudra. In the modern day, ugvashi are such a recognized sight that many people forget they aren't a native species. Though some feral populations exist, mainly on the island of Jalmeray, the hostile environs of Nex and the Mana Wastes mean ugvashi mainly appear in domestic settings, usually as working beasts among the Nearic halflings of western Nex.</p>\n<p>Though ugvashi are mostly harmless, they're somewhat more dangerous than their smaller cousins, causing a stir when reckless citizens attempt to pet the criaturas. Ugvashi scales are razor sharp, and their large and blunted digging claws can be deadly due to their size. People who attempt to steal the animals or ride them without training often receive moderate cuts for their trouble. However, ugvashi are generally curious and very friendly, and more than one visitor or wilderness explorer has found a baby ugvashi toddling after them and pawing at their boots.</p>\n<p>Nearic halflings also paint their ugvashi with distinctive warding patterns and sigils, some of which are actually effective and provide a surprise for opportunistic thieves or predators. Though due consideration is spent on protecting an ugvashi's cargo, the animals themselves have proven to be tempting objetivos as well, especially for their meat. With blighted landscapes making animal husbandry impractical and magical pollution leaving local seafood with a distinct aftertaste, a number of Nexian and Mana Wastes peoples have developed a taste for ugvashi. Since the animals lack an aggressive temperament, it often falls to their caretakers to discourage such predations through whatever means necessary.</p>\n<p>Ugvashi shed their scales each winter, allowing for the plates to be collected safely and turned into quality armadura and other pieces of craftwork. Nearic halflings rarely trade or sell these items, however, out of fear that they might lead to more people trying to steal their ugvashi.</p>",
+      "publicNotes": "<p>Estos pangolines de placas afiladas, del tamano aproximado de pequenos ponis, son los animales de carga tradicionales de los medianos de Casmaron, aunque las placas serradas del ugvashi y su tendencia a enroscarse los hacen poco adecuados como monturas. Los ugvashi llegaron por primera vez a las Tierras Imposibles a bordo de los Mil y Un barcos del Maharaja Khiben-Sald, junto con pavos reales, ardillas gigantes y otra fauna de Vudra. En la actualidad, los ugvashi son una presencia tan reconocible que mucha gente olvida que no son una especie nativa. Aunque existen algunas poblaciones asilvestradas, sobre todo en la isla de Jalmeray, los entornos hostiles de Nex y los Yermos de Mana hacen que los ugvashi aparezcan principalmente en contextos domesticos, normalmente como bestias de trabajo entre los medianos nearicos del oeste de Nex.</p>\n<p>Aunque los ugvashi son en su mayoria inofensivos, son algo mas peligrosos que sus primos pequenos, y causan revuelo cuando ciudadanos imprudentes intentan acariciarlos. Las escamas de los ugvashi son afiladas como navajas, y sus grandes garras romas de excavacion pueden ser letales por su tamano. Quienes intentan robar los animales o montarlos sin entrenamiento suelen recibir cortes moderados por sus molestias. Sin embargo, los ugvashi suelen ser curiosos y muy amistosos, y mas de un visitante o explorador de tierras salvajes ha encontrado a una cria de ugvashi trotando tras el y manoseando sus botas.</p>\n<p>Los medianos nearicos tambien pintan a sus ugvashi con patrones y sigilos protectores distintivos, algunos de los cuales son realmente eficaces y proporcionan una sorpresa a ladrones o depredadores oportunistas. Aunque se dedica una atencion considerable a proteger la carga de un ugvashi, los propios animales han demostrado ser objetivos tentadores, sobre todo por su carne. Con paisajes arruinados que hacen impracticable la ganaderia y contaminacion magica que deja al marisco local un regusto caracteristico, varios pueblos nexianos y de los Yermos de Mana han desarrollado gusto por el ugvashi. Como los animales carecen de un temperamento agresivo, a menudo corresponde a sus cuidadores desalentar tales depredaciones por cualquier medio necesario.</p>\n<p>Los ugvashi mudan sus escamas cada invierno, lo que permite recoger las placas de forma segura y convertirlas en armaduras de calidad y otras piezas artesanales. Sin embargo, los medianos nearicos rara vez comercian con estos objetos o los venden, por miedo a que eso lleve a mas gente a intentar robar sus ugvashi.</p>",
       "items": {
         "strike-melee->Body": {
-          "name": "Body"
+          "name": "Cuerpo"
         },
         "strike-melee->Claw": {
           "name": "Garra"
         },
         "action->Defensive Curl": {
-          "name": "Defensive Curl",
-          "description": "<p>The ugvashi coils into a ball to defend itself. It gains a +2 bonificador de circunstancia to AC. Any criaturas who make ataques sin armas against the ugvashi while it's in its Defensive Curl are exposed to its serrated plates, as if they'd taken daño from the ugvashi's body. The ugvashi can't move while in its Defensive Curl, but it can unfurl as an action.</p>"
+          "name": "Ovillo defensivo",
+          "description": "<p>El ugvashi se enrosca formando una bola para defenderse. Obtiene un bonificador de circunstancia +2 a la CA. Cualquier criatura que realice ataques sin armas contra el ugvashi mientras esta en Ovillo defensivo queda expuesta a sus placas serradas, como si hubiera recibido dano del cuerpo del ugvashi. El ugvashi no puede moverse mientras esta en Ovillo defensivo, pero puede desenrollarse como una accion.</p>"
         },
         "action->Serrated Plates": {
-          "name": "Serrated Plates",
-          "description": "<p>Las criaturas who take daño from an ugvashi's body must attempt a @Check[reflex|dc:17] salvación or take @Damage[1d4[bleed]] daño (@Damage[2d4[bleed]] daño on a critical failure).</p>"
+          "name": "Placas serradas",
+          "description": "<p>Las criaturas que reciben dano del cuerpo de un ugvashi deben intentar una salvacion de @Check[reflex|dc:17] o recibir @Damage[1d4[bleed]] de dano (@Damage[2d4[bleed]] de dano con un fallo critico).</p>"
         }
       }
     }
