@@ -2,9 +2,9 @@
   "label": "sangre-lords-bestiary",
   "entries": {
     "Arboreal Snag": {
-      "name": "Arboreal Snag",
+      "name": "Tocón arbóreo",
       "hpDetails": "curación de vacío",
-      "publicNotes": "<p>Arboreals can be victims of undeath like any other living criatura, but without bones or flesh, their undead take a different form. When an arboreal shivers to life as undead, it often animates as a snag-a leafless, skeletal dead tree that haunts its forest, attacking any living criatura it can catch. An arboreal snag is mindless and difficult to control, but some necromancers use them as forest guardians.</p>\n<p>While many arboreals are comfortable remaining still for prolonged periods of time, arboreal snags tend to be restless, meandering in a region they consider their domain. Este territory is sometimes evident from battered forest animals or trampled undergrowth that litters the ground, but forest criaturas soon learn to avoid the area entirely. It doesn't take long for regions haunted by arboreal snags to grow desolate and unhealthy, and locals often dub such regions as haunted or cursed.</p>",
+      "publicNotes": "<p>Los arbóreos pueden ser víctimas de la no muerte como cualquier otra criatura viva, pero al carecer de huesos o carne, sus muertos vivientes adoptan una forma distinta. Cuando un arbóreo vuelve a moverse como muerto viviente, a menudo se anima como un tocón: un árbol muerto, esquelético y sin hojas que acecha su bosque y ataca a cualquier criatura viva que pueda atrapar. Un tocón arbóreo es descerebrado y difícil de controlar, aunque algunos nigromantes los emplean como guardianes forestales.</p>\n<p>Aunque muchos arbóreos se sienten cómodos permaneciendo inmóviles durante largos periodos de tiempo, un tocón arbóreo queda atrapado en esa quietud con un odio antinatural hacia los vivos.</p>",
       "skillSpecialStealth": {
         "0": {
           "label": "en bosques"
@@ -21,12 +21,12 @@
           "name": "Rock"
         },
         "action->Axe Vulnerability": {
-          "name": "Axe Vulnerability",
-          "description": "<p>An arboreal snag takes 5 daño adicional from axes.</p>"
+          "name": "Vulnerabilidad a las hachas",
+          "description": "<p>Un tocón arbóreo recibe 5 de daño adicional de las hachas.</p>"
         },
         "action->Putrid Sap": {
-          "name": "Putrid Sap",
-          "description": "<p>If the arboreal snag takes daño from a piercing attack, nauseating green pus spurts from the wound. Las criaturas within 10 pies of the snag must succeed at a @Check[fortitude|dc:20] salvación or be @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Indispuesto 2} on a critical failure). Las criaturas that attempt this save are then temporarily immune for 1 hora.</p>"
+          "name": "Savia pútrida",
+          "description": "<p>Si el tocón arbóreo recibe daño de un ataque perforante, de la herida brota pus verde nauseabundo. Las criaturas a 10 pies o menos del tocón deben tener éxito en una salvación de @Check[fortitude|dc:20] o quedan @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{indispuestas 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{indispuestas 2} con un fallo crítico). Las criaturas que intenten esta salvación quedan después temporalmente inmunes durante 1 hora.</p>"
         }
       }
     },
@@ -42,11 +42,11 @@
         },
         "action->Breath Arma": {
           "name": "Arma de aliento",
-          "description": "<p>The Azmakian effigy exhales rusting gas in a @Template[cone|distance:15]. The gas deals @Damage[2d6[untyped]|options:area-damage] daño to the highest-nivel metal item carried by every criatura in the area, ignoring these items' Hardness (@Check[fortitude|dc:22|basic|options:area-effect]); unattended metal items in the area take this daño automatically. The Azmakian effigy can't use its Arma de aliento again for [[/gmr 1d4 #Recharge Breath Arma]]{1d4 asaltos}.</p>"
+          "description": "<p>La efigie azmakiana exhala gas oxidante en un @Template[cone|distance:15]. El gas inflige @Damage[2d6[untyped]|options:area-damage] de daño al objeto metálico de mayor nivel que lleve cada criatura en el área, ignorando la Dureza de esos objetos (salvación básica de @Check[fortitude|dc:22|basic|options:area-effect]); los objetos metálicos no atendidos del área reciben este daño automáticamente. La efigie azmakiana no puede volver a usar su Arma de aliento durante [[/gmr 1d4 #Recarga del Arma de aliento]]{1d4 asaltos}.</p>"
         },
         "action->Powerful Charge": {
-          "name": "Powerful Charge",
-          "description": "<p>The Azmakian effigy Strides twice and then makes a horn Golpe. If it moved at least 20 pies from its starting position, the Golpe's daño is increased to @Damage[(3d10+10)[piercing]] daño.</p>"
+          "name": "Carga poderosa",
+          "description": "<p>La efigie azmakiana Camina dos veces y luego realiza un Golpe de cuerno. Si se movió al menos 20 pies desde su posición inicial, el daño del Golpe aumenta a @Damage[(3d10+10)[piercing]].</p>"
         }
       }
     },

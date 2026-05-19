@@ -4,7 +4,7 @@
     "Ainamuuren": {
       "name": "Ainamuuren",
       "blurb": "Male saumen kar último vástago",
-      "saveDetails": "+1 bonificador de estado to saves against holy conjuros and effects",
+      "saveDetails": "+1 de bonificador de estado a las salvaciones contra conjuros y efectos sagrados",
       "items": {
         "spellcastingEntry->Occult Innate Conjuros": {
           "name": "Conjuros ocultos innatos"
@@ -95,7 +95,7 @@
         },
         "action->Reflective Shell": {
           "name": "Caparazón reflectante",
-          "description": "<p>An amelekana submerged in water gains a +4 bonificador de circunstancia to STEALTH checks. If the water is moving, this bonus increases to +8.</p>"
+          "description": "<p>Una amelekana sumergida en agua obtiene un bonificador por circunstancia +4 a las pruebas de Sigilo. Si el agua está en movimiento, este bonificador aumenta a +8.</p>"
         },
         "action->Lob Amoeba": {
           "name": "Lanzar ameba",
@@ -109,7 +109,7 @@
     },
     "Ancient Tupilaq": {
       "name": "Tupilaq antiguo",
-      "acDetails": "(28 when broken); armadura de constructo",
+      "acDetails": "(28 cuando está roto); armadura de constructo",
       "blurb": "Variante de tupilaq",
       "publicNotes": "<p>Un tupilaq es un constructo artisticamente tallado a partir de huesos de animales, normalmente de ballena o morsa, e imbuido con el proposito expreso de eviscerar a los enemigos de su creador. Surge de una magia cargada de odio, y solo puede crearlo alguien que crea haber sufrido una ofensa terrible. Cuando se comete un crimen imperdonable contra alguien con gran habilidad para tallar y conocimientos de magia, el deseo de venganza puede tomar forma en uno de estos constructos.</p>",
       "items": {
@@ -121,7 +121,7 @@
         },
         "action->Construct Armadura (Hardness 11)": {
           "name": "Armadura de constructo (Dureza 11)",
-          "description": "<p>Like normal objects, a tupilaq has Hardness. Este Hardness reduces any daño it takes by an amount equal to the Hardness. Once a tupilaq is reduced to less than half its Puntos de Golpe, or immediately upon being damaged by a impacto crítico, its armadura de constructo breaks, it loses its Hardness, and its ARMOR CLASS is reduced to 28.</p>"
+          "description": "<p>Como los objetos normales, un tupilaq tiene Dureza. Esta Dureza reduce cualquier daño que reciba en una cantidad igual a la Dureza. Cuando un tupilaq queda reducido a menos de la mitad de sus Puntos de Golpe, o inmediatamente después de recibir daño de un impacto crítico, su armadura de constructo se rompe, pierde su Dureza y su CA se reduce a 28.</p>"
         },
         "action->Carver's Curse": {
           "name": "Maldición del tallador",
@@ -155,7 +155,7 @@
     },
     "Apothecary's Cabinet": {
       "name": "Gabinete de boticario",
-      "acDetails": "(20 when broken); armadura de constructo",
+      "acDetails": "(20 cuando está roto); armadura de constructo",
       "items": {
         "strike-melee->Drawer": {
           "name": "Cajón"
@@ -165,7 +165,7 @@
         },
         "action->Construct Armadura (Hardness 10)": {
           "name": "Armadura de constructo (Dureza 10)",
-          "description": "<p>Like normal objects, an apothecary's cabinet has Hardness. Este Hardness reduces any daño it takes by an amount equal to the Hardness. Once an apothecary's cabinet is reduced to fewer than half its Puntos de Golpe, or immediately upon being damaged by a impacto crítico, its armadura de constructo breaks and its ARMOR CLASS is reduced to 20.</p>"
+          "description": "<p>Como los objetos normales, un gabinete de boticario tiene Dureza. Esta Dureza reduce cualquier daño que reciba en una cantidad igual a la Dureza. Cuando el gabinete de boticario queda reducido a menos de la mitad de sus Puntos de Golpe, o inmediatamente después de recibir daño de un impacto crítico, su armadura de constructo se rompe y su CA se reduce a 20.</p>"
         },
         "action->Poison Stock": {
           "name": "Surtido de venenos",
@@ -246,7 +246,7 @@
     "Blackfrost Guecubu": {
       "name": "Guecubu de escarcha negra",
       "hpDetails": "curación de vacío",
-      "publicNotes": "<p>Sometimes an individual performs acts of horror so unspeakable that the earth they walk on becomes imprinted by their evil. With such villains, even slaying them and scattering their bones can't rid the world of their vile presence. Their souls rise again as guecubus, gruesome skeletons made of scorched bones, rotting flesh, and befouled earth. Guecubus roams the land seeking those they deem responsible for their death.</p>\n<p>A guecubu remembers what was done to them, and the memories of their supposed mistreatment fuel their quest for revenge. Guecubus are well-equipped to exact such vengeance. Along with monstrous power and the ability to move through earth, they retain all the cunning they had in life. Estos criaturas are known to kill their enemigos one by one, leaving no trace of their presence behind save pebbles and dust.</p>",
+      "publicNotes": "<p>A veces, un individuo comete actos de horror tan indescriptibles que la tierra que pisa queda marcada por su maldad. Con villanos así, ni siquiera matarlos y esparcir sus huesos basta para librar al mundo de su vil presencia. Sus almas vuelven a alzarse como guecubus, esqueletos horribles hechos de huesos chamuscados, carne podrida y tierra corrompida. Los guecubus recorren la tierra buscando a quienes consideran responsables de su muerte.</p>\n<p>Un guecubu recuerda lo que le hicieron, y los recuerdos de la injusticia alimentan su odio incluso después de la muerte.</p>",
       "speed": "tundra glide",
       "items": {
         "spellcastingEntry->Primal Innate Conjuros": {
@@ -265,24 +265,24 @@
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.kLQ0eq18SvKEvggc]\nBlackfrost"
         },
         "action->Break Ground": {
-          "name": "Break El suelo",
-          "description": "<p>The guecubu stomps, and el suelo breaks and ripples in a @Template[emanation|distance:30], erupting in razor-sharp, crisscrossing spikes of rock that deal @Damage[3d8[piercing]|options:area-damage] daño to criaturas in the area (@Check[reflex|dc:26|basic|options:area-effect] salvación).</p>\n<p>The area becomes difficult terrain and hazardous terrain, with each square dealing @Damage[3[piercing]] daño to a criatura that moves through it. A guecubu is immune to these effects.</p>\n<p>El suelo under the effects of a @UUID[Compendium.pf2e.spells-srd.Item.Dbd5W6G8U2vzWolN]{Consecrate} ritual or a @UUID[Compendium.pf2e.spells-srd.Item.mpGCMTldMVa0pWYs]{Circle of Protection} conjuro tuned against evil or chaos can't be affected by this ability.</p>"
+          "name": "Romper el suelo",
+          "description": "<p>El guecubu pisotea el suelo, que se agrieta y ondula en una @Template[emanation|distance:30]; de él brotan púas de roca afiladas y entrecruzadas que infligen @Damage[3d8[piercing]|options:area-damage] de daño a las criaturas del área (salvación básica de @Check[reflex|dc:26|basic|options:area-effect]).</p>\n<p>El área se convierte en terreno difícil y terreno peligroso; cada casilla inflige @Damage[3[piercing]] de daño a una criatura que se mueva a través de ella. Un guecubu es inmune a estos efectos.</p>\n<p>El suelo se recompone después de 1 minuto.</p>"
         },
         "action->Shattering Death": {
           "name": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.v14HanKkdPGQd7Km]\nShattering Death",
           "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.v14HanKkdPGQd7Km]\n<p>When the blackfrost guecubu is destroyed, it shatters and fills the aire a su alrededor with a cloud of razor-sharp shards of ice. Las criaturas en a @Template[emanation|distance:10] take @Damage[8d8[cold]|options:area-damage] (@Check[reflex|dc:26|basic|options:area-effect,inflicts:bleed]). Las criaturas que critically fail this save also take @Damage[1d6[bleed]].</p>"
         },
         "action->Shove into Ice": {
-          "name": "Shove into Ice",
-          "description": "<p>When the blackfrost guecubu successfully [[/act shove]]{Shoves} a criatura into an ice or frozen earth barrier, el objetivo debe tener éxito en una @Check[reflex|dc:26] salvación or become merged with the barrier, with the effects of @UUID[Compendium.pf2e.spells-srd.Item.vh1RpbWfqdNC4L3P]{One with Stone} until el objetivo [[/act escape dc=26]]{Escapes}.</p>"
+          "name": "Empujar contra el hielo",
+          "description": "<p>Cuando el guecubu de escarcha negra logra [[/act shove]]{Empujar} a una criatura contra una barrera de hielo o tierra congelada, el objetivo debe tener éxito en una salvación de @Check[reflex|dc:26] o se fusiona con la barrera, con los efectos de @UUID[Compendium.pf2e.spells-srd.Item.vh1RpbWfqdNC4L3P]{Uno con la piedra}, hasta que el objetivo [[/act escape dc=26]]{Escape}.</p>"
         },
         "action->Tundra Glide": {
-          "name": "Tundra Glide",
-          "description": "<p>The blackfrost guecubu can Burrow through any frozen earth, ice, or snow, not including rock. When it does so, the blackfrost guecubu moves at its full burrow Velocidad, leaving no tunnels or signs of its passing.</p>"
+          "name": "Deslizamiento por la tundra",
+          "description": "<p>El guecubu de escarcha negra puede Excavar a través de tierra congelada, hielo o nieve, aunque no a través de roca. Cuando lo hace, se mueve a su Velocidad completa de excavación y no deja túneles ni señales de su paso.</p>"
         },
         "action->Wrathful Misfortune": {
-          "name": "Wrathful Misfortune",
-          "description": "<p>Una criatura dañada by a guecubu debe tener éxito en una @Check[will|dc:26] salvación or become cursed with consummate bad luck. The criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 2}.</p>\n<p>Each time that criatura rolls initiative, on their next roll they must roll twice and use the worse result; this is a misfortune effect.</p>"
+          "name": "Infortunio vengativo",
+          "description": "<p>Una criatura dañada por un guecubu debe tener éxito en una salvación de @Check[will|dc:26] o queda maldita con una mala suerte absoluta. La criatura queda @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{torpe 2}.</p>\n<p>Cada vez que esa criatura tire iniciativa, en su siguiente tirada debe tirar dos veces y usar el peor resultado; este es un efecto de infortunio.</p>"
         }
       }
     },
@@ -1129,7 +1129,7 @@
           "description": "<p>30 pies. The green monkey's affable demeanor is contagious. Aliados within the aura gain a +1 bonificador de estado to Will saves against emotion effects.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.xOD3ufpzA8H7W4sP]{Efecto: Aura of Good Cheer}</p>"
         },
         "action->Nimble Dodge": {
-          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.wCnsRCHvtZkZTmO0]\n<p><strong>Desencadenante</strong> The green monkey is targeted with a melee or ranged attack by an attacker it can see</p>\n<hr />\n<p><strong>Efecto</strong> The green monkey gains a +2 bonificador de circunstancia to AC against el ataque desencadenante.</p>"
+          "description": "<Compendium> la etiqueta se reemplazará con el texto de la entrada del compendio @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.wCnsRCHvtZkZTmO0]\n<p><strong>Desencadenante</strong> The green monkey is targeted with a melee or ranged attack by an attacker it can see</p>\n<hr />\n<p><strong>Efecto</strong> The green monkey gains a +2 bonificador por circunstancia a la CA against el ataque desencadenante.</p>"
         },
         "action->Bond with Mortal": {
           "name": "Vínculo con mortal",
@@ -1407,7 +1407,7 @@
         },
         "action->Swallow Projectile": {
           "name": "Swallow Projectile",
-          "description": "<p><strong>Desencadenante</strong> A criatura the kvernknurr can see objetivos it with a ranged Golpe</p>\n<p><strong>Requisitos</strong> The kvernknurr doesn't have a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} in its jaws</p>\n<hr />\n<p><strong>Efecto</strong> The kvernknurr attempts to swallow the projectile, gaining a +4 bonificador de circunstancia to AC against el ataque desencadenante. If the attack misses, the kvernknurr consumes the projectile harmlessly.</p>"
+          "description": "<p><strong>Desencadenante</strong> A criatura the kvernknurr can see objetivos it with a ranged Golpe</p>\n<p><strong>Requisitos</strong> The kvernknurr doesn't have a criatura @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} in its jaws</p>\n<hr />\n<p><strong>Efecto</strong> The kvernknurr attempts to swallow the projectile, gaining a +4 bonificador por circunstancia a la CA against el ataque desencadenante. If the attack misses, the kvernknurr consumes the projectile harmlessly.</p>"
         },
         "action->Frightening Bellow": {
           "name": "Frightening Bellow",
@@ -1762,14 +1762,14 @@
     },
     "Quarry Construct": {
       "name": "Constructo de cantera",
-      "acDetails": "(14 when broken), armadura de constructo",
+      "acDetails": "(14 cuando está roto), armadura de constructo",
       "items": {
         "strike-melee->Warhammer": {
           "name": "Martillo de guerra"
         },
         "action->Construct Armadura (Hardness 4)": {
           "name": "Armadura de constructo (Dureza 4)",
-          "description": "<p>Like normal objects, a quarry construct has Hardness. Este Hardness reduces any daño it takes by an amount equal to the Hardness. Once a quarry construct is reduced to less than half its Puntos de Golpe, or immediately upon being damaged by a impacto crítico, its armadura de constructo breaks and its ARMOR CLASS is reduced to 14.</p>"
+          "description": "<p>Como los objetos normales, un constructo de cantera tiene Dureza. Esta Dureza reduce cualquier daño que reciba en una cantidad igual a la Dureza. Cuando el constructo de cantera queda reducido a menos de la mitad de sus Puntos de Golpe, o inmediatamente después de recibir daño de un impacto crítico, su armadura de constructo se rompe y su CA se reduce a 14.</p>"
         }
       }
     },
