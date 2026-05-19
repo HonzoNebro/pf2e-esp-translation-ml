@@ -2,8 +2,8 @@
   "label": "pf2e-animal-companions.AC-effects.json",
   "entries": {
     "Efecto: Air Elemental Support Beneficio": {
-      "name": "Efecto: Air Elemental Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.aMFtyZ3QNQkduwqR]{Air Elemental Support Beneficio}</p>\n<p>If tú hit with a Golpe and deal daño to a criatura in tu air elemental's reach, estás @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} to that criatura until the start of tu next turn.</p>",
+      "name": "Efecto: Beneficio de apoyo de elemental de aire",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.aMFtyZ3QNQkduwqR]{Beneficio de apoyo de elemental de aire}</p>\n<p>Tu elemental de aire gira a tu alrededor con ráfagas que te ocultan, dificultando que tus enemigos te golpeen y quizá dándote un momento para esconderte. Hasta el comienzo de tu siguiente turno, si impactas con un Golpe e infliges daño a una criatura dentro del alcance de tu elemental de aire, quedas @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} para esa criatura hasta el comienzo de tu siguiente turno.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.AirElemental.EffectNote"
@@ -11,17 +11,17 @@
       }
     },
     "Efecto: Antelope Support Beneficio": {
-      "name": "Efecto: Antelope Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.yIB4qKV5sqcXlOmB]{Antelope Support Beneficio}</p>\n<p>Tu Golpes that daño a criatura in tu antelope's reach also deal daño de sangrado.</p>",
+      "name": "Efecto: Beneficio de apoyo de antílope",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.yIB4qKV5sqcXlOmB]{Beneficio de apoyo de antílope}</p>\n<p>El antílope empala a tus enemigos distraídos. Hasta el comienzo de tu siguiente turno, mientras montas en tu antílope, tus Golpes que dañan a una criatura dentro del alcance de tu antílope también infligen 1d6 de daño persistente de sangrado. Si tu antílope es ágil o salvaje, el daño persistente de sangrado aumenta a 2d6.</p>",
       "rules": {
         "0": {
-          "prompt": "Is companion nimble or savage."
+          "prompt": "¿El compañero es ágil o salvaje?"
         }
       }
     },
     "Efecto: Ape Support Beneficio": {
-      "name": "Efecto: Ape Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.Qm0iwIYyy2gbnYXe]{Ape Support Beneficio}</p>\n<p>If tú hit and deal daño to a criatura in tu ape's reach, the criatura becomes @Compendium[pf2e.conditionitems.Asustado]{Asustado 1}.</p>",
+      "name": "Efecto: Beneficio de apoyo de simio",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.Qm0iwIYyy2gbnYXe]{Beneficio de apoyo de simio}</p>\n<p>Tu simio amenaza a tus enemigos con gruñidos intimidantes. Hasta el comienzo de tu siguiente turno, si impactas e infliges daño a una criatura dentro del alcance de tu simio, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.Ape.EffectNote"
@@ -29,8 +29,8 @@
       }
     },
     "Efecto: Bacallia Support Beneficio": {
-      "name": "Efecto: Bacallia Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.ZQZD767JGaTcOfWd]{Bacallia Support Beneficio}</p>\n<p>Las criaturas within tu bacallia's reach that tú daño with tu Golpes are @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p>",
+      "name": "Efecto: Beneficio de apoyo de bacallia",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.ZQZD767JGaTcOfWd]{Beneficio de apoyo de bacallia}</p>\n<p>El pelaje brillante de tu bacallia refleja luz hacia los ojos de tu enemigo. Hasta el comienzo de tu siguiente turno, las criaturas dentro del alcance de tu bacallia a las que dañes con tus Golpes quedan @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbradas}.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.Bacallia.EffectNote"
@@ -38,25 +38,25 @@
       }
     },
     "Efecto: Badger Rage": {
-      "name": "Efecto: Badger Rage",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.HLD4JW6SUn5Oy8C9]{Badger Rage}</p>\n<p>Tú deal 4 daño adicional with tu bite attack and 2 daño adicional with tu claw attack, and sufres a –1 penalizador to AC</p>"
+      "name": "Efecto: Furia de tejón",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.HLD4JW6SUn5Oy8C9]{Furia de tejón}</p>\n<p>Infliges 4 de daño adicional con tu ataque de mordisco y 2 de daño adicional con tu ataque de garra, y sufres un penalizador -1 a la CA.</p>"
     },
     "Efecto: Bat Support Beneficio": {
-      "name": "Efecto: Bat Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.Aj7JWFXIbF3qmvSX]{Bat Support Beneficio}</p>\n<p>Sufres a –1 penalizador por circunstancia to tu tiradas de ataque.</p>"
+      "name": "Efecto: Beneficio de apoyo de murciélago",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.Aj7JWFXIbF3qmvSX]{Beneficio de apoyo de murciélago}</p>\n<p>Tu murciélago revolotea alrededor de los brazos y rostros de tus enemigos, estorbando sus ataques. Hasta el comienzo de tu siguiente turno, las criaturas dentro del alcance de tu murciélago a las que dañes con Golpes sufren un penalizador por circunstancia -1 a sus tiradas de ataque.</p>"
     },
     "Efecto: Bear Support Beneficio": {
-      "name": "Efecto: Bear Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.AvDlo1mgxXd7ZA8W]{Bear Support Beneficio}</p>\n<p>When tú hit a target, they also take daño cortante from the bear.</p>",
+      "name": "Efecto: Beneficio de apoyo de oso",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.AvDlo1mgxXd7ZA8W]{Beneficio de apoyo de oso}</p>\n<p>Tu oso despedaza a tus enemigos cuando creas una abertura. Hasta el comienzo de tu siguiente turno, cada vez que impactas con un Golpe a una criatura dentro del alcance del oso, la criatura recibe @Damage[1d8[slashing]] de daño del oso. Si tu oso es ágil o salvaje, el daño cortante aumenta a [[/r 2d8]].</p>",
       "rules": {
         "0": {
-          "prompt": "Is companion nimble or savage."
+          "prompt": "¿El compañero es ágil o salvaje?"
         }
       }
     },
     "Efecto: Beetle Support Beneficio": {
-      "name": "Efecto: Beetle Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.mFTzDCqNL5EdwlGm]{Beetle Support Beneficio}</p>\n<p>Tu Golpes that deal daño either make el objetivo @Compendium[pf2e.conditionitems.Desprevenido]{Desprevenido} until the end of tu next turn or move el objetivo 5 pies away from the beetle (this is forced movement). El objetivo chooses which effect occurs.</p>",
+      "name": "Efecto: Beneficio de apoyo de escarabajo",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.mFTzDCqNL5EdwlGm]{Beneficio de apoyo de escarabajo}</p>\n<p>Tu escarabajo pisotea y embiste a los enemigos, desequilibrándolos o apartándolos cuando creas una abertura. Hasta el comienzo de tu siguiente turno, mientras montas en tu escarabajo, tus Golpes que infligen daño dejan al objetivo @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} hasta el final de tu siguiente turno o lo mueven 5 pies alejándolo del escarabajo; esto es movimiento forzado. El objetivo elige qué efecto se produce.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.Beetle.EffectNote"
@@ -64,15 +64,15 @@
       }
     },
     "Efecto: Berserker Follower Ability": {
-      "name": "Efecto: Berserker Follower Ability",
-      "description": "<p>Obtienes a bonificador de estado to tu next tirada de daño.</p>"
+      "name": "Efecto: aptitud de seguidor berserker",
+      "description": "<p>Obtienes un bonificador de estado a tu siguiente tirada de daño.</p>"
     },
     "Efecto: Bird Support Beneficio": {
-      "name": "Efecto: Bird Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.7rhcqwMDt2xqnI1N]{Bird Support Beneficio}</p>\n<p>Tu Golpes that daño a criatura that tu bird threatens also deal daño persistente de sangrado, and el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until it removes the daño de sangrado.</p>",
+      "name": "Efecto: Beneficio de apoyo de ave",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.7rhcqwMDt2xqnI1N]{Beneficio de apoyo de ave}</p>\n<p>El ave picotea los ojos de tus enemigos cuando creas una abertura. Hasta el comienzo de tu siguiente turno, tus Golpes que dañan a una criatura amenazada por tu ave también infligen @Damage[1d4[persistent,bleed]] de daño, y el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrado} hasta que elimine el daño de sangrado. Si tu ave es ágil o salvaje, el daño persistente de sangrado aumenta a @Damage[2d4[persistent,bleed]|shortLabel].</p>",
       "rules": {
         "0": {
-          "prompt": "Is companion nimble or savage."
+          "prompt": "¿El compañero es ágil o salvaje?"
         },
         "3": {
           "text": "COMP.SpecificRule.Bird.EffectNote"
@@ -81,24 +81,24 @@
     },
     "Efecto: Blood Feast": {
       "name": "Efecto: Festín de sangre",
-      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.cVrW2GGLVpydj8h5]{Festín de sangre}</p>\n<p>Obtenes tantos Puntos de golpe temporales como la mitad de tu nivel.</p>"
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.cVrW2GGLVpydj8h5]{Festín de sangre}</p>\n<p>Obtienes tantos Puntos de golpe temporales como la mitad de tu nivel.</p>"
     },
     "Efecto: Boar Support Beneficio": {
-      "name": "Efecto: Boar Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.8re1d4lM0Dn4sLto]{Boar Support Beneficio}</p>\n<p>Tu Golpes that daño a criatura in tu boar's reach also deal daño persistente.</p>",
+      "name": "Efecto: Beneficio de apoyo de jabalí",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.8re1d4lM0Dn4sLto]{Beneficio de apoyo de jabalí}</p>\n<p>Tu jabalí cornea a tus enemigos. Hasta el comienzo de tu siguiente turno, tus Golpes que dañan a una criatura dentro del alcance de tu jabalí también infligen @Damage[1d6[persistent,bleed]] de daño. Si tu jabalí es ágil o salvaje, el daño persistente de sangrado aumenta a @Damage[2d6[persistent,bleed]|shortLabel].</p>",
       "rules": {
         "0": {
-          "prompt": "Is companion nimble or savage."
+          "prompt": "¿El compañero es ágil o salvaje?"
         }
       }
     },
     "Efecto: Capybara Support Beneficio": {
-      "name": "Efecto: Capybara Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.Fl1VEpYhmScEEon8]{Capybara Support Beneficio}</p>\n<p>Obtienes a +1 bonificador de circunstancia on tu next tirada de ataque to Golpe a foe within tu capybara's reach. </p>"
+      "name": "Efecto: Beneficio de apoyo de capibara",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.Fl1VEpYhmScEEon8]{Beneficio de apoyo de capibara}</p>\n<p>Tu capibara te ayuda en combate. Obtienes un bonificador por circunstancia +1 a tu siguiente tirada de ataque para Golpear a un enemigo dentro del alcance de tu capibara. El bonificador dura hasta la primera vez que lo uses o hasta el comienzo de tu siguiente turno, lo que ocurra primero.</p>"
     },
     "Efecto: Cat Support Beneficio": {
-      "name": "Efecto: Cat Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.HCQXxqMtH81jE1W5]{Cat Support Beneficio}</p>\n<p>Tu Golpes that deal daño to a criatura within tu cat's reach make el objetivo @Compendium[pf2e.conditionitems.Desprevenido]{Desprevenido}.</p>",
+      "name": "Efecto: Beneficio de apoyo de gato",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.HCQXxqMtH81jE1W5]{Beneficio de apoyo de gato}</p>\n<p>Tu gato desequilibra a tus enemigos cuando creas una abertura. Hasta el comienzo de tu siguiente turno, tus Golpes que infligen daño a una criatura dentro del alcance de tu gato dejan al objetivo @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} hasta el final de tu siguiente turno.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.Cat.EffectNote"
@@ -106,12 +106,12 @@
       }
     },
     "Efecto: Cave Gecko Support Beneficio": {
-      "name": "Efecto: Cave Gecko Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.nDUwRm0TOtc2EX0O]{Cave Gecko Support Beneficio}</p>\n<p>if tú attempt to Disarm, Shove, or Trip an opponent and roll a critical failure, tú get a failure instead.</p>"
+      "name": "Efecto: Beneficio de apoyo de gecko cavernario",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.nDUwRm0TOtc2EX0O]{Beneficio de apoyo de gecko cavernario}</p>\n<p>Tu gecko cavernario te ayuda a mantenerte en pie, apoyándose en ti mientras maniobras contra tu oponente. Hasta el final de tu siguiente turno, mientras estés adyacente a tu gecko cavernario, si intentas @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Desarmar}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Empujar} o @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Derribar} a un oponente y obtienes un fallo crítico, obtienes un fallo en su lugar.</p>"
     },
     "Efecto: Cragstone Bear Support Beneficio": {
-      "name": "Efecto: Cragstone Bear Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.6dStcNwpIK7WeAeo]{Cragstone Bear Support Beneficio}</p>\n<p>Obtienes a bonificador de circunstancia to tu AC if tu cragstone bear is adjacent to tú.</p>",
+      "name": "Efecto: Beneficio de apoyo de oso de roca escarpada",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.6dStcNwpIK7WeAeo]{Beneficio de apoyo de oso de roca escarpada}</p>\n<p>Tu oso de roca escarpada te defiende con entusiasmo. Hasta el comienzo de tu siguiente turno, obtienes un bonificador por circunstancia +1 a tu CA si tu oso de roca escarpada está adyacente a ti. Si tu oso es ágil o salvaje, aumenta el bonificador a +2.</p>",
       "rules": {
         "0": {
           "prompt": "COMP.Prompt.IsSpecialized"
@@ -119,12 +119,12 @@
       }
     },
     "Efecto: Crocodile Support Beneficio": {
-      "name": "Efecto: Crocodile Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.yfjeiYMC27YGgoGW]{Crocodile Support Beneficio}</p>\n<p>Sufres a -10-pies penalizador por circunstancia to tu Velocidades.</p>"
+      "name": "Efecto: Beneficio de apoyo de cocodrilo",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.yfjeiYMC27YGgoGW]{Beneficio de apoyo de cocodrilo}</p>\n<p>Tu cocodrilo cierra sus mandíbulas sobre tu enemigo y se niega a soltarlo. Hasta el comienzo de tu siguiente turno, si tu Golpe daña a una criatura dentro del alcance de tu cocodrilo, tu cocodrilo puede aferrarse a la criatura. Mientras está así sujeto, el cocodrilo puede moverse junto con el objetivo siempre que este se mueva hasta el final de tu siguiente turno. Tu cocodrilo solo puede aferrarse a una criatura de este modo, y debe soltarla para hacer un Golpe de fauces. Si el objetivo es más pequeño que el cocodrilo, sufre un penalizador por circunstancia -10 pies a sus Velocidades y no puede Volar mientras el cocodrilo esté aferrado.</p>"
     },
     "Efecto: Defensive Curl": {
-      "name": "Efecto: Defensive Curl",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.pMPtswKNokDNyYR2]{Defensive Curl}</p>\n<p>Obtienes a +2 bonificador de circunstancia to AC. Any criatura that hits tú with a melee ataque sin armas while it's in its Defensive Curl take 2d6 daño persistente de sangrado.</p>",
+      "name": "Efecto: Enroscarse a la defensiva",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.pMPtswKNokDNyYR2]{Enroscarse a la defensiva}</p>\n<p>Obtienes un bonificador por circunstancia +2 a la CA. Cualquier criatura que te impacte con un ataque sin armas cuerpo a cuerpo mientras estás enroscado a la defensiva recibe 2d6 de daño persistente de sangrado.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.Pangolin.DefensiveCurl.DamageNote"
@@ -132,11 +132,11 @@
       }
     },
     "Efecto: Defensive Curl (Hermit Krait)": {
-      "name": "Efecto: Defensive Curl (Hermit Krait)",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.wQewsJLOsfucMXyB]{Defensive Curl (Hermit Krait)}</p>\n<p>Obtienes a +2 bonificador de circunstancia to AC and a +4 bonificador de circunstancia to any check to pretend to be a mundane shell. Any criatura that hits tú with a melee ataque sin armas takes 2d6 daño persistente de veneno.</p>",
+      "name": "Efecto: Enroscarse a la defensiva (krait ermitaño)",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.wQewsJLOsfucMXyB]{Enroscarse a la defensiva (krait ermitaño)}</p>\n<p>Obtienes un bonificador por circunstancia +2 a la CA y un bonificador por circunstancia +4 a cualquier prueba para fingir ser una concha corriente. Cualquier criatura que te impacte con un ataque sin armas cuerpo a cuerpo recibe 2d6 de daño persistente de veneno.</p>",
       "rules": {
         "1": {
-          "label": "Imitate a shell"
+          "label": "Imitar una concha"
         },
         "2": {
           "text": "COMP.SpecificRule.HermitKrait.DefensiveCurl.DamageNote"
@@ -144,12 +144,12 @@
       }
     },
     "Efecto: Draft Lizard Support Beneficio": {
-      "name": "Efecto: Draft Lizard Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.g3Wol5lNhQdxqs7t]{Draft Lizard Support Beneficio}</p>\n<p>Obtienes a +1 bonificador de circunstancia on tu next tirada de ataque to Golpe a foe within tu draft lizard's reach.</p>"
+      "name": "Efecto: Beneficio de apoyo de lagarto de tiro",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.g3Wol5lNhQdxqs7t]{Beneficio de apoyo de lagarto de tiro}</p>\n<p>Tu lagarto de tiro te ayuda en combate. Obtienes un bonificador por circunstancia +1 a tu siguiente tirada de ataque para Golpear a un enemigo dentro del alcance de tu lagarto de tiro. El bonificador dura hasta la primera vez que lo uses o hasta el comienzo de tu siguiente turno, lo que ocurra primero.</p>"
     },
     "Efecto: Elephant Support Beneficio": {
-      "name": "Efecto: Elephant Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.r7QN2lUVWXlcynMW]{Elephant Support Beneficio}</p>\n<p>Targets within tu elephant's reach that tú hit and deal daño to before the start of tu next turn take a –4 penalizador de estado to purely auditory Perception checks</p>",
+      "name": "Efecto: Beneficio de apoyo de elefante",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.r7QN2lUVWXlcynMW]{Beneficio de apoyo de elefante}</p>\n<p>Tu elefante barrita ruidosamente y amenaza a tu enemigo. La primera criatura dentro del alcance de tu elefante a la que impactes e inflijas daño antes del comienzo de tu siguiente turno tiene dificultades para oír por el zumbido en sus oídos, sufriendo un penalizador de estado -4 a las pruebas de Percepción puramente auditivas hasta el final de tu siguiente turno.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.Elephant.EffectNote"
@@ -157,12 +157,12 @@
       }
     },
     "Efecto: Elephant Support Beneficio (Penalty)": {
-      "name": "Efecto: Elephant Support Beneficio (Penalty)",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.r7QN2lUVWXlcynMW]{Elephant Support Beneficio}</p>\n<p>Sufres a -4 penalizador de estado to purely auditory Perception checks.</p>"
+      "name": "Efecto: Beneficio de apoyo de elefante",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.r7QN2lUVWXlcynMW]{Beneficio de apoyo de elefante}</p>\n<p>Tu elefante barrita ruidosamente y amenaza a tu enemigo. La primera criatura dentro del alcance de tu elefante a la que impactes e inflijas daño antes del comienzo de tu siguiente turno tiene dificultades para oír por el zumbido en sus oídos, sufriendo un penalizador de estado -4 a las pruebas de Percepción puramente auditivas hasta el final de tu siguiente turno.</p>"
     },
     "Efecto: Elk Support Beneficio": {
-      "name": "Efecto: Elk Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.60lThr6OM9zZtqK2]{Elk Support Beneficio}</p>\n<p>If tú hit and deal daño to a criatura within tu elk's reach, the criatura is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.</p>",
+      "name": "Efecto: Beneficio de apoyo de alce",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.60lThr6OM9zZtqK2]{Beneficio de apoyo de alce}</p>\n<p>Tu alce hace una exhibición amenazadora agitando su cornamenta. Hasta el comienzo de tu siguiente turno, si impactas e infliges daño a una criatura dentro del alcance de tu alce, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.Elk.EffectNote"
@@ -171,20 +171,20 @@
     },
     "Efecto: Experienced Sharpshooter": {
       "name": "Efecto: Experienced Sharpshooter",
-      "description": "<p>Sufres a –5-pies penalizador por circunstancia to tu Velocidades, or a –10-pies penalizador por circunstancia if the attack was a impacto crítico.</p>"
+      "description": "<p>Sufres un penalizador de circunstancia -5 pies a tus Velocidades, o un penalizador de circunstancia -10 pies si el ataque fue un impacto crítico.</p>"
     },
     "Efecto: Fire Elemental Support Beneficio": {
-      "name": "Efecto: Fire Elemental Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.NSdcXgEHVHdfJlkb]{Fire Elemental Support Beneficio}</p>\n<p>Tu Golpes that daño a criatura in tu fire elemental's reach also deal daño persistente de fuego.</p>",
+      "name": "Efecto: Beneficio de apoyo de elemental de fuego",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.NSdcXgEHVHdfJlkb]{Beneficio de apoyo de elemental de fuego}</p>\n<p>Tu elemental de fuego quema a tus enemigos y les prende fuego. Hasta el comienzo de tu siguiente turno, tus Golpes que dañan a una criatura dentro del alcance de tu elemental de fuego también infligen @Damage[1d6[persistent,fire]] de daño. Si tu elemental de fuego es ágil o salvaje, el daño persistente de fuego aumenta a @Damage[2d6[persistent,fire]].</p>",
       "rules": {
         "0": {
-          "prompt": "Is companion nimble or savage."
+          "prompt": "¿El compañero es ágil o salvaje?"
         }
       }
     },
     "Efecto: Flying Squirrel Support Beneficio": {
-      "name": "Efecto: Flying Squirrel Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.V2kspaYOoLbHV5vb]{Flying Squirrel Support Beneficio}</p>\n<p>If tu Golpe damages a criatura in tu giant flying squirrel's reach, that criatura takes a –10-pies penalizador por circunstancia to its Velocidades.</p>",
+      "name": "Efecto: Beneficio de apoyo de ardilla voladora",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.V2kspaYOoLbHV5vb]{Beneficio de apoyo de ardilla voladora}</p>\n<p>Tu ardilla voladora envuelve a tus enemigos con sus pliegues de piel, dificultando su movimiento. Hasta el final de tu siguiente turno, si tu Golpe daña a una criatura dentro del alcance de tu ardilla voladora gigante, esa criatura sufre un penalizador por circunstancia -10 pies a sus Velocidades durante 1 asalto.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.FlyingSquirrel.EffectNote"
@@ -192,12 +192,12 @@
       }
     },
     "Efecto: Flying Squirrel Support Beneficio (Penalty)": {
-      "name": "Efecto: Flying Squirrel Support Beneficio (Penalty)",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.V2kspaYOoLbHV5vb]{Flying Squirrel Support Beneficio}</p>\n<p>Sufres a –10-pies penalizador por circunstancia to tu Velocidades.</p>"
+      "name": "Efecto: Beneficio de apoyo de ardilla voladora",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.V2kspaYOoLbHV5vb]{Beneficio de apoyo de ardilla voladora}</p>\n<p>Tu ardilla voladora envuelve a tus enemigos con sus pliegues de piel, dificultando su movimiento. Hasta el final de tu siguiente turno, si tu Golpe daña a una criatura dentro del alcance de tu ardilla voladora gigante, esa criatura sufre un penalizador por circunstancia -10 pies a sus Velocidades durante 1 asalto.</p>"
     },
     "Efecto: Ghost Support Beneficio": {
-      "name": "Efecto: Ghost Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.4kkcfQdHAb4YTVNw]{Ghost Support Beneficio}</p>\n<p>If tú hit and deal daño to a criatura in tu ghost's reach, the criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.</p>",
+      "name": "Efecto: Beneficio de apoyo de fantasma",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.4kkcfQdHAb4YTVNw]{Beneficio de apoyo de fantasma}</p>\n<p>Tu fantasma sobresalta y asusta a tus enemigos mientras los atacas. Hasta el comienzo de tu siguiente turno, si impactas e infliges daño a una criatura dentro del alcance de tu fantasma, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.Ghost.EffectNote"
@@ -205,8 +205,8 @@
       }
     },
     "Efecto: Giant Rock Tuatara Support Beneficio": {
-      "name": "Efecto: Giant Rock Tuatara Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.BgqGqrzRNnm8QaN9]{Giant Rock Tuatara Support}</p>\n<p>Las criaturas within tu giant rock tuatara's reach that tú daño with tu Golpes are @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}.</p>",
+      "name": "Efecto: Beneficio de apoyo de tuátara de roca gigante",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.BgqGqrzRNnm8QaN9]{Beneficio de apoyo de tuátara de roca gigante}</p>\n<p>Tu tuátara de roca gigante hace tropezar a tus enemigos cuando creas una abertura. Hasta el comienzo de tu siguiente turno, tus Golpes que infligen daño a una criatura dentro del alcance de tu tuátara de roca gigante dejan al objetivo @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} hasta el final de tu siguiente turno.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.GiantRockTuatara.EffectNote"
@@ -214,8 +214,8 @@
       }
     },
     "Efecto: Giant Wasp Support Beneficio": {
-      "name": "Efecto: Giant Wasp Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.V3XczB8r8fQfJIhe]{Giant Wasp Support Beneficio}</p>\n<p>if tú hit and deal daño to a criatura in tu giant wasp's reach, the criatura becomes Asustado 1.</p>",
+      "name": "Efecto: Beneficio de apoyo de avispa gigante",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.V3XczB8r8fQfJIhe]{Beneficio de apoyo de avispa gigante}</p>\n<p>Tu avispa zumba con sus alas, inquietando a tus enemigos. Hasta el comienzo de tu siguiente turno, si impactas e infliges daño a una criatura dentro del alcance de tu avispa gigante, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.GiantWasp.EffectNote"
@@ -223,8 +223,8 @@
       }
     },
     "Efecto: Giraffe Support Beneficio": {
-      "name": "Efecto: Giraffe Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.LcAJTLzLDcIrQ7KQ]{Giraffe Support Beneficio}</p>\n<p>Any target tú successfully Shove moves 10 pies (15 pies on a critical success).</p>",
+      "name": "Efecto: Beneficio de apoyo de jirafa",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.LcAJTLzLDcIrQ7KQ]{Beneficio de apoyo de jirafa}</p>\n<p>Tu jirafa empuja a los oponentes con su largo cuello. Mientras montas en tu jirafa durante este turno, no necesitas una mano libre para @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Empujar}, y cualquier enemigo al que Empujes con éxito se mueve 10 pies, o 15 pies con un éxito crítico.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.Giraffe.EffectNote.Éxito"
@@ -235,8 +235,8 @@
       }
     },
     "Efecto: Gray Bladeling Support Beneficio": {
-      "name": "Efecto: Gray Bladeling Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.XDmtg6o5B2MaA4Ke]{Gray Bladeling Support Beneficio}</p>\n<p><span style=\"font-family:Roboto, sans-serif\">Tu Golpes that daño a criatura in tu gray bladeling's reach also deal daño de sangrado or becomes </span>@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} if it's already taking daño persistente de sangrado.</p>",
+      "name": "Efecto: Beneficio de apoyo de filoso gris",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.XDmtg6o5B2MaA4Ke]{Beneficio de apoyo de filoso gris}</p>\n<p>El filoso gris acuchilla ferozmente a tu enemigo cuando creas una abertura. Hasta el comienzo de tu siguiente turno, cada vez que impactas con un Golpe a una criatura dentro del alcance del filoso, la criatura recibe @Damage[1d4[persistent,bleed]] de daño o queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1} si ya está sufriendo daño persistente de sangrado. Si el filoso gris está especializado, el daño persistente de sangrado aumenta a 1d8.</p>",
       "rules": {
         "0": {
           "prompt": "COMP.Prompt.IsSpecialized"
@@ -247,33 +247,33 @@
       }
     },
     "Efecto: Griffon Support Beneficio": {
-      "name": "Efecto: Griffon Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.ShKTegi69Hizn0vB]{Griffon Support Beneficio}</p>\n<p>Tu gain a +2 bonificador de circunstancia to saves against emotion effects.</p>"
+      "name": "Efecto: Beneficio de apoyo de grifo",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.ShKTegi69Hizn0vB]{Beneficio de apoyo de grifo}</p>\n<p>Tu grifo adopta una pose noble, inspirándote para desafiar los horrores ante ti. Hasta el comienzo de tu siguiente turno, tú y tu grifo obtenéis un bonificador por circunstancia +2 a las salvaciones contra efectos de emoción.</p>"
     },
     "Efecto: Hermit Krait Support Beneficio": {
-      "name": "Efecto: Hermit Krait Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.u9jaNQk6QF2Tm8oe]{Hermit Krait Support Beneficio}</p>\n<p>Tu Golpes that daño a criatura in tu hermit krait's reach also deal daño persistente de veneno.</p>",
+      "name": "Efecto: Beneficio de apoyo de krait ermitaño",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.u9jaNQk6QF2Tm8oe]{Beneficio de apoyo de krait ermitaño}</p>\n<p>Tu krait ermitaño muerde a tus enemigos con colmillos venenosos. Hasta el comienzo de tu siguiente turno, tus Golpes que dañan a una criatura dentro del alcance de tu krait ermitaño también infligen @Damage[1d6[persistent,poison]] de daño. Si tu krait ermitaño es ágil o salvaje, el daño persistente de veneno aumenta a @Damage[2d6[persistent,poison]].</p>",
       "rules": {
         "0": {
-          "prompt": "Is companion nimble or savage."
+          "prompt": "¿El compañero es ágil o salvaje?"
         }
       }
     },
     "Efecto: Hippocampus Support Beneficio": {
-      "name": "Efecto: Hippocampus Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.t1KMf7rDzJJ2vWhe]{Hippocampus Support Beneficio}</p>\n<p>If estás mounted on tu hippocampus and moved 10 pies or more on the action before a melee Golpe, obtienes a bonificador de circunstancia to daño for a Golpe equal to twice the number of dados de daño del arma.</p>"
+      "name": "Efecto: Beneficio de apoyo de hipocampo",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.t1KMf7rDzJJ2vWhe]{Beneficio de apoyo de hipocampo}</p>\n<p>Hasta el comienzo de tu siguiente turno, si estás montado en tu hipocampo y te moviste 10 pies o más en la acción anterior a un Golpe cuerpo a cuerpo, añade a ese Golpe un bonificador por circunstancia al daño igual al doble del número de dados de daño del arma. Si tu arma ya tiene el rasgo justa, aumenta en su lugar el bonificador de daño del rasgo en 2 por dado.</p>"
     },
     "Efecto: Hippogriff Support Beneficio": {
-      "name": "Efecto: Hippogriff Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.cJBAKsVacLTIiPcz]{Hippogriff Support Beneficio}</p>\n<p>If estás mounted on tu hippogriff and moved 10 pies or more on the action before a melee Golpe, obtienes a bonificador de circunstancia to daño for a Golpe equal to twice the number of dados de daño del arma.</p>"
+      "name": "Efecto: Beneficio de apoyo de hipogrifo",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.cJBAKsVacLTIiPcz]{Beneficio de apoyo de hipogrifo}</p>\n<p>Hasta el comienzo de tu siguiente turno, si estás montado en tu hipogrifo y te moviste 10 pies o más en la acción anterior a un Golpe cuerpo a cuerpo, añade a ese Golpe un bonificador por circunstancia al daño igual al doble del número de dados de daño del arma. Si tu arma ya tiene el rasgo justa, aumenta en su lugar el bonificador de daño del rasgo en 2 por dado.</p>"
     },
     "Efecto: Horse Support Beneficio": {
-      "name": "Efecto: Horse Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.wf20kx6pPGBWwUn2]{Horse Support Beneficio}</p>\n<p>If estás mounted on tu horse and moved 10 pies or more on the action before a melee Golpe, obtienes a bonificador de circunstancia to daño for a Golpe equal to twice the number of dados de daño del arma.</p>"
+      "name": "Efecto: Beneficio de apoyo de caballo",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.wf20kx6pPGBWwUn2]{Beneficio de apoyo de caballo}</p>\n<p>Hasta el comienzo de tu siguiente turno, si estás montado en tu caballo y te moviste 10 pies o más en la acción anterior a un Golpe cuerpo a cuerpo, añade a ese Golpe un bonificador por circunstancia al daño igual al doble del número de dados de daño del arma. Si tu arma ya tiene el rasgo justa, aumenta en su lugar el bonificador de daño del rasgo en 2 por dado.</p>"
     },
     "Efecto: Hyena Support Beneficio": {
-      "name": "Efecto: Hyena Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.wlh1poSMLK9wk2Nw]{Hyena Support Beneficio}</p>\n<p>When tú hit a criatura in the hyena's reach with a Golpe, the criatura becomes Asustado 1.</p>",
+      "name": "Efecto: Beneficio de apoyo de hiena",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.wlh1poSMLK9wk2Nw]{Beneficio de apoyo de hiena}</p>\n<p>La hiena aúlla burlonamente a tus enemigos y los muerde cuando creas una abertura. Hasta el comienzo de tu siguiente turno, cada vez que impactas con un Golpe a una criatura dentro del alcance de la hiena, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.Hyena.EffectNote"
@@ -281,8 +281,8 @@
       }
     },
     "Efecto: Isgeri Boarhound Support Beneficio": {
-      "name": "Efecto: Isgeri Boarhound Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.OQnyw05StojLRcA0]{Isgeri Boarhound Support Beneficio}</p>\n<p>Obtienes a +1 bonificador de circunstancia to tu next tirada de ataque to Golpe a foe within tu boarhound's reach.</p>\n<p>If tú daño a criatura with the rasgo corresponding to tu boarhound's designated foe with that Golpe, the criatura takes additional d6 daño perforante.</p>",
+      "name": "Efecto: Beneficio de apoyo de sabueso jabalinero isgerí",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.OQnyw05StojLRcA0]{Beneficio de apoyo de sabueso jabalinero isgerí}</p>\n<p>Tu sabueso jabalinero es un fiel compañero de caza. Obtienes un bonificador por circunstancia +1 a tu siguiente tirada de ataque para Golpear a un enemigo dentro del alcance de tu sabueso jabalinero. Este bonificador dura hasta la primera vez que lo uses o hasta el comienzo de tu siguiente turno, lo que ocurra primero. Si dañas con ese Golpe a una criatura con el rasgo correspondiente al enemigo designado de tu sabueso jabalinero, la criatura recibe 1d6 de daño perforante adicional del sabueso. Si tu sabueso jabalinero es ágil o salvaje, el daño aumenta a 2d6.</p>",
       "rules": {
         "0": {
           "prompt": "COMP.Prompt.IsSpecialized"
@@ -290,8 +290,8 @@
       }
     },
     "Efecto: Keulia Support Beneficio": {
-      "name": "Efecto: Keulia Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.IsdduEnR9bFi2vDS]{Keulia Support Beneficio}</p>\n<p>Tu Golpes that daño a criatura in tu Keulia's reach also deal daño contundente.</p>",
+      "name": "Efecto: Beneficio de apoyo de keulia",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.IsdduEnR9bFi2vDS]{Beneficio de apoyo de keulia}</p>\n<p>Con su duro caparazón de objetos, tu keulia embiste a los enemigos cuando creas una abertura. Hasta el comienzo de tu siguiente turno, cada vez que impactas con un Golpe a una criatura dentro del alcance de tu keulia e infliges daño físico, la criatura recibe 1d8 de daño contundente del keulia. Si tu keulia es ágil o salvaje, el daño contundente aumenta a 2d8.</p>",
       "rules": {
         "0": {
           "prompt": "COMP.Prompt.IsSpecialized"
@@ -299,17 +299,17 @@
       }
     },
     "Efecto: Metal Elemental Support Beneficio": {
-      "name": "Efecto: Metal Elemental Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.SZD1hU2ageIDw4To]{Metal Elemental Support Beneficio}</p>\n<p>Tu Golpes that daño a criatura in tu metal elemental's reach also deal daño de sangrado daño.</p>",
+      "name": "Efecto: Beneficio de apoyo de elemental de metal",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.SZD1hU2ageIDw4To]{Beneficio de apoyo de elemental de metal}</p>\n<p>Tu elemental de metal perfora a un enemigo con púas metálicas que le hacen sangrar. Hasta el comienzo de tu siguiente turno, tus Golpes que dañan a una criatura dentro del alcance de tu elemental de metal también infligen @Damage[1d6[persistent,bleed]] de daño. Si tu elemental de metal es ágil o salvaje, el daño persistente de sangrado aumenta a @Damage[2d6[persistent,bleed]].</p>",
       "rules": {
         "0": {
-          "prompt": "Is companion nimble or savage."
+          "prompt": "¿El compañero es ágil o salvaje?"
         }
       }
     },
     "Efecto: Mole Support Beneficio": {
-      "name": "Efecto: Mole Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.vvuB2kEzRYSs4IpH]{Mole Support Beneficio}</p>\n<p>If tú hit and daño a criatura adjacent to tu mole, that criatura is Clumsy 1 until it moves from its current position.</p>",
+      "name": "Efecto: Beneficio de apoyo de topo",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.vvuB2kEzRYSs4IpH]{Beneficio de apoyo de topo}</p>\n<p>Tu topo se lanza al suelo y excava bajo tus enemigos, perturbando su equilibrio. Hasta el final de tu siguiente turno, si impactas y dañas a una criatura adyacente a tu topo, esa criatura queda @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} hasta que se mueva de su posición actual.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.Mole.EffectNote"
@@ -317,12 +317,12 @@
       }
     },
     "Efecto: Mongoose Support Beneficio": {
-      "name": "Efecto: Mongoose Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.vvuB2kEzRYSs4IpH]{Mole Support Beneficio}</p>\n<p>Las criaturas adjacent to the mongoose cannot flank tú.</p>"
+      "name": "Efecto: Beneficio de apoyo de mangosta",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.vvuB2kEzRYSs4IpH]{Beneficio de apoyo de mangosta}</p>\n<p>La mangosta salta a tu lado, alerta y preparada. Hasta el final de tu siguiente turno, las criaturas adyacentes a la mangosta no pueden flanquearte.</p>"
     },
     "Efecto: Monitor Lizard Support Beneficio": {
-      "name": "Efecto: Monitor Lizard Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.2Jaz98WiQMNnqKCD]{Monitor Lizard Support Beneficio}</p>\n<p>If tu Golpe damages a foe, any time the foe attempts an action with the manipulate rasgo until the end of tu next turn, it must attempt a DC 5 Flat Check. On a failure, the action is disrupted.</p>",
+      "name": "Efecto: Beneficio de apoyo de lagarto monitor",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.2Jaz98WiQMNnqKCD]{Beneficio de apoyo de lagarto monitor}</p>\n<p>El lagarto monitor distrae a un oponente adyacente con mandíbulas chasqueantes y movimientos rápidos. Hasta el comienzo de tu siguiente turno, si tu Golpe daña a un enemigo, cada vez que ese enemigo intente una acción con el rasgo manipular hasta el final de tu siguiente turno, debe intentar una @Check[flat|dc:5|showDC:all]. Con un fallo, la acción se interrumpe.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.MonitorLizard.EffectNote"
@@ -330,8 +330,8 @@
       }
     },
     "Efecto: Monitor Lizard Support Beneficio (Penalty)": {
-      "name": "Efecto: Monitor Lizard Support Beneficio (Penalty)",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.2Jaz98WiQMNnqKCD]{Monitor Lizard Support Beneficio}</p>\n<p>If tú attempt an action with the manipulate rasgo, debes attempt a DC 5 Flat Check. On a failure, the action is disrupted.</p>",
+      "name": "Efecto: Beneficio de apoyo de lagarto monitor",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.2Jaz98WiQMNnqKCD]{Beneficio de apoyo de lagarto monitor}</p>\n<p>El lagarto monitor distrae a un oponente adyacente con mandíbulas chasqueantes y movimientos rápidos. Hasta el comienzo de tu siguiente turno, si tu Golpe daña a un enemigo, cada vez que ese enemigo intente una acción con el rasgo manipular hasta el final de tu siguiente turno, debe intentar una @Check[flat|dc:5|showDC:all]. Con un fallo, la acción se interrumpe.</p>",
       "rules": {
         "0": {
           "value": {
@@ -357,8 +357,8 @@
       }
     },
     "Efecto: Moth Support Beneficio": {
-      "name": "Efecto: Moth Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.9Y5QKMvy0KsliE29]{Moth Support Beneficio}</p>\n<p>If tú daño a Oculto or Escondido criatura in tu moth's reach with a Golpe, that criatura requires only a DC 3 Flat Check to target it if it's concealed, or DC 9 Flat Check if it's hidden.</p>",
+      "name": "Efecto: Beneficio de apoyo de polilla",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.9Y5QKMvy0KsliE29]{Beneficio de apoyo de polilla}</p>\n<p>Tu polilla libera una lluvia de polvo para revelar a tus enemigos. Hasta el comienzo de tu siguiente turno, si dañas con un Golpe a una criatura @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculta} o @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondida} dentro del alcance de tu polilla, esa criatura solo requiere una @Check[flat|dc:3|showDC:all] para ser objetivo si está oculta, o una @Check[flat|dc:9|showDC:all] si está escondida. La CD reducida dura hasta el final de tu siguiente turno.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.Moth.EffectNote"
@@ -366,41 +366,41 @@
       }
     },
     "Efecto: Moth Support Beneficio (Penalty)": {
-      "name": "Efecto: Moth Support Beneficio (Penalty)",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.9Y5QKMvy0KsliE29]{Moth Support Beneficio}</p>\n<p>If tú daño a Oculto or Escondido criatura in tu moth's reach with a Golpe, that criatura requires only a DC 3 Flat Check to target it if it's concealed, or DC 9 Flat Check if it's hidden.</p>",
+      "name": "Efecto: Beneficio de apoyo de polilla",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.9Y5QKMvy0KsliE29]{Beneficio de apoyo de polilla}</p>\n<p>Tu polilla libera una lluvia de polvo para revelar a tus enemigos. Hasta el comienzo de tu siguiente turno, si dañas con un Golpe a una criatura @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculta} o @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondida} dentro del alcance de tu polilla, esa criatura solo requiere una @Check[flat|dc:3|showDC:all] para ser objetivo si está oculta, o una @Check[flat|dc:9|showDC:all] si está escondida. La CD reducida dura hasta el final de tu siguiente turno.</p>",
       "rules": {
         "0": {
-          "text": "If tú daño a @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} criatura in tu moth's reach with a Golpe, that criatura requires only a @Check[flat|dc:3|showDC:all]."
+          "text": "Si dañas con un Golpe a una criatura @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculta} dentro del alcance de tu polilla, esa criatura solo requiere una @Check[flat|dc:3|showDC:all]."
         },
         "1": {
-          "text": "If tú daño a @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido} criatura in tu moth's reach with a Golpe, that criatura requires only a @Check[flat|dc:9|showDC:all]."
+          "text": "Si dañas con un Golpe a una criatura @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondida} dentro del alcance de tu polilla, esa criatura solo requiere una @Check[flat|dc:9|showDC:all]."
         }
       }
     },
     "Efecto: Pangolin Support Beneficio": {
-      "name": "Efecto: Pangolin Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.QiQvx7jtfrkGnf13]{Pangolin Support Beneficio}</p>\n<p>Tu Golpes that daño a criatura in tu pangolin's reach also deal daño persistente de sangrado.</p>",
+      "name": "Efecto: Beneficio de apoyo de pangolín",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.QiQvx7jtfrkGnf13]{Beneficio de apoyo de pangolín}</p>\n<p>Tu pangolín desgarra a tus enemigos con sus placas serradas. Hasta el comienzo de tu siguiente turno, tus Golpes que dañan a una criatura dentro del alcance de tu pangolín también infligen @Damage[1d6[persistent,bleed]] de daño. Si tu pangolín es ágil o salvaje, el daño persistente de sangrado aumenta a @Damage[2d6[persistent,bleed]|shortLabel].</p>",
       "rules": {
         "0": {
-          "prompt": "Is companion nimble or savage."
+          "prompt": "¿El compañero es ágil o salvaje?"
         }
       }
     },
     "Efecto: Ravenous Drake Support Beneficio": {
-      "name": "Efecto: Ravenous Drake Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.uIOdChoT35s5BIzd]{Ravenous Drake Support Beneficio}</p>\n<p>Obtienes a +1 bonificador de circunstancia to any Athletics check to Disarm, Reposition, Shove, or Trip to an opponent adjacent to tu ravenous drake.</p>"
+      "name": "Efecto: Beneficio de apoyo de draco voraz",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.uIOdChoT35s5BIzd]{Beneficio de apoyo de draco voraz}</p>\n<p>Tu draco voraz intenta constantemente atraer a tu enemigo o sus posesiones hacia sus mandíbulas abiertas. Obtienes un bonificador por circunstancia +1 a cualquier prueba de Atletismo para [[/act disarm]], [[/act reposition]], [[/act shove]] o [[/act trip]] a un oponente adyacente a tu draco voraz.</p>"
     },
     "Efecto: Reckless Attack": {
-      "name": "Efecto: Reckless Attack",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.yYN5lYVfJVofjR0k]{Reckless Attack}</p>\n<p>Obtienes a +1 bonificador de circunstancia to tu next tirada de ataque.</p>"
+      "name": "Efecto: Ataque temerario",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.yYN5lYVfJVofjR0k]{Ataque temerario}</p>\n<p>Obtienes un bonificador por circunstancia +1 a tu siguiente tirada de ataque.</p>"
     },
     "Efecto: Retreat (Rider)": {
-      "name": "Efecto: Retreat (Rider)",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.SkVl3yomdYZoS7Hx]{Aerial Retreat}, @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.R2RNXJH06UhSMmzp]{Sudden Retreat}</p>\n<p>Obtienes a +2 bonificador de circunstancia to AC against reactions.</p>"
+      "name": "Efecto: retirada (jinete)",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.SkVl3yomdYZoS7Hx]{Retirada aérea}, @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.R2RNXJH06UhSMmzp]{Retirada repentina}</p>\n<p>Obtienes un bonificador por circunstancia +2 a la CA contra reacciones.</p>"
     },
     "Efecto: Rhinoceros Support Beneficio": {
-      "name": "Efecto: Rhinoceros Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.kecawjDhBFz5QA4f]{Rhinoceros Support Beneficio}</p>\n<p>The first criatura within tu rhino's reach that tú hit and deal daño to before the start of tu next turn becomes Clumsy 1.</p>",
+      "name": "Efecto: Beneficio de apoyo de rinoceronte",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.kecawjDhBFz5QA4f]{Beneficio de apoyo de rinoceronte}</p>\n<p>Tu rinoceronte balancea su pesada cabeza para desequilibrar a tu enemigo. La primera criatura dentro del alcance de tu rinoceronte a la que impactes e inflijas daño antes del comienzo de tu siguiente turno queda @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} hasta el final de tu siguiente turno.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.Rhinoceros.EffectNote"
@@ -408,20 +408,20 @@
       }
     },
     "Efecto: Riding Dragonet Support Beneficio": {
-      "name": "Efecto: Riding Dragonet Support Beneficio",
-      "description": "<p>Granted by Riding Dragonet Support Beneficio</p>\n<p>Tu Golpes deal daño contundente in tu dragonet's reach.</p>",
+      "name": "Efecto: Beneficio de apoyo de dragoncillo de monta",
+      "description": "<p>Concedido por Beneficio de apoyo de dragoncillo de monta</p>\n<p>Las alas de tu dragoncillo baten con rapidez, haciendo vibrar el aire a vuestro alrededor. Hasta el comienzo de tu siguiente turno, cada vez que haces un Golpe mientras montas el dragoncillo e impactas a una criatura dentro del alcance del dragoncillo, la criatura recibe 1d4 de daño contundente por la fuerza de sus alas. Si tu dragoncillo es ágil o salvaje, el daño contundente aumenta a 2d4.</p>",
       "rules": {
         "0": {
-          "prompt": "Is companion nimble or savage."
+          "prompt": "¿El compañero es ágil o salvaje?"
         }
       }
     },
     "Efecto: Riding Drake Support Beneficio": {
-      "name": "Efecto: Riding Drake Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.C41lCXjerYjMyOTI]{Riding Drake Support Beneficio}</p>\n<p>Each time tú Golpe while riding the drake and hit a criatura in the drake's reach, the criatura takes daño de fuego from the drake.</p>",
+      "name": "Efecto: Beneficio de apoyo de draco de monta",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.C41lCXjerYjMyOTI]{Beneficio de apoyo de draco de monta}</p>\n<p>Tu draco resopla fuego en el rostro de tus enemigos. Hasta el comienzo de tu siguiente turno, cada vez que haces un Golpe mientras montas el draco e impactas a una criatura dentro del alcance del draco, la criatura recibe @Damage[1d4[fire]] de daño del draco. Si tu draco es ágil o salvaje, el daño de fuego aumenta a @Damage[2d4[fire]|shortLabel].</p>",
       "rules": {
         "0": {
-          "prompt": "Is companion nimble or savage."
+          "prompt": "¿El compañero es ágil o salvaje?"
         },
         "1": {
           "label": "COMP.SpecificRule.RidingDrake.Label"
@@ -429,8 +429,8 @@
       }
     },
     "Efecto: Riding Tarantula Support Beneficio": {
-      "name": "Efecto: Riding Tarantula Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.NKgFIZQYkL3bb6xn]{Riding Tarantula Support Beneficio}</p>\n<p>If tú hit and deal daño to a criatura tu riding tarantula threatens, el objetivo must succeed at a @Check[type:flat|dc:5] siempre que it takes a concentrate action or that action is lost.</p>",
+      "name": "Efecto: Beneficio de apoyo de tarántula de monta",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.NKgFIZQYkL3bb6xn]{Beneficio de apoyo de tarántula de monta}</p>\n<p>Tu tarántula de monta lanza pelos urticantes contra tu enemigo, perturbando su concentración. Hasta el comienzo de tu siguiente turno, si impactas e infliges daño a una criatura amenazada por tu tarántula de monta, el objetivo debe superar una @Check[type:flat|dc:5] cada vez que realice una acción de concentración o dicha acción se pierde.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.RidingTarantula.EffectNote"
@@ -438,8 +438,8 @@
       }
     },
     "Efecto: Riding Tarantula Support Beneficio (Penalty)": {
-      "name": "Efecto: Riding Tarantula Support Beneficio (Penalty)",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.NKgFIZQYkL3bb6xn]{Riding Tarantula Support Beneficio}</p>\n<p>El objetivo must succeed at a @Check[type:flat|dc:5] siempre que it takes a concentrate action or that action is lost.</p>",
+      "name": "Efecto: Beneficio de apoyo de tarántula de monta",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.NKgFIZQYkL3bb6xn]{Beneficio de apoyo de tarántula de monta}</p>\n<p>Tu tarántula de monta lanza pelos urticantes contra tu enemigo, perturbando su concentración. Hasta el comienzo de tu siguiente turno, si impactas e infliges daño a una criatura amenazada por tu tarántula de monta, el objetivo debe superar una @Check[type:flat|dc:5] cada vez que realice una acción de concentración o dicha acción se pierde.</p>",
       "rules": {
         "0": {
           "value": {
@@ -465,8 +465,8 @@
       }
     },
     "Efecto: Roc Support Beneficio": {
-      "name": "Efecto: Roc Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.R0e3jHpB7nTzIUPm]{Roc Support Beneficio}</p>\n<p>Tu Golpes that daño a criatura that tu roc threatens push el objetivo 5 pies away from tu roc.</p>",
+      "name": "Efecto: Beneficio de apoyo de roc",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.R0e3jHpB7nTzIUPm]{Beneficio de apoyo de roc}</p>\n<p>Tu roc bate las alas, creando una potente corriente descendente. Hasta el comienzo de tu siguiente turno, tus Golpes que dañan a una criatura amenazada por tu roc empujan al objetivo 5 pies alejándolo de tu roc.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.Roc.EffectNote"
@@ -474,17 +474,17 @@
       }
     },
     "Efecto: Scorpion Support Beneficio": {
-      "name": "Efecto: Scorpion Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.xtXdDC5KrUqh7eCu]{Scorpion Support Beneficio}</p>\n<p>Tu Golpes that daño a criatura in tu scorpion's reach also deal daño persistente de veneno.</p>",
+      "name": "Efecto: Beneficio de apoyo de escorpión",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.xtXdDC5KrUqh7eCu]{Beneficio de apoyo de escorpión}</p>\n<p>Tu escorpión gotea veneno desde su aguijón cuando creas una abertura. Hasta el comienzo de tu siguiente turno, tus Golpes que dañan a una criatura dentro del alcance de tu escorpión también infligen @Damage[1d6[persistent,poison]] de daño. Si tu escorpión es ágil o salvaje, el daño persistente de veneno aumenta a @Damage[2d6[persistent,poison]|shortLabel].</p>",
       "rules": {
         "0": {
-          "prompt": "Is companion nimble or savage."
+          "prompt": "¿El compañero es ágil o salvaje?"
         }
       }
     },
     "Efecto: Severed Head Support Beneficio": {
-      "name": "Efecto: Severed Head Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.z6bNmmf5YiJrPbot]{Severed Head Support Beneficio}</p>\n<p>Tu Golpes t<span style=\"font-family:Roboto, sans-serif\">hat daño a criatura in tu severed head's reach take a penalizador to their speed and must succeed at a prueba plana to use reactions.</span></p>",
+      "name": "Efecto: Beneficio de apoyo de cabeza cercenada",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.z6bNmmf5YiJrPbot]{Beneficio de apoyo de cabeza cercenada}</p>\n<p>La cabeza se aferra con las mandíbulas a tu enemigo cuando creas una abertura, distrayéndolo y dificultando su movimiento. La siguiente criatura dentro del alcance de tu cabeza cercenada a la que Golpees con éxito antes del comienzo de tu siguiente turno sufre un penalizador de estado -5 pies a sus Velocidades y debe superar una @Check[flat|dc:5] para usar reacciones desencadenadas por tus acciones hasta el comienzo de tu siguiente turno. Con un fallo, la reacción se pierde.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.SeveredHead.EffectNote.SupportBenefit"
@@ -492,8 +492,8 @@
       }
     },
     "Efecto: Severed Head Support Beneficio (Penalty)": {
-      "name": "Efecto: Severed Head Support Beneficio (Penalty)",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.z6bNmmf5YiJrPbot]{Severed Head Support Beneficio}</p>\n<p>Sufres a -5-pies penalizador de estado to tu Velocidades and must succeed at a DC 5 prueba plana to use reactions triggered by the origin's actions.</p>",
+      "name": "Efecto: Beneficio de apoyo de cabeza cercenada",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.z6bNmmf5YiJrPbot]{Beneficio de apoyo de cabeza cercenada}</p>\n<p>La cabeza se aferra con las mandíbulas a tu enemigo cuando creas una abertura, distrayéndolo y dificultando su movimiento. La siguiente criatura dentro del alcance de tu cabeza cercenada a la que Golpees con éxito antes del comienzo de tu siguiente turno sufre un penalizador de estado -5 pies a sus Velocidades y debe superar una @Check[flat|dc:5] para usar reacciones desencadenadas por tus acciones hasta el comienzo de tu siguiente turno. Con un fallo, la reacción se pierde.</p>",
       "rules": {
         "1": {
           "value": {
@@ -519,8 +519,8 @@
       }
     },
     "Efecto: Shadow Hound Support Beneficio": {
-      "name": "Efecto: Shadow Hound Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.h65iGxPkfrT8DdPv]{Shadow Hound Support Beneficio}</p>\n<p>When tú daño a criatura with a Golpe and that criatura is within reach of tu shadow hound, both tú and tu shadow hound become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} to the criatura.</p>",
+      "name": "Efecto: Beneficio de apoyo de sabueso sombrío",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.h65iGxPkfrT8DdPv]{Beneficio de apoyo de sabueso sombrío}</p>\n<p>Tu sabueso sombrío envuelve a tus enemigos en sombras cuando dejas una abertura. Hasta el comienzo de tu siguiente turno, cuando dañas a una criatura con un Golpe y esa criatura está dentro del alcance de tu sabueso sombrío, tanto tú como tu sabueso sombrío quedáis @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Ocultos} para la criatura hasta el final de tu siguiente turno.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.ShadowHound.EffectNote"
@@ -528,26 +528,26 @@
       }
     },
     "Efecto: Shark Support Beneficio": {
-      "name": "Efecto: Shark Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.YsLLV4J7L6fgzTXf]{Shark Support Beneficio}</p>\n<p>Each time tú hit a criatura in the shark's reach with a Golpe and deal slashing or daño perforante, the criatura takes daño adicional cortante from the shark.</p>",
+      "name": "Efecto: Beneficio de apoyo de tiburón",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.YsLLV4J7L6fgzTXf]{Beneficio de apoyo de tiburón}</p>\n<p>Cuando tu tiburón huele sangre, desgarra a tus enemigos. Hasta el comienzo de tu siguiente turno, cada vez que impactas con un Golpe a una criatura dentro del alcance del tiburón e infliges daño cortante o perforante, la criatura recibe @Damage[1d8[slashing]] de daño del tiburón. Si tu tiburón es ágil o salvaje, el daño cortante aumenta a @Damage[2d8[slashing]|shortLabel].</p>",
       "rules": {
         "0": {
-          "prompt": "Is companion nimble or savage."
+          "prompt": "¿El compañero es ágil o salvaje?"
         }
       }
     },
     "Efecto: Shotalashu Support Beneficio": {
-      "name": "Efecto: Shotalashu Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.ufAZJqCN7ZOBhMSJ]{Shotalashu Support Beneficio}</p>\n<p>Each time tú hit a criatura in the shotalashu's reach with a Golpe, the criatura takes daño mental from the shotalashu.</p>",
+      "name": "Efecto: Beneficio de apoyo de shotalashu",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.ufAZJqCN7ZOBhMSJ]{Beneficio de apoyo de shotalashu}</p>\n<p>El shotalashu asalta telepáticamente a tus enemigos cuando creas una abertura. Hasta el comienzo de tu siguiente turno, cada vez que impactas con un Golpe a una criatura dentro del alcance del shotalashu, la criatura recibe @Damage[1d6[mental]] de daño del shotalashu. Si tu shotalashu es ágil o salvaje, el daño mental aumenta a @Damage[2d6[mental]|shortLabel].</p>",
       "rules": {
         "0": {
-          "prompt": "Is companion nimble or savage."
+          "prompt": "¿El compañero es ágil o salvaje?"
         }
       }
     },
     "Efecto: Skeletal Bird of Prey Support Beneficio": {
-      "name": "Efecto: Skeletal Bird of Prey Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.bEkXle5FLNxnp3IE]{Skeletal Bird of Prey Support Beneficio}</p>\n<p>When tú daño a criatura in the bird's reach with a Golpe, that criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}.</p>",
+      "name": "Efecto: Beneficio de apoyo de ave de presa esquelética",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.bEkXle5FLNxnp3IE]{Beneficio de apoyo de ave de presa esquelética}</p>\n<p>El ave aletea alrededor y desequilibra a tu enemigo. Hasta el comienzo de tu siguiente turno, cuando dañas con un Golpe a una criatura dentro del alcance del ave, esa criatura queda @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} hasta el final de tu siguiente turno.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.SkeletalBirdOfPrey.EffectNote"
@@ -555,8 +555,8 @@
       }
     },
     "Efecto: Skeletal Constrictor Support Beneficio": {
-      "name": "Efecto: Skeletal Constrictor Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.Si13B4VFANZN8mi1]{Skeletal Constrictor Support Beneficio}</p>\n<p>Tu Golpes that deal daño to the chosen criatura make el objetivo @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido}.</p>",
+      "name": "Efecto: Beneficio de apoyo de constrictor esquelético",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.Si13B4VFANZN8mi1]{Beneficio de apoyo de constrictor esquelético}</p>\n<p>Tu serpiente se balancea, cautivando a un enemigo. Elige una criatura a 20 pies o menos del constrictor que pueda verlo. Hasta el comienzo de tu siguiente turno, tus Golpes que infligen daño a la criatura elegida dejan al objetivo @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} hasta el final de tu siguiente turno.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.SkeletalConstrictor.EffectNote"
@@ -564,8 +564,8 @@
       }
     },
     "Efecto: Skeletal Mount Support Beneficio": {
-      "name": "Efecto: Beneficio por apoyo de montura esquelética",
-      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.CKMQC3zu1XoGjeNd]{Beneficio por apoyo de montura esquelética}</p>\n<p>Si montas en tu montura esquelética y te desplazas al menos 10 pies (3 m) durante la acción previa a tu ataque, cualquier criatura que sufra daño por dicho ataque queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}, o @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} si el ataque fue un golpe crítico.</p>",
+      "name": "Efecto: Beneficio de apoyo de montura esquelética",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.CKMQC3zu1XoGjeNd]{Beneficio de apoyo de montura esquelética}</p>\n<p>Tu montura esquelética causa miedo cuando carga. Hasta el comienzo de tu siguiente turno, si estás montando sobre ella y mueves al menos 10 pies en la acción antes de atacar, cualquier criatura dañada por el ataque queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustada 1}, o @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustada 2} si el ataque fue un golpe crítico. Esto es un efecto de emoción, mental y miedo.</p>",
       "rules": {
         "0": {
           "label": "COMP.SpecificRule.RidingDrake.Label"
@@ -580,7 +580,7 @@
     },
     "Efecto: Skeletal Servant Support Beneficio": {
       "name": "Efecto: Beneficio de apoyo de sirviente esquelético",
-      "description": "<p>Concedidi por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.bHaJZSm7SakAsk00]{Beneficio de apoyo de sirviente esquelético}</p>\n<p>Cuando des un Golpe que cause daño a una criatura dentro del alcance de tu sirviente esquelético, ese objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido}.</p>",
+      "description": "<p>Tu sirviente esquelético clava huesos en tus enemigos para distraerlos mientras los atacas. Hasta el comienzo de tu siguiente turno, cuando des un Golpe que cause daño a una criatura dentro del alcance de tu sirviente esquelético, ese objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} hasta el final de tu siguiente turno.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.SkeletalServant.EffectNote"
@@ -588,11 +588,11 @@
       }
     },
     "Efecto: Spiked Bunker": {
-      "name": "Efecto: Spiked Bunker",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.oyNZpuQ6EU3prvo2]{Spiked Bunker}</p>\n<p>Obtienes a +2 bonificador de circunstancia to AC. Any criatura that hits estás in the Spiked Bunker takes 2d6 daño perforante (or 3d6 daño perforante if tu metal elemental has a specialization).</p>",
+      "name": "Efecto: búnker espinoso",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.oyNZpuQ6EU3prvo2]{Búnker espinoso}</p>\n<p>Obtienes un bonificador por circunstancia +2 a la CA. Cualquier criatura que te impacte mientras estás en el búnker espinoso recibe 2d6 de daño perforante, o 3d6 de daño perforante si tu elemental de metal tiene una especialización.</p>",
       "rules": {
         "0": {
-          "prompt": "Is companion specialized?"
+          "prompt": "¿El compañero está especializado?"
         },
         "3": {
           "text": "COMP.SpecificRule.MetalElemental.SpikedBunker.DamageNote"
@@ -600,12 +600,12 @@
       }
     },
     "Efecto: Sundaflora Support Beneficio": {
-      "name": "Efecto: Sundaflora Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.xpEAKxiQUlUXkqV4]{Sundaflora Support Beneficio}</p>\n<p>Obtienes a +1 bonificador de circunstancia to tu next tirada de ataque to Golpe a foe within tu sundaflora's reach.</p>"
+      "name": "Efecto: Beneficio de apoyo de sundaflora",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.xpEAKxiQUlUXkqV4]{Beneficio de apoyo de sundaflora}</p>\n<p>Tu sundaflora inspira a tus aliados con su actitud calmada y sus pasos ágiles. Elige un aliado a 30 pies o menos de tu sundaflora. Obtiene un bonificador por circunstancia +1 a su siguiente tirada de ataque para Golpear a un enemigo dentro del alcance de tu sundaflora. El bonificador dura hasta la primera vez que tu aliado lo use o hasta el comienzo de tu siguiente turno, lo que ocurra primero.</p>"
     },
     "Efecto: Terror Bird Support Beneficio": {
-      "name": "Efecto: Terror Bird Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.oLwBrrW33fIjSHLr]{Terror Bird Support Beneficio}</p>\n<p>Tu Golpes that deal daño to a criatura within tu terror bird's reach make el objetivo @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido}.</p>",
+      "name": "Efecto: Beneficio de apoyo de ave del terror",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.oLwBrrW33fIjSHLr]{Beneficio de apoyo de ave del terror}</p>\n<p>Tu ave del terror chilla a tus enemigos cuando creas una abertura. Hasta el comienzo de tu siguiente turno, tus Golpes que infligen daño a una criatura dentro del alcance de tu ave del terror dejan al objetivo @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} hasta el comienzo de tu siguiente turno.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.TerrorBird.EffectNote"
@@ -613,21 +613,21 @@
       }
     },
     "Efecto: Tikar Urchinpad Support Beneficio": {
-      "name": "Efecto: Tikar Urchinpad Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.TFrCa4aCUKtwhuqn]{Tikar Urchinpad Support Beneficio}</p>\n<p>As long as estás adjacent to tu urchinpad, if tú attempt to @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} an opponent and roll a critical failure, tú get a failure instead.</p>"
+      "name": "Efecto: Beneficio de apoyo de erizópodo tikar",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.TFrCa4aCUKtwhuqn]{Beneficio de apoyo de erizópodo tikar}</p>\n<p>Tu erizópodo tikar intenta envolver las extremidades de tu enemigo con sus zarcillos, desequilibrándolo. Hasta el final de tu siguiente turno, mientras estés adyacente a tu erizópodo, si intentas @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Empujar} o @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Derribar} a un oponente y obtienes un fallo crítico, obtienes un fallo en su lugar.</p>"
     },
     "Efecto: Triceratops Support Beneficio": {
-      "name": "Efecto: Triceratops Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.TDMhLC16cQOYBbmA]{Triceratops Support Beneficio}</p>\n<p>Tu Golpes that daño a prone criatura in tu triceratops's reach also deal daño persistente de sangrado.</p>",
+      "name": "Efecto: Beneficio de apoyo de triceratops",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.TDMhLC16cQOYBbmA]{Beneficio de apoyo de triceratops}</p>\n<p>Tu triceratops cornea a los objetivos @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbados} que dejas a tu paso. Hasta el comienzo de tu siguiente turno, tus Golpes que dañan a una criatura tumbada dentro del alcance de tu triceratops también infligen @Damage[1d8[persistent,bleed]] de daño. Si tu triceratops es ágil o salvaje, el daño persistente de sangrado aumenta a @Damage[2d8[persistent,bleed]|shortLabel].</p>",
       "rules": {
         "0": {
-          "prompt": "Is companion nimble or savage."
+          "prompt": "¿El compañero es ágil o salvaje?"
         }
       }
     },
     "Efecto: Tyrannosaurus Support Beneficio": {
-      "name": "Efecto: Tyrannosaurus Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.XrxIRaD1A5tpKm1t]{Tyrannosaurus Support Beneficio}</p>\n<p>If tú hit and deal daño to a criatura within tu tyrannosaurus's reach, the criatura is @Compendium[pf2e.conditionitems.Asustado]{Asustado 1}.</p>",
+      "name": "Efecto: Beneficio de apoyo de tiranosaurio",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.XrxIRaD1A5tpKm1t]{Beneficio de apoyo de tiranosaurio}</p>\n<p>Tu tiranosaurio ruge y hace una exhibición aterradora mientras atacas, sobresaltando a tus enemigos. Hasta el comienzo de tu siguiente turno, si impactas e infliges daño a una criatura dentro del alcance de tu tiranosaurio, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.Tyrannosaurus.EffectNote"
@@ -635,17 +635,17 @@
       }
     },
     "Efecto: Ulgrem-Lurann Support Beneficio": {
-      "name": "Efecto: Ulgrem-Lurann Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.uZLtEOimbFnEDUKh]{Ulgrem-Lurann Support Beneficio}</p>\n<p>Each time tú hit a criatura in the Ulgrem-Lurann's reach with a Golpe, the criatura takes an additional piercing and daño de electricidad from the Ulgrem-Lurann.</p>",
+      "name": "Efecto: Beneficio de apoyo de ulgrem-lurann",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.uZLtEOimbFnEDUKh]{Beneficio de apoyo de ulgrem-lurann}</p>\n<p>El ulgrem-lurann agarra a tu enemigo y lo electrocuta. Hasta el comienzo de tu siguiente turno, cada vez que impactas con un Golpe a una criatura dentro del alcance del ulgrem-lurann, la criatura recibe @Damage[1d4[piercing],1d4[electricity]] de daño adicional del ulgrem-lurann. Si el ulgrem-lurann es ágil o salvaje, el daño perforante y el daño de electricidad aumentan cada uno a @Damage[2d4[piercing],2d4[electricity]]{2d4}.</p>",
       "rules": {
         "0": {
-          "prompt": "Is companion nimble or savage."
+          "prompt": "¿El compañero es ágil o salvaje?"
         }
       }
     },
     "Efecto: Umbrella Mushroom Support Beneficio": {
-      "name": "Efecto: Umbrella Mushroom Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.XVOVZjvTwaoalpWC]{Umbrella Mushroom Support Beneficio}</p>\n<p>Tu Golpes that daño a criatura within tu umbrella mushroom's reach becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}. Este effect has the poison rasgo.</p>",
+      "name": "Efecto: Beneficio de apoyo de seta sombrilla",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.XVOVZjvTwaoalpWC]{Beneficio de apoyo de seta sombrilla}</p>\n<p>Tu seta sombrilla exuda esporas que embotan los sentidos cuando creas una abertura. Hasta el comienzo de tu siguiente turno, tus Golpes que dañan a una criatura dentro del alcance de tu seta sombrilla dejan a esa criatura @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadada 1} durante 1 asalto. Este efecto tiene el rasgo veneno.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.UmbrellaMushroom.EffectNote"
@@ -653,26 +653,26 @@
       }
     },
     "Efecto: Undead Hand Support Beneficio": {
-      "name": "Efecto: Undead Hand Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.imNJpD4afn4UrLpu]{Undead Hand Support Beneficio}</p>\n<p>Each time tú hit a criatura in the hand's reach with a Golpe, the criatura takes daño adicional contundente from the hand.</p>",
+      "name": "Efecto: Beneficio de apoyo de mano muerta viviente",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.imNJpD4afn4UrLpu]{Beneficio de apoyo de mano muerta viviente}</p>\n<p>La mano golpea brutalmente a los enemigos que atacas. Hasta el comienzo de tu siguiente turno, cada vez que impactas con un Golpe a una criatura dentro del alcance de la mano, la criatura recibe @Damage[1d6[bludgeoning]] de daño de la mano. Si tu mano es ágil o salvaje, el daño contundente aumenta a @Damage[2d6[bludgeoning]|shortLabel].</p>",
       "rules": {
         "0": {
-          "prompt": "Is companion nimble or savage."
+          "prompt": "¿El compañero es ágil o salvaje?"
         }
       }
     },
     "Efecto: Vampiric Animal Support Beneficio": {
-      "name": "Efecto: Beneficio por apoyo de Animal vampírico",
-      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.3jZOVJsYwBQ7GPDi]{Beneficio por apoyo de Animal vampírico}</p>\n<p>Tus Golpes que dañen a una criatura dentro del alcance del animal vampírico también causan daño por sangrado.</p>",
+      "name": "Efecto: Beneficio de apoyo de animal vampírico",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.3jZOVJsYwBQ7GPDi]{Beneficio de apoyo de animal vampírico}</p>\n<p>Cuando tu animal vampírico huele sangre se lanza contra tus enemigos. Hasta el comienzo de tu siguiente turno, tus Golpes que dañen a una criatura dentro del alcance del animal vampírico también causan @Damage[1d6[persistent,bleed]]{1d6 de daño persistente de sangrado}. Si tu animal vampírico es ágil o salvaje, el daño persistente es @Damage[2d6[persistent,bleed]|shortLabel]{2d6}.</p>",
       "rules": {
         "0": {
-          "prompt": "Si tu compañero es ágil o salvaje."
+          "prompt": "¿Tu compañero es ágil o salvaje?"
         }
       }
     },
     "Efecto: War Pig Support Beneficio": {
-      "name": "Efecto: War Pig Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.ZGE7RQKqjQCTEJct]{War Pig Support Beneficio}</p>\n<p>Golpes tú make that deal daño to a criatura within tu war pig's reach make el objetivo @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}</p>",
+      "name": "Efecto: Beneficio de apoyo de cerdo de guerra",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.ZGE7RQKqjQCTEJct]{Beneficio de apoyo de cerdo de guerra}</p>\n<p>Tu cerdo de guerra embiste con el cuerpo a tus enemigos, dejándolos entumecidos por el impacto. Hasta el comienzo de tu siguiente turno, los Golpes que hagas y que inflijan daño a una criatura dentro del alcance de tu cerdo de guerra dejan al objetivo @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} hasta el final de tu siguiente turno.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.WarPig.EffectNote"
@@ -680,8 +680,8 @@
       }
     },
     "Efecto: Water Elemental Support Beneficio": {
-      "name": "Efecto: Water Elemental Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.BFvS1wnFxgUqgX8m]{Water Elemental Support Beneficio}</p>\n<p>When tú hit with a Golpe that deals daño to a criatura within tu water elemental's reach, that criatura becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}.</p>",
+      "name": "Efecto: Beneficio de apoyo de elemental de agua",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.BFvS1wnFxgUqgX8m]{Beneficio de apoyo de elemental de agua}</p>\n<p>Tu elemental de agua empapa a un enemigo. La primera vez antes del comienzo de tu siguiente turno que impactas con un Golpe que inflige daño a una criatura dentro del alcance de tu elemental de agua, esa criatura queda @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Torpe 1} hasta el final de tu siguiente turno.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.WaterElemental.EffectNote"
@@ -689,8 +689,8 @@
       }
     },
     "Efecto: Water Wraith Support Beneficio": {
-      "name": "Efecto: Water Wraith Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.IUXX1lUd9kMzV4bq]{Water Wraith Support Beneficio}</p>\n<p>Each time tú hit a criatura within tu water wraith's reach, the criatura is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p>",
+      "name": "Efecto: Beneficio de apoyo de espectro acuático",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.IUXX1lUd9kMzV4bq]{Beneficio de apoyo de espectro acuático}</p>\n<p>Tu espectro acuático sisea y cambia de color rápidamente en un choque iridiscente, abrumando a tus enemigos con una avalancha de tonos y matices. Hasta el comienzo de tu siguiente turno, cada vez que impactas a una criatura dentro del alcance de tu espectro acuático, la criatura queda @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Deslumbrada} durante 1 asalto.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.WaterWraith.EffectNote"
@@ -698,8 +698,8 @@
       }
     },
     "Efecto: Wolf Support Beneficio": {
-      "name": "Efecto: Wolf Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.5HnWXmOp8qNjfhdU]{Wolf Support Beneficio}</p>\n<p>Tu Golpes that daño criaturas tu wolf threatens give el objetivo a –5-pies penalizador de estado to its Velocidades (–10 on a critical success).</p>",
+      "name": "Efecto: Beneficio de apoyo de lobo",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.5HnWXmOp8qNjfhdU]{Beneficio de apoyo de lobo}</p>\n<p>Tu lobo desgarra tendones con cada abertura. Hasta el comienzo de tu siguiente turno, tus Golpes que dañan a criaturas amenazadas por tu lobo dan al objetivo un penalizador de estado -5 pies a sus Velocidades durante 1 minuto (-10 con un éxito crítico).</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.Wolf.EffectNote"
@@ -707,12 +707,12 @@
       }
     },
     "Efecto: Wolf Support Beneficio Velocidad Penalty": {
-      "name": "Efecto: Wolf Support Beneficio Velocidad Penalty",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.5HnWXmOp8qNjfhdU]{Wolf Support Beneficio}</p>\n<p>Sufres a a –5-pies penalizador de estado to its Velocidades (–10 on a critical success).</p>"
+      "name": "Efecto: Beneficio de apoyo de lobo",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.5HnWXmOp8qNjfhdU]{Beneficio de apoyo de lobo}</p>\n<p>Tu lobo desgarra tendones con cada abertura. Hasta el comienzo de tu siguiente turno, tus Golpes que dañan a criaturas amenazadas por tu lobo dan al objetivo un penalizador de estado -5 pies a sus Velocidades durante 1 minuto (-10 con un éxito crítico).</p>"
     },
     "Efecto: Wood Elemental Support Beneficio": {
-      "name": "Efecto: Wood Elemental Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.KomM6mTwJAzvqAgi]{Wood Elemental Support Beneficio}</p>\n<p>If tú hit with a Golpe that deals daño to a criatura in tu wood elemental's reach, the criatura takes a –5-pies penalizador por circunstancia to its Velocidades for 1 minuto (–10 on a critical success).</p>",
+      "name": "Efecto: Beneficio de apoyo de elemental de madera",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.KomM6mTwJAzvqAgi]{Beneficio de apoyo de elemental de madera}</p>\n<p>Tu elemental de madera enreda a tus enemigos con ramas y raíces desprendibles. Hasta el comienzo de tu siguiente turno, si impactas con un Golpe que inflige daño a una criatura dentro del alcance de tu elemental de madera, la criatura sufre un penalizador por circunstancia -5 pies a sus Velocidades durante 1 minuto (-10 con un éxito crítico). La criatura, o una criatura adyacente a ella, puede usar una acción de Interactuar para desenredar las ramas y raíces y eliminar el penalizador.</p>",
       "rules": {
         "1": {
           "text": "COMP.SpecificRule.WoodElemental.EffectNote"
@@ -720,42 +720,42 @@
       }
     },
     "Efecto: Wood Elemental Support Beneficio Velocidad Penalty": {
-      "name": "Efecto: Wood Elemental Support Beneficio Velocidad Penalty",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.KomM6mTwJAzvqAgi]{Wood Elemental Support Beneficio}</p>\n<p>Sufres a a –5-pies penalizador de estado to its Velocidades (–10 on a critical success).</p>"
+      "name": "Efecto: Beneficio de apoyo de elemental de madera",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.KomM6mTwJAzvqAgi]{Beneficio de apoyo de elemental de madera}</p>\n<p>Tu elemental de madera enreda a tus enemigos con ramas y raíces desprendibles. Hasta el comienzo de tu siguiente turno, si impactas con un Golpe que inflige daño a una criatura dentro del alcance de tu elemental de madera, la criatura sufre un penalizador por circunstancia -5 pies a sus Velocidades durante 1 minuto (-10 con un éxito crítico). La criatura, o una criatura adyacente a ella, puede usar una acción de Interactuar para desenredar las ramas y raíces y eliminar el penalizador.</p>"
     },
     "Efecto: Wyvern Support Beneficio": {
-      "name": "Efecto: Wyvern Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.3ZYwTYI4ORCz4xQg]{Wyvern Support Beneficio}</p>\n<p>Tu Golpes that daño a criatura in tu wyvern's reach also deal daño persistente de veneno.</p>",
+      "name": "Efecto: Beneficio de apoyo de guiverno",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.3ZYwTYI4ORCz4xQg]{Beneficio de apoyo de guiverno}</p>\n<p>Tu guiverno arremete con su aguijón contra tus enemigos. Hasta el comienzo de tu siguiente turno, tus Golpes que dañan a una criatura dentro del alcance de tu guiverno también infligen @Damage[1d6[persistent,poison]] de daño. Si tu guiverno es ágil o salvaje, el daño persistente aumenta a @Damage[2d6[persistent,poison]|shortLabel].</p>",
       "rules": {
         "0": {
-          "prompt": "Is companion nimble or savage."
+          "prompt": "¿El compañero es ágil o salvaje?"
         }
       }
     },
     "Efecto: Zombie Carrion Bird Support Beneficio": {
-      "name": "Efecto: Zombie Carrion Bird Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.zE01vpjowhoKygig]{Zombie Carrion Bird Support Beneficio}</p>\n<p>Each time tú hit and deal daño to a criatura that's within 10 pies of the zombie carrion bird, the criatura takes an daño adicional.</p>",
+      "name": "Efecto: Beneficio de apoyo de ave carroñera zombi",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.zE01vpjowhoKygig]{Beneficio de apoyo de ave carroñera zombi}</p>\n<p>El zombi emite un aura de podredumbre que hace que las heridas se infecten. Hasta el comienzo de tu siguiente turno, cada vez que impactas e infliges daño a una criatura que esté a 10 pies o menos del ave carroñera zombi, la criatura recibe @Damage[1d6[untyped]] de daño adicional mientras la herida se infecta. Si tu ave carroñera es ágil o salvaje, el daño aumenta a @Damage[2d6[untyped]]. Esto es un efecto de enfermedad y nigromancia.</p>",
       "rules": {
         "0": {
-          "prompt": "Is companion nimble or savage."
+          "prompt": "¿El compañero es ágil o salvaje?"
         }
       }
     },
     "Efecto: Zombie Mount Support Beneficio": {
-      "name": "Efecto: Zombie Mount Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.N9fYaUuIgD6RQ7CY]{Zombie Mount Support Beneficio}</p>\n<p>Each time tú Golpe while riding the zombie mount and hit a criatura in the zombie mount's reach, the criatura takes daño adicional from the zombie mount.</p>",
+      "name": "Efecto: Beneficio de apoyo de montura zombi",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.N9fYaUuIgD6RQ7CY]{Beneficio de apoyo de montura zombi}</p>\n<p>Tu montura zombi mastica a tus enemigos. Hasta el comienzo de tu siguiente turno, cada vez que haces un Golpe mientras montas la montura zombi e impactas a una criatura dentro del alcance de la montura zombi, la criatura recibe @Damage[1d4[bludgeoning]] de daño de la montura zombi. Si tu montura zombi es ágil o salvaje, el daño contundente aumenta a @Damage[2d4[bludgeoning]|shortLabel]. Este beneficio se basa en un caballo o camello zombi, pero podría infligir daño perforante si tu montura tiene dientes afilados.</p>",
       "rules": {
         "0": {
-          "prompt": "Is companion nimble or savage."
+          "prompt": "¿El compañero es ágil o salvaje?"
         }
       }
     },
     "Efecto: Zombie Support Beneficio": {
-      "name": "Efecto: Zombie Support Beneficio",
-      "description": "<p>Granted by @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.yAYlM3aIRYnqx6j8]{Zombie Support Beneficio}</p>\n<p>Each time tú hit a criatura that's within 10 pies of the zombie and tú deal daño, the criatura takes an daño adicional as the wound festers.</p>",
+      "name": "Efecto: Beneficio de apoyo de zombi",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.yAYlM3aIRYnqx6j8]{Beneficio de apoyo de zombi}</p>\n<p>El zombi emite un aura de podredumbre que hace que las heridas se infecten. Hasta el comienzo de tu siguiente turno, cada vez que impactas a una criatura que esté a 10 pies o menos del zombi e infliges daño, la criatura recibe @Damage[1d6[untyped]] de daño adicional mientras la herida se infecta. Si tu zombi es ágil o salvaje, el daño aumenta a @Damage[2d6[untyped]|shortLabel]. Esto es un efecto de enfermedad y nigromancia.</p>",
       "rules": {
         "0": {
-          "prompt": "Is companion nimble or savage."
+          "prompt": "¿El compañero es ágil o salvaje?"
         }
       }
     }
