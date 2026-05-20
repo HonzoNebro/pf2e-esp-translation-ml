@@ -21,23 +21,23 @@
         },
         "action->Searing Heat": {
           "name": "Searing Heat",
-          "description": "<p>A criatura that touches the accursed forge-spurned (including @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grappling} it or hitting it with an ataque sin armas) takes @Damage[4d6[fire]] daño (@Check[type:reflex|dc:33|basic:true] salvación).</p>"
+          "description": "<p>Una criatura que toque al maldito rechazado por la forja (incluido @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Apresarlo} o golpearlo con un ataque sin armas) sufre @Damage[4d6[fire]] de daño (@Check[type:reflex|dc:33|basic:true] salvacion).</p>"
         },
         "action->Forge Breath": {
           "name": "Forge Breath",
-          "description": "<p>The accursed forge-spurned breathes a cloud of stinging soot, ash, and glowing embers. Este can affect either a @Template[type:cone|distance:30] or a @Template[type:burst|distance:20] centered on the accursed forge-spurned and persists for [[/br 1d4 #rounds]]{1d4 asaltos}.</p>\n<p>Las criaturas that move into or start their turn in the area take @Damage[12d6[fire]] daño (@Check[type:reflex|dc:36|basic:true] salvación).</p>\n<p>A criatura that fails its save is also @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegado} for 1 minuto. Las criaturas within the cloud are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto}, though not from the accursed forge-spurned.</p>\n<p>The accursed forge-spurned can't use Forge Breath again until it has used Inflate Bellows.</p>"
+          "description": "<p>El maldito rechazado por la forja exhala una nube de hollin, ceniza y brasas ardientes que escuece. Puede afectar a un @Template[type:cone|distance:30] o a una @Template[type:burst|distance:20] centrada en el maldito rechazado por la forja, y persiste durante [[/br 1d4 #rounds]]{1d4 asaltos}.</p>\n<p>Las criaturas que se muevan dentro del area o comiencen su turno en ella sufren @Damage[12d6[fire]] de daño (@Check[type:reflex|dc:36|basic:true] salvacion).</p>\n<p>Una criatura que falla su salvacion tambien queda @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegada} durante 1 minuto. Las criaturas dentro de la nube estan @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Ocultas}, aunque no para el maldito rechazado por la forja.</p>\n<p>El maldito rechazado por la forja no puede volver a usar Aliento de forja hasta que haya usado Inflar fuelles.</p>"
         },
         "action->Inflate Bellows": {
           "name": "Inflate Bellows",
-          "description": "<p><strong>Requisitos</strong> The accursed forge-spurned has used Forge Breath.</p>\n<hr />\n<p><strong>Efecto</strong> The accursed forge-spurned re-inflates its flaccid lungs, enabling it to use Forge Breath again.</p>"
+          "description": "<p><strong>Requisitos</strong> El maldito rechazado por la forja ha usado Aliento de forja.</p>\n<hr />\n<p><strong>Efecto</strong> El maldito rechazado por la forja vuelve a inflar sus pulmones flacidos, lo que le permite usar Aliento de forja de nuevo.</p>"
         },
         "action->Soul Chain": {
           "name": "Cadena del alma",
-          "description": "<p>If a criatura is slain by an attack from the <em>soul chain</em> and the accursed forge-spurned is able to retain the criatura's corpse, it can bind the criatura's soul into the soul chain (as @UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg]{Seize Soul}) with a day of work at a forge and a @Check[type:crafting|dc:20|name:Soul Chain Bind] check.</p>\n<p>An individual whose soul is bound in this way can't be resurrected unless the soul chain is destroyed (Hardness 10, 40 HP, UR 20).</p>"
+          "description": "<p>Si una criatura muere por un ataque de la <em>cadena de almas</em> y el maldito rechazado por la forja puede conservar el cadaver de la criatura, puede vincular el alma de la criatura a la cadena de almas (como @UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg]{Apresar alma}) con un dia de trabajo en una forja y una prueba de @Check[type:crafting|dc:20|name:Soul Chain Bind].</p>\n<p>Un individuo cuya alma esta vinculada de este modo no puede ser resucitado a menos que la cadena de almas sea destruida (Dureza 10, 40 PG, UR 20).</p>"
         },
         "action->Soul Siphon": {
           "name": "Sifón de almas",
-          "description": "<p>When the accursed forge-spurned critically hits a target with its <em>soul chain</em>, the chain leeches away a portion of el objetivo's soul. El objetivo must attempt a @Check[type:fortitude|dc:36] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> El objetivo is unaffected.</p>\n<p><strong>Éxito</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1}.</p>\n<p><strong>Fallo</strong> El objetivo is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 2}.</p>\n<p><strong>Fallo crítico</strong> El objetivo is drained 2 and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 2} from the pain.</p>"
+          "description": "<p>Cuando el maldito rechazado por la forja impacta criticamente a un objetivo con su <em>cadena de almas</em>, la cadena drena una porcion del alma del objetivo. El objetivo debe intentar una salvacion de @Check[type:fortitude|dc:36].</p>\n<hr />\n<p><strong>Exito critico</strong> El objetivo no se ve afectado.</p>\n<p><strong>Exito</strong> El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1}.</p>\n<p><strong>Fallo</strong> El objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 2}.</p>\n<p><strong>Fallo critico</strong> El objetivo queda drenado 2 y @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 2} por el dolor.</p>"
         },
         "lore->Droskar Lore": {
           "name": "Saber de Droskar"
@@ -47,13 +47,13 @@
     "Acidic Needle Launcher": {
       "name": "Lanzador de agujas ácidas",
       "description": "<p>Un lanzador montado en el techo hace llover agujas resinosas sobre los intrusos, tras lo cual las agujas se funden en acido.</p>",
-      "disable": "<p>@Check[type:thievery|dc:36|name:Disable Firing Mechanism|traits:mechanical,trap,complex] to disable some firing mechanisms, making three adjacent squares in the trapped area safe to enter.</p>",
+      "disable": "<p>@Check[type:thievery|dc:36|name:Disable Firing Mechanism|traits:mechanical,trap,complex] para desactivar algunos mecanismos de disparo, haciendo que tres casillas adyacentes del area atrapada sean seguras para entrar.</p>",
       "routine": "<p>(3 acciones) El lanzador de agujas acidas dispara una aguja contra un objetivo aleatorio en el area indicada en el mapa.</p>",
       "stealth": "<p>(maestro)</p>",
       "items": {
         "action->Needle Rain": {
           "name": "Needle Rain",
-          "description": "<p><strong>Desencadenante</strong> A criatura moves into the area indicated on the map</p>\n<hr />\n<p><strong>Efecto</strong> La trampa shoots an acidic needle at a random target in the area indicated on the map, then rolls initiative.</p>"
+          "description": "<p><strong>Desencadenante</strong> Una criatura se mueve al area indicada en el mapa.</p>\n<hr />\n<p><strong>Efecto</strong> La trampa dispara una aguja acida contra un objetivo aleatorio en el area indicada en el mapa y luego tira iniciativa.</p>"
         },
         "strike-melee->Acidic Needle": {
           "name": "Acidic Needle"
@@ -74,19 +74,19 @@
         },
         "action->Teleportation Attachment": {
           "name": "Teleportation Attachment",
-          "description": "<p><strong>Desencadenante</strong> A criatura within 60 pies uses a teleportation effect</p>\n<hr />\n<p><strong>Efecto</strong> The aiudara wraith teleports with the criatura, arriving in an empty space of its choice adjacent to the triggering criatura's destination. If the triggering effect targets multiple criaturas, the aiudara wraith chooses which criatura it arrives beside.</p>"
+          "description": "<p><strong>Desencadenante</strong> Una criatura a 60 pies o menos usa un efecto de teleportacion.</p>\n<hr />\n<p><strong>Efecto</strong> El espectro aiudara se teleporta con la criatura y llega a un espacio vacio de su eleccion adyacente al destino de la criatura desencadenante. Si el efecto desencadenante tiene como objetivo a varias criaturas, el espectro aiudara elige junto a cual llega.</p>"
         },
         "action->Dimensional Shunt": {
           "name": "Dimensional Shunt",
-          "description": "<p>The aiudara wraith's touch displaces criaturas and flings them through space. The criatura must attempt a @Check[type:fortitude|dc:40] salvación.</p>\n<hr />\n<p><strong>Éxito crítico</strong> The criatura is unaffected and becomes temporarily immune to dimensional shunt for 1 minuto.</p>\n<p><strong>Éxito</strong> The criatura is pushed 5 pies in a random direction.</p>\n<p><strong>Fallo</strong> The criatura is teleported 20 pies in a direction of the aiudara wraith's choice.</p>\n<p><strong>Fallo crítico</strong> As failure, but the criatura is also @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 2}.</p>"
+          "description": "<p>El toque del espectro aiudara desplaza criaturas y las lanza a traves del espacio. La criatura debe intentar una salvacion de @Check[type:fortitude|dc:40].</p>\n<hr />\n<p><strong>Exito critico</strong> La criatura no se ve afectada y queda temporalmente inmune a Desvio dimensional durante 1 minuto.</p>\n<p><strong>Exito</strong> La criatura es empujada 5 pies en una direccion aleatoria.</p>\n<p><strong>Fallo</strong> La criatura es teleportada 20 pies en una direccion a eleccion del espectro aiudara.</p>\n<p><strong>Fallo critico</strong> Como fallo, pero la criatura tambien queda @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdida 2}.</p>"
         },
         "action->Drain Life": {
           "name": "Drenar La Vida",
-          "description": "<p>When an aiudara wraith damages a living criatura with its spectral hand Golpe, the aiudara wraith gains 18 Puntos de Golpe temporales and el objetivo must succeed at a @Check[type:fortitude|dc:40] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 1} as long as it is drained. Further daño dealt by the aiudara wraith's spectral hand Golpes increases the value of the drained and stupefied conditions by 1 each on a failed save, to a maximum of 10 for both.</p>"
+          "description": "<p>Cuando un espectro aiudara dana a una criatura viva con su Golpe de mano espectral, el espectro aiudara obtiene 18 Puntos de Golpe temporales y el objetivo debe tener exito en una salvacion de @Check[type:fortitude|dc:40] o queda @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} y @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Anonadado 1} mientras siga drenado. El daño adicional infligido por los Golpes de mano espectral del espectro aiudara aumenta en 1 el valor de las condiciones drenado y anonadado con cada salvacion fallida, hasta un maximo de 10 para ambas.</p>"
         },
         "action->Instantaneous Movement": {
           "name": "Instantaneous Movement",
-          "description": "<p>An aiudara wraith moves by means of localized teleportation. An aiudara wraith's Zancada does not have the move rasgo. When an aiudara wraith Strides, it reaches its destination within the range of its Velocidad immediately.</p>"
+          "description": "<p>Un espectro aiudara se mueve mediante teleportacion localizada. La Zancada de un espectro aiudara no tiene el rasgo movimiento. Cuando un espectro aiudara Zancajea, alcanza inmediatamente su destino dentro del alcance de su Velocidad.</p>"
         }
       }
     },
@@ -95,7 +95,7 @@
       "blurb": "Humano fighter 2",
       "items": {
         "armor->Full Plate": {
-          "description": "<p>Plate mail consists of interlocking plates that encase nearly the entire body in a carapace of steel. It is costly and heavy, and the wearer often requires help to don it correctly, but it provides some of the best defense armor can supply. A suit of this armor comes with an undercoat of padded armor and a pair of gauntlets.</p>"
+          "description": "<p>La armadura completa consiste en placas entrelazadas que encierran casi todo el cuerpo en una coraza de acero. Es costosa y pesada, y quien la lleva suele necesitar ayuda para ponersela correctamente, pero proporciona una de las mejores defensas que puede ofrecer una armadura. Un conjunto de esta armadura incluye un jubon acolchado y un par de guanteletes.</p>"
         },
         "strike-melee->Greatsword": {
           "name": "Mandoble"
@@ -105,11 +105,11 @@
         },
         "action->Intimidating Strike": {
           "name": "Intimidating Golpe",
-          "description": "<p>Alak's blow not only wounds criaturas but also shatters their confidence. He makes a melee Golpe. If he hits and deals daño, el objetivo is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}, or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} on a impacto crítico.</p>"
+          "description": "<p>El golpe de Alak no solo hiere a las criaturas, sino que tambien destroza su confianza. Realiza un Golpe cuerpo a cuerpo. Si impacta e inflige daño, el objetivo queda @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 1}, o @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Asustado 2} con un impacto critico.</p>"
         },
         "action->Power Attack": {
           "name": "Ataque Poderoso",
-          "description": "<p>Alak unleashes a particularly powerful attack that clobbers his foe but leaves him a bit unsteady. He makes a melee Golpe. Este counts as two attacks when calculating his multiple attack penalizador. If this Golpe hits, he deals an extra die of daño del arma.</p>"
+          "description": "<p>Alak desata un ataque especialmente poderoso que aporrea a su enemigo pero lo deja algo inestable. Realiza un Golpe cuerpo a cuerpo. Esto cuenta como dos ataques al calcular su penalizador por ataques multiples. Si este Golpe impacta, inflige un dado adicional de daño del arma.</p>"
         }
       }
     },
@@ -122,15 +122,15 @@
         },
         "action->Aluum Antimagic": {
           "name": "Aluum Antimagic",
-          "description": "<p>Aluum enforcers are immune to conjuros and magical abilities, with two exceptions. A void conjuro or magical ability grants an aluum enforcer the @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Acelerado} condition until the end of its next turn instead of its normal effects. A vitality conjuro or ability makes an aluum enforcer @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} until the end of its next turn instead of its normal effects.</p>"
+          "description": "<p>Los ejecutores aluum son inmunes a los conjuros y aptitudes magicas, con dos excepciones. Un conjuro o aptitud magica de vacio concede a un ejecutor aluum la condicion @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Acelerado} hasta el final de su siguiente turno en lugar de sus efectos normales. Un conjuro o aptitud de vitalidad vuelve a un ejecutor aluum @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} hasta el final de su siguiente turno en lugar de sus efectos normales.</p>"
         },
         "action->Paralyzing Force": {
           "name": "Paralyzing Force",
-          "description": "<p>A criatura damaged by the aluum enforcer's fist Golpe must succeed at a @Check[type:fortitude|dc:27] salvación or become @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado} for 1 asalto. On a critical failure, the criatura is paralyzed for [[/br 1d4 #minutes]]{1d4 minutes} and falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbado}.</p>"
+          "description": "<p>Una criatura danada por el Golpe de puno del ejecutor aluum debe tener exito en una salvacion de @Check[type:fortitude|dc:27] o queda @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizada} durante 1 asalto. Con un fallo critico, la criatura queda paralizada durante [[/br 1d4 #minutes]]{1d4 minutos} y cae @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Tumbada}.</p>"
         },
         "action->Soul Shriek": {
           "name": "Soul Shriek",
-          "description": "<p>The aluum enforcer emits a keening wail in a @Template[type:cone|distance:15] that deals @Damage[9d6[sonic]] daño (@Check[type:fortitude|dc:27|basic:true] salvación). A criatura that fails its save is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 1}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdido 3} on a critical failure.</p>\n<p>The aluum can't use Soul Shriek again for [[/br 1d4 #Recharge Soul Shriek]]{1d4 asaltos}.</p>"
+          "description": "<p>El ejecutor aluum emite un chillido agudo en un @Template[type:cone|distance:15] que inflige @Damage[9d6[sonic]] de daño (@Check[type:fortitude|dc:27|basic:true] salvacion). Una criatura que falla su salvacion queda @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdida 1}, o @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Aturdida 3} con un fallo critico.</p>\n<p>El aluum no puede volver a usar Chillido de almas durante [[/br 1d4 #Recharge Soul Shriek]]{1d4 asaltos}.</p>"
         }
       }
     },
@@ -142,11 +142,11 @@
         },
         "action->Vulnerable to Dispelling": {
           "name": "Vulnerable to Dispelling",
-          "description": "<p>The animated dragonstorm can be targeted by @UUID[Compendium.pf2e.spells-srd.Item.ihbRf964JDXztcy3]{Disjunction} and @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic}. If targeted by such a conjuro of 9th rank or higher, the construct loses its resistance to acid, cold, electricity, fire, and daño físico and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for [[/gmr 1d4 #rounds]]{1d4 asaltos}.</p>"
+          "description": "<p>La tormenta draconica animada puede ser objetivo de @UUID[Compendium.pf2e.spells-srd.Item.ihbRf964JDXztcy3]{Disyuncion} y @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Disipar magia}. Si es objetivo de un conjuro de este tipo de rango 9 o superior, el constructo pierde su resistencia al acido, frio, electricidad, fuego y daño fisico, y queda @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lentificado 1} durante [[/gmr 1d4 #rounds]]{1d4 asaltos}.</p>"
         },
         "action->Channel Dragonstorm": {
           "name": "Channel Dragonstorm",
-          "description": "<p>The animated dragonstorm directs a @Template[type:cone|distance:30] of dragonstorm energy. Este deals @Damage[3d8[acid],3d8[cold],3d8[electricity],3d8[fire],3d8[poison]]{3d8 acid, 3d8 cold, 3d8 electricity, 3d8 fire, and 3d8 daño de veneno} to criaturas in the cone (@Check[type:reflex|dc:40|basic:true] salvación). The animated dragonstorm can't use Channel Dragonstorm again for [[/br 1d4 #Recharge Channel Dragonstorm]]{1d4 asaltos}.</p>"
+          "description": "<p>La tormenta draconica animada dirige un @Template[type:cone|distance:30] de energia de tormenta draconica. Esto inflige @Damage[3d8[acid],3d8[cold],3d8[electricity],3d8[fire],3d8[poison]]{3d8 de acido, 3d8 de frio, 3d8 de electricidad, 3d8 de fuego y 3d8 de daño de veneno} a las criaturas en el cono (@Check[type:reflex|dc:40|basic:true] salvacion). La tormenta draconica animada no puede volver a usar Canalizar tormenta draconica durante [[/br 1d4 #Recharge Channel Dragonstorm]]{1d4 asaltos}.</p>"
         },
         "action->Destructive Strikes": {
           "name": "Destructive Golpes",
@@ -154,7 +154,7 @@
         },
         "action->Dragonstorm Strike": {
           "name": "Dragonstorm Golpe",
-          "description": "<p>On a impacto crítico, the animated dragonstorm's fist bursts with dragonstorm energy. El objetivo takes 1d6 acid, 1d6 cold, 1d6 electricity, 1d6 fire, and 1d6 daño de veneno.</p>"
+          "description": "<p>Con un impacto critico, el puno de la tormenta draconica animada estalla con energia de tormenta draconica. El objetivo sufre 1d6 de acido, 1d6 de frio, 1d6 de electricidad, 1d6 de fuego y 1d6 de daño de veneno.</p>"
         }
       }
     },
